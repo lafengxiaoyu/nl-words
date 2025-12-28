@@ -1,0 +1,295 @@
+[
+  {
+    "id": 1,
+    "word": "hallo",
+    "translation": {
+      "chinese": "你好",
+      "english": "hello"
+    },
+    "partOfSpeech": "interjection",
+    "examples": [
+      "Hallo, hoe gaat het?",
+      "Hallo, ik ben Jan."
+    ],
+    "exampleTranslations": [
+      "你好，最近怎么样？",
+      "你好，我是Jan。"
+    ],
+    "notes": "非正式问候语，正式场合用goedemorgen/goedemiddag/goedenavond",
+    "familiarity": "mastered",
+    "mastered": true,
+    "difficulty": "A1"
+  },
+  {
+    "id": 2,
+    "word": "dank je",
+    "translation": {
+      "chinese": "谢谢",
+      "english": "thank you"
+    },
+    "partOfSpeech": "other",
+    "examples": [
+      "Dank je wel voor je hulp.",
+      "Dank je, dat is erg aardig."
+    ],
+    "exampleTranslations": [
+      "谢谢你的帮助。",
+      "谢谢，你真好。"
+    ],
+    "notes": "非正式，正式用dank u",
+    "familiarity": "mastered",
+    "mastered": true,
+    "difficulty": "A1"
+  },
+  {
+    "id": 3,
+    "word": "huis",
+    "translation": {
+      "chinese": "房子",
+      "english": "house"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "huis",
+        "plural": "huizen"
+      }
+    },
+    "examples": [
+      "Het huis is groot.",
+      "Ik woon in een mooi huis."
+    ],
+    "exampleTranslations": [
+      "这所房子很大。",
+      "我住在一所漂亮的房子里。"
+    ],
+    "notes": "中性名词，复数形式是huizen",
+    "familiarity": "familiar",
+    "mastered": false,
+    "difficulty": "A1"
+  },
+  {
+    "id": 4,
+    "word": "auto",
+    "translation": {
+      "chinese": "汽车",
+      "english": "car"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "auto",
+        "plural": "auto's"
+      }
+    },
+    "examples": [
+      "De auto staat voor het huis.",
+      "Ik heb een nieuwe auto gekocht."
+    ],
+    "exampleTranslations": [
+      "汽车停在房子前面。",
+      "我买了一辆新车。"
+    ],
+    "notes": "阳性/阴性名词，复数加's",
+    "familiarity": "familiar",
+    "mastered": false,
+    "difficulty": "A1"
+  },
+  {
+    "id": 5,
+    "word": "eten",
+    "translation": {
+      "chinese": "吃",
+      "english": "to eat"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "eten",
+        "present": {
+          "ik": "eet",
+          "jij": "eet",
+          "hij": "eet",
+          "wij": "eten",
+          "jullie": "eten",
+          "zij": "eten"
+        },
+        "past": {
+          "singular": "at",
+          "plural": "aten"
+        },
+        "pastParticiple": "gegeten"
+      }
+    },
+    "examples": [
+      "Ik eet een appel.",
+      "Wij eten om zes uur."
+    ],
+    "exampleTranslations": [
+      "我吃一个苹果。",
+      "我们六点吃饭。"
+    ],
+    "notes": "不规则动词，过去式是at/aten",
+    "familiarity": "learning",
+    "mastered": false,
+    "difficulty": "A2"
+  },
+  {
+    "id": 6,
+    "word": "goed",
+    "translation": {
+      "chinese": "好的",
+      "english": "good"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "goed",
+        "withDe": "goede",
+        "withHet": "goed",
+        "comparative": "beter",
+        "superlative": "best"
+      }
+    },
+    "examples": [
+      "Het is goed weer vandaag.",
+      "Dit is een goede vraag."
+    ],
+    "exampleTranslations": [
+      "今天天气很好。",
+      "这是一个好问题。"
+    ],
+    "notes": "不规则形容词，比较级和最高级是beter/best",
+    "familiarity": "learning",
+    "mastered": false,
+    "difficulty": "A2"
+  },
+  {
+    "id": 7,
+    "word": "water",
+    "translation": {
+      "chinese": "水",
+      "english": "water"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "water",
+        "plural": "wateren"
+      }
+    },
+    "examples": [
+      "Ik drink water.",
+      "Het water is koud."
+    ],
+    "exampleTranslations": [
+      "我喝水。",
+      "水是冷的。"
+    ],
+    "notes": "中性名词，复数形式较少使用",
+    "familiarity": "familiar",
+    "mastered": false,
+    "difficulty": "A1"
+  },
+  {
+    "id": 8,
+    "word": "boek",
+    "translation": {
+      "chinese": "书",
+      "english": "book"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "boek",
+        "plural": "boeken"
+      }
+    },
+    "examples": [
+      "Ik lees een boek.",
+      "Het boek is interessant."
+    ],
+    "exampleTranslations": [
+      "我在读一本书。",
+      "这本书很有趣。"
+    ],
+    "notes": "中性名词，复数形式是boeken",
+    "familiarity": "new",
+    "mastered": false,
+    "difficulty": "A1"
+  },
+  {
+    "id": 9,
+    "word": "zijn",
+    "translation": {
+      "chinese": "是",
+      "english": "to be"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "zijn",
+        "present": {
+          "ik": "ben",
+          "jij": "bent",
+          "hij": "is",
+          "wij": "zijn",
+          "jullie": "zijn",
+          "zij": "zijn"
+        },
+        "past": {
+          "singular": "was",
+          "plural": "waren"
+        },
+        "pastParticiple": "geweest"
+      }
+    },
+    "examples": [
+      "Ik ben student.",
+      "Hij is Nederlands."
+    ],
+    "exampleTranslations": [
+      "我是学生。",
+      "他是荷兰人。"
+    ],
+    "notes": "不规则动词，是最常用的动词之一",
+    "familiarity": "learning",
+    "mastered": false,
+    "difficulty": "A1"
+  },
+  {
+    "id": 10,
+    "word": "mooi",
+    "translation": {
+      "chinese": "美丽的",
+      "english": "beautiful"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "mooi",
+        "withDe": "mooie",
+        "withHet": "mooi",
+        "comparative": "mooier",
+        "superlative": "mooist"
+      }
+    },
+    "examples": [
+      "Het is een mooi huis.",
+      "De bloemen zijn mooi."
+    ],
+    "exampleTranslations": [
+      "这是一所漂亮的房子。",
+      "这些花很漂亮。"
+    ],
+    "notes": "规则形容词，比较级加-er，最高级加-st",
+    "familiarity": "new",
+    "mastered": false,
+    "difficulty": "A1"
+  }
+]
+
