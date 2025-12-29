@@ -44,7 +44,7 @@ function MainApp() {
   useEffect(() => {
     const path = location.pathname.toLowerCase()
     // 移除 basename 部分（如 /nl-words）
-    const cleanPath = path.replace(/^\/[^\/]+/, '') || path
+    const cleanPath = path.replace(/^\/[^/]+/, '') || path
     if (cleanPath.startsWith('/en') || path.includes('/en')) {
       setLanguageMode('english')
     } else if (cleanPath.startsWith('/zh') || path.includes('/zh')) {
