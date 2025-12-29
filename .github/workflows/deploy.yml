@@ -37,6 +37,10 @@ jobs:
         working-directory: ./web
         run: npm ci
 
+      - name: List files before build
+        working-directory: ./web
+        run: ls -la
+
       - name: Build
         working-directory: ./web
         run: npm run build
@@ -44,6 +48,14 @@ jobs:
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL || '' }}
           VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY || '' }}
           VITE_BASE_PATH: ${{ github.event.repository.name }}
+
+      - name: Check build output
+        working-directory: ./web
+        run: |
+          echo "Checking dist directory:"
+          ls -la dist/ || echo "dist directory not found"
+          echo "Current directory:"
+          pwd
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
