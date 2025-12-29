@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import './App.css'
 import { words } from './data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from './data/words'
@@ -6,8 +6,18 @@ import { supabase } from './lib/supabase'
 import { loadUserProgress, saveUserProgress, saveAllUserProgress, mergeProgress } from './lib/progressSync'
 import Auth from './components/Auth'
 
+// Supabase user type
+interface SupabaseUser {
+  id: string
+  email?: string
+}
+
+interface SupabaseSession {
+  user: SupabaseUser | null
+}
+
 function App() {
-  const [user, setUser] = useState<any>(null)
+  const [user, setUser] = useState<SupabaseUser | null>(null)
   const [isLoading, setIsLoading] = useState(true)
   const [showAuth, setShowAuth] = useState(false)
   const [wordList, setWordList] = useState<Word[]>(words)
@@ -18,6 +28,42 @@ function App() {
   const [showDetails, setShowDetails] = useState(false)
   const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
   const [syncStatus, setSyncStatus] = useState<'idle' | 'syncing' | 'success' | 'error'>('idle')
+
+  // 从 localStorage 加载进度
+  const loadProgressFromLocalStorage = useCallback(() => {
+    const savedWords = localStorage.getItem('nl-words')
+    if (savedWords) {
+      try {
+        const parsed = JSON.parse(savedWords)
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          setWordList(parsed)
+          setFilteredWordList(parsed)
+        }
+      } catch (e) {
+        console.error('Failed to load saved words', e)
+      }
+    }
+  }, [])
+
+  // 从 Supabase 加载进度
+  const loadProgressFromSupabase = useCallback(async (userId: string) => {
+    try {
+      setSyncStatus('syncing')
+      const progressMap = await loadUserProgress(userId)
+      const mergedWords = mergeProgress(words, progressMap)
+      setWordList(mergedWords)
+      setFilteredWordList(mergedWords)
+      // 同时保存到 localStorage 作为备份
+      localStorage.setItem('nl-words', JSON.stringify(mergedWords))
+      setSyncStatus('success')
+      setTimeout(() => setSyncStatus('idle'), 2000)
+    } catch (error) {
+      console.error('从 Supabase 加载进度失败:', error)
+      setSyncStatus('error')
+      // 如果加载失败，尝试从 localStorage 加载
+      loadProgressFromLocalStorage()
+    }
+  }, [loadProgressFromLocalStorage])
 
   // 检查用户登录状态
   useEffect(() => {
@@ -53,7 +99,7 @@ function App() {
 
     // 监听认证状态变化
     try {
-      const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event: string, session: any) => {
+      const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event: string, session: SupabaseSession) => {
         setUser(session?.user ?? null)
         if (session?.user) {
           try {
@@ -73,43 +119,7 @@ function App() {
     } catch (error) {
       console.error('设置认证监听失败:', error)
     }
-  }, [])
-
-  // 从 Supabase 加载进度
-  const loadProgressFromSupabase = async (userId: string) => {
-    try {
-      setSyncStatus('syncing')
-      const progressMap = await loadUserProgress(userId)
-      const mergedWords = mergeProgress(words, progressMap)
-      setWordList(mergedWords)
-      setFilteredWordList(mergedWords)
-      // 同时保存到 localStorage 作为备份
-      localStorage.setItem('nl-words', JSON.stringify(mergedWords))
-      setSyncStatus('success')
-      setTimeout(() => setSyncStatus('idle'), 2000)
-    } catch (error) {
-      console.error('从 Supabase 加载进度失败:', error)
-      setSyncStatus('error')
-      // 如果加载失败，尝试从 localStorage 加载
-      loadProgressFromLocalStorage()
-    }
-  }
-
-  // 从 localStorage 加载进度
-  const loadProgressFromLocalStorage = () => {
-    const savedWords = localStorage.getItem('nl-words')
-    if (savedWords) {
-      try {
-        const parsed = JSON.parse(savedWords)
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setWordList(parsed)
-          setFilteredWordList(parsed)
-        }
-      } catch (e) {
-        console.error('Failed to load saved words', e)
-      }
-    }
-  }
+  }, [loadProgressFromSupabase, loadProgressFromLocalStorage])
 
   // 保存进度到 Supabase（如果已登录）
   const saveProgressToSupabase = async (word: Word) => {
@@ -140,400 +150,424 @@ function App() {
     }
   }
 
+  // 计算筛选后的单词列表
+  const calculateFilteredWordList = useCallback(() => {
+    if (selectedDifficulty === 'all') {
+      return wordList
+    } else {
+      return wordList.filter(w => w.difficulty === selectedDifficulty)
+    }
+  }, [wordList, selectedDifficulty])
+
   // 根据难度筛选单词
   useEffect(() => {
-    if (selectedDifficulty === 'all') {
-      setFilteredWordList(wordList)
-    } else {
-      setFilteredWordList(wordList.filter(w => w.difficulty === selectedDifficulty))
-    }
-    setCurrentIndex(0)
-    setIsFlipped(false)
-  }, [selectedDifficulty, wordList])
+    setFilteredWordList(calculateFilteredWordList())
+  }, [calculateFilteredWordList])
 
-  // 保存到 localStorage（无论是否登录都保存作为备份）
-  useEffect(() => {
-    localStorage.setItem('nl-words', JSON.stringify(wordList))
-  }, [wordList])
+  // 计算学习进度
+  const masteredCount = wordList.filter(w => w.mastered).length
+  const totalCount = wordList.length
+  const progressPercentage = totalCount > 0 ? Math.round((masteredCount / totalCount) * 100) : 0
 
-  const currentWord = filteredWordList[currentIndex]
-  const masteredCount = filteredWordList.filter(w => w.mastered || w.familiarity === 'mastered').length
-  const totalCount = filteredWordList.length
-  const progress = totalCount > 0 ? Math.round((masteredCount / totalCount) * 100) : 0
 
-  // 如果正在加载，显示加载状态
-  if (isLoading) {
-    return (
-      <div className="app">
-        <div style={{ color: 'white', textAlign: 'center', padding: '50px' }}>
-          <h2>加载中...</h2>
-        </div>
-      </div>
+
+  // 切换当前单词的掌握状态
+  const toggleMastered = async () => {
+    const currentWord = filteredWordList[currentIndex]
+    const updatedWords = wordList.map(word =>
+      word.id === currentWord.id
+        ? { ...word, mastered: !word.mastered, familiarity: word.mastered ? 'learning' as FamiliarityLevel : 'mastered' as FamiliarityLevel }
+        : word
     )
+    
+    setWordList(updatedWords)
+    localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+    
+    // 保存到 Supabase
+    await saveProgressToSupabase(updatedWords.find(w => w.id === currentWord.id)!)
   }
 
-  // 如果显示登录界面
-  if (showAuth && !user) {
-    return <Auth onAuthSuccess={() => setShowAuth(false)} />
-  }
-
-  // 如果没有单词，显示提示
-  if (!currentWord || filteredWordList.length === 0) {
-    return (
-      <div className="app">
-        <div style={{ color: 'white', textAlign: 'center', padding: '50px' }}>
-          <h2>没有找到单词</h2>
-          <p>请检查单词数据文件</p>
-        </div>
-      </div>
+  // 设置单词熟悉程度
+  const setWordFamiliarity = async (wordId: number, familiarity: FamiliarityLevel) => {
+    const updatedWords = wordList.map(word =>
+      word.id === wordId
+        ? { ...word, familiarity, mastered: familiarity === 'mastered' }
+        : word
     )
-  }
-
-  const handleFlip = () => {
-    setIsFlipped(!isFlipped)
-  }
-
-  const handleNext = () => {
-    setIsFlipped(false)
-    setShowDetails(false)
-    setCurrentIndex((prev) => (prev + 1) % filteredWordList.length)
-  }
-
-  const handlePrev = () => {
-    setIsFlipped(false)
-    setShowDetails(false)
-    setCurrentIndex((prev) => (prev - 1 + filteredWordList.length) % filteredWordList.length)
-  }
-
-  const handleMastered = async () => {
-    const updatedWord = {
-      ...currentWord,
-      mastered: !currentWord.mastered,
-      familiarity: (!currentWord.mastered ? 'mastered' : 'learning') as FamiliarityLevel
-    }
     
-    setWordList(prev => prev.map((word, idx) => 
-      idx === currentIndex ? updatedWord : word
-    ))
+    setWordList(updatedWords)
+    localStorage.setItem('nl-words', JSON.stringify(updatedWords))
     
-    // 同步到 Supabase
-    await saveProgressToSupabase(updatedWord)
+    // 保存到 Supabase
+    await saveProgressToSupabase(updatedWords.find(w => w.id === wordId)!)
   }
 
-  const handleFamiliarityChange = async (level: FamiliarityLevel) => {
-    const updatedWord = {
-      ...currentWord,
-      familiarity: level,
-      mastered: level === 'mastered'
-    }
-    
-    setWordList(prev => prev.map((word, idx) => 
-      idx === currentIndex ? updatedWord : word
-    ))
-    
-    // 同步到 Supabase
-    await saveProgressToSupabase(updatedWord)
-  }
-
-  const handleReset = async () => {
-    if (confirm('确定要重置所有进度吗？')) {
-      const resetWords = words.map(w => ({ ...w, mastered: false, familiarity: 'new' as FamiliarityLevel }))
-      setWordList(resetWords)
-      setCurrentIndex(0)
-      setIsFlipped(false)
-      
-      // 如果已登录，同步到 Supabase
-      if (user) {
-        await saveAllUserProgress(user.id, resetWords)
-      }
-    }
-  }
-
-  const handleShuffle = () => {
+  // 随机排序单词
+  const shuffleWords = () => {
     const shuffled = [...wordList].sort(() => Math.random() - 0.5)
     setWordList(shuffled)
     setCurrentIndex(0)
     setIsFlipped(false)
   }
 
-  const handleLogout = async () => {
-    await supabase.auth.signOut()
+  // 重置进度
+  const resetProgress = async () => {
+    if (window.confirm('确定要重置所有学习进度吗？此操作不可撤销。')) {
+      const resetWords = wordList.map(word => ({
+        ...word,
+        mastered: false,
+        familiarity: 'new' as FamiliarityLevel
+      }))
+      
+      setWordList(resetWords)
+      localStorage.setItem('nl-words', JSON.stringify(resetWords))
+      
+      // 批量保存到 Supabase
+      await saveAllProgressToSupabase()
+    }
+  }
+
+  // 导航函数
+  const goToNext = () => {
+    setCurrentIndex((prev) => (prev + 1) % filteredWordList.length)
+    setIsFlipped(false)
+  }
+
+  const goToPrevious = () => {
+    setCurrentIndex((prev) => (prev - 1 + filteredWordList.length) % filteredWordList.length)
+    setIsFlipped(false)
+  }
+
+  const currentWord = filteredWordList[currentIndex]
+
+  // 处理认证成功
+  const handleAuthSuccess = () => {
     setShowAuth(false)
   }
 
-  const handleSync = async () => {
-    if (user) {
-      await saveAllProgressToSupabase()
-    } else {
-      setShowAuth(true)
-    }
+  if (isLoading) {
+    return (
+      <div className="app">
+        <div className="loading">
+          <h2>🇳🇱 荷兰语单词学习</h2>
+          <p>正在加载...</p>
+        </div>
+      </div>
+    )
   }
 
-  const getPartOfSpeechLabel = (pos: string) => {
-    const labels: Record<string, string> = {
-      noun: '名词',
-      verb: '动词',
-      adjective: '形容词',
-      adverb: '副词',
-      pronoun: '代词',
-      preposition: '介词',
-      conjunction: '连词',
-      interjection: '感叹词',
-      other: '其他'
-    }
-    return labels[pos] || pos
-  }
-
-  const getFamiliarityLabel = (level: FamiliarityLevel) => {
-    const labels: Record<FamiliarityLevel, string> = {
-      new: '新词',
-      learning: '学习中',
-      familiar: '熟悉',
-      mastered: '已掌握'
-    }
-    return labels[level]
-  }
-
-  const getSyncStatusText = () => {
-    switch (syncStatus) {
-      case 'syncing': return '🔄 同步中...'
-      case 'success': return '✅ 已同步'
-      case 'error': return '❌ 同步失败'
-      default: return null
-    }
+  if (showAuth) {
+    return <Auth onAuthSuccess={handleAuthSuccess} />
   }
 
   return (
     <div className="app">
       <header className="header">
-        <div className="header-top">
-          <h1>🇳🇱 荷兰语单词学习</h1>
-          <div className="user-info">
-            {user ? (
-              <>
-                <span className="user-email">{user.email}</span>
-                {getSyncStatusText() && <span className="sync-status">{getSyncStatusText()}</span>}
-                <button className="btn btn-small btn-outline" onClick={handleSync}>
-                  {syncStatus === 'syncing' ? '同步中...' : '同步进度'}
-                </button>
-                <button className="btn btn-small btn-outline" onClick={handleLogout}>
-                  登出
-                </button>
-              </>
-            ) : (
-              <>
-                <span className="guest-notice">游客模式</span>
-                <button className="btn btn-small btn-primary" onClick={() => setShowAuth(true)}>
-                  登录/注册
-                </button>
-              </>
-            )}
+        <h1>🇳🇱 荷兰语单词学习</h1>
+        
+        <div className="progress-bar">
+          <div 
+            className="progress-fill" 
+            style={{ width: `${progressPercentage}%` }}
+          ></div>
+        </div>
+        
+        <div className="stats">
+          {masteredCount} / {totalCount} 已掌握 ({progressPercentage}%)
+        </div>
+
+        {/* 同步状态指示器 */}
+        {syncStatus !== 'idle' && (
+          <div className={`sync-status sync-status--${syncStatus}`}>
+            {syncStatus === 'syncing' && '🔄 同步中...'}
+            {syncStatus === 'success' && '✅ 同步成功'}
+            {syncStatus === 'error' && '❌ 同步失败'}
           </div>
+        )}
+
+        {/* 用户信息 */}
+        <div className="user-info">
+          {user ? (
+            <span>👤 {user.email}</span>
+          ) : (
+            <button 
+              className="btn btn-outline"
+              onClick={() => setShowAuth(true)}
+            >
+              登录
+            </button>
+          )}
         </div>
       </header>
 
       <main className="main">
-        <div className="difficulty-filter">
-          <span className="filter-label">难度筛选：</span>
+        {/* 难度筛选 */}
+        <div className="difficulty-filters">
           <button
-            className={`btn btn-small ${selectedDifficulty === 'all' ? 'btn-active' : 'btn-outline'}`}
+            className={`btn ${selectedDifficulty === 'all' ? 'btn-primary' : 'btn-outline'}`}
             onClick={() => setSelectedDifficulty('all')}
           >
             全部
           </button>
-          {(['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as DifficultyLevel[]).map(level => (
-            <button
-              key={level}
-              className={`btn btn-small ${selectedDifficulty === level ? 'btn-active' : 'btn-outline'}`}
-              onClick={() => setSelectedDifficulty(level)}
-            >
-              {level}
-            </button>
-          ))}
-          <span className="filter-count">({filteredWordList.length} 个单词)</span>
-        </div>
-
-        <div className="card-container">
-          <div 
-            className={`word-card ${isFlipped ? 'flipped' : ''}`}
-            onClick={handleFlip}
+          <button
+            className={`btn ${selectedDifficulty === 'A1' || selectedDifficulty === 'A2' ? 'btn-primary' : 'btn-outline'}`}
+            onClick={() => setSelectedDifficulty('A1')}
           >
-            <div className="card-front">
-              <div className="card-label">荷兰语</div>
-              <div className="word-text">{currentWord.word}</div>
-              <div className="card-meta">
-                <span className="part-of-speech">{getPartOfSpeechLabel(currentWord.partOfSpeech)}</span>
-                {currentWord.forms?.noun && (
-                  <span className="article">{currentWord.forms.noun.article}</span>
-                )}
-                <span className={`difficulty-badge difficulty-${currentWord.difficulty.toLowerCase()}`}>
-                  {currentWord.difficulty}
-                </span>
-              </div>
-              <div className="card-hint">点击翻转</div>
-            </div>
-            <div className="card-back">
-              <div className="card-label">翻译</div>
-              <div className="word-text">{currentWord.translation.chinese}</div>
-              <div className="word-text-en">{currentWord.translation.english}</div>
-              <div className="card-hint">点击翻转</div>
-            </div>
-          </div>
-        </div>
-
-        <div className="word-details-toggle">
-          <button 
-            className="btn btn-outline" 
-            onClick={() => setShowDetails(!showDetails)}
+            A1-A2
+          </button>
+          <button
+            className={`btn ${selectedDifficulty === 'B1' || selectedDifficulty === 'B2' ? 'btn-primary' : 'btn-outline'}`}
+            onClick={() => setSelectedDifficulty('B1')}
           >
-            {showDetails ? '▼ 隐藏详情' : '▶ 显示详情'}
+            B1-B2
+          </button>
+          <button
+            className={`btn ${selectedDifficulty === 'C1' || selectedDifficulty === 'C2' ? 'btn-primary' : 'btn-outline'}`}
+            onClick={() => setSelectedDifficulty('C1')}
+          >
+            C1-C2
           </button>
         </div>
 
-        {showDetails && (
-          <div className="word-details">
-            <div className="detail-section">
-              <h3>词性信息</h3>
-              <div className="detail-content">
-                <p><strong>词性：</strong>{getPartOfSpeechLabel(currentWord.partOfSpeech)}</p>
-                
-                {currentWord.forms?.noun && (
-                  <div className="noun-forms">
-                    <p><strong>定冠词：</strong>{currentWord.forms.noun.article}</p>
-                    <p><strong>单数：</strong>{currentWord.forms.noun.singular}</p>
-                    <p><strong>复数：</strong>{currentWord.forms.noun.plural}</p>
-                  </div>
+        {/* 单词卡片 */}
+        {currentWord && (
+          <div className="word-card-container">
+            <div 
+              className={`word-card ${isFlipped ? 'flipped' : ''}`}
+              onClick={() => setIsFlipped(!isFlipped)}
+            >
+              <div className="card-front">
+                <div className="word-dutch">{currentWord.dutch}</div>
+                {currentWord.wordType && (
+                  <div className="word-type">{currentWord.wordType}</div>
                 )}
-
-                {currentWord.forms?.verb && (
-                  <div className="verb-forms">
-                    <p><strong>不定式：</strong>{currentWord.forms.verb.infinitive}</p>
-                    <div className="verb-conjugation">
-                      <p><strong>现在时：</strong></p>
-                      <ul>
-                        <li>ik: {currentWord.forms.verb.present.ik}</li>
-                        <li>jij: {currentWord.forms.verb.present.jij}</li>
-                        <li>hij: {currentWord.forms.verb.present.hij}</li>
-                        <li>wij: {currentWord.forms.verb.present.wij}</li>
-                        <li>jullie: {currentWord.forms.verb.present.jullie}</li>
-                        <li>zij: {currentWord.forms.verb.present.zij}</li>
-                      </ul>
-                      <p><strong>过去时：</strong>{currentWord.forms.verb.past.singular} / {currentWord.forms.verb.past.plural}</p>
-                      <p><strong>过去分词：</strong>{currentWord.forms.verb.pastParticiple}</p>
-                    </div>
-                  </div>
-                )}
-
-                {currentWord.forms?.adjective && (
-                  <div className="adjective-forms">
-                    <p><strong>原形：</strong>{currentWord.forms.adjective.base}</p>
-                    <p><strong>与de连用：</strong>{currentWord.forms.adjective.withDe}</p>
-                    <p><strong>与het连用：</strong>{currentWord.forms.adjective.withHet}</p>
-                    <p><strong>比较级：</strong>{currentWord.forms.adjective.comparative}</p>
-                    <p><strong>最高级：</strong>{currentWord.forms.adjective.superlative}</p>
+              </div>
+              <div className="card-back">
+                <div className="word-chinese">{currentWord.chinese}</div>
+                {currentWord.example && (
+                  <div className="word-example">
+                    <div className="example-nl">{currentWord.example.dutch}</div>
+                    <div className="example-zh">{currentWord.example.chinese}</div>
                   </div>
                 )}
               </div>
             </div>
+            
+            {/* 单词信息 */}
+            <div className="word-info">
+              <span className={`difficulty-badge difficulty--${currentWord.difficulty}`}>
+                {currentWord.difficulty}
+              </span>
+              
+              <span className={`familiarity-badge familiarity--${currentWord.familiarity}`}>
+                {currentWord.familiarity === 'new' && '🆕 新词'}
+                {currentWord.familiarity === 'learning' && '📖 学习中'}
+                {currentWord.familiarity === 'familiar' && '😊 熟悉'}
+                {currentWord.familiarity === 'mastered' && '✅ 已掌握'}
+              </span>
 
-            {currentWord.examples && currentWord.examples.length > 0 && (
-              <div className="detail-section">
-                <h3>例句</h3>
-                <div className="detail-content">
-                  {currentWord.examples.map((example, idx) => (
-                    <div key={idx} className="example-item">
-                      <p className="example-nl">{example}</p>
-                      {currentWord.exampleTranslations && currentWord.exampleTranslations[idx] && (
-                        <p className="example-cn">{currentWord.exampleTranslations[idx]}</p>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
+              {currentWord.mastered && (
+                <span className="mastered-badge">✅ 已掌握</span>
+              )}
+            </div>
 
-            {currentWord.notes && (
-              <div className="detail-section">
-                <h3>备注</h3>
-                <div className="detail-content">
-                  <p>{currentWord.notes}</p>
-                </div>
-              </div>
-            )}
+            {/* 熟悉程度设置 */}
+            <div className="familiarity-controls">
+              <span>熟悉程度：</span>
+              {(['new', 'learning', 'familiar', 'mastered'] as FamiliarityLevel[]).map(level => (
+                <button
+                  key={level}
+                  className={`btn btn-sm ${currentWord.familiarity === level ? 'btn-primary' : 'btn-outline'}`}
+                  onClick={() => setWordFamiliarity(currentWord.id, level)}
+                >
+                  {level === 'new' && '🆕 新词'}
+                  {level === 'learning' && '📖 学习中'}
+                  {level === 'familiar' && '😊 熟悉'}
+                  {level === 'mastered' && '✅ 已掌握'}
+                </button>
+              ))}
+            </div>
           </div>
         )}
 
-        <div className="controls">
-          <button className="btn btn-secondary" onClick={handlePrev}>
-            ← 上一个
-          </button>
+        {/* 导航控制 */}
+        <div className="navigation">
           <button 
-            className={`btn ${currentWord.mastered || currentWord.familiarity === 'mastered' ? 'btn-mastered' : 'btn-primary'}`}
-            onClick={handleMastered}
+            className="btn btn-outline"
+            onClick={goToPrevious}
+            disabled={filteredWordList.length <= 1}
           >
-            {currentWord.mastered || currentWord.familiarity === 'mastered' ? '✓ 已掌握' : '标记掌握'}
+            上一个
           </button>
-          <button className="btn btn-secondary" onClick={handleNext}>
-            下一个 →
+          
+          <button 
+            className={`btn ${currentWord?.mastered ? 'btn-success' : 'btn-primary'}`}
+            onClick={toggleMastered}
+          >
+            {currentWord?.mastered ? '取消掌握' : '标记掌握'}
+          </button>
+          
+          <button 
+            className="btn btn-outline"
+            onClick={goToNext}
+            disabled={filteredWordList.length <= 1}
+          >
+            下一个
           </button>
         </div>
 
-        <div className="familiarity-controls">
-          <span className="familiarity-label">熟悉程度：</span>
-          {(['new', 'learning', 'familiar', 'mastered'] as FamiliarityLevel[]).map(level => (
-            <button
-              key={level}
-              className={`btn btn-small ${currentWord.familiarity === level ? 'btn-active' : 'btn-outline'}`}
-              onClick={() => handleFamiliarityChange(level)}
-            >
-              {getFamiliarityLabel(level)}
-            </button>
-          ))}
-        </div>
-
-        <div className="word-info">
-          <span>第 {currentIndex + 1} / {totalCount} 个</span>
-          <span className={`familiarity-badge familiarity-${currentWord.familiarity}`}>
-            {getFamiliarityLabel(currentWord.familiarity)}
-          </span>
-        </div>
-
-        <div className="actions">
-          <button className="btn btn-outline" onClick={handleShuffle}>
+        {/* 工具按钮 */}
+        <div className="tools">
+          <button 
+            className="btn btn-outline"
+            onClick={shuffleWords}
+          >
             🔀 随机排序
           </button>
-          <button className="btn btn-outline" onClick={() => setShowStats(!showStats)}>
-            📊 {showStats ? '隐藏' : '显示'}统计
+          
+          <button 
+            className="btn btn-outline"
+            onClick={() => setShowStats(!showStats)}
+          >
+            📊 {showStats ? '隐藏统计' : '显示统计'}
           </button>
-          <button className="btn btn-outline" onClick={handleReset}>
-            🔄 重置进度
+          
+          <button 
+            className="btn btn-outline"
+            onClick={() => setShowDetails(!showDetails)}
+          >
+            📋 {showDetails ? '隐藏详情' : '显示详情'}
           </button>
         </div>
 
+        {/* 统计面板 */}
         {showStats && (
-          <div className="stats">
+          <div className="stats-panel">
             <h3>学习统计</h3>
             <div className="stats-grid">
               <div className="stat-item">
-                <div className="stat-value">{totalCount}</div>
                 <div className="stat-label">总单词数</div>
+                <div className="stat-value">{totalCount}</div>
               </div>
               <div className="stat-item">
-                <div className="stat-value">{masteredCount}</div>
                 <div className="stat-label">已掌握</div>
+                <div className="stat-value">{masteredCount}</div>
               </div>
               <div className="stat-item">
-                <div className="stat-value">{totalCount - masteredCount}</div>
-                <div className="stat-label">待学习</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-value">{progress}%</div>
-                <div className="stat-label">完成度</div>
+                <div className="stat-label">掌握率</div>
+                <div className="stat-value">{progressPercentage}%</div>
               </div>
             </div>
+            
+            {/* 按难度统计 */}
+            <div className="difficulty-stats">
+              <h4>按难度统计</h4>
+              {(['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as DifficultyLevel[]).map(level => {
+                const levelWords = wordList.filter(w => w.difficulty === level)
+                const levelMastered = levelWords.filter(w => w.mastered).length
+                const levelPercentage = levelWords.length > 0 ? Math.round((levelMastered / levelWords.length) * 100) : 0
+                
+                return (
+                  <div key={level} className="difficulty-stat">
+                    <span className="difficulty-badge difficulty--{level}">{level}</span>
+                    <span>{levelMastered}/{levelWords.length}</span>
+                    <span>({levelPercentage}%)</span>
+                  </div>
+                )
+              })}
+            </div>
+
+            {/* 按熟悉程度统计 */}
+            <div className="familiarity-stats">
+              <h4>按熟悉程度统计</h4>
+              {(['new', 'learning', 'familiar', 'mastered'] as FamiliarityLevel[]).map(level => {
+                const levelWords = wordList.filter(w => w.familiarity === level)
+                const levelPercentage = wordList.length > 0 ? Math.round((levelWords.length / wordList.length) * 100) : 0
+                
+                return (
+                  <div key={level} className="familiarity-stat">
+                    <span className={`familiarity-badge familiarity--${level}`}>
+                      {level === 'new' && '🆕 新词'}
+                      {level === 'learning' && '📖 学习中'}
+                      {level === 'familiar' && '😊 熟悉'}
+                      {level === 'mastered' && '✅ 已掌握'}
+                    </span>
+                    <span>{levelWords.length}</span>
+                    <span>({levelPercentage}%)</span>
+                  </div>
+                )
+              })}
+            </div>
+
+            <button 
+              className="btn btn-danger"
+              onClick={resetProgress}
+            >
+              🔄 重置进度
+            </button>
+          </div>
+        )}
+
+        {/* 详情面板 */}
+        {showDetails && currentWord && (
+          <div className="details-panel">
+            <h3>单词详情</h3>
+            <div className="detail-item">
+              <strong>荷兰语：</strong> {currentWord.dutch}
+            </div>
+            <div className="detail-item">
+              <strong>中文：</strong> {currentWord.chinese}
+            </div>
+            {currentWord.wordType && (
+              <div className="detail-item">
+                <strong>词性：</strong> {currentWord.wordType}
+              </div>
+            )}
+            {currentWord.difficulty && (
+              <div className="detail-item">
+                <strong>难度：</strong> 
+                <span className={`difficulty-badge difficulty--${currentWord.difficulty}`}>
+                  {currentWord.difficulty}
+                </span>
+              </div>
+            )}
+            {currentWord.familiarity && (
+              <div className="detail-item">
+                <strong>熟悉程度：</strong> 
+                <span className={`familiarity-badge familiarity--${currentWord.familiarity}`}>
+                  {currentWord.familiarity === 'new' && '🆕 新词'}
+                  {currentWord.familiarity === 'learning' && '📖 学习中'}
+                  {currentWord.familiarity === 'familiar' && '😊 熟悉'}
+                  {currentWord.familiarity === 'mastered' && '✅ 已掌握'}
+                </span>
+              </div>
+            )}
+            {currentWord.example && (
+              <div className="detail-item">
+                <strong>例句：</strong>
+                <div className="example-container">
+                  <div className="example-nl">{currentWord.example.dutch}</div>
+                  <div className="example-zh">{currentWord.example.chinese}</div>
+                </div>
+              </div>
+            )}
+            {currentWord.grammar && (
+              <div className="detail-item">
+                <strong>语法说明：</strong> {currentWord.grammar}
+              </div>
+            )}
+            {currentWord.notes && (
+              <div className="detail-item">
+                <strong>备注：</strong> {currentWord.notes}
+              </div>
+            )}
           </div>
         )}
       </main>
+
+      <footer className="footer">
+        <p>💡 点击单词卡片查看翻译 | 使用键盘方向键切换单词</p>
+      </footer>
     </div>
   )
 }

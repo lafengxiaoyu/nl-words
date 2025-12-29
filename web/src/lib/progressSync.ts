@@ -1,5 +1,5 @@
 import { supabase, isSupabaseConfigured, type UserProgress } from './supabase'
-import type { Word } from '../data/words'
+import type { Word, FamiliarityLevel } from '../data/words'
 
 /**
  * 从 Supabase 加载用户的学习进度
@@ -23,7 +23,7 @@ export async function loadUserProgress(userId: string): Promise<Map<number, Part
       data.forEach((item: UserProgress) => {
         progressMap.set(item.word_id, {
           mastered: item.mastered,
-          familiarity: item.familiarity as any,
+          familiarity: item.familiarity as FamiliarityLevel,
         })
       })
     }
