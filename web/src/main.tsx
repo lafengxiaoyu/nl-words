@@ -12,7 +12,10 @@ if (!rootElement) {
 // 获取 base 路径，与 vite.config.ts 保持一致
 // 在生产环境使用 /nl-words，开发环境使用空字符串
 const getBasePath = () => {
-  if (import.meta.env.PROD) {
+  // 检查是否是开发环境（通过检查 hostname 或 mode）
+  const isDev = import.meta.env.DEV || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  
+  if (!isDev && import.meta.env.PROD) {
     // 生产环境：从环境变量获取，默认为 'nl-words'
     const basePath = import.meta.env.VITE_BASE_PATH || 'nl-words'
     const basename = `/${basePath}`
@@ -21,6 +24,7 @@ const getBasePath = () => {
     return basename
   }
   // 开发环境：不使用 basename
+  console.log('Development mode: basename is empty')
   return ''
 }
 

@@ -36,6 +36,8 @@ function MainApp() {
   // 触摸事件处理
   const [touchStartX, setTouchStartX] = useState(0)
   const [touchEndX, setTouchEndX] = useState(0)
+  const [touchStartY, setTouchStartY] = useState(0)
+  const [touchEndY, setTouchEndY] = useState(0)
   const [swipeFeedback, setSwipeFeedback] = useState<string | null>(null)
   const [swipeOffset, setSwipeOffset] = useState(0) // 滑动偏移量，用于动画
   const [isSwiping, setIsSwiping] = useState(false) // 是否正在滑动
@@ -43,11 +45,10 @@ function MainApp() {
   // 根据路径确定语言模式
   useEffect(() => {
     const path = location.pathname.toLowerCase()
-    // 移除 basename 部分（如 /nl-words）
-    const cleanPath = path.replace(/^\/[^/]+/, '') || path
-    if (cleanPath.startsWith('/en') || path.includes('/en')) {
+    // 直接检查路径，React Router 已经处理了 basename
+    if (path.endsWith('/en') || path.includes('/en/')) {
       setLanguageMode('english')
-    } else if (cleanPath.startsWith('/zh') || path.includes('/zh')) {
+    } else if (path.endsWith('/zh') || path.includes('/zh/') || path === '/' || path.endsWith('/')) {
       setLanguageMode('chinese')
     } else {
       setLanguageMode('chinese')
@@ -57,12 +58,14 @@ function MainApp() {
   // 切换语言并更新路由
   const switchLanguage = useCallback((lang: LanguageMode) => {
     setLanguageMode(lang)
-    if (lang === 'chinese') {
-      navigate('/zh')
-    } else {
-      navigate('/en')
+    const currentPath = location.pathname.toLowerCase()
+    // 检查当前路径，避免重复导航
+    if (lang === 'chinese' && !currentPath.endsWith('/zh') && currentPath !== '/') {
+      navigate('/zh', { replace: true })
+    } else if (lang === 'english' && !currentPath.endsWith('/en')) {
+      navigate('/en', { replace: true })
     }
-  }, [navigate])
+  }, [navigate, location.pathname])
 
   // 从 localStorage 加载进度
   const loadProgressFromLocalStorage = useCallback(() => {
@@ -393,31 +396,86 @@ function MainApp() {
 
   // 触摸事件处理函数
   const handleTouchStart = (e: React.TouchEvent) => {
-    const startX = e.changedTouches[0].screenX
+    const touch = e.changedTouches[0]
+    const startX = touch.screenX
+    const startY = touch.screenY
     setTouchStartX(startX)
     setTouchEndX(startX) // 初始化结束位置
+    setTouchStartY(startY)
+    setTouchEndY(startY)
     setSwipeOffset(0)
-    setIsSwiping(true)
+    setIsSwiping(false) // 初始状态不是滑动
   }
 
   const handleTouchMove = (e: React.TouchEvent) => {
-    const currentX = e.changedTouches[0].screenX
+    const touch = e.changedTouches[0]
+    const currentX = touch.screenX
+    const currentY = touch.screenY
     setTouchEndX(currentX)
+    setTouchEndY(currentY)
     
-    // 计算滑动偏移量，用于实时动画
+    // 计算滑动偏移量
     if (touchStartX !== 0) {
-      const offset = currentX - touchStartX
-      setSwipeOffset(offset)
+      const offsetX = currentX - touchStartX
+      const offsetY = currentY - touchStartY
+      const absOffsetX = Math.abs(offsetX)
+      const absOffsetY = Math.abs(offsetY)
+      
+      // 只处理水平滑动（水平距离大于垂直距离，且水平距离超过阈值）
+      if (absOffsetX > 10 && absOffsetX > absOffsetY * 1.5) {
+        setIsSwiping(true)
+        setSwipeOffset(offsetX)
+      } else if (absOffsetY > absOffsetX) {
+        // 垂直滑动，忽略
+        setIsSwiping(false)
+      }
     }
   }
 
-  const handleTouchEnd = () => {
+  const handleTouchEnd = (e?: React.TouchEvent) => {
     const masteryThreshold = 50 // 标记掌握状态的滑动阈值（降低以提高灵敏度）
     const navigationThreshold = 100 // 切换单词的滑动阈值（大幅降低以提高灵敏度）
+
+    // 计算移动距离
+    const absDistanceX = Math.abs(touchEndX - touchStartX)
+    const absDistanceY = Math.abs(touchEndY - touchStartY)
+    
+    // 如果是点击（移动距离很小），触发翻转
+    if (absDistanceX < 10 && absDistanceY < 10 && !isSwiping) {
+      setIsFlipped(!isFlipped)
+      // 重置状态
+      setTouchStartX(0)
+      setTouchEndX(0)
+      setTouchStartY(0)
+      setTouchEndY(0)
+      setSwipeOffset(0)
+      setIsSwiping(false)
+      // 阻止事件冒泡，避免触发其他点击事件
+      if (e) {
+        e.preventDefault()
+        e.stopPropagation()
+      }
+      return
+    }
 
     if (touchStartX === 0 || touchEndX === 0) {
       setIsSwiping(false)
       setSwipeOffset(0)
+      setTouchStartX(0)
+      setTouchEndX(0)
+      setTouchStartY(0)
+      setTouchEndY(0)
+      return
+    }
+
+    // 如果没有滑动，直接返回
+    if (!isSwiping) {
+      setTouchStartX(0)
+      setTouchEndX(0)
+      setTouchStartY(0)
+      setTouchEndY(0)
+      setSwipeOffset(0)
+      setIsSwiping(false)
       return
     }
 
@@ -431,6 +489,8 @@ function MainApp() {
         // 立即重置状态并切换
         setTouchStartX(0)
         setTouchEndX(0)
+        setTouchStartY(0)
+        setTouchEndY(0)
         setSwipeOffset(0)
         setIsSwiping(false)
         goToNext()
@@ -441,6 +501,8 @@ function MainApp() {
         // 立即重置状态并切换
         setTouchStartX(0)
         setTouchEndX(0)
+        setTouchStartY(0)
+        setTouchEndY(0)
         setSwipeOffset(0)
         setIsSwiping(false)
         goToPrevious()
@@ -471,6 +533,8 @@ function MainApp() {
     setTimeout(() => {
       setTouchStartX(0)
       setTouchEndX(0)
+      setTouchStartY(0)
+      setTouchEndY(0)
       setSwipeOffset(0)
       setIsSwiping(false)
     }, 200) // 缩短等待时间
@@ -579,7 +643,12 @@ function MainApp() {
                   <div 
                     key={`word-${currentWord.id}-${currentIndex}`}
                     className={`word-card ${isFlipped ? 'flipped' : ''} ${isSwiping ? 'swiping' : ''}`} 
-                    onClick={() => setIsFlipped(!isFlipped)}
+                    onClick={() => {
+                      // 只有在非触摸设备或没有滑动时才触发点击
+                      if (!isSwiping && touchStartX === 0) {
+                        setIsFlipped(!isFlipped)
+                      }
+                    }}
                     style={{
                       transform: isSwiping 
                         ? `translateX(${swipeOffset}px) rotateZ(${swipeOffset * 0.15}deg) ${isFlipped ? `rotateY(${180 + swipeOffset * 0.1}deg)` : `rotateY(${swipeOffset * 0.1}deg)`}`
@@ -596,6 +665,7 @@ function MainApp() {
                     <div className="card-front">
                       <div className="word-dutch">{currentWord.word}</div>
                       <div className="word-type">{currentWord.partOfSpeech}</div>
+                      <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty`}>{currentWord.difficulty}</span>
                     </div>
                     <div className="card-back">
                       <div className="word-translation">
@@ -609,18 +679,8 @@ function MainApp() {
                           </div>
                         </div>
                       )}
+                      <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty`}>{currentWord.difficulty}</span>
                     </div>
-                  </div>
-
-                  <div className="word-info">
-                    <span className={`difficulty-badge difficulty--${currentWord.difficulty}`}>{currentWord.difficulty}</span>
-                    <span className={`familiarity-badge familiarity--${currentWord.familiarity}`}>
-                      {currentWord.familiarity === 'new' && '🆕 新词'}
-                      {currentWord.familiarity === 'learning' && '📖 学习中'}
-                      {currentWord.familiarity === 'familiar' && '😊 熟悉'}
-                      {currentWord.familiarity === 'mastered' && '✅ 已掌握'}
-                    </span>
-                    {currentWord.mastered && <span className="mastered-badge">✅ 已掌握</span>}
                   </div>
 
                   <div className="familiarity-controls">
@@ -638,14 +698,14 @@ function MainApp() {
                       </button>
                     ))}
                   </div>
-                </div>
+      </div>
               )}
 
               <div className="navigation">
                 <button className="btn btn-outline" onClick={goToPrevious} disabled={filteredWordList.length <= 1}>上一个</button>
                 <button className={`btn ${currentWord?.mastered ? 'btn-success' : 'btn-primary'}`} onClick={toggleMastered}>
                   {currentWord?.mastered ? '取消掌握' : '标记掌握'}
-                </button>
+        </button>
                 <button className="btn btn-outline" onClick={goToNext} disabled={filteredWordList.length <= 1}>下一个</button>
               </div>
 
@@ -789,7 +849,7 @@ function MainApp() {
             <footer className="footer">
               <p>💡 点击单词卡片查看翻译 | 使用键盘方向键切换单词</p>
             </footer>
-          </div>
+      </div>
         </>
       )}
     </>
@@ -800,10 +860,12 @@ function MainApp() {
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="zh" replace />} />
+      <Route path="/" element={<Navigate to="/zh" replace />} />
       <Route path="/zh" element={<MainApp />} />
+      <Route path="/zh/*" element={<MainApp />} />
       <Route path="/en" element={<MainApp />} />
-      <Route path="*" element={<Navigate to="zh" replace />} />
+      <Route path="/en/*" element={<MainApp />} />
+      <Route path="*" element={<Navigate to="/zh" replace />} />
     </Routes>
   )
 }
