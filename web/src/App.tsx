@@ -43,9 +43,11 @@ function MainApp() {
   // 根据路径确定语言模式
   useEffect(() => {
     const path = location.pathname.toLowerCase()
-    if (path.startsWith('/en')) {
+    // 移除 basename 部分（如 /nl-words）
+    const cleanPath = path.replace(/^\/[^\/]+/, '') || path
+    if (cleanPath.startsWith('/en') || path.includes('/en')) {
       setLanguageMode('english')
-    } else if (path.startsWith('/zh')) {
+    } else if (cleanPath.startsWith('/zh') || path.includes('/zh')) {
       setLanguageMode('chinese')
     } else {
       setLanguageMode('chinese')
@@ -410,8 +412,8 @@ function MainApp() {
   }
 
   const handleTouchEnd = () => {
-    const masteryThreshold = 80 // 标记掌握状态的滑动阈值
-    const navigationThreshold = 200 // 切换单词的滑动阈值（更长，避免冲突）
+    const masteryThreshold = 50 // 标记掌握状态的滑动阈值（降低以提高灵敏度）
+    const navigationThreshold = 100 // 切换单词的滑动阈值（大幅降低以提高灵敏度）
 
     if (touchStartX === 0 || touchEndX === 0) {
       setIsSwiping(false)
@@ -422,8 +424,31 @@ function MainApp() {
     const swipeDistance = touchEndX - touchStartX
     const absDistance = Math.abs(swipeDistance)
 
-    // 优先处理掌握状态标记（中等距离滑动：80-200px）
-    if (absDistance >= masteryThreshold && absDistance < navigationThreshold) {
+    // 优先处理导航（切换单词）- 提高优先级
+    if (absDistance >= navigationThreshold) {
+      // 向左滑动：下一个
+      if (swipeDistance < -navigationThreshold) {
+        // 立即重置状态并切换
+        setTouchStartX(0)
+        setTouchEndX(0)
+        setSwipeOffset(0)
+        setIsSwiping(false)
+        goToNext()
+        return
+      }
+      // 向右滑动：上一个
+      else if (swipeDistance > navigationThreshold) {
+        // 立即重置状态并切换
+        setTouchStartX(0)
+        setTouchEndX(0)
+        setSwipeOffset(0)
+        setIsSwiping(false)
+        goToPrevious()
+        return
+      }
+    }
+    // 处理掌握状态标记（短距离滑动：50-100px）
+    else if (absDistance >= masteryThreshold) {
       // 向右滑动：标记为已掌握
       if (swipeDistance > masteryThreshold) {
         if (!currentWord?.mastered) {
@@ -441,17 +466,6 @@ function MainApp() {
         }
       }
     }
-    // 如果滑动距离很大，用于导航（切换单词）
-    else if (absDistance >= navigationThreshold) {
-      // 向左滑动：下一个
-      if (swipeDistance < -navigationThreshold) {
-        goToNext()
-      }
-      // 向右滑动：上一个
-      else if (swipeDistance > navigationThreshold) {
-        goToPrevious()
-      }
-    }
 
     // 重置触摸状态和动画
     setTimeout(() => {
@@ -459,7 +473,7 @@ function MainApp() {
       setTouchEndX(0)
       setSwipeOffset(0)
       setIsSwiping(false)
-    }, 300) // 等待动画完成
+    }, 200) // 缩短等待时间
   }
 
   // 获取当前单词的例句和翻译
@@ -568,10 +582,12 @@ function MainApp() {
                     onClick={() => setIsFlipped(!isFlipped)}
                     style={{
                       transform: isSwiping 
-                        ? `translateX(${swipeOffset}px) rotateZ(${swipeOffset * 0.15}deg) rotateY(${swipeOffset * 0.1}deg)`
-                        : undefined,
+                        ? `translateX(${swipeOffset}px) rotateZ(${swipeOffset * 0.15}deg) ${isFlipped ? `rotateY(${180 + swipeOffset * 0.1}deg)` : `rotateY(${swipeOffset * 0.1}deg)`}`
+                        : isFlipped 
+                          ? 'rotateY(180deg)'
+                          : undefined,
                       opacity: isSwiping ? Math.max(0.3, 1 - Math.abs(swipeOffset) / 500) : undefined,
-                      transition: isSwiping ? 'none' : 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease-out',
+                      transition: isSwiping ? 'none' : 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease-out',
                       filter: isSwiping && Math.abs(swipeOffset) > 50
                         ? `drop-shadow(${swipeOffset > 0 ? '4px' : '-4px'} 8px 16px ${swipeOffset > 0 ? 'rgba(74, 222, 128, 0.4)' : 'rgba(239, 68, 68, 0.4)'})`
                         : undefined,
