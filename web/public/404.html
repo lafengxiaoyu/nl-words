@@ -5,9 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>荷兰语单词学习</title>
   <script>
-    // 重定向到 index.html 并保留路径
+    // 重定向到首页或对应语言路径
     const path = window.location.pathname;
-    window.location.href = '/nl-words/' + (path === '/' ? 'zh' : path.replace(/^\//, ''));
+
+    // 提取语言路径（/zh 或 /en）或默认为 /zh
+    const langPath = path.match(/\/(zh|en)\/?$/) ? path.replace(/.*\//, '') : 'zh';
+
+    // 重定向到对应语言路径
+    window.location.href = '/' + langPath;
   </script>
 </head>
 <body>

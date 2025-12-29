@@ -5,7 +5,7 @@ import { words } from './data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from './data/words'
 import type { ExampleTranslations } from './data/types'
 import { supabase } from './lib/supabase'
-import { loadUserProgress, saveUserProgress, saveAllUserProgress, mergeProgress } from './lib/progressSync'
+import { loadUserProgress, saveUserProgress, saveAllUserProgress, mergeProgress, incrementViewCount, updateMasteryStats, updateTestStats } from './lib/progressSync'
 import Auth from './components/Auth'
 
 // 语言模式类型
@@ -143,7 +143,7 @@ function MainApp() {
   const saveProgressToSupabase = async (word: Word) => {
     if (user) {
       try {
-        await saveUserProgress(user.id, word.id, word.mastered, word.familiarity)
+        await saveUserProgress(user.id, word.id, word.mastered, word.familiarity, word.stats)
         setSyncStatus('success')
         setTimeout(() => setSyncStatus('idle'), 1000)
       } catch (error) {
@@ -196,11 +196,63 @@ function MainApp() {
   // 切换当前单词的掌握状态
   const toggleMastered = async () => {
     const currentWord = filteredWordList[currentIndex]
-    const updatedWords = wordList.map(word =>
-      word.id === currentWord.id
-        ? { ...word, mastered: !word.mastered, familiarity: word.mastered ? 'learning' as FamiliarityLevel : 'mastered' as FamiliarityLevel }
-        : word
-    )
+    const newMasteredState = !currentWord.mastered
+    
+    // 更新掌握状态统计
+    if (user) {
+      try {
+        const updatedStats = await updateMasteryStats(
+          user.id,
+          currentWord.id,
+          newMasteredState,
+          currentWord.stats
+        )
+        
+        const updatedWords = wordList.map(word =>
+          word.id === currentWord.id
+            ? { 
+                ...word, 
+                mastered: newMasteredState, 
+                familiarity: newMasteredState ? 'mastered' as FamiliarityLevel : 'learning' as FamiliarityLevel,
+                stats: updatedStats
+              }
+            : word
+        )
+        
+        setWordList(updatedWords)
+        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+        await saveProgressToSupabase(updatedWords.find(w => w.id === currentWord.id)!)
+        return
+      } catch (error) {
+        console.error('更新掌握统计失败:', error)
+      }
+    }
+    
+    // 本地模式：更新本地统计数据
+    const updatedWords = wordList.map(word => {
+      if (word.id === currentWord.id) {
+        const currentStats = word.stats || {
+          viewCount: 0,
+          masteredCount: 0,
+          unmasteredCount: 0,
+          testCount: 0,
+          testCorrectCount: 0,
+          testWrongCount: 0,
+        }
+        
+        return {
+          ...word,
+          mastered: newMasteredState,
+          familiarity: newMasteredState ? 'mastered' as FamiliarityLevel : 'learning' as FamiliarityLevel,
+          stats: {
+            ...currentStats,
+            masteredCount: newMasteredState ? currentStats.masteredCount + 1 : currentStats.masteredCount,
+            unmasteredCount: !newMasteredState ? currentStats.unmasteredCount + 1 : currentStats.unmasteredCount,
+          }
+        }
+      }
+      return word
+    })
 
     setWordList(updatedWords)
     localStorage.setItem('nl-words', JSON.stringify(updatedWords))
@@ -234,12 +286,63 @@ function MainApp() {
       const resetWords = wordList.map(word => ({
         ...word,
         mastered: false,
-        familiarity: 'new' as FamiliarityLevel
+        familiarity: 'new' as FamiliarityLevel,
+        stats: undefined // 重置统计数据
       }))
 
       setWordList(resetWords)
       localStorage.setItem('nl-words', JSON.stringify(resetWords))
       await saveAllProgressToSupabase()
+    }
+  }
+
+  // 测试功能接口（为将来扩展使用）
+  // 当用户完成测试时，调用此函数记录测试结果
+  const recordTestResult = async (wordId: number, isCorrect: boolean) => {
+    const word = wordList.find(w => w.id === wordId)
+    if (!word) return
+
+    if (user) {
+      try {
+        const updatedStats = await updateTestStats(user.id, wordId, isCorrect, word.stats)
+        const updatedWords = wordList.map(w =>
+          w.id === wordId
+            ? { ...w, stats: updatedStats }
+            : w
+        )
+        setWordList(updatedWords)
+        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+        await saveProgressToSupabase(updatedWords.find(w => w.id === wordId)!)
+      } catch (error) {
+        console.error('记录测试结果失败:', error)
+      }
+    } else {
+      // 本地模式：更新本地统计数据
+      const currentStats = word.stats || {
+        viewCount: 0,
+        masteredCount: 0,
+        unmasteredCount: 0,
+        testCount: 0,
+        testCorrectCount: 0,
+        testWrongCount: 0,
+      }
+      
+      const updatedStats = {
+        ...currentStats,
+        testCount: currentStats.testCount + 1,
+        testCorrectCount: isCorrect ? currentStats.testCorrectCount + 1 : currentStats.testCorrectCount,
+        testWrongCount: !isCorrect ? currentStats.testWrongCount + 1 : currentStats.testWrongCount,
+        lastTestedAt: new Date().toISOString(),
+      }
+      
+      const updatedWords = wordList.map(w =>
+        w.id === wordId
+          ? { ...w, stats: updatedStats }
+          : w
+      )
+      
+      setWordList(updatedWords)
+      localStorage.setItem('nl-words', JSON.stringify(updatedWords))
     }
   }
 
@@ -271,6 +374,65 @@ function MainApp() {
       setCurrentIndex((prev) => (prev - 1 + filteredWordList.length) % filteredWordList.length)
     }
   }
+
+  // 记录单词查看次数（当单词变化时）
+  useEffect(() => {
+    if (!currentWord) return
+    
+    const recordView = async () => {
+      if (user) {
+        try {
+          const updatedStats = await incrementViewCount(user.id, currentWord.id, currentWord.stats)
+          setWordList(prevWords => prevWords.map(word =>
+            word.id === currentWord.id
+              ? { ...word, stats: updatedStats }
+              : word
+          ))
+          // 更新 localStorage
+          const updatedWords = wordList.map(word =>
+            word.id === currentWord.id
+              ? { ...word, stats: updatedStats }
+              : word
+          )
+          localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+        } catch (error) {
+          console.error('记录查看次数失败:', error)
+        }
+      } else {
+        // 本地模式：更新本地统计数据
+        const currentStats = currentWord.stats || {
+          viewCount: 0,
+          masteredCount: 0,
+          unmasteredCount: 0,
+          testCount: 0,
+          testCorrectCount: 0,
+          testWrongCount: 0,
+        }
+        
+        const updatedStats = {
+          ...currentStats,
+          viewCount: currentStats.viewCount + 1,
+          lastViewedAt: new Date().toISOString(),
+        }
+        
+        setWordList(prevWords => prevWords.map(word =>
+          word.id === currentWord.id
+            ? { ...word, stats: updatedStats }
+            : word
+        ))
+        
+        // 保存到 localStorage
+        const updatedWords = wordList.map(word =>
+          word.id === currentWord.id
+            ? { ...word, stats: updatedStats }
+            : word
+        )
+        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+      }
+    }
+    
+    recordView()
+  }, [currentWord?.id, user?.id]) // 只在单词ID或用户ID变化时触发
 
   // 触摸事件处理函数
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -599,6 +761,30 @@ function MainApp() {
                   {currentWord.notes && (
                     <div className="detail-item">
                       <strong>备注：</strong> {currentWord.notes}
+                    </div>
+                  )}
+                  {currentWord.stats && (
+                    <div className="detail-item">
+                      <strong>学习统计：</strong>
+                      <div className="stats-detail">
+                        <div>查看次数: {currentWord.stats.viewCount}</div>
+                        <div>标记掌握: {currentWord.stats.masteredCount} 次</div>
+                        <div>标记未掌握: {currentWord.stats.unmasteredCount} 次</div>
+                        <div>测试次数: {currentWord.stats.testCount}</div>
+                        {currentWord.stats.testCount > 0 && (
+                          <>
+                            <div>测试正确: {currentWord.stats.testCorrectCount} 次</div>
+                            <div>测试错误: {currentWord.stats.testWrongCount} 次</div>
+                            <div>正确率: {Math.round((currentWord.stats.testCorrectCount / currentWord.stats.testCount) * 100)}%</div>
+                          </>
+                        )}
+                        {currentWord.stats.lastViewedAt && (
+                          <div>最后查看: {new Date(currentWord.stats.lastViewedAt).toLocaleString('zh-CN')}</div>
+                        )}
+                        {currentWord.stats.lastTestedAt && (
+                          <div>最后测试: {new Date(currentWord.stats.lastTestedAt).toLocaleString('zh-CN')}</div>
+                        )}
+                      </div>
                     </div>
                   )}
                 </div>

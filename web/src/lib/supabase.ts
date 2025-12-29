@@ -14,6 +14,18 @@ if (!isSupabaseConfigured) {
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 export { isSupabaseConfigured }
 
+// 学习统计信息（数据库格式）
+export interface LearningStatsDB {
+  view_count: number
+  mastered_count: number
+  unmastered_count: number
+  test_count: number
+  test_correct_count: number
+  test_wrong_count: number
+  last_viewed_at?: string
+  last_tested_at?: string
+}
+
 // 数据库表结构类型
 export interface UserProgress {
   id?: string
@@ -21,6 +33,15 @@ export interface UserProgress {
   word_id: number
   mastered: boolean
   familiarity: string
+  // 学习统计字段
+  view_count?: number
+  mastered_count?: number
+  unmastered_count?: number
+  test_count?: number
+  test_correct_count?: number
+  test_wrong_count?: number
+  last_viewed_at?: string
+  last_tested_at?: string
   updated_at?: string
 }
 

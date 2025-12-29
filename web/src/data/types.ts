@@ -63,6 +63,18 @@ export interface ExampleTranslations {
   english: string[]
 }
 
+// 学习统计信息
+export interface LearningStats {
+  viewCount: number // 查看次数
+  masteredCount: number // 标记为掌握的次数
+  unmasteredCount: number // 标记为未掌握的次数
+  testCount: number // 测试次数
+  testCorrectCount: number // 测试做对的次数
+  testWrongCount: number // 测试做错的次数
+  lastViewedAt?: string // 最后查看时间
+  lastTestedAt?: string // 最后测试时间
+}
+
 // 单词完整数据结构
 export interface Word {
   id: number
@@ -76,5 +88,6 @@ export interface Word {
   familiarity: FamiliarityLevel // 熟悉程度
   mastered: boolean // 是否已掌握（兼容旧数据）
   difficulty: DifficultyLevel // 难度级别
+  stats?: LearningStats // 学习统计信息（可选，用于用户进度）
 }
 

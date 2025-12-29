@@ -597,6 +597,25 @@ body {
   margin-right: 8px;
 }
 
+/* 统计详情 */
+.stats-detail {
+  margin-top: 10px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  font-size: 0.9em;
+}
+
+.stats-detail > div {
+  margin: 5px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.stats-detail > div:last-child {
+  border-bottom: none;
+}
+
 /* 例句容器 */
 .example-container {
   margin-top: 10px;
