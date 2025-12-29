@@ -5,14 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>荷兰语单词学习</title>
   <script>
-    // 重定向到首页或对应语言路径
+    // 重定向到正确的语言路径
     const path = window.location.pathname;
 
     // 提取语言路径（/zh 或 /en）或默认为 /zh
-    const langPath = path.match(/\/(zh|en)\/?$/) ? path.replace(/.*\//, '') : 'zh';
+    let langPath = 'zh'; // 默认中文
 
-    // 重定向到 /nl-words/zh 或 /nl-words/en
-    window.location.href = '/nl-words/' + langPath;
+    // 检查路径中是否包含 /zh 或 /en
+    if (path.includes('/en')) {
+      langPath = 'en';
+    } else if (path.includes('/zh')) {
+      langPath = 'zh';
+    }
+
+    // 构建目标路径：/nl-words/zh 或 /nl-words/en
+    const targetPath = '/nl-words/' + langPath;
+
+    // 如果当前路径已经是目标路径，则不需要重定向
+    if (path === targetPath || path === targetPath + '/') {
+      // 不做任何事，让 React Router 处理
+    } else {
+      window.location.href = targetPath;
+    }
   </script>
 </head>
 <body>
