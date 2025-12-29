@@ -286,7 +286,7 @@ function MainApp() {
     const masteryThreshold = 80 // 标记掌握状态的滑动阈值
     const navigationThreshold = 200 // 切换单词的滑动阈值（更长，避免冲突）
 
-    if (!touchStartX || !touchEndX) {
+    if (touchStartX === 0 || touchEndX === 0) {
       return
     }
 
