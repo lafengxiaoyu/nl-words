@@ -36,6 +36,7 @@ function MainApp() {
   // 触摸事件处理
   const [touchStartX, setTouchStartX] = useState(0)
   const [touchEndX, setTouchEndX] = useState(0)
+  const [swipeFeedback, setSwipeFeedback] = useState<string | null>(null)
 
   // 根据路径确定语言模式
   useEffect(() => {
@@ -179,7 +180,13 @@ function MainApp() {
   // 根据难度筛选单词
   useEffect(() => {
     setFilteredWordList(calculateFilteredWordList())
+    setIsFlipped(false) // 筛选时重置翻转状态
   }, [calculateFilteredWordList])
+
+  // 当切换单词时，确保卡片重置为未翻转状态
+  useEffect(() => {
+    setIsFlipped(false)
+  }, [currentIndex])
 
   // 计算学习进度
   const masteredCount = wordList.filter(w => w.mastered).length
@@ -238,18 +245,37 @@ function MainApp() {
 
   // 导航函数
   const goToNext = () => {
-    setCurrentIndex((prev) => (prev + 1) % filteredWordList.length)
-    setIsFlipped(false)
+    // 如果卡片是翻转状态，先重置，等待动画完成后再切换
+    if (isFlipped) {
+      setIsFlipped(false)
+      // 等待翻转动画完成（0.6s）后再切换单词
+      setTimeout(() => {
+        setCurrentIndex((prev) => (prev + 1) % filteredWordList.length)
+      }, 600)
+    } else {
+      // 如果卡片未翻转，直接切换
+      setCurrentIndex((prev) => (prev + 1) % filteredWordList.length)
+    }
   }
 
   const goToPrevious = () => {
-    setCurrentIndex((prev) => (prev - 1 + filteredWordList.length) % filteredWordList.length)
-    setIsFlipped(false)
+    // 如果卡片是翻转状态，先重置，等待动画完成后再切换
+    if (isFlipped) {
+      setIsFlipped(false)
+      // 等待翻转动画完成（0.6s）后再切换单词
+      setTimeout(() => {
+        setCurrentIndex((prev) => (prev - 1 + filteredWordList.length) % filteredWordList.length)
+      }, 600)
+    } else {
+      // 如果卡片未翻转，直接切换
+      setCurrentIndex((prev) => (prev - 1 + filteredWordList.length) % filteredWordList.length)
+    }
   }
 
   // 触摸事件处理函数
   const handleTouchStart = (e: React.TouchEvent) => {
     setTouchStartX(e.changedTouches[0].screenX)
+    setTouchEndX(e.changedTouches[0].screenX) // 初始化结束位置
   }
 
   const handleTouchMove = (e: React.TouchEvent) => {
@@ -257,22 +283,45 @@ function MainApp() {
   }
 
   const handleTouchEnd = () => {
-    const swipeThreshold = 50 // 滑动阈值
+    const masteryThreshold = 80 // 标记掌握状态的滑动阈值
+    const navigationThreshold = 200 // 切换单词的滑动阈值（更长，避免冲突）
 
     if (!touchStartX || !touchEndX) {
       return
     }
 
     const swipeDistance = touchEndX - touchStartX
+    const absDistance = Math.abs(swipeDistance)
 
-    // 向左滑动：下一个
-    if (swipeDistance < -swipeThreshold) {
-      goToNext()
+    // 优先处理掌握状态标记（中等距离滑动：80-200px）
+    if (absDistance >= masteryThreshold && absDistance < navigationThreshold) {
+      // 向右滑动：标记为已掌握
+      if (swipeDistance > masteryThreshold) {
+        if (!currentWord?.mastered) {
+          setSwipeFeedback('✅ 已掌握')
+          setTimeout(() => setSwipeFeedback(null), 1000)
+          toggleMastered()
+        }
+      }
+      // 向左滑动：标记为未掌握
+      else if (swipeDistance < -masteryThreshold) {
+        if (currentWord?.mastered) {
+          setSwipeFeedback('❌ 未掌握')
+          setTimeout(() => setSwipeFeedback(null), 1000)
+          toggleMastered()
+        }
+      }
     }
-
-    // 向右滑动：上一个
-    if (swipeDistance > swipeThreshold) {
-      goToPrevious()
+    // 如果滑动距离很大，用于导航（切换单词）
+    else if (absDistance >= navigationThreshold) {
+      // 向左滑动：下一个
+      if (swipeDistance < -navigationThreshold) {
+        goToNext()
+      }
+      // 向右滑动：上一个
+      else if (swipeDistance > navigationThreshold) {
+        goToPrevious()
+      }
     }
 
     // 重置触摸状态
@@ -379,7 +428,14 @@ function MainApp() {
                      onTouchStart={handleTouchStart}
                      onTouchMove={handleTouchMove}
                      onTouchEnd={handleTouchEnd}>
-                  <div className={`word-card ${isFlipped ? 'flipped' : ''}`} onClick={() => setIsFlipped(!isFlipped)}>
+                  {swipeFeedback && (
+                    <div className="swipe-feedback">{swipeFeedback}</div>
+                  )}
+                  <div 
+                    key={`word-${currentWord.id}-${currentIndex}`}
+                    className={`word-card ${isFlipped ? 'flipped' : ''}`} 
+                    onClick={() => setIsFlipped(!isFlipped)}
+                  >
                     <div className="card-front">
                       <div className="word-dutch">{currentWord.word}</div>
                       <div className="word-type">{currentWord.partOfSpeech}</div>

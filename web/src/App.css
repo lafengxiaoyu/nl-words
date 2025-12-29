@@ -178,7 +178,45 @@ body {
   width: 100%;
   max-width: 500px;
   margin-bottom: 30px;
-  touch-action: pan-y; /* 允许垂直滚动，禁止水平滑动 */
+  touch-action: pan-x pan-y; /* 允许水平和垂直滑动 */
+  user-select: none; /* 防止文本选择 */
+  -webkit-user-select: none;
+  position: relative;
+}
+
+.swipe-feedback {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  z-index: 1000;
+  pointer-events: none;
+  animation: fadeInOut 1s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  80% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
 }
 
 /* 单词卡片 */
