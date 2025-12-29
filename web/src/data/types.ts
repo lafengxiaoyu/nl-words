@@ -57,6 +57,12 @@ export interface Translation {
   english: string
 }
 
+// 例句翻译
+export interface ExampleTranslations {
+  chinese: string[]
+  english: string[]
+}
+
 // 单词完整数据结构
 export interface Word {
   id: number
@@ -65,7 +71,7 @@ export interface Word {
   partOfSpeech: PartOfSpeech // 词性
   forms?: WordForms // 词性相关的变形信息
   examples: string[] // 例句（荷兰语）
-  exampleTranslations?: string[] // 例句翻译（中文）
+  exampleTranslations?: ExampleTranslations // 例句翻译（中英文）
   notes?: string // 备注
   familiarity: FamiliarityLevel // 熟悉程度
   mastered: boolean // 是否已掌握（兼容旧数据）

@@ -14,4 +14,7 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: false,
   },
+  server: {
+    historyApiFallback: true, // 开发服务器支持 SPA 路由
+  },
 })

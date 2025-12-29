@@ -11,10 +11,16 @@
       "Hallo, hoe gaat het?",
       "Hallo, ik ben Jan."
     ],
-    "exampleTranslations": [
-      "你好，最近怎么样？",
-      "你好，我是Jan。"
-    ],
+    "exampleTranslations": {
+      "chinese": [
+        "你好，最近怎么样？",
+        "你好，我是Jan。"
+      ],
+      "english": [
+        "Hello, how are you?",
+        "Hello, I'm Jan."
+      ]
+    },
     "notes": "非正式问候语，正式场合用goedemorgen/goedemiddag/goedenavond",
     "familiarity": "mastered",
     "mastered": true,
@@ -32,10 +38,16 @@
       "Dank je wel voor je hulp.",
       "Dank je, dat is erg aardig."
     ],
-    "exampleTranslations": [
-      "谢谢你的帮助。",
-      "谢谢，你真好。"
-    ],
+    "exampleTranslations": {
+      "chinese": [
+        "谢谢你的帮助。",
+        "谢谢，你真好。"
+      ],
+      "english": [
+        "Thank you for your help.",
+        "Thank you, that's very kind."
+      ]
+    },
     "notes": "非正式，正式用dank u",
     "familiarity": "mastered",
     "mastered": true,
