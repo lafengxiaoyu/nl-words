@@ -10,14 +10,18 @@ if (!rootElement) {
 }
 
 // 获取 base 路径，与 vite.config.ts 保持一致
-// Vite 会自动提供 BASE_URL，它基于 vite.config.ts 中的 base 配置
-// 例如：/nl-words/ 或 /
+// 在生产环境使用 /nl-words，开发环境使用空字符串
 const getBasePath = () => {
-  // import.meta.env.BASE_URL 是 Vite 自动提供的，基于 vite.config.ts 的 base 配置
-  // 它会包含尾部斜杠，但 BrowserRouter 的 basename 不需要尾部斜杠
-  const baseUrl = import.meta.env.BASE_URL
-  // 移除尾部斜杠（如果存在）
-  return baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl
+  if (import.meta.env.PROD) {
+    // 生产环境：从环境变量获取，默认为 'nl-words'
+    const basePath = import.meta.env.VITE_BASE_PATH || 'nl-words'
+    const basename = `/${basePath}`
+    // 调试日志（生产环境可以移除）
+    console.log('Router basename:', basename, 'VITE_BASE_PATH:', import.meta.env.VITE_BASE_PATH)
+    return basename
+  }
+  // 开发环境：不使用 basename
+  return ''
 }
 
 try {

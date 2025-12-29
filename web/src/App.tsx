@@ -756,10 +756,10 @@ function MainApp() {
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/zh" replace />} />
+      <Route path="/" element={<Navigate to="zh" replace />} />
       <Route path="/zh" element={<MainApp />} />
       <Route path="/en" element={<MainApp />} />
-      <Route path="*" element={<Navigate to="/zh" replace />} />
+      <Route path="*" element={<Navigate to="zh" replace />} />
     </Routes>
   )
 }
