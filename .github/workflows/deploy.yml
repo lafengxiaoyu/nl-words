@@ -18,7 +18,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: ./web
+        run: npm ci
+
+      - name: Run ESLint
+        working-directory: ./web
+        run: npm run lint
+
+      - name: Run TypeScript type check
+        working-directory: ./web
+        run: npx tsc --noEmit
+
   build:
+    needs: lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

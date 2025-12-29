@@ -1,0 +1,108 @@
+name: PR Status Check
+
+on:
+  pull_request:
+    branches:
+      - main
+      - master
+    types: [opened, synchronize, reopened]
+
+jobs:
+  quality-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: ./web
+        run: npm ci
+
+      - name: ESLint check
+        id: eslint
+        working-directory: ./web
+        run: |
+          if npm run lint; then
+            echo "status=success" >> $GITHUB_OUTPUT
+            echo "✅ ESLint passed"
+          else
+            echo "status=failure" >> $GITHUB_OUTPUT
+            echo "❌ ESLint failed"
+            exit 1
+          fi
+
+      - name: TypeScript check
+        id: typescript
+        working-directory: ./web
+        run: |
+          if npx tsc --noEmit; then
+            echo "status=success" >> $GITHUB_OUTPUT
+            echo "✅ TypeScript check passed"
+          else
+            echo "status=failure" >> $GITHUB_OUTPUT
+            echo "❌ TypeScript check failed"
+            exit 1
+          fi
+
+      - name: Comment PR
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const eslintStatus = '${{ steps.eslint.outputs.status }}';
+            const tsStatus = '${{ steps.typescript.outputs.status }}';
+            
+            let comment = '## 🔍 代码质量检查\n\n';
+            
+            if (eslintStatus === 'success') {
+              comment += '✅ **ESLint**: 通过\n';
+            } else {
+              comment += '❌ **ESLint**: 失败 - 请修复lint错误后再合并\n';
+            }
+            
+            if (tsStatus === 'success') {
+              comment += '✅ **TypeScript**: 通过\n';
+            } else {
+              comment += '❌ **TypeScript**: 失败 - 请修复类型错误后再合并\n';
+            }
+            
+            if (eslintStatus === 'success' && tsStatus === 'success') {
+              comment += '\n🎉 **所有检查通过！** 可以安全合并此PR。';
+            } else {
+              comment += '\n🚫 **检查失败** - 请修复上述问题后重新提交。';
+            }
+            
+            // 查找现有的机器人评论
+            const { data: comments } = await github.rest.issues.listComments({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            });
+            
+            const botComment = comments.find(comment => 
+              comment.user.type === 'Bot' && 
+              comment.body.includes('代码质量检查')
+            );
+            
+            if (botComment) {
+              // 更新现有评论
+              await github.rest.issues.updateComment({
+                comment_id: botComment.id,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: comment
+              });
+            } else {
+              // 创建新评论
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: comment
+              });
+            }
