@@ -182,6 +182,12 @@ body {
   user-select: none; /* 防止文本选择 */
   -webkit-user-select: none;
   position: relative;
+  perspective: 1000px; /* 3D 透视效果 */
+}
+
+/* 滑动时的容器效果 */
+.word-card-container.swiping {
+  transform-style: preserve-3d;
 }
 
 .swipe-feedback {
@@ -228,6 +234,12 @@ body {
   transform-style: preserve-3d;
   transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 20px;
+  backface-visibility: hidden; /* 隐藏背面 */
+}
+
+/* 滑动时的卡片动画效果 */
+.word-card.swiping {
+  will-change: transform, opacity; /* 优化性能 */
 }
 
 .word-card.flipped {
@@ -832,4 +844,46 @@ body {
   background: rgba(74, 222, 128, 0.15);
   color: #22c55e;
   border: 1px solid rgba(74, 222, 128, 0.3);
+}
+
+/* 滑动时的视觉反馈效果 */
+.word-card-container.swiping::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  pointer-events: none;
+  opacity: 0.1;
+  background: linear-gradient(
+    90deg,
+    rgba(74, 222, 128, 0.2) 0%,
+    transparent 50%,
+    rgba(239, 68, 68, 0.2) 100%
+  );
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+/* 滑动时的光晕效果 */
+.word-card-container.swiping::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.3) 0%,
+    transparent 70%
+  );
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+  z-index: -1;
 }

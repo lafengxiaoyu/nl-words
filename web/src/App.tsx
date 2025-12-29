@@ -37,6 +37,8 @@ function MainApp() {
   const [touchStartX, setTouchStartX] = useState(0)
   const [touchEndX, setTouchEndX] = useState(0)
   const [swipeFeedback, setSwipeFeedback] = useState<string | null>(null)
+  const [swipeOffset, setSwipeOffset] = useState(0) // 滑动偏移量，用于动画
+  const [isSwiping, setIsSwiping] = useState(false) // 是否正在滑动
 
   // 根据路径确定语言模式
   useEffect(() => {
@@ -389,12 +391,22 @@ function MainApp() {
 
   // 触摸事件处理函数
   const handleTouchStart = (e: React.TouchEvent) => {
-    setTouchStartX(e.changedTouches[0].screenX)
-    setTouchEndX(e.changedTouches[0].screenX) // 初始化结束位置
+    const startX = e.changedTouches[0].screenX
+    setTouchStartX(startX)
+    setTouchEndX(startX) // 初始化结束位置
+    setSwipeOffset(0)
+    setIsSwiping(true)
   }
 
   const handleTouchMove = (e: React.TouchEvent) => {
-    setTouchEndX(e.changedTouches[0].screenX)
+    const currentX = e.changedTouches[0].screenX
+    setTouchEndX(currentX)
+    
+    // 计算滑动偏移量，用于实时动画
+    if (touchStartX !== 0) {
+      const offset = currentX - touchStartX
+      setSwipeOffset(offset)
+    }
   }
 
   const handleTouchEnd = () => {
@@ -402,6 +414,8 @@ function MainApp() {
     const navigationThreshold = 200 // 切换单词的滑动阈值（更长，避免冲突）
 
     if (touchStartX === 0 || touchEndX === 0) {
+      setIsSwiping(false)
+      setSwipeOffset(0)
       return
     }
 
@@ -439,9 +453,13 @@ function MainApp() {
       }
     }
 
-    // 重置触摸状态
-    setTouchStartX(0)
-    setTouchEndX(0)
+    // 重置触摸状态和动画
+    setTimeout(() => {
+      setTouchStartX(0)
+      setTouchEndX(0)
+      setSwipeOffset(0)
+      setIsSwiping(false)
+    }, 300) // 等待动画完成
   }
 
   // 获取当前单词的例句和翻译
@@ -537,7 +555,7 @@ function MainApp() {
               </div>
 
               {currentWord && (
-                <div className="word-card-container"
+                <div className={`word-card-container ${isSwiping ? 'swiping' : ''}`}
                      onTouchStart={handleTouchStart}
                      onTouchMove={handleTouchMove}
                      onTouchEnd={handleTouchEnd}>
@@ -546,8 +564,18 @@ function MainApp() {
                   )}
                   <div 
                     key={`word-${currentWord.id}-${currentIndex}`}
-                    className={`word-card ${isFlipped ? 'flipped' : ''}`} 
+                    className={`word-card ${isFlipped ? 'flipped' : ''} ${isSwiping ? 'swiping' : ''}`} 
                     onClick={() => setIsFlipped(!isFlipped)}
+                    style={{
+                      transform: isSwiping 
+                        ? `translateX(${swipeOffset}px) rotateZ(${swipeOffset * 0.15}deg) rotateY(${swipeOffset * 0.1}deg)`
+                        : undefined,
+                      opacity: isSwiping ? Math.max(0.3, 1 - Math.abs(swipeOffset) / 500) : undefined,
+                      transition: isSwiping ? 'none' : 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease-out',
+                      filter: isSwiping && Math.abs(swipeOffset) > 50
+                        ? `drop-shadow(${swipeOffset > 0 ? '4px' : '-4px'} 8px 16px ${swipeOffset > 0 ? 'rgba(74, 222, 128, 0.4)' : 'rgba(239, 68, 68, 0.4)'})`
+                        : undefined,
+                    }}
                   >
                     <div className="card-front">
                       <div className="word-dutch">{currentWord.word}</div>
