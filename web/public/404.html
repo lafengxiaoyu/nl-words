@@ -8,24 +8,25 @@
     // 重定向到正确的语言路径
     const path = window.location.pathname;
 
-    // 提取语言路径（/zh 或 /en）或默认为 /zh
-    let langPath = 'zh'; // 默认中文
+    // 默认重定向到中文路径
+    let lang = 'zh';
 
-    // 检查路径中是否包含 /zh 或 /en
-    if (path.includes('/en')) {
-      langPath = 'en';
-    } else if (path.includes('/zh')) {
-      langPath = 'zh';
+    // 检查路径最后部分是否是 /zh 或 /en
+    const pathSegments = path.split('/').filter(s => s);
+    const lastSegment = pathSegments[pathSegments.length - 1];
+
+    if (lastSegment === 'en') {
+      lang = 'en';
+    } else if (lastSegment === 'zh') {
+      lang = 'zh';
     }
 
     // 构建目标路径：/nl-words/zh 或 /nl-words/en
-    const targetPath = '/nl-words/' + langPath;
+    const targetPath = '/nl-words/' + lang;
 
-    // 如果当前路径已经是目标路径，则不需要重定向
-    if (path === targetPath || path === targetPath + '/') {
-      // 不做任何事，让 React Router 处理
-    } else {
-      window.location.href = targetPath;
+    // 如果当前路径不是目标路径，则重定向
+    if (path !== targetPath && path !== targetPath + '/') {
+      window.location.replace(targetPath);
     }
   </script>
 </head>
