@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import './App.css'
 import { words } from './data/words'
-import type { Word, FamiliarityLevel, DifficultyLevel } from './data/words'
+import type { Word, FamiliarityLevel, DifficultyLevel, Translation } from './data/words'
 import { supabase } from './lib/supabase'
 import { loadUserProgress, saveUserProgress, saveAllUserProgress, mergeProgress } from './lib/progressSync'
 import Auth from './components/Auth'
@@ -169,8 +169,6 @@ function App() {
   const totalCount = wordList.length
   const progressPercentage = totalCount > 0 ? Math.round((masteredCount / totalCount) * 100) : 0
 
-
-
   // 切换当前单词的掌握状态
   const toggleMastered = async () => {
     const currentWord = filteredWordList[currentIndex]
@@ -260,6 +258,18 @@ function App() {
     return <Auth onAuthSuccess={handleAuthSuccess} />
   }
 
+  // 获取当前单词的例句和翻译
+  const getCurrentExample = () => {
+    if (!currentWord?.examples || currentWord.examples.length === 0) {
+      return null
+    }
+    const example = currentWord.examples[0]
+    const translation = currentWord.exampleTranslations?.[0]
+    return { dutch: example, chinese: translation || '' }
+  }
+
+  const currentExample = getCurrentExample()
+
   return (
     <div className="app">
       <header className="header">
@@ -337,17 +347,15 @@ function App() {
               onClick={() => setIsFlipped(!isFlipped)}
             >
               <div className="card-front">
-                <div className="word-dutch">{currentWord.dutch}</div>
-                {currentWord.wordType && (
-                  <div className="word-type">{currentWord.wordType}</div>
-                )}
+                <div className="word-dutch">{currentWord.word}</div>
+                <div className="word-type">{currentWord.partOfSpeech}</div>
               </div>
               <div className="card-back">
-                <div className="word-chinese">{currentWord.chinese}</div>
-                {currentWord.example && (
+                <div className="word-chinese">{currentWord.translation.chinese}</div>
+                {currentExample && (
                   <div className="word-example">
-                    <div className="example-nl">{currentWord.example.dutch}</div>
-                    <div className="example-zh">{currentWord.example.chinese}</div>
+                    <div className="example-nl">{currentExample.dutch}</div>
+                    <div className="example-zh">{currentExample.chinese}</div>
                   </div>
                 )}
               </div>
@@ -513,47 +521,43 @@ function App() {
           <div className="details-panel">
             <h3>单词详情</h3>
             <div className="detail-item">
-              <strong>荷兰语：</strong> {currentWord.dutch}
+              <strong>荷兰语：</strong> {currentWord.word}
             </div>
             <div className="detail-item">
-              <strong>中文：</strong> {currentWord.chinese}
+              <strong>中文：</strong> {currentWord.translation.chinese}
             </div>
-            {currentWord.wordType && (
-              <div className="detail-item">
-                <strong>词性：</strong> {currentWord.wordType}
-              </div>
-            )}
-            {currentWord.difficulty && (
-              <div className="detail-item">
-                <strong>难度：</strong> 
-                <span className={`difficulty-badge difficulty--${currentWord.difficulty}`}>
-                  {currentWord.difficulty}
-                </span>
-              </div>
-            )}
-            {currentWord.familiarity && (
-              <div className="detail-item">
-                <strong>熟悉程度：</strong> 
-                <span className={`familiarity-badge familiarity--${currentWord.familiarity}`}>
-                  {currentWord.familiarity === 'new' && '🆕 新词'}
-                  {currentWord.familiarity === 'learning' && '📖 学习中'}
-                  {currentWord.familiarity === 'familiar' && '😊 熟悉'}
-                  {currentWord.familiarity === 'mastered' && '✅ 已掌握'}
-                </span>
-              </div>
-            )}
-            {currentWord.example && (
+            <div className="detail-item">
+              <strong>英文：</strong> {currentWord.translation.english}
+            </div>
+            <div className="detail-item">
+              <strong>词性：</strong> {currentWord.partOfSpeech}
+            </div>
+            <div className="detail-item">
+              <strong>难度：</strong> 
+              <span className={`difficulty-badge difficulty--${currentWord.difficulty}`}>
+                {currentWord.difficulty}
+              </span>
+            </div>
+            <div className="detail-item">
+              <strong>熟悉程度：</strong> 
+              <span className={`familiarity-badge familiarity--${currentWord.familiarity}`}>
+                {currentWord.familiarity === 'new' && '🆕 新词'}
+                {currentWord.familiarity === 'learning' && '📖 学习中'}
+                {currentWord.familiarity === 'familiar' && '😊 熟悉'}
+                {currentWord.familiarity === 'mastered' && '✅ 已掌握'}
+              </span>
+            </div>
+            {currentWord.examples && currentWord.examples.length > 0 && (
               <div className="detail-item">
                 <strong>例句：</strong>
-                <div className="example-container">
-                  <div className="example-nl">{currentWord.example.dutch}</div>
-                  <div className="example-zh">{currentWord.example.chinese}</div>
-                </div>
-              </div>
-            )}
-            {currentWord.grammar && (
-              <div className="detail-item">
-                <strong>语法说明：</strong> {currentWord.grammar}
+                {currentWord.examples.map((example, index) => (
+                  <div key={index} className="example-container">
+                    <div className="example-nl">{example}</div>
+                    {currentWord.exampleTranslations?.[index] && (
+                      <div className="example-zh">{currentWord.exampleTranslations[index]}</div>
+                    )}
+                  </div>
+                ))}
               </div>
             )}
             {currentWord.notes && (
