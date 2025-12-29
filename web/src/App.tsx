@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import './App.css'
 import { words } from './data/words'
-import type { Word, FamiliarityLevel, DifficultyLevel, Translation } from './data/words'
+import type { Word, FamiliarityLevel, DifficultyLevel } from './data/words'
 import { supabase } from './lib/supabase'
 import { loadUserProgress, saveUserProgress, saveAllUserProgress, mergeProgress } from './lib/progressSync'
 import Auth from './components/Auth'
