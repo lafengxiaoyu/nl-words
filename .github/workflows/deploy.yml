@@ -39,11 +39,23 @@ jobs:
 
       - name: List files before build
         working-directory: ./web
-        run: ls -la
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Files in web:"
+          ls -la
+          echo "Node modules:"
+          ls -la node_modules/.bin/vite || echo "vite not found in node_modules/.bin"
 
-      - name: Build
+      - name: Debug package.json
         working-directory: ./web
-        run: npm run build
+        run: cat package.json
+
+      - name: Build with debug
+        working-directory: ./web
+        run: |
+          echo "Starting build..."
+          npm run build --verbose
+          echo "Build completed with exit code: $?"
         env:
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL || '' }}
           VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY || '' }}
@@ -56,6 +68,8 @@ jobs:
           ls -la dist/ || echo "dist directory not found"
           echo "Current directory:"
           pwd
+          echo "All files:"
+          find . -name "dist" -type d
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
