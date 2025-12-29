@@ -17,10 +17,6 @@ interface SupabaseUser {
   email?: string
 }
 
-interface SupabaseSession {
-  user: SupabaseUser | null
-}
-
 // 主应用组件
 function MainApp() {
   const navigate = useNavigate()
@@ -36,6 +32,10 @@ function MainApp() {
   const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
   const [languageMode, setLanguageMode] = useState<LanguageMode>('chinese')
   const [syncStatus, setSyncStatus] = useState<'idle' | 'syncing' | 'success' | 'error'>('idle')
+
+  // 触摸事件处理
+  const [touchStartX, setTouchStartX] = useState(0)
+  const [touchEndX, setTouchEndX] = useState(0)
 
   // 根据路径确定语言模式
   useEffect(() => {
@@ -120,14 +120,13 @@ function MainApp() {
     checkUser()
 
     try {
-      const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event: string, session: SupabaseSession) => {
-        setUser(session?.user ?? null)
-        if (session?.user) {
-          try {
-            await loadProgressFromSupabase(session.user.id)
-          } catch (error) {
+      const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+        const user = session?.user || null
+        setUser(user)
+        if (user) {
+          loadProgressFromSupabase(user.id).catch((error) => {
             console.error('加载云端进度失败:', error)
-          }
+          })
         }
       })
 
@@ -248,6 +247,39 @@ function MainApp() {
     setIsFlipped(false)
   }
 
+  // 触摸事件处理函数
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStartX(e.changedTouches[0].screenX)
+  }
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    setTouchEndX(e.changedTouches[0].screenX)
+  }
+
+  const handleTouchEnd = () => {
+    const swipeThreshold = 50 // 滑动阈值
+
+    if (!touchStartX || !touchEndX) {
+      return
+    }
+
+    const swipeDistance = touchEndX - touchStartX
+
+    // 向左滑动：下一个
+    if (swipeDistance < -swipeThreshold) {
+      goToNext()
+    }
+
+    // 向右滑动：上一个
+    if (swipeDistance > swipeThreshold) {
+      goToPrevious()
+    }
+
+    // 重置触摸状态
+    setTouchStartX(0)
+    setTouchEndX(0)
+  }
+
   const currentWord = filteredWordList[currentIndex]
 
   // 获取当前单词的例句和翻译
@@ -343,7 +375,10 @@ function MainApp() {
               </div>
 
               {currentWord && (
-                <div className="word-card-container">
+                <div className="word-card-container"
+                     onTouchStart={handleTouchStart}
+                     onTouchMove={handleTouchMove}
+                     onTouchEnd={handleTouchEnd}>
                   <div className={`word-card ${isFlipped ? 'flipped' : ''}`} onClick={() => setIsFlipped(!isFlipped)}>
                     <div className="card-front">
                       <div className="word-dutch">{currentWord.word}</div>

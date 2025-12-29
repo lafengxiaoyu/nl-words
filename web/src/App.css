@@ -178,6 +178,7 @@ body {
   width: 100%;
   max-width: 500px;
   margin-bottom: 30px;
+  touch-action: pan-y; /* 允许垂直滚动，禁止水平滑动 */
 }
 
 /* 单词卡片 */
