@@ -33,6 +33,15 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Debug repository structure
+        run: |
+          echo "Root directory:"
+          pwd
+          echo "Files in root:"
+          ls -la
+          echo "Web directory:"
+          ls -la web/ || echo "web directory not found"
+
       - name: Install dependencies
         working-directory: ./web
         run: npm ci
