@@ -11,8 +11,8 @@
     // 提取语言路径（/zh 或 /en）或默认为 /zh
     const langPath = path.match(/\/(zh|en)\/?$/) ? path.replace(/.*\//, '') : 'zh';
 
-    // 重定向到对应语言路径
-    window.location.href = '/' + langPath;
+    // 重定向到 /nl-words/zh 或 /nl-words/en
+    window.location.href = '/nl-words/' + langPath;
   </script>
 </head>
 <body>
