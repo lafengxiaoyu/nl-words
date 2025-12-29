@@ -81,8 +81,8 @@ nl-words/
 │   │   ├── data/           # 单词数据（JSON格式）
 │   │   ├── lib/            # 工具函数（Supabase等）
 │   │   └── ...
-│   ├── .github/            # GitHub Actions 工作流
 │   └── ...
+├── .github/                # GitHub Actions 工作流
 └── README.md
 ```
 
@@ -113,5 +113,3 @@ MIT
 ---
 
 **注意**: 如果不配置 Supabase，应用会以游客模式运行，学习进度仅保存在本地浏览器中。
-
-
