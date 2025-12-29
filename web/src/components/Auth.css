@@ -1,3 +1,4 @@
+/* 认证容器 */
 .auth-container {
   min-height: 100vh;
   display: flex;
@@ -5,118 +6,183 @@
   justify-content: center;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 20px;
+  position: relative;
+  overflow: hidden;
 }
 
+.auth-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(255, 219, 98, 0.2) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* 认证卡片 */
 .auth-card {
-  background: white;
-  border-radius: 20px;
-  padding: 40px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border-radius: 24px;
+  padding: 50px 40px;
   width: 100%;
-  max-width: 400px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  max-width: 420px;
+  box-shadow: 
+    0 20px 60px rgba(0, 0, 0, 0.3),
+    0 10px 25px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  z-index: 10;
+  animation: slideInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-card h2 {
   text-align: center;
-  color: #333;
+  background: linear-gradient(45deg, #1e293b, #475569);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   margin-bottom: 10px;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-weight: 700;
 }
 
 .auth-subtitle {
   text-align: center;
-  color: #666;
-  margin-bottom: 30px;
-  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 35px;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
+/* 表单样式 */
 .auth-form {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .form-group label {
   display: block;
-  margin-bottom: 8px;
-  color: #333;
+  margin-bottom: 10px;
+  color: #374151;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.025em;
 }
 
 .form-group input {
   width: 100%;
-  padding: 12px;
-  border: 2px solid #e9ecef;
-  border-radius: 8px;
+  padding: 16px 20px;
+  border: 2px solid rgba(59, 130, 246, 0.1);
+  border-radius: 16px;
   font-size: 1rem;
-  transition: border-color 0.3s;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
   box-sizing: border-box;
+  outline: none;
 }
 
 .form-group input:focus {
-  outline: none;
-  border-color: #667eea;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .form-group input:disabled {
-  background-color: #f8f9fa;
+  background-color: rgba(248, 250, 252, 0.8);
   cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.form-group input::placeholder {
+  color: #9ca3af;
+  font-style: italic;
+}
+
+/* 消息样式 */
+.auth-error,
+.auth-message {
+  padding: 16px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .auth-error {
-  background: #fee;
-  color: #c33;
-  padding: 12px;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  font-size: 0.9rem;
-  border: 1px solid #fcc;
+  background: rgba(239, 68, 68, 0.1);
+  color: #dc2626;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-left: 4px solid #ef4444;
 }
 
 .auth-message {
-  background: #efe;
-  color: #3c3;
-  padding: 12px;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  font-size: 0.9rem;
-  border: 1px solid #cfc;
+  background: rgba(74, 222, 128, 0.1);
+  color: #16a34a;
+  border: 1px solid rgba(74, 222, 128, 0.2);
+  border-left: 4px solid #4ade80;
 }
 
+/* 按钮样式 */
 .btn-full {
   width: 100%;
+  margin-bottom: 20px;
 }
 
+/* 认证底部 */
 .auth-footer {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .btn-link {
   background: none;
   border: none;
-  color: #667eea;
+  color: #3b82f6;
   cursor: pointer;
-  font-size: 0.9rem;
-  text-decoration: underline;
-  padding: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-.btn-link:hover {
-  color: #764ba2;
+.btn-link:hover:not(:disabled) {
+  color: #1d4ed8;
+  background: rgba(59, 130, 246, 0.05);
+  transform: translateY(-1px);
 }
 
 .btn-link:disabled {
-  color: #999;
+  color: #9ca3af;
   cursor: not-allowed;
 }
 
+.btn-link:disabled:hover {
+  background: none;
+  transform: none;
+}
+
+/* 分割线 */
 .auth-divider {
   text-align: center;
-  margin: 20px 0;
+  margin: 30px 0;
   position: relative;
 }
 
@@ -125,9 +191,9 @@
   content: '';
   position: absolute;
   top: 50%;
-  width: 40%;
-  height: 1px;
-  background: #e9ecef;
+  width: 35%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(156, 163, 175, 0.3), transparent);
 }
 
 .auth-divider::before {
@@ -139,17 +205,96 @@
 }
 
 .auth-divider span {
-  background: white;
-  padding: 0 15px;
-  color: #999;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 8px 20px;
+  color: #6b7280;
   font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
 }
 
+/* 提示信息 */
 .auth-note {
-  margin-top: 20px;
+  margin-top: 25px;
   text-align: center;
-  color: #666;
-  font-size: 0.85rem;
-  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* 动画 */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .auth-container {
+    padding: 15px;
+  }
+  
+  .auth-card {
+    padding: 40px 30px;
+    max-width: 350px;
+  }
+  
+  .auth-card h2 {
+    font-size: 1.8rem;
+  }
+  
+  .auth-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .form-group input {
+    padding: 14px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .auth-container {
+    padding: 10px;
+  }
+  
+  .auth-card {
+    padding: 30px 20px;
+    margin: 10px;
+  }
+  
+  .auth-card h2 {
+    font-size: 1.6rem;
+  }
+  
+  .form-group input {
+    padding: 12px 16px;
+    font-size: 0.95rem;
+  }
+  
+  .auth-note {
+    font-size: 0.85rem;
+    padding: 15px;
+  }
+}
