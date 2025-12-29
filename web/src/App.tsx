@@ -5,7 +5,7 @@ import { words } from './data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from './data/words'
 import type { ExampleTranslations } from './data/types'
 import { supabase } from './lib/supabase'
-import { loadUserProgress, saveUserProgress, saveAllUserProgress, mergeProgress, incrementViewCount, updateMasteryStats, updateTestStats } from './lib/progressSync'
+import { loadUserProgress, saveUserProgress, saveAllUserProgress, mergeProgress, incrementViewCount, updateMasteryStats } from './lib/progressSync'
 import Auth from './components/Auth'
 
 // 语言模式类型
@@ -188,6 +188,9 @@ function MainApp() {
     setIsFlipped(false)
   }, [currentIndex])
 
+  // 当前单词（需要在 useEffect 之前定义，以便在 useEffect 中使用）
+  const currentWord = filteredWordList[currentIndex]
+
   // 计算学习进度
   const masteredCount = wordList.filter(w => w.mastered).length
   const totalCount = wordList.length
@@ -296,56 +299,6 @@ function MainApp() {
     }
   }
 
-  // 测试功能接口（为将来扩展使用）
-  // 当用户完成测试时，调用此函数记录测试结果
-  const recordTestResult = async (wordId: number, isCorrect: boolean) => {
-    const word = wordList.find(w => w.id === wordId)
-    if (!word) return
-
-    if (user) {
-      try {
-        const updatedStats = await updateTestStats(user.id, wordId, isCorrect, word.stats)
-        const updatedWords = wordList.map(w =>
-          w.id === wordId
-            ? { ...w, stats: updatedStats }
-            : w
-        )
-        setWordList(updatedWords)
-        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
-        await saveProgressToSupabase(updatedWords.find(w => w.id === wordId)!)
-      } catch (error) {
-        console.error('记录测试结果失败:', error)
-      }
-    } else {
-      // 本地模式：更新本地统计数据
-      const currentStats = word.stats || {
-        viewCount: 0,
-        masteredCount: 0,
-        unmasteredCount: 0,
-        testCount: 0,
-        testCorrectCount: 0,
-        testWrongCount: 0,
-      }
-      
-      const updatedStats = {
-        ...currentStats,
-        testCount: currentStats.testCount + 1,
-        testCorrectCount: isCorrect ? currentStats.testCorrectCount + 1 : currentStats.testCorrectCount,
-        testWrongCount: !isCorrect ? currentStats.testWrongCount + 1 : currentStats.testWrongCount,
-        lastTestedAt: new Date().toISOString(),
-      }
-      
-      const updatedWords = wordList.map(w =>
-        w.id === wordId
-          ? { ...w, stats: updatedStats }
-          : w
-      )
-      
-      setWordList(updatedWords)
-      localStorage.setItem('nl-words', JSON.stringify(updatedWords))
-    }
-  }
-
   // 导航函数
   const goToNext = () => {
     // 如果卡片是翻转状态，先重置，等待动画完成后再切换
@@ -430,9 +383,9 @@ function MainApp() {
         localStorage.setItem('nl-words', JSON.stringify(updatedWords))
       }
     }
-    
+
     recordView()
-  }, [currentWord?.id, user?.id]) // 只在单词ID或用户ID变化时触发
+  }, [currentWord?.id, user?.id, currentWord, user, wordList]) // 依赖所有使用的变量
 
   // 触摸事件处理函数
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -490,8 +443,6 @@ function MainApp() {
     setTouchStartX(0)
     setTouchEndX(0)
   }
-
-  const currentWord = filteredWordList[currentIndex]
 
   // 获取当前单词的例句和翻译
   const getCurrentExample = () => {

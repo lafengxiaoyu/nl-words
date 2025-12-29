@@ -121,7 +121,7 @@ export async function incrementViewCount(
 
   try {
     // 先获取当前记录
-    const { data: existing, error: fetchError } = await supabase
+    const { data: existing } = await supabase
       .from('user_progress')
       .select('*')
       .eq('user_id', userId)
