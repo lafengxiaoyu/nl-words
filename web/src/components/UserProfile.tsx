@@ -9,7 +9,6 @@ interface UserProfileProps {
 }
 
 export default function UserProfile({ user, onClose, languageMode }: UserProfileProps) {
-  const [currentPassword, setCurrentPassword] = useState('')
   const [newPassword, setNewPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
   const [loading, setLoading] = useState(false)
@@ -87,7 +86,6 @@ export default function UserProfile({ user, onClose, languageMode }: UserProfile
       if (error) throw error
 
       setMessage(text.success)
-      setCurrentPassword('')
       setNewPassword('')
       setConfirmPassword('')
     } catch (err: unknown) {

@@ -19,7 +19,6 @@ interface ProfilePageProps {
 export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const navigate = useNavigate()
   const [user, setUser] = useState<User | null>(null)
-  const [currentPassword, setCurrentPassword] = useState('')
   const [newPassword, setNewPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
   const [loading, setLoading] = useState(false)
@@ -108,7 +107,6 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       if (error) throw error
 
       setMessage(text.success)
-      setCurrentPassword('')
       setNewPassword('')
       setConfirmPassword('')
     } catch (err: unknown) {
