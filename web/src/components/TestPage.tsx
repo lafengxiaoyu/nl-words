@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import type { Word, FamiliarityLevel } from '../data/words'
+import type { Word } from '../data/words'
 import { words } from '../data/words'
 import './TestPage.css'
 
