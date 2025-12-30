@@ -42,8 +42,16 @@ export async function loadUserProgress(userId: string): Promise<Map<number, Part
     }
 
     return progressMap
-  } catch (error) {
+  } catch (error: any) {
     console.error('加载学习进度失败:', error)
+    // 提供更详细的错误信息
+    if (error?.code === 'PGRST116') {
+      console.error('❌ 数据库表 user_progress 不存在，请运行 SUPABASE_SETUP.md 中的 SQL 脚本')
+    } else if (error?.code === '42703') {
+      console.error('❌ 数据库表缺少必要的字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
+    } else if (error?.message?.includes('JWT')) {
+      console.error('❌ 认证失败，请检查 Supabase 配置和用户登录状态')
+    }
     throw error
   }
 }
@@ -91,8 +99,16 @@ export async function saveUserProgress(
       })
 
     if (error) throw error
-  } catch (error) {
+  } catch (error: any) {
     console.error('保存学习进度失败:', error)
+    // 提供更详细的错误信息
+    if (error?.code === 'PGRST116') {
+      console.error('❌ 数据库表 user_progress 不存在，请运行 SUPABASE_SETUP.md 中的 SQL 脚本')
+    } else if (error?.code === '42703') {
+      console.error('❌ 数据库表缺少必要的字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
+    } else if (error?.message?.includes('JWT') || error?.message?.includes('permission')) {
+      console.error('❌ 权限错误，请检查 RLS 策略和用户认证状态')
+    }
     throw error
   }
 }
@@ -160,8 +176,11 @@ export async function incrementViewCount(
 
     if (error) throw error
     return newStats
-  } catch (error) {
+  } catch (error: any) {
     console.error('更新查看统计失败:', error)
+    if (error?.code === '42703') {
+      console.error('❌ 数据库表缺少统计字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
+    }
     // 返回本地计算的统计数据
     return {
       viewCount: (currentStats?.viewCount || 0) + 1,
@@ -236,8 +255,11 @@ export async function updateMasteryStats(
 
     if (error) throw error
     return newStats
-  } catch (error) {
+  } catch (error: any) {
     console.error('更新掌握统计失败:', error)
+    if (error?.code === '42703') {
+      console.error('❌ 数据库表缺少统计字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
+    }
     return {
       viewCount: currentStats?.viewCount || 0,
       masteredCount: isMastered ? (currentStats?.masteredCount || 0) + 1 : (currentStats?.masteredCount || 0),
@@ -312,8 +334,11 @@ export async function updateTestStats(
 
     if (error) throw error
     return newStats
-  } catch (error) {
+  } catch (error: any) {
     console.error('更新测试统计失败:', error)
+    if (error?.code === '42703') {
+      console.error('❌ 数据库表缺少统计字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
+    }
     return {
       viewCount: currentStats?.viewCount || 0,
       masteredCount: currentStats?.masteredCount || 0,
@@ -370,8 +395,13 @@ export async function saveAllUserProgress(
       })
 
     if (error) throw error
-  } catch (error) {
+  } catch (error: any) {
     console.error('批量保存学习进度失败:', error)
+    if (error?.code === '42703') {
+      console.error('❌ 数据库表缺少必要的字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
+    } else if (error?.message?.includes('JWT') || error?.message?.includes('permission')) {
+      console.error('❌ 权限错误，请检查 RLS 策略和用户认证状态')
+    }
     throw error
   }
 }

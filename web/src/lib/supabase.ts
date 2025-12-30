@@ -9,9 +9,25 @@ const isSupabaseConfigured = supabaseUrl !== 'https://placeholder.supabase.co' &
 
 if (!isSupabaseConfigured) {
   console.warn('Supabase 配置未设置，应用将以游客模式运行。请设置环境变量 VITE_SUPABASE_URL 和 VITE_SUPABASE_ANON_KEY')
+} else {
+  // 验证配置格式
+  if (!supabaseUrl.startsWith('https://') || !supabaseUrl.includes('.supabase.co')) {
+    console.error('⚠️ Supabase URL 格式不正确，应为: https://xxxxx.supabase.co')
+  }
+  if (supabaseAnonKey.length < 50) {
+    console.error('⚠️ Supabase Anon Key 格式可能不正确，请检查环境变量')
+  }
 }
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey)
+// 创建 Supabase 客户端，配置自动刷新 token
+export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
+  auth: {
+    autoRefreshToken: true,
+    persistSession: true,
+    detectSessionInUrl: true
+  }
+})
+
 export { isSupabaseConfigured }
 
 // 学习统计信息（数据库格式）
