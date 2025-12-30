@@ -6,11 +6,11 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* 支持国旗表情符号 */
-  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   /* 移动端优化 */
   -webkit-tap-highlight-color: transparent; /* 移除点击高亮 */
   overscroll-behavior-y: contain; /* 防止过度滚动 */
@@ -325,7 +325,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    padding-top: 35px;
+    padding-top: 17px;
     gap: 3px;
   }
 
@@ -349,6 +349,7 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 100%;
+    gap: 6px;
   }
 
   .header h1 {
@@ -470,6 +471,7 @@ body {
   font-weight: 600;
   margin-bottom: 8px;
   opacity: 0.9;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
 /* 同步状态 */
@@ -505,23 +507,6 @@ body {
   background: rgba(239, 68, 68, 0.2);
   color: #ef4444;
   border: 1px solid rgba(239, 68, 68, 0.3);
-}
-
-/* 用户信息 */
-.user-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-/* 移动端用户信息优化 */
-@media (max-width: 768px) {
-  .user-info {
-    gap: 10px;
-    font-size: 0.9rem;
-  }
 }
 
 @media (max-width: 480px) {
@@ -796,6 +781,7 @@ body {
   font-weight: 800;
   margin-bottom: 15px;
   line-height: 1.2;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
   background: linear-gradient(45deg, #1e293b, #475569);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -837,6 +823,7 @@ body {
   color: #334155;
   letter-spacing: -0.02em;
   margin: 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
 .word-type {
@@ -854,12 +841,13 @@ body {
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.4;
-  word-spacing: -0.3em;
+  word-spacing: -0.05em;
   color: #1e293b;
   margin: 0;
   padding: 8px 16px;
   background: rgba(59, 130, 246, 0.05);
   border-radius: 12px;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
 /* 例句 */
@@ -890,14 +878,21 @@ body {
   color: #374151;
   flex: 1;
   font-weight: 500;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
 .example-zh,
 .example-english {
   font-size: 1.05rem;
   color: #6b7280;
-  word-spacing: -0.15em;
+  word-spacing: -0.02em;
   line-height: 1.6;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+/* 卡片背面的英文例句需要更亮的颜色 */
+.card-back .example-english {
+  color: rgba(255, 255, 255, 0.95);
 }
 
 /* 单词信息 */
@@ -974,6 +969,11 @@ body {
   margin-bottom: 30px;
   justify-content: center;
   align-items: center;
+}
+
+/* 中间按钮固定宽度，避免布局浮动 */
+.navigation .btn:nth-child(2) {
+  min-width: 140px;
 }
 
 /* 工具按钮 */
@@ -1514,7 +1514,7 @@ body {
 
   .navigation {
     flex-direction: row;
-    gap: 10px;
+    gap: 8px;
     margin-bottom: 16px;
     width: 100%;
     max-width: 500px;
@@ -1524,10 +1524,15 @@ body {
   .navigation .btn {
     flex: 1;
     min-height: 44px;
-    font-size: 0.9rem;
-    padding: 10px 12px;
+    font-size: 0.85rem;
+    padding: 8px 10px;
     border-radius: 10px;
     white-space: nowrap;
+  }
+
+  /* 移动端中间按钮固定宽度 */
+  .navigation .btn:nth-child(2) {
+    min-width: 110px;
   }
 
   .difficulty-filters {
@@ -1750,14 +1755,19 @@ body {
   }
 
   .navigation {
-    gap: 10px;
+    gap: 8px;
     margin-bottom: 20px;
   }
 
   .navigation .btn {
     min-height: 48px;
-    font-size: 0.95rem;
-    padding: 12px 18px;
+    font-size: 0.85rem;
+    padding: 10px 12px;
+  }
+
+  /* 小屏幕中间按钮固定宽度 */
+  .navigation .btn:nth-child(2) {
+    min-width: 110px;
   }
 
   .difficulty-filters {

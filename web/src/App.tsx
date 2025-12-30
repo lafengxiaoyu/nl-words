@@ -753,6 +753,17 @@ function MainApp() {
                 </nav>
 
                 <div className="header-right">
+                  {/* 用户按钮 */}
+                  {user ? (
+                    <button className="btn btn-outline btn-sm user-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/profile`)}>
+                      👤 {user.user_metadata?.name || user.user_metadata?.full_name || user.email?.split('@')[0]}
+                    </button>
+                  ) : (
+                    <button className="btn btn-outline btn-sm user-btn" onClick={() => setShowAuth(true)}>
+                      👤 {t.loginButton}
+                    </button>
+                  )}
+
                   {/* 桌面端语言选择器 */}
                   <div className="language-selector-header">
                     <button
@@ -781,17 +792,6 @@ function MainApp() {
                     </button>
                     <span className="switch-label">🇺🇸</span>
                   </div>
-
-                  {/* 用户按钮 */}
-                  {user ? (
-                    <button className="btn btn-outline btn-sm user-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/profile`)}>
-                      👤 {user.user_metadata?.name || user.user_metadata?.full_name || user.email?.split('@')[0]}
-                    </button>
-                  ) : (
-                    <button className="btn btn-outline btn-sm user-btn" onClick={() => setShowAuth(true)}>
-                      👤 {t.loginButton}
-                    </button>
-                  )}
 
                   {/* 汉堡菜单按钮 - 仅在移动端显示 */}
                   <button
@@ -841,12 +841,6 @@ function MainApp() {
                   {syncStatus === 'syncing' && t.syncStatus.syncing}
                   {syncStatus === 'success' && t.syncStatus.success}
                   {syncStatus === 'error' && t.syncStatus.error}
-                </div>
-              )}
-
-              {!user && (
-                <div className="user-info">
-                  <button className="btn btn-outline" onClick={() => setShowAuth(true)}>{t.loginButton}</button>
                 </div>
               )}
             </header>
@@ -918,7 +912,7 @@ function MainApp() {
                       <div className="word-translation">
                         {languageMode === 'chinese' ? currentWord.translation.chinese : currentWord.translation.english}
                       </div>
-                      {currentExample && (
+                      {currentExample && currentExample.dutch && (
                         <div className="word-example">
                           <div className="example-header">
                             <div className="example-nl">{currentExample.dutch}</div>
@@ -933,9 +927,11 @@ function MainApp() {
                               <SpeakerIcon isSpeaking={isSpeaking} />
                             </button>
                           </div>
-                          <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english' : ''}`}>
-                            {languageMode === 'chinese' ? currentExample.chinese : currentExample.english}
-                          </div>
+                          {(languageMode === 'chinese' ? currentExample.chinese : currentExample.english) && (
+                            <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english' : ''}`}>
+                              {languageMode === 'chinese' ? currentExample.chinese : currentExample.english}
+                            </div>
+                          )}
                         </div>
                       )}
                       <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty`}>{currentWord.difficulty}</span>
