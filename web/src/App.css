@@ -475,11 +475,20 @@ body {
   border-left: 4px solid #3b82f6;
 }
 
+.example-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .example-nl {
   font-size: 1.1rem;
   margin-bottom: 8px;
   font-style: italic;
   color: #374151;
+  flex: 1;
 }
 
 .example-zh,
@@ -985,6 +994,18 @@ body {
     font-size: 2.2rem;
   }
 
+  .example-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .example-nl {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    flex: 1;
+  }
+
   .speak-btn {
     top: 12px;
     left: 12px;
@@ -1206,6 +1227,18 @@ body {
 
   .word-dutch.word-normal {
     font-size: 1.9rem;
+  }
+
+  .example-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .example-nl {
+    margin-bottom: 8px;
+    margin-right: 8px;
+    flex: 1;
   }
 
   .speak-btn {
