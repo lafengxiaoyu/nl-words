@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+html {
+  /* 移动端优化 */
+  -webkit-text-size-adjust: 100%; /* 防止 iOS Safari 自动调整字体 */
+  -webkit-tap-highlight-color: transparent; /* 移除点击高亮 */
+  height: -webkit-fill-available; /* iOS Safari 全屏支持 */
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,8 +19,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
+  min-height: -webkit-fill-available; /* iOS Safari 全屏支持 */
+  /* 移动端优化 */
+  overscroll-behavior-y: contain; /* 防止过度滚动 */
+  position: relative;
 }
 
 #root {
   min-height: 100vh;
+  min-height: -webkit-fill-available; /* iOS Safari 全屏支持 */
 }
