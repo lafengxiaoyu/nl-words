@@ -321,6 +321,15 @@ function MainApp() {
   const calculateFilteredWordList = useCallback(() => {
     if (selectedDifficulty === 'all') {
       return wordList
+    } else if (selectedDifficulty === 'A1') {
+      // A1-A2 组合筛选
+      return wordList.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+    } else if (selectedDifficulty === 'B1') {
+      // B1-B2 组合筛选
+      return wordList.filter(w => w.difficulty === 'B1' || w.difficulty === 'B2')
+    } else if (selectedDifficulty === 'C1') {
+      // C1-C2 组合筛选
+      return wordList.filter(w => w.difficulty === 'C1' || w.difficulty === 'C2')
     } else {
       return wordList.filter(w => w.difficulty === selectedDifficulty)
     }
@@ -340,9 +349,9 @@ function MainApp() {
   // 当前单词（需要在 useEffect 之前定义，以便在 useEffect 中使用）
   const currentWord = filteredWordList[currentIndex]
 
-  // 计算学习进度
-  const masteredCount = wordList.filter(w => w.mastered).length
-  const totalCount = wordList.length
+  // 计算学习进度 - 基于筛选后的列表
+  const masteredCount = filteredWordList.filter(w => w.mastered).length
+  const totalCount = filteredWordList.length
   const progressPercentage = totalCount > 0 ? Math.round((masteredCount / totalCount) * 100) : 0
 
   // 切换当前单词的掌握状态
@@ -682,6 +691,17 @@ function MainApp() {
 
   const currentExample = getCurrentExample()
 
+  // 根据单词长度计算字号类别
+  const getWordLengthClass = (word: string) => {
+    const length = word.length
+    if (length <= 10) return 'word-normal'
+    if (length <= 15) return 'word-medium'
+    if (length <= 20) return 'word-long'
+    return 'word-very-long'
+  }
+
+  const currentWordLengthClass = currentWord ? getWordLengthClass(currentWord.word) : 'word-normal'
+
   const handleAuthSuccess = () => {
     setShowAuth(false)
   }
@@ -784,11 +804,12 @@ function MainApp() {
                     }}
                   >
                     <div className="card-front">
-                      <div className="word-dutch">{currentWord.word}</div>
+                      <div className={`word-dutch ${currentWordLengthClass}`}>{currentWord.word}</div>
                       <div className="word-type">{currentWord.partOfSpeech}</div>
                       <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty`}>{currentWord.difficulty}</span>
                     </div>
                     <div className="card-back">
+                      <div className="word-dutch-small">{currentWord.word}</div>
                       <div className="word-translation">
                         {languageMode === 'chinese' ? currentWord.translation.chinese : currentWord.translation.english}
                       </div>

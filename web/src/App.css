@@ -135,7 +135,7 @@ body {
 .stats {
   font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   opacity: 0.9;
 }
 
@@ -145,7 +145,7 @@ body {
   padding: 6px 12px;
   border-radius: 20px;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -293,9 +293,6 @@ body {
 }
 
 /* 滑动时如果卡片是翻转状态，需要在滑动的基础上加上翻转 */
-.word-card.swiping.flipped {
-  /* 注意：这个样式会通过内联样式覆盖，所以这里不需要设置 */
-}
 
 .card-front,
 .card-back {
@@ -358,6 +355,32 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   letter-spacing: -0.05em;
+  transition: font-size 0.3s ease;
+}
+
+/* 根据单词长度调整字号 */
+.word-dutch.word-normal {
+  font-size: 3.5rem;
+}
+
+.word-dutch.word-medium {
+  font-size: 2.8rem;
+}
+
+.word-dutch.word-long {
+  font-size: 2.2rem;
+}
+
+.word-dutch.word-very-long {
+  font-size: 1.6rem;
+}
+
+.word-dutch-small {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #334155;
+  letter-spacing: -0.05em;
 }
 
 .word-translation {
@@ -365,7 +388,7 @@ body {
   font-weight: 600;
   margin-bottom: 20px;
   line-height: 1.4;
-  word-spacing: -0.1em; /* 减小英文单词之间的间距 */
+  word-spacing: -0.5em; /* 减小英文单词之间的间距 */
 }
 
 .word-type {
@@ -397,7 +420,7 @@ body {
 .example-english {
   font-size: 1rem;
   color: #6b7280;
-  word-spacing: -0.08em; /* 减小英文单词之间的间距 */
+  word-spacing: -0.2em; /* 减小英文单词之间的间距 */
 }
 
 /* 单词信息 */
@@ -877,12 +900,13 @@ body {
 
   .stats {
     font-size: 1rem;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
   }
 
   .sync-status {
     font-size: 0.85rem;
     padding: 8px 14px;
+    margin-bottom: 6px;
   }
 
   .word-dutch {
@@ -891,10 +915,26 @@ body {
     letter-spacing: -0.05em;
   }
 
+  .word-dutch.word-normal {
+    font-size: 2.2rem;
+  }
+
+  .word-dutch.word-medium {
+    font-size: 1.8rem;
+  }
+
+  .word-dutch.word-long {
+    font-size: 1.4rem;
+  }
+
+  .word-dutch.word-very-long {
+    font-size: 1.1rem;
+  }
+
   .word-translation {
     font-size: 1.8rem;
     margin-bottom: 16px;
-    word-spacing: -0.1em; /* 减小英文单词之间的间距 */
+    word-spacing: -0.4em; /* 减小英文单词之间的间距 */
   }
 
   .word-card {
@@ -1070,11 +1110,13 @@ body {
 
   .stats {
     font-size: 0.95rem;
+    margin-bottom: 6px;
   }
 
   .sync-status {
     font-size: 0.8rem;
     padding: 6px 12px;
+    margin-bottom: 6px;
   }
 
   .word-dutch {
@@ -1082,10 +1124,26 @@ body {
     margin-bottom: 10px;
   }
 
+  .word-dutch.word-normal {
+    font-size: 1.9rem;
+  }
+
+  .word-dutch.word-medium {
+    font-size: 1.5rem;
+  }
+
+  .word-dutch.word-long {
+    font-size: 1.2rem;
+  }
+
+  .word-dutch.word-very-long {
+    font-size: 1rem;
+  }
+
   .word-translation {
     font-size: 1.5rem;
     margin-bottom: 14px;
-    word-spacing: -0.1em; /* 减小英文单词之间的间距 */
+    word-spacing: -0.35em; /* 减小英文单词之间的间距 */
   }
 
   .word-card {
