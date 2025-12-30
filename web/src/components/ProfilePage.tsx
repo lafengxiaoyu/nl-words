@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
+import { words } from '../data/words'
+import type { Word, FamiliarityLevel, DifficultyLevel } from '../data/words'
 import './ProfilePage.css'
 
 interface User {
@@ -19,11 +21,17 @@ interface ProfilePageProps {
 export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const navigate = useNavigate()
   const [user, setUser] = useState<User | null>(null)
+  const [wordList, setWordList] = useState<Word[]>(words)
   const [newPassword, setNewPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [message, setMessage] = useState<string | null>(null)
+
+  // 计算学习统计
+  const masteredCount = wordList.filter(w => w.mastered).length
+  const totalCount = wordList.length
+  const progressPercentage = totalCount > 0 ? Math.round((masteredCount / totalCount) * 100) : 0
 
   const t = {
     chinese: {
@@ -31,6 +39,31 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       accountInfo: '账户信息',
       username: '用户名',
       email: '邮箱',
+      learningStats: '学习统计',
+      totalWords: '总单词数',
+      mastered: '已掌握',
+      masteryRate: '掌握率',
+      difficultyStats: '按难度统计',
+      familiarityStats: '按熟悉程度统计',
+      testStats: {
+        viewCount: '查看次数',
+        masteredCount: '标记掌握',
+        unmasteredCount: '标记未掌握',
+        testCount: '测试次数',
+        correctCount: '测试正确',
+        wrongCount: '测试错误',
+              accuracy: '正确率',
+        lastViewed: '最后查看',
+        lastTested: '最后测试'
+      },
+      resetProgress: '确定要重置所有学习进度吗？此操作不可撤销。',
+      resetButton: '🔄 重置进度',
+      familiarityLabels: {
+        new: '🆕 新词',
+        learning: '📖 学习中',
+        familiar: '😊 熟悉',
+        mastered: '✅ 已掌握'
+      },
       changePassword: '修改密码',
       newPassword: '新密码',
       confirmPassword: '确认密码',
@@ -51,6 +84,31 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       accountInfo: 'Account Information',
       username: 'Username',
       email: 'Email',
+      learningStats: 'Learning Statistics',
+      totalWords: 'Total Words',
+      mastered: 'Mastered',
+      masteryRate: 'Mastery Rate',
+      difficultyStats: 'By Difficulty',
+      familiarityStats: 'By Familiarity',
+      testStats: {
+        viewCount: 'Views',
+        masteredCount: 'Marked Mastered',
+        unmasteredCount: 'Marked Unmastered',
+        testCount: 'Tests',
+        correctCount: 'Correct',
+        wrongCount: 'Wrong',
+              accuracy: 'Accuracy',
+        lastViewed: 'Last Viewed',
+        lastTested: 'Last Tested'
+      },
+      resetProgress: 'Are you sure you want to reset all learning progress? This action cannot be undone.',
+      resetButton: '🔄 Reset Progress',
+      familiarityLabels: {
+        new: '🆕 New',
+        learning: '📖 Learning',
+        familiar: '😊 Familiar',
+        mastered: '✅ Mastered'
+      },
       changePassword: 'Change Password',
       newPassword: 'New Password',
       confirmPassword: 'Confirm Password',
@@ -80,7 +138,36 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       }
     }
     getUser()
+
+    // Load word list from localStorage
+    const savedWords = localStorage.getItem('nl-words')
+    if (savedWords) {
+      try {
+        const parsed = JSON.parse(savedWords)
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          setWordList(parsed)
+        }
+      } catch (e) {
+        console.error('Failed to load saved words', e)
+      }
+    }
   }, [navigate, languageMode])
+
+  // 重置进度
+  const resetProgress = async () => {
+    if (window.confirm(languageMode === 'chinese' ? '确定要重置所有学习进度吗？此操作不可撤销。' : 'Are you sure you want to reset all learning progress? This action cannot be undone.')) {
+      const resetWords = wordList.map(word => ({
+        ...word,
+        mastered: false,
+        familiarity: 'new' as FamiliarityLevel,
+        stats: undefined
+      }))
+
+      setWordList(resetWords)
+      localStorage.setItem('nl-words', JSON.stringify(resetWords))
+      // Note: If you have Supabase sync, add sync here
+    }
+  }
 
   const handleChangePassword = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -158,6 +245,70 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
                   <div className="info-value">{user.email || 'N/A'}</div>
                 </div>
               </div>
+            </section>
+
+            <hr className="profile-divider" />
+
+            {/* Learning Stats Section */}
+            <section className="profile-section">
+              <h2>{text.learningStats}</h2>
+              <div className="stats-grid">
+                <div className="stat-item">
+                  <div className="stat-label">{text.totalWords}</div>
+                  <div className="stat-value">{totalCount}</div>
+                </div>
+                <div className="stat-item">
+                  <div className="stat-label">{text.mastered}</div>
+                  <div className="stat-value">{masteredCount}</div>
+                </div>
+                <div className="stat-item">
+                  <div className="stat-label">{text.masteryRate}</div>
+                  <div className="stat-value">{progressPercentage}%</div>
+                </div>
+              </div>
+              <div className="difficulty-stats">
+                <h3>{text.difficultyStats}</h3>
+                {(['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as DifficultyLevel[]).map(level => {
+                  const levelWords = wordList.filter(w => w.difficulty === level)
+                  const levelMastered = levelWords.filter(w => w.mastered).length
+                  const levelPercentage = levelWords.length > 0 ? Math.round((levelMastered / levelWords.length) * 100) : 0
+                  return (
+                    <div key={level} className="difficulty-stat">
+                      <span className="difficulty-badge difficulty--{level}">{level}</span>
+                      <span>{levelMastered}/{levelWords.length}</span>
+                      <span>({levelPercentage}%)</span>
+                    </div>
+                  )
+                })}
+              </div>
+              <div className="familiarity-stats">
+                <h3>{text.familiarityStats}</h3>
+                {(['new', 'learning', 'familiar', 'mastered'] as FamiliarityLevel[]).map(level => {
+                  const levelWords = wordList.filter(w => w.familiarity === level)
+                  const levelPercentage = wordList.length > 0 ? Math.round((levelWords.length / wordList.length) * 100) : 0
+                  return (
+                    <div key={level} className="familiarity-stat">
+                      <span className={`familiarity-badge familiarity--${level}`}>
+                        {text.familiarityLabels[level]}
+                      </span>
+                      <span>{levelWords.length}</span>
+                      <span>({levelPercentage}%)</span>
+                    </div>
+                  )
+                })}
+              </div>
+            </section>
+
+            <hr className="profile-divider" />
+
+            {/* Reset Progress Section */}
+            <section className="profile-section">
+              <button
+                className="btn btn-danger btn-full"
+                onClick={resetProgress}
+              >
+                {text.resetButton}
+              </button>
             </section>
 
             <hr className="profile-divider" />

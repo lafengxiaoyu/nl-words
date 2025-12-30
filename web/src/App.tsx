@@ -34,7 +34,6 @@ function MainApp() {
   const [filteredWordList, setFilteredWordList] = useState<Word[]>(words)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isFlipped, setIsFlipped] = useState(false)
-  const [showStats, setShowStats] = useState(false)
   const [showDetails, setShowDetails] = useState(false)
   const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
   const [languageMode, setLanguageMode] = useState<LanguageMode>('chinese')
@@ -81,7 +80,6 @@ function MainApp() {
       resetProgress: '确定要重置所有学习进度吗？此操作不可撤销。',
       resetButton: '🔄 重置进度',
       shuffleButton: '🔀 随机排序',
-      showStatsButton: (show: boolean) => show ? '隐藏统计' : '显示统计',
       showDetailsButton: (show: boolean) => show ? '隐藏详情' : '显示详情',
       prevButton: '上一个',
       nextButton: '下一个',
@@ -151,7 +149,6 @@ function MainApp() {
       resetProgress: 'Are you sure you want to reset all learning progress? This action cannot be undone.',
       resetButton: '🔄 Reset Progress',
       shuffleButton: '🔀 Shuffle',
-      showStatsButton: (show: boolean) => show ? 'Hide Stats' : 'Show Stats',
       showDetailsButton: (show: boolean) => show ? 'Hide Details' : 'Show Details',
       prevButton: 'Prev',
       nextButton: 'Next',
@@ -348,6 +345,22 @@ function MainApp() {
     }
   }
 
+  // 重置进度
+  const resetProgress = async () => {
+    if (window.confirm(t.resetProgress)) {
+      const resetWords = wordList.map(word => ({
+        ...word,
+        mastered: false,
+        familiarity: 'new' as FamiliarityLevel,
+        stats: undefined // Reset stats
+      }))
+
+      setWordList(resetWords)
+      localStorage.setItem('nl-words', JSON.stringify(resetWords))
+      await saveAllProgressToSupabase()
+    }
+  }
+
   // 计算筛选后的单词列表
   const calculateFilteredWordList = useCallback(() => {
     if (selectedDifficulty === 'all') {
@@ -470,22 +483,6 @@ function MainApp() {
     setWordList(shuffled)
     setCurrentIndex(0)
     setIsFlipped(false)
-  }
-
-  // 重置进度
-  const resetProgress = async () => {
-    if (window.confirm(t.resetProgress)) {
-      const resetWords = wordList.map(word => ({
-        ...word,
-        mastered: false,
-        familiarity: 'new' as FamiliarityLevel,
-        stats: undefined // Reset stats
-      }))
-
-      setWordList(resetWords)
-      localStorage.setItem('nl-words', JSON.stringify(resetWords))
-      await saveAllProgressToSupabase()
-    }
   }
 
   // 导航函数
@@ -890,61 +887,9 @@ function MainApp() {
 
               <div className="tools">
                 <button className="btn btn-outline" onClick={shuffleWords}>{t.shuffleButton}</button>
-                <button className="btn btn-outline" onClick={() => setShowStats(!showStats)}>{t.showStatsButton(showStats)}</button>
+                <button className="btn btn-danger btn-outline" onClick={resetProgress}>{t.resetButton}</button>
                 <button className="btn btn-outline" onClick={() => setShowDetails(!showDetails)}>{t.showDetailsButton(showDetails)}</button>
               </div>
-
-              {showStats && (
-                <div className="stats-panel">
-                  <h3>{t.statsPanel.title}</h3>
-                  <div className="stats-grid">
-                    <div className="stat-item">
-                      <div className="stat-label">{t.statsPanel.totalWords}</div>
-                      <div className="stat-value">{totalCount}</div>
-                    </div>
-                    <div className="stat-item">
-                      <div className="stat-label">{t.statsPanel.mastered}</div>
-                      <div className="stat-value">{masteredCount}</div>
-                    </div>
-                    <div className="stat-item">
-                      <div className="stat-label">{t.statsPanel.masteryRate}</div>
-                      <div className="stat-value">{progressPercentage}%</div>
-                    </div>
-                  </div>
-                  <div className="difficulty-stats">
-                    <h4>{t.statsPanel.difficultyStats}</h4>
-                    {(['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as DifficultyLevel[]).map(level => {
-                      const levelWords = wordList.filter(w => w.difficulty === level)
-                      const levelMastered = levelWords.filter(w => w.mastered).length
-                      const levelPercentage = levelWords.length > 0 ? Math.round((levelMastered / levelWords.length) * 100) : 0
-                      return (
-                        <div key={level} className="difficulty-stat">
-                          <span className="difficulty-badge difficulty--{level}">{level}</span>
-                          <span>{levelMastered}/{levelWords.length}</span>
-                          <span>({levelPercentage}%)</span>
-                        </div>
-                      )
-                    })}
-                  </div>
-                  <div className="familiarity-stats">
-                    <h4>{t.statsPanel.familiarityStats}</h4>
-                    {(['new', 'learning', 'familiar', 'mastered'] as FamiliarityLevel[]).map(level => {
-                      const levelWords = wordList.filter(w => w.familiarity === level)
-                      const levelPercentage = wordList.length > 0 ? Math.round((levelWords.length / wordList.length) * 100) : 0
-                      return (
-                        <div key={level} className="familiarity-stat">
-                          <span className={`familiarity-badge familiarity--${level}`}>
-                            {t.familiarityLabels[level]}
-                          </span>
-                          <span>{levelWords.length}</span>
-                          <span>({levelPercentage}%)</span>
-                        </div>
-                      )
-                    })}
-                  </div>
-                  <button className="btn btn-danger" onClick={resetProgress}>{t.resetButton}</button>
-                </div>
-              )}
 
               {showDetails && currentWord && (
                 <div className="details-panel">
