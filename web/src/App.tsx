@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { Routes, Route, useNavigate, useLocation, Navigate } from 'react-router-dom'
 import './App.css'
 import { words } from './data/words'
@@ -41,6 +41,7 @@ function MainApp() {
   const [swipeFeedback, setSwipeFeedback] = useState<string | null>(null)
   const [swipeOffset, setSwipeOffset] = useState(0) // 滑动偏移量，用于动画
   const [isSwiping, setIsSwiping] = useState(false) // 是否正在滑动
+  const isTapRef = useRef(true) // 用于区分点击和滑动
 
   // 根据路径确定语言模式
   useEffect(() => {
@@ -405,6 +406,7 @@ function MainApp() {
     setTouchEndY(startY)
     setSwipeOffset(0)
     setIsSwiping(false) // 初始状态不是滑动
+    isTapRef.current = true // 假设是点击
   }
 
   const handleTouchMove = (e: React.TouchEvent) => {
@@ -413,14 +415,19 @@ function MainApp() {
     const currentY = touch.screenY
     setTouchEndX(currentX)
     setTouchEndY(currentY)
-    
+
     // 计算滑动偏移量
     if (touchStartX !== 0) {
       const offsetX = currentX - touchStartX
       const offsetY = currentY - touchStartY
       const absOffsetX = Math.abs(offsetX)
       const absOffsetY = Math.abs(offsetY)
-      
+
+      // 如果移动距离超过阈值，标记为滑动而不是点击
+      if (absOffsetX > 10 || absOffsetY > 10) {
+        isTapRef.current = false
+      }
+
       // 只处理水平滑动（水平距离大于垂直距离，且水平距离超过阈值）
       if (absOffsetX > 10 && absOffsetX > absOffsetY * 1.5) {
         setIsSwiping(true)
@@ -439,9 +446,9 @@ function MainApp() {
     // 计算移动距离
     const absDistanceX = Math.abs(touchEndX - touchStartX)
     const absDistanceY = Math.abs(touchEndY - touchStartY)
-    
+
     // 如果是点击（移动距离很小），触发翻转
-    if (absDistanceX < 10 && absDistanceY < 10 && !isSwiping) {
+    if (isTapRef.current && absDistanceX < 10 && absDistanceY < 10 && !isSwiping) {
       setIsFlipped(!isFlipped)
       // 重置状态
       setTouchStartX(0)
@@ -640,12 +647,12 @@ function MainApp() {
                   {swipeFeedback && (
                     <div className="swipe-feedback">{swipeFeedback}</div>
                   )}
-                  <div 
+                  <div
                     key={`word-${currentWord.id}-${currentIndex}`}
-                    className={`word-card ${isFlipped ? 'flipped' : ''} ${isSwiping ? 'swiping' : ''}`} 
+                    className={`word-card ${isFlipped ? 'flipped' : ''} ${isSwiping ? 'swiping' : ''}`}
                     onClick={() => {
                       // 只有在非触摸设备或没有滑动时才触发点击
-                      if (!isSwiping && touchStartX === 0) {
+                      if (!isSwiping && isTapRef.current) {
                         setIsFlipped(!isFlipped)
                       }
                     }}
