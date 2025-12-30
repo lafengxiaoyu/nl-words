@@ -5,42 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>荷兰语单词学习</title>
   <script>
-    // 重定向到正确的语言路径
+    // GitHub Pages 的 SPA 重定向方案
+    // 当访问任何子路径时，重定向到根路径并保存原始路径到 sessionStorage
     const path = window.location.pathname;
 
-    // 默认重定向到中文路径
-    let lang = 'zh';
+    // 检查是否在 /nl-words 路径下
+    if (path.startsWith('/nl-words/')) {
+      // 保存原始路径
+      sessionStorage.setItem('redirect-path', path);
 
-    // 检查路径最后部分是否是 /zh 或 /en
-    const pathSegments = path.split('/').filter(s => s);
-    const lastSegment = pathSegments[pathSegments.length - 1];
-
-    if (lastSegment === 'en') {
-      lang = 'en';
-    } else if (lastSegment === 'zh') {
-      lang = 'zh';
-    }
-
-    // 构建目标路径：/nl-words/zh 或 /nl-words/en（不带尾部斜杠）
-    const targetPath = '/nl-words/' + lang;
-    const targetPathWithSlash = targetPath + '/';
-
-    // 检查当前路径是否已经是正确的语言路径（带或不带尾部斜杠）
-    if (path === targetPath || path === targetPathWithSlash) {
-      // 路径正确，清空页面内容，让 React Router 接管
-      // 这样 React Router 会正确渲染页面
-      document.body.innerHTML = '';
-      document.documentElement.style.display = 'none'; // 防止闪烁
-      document.documentElement.style.display = 'block'; // 重新显示，触发 React 应用加载
-    } else {
-      // 只有路径不正确时才重定向
-      window.location.replace(targetPath);
+      // 重定向到根路径，React Router 会读取 sessionStorage 并导航到原始路径
+      window.location.replace('/nl-words/');
     }
   </script>
 </head>
 <body>
-  <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif;">
-    <p>正在跳转...</p>
-  </div>
 </body>
 </html>

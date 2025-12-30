@@ -4,6 +4,17 @@ import { BrowserRouter } from 'react-router-dom'
 import './index.css'
 import App from './App.tsx'
 
+// 检查是否有重定向路径（用于 GitHub Pages SPA 路由）
+const checkRedirectPath = () => {
+  const redirectPath = sessionStorage.getItem('redirect-path')
+  if (redirectPath) {
+    // 清除存储的路径
+    sessionStorage.removeItem('redirect-path')
+    // 使用 replace 状态更新 URL，避免添加到历史记录
+    window.history.replaceState(null, '', redirectPath)
+  }
+}
+
 const rootElement = document.getElementById('root')
 if (!rootElement) {
   throw new Error('Root element not found')
@@ -29,6 +40,9 @@ const getBasePath = () => {
 }
 
 try {
+  // 检查重定向路径
+  checkRedirectPath()
+
   createRoot(rootElement).render(
     <StrictMode>
       <BrowserRouter basename={getBasePath()}>
