@@ -32,6 +32,26 @@ function MainApp() {
   const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
   const [languageMode, setLanguageMode] = useState<LanguageMode>('chinese')
   const [syncStatus, setSyncStatus] = useState<'idle' | 'syncing' | 'success' | 'error'>('idle')
+  const [isSpeaking, setIsSpeaking] = useState(false)
+
+  // 发音功能
+  const speakDutch = (text: string) => {
+    if (!text || !window.speechSynthesis) return
+
+    // 取消当前正在播放的语音
+    window.speechSynthesis.cancel()
+
+    const utterance = new SpeechSynthesisUtterance(text)
+    utterance.lang = 'nl-NL' // 荷兰语
+    utterance.rate = 0.9 // 语速稍慢，更适合学习
+    utterance.pitch = 1
+
+    utterance.onstart = () => setIsSpeaking(true)
+    utterance.onend = () => setIsSpeaking(false)
+    utterance.onerror = () => setIsSpeaking(false)
+
+    window.speechSynthesis.speak(utterance)
+  }
 
   // Translations object
   const translations = {
@@ -61,6 +81,8 @@ function MainApp() {
       masteredButton: '标记掌握',
       unmasteredButton: '取消掌握',
       flipCardHint: '点击单词卡片查看翻译',
+      speakButton: '🔊 发音',
+      speakExampleButton: '🔊 例句发音',
       familiarityLabels: {
         new: '🆕 新词',
         learning: '📖 学习中',
@@ -129,6 +151,8 @@ function MainApp() {
       masteredButton: 'Mark Mastered',
       unmasteredButton: 'Unmark Mastered',
       flipCardHint: 'Click card to flip',
+      speakButton: '🔊 Pronounce',
+      speakExampleButton: '🔊 Example Pronounce',
       familiarityLabels: {
         new: '🆕 New',
         learning: '📖 Learning',
@@ -804,8 +828,20 @@ function MainApp() {
                     }}
                   >
                     <div className="card-front">
-                      <div className={`word-dutch ${currentWordLengthClass}`}>{currentWord.word}</div>
-                      <div className="word-type">{currentWord.partOfSpeech}</div>
+                      <div className="word-front-content">
+                        <div className={`word-dutch ${currentWordLengthClass}`}>{currentWord.word}</div>
+                        <div className="word-type">{currentWord.partOfSpeech}</div>
+                        <button
+                          className="speak-btn"
+                          onClick={(e) => {
+                            e.stopPropagation()
+                            speakDutch(currentWord.word)
+                          }}
+                          title={t.speakButton}
+                        >
+                          {isSpeaking ? '🔇' : '🔊'}
+                        </button>
+                      </div>
                       <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty`}>{currentWord.difficulty}</span>
                     </div>
                     <div className="card-back">
@@ -816,6 +852,16 @@ function MainApp() {
                       {currentExample && (
                         <div className="word-example">
                           <div className="example-nl">{currentExample.dutch}</div>
+                          <button
+                            className="speak-btn-example"
+                            onClick={(e) => {
+                              e.stopPropagation()
+                              speakDutch(currentExample.dutch)
+                            }}
+                            title={t.speakExampleButton}
+                          >
+                            {isSpeaking ? '🔇' : '🔊'}
+                          </button>
                           <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english' : ''}`}>
                             {languageMode === 'chinese' ? currentExample.chinese : currentExample.english}
                           </div>

@@ -327,6 +327,71 @@ body {
 
 
 /* 单词内容 */
+
+/* 单词发音按钮 */
+.word-front-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.speak-btn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: rgba(59, 130, 246, 0.1);
+  border: 2px solid rgba(59, 130, 246, 0.3);
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speak-btn:hover {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: rgba(59, 130, 246, 0.5);
+  transform: scale(1.1);
+}
+
+.speak-btn:active {
+  transform: scale(0.95);
+}
+
+.speak-btn-example {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(59, 130, 246, 0.1);
+  border: 2px solid rgba(59, 130, 246, 0.3);
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speak-btn-example:hover {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: rgba(59, 130, 246, 0.5);
+  transform: scale(1.1);
+}
+
+.speak-btn-example:active {
+  transform: scale(0.95);
+}
+
 /* 卡片上的难度标签 */
 .card-difficulty {
   position: absolute;
@@ -402,6 +467,7 @@ body {
 
 /* 例句 */
 .word-example {
+  position: relative;
   margin-top: 20px;
   padding: 20px;
   background: rgba(0, 0, 0, 0.05);
@@ -919,6 +985,20 @@ body {
     font-size: 2.2rem;
   }
 
+  .speak-btn {
+    top: 12px;
+    left: 12px;
+    padding: 6px 10px;
+    font-size: 1rem;
+  }
+
+  .speak-btn-example {
+    top: 6px;
+    right: 6px;
+    padding: 5px 8px;
+    font-size: 0.9rem;
+  }
+
   .word-dutch.word-medium {
     font-size: 1.8rem;
   }
@@ -1126,6 +1206,20 @@ body {
 
   .word-dutch.word-normal {
     font-size: 1.9rem;
+  }
+
+  .speak-btn {
+    top: 10px;
+    left: 10px;
+    padding: 5px 8px;
+    font-size: 0.9rem;
+  }
+
+  .speak-btn-example {
+    top: 5px;
+    right: 5px;
+    padding: 4px 6px;
+    font-size: 0.8rem;
   }
 
   .word-dutch.word-medium {
