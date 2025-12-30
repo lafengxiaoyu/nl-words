@@ -60,13 +60,16 @@ body {
 
 .header-content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 15px;
   margin-bottom: 20px;
+  position: relative;
+  min-height: fit-content;
+}
 }
 
 .header h1 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
   background: linear-gradient(135deg, #fff 0%, #e0e7ff 50%, #fff 100%);
   -webkit-background-clip: text;
@@ -75,12 +78,325 @@ body {
   text-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   letter-spacing: normal;
   line-height: 1.2;
+  text-align: center;
+}
+
+/* 导航菜单 */
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.nav-btn {
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+.nav-btn--active {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
 }
 
 .header-right {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
+}
+
+/* 语言切换开关 - 仅移动端显示 */
+.language-switch-wrapper {
+  display: none;
+  align-items: center;
+  gap: 8px;
+}
+
+.switch-label {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.language-switch {
+  position: relative;
+  width: 50px;
+  height: 28px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border: none;
+  padding: 0;
+}
+
+.switch-on {
+  background: rgba(102, 126, 234, 0.8);
+}
+
+.switch-off {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.switch-knob {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.switch-on .switch-knob {
+  transform: translateX(22px);
+}
+
+.switch-off .switch-knob {
+  transform: translateX(0);
+}
+
+/* 桌面端语言选择器 - 仅桌面端显示 */
+.language-selector-header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.user-btn {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* 移动端用户按钮 - 仅移动端显示 */
+.user-btn-mobile,
+.login-btn-mobile {
+  display: none;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+/* 桌面端显示元素 */
+@media (min-width: 769px) {
+  .language-selector-header {
+    display: flex;
+  }
+
+  .user-btn {
+    display: inline-flex;
+  }
+
+  .language-switch-wrapper {
+    display: none;
+  }
+
+  .user-btn-mobile {
+    display: none;
+  }
+}
+
+/* 移动端显示元素 */
+@media (max-width: 768px) {
+  .language-selector-header {
+    display: none !important;
+  }
+
+  .user-btn {
+    display: none;
+  }
+
+  .language-switch-wrapper {
+    display: flex;
+  }
+
+  .user-btn-mobile {
+    display: inline-flex;
+  }
+
+  .hamburger-btn {
+    display: flex;
+  }
+
+  .header-right {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* 汉堡菜单按钮 */
+.hamburger-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 100;
+}
+
+.hamburger-btn span {
+  width: 100%;
+  height: 3px;
+  background: white;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-btn--open span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.hamburger-btn--open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-btn--open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* 移动端菜单下拉 */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.mobile-menu--open {
+  display: flex;
+}
+
+.mobile-menu-item {
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  width: 100%;
+}
+
+.mobile-menu-item:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+.mobile-menu-item--active {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* 响应式设计 - 平板和手机端 */
+@media (max-width: 768px) {
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: 35px;
+    gap: 3px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .hamburger-btn {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .mobile-menu--open {
+    display: flex;
+  }
+
+  .header-right {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .mobile-menu {
+    width: 100%;
+  }
+
+  /* 在移动端把导航菜单放在登录和语言下方 */
+  .header-content .mobile-menu {
+    order: 3;
+  }
+}
+
+/* 响应式设计 - 桌面端 */
+@media (min-width: 769px) {
+  .header-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    width: auto;
+    flex-wrap: nowrap;
+  }
+
+  .hamburger-btn {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none !important;
+  }
 }
 
 /* 头部语言选择器 */
@@ -96,6 +412,9 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 /* 进度条 */
@@ -164,6 +483,10 @@ body {
   align-items: center;
   gap: 6px;
   transition: all 0.3s ease;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
 }
 
 .sync-status--syncing {
@@ -1119,8 +1442,8 @@ body {
   }
 
   .speak-btn {
-    top: 12px;
-    left: 12px;
+    position: static;
+    margin-top: 10px;
     padding: 6px 10px;
     font-size: 1rem;
   }
@@ -1191,18 +1514,20 @@ body {
 
   .navigation {
     flex-direction: row;
-    gap: 12px;
-    margin-bottom: 24px;
+    gap: 10px;
+    margin-bottom: 16px;
     width: 100%;
     max-width: 500px;
+    justify-content: center;
   }
 
   .navigation .btn {
     flex: 1;
-    min-height: 50px; /* 更大的触摸区域 */
-    font-size: 1rem;
-    padding: 14px 20px;
-    border-radius: 14px;
+    min-height: 44px;
+    font-size: 0.9rem;
+    padding: 10px 12px;
+    border-radius: 10px;
+    white-space: nowrap;
   }
 
   .difficulty-filters {
@@ -1228,8 +1553,8 @@ body {
   .tools {
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 8px;
-    margin-bottom: 24px;
+    gap: 10px;
+    margin-bottom: 16px;
     justify-content: center;
     width: 100%;
     overflow-x: auto;
@@ -1238,10 +1563,10 @@ body {
 
   .tools .btn {
     min-height: 44px;
-    padding: 12px 18px;
-    font-size: 0.95rem;
-    border-radius: 12px;
-    flex: 1 0 auto;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    flex: 1;
     white-space: nowrap;
   }
 

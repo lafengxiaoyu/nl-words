@@ -9,6 +9,7 @@ import { loadUserProgress, saveUserProgress, mergeProgress, incrementViewCount, 
 import Auth from './components/Auth'
 import UserProfile from './components/UserProfile'
 import ProfilePage from './components/ProfilePage'
+import TestPage from './components/TestPage'
 
 // 发音按钮图标组件
 const SpeakerIcon = ({ isSpeaking }: { isSpeaking: boolean }) => {
@@ -229,6 +230,18 @@ function MainApp() {
   }
 
   const t = translations[languageMode]
+
+  // 导航栏翻译
+  const navTranslations = {
+    chinese: {
+      learn: '学单词',
+      test: '测单词'
+    },
+    english: {
+      learn: 'Learn',
+      test: 'Test'
+    }
+  }
 
   // 触摸事件处理
   const [touchStartX, setTouchStartX] = useState(0)
@@ -712,6 +725,9 @@ function MainApp() {
     setShowAuth(false)
   }
 
+  // 汉堡菜单状态
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
   return (
     <>
       {showAuth ? (
@@ -721,9 +737,23 @@ function MainApp() {
           <div className="app">
             <header className="header">
               <div className="header-content">
-                <h1 className={languageMode === 'english' ? 'title-english' : ''}>{t.appTitle}</h1>
+                <nav className="nav-menu">
+                  <button
+                    className={`nav-btn ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}` || location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/learn` ? 'nav-btn--active' : ''}`}
+                    onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/learn`)}
+                  >
+                    {navTranslations[languageMode].learn}
+                  </button>
+                  <button
+                    className={`nav-btn ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/test` ? 'nav-btn--active' : ''}`}
+                    onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/test`)}
+                  >
+                    {navTranslations[languageMode].test}
+                  </button>
+                </nav>
 
                 <div className="header-right">
+                  {/* 桌面端语言选择器 */}
                   <div className="language-selector-header">
                     <button
                       className={`btn btn-sm ${languageMode === 'chinese' ? 'btn-primary' : 'btn-outline'}`}
@@ -738,12 +768,64 @@ function MainApp() {
                       {t.englishLabel}
                     </button>
                   </div>
-                  {user && (
+
+                  {/* 移动端语言切换开关 */}
+                  <div className="language-switch-wrapper">
+                    <span className="switch-label">🇨🇳</span>
+                    <button
+                      className={`language-switch ${languageMode === 'english' ? 'switch-on' : 'switch-off'}`}
+                      onClick={() => switchLanguage(languageMode === 'chinese' ? 'english' : 'chinese')}
+                      aria-label="Switch Language"
+                    >
+                      <span className="switch-knob"></span>
+                    </button>
+                    <span className="switch-label">🇺🇸</span>
+                  </div>
+
+                  {/* 用户按钮 */}
+                  {user ? (
                     <button className="btn btn-outline btn-sm user-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/profile`)}>
                       👤 {user.user_metadata?.name || user.user_metadata?.full_name || user.email?.split('@')[0]}
                     </button>
+                  ) : (
+                    <button className="btn btn-outline btn-sm user-btn" onClick={() => setShowAuth(true)}>
+                      👤 {t.loginButton}
+                    </button>
                   )}
+
+                  {/* 汉堡菜单按钮 - 仅在移动端显示 */}
+                  <button
+                    className={`hamburger-btn ${mobileMenuOpen ? 'hamburger-btn--open' : ''}`}
+                    onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                    aria-label="Menu"
+                  >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
                 </div>
+              </div>
+
+              {/* 移动端菜单下拉 */}
+              <div className={`mobile-menu ${mobileMenuOpen ? 'mobile-menu--open' : ''}`}>
+                <button
+                  className={`mobile-menu-item ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}` || location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/learn` ? 'mobile-menu-item--active' : ''}`}
+                  onClick={() => {
+                    navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/learn`)
+                    setMobileMenuOpen(false)
+                  }}
+                >
+                  {navTranslations[languageMode].learn}
+                </button>
+                <button
+                  className={`mobile-menu-item ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/test` ? 'mobile-menu-item--active' : ''}`}
+                  onClick={() => {
+                    navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/test`)
+                    setMobileMenuOpen(false)
+                  }}
+                >
+                  {navTranslations[languageMode].test}
+                </button>
               </div>
 
               <div className="progress-bar">
@@ -987,18 +1069,27 @@ function ProfileRoute() {
   return <ProfilePage languageMode={languageMode} />
 }
 
+// Test Page Route Component
+function TestRoute() {
+  const location = useLocation()
+  const languageMode = location.pathname.startsWith('/zh') ? 'chinese' : 'english'
+  return <TestPage languageMode={languageMode} />
+}
+
 // App 组件处理路由
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/zh" replace />} />
-      <Route path="/zh" element={<MainApp />} />
-      <Route path="/zh/*" element={<MainApp />} />
+      <Route path="/" element={<Navigate to="/zh/learn" replace />} />
+      <Route path="/zh" element={<Navigate to="/zh/learn" replace />} />
+      <Route path="/zh/learn" element={<MainApp />} />
+      <Route path="/zh/test" element={<TestRoute />} />
       <Route path="/zh/profile" element={<ProfileRoute />} />
-      <Route path="/en" element={<MainApp />} />
-      <Route path="/en/*" element={<MainApp />} />
+      <Route path="/en" element={<Navigate to="/en/learn" replace />} />
+      <Route path="/en/learn" element={<MainApp />} />
+      <Route path="/en/test" element={<TestRoute />} />
       <Route path="/en/profile" element={<ProfileRoute />} />
-      <Route path="*" element={<Navigate to="/zh" replace />} />
+      <Route path="*" element={<Navigate to="/zh/learn" replace />} />
     </Routes>
   )
 }
