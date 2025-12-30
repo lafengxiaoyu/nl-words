@@ -5,10 +5,41 @@ import { words } from './data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from './data/words'
 import type { ExampleTranslations } from './data/types'
 import { supabase } from './lib/supabase'
-import { loadUserProgress, saveUserProgress, saveAllUserProgress, mergeProgress, incrementViewCount, updateMasteryStats } from './lib/progressSync'
+import { loadUserProgress, saveUserProgress, mergeProgress, incrementViewCount, updateMasteryStats } from './lib/progressSync'
 import Auth from './components/Auth'
 import UserProfile from './components/UserProfile'
 import ProfilePage from './components/ProfilePage'
+
+// 发音按钮图标组件
+const SpeakerIcon = ({ isSpeaking }: { isSpeaking: boolean }) => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={`speaker-icon ${isSpeaking ? 'speaking' : ''}`}>
+      {/* 喇叭主体 */}
+      <path
+        d="M3 9V15H7L12 20V4L7 9H3Z"
+        fill="currentColor"
+      />
+      {/* 声波 */}
+      <path
+        d="M16.5 12C16.5 10.23 15.48 8.71 14 7.97V16.02C15.48 15.29 16.5 13.77 16.5 12Z"
+        fill="currentColor"
+        opacity="0.7"
+      />
+      <path
+        d="M14 3.23V5.29C16.89 6.15 19 8.83 19 12C19 15.17 16.89 17.85 14 18.71V20.77C18.01 19.86 21 16.28 21 12C21 7.72 18.01 4.14 14 3.23Z"
+        fill="currentColor"
+        opacity="0.5"
+      />
+      {/* 脉冲圈 */}
+      {isSpeaking && (
+        <>
+          <circle cx="12" cy="12" r="10" className="pulse-ring" />
+          <circle cx="12" cy="12" r="14" className="pulse-ring" style={{ animationDelay: '0.3s' }} />
+        </>
+      )}
+    </svg>
+  )
+}
 
 // 语言模式类型
 type LanguageMode = 'chinese' | 'english'
@@ -77,8 +108,6 @@ function MainApp() {
         error: '❌ 同步失败'
       },
       loginButton: '登录',
-      resetProgress: '确定要重置所有学习进度吗？此操作不可撤销。',
-      resetButton: '🔄 重置进度',
       shuffleButton: '🔀 随机排序',
       showDetailsButton: (show: boolean) => show ? '隐藏详情' : '显示详情',
       prevButton: '上一个',
@@ -146,8 +175,6 @@ function MainApp() {
         error: '❌ Sync Failed'
       },
       loginButton: 'Login',
-      resetProgress: 'Are you sure you want to reset all learning progress? This action cannot be undone.',
-      resetButton: '🔄 Reset Progress',
       shuffleButton: '🔀 Shuffle',
       showDetailsButton: (show: boolean) => show ? 'Hide Details' : 'Show Details',
       prevButton: 'Prev',
@@ -327,37 +354,6 @@ function MainApp() {
         console.error('保存进度到 Supabase 失败:', error)
         setSyncStatus('error')
       }
-    }
-  }
-
-  // 批量保存进度到 Supabase
-  const saveAllProgressToSupabase = async () => {
-    if (user) {
-      try {
-        setSyncStatus('syncing')
-        await saveAllUserProgress(user.id, wordList)
-        setSyncStatus('success')
-        setTimeout(() => setSyncStatus('idle'), 2000)
-      } catch (error) {
-        console.error('批量保存进度失败:', error)
-        setSyncStatus('error')
-      }
-    }
-  }
-
-  // 重置进度
-  const resetProgress = async () => {
-    if (window.confirm(t.resetProgress)) {
-      const resetWords = wordList.map(word => ({
-        ...word,
-        mastered: false,
-        familiarity: 'new' as FamiliarityLevel,
-        stats: undefined // Reset stats
-      }))
-
-      setWordList(resetWords)
-      localStorage.setItem('nl-words', JSON.stringify(resetWords))
-      await saveAllProgressToSupabase()
     }
   }
 
@@ -821,7 +817,6 @@ function MainApp() {
                     <div className="card-front">
                       <div className="word-front-content">
                         <div className={`word-dutch ${currentWordLengthClass}`}>{currentWord.word}</div>
-                        <div className="word-type">{currentWord.partOfSpeech}</div>
                         <button
                           className="speak-btn"
                           onClick={(e) => {
@@ -830,29 +825,32 @@ function MainApp() {
                           }}
                           title={t.speakButton}
                         >
-                          {isSpeaking ? '🔇' : '🔊'}
+                          <SpeakerIcon isSpeaking={isSpeaking} />
                         </button>
                       </div>
                       <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty`}>{currentWord.difficulty}</span>
                     </div>
                     <div className="card-back">
                       <div className="word-dutch-small">{currentWord.word}</div>
+                      <div className="word-type">{currentWord.partOfSpeech}</div>
                       <div className="word-translation">
                         {languageMode === 'chinese' ? currentWord.translation.chinese : currentWord.translation.english}
                       </div>
                       {currentExample && (
                         <div className="word-example">
-                          <div className="example-nl">{currentExample.dutch}</div>
-                          <button
-                            className="speak-btn-example"
-                            onClick={(e) => {
-                              e.stopPropagation()
-                              speakDutch(currentExample.dutch)
-                            }}
-                            title={t.speakExampleButton}
-                          >
-                            {isSpeaking ? '🔇' : '🔊'}
-                          </button>
+                          <div className="example-header">
+                            <div className="example-nl">{currentExample.dutch}</div>
+                            <button
+                              className="speak-btn-example"
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                speakDutch(currentExample.dutch)
+                              }}
+                              title={t.speakExampleButton}
+                            >
+                              <SpeakerIcon isSpeaking={isSpeaking} />
+                            </button>
+                          </div>
                           <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english' : ''}`}>
                             {languageMode === 'chinese' ? currentExample.chinese : currentExample.english}
                           </div>
@@ -887,7 +885,6 @@ function MainApp() {
 
               <div className="tools">
                 <button className="btn btn-outline" onClick={shuffleWords}>{t.shuffleButton}</button>
-                <button className="btn btn-danger btn-outline" onClick={resetProgress}>{t.resetButton}</button>
                 <button className="btn btn-outline" onClick={() => setShowDetails(!showDetails)}>{t.showDetailsButton(showDetails)}</button>
               </div>
 

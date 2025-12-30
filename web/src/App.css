@@ -373,6 +373,41 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: inherit;
+}
+
+.speak-btn .speaker-icon {
+  color: #3b82f6;
+  transition: all 0.3s ease;
+}
+
+.speak-btn .speaker-icon.mute-line {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* 脉冲动画效果 */
+.speaker-icon.speaking {
+  color: #22c55e !important;
+}
+
+.speaker-icon .pulse-ring {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1;
+  opacity: 0;
+  animation: pulse 1.5s ease-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
 }
 
 .speak-btn:hover {
@@ -386,9 +421,9 @@ body {
 }
 
 .speak-btn-example {
-  position: absolute;
-  top: 8px;
-  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: rgba(59, 130, 246, 0.1);
   border: 2px solid rgba(59, 130, 246, 0.3);
   border-radius: 10px;
@@ -396,10 +431,13 @@ body {
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: inherit;
+  flex-shrink: 0;
+}
+
+.speak-btn-example .speaker-icon {
+  color: #3b82f6;
+  transition: all 0.3s ease;
 }
 
 .speak-btn-example:hover {
@@ -460,39 +498,57 @@ body {
   font-size: 1.6rem;
 }
 
-.word-dutch-small {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 15px;
-  color: #334155;
-  letter-spacing: -0.05em;
+/* 单词卡片背面布局 */
+.card-back {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  align-items: center;
+  text-align: center;
 }
 
-.word-translation {
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin-bottom: 20px;
-  line-height: 1.4;
-  word-spacing: -0.5em; /* 减小英文单词之间的间距 */
+.word-dutch-small {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #334155;
+  letter-spacing: -0.02em;
+  margin: 0;
 }
 
 .word-type {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
   color: #64748b;
-  background: rgba(100, 116, 139, 0.1);
-  padding: 6px 12px;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 2px solid #cbd5e1;
+  margin: 0;
+}
+
+.word-translation {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.4;
+  word-spacing: -0.3em;
+  color: #1e293b;
+  margin: 0;
+  padding: 8px 16px;
+  background: rgba(59, 130, 246, 0.05);
   border-radius: 12px;
-  font-weight: 500;
 }
 
 /* 例句 */
 .word-example {
   position: relative;
-  margin-top: 20px;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.05);
-  border-radius: 15px;
-  border-left: 4px solid #3b82f6;
+  margin-top: 0;
+  padding: 20px 24px;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.08), rgba(59, 130, 246, 0.03));
+  border-radius: 16px;
+  border: 1.5px solid rgba(59, 130, 246, 0.2);
+  width: 100%;
+  text-align: left;
 }
 
 .example-header {
@@ -501,21 +557,24 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 12px;
+  gap: 12px;
 }
 
 .example-nl {
-  font-size: 1.1rem;
-  margin-bottom: 8px;
+  font-size: 1.15rem;
   font-style: italic;
   color: #374151;
   flex: 1;
+  font-weight: 500;
 }
 
 .example-zh,
 .example-english {
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: #6b7280;
-  word-spacing: -0.2em; /* 减小英文单词之间的间距 */
+  word-spacing: -0.15em;
+  line-height: 1.6;
 }
 
 /* 单词信息 */
@@ -697,6 +756,39 @@ body {
   background: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.5);
   transform: translateY(-2px);
+}
+
+/* 认证页面的按钮需要特殊样式 */
+.auth-card .btn-primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.auth-card .btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+}
+
+.auth-card .btn-outline {
+  background: white;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+  box-shadow: 0 2px 10px rgba(59, 130, 246, 0.15);
+}
+
+.auth-card .btn-outline:hover:not(:disabled) {
+  background: rgba(59, 130, 246, 0.05);
+  border-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.25);
+}
+
+.auth-card .btn-primary:disabled,
+.auth-card .btn-outline:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
 }
 
 .btn-success {

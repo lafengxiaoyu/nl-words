@@ -156,6 +156,16 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
   // 重置进度
   const resetProgress = async () => {
     if (window.confirm(languageMode === 'chinese' ? '确定要重置所有学习进度吗？此操作不可撤销。' : 'Are you sure you want to reset all learning progress? This action cannot be undone.')) {
+      // 删除云端的进度数据
+      if (user) {
+        try {
+          await supabase.from('user_progress').delete().eq('user_id', user.id)
+          await supabase.from('word_stats').delete().eq('user_id', user.id)
+        } catch (error) {
+          console.error('删除云端进度失败:', error)
+        }
+      }
+
       const resetWords = wordList.map(word => ({
         ...word,
         mastered: false,
@@ -165,7 +175,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
 
       setWordList(resetWords)
       localStorage.setItem('nl-words', JSON.stringify(resetWords))
-      // Note: If you have Supabase sync, add sync here
+      window.location.reload()
     }
   }
 
