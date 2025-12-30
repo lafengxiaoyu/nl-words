@@ -302,6 +302,187 @@
     "familiarity": "new",
     "mastered": false,
     "difficulty": "A1"
+  },
+  {
+    "id": 11,
+    "word": "samenwerking",
+    "translation": {
+      "chinese": "合作",
+      "english": "collaboration"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "samenwerking",
+        "plural": "samenwerkingen"
+      }
+    },
+    "examples": [
+      "Goede samenwerking is belangrijk voor succes.",
+      "De samenwerking tussen de bedrijven verloopt goed."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "良好的合作对成功很重要。",
+        "公司之间的合作进展顺利。"
+      ],
+      "english": [
+        "Good collaboration is important for success.",
+        "The collaboration between the companies is going well."
+      ]
+    },
+    "notes": "复合词，由samen(一起)和werking(工作)组成",
+    "familiarity": "new",
+    "mastered": false,
+    "difficulty": "B1"
+  },
+  {
+    "id": 12,
+    "word": "verantwoordelijkheid",
+    "translation": {
+      "chinese": "责任",
+      "english": "responsibility"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "verantwoordelijkheid",
+        "plural": "verantwoordelijkheden"
+      }
+    },
+    "examples": [
+      "Het is jouw verantwoordelijkheid om dit te doen.",
+      "We moeten onze verantwoordelijkheid nemen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "做这件事是你的责任。",
+        "我们必须承担我们的责任。"
+      ],
+      "english": [
+        "It's your responsibility to do this.",
+        "We need to take our responsibility."
+      ]
+    },
+    "notes": "常用在商务和正式场合",
+    "familiarity": "new",
+    "mastered": false,
+    "difficulty": "B1"
+  },
+  {
+    "id": 13,
+    "word": "uitdaging",
+    "translation": {
+      "chinese": "挑战",
+      "english": "challenge"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "uitdaging",
+        "plural": "uitdagingen"
+      }
+    },
+    "examples": [
+      "Dit is een grote uitdaging voor mij.",
+      "Zij gaat de uitdaging aan."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这对我来说是一个很大的挑战。",
+        "她接受了这个挑战。"
+      ],
+      "english": [
+        "This is a big challenge for me.",
+        "She takes on the challenge."
+      ]
+    },
+    "notes": "也可以指'挑衅'",
+    "familiarity": "new",
+    "mastered": false,
+    "difficulty": "B2"
+  },
+  {
+    "id": 14,
+    "word": "betalen",
+    "translation": {
+      "chinese": "支付",
+      "english": "to pay"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "betalen",
+        "present": {
+          "ik": "betaal",
+          "jij": "betaalt",
+          "hij": "betaalt",
+          "wij": "betalen",
+          "jullie": "betalen",
+          "zij": "betalen"
+        },
+        "past": {
+          "singular": "betaalde",
+          "plural": "betaalden"
+        },
+        "pastParticiple": "betaald"
+      }
+    },
+    "examples": [
+      "Ik wil contant betalen.",
+      "Hij betaalt de rekening."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我想付现金。",
+        "他付账单。"
+      ],
+      "english": [
+        "I want to pay cash.",
+        "He pays the bill."
+      ]
+    },
+    "notes": "规则弱动词",
+    "familiarity": "new",
+    "mastered": false,
+    "difficulty": "B1"
+  },
+  {
+    "id": 15,
+    "word": "doorzettingsvermogen",
+    "translation": {
+      "chinese": "毅力",
+      "english": "perseverance"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "doorzettingsvermogen",
+        "plural": "doorzettingsvermogens"
+      }
+    },
+    "examples": [
+      "Succes vereist doorzettingsvermogen.",
+      "Zij heeft veel doorzettingsvermogen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "成功需要毅力。",
+        "她有很多毅力。"
+      ],
+      "english": [
+        "Success requires perseverance.",
+        "She has a lot of perseverance."
+      ]
+    },
+    "notes": "荷兰语典型长复合词，由door(穿过)+zetting(安置)+vermogen(能力)组成",
+    "familiarity": "new",
+    "mastered": false,
+    "difficulty": "C2"
   }
 ]
 
