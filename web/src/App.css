@@ -937,10 +937,13 @@ body {
 
   .difficulty-filters {
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-wrap: nowrap;
+    gap: 8px;
     margin-bottom: 24px;
     justify-content: center;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .difficulty-filters .btn {
@@ -948,15 +951,19 @@ body {
     padding: 12px 18px;
     font-size: 0.95rem;
     border-radius: 12px;
-    flex: 0 1 auto;
+    flex: 1 0 auto;
+    white-space: nowrap;
   }
 
   .tools {
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-wrap: nowrap;
+    gap: 8px;
     margin-bottom: 24px;
     justify-content: center;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .tools .btn {
@@ -964,7 +971,8 @@ body {
     padding: 12px 18px;
     font-size: 0.95rem;
     border-radius: 12px;
-    flex: 0 1 auto;
+    flex: 1 0 auto;
+    white-space: nowrap;
   }
 
   .familiarity-controls {
