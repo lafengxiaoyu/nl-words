@@ -77,11 +77,25 @@ body {
   line-height: 1.2;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 /* 头部语言选择器 */
 .language-selector-header {
   display: flex;
   gap: 8px;
   align-items: center;
+}
+
+/* 用户按钮 */
+.user-btn {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* 进度条 */

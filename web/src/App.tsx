@@ -7,6 +7,8 @@ import type { ExampleTranslations } from './data/types'
 import { supabase } from './lib/supabase'
 import { loadUserProgress, saveUserProgress, saveAllUserProgress, mergeProgress, incrementViewCount, updateMasteryStats } from './lib/progressSync'
 import Auth from './components/Auth'
+import UserProfile from './components/UserProfile'
+import ProfilePage from './components/ProfilePage'
 
 // 语言模式类型
 type LanguageMode = 'chinese' | 'english'
@@ -15,6 +17,10 @@ type LanguageMode = 'chinese' | 'english'
 interface SupabaseUser {
   id: string
   email?: string
+  user_metadata?: {
+    name?: string
+    full_name?: string
+  }
 }
 
 // MainApp component
@@ -23,6 +29,7 @@ function MainApp() {
   const location = useLocation()
   const [user, setUser] = useState<SupabaseUser | null>(null)
   const [showAuth, setShowAuth] = useState(false)
+  const [showUserProfile, setShowUserProfile] = useState(false)
   const [wordList, setWordList] = useState<Word[]>(words)
   const [filteredWordList, setFilteredWordList] = useState<Word[]>(words)
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -723,19 +730,26 @@ function MainApp() {
               <div className="header-content">
                 <h1 className={languageMode === 'english' ? 'title-english' : ''}>{t.appTitle}</h1>
 
-                <div className="language-selector-header">
-                  <button
-                    className={`btn btn-sm ${languageMode === 'chinese' ? 'btn-primary' : 'btn-outline'}`}
-                    onClick={() => switchLanguage('chinese')}
-                  >
-                    {t.chineseLabel}
-                  </button>
-                  <button
-                    className={`btn btn-sm ${languageMode === 'english' ? 'btn-primary' : 'btn-outline'}`}
-                    onClick={() => switchLanguage('english')}
-                  >
-                    {t.englishLabel}
-                  </button>
+                <div className="header-right">
+                  <div className="language-selector-header">
+                    <button
+                      className={`btn btn-sm ${languageMode === 'chinese' ? 'btn-primary' : 'btn-outline'}`}
+                      onClick={() => switchLanguage('chinese')}
+                    >
+                      {t.chineseLabel}
+                    </button>
+                    <button
+                      className={`btn btn-sm ${languageMode === 'english' ? 'btn-primary' : 'btn-outline'}`}
+                      onClick={() => switchLanguage('english')}
+                    >
+                      {t.englishLabel}
+                    </button>
+                  </div>
+                  {user && (
+                    <button className="btn btn-outline btn-sm user-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/profile`)}>
+                      👤 {user.user_metadata?.name || user.user_metadata?.full_name || user.email?.split('@')[0]}
+                    </button>
+                  )}
                 </div>
               </div>
 
@@ -755,13 +769,11 @@ function MainApp() {
                 </div>
               )}
 
-              <div className="user-info">
-                {user ? (
-                  <span>👤 {user.email}</span>
-                ) : (
+              {!user && (
+                <div className="user-info">
                   <button className="btn btn-outline" onClick={() => setShowAuth(true)}>{t.loginButton}</button>
-                )}
-              </div>
+                </div>
+              )}
             </header>
 
             <main className="main">
@@ -1011,11 +1023,26 @@ function MainApp() {
             <footer className="footer">
               <p>{t.flipCardHint} | {languageMode === 'chinese' ? '使用键盘方向键切换单词' : 'Use arrow keys to navigate'}</p>
             </footer>
+
+            {showUserProfile && user && (
+              <UserProfile
+                user={user}
+                onClose={() => setShowUserProfile(false)}
+                languageMode={languageMode}
+              />
+            )}
       </div>
         </>
       )}
     </>
   )
+}
+
+// Profile Page Component
+function ProfileRoute() {
+  const location = useLocation()
+  const languageMode = location.pathname.startsWith('/zh') ? 'chinese' : 'english'
+  return <ProfilePage languageMode={languageMode} />
 }
 
 // App 组件处理路由
@@ -1025,8 +1052,10 @@ function App() {
       <Route path="/" element={<Navigate to="/zh" replace />} />
       <Route path="/zh" element={<MainApp />} />
       <Route path="/zh/*" element={<MainApp />} />
+      <Route path="/zh/profile" element={<ProfileRoute />} />
       <Route path="/en" element={<MainApp />} />
       <Route path="/en/*" element={<MainApp />} />
+      <Route path="/en/profile" element={<ProfileRoute />} />
       <Route path="*" element={<Navigate to="/zh" replace />} />
     </Routes>
   )
