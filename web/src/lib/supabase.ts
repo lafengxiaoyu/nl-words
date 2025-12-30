@@ -14,7 +14,9 @@ if (!isSupabaseConfigured) {
   if (!supabaseUrl.startsWith('https://') || !supabaseUrl.includes('.supabase.co')) {
     console.error('⚠️ Supabase URL 格式不正确，应为: https://xxxxx.supabase.co')
   }
-  if (supabaseAnonKey.length < 50) {
+  // 支持新旧两种键格式：JWT (eyJ...) 或新格式 (sb_publishable_...)
+  const isValidKeyFormat = supabaseAnonKey.startsWith('eyJ') || supabaseAnonKey.startsWith('sb_publishable_')
+  if (!isValidKeyFormat) {
     console.error('⚠️ Supabase Anon Key 格式可能不正确，请检查环境变量')
   }
 }

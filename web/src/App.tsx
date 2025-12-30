@@ -17,7 +17,7 @@ interface SupabaseUser {
   email?: string
 }
 
-// 主应用组件
+// MainApp component
 function MainApp() {
   const navigate = useNavigate()
   const location = useLocation()
@@ -32,6 +32,148 @@ function MainApp() {
   const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
   const [languageMode, setLanguageMode] = useState<LanguageMode>('chinese')
   const [syncStatus, setSyncStatus] = useState<'idle' | 'syncing' | 'success' | 'error'>('idle')
+
+  // Translations object
+  const translations = {
+    chinese: {
+      appTitle: '荷兰语单词学习',
+      chineseLabel: '🇨🇳 中文',
+      englishLabel: '🇺🇸 EN',
+      allLabel: '全部',
+      a1a2Label: 'A1-A2',
+      b1b2Label: 'B1-B2',
+      c1c2Label: 'C1-C2',
+      masteredText: '已掌握',
+      masteredCount: (mastered: number, total: number, percentage: number) => `${mastered} / ${total} 已掌握 (${percentage}%)`,
+      syncStatus: {
+        syncing: '🔄 同步中...',
+        success: '✅ 同步成功',
+        error: '❌ 同步失败'
+      },
+      loginButton: '登录',
+      resetProgress: '确定要重置所有学习进度吗？此操作不可撤销。',
+      resetButton: '🔄 重置进度',
+      shuffleButton: '🔀 随机排序',
+      showStatsButton: (show: boolean) => show ? '隐藏统计' : '显示统计',
+      showDetailsButton: (show: boolean) => show ? '隐藏详情' : '显示详情',
+      prevButton: '上一个',
+      nextButton: '下一个',
+      masteredButton: '标记掌握',
+      unmasteredButton: '取消掌握',
+      flipCardHint: '点击单词卡片查看翻译',
+      familiarityLabels: {
+        new: '🆕 新词',
+        learning: '📖 学习中',
+        familiar: '😊 熟悉',
+        mastered: '✅ 已掌握'
+      },
+      swipeFeedback: {
+        mastered: '✅ 已掌握',
+        unmastered: '❌ 未掌握'
+      },
+      statsPanel: {
+        title: '学习统计',
+        totalWords: '总单词数',
+        mastered: '已掌握',
+        masteryRate: '掌握率',
+        difficultyStats: '按难度统计',
+        familiarityStats: '按熟悉程度统计',
+        testStats: {
+          viewCount: '查看次数',
+          masteredCount: '标记掌握',
+          unmasteredCount: '标记未掌握',
+          testCount: '测试次数',
+          correctCount: '测试正确',
+          wrongCount: '测试错误',
+          accuracy: '正确率',
+          lastViewed: '最后查看',
+          lastTested: '最后测试'
+        }
+      },
+      detailsPanel: {
+        title: '单词详情',
+        dutch: '荷兰语',
+        chinese: '中文',
+        english: '英文',
+        partOfSpeech: '词性',
+        difficulty: '难度',
+        familiarity: '熟悉程度',
+        examples: '例句',
+        notes: '备注',
+        stats: '学习统计'
+      }
+    },
+    english: {
+      appTitle: 'Dutch Word Learning',
+      chineseLabel: '🇨🇳 中文',
+      englishLabel: '🇺🇸 EN',
+      allLabel: 'All',
+      a1a2Label: 'A1-A2',
+      b1b2Label: 'B1-B2',
+      c1c2Label: 'C1-C2',
+      masteredText: 'Mastered',
+      masteredCount: (mastered: number, total: number, percentage: number) => `${mastered} / ${total} Mastered (${percentage}%)`,
+      syncStatus: {
+        syncing: '🔄 Syncing...',
+        success: '✅ Sync Success',
+        error: '❌ Sync Failed'
+      },
+      loginButton: 'Login',
+      resetProgress: 'Are you sure you want to reset all learning progress? This action cannot be undone.',
+      resetButton: '🔄 Reset Progress',
+      shuffleButton: '🔀 Shuffle',
+      showStatsButton: (show: boolean) => show ? 'Hide Stats' : 'Show Stats',
+      showDetailsButton: (show: boolean) => show ? 'Hide Details' : 'Show Details',
+      prevButton: 'Prev',
+      nextButton: 'Next',
+      masteredButton: 'Mark Mastered',
+      unmasteredButton: 'Unmark Mastered',
+      flipCardHint: 'Click card to flip',
+      familiarityLabels: {
+        new: '🆕 New',
+        learning: '📖 Learning',
+        familiar: '😊 Familiar',
+        mastered: '✅ Mastered'
+      },
+      swipeFeedback: {
+        mastered: '✅ Mastered',
+        unmastered: '❌ Unmastered'
+      },
+      statsPanel: {
+        title: 'Learning Statistics',
+        totalWords: 'Total Words',
+        mastered: 'Mastered',
+        masteryRate: 'Mastery Rate',
+        difficultyStats: 'By Difficulty',
+        familiarityStats: 'By Familiarity',
+        testStats: {
+          viewCount: 'Views',
+          masteredCount: 'Marked Mastered',
+          unmasteredCount: 'Marked Unmastered',
+          testCount: 'Tests',
+          correctCount: 'Correct',
+          wrongCount: 'Wrong',
+          accuracy: 'Accuracy',
+          lastViewed: 'Last Viewed',
+          lastTested: 'Last Tested'
+        }
+      },
+      detailsPanel: {
+        title: 'Word Details',
+        dutch: 'Dutch',
+        chinese: 'Chinese',
+        english: 'English',
+        partOfSpeech: 'Part of Speech',
+        difficulty: 'Difficulty',
+        familiarity: 'Familiarity',
+        examples: 'Examples',
+        notes: 'Notes',
+        stats: 'Learning Stats'
+      }
+    }
+  }
+
+  const t = translations[languageMode]
 
   // 触摸事件处理
   const [touchStartX, setTouchStartX] = useState(0)
@@ -208,7 +350,7 @@ function MainApp() {
     const currentWord = filteredWordList[currentIndex]
     const newMasteredState = !currentWord.mastered
     
-    // 更新掌握状态统计
+    // Update mastery stats
     if (user) {
       try {
         const updatedStats = await updateMasteryStats(
@@ -238,7 +380,7 @@ function MainApp() {
       }
     }
     
-    // 本地模式：更新本地统计数据
+    // Local mode: update local stats
     const updatedWords = wordList.map(word => {
       if (word.id === currentWord.id) {
         const currentStats = word.stats || {
@@ -292,12 +434,12 @@ function MainApp() {
 
   // 重置进度
   const resetProgress = async () => {
-    if (window.confirm('确定要重置所有学习进度吗？此操作不可撤销。')) {
+    if (window.confirm(t.resetProgress)) {
       const resetWords = wordList.map(word => ({
         ...word,
         mastered: false,
         familiarity: 'new' as FamiliarityLevel,
-        stats: undefined // 重置统计数据
+        stats: undefined // Reset stats
       }))
 
       setWordList(resetWords)
@@ -348,7 +490,7 @@ function MainApp() {
               ? { ...word, stats: updatedStats }
               : word
           ))
-          // 更新 localStorage
+          // Update localStorage
           const updatedWords = wordList.map(word =>
             word.id === currentWord.id
               ? { ...word, stats: updatedStats }
@@ -392,7 +534,8 @@ function MainApp() {
     }
 
     recordView()
-  }, [currentWord?.id, user?.id, currentWord, user, wordList]) // 依赖所有使用的变量
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentWord?.id, user?.id])
 
   // 触摸事件处理函数
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -431,8 +574,8 @@ function MainApp() {
   }
 
   const handleTouchEnd = () => {
-    const masteryThreshold = 50 // 标记掌握状态的滑动阈值（降低以提高灵敏度）
-    const navigationThreshold = 100 // 切换单词的滑动阈值（大幅降低以提高灵敏度）
+    const masteryThreshold = 50 // Threshold for marking mastery (lower for more sensitivity)
+    const navigationThreshold = 100 // Threshold for switching words (much lower for more sensitivity)
 
     if (touchStartX === 0 || touchEndX === 0) {
       setIsSwiping(false)
@@ -443,7 +586,7 @@ function MainApp() {
       return
     }
 
-    // 如果没有滑动，直接返回
+    // If not swiping, return
     if (!isSwiping) {
       setTouchStartX(0)
       setTouchEndX(0)
@@ -456,11 +599,11 @@ function MainApp() {
     const swipeDistance = touchEndX - touchStartX
     const absDistance = Math.abs(swipeDistance)
 
-    // 优先处理导航（切换单词）- 提高优先级
+    // Prioritize navigation (switching words) - increase priority
     if (absDistance >= navigationThreshold) {
-      // 向左滑动：下一个
+      // Swipe left: next
       if (swipeDistance < -navigationThreshold) {
-        // 立即重置状态并切换
+        // Immediately reset state and switch
         setTouchStartX(0)
         setTouchEndX(0)
         setTouchStartY(0)
@@ -469,9 +612,9 @@ function MainApp() {
         goToNext()
         return
       }
-      // 向右滑动：上一个
+      // Swipe right: previous
       else if (swipeDistance > navigationThreshold) {
-        // 立即重置状态并切换
+        // Immediately reset state and switch
         setTouchStartX(0)
         setTouchEndX(0)
         setTouchStartY(0)
@@ -481,34 +624,34 @@ function MainApp() {
         return
       }
     }
-    // 处理掌握状态标记（短距离滑动：50-100px）
+    // Handle mastery marking (short distance swipe: 50-100px)
     else if (absDistance >= masteryThreshold) {
-      // 向右滑动：标记为已掌握
+      // Swipe right: mark as mastered
       if (swipeDistance > masteryThreshold) {
         if (!currentWord?.mastered) {
-          setSwipeFeedback('✅ 已掌握')
+          setSwipeFeedback(languageMode === 'chinese' ? t.swipeFeedback.mastered : t.swipeFeedback.mastered)
           setTimeout(() => setSwipeFeedback(null), 1000)
           toggleMastered()
         }
       }
-      // 向左滑动：标记为未掌握
+      // Swipe left: mark as unmastered
       else if (swipeDistance < -masteryThreshold) {
         if (currentWord?.mastered) {
-          setSwipeFeedback('❌ 未掌握')
+          setSwipeFeedback(languageMode === 'chinese' ? t.swipeFeedback.unmastered : t.swipeFeedback.unmastered)
           setTimeout(() => setSwipeFeedback(null), 1000)
           toggleMastered()
         }
       }
     }
 
-    // 重置触摸状态和动画
+    // Reset touch state and animation
     setTimeout(() => {
       setTouchStartX(0)
       setTouchEndX(0)
       setTouchStartY(0)
       setSwipeOffset(0)
       setIsSwiping(false)
-    }, 200) // 缩短等待时间
+    }, 200) // Shorter wait time
   }
 
   // 获取当前单词的例句和翻译
@@ -552,20 +695,20 @@ function MainApp() {
           <div className="app">
             <header className="header">
               <div className="header-content">
-                <h1>🇳🇱 荷兰语单词学习</h1>
+                <h1 className={languageMode === 'english' ? 'title-english' : ''}>{t.appTitle}</h1>
 
                 <div className="language-selector-header">
                   <button
                     className={`btn btn-sm ${languageMode === 'chinese' ? 'btn-primary' : 'btn-outline'}`}
                     onClick={() => switchLanguage('chinese')}
                   >
-                    中文
+                    {t.chineseLabel}
                   </button>
                   <button
                     className={`btn btn-sm ${languageMode === 'english' ? 'btn-primary' : 'btn-outline'}`}
                     onClick={() => switchLanguage('english')}
                   >
-                    EN
+                    {t.englishLabel}
                   </button>
                 </div>
               </div>
@@ -575,14 +718,14 @@ function MainApp() {
               </div>
 
               <div className="stats">
-                {masteredCount} / {totalCount} 已掌握 ({progressPercentage}%)
+                {t.masteredCount(masteredCount, totalCount, progressPercentage)}
               </div>
 
               {syncStatus !== 'idle' && (
                 <div className={`sync-status sync-status--${syncStatus}`}>
-                  {syncStatus === 'syncing' && '🔄 同步中...'}
-                  {syncStatus === 'success' && '✅ 同步成功'}
-                  {syncStatus === 'error' && '❌ 同步失败'}
+                  {syncStatus === 'syncing' && t.syncStatus.syncing}
+                  {syncStatus === 'success' && t.syncStatus.success}
+                  {syncStatus === 'error' && t.syncStatus.error}
                 </div>
               )}
 
@@ -590,17 +733,17 @@ function MainApp() {
                 {user ? (
                   <span>👤 {user.email}</span>
                 ) : (
-                  <button className="btn btn-outline" onClick={() => setShowAuth(true)}>登录</button>
+                  <button className="btn btn-outline" onClick={() => setShowAuth(true)}>{t.loginButton}</button>
                 )}
               </div>
             </header>
 
             <main className="main">
               <div className="difficulty-filters">
-                <button className={`btn ${selectedDifficulty === 'all' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setSelectedDifficulty('all')}>全部</button>
-                <button className={`btn ${selectedDifficulty === 'A1' || selectedDifficulty === 'A2' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setSelectedDifficulty('A1')}>A1-A2</button>
-                <button className={`btn ${selectedDifficulty === 'B1' || selectedDifficulty === 'B2' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setSelectedDifficulty('B1')}>B1-B2</button>
-                <button className={`btn ${selectedDifficulty === 'C1' || selectedDifficulty === 'C2' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setSelectedDifficulty('C1')}>C1-C2</button>
+                <button className={`btn ${selectedDifficulty === 'all' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setSelectedDifficulty('all')}>{t.allLabel}</button>
+                <button className={`btn ${selectedDifficulty === 'A1' || selectedDifficulty === 'A2' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setSelectedDifficulty('A1')}>{t.a1a2Label}</button>
+                <button className={`btn ${selectedDifficulty === 'B1' || selectedDifficulty === 'B2' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setSelectedDifficulty('B1')}>{t.b1b2Label}</button>
+                <button className={`btn ${selectedDifficulty === 'C1' || selectedDifficulty === 'C2' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setSelectedDifficulty('C1')}>{t.c1c2Label}</button>
               </div>
 
               {currentWord && (
@@ -612,17 +755,17 @@ function MainApp() {
                     key={`word-${currentWord.id}-${currentIndex}`}
                     className={`word-card ${isFlipped ? 'flipped' : ''} ${isSwiping ? 'swiping' : ''}`}
                     onClick={() => {
-                      // 双击检测：如果在300ms内再次点击，则翻转卡片
+                      // Double tap detection: if tapped again within 300ms, flip card
                       const now = Date.now()
                       const timeSinceLastTap = now - lastTapRef.current
 
-                      // 只有在非滑动状态下才响应双击
+                      // Only respond to double tap when not swiping
                       if (!isSwiping && timeSinceLastTap < 300 && timeSinceLastTap > 0) {
-                        // 双击触发翻转
+                        // Double tap triggers flip
                         setIsFlipped(!isFlipped)
-                        lastTapRef.current = 0 // 重置，防止三击触发
+                        lastTapRef.current = 0 // Reset to prevent triple tap
                       } else {
-                        // 单击，记录时间
+                        // Single tap, record time
                         lastTapRef.current = now
                       }
                     }}
@@ -652,7 +795,7 @@ function MainApp() {
                       {currentExample && (
                         <div className="word-example">
                           <div className="example-nl">{currentExample.dutch}</div>
-                          <div className={`example-${languageMode}`}>
+                          <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english' : ''}`}>
                             {languageMode === 'chinese' ? currentExample.chinese : currentExample.english}
                           </div>
                         </div>
@@ -662,17 +805,14 @@ function MainApp() {
                   </div>
 
                   <div className="familiarity-controls">
-                    <span>熟悉程度：</span>
+                    <span>{t.detailsPanel.familiarity}:</span>
                     {(['new', 'learning', 'familiar', 'mastered'] as FamiliarityLevel[]).map(level => (
                       <button
                         key={level}
                         className={`btn btn-sm ${currentWord.familiarity === level ? 'btn-primary' : 'btn-outline'}`}
                         onClick={() => setWordFamiliarity(currentWord.id, level)}
                       >
-                        {level === 'new' && '🆕 新词'}
-                        {level === 'learning' && '📖 学习中'}
-                        {level === 'familiar' && '😊 熟悉'}
-                        {level === 'mastered' && '✅ 已掌握'}
+                        {t.familiarityLabels[level]}
                       </button>
                     ))}
                   </div>
@@ -680,38 +820,38 @@ function MainApp() {
               )}
 
               <div className="navigation">
-                <button className="btn btn-outline" onClick={goToPrevious} disabled={filteredWordList.length <= 1}>上一个</button>
+                <button className="btn btn-outline" onClick={goToPrevious} disabled={filteredWordList.length <= 1}>{t.prevButton}</button>
                 <button className={`btn ${currentWord?.mastered ? 'btn-success' : 'btn-primary'}`} onClick={toggleMastered}>
-                  {currentWord?.mastered ? '取消掌握' : '标记掌握'}
+                  {currentWord?.mastered ? t.unmasteredButton : t.masteredButton}
         </button>
-                <button className="btn btn-outline" onClick={goToNext} disabled={filteredWordList.length <= 1}>下一个</button>
+                <button className="btn btn-outline" onClick={goToNext} disabled={filteredWordList.length <= 1}>{t.nextButton}</button>
               </div>
 
               <div className="tools">
-                <button className="btn btn-outline" onClick={shuffleWords}>🔀 随机排序</button>
-                <button className="btn btn-outline" onClick={() => setShowStats(!showStats)}>📊 {showStats ? '隐藏统计' : '显示统计'}</button>
-                <button className="btn btn-outline" onClick={() => setShowDetails(!showDetails)}>📋 {showDetails ? '隐藏详情' : '显示详情'}</button>
+                <button className="btn btn-outline" onClick={shuffleWords}>{t.shuffleButton}</button>
+                <button className="btn btn-outline" onClick={() => setShowStats(!showStats)}>{t.showStatsButton(showStats)}</button>
+                <button className="btn btn-outline" onClick={() => setShowDetails(!showDetails)}>{t.showDetailsButton(showDetails)}</button>
               </div>
 
               {showStats && (
                 <div className="stats-panel">
-                  <h3>学习统计</h3>
+                  <h3>{t.statsPanel.title}</h3>
                   <div className="stats-grid">
                     <div className="stat-item">
-                      <div className="stat-label">总单词数</div>
+                      <div className="stat-label">{t.statsPanel.totalWords}</div>
                       <div className="stat-value">{totalCount}</div>
                     </div>
                     <div className="stat-item">
-                      <div className="stat-label">已掌握</div>
+                      <div className="stat-label">{t.statsPanel.mastered}</div>
                       <div className="stat-value">{masteredCount}</div>
                     </div>
                     <div className="stat-item">
-                      <div className="stat-label">掌握率</div>
+                      <div className="stat-label">{t.statsPanel.masteryRate}</div>
                       <div className="stat-value">{progressPercentage}%</div>
                     </div>
                   </div>
                   <div className="difficulty-stats">
-                    <h4>按难度统计</h4>
+                    <h4>{t.statsPanel.difficultyStats}</h4>
                     {(['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as DifficultyLevel[]).map(level => {
                       const levelWords = wordList.filter(w => w.difficulty === level)
                       const levelMastered = levelWords.filter(w => w.mastered).length
@@ -726,17 +866,14 @@ function MainApp() {
                     })}
                   </div>
                   <div className="familiarity-stats">
-                    <h4>按熟悉程度统计</h4>
+                    <h4>{t.statsPanel.familiarityStats}</h4>
                     {(['new', 'learning', 'familiar', 'mastered'] as FamiliarityLevel[]).map(level => {
                       const levelWords = wordList.filter(w => w.familiarity === level)
                       const levelPercentage = wordList.length > 0 ? Math.round((levelWords.length / wordList.length) * 100) : 0
                       return (
                         <div key={level} className="familiarity-stat">
                           <span className={`familiarity-badge familiarity--${level}`}>
-                            {level === 'new' && '🆕 新词'}
-                            {level === 'learning' && '📖 学习中'}
-                            {level === 'familiar' && '😊 熟悉'}
-                            {level === 'mastered' && '✅ 已掌握'}
+                            {t.familiarityLabels[level]}
                           </span>
                           <span>{levelWords.length}</span>
                           <span>({levelPercentage}%)</span>
@@ -744,78 +881,76 @@ function MainApp() {
                       )
                     })}
                   </div>
-                  <button className="btn btn-danger" onClick={resetProgress}>🔄 重置进度</button>
+                  <button className="btn btn-danger" onClick={resetProgress}>{t.resetButton}</button>
                 </div>
               )}
 
               {showDetails && currentWord && (
                 <div className="details-panel">
-                  <h3>单词详情</h3>
-                  <div className="detail-item"><strong>荷兰语：</strong> {currentWord.word}</div>
-                  <div className="detail-item"><strong>中文：</strong> {currentWord.translation.chinese}</div>
-                  <div className="detail-item"><strong>英文：</strong> {currentWord.translation.english}</div>
-                  <div className="detail-item"><strong>词性：</strong> {currentWord.partOfSpeech}</div>
+                  <h3>{t.detailsPanel.title}</h3>
+                  <div className="detail-item"><strong>{t.detailsPanel.dutch}：</strong> {currentWord.word}</div>
+                  <div className="detail-item"><strong>{t.detailsPanel.chinese} ：</strong> {currentWord.translation.chinese}</div>
+                  <div className="detail-item"><strong>{t.detailsPanel.english}：</strong> {currentWord.translation.english}</div>
+                  <div className="detail-item"><strong>{t.detailsPanel.partOfSpeech}：</strong> {currentWord.partOfSpeech}</div>
                   <div className="detail-item">
-                    <strong>难度：</strong>
+                    <strong>{t.detailsPanel.difficulty}：</strong>
                     <span className={`difficulty-badge difficulty--${currentWord.difficulty}`}>{currentWord.difficulty}</span>
                   </div>
                   <div className="detail-item">
-                    <strong>熟悉程度：</strong>
+                    <strong>{t.detailsPanel.familiarity}：</strong>
                     <span className={`familiarity-badge familiarity--${currentWord.familiarity}`}>
-                      {currentWord.familiarity === 'new' && '🆕 新词'}
-                      {currentWord.familiarity === 'learning' && '📖 学习中'}
-                      {currentWord.familiarity === 'familiar' && '😊 熟悉'}
-                      {currentWord.familiarity === 'mastered' && '✅ 已掌握'}
+                      {t.familiarityLabels[currentWord.familiarity]}
                     </span>
                   </div>
                   {currentWord.examples && currentWord.examples.length > 0 && (
                     <div className="detail-item">
-                      <strong>例句：</strong>
+                      <strong>{t.detailsPanel.examples}：</strong>
                       {currentWord.examples.map((example, index) => (
                         <div key={index} className="example-container">
                           <div className="example-nl">{example}</div>
                           {(() => {
                             if (Array.isArray(currentWord.exampleTranslations)) {
                               const translation = currentWord.exampleTranslations[index]
-                              return translation && <div className="example-zh">{translation}</div>
+                              return translation && <div className={`example-zh ${languageMode === 'english' ? 'example-english' : ''}`}>{translation}</div>
                             } else if (currentWord.exampleTranslations) {
                               const translations = currentWord.exampleTranslations as ExampleTranslations
                               const translation = languageMode === 'chinese'
                                 ? translations.chinese?.[index]
                                 : translations.english?.[index]
-                              return translation && <div className={`example-${languageMode}`}>{translation}</div>
+                              return translation && <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english' : ''}`}>{translation}</div>
                             }
                             return null
                           })()}
+
                         </div>
                       ))}
                     </div>
                   )}
                   {currentWord.notes && (
                     <div className="detail-item">
-                      <strong>备注：</strong> {currentWord.notes}
+                      <strong>{t.detailsPanel.notes}：</strong> {currentWord.notes}
                     </div>
                   )}
                   {currentWord.stats && (
                     <div className="detail-item">
-                      <strong>学习统计：</strong>
+                      <strong>{t.detailsPanel.stats}：</strong>
                       <div className="stats-detail">
-                        <div>查看次数: {currentWord.stats.viewCount}</div>
-                        <div>标记掌握: {currentWord.stats.masteredCount} 次</div>
-                        <div>标记未掌握: {currentWord.stats.unmasteredCount} 次</div>
-                        <div>测试次数: {currentWord.stats.testCount}</div>
+                        <div>{t.statsPanel.testStats.viewCount}: {currentWord.stats.viewCount}</div>
+                        <div>{t.statsPanel.testStats.masteredCount}: {currentWord.stats.masteredCount}</div>
+                        <div>{t.statsPanel.testStats.unmasteredCount}: {currentWord.stats.unmasteredCount}</div>
+                        <div>{t.statsPanel.testStats.testCount}: {currentWord.stats.testCount}</div>
                         {currentWord.stats.testCount > 0 && (
                           <>
-                            <div>测试正确: {currentWord.stats.testCorrectCount} 次</div>
-                            <div>测试错误: {currentWord.stats.testWrongCount} 次</div>
-                            <div>正确率: {Math.round((currentWord.stats.testCorrectCount / currentWord.stats.testCount) * 100)}%</div>
+                            <div>{t.statsPanel.testStats.correctCount}: {currentWord.stats.testCorrectCount}</div>
+                            <div>{t.statsPanel.testStats.wrongCount}: {currentWord.stats.testWrongCount}</div>
+                            <div>{t.statsPanel.testStats.accuracy}: {Math.round((currentWord.stats.testCorrectCount / currentWord.stats.testCount) * 100)}%</div>
                           </>
                         )}
                         {currentWord.stats.lastViewedAt && (
-                          <div>最后查看: {new Date(currentWord.stats.lastViewedAt).toLocaleString('zh-CN')}</div>
+                          <div>{t.statsPanel.testStats.lastViewed}: {new Date(currentWord.stats.lastViewedAt).toLocaleString(languageMode === 'chinese' ? 'zh-CN' : 'en-US')}</div>
                         )}
                         {currentWord.stats.lastTestedAt && (
-                          <div>最后测试: {new Date(currentWord.stats.lastTestedAt).toLocaleString('zh-CN')}</div>
+                          <div>{t.statsPanel.testStats.lastTested}: {new Date(currentWord.stats.lastTestedAt).toLocaleString(languageMode === 'chinese' ? 'zh-CN' : 'en-US')}</div>
                         )}
                       </div>
                     </div>
@@ -825,7 +960,7 @@ function MainApp() {
             </main>
 
             <footer className="footer">
-              <p>💡 点击单词卡片查看翻译 | 使用键盘方向键切换单词</p>
+              <p>{t.flipCardHint} | {languageMode === 'chinese' ? '使用键盘方向键切换单词' : 'Use arrow keys to navigate'}</p>
             </footer>
       </div>
         </>

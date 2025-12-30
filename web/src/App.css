@@ -9,6 +9,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* 支持国旗表情符号 */
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   /* 移动端优化 */
   -webkit-tap-highlight-color: transparent; /* 移除点击高亮 */
   overscroll-behavior-y: contain; /* 防止过度滚动 */
@@ -66,11 +68,13 @@ body {
 .header h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  background: linear-gradient(45deg, #fff, #f0f0f0);
+  background: linear-gradient(135deg, #fff 0%, #e0e7ff 50%, #fff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  letter-spacing: normal;
+  line-height: 1.2;
 }
 
 /* 头部语言选择器 */
@@ -353,6 +357,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  letter-spacing: -0.05em;
 }
 
 .word-translation {
@@ -446,15 +451,18 @@ body {
   display: flex;
   gap: 8px;
   margin-top: 20px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  overflow-x: auto;
+  padding: 4px;
 }
 
 .familiarity-controls span {
   font-size: 0.95rem;
   color: #6b7280;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 /* 导航控制 */
@@ -878,6 +886,7 @@ body {
   .word-dutch {
     font-size: 2.2rem;
     margin-bottom: 12px;
+    letter-spacing: -0.05em;
   }
 
   .word-translation {
