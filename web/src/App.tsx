@@ -37,11 +37,10 @@ function MainApp() {
   const [touchStartX, setTouchStartX] = useState(0)
   const [touchEndX, setTouchEndX] = useState(0)
   const [touchStartY, setTouchStartY] = useState(0)
-  const [touchEndY, setTouchEndY] = useState(0)
   const [swipeFeedback, setSwipeFeedback] = useState<string | null>(null)
   const [swipeOffset, setSwipeOffset] = useState(0) // 滑动偏移量，用于动画
   const [isSwiping, setIsSwiping] = useState(false) // 是否正在滑动
-  const isTapRef = useRef(true) // 用于区分点击和滑动
+  const lastTapRef = useRef(0) // 记录最后一次点击时间，用于双击检测
 
   // 根据路径确定语言模式
   useEffect(() => {
@@ -188,8 +187,8 @@ function MainApp() {
   // 根据难度筛选单词
   useEffect(() => {
     setFilteredWordList(calculateFilteredWordList())
-    setIsFlipped(false) // 筛选时重置翻转状态
-  }, [calculateFilteredWordList])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [wordList, selectedDifficulty])
 
   // 当切换单词时，确保卡片重置为未翻转状态
   useEffect(() => {
@@ -403,10 +402,8 @@ function MainApp() {
     setTouchStartX(startX)
     setTouchEndX(startX) // 初始化结束位置
     setTouchStartY(startY)
-    setTouchEndY(startY)
     setSwipeOffset(0)
     setIsSwiping(false) // 初始状态不是滑动
-    isTapRef.current = true // 假设是点击
   }
 
   const handleTouchMove = (e: React.TouchEvent) => {
@@ -414,7 +411,6 @@ function MainApp() {
     const currentX = touch.screenX
     const currentY = touch.screenY
     setTouchEndX(currentX)
-    setTouchEndY(currentY)
 
     // 计算滑动偏移量
     if (touchStartX !== 0) {
@@ -422,11 +418,6 @@ function MainApp() {
       const offsetY = currentY - touchStartY
       const absOffsetX = Math.abs(offsetX)
       const absOffsetY = Math.abs(offsetY)
-
-      // 如果移动距离超过阈值，标记为滑动而不是点击
-      if (absOffsetX > 10 || absOffsetY > 10) {
-        isTapRef.current = false
-      }
 
       // 只处理水平滑动（水平距离大于垂直距离，且水平距离超过阈值）
       if (absOffsetX > 10 && absOffsetX > absOffsetY * 1.5) {
@@ -439,31 +430,9 @@ function MainApp() {
     }
   }
 
-  const handleTouchEnd = (e?: React.TouchEvent) => {
+  const handleTouchEnd = () => {
     const masteryThreshold = 50 // 标记掌握状态的滑动阈值（降低以提高灵敏度）
     const navigationThreshold = 100 // 切换单词的滑动阈值（大幅降低以提高灵敏度）
-
-    // 计算移动距离
-    const absDistanceX = Math.abs(touchEndX - touchStartX)
-    const absDistanceY = Math.abs(touchEndY - touchStartY)
-
-    // 如果是点击（移动距离很小），触发翻转
-    if (isTapRef.current && absDistanceX < 10 && absDistanceY < 10 && !isSwiping) {
-      setIsFlipped(!isFlipped)
-      // 重置状态
-      setTouchStartX(0)
-      setTouchEndX(0)
-      setTouchStartY(0)
-      setTouchEndY(0)
-      setSwipeOffset(0)
-      setIsSwiping(false)
-      // 阻止事件冒泡，避免触发其他点击事件
-      if (e) {
-        e.preventDefault()
-        e.stopPropagation()
-      }
-      return
-    }
 
     if (touchStartX === 0 || touchEndX === 0) {
       setIsSwiping(false)
@@ -471,7 +440,6 @@ function MainApp() {
       setTouchStartX(0)
       setTouchEndX(0)
       setTouchStartY(0)
-      setTouchEndY(0)
       return
     }
 
@@ -480,7 +448,6 @@ function MainApp() {
       setTouchStartX(0)
       setTouchEndX(0)
       setTouchStartY(0)
-      setTouchEndY(0)
       setSwipeOffset(0)
       setIsSwiping(false)
       return
@@ -497,7 +464,6 @@ function MainApp() {
         setTouchStartX(0)
         setTouchEndX(0)
         setTouchStartY(0)
-        setTouchEndY(0)
         setSwipeOffset(0)
         setIsSwiping(false)
         goToNext()
@@ -509,7 +475,6 @@ function MainApp() {
         setTouchStartX(0)
         setTouchEndX(0)
         setTouchStartY(0)
-        setTouchEndY(0)
         setSwipeOffset(0)
         setIsSwiping(false)
         goToPrevious()
@@ -541,7 +506,6 @@ function MainApp() {
       setTouchStartX(0)
       setTouchEndX(0)
       setTouchStartY(0)
-      setTouchEndY(0)
       setSwipeOffset(0)
       setIsSwiping(false)
     }, 200) // 缩短等待时间
@@ -640,10 +604,7 @@ function MainApp() {
               </div>
 
               {currentWord && (
-                <div className={`word-card-container ${isSwiping ? 'swiping' : ''}`}
-                     onTouchStart={handleTouchStart}
-                     onTouchMove={handleTouchMove}
-                     onTouchEnd={handleTouchEnd}>
+                <div className={`word-card-container ${isSwiping ? 'swiping' : ''}`}>
                   {swipeFeedback && (
                     <div className="swipe-feedback">{swipeFeedback}</div>
                   )}
@@ -651,19 +612,29 @@ function MainApp() {
                     key={`word-${currentWord.id}-${currentIndex}`}
                     className={`word-card ${isFlipped ? 'flipped' : ''} ${isSwiping ? 'swiping' : ''}`}
                     onClick={() => {
-                      // 只有在非触摸设备或没有滑动时才触发点击
-                      if (!isSwiping && isTapRef.current) {
+                      // 双击检测：如果在300ms内再次点击，则翻转卡片
+                      const now = Date.now()
+                      const timeSinceLastTap = now - lastTapRef.current
+
+                      // 只有在非滑动状态下才响应双击
+                      if (!isSwiping && timeSinceLastTap < 300 && timeSinceLastTap > 0) {
+                        // 双击触发翻转
                         setIsFlipped(!isFlipped)
+                        lastTapRef.current = 0 // 重置，防止三击触发
+                      } else {
+                        // 单击，记录时间
+                        lastTapRef.current = now
                       }
                     }}
+                    onTouchStart={handleTouchStart}
+                    onTouchMove={handleTouchMove}
+                    onTouchEnd={handleTouchEnd}
                     style={{
-                      transform: isSwiping 
-                        ? `translateX(${swipeOffset}px) rotateZ(${swipeOffset * 0.15}deg) ${isFlipped ? `rotateY(${180 + swipeOffset * 0.1}deg)` : `rotateY(${swipeOffset * 0.1}deg)`}`
-                        : isFlipped 
-                          ? 'rotateY(180deg)'
-                          : undefined,
+                      transform: isSwiping
+                        ? `translateX(${swipeOffset}px) rotateZ(${swipeOffset * 0.15}deg)`
+                        : undefined,
                       opacity: isSwiping ? Math.max(0.3, 1 - Math.abs(swipeOffset) / 500) : undefined,
-                      transition: isSwiping ? 'none' : 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease-out',
+                      transition: isSwiping ? 'none' : undefined,
                       filter: isSwiping && Math.abs(swipeOffset) > 50
                         ? `drop-shadow(${swipeOffset > 0 ? '4px' : '-4px'} 8px 16px ${swipeOffset > 0 ? 'rgba(74, 222, 128, 0.4)' : 'rgba(239, 68, 68, 0.4)'})`
                         : undefined,

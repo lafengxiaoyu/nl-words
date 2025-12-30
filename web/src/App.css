@@ -274,7 +274,6 @@ body {
   transform-style: preserve-3d;
   transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 20px;
-  backface-visibility: hidden; /* 隐藏背面 */
   /* 移动端优化 */
   -webkit-tap-highlight-color: transparent;
   touch-action: pan-y; /* 允许垂直滚动，但优化触摸 */
@@ -287,6 +286,11 @@ body {
 
 .word-card.flipped {
   transform: rotateY(180deg);
+}
+
+/* 滑动时如果卡片是翻转状态，需要在滑动的基础上加上翻转 */
+.word-card.swiping.flipped {
+  /* 注意：这个样式会通过内联样式覆盖，所以这里不需要设置 */
 }
 
 .card-front,
