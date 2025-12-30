@@ -23,9 +23,15 @@
 
     // 构建目标路径：/nl-words/zh 或 /nl-words/en
     const targetPath = '/nl-words/' + lang;
+    const targetPathWithSlash = targetPath + '/';
 
-    // 如果当前路径不是目标路径，则重定向
-    if (path !== targetPath && path !== targetPath + '/') {
+    // 检查当前路径是否已经是正确的语言路径（带或不带尾部斜杠）
+    // 如果路径已经是 /nl-words/zh 或 /nl-words/zh/ 或 /nl-words/en 或 /nl-words/en/，则不需要重定向
+    if (path === targetPath || path === targetPathWithSlash) {
+      // 路径正确，隐藏跳转提示，直接加载应用
+      document.body.innerHTML = '';
+    } else {
+      // 只有路径不正确时才重定向
       window.location.replace(targetPath);
     }
   </script>
