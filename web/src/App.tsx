@@ -362,8 +362,6 @@ function MainApp() {
   // 根据难度筛选单词
   useEffect(() => {
     setFilteredWordList(calculateFilteredWordList())
-    setCurrentIndex(0) // 切换筛选时重置到第一个单词
-    setIsFlipped(false) // 重置翻转状态
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wordList, selectedDifficulty])
 
@@ -485,31 +483,13 @@ function MainApp() {
 
   // 导航函数
   const goToNext = () => {
-    // 如果卡片是翻转状态，先重置，等待动画完成后再切换
-    if (isFlipped) {
-      setIsFlipped(false)
-      // 等待翻转动画完成（0.6s）后再切换单词
-      setTimeout(() => {
-        setCurrentIndex((prev) => (prev + 1) % filteredWordList.length)
-      }, 600)
-    } else {
-      // 如果卡片未翻转，直接切换
-      setCurrentIndex((prev) => (prev + 1) % filteredWordList.length)
-    }
+    setIsFlipped(false)
+    setCurrentIndex((prev) => (prev + 1) % filteredWordList.length)
   }
 
   const goToPrevious = () => {
-    // 如果卡片是翻转状态，先重置，等待动画完成后再切换
-    if (isFlipped) {
-      setIsFlipped(false)
-      // 等待翻转动画完成（0.6s）后再切换单词
-      setTimeout(() => {
-        setCurrentIndex((prev) => (prev - 1 + filteredWordList.length) % filteredWordList.length)
-      }, 600)
-    } else {
-      // 如果卡片未翻转，直接切换
-      setCurrentIndex((prev) => (prev - 1 + filteredWordList.length) % filteredWordList.length)
-    }
+    setIsFlipped(false)
+    setCurrentIndex((prev) => (prev - 1 + filteredWordList.length) % filteredWordList.length)
   }
 
   // 记录单词查看次数（当单词变化时）
@@ -853,19 +833,17 @@ function MainApp() {
                       </div>
                       {currentExample && (
                         <div className="word-example">
-                          <div className="example-header">
-                            <div className="example-nl">{currentExample.dutch}</div>
-                            <button
-                              className="speak-btn-example"
-                              onClick={(e) => {
-                                e.stopPropagation()
-                                speakDutch(currentExample.dutch)
-                              }}
-                              title={t.speakExampleButton}
-                            >
-                              {isSpeaking ? '🔇' : '🔊'}
-                            </button>
-                          </div>
+                          <div className="example-nl">{currentExample.dutch}</div>
+                          <button
+                            className="speak-btn-example"
+                            onClick={(e) => {
+                              e.stopPropagation()
+                              speakDutch(currentExample.dutch)
+                            }}
+                            title={t.speakExampleButton}
+                          >
+                            {isSpeaking ? '🔇' : '🔊'}
+                          </button>
                           <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english' : ''}`}>
                             {languageMode === 'chinese' ? currentExample.chinese : currentExample.english}
                           </div>

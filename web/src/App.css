@@ -292,6 +292,12 @@ body {
   transform: rotateY(180deg);
 }
 
+/* 翻转时隐藏正面的元素 */
+.word-card.flipped .card-front {
+  visibility: hidden;
+  pointer-events: none;
+}
+
 /* 滑动时如果卡片是翻转状态，需要在滑动的基础上加上翻转 */
 
 .card-front,
