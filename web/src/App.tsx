@@ -990,24 +990,24 @@ function MainApp() {
                   )}
                   {currentWord.stats && (
                     <div className="detail-item">
-                      <strong>{t.detailsPanel.stats}：</strong>
+                      <strong className="google-font-text">{t.detailsPanel.stats}：</strong>
                       <div className="stats-detail">
-                        <div>{t.statsPanel.testStats.viewCount}: {currentWord.stats.viewCount}</div>
-                        <div>{t.statsPanel.testStats.masteredCount}: {currentWord.stats.masteredCount}</div>
-                        <div>{t.statsPanel.testStats.unmasteredCount}: {currentWord.stats.unmasteredCount}</div>
-                        <div>{t.statsPanel.testStats.testCount}: {currentWord.stats.testCount}</div>
+                        <div className="google-font-text">{t.statsPanel.testStats.viewCount}: {currentWord.stats.viewCount}</div>
+                        <div className="google-font-text">{t.statsPanel.testStats.masteredCount}: {currentWord.stats.masteredCount}</div>
+                        <div className="google-font-text">{t.statsPanel.testStats.unmasteredCount}: {currentWord.stats.unmasteredCount}</div>
+                        <div className="google-font-text">{t.statsPanel.testStats.testCount}: {currentWord.stats.testCount}</div>
                         {currentWord.stats.testCount > 0 && (
                           <>
-                            <div>{t.statsPanel.testStats.correctCount}: {currentWord.stats.testCorrectCount}</div>
-                            <div>{t.statsPanel.testStats.wrongCount}: {currentWord.stats.testWrongCount}</div>
-                            <div>{t.statsPanel.testStats.accuracy}: {Math.round((currentWord.stats.testCorrectCount / currentWord.stats.testCount) * 100)}%</div>
+                            <div className="google-font-text">{t.statsPanel.testStats.correctCount}: {currentWord.stats.testCorrectCount}</div>
+                            <div className="google-font-text">{t.statsPanel.testStats.wrongCount}: {currentWord.stats.testWrongCount}</div>
+                            <div className="google-font-text">{t.statsPanel.testStats.accuracy}: {Math.round((currentWord.stats.testCorrectCount / currentWord.stats.testCount) * 100)}%</div>
                           </>
                         )}
                         {currentWord.stats.lastViewedAt && (
-                          <div>{t.statsPanel.testStats.lastViewed}: {new Date(currentWord.stats.lastViewedAt).toLocaleString(languageMode === 'chinese' ? 'zh-CN' : 'en-US')}</div>
+                          <div className="google-font-text">{t.statsPanel.testStats.lastViewed}: {new Date(currentWord.stats.lastViewedAt).toLocaleString(languageMode === 'chinese' ? 'zh-CN' : 'en-US')}</div>
                         )}
                         {currentWord.stats.lastTestedAt && (
-                          <div>{t.statsPanel.testStats.lastTested}: {new Date(currentWord.stats.lastTestedAt).toLocaleString(languageMode === 'chinese' ? 'zh-CN' : 'en-US')}</div>
+                          <div className="google-font-text">{t.statsPanel.testStats.lastTested}: {new Date(currentWord.stats.lastTestedAt).toLocaleString(languageMode === 'chinese' ? 'zh-CN' : 'en-US')}</div>
                         )}
                       </div>
                     </div>
@@ -1017,7 +1017,7 @@ function MainApp() {
             </main>
 
             <footer className="footer">
-              <p>{t.flipCardHint} | {languageMode === 'chinese' ? '使用键盘方向键切换单词' : 'Use arrow keys to navigate'}</p>
+              <p className="google-font-text">{t.flipCardHint} | {languageMode === 'chinese' ? '使用键盘方向键切换单词' : 'Use arrow keys to navigate'}</p>
             </footer>
 
             {showUserProfile && user && (
