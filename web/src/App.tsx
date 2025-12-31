@@ -375,7 +375,7 @@ function MainApp() {
   const saveProgressToSupabase = async (word: Word) => {
     if (user) {
       try {
-        await saveUserProgress(user.id, word.id, word.mastered, word.familiarity, word.stats)
+        await saveUserProgress(user.id, word.id, word.familiarity, word.stats)
         setSyncStatus('success')
         setTimeout(() => setSyncStatus('idle'), 1000)
       } catch (error) {
@@ -418,36 +418,35 @@ function MainApp() {
   const currentWord = filteredWordList[currentIndex]
 
   // 计算学习进度 - 基于筛选后的列表
-  const masteredCount = filteredWordList.filter(w => w.mastered).length
+  const masteredCount = filteredWordList.filter(w => w.familiarity === 'mastered').length
   const totalCount = filteredWordList.length
   const progressPercentage = totalCount > 0 ? Math.round((masteredCount / totalCount) * 100) : 0
 
   // 切换当前单词的掌握状态
   const toggleMastered = async () => {
     const currentWord = filteredWordList[currentIndex]
-    const newMasteredState = !currentWord.mastered
-    
+    const newFamiliarity: FamiliarityLevel = currentWord.familiarity === 'mastered' ? 'learning' : 'mastered'
+
     // Update mastery stats
     if (user) {
       try {
         const updatedStats = await updateMasteryStats(
           user.id,
           currentWord.id,
-          newMasteredState,
+          newFamiliarity,
           currentWord.stats
         )
-        
+
         const updatedWords = wordList.map(word =>
           word.id === currentWord.id
-            ? { 
-                ...word, 
-                mastered: newMasteredState, 
-                familiarity: newMasteredState ? 'mastered' as FamiliarityLevel : 'learning' as FamiliarityLevel,
+            ? {
+                ...word,
+                familiarity: newFamiliarity,
                 stats: updatedStats
               }
             : word
         )
-        
+
         setWordList(updatedWords)
         localStorage.setItem('nl-words', JSON.stringify(updatedWords))
         await saveProgressToSupabase(updatedWords.find(w => w.id === currentWord.id)!)
@@ -468,15 +467,14 @@ function MainApp() {
           testCorrectCount: 0,
           testWrongCount: 0,
         }
-        
+
         return {
           ...word,
-          mastered: newMasteredState,
-          familiarity: newMasteredState ? 'mastered' as FamiliarityLevel : 'learning' as FamiliarityLevel,
+          familiarity: newFamiliarity,
           stats: {
             ...currentStats,
-            masteredCount: newMasteredState ? currentStats.masteredCount + 1 : currentStats.masteredCount,
-            unmasteredCount: !newMasteredState ? currentStats.unmasteredCount + 1 : currentStats.unmasteredCount,
+            masteredCount: newFamiliarity === 'mastered' ? currentStats.masteredCount + 1 : currentStats.masteredCount,
+            unmasteredCount: newFamiliarity !== 'mastered' ? currentStats.unmasteredCount + 1 : currentStats.unmasteredCount,
           }
         }
       }
@@ -492,7 +490,7 @@ function MainApp() {
   const setWordFamiliarity = async (wordId: number, familiarity: FamiliarityLevel) => {
     const updatedWords = wordList.map(word =>
       word.id === wordId
-        ? { ...word, familiarity, mastered: familiarity === 'mastered' }
+        ? { ...word, familiarity }
         : word
     )
 
@@ -936,8 +934,8 @@ function MainApp() {
 
               <div className="navigation">
                 <button className="btn btn-outline" onClick={goToPrevious} disabled={filteredWordList.length <= 1}>{t.prevButton}</button>
-                <button className={`btn ${currentWord?.mastered ? 'btn-success' : 'btn-primary'}`} onClick={toggleMastered}>
-                  {currentWord?.mastered ? t.unmasteredButton : t.masteredButton}
+                <button className={`btn ${currentWord?.familiarity === 'mastered' ? 'btn-success' : 'btn-primary'}`} onClick={toggleMastered}>
+                  {currentWord?.familiarity === 'mastered' ? t.unmasteredButton : t.masteredButton}
         </button>
                 <button className="btn btn-outline" onClick={goToNext} disabled={filteredWordList.length <= 1}>{t.nextButton}</button>
               </div>
