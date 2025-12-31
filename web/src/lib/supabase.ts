@@ -49,8 +49,7 @@ export interface UserProgress {
   id?: string
   user_id: string
   word_id: number
-  mastered: boolean
-  familiarity: string
+  familiarity: string // 熟悉程度（'new' | 'learning' | 'familiar' | 'mastered'）
   // 学习统计字段
   view_count?: number
   mastered_count?: number
@@ -65,7 +64,6 @@ export interface UserProgress {
 
 export interface UserWord {
   word_id: number
-  mastered: boolean
   familiarity: string
 }
 

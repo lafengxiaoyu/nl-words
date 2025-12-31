@@ -35,8 +35,6 @@
     "你能举个例子吗？"
   ],
   "notes": "中性名词",
-  "familiarity": "new",
-  "mastered": false,
   "difficulty": "A1"
 }
 ```
@@ -52,9 +50,9 @@
   - `english`: 英文翻译
 - `partOfSpeech`: 词性（见下方词性列表）
 - `examples`: 例句数组（荷兰语）
-- `familiarity`: 熟悉程度（`new` | `learning` | `familiar` | `mastered`）
-- `mastered`: 是否已掌握（布尔值）
 - `difficulty`: 难度级别（`A1` | `A2` | `B1` | `B2` | `C1` | `C2`）- CEFR标准
+
+**注意**：`familiarity` 和 `mastered` 字段不在 `words.json` 中，它们是用户对单词的进度属性，存储在数据库中。
 
 ### 可选字段
 
@@ -119,9 +117,7 @@
     }
   },
   "examples": ["De tafel is groot."],
-  "exampleTranslations": ["桌子很大。"],
-  "familiarity": "new",
-  "mastered": false
+  "exampleTranslations": ["桌子很大。"]
 }
 ```
 
@@ -155,9 +151,7 @@
     }
   },
   "examples": ["Ik drink water."],
-  "exampleTranslations": ["我喝水。"],
-  "familiarity": "new",
-  "mastered": false
+  "exampleTranslations": ["我喝水。"]
 }
 ```
 
@@ -182,9 +176,7 @@
     }
   },
   "examples": ["Het huis is groot."],
-  "exampleTranslations": ["房子很大。"],
-  "familiarity": "new",
-  "mastered": false
+  "exampleTranslations": ["房子很大。"]
 }
 ```
 

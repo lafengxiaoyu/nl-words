@@ -75,8 +75,8 @@ export interface LearningStats {
   lastTestedAt?: string // 最后测试时间
 }
 
-// 单词完整数据结构
-export interface Word {
+// 单词基础数据结构（不包含用户特定的属性）
+export interface BaseWord {
   id: number
   word: string // 荷兰语单词
   translation: Translation // 中英文翻译
@@ -85,9 +85,23 @@ export interface Word {
   examples: string[] // 例句（荷兰语）
   exampleTranslations?: ExampleTranslations // 例句翻译（中英文）
   notes?: string // 备注
-  familiarity: FamiliarityLevel // 熟悉程度
-  mastered: boolean // 是否已掌握（兼容旧数据）
   difficulty: DifficultyLevel // 难度级别
-  stats?: LearningStats // 学习统计信息（可选，用于用户进度）
 }
+
+// 用户对单词的进度信息
+export interface UserWordProgress {
+  wordId: number
+  familiarity: FamiliarityLevel // 熟悉程度（'new' | 'learning' | 'familiar' | 'mastered'）
+  stats?: LearningStats // 学习统计信息
+}
+
+// 单词与用户进度的组合（用于UI显示）
+export interface WordWithProgress extends BaseWord {
+  familiarity: FamiliarityLevel // 熟悉程度（'new' | 'learning' | 'familiar' | 'mastered'）
+  stats?: LearningStats // 学习统计信息
+}
+
+// Word 类型作为 WordWithProgress 的别名，用于UI显示
+// 注意：单词数据本身（BaseWord）不包含用户进度，用户进度存储在数据库中
+export type Word = WordWithProgress
 

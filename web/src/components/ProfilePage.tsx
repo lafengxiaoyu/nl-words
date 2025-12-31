@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
-import { words } from '../data/words'
+import { baseWords } from '../data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from '../data/words'
 import './ProfilePage.css'
 
@@ -29,7 +29,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const [message, setMessage] = useState<string | null>(null)
 
   // 计算学习统计
-  const masteredCount = wordList.filter(w => w.mastered).length
+  const masteredCount = wordList.filter(w => w.familiarity === 'mastered').length
   const totalCount = wordList.length
   const progressPercentage = totalCount > 0 ? Math.round((masteredCount / totalCount) * 100) : 0
 
@@ -139,17 +139,39 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
     }
     getUser()
 
-    // Load word list from localStorage
-    const savedWords = localStorage.getItem('nl-words')
-    if (savedWords) {
+    // Load word progress from localStorage
+    const savedProgress = localStorage.getItem('nl-words-progress')
+    if (savedProgress) {
       try {
-        const parsed = JSON.parse(savedWords)
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setWordList(parsed)
-        }
+        const progressMap = new Map<number, { familiarity: FamiliarityLevel; stats?: any }>(JSON.parse(savedProgress))
+        // 将 baseWords 与本地进度合并
+        const wordsWithProgress: Word[] = baseWords.map(word => {
+          const progress = progressMap.get(word.id)
+          return {
+            ...word,
+            familiarity: progress?.familiarity || 'new',
+            stats: progress?.stats,
+          }
+        })
+        setWordList(wordsWithProgress)
       } catch (e) {
-        console.error('Failed to load saved words', e)
+        console.error('Failed to load saved progress', e)
+        // 如果加载失败，使用默认值
+        const wordsWithProgress: Word[] = baseWords.map(word => ({
+          ...word,
+          familiarity: 'new' as FamiliarityLevel,
+          stats: undefined,
+        }))
+        setWordList(wordsWithProgress)
       }
+    } else {
+      // 如果没有保存的数据，使用默认值
+      const wordsWithProgress: Word[] = baseWords.map(word => ({
+        ...word,
+        familiarity: 'new' as FamiliarityLevel,
+        stats: undefined,
+      }))
+      setWordList(wordsWithProgress)
     }
   }, [navigate, languageMode])
 
@@ -166,15 +188,18 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         }
       }
 
-      const resetWords = wordList.map(word => ({
+      const resetWords: Word[] = baseWords.map(word => ({
         ...word,
-        mastered: false,
         familiarity: 'new' as FamiliarityLevel,
         stats: undefined
       }))
 
       setWordList(resetWords)
-      localStorage.setItem('nl-words', JSON.stringify(resetWords))
+      // 保存进度到 localStorage（只保存用户进度）
+      const progressMap = new Map(
+        resetWords.map(word => [word.id, { familiarity: word.familiarity, stats: word.stats }])
+      )
+      localStorage.setItem('nl-words-progress', JSON.stringify(Array.from(progressMap.entries())))
       window.location.reload()
     }
   }
@@ -280,7 +305,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
                 <h3>{text.difficultyStats}</h3>
                 {(['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as DifficultyLevel[]).map(level => {
                   const levelWords = wordList.filter(w => w.difficulty === level)
-                  const levelMastered = levelWords.filter(w => w.mastered).length
+                  const levelMastered = levelWords.filter(w => w.familiarity === 'mastered').length
                   const levelPercentage = levelWords.length > 0 ? Math.round((levelMastered / levelWords.length) * 100) : 0
                   return (
                     <div key={level} className="difficulty-stat">

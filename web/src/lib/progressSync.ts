@@ -1,6 +1,5 @@
 import { supabase, isSupabaseConfigured, type UserProgress } from './supabase'
-import type { Word, FamiliarityLevel } from '../data/words'
-import type { LearningStats } from '../data/types'
+import type { BaseWord, WordWithProgress, UserWordProgress, FamiliarityLevel, LearningStats } from '../data/types'
 
 // Supabase 错误类型
 interface SupabaseError {
@@ -13,7 +12,7 @@ interface SupabaseError {
 /**
  * 从 Supabase 加载用户的学习进度
  */
-export async function loadUserProgress(userId: string): Promise<Map<number, Partial<Word>>> {
+export async function loadUserProgress(userId: string): Promise<Map<number, UserWordProgress>> {
   if (!isSupabaseConfigured) {
     return new Map()
   }
@@ -26,7 +25,7 @@ export async function loadUserProgress(userId: string): Promise<Map<number, Part
 
     if (error) throw error
 
-    const progressMap = new Map<number, Partial<Word>>()
+    const progressMap = new Map<number, UserWordProgress>()
     
     if (data) {
       data.forEach((item: UserProgress) => {
@@ -42,7 +41,7 @@ export async function loadUserProgress(userId: string): Promise<Map<number, Part
         } : undefined
 
         progressMap.set(item.word_id, {
-          mastered: item.mastered,
+          wordId: item.word_id,
           familiarity: item.familiarity as FamiliarityLevel,
           stats,
         })
@@ -71,8 +70,7 @@ export async function loadUserProgress(userId: string): Promise<Map<number, Part
 export async function saveUserProgress(
   userId: string,
   wordId: number,
-  mastered: boolean,
-  familiarity: string,
+  familiarity: FamiliarityLevel,
   stats?: LearningStats
 ): Promise<void> {
   if (!isSupabaseConfigured) {
@@ -84,7 +82,6 @@ export async function saveUserProgress(
     const updateData: Partial<UserProgress> = {
       user_id: userId,
       word_id: wordId,
-      mastered,
       familiarity,
       updated_at: new Date().toISOString(),
     }
@@ -212,9 +209,10 @@ export async function incrementViewCount(
 export async function updateMasteryStats(
   userId: string,
   wordId: number,
-  isMastered: boolean,
+  familiarity: FamiliarityLevel,
   currentStats?: LearningStats
 ): Promise<LearningStats> {
+  const isMastered = familiarity === 'mastered'
   if (!isSupabaseConfigured) {
     return {
       viewCount: currentStats?.viewCount || 0,
@@ -256,7 +254,7 @@ export async function updateMasteryStats(
       .upsert({
         user_id: userId,
         word_id: wordId,
-        mastered: isMastered,
+        familiarity,
         mastered_count: newStats.masteredCount,
         unmastered_count: newStats.unmasteredCount,
         updated_at: new Date().toISOString(),
@@ -370,7 +368,7 @@ export async function updateTestStats(
  */
 export async function saveAllUserProgress(
   userId: string,
-  words: Word[]
+  words: WordWithProgress[]
 ): Promise<void> {
   if (!isSupabaseConfigured) {
     return
@@ -381,7 +379,6 @@ export async function saveAllUserProgress(
       const data: Partial<UserProgress> = {
         user_id: userId,
         word_id: word.id,
-        mastered: word.mastered,
         familiarity: word.familiarity,
         updated_at: new Date().toISOString(),
       }
@@ -422,22 +419,28 @@ export async function saveAllUserProgress(
 
 /**
  * 合并云端进度到本地单词列表
+ * 将 BaseWord 数组和用户进度 Map 合并成 WordWithProgress 数组
  */
 export function mergeProgress(
-  words: Word[],
-  progressMap: Map<number, Partial<Word>>
-): Word[] {
+  words: BaseWord[],
+  progressMap: Map<number, UserWordProgress>
+): WordWithProgress[] {
   return words.map(word => {
     const progress = progressMap.get(word.id)
     if (progress) {
       return {
         ...word,
-        mastered: progress.mastered ?? word.mastered,
-        familiarity: progress.familiarity ?? word.familiarity,
-        stats: progress.stats ?? word.stats,
+        familiarity: progress.familiarity,
+        stats: progress.stats,
       }
     }
-    return word
+    // 如果没有进度数据，使用默认值
+    return {
+      ...word,
+      familiarity: 'new' as FamiliarityLevel,
+      stats: undefined,
+    }
   })
 }
+
 

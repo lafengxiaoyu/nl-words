@@ -602,9 +602,6 @@ function MainApp() {
   }
 
   const handleTouchEnd = () => {
-    const masteryThreshold = 50 // Threshold for marking mastery (lower for more sensitivity)
-    const navigationThreshold = 100 // Threshold for switching words (much lower for more sensitivity)
-
     if (touchStartX === 0 || touchEndX === 0) {
       setIsSwiping(false)
       setSwipeOffset(0)
@@ -625,51 +622,20 @@ function MainApp() {
     }
 
     const swipeDistance = touchEndX - touchStartX
-    const absDistance = Math.abs(swipeDistance)
 
-    // Prioritize navigation (switching words) - increase priority
-    if (absDistance >= navigationThreshold) {
-      // Swipe left: next
-      if (swipeDistance < -navigationThreshold) {
-        // Immediately reset state and switch
-        setTouchStartX(0)
-        setTouchEndX(0)
-        setTouchStartY(0)
-        setSwipeOffset(0)
-        setIsSwiping(false)
-        goToNext()
-        return
-      }
-      // Swipe right: previous
-      else if (swipeDistance > navigationThreshold) {
-        // Immediately reset state and switch
-        setTouchStartX(0)
-        setTouchEndX(0)
-        setTouchStartY(0)
-        setSwipeOffset(0)
-        setIsSwiping(false)
-        goToPrevious()
-        return
-      }
+    // Swipe left: mark as unmastered and go to next
+    if (swipeDistance < 0) {
+      setSwipeFeedback(languageMode === 'chinese' ? t.swipeFeedback.unmastered : t.swipeFeedback.unmastered)
+      setTimeout(() => setSwipeFeedback(null), 1000)
+      setWordFamiliarity(currentWord!.id, 'learning')
+      goToNext()
     }
-    // Handle mastery marking (short distance swipe: 50-100px)
-    else if (absDistance >= masteryThreshold) {
-      // Swipe right: mark as mastered
-      if (swipeDistance > masteryThreshold) {
-        if (!currentWord?.mastered) {
-          setSwipeFeedback(languageMode === 'chinese' ? t.swipeFeedback.mastered : t.swipeFeedback.mastered)
-          setTimeout(() => setSwipeFeedback(null), 1000)
-          toggleMastered()
-        }
-      }
-      // Swipe left: mark as unmastered
-      else if (swipeDistance < -masteryThreshold) {
-        if (currentWord?.mastered) {
-          setSwipeFeedback(languageMode === 'chinese' ? t.swipeFeedback.unmastered : t.swipeFeedback.unmastered)
-          setTimeout(() => setSwipeFeedback(null), 1000)
-          toggleMastered()
-        }
-      }
+    // Swipe right: mark as mastered and go to next
+    else if (swipeDistance > 0) {
+      setSwipeFeedback(languageMode === 'chinese' ? t.swipeFeedback.mastered : t.swipeFeedback.mastered)
+      setTimeout(() => setSwipeFeedback(null), 1000)
+      setWordFamiliarity(currentWord!.id, 'mastered')
+      goToNext()
     }
 
     // Reset touch state and animation
@@ -679,7 +645,7 @@ function MainApp() {
       setTouchStartY(0)
       setSwipeOffset(0)
       setIsSwiping(false)
-    }, 200) // Shorter wait time
+    }, 200)
   }
 
   // 获取当前单词的例句和翻译

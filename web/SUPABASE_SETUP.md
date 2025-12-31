@@ -26,17 +26,31 @@ VITE_SUPABASE_ANON_KEY=your_anon_key_here
 
 ## 4. 创建数据库表
 
+### 设计说明
+
+**重要**：数据库只存储**用户对单词的进度**，不存储单词本身的数据。
+
+- **单词数据**（word, translation, difficulty 等）存储在代码的 `words.json` 中
+- **用户进度**（mastered, familiarity, stats 等）存储在数据库的 `user_progress` 表中
+- 两者通过 `word_id` 关联
+
+这种设计的优势：
+- 单词数据是静态的，不需要存储在数据库中
+- 用户进度是动态的、用户特定的，适合存储在数据库中
+- 减少数据库存储空间和查询复杂度
+
 在 Supabase Dashboard 中，进入 **SQL Editor**，运行以下 SQL：
 
 ```sql
 -- 创建用户学习进度表
+-- 注意：此表只存储用户对单词的进度，不存储单词本身的数据
+-- 单词数据存储在代码的 words.json 文件中
 CREATE TABLE IF NOT EXISTS user_progress (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
   user_id UUID NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
-  word_id INTEGER NOT NULL,
-  mastered BOOLEAN DEFAULT false,
-  familiarity TEXT NOT NULL DEFAULT 'new',
-  -- 学习统计字段
+  word_id INTEGER NOT NULL,  -- 引用 words.json 中的单词 ID
+  familiarity TEXT NOT NULL DEFAULT 'new',  -- 用户对该单词的熟悉程度（'new' | 'learning' | 'familiar' | 'mastered'）
+  -- 学习统计字段（用户特定的统计数据）
   view_count INTEGER DEFAULT 0,
   mastered_count INTEGER DEFAULT 0,
   unmastered_count INTEGER DEFAULT 0,
