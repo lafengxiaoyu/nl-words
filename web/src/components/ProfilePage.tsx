@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import { baseWords } from '../data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from '../data/words'
-import type { LearningStats } from '../data/types'
 import './ProfilePage.css'
 
 interface User {
@@ -146,20 +145,13 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
     getUser()
 
     // Load word progress from localStorage
-    const savedProgress = localStorage.getItem('nl-words-progress')
+    const savedProgress = localStorage.getItem('nl-words')
     if (savedProgress) {
       try {
-        const progressMap = new Map<number, { familiarity: FamiliarityLevel; stats?: LearningStats }>(JSON.parse(savedProgress))
-        // 将 baseWords 与本地进度合并
-        const wordsWithProgress: Word[] = baseWords.map(word => {
-          const progress = progressMap.get(word.id)
-          return {
-            ...word,
-            familiarity: progress?.familiarity || 'new',
-            stats: progress?.stats,
-          }
-        })
-        setWordList(wordsWithProgress)
+        const parsedWords: Word[] = JSON.parse(savedProgress)
+        if (Array.isArray(parsedWords) && parsedWords.length > 0) {
+          setWordList(parsedWords)
+        }
       } catch (e) {
         console.error('Failed to load saved progress', e)
         // 如果加载失败，使用默认值
@@ -201,11 +193,8 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       }))
 
       setWordList(resetWords)
-      // 保存进度到 localStorage（只保存用户进度）
-      const progressMap = new Map(
-        resetWords.map(word => [word.id, { familiarity: word.familiarity, stats: word.stats }])
-      )
-      localStorage.setItem('nl-words-progress', JSON.stringify(Array.from(progressMap.entries())))
+      // 保存进度到 localStorage
+      localStorage.setItem('nl-words', JSON.stringify(resetWords))
       window.location.reload()
     }
   }

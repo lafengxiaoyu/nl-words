@@ -491,11 +491,63 @@ function MainApp() {
 
   // 设置单词熟悉程度
   const setWordFamiliarity = async (wordId: number, familiarity: FamiliarityLevel) => {
-    const updatedWords = wordList.map(word =>
-      word.id === wordId
-        ? { ...word, familiarity }
-        : word
-    )
+    const targetWord = wordList.find(w => w.id === wordId)
+    if (!targetWord) return
+
+    // Update mastery stats
+    if (user) {
+      try {
+        const updatedStats = await updateMasteryStats(
+          user.id,
+          targetWord.id,
+          familiarity,
+          targetWord.stats
+        )
+
+        const updatedWords = wordList.map(word =>
+          word.id === wordId
+            ? {
+                ...word,
+                familiarity,
+                stats: updatedStats
+              }
+            : word
+        )
+
+        setWordList(updatedWords)
+        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+        await saveProgressToSupabase(updatedWords.find(w => w.id === wordId)!)
+        return
+      } catch (error) {
+        console.error('更新掌握统计失败:', error)
+      }
+    }
+
+    // Local mode: update local stats
+    const isMastered = familiarity === 'mastered'
+    const updatedWords = wordList.map(word => {
+      if (word.id === wordId) {
+        const currentStats = word.stats || {
+          viewCount: 0,
+          masteredCount: 0,
+          unmasteredCount: 0,
+          testCount: 0,
+          testCorrectCount: 0,
+          testWrongCount: 0,
+        }
+
+        return {
+          ...word,
+          familiarity,
+          stats: {
+            ...currentStats,
+            masteredCount: isMastered ? currentStats.masteredCount + 1 : currentStats.masteredCount,
+            unmasteredCount: !isMastered ? currentStats.unmasteredCount + 1 : currentStats.unmasteredCount,
+          }
+        }
+      }
+      return word
+    })
 
     setWordList(updatedWords)
     localStorage.setItem('nl-words', JSON.stringify(updatedWords))

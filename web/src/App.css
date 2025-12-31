@@ -13,7 +13,7 @@ body {
   font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   /* 移动端优化 */
   -webkit-tap-highlight-color: transparent; /* 移除点击高亮 */
-  overscroll-behavior-y: contain; /* 防止过度滚动 */
+  overscroll-behavior-y: auto; /* 允许垂直滚动 */
 }
 
 /* 应用容器 */
@@ -26,7 +26,7 @@ body {
   position: relative;
   overflow-x: hidden;
   /* 移动端优化 */
-  overscroll-behavior: contain; /* 防止过度滚动 */
+  overscroll-behavior-y: auto; /* 允许垂直滚动 */
 }
 
 .app::before {
@@ -652,7 +652,7 @@ body {
   width: 100%;
   max-width: 500px;
   margin-bottom: 30px;
-  touch-action: pan-x; /* 只允许水平滑动，防止垂直滑动干扰 */
+  touch-action: auto; /* 允许所有触摸操作 */
   user-select: none; /* 防止文本选择 */
   -webkit-user-select: none;
   position: relative;
@@ -710,7 +710,7 @@ body {
   border-radius: 20px;
   /* 移动端优化 */
   -webkit-tap-highlight-color: transparent;
-  touch-action: pan-y; /* 允许垂直滚动，但优化触摸 */
+  touch-action: auto; /* 允许所有触摸操作 */
 }
 
 /* 滑动时的卡片动画效果 */
@@ -1283,8 +1283,7 @@ body {
   animation: slideInUp 0.5s ease;
   /* 移动端优化 */
   -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
-  max-height: calc(100vh - 200px);
-  overflow-y: auto;
+  touch-action: auto; /* 允许所有触摸操作 */
 }
 
 .stats-panel h3,
@@ -1506,6 +1505,10 @@ body {
     padding: 10px;
     /* 支持底部安全区域（刘海屏设备） */
     padding-bottom: max(30px, env(safe-area-inset-bottom));
+    /* 移动端触摸优化 */
+    touch-action: auto; /* 允许所有触摸操作 */
+    overflow-x: hidden; /* 防止水平溢出 */
+    overflow-y: auto; /* 允许垂直滚动 */
   }
 
   .header {
@@ -1631,6 +1634,8 @@ body {
   .word-card {
     height: 320px;
     border-radius: 18px;
+    /* 移动端触摸优化 */
+    touch-action: auto; /* 允许所有触摸操作 */
   }
 
   .card-front,
@@ -1763,6 +1768,9 @@ body {
     padding: 24px 20px;
     border-radius: 18px;
     margin-bottom: 24px;
+    /* 移动端触摸优化 */
+    touch-action: auto; /* 允许所有触摸操作 */
+    -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
   }
 
   .stats-panel h3,
@@ -1777,6 +1785,8 @@ body {
 
   .word-card-container {
     margin-bottom: 24px;
+    /* 移动端触摸优化 */
+    touch-action: auto; /* 允许所有触摸操作 */
   }
 }
 
@@ -1784,6 +1794,10 @@ body {
   .app {
     padding: 8px;
     padding-bottom: max(25px, env(safe-area-inset-bottom));
+    /* 移动端触摸优化 */
+    touch-action: auto; /* 允许所有触摸操作 */
+    overflow-x: hidden; /* 防止水平溢出 */
+    overflow-y: auto; /* 允许垂直滚动 */
   }
 
   .header {
@@ -1878,6 +1892,8 @@ body {
   .word-card {
     height: 300px;
     border-radius: 16px;
+    /* 移动端触摸优化 */
+    touch-action: auto; /* 允许所有触摸操作 */
   }
 
   .card-front,
@@ -1985,6 +2001,9 @@ body {
     padding: 20px 16px;
     border-radius: 16px;
     margin-bottom: 20px;
+    /* 移动端触摸优化 */
+    touch-action: auto; /* 允许所有触摸操作 */
+    -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
   }
 
   .stats-panel h3,
@@ -1999,6 +2018,8 @@ body {
 
   .word-card-container {
     margin-bottom: 20px;
+    /* 移动端触摸优化 */
+    touch-action: auto; /* 允许所有触摸操作 */
   }
 
   /* 小屏幕上的按钮优化 */
