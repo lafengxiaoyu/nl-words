@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import { baseWords } from '../data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from '../data/words'
+import type { LearningStats } from '../data/types'
 import './ProfilePage.css'
 
 interface User {
@@ -143,7 +144,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
     const savedProgress = localStorage.getItem('nl-words-progress')
     if (savedProgress) {
       try {
-        const progressMap = new Map<number, { familiarity: FamiliarityLevel; stats?: any }>(JSON.parse(savedProgress))
+        const progressMap = new Map<number, { familiarity: FamiliarityLevel; stats?: LearningStats }>(JSON.parse(savedProgress))
         // 将 baseWords 与本地进度合并
         const wordsWithProgress: Word[] = baseWords.map(word => {
           const progress = progressMap.get(word.id)
