@@ -60,11 +60,25 @@ body {
 
 .header-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 15px;
   margin-bottom: 20px;
   position: relative;
   min-height: fit-content;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.app-logo {
+  width: 150px;
+  height: auto;
+  margin-right: 12px;
 }
 
 .header h1 {
@@ -86,6 +100,10 @@ body {
   justify-content: center;
   gap: 15px;
   margin-bottom: 10px;
+}
+
+.desktop-nav {
+  display: flex;
 }
 
 .nav-btn {
@@ -187,49 +205,70 @@ body {
   gap: 6px;
 }
 
-/* 移动端用户按钮 - 仅移动端显示 */
-.user-btn-mobile,
-.login-btn-mobile {
+/* 用户按钮 */
+.user-btn {
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.user-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.05);
+}
+
+.user-icon-mobile,
+.lang-icon-mobile {
   display: none;
-  padding: 8px 16px;
-  font-size: 14px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  min-width: 44px;
+  min-height: 44px;
 }
 
-/* 桌面端显示元素 */
-@media (min-width: 769px) {
-  .language-selector-header {
-    display: flex;
-  }
-
-  .user-btn {
-    display: inline-flex;
-  }
-
-  .language-switch-wrapper {
-    display: none;
-  }
-
-  .user-btn-mobile {
-    display: none;
-  }
+.user-icon-mobile:hover,
+.lang-icon-mobile:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.1);
 }
+
+
 
 /* 移动端显示元素 */
 @media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
   .language-selector-header {
     display: none !important;
   }
 
   .user-btn {
-    display: none;
+    font-size: 1.4rem;
+    padding: 8px 12px;
   }
 
-  .language-switch-wrapper {
+  .user-icon-mobile,
+  .lang-icon-mobile {
     display: flex;
   }
 
-  .user-btn-mobile {
-    display: inline-flex;
+  .language-switch-wrapper {
+    display: none;
   }
 
   .hamburger-btn {
@@ -237,9 +276,9 @@ body {
   }
 
   .header-right {
-    width: 100%;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    gap: 6px;
   }
 }
 
@@ -322,10 +361,15 @@ body {
   .header-content {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    padding-top: 17px;
-    gap: 3px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .app-logo {
+    width: 80px;
+    margin-right: 0;
   }
 
   .nav-menu {
@@ -346,13 +390,18 @@ body {
 
   .header-right {
     flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
     gap: 6px;
   }
 
   .header h1 {
     font-size: 1.5rem;
+  }
+
+  .app-logo {
+    width: 120px;
+    margin-right: 6px;
   }
 
   .mobile-menu {
@@ -372,6 +421,10 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 0;
+  }
+
+  .app-logo {
+    width: 160px;
   }
 
   .header h1 {
@@ -412,9 +465,29 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  display: inline-flex;
   align-items: center;
   gap: 6px;
+}
+
+/* 桌面端显示元素 */
+@media (min-width: 769px) {
+  .language-selector-header {
+    display: flex;
+  }
+
+  .user-btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .language-switch-wrapper {
+    display: none;
+  }
+
+  .user-icon-mobile,
+  .lang-icon-mobile {
+    display: none;
+  }
 }
 
 /* 进度条 */
@@ -1638,6 +1711,11 @@ body {
 
   .header h1 {
     font-size: 1.5rem;
+  }
+
+  .app-logo {
+    width: 120px;
+    margin-right: 6px;
   }
 
   .language-selector-header {

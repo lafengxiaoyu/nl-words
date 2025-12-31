@@ -10,6 +10,7 @@ import Auth from './components/Auth'
 import UserProfile from './components/UserProfile'
 import ProfilePage from './components/ProfilePage'
 import TestPage from './components/TestPage'
+import logo from './assets/images/dutch-lex.svg'
 
 // 发音按钮图标组件
 const SpeakerIcon = ({ isSpeaking }: { isSpeaking: boolean }) => {
@@ -716,7 +717,11 @@ function MainApp() {
           <div className="app">
             <header className="header">
               <div className="header-content">
-                <nav className="nav-menu">
+                <div className="header-left">
+                  <img src={logo} alt="Dutch Lex" className="app-logo" />
+                </div>
+
+                <nav className="nav-menu desktop-nav">
                   <button
                     className={`nav-btn ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}` || location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/learn` ? 'nav-btn--active' : ''}`}
                     onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/learn`)}
@@ -734,12 +739,12 @@ function MainApp() {
                 <div className="header-right">
                   {/* 用户按钮 */}
                   {user ? (
-                    <button className="btn btn-outline btn-sm user-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/profile`)}>
-                      👤 {user.user_metadata?.name || user.user_metadata?.full_name || user.email?.split('@')[0]}
+                    <button className="user-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/profile`)}>
+                      👤
                     </button>
                   ) : (
-                    <button className="btn btn-outline btn-sm user-btn" onClick={() => setShowAuth(true)}>
-                      👤 {t.loginButton}
+                    <button className="user-btn" onClick={() => setShowAuth(true)}>
+                      👤
                     </button>
                   )}
 
@@ -759,18 +764,10 @@ function MainApp() {
                     </button>
                   </div>
 
-                  {/* 移动端语言切换开关 */}
-                  <div className="language-switch-wrapper">
-                    <span className="switch-label">🇨🇳</span>
-                    <button
-                      className={`language-switch ${languageMode === 'english' ? 'switch-on' : 'switch-off'}`}
-                      onClick={() => switchLanguage(languageMode === 'chinese' ? 'english' : 'chinese')}
-                      aria-label="Switch Language"
-                    >
-                      <span className="switch-knob"></span>
-                    </button>
-                    <span className="switch-label">🇺🇸</span>
-                  </div>
+                  {/* 移动端语言切换 */}
+                  <button className="lang-icon-mobile" onClick={() => switchLanguage(languageMode === 'chinese' ? 'english' : 'chinese')}>
+                    {languageMode === 'chinese' ? '🇨🇳' : '🇺🇸'}
+                  </button>
 
                   {/* 汉堡菜单按钮 - 仅在移动端显示 */}
                   <button

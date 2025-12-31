@@ -1,0 +1,24 @@
+<svg width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DutchLex icon">
+  <!-- Data bars -->
+  <rect x="52" y="40" width="8" height="28" rx="2" fill="#0B3C5D"></rect>
+  <rect x="64" y="30" width="8" height="38" rx="2" fill="#457B9D"></rect>
+  <rect x="76" y="20" width="8" height="48" rx="2" fill="#2EC4B6"></rect>
+
+  <!-- Data fragments -->
+  <circle cx="56" cy="34" r="2" fill="#6FAFCF"></circle>
+  <rect x="66" y="24" width="4" height="4" rx="1" fill="#8FDAD0"></rect>
+  <circle cx="80" cy="16" r="2" fill="#6FAFCF"></circle>
+
+  <!-- Windmill base -->
+  <polygon points="22,44 30,34 38,44" fill="#C5303E"></polygon>
+  <rect x="22" y="44" width="16" height="26" rx="3" fill="#E63946"></rect>
+
+  <!-- Windmill blades -->
+  <g transform="translate(30,44)">
+    <rect x="-2" y="-22" width="4" height="18" rx="2" fill="#0B3C5D"></rect>
+    <rect x="-2" y="4" width="4" height="18" rx="2" fill="#1F5FA3"></rect>
+    <rect x="-22" y="-2" width="18" height="4" rx="2" fill="#0B3C5D"></rect>
+    <rect x="4" y="-2" width="18" height="4" rx="2" fill="#1F5FA3"></rect>
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"></circle>
+  </g>
+</svg>

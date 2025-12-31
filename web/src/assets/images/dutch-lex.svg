@@ -1,0 +1,44 @@
+<svg width="520" height="140" viewBox="0 0 520 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DutchLex logo">
+  <!-- ===== Icon ===== -->
+  <g transform="translate(10,20)">
+
+    <!-- Open book (background) -->
+    <path d="M18 74 Q60 58 102 74 V94 Q60 82 18 94 Z" fill="#0B3C5D" opacity="0.9"></path>
+    <path d="M102 74 Q144 58 186 74 V94 Q144 82 102 94 Z" fill="#1F5FA3" opacity="0.9"></path>
+
+    <!-- Data bars (middle layer) -->
+    <rect x="96" y="46" width="12" height="28" rx="3" fill="#0B3C5D"></rect>
+    <rect x="114" y="34" width="12" height="40" rx="3" fill="#457B9D"></rect>
+    <rect x="132" y="22" width="12" height="52" rx="3" fill="#2EC4B6"></rect>
+
+    <!-- Data fragments / tokens -->
+    <circle cx="102" cy="40" r="2" fill="#6FAFCF"></circle>
+    <rect x="110" y="26" width="4" height="4" rx="1" fill="#8FDAD0"></rect>
+    <circle cx="120" cy="30" r="1.8" fill="#6FAFCF"></circle>
+    <rect x="136" y="16" width="4" height="4" rx="1" fill="#8FDAD0"></rect>
+    <circle cx="144" cy="18" r="1.8" fill="#6FAFCF"></circle>
+
+    <!-- Windmill base with pointed roof -->
+    <polygon points="44,46 54,34 64,46" fill="#C5303E"></polygon>
+    <rect x="44" y="46" width="20" height="26" rx="3" fill="#E63946"></rect>
+
+    <!-- Windmill blades -->
+    <g transform="translate(54,46)">
+      <rect x="-3" y="-28" width="6" height="24" rx="2" fill="#0B3C5D"></rect>
+      <rect x="-3" y="4" width="6" height="24" rx="2" fill="#1F5FA3"></rect>
+      <rect x="-28" y="-3" width="24" height="6" rx="2" fill="#0B3C5D"></rect>
+      <rect x="4" y="-3" width="24" height="6" rx="2" fill="#1F5FA3"></rect>
+      <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"></circle>
+    </g>
+
+  </g>
+
+  <!-- ===== Text ===== -->
+  <text x="220" y="90" font-size="56" font-weight="700" fill="#0B3C5D" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif">
+    Dutch
+  </text>
+
+  <text x="360" y="90" font-size="56" font-weight="700" fill="#1F5FA3" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif">
+    Lex
+  </text>
+</svg>
