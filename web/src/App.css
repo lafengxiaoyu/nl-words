@@ -286,34 +286,47 @@ body {
 .hamburger-btn {
   display: none;
   flex-direction: column;
-  justify-content: space-around;
-  width: 30px;
-  height: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
   background: transparent;
   border: none;
   cursor: pointer;
   padding: 0;
   z-index: 100;
+  position: relative;
 }
 
 .hamburger-btn span {
-  width: 100%;
+  width: 85%;
   height: 3px;
   background: white;
   border-radius: 3px;
   transition: all 0.3s ease;
 }
 
+.hamburger-btn span:nth-child(1) {
+  margin-bottom: 6px;
+}
+
+.hamburger-btn span:nth-child(2) {
+  margin-bottom: 6px;
+}
+
 .hamburger-btn--open span:nth-child(1) {
-  transform: rotate(45deg) translate(6px, 6px);
+  transform: rotate(45deg) translate(0, 0);
+  margin-bottom: 0;
 }
 
 .hamburger-btn--open span:nth-child(2) {
   opacity: 0;
+  transform: translateX(-10px);
+  margin-bottom: 0;
 }
 
 .hamburger-btn--open span:nth-child(3) {
-  transform: rotate(-45deg) translate(6px, -6px);
+  transform: rotate(-45deg) translate(0, 0);
 }
 
 /* 移动端菜单下拉 */
@@ -364,12 +377,21 @@ body {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    gap: 8px;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .header-left {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
   }
 
   .app-logo {
-    width: 80px;
+    width: 70px;
+    height: auto;
     margin-right: 0;
+    flex-shrink: 0;
   }
 
   .nav-menu {
@@ -378,6 +400,7 @@ body {
 
   .hamburger-btn {
     display: flex;
+    flex-shrink: 0;
   }
 
   .mobile-menu {
@@ -389,19 +412,27 @@ body {
   }
 
   .header-right {
+    display: flex;
     flex-wrap: nowrap;
     justify-content: flex-end;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+
+  .user-btn,
+  .lang-icon-mobile,
+  .hamburger-btn {
+    flex-shrink: 0;
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .header h1 {
     font-size: 1.5rem;
-  }
-
-  .app-logo {
-    width: 120px;
-    margin-right: 6px;
   }
 
   .mobile-menu {
@@ -1456,10 +1487,36 @@ body {
   }
 
   .header-content {
-    flex-direction: column;
-    gap: 12px;
-    text-align: center;
+    flex-direction: row;
+    gap: 8px;
+    text-align: left;
     margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-left {
+    flex-shrink: 0;
+  }
+
+  .app-logo {
+    width: 80px;
+    height: auto;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+
+  .user-btn,
+  .lang-icon-mobile,
+  .hamburger-btn {
+    flex-shrink: 0;
+    min-width: 44px;
+    min-height: 44px;
   }
 
   .header h1 {
@@ -1469,9 +1526,7 @@ body {
   }
 
   .language-selector-header {
-    width: 100%;
-    justify-content: center;
-    gap: 8px;
+    display: none;
   }
 
   .language-selector-header .btn {
