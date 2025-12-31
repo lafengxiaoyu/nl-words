@@ -50,6 +50,7 @@ export interface UserProgress {
   user_id: string
   word_id: number
   familiarity: string // 熟悉程度（'new' | 'learning' | 'familiar' | 'mastered'）
+  stats_reset?: boolean // 标记统计是否已重置
   // 学习统计字段
   view_count?: number
   mastered_count?: number

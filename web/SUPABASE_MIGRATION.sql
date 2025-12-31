@@ -80,6 +80,15 @@ BEGIN
   ELSE
     RAISE NOTICE 'last_tested_at 字段已存在，跳过';
   END IF;
+
+  -- 添加 stats_reset 字段
+  IF NOT EXISTS (SELECT 1 FROM information_schema.columns 
+                 WHERE table_name = 'user_progress' AND column_name = 'stats_reset') THEN
+    ALTER TABLE user_progress ADD COLUMN stats_reset BOOLEAN DEFAULT FALSE;
+    RAISE NOTICE '已添加 stats_reset 字段';
+  ELSE
+    RAISE NOTICE 'stats_reset 字段已存在，跳过';
+  END IF;
 END $$;
 
 -- 验证表结构

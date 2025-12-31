@@ -158,7 +158,8 @@ function MainApp() {
         familiarity: '熟悉程度',
         examples: '例句',
         notes: '备注',
-        stats: '学习统计'
+        stats: '学习统计',
+        resetStats: '重置统计'
       }
     },
     english: {
@@ -225,7 +226,8 @@ function MainApp() {
         familiarity: 'Familiarity',
         examples: 'Examples',
         notes: 'Notes',
-        stats: 'Learning Stats'
+        stats: 'Learning Stats',
+        resetStats: 'Reset Stats'
       }
     }
   }
@@ -498,6 +500,20 @@ function MainApp() {
     setWordList(updatedWords)
     localStorage.setItem('nl-words', JSON.stringify(updatedWords))
     await saveProgressToSupabase(updatedWords.find(w => w.id === wordId)!)
+  }
+
+  // 重置单词学习统计
+  const resetWordStats = async (wordId: number) => {
+    const updatedWords = wordList.map(word =>
+      word.id === wordId
+        ? { ...word, familiarity: 'new' as FamiliarityLevel, stats: undefined }
+        : word
+    )
+
+    setWordList(updatedWords)
+    localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+    const updatedWord = updatedWords.find(w => w.id === wordId)!
+    await saveProgressToSupabase(updatedWord)
   }
 
   // 随机排序单词
@@ -1010,6 +1026,17 @@ function MainApp() {
                           <div className="google-font-text">{t.statsPanel.testStats.lastTested}: {new Date(currentWord.stats.lastTestedAt).toLocaleString(languageMode === 'chinese' ? 'zh-CN' : 'en-US')}</div>
                         )}
                       </div>
+                      <button
+                        className="btn btn-danger btn-sm"
+                        onClick={() => {
+                          if (window.confirm(languageMode === 'chinese' ? '确定要重置此单词的学习统计吗？' : 'Are you sure you want to reset the learning statistics for this word?')) {
+                            resetWordStats(currentWord.id)
+                          }
+                        }}
+                        style={{ marginTop: '10px' }}
+                      >
+                        {t.detailsPanel.resetStats}
+                      </button>
                     </div>
                   )}
                 </div>

@@ -2037,9 +2037,9 @@ body {
 
 /* 熟悉程度颜色 */
 .familiarity--new {
-  background: rgba(156, 163, 175, 0.25);
-  color: #dc8813;
-  border: 1px solid rgba(156, 163, 175, 0.4);
+  background: rgba(168, 85, 247, 0.15);
+  color: #a855f7;
+  border: 1px solid rgba(168, 85, 247, 0.3);
 }
 
 .familiarity--learning {

@@ -29,16 +29,19 @@ export async function loadUserProgress(userId: string): Promise<Map<number, User
     
     if (data) {
       data.forEach((item: UserProgress) => {
-        const stats: LearningStats | undefined = item.view_count !== undefined ? {
-          viewCount: item.view_count || 0,
-          masteredCount: item.mastered_count || 0,
-          unmasteredCount: item.unmastered_count || 0,
-          testCount: item.test_count || 0,
-          testCorrectCount: item.test_correct_count || 0,
-          testWrongCount: item.test_wrong_count || 0,
-          lastViewedAt: item.last_viewed_at,
-          lastTestedAt: item.last_tested_at,
-        } : undefined
+        // 如果标记为已重置，则不创建 stats 对象
+        const stats: LearningStats | undefined = item.stats_reset ? undefined : (
+          item.view_count && item.view_count > 0 ? {
+            viewCount: item.view_count,
+            masteredCount: item.mastered_count || 0,
+            unmasteredCount: item.unmastered_count || 0,
+            testCount: item.test_count || 0,
+            testCorrectCount: item.test_correct_count || 0,
+            testWrongCount: item.test_wrong_count || 0,
+            lastViewedAt: item.last_viewed_at || undefined,
+            lastTestedAt: item.last_tested_at || undefined,
+          } : undefined
+        )
 
         progressMap.set(item.word_id, {
           wordId: item.word_id,
@@ -76,7 +79,7 @@ export async function saveUserProgress(
   if (!isSupabaseConfigured) {
     return
   }
-  
+
   try {
     // 使用 upsert 来更新或插入记录
     const updateData: Partial<UserProgress> = {
@@ -96,6 +99,18 @@ export async function saveUserProgress(
       updateData.test_wrong_count = stats.testWrongCount
       updateData.last_viewed_at = stats.lastViewedAt
       updateData.last_tested_at = stats.lastTestedAt
+      updateData.stats_reset = false
+    } else {
+      // 如果没有统计数据，标记为已重置
+      updateData.stats_reset = true
+      updateData.view_count = 0
+      updateData.mastered_count = 0
+      updateData.unmastered_count = 0
+      updateData.test_count = 0
+      updateData.test_correct_count = 0
+      updateData.test_wrong_count = 0
+      updateData.last_viewed_at = undefined
+      updateData.last_tested_at = undefined
     }
 
     const { error } = await supabase
@@ -434,11 +449,11 @@ export function mergeProgress(
         stats: progress.stats,
       }
     }
-    // 如果没有进度数据，保留原有进度或使用默认值
+    // 如果没有进度数据，使用默认值，清除所有本地进度数据
     return {
       ...word,
-      familiarity: (word as WordWithProgress).familiarity || 'new' as FamiliarityLevel,
-      stats: (word as WordWithProgress).stats,
+      familiarity: 'new' as FamiliarityLevel,
+      stats: undefined,
     }
   })
 }
