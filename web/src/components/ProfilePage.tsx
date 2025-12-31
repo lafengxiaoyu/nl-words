@@ -22,7 +22,12 @@ interface ProfilePageProps {
 export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const navigate = useNavigate()
   const [user, setUser] = useState<User | null>(null)
-  const [wordList, setWordList] = useState<Word[]>(words)
+  const initialWords: Word[] = baseWords.map(word => ({
+    ...word,
+    familiarity: 'new',
+    stats: undefined,
+  }))
+  const [wordList, setWordList] = useState<Word[]>(initialWords)
   const [newPassword, setNewPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
   const [loading, setLoading] = useState(false)
