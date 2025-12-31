@@ -1,5 +1,5 @@
 import { supabase, isSupabaseConfigured, type UserProgress } from './supabase'
-import type { BaseWord, WordWithProgress, UserWordProgress, FamiliarityLevel, LearningStats } from '../data/types'
+import type { BaseWord, WordWithProgress, UserWordProgress, FamiliarityLevel, LearningStats, Word } from '../data/types'
 
 // Supabase 错误类型
 interface SupabaseError {
@@ -419,10 +419,10 @@ export async function saveAllUserProgress(
 
 /**
  * 合并云端进度到本地单词列表
- * 将 BaseWord 数组和用户进度 Map 合并成 WordWithProgress 数组
+ * 将 BaseWord 数组或 Word 数组和用户进度 Map 合并成 WordWithProgress 数组
  */
 export function mergeProgress(
-  words: BaseWord[],
+  words: BaseWord[] | Word[],
   progressMap: Map<number, UserWordProgress>
 ): WordWithProgress[] {
   return words.map(word => {
@@ -434,11 +434,11 @@ export function mergeProgress(
         stats: progress.stats,
       }
     }
-    // 如果没有进度数据，使用默认值
+    // 如果没有进度数据，保留原有进度或使用默认值
     return {
       ...word,
-      familiarity: 'new' as FamiliarityLevel,
-      stats: undefined,
+      familiarity: (word as WordWithProgress).familiarity || 'new' as FamiliarityLevel,
+      stats: (word as WordWithProgress).stats,
     }
   })
 }

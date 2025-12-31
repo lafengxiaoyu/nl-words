@@ -297,8 +297,23 @@ function MainApp() {
   const loadProgressFromSupabase = useCallback(async (userId: string) => {
     try {
       setSyncStatus('syncing')
+
+      // 先从 localStorage 获取本地进度作为基础
+      const localSaved = localStorage.getItem('nl-words')
+      let baseWordsWithProgress = words
+      if (localSaved) {
+        try {
+          const parsed = JSON.parse(localSaved)
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            baseWordsWithProgress = parsed as Word[]
+          }
+        } catch (e) {
+          console.error('解析本地进度失败:', e)
+        }
+      }
+
       const progressMap = await loadUserProgress(userId)
-      const mergedWords = mergeProgress(words, progressMap)
+      const mergedWords = mergeProgress(baseWordsWithProgress, progressMap)
       setWordList(mergedWords)
       setFilteredWordList(mergedWords)
       localStorage.setItem('nl-words', JSON.stringify(mergedWords))
