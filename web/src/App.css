@@ -1074,9 +1074,25 @@ body {
   align-items: center;
 }
 
-/* 中间按钮固定宽度，避免布局浮动 */
-.navigation .btn:nth-child(2) {
-  min-width: 140px;
+/* 移动端按钮大小调整 */
+@media (max-width: 768px) {
+  .navigation {
+    gap: 8px;
+  }
+  
+  /* 上一个和下一个按钮变窄 */
+  .navigation .btn-outline {
+    padding: 12px 16px;
+    min-width: 80px;
+  }
+  
+  /* 中间按钮变大并适应内容 */
+  .navigation .btn:nth-child(2) {
+    min-width: 140px;
+    padding: 14px 28px;
+    flex: 1;
+    max-width: 200px;
+  }
 }
 
 /* 工具按钮 */
