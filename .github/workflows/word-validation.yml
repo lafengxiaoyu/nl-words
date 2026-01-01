@@ -1,0 +1,68 @@
+name: Word Data Validation
+
+on:
+  pull_request:
+    paths:
+      - 'web/src/data/words.json'
+      - 'scripts/validate-words.js'
+  push:
+    branches:
+      - main
+    paths:
+      - 'web/src/data/words.json'
+      - 'scripts/validate-words.js'
+
+jobs:
+  validate-words:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          cd web
+          npm ci
+
+      - name: Validate words
+        run: |
+          npm run validate:words
+        continue-on-error: false
+
+      - name: Comment on PR with validation results
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const { execSync } = require('child_process');
+
+            let comment = '## 📝 单词数据验证结果\n\n';
+
+            try {
+              const output = execSync('npm run validate:words', { encoding: 'utf-8' });
+              comment += '✅ 所有单词验证通过！\n\n';
+              comment += '数据符合 WORD_VALIDATION_RULES.md 中定义的所有规则。\n';
+            } catch (error) {
+              comment += '❌ 单词数据验证失败！\n\n';
+              comment += '```\n' + (error.stdout || error.stderr) + '\n```\n\n';
+              comment += '请查看 [WORD_VALIDATION_RULES.md](WORD_VALIDATION_RULES.md) 了解详细规则。';
+              core.setFailed('Word validation failed');
+            }
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+          github-token: ${{ secrets.GITHUB_TOKEN }}
