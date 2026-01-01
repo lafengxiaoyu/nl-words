@@ -209,7 +209,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
               <div className="option-group">
                 <label className="option-label">{t.selectWordCount}</label>
                 <div className="word-count-selector">
-                  {[5, 10, 15, 20, 25].map((count) => (
+                  {[5, 10, 15, 25].map((count) => (
                     <button
                       key={count}
                       className={`count-option ${wordCount === count ? 'selected' : ''} ${count > maxWordCount ? 'disabled' : ''}`}
