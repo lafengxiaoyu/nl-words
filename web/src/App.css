@@ -2327,3 +2327,121 @@ body {
     will-change: auto;
   }
 }
+
+/* 熟悉程度信息 - 详情面板内样式 */
+.familiarity-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.familiarity-display {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.familiarity-display strong {
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.familiarity-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.familiarity-badge.familiarity--new {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+}
+
+.familiarity-badge.familiarity--learning {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  box-shadow: 0 2px 4px rgba(245, 87, 108, 0.3);
+}
+
+.familiarity-badge.familiarity--familiar {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  box-shadow: 0 2px 4px rgba(79, 172, 254, 0.3);
+}
+
+.familiarity-badge.familiarity--mastered {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  color: white;
+  box-shadow: 0 2px 4px rgba(67, 233, 123, 0.3);
+}
+
+.familiarity-score {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-radius: 8px;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+  margin-top: 4px;
+}
+
+.familiarity-score span:first-child {
+  font-size: 0.85rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.score-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #667eea;
+  font-family: 'Courier New', monospace;
+  min-width: 30px;
+  text-align: center;
+}
+
+.score-total {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .familiarity-info {
+    gap: 10px;
+  }
+
+  .familiarity-display {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .familiarity-score {
+    padding: 8px 12px;
+  }
+
+  .score-value {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .familiarity-score {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 8px 10px;
+  }
+
+  .score-value {
+    font-size: 0.95rem;
+  }
+}

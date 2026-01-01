@@ -5,6 +5,7 @@ import type { Word, DifficultyLevel } from '../data/words'
 import { words } from '../data/words'
 import { supabase } from '../lib/supabase'
 import { updateTestStats } from '../lib/progressSync'
+import { calculateFamiliarity } from '../lib/familiarityCalculator'
 import './TestPage.css'
 
 interface TestPageProps {
@@ -196,7 +197,8 @@ export default function TestPage({ languageMode }: TestPageProps) {
     try {
       if (user) {
         // 登录用户：更新 Supabase
-        await updateTestStats(user.id, currentWord.id, isCorrect, currentWord.stats)
+        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, currentWord.id, isCorrect, currentWord.stats)
+        console.log(`测试结果: ${isCorrect ? '正确' : '错误'}, 自动计算熟悉程度: ${calculatedFamiliarity}`)
       } else {
         // 本地用户：更新 localStorage
         const localStorageData = localStorage.getItem('nl-words')
@@ -215,9 +217,13 @@ export default function TestPage({ languageMode }: TestPageProps) {
               lastViewedAt: currentStats?.lastViewedAt,
               lastTestedAt: new Date().toISOString(),
             }
+            // 自动计算熟悉程度
+            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+            console.log(`测试结果: ${isCorrect ? '正确' : '错误'}, 自动计算熟悉程度: ${calculatedFamiliarity}`)
             localWords[wordIndex] = {
               ...localWords[wordIndex],
-              stats: updatedStats
+              stats: updatedStats,
+              familiarity: calculatedFamiliarity
             }
             localStorage.setItem('nl-words', JSON.stringify(localWords))
           }
@@ -243,10 +249,9 @@ export default function TestPage({ languageMode }: TestPageProps) {
     // 更新测试统计，并增加未掌握计数
     try {
       if (user) {
-        // 登录用户：更新 Supabase（未掌握计数在 updateMasteryStats 中处理？）
-        // 暂时先调用 updateTestStats 标记为错误
-        await updateTestStats(user.id, currentWord.id, isCorrect, currentWord.stats)
-        // TODO: 额外增加 unmasteredCount
+        // 登录用户：更新 Supabase
+        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, currentWord.id, isCorrect, currentWord.stats)
+        console.log(`标记为未掌握，自动计算熟悉程度: ${calculatedFamiliarity}`)
       } else {
         // 本地用户：更新 localStorage
         const localStorageData = localStorage.getItem('nl-words')
@@ -265,9 +270,13 @@ export default function TestPage({ languageMode }: TestPageProps) {
               lastViewedAt: currentStats?.lastViewedAt,
               lastTestedAt: new Date().toISOString(),
             }
+            // 自动计算熟悉程度
+            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+            console.log(`标记为未掌握，自动计算熟悉程度: ${calculatedFamiliarity}`)
             localWords[wordIndex] = {
               ...localWords[wordIndex],
-              stats: updatedStats
+              stats: updatedStats,
+              familiarity: calculatedFamiliarity
             }
             localStorage.setItem('nl-words', JSON.stringify(localWords))
           }

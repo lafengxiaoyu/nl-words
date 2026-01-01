@@ -6,6 +6,7 @@ import type { Word, FamiliarityLevel, DifficultyLevel } from './data/words'
 import type { ExampleTranslations } from './data/types'
 import { supabase } from './lib/supabase'
 import { loadUserProgress, saveUserProgress, mergeProgress, incrementViewCount, updateMasteryStats } from './lib/progressSync'
+import { calculateFamiliarity, calculateFamiliarityScore } from './lib/familiarityCalculator'
 import Auth from './components/Auth'
 import UserProfile from './components/UserProfile'
 import ProfilePage from './components/ProfilePage'
@@ -463,18 +464,19 @@ function MainApp() {
     // Update mastery stats
     if (user) {
       try {
-        const updatedStats = await updateMasteryStats(
+        const { stats: updatedStats, familiarity: calculatedFamiliarity } = await updateMasteryStats(
           user.id,
           currentWord.id,
           newFamiliarity,
           currentWord.stats
         )
+        console.log(`手动标记为 ${calculatedFamiliarity}（用户选择: ${newFamiliarity}）`)
 
         const updatedWords = wordList.map(word =>
           word.id === currentWord.id
             ? {
                 ...word,
-                familiarity: newFamiliarity,
+                familiarity: calculatedFamiliarity,
                 stats: updatedStats
               }
             : word
@@ -488,7 +490,7 @@ function MainApp() {
         console.error('更新掌握统计失败:', error)
       }
     }
-    
+
     // Local mode: update local stats
     const updatedWords = wordList.map(word => {
       if (word.id === currentWord.id) {
@@ -501,14 +503,20 @@ function MainApp() {
           testWrongCount: 0,
         }
 
+        const updatedStats = {
+          ...currentStats,
+          masteredCount: newFamiliarity === 'mastered' ? currentStats.masteredCount + 1 : currentStats.masteredCount,
+          unmasteredCount: newFamiliarity !== 'mastered' ? currentStats.unmasteredCount + 1 : currentStats.unmasteredCount,
+        }
+
+        // 自动计算熟悉程度，传入用户选择
+        const calculatedFamiliarity = calculateFamiliarity(updatedStats, newFamiliarity)
+        console.log(`手动标记为 ${calculatedFamiliarity}（用户选择: ${newFamiliarity}）`)
+
         return {
           ...word,
-          familiarity: newFamiliarity,
-          stats: {
-            ...currentStats,
-            masteredCount: newFamiliarity === 'mastered' ? currentStats.masteredCount + 1 : currentStats.masteredCount,
-            unmasteredCount: newFamiliarity !== 'mastered' ? currentStats.unmasteredCount + 1 : currentStats.unmasteredCount,
-          }
+          familiarity: calculatedFamiliarity,
+          stats: updatedStats
         }
       }
       return word
@@ -527,18 +535,19 @@ function MainApp() {
     // Update mastery stats
     if (user) {
       try {
-        const updatedStats = await updateMasteryStats(
+        const { stats: updatedStats, familiarity: calculatedFamiliarity } = await updateMasteryStats(
           user.id,
           targetWord.id,
           familiarity,
           targetWord.stats
         )
+        console.log(`设置熟悉程度为 ${calculatedFamiliarity}（用户选择: ${familiarity}）`)
 
         const updatedWords = wordList.map(word =>
           word.id === wordId
             ? {
                 ...word,
-                familiarity,
+                familiarity: calculatedFamiliarity,
                 stats: updatedStats
               }
             : word
@@ -566,14 +575,20 @@ function MainApp() {
           testWrongCount: 0,
         }
 
+        const updatedStats = {
+          ...currentStats,
+          masteredCount: isMastered ? currentStats.masteredCount + 1 : currentStats.masteredCount,
+          unmasteredCount: !isMastered ? currentStats.unmasteredCount + 1 : currentStats.unmasteredCount,
+        }
+
+        // 自动计算熟悉程度，传入用户选择
+        const calculatedFamiliarity = calculateFamiliarity(updatedStats, familiarity)
+        console.log(`设置熟悉程度为 ${calculatedFamiliarity}（用户选择: ${familiarity}）`)
+
         return {
           ...word,
-          familiarity,
-          stats: {
-            ...currentStats,
-            masteredCount: isMastered ? currentStats.masteredCount + 1 : currentStats.masteredCount,
-            unmasteredCount: !isMastered ? currentStats.unmasteredCount + 1 : currentStats.unmasteredCount,
-          }
+          familiarity: calculatedFamiliarity,
+          stats: updatedStats
         }
       }
       return word
@@ -1033,18 +1048,7 @@ function MainApp() {
                     </div>
                   </div>
 
-                  <div className="familiarity-controls">
-                    <span>{t.detailsPanel.familiarity}:</span>
-                    {(['new', 'learning', 'familiar', 'mastered'] as FamiliarityLevel[]).map(level => (
-                      <button
-                        key={level}
-                        className={`btn btn-sm ${currentWord.familiarity === level ? 'btn-primary' : 'btn-outline'}`}
-                        onClick={() => setWordFamiliarity(currentWord.id, level)}
-                      >
-                        {t.familiarityLabels[level]}
-                      </button>
-                    ))}
-                  </div>
+
       </div>
               )}
 
@@ -1072,11 +1076,20 @@ function MainApp() {
                     <strong>{t.detailsPanel.difficulty}：</strong>
                     <span className={`difficulty-badge difficulty--${currentWord.difficulty}`}>{currentWord.difficulty}</span>
                   </div>
-                  <div className="detail-item">
-                    <strong>{t.detailsPanel.familiarity}：</strong>
-                    <span className={`familiarity-badge familiarity--${currentWord.familiarity}`}>
-                      {t.familiarityLabels[currentWord.familiarity]}
-                    </span>
+                  <div className="detail-item familiarity-info">
+                    <div className="familiarity-display">
+                      <strong>{t.detailsPanel.familiarity}：</strong>
+                      <span className={`familiarity-badge familiarity--${currentWord.familiarity}`}>
+                        {t.familiarityLabels[currentWord.familiarity]}
+                      </span>
+                    </div>
+                    {currentWord.stats && (
+                      <div className="familiarity-score">
+                        <span>{languageMode === 'chinese' ? '掌握分数：' : 'Mastery Score:'}</span>
+                        <span className="score-value">{calculateFamiliarityScore(currentWord.stats)}</span>
+                        <span className="score-total">/ 100</span>
+                      </div>
+                    )}
                   </div>
 
                   {/* 名词信息 */}

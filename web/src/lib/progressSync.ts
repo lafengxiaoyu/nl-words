@@ -1,5 +1,6 @@
 import { supabase, isSupabaseConfigured, type UserProgress } from './supabase'
 import type { BaseWord, WordWithProgress, UserWordProgress, FamiliarityLevel, LearningStats, Word } from '../data/types'
+import { calculateFamiliarity } from './familiarityCalculator'
 
 // Supabase 错误类型
 interface SupabaseError {
@@ -220,16 +221,17 @@ export async function incrementViewCount(
 
 /**
  * 更新掌握状态统计
+ * 返回更新后的统计数据和自动计算的熟悉程度
  */
 export async function updateMasteryStats(
   userId: string,
   wordId: number,
   familiarity: FamiliarityLevel,
   currentStats?: LearningStats
-): Promise<LearningStats> {
+): Promise<{ stats: LearningStats; familiarity: FamiliarityLevel }> {
   const isMastered = familiarity === 'mastered'
   if (!isSupabaseConfigured) {
-    return {
+    const newStats: LearningStats = {
       viewCount: currentStats?.viewCount || 0,
       masteredCount: isMastered ? (currentStats?.masteredCount || 0) + 1 : (currentStats?.masteredCount || 0),
       unmasteredCount: !isMastered ? (currentStats?.unmasteredCount || 0) + 1 : (currentStats?.unmasteredCount || 0),
@@ -239,6 +241,9 @@ export async function updateMasteryStats(
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: currentStats?.lastTestedAt,
     }
+    // 传入用户选择，实现混合策略
+    const calculatedFamiliarity = calculateFamiliarity(newStats, familiarity)
+    return { stats: newStats, familiarity: calculatedFamiliarity }
   }
 
   try {
@@ -264,12 +269,15 @@ export async function updateMasteryStats(
       lastTestedAt: existing?.last_tested_at || currentStats?.lastTestedAt,
     }
 
+    // 传入用户选择，实现混合策略
+    const calculatedFamiliarity = calculateFamiliarity(newStats, familiarity)
+
     const { error } = await supabase
       .from('user_progress')
       .upsert({
         user_id: userId,
         word_id: wordId,
-        familiarity,
+        familiarity: calculatedFamiliarity,
         mastered_count: newStats.masteredCount,
         unmastered_count: newStats.unmasteredCount,
         updated_at: new Date().toISOString(),
@@ -278,14 +286,14 @@ export async function updateMasteryStats(
       })
 
     if (error) throw error
-    return newStats
+    return { stats: newStats, familiarity: calculatedFamiliarity }
   } catch (error: unknown) {
     console.error('更新掌握统计失败:', error)
     const supabaseError = error as SupabaseError
     if (supabaseError?.code === '42703') {
       console.error('❌ 数据库表缺少统计字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
     }
-    return {
+    const newStats: LearningStats = {
       viewCount: currentStats?.viewCount || 0,
       masteredCount: isMastered ? (currentStats?.masteredCount || 0) + 1 : (currentStats?.masteredCount || 0),
       unmasteredCount: !isMastered ? (currentStats?.unmasteredCount || 0) + 1 : (currentStats?.unmasteredCount || 0),
@@ -295,20 +303,23 @@ export async function updateMasteryStats(
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: currentStats?.lastTestedAt,
     }
+    const calculatedFamiliarity = calculateFamiliarity(newStats)
+    return { stats: newStats, familiarity: calculatedFamiliarity }
   }
 }
 
 /**
  * 更新测试统计
+ * 返回更新后的统计数据和自动计算的熟悉程度
  */
 export async function updateTestStats(
   userId: string,
   wordId: number,
   isCorrect: boolean,
   currentStats?: LearningStats
-): Promise<LearningStats> {
+): Promise<{ stats: LearningStats; familiarity: FamiliarityLevel }> {
   if (!isSupabaseConfigured) {
-    return {
+    const newStats: LearningStats = {
       viewCount: currentStats?.viewCount || 0,
       masteredCount: currentStats?.masteredCount || 0,
       unmasteredCount: currentStats?.unmasteredCount || 0,
@@ -318,6 +329,8 @@ export async function updateTestStats(
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: new Date().toISOString(),
     }
+    const calculatedFamiliarity = calculateFamiliarity(newStats)
+    return { stats: newStats, familiarity: calculatedFamiliarity }
   }
 
   try {
@@ -343,11 +356,15 @@ export async function updateTestStats(
       lastTestedAt: new Date().toISOString(),
     }
 
+    // 自动计算熟悉程度
+    const calculatedFamiliarity = calculateFamiliarity(newStats)
+
     const { error } = await supabase
       .from('user_progress')
       .upsert({
         user_id: userId,
         word_id: wordId,
+        familiarity: calculatedFamiliarity,
         test_count: newStats.testCount,
         test_correct_count: newStats.testCorrectCount,
         test_wrong_count: newStats.testWrongCount,
@@ -358,14 +375,14 @@ export async function updateTestStats(
       })
 
     if (error) throw error
-    return newStats
+    return { stats: newStats, familiarity: calculatedFamiliarity }
   } catch (error: unknown) {
     console.error('更新测试统计失败:', error)
     const supabaseError = error as SupabaseError
     if (supabaseError?.code === '42703') {
       console.error('❌ 数据库表缺少统计字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
     }
-    return {
+    const newStats: LearningStats = {
       viewCount: currentStats?.viewCount || 0,
       masteredCount: currentStats?.masteredCount || 0,
       unmasteredCount: currentStats?.unmasteredCount || 0,
@@ -375,6 +392,8 @@ export async function updateTestStats(
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: new Date().toISOString(),
     }
+    const calculatedFamiliarity = calculateFamiliarity(newStats)
+    return { stats: newStats, familiarity: calculatedFamiliarity }
   }
 }
 
