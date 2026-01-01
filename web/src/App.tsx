@@ -72,6 +72,7 @@ function MainApp() {
   const [languageMode, setLanguageMode] = useState<LanguageMode>('chinese')
   const [syncStatus, setSyncStatus] = useState<'idle' | 'syncing' | 'success' | 'error'>('idle')
   const [isSpeaking, setIsSpeaking] = useState(false)
+  const [hideBackElements, setHideBackElements] = useState(false) // 控制背面元素的显示
 
   // 发音功能
   const speakDutch = (text: string) => {
@@ -939,7 +940,13 @@ function MainApp() {
                       // Only respond to double tap when not swiping
                       if (!isSwiping && timeSinceLastTap < 300 && timeSinceLastTap > 0) {
                         // Double tap triggers flip
-                        setIsFlipped(!isFlipped)
+                        // 先隐藏背面元素，延迟50ms后再翻转
+                        setHideBackElements(true)
+                        setTimeout(() => {
+                          setIsFlipped(!isFlipped)
+                          // 翻转完成后显示背面元素
+                          setTimeout(() => setHideBackElements(false), 600)
+                        }, 50)
                         lastTapRef.current = 0 // Reset to prevent triple tap
                       } else {
                         // Single tap, record time
@@ -987,7 +994,7 @@ function MainApp() {
                           <div className="example-header">
                             <div className="example-nl">{currentExample.dutch}</div>
                             <button
-                              className="speak-btn-example"
+                              className={`speak-btn-example ${hideBackElements ? 'hidden-element' : ''}`}
                               onClick={(e) => {
                                 e.stopPropagation()
                                 speakDutch(currentExample.dutch)
@@ -1004,7 +1011,7 @@ function MainApp() {
                           )}
                         </div>
                       )}
-                      <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty`}>{currentWord.difficulty}</span>
+                      <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty ${hideBackElements ? 'hidden-element' : ''}`}>{currentWord.difficulty}</span>
                     </div>
                   </div>
 
