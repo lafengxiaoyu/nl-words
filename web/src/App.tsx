@@ -45,6 +45,91 @@ const SpeakerIcon = ({ isSpeaking }: { isSpeaking: boolean }) => {
   )
 }
 
+// 左箭头图标组件
+const ChevronLeftIcon = () => {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="chevron-icon">
+      <path
+        d="M15 18L9 12L15 6"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
+// 右箭头图标组件
+const ChevronRightIcon = () => {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="chevron-icon">
+      <path
+        d="M9 18L15 12L9 6"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
+// 用户图标组件
+const UserIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="user-icon">
+      <path
+        d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <circle
+        cx="12"
+        cy="7"
+        r="4"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
+// 语言/地球图标组件
+const GlobeIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="globe-icon">
+      <circle
+        cx="12"
+        cy="12"
+        r="10"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M2 12H22"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 2C14.5013 4.73835 15.9228 8.29203 16 12C15.9228 15.708 14.5013 19.2616 12 22C9.49872 19.2616 8.07725 15.708 8 12C8.07725 8.29203 9.49872 4.73835 12 2Z"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
 // 语言模式类型
 type LanguageMode = 'chinese' | 'english'
 
@@ -785,34 +870,40 @@ function MainApp() {
                 <div className="header-right">
                   {/* 用户按钮 */}
                   {user ? (
-                    <button className="user-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/profile`)}>
-                      👤
+                    <button className="user-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/profile`)} aria-label={languageMode === 'chinese' ? '用户资料' : 'User Profile'}>
+                      <UserIcon />
                     </button>
                   ) : (
-                    <button className="user-btn" onClick={() => setShowAuth(true)}>
-                      👤
+                    <button className="user-btn" onClick={() => setShowAuth(true)} aria-label={languageMode === 'chinese' ? '登录' : 'Login'}>
+                      <UserIcon />
                     </button>
                   )}
 
                   {/* 桌面端语言选择器 */}
                   <div className="language-selector-header">
                     <button
-                      className={`btn btn-sm ${languageMode === 'chinese' ? 'btn-primary' : 'btn-outline'}`}
+                      className={`btn btn-sm language-btn ${languageMode === 'chinese' ? 'btn-primary' : 'btn-outline'}`}
                       onClick={() => switchLanguage('chinese')}
+                      aria-label="中文"
+                      title="中文"
                     >
-                      {t.chineseLabel}
+                      <GlobeIcon />
+                      <span className="language-text">中文</span>
                     </button>
                     <button
-                      className={`btn btn-sm ${languageMode === 'english' ? 'btn-primary' : 'btn-outline'}`}
+                      className={`btn btn-sm language-btn ${languageMode === 'english' ? 'btn-primary' : 'btn-outline'}`}
                       onClick={() => switchLanguage('english')}
+                      aria-label="English"
+                      title="English"
                     >
-                      {t.englishLabel}
+                      <GlobeIcon />
+                      <span className="language-text">EN</span>
                     </button>
                   </div>
 
                   {/* 移动端语言切换 */}
-                  <button className="lang-icon-mobile" onClick={() => switchLanguage(languageMode === 'chinese' ? 'english' : 'chinese')}>
-                    {languageMode === 'chinese' ? '🇨🇳' : '🇺🇸'}
+                  <button className="lang-icon-mobile" onClick={() => switchLanguage(languageMode === 'chinese' ? 'english' : 'chinese')} aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}>
+                    <GlobeIcon />
                   </button>
 
                   {/* 汉堡菜单按钮 - 仅在移动端显示 */}
@@ -980,8 +1071,12 @@ function MainApp() {
               )}
 
               <div className="navigation">
-                <button className="btn btn-outline" onClick={goToPrevious} disabled={filteredWordList.length <= 1} aria-label={languageMode === 'chinese' ? '上一个单词' : 'Previous word'}>{t.prevButton}</button>
-                <button className="btn btn-outline" onClick={goToNext} disabled={filteredWordList.length <= 1} aria-label={languageMode === 'chinese' ? '下一个单词' : 'Next word'}>{t.nextButton}</button>
+                <button className="btn btn-outline nav-btn-icon" onClick={goToPrevious} disabled={filteredWordList.length <= 1} aria-label={languageMode === 'chinese' ? '上一个单词' : 'Previous word'}>
+                  <ChevronLeftIcon />
+                </button>
+                <button className="btn btn-outline nav-btn-icon" onClick={goToNext} disabled={filteredWordList.length <= 1} aria-label={languageMode === 'chinese' ? '下一个单词' : 'Next word'}>
+                  <ChevronRightIcon />
+                </button>
               </div>
 
               <div className="tools">
