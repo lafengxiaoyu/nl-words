@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import type { Word } from '../data/words'
+import type { Word, DifficultyLevel } from '../data/words'
 import { words } from '../data/words'
 import './TestPage.css'
 
@@ -28,6 +28,8 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const [score, setScore] = useState(0)
   const [testComplete, setTestComplete] = useState(false)
   const [isSpeaking, setIsSpeaking] = useState(false)
+  const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
+  const [wordCount, setWordCount] = useState(10)
 
   const translations = {
     chinese: {
@@ -44,7 +46,11 @@ export default function TestPage({ languageMode }: TestPageProps) {
       correct: '正确',
       wrong: '错误',
       correctAnswer: '正确答案',
-      speakButton: '🔊 发音'
+      speakButton: '🔊 发音',
+      selectDifficulty: '选择难度',
+      selectWordCount: '选择单词数量',
+      allDifficulty: '全部',
+      wordCountLabel: (count: number) => `${count} 个单词`
     },
     english: {
       title: 'Word Test',
@@ -60,16 +66,44 @@ export default function TestPage({ languageMode }: TestPageProps) {
       correct: 'Correct',
       wrong: 'Wrong',
       correctAnswer: 'Correct Answer',
-      speakButton: '🔊 Pronounce'
+      speakButton: '🔊 Pronounce',
+      selectDifficulty: 'Select Difficulty',
+      selectWordCount: 'Select Word Count',
+      allDifficulty: 'All',
+      wordCountLabel: (count: number) => `${count} words`
     }
   }
 
   const t = translations[languageMode]
 
+  // 根据难度筛选单词
+  const filterWordsByDifficulty = (allWords: Word[], difficulty: DifficultyLevel | 'all') => {
+    if (difficulty === 'all') {
+      return allWords
+    } else if (difficulty === 'A1') {
+      // A1-A2 组合筛选
+      return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+    } else if (difficulty === 'B1') {
+      // B1-B2 组合筛选
+      return allWords.filter(w => w.difficulty === 'B1' || w.difficulty === 'B2')
+    } else if (difficulty === 'C1') {
+      // C1-C2 组合筛选
+      return allWords.filter(w => w.difficulty === 'C1' || w.difficulty === 'C2')
+    } else {
+      return allWords.filter(w => w.difficulty === difficulty)
+    }
+  }
+
   // 开始测试
   const startTest = () => {
-    // 随机选择10个单词进行测试
-    const shuffled = [...words].sort(() => Math.random() - 0.5).slice(0, 10)
+    // 根据难度筛选单词
+    const filteredWords = filterWordsByDifficulty(words, selectedDifficulty)
+
+    // 确保选择的数量不超过可用单词数
+    const count = Math.min(wordCount, filteredWords.length)
+
+    // 随机选择指定数量的单词进行测试
+    const shuffled = [...filteredWords].sort(() => Math.random() - 0.5).slice(0, count)
     setTestWords(shuffled)
     setCurrentIndex(0)
     setScore(0)
@@ -129,6 +163,9 @@ export default function TestPage({ languageMode }: TestPageProps) {
   }
 
   if (testWords.length === 0) {
+    const filteredWords = filterWordsByDifficulty(words, selectedDifficulty)
+    const maxWordCount = filteredWords.length
+
     return (
       <div className="test-page">
         <div className="test-container">
@@ -137,7 +174,63 @@ export default function TestPage({ languageMode }: TestPageProps) {
           </button>
           <div className="test-intro">
             <h1>{t.title}</h1>
-            <p>测试包含10道题，请选择正确的翻译。</p>
+
+            <div className="test-options">
+              <div className="option-group">
+                <label className="option-label">{t.selectDifficulty}</label>
+                <div className="difficulty-selector">
+                  <button
+                    className={`difficulty-option ${selectedDifficulty === 'all' ? 'selected' : ''}`}
+                    onClick={() => setSelectedDifficulty('all')}
+                  >
+                    {t.allDifficulty}
+                  </button>
+                  <button
+                    className={`difficulty-option ${selectedDifficulty === 'A1' ? 'selected' : ''}`}
+                    onClick={() => setSelectedDifficulty('A1')}
+                  >
+                    A1-A2
+                  </button>
+                  <button
+                    className={`difficulty-option ${selectedDifficulty === 'B1' ? 'selected' : ''}`}
+                    onClick={() => setSelectedDifficulty('B1')}
+                  >
+                    B1-B2
+                  </button>
+                  <button
+                    className={`difficulty-option ${selectedDifficulty === 'C1' ? 'selected' : ''}`}
+                    onClick={() => setSelectedDifficulty('C1')}
+                  >
+                    C1-C2
+                  </button>
+                </div>
+              </div>
+
+              <div className="option-group">
+                <label className="option-label">{t.selectWordCount}</label>
+                <div className="word-count-selector">
+                  {[5, 10, 15, 20, 25].map((count) => (
+                    <button
+                      key={count}
+                      className={`count-option ${wordCount === count ? 'selected' : ''} ${count > maxWordCount ? 'disabled' : ''}`}
+                      onClick={() => count <= maxWordCount && setWordCount(count)}
+                      disabled={count > maxWordCount}
+                    >
+                      {count}
+                    </button>
+                  ))}
+                </div>
+                {maxWordCount < wordCount && (
+                  <p className="warning-text">
+                    {languageMode === 'chinese'
+                      ? `该难度下只有 ${maxWordCount} 个单词`
+                      : `Only ${maxWordCount} words available at this difficulty`
+                    }
+                  </p>
+                )}
+              </div>
+            </div>
+
             <button className="btn btn-primary btn-lg" onClick={startTest}>
               {t.startTest}
             </button>
@@ -157,6 +250,11 @@ export default function TestPage({ languageMode }: TestPageProps) {
           </button>
           <div className="test-complete">
             <h1>{t.testComplete}</h1>
+            <div className="test-info">
+              <span className="test-difficulty">
+                {selectedDifficulty === 'all' ? t.allDifficulty : selectedDifficulty}
+              </span>
+            </div>
             <div className="score-display">
               <div className="score-number">{score} / {testWords.length}</div>
               <div className="score-percentage">{percentage}%</div>

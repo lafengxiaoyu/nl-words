@@ -281,3 +281,149 @@
     font-size: 1rem;
   }
 }
+
+/* Test options styling */
+.test-options {
+  margin: 30px 0;
+  text-align: left;
+}
+
+.option-group {
+  margin-bottom: 30px;
+}
+
+.option-label {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  opacity: 0.95;
+}
+
+.difficulty-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.difficulty-option {
+  flex: 1;
+  min-width: 100px;
+  padding: 12px 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.difficulty-option:hover:not(.disabled) {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.difficulty-option.selected {
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+  border-color: #4ade80;
+  box-shadow: 0 4px 15px rgba(74, 222, 128, 0.4);
+}
+
+.word-count-selector {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.count-option {
+  min-width: 60px;
+  padding: 12px 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.count-option:hover:not(.disabled) {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.count-option.selected {
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+  border-color: #4ade80;
+  box-shadow: 0 4px 15px rgba(74, 222, 128, 0.4);
+}
+
+.count-option.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.warning-text {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #fbbf24;
+  font-weight: 500;
+  text-align: center;
+}
+
+.test-info {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.test-difficulty {
+  background: rgba(59, 130, 246, 0.2);
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Mobile responsive for test options */
+@media (max-width: 768px) {
+  .test-options {
+    margin: 20px 0;
+  }
+
+  .option-label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .difficulty-option {
+    flex: 1 0 45%;
+    min-width: auto;
+    padding: 10px 15px;
+    font-size: 0.95rem;
+  }
+
+  .count-option {
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+
+  .warning-text {
+    font-size: 0.85rem;
+  }
+
+  .test-difficulty {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+}
