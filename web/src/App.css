@@ -728,6 +728,20 @@ body {
   pointer-events: none;
 }
 
+/* 翻转开始时隐藏卡片背面的发音按钮和难度标签，防止在翻转动画过程中显示 */
+.word-card:not(.flipped) .card-back .speak-btn-example,
+.word-card:not(.flipped) .card-back .card-difficulty {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.word-card.flipped .card-back .speak-btn-example,
+.word-card.flipped .card-back .card-difficulty {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
 /* 滑动时如果卡片是翻转状态，需要在滑动的基础上加上翻转 */
 
 .card-front,
