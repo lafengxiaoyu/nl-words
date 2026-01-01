@@ -1284,6 +1284,12 @@ body {
   /* 移动端优化 */
   -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
   touch-action: auto; /* 允许所有触摸操作 */
+  /* 固定宽度，与单词卡片对齐 */
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 .stats-panel h3,
