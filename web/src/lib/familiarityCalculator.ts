@@ -81,7 +81,7 @@ export function getFamiliarityFromScore(
 
   // 混合策略：优先考虑用户明确标记，但添加智能降级保护
 
-  // 1. 如果用户明确标记为mastered，尊重用户选择，除非测试数据明显矛盾
+  // 1. 如果用户明确标记为mastered，尊重用户选择，但需要验证分数是否达标
   if (userFamiliarity === 'mastered') {
     // 检查是否有明显的测试失误
     if (stats.testCount >= 2) {
@@ -91,8 +91,15 @@ export function getFamiliarityFromScore(
         return score <= 39 ? 'learning' : 'familiar'
       }
     }
-    // 测试数据正常或不足，尊重用户选择
-    return 'mastered'
+    // 测试数据正常或不足，但还需要检查分数是否真的达标
+    // 如果分数未达到70分，按实际分数返回正确的级别
+    if (score >= 70) {
+      return 'mastered'
+    } else if (score <= 39) {
+      return 'learning'
+    } else {
+      return 'familiar'
+    }
   }
 
   // 2. 如果用户明确标记为new或learning，尊重用户选择
