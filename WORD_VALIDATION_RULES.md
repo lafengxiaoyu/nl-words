@@ -8,7 +8,7 @@
 - `id`: 唯一标识符（数字）
 - `word`: 荷兰语单词（字符串）
 - `translation`: 翻译对象（包含 chinese 和 english）
-- `partOfSpeech`: 词性（noun/verb/adjective/adverb/pronoun/preposition/conjunction/interjection/other）
+- `partOfSpeech`: 词性（noun/verb/adjective/adverb/pronoun/preposition/conjunction/interjection/phrase/other）
 - `examples`: 例句数组（至少包含一个荷兰语例句）
 - `difficulty`: 难度级别（A1/A2/B1/B2/C1/C2）
 - `exampleTranslations`: 例句翻译对象（包含 chinese 和 english 数组）

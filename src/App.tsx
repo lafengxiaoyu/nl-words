@@ -279,6 +279,7 @@ function App() {
       preposition: '介词',
       conjunction: '连词',
       interjection: '感叹词',
+      phrase: '短语',
       other: '其他'
     }
     return labels[pos] || pos

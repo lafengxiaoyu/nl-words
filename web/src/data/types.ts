@@ -1,5 +1,5 @@
 // 词性类型
-export type PartOfSpeech = 'noun' | 'verb' | 'adjective' | 'adverb' | 'pronoun' | 'preposition' | 'conjunction' | 'interjection' | 'other'
+export type PartOfSpeech = 'noun' | 'verb' | 'adjective' | 'adverb' | 'pronoun' | 'preposition' | 'conjunction' | 'interjection' | 'phrase' | 'other'
 
 // 名词的定冠词
 export type Article = 'de' | 'het'

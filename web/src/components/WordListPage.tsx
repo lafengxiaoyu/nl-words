@@ -42,6 +42,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       preposition: '介词',
       conjunction: '连词',
       interjection: '感叹词',
+      phrase: '短语',
       other: '其他',
       A1: 'A1',
       A2: 'A2',
@@ -70,6 +71,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       preposition: 'Preposition',
       conjunction: 'Conjunction',
       interjection: 'Interjection',
+      phrase: 'Phrase',
       other: 'Other',
       A1: 'A1',
       A2: 'A2',
@@ -103,7 +105,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   })
 
   // 获取所有唯一的词性
-  const allPartsOfSpeech = Array.from(new Set(words.map(w => w.partOfSpeech)))
+  const allPartsOfSpeech: string[] = ['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection', 'phrase', 'other']
 
   // 获取所有唯一的难度
   const allDifficulties = Array.from(new Set(words.map(w => w.difficulty))).sort()
