@@ -130,6 +130,132 @@ const GlobeIcon = () => {
   )
 }
 
+// 菜单图标组件
+const MenuIcon = ({ isOpen }: { isOpen: boolean }) => {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="menu-icon">
+      {isOpen ? (
+        // X 图标（关闭状态）
+        <>
+          <path
+            d="M18 6L6 18"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M6 6L18 18"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </>
+      ) : (
+        // 菜单图标（打开状态）
+        <>
+          <path
+            d="M3 12H21"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M3 6H21"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M3 18H21"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </>
+      )}
+    </svg>
+  )
+}
+
+// 随机排序/洗牌图标组件
+const ShuffleIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="shuffle-icon">
+      <path
+        d="M16 3H21V8"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4 20L21 3"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M21 16V21H16"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M15 15L21 21"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4 4L9 9"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
+// 详情/信息图标组件
+const InfoIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="info-icon">
+      <circle
+        cx="12"
+        cy="12"
+        r="10"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 16V12"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 8H12.01"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
 // 语言模式类型
 type LanguageMode = 'chinese' | 'english'
 
@@ -198,7 +324,7 @@ function MainApp() {
         error: '❌ 同步失败'
       },
       loginButton: '登录',
-      shuffleButton: '🔀 随机排序',
+      shuffleButton: '随机排序',
       showDetailsButton: (show: boolean) => show ? '隐藏详情' : '显示详情',
       prevButton: '←',
       nextButton: '→',
@@ -277,7 +403,7 @@ function MainApp() {
         error: '❌ Sync Failed'
       },
       loginButton: 'Login',
-      shuffleButton: '🔀 Shuffle',
+      shuffleButton: 'Shuffle',
       showDetailsButton: (show: boolean) => show ? 'Hide Details' : 'Show Details',
       prevButton: '←',
       nextButton: '→',
@@ -908,13 +1034,11 @@ function MainApp() {
 
                   {/* 汉堡菜单按钮 - 仅在移动端显示 */}
                   <button
-                    className={`hamburger-btn ${mobileMenuOpen ? 'hamburger-btn--open' : ''}`}
+                    className="hamburger-btn"
                     onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                     aria-label="Menu"
                   >
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <MenuIcon isOpen={mobileMenuOpen} />
                   </button>
                 </div>
               </div>
@@ -1080,8 +1204,14 @@ function MainApp() {
               </div>
 
               <div className="tools">
-                <button className="btn btn-outline" onClick={shuffleWords}>{t.shuffleButton}</button>
-                <button className="btn btn-outline" onClick={() => setShowDetails(!showDetails)}>{t.showDetailsButton(showDetails)}</button>
+                <button className="btn btn-outline shuffle-btn" onClick={shuffleWords}>
+                  <ShuffleIcon />
+                  <span>{t.shuffleButton}</span>
+                </button>
+                <button className="btn btn-outline details-btn" onClick={() => setShowDetails(!showDetails)}>
+                  <InfoIcon />
+                  <span>{t.showDetailsButton(showDetails)}</span>
+                </button>
               </div>
 
               {showDetails && currentWord && (
