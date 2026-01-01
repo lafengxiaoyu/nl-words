@@ -64,6 +64,63 @@ function CustomSelect({
   )
 }
 
+// 通用选项下拉组件（用于词性和难度选择）
+function OptionSelect<T extends string>({
+  value,
+  onChange,
+  options,
+  className
+}: {
+  value: T
+  onChange: (value: T) => void
+  options: { value: T; label: string }[]
+  className?: string
+}) {
+  const [isOpen, setIsOpen] = useState(false)
+  const selectRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (selectRef.current && !selectRef.current.contains(event.target as Node)) {
+        setIsOpen(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
+
+  const selectedOption = options.find(opt => opt.value === value)
+
+  return (
+    <div className={`custom-select option-select ${className || ''}`} ref={selectRef}>
+      <div
+        className="custom-select-trigger"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <span className="option-select-label">{selectedOption?.label || value}</span>
+        <span className={`custom-select-arrow ${isOpen ? 'open' : ''}`}>▼</span>
+      </div>
+      {isOpen && (
+        <div className="custom-select-dropdown option-select-dropdown">
+          {options.map(option => (
+            <div
+              key={option.value}
+              className={`custom-select-option ${option.value === value ? 'selected' : ''}`}
+              onClick={() => {
+                onChange(option.value)
+                setIsOpen(false)
+              }}
+            >
+              {option.label}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
 export default function WordListPage({ languageMode }: WordListPageProps) {
   const navigate = useNavigate()
   const [wordList, setWordList] = useState<Word[]>([])
@@ -193,6 +250,18 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   // 获取所有唯一的难度
   const allDifficulties = Array.from(new Set(words.map(w => w.difficulty))).sort()
 
+  // 词性选项
+  const partOfSpeechOptions = [
+    { value: 'all', label: t.allParts },
+    ...allPartsOfSpeech.map(pos => ({ value: pos, label: getTranslation(pos) }))
+  ]
+
+  // 难度选项
+  const difficultyOptions = [
+    { value: 'all', label: t.allDifficulties },
+    ...allDifficulties.map(diff => ({ value: diff, label: getTranslation(diff) }))
+  ]
+
   // 分页计算
   const totalPages = Math.ceil(filteredWords.length / itemsPerPage)
   const startIndex = (currentPage - 1) * itemsPerPage
@@ -228,7 +297,8 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
             />
           </div>
 
-          <div className="filter-row">
+          {/* 桌面端筛选按钮 */}
+          <div className="filter-row desktop-filters">
             <div className="filter-group">
               <label className="filter-label">{t.partOfSpeech}</label>
               <div className="filter-options">
@@ -269,6 +339,29 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                   </button>
                 ))}
               </div>
+            </div>
+          </div>
+
+          {/* 移动端下拉筛选 */}
+          <div className="filter-row mobile-filters">
+            <div className="filter-group">
+              <label className="filter-label">{t.partOfSpeech}</label>
+              <OptionSelect
+                value={selectedPartOfSpeech}
+                onChange={setSelectedPartOfSpeech}
+                options={partOfSpeechOptions}
+                className="mobile-filter-select"
+              />
+            </div>
+
+            <div className="filter-group">
+              <label className="filter-label">{t.difficulty}</label>
+              <OptionSelect
+                value={selectedDifficulty}
+                onChange={setSelectedDifficulty}
+                options={difficultyOptions}
+                className="mobile-filter-select"
+              />
             </div>
           </div>
         </div>

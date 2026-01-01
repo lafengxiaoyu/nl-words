@@ -113,6 +113,14 @@
   flex-wrap: wrap;
 }
 
+.desktop-filters {
+  display: flex;
+}
+
+.mobile-filters {
+  display: none;
+}
+
 .filter-group {
   flex: 1;
   min-width: 300px;
@@ -521,12 +529,12 @@
     font-size: 1rem;
   }
 
-  .filter-row {
+  .desktop-filters .filter-row {
     flex-direction: column;
     gap: 20px;
   }
 
-  .filter-group {
+  .desktop-filters .filter-group {
     min-width: 100%;
   }
 
@@ -561,6 +569,26 @@
   .difficulty-tag {
     padding: 5px 10px;
     font-size: 0.85rem;
+  }
+
+  /* 移动端筛选响应式 */
+  .desktop-filters {
+    display: none;
+  }
+
+  .mobile-filters {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .mobile-filters .filter-group {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .filter-row {
+    gap: 15px;
   }
 
   /* 分页控制响应式 */
@@ -648,6 +676,16 @@
     min-width: 600px;
   }
 
+  /* 移动端筛选超小屏幕响应式 */
+  .mobile-filters {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .mobile-filters .filter-group {
+    min-width: 100%;
+  }
+
   /* 分页控制超小屏幕响应式 */
   .pagination-controls-top {
     padding: 10px;
@@ -690,9 +728,44 @@
     font-size: 0.85rem;
   }
 
-  .custom-select-dropdown {
-    max-height: 200px;
-  }
+.custom-select-dropdown {
+  max-height: 200px;
+}
+
+/* 移动端筛选下拉菜单样式 */
+.option-select {
+  width: 100%;
+  min-width: auto;
+}
+
+.option-select-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.option-select-dropdown {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.mobile-filter-select {
+  width: 100%;
+}
+
+.mobile-filter-select .custom-select-trigger {
+  width: 100%;
+  padding: 10px 32px 10px 14px;
+}
+
+.mobile-filter-select .custom-select-dropdown {
+  width: 100%;
+  max-height: 200px;
+}
+
+.mobile-filter-select .custom-select-option {
+  padding: 10px 14px;
+}
 
   .pagination-controls-bottom {
     padding: 12px;
