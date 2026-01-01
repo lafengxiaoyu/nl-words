@@ -117,8 +117,6 @@ function MainApp() {
       showDetailsButton: (show: boolean) => show ? '隐藏详情' : '显示详情',
       prevButton: '上一个',
       nextButton: '下一个',
-      masteredButton: '标记掌握',
-      unmasteredButton: '取消掌握',
       flipCardHint: '点击单词卡片查看翻译',
       speakButton: '🔊 发音',
       speakExampleButton: '🔊 例句发音',
@@ -198,8 +196,6 @@ function MainApp() {
       showDetailsButton: (show: boolean) => show ? 'Hide Details' : 'Show Details',
       prevButton: 'Prev',
       nextButton: 'Next',
-      masteredButton: 'Mark Mastered',
-      unmasteredButton: 'Unmark Mastered',
       flipCardHint: 'Click card to flip',
       speakButton: '🔊 Pronounce',
       speakExampleButton: '🔊 Example Pronounce',
@@ -456,76 +452,7 @@ function MainApp() {
   const totalCount = filteredWordList.length
   const progressPercentage = totalCount > 0 ? Math.round((masteredCount / totalCount) * 100) : 0
 
-  // 切换当前单词的掌握状态
-  const toggleMastered = async () => {
-    const currentWord = filteredWordList[currentIndex]
-    const newFamiliarity: FamiliarityLevel = currentWord.familiarity === 'mastered' ? 'learning' : 'mastered'
 
-    // Update mastery stats
-    if (user) {
-      try {
-        const { stats: updatedStats, familiarity: calculatedFamiliarity } = await updateMasteryStats(
-          user.id,
-          currentWord.id,
-          newFamiliarity,
-          currentWord.stats
-        )
-        console.log(`手动标记为 ${calculatedFamiliarity}（用户选择: ${newFamiliarity}）`)
-
-        const updatedWords = wordList.map(word =>
-          word.id === currentWord.id
-            ? {
-                ...word,
-                familiarity: calculatedFamiliarity,
-                stats: updatedStats
-              }
-            : word
-        )
-
-        setWordList(updatedWords)
-        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
-        await saveProgressToSupabase(updatedWords.find(w => w.id === currentWord.id)!)
-        return
-      } catch (error) {
-        console.error('更新掌握统计失败:', error)
-      }
-    }
-
-    // Local mode: update local stats
-    const updatedWords = wordList.map(word => {
-      if (word.id === currentWord.id) {
-        const currentStats = word.stats || {
-          viewCount: 0,
-          masteredCount: 0,
-          unmasteredCount: 0,
-          testCount: 0,
-          testCorrectCount: 0,
-          testWrongCount: 0,
-        }
-
-        const updatedStats = {
-          ...currentStats,
-          masteredCount: newFamiliarity === 'mastered' ? currentStats.masteredCount + 1 : currentStats.masteredCount,
-          unmasteredCount: newFamiliarity !== 'mastered' ? currentStats.unmasteredCount + 1 : currentStats.unmasteredCount,
-        }
-
-        // 自动计算熟悉程度，传入用户选择
-        const calculatedFamiliarity = calculateFamiliarity(updatedStats, newFamiliarity)
-        console.log(`手动标记为 ${calculatedFamiliarity}（用户选择: ${newFamiliarity}）`)
-
-        return {
-          ...word,
-          familiarity: calculatedFamiliarity,
-          stats: updatedStats
-        }
-      }
-      return word
-    })
-
-    setWordList(updatedWords)
-    localStorage.setItem('nl-words', JSON.stringify(updatedWords))
-    await saveProgressToSupabase(updatedWords.find(w => w.id === currentWord.id)!)
-  }
 
   // 设置单词熟悉程度
   const setWordFamiliarity = async (wordId: number, familiarity: FamiliarityLevel) => {
@@ -1054,9 +981,6 @@ function MainApp() {
 
               <div className="navigation">
                 <button className="btn btn-outline" onClick={goToPrevious} disabled={filteredWordList.length <= 1}>{t.prevButton}</button>
-                <button className={`btn ${currentWord?.familiarity === 'mastered' ? 'btn-success' : 'btn-primary'}`} onClick={toggleMastered}>
-                  {currentWord?.familiarity === 'mastered' ? t.unmasteredButton : t.masteredButton}
-        </button>
                 <button className="btn btn-outline" onClick={goToNext} disabled={filteredWordList.length <= 1}>{t.nextButton}</button>
               </div>
 
