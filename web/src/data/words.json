@@ -112,6 +112,7 @@
     "forms": {
       "verb": {
         "infinitive": "eten",
+        "isSeparable": false,
         "present": {
           "ik": "eet",
           "jij": "eet",
@@ -131,10 +132,16 @@
       "Ik eet een appel.",
       "Wij eten om zes uur."
     ],
-    "exampleTranslations": [
-      "我吃一个苹果。",
-      "我们六点吃饭。"
-    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我吃一个苹果。",
+        "我们六点吃饭。"
+      ],
+      "english": [
+        "I eat an apple.",
+        "We eat at six o'clock."
+      ]
+    },
     "notes": "不规则动词，过去式是at/aten",
     "difficulty": "A2"
   },
@@ -178,18 +185,25 @@
       "noun": {
         "article": "het",
         "singular": "water",
-        "plural": "wateren"
+        "plural": "wateren",
+        "uncountablePreposition": "uit het water"
       }
     },
     "examples": [
       "Ik drink water.",
       "Het water is koud."
     ],
-    "exampleTranslations": [
-      "我喝水。",
-      "水是冷的。"
-    ],
-    "notes": "中性名词，复数形式较少使用",
+    "exampleTranslations": {
+      "chinese": [
+        "我喝水。",
+        "水是冷的。"
+      ],
+      "english": [
+        "I drink water.",
+        "The water is cold."
+      ]
+    },
+    "notes": "中性名词，复数形式较少使用，常不可数，搭配介词 uit het water",
     "difficulty": "A1"
   },
   {
@@ -229,6 +243,7 @@
     "forms": {
       "verb": {
         "infinitive": "zijn",
+        "isSeparable": false,
         "present": {
           "ik": "ben",
           "jij": "bent",
@@ -248,10 +263,16 @@
       "Ik ben student.",
       "Hij is Nederlands."
     ],
-    "exampleTranslations": [
-      "我是学生。",
-      "他是荷兰人。"
-    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我是学生。",
+        "他是荷兰人。"
+      ],
+      "english": [
+        "I am a student.",
+        "He is Dutch."
+      ]
+    },
     "notes": "不规则动词，是最常用的动词之一",
     "difficulty": "A1"
   },
@@ -390,6 +411,7 @@
     "forms": {
       "verb": {
         "infinitive": "betalen",
+        "isSeparable": false,
         "present": {
           "ik": "betaal",
           "jij": "betaalt",
@@ -434,7 +456,8 @@
       "noun": {
         "article": "het",
         "singular": "doorzettingsvermogen",
-        "plural": "doorzettingsvermogens"
+        "plural": "doorzettingsvermogens",
+        "uncountablePreposition": "met doorzettingsvermogen"
       }
     },
     "examples": [
@@ -453,5 +476,387 @@
     },
     "notes": "荷兰语典型长复合词，由door(穿过)+zetting(安置)+vermogen(能力)组成",
     "difficulty": "C2"
+  },
+  {
+    "id": 16,
+    "word": "aankomen",
+    "translation": {
+      "chinese": "到达",
+      "english": "to arrive"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "aankomen",
+        "isSeparable": true,
+        "prefix": "aan",
+        "present": {
+          "ik": "kom aan",
+          "jij": "komt aan",
+          "hij": "komt aan",
+          "wij": "komen aan",
+          "jullie": "komen aan",
+          "zij": "komen aan"
+        },
+        "past": {
+          "singular": "kwam aan",
+          "plural": "kwamen aan"
+        },
+        "pastParticiple": "aangekomen"
+      }
+    },
+    "examples": [
+      "De trein komt aan om 15:00.",
+      "We komen morgen aan."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "火车下午3点到达。",
+        "我们明天到达。"
+      ],
+      "english": [
+        "The train arrives at 15:00.",
+        "We arrive tomorrow."
+      ]
+    },
+    "notes": "可分动词，前缀 aan-，在主句中分开使用",
+    "difficulty": "A2"
+  },
+  {
+    "id": 17,
+    "word": "opbellen",
+    "translation": {
+      "chinese": "打电话",
+      "english": "to call (by phone)"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "opbellen",
+        "isSeparable": true,
+        "prefix": "op",
+        "present": {
+          "ik": "bel op",
+          "jij": "belt op",
+          "hij": "belt op",
+          "wij": "bellen op",
+          "jullie": "bellen op",
+          "zij": "bellen op"
+        },
+        "past": {
+          "singular": "belde op",
+          "plural": "belden op"
+        },
+        "pastParticiple": "opgebeld"
+      }
+    },
+    "examples": [
+      "Ik bel je later op.",
+      "Zij belt haar moeder op."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我稍后给你打电话。",
+        "她给她母亲打电话。"
+      ],
+      "english": [
+        "I'll call you later.",
+        "She calls her mother."
+      ]
+    },
+    "notes": "可分动词，前缀 op-，在主句中分开使用",
+    "difficulty": "A1"
+  },
+  {
+    "id": 18,
+    "word": "groot",
+    "translation": {
+      "chinese": "大的",
+      "english": "big, large"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "groot",
+        "withDe": "grote",
+        "withHet": "groot",
+        "comparative": "groter",
+        "superlative": "grootst"
+      }
+    },
+    "examples": [
+      "Het is een groot huis.",
+      "De grote boom staat in de tuin."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是一所大房子。",
+        "大树立在花园里。"
+      ],
+      "english": [
+        "It is a big house.",
+        "The big tree stands in the garden."
+      ]
+    },
+    "notes": "规则形容词，比较级加-er，最高级加-st",
+    "difficulty": "A1"
+  },
+  {
+    "id": 19,
+    "word": "lekker",
+    "translation": {
+      "chinese": "美味的",
+      "english": "tasty, delicious"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "lekker",
+        "withDe": "lekkere",
+        "withHet": "lekker",
+        "comparative": "lekkerder",
+        "superlative": "lekkerst"
+      }
+    },
+    "examples": [
+      "Dit is lekker eten.",
+      "De cake is lekker."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是美味的食物。",
+        "蛋糕很好吃。"
+      ],
+      "english": [
+        "This is tasty food.",
+        "The cake is delicious."
+      ]
+    },
+    "notes": "常用形容词，口语中广泛使用",
+    "difficulty": "A1"
+  },
+  {
+    "id": 20,
+    "word": "koud",
+    "translation": {
+      "chinese": "冷的",
+      "english": "cold"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "koud",
+        "withDe": "koude",
+        "withHet": "koud",
+        "comparative": "kouder",
+        "superlative": "koudst"
+      }
+    },
+    "examples": [
+      "Het is vandaag koud.",
+      "Ik drink een koude drank."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "今天很冷。",
+        "我喝一杯冷饮。"
+      ],
+      "english": [
+        "It is cold today.",
+        "I drink a cold drink."
+      ]
+    },
+    "notes": "规则形容词，比较级以d结尾，最高级加-st",
+    "difficulty": "A1"
+  },
+  {
+    "id": 21,
+    "word": "tijd",
+    "translation": {
+      "chinese": "时间",
+      "english": "time"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "tijd",
+        "plural": "tijden",
+        "uncountablePreposition": "op tijd"
+      }
+    },
+    "examples": [
+      "Ik heb geen tijd.",
+      "Kom op tijd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我没有时间。",
+        "准时来。"
+      ],
+      "english": [
+        "I have no time.",
+        "Come on time."
+      ]
+    },
+    "notes": "阴性名词，常不可数，搭配介词 op tijd",
+    "difficulty": "A1"
+  },
+  {
+    "id": 22,
+    "word": "inloggen",
+    "translation": {
+      "chinese": "登录",
+      "english": "to log in"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "inloggen",
+        "isSeparable": true,
+        "prefix": "in",
+        "present": {
+          "ik": "log in",
+          "jij": "logt in",
+          "hij": "logt in",
+          "wij": "loggen in",
+          "jullie": "loggen in",
+          "zij": "loggen in"
+        },
+        "past": {
+          "singular": "logde in",
+          "plural": "logden in"
+        },
+        "pastParticiple": "ingelogd"
+      }
+    },
+    "examples": [
+      "Ik log in op de computer.",
+      "Je kunt inloggen met je account."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我登录电脑。",
+        "你可以用你的账户登录。"
+      ],
+      "english": [
+        "I log in to the computer.",
+        "You can log in with your account."
+      ]
+    },
+    "notes": "可分动词，前缀 in-，常用于数字环境",
+    "difficulty": "B1"
+  },
+  {
+    "id": 23,
+    "word": "snel",
+    "translation": {
+      "chinese": "快的",
+      "english": "fast, quick"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "snel",
+        "withDe": "snelle",
+        "withHet": "snel",
+        "comparative": "sneller",
+        "superlative": "snelst"
+      }
+    },
+    "examples": [
+      "Hij is een snelle loper.",
+      "De trein is snel."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他是一名跑得快的人。",
+        "火车很快。"
+      ],
+      "english": [
+        "He is a fast runner.",
+        "The train is fast."
+      ]
+    },
+    "notes": "规则形容词，比较级和最高级规则变化",
+    "difficulty": "A1"
+  },
+  {
+    "id": 24,
+    "word": "koffie",
+    "translation": {
+      "chinese": "咖啡",
+      "english": "coffee"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "koffie",
+        "plural": "koffies",
+        "uncountablePreposition": "van koffie"
+      }
+    },
+    "examples": [
+      "Ik drink graag koffie.",
+      "Een kopje koffie, alstublieft."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我喜欢喝咖啡。",
+        "请来一杯咖啡。"
+      ],
+      "english": [
+        "I like drinking coffee.",
+        "A cup of coffee, please."
+      ]
+    },
+    "notes": "阴性名词，常不可数，搭配介词 van koffie",
+    "difficulty": "A1"
+  },
+  {
+    "id": 25,
+    "word": "uitgaan",
+    "translation": {
+      "chinese": "外出，出去玩",
+      "english": "to go out"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "uitgaan",
+        "isSeparable": true,
+        "prefix": "uit",
+        "present": {
+          "ik": "ga uit",
+          "jij": "gaat uit",
+          "hij": "gaat uit",
+          "wij": "gaan uit",
+          "jullie": "gaan uit",
+          "zij": "gaan uit"
+        },
+        "past": {
+          "singular": "ging uit",
+          "plural": "gingen uit"
+        },
+        "pastParticiple": "uitgegaan"
+      }
+    },
+    "examples": [
+      "Vanavond ga ik uit.",
+      "Zij gaan graag uit in het weekend."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "今晚我要外出。",
+        "他们周末喜欢出去玩。"
+      ],
+      "english": [
+        "I'm going out tonight.",
+        "They like to go out on weekends."
+      ]
+    },
+    "notes": "可分动词，前缀 uit-，动词 gaan 本身是不规则动词",
+    "difficulty": "A2"
   }
 ]

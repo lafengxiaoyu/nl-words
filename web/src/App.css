@@ -1771,6 +1771,12 @@ body {
     /* 移动端触摸优化 */
     touch-action: auto; /* 允许所有触摸操作 */
     -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
+    /* 固定宽度，避免布局浮动 */
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .stats-panel h3,
@@ -2004,6 +2010,12 @@ body {
     /* 移动端触摸优化 */
     touch-action: auto; /* 允许所有触摸操作 */
     -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
+    /* 固定宽度，避免布局浮动 */
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .stats-panel h3,
@@ -2054,6 +2066,138 @@ body {
   background: rgba(239, 68, 68, 0.1);
   color: #ef4444;
   border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+/* 冠词徽章 */
+.article-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.article-badge.article--de {
+  background: rgba(59, 130, 246, 0.15);
+  color: #3b82f6;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.article-badge.article--het {
+  background: rgba(236, 72, 153, 0.15);
+  color: #ec4899;
+  border: 1px solid rgba(236, 72, 153, 0.3);
+}
+
+/* 名词详情 */
+.noun-info {
+  margin-top: 20px;
+}
+
+.noun-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+  padding: 15px;
+  background: rgba(59, 130, 246, 0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.noun-details div {
+  font-size: 0.95rem;
+  color: #374151;
+  padding: 6px 0;
+}
+
+.noun-details strong {
+  color: #1e293b;
+  font-weight: 600;
+}
+
+/* 动词详情 */
+.verb-info {
+  margin-top: 20px;
+}
+
+.verb-details {
+  margin-top: 10px;
+  padding: 15px;
+  background: rgba(245, 158, 11, 0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(245, 158, 11, 0.1);
+}
+
+.verb-details > div:first-child {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  color: #374151;
+  padding: 8px;
+  background: rgba(245, 158, 11, 0.1);
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.conjugation-table {
+  margin-top: 15px;
+}
+
+.conjugation-section {
+  margin-bottom: 15px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  border: 1px solid rgba(245, 158, 11, 0.1);
+}
+
+.conjugation-section strong {
+  font-size: 1rem;
+  color: #1e293b;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.conjugation-row {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  padding: 4px 0;
+  color: #374151;
+  font-size: 0.95rem;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 8px;
+}
+
+.conjugation-row:first-of-type {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+/* 形容词详情 */
+.adjective-info {
+  margin-top: 20px;
+}
+
+.adjective-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+  padding: 15px;
+  background: rgba(168, 85, 247, 0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(168, 85, 247, 0.1);
+}
+
+.adjective-details div {
+  font-size: 0.95rem;
+  color: #374151;
+  padding: 6px 0;
+}
+
+.adjective-details strong {
+  color: #1e293b;
+  font-weight: 600;
 }
 
 /* 熟悉程度颜色 */

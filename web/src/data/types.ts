@@ -15,11 +15,14 @@ export interface NounInfo {
   article: Article
   singular: string
   plural: string
+  uncountablePreposition?: string  // 不可数名词搭配的介词
 }
 
 // 动词变形
 export interface VerbConjugation {
   infinitive: string
+  isSeparable?: boolean  // 是否为可分动词
+  prefix?: string  // 可分前缀
   present: {
     ik: string
     jij: string

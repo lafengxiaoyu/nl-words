@@ -156,6 +156,19 @@ function MainApp() {
         partOfSpeech: '词性',
         difficulty: '难度',
         familiarity: '熟悉程度',
+        article: '冠词',
+        singular: '单数',
+        plural: '复数',
+        separable: '可分动词',
+        inseparable: '不可分动词',
+        prefix: '前缀',
+        conjugation: '变位',
+        base: '原形',
+        withDe: '与de连用',
+        withHet: '与het连用',
+        comparative: '比较级',
+        superlative: '最高级',
+        uncountablePreposition: '搭配介词',
         examples: '例句',
         notes: '备注',
         stats: '学习统计',
@@ -224,6 +237,19 @@ function MainApp() {
         partOfSpeech: 'Part of Speech',
         difficulty: 'Difficulty',
         familiarity: 'Familiarity',
+        article: 'Article',
+        singular: 'Singular',
+        plural: 'Plural',
+        separable: 'Separable',
+        inseparable: 'Inseparable',
+        prefix: 'Prefix',
+        conjugation: 'Conjugation',
+        base: 'Base',
+        withDe: 'With de',
+        withHet: 'With het',
+        comparative: 'Comparative',
+        superlative: 'Superlative',
+        uncountablePreposition: 'Preposition',
         examples: 'Examples',
         notes: 'Notes',
         stats: 'Learning Stats',
@@ -1013,10 +1039,10 @@ function MainApp() {
               {showDetails && currentWord && (
                 <div className="details-panel">
                   <h3>{t.detailsPanel.title}</h3>
-                  <div className="detail-item"><strong>{t.detailsPanel.dutch}：</strong> {currentWord.word}</div>
+                  <div className="detail-item"><strong>{t.detailsPanel.dutch}：</strong> <span className="google-font-text">{currentWord.word}</span></div>
                   <div className="detail-item"><strong>{t.detailsPanel.chinese} ：</strong> {currentWord.translation.chinese}</div>
-                  <div className="detail-item"><strong>{t.detailsPanel.english}：</strong> {currentWord.translation.english}</div>
-                  <div className="detail-item"><strong>{t.detailsPanel.partOfSpeech}：</strong> {currentWord.partOfSpeech}</div>
+                  <div className="detail-item"><strong>{t.detailsPanel.english}：</strong> <span className="google-font-text">{currentWord.translation.english}</span></div>
+                  <div className="detail-item"><strong>{t.detailsPanel.partOfSpeech}：</strong> <span className="google-font-text">{currentWord.partOfSpeech}</span></div>
                   <div className="detail-item">
                     <strong>{t.detailsPanel.difficulty}：</strong>
                     <span className={`difficulty-badge difficulty--${currentWord.difficulty}`}>{currentWord.difficulty}</span>
@@ -1027,12 +1053,78 @@ function MainApp() {
                       {t.familiarityLabels[currentWord.familiarity]}
                     </span>
                   </div>
+
+                  {/* 名词信息 */}
+                  {currentWord.partOfSpeech === 'noun' && currentWord.forms?.noun && (
+                    <div className="detail-item noun-info">
+                      <strong>{t.detailsPanel.partOfSpeech} {languageMode === 'chinese' ? '详情' : 'Details'}：</strong>
+                      <div className="noun-details">
+                        <div><strong>{t.detailsPanel.article}：</strong> <span className={`article-badge article--${currentWord.forms.noun.article} google-font-text`}>{currentWord.forms.noun.article}</span></div>
+                        <div><strong>{t.detailsPanel.singular}：</strong> <span className="google-font-text">{currentWord.forms.noun.singular}</span></div>
+                        <div><strong>{t.detailsPanel.plural}：</strong> <span className="google-font-text">{currentWord.forms.noun.plural}</span></div>
+                        {currentWord.forms.noun.uncountablePreposition && (
+                          <div><strong>{t.detailsPanel.uncountablePreposition}：</strong> <span className="google-font-text">{currentWord.forms.noun.uncountablePreposition}</span></div>
+                        )}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* 动词信息 */}
+                  {currentWord.partOfSpeech === 'verb' && currentWord.forms?.verb && (
+                    <div className="detail-item verb-info">
+                      <strong>{t.detailsPanel.partOfSpeech} {languageMode === 'chinese' ? '详情' : 'Details'}：</strong>
+                      <div className="verb-details">
+                        {currentWord.forms.verb.isSeparable !== undefined && (
+                          <div>
+                            <strong>{currentWord.forms.verb.isSeparable ? t.detailsPanel.separable : t.detailsPanel.inseparable}</strong>
+                            {currentWord.forms.verb.prefix && <span> ({t.detailsPanel.prefix}: <span className="google-font-text">{currentWord.forms.verb.prefix}</span>)</span>}
+                          </div>
+                        )}
+                        <div><strong>{t.detailsPanel.conjugation} ({t.detailsPanel.partOfSpeech})：</strong></div>
+                        <div className="conjugation-table">
+                          <div className="conjugation-section">
+                            <strong>{languageMode === 'chinese' ? '现在时' : 'Present'}:</strong>
+                            <div className="conjugation-row">ik: <span className="google-font-text">{currentWord.forms.verb.present.ik}</span></div>
+                            <div className="conjugation-row">jij: <span className="google-font-text">{currentWord.forms.verb.present.jij}</span></div>
+                            <div className="conjugation-row">hij/zij: <span className="google-font-text">{currentWord.forms.verb.present.hij}</span></div>
+                            <div className="conjugation-row">wij: <span className="google-font-text">{currentWord.forms.verb.present.wij}</span></div>
+                            <div className="conjugation-row">jullie: <span className="google-font-text">{currentWord.forms.verb.present.jullie}</span></div>
+                            <div className="conjugation-row">zij: <span className="google-font-text">{currentWord.forms.verb.present.zij}</span></div>
+                          </div>
+                          <div className="conjugation-section">
+                            <strong>{languageMode === 'chinese' ? '过去时' : 'Past'}:</strong>
+                            <div className="conjugation-row">{languageMode === 'chinese' ? '单数' : 'Singular'}: <span className="google-font-text">{currentWord.forms.verb.past.singular}</span></div>
+                            <div className="conjugation-row">{languageMode === 'chinese' ? '复数' : 'Plural'}: <span className="google-font-text">{currentWord.forms.verb.past.plural}</span></div>
+                          </div>
+                          <div className="conjugation-section">
+                            <strong>{languageMode === 'chinese' ? '过去分词' : 'Past Participle'}:</strong>
+                            <div className="conjugation-row"><span className="google-font-text">{currentWord.forms.verb.pastParticiple}</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* 形容词信息 */}
+                  {currentWord.partOfSpeech === 'adjective' && currentWord.forms?.adjective && (
+                    <div className="detail-item adjective-info">
+                      <strong>{t.detailsPanel.partOfSpeech} {languageMode === 'chinese' ? '详情' : 'Details'}：</strong>
+                      <div className="adjective-details">
+                        <div><strong>{t.detailsPanel.base}：</strong> <span className="google-font-text">{currentWord.forms.adjective.base}</span></div>
+                        <div><strong>{t.detailsPanel.withDe}：</strong> <span className="google-font-text">{currentWord.forms.adjective.withDe}</span></div>
+                        <div><strong>{t.detailsPanel.withHet}：</strong> <span className="google-font-text">{currentWord.forms.adjective.withHet}</span></div>
+                        <div><strong>{t.detailsPanel.comparative}：</strong> <span className="google-font-text">{currentWord.forms.adjective.comparative}</span></div>
+                        <div><strong>{t.detailsPanel.superlative}：</strong> <span className="google-font-text">{currentWord.forms.adjective.superlative}</span></div>
+                      </div>
+                    </div>
+                  )}
+
                   {currentWord.examples && currentWord.examples.length > 0 && (
                     <div className="detail-item">
                       <strong>{t.detailsPanel.examples}：</strong>
                       {currentWord.examples.map((example, index) => (
                         <div key={index} className="example-container">
-                          <div className="example-nl">{example}</div>
+                          <div className="example-nl google-font-text">{example}</div>
                           {(() => {
                             if (Array.isArray(currentWord.exampleTranslations)) {
                               const translation = currentWord.exampleTranslations[index]
@@ -1042,7 +1134,7 @@ function MainApp() {
                               const translation = languageMode === 'chinese'
                                 ? translations.chinese?.[index]
                                 : translations.english?.[index]
-                              return translation && <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english' : ''}`}>{translation}</div>
+                              return translation && <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english google-font-text' : ''}`}>{translation}</div>
                             }
                             return null
                           })()}
@@ -1053,7 +1145,7 @@ function MainApp() {
                   )}
                   {currentWord.notes && (
                     <div className="detail-item">
-                      <strong>{t.detailsPanel.notes}：</strong> {currentWord.notes}
+                      <strong>{t.detailsPanel.notes}：</strong> <span className="google-font-text">{currentWord.notes}</span>
                     </div>
                   )}
                   {currentWord.stats && (
