@@ -10,6 +10,7 @@ import Auth from './components/Auth'
 import UserProfile from './components/UserProfile'
 import ProfilePage from './components/ProfilePage'
 import TestPage from './components/TestPage'
+import WordListPage from './components/WordListPage'
 import logo from './assets/images/dutch-lex.svg'
 
 // 发音按钮图标组件
@@ -265,11 +266,13 @@ function MainApp() {
   const navTranslations = {
     chinese: {
       learn: '学单词',
-      test: '测单词'
+      test: '测单词',
+      wordList: '单词表'
     },
     english: {
       learn: 'Learn',
-      test: 'Test'
+      test: 'Test',
+      wordList: 'Word List'
     }
   }
 
@@ -829,6 +832,12 @@ function MainApp() {
                   >
                     {navTranslations[languageMode].test}
                   </button>
+                  <button
+                    className={`nav-btn ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/wordlist` ? 'nav-btn--active' : ''}`}
+                    onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/wordlist`)}
+                  >
+                    {navTranslations[languageMode].wordList}
+                  </button>
                 </nav>
 
                 <div className="header-right">
@@ -896,6 +905,15 @@ function MainApp() {
                   }}
                 >
                   {navTranslations[languageMode].test}
+                </button>
+                <button
+                  className={`mobile-menu-item ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/wordlist` ? 'mobile-menu-item--active' : ''}`}
+                  onClick={() => {
+                    navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/wordlist`)
+                    setMobileMenuOpen(false)
+                  }}
+                >
+                  {navTranslations[languageMode].wordList}
                 </button>
               </div>
 
@@ -1226,6 +1244,13 @@ function TestRoute() {
   return <TestPage languageMode={languageMode} />
 }
 
+// Word List Page Route Component
+function WordListRoute() {
+  const location = useLocation()
+  const languageMode = location.pathname.startsWith('/zh') ? 'chinese' : 'english'
+  return <WordListPage languageMode={languageMode} />
+}
+
 // App 组件处理路由
 function App() {
   return (
@@ -1235,10 +1260,12 @@ function App() {
       <Route path="/zh/learn" element={<MainApp />} />
       <Route path="/zh/test" element={<TestRoute />} />
       <Route path="/zh/profile" element={<ProfileRoute />} />
+      <Route path="/zh/wordlist" element={<WordListRoute />} />
       <Route path="/en" element={<Navigate to="/en/learn" replace />} />
       <Route path="/en/learn" element={<MainApp />} />
       <Route path="/en/test" element={<TestRoute />} />
       <Route path="/en/profile" element={<ProfileRoute />} />
+      <Route path="/en/wordlist" element={<WordListRoute />} />
       <Route path="*" element={<Navigate to="/zh/learn" replace />} />
     </Routes>
   )

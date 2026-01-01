@@ -1,0 +1,391 @@
+.word-list-page {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  overflow-x: hidden;
+  font-family: 'Roboto', 'Google Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.word-list-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.word-list-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.back-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  font-family: 'Roboto', 'Google Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.back-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.word-list-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.word-list-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto', 'Google Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.word-count {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  font-family: 'Roboto', 'Google Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* 过滤区域 */
+.filters-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Roboto', 'Google Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.filter-row {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  flex: 1;
+  min-width: 300px;
+}
+
+.filter-label {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  opacity: 0.95;
+  font-family: 'Roboto', 'Google Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-option {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Roboto', 'Google Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.filter-option:hover:not(.selected) {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.filter-option.selected {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+/* 单词表格 */
+.words-table-container {
+  overflow-x: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.words-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.words-table th {
+  padding: 18px 15px;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  font-family: 'Roboto', 'Google Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.words-table td {
+  padding: 16px 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Roboto', 'Google Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.words-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.word-col {
+  width: 25%;
+}
+
+.translation-col {
+  width: 35%;
+}
+
+.pos-col {
+  width: 20%;
+}
+
+.difficulty-col {
+  width: 20%;
+}
+
+.word-dutch {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.word-translation {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+/* 词性标签 */
+.pos-tag {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.pos-noun {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+}
+
+.pos-verb {
+  background: linear-gradient(135deg, #10b981 0%, #047857 100%);
+}
+
+.pos-adjective {
+  background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+}
+
+.pos-adverb {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+}
+
+.pos-pronoun {
+  background: linear-gradient(135deg, #ec4899 0%, #be185d 100%);
+}
+
+.pos-preposition {
+  background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
+}
+
+.pos-conjunction {
+  background: linear-gradient(135deg, #84cc16 0%, #65a30d 100%);
+}
+
+.pos-interjection {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}
+
+.pos-other {
+  background: linear-gradient(135deg, #64748b 0%, #475569 100%);
+}
+
+/* 难度标签 */
+.difficulty-tag {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.difficulty-A1 {
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+}
+
+.difficulty-A2 {
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+}
+
+.difficulty-B1 {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+}
+
+.difficulty-B2 {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+}
+
+.difficulty-C1 {
+  background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+}
+
+.difficulty-C2 {
+  background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .word-list-container {
+    padding: 20px;
+  }
+
+  .word-list-header h1 {
+    font-size: 2rem;
+  }
+
+  .word-count {
+    font-size: 1rem;
+  }
+
+  .filter-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .filter-group {
+    min-width: 100%;
+  }
+
+  .filter-option {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .filter-label {
+    font-size: 1rem;
+  }
+
+  .words-table-container {
+    padding: 15px;
+  }
+
+  .words-table th,
+  .words-table td {
+    padding: 12px 10px;
+    font-size: 0.95rem;
+  }
+
+  .word-dutch {
+    font-size: 1.1rem;
+  }
+
+  .word-translation {
+    font-size: 1rem;
+  }
+
+  .pos-tag,
+  .difficulty-tag {
+    padding: 5px 10px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .word-list-page {
+    padding: 10px;
+  }
+
+  .word-list-container {
+    padding: 15px;
+  }
+
+  .back-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .word-list-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .search-input {
+    padding: 12px 16px;
+    font-size: 0.95rem;
+  }
+
+  .words-table {
+    min-width: 600px;
+  }
+}
