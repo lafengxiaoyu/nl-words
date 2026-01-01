@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { Word } from '../data/words'
 import { words } from '../data/words'
@@ -7,6 +7,61 @@ import './WordListPage.css'
 
 interface WordListPageProps {
   languageMode: 'chinese' | 'english'
+}
+
+// 自定义下拉菜单组件
+function CustomSelect({
+  value,
+  onChange,
+  options,
+  className
+}: {
+  value: number
+  onChange: (value: number) => void
+  options: number[]
+  className?: string
+}) {
+  const [isOpen, setIsOpen] = useState(false)
+  const selectRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (selectRef.current && !selectRef.current.contains(event.target as Node)) {
+        setIsOpen(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [])
+
+  return (
+    <div className={`custom-select ${className || ''}`} ref={selectRef}>
+      <div
+        className="custom-select-trigger"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <span>{value}</span>
+        <span className={`custom-select-arrow ${isOpen ? 'open' : ''}`}>▼</span>
+      </div>
+      {isOpen && (
+        <div className="custom-select-dropdown">
+          {options.map(option => (
+            <div
+              key={option}
+              className={`custom-select-option ${option === value ? 'selected' : ''}`}
+              onClick={() => {
+                onChange(option)
+                setIsOpen(false)
+              }}
+            >
+              {option}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  )
 }
 
 export default function WordListPage({ languageMode }: WordListPageProps) {
@@ -228,17 +283,12 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
               </div>
               <div className="items-per-page-selector">
                 <label className="items-per-page-label">{t.itemsPerPage}:</label>
-                <select 
-                  className="items-per-page-select"
+                <CustomSelect
                   value={itemsPerPage}
-                  onChange={(e) => setItemsPerPage(Number(e.target.value))}
-                >
-                  <option value="10">10</option>
-                  <option value="20">20</option>
-                  <option value="50">50</option>
-                  <option value="100">100</option>
-                  <option value="200">200</option>
-                </select>
+                  onChange={setItemsPerPage}
+                  options={[10, 20, 50, 100, 200]}
+                  className="items-per-page-custom-select"
+                />
               </div>
             </div>
           )}
