@@ -1101,25 +1101,26 @@ body {
   align-items: center;
 }
 
+/* 图标按钮优化 */
+.navigation .btn-outline {
+  font-size: 1.1rem;
+  min-width: 70px;
+}
+
 /* 移动端按钮大小调整 */
 @media (max-width: 768px) {
   .navigation {
     gap: 8px;
   }
   
-  /* 上一个和下一个按钮变窄 */
+  /* 上一个和下一个按钮 - 图标按钮优化 */
   .navigation .btn-outline {
     padding: 12px 16px;
-    min-width: 80px;
+    min-width: 60px;
+    font-size: 1.2rem;
   }
   
-  /* 中间按钮变大并适应内容 */
-  .navigation .btn:nth-child(2) {
-    min-width: 140px;
-    padding: 14px 28px;
-    flex: 1;
-    max-width: 200px;
-  }
+
 }
 
 /* 工具按钮 */
@@ -1712,16 +1713,14 @@ body {
   .navigation .btn {
     flex: 1;
     min-height: 44px;
-    font-size: 0.85rem;
+    font-size: 1.1rem;
     padding: 8px 10px;
     border-radius: 10px;
     white-space: nowrap;
+    min-width: 60px;
   }
 
-  /* 移动端中间按钮固定宽度 */
-  .navigation .btn:nth-child(2) {
-    min-width: 110px;
-  }
+
 
   .difficulty-filters {
     flex-direction: row;
@@ -1971,14 +1970,12 @@ body {
 
   .navigation .btn {
     min-height: 48px;
-    font-size: 0.85rem;
+    font-size: 1.1rem;
     padding: 10px 12px;
+    min-width: 60px;
   }
 
-  /* 小屏幕中间按钮固定宽度 */
-  .navigation .btn:nth-child(2) {
-    min-width: 110px;
-  }
+
 
   .difficulty-filters {
     gap: 8px;

@@ -115,8 +115,8 @@ function MainApp() {
       loginButton: '登录',
       shuffleButton: '🔀 随机排序',
       showDetailsButton: (show: boolean) => show ? '隐藏详情' : '显示详情',
-      prevButton: '上一个',
-      nextButton: '下一个',
+      prevButton: '←',
+      nextButton: '→',
       flipCardHint: '点击单词卡片查看翻译',
       speakButton: '🔊 发音',
       speakExampleButton: '🔊 例句发音',
@@ -194,8 +194,8 @@ function MainApp() {
       loginButton: 'Login',
       shuffleButton: '🔀 Shuffle',
       showDetailsButton: (show: boolean) => show ? 'Hide Details' : 'Show Details',
-      prevButton: 'Prev',
-      nextButton: 'Next',
+      prevButton: '←',
+      nextButton: '→',
       flipCardHint: 'Click card to flip',
       speakButton: '🔊 Pronounce',
       speakExampleButton: '🔊 Example Pronounce',
@@ -980,8 +980,8 @@ function MainApp() {
               )}
 
               <div className="navigation">
-                <button className="btn btn-outline" onClick={goToPrevious} disabled={filteredWordList.length <= 1}>{t.prevButton}</button>
-                <button className="btn btn-outline" onClick={goToNext} disabled={filteredWordList.length <= 1}>{t.nextButton}</button>
+                <button className="btn btn-outline" onClick={goToPrevious} disabled={filteredWordList.length <= 1} aria-label={languageMode === 'chinese' ? '上一个单词' : 'Previous word'}>{t.prevButton}</button>
+                <button className="btn btn-outline" onClick={goToNext} disabled={filteredWordList.length <= 1} aria-label={languageMode === 'chinese' ? '下一个单词' : 'Next word'}>{t.nextButton}</button>
               </div>
 
               <div className="tools">
