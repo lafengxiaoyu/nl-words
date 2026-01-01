@@ -78,7 +78,8 @@ export default function TestPage({ languageMode }: TestPageProps) {
       allDifficulty: '全部',
       wordCountLabel: (count: number) => `${count} 个单词`,
       notMastered: '未掌握',
-      wrongAnswersSummary: '错误答案总结'
+      wrongAnswersSummary: '错误答案总结',
+      skipped: '你跳过了它'
     },
     english: {
       title: 'Word Test',
@@ -100,7 +101,8 @@ export default function TestPage({ languageMode }: TestPageProps) {
       allDifficulty: 'All',
       wordCountLabel: (count: number) => `${count} words`,
       notMastered: 'Not Mastered',
-      wrongAnswersSummary: 'Wrong Answers Summary'
+      wrongAnswersSummary: 'Wrong Answers Summary',
+      skipped: 'You skipped it'
     }
   }
 
@@ -408,10 +410,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
                         {languageMode === 'chinese' ? item.word.translation.chinese : item.word.translation.english}
                       </div>
                       <div className="user-choice">
-                        {t.yourAnswer}: {item.userChoice === 'not-mastered' ? t.notMastered : (languageMode === 'chinese' ? (item.userChoice as Word).translation.chinese : (item.userChoice as Word).translation.english)}
-                      </div>
-                      <div className="correct-answer">
-                        {t.correctAnswer}: {languageMode === 'chinese' ? item.correctWord.translation.chinese : item.correctWord.translation.english}
+                        {item.userChoice === 'not-mastered' ? t.skipped : `${t.yourAnswer}: ${languageMode === 'chinese' ? (item.userChoice as Word).translation.chinese : (item.userChoice as Word).translation.english}`}
                       </div>
                     </div>
                   ))}
@@ -463,20 +462,15 @@ export default function TestPage({ languageMode }: TestPageProps) {
               {languageMode === 'chinese' ? option.translation.chinese : option.translation.english}
             </button>
           ))}
-          <button
-            className={`option-btn not-mastered-btn ${showResult && userAnswer === 'not-mastered' ? 'wrong' : ''}`}
-            onClick={() => !showResult && markAsNotMastered()}
-            disabled={showResult}
-          >
-            {t.notMastered}
-          </button>
+
         </div>
 
-        {showResult && (
-          <button className="btn btn-primary btn-lg next-btn" onClick={nextQuestion}>
-            {t.nextQuestion}
-          </button>
-        )}
+        <button
+          className={`btn btn-lg next-btn ${showResult ? 'btn-primary' : 'btn-not-mastered'}`}
+          onClick={() => !showResult ? markAsNotMastered() : nextQuestion()}
+        >
+          {t.nextQuestion}
+        </button>
       </div>
     </div>
   )
