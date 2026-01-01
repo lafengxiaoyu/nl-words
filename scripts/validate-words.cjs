@@ -44,6 +44,25 @@ function validateWords(words) {
 
   log('\n========== 单词数据验证 ==========\n', 'blue');
 
+  // 检查重复的id和单词
+  const idMap = new Map();
+  const wordMap = new Map();
+  words.forEach((word, index) => {
+    if (idMap.has(word.id)) {
+      error(`  重复的 id: ${word.id} (位置 #${index + 1} 与 #${idMap.get(word.id) + 1})`);
+      totalErrors++;
+    } else {
+      idMap.set(word.id, index);
+    }
+
+    if (wordMap.has(word.word)) {
+      error(`  重复的单词: "${word.word}" (位置 #${index + 1} 与 #${wordMap.get(word.word) + 1})`);
+      totalErrors++;
+    } else {
+      wordMap.set(word.word, index);
+    }
+  });
+
   words.forEach((word, index) => {
     const wordNumber = index + 1;
     let hasErrors = false;
