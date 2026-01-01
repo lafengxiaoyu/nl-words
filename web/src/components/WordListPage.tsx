@@ -2,8 +2,7 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { Word } from '../data/words'
 import { words } from '../data/words'
-import { supabase } from '../lib/supabase'
-import type { User } from '@supabase/supabase-js'
+
 import './WordListPage.css'
 
 interface WordListPageProps {
@@ -12,31 +11,12 @@ interface WordListPageProps {
 
 export default function WordListPage({ languageMode }: WordListPageProps) {
   const navigate = useNavigate()
-  const [user, setUser] = useState<User | null>(null)
   const [wordList, setWordList] = useState<Word[]>([])
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedPartOfSpeech, setSelectedPartOfSpeech] = useState<string>('all')
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all')
 
-  // 检查用户认证状态
-  useEffect(() => {
-    const checkUser = async () => {
-      const { data: { session } } = await supabase.auth.getSession()
-      if (session) {
-        setUser(session.user)
-      }
-    }
 
-    checkUser()
-
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user || null)
-    })
-
-    return () => {
-      subscription.unsubscribe()
-    }
-  }, [])
 
   // 加载单词列表
   useEffect(() => {
