@@ -184,6 +184,7 @@ export async function incrementViewCount(
       .upsert({
         user_id: userId,
         word_id: wordId,
+        familiarity: existing?.familiarity || 'new',
         view_count: newStats.viewCount,
         mastered_count: newStats.masteredCount,
         unmastered_count: newStats.unmasteredCount,
