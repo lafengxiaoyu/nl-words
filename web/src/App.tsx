@@ -328,7 +328,7 @@ function MainApp() {
       showDetailsButton: (show: boolean) => show ? '隐藏详情' : '显示详情',
       prevButton: '←',
       nextButton: '→',
-      flipCardHint: '点击单词卡片查看翻译',
+      flipCardHint: '双击卡片翻转 · 左滑未掌握 · 右滑已掌握',
       speakButton: '🔊 发音',
       speakExampleButton: '🔊 例句发音',
       familiarityLabels: {
@@ -407,7 +407,7 @@ function MainApp() {
       showDetailsButton: (show: boolean) => show ? 'Hide Details' : 'Show Details',
       prevButton: '←',
       nextButton: '→',
-      flipCardHint: 'Click card to flip',
+      flipCardHint: 'Double-tap to flip · Swipe left: Unmastered · Swipe right: Mastered',
       speakButton: '🔊 Pronounce',
       speakExampleButton: '🔊 Example Pronounce',
       familiarityLabels: {
