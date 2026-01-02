@@ -158,6 +158,19 @@
   color: #64748b;
 }
 
+.datetime-field {
+  font-family: 'Roboto', monospace;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.word-count-badge {
+  font-family: 'Roboto', monospace;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #059669;
+}
+
 .no-data {
   text-align: center;
   padding: 40px;

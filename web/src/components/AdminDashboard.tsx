@@ -18,6 +18,7 @@ interface AdminUser {
     provider?: string
   }
   is_admin?: boolean
+  wordsLearned24h?: number
 }
 
 interface AdminStats {
@@ -93,45 +94,51 @@ export default function AdminDashboard() {
     try {
       setLoading(true)
 
-      // 查询用户进度表获取用户列表
-      const { data: progressData, error: progressError } = await supabase
-        .from('user_progress')
-        .select('user_id, updated_at, familiarity')
-
-      if (progressError) {
-        console.error('加载用户失败:', progressError)
-        throw progressError
-      }
-
-      // 获取唯一用户ID列表
-      const uniqueUserIds = [...new Set(progressData?.map(p => p.user_id) || [])]
-
-      // 从 user_profiles 表获取用户信息
+      // 直接从 user_profiles 表获取所有用户
       const { data: profilesData, error: profilesError } = await supabase
         .from('user_profiles')
         .select('user_id, username, email, created_at, role')
-        .in('user_id', uniqueUserIds)
 
       if (profilesError) {
         console.error('加载用户资料失败:', profilesError)
+        throw profilesError
       }
 
-      // 合并数据
-      const adminUsers: AdminUser[] = uniqueUserIds.map(userId => {
-        const profile = profilesData?.find(p => p.user_id === userId)
-        const progress = progressData?.find(p => p.user_id === userId)
+      // 为每个用户获取最新的进度信息
+      const userIds = profilesData?.map(p => p.user_id) || []
+      const { data: progressData } = await supabase
+        .from('user_progress')
+        .select('user_id, updated_at')
+        .in('user_id', userIds)
+
+      // 计算过去24小时的时间
+      const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString()
+
+      // 构建用户数据
+      const adminUsers: AdminUser[] = (profilesData || []).map(profile => {
+        // 获取该用户的最新更新时间
+        const userProgress = progressData
+          ?.filter(p => p.user_id === profile.user_id)
+          .sort((a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime())[0]
+
+        // 计算过去24小时学习的词汇数量
+        const wordsLearned24h = progressData?.filter(p =>
+          p.user_id === profile.user_id && new Date(p.updated_at) >= new Date(oneDayAgo)
+        ).length || 0
+
         return {
-          id: userId,
-          email: profile?.email || 'user@example.com',
-          username: profile?.username,
-          created_at: profile?.created_at || new Date().toISOString(),
-          last_sign_in_at: progress?.updated_at,
-          is_admin: profile?.role === 'admin'
+          id: profile.user_id,
+          email: profile.email || 'user@example.com',
+          username: profile.username,
+          created_at: profile.created_at,
+          last_sign_in_at: userProgress?.updated_at,
+          is_admin: profile.role === 'admin',
+          wordsLearned24h
         }
       })
 
       setUsers(adminUsers)
-      return uniqueUserIds.length // 返回用户数量用于统计
+      return adminUsers.length // 返回用户数量用于统计
     } catch (err) {
       console.error('加载用户失败:', err)
       showMessage('error', '加载用户列表失败')
@@ -148,17 +155,20 @@ export default function AdminDashboard() {
         .from('user_progress')
         .select('*', { count: 'exact', head: true })
 
-      // 统计最近24小时活跃用户
+      // 统计最近24小时活跃用户（唯一用户数）
       const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString()
-      const { count: activeUsersCount } = await supabase
+      const { data: activeUsersData } = await supabase
         .from('user_progress')
-        .select('*', { count: 'exact', head: true })
+        .select('user_id')
         .gt('updated_at', oneDayAgo)
+
+      // 计算唯一活跃用户数
+      const uniqueActiveUsers = new Set(activeUsersData?.map(u => u.user_id) || []).size
 
       setStats({
         totalUsers: userCount,
         totalProgress: totalProgressCount || 0,
-        activeUsers24h: activeUsersCount || 0,
+        activeUsers24h: uniqueActiveUsers,
         recentSignups: 0 // 前端无法获取注册信息
       })
     } catch (err) {
@@ -287,6 +297,7 @@ export default function AdminDashboard() {
                   <th>邮箱</th>
                   <th>创建时间</th>
                   <th>最后活跃</th>
+                  <th>24h学习</th>
                   <th>状态</th>
                   <th>操作</th>
                 </tr>
@@ -294,7 +305,7 @@ export default function AdminDashboard() {
               <tbody>
                 {filteredUsers.length === 0 ? (
                   <tr>
-                    <td colSpan={7} className="no-data">
+                    <td colSpan={8} className="no-data">
                       {searchQuery ? '未找到匹配的用户' : '暂无用户数据'}
                     </td>
                   </tr>
@@ -304,8 +315,9 @@ export default function AdminDashboard() {
                       <td className="user-id">{user.id.substring(0, 8)}...</td>
                       <td>{user.username || '-'}</td>
                       <td>{user.email || '-'}</td>
-                      <td>{formatDate(user.created_at)}</td>
-                      <td>{formatDate(user.last_sign_in_at)}</td>
+                      <td className="datetime-field">{formatDate(user.created_at)}</td>
+                      <td className="datetime-field">{formatDate(user.last_sign_in_at)}</td>
+                      <td className="word-count-badge">{user.wordsLearned24h || 0}</td>
                       <td>
                         {user.is_admin ? (
                           <span className="badge badge-admin">管理员</span>
