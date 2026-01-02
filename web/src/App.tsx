@@ -12,6 +12,7 @@ import UserProfile from './components/UserProfile'
 import ProfilePage from './components/ProfilePage'
 import TestPage from './components/TestPage'
 import WordListPage from './components/WordListPage'
+import AdminDashboard from './components/AdminDashboard'
 import logo from './assets/images/dutch-lex.svg'
 
 // 发音按钮图标组件
@@ -1430,6 +1431,7 @@ function App() {
       <Route path="/en/test" element={<TestRoute />} />
       <Route path="/en/profile" element={<ProfileRoute />} />
       <Route path="/en/wordlist" element={<WordListRoute />} />
+      <Route path="/admin" element={<AdminDashboard />} />
       <Route path="*" element={<Navigate to="/zh/learn" replace />} />
     </Routes>
   )
