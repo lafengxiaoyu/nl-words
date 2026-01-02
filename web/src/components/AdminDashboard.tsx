@@ -81,7 +81,7 @@ export default function AdminDashboard() {
         return
       }
 
-      const userCount = await loadUsers(user.id)
+      const userCount = await loadUsers()
       await loadStats(userCount)
     } catch (err) {
       console.error('检查管理员权限失败:', err)
@@ -89,7 +89,7 @@ export default function AdminDashboard() {
     }
   }
 
-  const loadUsers = async (adminUserId: string) => {
+  const loadUsers = async () => {
     try {
       setLoading(true)
 
