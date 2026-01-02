@@ -1142,7 +1142,7 @@ body {
   color: #374151;
   flex: 1;
   font-weight: 500;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
 .example-zh,
@@ -1151,12 +1151,12 @@ body {
   color: #6b7280;
   word-spacing: -0.02em;
   line-height: 1.6;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
-/* 卡片背面的英文例句需要更亮的颜色 */
+/* 卡片背面的英文例句使用深色 */
 .card-back .example-english {
-  color: rgba(255, 255, 255, 0.95);
+  color: #374151;
 }
 
 /* 单词信息 */
@@ -1624,6 +1624,7 @@ body {
   color: #1e293b;
   font-weight: 600;
   margin-right: 8px;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
 /* 统计详情 */
@@ -1633,6 +1634,7 @@ body {
   background: rgba(0, 0, 0, 0.03);
   border-radius: 8px;
   font-size: 0.9em;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
 .stats-detail > div {
@@ -1690,7 +1692,7 @@ body {
 
 /* Google 字体样式 */
 .google-font-text {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Open Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-weight: 400;
   letter-spacing: -0.02em;
 }
@@ -2334,9 +2336,9 @@ body {
 }
 
 .article-badge.article--de {
-  background: rgba(59, 130, 246, 0.15);
-  color: #3b82f6;
-  border: 1px solid rgba(59, 130, 246, 0.3);
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+  border: 1px solid rgba(34, 197, 94, 0.3);
 }
 
 .article-badge.article--het {
@@ -2365,11 +2367,13 @@ body {
   font-size: 0.95rem;
   color: #374151;
   padding: 6px 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
 .noun-details strong {
   color: #1e293b;
   font-weight: 600;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
 /* 动词详情 */
@@ -2393,6 +2397,7 @@ body {
   background: rgba(245, 158, 11, 0.1);
   border-radius: 8px;
   display: inline-block;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
 .conjugation-table {
@@ -2412,10 +2417,11 @@ body {
   color: #1e293b;
   display: block;
   margin-bottom: 8px;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
 .conjugation-row {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   padding: 4px 0;
   color: #374151;
   font-size: 0.95rem;
@@ -2449,11 +2455,13 @@ body {
   font-size: 0.95rem;
   color: #374151;
   padding: 6px 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
 .adjective-details strong {
   color: #1e293b;
   font-weight: 600;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
 /* 熟悉程度颜色 */
@@ -2622,23 +2630,25 @@ body {
 
 .familiarity-score span:first-child {
   font-size: 0.85rem;
-  color: #6b7280;
+  color: #1f2937;
   font-weight: 500;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
 .score-value {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #667eea;
-  font-family: 'Roboto', 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #1f2937;
+  font-family: 'Open Sans', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   min-width: 30px;
   text-align: center;
 }
 
 .score-total {
   font-size: 0.9rem;
-  color: #9ca3af;
+  color: #1f2937;
   font-weight: 500;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
 @media (max-width: 768px) {

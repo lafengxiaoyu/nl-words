@@ -1217,10 +1217,10 @@ function MainApp() {
               {showDetails && currentWord && (
                 <div className="details-panel">
                   <h3>{t.detailsPanel.title}</h3>
-                  <div className="detail-item"><strong>{t.detailsPanel.dutch}：</strong> <span className="google-font-text">{currentWord.word}</span></div>
+                  <div className="detail-item"><strong>{t.detailsPanel.dutch}：</strong> <span>{currentWord.word}</span></div>
                   <div className="detail-item"><strong>{t.detailsPanel.chinese} ：</strong> {currentWord.translation.chinese}</div>
-                  <div className="detail-item"><strong>{t.detailsPanel.english}：</strong> <span className="google-font-text">{currentWord.translation.english}</span></div>
-                  <div className="detail-item"><strong>{t.detailsPanel.partOfSpeech}：</strong> <span className="google-font-text">{currentWord.partOfSpeech}</span></div>
+                  <div className="detail-item"><strong>{t.detailsPanel.english}：</strong> <span>{currentWord.translation.english}</span></div>
+                  <div className="detail-item"><strong>{t.detailsPanel.partOfSpeech}：</strong> <span>{currentWord.partOfSpeech}</span></div>
                   <div className="detail-item">
                     <strong>{t.detailsPanel.difficulty}：</strong>
                     <span className={`difficulty-badge difficulty--${currentWord.difficulty}`}>{currentWord.difficulty}</span>
@@ -1246,11 +1246,11 @@ function MainApp() {
                     <div className="detail-item noun-info">
                       <strong>{t.detailsPanel.partOfSpeech} {languageMode === 'chinese' ? '详情' : 'Details'}：</strong>
                       <div className="noun-details">
-                        <div><strong>{t.detailsPanel.article}：</strong> <span className={`article-badge article--${currentWord.forms.noun.article} google-font-text`}>{currentWord.forms.noun.article}</span></div>
-                        <div><strong>{t.detailsPanel.singular}：</strong> <span className="google-font-text">{currentWord.forms.noun.singular}</span></div>
-                        <div><strong>{t.detailsPanel.plural}：</strong> <span className="google-font-text">{currentWord.forms.noun.plural}</span></div>
+                        <div><strong>{t.detailsPanel.article}：</strong> <span className={`article-badge article--${currentWord.forms.noun.article}`}>{currentWord.forms.noun.article}</span></div>
+                        <div><strong>{t.detailsPanel.singular}：</strong> <span>{currentWord.forms.noun.singular}</span></div>
+                        <div><strong>{t.detailsPanel.plural}：</strong> <span>{currentWord.forms.noun.plural}</span></div>
                         {currentWord.forms.noun.uncountablePreposition && (
-                          <div><strong>{t.detailsPanel.uncountablePreposition}：</strong> <span className="google-font-text">{currentWord.forms.noun.uncountablePreposition}</span></div>
+                          <div><strong>{t.detailsPanel.uncountablePreposition}：</strong> <span>{currentWord.forms.noun.uncountablePreposition}</span></div>
                         )}
                       </div>
                     </div>
@@ -1264,28 +1264,28 @@ function MainApp() {
                         {currentWord.forms.verb.isSeparable !== undefined && (
                           <div>
                             <strong>{currentWord.forms.verb.isSeparable ? t.detailsPanel.separable : t.detailsPanel.inseparable}</strong>
-                            {currentWord.forms.verb.prefix && <span> ({t.detailsPanel.prefix}: <span className="google-font-text">{currentWord.forms.verb.prefix}</span>)</span>}
+                            {currentWord.forms.verb.prefix && <span> ({t.detailsPanel.prefix}: <span>{currentWord.forms.verb.prefix}</span>)</span>}
                           </div>
                         )}
                         <div><strong>{t.detailsPanel.conjugation} ({t.detailsPanel.partOfSpeech})：</strong></div>
                         <div className="conjugation-table">
                           <div className="conjugation-section">
                             <strong>{languageMode === 'chinese' ? '现在时' : 'Present'}:</strong>
-                            <div className="conjugation-row">ik: <span className="google-font-text">{currentWord.forms.verb.present.ik}</span></div>
-                            <div className="conjugation-row">jij: <span className="google-font-text">{currentWord.forms.verb.present.jij}</span></div>
-                            <div className="conjugation-row">hij/zij: <span className="google-font-text">{currentWord.forms.verb.present.hij}</span></div>
-                            <div className="conjugation-row">wij: <span className="google-font-text">{currentWord.forms.verb.present.wij}</span></div>
-                            <div className="conjugation-row">jullie: <span className="google-font-text">{currentWord.forms.verb.present.jullie}</span></div>
-                            <div className="conjugation-row">zij: <span className="google-font-text">{currentWord.forms.verb.present.zij}</span></div>
+                            <div className="conjugation-row">ik: <span>{currentWord.forms.verb.present.ik}</span></div>
+                            <div className="conjugation-row">jij: <span>{currentWord.forms.verb.present.jij}</span></div>
+                            <div className="conjugation-row">hij/zij: <span>{currentWord.forms.verb.present.hij}</span></div>
+                            <div className="conjugation-row">wij: <span>{currentWord.forms.verb.present.wij}</span></div>
+                            <div className="conjugation-row">jullie: <span>{currentWord.forms.verb.present.jullie}</span></div>
+                            <div className="conjugation-row">zij: <span>{currentWord.forms.verb.present.zij}</span></div>
                           </div>
                           <div className="conjugation-section">
                             <strong>{languageMode === 'chinese' ? '过去时' : 'Past'}:</strong>
-                            <div className="conjugation-row">{languageMode === 'chinese' ? '单数' : 'Singular'}: <span className="google-font-text">{currentWord.forms.verb.past.singular}</span></div>
-                            <div className="conjugation-row">{languageMode === 'chinese' ? '复数' : 'Plural'}: <span className="google-font-text">{currentWord.forms.verb.past.plural}</span></div>
+                            <div className="conjugation-row">{languageMode === 'chinese' ? '单数' : 'Singular'}: <span>{currentWord.forms.verb.past.singular}</span></div>
+                            <div className="conjugation-row">{languageMode === 'chinese' ? '复数' : 'Plural'}: <span>{currentWord.forms.verb.past.plural}</span></div>
                           </div>
                           <div className="conjugation-section">
                             <strong>{languageMode === 'chinese' ? '过去分词' : 'Past Participle'}:</strong>
-                            <div className="conjugation-row"><span className="google-font-text">{currentWord.forms.verb.pastParticiple}</span></div>
+                            <div className="conjugation-row"><span>{currentWord.forms.verb.pastParticiple}</span></div>
                           </div>
                         </div>
                       </div>
@@ -1297,11 +1297,11 @@ function MainApp() {
                     <div className="detail-item adjective-info">
                       <strong>{t.detailsPanel.partOfSpeech} {languageMode === 'chinese' ? '详情' : 'Details'}：</strong>
                       <div className="adjective-details">
-                        <div><strong>{t.detailsPanel.base}：</strong> <span className="google-font-text">{currentWord.forms.adjective.base}</span></div>
-                        <div><strong>{t.detailsPanel.withDe}：</strong> <span className="google-font-text">{currentWord.forms.adjective.withDe}</span></div>
-                        <div><strong>{t.detailsPanel.withHet}：</strong> <span className="google-font-text">{currentWord.forms.adjective.withHet}</span></div>
-                        <div><strong>{t.detailsPanel.comparative}：</strong> <span className="google-font-text">{currentWord.forms.adjective.comparative}</span></div>
-                        <div><strong>{t.detailsPanel.superlative}：</strong> <span className="google-font-text">{currentWord.forms.adjective.superlative}</span></div>
+                        <div><strong>{t.detailsPanel.base}：</strong> <span>{currentWord.forms.adjective.base}</span></div>
+                        <div><strong>{t.detailsPanel.withDe}：</strong> <span>{currentWord.forms.adjective.withDe}</span></div>
+                        <div><strong>{t.detailsPanel.withHet}：</strong> <span>{currentWord.forms.adjective.withHet}</span></div>
+                        <div><strong>{t.detailsPanel.comparative}：</strong> <span>{currentWord.forms.adjective.comparative}</span></div>
+                        <div><strong>{t.detailsPanel.superlative}：</strong> <span>{currentWord.forms.adjective.superlative}</span></div>
                       </div>
                     </div>
                   )}
@@ -1311,7 +1311,7 @@ function MainApp() {
                       <strong>{t.detailsPanel.examples}：</strong>
                       {currentWord.examples.map((example, index) => (
                         <div key={index} className="example-container">
-                          <div className="example-nl google-font-text">{example}</div>
+                          <div className="example-nl">{example}</div>
                           {(() => {
                             if (Array.isArray(currentWord.exampleTranslations)) {
                               const translation = currentWord.exampleTranslations[index]
@@ -1321,7 +1321,7 @@ function MainApp() {
                               const translation = languageMode === 'chinese'
                                 ? translations.chinese?.[index]
                                 : translations.english?.[index]
-                              return translation && <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english google-font-text' : ''}`}>{translation}</div>
+                              return translation && <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english' : ''}`}>{translation}</div>
                             }
                             return null
                           })()}
