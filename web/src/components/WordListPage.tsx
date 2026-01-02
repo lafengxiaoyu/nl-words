@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { Word } from '../data/words'
 import { words } from '../data/words'
+import type { ExampleTranslations } from '../data/types'
 
 import './WordListPage.css'
 
@@ -621,7 +622,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                         const translation = selectedWord.exampleTranslations[index]
                         return translation && <div className="example-zh">{translation}</div>
                       } else if (selectedWord.exampleTranslations) {
-                        const translations = selectedWord.exampleTranslations as any
+                        const translations = selectedWord.exampleTranslations as ExampleTranslations
                         const translation = languageMode === 'chinese'
                           ? translations.chinese?.[index]
                           : translations.english?.[index]
