@@ -420,7 +420,7 @@ function App() {
                         <li>zij: {currentWord.forms.verb.present.zij}</li>
                       </ul>
                       <p><strong>过去时：</strong>{currentWord.forms.verb.past.singular} / {currentWord.forms.verb.past.plural}</p>
-                      <p><strong>过去分词：</strong>{currentWord.forms.verb.pastParticiple}</p>
+                      <p><strong>过去分词：</strong>{currentWord.forms.verb.pastParticiple}{currentWord.forms.verb.pastParticipleAuxiliary && ` (与 ${currentWord.forms.verb.pastParticipleAuxiliary} 连用)`}</p>
                     </div>
                   </div>
                 )}

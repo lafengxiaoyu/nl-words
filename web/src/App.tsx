@@ -1285,7 +1285,9 @@ function MainApp() {
                           </div>
                           <div className="conjugation-section">
                             <strong>{languageMode === 'chinese' ? '过去分词' : 'Past Participle'}:</strong>
-                            <div className="conjugation-row"><span>{currentWord.forms.verb.pastParticiple}</span></div>
+                            <div className="conjugation-row single-line">
+                              <span>{currentWord.forms.verb.pastParticiple}{currentWord.forms.verb.pastParticipleAuxiliary ? ` (${currentWord.forms.verb.pastParticipleAuxiliary})` : ''}</span>
+                            </div>
                           </div>
                         </div>
                       </div>

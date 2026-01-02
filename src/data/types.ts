@@ -33,6 +33,7 @@ export interface VerbConjugation {
     plural: string
   }
   pastParticiple: string
+  pastParticipleAuxiliary?: 'zijn' | 'hebben' // 过去分词搭配的辅助动词
 }
 
 // 形容词变形

@@ -2431,6 +2431,12 @@ body {
   gap: 8px;
 }
 
+.conjugation-row.single-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .conjugation-row:first-of-type {
   font-weight: 600;
   color: #1e293b;

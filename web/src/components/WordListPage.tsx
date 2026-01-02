@@ -268,6 +268,8 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     comparative: languageMode === 'chinese' ? '比较级' : 'Comparative',
     superlative: languageMode === 'chinese' ? '最高级' : 'Superlative',
     uncountablePreposition: languageMode === 'chinese' ? '搭配介词' : 'Preposition',
+    pastParticiple: languageMode === 'chinese' ? '过去分词' : 'Past Participle',
+    pastParticipleAuxiliary: languageMode === 'chinese' ? '辅助动词' : 'Auxiliary',
     examples: languageMode === 'chinese' ? '例句' : 'Examples',
     notes: languageMode === 'chinese' ? '备注' : 'Notes'
   }
@@ -589,7 +591,9 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                     </div>
                     <div className="conjugation-section">
                       <strong>{languageMode === 'chinese' ? '过去分词' : 'Past Participle'}:</strong>
-                      <div className="conjugation-row"><span>{selectedWord.forms.verb.pastParticiple}</span></div>
+                      <div className="conjugation-row single-line">
+                        <span>{selectedWord.forms.verb.pastParticiple}{selectedWord.forms.verb.pastParticipleAuxiliary ? ` (${selectedWord.forms.verb.pastParticipleAuxiliary})` : ''}</span>
+                      </div>
                     </div>
                   </div>
                 </div>
