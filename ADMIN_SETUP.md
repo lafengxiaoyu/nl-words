@@ -33,12 +33,13 @@ cp web/.env.example web/.env
 
 1. 打开你的项目
 2. 进入 SQL Editor
-3. 打开 `supabase/admin_setup.sql` 文件
-4. 运行整个 SQL 脚本
-5. 设置第一个管理员：
+3. 运行 `supabase/user_profiles_setup.sql` 脚本
+4. 设置第一个管理员：
 
 ```sql
-SELECT set_admin_role('your_admin_email@example.com');
+UPDATE user_profiles
+SET role = 'admin'
+WHERE email = 'your_admin_email@example.com';
 ```
 
 ### 3. 访问管理员控制台
@@ -108,35 +109,41 @@ http://localhost:5173/admin
 
 ### 使用数据库角色
 
-运行 `supabase/admin_setup.sql` 后，可以使用数据库角色系统：
+角色信息已合并到 `user_profiles` 表中：
 
 ```sql
 -- 查看用户角色
-SELECT ur.role, au.email, au.created_at
-FROM user_roles ur
-JOIN auth.users au ON ur.user_id = au.id;
+SELECT role, username, email, created_at
+FROM user_profiles;
 
 -- 添加管理员
-SELECT set_admin_role('new_admin@example.com');
+UPDATE user_profiles
+SET role = 'admin'
+WHERE email = 'new_admin@example.com';
 
 -- 移除管理员
-DELETE FROM user_roles WHERE user_id = 'user_id_here';
+UPDATE user_profiles
+SET role = 'user'
+WHERE user_id = 'user_id_here';
+
+-- 查看管理员列表
+SELECT username, email, created_at
+FROM user_profiles
+WHERE role = 'admin';
 ```
 
-### 使用用户进度统计视图
+### 查询用户统计
 
 ```sql
--- 查看所有用户的进度统计
-SELECT * FROM user_progress_stats;
+-- 查看用户数量统计
+SELECT role, COUNT(*) as count
+FROM user_profiles
+GROUP BY role;
 
--- 查看最活跃的用户
-SELECT * FROM user_progress_stats
-ORDER BY last_active DESC
-LIMIT 10;
-
--- 查看掌握单词最多的用户
-SELECT * FROM user_progress_stats
-ORDER BY mastered_words DESC
+-- 查看最近注册的用户
+SELECT username, email, created_at
+FROM user_profiles
+ORDER BY created_at DESC
 LIMIT 10;
 ```
 
@@ -146,7 +153,7 @@ LIMIT 10;
 
 1. 检查环境变量是否正确设置
 2. 确认当前登录邮箱与管理员邮箱匹配
-3. 检查浏览器控制台是否有错误
+3. 检查 `user_profiles` 表中该用户的 `role` 是否为 'admin'
 
 ### 看不到用户列表
 
@@ -165,10 +172,10 @@ LIMIT 10;
 
 ### RLS (Row Level Security)
 
-已为 `user_roles` 表启用 RLS，确保：
-- 任何人都可以读取角色信息
-- 只有管理员可以修改角色
-- 用户无法随意提升自己的权限
+已为 `user_profiles` 表启用 RLS，确保：
+- 任何人都可以读取用户资料
+- 用户可以更新自己的资料（不包括角色）
+- 只有管理员可以更新角色
 
 ### 权限说明
 
@@ -176,8 +183,10 @@ LIMIT 10;
 |------|----------|------------------|
 | 查询用户进度 | ✅ | ✅ |
 | 删除用户进度 | ✅ | ✅ |
-| 查询用户列表 | ❌ | ✅ |
+| 查询用户列表（有进度） | ✅ | ✅ |
+| 查询所有用户 | ❌ | ✅ |
 | 删除用户账户 | ❌ | ✅ |
+| 修改用户资料 | ✅ | ✅ |
 | 修改用户角色 | 仅管理员 | ✅ |
 
 ## 未来改进
