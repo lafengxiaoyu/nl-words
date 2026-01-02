@@ -14,6 +14,13 @@ interface User {
   }
 }
 
+interface UserProfile {
+  username?: string
+  email?: string
+  bio?: string
+  role?: 'admin' | 'user' | 'moderator'
+}
+
 interface ProfilePageProps {
   languageMode: 'chinese' | 'english'
 }
@@ -21,6 +28,7 @@ interface ProfilePageProps {
 export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const navigate = useNavigate()
   const [user, setUser] = useState<User | null>(null)
+  const [userProfile, setUserProfile] = useState<UserProfile | null>(null)
   const initialWords: Word[] = baseWords.map(word => ({
     ...word,
     familiarity: 'new',
@@ -29,7 +37,12 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const [wordList, setWordList] = useState<Word[]>(initialWords)
   const [newPassword, setNewPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
+  const [editingUsername, setEditingUsername] = useState(false)
+  const [usernameInput, setUsernameInput] = useState('')
+  const [editingBio, setEditingBio] = useState(false)
+  const [bioInput, setBioInput] = useState('')
   const [loading, setLoading] = useState(false)
+  const [profileLoading, setProfileLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [message, setMessage] = useState<string | null>(null)
 
@@ -44,6 +57,11 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       accountInfo: '账户信息',
       username: '用户名',
       email: '邮箱',
+      bio: '个人简介',
+      editUsername: '编辑用户名',
+      editBio: '编辑简介',
+      save: '保存',
+      cancel: '取消',
       learningStats: '学习统计',
       totalWords: '总单词数',
       mastered: '已掌握',
@@ -89,6 +107,11 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       accountInfo: 'Account Information',
       username: 'Username',
       email: 'Email',
+      bio: 'Bio',
+      editUsername: 'Edit Username',
+      editBio: 'Edit Bio',
+      save: 'Save',
+      cancel: 'Cancel',
       learningStats: 'Learning Statistics',
       totalWords: 'Total Words',
       mastered: 'Mastered',
@@ -140,6 +163,8 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)
       } else {
         setUser(user)
+        // 加载用户资料
+        await loadUserProfile(user.id)
       }
     }
     getUser()
@@ -171,7 +196,101 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       }))
       setWordList(wordsWithProgress)
     }
-  }, [navigate, languageMode])
+  }, [navigate, languageMode]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const loadUserProfile = async (userId: string) => {
+    try {
+      const { data, error } = await supabase
+        .from('user_profiles')
+        .select('username, email, bio, role')
+        .eq('user_id', userId)
+        .maybeSingle()
+
+      if (error) throw error
+
+      if (data) {
+        setUserProfile(data)
+        setUsernameInput(data.username || '')
+        setBioInput(data.bio || '')
+      } else {
+        // 如果用户资料不存在，创建一个默认的
+        const { data: newUserProfile, error: createError } = await supabase
+          .from('user_profiles')
+          .insert({
+            user_id: userId,
+            username: user?.email?.split('@')[0] || 'user',
+            email: user?.email || ''
+          })
+          .select('username, email, bio, role')
+          .single()
+
+        if (!createError && newUserProfile) {
+          setUserProfile(newUserProfile)
+          setUsernameInput(newUserProfile.username || '')
+          setBioInput(newUserProfile.bio || '')
+        }
+      }
+    } catch (err) {
+      console.error('加载用户资料失败:', err)
+    }
+  }
+
+  const handleUpdateUsername = async () => {
+    if (!user || !usernameInput.trim()) return
+
+    if (usernameInput.length < 2 || usernameInput.length > 20) {
+      setError(languageMode === 'chinese' ? '用户名长度必须在2-20个字符之间' : 'Username must be 2-20 characters')
+      return
+    }
+
+    setProfileLoading(true)
+    setError(null)
+    setMessage(null)
+
+    try {
+      const { error } = await supabase
+        .from('user_profiles')
+        .update({ username: usernameInput.trim() })
+        .eq('user_id', user.id)
+
+      if (error) throw error
+
+      setMessage(languageMode === 'chinese' ? '用户名更新成功' : 'Username updated successfully')
+      setUserProfile(prev => prev ? { ...prev, username: usernameInput.trim() } : null)
+      setEditingUsername(false)
+    } catch (err: unknown) {
+      const error = err as Error
+      setError(`${languageMode === 'chinese' ? '更新失败' : 'Update failed'}: ${error.message}`)
+    } finally {
+      setProfileLoading(false)
+    }
+  }
+
+  const handleUpdateBio = async () => {
+    if (!user) return
+
+    setProfileLoading(true)
+    setError(null)
+    setMessage(null)
+
+    try {
+      const { error } = await supabase
+        .from('user_profiles')
+        .update({ bio: bioInput.trim() || null })
+        .eq('user_id', user.id)
+
+      if (error) throw error
+
+      setMessage(languageMode === 'chinese' ? '简介更新成功' : 'Bio updated successfully')
+      setUserProfile(prev => prev ? { ...prev, bio: bioInput.trim() || undefined } : null)
+      setEditingBio(false)
+    } catch (err: unknown) {
+      const error = err as Error
+      setError(`${languageMode === 'chinese' ? '更新失败' : 'Update failed'}: ${error.message}`)
+    } finally {
+      setProfileLoading(false)
+    }
+  }
 
   // 重置进度
   const resetProgress = async () => {
@@ -266,13 +385,96 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
               <div className="info-grid">
                 <div className="info-item">
                   <label>{text.username}</label>
-                  <div className="info-value">
-                    {user.user_metadata?.name || user.user_metadata?.full_name || user.email?.split('@')[0] || 'N/A'}
+                  <div className="info-value with-edit">
+                    {editingUsername ? (
+                      <div className="edit-input-group">
+                        <input
+                          type="text"
+                          value={usernameInput}
+                          onChange={(e) => setUsernameInput(e.target.value)}
+                          placeholder={text.username}
+                          minLength={2}
+                          maxLength={20}
+                          disabled={profileLoading}
+                        />
+                        <button
+                          className="btn btn-small btn-primary"
+                          onClick={handleUpdateUsername}
+                          disabled={profileLoading}
+                        >
+                          {text.save}
+                        </button>
+                        <button
+                          className="btn btn-small btn-secondary"
+                          onClick={() => {
+                            setEditingUsername(false)
+                            setUsernameInput(userProfile?.username || '')
+                          }}
+                          disabled={profileLoading}
+                        >
+                          {text.cancel}
+                        </button>
+                      </div>
+                    ) : (
+                      <>
+                        {userProfile?.username || user.email?.split('@')[0] || 'N/A'}
+                        <button
+                          className="btn-edit"
+                          onClick={() => setEditingUsername(true)}
+                        >
+                          ✏️
+                        </button>
+                      </>
+                    )}
                   </div>
                 </div>
                 <div className="info-item">
                   <label>{text.email}</label>
                   <div className="info-value">{user.email || 'N/A'}</div>
+                </div>
+                <div className="info-item">
+                  <label>{text.bio}</label>
+                  <div className="info-value with-edit">
+                    {editingBio ? (
+                      <div className="edit-input-group">
+                        <textarea
+                          value={bioInput}
+                          onChange={(e) => setBioInput(e.target.value)}
+                          placeholder={text.bio}
+                          maxLength={200}
+                          disabled={profileLoading}
+                          rows={3}
+                        />
+                        <button
+                          className="btn btn-small btn-primary"
+                          onClick={handleUpdateBio}
+                          disabled={profileLoading}
+                        >
+                          {text.save}
+                        </button>
+                        <button
+                          className="btn btn-small btn-secondary"
+                          onClick={() => {
+                            setEditingBio(false)
+                            setBioInput(userProfile?.bio || '')
+                          }}
+                          disabled={profileLoading}
+                        >
+                          {text.cancel}
+                        </button>
+                      </div>
+                    ) : (
+                      <>
+                        {userProfile?.bio || (languageMode === 'chinese' ? '暂无简介' : 'No bio')}
+                        <button
+                          className="btn-edit"
+                          onClick={() => setEditingBio(true)}
+                        >
+                          ✏️
+                        </button>
+                      </>
+                    )}
+                  </div>
                 </div>
               </div>
             </section>

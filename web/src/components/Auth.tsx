@@ -8,6 +8,7 @@ interface AuthProps {
 
 export default function Auth({ onAuthSuccess }: AuthProps) {
   const [isLogin, setIsLogin] = useState(true)
+  const [username, setUsername] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [loading, setLoading] = useState(false)
@@ -47,11 +48,26 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
         const { data, error } = await supabase.auth.signUp({
           email,
           password,
+          options: {
+            data: {
+              username: username
+            }
+          }
         })
 
         if (error) throw error
 
         if (data.user) {
+          // 数据库触发器会自动创建用户资料，但如果需要立即显示用户名，可以手动更新
+          const { error: profileError } = await supabase
+            .from('user_profiles')
+            .update({ username: username })
+            .eq('user_id', data.user.id)
+
+          if (profileError) {
+            console.error('保存用户信息失败:', profileError)
+          }
+
           setMessage('注册成功！请检查邮箱验证链接（如果启用了邮箱验证）')
           setTimeout(() => {
             setIsLogin(true)
@@ -80,6 +96,23 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
         </p>
 
         <form onSubmit={handleAuth} className="auth-form">
+          {!isLogin && (
+            <div className="form-group">
+              <label htmlFor="username">用户名</label>
+              <input
+                id="username"
+                type="text"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                placeholder="请输入用户名"
+                required
+                minLength={2}
+                maxLength={20}
+                disabled={loading}
+              />
+            </div>
+          )}
+
           <div className="form-group">
             <label htmlFor="email">邮箱</label>
             <input

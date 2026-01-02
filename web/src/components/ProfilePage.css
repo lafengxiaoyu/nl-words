@@ -9,6 +9,56 @@
   overflow-x: hidden;
 }
 
+/* Edit button styles */
+.btn-edit {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 8px;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+  margin-left: 8px;
+}
+
+.btn-edit:hover {
+  opacity: 1;
+}
+
+.info-value.with-edit {
+  display: flex;
+  align-items: center;
+}
+
+.edit-input-group {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.edit-input-group input,
+.edit-input-group textarea {
+  flex: 1;
+  min-width: 150px;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.edit-input-group textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.btn-small {
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
 .profile-page::before {
   content: '';
   position: absolute;

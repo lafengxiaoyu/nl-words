@@ -6,6 +6,7 @@ import './AdminDashboard.css'
 interface AdminUser {
   id: string
   email?: string
+  username?: string
   created_at: string
   last_sign_in_at?: string
   user_metadata?: {
@@ -62,8 +63,15 @@ export default function AdminDashboard() {
         return
       }
 
-      // 检查是否是管理员
+      // 检查是否是管理员（从 user_profiles 表获取）
+      const { data: profile } = await supabase
+        .from('user_profiles')
+        .select('role')
+        .eq('user_id', user.id)
+        .single()
+
       const isAdmin = user.email === ADMIN_EMAIL ||
+                      profile?.role === 'admin' ||
                       user.user_metadata?.role === 'admin' ||
                       user.app_metadata?.role === 'admin'
 
@@ -73,10 +81,8 @@ export default function AdminDashboard() {
         return
       }
 
-      await Promise.all([
-        loadUsers(user.id),
-        loadStats()
-      ])
+      const userCount = await loadUsers(user.id)
+      await loadStats(userCount)
     } catch (err) {
       console.error('检查管理员权限失败:', err)
       setError('加载失败')
@@ -87,8 +93,7 @@ export default function AdminDashboard() {
     try {
       setLoading(true)
 
-      // 使用 Supabase Admin API 需要使用 service role key
-      // 由于前端没有 service role key，我们只能查询用户进度表来获取用户列表
+      // 查询用户进度表获取用户列表
       const { data: progressData, error: progressError } = await supabase
         .from('user_progress')
         .select('user_id, updated_at, familiarity')
@@ -101,28 +106,44 @@ export default function AdminDashboard() {
       // 获取唯一用户ID列表
       const uniqueUserIds = [...new Set(progressData?.map(p => p.user_id) || [])]
 
-      // 注意：由于安全限制，前端无法直接列出所有用户
-      // 这里我们只能显示有学习进度的用户
-      const adminUsers: AdminUser[] = uniqueUserIds.map(userId => ({
-        id: userId,
-        email: 'user@example.com', // 前端无法获取真实邮箱
-        created_at: new Date().toISOString(),
-        last_sign_in_at: progressData?.find(p => p.user_id === userId)?.updated_at,
-        is_admin: userId === adminUserId
-      }))
+      // 从 user_profiles 表获取用户信息
+      const { data: profilesData, error: profilesError } = await supabase
+        .from('user_profiles')
+        .select('user_id, username, email, created_at, role')
+        .in('user_id', uniqueUserIds)
+
+      if (profilesError) {
+        console.error('加载用户资料失败:', profilesError)
+      }
+
+      // 合并数据
+      const adminUsers: AdminUser[] = uniqueUserIds.map(userId => {
+        const profile = profilesData?.find(p => p.user_id === userId)
+        const progress = progressData?.find(p => p.user_id === userId)
+        return {
+          id: userId,
+          email: profile?.email || 'user@example.com',
+          username: profile?.username,
+          created_at: profile?.created_at || new Date().toISOString(),
+          last_sign_in_at: progress?.updated_at,
+          is_admin: profile?.role === 'admin'
+        }
+      })
 
       setUsers(adminUsers)
+      return uniqueUserIds.length // 返回用户数量用于统计
     } catch (err) {
       console.error('加载用户失败:', err)
       showMessage('error', '加载用户列表失败')
+      return 0
     } finally {
       setLoading(false)
     }
   }
 
-  const loadStats = async () => {
+  const loadStats = async (userCount: number = 0) => {
     try {
-      // 统计总用户数（通过 user_progress 表）
+      // 统计总学习记录数
       const { count: totalProgressCount } = await supabase
         .from('user_progress')
         .select('*', { count: 'exact', head: true })
@@ -135,7 +156,7 @@ export default function AdminDashboard() {
         .gt('updated_at', oneDayAgo)
 
       setStats({
-        totalUsers: totalProgressCount || 0,
+        totalUsers: userCount,
         totalProgress: totalProgressCount || 0,
         activeUsers24h: activeUsersCount || 0,
         recentSignups: 0 // 前端无法获取注册信息
@@ -185,7 +206,8 @@ export default function AdminDashboard() {
 
   const filteredUsers = users.filter(user =>
     user.id.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    user.email?.toLowerCase().includes(searchQuery.toLowerCase())
+    user.email?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    user.username?.toLowerCase().includes(searchQuery.toLowerCase())
   )
 
   const formatDate = (dateString?: string) => {
@@ -261,6 +283,7 @@ export default function AdminDashboard() {
               <thead>
                 <tr>
                   <th>用户ID</th>
+                  <th>用户名</th>
                   <th>邮箱</th>
                   <th>创建时间</th>
                   <th>最后活跃</th>
@@ -271,7 +294,7 @@ export default function AdminDashboard() {
               <tbody>
                 {filteredUsers.length === 0 ? (
                   <tr>
-                    <td colSpan={6} className="no-data">
+                    <td colSpan={7} className="no-data">
                       {searchQuery ? '未找到匹配的用户' : '暂无用户数据'}
                     </td>
                   </tr>
@@ -279,6 +302,7 @@ export default function AdminDashboard() {
                   filteredUsers.map(user => (
                     <tr key={user.id}>
                       <td className="user-id">{user.id.substring(0, 8)}...</td>
+                      <td>{user.username || '-'}</td>
                       <td>{user.email || '-'}</td>
                       <td>{formatDate(user.created_at)}</td>
                       <td>{formatDate(user.last_sign_in_at)}</td>
