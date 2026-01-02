@@ -158,6 +158,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedPartOfSpeech, setSelectedPartOfSpeech] = useState<string>('all')
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all')
+  const [selectedWord, setSelectedWord] = useState<Word | null>(null)
 
 
 
@@ -243,6 +244,31 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       pageInfo: (current: number, total: number, start: number, end: number, totalItems: number) => 
         `Page ${current} ${total > 1 ? `of ${total}` : ''} (showing ${start + 1}-${end} of ${totalItems} items)`
     }
+  }
+
+  const detailsPanel = {
+    title: languageMode === 'chinese' ? '单词详情' : 'Word Details',
+    dutch: languageMode === 'chinese' ? '荷兰语' : 'Dutch',
+    chinese: languageMode === 'chinese' ? '中文' : 'Chinese',
+    english: languageMode === 'chinese' ? '英文' : 'English',
+    partOfSpeech: languageMode === 'chinese' ? '词性' : 'Part of Speech',
+    difficulty: languageMode === 'chinese' ? '难度' : 'Difficulty',
+    details: languageMode === 'chinese' ? '详情' : 'Details',
+    article: languageMode === 'chinese' ? '冠词' : 'Article',
+    singular: languageMode === 'chinese' ? '单数' : 'Singular',
+    plural: languageMode === 'chinese' ? '复数' : 'Plural',
+    separable: languageMode === 'chinese' ? '可分动词' : 'Separable',
+    inseparable: languageMode === 'chinese' ? '不可分动词' : 'Inseparable',
+    prefix: languageMode === 'chinese' ? '前缀' : 'Prefix',
+    conjugation: languageMode === 'chinese' ? '变位' : 'Conjugation',
+    base: languageMode === 'chinese' ? '原形' : 'Base',
+    withDe: languageMode === 'chinese' ? '与de连用' : 'With de',
+    withHet: languageMode === 'chinese' ? '与het连用' : 'With het',
+    comparative: languageMode === 'chinese' ? '比较级' : 'Comparative',
+    superlative: languageMode === 'chinese' ? '最高级' : 'Superlative',
+    uncountablePreposition: languageMode === 'chinese' ? '搭配介词' : 'Preposition',
+    examples: languageMode === 'chinese' ? '例句' : 'Examples',
+    notes: languageMode === 'chinese' ? '备注' : 'Notes'
   }
 
   const t = translations[languageMode] as any // eslint-disable-line @typescript-eslint/no-explicit-any
@@ -442,7 +468,11 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                 </thead>
                 <tbody>
                   {currentPageWords.map(word => (
-                    <tr key={word.id} className="word-row">
+                    <tr
+                      key={word.id}
+                      className={`word-row ${selectedWord?.id === word.id ? 'word-row--selected' : ''}`}
+                      onClick={() => setSelectedWord(selectedWord?.id === word.id ? null : word)}
+                    >
                       <td className="word-col">
                         <span className="word-dutch">{word.word}</span>
                       </td>
@@ -497,6 +527,120 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
           )}
         </div>
       </div>
+
+      {/* 单词详情面板 */}
+      {selectedWord && (
+        <div className="word-details-overlay" onClick={() => setSelectedWord(null)}>
+          <div className="word-details-panel" onClick={(e) => e.stopPropagation()}>
+            <h3>{detailsPanel.title}</h3>
+            <button className="close-details-btn" onClick={() => setSelectedWord(null)}>×</button>
+
+            <div className="detail-item"><strong>{detailsPanel.dutch}：</strong> <span>{selectedWord.word}</span></div>
+            <div className="detail-item"><strong>{detailsPanel.chinese}：</strong> {selectedWord.translation.chinese}</div>
+            <div className="detail-item"><strong>{detailsPanel.english}：</strong> <span>{selectedWord.translation.english}</span></div>
+            <div className="detail-item"><strong>{detailsPanel.partOfSpeech}：</strong> <span>{getTranslation(selectedWord.partOfSpeech)}</span></div>
+            <div className="detail-item">
+              <strong>{detailsPanel.difficulty}：</strong>
+              <span className={`difficulty-tag difficulty--${selectedWord.difficulty}`}>{selectedWord.difficulty}</span>
+            </div>
+
+            {/* 名词信息 */}
+            {selectedWord.partOfSpeech === 'noun' && selectedWord.forms?.noun && (
+              <div className="detail-item noun-info">
+                <strong>{detailsPanel.partOfSpeech} {detailsPanel.details}：</strong>
+                <div className="noun-details">
+                  <div><strong>{detailsPanel.article}：</strong> <span className={`article-badge article--${selectedWord.forms.noun.article}`}>{selectedWord.forms.noun.article}</span></div>
+                  <div><strong>{detailsPanel.singular}：</strong> <span>{selectedWord.forms.noun.singular}</span></div>
+                  <div><strong>{detailsPanel.plural}：</strong> <span>{selectedWord.forms.noun.plural}</span></div>
+                  {selectedWord.forms.noun.uncountablePreposition && (
+                    <div><strong>{detailsPanel.uncountablePreposition}：</strong> <span>{selectedWord.forms.noun.uncountablePreposition}</span></div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* 动词信息 */}
+            {selectedWord.partOfSpeech === 'verb' && selectedWord.forms?.verb && (
+              <div className="detail-item verb-info">
+                <strong>{detailsPanel.partOfSpeech} {detailsPanel.details}：</strong>
+                <div className="verb-details">
+                  {selectedWord.forms.verb.isSeparable !== undefined && (
+                    <div>
+                      <strong>{selectedWord.forms.verb.isSeparable ? detailsPanel.separable : detailsPanel.inseparable}</strong>
+                      {selectedWord.forms.verb.prefix && <span> ({detailsPanel.prefix}: <span>{selectedWord.forms.verb.prefix}</span>)</span>}
+                    </div>
+                  )}
+                  <div><strong>{detailsPanel.conjugation} ({detailsPanel.partOfSpeech})：</strong></div>
+                  <div className="conjugation-table">
+                    <div className="conjugation-section">
+                      <strong>{languageMode === 'chinese' ? '现在时' : 'Present'}:</strong>
+                      <div className="conjugation-row">ik: <span>{selectedWord.forms.verb.present.ik}</span></div>
+                      <div className="conjugation-row">jij: <span>{selectedWord.forms.verb.present.jij}</span></div>
+                      <div className="conjugation-row">hij/zij: <span>{selectedWord.forms.verb.present.hij}</span></div>
+                      <div className="conjugation-row">wij: <span>{selectedWord.forms.verb.present.wij}</span></div>
+                      <div className="conjugation-row">jullie: <span>{selectedWord.forms.verb.present.jullie}</span></div>
+                      <div className="conjugation-row">zij: <span>{selectedWord.forms.verb.present.zij}</span></div>
+                    </div>
+                    <div className="conjugation-section">
+                      <strong>{languageMode === 'chinese' ? '过去时' : 'Past'}:</strong>
+                      <div className="conjugation-row">{languageMode === 'chinese' ? '单数' : 'Singular'}: <span>{selectedWord.forms.verb.past.singular}</span></div>
+                      <div className="conjugation-row">{languageMode === 'chinese' ? '复数' : 'Plural'}: <span>{selectedWord.forms.verb.past.plural}</span></div>
+                    </div>
+                    <div className="conjugation-section">
+                      <strong>{languageMode === 'chinese' ? '过去分词' : 'Past Participle'}:</strong>
+                      <div className="conjugation-row"><span>{selectedWord.forms.verb.pastParticiple}</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* 形容词信息 */}
+            {selectedWord.partOfSpeech === 'adjective' && selectedWord.forms?.adjective && (
+              <div className="detail-item adjective-info">
+                <strong>{detailsPanel.partOfSpeech} {detailsPanel.details}：</strong>
+                <div className="adjective-details">
+                  <div><strong>{detailsPanel.base}：</strong> <span>{selectedWord.forms.adjective.base}</span></div>
+                  <div><strong>{detailsPanel.withDe}：</strong> <span>{selectedWord.forms.adjective.withDe}</span></div>
+                  <div><strong>{detailsPanel.withHet}：</strong> <span>{selectedWord.forms.adjective.withHet}</span></div>
+                  <div><strong>{detailsPanel.comparative}：</strong> <span>{selectedWord.forms.adjective.comparative}</span></div>
+                  <div><strong>{detailsPanel.superlative}：</strong> <span>{selectedWord.forms.adjective.superlative}</span></div>
+                </div>
+              </div>
+            )}
+
+            {/* 例句 */}
+            {selectedWord.examples && selectedWord.examples.length > 0 && (
+              <div className="detail-item">
+                <strong>{detailsPanel.examples}：</strong>
+                {selectedWord.examples.map((example, index) => (
+                  <div key={index} className="example-container">
+                    <div className="example-nl">{example}</div>
+                    {(() => {
+                      if (Array.isArray(selectedWord.exampleTranslations)) {
+                        const translation = selectedWord.exampleTranslations[index]
+                        return translation && <div className="example-zh">{translation}</div>
+                      } else if (selectedWord.exampleTranslations) {
+                        const translations = selectedWord.exampleTranslations as any
+                        const translation = languageMode === 'chinese'
+                          ? translations.chinese?.[index]
+                          : translations.english?.[index]
+                        return translation && <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english' : ''}`}>{translation}</div>
+                      }
+                      return null
+                    })()}
+                  </div>
+                ))}
+              </div>
+            )}
+            {selectedWord.notes && (
+              <div className="detail-item">
+                <strong>{detailsPanel.notes}：</strong> <span>{selectedWord.notes}</span>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
