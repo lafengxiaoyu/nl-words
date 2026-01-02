@@ -46,9 +46,48 @@
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
-  margin-bottom: 20px;
   transition: all 0.3s ease;
-  font-family: 'Roboto', 'Google Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.page-header .back-btn {
+  margin-bottom: 0;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.lang-toggle-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.3s ease;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.lang-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.lang-toggle-btn .lang-text {
+  font-weight: 600;
+}
+
+.lang-toggle-btn .globe-icon {
+  width: 18px;
+  height: 18px;
 }
 
 .back-btn:hover {
@@ -593,15 +632,17 @@
 
   /* 分页控制响应式 */
   .pagination-controls-top {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
     padding: 12px;
+    flex-wrap: wrap;
   }
 
   .pagination-info {
     text-align: center;
     font-size: 0.95rem;
+    flex: 1;
   }
 
   .items-per-page-selector {
@@ -689,16 +730,20 @@
   /* 分页控制超小屏幕响应式 */
   .pagination-controls-top {
     padding: 10px;
-    gap: 10px;
+    gap: 8px;
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .pagination-info {
     font-size: 0.9rem;
+    text-align: center;
   }
 
   .items-per-page-selector {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 8px;
   }
 

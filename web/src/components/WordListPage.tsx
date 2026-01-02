@@ -9,6 +9,37 @@ interface WordListPageProps {
   languageMode: 'chinese' | 'english'
 }
 
+// 地球图标组件
+const GlobeIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="globe-icon">
+      <circle
+        cx="12"
+        cy="12"
+        r="10"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M2 12H22"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 2C12 2 15 8 15 12C15 16 12 22 12 22"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
 // 自定义下拉菜单组件
 function CustomSelect({
   value,
@@ -276,10 +307,21 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   return (
     <div className="word-list-page">
       <div className="word-list-container">
-        <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
-          {t.backToLearn}
-        </button>
-        
+        <div className="page-header">
+          <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
+            {t.backToLearn}
+          </button>
+          <button
+            className="lang-toggle-btn"
+            onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/wordlist`)}
+            aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+            title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+          >
+            <GlobeIcon />
+            <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
+          </button>
+        </div>
+
         <div className="word-list-header">
           <h1>{t.title}</h1>
           <p className="word-count">{t.totalWords(filteredWords.length)}</p>

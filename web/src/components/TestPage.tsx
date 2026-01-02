@@ -23,6 +23,37 @@ const SpeakerIcon = ({ isSpeaking }: { isSpeaking: boolean }) => {
   )
 }
 
+// 地球图标组件
+const GlobeIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="globe-icon">
+      <circle
+        cx="12"
+        cy="12"
+        r="10"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M2 12H22"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 2C12 2 15 8 15 12C15 16 12 22 12 22"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
 export default function TestPage({ languageMode }: TestPageProps) {
   const navigate = useNavigate()
   const [user, setUser] = useState<User | null>(null)
@@ -318,9 +349,20 @@ export default function TestPage({ languageMode }: TestPageProps) {
     return (
       <div className="test-page">
         <div className="test-container">
-          <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
-            {t.backToLearn}
-          </button>
+          <div className="page-header">
+            <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
+              {t.backToLearn}
+            </button>
+            <button
+              className="lang-toggle-btn"
+              onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/test`)}
+              aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+              title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+            >
+              <GlobeIcon />
+              <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
+            </button>
+          </div>
           <div className="test-intro">
             <h1>{t.title}</h1>
 
@@ -394,9 +436,20 @@ export default function TestPage({ languageMode }: TestPageProps) {
     return (
       <div className="test-page">
         <div className="test-container">
-          <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
-            {t.backToLearn}
-          </button>
+          <div className="page-header">
+            <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
+              {t.backToLearn}
+            </button>
+            <button
+              className="lang-toggle-btn"
+              onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/test`)}
+              aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+              title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+            >
+              <GlobeIcon />
+              <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
+            </button>
+          </div>
           <div className="test-complete">
             <h1>{t.testComplete}</h1>
             <div className="test-info">
@@ -438,10 +491,22 @@ export default function TestPage({ languageMode }: TestPageProps) {
   return (
     <div className="test-page">
       <div className="test-container">
-        <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
-          {t.backToLearn}
-        </button>
-        
+        <div className="page-header">
+          <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
+            {t.backToLearn}
+          </button>
+
+          <button
+            className="lang-toggle-btn"
+            onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/test`)}
+            aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+            title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+          >
+            <GlobeIcon />
+            <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
+          </button>
+        </div>
+
         <div className="test-progress">
           <span>{currentIndex + 1} / {testWords.length}</span>
         </div>
