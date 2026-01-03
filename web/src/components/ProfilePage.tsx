@@ -48,6 +48,34 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const [error, setError] = useState<string | null>(null)
   const [message, setMessage] = useState<string | null>(null)
 
+  // 头像列表
+  const avatarOptions = [
+    { id: '1', emoji: '👨', name: 'Man' },
+    { id: '2', emoji: '👩', name: 'Woman' },
+    { id: '3', emoji: '🧑', name: 'Person' },
+    { id: '4', emoji: '👦', name: 'Boy' },
+    { id: '5', emoji: '👧', name: 'Girl' },
+    { id: '6', emoji: '🧓', name: 'Old Man' },
+    { id: '7', emoji: '👴', name: 'Grandpa' },
+    { id: '8', emoji: '👵', name: 'Grandma' },
+    { id: '9', emoji: '👮', name: 'Police' },
+    { id: '10', emoji: '👩‍💻', name: 'Developer' },
+    { id: '11', emoji: '🧑‍🎓', name: 'Student' },
+    { id: '12', emoji: '👩‍🏫', name: 'Teacher' },
+    { id: '13', emoji: '👨‍⚕️', name: 'Doctor' },
+    { id: '14', emoji: '🧑‍🎨', name: 'Artist' },
+    { id: '15', emoji: '👨‍🍳', name: 'Chef' },
+    { id: '16', emoji: '🧑‍🚀', name: 'Astronaut' },
+    { id: '17', emoji: '🦊', name: 'Fox' },
+    { id: '18', emoji: '🐱', name: 'Cat' },
+    { id: '19', emoji: '🐶', name: 'Dog' },
+    { id: '20', emoji: '🐼', name: 'Panda' },
+    { id: '21', emoji: '🦉', name: 'Owl' },
+    { id: '22', emoji: '🦋', name: 'Butterfly' },
+    { id: '23', emoji: '🌸', name: 'Flower' },
+    { id: '24', emoji: '🌟', name: 'Star' },
+  ]
+
   // 计算学习统计
   const masteredCount = wordList.filter(w => w.familiarity === 'mastered').length
   const totalCount = wordList.length
@@ -323,34 +351,6 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       setProfileLoading(false)
     }
   }
-
-  // 头像列表
-  const avatarOptions = [
-    { id: '1', emoji: '👨', name: 'Man' },
-    { id: '2', emoji: '👩', name: 'Woman' },
-    { id: '3', emoji: '🧑', name: 'Person' },
-    { id: '4', emoji: '👦', name: 'Boy' },
-    { id: '5', emoji: '👧', name: 'Girl' },
-    { id: '6', emoji: '🧓', name: 'Old Man' },
-    { id: '7', emoji: '👴', name: 'Grandpa' },
-    { id: '8', emoji: '👵', name: 'Grandma' },
-    { id: '9', emoji: '👮', name: 'Police' },
-    { id: '10', emoji: '👩‍💻', name: 'Developer' },
-    { id: '11', emoji: '🧑‍🎓', name: 'Student' },
-    { id: '12', emoji: '👩‍🏫', name: 'Teacher' },
-    { id: '13', emoji: '👨‍⚕️', name: 'Doctor' },
-    { id: '14', emoji: '🧑‍🎨', name: 'Artist' },
-    { id: '15', emoji: '👨‍🍳', name: 'Chef' },
-    { id: '16', emoji: '🧑‍🚀', name: 'Astronaut' },
-    { id: '17', emoji: '🦊', name: 'Fox' },
-    { id: '18', emoji: '🐱', name: 'Cat' },
-    { id: '19', emoji: '🐶', name: 'Dog' },
-    { id: '20', emoji: '🐼', name: 'Panda' },
-    { id: '21', emoji: '🦉', name: 'Owl' },
-    { id: '22', emoji: '🦋', name: 'Butterfly' },
-    { id: '23', emoji: '🌸', name: 'Flower' },
-    { id: '24', emoji: '🌟', name: 'Star' },
-  ]
 
   // 重置进度
   const resetProgress = async () => {
