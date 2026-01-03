@@ -321,7 +321,8 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
           .insert({
             user_id: userId,
             username: user?.email?.split('@')[0] || 'user',
-            email: user?.email || ''
+            email: user?.email || '',
+            avatar_url: '/avatars/default-avatar.svg'
           })
           .select('username, email, bio, role, avatar_url')
           .single()
