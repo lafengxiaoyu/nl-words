@@ -48,87 +48,104 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const [error, setError] = useState<string | null>(null)
   const [message, setMessage] = useState<string | null>(null)
 
+  // 获取基础路径（兼容 Vite base path）
+  const getBasePath = () => {
+    return import.meta.env.BASE_URL || '/'
+  }
+
+  // 生成头像路径的辅助函数
+  const getAvatarPath = (path: string) => {
+    const base = getBasePath()
+    const basePath = base.endsWith('/') ? base.slice(0, -1) : base
+    return `${basePath}${path}`
+  }
+
   // 头像列表 - SVG 图标
   const avatarOptions = [
+    // 默认头像（放在第一位）
+    { id: '0', svgPath: getAvatarPath('/avatars/default-avatar.svg'), name: languageMode === 'chinese' ? '默认头像' : 'Default Avatar' },
     // 男性头像
-    { id: '1', svgPath: '/avatars/man_avatars/01.svg', name: 'Man 1' },
-    { id: '2', svgPath: '/avatars/man_avatars/02.svg', name: 'Man 2' },
-    { id: '3', svgPath: '/avatars/man_avatars/03.svg', name: 'Man 3' },
-    { id: '4', svgPath: '/avatars/man_avatars/04.svg', name: 'Man 4' },
-    { id: '5', svgPath: '/avatars/man_avatars/05.svg', name: 'Man 5' },
-    { id: '6', svgPath: '/avatars/man_avatars/06.svg', name: 'Man 6' },
-    { id: '7', svgPath: '/avatars/man_avatars/07.svg', name: 'Man 7' },
-    { id: '8', svgPath: '/avatars/man_avatars/08.svg', name: 'Man 8' },
-    { id: '9', svgPath: '/avatars/man_avatars/09.svg', name: 'Man 9' },
-    { id: '10', svgPath: '/avatars/man_avatars/10.svg', name: 'Man 10' },
-    { id: '11', svgPath: '/avatars/man_avatars/11.svg', name: 'Man 11' },
-    { id: '12', svgPath: '/avatars/man_avatars/12.svg', name: 'Man 12' },
-    { id: '13', svgPath: '/avatars/man_avatars/13.svg', name: 'Man 13' },
-    { id: '14', svgPath: '/avatars/man_avatars/14.svg', name: 'Man 14' },
-    { id: '15', svgPath: '/avatars/man_avatars/15.svg', name: 'Man 15' },
-    { id: '16', svgPath: '/avatars/man_avatars/16.svg', name: 'Man 16' },
-    { id: '17', svgPath: '/avatars/man_avatars/17.svg', name: 'Man 17' },
-    { id: '18', svgPath: '/avatars/man_avatars/18.svg', name: 'Man 18' },
-    { id: '19', svgPath: '/avatars/man_avatars/19.svg', name: 'Man 19' },
-    { id: '20', svgPath: '/avatars/man_avatars/20.svg', name: 'Man 20' },
-    { id: '21', svgPath: '/avatars/man_avatars/21.svg', name: 'Man 21' },
-    { id: '22', svgPath: '/avatars/man_avatars/22.svg', name: 'Man 22' },
-    { id: '23', svgPath: '/avatars/man_avatars/23.svg', name: 'Man 23' },
-    { id: '24', svgPath: '/avatars/man_avatars/24.svg', name: 'Man 24' },
-    { id: '25', svgPath: '/avatars/man_avatars/25.svg', name: 'Man 25' },
-    { id: '26', svgPath: '/avatars/man_avatars/26.svg', name: 'Man 26' },
-    { id: '27', svgPath: '/avatars/man_avatars/27.svg', name: 'Man 27' },
-    { id: '28', svgPath: '/avatars/man_avatars/28.svg', name: 'Man 28' },
-    { id: '29', svgPath: '/avatars/man_avatars/29.svg', name: 'Man 29' },
-    { id: '30', svgPath: '/avatars/man_avatars/30.svg', name: 'Man 30' },
-    { id: '31', svgPath: '/avatars/man_avatars/31.svg', name: 'Man 31' },
-    { id: '32', svgPath: '/avatars/man_avatars/32.svg', name: 'Man 32' },
-    { id: '33', svgPath: '/avatars/man_avatars/33.svg', name: 'Man 33' },
-    { id: '34', svgPath: '/avatars/man_avatars/34.svg', name: 'Man 34' },
-    { id: '35', svgPath: '/avatars/man_avatars/35.svg', name: 'Man 35' },
-    { id: '36', svgPath: '/avatars/man_avatars/36.svg', name: 'Man 36' },
+    { id: '1', svgPath: getAvatarPath('/avatars/man_avatars/01.svg'), name: 'Man 1' },
+    { id: '2', svgPath: getAvatarPath('/avatars/man_avatars/02.svg'), name: 'Man 2' },
+    { id: '3', svgPath: getAvatarPath('/avatars/man_avatars/03.svg'), name: 'Man 3' },
+    { id: '4', svgPath: getAvatarPath('/avatars/man_avatars/04.svg'), name: 'Man 4' },
+    { id: '5', svgPath: getAvatarPath('/avatars/man_avatars/05.svg'), name: 'Man 5' },
+    { id: '6', svgPath: getAvatarPath('/avatars/man_avatars/06.svg'), name: 'Man 6' },
+    { id: '7', svgPath: getAvatarPath('/avatars/man_avatars/07.svg'), name: 'Man 7' },
+    { id: '8', svgPath: getAvatarPath('/avatars/man_avatars/08.svg'), name: 'Man 8' },
+    { id: '9', svgPath: getAvatarPath('/avatars/man_avatars/09.svg'), name: 'Man 9' },
+    { id: '10', svgPath: getAvatarPath('/avatars/man_avatars/10.svg'), name: 'Man 10' },
+    { id: '11', svgPath: getAvatarPath('/avatars/man_avatars/11.svg'), name: 'Man 11' },
+    { id: '12', svgPath: getAvatarPath('/avatars/man_avatars/12.svg'), name: 'Man 12' },
+    { id: '13', svgPath: getAvatarPath('/avatars/man_avatars/13.svg'), name: 'Man 13' },
+    { id: '14', svgPath: getAvatarPath('/avatars/man_avatars/14.svg'), name: 'Man 14' },
+    { id: '15', svgPath: getAvatarPath('/avatars/man_avatars/15.svg'), name: 'Man 15' },
+    { id: '16', svgPath: getAvatarPath('/avatars/man_avatars/16.svg'), name: 'Man 16' },
+    { id: '17', svgPath: getAvatarPath('/avatars/man_avatars/17.svg'), name: 'Man 17' },
+    { id: '18', svgPath: getAvatarPath('/avatars/man_avatars/18.svg'), name: 'Man 18' },
+    { id: '19', svgPath: getAvatarPath('/avatars/man_avatars/19.svg'), name: 'Man 19' },
+    { id: '20', svgPath: getAvatarPath('/avatars/man_avatars/20.svg'), name: 'Man 20' },
+    { id: '21', svgPath: getAvatarPath('/avatars/man_avatars/21.svg'), name: 'Man 21' },
+    { id: '22', svgPath: getAvatarPath('/avatars/man_avatars/22.svg'), name: 'Man 22' },
+    { id: '23', svgPath: getAvatarPath('/avatars/man_avatars/23.svg'), name: 'Man 23' },
+    { id: '24', svgPath: getAvatarPath('/avatars/man_avatars/24.svg'), name: 'Man 24' },
+    { id: '25', svgPath: getAvatarPath('/avatars/man_avatars/25.svg'), name: 'Man 25' },
+    { id: '26', svgPath: getAvatarPath('/avatars/man_avatars/26.svg'), name: 'Man 26' },
+    { id: '27', svgPath: getAvatarPath('/avatars/man_avatars/27.svg'), name: 'Man 27' },
+    { id: '28', svgPath: getAvatarPath('/avatars/man_avatars/28.svg'), name: 'Man 28' },
+    { id: '29', svgPath: getAvatarPath('/avatars/man_avatars/29.svg'), name: 'Man 29' },
+    { id: '30', svgPath: getAvatarPath('/avatars/man_avatars/30.svg'), name: 'Man 30' },
+    { id: '31', svgPath: getAvatarPath('/avatars/man_avatars/31.svg'), name: 'Man 31' },
+    { id: '32', svgPath: getAvatarPath('/avatars/man_avatars/32.svg'), name: 'Man 32' },
+    { id: '33', svgPath: getAvatarPath('/avatars/man_avatars/33.svg'), name: 'Man 33' },
+    { id: '34', svgPath: getAvatarPath('/avatars/man_avatars/34.svg'), name: 'Man 34' },
+    { id: '35', svgPath: getAvatarPath('/avatars/man_avatars/35.svg'), name: 'Man 35' },
+    { id: '36', svgPath: getAvatarPath('/avatars/man_avatars/36.svg'), name: 'Man 36' },
     // 女性头像
-    { id: '37', svgPath: '/avatars/women_avatars/01.svg', name: 'Woman 1' },
-    { id: '38', svgPath: '/avatars/women_avatars/02.svg', name: 'Woman 2' },
-    { id: '39', svgPath: '/avatars/women_avatars/03.svg', name: 'Woman 3' },
-    { id: '40', svgPath: '/avatars/women_avatars/04.svg', name: 'Woman 4' },
-    { id: '41', svgPath: '/avatars/women_avatars/05.svg', name: 'Woman 5' },
-    { id: '42', svgPath: '/avatars/women_avatars/06.svg', name: 'Woman 6' },
-    { id: '43', svgPath: '/avatars/women_avatars/07.svg', name: 'Woman 7' },
-    { id: '44', svgPath: '/avatars/women_avatars/08.svg', name: 'Woman 8' },
-    { id: '45', svgPath: '/avatars/women_avatars/09.svg', name: 'Woman 9' },
-    { id: '46', svgPath: '/avatars/women_avatars/10.svg', name: 'Woman 10' },
-    { id: '47', svgPath: '/avatars/women_avatars/11.svg', name: 'Woman 11' },
-    { id: '48', svgPath: '/avatars/women_avatars/12.svg', name: 'Woman 12' },
-    { id: '49', svgPath: '/avatars/women_avatars/13.svg', name: 'Woman 13' },
-    { id: '50', svgPath: '/avatars/women_avatars/14.svg', name: 'Woman 14' },
-    { id: '51', svgPath: '/avatars/women_avatars/15.svg', name: 'Woman 15' },
-    { id: '52', svgPath: '/avatars/women_avatars/16.svg', name: 'Woman 16' },
-    { id: '53', svgPath: '/avatars/women_avatars/17.svg', name: 'Woman 17' },
-    { id: '54', svgPath: '/avatars/women_avatars/18.svg', name: 'Woman 18' },
-    { id: '55', svgPath: '/avatars/women_avatars/19.svg', name: 'Woman 19' },
-    { id: '56', svgPath: '/avatars/women_avatars/20.svg', name: 'Woman 20' },
-    { id: '57', svgPath: '/avatars/women_avatars/21.svg', name: 'Woman 21' },
-    { id: '58', svgPath: '/avatars/women_avatars/22.svg', name: 'Woman 22' },
-    { id: '59', svgPath: '/avatars/women_avatars/23.svg', name: 'Woman 23' },
-    { id: '60', svgPath: '/avatars/women_avatars/24.svg', name: 'Woman 24' },
-    { id: '61', svgPath: '/avatars/women_avatars/25.svg', name: 'Woman 25' },
-    { id: '62', svgPath: '/avatars/women_avatars/26.svg', name: 'Woman 26' },
-    { id: '63', svgPath: '/avatars/women_avatars/27.svg', name: 'Woman 27' },
-    { id: '64', svgPath: '/avatars/women_avatars/28.svg', name: 'Woman 28' },
-    { id: '65', svgPath: '/avatars/women_avatars/29.svg', name: 'Woman 29' },
-    { id: '66', svgPath: '/avatars/women_avatars/30.svg', name: 'Woman 30' },
-    { id: '67', svgPath: '/avatars/women_avatars/31.svg', name: 'Woman 31' },
-    { id: '68', svgPath: '/avatars/women_avatars/32.svg', name: 'Woman 32' },
-    { id: '69', svgPath: '/avatars/women_avatars/33.svg', name: 'Woman 33' },
-    { id: '70', svgPath: '/avatars/women_avatars/34.svg', name: 'Woman 34' },
-    { id: '71', svgPath: '/avatars/women_avatars/35.svg', name: 'Woman 35' },
-    { id: '72', svgPath: '/avatars/women_avatars/36.svg', name: 'Woman 36' },
+    { id: '37', svgPath: getAvatarPath('/avatars/women_avatars/01.svg'), name: 'Woman 1' },
+    { id: '38', svgPath: getAvatarPath('/avatars/women_avatars/02.svg'), name: 'Woman 2' },
+    { id: '39', svgPath: getAvatarPath('/avatars/women_avatars/03.svg'), name: 'Woman 3' },
+    { id: '40', svgPath: getAvatarPath('/avatars/women_avatars/04.svg'), name: 'Woman 4' },
+    { id: '41', svgPath: getAvatarPath('/avatars/women_avatars/05.svg'), name: 'Woman 5' },
+    { id: '42', svgPath: getAvatarPath('/avatars/women_avatars/06.svg'), name: 'Woman 6' },
+    { id: '43', svgPath: getAvatarPath('/avatars/women_avatars/07.svg'), name: 'Woman 7' },
+    { id: '44', svgPath: getAvatarPath('/avatars/women_avatars/08.svg'), name: 'Woman 8' },
+    { id: '45', svgPath: getAvatarPath('/avatars/women_avatars/09.svg'), name: 'Woman 9' },
+    { id: '46', svgPath: getAvatarPath('/avatars/women_avatars/10.svg'), name: 'Woman 10' },
+    { id: '47', svgPath: getAvatarPath('/avatars/women_avatars/11.svg'), name: 'Woman 11' },
+    { id: '48', svgPath: getAvatarPath('/avatars/women_avatars/12.svg'), name: 'Woman 12' },
+    { id: '49', svgPath: getAvatarPath('/avatars/women_avatars/13.svg'), name: 'Woman 13' },
+    { id: '50', svgPath: getAvatarPath('/avatars/women_avatars/14.svg'), name: 'Woman 14' },
+    { id: '51', svgPath: getAvatarPath('/avatars/women_avatars/15.svg'), name: 'Woman 15' },
+    { id: '52', svgPath: getAvatarPath('/avatars/women_avatars/16.svg'), name: 'Woman 16' },
+    { id: '53', svgPath: getAvatarPath('/avatars/women_avatars/17.svg'), name: 'Woman 17' },
+    { id: '54', svgPath: getAvatarPath('/avatars/women_avatars/18.svg'), name: 'Woman 18' },
+    { id: '55', svgPath: getAvatarPath('/avatars/women_avatars/19.svg'), name: 'Woman 19' },
+    { id: '56', svgPath: getAvatarPath('/avatars/women_avatars/20.svg'), name: 'Woman 20' },
+    { id: '57', svgPath: getAvatarPath('/avatars/women_avatars/21.svg'), name: 'Woman 21' },
+    { id: '58', svgPath: getAvatarPath('/avatars/women_avatars/22.svg'), name: 'Woman 22' },
+    { id: '59', svgPath: getAvatarPath('/avatars/women_avatars/23.svg'), name: 'Woman 23' },
+    { id: '60', svgPath: getAvatarPath('/avatars/women_avatars/24.svg'), name: 'Woman 24' },
+    { id: '61', svgPath: getAvatarPath('/avatars/women_avatars/25.svg'), name: 'Woman 25' },
+    { id: '62', svgPath: getAvatarPath('/avatars/women_avatars/26.svg'), name: 'Woman 26' },
+    { id: '63', svgPath: getAvatarPath('/avatars/women_avatars/27.svg'), name: 'Woman 27' },
+    { id: '64', svgPath: getAvatarPath('/avatars/women_avatars/28.svg'), name: 'Woman 28' },
+    { id: '65', svgPath: getAvatarPath('/avatars/women_avatars/29.svg'), name: 'Woman 29' },
+    { id: '66', svgPath: getAvatarPath('/avatars/women_avatars/30.svg'), name: 'Woman 30' },
+    { id: '67', svgPath: getAvatarPath('/avatars/women_avatars/31.svg'), name: 'Woman 31' },
+    { id: '68', svgPath: getAvatarPath('/avatars/women_avatars/32.svg'), name: 'Woman 32' },
+    { id: '69', svgPath: getAvatarPath('/avatars/women_avatars/33.svg'), name: 'Woman 33' },
+    { id: '70', svgPath: getAvatarPath('/avatars/women_avatars/34.svg'), name: 'Woman 34' },
+    { id: '71', svgPath: getAvatarPath('/avatars/women_avatars/35.svg'), name: 'Woman 35' },
+    { id: '72', svgPath: getAvatarPath('/avatars/women_avatars/36.svg'), name: 'Woman 36' },
   ]
 
   // 获取默认头像（当用户未设置头像时使用）
   const getDefaultAvatar = () => {
-    return '/avatars/default-avatar.svg'
+    const base = getBasePath()
+    // 移除 base 末尾的斜杠，然后添加路径
+    const basePath = base.endsWith('/') ? base.slice(0, -1) : base
+    return `${basePath}/avatars/default-avatar.svg`
   }
 
   // 获取用户头像URL，处理emoji旧数据
@@ -136,9 +153,15 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
     if (!avatarUrl) {
       return getDefaultAvatar()
     }
-    // 如果是以/avatars/开头的SVG路径，则直接使用
+    // 如果是以/avatars/开头的SVG路径，则添加 base path
     if (avatarUrl.startsWith('/avatars/') && avatarUrl.endsWith('.svg')) {
-      return avatarUrl
+      const base = getBasePath()
+      const basePath = base.endsWith('/') ? base.slice(0, -1) : base
+      // 如果路径已经包含 base path，直接返回；否则添加 base path
+      if (avatarUrl.startsWith(basePath)) {
+        return avatarUrl
+      }
+      return `${basePath}${avatarUrl}`
     }
     // 否则视为emoji或无效路径，返回默认头像
     return getDefaultAvatar()
@@ -322,7 +345,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
             user_id: userId,
             username: user?.email?.split('@')[0] || 'user',
             email: user?.email || '',
-            avatar_url: '/avatars/default-avatar.svg'
+            avatar_url: getDefaultAvatar()
           })
           .select('username, email, bio, role, avatar_url')
           .single()
@@ -403,15 +426,24 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
     setMessage(null)
 
     try {
+      // 将包含 base path 的路径转换为相对路径（用于数据库存储）
+      const base = getBasePath()
+      const basePath = base.endsWith('/') ? base.slice(0, -1) : base
+      // 如果路径包含 base path，移除它；否则直接使用
+      const relativePath = avatarUrl.startsWith(basePath) 
+        ? avatarUrl.slice(basePath.length) 
+        : avatarUrl
+
       const { error } = await supabase
         .from('user_profiles')
-        .update({ avatar_url: avatarUrl })
+        .update({ avatar_url: relativePath })
         .eq('user_id', user.id)
 
       if (error) throw error
 
       setMessage(languageMode === 'chinese' ? '头像更新成功' : 'Avatar updated successfully')
-      setUserProfile(prev => prev ? { ...prev, avatar_url: avatarUrl } : null)
+      // 更新本地状态时使用完整路径（包含 base path）
+      setUserProfile(prev => prev ? { ...prev, avatar_url: relativePath } : null)
       setEditingAvatar(false)
     } catch (err: unknown) {
       const error = err as Error

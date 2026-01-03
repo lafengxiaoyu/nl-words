@@ -275,8 +275,67 @@ function MainApp() {
   const navigate = useNavigate()
   const location = useLocation()
   const [user, setUser] = useState<SupabaseUser | null>(null)
+  const [userProfile, setUserProfile] = useState<{ avatar_url?: string } | null>(null)
   const [showAuth, setShowAuth] = useState(false)
   const [showUserProfile, setShowUserProfile] = useState(false)
+  
+  // 获取基础路径（兼容 Vite base path）
+  const getBasePath = () => {
+    return import.meta.env.BASE_URL || '/'
+  }
+
+  // 获取默认头像路径
+  const getDefaultAvatarPath = () => {
+    const base = getBasePath()
+    const basePath = base.endsWith('/') ? base.slice(0, -1) : base
+    return `${basePath}/avatars/default-avatar.svg`
+  }
+
+  // 获取用户头像URL
+  const getUserAvatarUrl = (avatarUrl: string | undefined) => {
+    if (!avatarUrl) {
+      return null // 返回 null 表示使用默认图标
+    }
+    // 如果是默认头像路径，返回 null（使用默认图标）
+    const defaultPath = getDefaultAvatarPath()
+    if (avatarUrl === '/avatars/default-avatar.svg' || avatarUrl === defaultPath || avatarUrl.endsWith('/avatars/default-avatar.svg')) {
+      return null
+    }
+    // 如果是以/avatars/开头的SVG路径，则添加 base path
+    if (avatarUrl.startsWith('/avatars/') && avatarUrl.endsWith('.svg')) {
+      const base = getBasePath()
+      const basePath = base.endsWith('/') ? base.slice(0, -1) : base
+      // 如果路径已经包含 base path，直接返回；否则添加 base path
+      if (avatarUrl.startsWith(basePath)) {
+        return avatarUrl
+      }
+      return `${basePath}${avatarUrl}`
+    }
+    // 否则视为无效路径，返回 null（使用默认图标）
+    return null
+  }
+
+  // 加载用户资料
+  const loadUserProfile = async (userId: string) => {
+    try {
+      const { data, error } = await supabase
+        .from('user_profiles')
+        .select('avatar_url')
+        .eq('user_id', userId)
+        .maybeSingle()
+
+      if (error) throw error
+
+      if (data) {
+        setUserProfile(data)
+      } else {
+        setUserProfile(null)
+      }
+    } catch (err) {
+      console.error('加载用户资料失败:', err)
+      setUserProfile(null)
+    }
+  }
   const [wordList, setWordList] = useState<Word[]>(words)
   const [filteredWordList, setFilteredWordList] = useState<Word[]>(words)
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -495,6 +554,7 @@ function MainApp() {
   const lastTapRef = useRef(0) // 记录最后一次点击时间，用于双击检测
 
   // 根据路径确定语言模式
+  const prevPathRef = useRef<string>('')
   useEffect(() => {
     const path = location.pathname.toLowerCase()
     // 直接检查路径，React Router 已经处理了 basename
@@ -505,7 +565,16 @@ function MainApp() {
     } else {
       setLanguageMode('chinese')
     }
-  }, [location.pathname])
+    
+    // 当从 profile 页面返回时，重新加载用户资料（确保头像更新）
+    const prevPath = prevPathRef.current
+    if (user && prevPath.includes('/profile') && !path.includes('/profile')) {
+      loadUserProfile(user.id).catch((error) => {
+        console.error('重新加载用户资料失败:', error)
+      })
+    }
+    prevPathRef.current = path
+  }, [location.pathname, user])
 
   // 切换语言并更新路由
   const switchLanguage = useCallback((lang: LanguageMode) => {
@@ -583,6 +652,7 @@ function MainApp() {
         if (user) {
           try {
             await loadProgressFromSupabase(user.id)
+            await loadUserProfile(user.id)
           } catch (error) {
             console.error('加载云端进度失败，使用本地数据:', error)
           }
@@ -602,6 +672,11 @@ function MainApp() {
           loadProgressFromSupabase(user.id).catch((error) => {
             console.error('加载云端进度失败:', error)
           })
+          loadUserProfile(user.id).catch((error) => {
+            console.error('加载用户资料失败:', error)
+          })
+        } else {
+          setUserProfile(null)
         }
       })
 
@@ -998,7 +1073,13 @@ function MainApp() {
                   {/* 用户按钮 */}
                   {user ? (
                     <button className="user-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/profile`)} aria-label={languageMode === 'chinese' ? '用户资料' : 'User Profile'}>
-                      <UserIcon />
+                      {(() => {
+                        const avatarUrl = getUserAvatarUrl(userProfile?.avatar_url)
+                        if (avatarUrl) {
+                          return <img src={avatarUrl} alt="Avatar" className="user-avatar-img" />
+                        }
+                        return <UserIcon />
+                      })()}
                     </button>
                   ) : (
                     <button className="user-btn" onClick={() => setShowAuth(true)} aria-label={languageMode === 'chinese' ? '登录' : 'Login'}>
