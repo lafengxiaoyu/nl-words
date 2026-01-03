@@ -33,7 +33,7 @@ cp web/.env.example web/.env
 
 1. 打开你的项目
 2. 进入 SQL Editor
-3. 运行 `supabase/user_profiles_setup.sql` 脚本
+3. 运行 `supabase/migrations/001_initial_user_profiles_setup.sql` 脚本
 4. 设置第一个管理员：
 
 ```sql

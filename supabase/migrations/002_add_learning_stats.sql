@@ -100,4 +100,3 @@ SELECT
 FROM information_schema.columns
 WHERE table_name = 'user_progress'
 ORDER BY ordinal_position;
-

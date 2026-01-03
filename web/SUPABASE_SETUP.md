@@ -177,7 +177,7 @@ END $$;
      - `view_count`, `mastered_count`, `unmastered_count`
      - `test_count`, `test_correct_count`, `test_wrong_count`
      - `last_viewed_at`, `last_tested_at`
-   - 如果缺少字段，运行 `SUPABASE_MIGRATION.sql` 迁移脚本
+   - 如果缺少字段，运行 `supabase/migrations/002_add_learning_stats.sql` 迁移脚本
 
 3. **检查 RLS 策略**
    - 在 Supabase Dashboard 中，进入 **Authentication** → **Policies**

@@ -60,7 +60,7 @@ export async function loadUserProgress(userId: string): Promise<Map<number, User
     if (supabaseError?.code === 'PGRST116') {
       console.error('❌ 数据库表 user_progress 不存在，请运行 SUPABASE_SETUP.md 中的 SQL 脚本')
     } else if (supabaseError?.code === '42703') {
-      console.error('❌ 数据库表缺少必要的字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
+      console.error('❌ 数据库表缺少必要的字段，请运行 supabase/migrations/002_add_learning_stats.sql 迁移脚本')
     } else if (supabaseError?.message?.includes('JWT')) {
       console.error('❌ 认证失败，请检查 Supabase 配置和用户登录状态')
     }
@@ -128,7 +128,7 @@ export async function saveUserProgress(
     if (supabaseError?.code === 'PGRST116') {
       console.error('❌ 数据库表 user_progress 不存在，请运行 SUPABASE_SETUP.md 中的 SQL 脚本')
     } else if (supabaseError?.code === '42703') {
-      console.error('❌ 数据库表缺少必要的字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
+      console.error('❌ 数据库表缺少必要的字段，请运行 supabase/migrations/002_add_learning_stats.sql 迁移脚本')
     } else if (supabaseError?.message?.includes('JWT') || supabaseError?.message?.includes('permission')) {
       console.error('❌ 权限错误，请检查 RLS 策略和用户认证状态')
     }
@@ -204,7 +204,7 @@ export async function incrementViewCount(
     console.error('更新查看统计失败:', error)
     const supabaseError = error as SupabaseError
     if (supabaseError?.code === '42703') {
-      console.error('❌ 数据库表缺少统计字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
+      console.error('❌ 数据库表缺少统计字段，请运行 supabase/migrations/002_add_learning_stats.sql 迁移脚本')
     }
     // 返回本地计算的统计数据
     return {
@@ -292,7 +292,7 @@ export async function updateMasteryStats(
     console.error('更新掌握统计失败:', error)
     const supabaseError = error as SupabaseError
     if (supabaseError?.code === '42703') {
-      console.error('❌ 数据库表缺少统计字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
+      console.error('❌ 数据库表缺少统计字段，请运行 supabase/migrations/002_add_learning_stats.sql 迁移脚本')
     }
     const newStats: LearningStats = {
       viewCount: currentStats?.viewCount || 0,
@@ -381,7 +381,7 @@ export async function updateTestStats(
     console.error('更新测试统计失败:', error)
     const supabaseError = error as SupabaseError
     if (supabaseError?.code === '42703') {
-      console.error('❌ 数据库表缺少统计字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
+      console.error('❌ 数据库表缺少统计字段，请运行 supabase/migrations/002_add_learning_stats.sql 迁移脚本')
     }
     const newStats: LearningStats = {
       viewCount: currentStats?.viewCount || 0,
@@ -444,7 +444,7 @@ export async function saveAllUserProgress(
     console.error('批量保存学习进度失败:', error)
     const supabaseError = error as SupabaseError
     if (supabaseError?.code === '42703') {
-      console.error('❌ 数据库表缺少必要的字段，请运行 SUPABASE_MIGRATION.sql 迁移脚本')
+      console.error('❌ 数据库表缺少必要的字段，请运行 supabase/migrations/002_add_learning_stats.sql 迁移脚本')
     } else if (supabaseError?.message?.includes('JWT') || supabaseError?.message?.includes('permission')) {
       console.error('❌ 权限错误，请检查 RLS 策略和用户认证状态')
     }
