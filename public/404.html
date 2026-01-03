@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>荷兰语单词学习</title>
+  <script>
+    // GitHub Pages 的 SPA 重定向方案
+    // 当访问任何子路径时，重定向到根路径并保存原始路径到 sessionStorage
+    const path = window.location.pathname;
+
+    // 检查是否在 /nl-words 路径下
+    if (path.startsWith('/nl-words/')) {
+      // 保存原始路径
+      sessionStorage.setItem('redirect-path', path);
+
+      // 重定向到根路径，React Router 会读取 sessionStorage 并导航到原始路径
+      window.location.replace('/nl-words/');
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
