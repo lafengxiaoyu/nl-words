@@ -19,6 +19,7 @@ interface UserProfile {
   email?: string
   bio?: string
   role?: 'admin' | 'user' | 'moderator'
+  avatar_url?: string
 }
 
 interface ProfilePageProps {
@@ -41,6 +42,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const [usernameInput, setUsernameInput] = useState('')
   const [editingBio, setEditingBio] = useState(false)
   const [bioInput, setBioInput] = useState('')
+  const [editingAvatar, setEditingAvatar] = useState(false)
   const [loading, setLoading] = useState(false)
   const [profileLoading, setProfileLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -58,8 +60,10 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       username: '用户名',
       email: '邮箱',
       bio: '个人简介',
+      avatar: '头像',
       editUsername: '编辑用户名',
       editBio: '编辑简介',
+      editAvatar: '更换头像',
       save: '保存',
       cancel: '取消',
       learningStats: '学习统计',
@@ -108,8 +112,10 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       username: 'Username',
       email: 'Email',
       bio: 'Bio',
+      avatar: 'Avatar',
       editUsername: 'Edit Username',
       editBio: 'Edit Bio',
+      editAvatar: 'Change Avatar',
       save: 'Save',
       cancel: 'Cancel',
       learningStats: 'Learning Statistics',
@@ -202,7 +208,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
     try {
       const { data, error } = await supabase
         .from('user_profiles')
-        .select('username, email, bio, role')
+        .select('username, email, bio, role, avatar_url')
         .eq('user_id', userId)
         .maybeSingle()
 
@@ -221,7 +227,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
             username: user?.email?.split('@')[0] || 'user',
             email: user?.email || ''
           })
-          .select('username, email, bio, role')
+          .select('username, email, bio, role, avatar_url')
           .single()
 
         if (!createError && newUserProfile) {
@@ -291,6 +297,60 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       setProfileLoading(false)
     }
   }
+
+  const handleUpdateAvatar = async (avatarUrl: string) => {
+    if (!user) return
+
+    setProfileLoading(true)
+    setError(null)
+    setMessage(null)
+
+    try {
+      const { error } = await supabase
+        .from('user_profiles')
+        .update({ avatar_url: avatarUrl })
+        .eq('user_id', user.id)
+
+      if (error) throw error
+
+      setMessage(languageMode === 'chinese' ? '头像更新成功' : 'Avatar updated successfully')
+      setUserProfile(prev => prev ? { ...prev, avatar_url: avatarUrl } : null)
+      setEditingAvatar(false)
+    } catch (err: unknown) {
+      const error = err as Error
+      setError(`${languageMode === 'chinese' ? '更新失败' : 'Update failed'}: ${error.message}`)
+    } finally {
+      setProfileLoading(false)
+    }
+  }
+
+  // 头像列表
+  const avatarOptions = [
+    { id: '1', emoji: '👨', name: 'Man' },
+    { id: '2', emoji: '👩', name: 'Woman' },
+    { id: '3', emoji: '🧑', name: 'Person' },
+    { id: '4', emoji: '👦', name: 'Boy' },
+    { id: '5', emoji: '👧', name: 'Girl' },
+    { id: '6', emoji: '🧓', name: 'Old Man' },
+    { id: '7', emoji: '👴', name: 'Grandpa' },
+    { id: '8', emoji: '👵', name: 'Grandma' },
+    { id: '9', emoji: '👮', name: 'Police' },
+    { id: '10', emoji: '👩‍💻', name: 'Developer' },
+    { id: '11', emoji: '🧑‍🎓', name: 'Student' },
+    { id: '12', emoji: '👩‍🏫', name: 'Teacher' },
+    { id: '13', emoji: '👨‍⚕️', name: 'Doctor' },
+    { id: '14', emoji: '🧑‍🎨', name: 'Artist' },
+    { id: '15', emoji: '👨‍🍳', name: 'Chef' },
+    { id: '16', emoji: '🧑‍🚀', name: 'Astronaut' },
+    { id: '17', emoji: '🦊', name: 'Fox' },
+    { id: '18', emoji: '🐱', name: 'Cat' },
+    { id: '19', emoji: '🐶', name: 'Dog' },
+    { id: '20', emoji: '🐼', name: 'Panda' },
+    { id: '21', emoji: '🦉', name: 'Owl' },
+    { id: '22', emoji: '🦋', name: 'Butterfly' },
+    { id: '23', emoji: '🌸', name: 'Flower' },
+    { id: '24', emoji: '🌟', name: 'Star' },
+  ]
 
   // 重置进度
   const resetProgress = async () => {
@@ -379,6 +439,54 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         {/* Main Content */}
         <main className="profile-main">
           <div className="profile-card">
+            {/* Avatar Section */}
+            <section className="profile-section">
+              <div className="avatar-section">
+                <div className="avatar-display">
+                  <div className="avatar-large">
+                    {userProfile?.avatar_url || '👤'}
+                  </div>
+                  <button
+                    className="btn btn-outline btn-small"
+                    onClick={() => setEditingAvatar(true)}
+                  >
+                    ✏️ {text.editAvatar}
+                  </button>
+                </div>
+              </div>
+
+              {/* Avatar Selection Modal */}
+              {editingAvatar && (
+                <div className="avatar-overlay" onClick={() => setEditingAvatar(false)}>
+                  <div className="avatar-modal" onClick={(e) => e.stopPropagation()}>
+                    <h3>{text.editAvatar}</h3>
+                    <div className="avatar-grid">
+                      {avatarOptions.map((avatar) => (
+                        <button
+                          key={avatar.id}
+                          className={`avatar-option ${userProfile?.avatar_url === avatar.emoji ? 'selected' : ''}`}
+                          onClick={() => handleUpdateAvatar(avatar.emoji)}
+                          disabled={profileLoading}
+                          title={avatar.name}
+                        >
+                          {avatar.emoji}
+                        </button>
+                      ))}
+                    </div>
+                    <button
+                      className="btn btn-secondary btn-full"
+                      onClick={() => setEditingAvatar(false)}
+                      disabled={profileLoading}
+                    >
+                      {text.cancel}
+                    </button>
+                  </div>
+                </div>
+              )}
+            </section>
+
+            <hr className="profile-divider" />
+
             {/* Account Info Section */}
             <section className="profile-section">
               <h2>{text.accountInfo}</h2>
