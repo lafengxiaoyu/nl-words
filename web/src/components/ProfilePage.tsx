@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import { baseWords } from '../data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from '../data/words'
+import ActivityTimeline from './ActivityTimeline'
 import './ProfilePage.css'
 
 interface User {
@@ -739,6 +740,18 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
                 })}
               </div>
             </section>
+
+            <hr className="profile-divider" />
+
+            {/* Activity Timeline Section */}
+            {user && (
+              <section className="profile-section">
+                <ActivityTimeline
+                  languageMode={languageMode}
+                  userId={user.id}
+                />
+              </section>
+            )}
 
             <hr className="profile-divider" />
 
