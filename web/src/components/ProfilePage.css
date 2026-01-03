@@ -42,6 +42,7 @@
   height: 80%;
   object-fit: contain;
   border-radius: 50%;
+  filter: brightness(0) invert(1);
 }
 
 .avatar-large:hover {
@@ -127,8 +128,8 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: #f8f9fa;
-  border: 2px solid #e0e0e0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: 2px solid rgba(255, 255, 255, 0.3);
   cursor: pointer;
   transition: all 0.2s;
   display: flex;
@@ -142,19 +143,39 @@
   height: 100%;
   object-fit: contain;
   border-radius: 50%;
+  filter: brightness(0) invert(1);
+}
+
+.avatar-option-img svg path,
+.avatar-option-img svg circle,
+.avatar-option-img svg ellipse,
+.avatar-option-img svg rect,
+.avatar-option-img svg line,
+.avatar-option-img svg polyline,
+.avatar-option-img svg polygon {
+  stroke-width: 2 !important;
+}
+
+.avatar-img svg path,
+.avatar-img svg circle,
+.avatar-img svg ellipse,
+.avatar-img svg rect,
+.avatar-img svg line,
+.avatar-img svg polyline,
+.avatar-img svg polygon {
+  stroke-width: 2 !important;
 }
 
 .avatar-option:hover:not(:disabled) {
   transform: scale(1.1);
-  border-color: #667eea;
-  background: white;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
 }
 
 .avatar-option.selected {
-  border-color: #667eea;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.4);
+  border-color: white;
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.3);
 }
 
 .avatar-option:disabled {
