@@ -48,33 +48,101 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const [error, setError] = useState<string | null>(null)
   const [message, setMessage] = useState<string | null>(null)
 
-  // 头像列表
+  // 头像列表 - SVG 图标
   const avatarOptions = [
-    { id: '1', emoji: '👨', name: 'Man' },
-    { id: '2', emoji: '👩', name: 'Woman' },
-    { id: '3', emoji: '🧑', name: 'Person' },
-    { id: '4', emoji: '👦', name: 'Boy' },
-    { id: '5', emoji: '👧', name: 'Girl' },
-    { id: '6', emoji: '🧓', name: 'Old Man' },
-    { id: '7', emoji: '👴', name: 'Grandpa' },
-    { id: '8', emoji: '👵', name: 'Grandma' },
-    { id: '9', emoji: '👮', name: 'Police' },
-    { id: '10', emoji: '👩‍💻', name: 'Developer' },
-    { id: '11', emoji: '🧑‍🎓', name: 'Student' },
-    { id: '12', emoji: '👩‍🏫', name: 'Teacher' },
-    { id: '13', emoji: '👨‍⚕️', name: 'Doctor' },
-    { id: '14', emoji: '🧑‍🎨', name: 'Artist' },
-    { id: '15', emoji: '👨‍🍳', name: 'Chef' },
-    { id: '16', emoji: '🧑‍🚀', name: 'Astronaut' },
-    { id: '17', emoji: '🦊', name: 'Fox' },
-    { id: '18', emoji: '🐱', name: 'Cat' },
-    { id: '19', emoji: '🐶', name: 'Dog' },
-    { id: '20', emoji: '🐼', name: 'Panda' },
-    { id: '21', emoji: '🦉', name: 'Owl' },
-    { id: '22', emoji: '🦋', name: 'Butterfly' },
-    { id: '23', emoji: '🌸', name: 'Flower' },
-    { id: '24', emoji: '🌟', name: 'Star' },
+    // 男性头像
+    { id: '1', svgPath: '/avatars/man_avatars/01.svg', name: 'Man 1' },
+    { id: '2', svgPath: '/avatars/man_avatars/02.svg', name: 'Man 2' },
+    { id: '3', svgPath: '/avatars/man_avatars/03.svg', name: 'Man 3' },
+    { id: '4', svgPath: '/avatars/man_avatars/04.svg', name: 'Man 4' },
+    { id: '5', svgPath: '/avatars/man_avatars/05.svg', name: 'Man 5' },
+    { id: '6', svgPath: '/avatars/man_avatars/06.svg', name: 'Man 6' },
+    { id: '7', svgPath: '/avatars/man_avatars/07.svg', name: 'Man 7' },
+    { id: '8', svgPath: '/avatars/man_avatars/08.svg', name: 'Man 8' },
+    { id: '9', svgPath: '/avatars/man_avatars/09.svg', name: 'Man 9' },
+    { id: '10', svgPath: '/avatars/man_avatars/10.svg', name: 'Man 10' },
+    { id: '11', svgPath: '/avatars/man_avatars/11.svg', name: 'Man 11' },
+    { id: '12', svgPath: '/avatars/man_avatars/12.svg', name: 'Man 12' },
+    { id: '13', svgPath: '/avatars/man_avatars/13.svg', name: 'Man 13' },
+    { id: '14', svgPath: '/avatars/man_avatars/14.svg', name: 'Man 14' },
+    { id: '15', svgPath: '/avatars/man_avatars/15.svg', name: 'Man 15' },
+    { id: '16', svgPath: '/avatars/man_avatars/16.svg', name: 'Man 16' },
+    { id: '17', svgPath: '/avatars/man_avatars/17.svg', name: 'Man 17' },
+    { id: '18', svgPath: '/avatars/man_avatars/18.svg', name: 'Man 18' },
+    { id: '19', svgPath: '/avatars/man_avatars/19.svg', name: 'Man 19' },
+    { id: '20', svgPath: '/avatars/man_avatars/20.svg', name: 'Man 20' },
+    { id: '21', svgPath: '/avatars/man_avatars/21.svg', name: 'Man 21' },
+    { id: '22', svgPath: '/avatars/man_avatars/22.svg', name: 'Man 22' },
+    { id: '23', svgPath: '/avatars/man_avatars/23.svg', name: 'Man 23' },
+    { id: '24', svgPath: '/avatars/man_avatars/24.svg', name: 'Man 24' },
+    { id: '25', svgPath: '/avatars/man_avatars/25.svg', name: 'Man 25' },
+    { id: '26', svgPath: '/avatars/man_avatars/26.svg', name: 'Man 26' },
+    { id: '27', svgPath: '/avatars/man_avatars/27.svg', name: 'Man 27' },
+    { id: '28', svgPath: '/avatars/man_avatars/28.svg', name: 'Man 28' },
+    { id: '29', svgPath: '/avatars/man_avatars/29.svg', name: 'Man 29' },
+    { id: '30', svgPath: '/avatars/man_avatars/30.svg', name: 'Man 30' },
+    { id: '31', svgPath: '/avatars/man_avatars/31.svg', name: 'Man 31' },
+    { id: '32', svgPath: '/avatars/man_avatars/32.svg', name: 'Man 32' },
+    { id: '33', svgPath: '/avatars/man_avatars/33.svg', name: 'Man 33' },
+    { id: '34', svgPath: '/avatars/man_avatars/34.svg', name: 'Man 34' },
+    { id: '35', svgPath: '/avatars/man_avatars/35.svg', name: 'Man 35' },
+    { id: '36', svgPath: '/avatars/man_avatars/36.svg', name: 'Man 36' },
+    // 女性头像
+    { id: '37', svgPath: '/avatars/women_avatars/01.svg', name: 'Woman 1' },
+    { id: '38', svgPath: '/avatars/women_avatars/02.svg', name: 'Woman 2' },
+    { id: '39', svgPath: '/avatars/women_avatars/03.svg', name: 'Woman 3' },
+    { id: '40', svgPath: '/avatars/women_avatars/04.svg', name: 'Woman 4' },
+    { id: '41', svgPath: '/avatars/women_avatars/05.svg', name: 'Woman 5' },
+    { id: '42', svgPath: '/avatars/women_avatars/06.svg', name: 'Woman 6' },
+    { id: '43', svgPath: '/avatars/women_avatars/07.svg', name: 'Woman 7' },
+    { id: '44', svgPath: '/avatars/women_avatars/08.svg', name: 'Woman 8' },
+    { id: '45', svgPath: '/avatars/women_avatars/09.svg', name: 'Woman 9' },
+    { id: '46', svgPath: '/avatars/women_avatars/10.svg', name: 'Woman 10' },
+    { id: '47', svgPath: '/avatars/women_avatars/11.svg', name: 'Woman 11' },
+    { id: '48', svgPath: '/avatars/women_avatars/12.svg', name: 'Woman 12' },
+    { id: '49', svgPath: '/avatars/women_avatars/13.svg', name: 'Woman 13' },
+    { id: '50', svgPath: '/avatars/women_avatars/14.svg', name: 'Woman 14' },
+    { id: '51', svgPath: '/avatars/women_avatars/15.svg', name: 'Woman 15' },
+    { id: '52', svgPath: '/avatars/women_avatars/16.svg', name: 'Woman 16' },
+    { id: '53', svgPath: '/avatars/women_avatars/17.svg', name: 'Woman 17' },
+    { id: '54', svgPath: '/avatars/women_avatars/18.svg', name: 'Woman 18' },
+    { id: '55', svgPath: '/avatars/women_avatars/19.svg', name: 'Woman 19' },
+    { id: '56', svgPath: '/avatars/women_avatars/20.svg', name: 'Woman 20' },
+    { id: '57', svgPath: '/avatars/women_avatars/21.svg', name: 'Woman 21' },
+    { id: '58', svgPath: '/avatars/women_avatars/22.svg', name: 'Woman 22' },
+    { id: '59', svgPath: '/avatars/women_avatars/23.svg', name: 'Woman 23' },
+    { id: '60', svgPath: '/avatars/women_avatars/24.svg', name: 'Woman 24' },
+    { id: '61', svgPath: '/avatars/women_avatars/25.svg', name: 'Woman 25' },
+    { id: '62', svgPath: '/avatars/women_avatars/26.svg', name: 'Woman 26' },
+    { id: '63', svgPath: '/avatars/women_avatars/27.svg', name: 'Woman 27' },
+    { id: '64', svgPath: '/avatars/women_avatars/28.svg', name: 'Woman 28' },
+    { id: '65', svgPath: '/avatars/women_avatars/29.svg', name: 'Woman 29' },
+    { id: '66', svgPath: '/avatars/women_avatars/30.svg', name: 'Woman 30' },
+    { id: '67', svgPath: '/avatars/women_avatars/31.svg', name: 'Woman 31' },
+    { id: '68', svgPath: '/avatars/women_avatars/32.svg', name: 'Woman 32' },
+    { id: '69', svgPath: '/avatars/women_avatars/33.svg', name: 'Woman 33' },
+    { id: '70', svgPath: '/avatars/women_avatars/34.svg', name: 'Woman 34' },
+    { id: '71', svgPath: '/avatars/women_avatars/35.svg', name: 'Woman 35' },
+    { id: '72', svgPath: '/avatars/women_avatars/36.svg', name: 'Woman 36' },
   ]
+
+  // 获取默认头像（当用户未设置头像时使用）
+  const getDefaultAvatar = () => {
+    return '/avatars/default-avatar.svg'
+  }
+
+  // 获取用户头像URL，处理emoji旧数据
+  const getAvatarUrl = (avatarUrl: string | undefined) => {
+    if (!avatarUrl) {
+      return getDefaultAvatar()
+    }
+    // 如果是以/avatars/开头的SVG路径，则直接使用
+    if (avatarUrl.startsWith('/avatars/') && avatarUrl.endsWith('.svg')) {
+      return avatarUrl
+    }
+    // 否则视为emoji或无效路径，返回默认头像
+    return getDefaultAvatar()
+  }
 
   // 计算学习统计
   const masteredCount = wordList.filter(w => w.familiarity === 'mastered').length
@@ -444,7 +512,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
               <div className="avatar-section">
                 <div className="avatar-display">
                   <div className="avatar-large">
-                    {userProfile?.avatar_url || '👤'}
+                    <img src={getAvatarUrl(userProfile?.avatar_url)} alt="Avatar" className="avatar-img" />
                   </div>
                   <button
                     className="btn btn-outline btn-small"
@@ -464,12 +532,12 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
                       {avatarOptions.map((avatar) => (
                         <button
                           key={avatar.id}
-                          className={`avatar-option ${userProfile?.avatar_url === avatar.emoji ? 'selected' : ''}`}
-                          onClick={() => handleUpdateAvatar(avatar.emoji)}
+                          className={`avatar-option ${userProfile?.avatar_url === avatar.svgPath ? 'selected' : ''}`}
+                          onClick={() => handleUpdateAvatar(avatar.svgPath)}
                           disabled={profileLoading}
                           title={avatar.name}
                         >
-                          {avatar.emoji}
+                          <img src={avatar.svgPath} alt={avatar.name} className="avatar-option-img" />
                         </button>
                       ))}
                     </div>
