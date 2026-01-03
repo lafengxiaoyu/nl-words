@@ -160,6 +160,8 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [selectedPartOfSpeech, setSelectedPartOfSpeech] = useState<string>('all')
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all')
   const [selectedWord, setSelectedWord] = useState<Word | null>(null)
+  const [sortBy, setSortBy] = useState<'word' | 'translation' | 'partOfSpeech' | 'difficulty'>('word')
+  const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc')
 
 
 
@@ -286,7 +288,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const filteredWords = wordList.filter(word => {
     // 搜索过滤
     const searchLower = searchTerm.toLowerCase()
-    const matchesSearch = 
+    const matchesSearch =
       word.word.toLowerCase().includes(searchLower) ||
       word.translation.chinese.toLowerCase().includes(searchLower) ||
       word.translation.english.toLowerCase().includes(searchLower)
@@ -298,6 +300,24 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     const matchesDifficulty = selectedDifficulty === 'all' || word.difficulty === selectedDifficulty
 
     return matchesSearch && matchesPartOfSpeech && matchesDifficulty
+  }).sort((a, b) => {
+    // 排序逻辑
+    let comparison = 0
+    switch (sortBy) {
+      case 'word':
+        comparison = a.word.localeCompare(b.word)
+        break
+      case 'translation':
+        comparison = a.translation[languageMode].localeCompare(b.translation[languageMode])
+        break
+      case 'partOfSpeech':
+        comparison = a.partOfSpeech.localeCompare(b.partOfSpeech)
+        break
+      case 'difficulty':
+        comparison = a.difficulty.localeCompare(b.difficulty)
+        break
+    }
+    return sortOrder === 'asc' ? comparison : -comparison
   })
 
   // 分页状态
@@ -463,10 +483,70 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
               <table className="words-table">
                 <thead>
                   <tr>
-                    <th className="word-col">{t.word}</th>
-                    <th className="translation-col">{t.translation}</th>
-                    <th className="pos-col">{t.partOfSpeech}</th>
-                    <th className="difficulty-col">{t.difficulty}</th>
+                    <th
+                      className={`word-col sortable ${sortBy === 'word' ? 'active' : ''}`}
+                      onClick={() => {
+                        if (sortBy === 'word') {
+                          setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
+                        } else {
+                          setSortBy('word')
+                          setSortOrder('asc')
+                        }
+                      }}
+                    >
+                      {t.word}
+                      {sortBy === 'word' && (
+                        <span className="sort-indicator">{sortOrder === 'asc' ? '↑' : '↓'}</span>
+                      )}
+                    </th>
+                    <th
+                      className={`translation-col sortable ${sortBy === 'translation' ? 'active' : ''}`}
+                      onClick={() => {
+                        if (sortBy === 'translation') {
+                          setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
+                        } else {
+                          setSortBy('translation')
+                          setSortOrder('asc')
+                        }
+                      }}
+                    >
+                      {t.translation}
+                      {sortBy === 'translation' && (
+                        <span className="sort-indicator">{sortOrder === 'asc' ? '↑' : '↓'}</span>
+                      )}
+                    </th>
+                    <th
+                      className={`pos-col sortable ${sortBy === 'partOfSpeech' ? 'active' : ''}`}
+                      onClick={() => {
+                        if (sortBy === 'partOfSpeech') {
+                          setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
+                        } else {
+                          setSortBy('partOfSpeech')
+                          setSortOrder('asc')
+                        }
+                      }}
+                    >
+                      {t.partOfSpeech}
+                      {sortBy === 'partOfSpeech' && (
+                        <span className="sort-indicator">{sortOrder === 'asc' ? '↑' : '↓'}</span>
+                      )}
+                    </th>
+                    <th
+                      className={`difficulty-col sortable ${sortBy === 'difficulty' ? 'active' : ''}`}
+                      onClick={() => {
+                        if (sortBy === 'difficulty') {
+                          setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
+                        } else {
+                          setSortBy('difficulty')
+                          setSortOrder('asc')
+                        }
+                      }}
+                    >
+                      {t.difficulty}
+                      {sortBy === 'difficulty' && (
+                        <span className="sort-indicator">{sortOrder === 'asc' ? '↑' : '↓'}</span>
+                      )}
+                    </th>
                   </tr>
                 </thead>
                 <tbody>

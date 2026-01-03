@@ -471,6 +471,29 @@
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* 可排序列样式 */
+.words-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease;
+  position: relative;
+}
+
+.words-table th.sortable:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.words-table th.sortable.active {
+  color: #fbbf24;
+}
+
+.sort-indicator {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
 .words-table td {
   padding: 16px 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
