@@ -1,9 +1,9 @@
 {
-  "totalWords": 1388,
+  "totalWords": 1387,
   "byDifficulty": {
     "A1": 616,
     "A2": 649,
-    "B1": 121,
+    "B1": 120,
     "B2": 1,
     "C2": 1
   },
@@ -12,7 +12,7 @@
     "phrase": 2,
     "noun": 685,
     "verb": 302,
-    "adjective": 189,
+    "adjective": 188,
     "preposition": 28,
     "adverb": 91,
     "pronoun": 30,
@@ -57,7 +57,7 @@
     "A2-verb,adjective": 1,
     "A2-noun,adjective": 4,
     "A2-numeral": 1,
-    "B1-adjective": 16,
+    "B1-adjective": 15,
     "B1-interjection": 1
   }
 }

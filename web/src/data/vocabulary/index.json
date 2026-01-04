@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-04T19:12:27.270Z",
-  "totalWords": 1388,
+  "lastUpdated": "2026-01-04T19:32:03.237Z",
+  "totalWords": 1387,
   "levels": [
     {
       "level": "A1",
@@ -1492,7 +1492,7 @@
     },
     {
       "level": "B1",
-      "totalWords": 121,
+      "totalWords": 120,
       "totalLessons": 3,
       "lessons": [
         {
@@ -1549,8 +1549,8 @@
             1348,
             1349,
             1350,
-            1351,
-            1352
+            1352,
+            1353
           ]
         },
         {
@@ -1559,7 +1559,6 @@
           "file": "b1/lesson-02.json",
           "totalWords": 50,
           "wordIds": [
-            1353,
             1354,
             1355,
             1356,
@@ -1608,16 +1607,16 @@
             1399,
             1400,
             1401,
-            1402
+            1402,
+            1403
           ]
         },
         {
           "id": "lB103",
           "lessonNumber": 3,
           "file": "b1/lesson-03.json",
-          "totalWords": 21,
+          "totalWords": 20,
           "wordIds": [
-            1403,
             1404,
             1405,
             1406,

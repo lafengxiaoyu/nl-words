@@ -3,6 +3,30 @@ const path = require('path');
 
 const wordsFilePath = path.join(__dirname, '../web/src/data/words.json');
 const words = JSON.parse(fs.readFileSync(wordsFilePath, 'utf-8'));
+
+// 清理名词形式数据
+words.forEach(word => {
+  if (word.partOfSpeech === 'noun' && word.forms && word.forms.noun) {
+    const nounForms = word.forms.noun;
+    // 清理单数
+    if (Array.isArray(nounForms.singular)) {
+      nounForms.singular = nounForms.singular[0];
+    }
+    // 清理复数
+    if (Array.isArray(nounForms.plural)) {
+      nounForms.plural = nounForms.plural[0];
+    }
+    // 确保 article 字段存在，如果没有，从 gender 推断
+    if (!nounForms.article && nounForms.gender) {
+      nounForms.article = nounForms.gender;
+    }
+    // 移除 gender 字段，因为 article 已经足够
+    if (nounForms.gender !== undefined) {
+      delete nounForms.gender;
+    }
+  }
+});
+
 const outputPath = path.join(__dirname, '../web/src/data/vocabulary');
 
 console.log('\n========== 开始拆分单词数据 ==========\n');

@@ -40773,20 +40773,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "uitnodiging",
-          "de uitnodiging",
-          "de uitnodiging",
-          "de uitnodiging"
-        ],
-        "plural": [
-          "uitnodigingen",
-          "de uitnodigingen",
-          "de uitnodigingen",
-          "de uitnodigingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "uitnodiging",
+        "plural": "uitnodigingen"
       }
     },
     "examples": [
@@ -46981,40 +46970,7 @@
     "notes": "常用语：anoniem blijven (保持匿名)",
     "difficulty": "B1"
   },
-  {
-    "id": 1351,
-    "word": "apart",
-    "translation": {
-      "chinese": "分开的、独特的",
-      "english": "separate, apart"
-    },
-    "partOfSpeech": "adjective",
-    "forms": {
-      "adjective": {
-        "base": "apart",
-        "withDe": "aparte",
-        "withHet": "aparte",
-        "comparative": "aparter",
-        "superlative": "het apartst"
-      }
-    },
-    "examples": [
-      "Wij wonen apart.",
-      "Het is een apart verhaal."
-    ],
-    "exampleTranslations": {
-      "chinese": [
-        "我们分开住。",
-        "这是个独特的故事。"
-      ],
-      "english": [
-        "We live apart.",
-        "It's a special story."
-      ]
-    },
-    "notes": "也可作副词使用，意为 '分开'",
-    "difficulty": "B1"
-  },
+
   {
     "id": 1352,
     "word": "apparaat",

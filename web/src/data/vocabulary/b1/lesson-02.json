@@ -5,38 +5,6 @@
   "totalWords": 50,
   "words": [
     {
-      "id": 1353,
-      "word": "applaus",
-      "translation": {
-        "chinese": "掌声",
-        "english": "applause"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "applaus",
-          "plural": []
-        }
-      },
-      "examples": [
-        "Het applaus was luid.",
-        "Er klonk applaus."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "掌声很响亮。",
-          "响起了掌声。"
-        ],
-        "english": [
-          "The applause was loud.",
-          "There was applause."
-        ]
-      },
-      "notes": "不可数名词，常用短语：applaus geven (鼓掌)",
-      "difficulty": "B1"
-    },
-    {
       "id": 1354,
       "word": "argument",
       "translation": {
@@ -79,8 +47,7 @@
       "forms": {
         "noun": {
           "article": "de",
-          "singular": "armoede",
-          "plural": []
+          "singular": "armoede"
         }
       },
       "examples": [
@@ -399,8 +366,7 @@
       "forms": {
         "noun": {
           "article": "de",
-          "singular": "bagage",
-          "plural": []
+          "singular": "bagage"
         }
       },
       "examples": [
@@ -1826,6 +1792,51 @@
         ]
       },
       "notes": "复数形式为 belangstellingen，常用短语：belangstelling hebben voor (对某事有兴趣)",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1403,
+      "word": "belasten",
+      "translation": {
+        "chinese": "负担、征税",
+        "english": "to burden, to tax"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "belasten",
+          "isSeparable": false,
+          "present": {
+            "ik": "belast",
+            "jij": "belast",
+            "hij": "belast",
+            "wij": "belasten",
+            "jullie": "belasten",
+            "zij": "belasten"
+          },
+          "past": {
+            "singular": "belastte",
+            "plural": "belastten"
+          },
+          "pastParticiple": "belast",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De kosten belasten ons.",
+        "Hij belast het bedrijf."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "费用给我们带来负担。",
+          "他给公司增加负担。"
+        ],
+        "english": [
+          "The costs burden us.",
+          "He burdens the company."
+        ]
+      },
+      "notes": "原形 is lasten，belasten 是加强语气的形式",
       "difficulty": "B1"
     }
   ]

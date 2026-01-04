@@ -14,19 +14,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "product",
-            "product",
-            "het product",
-            "het product"
-          ],
-          "plural": [
-            "producten",
-            "producten",
-            "de producten",
-            "de producten"
-          ],
-          "gender": "het",
+          "singular": "product",
+          "plural": "producten",
           "article": "het"
         }
       },
@@ -100,19 +89,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "programma",
-            "programma",
-            "het programma",
-            "het programma"
-          ],
-          "plural": [
-            "programma's",
-            "programma's",
-            "de programma's",
-            "de programma's"
-          ],
-          "gender": "het",
+          "singular": "programma",
+          "plural": "programma's",
           "article": "het"
         }
       },
@@ -142,19 +120,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "project",
-            "project",
-            "het project",
-            "het project"
-          ],
-          "plural": [
-            "projecten",
-            "projecten",
-            "de projecten",
-            "de projecten"
-          ],
-          "gender": "het",
+          "singular": "project",
+          "plural": "projecten",
           "article": "het"
         }
       },
@@ -184,19 +151,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "prooi",
-            "prooi",
-            "de prooi",
-            "de prooi"
-          ],
-          "plural": [
-            "prooien",
-            "prooien",
-            "de prooien",
-            "de prooien"
-          ],
-          "gender": "de",
+          "singular": "prooi",
+          "plural": "prooien",
           "article": "de"
         }
       },
@@ -226,19 +182,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "protest",
-            "protest",
-            "de protest",
-            "de protest"
-          ],
-          "plural": [
-            "protesten",
-            "protesten",
-            "de protesten",
-            "de protesten"
-          ],
-          "gender": "de",
+          "singular": "protest",
+          "plural": "protesten",
           "article": "de"
         }
       },
@@ -268,19 +213,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "psycholoog",
-            "psycholoog",
-            "de psycholoog",
-            "de psycholoog"
-          ],
-          "plural": [
-            "psychologen",
-            "psychologen",
-            "de psychologen",
-            "de psychologen"
-          ],
-          "gender": "de",
+          "singular": "psycholoog",
+          "plural": "psychologen",
           "article": "de"
         }
       },
@@ -355,19 +289,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "put",
-            "put",
-            "de put",
-            "de put"
-          ],
-          "plural": [
-            "putten",
-            "putten",
-            "de putten",
-            "de putten"
-          ],
-          "gender": "de",
+          "singular": "put",
+          "plural": "putten",
           "article": "de"
         }
       },
@@ -397,19 +320,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "raad",
-            "raad",
-            "de raad",
-            "de raad"
-          ],
-          "plural": [
-            "raden",
-            "raden",
-            "de raden",
-            "de raden"
-          ],
-          "gender": "de",
+          "singular": "raad",
+          "plural": "raden",
           "article": "de"
         }
       },
@@ -483,19 +395,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "rapport",
-            "rapport",
-            "het rapport",
-            "het rapport"
-          ],
-          "plural": [
-            "rapporten",
-            "rapporten",
-            "de rapporten",
-            "de rapporten"
-          ],
-          "gender": "het",
+          "singular": "rapport",
+          "plural": "rapporten",
           "article": "het"
         }
       },
@@ -525,19 +426,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "reactie",
-            "reactie",
-            "de reactie",
-            "de reactie"
-          ],
-          "plural": [
-            "reacties",
-            "reacties",
-            "de reacties",
-            "de reacties"
-          ],
-          "gender": "de",
+          "singular": "reactie",
+          "plural": "reacties",
           "article": "de"
         }
       },
@@ -656,19 +546,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "reclame",
-            "reclame",
-            "de reclame",
-            "de reclame"
-          ],
-          "plural": [
-            "-",
-            "-",
-            "-",
-            "-"
-          ],
-          "gender": "de",
+          "singular": "reclame",
+          "plural": "-",
           "article": "de"
         }
       },
@@ -698,19 +577,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "recreatie",
-            "recreatie",
-            "de recreatie",
-            "de recreatie"
-          ],
-          "plural": [
-            "-",
-            "-",
-            "-",
-            "-"
-          ],
-          "gender": "de",
+          "singular": "recreatie",
+          "plural": "-",
           "article": "de"
         }
       },
@@ -765,19 +633,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "regel",
-            "regel",
-            "de regel",
-            "de regel"
-          ],
-          "plural": [
-            "regels",
-            "regels",
-            "de regels",
-            "de regels"
-          ],
-          "gender": "de",
+          "singular": "regel",
+          "plural": "regels",
           "article": "de"
         }
       },
@@ -851,19 +708,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "regering",
-            "regering",
-            "de regering",
-            "de regering"
-          ],
-          "plural": [
-            "regeringen",
-            "regeringen",
-            "de regeringen",
-            "de regeringen"
-          ],
-          "gender": "de",
+          "singular": "regering",
+          "plural": "regeringen",
           "article": "de"
         }
       },
@@ -893,19 +739,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "regio",
-            "regio",
-            "de regio",
-            "de regio"
-          ],
-          "plural": [
-            "regio's",
-            "regio's",
-            "de regio's",
-            "de regio's"
-          ],
-          "gender": "de",
+          "singular": "regio",
+          "plural": "regio's",
           "article": "de"
         }
       },
@@ -979,19 +814,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "relatie",
-            "relatie",
-            "de relatie",
-            "de relatie"
-          ],
-          "plural": [
-            "relaties",
-            "relaties",
-            "de relaties",
-            "de relaties"
-          ],
-          "gender": "de",
+          "singular": "relatie",
+          "plural": "relaties",
           "article": "de"
         }
       },
@@ -1021,19 +845,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "religie",
-            "religie",
-            "de religie",
-            "de religie"
-          ],
-          "plural": [
-            "religies",
-            "religies",
-            "de religies",
-            "de religies"
-          ],
-          "gender": "de",
+          "singular": "religie",
+          "plural": "religies",
           "article": "de"
         }
       },
@@ -1063,19 +876,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "rem",
-            "rem",
-            "de rem",
-            "de rem"
-          ],
-          "plural": [
-            "remmen",
-            "remmen",
-            "de remmen",
-            "de remmen"
-          ],
-          "gender": "de",
+          "singular": "rem",
+          "plural": "remmen",
           "article": "de"
         }
       },
@@ -1105,19 +907,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "rente",
-            "rente",
-            "de rente",
-            "de rente"
-          ],
-          "plural": [
-            "rentes",
-            "rentes",
-            "de rentes",
-            "de rentes"
-          ],
-          "gender": "de",
+          "singular": "rente",
+          "plural": "rentes",
           "article": "de"
         }
       },
@@ -1147,19 +938,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "reparatie",
-            "reparatie",
-            "de reparatie",
-            "de reparatie"
-          ],
-          "plural": [
-            "reparaties",
-            "reparaties",
-            "de reparaties",
-            "de reparaties"
-          ],
-          "gender": "de",
+          "singular": "reparatie",
+          "plural": "reparaties",
           "article": "de"
         }
       },
@@ -1233,19 +1013,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "reserve",
-            "reserve",
-            "de reserve",
-            "de reserve"
-          ],
-          "plural": [
-            "reserves",
-            "reserves",
-            "de reserves",
-            "de reserves"
-          ],
-          "gender": "de",
+          "singular": "reserve",
+          "plural": "reserves",
           "article": "de"
         }
       },
@@ -1275,19 +1044,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "respect",
-            "respect",
-            "het respect",
-            "het respect"
-          ],
-          "plural": [
-            "-",
-            "-",
-            "-",
-            "-"
-          ],
-          "gender": "het",
+          "singular": "respect",
+          "plural": "-",
           "article": "het"
         }
       },
@@ -1317,19 +1075,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "resultaat",
-            "resultaat",
-            "het resultaat",
-            "het resultaat"
-          ],
-          "plural": [
-            "resultaten",
-            "resultaten",
-            "de resultaten",
-            "de resultaten"
-          ],
-          "gender": "het",
+          "singular": "resultaat",
+          "plural": "resultaten",
           "article": "het"
         }
       },
@@ -1359,19 +1106,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "reus",
-            "reus",
-            "de reus",
-            "de reus"
-          ],
-          "plural": [
-            "reuzen",
-            "reuzen",
-            "de reuzen",
-            "de reuzen"
-          ],
-          "gender": "de",
+          "singular": "reus",
+          "plural": "reuzen",
           "article": "de"
         }
       },
@@ -1401,19 +1137,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "richting",
-            "richting",
-            "de richting",
-            "de richting"
-          ],
-          "plural": [
-            "richtingen",
-            "richtingen",
-            "de richtingen",
-            "de richtingen"
-          ],
-          "gender": "de",
+          "singular": "richting",
+          "plural": "richtingen",
           "article": "de"
         }
       },
@@ -1443,19 +1168,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "rij",
-            "rij",
-            "de rij",
-            "de rij"
-          ],
-          "plural": [
-            "rijen",
-            "rijen",
-            "de rijen",
-            "de rijen"
-          ],
-          "gender": "de",
+          "singular": "rij",
+          "plural": "rijen",
           "article": "de"
         }
       },
@@ -1485,19 +1199,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "rijbewijs",
-            "rijbewijs",
-            "het rijbewijs",
-            "het rijbewijs"
-          ],
-          "plural": [
-            "-",
-            "-",
-            "-",
-            "-"
-          ],
-          "gender": "het",
+          "singular": "rijbewijs",
+          "plural": "-",
           "article": "het"
         }
       },
@@ -1527,19 +1230,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "risico",
-            "risico",
-            "het risico",
-            "het risico"
-          ],
-          "plural": [
-            "risico's",
-            "risico's",
-            "de risico's",
-            "de risico's"
-          ],
-          "gender": "het",
+          "singular": "risico",
+          "plural": "risico's",
           "article": "het"
         }
       },
@@ -1569,19 +1261,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "rivier",
-            "rivier",
-            "de rivier",
-            "de rivier"
-          ],
-          "plural": [
-            "rivieren",
-            "rivieren",
-            "de rivieren",
-            "de rivieren"
-          ],
-          "gender": "de",
+          "singular": "rivier",
+          "plural": "rivieren",
           "article": "de"
         }
       },
@@ -1611,19 +1292,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "ruimte",
-            "ruimte",
-            "de ruimte",
-            "de ruimte"
-          ],
-          "plural": [
-            "ruimtes",
-            "ruimtes",
-            "de ruimtes",
-            "de ruimtes"
-          ],
-          "gender": "de",
+          "singular": "ruimte",
+          "plural": "ruimtes",
           "article": "de"
         }
       },
@@ -1653,19 +1323,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "rug",
-            "rug",
-            "de rug",
-            "de rug"
-          ],
-          "plural": [
-            "ruggen",
-            "ruggen",
-            "de ruggen",
-            "de ruggen"
-          ],
-          "gender": "de",
+          "singular": "rug",
+          "plural": "ruggen",
           "article": "de"
         }
       },
@@ -1739,19 +1398,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "rust",
-            "rust",
-            "de rust",
-            "de rust"
-          ],
-          "plural": [
-            "-",
-            "-",
-            "-",
-            "-"
-          ],
-          "gender": "de",
+          "singular": "rust",
+          "plural": "-",
           "article": "de"
         }
       },
@@ -1825,19 +1473,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "ruzie",
-            "ruzie",
-            "de ruzie",
-            "de ruzie"
-          ],
-          "plural": [
-            "ruzies",
-            "ruzies",
-            "de ruzies",
-            "de ruzies"
-          ],
-          "gender": "de",
+          "singular": "ruzie",
+          "plural": "ruzies",
           "article": "de"
         }
       },
@@ -1867,19 +1504,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "salaris",
-            "salaris",
-            "het salaris",
-            "het salaris"
-          ],
-          "plural": [
-            "salarissen",
-            "salarissen",
-            "de salarissen",
-            "de salarissen"
-          ],
-          "gender": "het",
+          "singular": "salaris",
+          "plural": "salarissen",
           "article": "het"
         }
       },
@@ -1934,19 +1560,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "samenleving",
-            "samenleving",
-            "de samenleving",
-            "de samenleving"
-          ],
-          "plural": [
-            "samenlevingen",
-            "samenlevingen",
-            "de samenlevingen",
-            "de samenlevingen"
-          ],
-          "gender": "de",
+          "singular": "samenleving",
+          "plural": "samenlevingen",
           "article": "de"
         }
       },
@@ -1976,19 +1591,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "singular": [
-            "schema",
-            "schema",
-            "het schema",
-            "het schema"
-          ],
-          "plural": [
-            "schema's",
-            "schema's",
-            "de schema's",
-            "de schema's"
-          ],
-          "gender": "het",
+          "singular": "schema",
+          "plural": "schema's",
           "article": "het"
         }
       },

@@ -2,53 +2,8 @@
   "id": "lB103",
   "level": "B1",
   "lessonNumber": 3,
-  "totalWords": 21,
+  "totalWords": 20,
   "words": [
-    {
-      "id": 1403,
-      "word": "belasten",
-      "translation": {
-        "chinese": "负担、征税",
-        "english": "to burden, to tax"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "belasten",
-          "isSeparable": false,
-          "present": {
-            "ik": "belast",
-            "jij": "belast",
-            "hij": "belast",
-            "wij": "belasten",
-            "jullie": "belasten",
-            "zij": "belasten"
-          },
-          "past": {
-            "singular": "belastte",
-            "plural": "belastten"
-          },
-          "pastParticiple": "belast",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "De kosten belasten ons.",
-        "Hij belast het bedrijf."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "费用给我们带来负担。",
-          "他给公司增加负担。"
-        ],
-        "english": [
-          "The costs burden us.",
-          "He burdens the company."
-        ]
-      },
-      "notes": "原形 is lasten，belasten 是加强语气的形式",
-      "difficulty": "B1"
-    },
     {
       "id": 1404,
       "word": "belasting",
@@ -126,8 +81,7 @@
       "forms": {
         "noun": {
           "article": "het",
-          "singular": "beleid",
-          "plural": []
+          "singular": "beleid"
         }
       },
       "examples": [
