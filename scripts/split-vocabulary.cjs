@@ -26,7 +26,7 @@ words.forEach(word => {
 // 每个级别的配置
 const config = {
   a1: { wordsPerLesson: 50, startLessonId: 1 },
-  a2: { wordsPerLesson: 4, startLessonId: 1 },
+  a2: { wordsPerLesson: 50, startLessonId: 1 },
   b1: { wordsPerLesson: 4, startLessonId: 1 },
   b2: { wordsPerLesson: 1, startLessonId: 1 },
   c2: { wordsPerLesson: 1, startLessonId: 1 }

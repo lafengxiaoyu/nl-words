@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { Word } from '../data/words'
 import { words } from '../data/words'
@@ -288,6 +289,14 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     return typeof value === 'string' ? value : key
   }
 
+  // 获取用于排序的词性（如果是数组，取第一个）
+  const getPartOfSpeechForSort = (partOfSpeech: string | string[]): string => {
+    if (Array.isArray(partOfSpeech)) {
+      return partOfSpeech[0]
+    }
+    return partOfSpeech
+  }
+
   // 过滤单词
   const filteredWords = wordList.filter(word => {
     // 搜索过滤
@@ -300,8 +309,9 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     // 词性过滤
     const matchesPartOfSpeech =
       selectedPartOfSpeech === 'all' ||
-      (selectedPartOfSpeech === 'other' && otherPartsOfSpeech.includes(word.partOfSpeech)) ||
-      word.partOfSpeech === selectedPartOfSpeech
+      (selectedPartOfSpeech === 'other' &&
+        (typeof word.partOfSpeech === 'string' ? otherPartsOfSpeech.includes(word.partOfSpeech) : word.partOfSpeech.some(pos => otherPartsOfSpeech.includes(pos)))) ||
+      (typeof word.partOfSpeech === 'string' ? word.partOfSpeech === selectedPartOfSpeech : word.partOfSpeech.includes(selectedPartOfSpeech))
 
     // 难度过滤
     const matchesDifficulty = selectedDifficulty === 'all' || word.difficulty === selectedDifficulty
@@ -318,7 +328,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
         comparison = a.translation[languageMode].localeCompare(b.translation[languageMode])
         break
       case 'partOfSpeech':
-        comparison = a.partOfSpeech.localeCompare(b.partOfSpeech)
+        comparison = getPartOfSpeechForSort(a.partOfSpeech).localeCompare(getPartOfSpeechForSort(b.partOfSpeech))
         break
       case 'difficulty':
         comparison = a.difficulty.localeCompare(b.difficulty)
@@ -332,8 +342,14 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [currentPage, setCurrentPage] = useState(1)
 
   // 获取所有唯一的词性
-  const otherPartsOfSpeech: string[] = ['determiner', 'numeral', 'phrase', 'other']
-  const allPartsOfSpeech: string[] = Array.from(new Set(words.map(w => w.partOfSpeech))).sort()
+  const otherPartsOfSpeech: string[] = ['determiner', 'numeral', 'phrase']
+  const allPartsOfSpeech: string[] = Array.from(
+    new Set(
+      words.flatMap(w =>
+        Array.isArray(w.partOfSpeech) ? w.partOfSpeech : [w.partOfSpeech]
+      )
+    )
+  ).sort()
 
   // 获取所有唯一的难度
   const allDifficulties = Array.from(new Set(words.map(w => w.difficulty))).sort()
@@ -573,9 +589,18 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                         </span>
                       </td>
                       <td className="pos-col">
-                        <span className={`pos-tag pos-${word.partOfSpeech}`}>
-                          {getTranslation(word.partOfSpeech)}
-                        </span>
+                        {Array.isArray(word.partOfSpeech)
+                          ? word.partOfSpeech.map((pos, idx) => (
+                              <React.Fragment key={idx}>
+                                {idx > 0 && <span className="pos-separator"> </span>}
+                                <span className={`pos-tag pos-${pos}`}>
+                                  {getTranslation(pos)}
+                                </span>
+                              </React.Fragment>
+                            ))
+                          : <span className={`pos-tag pos-${word.partOfSpeech}`}>
+                              {getTranslation(word.partOfSpeech)}
+                            </span>}
                       </td>
                       <td className="difficulty-col">
                         <span className={`difficulty-tag difficulty-${word.difficulty}`}>
