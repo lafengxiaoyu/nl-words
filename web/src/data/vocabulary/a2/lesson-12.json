@@ -1,0 +1,2169 @@
+{
+  "id": "lA212",
+  "level": "A2",
+  "lessonNumber": 12,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 1194,
+      "word": "vakkracht",
+      "translation": {
+        "chinese": "专业人员",
+        "english": "professional, specialist"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "vakkracht",
+            "de vakkracht",
+            "de vakkracht",
+            "de vakkracht"
+          ],
+          "plural": [
+            "vakkrachten",
+            "de vakkrachten",
+            "de vakkrachten",
+            "de vakkrachten"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij is een vakkracht.",
+        "We hebben vakkrachten nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是专业人员。",
+          "我们需要专业人员。"
+        ],
+        "english": [
+          "He is a professional.",
+          "We need professionals."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1195,
+      "word": "val",
+      "translation": {
+        "chinese": "瀑布,陷阱,跌落",
+        "english": "waterfall, trap, fall"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "val",
+            "de val",
+            "de val",
+            "de val"
+          ],
+          "plural": [
+            "vallen",
+            "de vallen",
+            "de vallen",
+            "de vallen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De val is hoog.",
+        "Pas op dat je niet valt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "瀑布很高。",
+          "小心别跌倒。"
+        ],
+        "english": [
+          "The waterfall is high.",
+          "Watch out that you don't fall."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1196,
+      "word": "vaststellen",
+      "translation": {
+        "chinese": "确定,制定",
+        "english": "to determine, to establish"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vaststellen",
+          "present": [
+            "stel vast",
+            "stelt vast",
+            "stelt vast",
+            "stellen vast",
+            "stellen vast",
+            "stellen vast"
+          ],
+          "past": [
+            "stelde vast",
+            "stelde vast",
+            "stelde vast",
+            "stelden vast",
+            "stelden vast",
+            "stelden vast"
+          ],
+          "participle": "vastgesteld"
+        }
+      },
+      "examples": [
+        "We stellen de datum vast.",
+        "De oorzaak is vastgesteld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们要确定日期。",
+          "原因已经确定。"
+        ],
+        "english": [
+          "We determine the date.",
+          "The cause has been established."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1197,
+      "word": "vat",
+      "translation": {
+        "chinese": "桶,容器",
+        "english": "barrel, container"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "vat",
+            "het vat",
+            "het vat",
+            "het vat"
+          ],
+          "plural": [
+            "vaten",
+            "de vaten",
+            "de vaten",
+            "de vaten"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het vat is leeg.",
+        "Giet het in het vat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "桶是空的。",
+          "把它倒进桶里。"
+        ],
+        "english": [
+          "The barrel is empty.",
+          "Pour it into the barrel."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1198,
+      "word": "vechten",
+      "translation": {
+        "chinese": "战斗,打架",
+        "english": "to fight"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vechten",
+          "present": [
+            "vecht",
+            "vecht",
+            "vecht",
+            "vechten",
+            "vechten",
+            "vechten"
+          ],
+          "past": [
+            "vocht",
+            "vocht",
+            "vocht",
+            "vochten",
+            "vochten",
+            "vochten"
+          ],
+          "participle": "gevochten"
+        }
+      },
+      "examples": [
+        "Ze vechten voor hun rechten.",
+        "Ik wil niet vechten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他们为权利而战。",
+          "我不想打架。"
+        ],
+        "english": [
+          "They fight for their rights.",
+          "I don't want to fight."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1199,
+      "word": "veiligheid",
+      "translation": {
+        "chinese": "安全",
+        "english": "safety"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "veiligheid",
+            "de veiligheid",
+            "de veiligheid",
+            "de veiligheid"
+          ],
+          "plural": [],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Veiligheid eerst.",
+        "De veiligheid is gewaarborgd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "安全第一。",
+          "安全得到保障。"
+        ],
+        "english": [
+          "Safety first.",
+          "Safety is guaranteed."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1200,
+      "word": "vel",
+      "translation": {
+        "chinese": "皮革,皮肤",
+        "english": "leather, skin"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "vel",
+            "het vel",
+            "het vel",
+            "het vel"
+          ],
+          "plural": [
+            "vellen",
+            "de vellen",
+            "de vellen",
+            "de vellen"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het vel is zacht.",
+        "Dit is van echt vel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "皮革很柔软。",
+          "这是真皮的。"
+        ],
+        "english": [
+          "The leather is soft.",
+          "This is real leather."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1201,
+      "word": "veld",
+      "translation": {
+        "chinese": "田野,领域",
+        "english": "field"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "veld",
+            "het veld",
+            "het veld",
+            "het veld"
+          ],
+          "plural": [
+            "velden",
+            "de velden",
+            "de velden",
+            "de velden"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het veld is groen.",
+        "We spelen op het veld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "田野是绿色的。",
+          "我们在场上玩。"
+        ],
+        "english": [
+          "The field is green.",
+          "We play on the field."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1202,
+      "word": "venster",
+      "translation": {
+        "chinese": "窗户",
+        "english": "window"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "venster",
+            "het venster",
+            "het venster",
+            "het venster"
+          ],
+          "plural": [
+            "vensters",
+            "de vensters",
+            "de vensters",
+            "de vensters"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het venster is open.",
+        "Open het venster."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "窗户是开着的。",
+          "打开窗户。"
+        ],
+        "english": [
+          "The window is open.",
+          "Open the window."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1203,
+      "word": "verandering",
+      "translation": {
+        "chinese": "变化,改变",
+        "english": "change"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verandering",
+            "de verandering",
+            "de verandering",
+            "de verandering"
+          ],
+          "plural": [
+            "veranderingen",
+            "de veranderingen",
+            "de veranderingen",
+            "de veranderingen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er is een verandering nodig.",
+        "De verandering is duidelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "需要改变。",
+          "变化很明显。"
+        ],
+        "english": [
+          "A change is needed.",
+          "The change is clear."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1204,
+      "word": "verantwoordelijk",
+      "translation": {
+        "chinese": "负责的",
+        "english": "responsible"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "indefinite": [
+            "verantwoordelijk",
+            "verantwoordelijke",
+            "verantwoordelijk",
+            "verantwoordelijke"
+          ],
+          "definite": [
+            "verantwoordelijke",
+            "verantwoordelijke",
+            "verantwoordelijke",
+            "verantwoordelijke"
+          ],
+          "comparison": [],
+          "participle": ""
+        }
+      },
+      "examples": [
+        "Ik ben verantwoordelijk.",
+        "Hij is een verantwoordelijke leider."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我是负责的。",
+          "他是一个负责任的领导者。"
+        ],
+        "english": [
+          "I am responsible.",
+          "He is a responsible leader."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1205,
+      "word": "verbaasd",
+      "translation": {
+        "chinese": "惊讶的",
+        "english": "surprised"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "indefinite": [
+            "verbaasd",
+            "verbaasde",
+            "verbaasd",
+            "verbaasde"
+          ],
+          "definite": [
+            "verbaasde",
+            "verbaasde",
+            "verbaasde",
+            "verbaasde"
+          ],
+          "comparison": [],
+          "participle": "verbaasd"
+        }
+      },
+      "examples": [
+        "Ik ben verbaasd.",
+        "Ze kijkt verbaasd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我很惊讶。",
+          "她看起来很惊讶。"
+        ],
+        "english": [
+          "I am surprised.",
+          "She looks surprised."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1206,
+      "word": "verband",
+      "translation": {
+        "chinese": "绷带,关联",
+        "english": "bandage, connection"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verband",
+            "het verband",
+            "het verband",
+            "het verband"
+          ],
+          "plural": [
+            "verbanden",
+            "de verbanden",
+            "de verbanden",
+            "de verbanden"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Hij heeft een verband.",
+        "Er is een verband tussen de twee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他有个绷带。",
+          "两者之间有关联。"
+        ],
+        "english": [
+          "He has a bandage.",
+          "There is a connection between the two."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1207,
+      "word": "verbeteren",
+      "translation": {
+        "chinese": "改善,改进",
+        "english": "to improve"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verbeteren",
+          "present": [
+            "verbeter",
+            "verbetert",
+            "verbetert",
+            "verbeteren",
+            "verbeteren",
+            "verbeteren"
+          ],
+          "past": [
+            "verbeterde",
+            "verbeterde",
+            "verbeterde",
+            "verbeterden",
+            "verbeterden",
+            "verbeterden"
+          ],
+          "participle": "verbeterd"
+        }
+      },
+      "examples": [
+        "We moeten het verbeteren.",
+        "De situatie verbetert."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们需要改进它。",
+          "情况在改善。"
+        ],
+        "english": [
+          "We need to improve it.",
+          "The situation is improving."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1208,
+      "word": "verbieden",
+      "translation": {
+        "chinese": "禁止",
+        "english": "to forbid, to ban"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verbieden",
+          "present": [
+            "verbied",
+            "verbiedt",
+            "verbiedt",
+            "verbieden",
+            "verbieden",
+            "verbieden"
+          ],
+          "past": [
+            "verbood",
+            "verbood",
+            "verbood",
+            "verbooden",
+            "verbooden",
+            "verbooden"
+          ],
+          "participle": "verboden"
+        }
+      },
+      "examples": [
+        "Het is verboden.",
+        "Ze verbieden roken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是禁止的。",
+          "他们禁止吸烟。"
+        ],
+        "english": [
+          "It is forbidden.",
+          "They ban smoking."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1209,
+      "word": "verbinding",
+      "translation": {
+        "chinese": "连接,关系",
+        "english": "connection, relationship"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verbinding",
+            "de verbinding",
+            "de verbinding",
+            "de verbinding"
+          ],
+          "plural": [
+            "verbindingen",
+            "de verbindingen",
+            "de verbindingen",
+            "de verbindingen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De verbinding is slecht.",
+        "Er is een goede verbinding tussen ons."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "连接很差。",
+          "我们之间关系很好。"
+        ],
+        "english": [
+          "The connection is bad.",
+          "There is a good connection between us."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1210,
+      "word": "verblijf",
+      "translation": {
+        "chinese": "逗留,住所",
+        "english": "stay, residence"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verblijf",
+            "het verblijf",
+            "het verblijf",
+            "het verblijf"
+          ],
+          "plural": [],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het verblijf was prettig.",
+        "Tijdens zijn verblijf in Nederland."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "逗留很愉快。",
+          "他在荷兰逗留期间。"
+        ],
+        "english": [
+          "The stay was pleasant.",
+          "During his stay in the Netherlands."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1211,
+      "word": "verbouwen",
+      "translation": {
+        "chinese": "改建,耕作",
+        "english": "to renovate, to cultivate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verbouwen",
+          "present": [
+            "bouw ... om",
+            "bouwt ... om",
+            "bouwt ... om",
+            "bouwen ... om",
+            "bouwen ... om",
+            "bouwen ... om"
+          ],
+          "past": [
+            "bouwde ... om",
+            "bouwde ... om",
+            "bouwde ... om",
+            "bouwden ... om",
+            "bouwden ... om",
+            "bouwden ... om"
+          ],
+          "participle": "verbouwd"
+        }
+      },
+      "examples": [
+        "We gaan het huis verbouwen.",
+        "Hij verbouwt het land."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们要改建房子。",
+          "他耕种这块地。"
+        ],
+        "english": [
+          "We are going to renovate the house.",
+          "He cultivates the land."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1212,
+      "word": "verbruik",
+      "translation": {
+        "chinese": "消耗,使用量",
+        "english": "consumption, usage"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verbruik",
+            "het verbruik",
+            "het verbruik",
+            "het verbruik"
+          ],
+          "plural": [],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het verbruik is hoog.",
+        "Energieverbruik verminderen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "消耗量很高。",
+          "减少能源消耗。"
+        ],
+        "english": [
+          "Consumption is high.",
+          "Reduce energy consumption."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1213,
+      "word": "verdagaan",
+      "translation": {
+        "chinese": "延期",
+        "english": "to postpone"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verdagaan",
+          "present": [
+            "dag uit",
+            "daagt uit",
+            "daagt uit",
+            "dagen uit",
+            "dagen uit",
+            "dagen uit"
+          ],
+          "past": [
+            "daagde uit",
+            "daagde uit",
+            "daagde uit",
+            "daagden uit",
+            "daagden uit",
+            "daagden uit"
+          ],
+          "participle": "uitgedaagd"
+        }
+      },
+      "examples": [
+        "We moeten de meeting verdagen.",
+        "Het besluit is verdagen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们需要延期会议。",
+          "决定已延期。"
+        ],
+        "english": [
+          "We have to postpone the meeting.",
+          "The decision has been postponed."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1214,
+      "word": "verdelen",
+      "translation": {
+        "chinese": "分配,分享",
+        "english": "to divide, to share"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verdelen",
+          "present": [
+            "deel",
+            "deelt",
+            "deelt",
+            "delen",
+            "delen",
+            "delen"
+          ],
+          "past": [
+            "deelde",
+            "deelde",
+            "deelde",
+            "deelden",
+            "deelden",
+            "deelden"
+          ],
+          "participle": "verdeeld"
+        }
+      },
+      "examples": [
+        "Verdeel het geld.",
+        "We delen de taken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "分配这笔钱。",
+          "我们分担任务。"
+        ],
+        "english": [
+          "Divide the money.",
+          "We share the tasks."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1215,
+      "word": "verdienen",
+      "translation": {
+        "chinese": "赚取,值得",
+        "english": "to earn, to deserve"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verdienen",
+          "present": [
+            "verdien",
+            "verdiend",
+            "verdiend",
+            "verdienen",
+            "verdienen",
+            "verdienen"
+          ],
+          "past": [
+            "verdiende",
+            "verdiende",
+            "verdiende",
+            "verdienden",
+            "verdienden",
+            "verdienden"
+          ],
+          "participle": "verdiend"
+        }
+      },
+      "examples": [
+        "Ik verdien goed geld.",
+        "Hij verdient een prijs."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我赚很多钱。",
+          "他值得一个奖。"
+        ],
+        "english": [
+          "I earn good money.",
+          "He deserves a prize."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1216,
+      "word": "verdriet",
+      "translation": {
+        "chinese": "悲伤,忧愁",
+        "english": "sadness, sorrow"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verdriet",
+            "het verdriet",
+            "het verdriet",
+            "het verdriet"
+          ],
+          "plural": [],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Ik heb verdriet.",
+        "Ze toont haar verdriet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我很悲伤。",
+          "她表达了她的悲伤。"
+        ],
+        "english": [
+          "I am sad.",
+          "She shows her sadness."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1217,
+      "word": "verdragen",
+      "translation": {
+        "chinese": "忍受,容忍",
+        "english": "to tolerate, to bear"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verdragen",
+          "present": [
+            "draag",
+            "draagt",
+            "draagt",
+            "dragen",
+            "dragen",
+            "dragen"
+          ],
+          "past": [
+            "droeg",
+            "droeg",
+            "droeg",
+            "droegen",
+            "droegen",
+            "droegen"
+          ],
+          "participle": "verdragen"
+        }
+      },
+      "examples": [
+        "Ik kan het niet verdragen.",
+        "Ze verdraagt geen hitte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我无法忍受。",
+          "她无法忍受炎热。"
+        ],
+        "english": [
+          "I cannot tolerate it.",
+          "She cannot bear the heat."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1218,
+      "word": "verdwijnen",
+      "translation": {
+        "chinese": "消失",
+        "english": "to disappear"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verdwijnen",
+          "present": [
+            "verdween",
+            "verdween",
+            "verdween",
+            "verdwenen",
+            "verdwenen",
+            "verdwenen"
+          ],
+          "past": [
+            "verdween",
+            "verdween",
+            "verdween",
+            "verdwenen",
+            "verdwenen",
+            "verdwenen"
+          ],
+          "participle": "verdwenen"
+        }
+      },
+      "examples": [
+        "De zon verdwijnt.",
+        "Het probleem verdwijnt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "太阳消失了。",
+          "问题消失了。"
+        ],
+        "english": [
+          "The sun disappears.",
+          "The problem disappears."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1219,
+      "word": "vergadering",
+      "translation": {
+        "chinese": "会议",
+        "english": "meeting"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "vergadering",
+            "de vergadering",
+            "de vergadering",
+            "de vergadering"
+          ],
+          "plural": [
+            "vergaderingen",
+            "de vergaderingen",
+            "de vergaderingen",
+            "de vergaderingen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De vergadering begint om negen.",
+        "Ik heb een vergadering."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "会议九点开始。",
+          "我有一个会议。"
+        ],
+        "english": [
+          "The meeting starts at nine.",
+          "I have a meeting."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1220,
+      "word": "vergelijken",
+      "translation": {
+        "chinese": "比较",
+        "english": "to compare"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vergelijken",
+          "present": [
+            "vergelijk",
+            "vergelijkt",
+            "vergelijkt",
+            "vergelijken",
+            "vergelijken",
+            "vergelijken"
+          ],
+          "past": [
+            "vergeleek",
+            "vergeleek",
+            "vergeleek",
+            "vergeleken",
+            "vergeleken",
+            "vergeleken"
+          ],
+          "participle": "vergeleken"
+        }
+      },
+      "examples": [
+        "Vergelijk de prijzen.",
+        "We kunnen het niet vergelijken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "比较价格。",
+          "我们无法比较它。"
+        ],
+        "english": [
+          "Compare the prices.",
+          "We cannot compare it."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1221,
+      "word": "vergeten",
+      "translation": {
+        "chinese": "忘记",
+        "english": "to forget"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vergeten",
+          "present": [
+            "vergeet",
+            "vergeet",
+            "vergeet",
+            "vergeten",
+            "vergeten",
+            "vergeten"
+          ],
+          "past": [
+            "vergeet",
+            "vergeet",
+            "vergeet",
+            "vergeeten",
+            "vergeeten",
+            "vergeeten"
+          ],
+          "participle": "vergeten"
+        }
+      },
+      "examples": [
+        "Ik ben het vergeten.",
+        "Vergeet niet te bellen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我忘记了。",
+          "别忘了打电话。"
+        ],
+        "english": [
+          "I forgot it.",
+          "Don't forget to call."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1222,
+      "word": "vergeven",
+      "translation": {
+        "chinese": "原谅",
+        "english": "to forgive"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vergeven",
+          "present": [
+            "vergeef",
+            "vergeeft",
+            "vergeeft",
+            "vergeven",
+            "vergeven",
+            "vergeven"
+          ],
+          "past": [
+            "vergaf",
+            "vergaf",
+            "vergaf",
+            "vergaven",
+            "vergaven",
+            "vergaven"
+          ],
+          "participle": "vergeven"
+        }
+      },
+      "examples": [
+        "Ik wil het je vergeven.",
+        "Ze vergeeft hem nooit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我想原谅你。",
+          "她永远不会原谅他。"
+        ],
+        "english": [
+          "I want to forgive you.",
+          "She never forgives him."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1223,
+      "word": "verhoging",
+      "translation": {
+        "chinese": "增加,提高",
+        "english": "increase, raise"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verhoging",
+            "de verhoging",
+            "de verhoging",
+            "de verhoging"
+          ],
+          "plural": [
+            "verhogingen",
+            "de verhogingen",
+            "de verhogingen",
+            "de verhogingen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er is een verhoging in de prijs.",
+        "De verhoging is onverwacht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "价格上涨了。",
+          "上涨出乎意料。"
+        ],
+        "english": [
+          "There is an increase in price.",
+          "The increase is unexpected."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1224,
+      "word": "verhuizen",
+      "translation": {
+        "chinese": "搬家",
+        "english": "to move house"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verhuizen",
+          "present": [
+            "verhuis",
+            "verhuist",
+            "verhuist",
+            "verhuizen",
+            "verhuizen",
+            "verhuizen"
+          ],
+          "past": [
+            "verhuisde",
+            "verhuisde",
+            "verhuisde",
+            "verhuisden",
+            "verhuisden",
+            "verhuisden"
+          ],
+          "participle": "verhuisd"
+        }
+      },
+      "examples": [
+        "We gaan verhuizen.",
+        "Wanneer ga je verhuizen?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们要搬家了。",
+          "你什么时候搬家?"
+        ],
+        "english": [
+          "We are going to move.",
+          "When are you moving?"
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1225,
+      "word": "verkeer",
+      "translation": {
+        "chinese": "交通,往来",
+        "english": "traffic"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verkeer",
+            "het verkeer",
+            "het verkeer",
+            "het verkeer"
+          ],
+          "plural": [],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het verkeer is druk.",
+        "Pas op in het verkeer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "交通很拥堵。",
+          "在交通中要小心。"
+        ],
+        "english": [
+          "Traffic is busy.",
+          "Watch out in traffic."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1226,
+      "word": "verkoop",
+      "translation": {
+        "chinese": "销售,出售",
+        "english": "sale"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verkoop",
+            "de verkoop",
+            "de verkoop",
+            "de verkoop"
+          ],
+          "plural": [
+            "verkopen",
+            "de verkopen",
+            "de verkopen",
+            "de verkopen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De verkoop gaat goed.",
+        "Het huis is in de verkoop."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "销售很好。",
+          "房子正在出售。"
+        ],
+        "english": [
+          "Sales are going well.",
+          "The house is for sale."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1227,
+      "word": "verkoudheid",
+      "translation": {
+        "chinese": "感冒",
+        "english": "cold"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verkoudheid",
+            "de verkoudheid",
+            "de verkoudheid",
+            "de verkoudheid"
+          ],
+          "plural": [
+            "verkoudheden",
+            "de verkoudheden",
+            "de verkoudheden",
+            "de verkoudheden"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik heb een verkoudheid.",
+        "Ze heeft een zware verkoudheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我感冒了。",
+          "她得了重感冒。"
+        ],
+        "english": [
+          "I have a cold.",
+          "She has a bad cold."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1228,
+      "word": "verlaten",
+      "translation": {
+        "chinese": "离开,抛弃",
+        "english": "to leave, to abandon"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verlaten",
+          "present": [
+            "verlaat",
+            "verlaat",
+            "verlaat",
+            "verlaten",
+            "verlaten",
+            "verlaten"
+          ],
+          "past": [
+            "verliet",
+            "verliet",
+            "verliet",
+            "verlieten",
+            "verlieten",
+            "verlieten"
+          ],
+          "participle": "verlaten"
+        }
+      },
+      "examples": [
+        "Ik moet het huis verlaten.",
+        "Hij verliet de stad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我必须离开房子。",
+          "他离开了城市。"
+        ],
+        "english": [
+          "I must leave the house.",
+          "He left the city."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1229,
+      "word": "verleden",
+      "translation": {
+        "chinese": "过去",
+        "english": "past"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verleden",
+            "het verleden",
+            "het verleden",
+            "het verleden"
+          ],
+          "plural": [],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "In het verleden was het anders.",
+        "Laat het verleden rusten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "过去不一样。",
+          "让过去过去吧。"
+        ],
+        "english": [
+          "In the past it was different.",
+          "Let the past rest."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1230,
+      "word": "verlengen",
+      "translation": {
+        "chinese": "延长,扩展",
+        "english": "to extend, to prolong"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verlengen",
+          "present": [
+            "verleng",
+            "verlengt",
+            "verlengt",
+            "verlengen",
+            "verlengen",
+            "verlengen"
+          ],
+          "past": [
+            "verlengde",
+            "verlengde",
+            "verlengde",
+            "verlengden",
+            "verlengden",
+            "verlengden"
+          ],
+          "participle": "verlengd"
+        }
+      },
+      "examples": [
+        "We moeten het contract verlengen.",
+        "De weg wordt verlengd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们需要延长合同。",
+          "道路在扩建。"
+        ],
+        "english": [
+          "We need to extend the contract.",
+          "The road is being extended."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1231,
+      "word": "verlies",
+      "translation": {
+        "chinese": "损失,失败",
+        "english": "loss"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verlies",
+            "het verlies",
+            "het verlies",
+            "het verlies"
+          ],
+          "plural": [
+            "verliezen",
+            "de verliezen",
+            "de verliezen",
+            "de verliezen"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het bedrijf heeft verlies geleden.",
+        "Verlies van tijd is spijtig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司遭受了损失。",
+          "浪费时间很可惜。"
+        ],
+        "english": [
+          "The company suffered a loss.",
+          "Loss of time is regrettable."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1232,
+      "word": "verloop",
+      "translation": {
+        "chinese": "过程,进展",
+        "english": "course, progress"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verloop",
+            "het verloop",
+            "het verloop",
+            "het verloop"
+          ],
+          "plural": [
+            "verlopen",
+            "de verlopen",
+            "de verlopen",
+            "de verlopen"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het verloop was goed.",
+        "Volg het verloop van de gebeurtenis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "进展顺利。",
+          "关注事件的进展。"
+        ],
+        "english": [
+          "The course was good.",
+          "Follow the progress of the event."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1233,
+      "word": "verloving",
+      "translation": {
+        "chinese": "订婚",
+        "english": "engagement"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verloving",
+            "de verloving",
+            "de verloving",
+            "de verloving"
+          ],
+          "plural": [
+            "verlovingen",
+            "de verlovingen",
+            "de verlovingen",
+            "de verlovingen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ze hebben hun verloving aangekondigd.",
+        "De verloving is gevierd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他们宣布了订婚。",
+          "订婚已庆祝。"
+        ],
+        "english": [
+          "They announced their engagement.",
+          "The engagement was celebrated."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1234,
+      "word": "vermijden",
+      "translation": {
+        "chinese": "避免",
+        "english": "to avoid"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vermijden",
+          "present": [
+            "vermijd",
+            "vermijd",
+            "vermijd",
+            "vermijden",
+            "vermijden",
+            "vermijden"
+          ],
+          "past": [
+            "vermeed",
+            "vermeed",
+            "vermeed",
+            "vermeden",
+            "vermeden",
+            "vermeden"
+          ],
+          "participle": "vermeden"
+        }
+      },
+      "examples": [
+        "Probeer conflicten te vermijden.",
+        "Ik vermijd dat restaurant."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "尽量避免冲突。",
+          "我避开那家餐厅。"
+        ],
+        "english": [
+          "Try to avoid conflicts.",
+          "I avoid that restaurant."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1235,
+      "word": "vermoeden",
+      "translation": {
+        "chinese": "怀疑,猜想",
+        "english": "to suspect"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vermoeden",
+          "present": [
+            "vermoed",
+            "vermoedt",
+            "vermoedt",
+            "vermoeden",
+            "vermoeden",
+            "vermoeden"
+          ],
+          "past": [
+            "vermoedde",
+            "vermoedde",
+            "vermoedde",
+            "vermoedden",
+            "vermoedden",
+            "vermoedden"
+          ],
+          "participle": "vermoed"
+        }
+      },
+      "examples": [
+        "Ik vermoed dat hij komt.",
+        "Ze vermoedt het ergste."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我猜他会来。",
+          "她怀疑最坏的情况。"
+        ],
+        "english": [
+          "I suspect that he will come.",
+          "She suspects the worst."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1236,
+      "word": "veroorzaken",
+      "translation": {
+        "chinese": "引起,导致",
+        "english": "to cause"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "veroorzaken",
+          "present": [
+            "veroorzaak",
+            "veroorzaakt",
+            "veroorzaakt",
+            "veroorzaken",
+            "veroorzaken",
+            "veroorzaken"
+          ],
+          "past": [
+            "veroorzaakte",
+            "veroorzaakte",
+            "veroorzaakte",
+            "veroorzaakten",
+            "veroorzaakten",
+            "veroorzaakten"
+          ],
+          "participle": "veroorzaakt"
+        }
+      },
+      "examples": [
+        "Het onweer veroorzaakt problemen.",
+        "Roken kan ziektes veroorzaken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "暴风雨引起问题。",
+          "吸烟可能导致疾病。"
+        ],
+        "english": [
+          "The thunderstorm causes problems.",
+          "Smoking can cause diseases."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1237,
+      "word": "verpakking",
+      "translation": {
+        "chinese": "包装",
+        "english": "packaging, package"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verpakking",
+            "de verpakking",
+            "de verpakking",
+            "de verpakking"
+          ],
+          "plural": [
+            "verpakkingen",
+            "de verpakkingen",
+            "de verpakkingen",
+            "de verpakkingen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De verpakking is kapot.",
+        "Wijzig de verpakking."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "包装坏了。",
+          "改变包装。"
+        ],
+        "english": [
+          "The packaging is broken.",
+          "Change the packaging."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1238,
+      "word": "verplichten",
+      "translation": {
+        "chinese": "强迫,使成为义务",
+        "english": "to oblige, to force"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verplichten",
+          "present": [
+            "verplicht",
+            "verplicht",
+            "verplicht",
+            "verplichten",
+            "verplichten",
+            "verplichten"
+          ],
+          "past": [
+            "verplichtte",
+            "verplichtte",
+            "verplichtte",
+            "verplichtten",
+            "verplichtten",
+            "verplichtten"
+          ],
+          "participle": "verplicht"
+        }
+      },
+      "examples": [
+        "Het verplicht me om te werken.",
+        "De wet verplicht het."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这强迫我工作。",
+          "法律要求这样。"
+        ],
+        "english": [
+          "It obliges me to work.",
+          "The law requires it."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1239,
+      "word": "verplicht",
+      "translation": {
+        "chinese": "强制的,必须的",
+        "english": "mandatory, compulsory"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "indefinite": [
+            "verplicht",
+            "verplichte",
+            "verplicht",
+            "verplichte"
+          ],
+          "definite": [
+            "verplichte",
+            "verplichte",
+            "verplichte",
+            "verplichte"
+          ],
+          "comparison": [],
+          "participle": "verplicht"
+        }
+      },
+      "examples": [
+        "Het is verplicht.",
+        "De les is verplicht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是强制的。",
+          "这节课是必修的。"
+        ],
+        "english": [
+          "It is mandatory.",
+          "The class is compulsory."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1240,
+      "word": "verre",
+      "translation": {
+        "chinese": "遥远的",
+        "english": "far, distant"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "indefinite": [
+            "ver",
+            "verre",
+            "ver",
+            "verre"
+          ],
+          "definite": [
+            "verre",
+            "verre",
+            "verre",
+            "verre"
+          ],
+          "comparison": [
+            "verder",
+            "verst"
+          ],
+          "participle": ""
+        }
+      },
+      "examples": [
+        "Het is een verre reis.",
+        "In de verre toekomst."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一次遥远的旅行。",
+          "在遥远的未来。"
+        ],
+        "english": [
+          "It is a distant journey.",
+          "In the distant future."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1241,
+      "word": "verrijken",
+      "translation": {
+        "chinese": "丰富,使富裕",
+        "english": "to enrich"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verrijken",
+          "present": [
+            "verrijk",
+            "verrijkt",
+            "verrijkt",
+            "verrijken",
+            "verrijken",
+            "verrijken"
+          ],
+          "past": [
+            "verrijkten",
+            "verrijkten",
+            "verrijkten",
+            "verrijkten",
+            "verrijkten",
+            "verrijkten"
+          ],
+          "participle": "verrijkt"
+        }
+      },
+      "examples": [
+        "Boeken verrijken het leven.",
+        "De ervaring verrijkt hem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "书籍丰富生活。",
+          "这段经历让他变得丰富。"
+        ],
+        "english": [
+          "Books enrich life.",
+          "The experience enriches him."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1242,
+      "word": "verschepen",
+      "translation": {
+        "chinese": "装运,运送",
+        "english": "to ship, to transport"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verschepen",
+          "present": [
+            "verscheep",
+            "verscheept",
+            "verscheept",
+            "verschepen",
+            "verschepen",
+            "verschepen"
+          ],
+          "past": [
+            "verscheepte",
+            "verscheepte",
+            "verscheepte",
+            "verscheepten",
+            "verscheepten",
+            "verscheepten"
+          ],
+          "participle": "verscheept"
+        }
+      },
+      "examples": [
+        "We verschepen de goederen.",
+        "Het pakket wordt verscheept."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们装运货物。",
+          "包裹正在运输中。"
+        ],
+        "english": [
+          "We ship the goods.",
+          "The package is being shipped."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1243,
+      "word": "verschil",
+      "translation": {
+        "chinese": "区别,差异",
+        "english": "difference"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "verschil",
+            "het verschil",
+            "het verschil",
+            "het verschil"
+          ],
+          "plural": [
+            "verschillen",
+            "de verschillen",
+            "de verschillen",
+            "de verschillen"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Er is een groot verschil.",
+        "Wat is het verschil?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "有很大的区别。",
+          "区别是什么?"
+        ],
+        "english": [
+          "There is a big difference.",
+          "What is the difference?"
+        ]
+      },
+      "difficulty": "A2"
+    }
+  ]
+}

@@ -1,0 +1,1701 @@
+{
+  "id": "lA204",
+  "level": "A2",
+  "lessonNumber": 4,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 794,
+      "word": "geschikt",
+      "translation": {
+        "chinese": "合适的",
+        "english": "suitable, appropriate"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "geschikt",
+          "withDe": "geschikte",
+          "withHet": "geschikt",
+          "comparative": null,
+          "superlative": null
+        }
+      },
+      "examples": [
+        "Dit is geschikt voor kinderen.",
+        "Hij is geschikt voor de baan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这适合儿童。",
+          "他适合这份工作。"
+        ],
+        "english": [
+          "This is suitable for children.",
+          "He is suitable for the job."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 795,
+      "word": "gesprek",
+      "translation": {
+        "chinese": "对话，谈话",
+        "english": "conversation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "gesprek",
+          "plural": "gesprekken"
+        }
+      },
+      "examples": [
+        "We hebben een gesprek.",
+        "Het gesprek was lang."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们要进行一次谈话。",
+          "谈话很长。"
+        ],
+        "english": [
+          "We have a conversation.",
+          "The conversation was long."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 796,
+      "word": "gevaar",
+      "translation": {
+        "chinese": "危险",
+        "english": "danger"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "gevaar",
+          "plural": "gevaren"
+        }
+      },
+      "examples": [
+        "Er is gevaar.",
+        "Het gevaar is voorbij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "有危险。",
+          "危险过去了。"
+        ],
+        "english": [
+          "There is danger.",
+          "The danger is over."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 797,
+      "word": "gevaarlijk",
+      "translation": {
+        "chinese": "危险的",
+        "english": "dangerous"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gevaarlijk",
+          "withDe": "gevaarlijke",
+          "withHet": "gevaarlijk",
+          "comparative": "gevaarlijker",
+          "superlative": "gevaarlijkst"
+        }
+      },
+      "examples": [
+        "Het is gevaarlijk.",
+        "De weg is gevaarlijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这很危险。",
+          "这条路很危险。"
+        ],
+        "english": [
+          "It is dangerous.",
+          "The road is dangerous."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 798,
+      "word": "gevoel",
+      "translation": {
+        "chinese": "感觉",
+        "english": "feeling"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "gevoel",
+          "plural": "gevoelens"
+        }
+      },
+      "examples": [
+        "Ik heb een goed gevoel.",
+        "Mijn gevoel is goed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有一种好的感觉。",
+          "我的感觉很好。"
+        ],
+        "english": [
+          "I have a good feeling.",
+          "My feeling is good."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 799,
+      "word": "gevolg",
+      "translation": {
+        "chinese": "结果，后果",
+        "english": "consequence, result"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "gevolg",
+          "plural": "gevolgen"
+        }
+      },
+      "examples": [
+        "Het gevolg is duidelijk.",
+        "Er zijn grote gevolgen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "结果很明显。",
+          "有很大后果。"
+        ],
+        "english": [
+          "The consequence is clear.",
+          "There are big consequences."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 800,
+      "word": "gewoon",
+      "translation": {
+        "chinese": "普通的，通常",
+        "english": "ordinary, normal, simply"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gewoon",
+          "withDe": "gewone",
+          "withHet": "gewoon",
+          "comparative": null,
+          "superlative": null
+        }
+      },
+      "examples": [
+        "Het is een gewone dag.",
+        "Ik wil gewoon gaan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是普通的一天。",
+          "我只是想去。"
+        ],
+        "english": [
+          "It is a normal day.",
+          "I simply want to go."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 801,
+      "word": "gezondheid",
+      "translation": {
+        "chinese": "健康",
+        "english": "health"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "gezondheid",
+          "plural": null
+        }
+      },
+      "examples": [
+        "Je gezondheid is belangrijk.",
+        "Zij let op haar gezondheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你的健康很重要。",
+          "她注意她的健康。"
+        ],
+        "english": [
+          "Your health is important.",
+          "She pays attention to her health."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 802,
+      "word": "gezocht",
+      "translation": {
+        "chinese": "寻找的",
+        "english": "wanted, searched"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gezocht",
+          "withDe": "gezochte",
+          "withHet": "gezocht",
+          "comparative": null,
+          "superlative": null
+        }
+      },
+      "examples": [
+        "Hij is gezocht door de politie.",
+        "De oplossing is gezocht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他被警方通缉。",
+          "解决方案被寻找。"
+        ],
+        "english": [
+          "He is wanted by the police.",
+          "The solution is sought."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 803,
+      "word": "glimlach",
+      "translation": {
+        "chinese": "微笑",
+        "english": "smile"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "glimlach",
+          "plural": "glimlachen"
+        }
+      },
+      "examples": [
+        "Ze heeft een mooie glimlach.",
+        "Een glimlach op haar gezicht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她有一个美丽的微笑。",
+          "她脸上的微笑。"
+        ],
+        "english": [
+          "She has a beautiful smile.",
+          "A smile on her face."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 804,
+      "word": "graad",
+      "translation": {
+        "chinese": "度，程度",
+        "english": "degree"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "graad",
+          "plural": "graden"
+        }
+      },
+      "examples": [
+        "Het is twintig graden.",
+        "In welke graad?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "气温二十度。",
+          "什么程度？"
+        ],
+        "english": [
+          "It is twenty degrees.",
+          "To what degree?"
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 805,
+      "word": "grappig",
+      "translation": {
+        "chinese": "有趣的",
+        "english": "funny, amusing"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "grappig",
+          "withDe": "grappige",
+          "withHet": "grappig",
+          "comparative": "grappiger",
+          "superlative": "grappigst"
+        }
+      },
+      "examples": [
+        "Hij is erg grappig.",
+        "Dat is een grappige film."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很有趣。",
+          "那是一部有趣的电影。"
+        ],
+        "english": [
+          "He is very funny.",
+          "That is a funny movie."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 806,
+      "word": "gras",
+      "translation": {
+        "chinese": "草",
+        "english": "grass"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "gras",
+          "plural": null
+        }
+      },
+      "examples": [
+        "Het gras is groen.",
+        "Het gras groeit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "草是绿色的。",
+          "草在生长。"
+        ],
+        "english": [
+          "The grass is green.",
+          "The grass grows."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 807,
+      "word": "grens",
+      "translation": {
+        "chinese": "边界",
+        "english": "border"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "grens",
+          "plural": "grenzen"
+        }
+      },
+      "examples": [
+        "We wonen bij de grens.",
+        "De grens is open."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们住在边界附近。",
+          "边境是开放的。"
+        ],
+        "english": [
+          "We live near the border.",
+          "The border is open."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 808,
+      "word": "griep",
+      "translation": {
+        "chinese": "流感",
+        "english": "flu"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "griep",
+          "plural": null
+        }
+      },
+      "examples": [
+        "Ik heb de griep.",
+        "De griep gaat rond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我得了流感。",
+          "流感正在传播。"
+        ],
+        "english": [
+          "I have the flu.",
+          "The flu is going around."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 809,
+      "word": "groeien",
+      "translation": {
+        "chinese": "生长",
+        "english": "to grow"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "groeien",
+          "present": {
+            "singular": [
+              "groe",
+              "groeit",
+              "groeit"
+            ],
+            "plural": "groeien"
+          },
+          "past": {
+            "singular": "groeide",
+            "plural": "groeiden"
+          },
+          "pastParticiple": "gegroeid",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Het kind groeit snel.",
+        "De plant groeit goed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "孩子长得很快。",
+          "植物长得很好。"
+        ],
+        "english": [
+          "The child grows fast.",
+          "The plant grows well."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 810,
+      "word": "groep",
+      "translation": {
+        "chinese": "组，群",
+        "english": "group"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "groep",
+          "plural": "groepen"
+        }
+      },
+      "examples": [
+        "Wij zijn een groep.",
+        "De groep is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们是一个小组。",
+          "这个组很大。"
+        ],
+        "english": [
+          "We are a group.",
+          "The group is large."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 811,
+      "word": "groeten",
+      "translation": {
+        "chinese": "问候",
+        "english": "to greet"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "groeten",
+          "present": {
+            "singular": [
+              "groet",
+              "groet",
+              "groet"
+            ],
+            "plural": "groeten"
+          },
+          "past": {
+            "singular": "groette",
+            "plural": "groetten"
+          },
+          "pastParticiple": "gegroet",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik groet mijn buurman.",
+        "Zij groet iedereen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我问候我的邻居。",
+          "她问候每个人。"
+        ],
+        "english": [
+          "I greet my neighbor.",
+          "She greets everyone."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 812,
+      "word": "grond",
+      "translation": {
+        "chinese": "地面，土地",
+        "english": "ground, land"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "grond",
+          "plural": "gronden"
+        }
+      },
+      "examples": [
+        "Hij ligt op de grond.",
+        "De grond is hard."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他躺在地上。",
+          "地面很硬。"
+        ],
+        "english": [
+          "He lies on the ground.",
+          "The ground is hard."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 813,
+      "word": "haasten",
+      "translation": {
+        "chinese": "匆忙",
+        "english": "to hurry"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "haasten",
+          "present": {
+            "singular": [
+              "haast",
+              "haast",
+              "haast"
+            ],
+            "plural": "haasten"
+          },
+          "past": {
+            "singular": "haastte",
+            "plural": "haastten"
+          },
+          "pastParticiple": "gehaast",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Ik moet me haasten.",
+        "Zij haast zich naar huis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我必须快点。",
+          "她匆忙回家。"
+        ],
+        "english": [
+          "I must hurry.",
+          "She hurries home."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 814,
+      "word": "halen",
+      "translation": {
+        "chinese": "取，达到",
+        "english": "to fetch, to reach"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "halen",
+          "present": {
+            "singular": [
+              "haal",
+              "haalt",
+              "haalt"
+            ],
+            "plural": "halen"
+          },
+          "past": {
+            "singular": "haalde",
+            "plural": "haalden"
+          },
+          "pastParticiple": "gehaald",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik haal brood.",
+        "Hij haalt het station."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我去买面包。",
+          "他到达车站。"
+        ],
+        "english": [
+          "I fetch bread.",
+          "He reaches the station."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 815,
+      "word": "handschoen",
+      "translation": {
+        "chinese": "手套",
+        "english": "glove"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "handschoen",
+          "plural": "handschoenen"
+        }
+      },
+      "examples": [
+        "Ik heb mijn handschoen verloren.",
+        "Zij draagt handschoenen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我丢了手套。",
+          "她戴着手套。"
+        ],
+        "english": [
+          "I lost my glove.",
+          "She wears gloves."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 816,
+      "word": "hardop",
+      "translation": {
+        "chinese": "大声地",
+        "english": "out loud"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Lees hardop.",
+        "Zij praat hardop."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "大声读。",
+          "她大声说话。"
+        ],
+        "english": [
+          "Read out loud.",
+          "She speaks out loud."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 817,
+      "word": "hartelijk",
+      "translation": {
+        "chinese": "衷心的",
+        "english": "heartily, sincere"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "hartelijk",
+          "withDe": "hartelijke",
+          "withHet": "hartelijk",
+          "comparative": "hartelijker",
+          "superlative": "hartelijkst"
+        }
+      },
+      "examples": [
+        "Hartelijk gefeliciteerd.",
+        "Hartelijk bedankt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "衷心祝贺。",
+          "衷心感谢。"
+        ],
+        "english": [
+          "Heartily congratulated.",
+          "Heartily thanked."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 818,
+      "word": "heerlijk",
+      "translation": {
+        "chinese": "美好的，美味的",
+        "english": "wonderful, delicious"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "heerlijk",
+          "withDe": "heerlijke",
+          "withHet": "heerlijk",
+          "comparative": "heerlijker",
+          "superlative": "heerlijkst"
+        }
+      },
+      "examples": [
+        "Het is heerlijk weer.",
+        "Dit smaakt heerlijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "天气美好。",
+          "这味道美妙。"
+        ],
+        "english": [
+          "It is wonderful weather.",
+          "This tastes delicious."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 819,
+      "word": "helft",
+      "translation": {
+        "chinese": "一半",
+        "english": "half"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "helft",
+          "plural": "helften"
+        }
+      },
+      "examples": [
+        "Ik heb de helft."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有半部分。",
+          "一半的工作完成了。"
+        ],
+        "english": [
+          "I have half.",
+          "Half of the work is done."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 820,
+      "word": "helder",
+      "translation": {
+        "chinese": "清晰的，明亮的",
+        "english": "clear, bright"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "helder",
+          "withDe": "heldere",
+          "withHet": "helder",
+          "comparative": "helderder",
+          "superlative": "helderst"
+        }
+      },
+      "examples": [
+        "Het licht is helder.",
+        "Zijn antwoord is helder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "光线明亮。",
+          "他的回答清晰。"
+        ],
+        "english": [
+          "The light is bright.",
+          "His answer is clear."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 821,
+      "word": "helemaal",
+      "translation": {
+        "chinese": "完全地",
+        "english": "completely, entirely"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Ik ben helemaal akkoord.",
+        "Het is helemaal niet waar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我完全同意。",
+          "这完全不真实。"
+        ],
+        "english": [
+          "I agree completely.",
+          "It is not true at all."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 822,
+      "word": "herhalen",
+      "translation": {
+        "chinese": "重复",
+        "english": "to repeat"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "herhalen",
+          "present": {
+            "singular": [
+              "herhaal",
+              "herhaalt",
+              "herhaalt"
+            ],
+            "plural": "herhalen"
+          },
+          "past": {
+            "singular": "herhaalde",
+            "plural": "herhaalden"
+          },
+          "pastParticiple": "herhaald",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Herhaal dat alsjeblieft.",
+        "Ik herhaal mijn woorden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "请重复一遍。",
+          "我重复我的话。"
+        ],
+        "english": [
+          "Repeat that please.",
+          "I repeat my words."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 823,
+      "word": "herinneren",
+      "translation": {
+        "chinese": "记得",
+        "english": "to remember"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "herinneren",
+          "present": {
+            "singular": [
+              "herinner",
+              "herinnert",
+              "herinnert"
+            ],
+            "plural": "herinneren"
+          },
+          "past": {
+            "singular": "herinnerde",
+            "plural": "herinnerden"
+          },
+          "pastParticiple": "herinnerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik herinner mij die dag.",
+        "Herinner jij het je?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我记得那一天。",
+          "你记得吗？"
+        ],
+        "english": [
+          "I remember that day.",
+          "Do you remember?"
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 824,
+      "word": "herkennen",
+      "translation": {
+        "chinese": "认出，识别",
+        "english": "to recognize"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "herkennen",
+          "present": {
+            "singular": [
+              "herken",
+              "herkent",
+              "herkent"
+            ],
+            "plural": "herkennen"
+          },
+          "past": {
+            "singular": "herkende",
+            "plural": "herkenden"
+          },
+          "pastParticiple": "herkend",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik herken hem niet.",
+        "Zij herkent de stem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我不认识他。",
+          "她认出这个声音。"
+        ],
+        "english": [
+          "I don't recognize him.",
+          "She recognizes the voice."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 825,
+      "word": "herstellen",
+      "translation": {
+        "chinese": "恢复，康复",
+        "english": "to recover"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "herstellen",
+          "present": {
+            "singular": [
+              "herstel",
+              "herstelt",
+              "herstelt"
+            ],
+            "plural": "herstellen"
+          },
+          "past": {
+            "singular": "herstelde",
+            "plural": "herstelden"
+          },
+          "pastParticiple": "hersteld",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Hij herstelt van ziekte.",
+        "De situatie herstelt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他正在从疾病中恢复。",
+          "情况在恢复。"
+        ],
+        "english": [
+          "He recovers from illness.",
+          "The situation recovers."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 826,
+      "word": "hervatten",
+      "translation": {
+        "chinese": "继续",
+        "english": "to resume"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "hervatten",
+          "present": {
+            "singular": [
+              "hervat",
+              "hervat",
+              "hervat"
+            ],
+            "plural": "hervatten"
+          },
+          "past": {
+            "singular": "hervatte",
+            "plural": "hervatten"
+          },
+          "pastParticiple": "hervat",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Wij hervatten het werk.",
+        "Het gesprek wordt hervat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们继续工作。",
+          "对话恢复。"
+        ],
+        "english": [
+          "We resume the work.",
+          "The conversation is resumed."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 827,
+      "word": "heuvel",
+      "translation": {
+        "chinese": "小山",
+        "english": "hill"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "heuvel",
+          "plural": "heuvels"
+        }
+      },
+      "examples": [
+        "Er is een heuvel achter ons huis.",
+        "De heuvel is hoog."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们房子后面有一座小山。",
+          "小山很高。"
+        ],
+        "english": [
+          "There is a hill behind our house.",
+          "The hill is high."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 828,
+      "word": "hoeveelheid",
+      "translation": {
+        "chinese": "数量",
+        "english": "quantity, amount"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hoeveelheid",
+          "plural": "hoeveelheden"
+        }
+      },
+      "examples": [
+        "De hoeveelheid is groot.",
+        "We hebben een kleine hoeveelheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "数量很大。",
+          "我们有小数量。"
+        ],
+        "english": [
+          "The amount is large.",
+          "We have a small quantity."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 829,
+      "word": "hoeven",
+      "translation": {
+        "chinese": "需要",
+        "english": "to need"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "hoeven",
+          "present": {
+            "singular": [
+              "hoef",
+              "hoeft",
+              "hoeft"
+            ],
+            "plural": "hoeven"
+          },
+          "past": {
+            "singular": "hoefde",
+            "plural": "hoefden"
+          },
+          "pastParticiple": "gehoeven",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Ik hoef niet te werken.",
+        "Zij hoeft niet te komen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我不需要工作。",
+          "她不需要来。"
+        ],
+        "english": [
+          "I don't need to work.",
+          "She doesn't need to come."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 830,
+      "word": "hopen",
+      "translation": {
+        "chinese": "希望",
+        "english": "to hope"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "hopen",
+          "present": {
+            "singular": [
+              "hoop",
+              "hoopt",
+              "hoopt"
+            ],
+            "plural": "hopen"
+          },
+          "past": {
+            "singular": "hoopte",
+            "plural": "hoopten"
+          },
+          "pastParticiple": "gehoopt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik hoop op succes.",
+        "Wij hopen dat je komt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我希望成功。",
+          "我们希望你来。"
+        ],
+        "english": [
+          "I hope for success.",
+          "We hope that you come."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 831,
+      "word": "hoogte",
+      "translation": {
+        "chinese": "高度",
+        "english": "height"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hoogte",
+          "plural": "hoogten"
+        }
+      },
+      "examples": [
+        "Wat is de hoogte?",
+        "De hoogte is tien meter."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "高度是多少？",
+          "高度是十米。"
+        ],
+        "english": [
+          "What is the height?",
+          "The height is ten meters."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 832,
+      "word": "hoofdpijn",
+      "translation": {
+        "chinese": "头痛",
+        "english": "headache"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hoofdpijn",
+          "plural": null
+        }
+      },
+      "examples": [
+        "Ik heb hoofdpijn.",
+        "Heb je hoofdpijn?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我头痛。",
+          "你头痛吗？"
+        ],
+        "english": [
+          "I have a headache.",
+          "Do you have a headache?"
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 833,
+      "word": "hoofdstuk",
+      "translation": {
+        "chinese": "章节",
+        "english": "chapter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "hoofdstuk",
+          "plural": "hoofdstukken"
+        }
+      },
+      "examples": [
+        "Dit hoofdstuk is belangrijk.",
+        "Het boek heeft tien hoofdstukken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这一章很重要。",
+          "这本书有十章。"
+        ],
+        "english": [
+          "This chapter is important.",
+          "The book has ten chapters."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 834,
+      "word": "houding",
+      "translation": {
+        "chinese": "态度，姿势",
+        "english": "attitude, posture"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "houding",
+          "plural": "houdingen"
+        }
+      },
+      "examples": [
+        "Zijn houding is goed.",
+        "Zij heeft een positieve houding."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的态度很好。",
+          "她有积极的态度。"
+        ],
+        "english": [
+          "His attitude is good.",
+          "She has a positive attitude."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 835,
+      "word": "huilen",
+      "translation": {
+        "chinese": "哭",
+        "english": "to cry"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "huilen",
+          "present": {
+            "singular": [
+              "huil",
+              "huilt",
+              "huilt"
+            ],
+            "plural": "huilen"
+          },
+          "past": {
+            "singular": "huilde",
+            "plural": "huilden"
+          },
+          "pastParticiple": "gehuiled",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het kind huilt.",
+        "Ik wil niet huilen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "孩子在哭。",
+          "我不想哭。"
+        ],
+        "english": [
+          "The child cries.",
+          "I don't want to cry."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 836,
+      "word": "huid",
+      "translation": {
+        "chinese": "皮肤",
+        "english": "skin"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "huid",
+          "plural": "huiden"
+        }
+      },
+      "examples": [
+        "Zijn huid is zacht.",
+        "Zij verzorgt haar huid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的皮肤很柔软。",
+          "她护理她的皮肤。"
+        ],
+        "english": [
+          "His skin is soft.",
+          "She takes care of her skin."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 837,
+      "word": "huishouden",
+      "translation": {
+        "chinese": "家务",
+        "english": "household"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "huishouden",
+          "plural": "huishoudens"
+        }
+      },
+      "examples": [
+        "Het huishouden is werk.",
+        "Zij doet het huishouden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "家务是工作。",
+          "她做家务。"
+        ],
+        "english": [
+          "The household is work.",
+          "She does the household chores."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 838,
+      "word": "hulp",
+      "translation": {
+        "chinese": "帮助",
+        "english": "help, assistance"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hulp",
+          "plural": null
+        }
+      },
+      "examples": [
+        "Ik heb hulp nodig.",
+        "Dank voor de hulp."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我需要帮助。",
+          "谢谢帮助。"
+        ],
+        "english": [
+          "I need help.",
+          "Thanks for the help."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 839,
+      "word": "hygiëne",
+      "translation": {
+        "chinese": "卫生",
+        "english": "hygiene"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hygiëne",
+          "plural": null
+        }
+      },
+      "examples": [
+        "Goede hygiëne is belangrijk.",
+        "Zij let op de hygiëne."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "良好的卫生很重要。",
+          "她注意卫生。"
+        ],
+        "english": [
+          "Good hygiene is important.",
+          "She pays attention to hygiene."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 840,
+      "word": "ideale",
+      "translation": {
+        "chinese": "理想的",
+        "english": "ideal"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ideaal",
+          "withDe": "ideale",
+          "withHet": "ideaal",
+          "comparative": null,
+          "superlative": null
+        }
+      },
+      "examples": [
+        "Dit is de ideale oplossing.",
+        "Hij heeft een ideale baan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是理想的解决方案。",
+          "他有一份理想的工作。"
+        ],
+        "english": [
+          "This is the ideal solution.",
+          "He has an ideal job."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 841,
+      "word": "idee",
+      "translation": {
+        "chinese": "主意，想法",
+        "english": "idea"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "idee",
+          "plural": "ideeën"
+        }
+      },
+      "examples": [
+        "Ik heb een idee.",
+        "Dat is een goed idee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有个主意。",
+          "那是个好主意。"
+        ],
+        "english": [
+          "I have an idea.",
+          "That is a good idea."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 842,
+      "word": "iedereen",
+      "translation": {
+        "chinese": "每个人",
+        "english": "everyone"
+      },
+      "partOfSpeech": "pronoun",
+      "forms": {},
+      "examples": [
+        "Iedereen is welkom.",
+        "Ik ken iedereen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "每个人都受欢迎。",
+          "我认识每个人。"
+        ],
+        "english": [
+          "Everyone is welcome.",
+          "I know everyone."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 843,
+      "word": "immigratie",
+      "translation": {
+        "chinese": "移民",
+        "english": "immigration"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "immigratie",
+          "plural": null
+        }
+      },
+      "examples": [
+        "De immigratie neemt toe.",
+        "Zij bespreekt immigratie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "移民在增加。",
+          "她讨论移民问题。"
+        ],
+        "english": [
+          "Immigration is increasing.",
+          "She discusses immigration."
+        ]
+      },
+      "difficulty": "A2"
+    }
+  ]
+}

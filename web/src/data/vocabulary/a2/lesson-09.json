@@ -1,0 +1,2081 @@
+{
+  "id": "lA209",
+  "level": "A2",
+  "lessonNumber": 9,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 1044,
+      "word": "product",
+      "translation": {
+        "chinese": "产品",
+        "english": "product"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "product",
+            "product",
+            "het product",
+            "het product"
+          ],
+          "plural": [
+            "producten",
+            "producten",
+            "de producten",
+            "de producten"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Dit is een goed product.",
+        "Wij verkopen nieuwe producten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个好产品。",
+          "我们销售新产品。"
+        ],
+        "english": [
+          "This is a good product.",
+          "We sell new products."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1045,
+      "word": "proeven",
+      "translation": {
+        "chinese": "品尝,证明",
+        "english": "to taste, to prove"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "proeven",
+          "present": {
+            "singular": [
+              "proef",
+              "proeft",
+              "proeft"
+            ],
+            "plural": "proeven"
+          },
+          "past": {
+            "singular": "proefde",
+            "plural": "proefden"
+          },
+          "pastParticiple": "geproefd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Proef het gerecht.",
+        "Ik proef dat het koud is."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "尝尝这道菜。",
+          "我尝出来是冷的。"
+        ],
+        "english": [
+          "Taste the dish.",
+          "I taste that it is cold."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1046,
+      "word": "programma",
+      "translation": {
+        "chinese": "节目,程序",
+        "english": "program"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "programma",
+            "programma",
+            "het programma",
+            "het programma"
+          ],
+          "plural": [
+            "programma's",
+            "programma's",
+            "de programma's",
+            "de programma's"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het programma start om 8 uur.",
+        "Dit is een goed programma."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "节目8点开始。",
+          "这是一个好节目。"
+        ],
+        "english": [
+          "The program starts at 8 o'clock.",
+          "This is a good program."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1047,
+      "word": "project",
+      "translation": {
+        "chinese": "项目",
+        "english": "project"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "project",
+            "project",
+            "het project",
+            "het project"
+          ],
+          "plural": [
+            "projecten",
+            "projecten",
+            "de projecten",
+            "de projecten"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Wij werken aan een project.",
+        "Het project is klaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们在做一个项目。",
+          "项目完成了。"
+        ],
+        "english": [
+          "We work on a project.",
+          "The project is ready."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1048,
+      "word": "prooi",
+      "translation": {
+        "chinese": "猎物",
+        "english": "prey"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "prooi",
+            "prooi",
+            "de prooi",
+            "de prooi"
+          ],
+          "plural": [
+            "prooien",
+            "prooien",
+            "de prooien",
+            "de prooien"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De vogel is prooi van de kat.",
+        "Hij is prooi van oplichters."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "鸟是猫的猎物。",
+          "他是骗子的猎物。"
+        ],
+        "english": [
+          "The bird is prey of the cat.",
+          "He is prey of scammers."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1049,
+      "word": "protest",
+      "translation": {
+        "chinese": "抗议",
+        "english": "protest"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "protest",
+            "protest",
+            "de protest",
+            "de protest"
+          ],
+          "plural": [
+            "protesten",
+            "protesten",
+            "de protesten",
+            "de protesten"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er is een protest.",
+        "Wij gaan naar het protest."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "有抗议活动。",
+          "我们参加抗议。"
+        ],
+        "english": [
+          "There is a protest.",
+          "We go to the protest."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1050,
+      "word": "psycholoog",
+      "translation": {
+        "chinese": "心理学家",
+        "english": "psychologist"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "psycholoog",
+            "psycholoog",
+            "de psycholoog",
+            "de psycholoog"
+          ],
+          "plural": [
+            "psychologen",
+            "psychologen",
+            "de psychologen",
+            "de psychologen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Zij is psycholoog.",
+        "Hij werkt als psycholoog."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她是心理学家。",
+          "他是心理学家。"
+        ],
+        "english": [
+          "She is a psychologist.",
+          "He works as a psychologist."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1051,
+      "word": "publiek",
+      "translation": {
+        "chinese": "公众的,公共的",
+        "english": "public"
+      },
+      "partOfSpeech": [
+        "adjective",
+        "noun"
+      ],
+      "forms": {
+        "noun": {
+          "singular": [
+            "publiek",
+            "publiek",
+            "het publiek",
+            "het publiek"
+          ],
+          "plural": [
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het is een publieke plaats.",
+        "Het publiek applaudisseert."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是公共场所。",
+          "观众鼓掌。"
+        ],
+        "english": [
+          "It is a public place.",
+          "The audience applauds."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1052,
+      "word": "put",
+      "translation": {
+        "chinese": "井",
+        "english": "well, pit"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "put",
+            "put",
+            "de put",
+            "de put"
+          ],
+          "plural": [
+            "putten",
+            "putten",
+            "de putten",
+            "de putten"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er is een put in de weg.",
+        "De put is diep."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "路上有个坑。",
+          "井很深。"
+        ],
+        "english": [
+          "There is a pit in the road.",
+          "The well is deep."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1053,
+      "word": "raad",
+      "translation": {
+        "chinese": "建议,理事会",
+        "english": "advice, council"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "raad",
+            "raad",
+            "de raad",
+            "de raad"
+          ],
+          "plural": [
+            "raden",
+            "raden",
+            "de raden",
+            "de raden"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Geef mij raad.",
+        "De raad beslist."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "给我建议。",
+          "理事会决定。"
+        ],
+        "english": [
+          "Give me advice.",
+          "The council decides."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1054,
+      "word": "raken",
+      "translation": {
+        "chinese": "碰到,变得",
+        "english": "to touch, to become"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "raken",
+          "present": {
+            "singular": [
+              "raak",
+              "raakt",
+              "raakt"
+            ],
+            "plural": "raken"
+          },
+          "past": {
+            "singular": "raakte",
+            "plural": "raakten"
+          },
+          "pastParticiple": "geraakt",
+          "pastParticipleAuxiliary": "zijn/hebben"
+        }
+      },
+      "examples": [
+        "Raak het niet aan!",
+        "Ik raak gewond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "不要碰它！",
+          "我受伤了。"
+        ],
+        "english": [
+          "Don't touch it!",
+          "I get injured."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1055,
+      "word": "rapport",
+      "translation": {
+        "chinese": "报告",
+        "english": "report"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "rapport",
+            "rapport",
+            "het rapport",
+            "het rapport"
+          ],
+          "plural": [
+            "rapporten",
+            "rapporten",
+            "de rapporten",
+            "de rapporten"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Schrijf een rapport.",
+        "Het rapport is klaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "写一份报告。",
+          "报告完成了。"
+        ],
+        "english": [
+          "Write a report.",
+          "The report is ready."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1056,
+      "word": "reactie",
+      "translation": {
+        "chinese": "反应",
+        "english": "reaction"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "reactie",
+            "reactie",
+            "de reactie",
+            "de reactie"
+          ],
+          "plural": [
+            "reacties",
+            "reacties",
+            "de reacties",
+            "de reacties"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Wat is jouw reactie?",
+        "Er was geen reactie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你的反应是什么？",
+          "没有反应。"
+        ],
+        "english": [
+          "What is your reaction?",
+          "There was no reaction."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1057,
+      "word": "reageren",
+      "translation": {
+        "chinese": "反应",
+        "english": "to react"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "reageren",
+          "present": {
+            "singular": [
+              "reageer",
+              "reageert",
+              "reageert"
+            ],
+            "plural": "reageren"
+          },
+          "past": {
+            "singular": "reageerde",
+            "plural": "reageerden"
+          },
+          "pastParticiple": "gereageerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik reageer snel.",
+        "Reageer op mijn bericht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我反应很快。",
+          "回复我的消息。"
+        ],
+        "english": [
+          "I react quickly.",
+          "React to my message."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1058,
+      "word": "rechter",
+      "translation": {
+        "chinese": "法官,右边的",
+        "english": "judge, right"
+      },
+      "partOfSpeech": [
+        "noun",
+        "adjective"
+      ],
+      "forms": {
+        "noun": {
+          "singular": [
+            "rechter",
+            "rechter",
+            "de rechter",
+            "de rechter"
+          ],
+          "plural": [
+            "rechters",
+            "rechters",
+            "de rechters",
+            "de rechters"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De rechter beslist.",
+        "Ga naar rechts."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "法官决定。",
+          "向右走。"
+        ],
+        "english": [
+          "The judge decides.",
+          "Go to the right."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1059,
+      "word": "reclame",
+      "translation": {
+        "chinese": "广告",
+        "english": "advertisement"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "reclame",
+            "reclame",
+            "de reclame",
+            "de reclame"
+          ],
+          "plural": [
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Kijk de reclame.",
+        "Dit is een goede reclame."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "看广告。",
+          "这是很好的广告。"
+        ],
+        "english": [
+          "Watch the advertisement.",
+          "This is good advertising."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1060,
+      "word": "recreatie",
+      "translation": {
+        "chinese": "娱乐,休闲",
+        "english": "recreation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "recreatie",
+            "recreatie",
+            "de recreatie",
+            "de recreatie"
+          ],
+          "plural": [
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er is recreatie in het park.",
+        "Goede recreatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公园里有娱乐设施。",
+          "良好的休闲设施。"
+        ],
+        "english": [
+          "There is recreation in the park.",
+          "Good recreation facilities."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1061,
+      "word": "reeds",
+      "translation": {
+        "chinese": "已经",
+        "english": "already"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Ik heb het reeds gedaan.",
+        "Hij is reeds vertrokken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我已经做了。",
+          "他已经离开了。"
+        ],
+        "english": [
+          "I have already done it.",
+          "He has already left."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1062,
+      "word": "regel",
+      "translation": {
+        "chinese": "规则,规定",
+        "english": "rule"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "regel",
+            "regel",
+            "de regel",
+            "de regel"
+          ],
+          "plural": [
+            "regels",
+            "regels",
+            "de regels",
+            "de regels"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Dit is de regel.",
+        "Volg de regels."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是规定。",
+          "遵守规则。"
+        ],
+        "english": [
+          "This is the rule.",
+          "Follow the rules."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1063,
+      "word": "regelen",
+      "translation": {
+        "chinese": "安排,处理",
+        "english": "to arrange, to organize"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "regelen",
+          "present": {
+            "singular": "regel",
+            "plural": "regelen"
+          },
+          "past": {
+            "singular": "regelde",
+            "plural": "regelden"
+          },
+          "pastParticiple": "geregeld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik regel het voor jou.",
+        "Wij regelen een afspraak."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我为你安排。",
+          "我们安排一个约会。"
+        ],
+        "english": [
+          "I arrange it for you.",
+          "We arrange an appointment."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1064,
+      "word": "regering",
+      "translation": {
+        "chinese": "政府",
+        "english": "government"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "regering",
+            "regering",
+            "de regering",
+            "de regering"
+          ],
+          "plural": [
+            "regeringen",
+            "regeringen",
+            "de regeringen",
+            "de regeringen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De regering valt.",
+        "De nieuwe regering start."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "政府倒台。",
+          "新政府上任。"
+        ],
+        "english": [
+          "The government falls.",
+          "The new government starts."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1065,
+      "word": "regio",
+      "translation": {
+        "chinese": "地区",
+        "english": "region"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "regio",
+            "regio",
+            "de regio",
+            "de regio"
+          ],
+          "plural": [
+            "regio's",
+            "regio's",
+            "de regio's",
+            "de regio's"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Deze regio is mooi.",
+        "Wij wonen in een andere regio."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个地区很美。",
+          "我们住在另一个地区。"
+        ],
+        "english": [
+          "This region is beautiful.",
+          "We live in another region."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1066,
+      "word": "rekenen",
+      "translation": {
+        "chinese": "计算,指望",
+        "english": "to calculate, to count on"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "rekenen",
+          "present": {
+            "singular": "reken",
+            "plural": "rekenen"
+          },
+          "past": {
+            "singular": "rekende",
+            "plural": "rekenden"
+          },
+          "pastParticiple": "gerekend",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik reken het uit.",
+        "Ik reken op jouw hulp."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我计算出来。",
+          "我指望你的帮助。"
+        ],
+        "english": [
+          "I calculate it.",
+          "I count on your help."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1067,
+      "word": "relatie",
+      "translation": {
+        "chinese": "关系",
+        "english": "relationship"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "relatie",
+            "relatie",
+            "de relatie",
+            "de relatie"
+          ],
+          "plural": [
+            "relaties",
+            "relaties",
+            "de relaties",
+            "de relaties"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Wij hebben een goede relatie.",
+        "De relatie is voorbij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们关系很好。",
+          "关系结束了。"
+        ],
+        "english": [
+          "We have a good relationship.",
+          "The relationship is over."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1068,
+      "word": "religie",
+      "translation": {
+        "chinese": "宗教",
+        "english": "religion"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "religie",
+            "religie",
+            "de religie",
+            "de religie"
+          ],
+          "plural": [
+            "religies",
+            "religies",
+            "de religies",
+            "de religies"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Wat is jouw religie?",
+        "Alle religies zijn belangrijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你的宗教是什么？",
+          "所有宗教都很重要。"
+        ],
+        "english": [
+          "What is your religion?",
+          "All religions are important."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1069,
+      "word": "rem",
+      "translation": {
+        "chinese": "刹车",
+        "english": "brake"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "rem",
+            "rem",
+            "de rem",
+            "de rem"
+          ],
+          "plural": [
+            "remmen",
+            "remmen",
+            "de remmen",
+            "de remmen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Gebruik de rem.",
+        "De rem werkt niet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "使用刹车。",
+          "刹车不工作。"
+        ],
+        "english": [
+          "Use the brake.",
+          "The brake doesn't work."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1070,
+      "word": "rente",
+      "translation": {
+        "chinese": "利息",
+        "english": "interest"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "rente",
+            "rente",
+            "de rente",
+            "de rente"
+          ],
+          "plural": [
+            "rentes",
+            "rentes",
+            "de rentes",
+            "de rentes"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De rente is laag.",
+        "Ik betaal rente."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "利息很低。",
+          "我支付利息。"
+        ],
+        "english": [
+          "The interest rate is low.",
+          "I pay interest."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1071,
+      "word": "reparatie",
+      "translation": {
+        "chinese": "修理",
+        "english": "repair"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "reparatie",
+            "reparatie",
+            "de reparatie",
+            "de reparatie"
+          ],
+          "plural": [
+            "reparaties",
+            "reparaties",
+            "de reparaties",
+            "de reparaties"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De reparatie duurt lang.",
+        "Er is een reparatie nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "修理需要很长时间。",
+          "需要修理。"
+        ],
+        "english": [
+          "The repair takes a long time.",
+          "A repair is needed."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1072,
+      "word": "repareren",
+      "translation": {
+        "chinese": "修理",
+        "english": "to repair"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "repareren",
+          "present": {
+            "singular": [
+              "repareer",
+              "repareert",
+              "repareert"
+            ],
+            "plural": "repareren"
+          },
+          "past": {
+            "singular": "repareerde",
+            "plural": "repareerden"
+          },
+          "pastParticiple": "gerepareerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik repareer de fiets.",
+        "Kun je het repareren?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我修自行车。",
+          "你能修理它吗？"
+        ],
+        "english": [
+          "I repair the bicycle.",
+          "Can you repair it?"
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1073,
+      "word": "reserve",
+      "translation": {
+        "chinese": "储备,备份",
+        "english": "reserve, backup"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "reserve",
+            "reserve",
+            "de reserve",
+            "de reserve"
+          ],
+          "plural": [
+            "reserves",
+            "reserves",
+            "de reserves",
+            "de reserves"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er is genoeg reserve.",
+        "Heb je een reserve?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "有足够的储备。",
+          "你有备份吗？"
+        ],
+        "english": [
+          "There is enough reserve.",
+          "Do you have a backup?"
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1074,
+      "word": "respect",
+      "translation": {
+        "chinese": "尊重",
+        "english": "respect"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "respect",
+            "respect",
+            "het respect",
+            "het respect"
+          ],
+          "plural": [
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Toon respect.",
+        "Ik heb respect voor hem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "表示尊重。",
+          "我尊重他。"
+        ],
+        "english": [
+          "Show respect.",
+          "I have respect for him."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1075,
+      "word": "resultaat",
+      "translation": {
+        "chinese": "结果",
+        "english": "result"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "resultaat",
+            "resultaat",
+            "het resultaat",
+            "het resultaat"
+          ],
+          "plural": [
+            "resultaten",
+            "resultaten",
+            "de resultaten",
+            "de resultaten"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het resultaat is goed.",
+        "Wachten op het resultaat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "结果很好。",
+          "等待结果。"
+        ],
+        "english": [
+          "The result is good.",
+          "Waiting for the result."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1076,
+      "word": "reus",
+      "translation": {
+        "chinese": "巨人",
+        "english": "giant"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "reus",
+            "reus",
+            "de reus",
+            "de reus"
+          ],
+          "plural": [
+            "reuzen",
+            "reuzen",
+            "de reuzen",
+            "de reuzen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij is een reus.",
+        "Het is een reus in de branche."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是个巨人。",
+          "他是行业巨头。"
+        ],
+        "english": [
+          "He is a giant.",
+          "It is a giant in the industry."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1077,
+      "word": "richting",
+      "translation": {
+        "chinese": "方向",
+        "english": "direction"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "richting",
+            "richting",
+            "de richting",
+            "de richting"
+          ],
+          "plural": [
+            "richtingen",
+            "richtingen",
+            "de richtingen",
+            "de richtingen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "In welke richting?",
+        "Ga in de goede richting."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "什么方向？",
+          "走正确的方向。"
+        ],
+        "english": [
+          "In which direction?",
+          "Go in the right direction."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1078,
+      "word": "rij",
+      "translation": {
+        "chinese": "行,排,队列",
+        "english": "row, line, queue"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "rij",
+            "rij",
+            "de rij",
+            "de rij"
+          ],
+          "plural": [
+            "rijen",
+            "rijen",
+            "de rijen",
+            "de rijen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Stel je in de rij.",
+        "De rij is lang."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "排队。",
+          "队伍很长。"
+        ],
+        "english": [
+          "Queue up.",
+          "The queue is long."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1079,
+      "word": "rijbewijs",
+      "translation": {
+        "chinese": "驾驶证",
+        "english": "driving license"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "rijbewijs",
+            "rijbewijs",
+            "het rijbewijs",
+            "het rijbewijs"
+          ],
+          "plural": [
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Ik heb mijn rijbewijs gehaald.",
+        "Toon je rijbewijs."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我拿到了驾照。",
+          "出示你的驾照。"
+        ],
+        "english": [
+          "I got my driving license.",
+          "Show your driving license."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1080,
+      "word": "risico",
+      "translation": {
+        "chinese": "风险",
+        "english": "risk"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "risico",
+            "risico",
+            "het risico",
+            "het risico"
+          ],
+          "plural": [
+            "risico's",
+            "risico's",
+            "de risico's",
+            "de risico's"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Er is een risico.",
+        "Neem geen risico."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "有风险。",
+          "不要冒险。"
+        ],
+        "english": [
+          "There is a risk.",
+          "Don't take a risk."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1081,
+      "word": "rivier",
+      "translation": {
+        "chinese": "河流",
+        "english": "river"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "rivier",
+            "rivier",
+            "de rivier",
+            "de rivier"
+          ],
+          "plural": [
+            "rivieren",
+            "rivieren",
+            "de rivieren",
+            "de rivieren"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De rivier is lang.",
+        "Zwemmen in de rivier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "河流很长。",
+          "在河里游泳。"
+        ],
+        "english": [
+          "The river is long.",
+          "Swim in the river."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1082,
+      "word": "ruimte",
+      "translation": {
+        "chinese": "空间",
+        "english": "space"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "ruimte",
+            "ruimte",
+            "de ruimte",
+            "de ruimte"
+          ],
+          "plural": [
+            "ruimtes",
+            "ruimtes",
+            "de ruimtes",
+            "de ruimtes"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er is genoeg ruimte.",
+        "Nieuwe ruimte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "有足够的空间。",
+          "新空间。"
+        ],
+        "english": [
+          "There is enough space.",
+          "New space."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1083,
+      "word": "rug",
+      "translation": {
+        "chinese": "背",
+        "english": "back"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "rug",
+            "rug",
+            "de rug",
+            "de rug"
+          ],
+          "plural": [
+            "ruggen",
+            "ruggen",
+            "de ruggen",
+            "de ruggen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Mijn rug doet pijn.",
+        "Draai je om."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我背疼。",
+          "转身。"
+        ],
+        "english": [
+          "My back hurts.",
+          "Turn around."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1084,
+      "word": "ruilen",
+      "translation": {
+        "chinese": "交换",
+        "english": "to exchange, to swap"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ruilen",
+          "present": {
+            "singular": [
+              "ruil",
+              "ruilt",
+              "ruilt"
+            ],
+            "plural": "ruilen"
+          },
+          "past": {
+            "singular": "ruilde",
+            "plural": "ruilden"
+          },
+          "pastParticiple": "geruild",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ruilen we?",
+        "Ik wil het ruilen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们交换吗？",
+          "我想换一个。"
+        ],
+        "english": [
+          "Shall we exchange?",
+          "I want to swap it."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1085,
+      "word": "rust",
+      "translation": {
+        "chinese": "休息,安宁",
+        "english": "rest, peace"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "rust",
+            "rust",
+            "de rust",
+            "de rust"
+          ],
+          "plural": [
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik heb rust nodig.",
+        "Geniet van de rust."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我需要休息。",
+          "享受安宁。"
+        ],
+        "english": [
+          "I need rest.",
+          "Enjoy the peace."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1086,
+      "word": "rusten",
+      "translation": {
+        "chinese": "休息",
+        "english": "to rest"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "rusten",
+          "present": {
+            "singular": [
+              "rust",
+              "rust",
+              "rust"
+            ],
+            "plural": "rusten"
+          },
+          "past": {
+            "singular": "rustte",
+            "plural": "rustten"
+          },
+          "pastParticiple": "gerust",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik rust even.",
+        "Rust goed uit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我休息一下。",
+          "好好休息。"
+        ],
+        "english": [
+          "I rest for a moment.",
+          "Rest well."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1087,
+      "word": "ruzie",
+      "translation": {
+        "chinese": "争吵",
+        "english": "quarrel"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "ruzie",
+            "ruzie",
+            "de ruzie",
+            "de ruzie"
+          ],
+          "plural": [
+            "ruzies",
+            "ruzies",
+            "de ruzies",
+            "de ruzies"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Wij maken geen ruzie.",
+        "Er was ruzie over geld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们不吵架。",
+          "因为钱吵了起来。"
+        ],
+        "english": [
+          "We don't quarrel.",
+          "There was a quarrel about money."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1088,
+      "word": "salaris",
+      "translation": {
+        "chinese": "工资",
+        "english": "salary"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "salaris",
+            "salaris",
+            "het salaris",
+            "het salaris"
+          ],
+          "plural": [
+            "salarissen",
+            "salarissen",
+            "de salarissen",
+            "de salarissen"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Mijn salaris is hoog.",
+        "Hij krijgt een goed salaris."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的工资很高。",
+          "他工资很高。"
+        ],
+        "english": [
+          "My salary is high.",
+          "He gets a good salary."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1089,
+      "word": "samen",
+      "translation": {
+        "chinese": "一起",
+        "english": "together"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Wij werken samen.",
+        "Zij gaan samen uit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们一起工作。",
+          "他们一起外出。"
+        ],
+        "english": [
+          "We work together.",
+          "They go out together."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1090,
+      "word": "samenleving",
+      "translation": {
+        "chinese": "社会",
+        "english": "society"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "samenleving",
+            "samenleving",
+            "de samenleving",
+            "de samenleving"
+          ],
+          "plural": [
+            "samenlevingen",
+            "samenlevingen",
+            "de samenlevingen",
+            "de samenlevingen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De samenleving verandert.",
+        "Dit is belangrijk voor de samenleving."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "社会在变化。",
+          "这对社会很重要。"
+        ],
+        "english": [
+          "Society changes.",
+          "This is important for society."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1091,
+      "word": "samenwerking",
+      "translation": {
+        "chinese": "合作",
+        "english": "cooperation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "samenwerking",
+            "samenwerking",
+            "de samenwerking",
+            "de samenwerking"
+          ],
+          "plural": [
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Goede samenwerking.",
+        "Wij hebben goede samenwerking."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "良好的合作。",
+          "我们合作良好。"
+        ],
+        "english": [
+          "Good cooperation.",
+          "We have good cooperation."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1092,
+      "word": "schema",
+      "translation": {
+        "chinese": "计划,图表",
+        "english": "schedule, scheme"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "schema",
+            "schema",
+            "het schema",
+            "het schema"
+          ],
+          "plural": [
+            "schema's",
+            "schema's",
+            "de schema's",
+            "de schema's"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het schema is duidelijk.",
+        "Volg het schema."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "计划很清楚。",
+          "按照计划。"
+        ],
+        "english": [
+          "The schedule is clear.",
+          "Follow the schedule."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1093,
+      "word": "scheiden",
+      "translation": {
+        "chinese": "分离,离婚",
+        "english": "to separate, to divorce"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "scheiden",
+          "present": {
+            "singular": [
+              "scheid",
+              "scheidt",
+              "scheidt"
+            ],
+            "plural": "scheiden"
+          },
+          "past": {
+            "singular": "scheidde",
+            "plural": "scheidden"
+          },
+          "pastParticiple": "gescheiden",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Zij willen scheiden.",
+        "Scheid de eieren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他们想离婚。",
+          "把鸡蛋分开。"
+        ],
+        "english": [
+          "They want to divorce.",
+          "Separate the eggs."
+        ]
+      },
+      "difficulty": "A2"
+    }
+  ]
+}
