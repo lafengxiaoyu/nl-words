@@ -332,7 +332,6 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [currentPage, setCurrentPage] = useState(1)
 
   // 获取所有唯一的词性
-  const mainPartsOfSpeech: string[] = ['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection']
   const otherPartsOfSpeech: string[] = ['determiner', 'numeral', 'phrase', 'other']
   const allPartsOfSpeech: string[] = Array.from(new Set(words.map(w => w.partOfSpeech))).sort()
 
@@ -598,9 +597,20 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                   >
                     {t.previous}
                   </button>
-                  <div className="pagination-pages">
-                    <span className="pagination-current">{t.page} {currentPage}</span>
-                    <span className="pagination-total">{t.of} {totalPages}</span>
+                  <div className="pagination-page-picker">
+                    <input
+                      type="range"
+                      min="1"
+                      max={totalPages}
+                      value={currentPage}
+                      onChange={(e) => setCurrentPage(Number(e.target.value))}
+                      className="pagination-range-slider"
+                    />
+                    <div className="pagination-page-display">
+                      <span className="pagination-current">{currentPage}</span>
+                      <span className="pagination-divider">/</span>
+                      <span className="pagination-total">{totalPages}</span>
+                    </div>
                   </div>
                   <button
                     className="pagination-btn"
