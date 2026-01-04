@@ -41,6 +41,51 @@ function fixVerbForms(verb) {
     delete v.present['wij/we'];
   }
 
+  // 修复 present 字段：如果是 singular/plural 数组格式，转换为 ik/jij/hij/wij/jullie/zij 格式
+  if (v.present && (v.present.singular || Array.isArray(v.present))) {
+    // 检查是否已经是正确格式（有 ik, jij, hij 等字段）
+    if (v.present.ik && v.present.jij && v.present.hij) {
+      // 已经是正确格式，跳过
+    } else if (v.present.singular) {
+      // 处理 singular/plural 格式
+      let singular = v.present.singular;
+      let plural = v.present.plural || '';
+
+      // 如果 singular 是数组，转换为对象格式
+      if (Array.isArray(singular)) {
+        v.present = {
+          ik: singular[0] || '',
+          jij: singular[1] || singular[0] || '',
+          hij: singular[2] || singular[1] || singular[0] || '',
+          wij: typeof plural === 'string' ? plural : (plural[0] || ''),
+          jullie: typeof plural === 'string' ? plural : (plural[0] || ''),
+          zij: typeof plural === 'string' ? plural : (plural[0] || '')
+        };
+      } else if (typeof singular === 'string') {
+        // singular 是字符串，需要推断其他形式
+        // 这里使用简单的规则，但最好从数据中获取
+        v.present = {
+          ik: singular,
+          jij: singular.endsWith('t') ? singular : singular + 't',
+          hij: singular.endsWith('t') ? singular : singular + 't',
+          wij: typeof plural === 'string' ? plural : (singular + 'en'),
+          jullie: typeof plural === 'string' ? plural : (singular + 'en'),
+          zij: typeof plural === 'string' ? plural : (singular + 'en')
+        };
+      }
+    } else if (Array.isArray(v.present) && v.present.length >= 6) {
+      // present 直接是数组格式（6个元素）
+      v.present = {
+        ik: v.present[0] || '',
+        jij: v.present[1] || '',
+        hij: v.present[2] || '',
+        wij: v.present[3] || '',
+        jullie: v.present[4] || '',
+        zij: v.present[5] || ''
+      };
+    }
+  }
+
   // 如果缺少 isSeparable，添加默认值
   if (v.isSeparable === undefined) {
     v.isSeparable = false;
@@ -113,6 +158,27 @@ function fixAdjectiveForms(word) {
   return word;
 }
 
+// 从数组中提取第一个不包含冠词的值
+function extractWordFromArray(arr) {
+  if (!Array.isArray(arr) || arr.length === 0) {
+    return null;
+  }
+
+  // 优先选择不包含冠词的值
+  for (const item of arr) {
+    if (typeof item === 'string' && !item.startsWith('de ') && !item.startsWith('het ')) {
+      return item;
+    }
+  }
+
+  // 如果没有找到，返回第一个值并去除冠词
+  const first = arr[0];
+  if (typeof first === 'string') {
+    return first.replace(/^(de|het)\s+/, '');
+  }
+  return first;
+}
+
 // 转换名词 forms 格式
 function fixNounForms(word) {
   if (!word.forms || !word.forms.noun) {
@@ -120,9 +186,15 @@ function fixNounForms(word) {
   }
 
   const noun = word.forms.noun;
+  let needsFix = false;
 
-  // 如果格式已经是正确的，直接返回
-  if (noun.article && noun.singular && noun.plural) {
+  // 检查是否需要修复
+  if (Array.isArray(noun.singular) || Array.isArray(noun.plural)) {
+    needsFix = true;
+  }
+
+  // 如果格式已经是正确的（都是字符串），且不需要修复，直接返回
+  if (!needsFix && noun.article && typeof noun.singular === 'string' && typeof noun.plural === 'string') {
     return word;
   }
 
@@ -131,29 +203,58 @@ function fixNounForms(word) {
   let singular = word.word;
   let plural = null;
 
-  // 尝试从 singular 数组获取
-  if (noun.singular && Array.isArray(noun.singular) && noun.singular.length > 0) {
-    singular = noun.singular[0] || word.word;
+  // 处理 singular：如果是数组，提取第一个不包含冠词的值
+  if (Array.isArray(noun.singular)) {
+    const extracted = extractWordFromArray(noun.singular);
+    if (extracted) {
+      singular = extracted;
+    }
+  } else if (typeof noun.singular === 'string') {
+    singular = noun.singular;
   }
 
-  // 尝试从 plural 数组获取
-  if (noun.plural && Array.isArray(noun.plural) && noun.plural.length > 0) {
-    plural = noun.plural[0];
+  // 处理 plural：如果是数组，提取第一个不包含冠词的值
+  if (Array.isArray(noun.plural)) {
+    if (noun.plural.length === 0) {
+      plural = '-'; // 空数组表示不可数
+    } else {
+      const extracted = extractWordFromArray(noun.plural);
+      if (extracted) {
+        plural = extracted;
+      }
+    }
+  } else if (typeof noun.plural === 'string') {
+    plural = noun.plural;
   }
 
   // 如果没有复数，使用 '-' 表示不可数
-  if (!plural) {
+  if (!plural || plural === '') {
     plural = '-';
   }
 
-  // 构建新的 forms
-  word.forms.noun = {
+  // 构建新的 forms，删除 gender 字段（如果存在）
+  const fixedNoun = {
     article: article,
     singular: singular,
     plural: plural
   };
 
+  // 如果有 uncountablePreposition，保留它
+  if (noun.uncountablePreposition) {
+    fixedNoun.uncountablePreposition = noun.uncountablePreposition;
+  }
+
+  word.forms.noun = fixedNoun;
+
   return word;
+}
+
+// 检查词性是否包含指定类型
+function hasPartOfSpeech(word, pos) {
+  if (Array.isArray(word.partOfSpeech)) {
+    return word.partOfSpeech.includes(pos);
+  }
+  return word.partOfSpeech === pos;
 }
 
 // 修复所有单词的 forms
@@ -164,15 +265,27 @@ function fixAllWords(words) {
 
   words.forEach((word, index) => {
     const originalWord = word.word;
+    let wasFixed = false;
 
-    if (word.partOfSpeech === 'verb') {
+    // 处理动词
+    if (hasPartOfSpeech(word, 'verb')) {
       word = fixVerbForms(word);
-      fixedCount++;
-    } else if (word.partOfSpeech === 'adjective') {
+      wasFixed = true;
+    }
+
+    // 处理形容词
+    if (hasPartOfSpeech(word, 'adjective')) {
       word = fixAdjectiveForms(word);
-      fixedCount++;
-    } else if (word.partOfSpeech === 'noun') {
+      wasFixed = true;
+    }
+
+    // 处理名词
+    if (hasPartOfSpeech(word, 'noun')) {
       word = fixNounForms(word);
+      wasFixed = true;
+    }
+
+    if (wasFixed) {
       fixedCount++;
     }
   });

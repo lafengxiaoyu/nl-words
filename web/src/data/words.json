@@ -29560,23 +29560,11 @@
     ],
     "forms": {
       "adjective": {
-        "indefinite": [
-          "lokaal",
-          "lokale",
-          "lokaal",
-          "lokale"
-        ],
-        "definite": [
-          "lokale",
-          "lokale",
-          "lokale",
-          "lokale"
-        ],
-        "comparison": [
-          "lokaler",
-          "meest lokaal"
-        ],
-        "participle": ""
+        "base": "lokaal",
+        "withDe": "lokale",
+        "withHet": "lokaal",
+        "comparative": "lokaler",
+        "superlative": "meest lokaal"
       }
     },
     "examples": [
@@ -29605,20 +29593,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "lucht",
-          "lucht",
-          "de lucht",
-          "de lucht"
-        ],
-        "plural": [
-          "luchten",
-          "luchten",
-          "de luchten",
-          "de luchten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "lucht",
+        "plural": "luchten"
       }
     },
     "examples": [
@@ -29647,20 +29624,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "maaltijd",
-          "maaltijd",
-          "de maaltijd",
-          "de maaltijd"
-        ],
-        "plural": [
-          "maaltijden",
-          "maaltijden",
-          "de maaltijden",
-          "de maaltijden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "maaltijd",
+        "plural": "maaltijden"
       }
     },
     "examples": [
@@ -29689,20 +29655,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "maat",
-          "maat",
-          "de maat",
-          "de maat"
-        ],
-        "plural": [
-          "maten",
-          "maten",
-          "de maten",
-          "de maten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "maat",
+        "plural": "maten"
       }
     },
     "examples": [
@@ -29731,20 +29686,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "maatschappij",
-          "maatschappij",
-          "de maatschappij",
-          "de maatschappij"
-        ],
-        "plural": [
-          "maatschappijen",
-          "maatschappijen",
-          "de maatschappijen",
-          "de maatschappijen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "maatschappij",
+        "plural": "maatschappijen"
       }
     },
     "examples": [
@@ -29773,20 +29717,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "macht",
-          "macht",
-          "de macht",
-          "de macht"
-        ],
-        "plural": [
-          "machten",
-          "machten",
-          "de machten",
-          "de machten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "macht",
+        "plural": "machten"
       }
     },
     "examples": [
@@ -29815,20 +29748,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "magazijn",
-          "magazijn",
-          "het magazijn",
-          "het magazijn"
-        ],
-        "plural": [
-          "magazijnen",
-          "magazijnen",
-          "de magazijnen",
-          "de magazijnen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "magazijn",
+        "plural": "magazijnen"
       }
     },
     "examples": [
@@ -29857,20 +29779,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "manier",
-          "manier",
-          "de manier",
-          "de manier"
-        ],
-        "plural": [
-          "manieren",
-          "manieren",
-          "de manieren",
-          "de manieren"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "manier",
+        "plural": "manieren"
       }
     },
     "examples": [
@@ -29899,20 +29810,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "mantelzorg",
-          "mantelzorg",
-          "de mantelzorg",
-          "de mantelzorg"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "mantelzorg",
+        "plural": "-"
       }
     },
     "examples": [
@@ -29941,20 +29841,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "materiaal",
-          "materiaal",
-          "het materiaal",
-          "het materiaal"
-        ],
-        "plural": [
-          "materialen",
-          "materialen",
-          "de materialen",
-          "de materialen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "materiaal",
+        "plural": "materialen"
       }
     },
     "examples": [
@@ -30173,21 +30062,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "meisje",
-          "meisje",
-          "het meisje",
-          "het meisje"
-        ],
-        "plural": [
-          "meisjes",
-          "meisjes",
-          "de meisjes",
-          "de meisjes"
-        ],
-        "gender": "het",
         "article": "het",
-        "diminutive": true
+        "singular": "meisje",
+        "plural": "meisjes"
       }
     },
     "examples": [
@@ -30216,20 +30093,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "melding",
-          "melding",
-          "de melding",
-          "de melding"
-        ],
-        "plural": [
-          "meldingen",
-          "meldingen",
-          "de meldingen",
-          "de meldingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "melding",
+        "plural": "meldingen"
       }
     },
     "examples": [
@@ -30258,20 +30124,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "mening",
-          "mening",
-          "de mening",
-          "de mening"
-        ],
-        "plural": [
-          "meningen",
-          "meningen",
-          "de meningen",
-          "de meningen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "mening",
+        "plural": "meningen"
       }
     },
     "examples": [
@@ -30300,20 +30155,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "mens",
-          "mens",
-          "de mens",
-          "de mens"
-        ],
-        "plural": [
-          "mensen",
-          "mensen",
-          "de mensen",
-          "de mensen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "mens",
+        "plural": "mensen"
       }
     },
     "examples": [
@@ -30347,19 +30191,20 @@
       "verb": {
         "infinitive": "merken",
         "present": {
-          "singular": [
-            "merk",
-            "merkt",
-            "merkt"
-          ],
-          "plural": "merken"
+          "ik": "merk",
+          "jij": "merkt",
+          "hij": "merkt",
+          "wij": "merken",
+          "jullie": "merken",
+          "zij": "merken"
         },
         "past": {
           "singular": "merkte",
           "plural": "merkten"
         },
         "pastParticiple": "gemerkt",
-        "pastParticipleAuxiliary": "hebben"
+        "pastParticipleAuxiliary": "hebben",
+        "isSeparable": false
       }
     },
     "examples": [
@@ -30388,20 +30233,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "mes",
-          "mes",
-          "het mes",
-          "het mes"
-        ],
-        "plural": [
-          "messen",
-          "messen",
-          "de messen",
-          "de messen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "mes",
+        "plural": "messen"
       }
     },
     "examples": [
@@ -30455,20 +30289,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "methode",
-          "methode",
-          "de methode",
-          "de methode"
-        ],
-        "plural": [
-          "methoden",
-          "methoden",
-          "de methoden",
-          "de methoden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "methode",
+        "plural": "methoden"
       }
     },
     "examples": [
@@ -30497,20 +30320,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "middel",
-          "middel",
-          "het middel",
-          "het middel"
-        ],
-        "plural": [
-          "middelen",
-          "middelen",
-          "de middelen",
-          "de middelen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "middel",
+        "plural": "middelen"
       }
     },
     "examples": [
@@ -30539,20 +30351,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "milieu",
-          "milieu",
-          "het milieu",
-          "het milieu"
-        ],
-        "plural": [
-          "milieus",
-          "milieus",
-          "de milieus",
-          "de milieus"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "milieu",
+        "plural": "milieus"
       }
     },
     "examples": [
@@ -30614,20 +30415,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "minister",
-          "minister",
-          "de minister",
-          "de minister"
-        ],
-        "plural": [
-          "ministers",
-          "ministers",
-          "de ministers",
-          "de ministers"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "minister",
+        "plural": "ministers"
       }
     },
     "examples": [
@@ -30656,20 +30446,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "mis",
-          "mis",
-          "de mis",
-          "de mis"
-        ],
-        "plural": [
-          "missen",
-          "missen",
-          "de missen",
-          "de missen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "mis",
+        "plural": "missen"
       }
     },
     "examples": [
@@ -30800,20 +30579,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "moeite",
-          "moeite",
-          "de moeite",
-          "de moeite"
-        ],
-        "plural": [
-          "moeites",
-          "moeites",
-          "de moeites",
-          "de moeites"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "moeite",
+        "plural": "moeites"
       }
     },
     "examples": [
@@ -30875,20 +30643,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "mogelijkheid",
-          "mogelijkheid",
-          "de mogelijkheid",
-          "de mogelijkheid"
-        ],
-        "plural": [
-          "mogelijkheden",
-          "mogelijkheden",
-          "de mogelijkheden",
-          "de mogelijkheden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "mogelijkheid",
+        "plural": "mogelijkheden"
       }
     },
     "examples": [
@@ -30917,20 +30674,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "mond",
-          "mond",
-          "de mond",
-          "de mond"
-        ],
-        "plural": [
-          "monden",
-          "monden",
-          "de monden",
-          "de monden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "mond",
+        "plural": "monden"
       }
     },
     "examples": [
@@ -30959,20 +30705,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "moord",
-          "moord",
-          "de moord",
-          "de moord"
-        ],
-        "plural": [
-          "moorden",
-          "moorden",
-          "de moorden",
-          "de moorden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "moord",
+        "plural": "moorden"
       }
     },
     "examples": [
@@ -31001,20 +30736,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "motief",
-          "motief",
-          "het motief",
-          "het motief"
-        ],
-        "plural": [
-          "motieven",
-          "motieven",
-          "de motieven",
-          "de motieven"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "motief",
+        "plural": "motieven"
       }
     },
     "examples": [
@@ -31043,20 +30767,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "museum",
-          "museum",
-          "het museum",
-          "het museum"
-        ],
-        "plural": [
-          "musea",
-          "musea",
-          "de musea",
-          "de musea"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "museum",
+        "plural": "musea"
       }
     },
     "examples": [
@@ -31121,23 +30834,11 @@
     ],
     "forms": {
       "adjective": {
-        "indefinite": [
-          "nabij",
-          "nabije",
-          "nabij",
-          "nabije"
-        ],
-        "definite": [
-          "nabije",
-          "nabije",
-          "nabije",
-          "nabije"
-        ],
-        "comparison": [
-          "-",
-          "-"
-        ],
-        "participle": ""
+        "base": "nabij",
+        "withDe": "nabije",
+        "withHet": "nabij",
+        "comparative": "-",
+        "superlative": "-"
       }
     },
     "examples": [
@@ -31166,20 +30867,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "nadeel",
-          "nadeel",
-          "het nadeel",
-          "het nadeel"
-        ],
-        "plural": [
-          "nadelen",
-          "nadelen",
-          "de nadelen",
-          "de nadelen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "nadeel",
+        "plural": "nadelen"
       }
     },
     "examples": [
@@ -31208,20 +30898,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "nadruk",
-          "nadruk",
-          "de nadruk",
-          "de nadruk"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "nadruk",
+        "plural": "-"
       }
     },
     "examples": [
@@ -31250,20 +30929,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "natuur",
-          "natuur",
-          "de natuur",
-          "de natuur"
-        ],
-        "plural": [
-          "naturen",
-          "naturen",
-          "de naturen",
-          "de naturen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "natuur",
+        "plural": "naturen"
       }
     },
     "examples": [
@@ -31328,23 +30996,11 @@
     ],
     "forms": {
       "adjective": {
-        "indefinite": [
-          "nederlands",
-          "nederlandse",
-          "nederlands",
-          "nederlandse"
-        ],
-        "definite": [
-          "nederlandse",
-          "nederlandse",
-          "nederlandse",
-          "nederlandse"
-        ],
-        "comparison": [
-          "-",
-          "-"
-        ],
-        "participle": ""
+        "base": "nederlands",
+        "withDe": "nederlandse",
+        "withHet": "nederlands",
+        "comparative": "-",
+        "superlative": "-"
       }
     },
     "examples": [
@@ -31445,23 +31101,11 @@
     ],
     "forms": {
       "adjective": {
-        "indefinite": [
-          "netto",
-          "netto",
-          "netto",
-          "netto"
-        ],
-        "definite": [
-          "netto",
-          "netto",
-          "netto",
-          "netto"
-        ],
-        "comparison": [
-          "-",
-          "-"
-        ],
-        "participle": ""
+        "base": "netto",
+        "withDe": "netto",
+        "withHet": "netto",
+        "comparative": "-",
+        "superlative": "-"
       }
     },
     "examples": [
@@ -31490,20 +31134,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "netwerk",
-          "netwerk",
-          "het netwerk",
-          "het netwerk"
-        ],
-        "plural": [
-          "netwerken",
-          "netwerken",
-          "de netwerken",
-          "de netwerken"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "netwerk",
+        "plural": "netwerken"
       }
     },
     "examples": [
@@ -31601,20 +31234,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "nood",
-          "nood",
-          "de nood",
-          "de nood"
-        ],
-        "plural": [
-          "nooden",
-          "nooden",
-          "de nooden",
-          "de nooden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "nood",
+        "plural": "nooden"
       }
     },
     "examples": [
@@ -31709,20 +31331,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "notitie",
-          "notitie",
-          "de notitie",
-          "de notitie"
-        ],
-        "plural": [
-          "notities",
-          "notities",
-          "de notities",
-          "de notities"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "notitie",
+        "plural": "notities"
       }
     },
     "examples": [
@@ -31784,20 +31395,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "object",
-          "object",
-          "het object",
-          "het object"
-        ],
-        "plural": [
-          "objecten",
-          "objecten",
-          "de objecten",
-          "de objecten"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "object",
+        "plural": "objecten"
       }
     },
     "examples": [
@@ -31875,35 +31475,25 @@
       "verb": {
         "infinitive": "offeren",
         "present": {
-          "singular": [
-            "offer",
-            "offert",
-            "offert"
-          ],
-          "plural": "offeren"
+          "ik": "offer",
+          "jij": "offert",
+          "hij": "offert",
+          "wij": "offeren",
+          "jullie": "offeren",
+          "zij": "offeren"
         },
         "past": {
           "singular": "offerde",
           "plural": "offerden"
         },
         "pastParticiple": "aangeboden",
-        "pastParticipleAuxiliary": "hebben"
+        "pastParticipleAuxiliary": "hebben",
+        "isSeparable": false
       },
       "noun": {
-        "singular": [
-          "offer",
-          "offer",
-          "het offer",
-          "het offer"
-        ],
-        "plural": [
-          "offers",
-          "offers",
-          "de offers",
-          "de offers"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "offer",
+        "plural": "offers"
       }
     },
     "examples": [
@@ -31965,20 +31555,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "omgeving",
-          "omgeving",
-          "de omgeving",
-          "de omgeving"
-        ],
-        "plural": [
-          "omgevingen",
-          "omgevingen",
-          "de omgevingen",
-          "de omgevingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "omgeving",
+        "plural": "omgevingen"
       }
     },
     "examples": [
@@ -32101,20 +31680,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "omstandigheid",
-          "omstandigheid",
-          "de omstandigheid",
-          "de omstandigheid"
-        ],
-        "plural": [
-          "omstandigheden",
-          "omstandigheden",
-          "de omstandigheden",
-          "de omstandigheden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "omstandigheid",
+        "plural": "omstandigheden"
       }
     },
     "examples": [
@@ -32201,20 +31769,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "onderdeel",
-          "onderdeel",
-          "het onderdeel",
-          "het onderdeel"
-        ],
-        "plural": [
-          "onderdelen",
-          "onderdelen",
-          "de onderdelen",
-          "de onderdelen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "onderdeel",
+        "plural": "onderdelen"
       }
     },
     "examples": [
@@ -32276,20 +31833,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "ondernemer",
-          "ondernemer",
-          "de ondernemer",
-          "de ondernemer"
-        ],
-        "plural": [
-          "ondernemers",
-          "ondernemers",
-          "de ondernemers",
-          "de ondernemers"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "ondernemer",
+        "plural": "ondernemers"
       }
     },
     "examples": [
@@ -32318,20 +31864,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "onderscheid",
-          "onderscheid",
-          "het onderscheid",
-          "het onderscheid"
-        ],
-        "plural": [
-          "onderscheiden",
-          "onderscheiden",
-          "de onderscheiden",
-          "de onderscheiden"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "onderscheid",
+        "plural": "onderscheiden"
       }
     },
     "examples": [
@@ -32448,20 +31983,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "onderwerp",
-          "onderwerp",
-          "het onderwerp",
-          "het onderwerp"
-        ],
-        "plural": [
-          "onderwerpen",
-          "onderwerpen",
-          "de onderwerpen",
-          "de onderwerpen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "onderwerp",
+        "plural": "onderwerpen"
       }
     },
     "examples": [
@@ -32573,20 +32097,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "onrust",
-          "onrust",
-          "de onrust",
-          "de onrust"
-        ],
-        "plural": [
-          "onrusten",
-          "onrusten",
-          "de onrusten",
-          "de onrusten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "onrust",
+        "plural": "onrusten"
       }
     },
     "examples": [
@@ -32791,20 +32304,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "ontslag",
-          "ontslag",
-          "het ontslag",
-          "het ontslag"
-        ],
-        "plural": [
-          "ontslagen",
-          "ontslagen",
-          "de ontslagen",
-          "de ontslagen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "ontslag",
+        "plural": "ontslagen"
       }
     },
     "examples": [
@@ -32838,38 +32340,27 @@
       "verb": {
         "infinitive": "ontspannen",
         "present": {
-          "singular": [
-            "ontspan",
-            "ontspant",
-            "ontspant"
-          ],
-          "plural": "ontspannen"
+          "ik": "ontspan",
+          "jij": "ontspant",
+          "hij": "ontspant",
+          "wij": "ontspannen",
+          "jullie": "ontspannen",
+          "zij": "ontspannen"
         },
         "past": {
           "singular": "ontspande",
           "plural": "ontspanden"
         },
         "pastParticiple": "ontspannen",
-        "pastParticipleAuxiliary": "zijn/hebben"
+        "pastParticipleAuxiliary": "zijn/hebben",
+        "isSeparable": false
       },
       "adjective": {
-        "indefinite": [
-          "ontspannen",
-          "ontspannen",
-          "ontspannen",
-          "ontspannen"
-        ],
-        "definite": [
-          "ontspannen",
-          "ontspannen",
-          "ontspannen",
-          "ontspannen"
-        ],
-        "comparison": [
-          "-",
-          "-"
-        ],
-        "participle": ""
+        "base": "ontspannen",
+        "withDe": "ontspannen",
+        "withHet": "ontspannen",
+        "comparative": "-",
+        "superlative": "-"
       }
     },
     "examples": [
@@ -33019,20 +32510,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "oordeel",
-          "oordeel",
-          "het oordeel",
-          "het oordeel"
-        ],
-        "plural": [
-          "oordelen",
-          "oordelen",
-          "de oordelen",
-          "de oordelen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "oordeel",
+        "plural": "oordelen"
       }
     },
     "examples": [
@@ -33061,20 +32541,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "oorlog",
-          "oorlog",
-          "de oorlog",
-          "de oorlog"
-        ],
-        "plural": [
-          "oorlogen",
-          "oorlogen",
-          "de oorlogen",
-          "de oorlogen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "oorlog",
+        "plural": "oorlogen"
       }
     },
     "examples": [
@@ -33103,20 +32572,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "oorzaak",
-          "oorzaak",
-          "de oorzaak",
-          "de oorzaak"
-        ],
-        "plural": [
-          "oorzaken",
-          "oorzaken",
-          "de oorzaken",
-          "de oorzaken"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "oorzaak",
+        "plural": "oorzaken"
       }
     },
     "examples": [
@@ -33148,23 +32606,11 @@
     ],
     "forms": {
       "adjective": {
-        "indefinite": [
-          "oost",
-          "oost",
-          "oost",
-          "oost"
-        ],
-        "definite": [
-          "oost",
-          "oost",
-          "oost",
-          "oost"
-        ],
-        "comparison": [
-          "-",
-          "-"
-        ],
-        "participle": ""
+        "base": "oost",
+        "withDe": "oost",
+        "withHet": "oost",
+        "comparative": "-",
+        "superlative": "-"
       }
     },
     "examples": [
@@ -33193,20 +32639,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "opbouw",
-          "opbouw",
-          "de opbouw",
-          "de opbouw"
-        ],
-        "plural": [
-          "opbouwen",
-          "opbouwen",
-          "de opbouwen",
-          "de opbouwen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "opbouw",
+        "plural": "opbouwen"
       }
     },
     "examples": [
@@ -33235,20 +32670,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "opdracht",
-          "opdracht",
-          "de opdracht",
-          "de opdracht"
-        ],
-        "plural": [
-          "opdrachten",
-          "opdrachten",
-          "de opdrachten",
-          "de opdrachten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "opdracht",
+        "plural": "opdrachten"
       }
     },
     "examples": [
@@ -33310,20 +32734,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "plural": [
-          "openingstijden",
-          "openingstijden",
-          "de openingstijden",
-          "de openingstijden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "-",
+        "plural": "openingstijden"
       }
     },
     "examples": [
@@ -33352,20 +32765,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "operatie",
-          "operatie",
-          "de operatie",
-          "de operatie"
-        ],
-        "plural": [
-          "operaties",
-          "operaties",
-          "de operaties",
-          "de operaties"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "operatie",
+        "plural": "operaties"
       }
     },
     "examples": [
@@ -33394,20 +32796,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "oplossing",
-          "oplossing",
-          "de oplossing",
-          "de oplossing"
-        ],
-        "plural": [
-          "oplossingen",
-          "oplossingen",
-          "de oplossingen",
-          "de oplossingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "oplossing",
+        "plural": "oplossingen"
       }
     },
     "examples": [
@@ -33612,20 +33003,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "opslag",
-          "opslag",
-          "de opslag",
-          "de opslag"
-        ],
-        "plural": [
-          "opslagen",
-          "opslagen",
-          "de opslagen",
-          "de opslagen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "opslag",
+        "plural": "opslagen"
       }
     },
     "examples": [
@@ -33698,20 +33078,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "opvoeding",
-          "opvoeding",
-          "de opvoeding",
-          "de opvoeding"
-        ],
-        "plural": [
-          "opvoedingen",
-          "opvoedingen",
-          "de opvoedingen",
-          "de opvoedingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "opvoeding",
+        "plural": "opvoedingen"
       }
     },
     "examples": [
@@ -33784,20 +33153,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "orde",
-          "orde",
-          "de orde",
-          "de orde"
-        ],
-        "plural": [
-          "orden",
-          "orden",
-          "de orden",
-          "de orden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "orde",
+        "plural": "orden"
       }
     },
     "examples": [
@@ -33826,20 +33184,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "organisatie",
-          "organisatie",
-          "de organisatie",
-          "de organisatie"
-        ],
-        "plural": [
-          "organisaties",
-          "organisaties",
-          "de organisaties",
-          "de organisaties"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "organisatie",
+        "plural": "organisaties"
       }
     },
     "examples": [
@@ -33915,20 +33262,9 @@
     ],
     "forms": {
       "noun": {
-        "singular": [
-          "ouder",
-          "ouder",
-          "de ouder",
-          "de ouder"
-        ],
-        "plural": [
-          "ouders",
-          "ouders",
-          "de ouders",
-          "de ouders"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "ouder",
+        "plural": "ouders"
       }
     },
     "examples": [
@@ -33982,20 +33318,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "overeenkomst",
-          "overeenkomst",
-          "de overeenkomst",
-          "de overeenkomst"
-        ],
-        "plural": [
-          "overeenkomsten",
-          "overeenkomsten",
-          "de overeenkomsten",
-          "de overeenkomsten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "overeenkomst",
+        "plural": "overeenkomsten"
       }
     },
     "examples": [
@@ -34024,20 +33349,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "overheid",
-          "overheid",
-          "de overheid",
-          "de overheid"
-        ],
-        "plural": [
-          "overheden",
-          "overheden",
-          "de overheden",
-          "de overheden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "overheid",
+        "plural": "overheden"
       }
     },
     "examples": [
@@ -34066,20 +33380,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "overleg",
-          "overleg",
-          "het overleg",
-          "het overleg"
-        ],
-        "plural": [
-          "overleggen",
-          "overleggen",
-          "de overleggen",
-          "de overleggen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "overleg",
+        "plural": "overleggen"
       }
     },
     "examples": [
@@ -34196,20 +33499,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "overval",
-          "overval",
-          "de overval",
-          "de overval"
-        ],
-        "plural": [
-          "overvallen",
-          "overvallen",
-          "de overvallen",
-          "de overvallen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "overval",
+        "plural": "overvallen"
       }
     },
     "examples": [
@@ -34238,20 +33530,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "overwinning",
-          "overwinning",
-          "de overwinning",
-          "de overwinning"
-        ],
-        "plural": [
-          "overwinningen",
-          "overwinningen",
-          "de overwinningen",
-          "de overwinningen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "overwinning",
+        "plural": "overwinningen"
       }
     },
     "examples": [
@@ -34280,20 +33561,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "pan",
-          "pan",
-          "de pan",
-          "de pan"
-        ],
-        "plural": [
-          "pannen",
-          "pannen",
-          "de pannen",
-          "de pannen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "pan",
+        "plural": "pannen"
       }
     },
     "examples": [
@@ -34366,20 +33636,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "partner",
-          "partner",
-          "de partner",
-          "de partner"
-        ],
-        "plural": [
-          "partners",
-          "partners",
-          "de partners",
-          "de partners"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "partner",
+        "plural": "partners"
       }
     },
     "examples": [
@@ -34408,20 +33667,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "patiënt",
-          "patiënt",
-          "de patiënt",
-          "de patiënt"
-        ],
-        "plural": [
-          "patiënten",
-          "patiënten",
-          "de patiënten",
-          "de patiënten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "patiënt",
+        "plural": "patiënten"
       }
     },
     "examples": [
@@ -34450,20 +33698,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "pauze",
-          "pauze",
-          "de pauze",
-          "de pauze"
-        ],
-        "plural": [
-          "pauzes",
-          "pauzes",
-          "de pauzes",
-          "de pauzes"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "pauze",
+        "plural": "pauzes"
       }
     },
     "examples": [
@@ -34492,20 +33729,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "pech",
-          "pech",
-          "de pech",
-          "de pech"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "pech",
+        "plural": "-"
       }
     },
     "examples": [
@@ -34534,20 +33760,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "pensioen",
-          "pensioen",
-          "het pensioen",
-          "het pensioen"
-        ],
-        "plural": [
-          "pensioenen",
-          "pensioenen",
-          "de pensioenen",
-          "de pensioenen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "pensioen",
+        "plural": "pensioenen"
       }
     },
     "examples": [
@@ -34576,20 +33791,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "periode",
-          "periode",
-          "de periode",
-          "de periode"
-        ],
-        "plural": [
-          "periodes",
-          "periodes",
-          "de periodes",
-          "de periodes"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "periode",
+        "plural": "periodes"
       }
     },
     "examples": [
@@ -34618,20 +33822,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "personeel",
-          "personeel",
-          "het personeel",
-          "het personeel"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "personeel",
+        "plural": "-"
       }
     },
     "examples": [
@@ -34663,20 +33856,9 @@
     ],
     "forms": {
       "noun": {
-        "singular": [
-          "plastic",
-          "plastic",
-          "het plastic",
-          "het plastic"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "plastic",
+        "plural": "-"
       }
     },
     "examples": [
@@ -34738,20 +33920,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "plek",
-          "plek",
-          "de plek",
-          "de plek"
-        ],
-        "plural": [
-          "plekken",
-          "plekken",
-          "de plekken",
-          "de plekken"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "plek",
+        "plural": "plekken"
       }
     },
     "examples": [
@@ -34780,20 +33951,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "plezier",
-          "plezier",
-          "het plezier",
-          "het plezier"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "plezier",
+        "plural": "-"
       }
     },
     "examples": [
@@ -34822,20 +33982,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "pomp",
-          "pomp",
-          "de pomp",
-          "de pomp"
-        ],
-        "plural": [
-          "pompen",
-          "pompen",
-          "de pompen",
-          "de pompen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "pomp",
+        "plural": "pompen"
       }
     },
     "examples": [
@@ -34864,20 +34013,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "poort",
-          "poort",
-          "de poort",
-          "de poort"
-        ],
-        "plural": [
-          "poorten",
-          "poorten",
-          "de poorten",
-          "de poorten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "poort",
+        "plural": "poorten"
       }
     },
     "examples": [
@@ -34939,20 +34077,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "post",
-          "post",
-          "de post",
-          "de post"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "post",
+        "plural": "-"
       }
     },
     "examples": [
@@ -34981,20 +34108,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "pot",
-          "pot",
-          "de pot",
-          "de pot"
-        ],
-        "plural": [
-          "potten",
-          "potten",
-          "de potten",
-          "de potten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "pot",
+        "plural": "potten"
       }
     },
     "examples": [
@@ -35023,20 +34139,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "praktijk",
-          "praktijk",
-          "de praktijk",
-          "de praktijk"
-        ],
-        "plural": [
-          "praktijken",
-          "praktijken",
-          "de praktijken",
-          "de praktijken"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "praktijk",
+        "plural": "praktijken"
       }
     },
     "examples": [
@@ -35068,23 +34173,11 @@
     ],
     "forms": {
       "adjective": {
-        "indefinite": [
-          "precies",
-          "precieze",
-          "precies",
-          "precieze"
-        ],
-        "definite": [
-          "precieze",
-          "precieze",
-          "precieze",
-          "precieze"
-        ],
-        "comparison": [
-          "preciezer",
-          "meest precies"
-        ],
-        "participle": ""
+        "base": "precies",
+        "withDe": "precieze",
+        "withHet": "precies",
+        "comparative": "preciezer",
+        "superlative": "meest precies"
       }
     },
     "examples": [
@@ -35113,20 +34206,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "prestatie",
-          "prestatie",
-          "de prestatie",
-          "de prestatie"
-        ],
-        "plural": [
-          "prestaties",
-          "prestaties",
-          "de prestaties",
-          "de prestaties"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "prestatie",
+        "plural": "prestaties"
       }
     },
     "examples": [
@@ -35158,23 +34240,11 @@
     ],
     "forms": {
       "adjective": {
-        "indefinite": [
-          "privé",
-          "privé",
-          "privé",
-          "privé"
-        ],
-        "definite": [
-          "privé",
-          "privé",
-          "privé",
-          "privé"
-        ],
-        "comparison": [
-          "-",
-          "-"
-        ],
-        "participle": ""
+        "base": "privé",
+        "withDe": "privé",
+        "withHet": "privé",
+        "comparative": "-",
+        "superlative": "-"
       }
     },
     "examples": [
@@ -35203,20 +34273,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "probleem",
-          "probleem",
-          "het probleem",
-          "het probleem"
-        ],
-        "plural": [
-          "problemen",
-          "problemen",
-          "de problemen",
-          "de problemen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "probleem",
+        "plural": "problemen"
       }
     },
     "examples": [
@@ -35245,20 +34304,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "product",
-          "product",
-          "het product",
-          "het product"
-        ],
-        "plural": [
-          "producten",
-          "producten",
-          "de producten",
-          "de producten"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "product",
+        "plural": "producten"
       }
     },
     "examples": [
@@ -35331,20 +34379,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "programma",
-          "programma",
-          "het programma",
-          "het programma"
-        ],
-        "plural": [
-          "programma's",
-          "programma's",
-          "de programma's",
-          "de programma's"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "programma",
+        "plural": "programma's"
       }
     },
     "examples": [
@@ -35373,20 +34410,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "project",
-          "project",
-          "het project",
-          "het project"
-        ],
-        "plural": [
-          "projecten",
-          "projecten",
-          "de projecten",
-          "de projecten"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "project",
+        "plural": "projecten"
       }
     },
     "examples": [
@@ -35415,20 +34441,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "prooi",
-          "prooi",
-          "de prooi",
-          "de prooi"
-        ],
-        "plural": [
-          "prooien",
-          "prooien",
-          "de prooien",
-          "de prooien"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "prooi",
+        "plural": "prooien"
       }
     },
     "examples": [
@@ -35457,20 +34472,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "protest",
-          "protest",
-          "de protest",
-          "de protest"
-        ],
-        "plural": [
-          "protesten",
-          "protesten",
-          "de protesten",
-          "de protesten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "protest",
+        "plural": "protesten"
       }
     },
     "examples": [
@@ -35499,20 +34503,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "psycholoog",
-          "psycholoog",
-          "de psycholoog",
-          "de psycholoog"
-        ],
-        "plural": [
-          "psychologen",
-          "psychologen",
-          "de psychologen",
-          "de psychologen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "psycholoog",
+        "plural": "psychologen"
       }
     },
     "examples": [
@@ -35544,20 +34537,9 @@
     ],
     "forms": {
       "noun": {
-        "singular": [
-          "publiek",
-          "publiek",
-          "het publiek",
-          "het publiek"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "publiek",
+        "plural": "-"
       }
     },
     "examples": [
@@ -35586,20 +34568,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "put",
-          "put",
-          "de put",
-          "de put"
-        ],
-        "plural": [
-          "putten",
-          "putten",
-          "de putten",
-          "de putten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "put",
+        "plural": "putten"
       }
     },
     "examples": [
@@ -35628,20 +34599,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "raad",
-          "raad",
-          "de raad",
-          "de raad"
-        ],
-        "plural": [
-          "raden",
-          "raden",
-          "de raden",
-          "de raden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "raad",
+        "plural": "raden"
       }
     },
     "examples": [
@@ -35714,20 +34674,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "rapport",
-          "rapport",
-          "het rapport",
-          "het rapport"
-        ],
-        "plural": [
-          "rapporten",
-          "rapporten",
-          "de rapporten",
-          "de rapporten"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "rapport",
+        "plural": "rapporten"
       }
     },
     "examples": [
@@ -35756,20 +34705,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "reactie",
-          "reactie",
-          "de reactie",
-          "de reactie"
-        ],
-        "plural": [
-          "reacties",
-          "reacties",
-          "de reacties",
-          "de reacties"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "reactie",
+        "plural": "reacties"
       }
     },
     "examples": [
@@ -35845,20 +34783,9 @@
     ],
     "forms": {
       "noun": {
-        "singular": [
-          "rechter",
-          "rechter",
-          "de rechter",
-          "de rechter"
-        ],
-        "plural": [
-          "rechters",
-          "rechters",
-          "de rechters",
-          "de rechters"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "rechter",
+        "plural": "rechters"
       }
     },
     "examples": [
@@ -35887,20 +34814,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "reclame",
-          "reclame",
-          "de reclame",
-          "de reclame"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "reclame",
+        "plural": "-"
       }
     },
     "examples": [
@@ -35929,20 +34845,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "recreatie",
-          "recreatie",
-          "de recreatie",
-          "de recreatie"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "recreatie",
+        "plural": "-"
       }
     },
     "examples": [
@@ -35996,20 +34901,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "regel",
-          "regel",
-          "de regel",
-          "de regel"
-        ],
-        "plural": [
-          "regels",
-          "regels",
-          "de regels",
-          "de regels"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "regel",
+        "plural": "regels"
       }
     },
     "examples": [
@@ -36082,20 +34976,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "regering",
-          "regering",
-          "de regering",
-          "de regering"
-        ],
-        "plural": [
-          "regeringen",
-          "regeringen",
-          "de regeringen",
-          "de regeringen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "regering",
+        "plural": "regeringen"
       }
     },
     "examples": [
@@ -36124,20 +35007,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "regio",
-          "regio",
-          "de regio",
-          "de regio"
-        ],
-        "plural": [
-          "regio's",
-          "regio's",
-          "de regio's",
-          "de regio's"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "regio",
+        "plural": "regio's"
       }
     },
     "examples": [
@@ -36210,20 +35082,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "relatie",
-          "relatie",
-          "de relatie",
-          "de relatie"
-        ],
-        "plural": [
-          "relaties",
-          "relaties",
-          "de relaties",
-          "de relaties"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "relatie",
+        "plural": "relaties"
       }
     },
     "examples": [
@@ -36252,20 +35113,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "religie",
-          "religie",
-          "de religie",
-          "de religie"
-        ],
-        "plural": [
-          "religies",
-          "religies",
-          "de religies",
-          "de religies"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "religie",
+        "plural": "religies"
       }
     },
     "examples": [
@@ -36294,20 +35144,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "rem",
-          "rem",
-          "de rem",
-          "de rem"
-        ],
-        "plural": [
-          "remmen",
-          "remmen",
-          "de remmen",
-          "de remmen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "rem",
+        "plural": "remmen"
       }
     },
     "examples": [
@@ -36336,20 +35175,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "rente",
-          "rente",
-          "de rente",
-          "de rente"
-        ],
-        "plural": [
-          "rentes",
-          "rentes",
-          "de rentes",
-          "de rentes"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "rente",
+        "plural": "rentes"
       }
     },
     "examples": [
@@ -36378,20 +35206,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "reparatie",
-          "reparatie",
-          "de reparatie",
-          "de reparatie"
-        ],
-        "plural": [
-          "reparaties",
-          "reparaties",
-          "de reparaties",
-          "de reparaties"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "reparatie",
+        "plural": "reparaties"
       }
     },
     "examples": [
@@ -36464,20 +35281,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "reserve",
-          "reserve",
-          "de reserve",
-          "de reserve"
-        ],
-        "plural": [
-          "reserves",
-          "reserves",
-          "de reserves",
-          "de reserves"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "reserve",
+        "plural": "reserves"
       }
     },
     "examples": [
@@ -36506,20 +35312,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "respect",
-          "respect",
-          "het respect",
-          "het respect"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "respect",
+        "plural": "-"
       }
     },
     "examples": [
@@ -36548,20 +35343,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "resultaat",
-          "resultaat",
-          "het resultaat",
-          "het resultaat"
-        ],
-        "plural": [
-          "resultaten",
-          "resultaten",
-          "de resultaten",
-          "de resultaten"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "resultaat",
+        "plural": "resultaten"
       }
     },
     "examples": [
@@ -36590,20 +35374,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "reus",
-          "reus",
-          "de reus",
-          "de reus"
-        ],
-        "plural": [
-          "reuzen",
-          "reuzen",
-          "de reuzen",
-          "de reuzen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "reus",
+        "plural": "reuzen"
       }
     },
     "examples": [
@@ -36632,20 +35405,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "richting",
-          "richting",
-          "de richting",
-          "de richting"
-        ],
-        "plural": [
-          "richtingen",
-          "richtingen",
-          "de richtingen",
-          "de richtingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "richting",
+        "plural": "richtingen"
       }
     },
     "examples": [
@@ -36674,20 +35436,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "rij",
-          "rij",
-          "de rij",
-          "de rij"
-        ],
-        "plural": [
-          "rijen",
-          "rijen",
-          "de rijen",
-          "de rijen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "rij",
+        "plural": "rijen"
       }
     },
     "examples": [
@@ -36716,20 +35467,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "rijbewijs",
-          "rijbewijs",
-          "het rijbewijs",
-          "het rijbewijs"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "rijbewijs",
+        "plural": "-"
       }
     },
     "examples": [
@@ -36758,20 +35498,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "risico",
-          "risico",
-          "het risico",
-          "het risico"
-        ],
-        "plural": [
-          "risico's",
-          "risico's",
-          "de risico's",
-          "de risico's"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "risico",
+        "plural": "risico's"
       }
     },
     "examples": [
@@ -36800,20 +35529,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "rivier",
-          "rivier",
-          "de rivier",
-          "de rivier"
-        ],
-        "plural": [
-          "rivieren",
-          "rivieren",
-          "de rivieren",
-          "de rivieren"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "rivier",
+        "plural": "rivieren"
       }
     },
     "examples": [
@@ -36842,20 +35560,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "ruimte",
-          "ruimte",
-          "de ruimte",
-          "de ruimte"
-        ],
-        "plural": [
-          "ruimtes",
-          "ruimtes",
-          "de ruimtes",
-          "de ruimtes"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "ruimte",
+        "plural": "ruimtes"
       }
     },
     "examples": [
@@ -36884,20 +35591,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "rug",
-          "rug",
-          "de rug",
-          "de rug"
-        ],
-        "plural": [
-          "ruggen",
-          "ruggen",
-          "de ruggen",
-          "de ruggen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "rug",
+        "plural": "ruggen"
       }
     },
     "examples": [
@@ -36970,20 +35666,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "rust",
-          "rust",
-          "de rust",
-          "de rust"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "rust",
+        "plural": "-"
       }
     },
     "examples": [
@@ -37056,20 +35741,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "ruzie",
-          "ruzie",
-          "de ruzie",
-          "de ruzie"
-        ],
-        "plural": [
-          "ruzies",
-          "ruzies",
-          "de ruzies",
-          "de ruzies"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "ruzie",
+        "plural": "ruzies"
       }
     },
     "examples": [
@@ -37098,20 +35772,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "salaris",
-          "salaris",
-          "het salaris",
-          "het salaris"
-        ],
-        "plural": [
-          "salarissen",
-          "salarissen",
-          "de salarissen",
-          "de salarissen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "salaris",
+        "plural": "salarissen"
       }
     },
     "examples": [
@@ -37165,20 +35828,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "samenleving",
-          "samenleving",
-          "de samenleving",
-          "de samenleving"
-        ],
-        "plural": [
-          "samenlevingen",
-          "samenlevingen",
-          "de samenlevingen",
-          "de samenlevingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "samenleving",
+        "plural": "samenlevingen"
       }
     },
     "examples": [
@@ -37207,20 +35859,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "schema",
-          "schema",
-          "het schema",
-          "het schema"
-        ],
-        "plural": [
-          "schema's",
-          "schema's",
-          "de schema's",
-          "de schema's"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "schema",
+        "plural": "schema's"
       }
     },
     "examples": [
@@ -37502,20 +36143,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "schuld",
-          "schuld",
-          "de schuld",
-          "de schuld"
-        ],
-        "plural": [
-          "schulden",
-          "schulden",
-          "de schulden",
-          "de schulden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "schuld",
+        "plural": "schulden"
       }
     },
     "examples": [
@@ -37577,20 +36207,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "signaal",
-          "signaal",
-          "het signaal",
-          "het signaal"
-        ],
-        "plural": [
-          "signalen",
-          "signalen",
-          "de signalen",
-          "de signalen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "signaal",
+        "plural": "signalen"
       }
     },
     "examples": [
@@ -37619,20 +36238,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "situatie",
-          "situatie",
-          "de situatie",
-          "de situatie"
-        ],
-        "plural": [
-          "situaties",
-          "situaties",
-          "de situaties",
-          "de situaties"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "situatie",
+        "plural": "situaties"
       }
     },
     "examples": [
@@ -37771,20 +36379,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "slot",
-          "slot",
-          "het slot",
-          "het slot"
-        ],
-        "plural": [
-          "sloten",
-          "sloten",
-          "de sloten",
-          "de sloten"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "slot",
+        "plural": "sloten"
       }
     },
     "examples": [
@@ -37857,20 +36454,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "smaak",
-          "smaak",
-          "de smaak",
-          "de smaak"
-        ],
-        "plural": [
-          "smaken",
-          "smaken",
-          "de smaken",
-          "de smaken"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "smaak",
+        "plural": "smaken"
       }
     },
     "examples": [
@@ -37932,20 +36518,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "snelheid",
-          "snelheid",
-          "de snelheid",
-          "de snelheid"
-        ],
-        "plural": [
-          "snelheden",
-          "snelheden",
-          "de snelheden",
-          "de snelheden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "snelheid",
+        "plural": "snelheden"
       }
     },
     "examples": [
@@ -38018,20 +36593,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "soort",
-          "soort",
-          "de soort",
-          "de soort"
-        ],
-        "plural": [
-          "soorten",
-          "soorten",
-          "de soorten",
-          "de soorten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "soort",
+        "plural": "soorten"
       }
     },
     "examples": [
@@ -38060,20 +36624,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "spaarrekening",
-          "spaarrekening",
-          "de spaarrekening",
-          "de spaarrekening"
-        ],
-        "plural": [
-          "spaarrekeningen",
-          "spaarrekeningen",
-          "de spaarrekeningen",
-          "de spaarrekeningen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "spaarrekening",
+        "plural": "spaarrekeningen"
       }
     },
     "examples": [
@@ -38102,20 +36655,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "spanning",
-          "spanning",
-          "de spanning",
-          "de spanning"
-        ],
-        "plural": [
-          "spanningen",
-          "spanningen",
-          "de spanningen",
-          "de spanningen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "spanning",
+        "plural": "spanningen"
       }
     },
     "examples": [
@@ -38144,20 +36686,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "spiegel",
-          "spiegel",
-          "de spiegel",
-          "de spiegel"
-        ],
-        "plural": [
-          "spiegels",
-          "spiegels",
-          "de spiegels",
-          "de spiegels"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "spiegel",
+        "plural": "spiegels"
       }
     },
     "examples": [
@@ -38186,20 +36717,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "spier",
-          "spier",
-          "de spier",
-          "de spier"
-        ],
-        "plural": [
-          "spieren",
-          "spieren",
-          "de spieren",
-          "de spieren"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "spier",
+        "plural": "spieren"
       }
     },
     "examples": [
@@ -38272,20 +36792,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "stage",
-          "stage",
-          "de stage",
-          "de stage"
-        ],
-        "plural": [
-          "stages",
-          "stages",
-          "de stages",
-          "de stages"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "stage",
+        "plural": "stages"
       }
     },
     "examples": [
@@ -38314,20 +36823,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "staking",
-          "staking",
-          "de staking",
-          "de staking"
-        ],
-        "plural": [
-          "stakingen",
-          "stakingen",
-          "de stakingen",
-          "de stakingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "staking",
+        "plural": "stakingen"
       }
     },
     "examples": [
@@ -38356,20 +36854,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "stam",
-          "stam",
-          "de stam",
-          "de stam"
-        ],
-        "plural": [
-          "stammen",
-          "stammen",
-          "de stammen",
-          "de stammen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "stam",
+        "plural": "stammen"
       }
     },
     "examples": [
@@ -38403,19 +36890,20 @@
       "verb": {
         "infinitive": "staan",
         "present": {
-          "singular": [
-            "sta",
-            "staat",
-            "staat"
-          ],
-          "plural": "staan"
+          "ik": "sta",
+          "jij": "staat",
+          "hij": "staat",
+          "wij": "staan",
+          "jullie": "staan",
+          "zij": "staan"
         },
         "past": {
           "singular": "stond",
           "plural": "stonden"
         },
         "pastParticiple": "gestaan",
-        "pastParticipleAuxiliary": "zijn/hebben"
+        "pastParticipleAuxiliary": "zijn/hebben",
+        "isSeparable": false
       }
     },
     "examples": [
@@ -38444,20 +36932,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "stap",
-          "stap",
-          "de stap",
-          "de stap"
-        ],
-        "plural": [
-          "stappen",
-          "stappen",
-          "de stappen",
-          "de stappen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "stap",
+        "plural": "stappen"
       }
     },
     "examples": [
@@ -38530,20 +37007,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "status",
-          "status",
-          "de status",
-          "de status"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "status",
+        "plural": "-"
       }
     },
     "examples": [
@@ -38646,19 +37112,20 @@
       "verb": {
         "infinitive": "stemmen",
         "present": {
-          "singular": [
-            "stem",
-            "stemt",
-            "stemt"
-          ],
-          "plural": "stemmen"
+          "ik": "stem",
+          "jij": "stemt",
+          "hij": "stemt",
+          "wij": "stemmen",
+          "jullie": "stemmen",
+          "zij": "stemmen"
         },
         "past": {
           "singular": "stemde",
           "plural": "stemden"
         },
         "pastParticiple": "gestemd",
-        "pastParticipleAuxiliary": "hebben"
+        "pastParticipleAuxiliary": "hebben",
+        "isSeparable": false
       }
     },
     "examples": [
@@ -38731,20 +37198,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "stempel",
-          "stempel",
-          "de stempel",
-          "de stempel"
-        ],
-        "plural": [
-          "stempels",
-          "stempels",
-          "de stempels",
-          "de stempels"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "stempel",
+        "plural": "stempels"
       }
     },
     "examples": [
@@ -38811,19 +37267,20 @@
       "verb": {
         "infinitive": "steunen",
         "present": {
-          "singular": [
-            "steun",
-            "steunt",
-            "steunt"
-          ],
-          "plural": "steunen"
+          "ik": "steun",
+          "jij": "steunt",
+          "hij": "steunt",
+          "wij": "steunen",
+          "jullie": "steunen",
+          "zij": "steunen"
         },
         "past": {
           "singular": "steunde",
           "plural": "steunden"
         },
         "pastParticiple": "gesteund",
-        "pastParticipleAuxiliary": "hebben"
+        "pastParticipleAuxiliary": "hebben",
+        "isSeparable": false
       }
     },
     "examples": [
@@ -38852,20 +37309,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "stichting",
-          "stichting",
-          "de stichting",
-          "de stichting"
-        ],
-        "plural": [
-          "stichtingen",
-          "stichtingen",
-          "de stichtingen",
-          "de stichtingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "stichting",
+        "plural": "stichtingen"
       }
     },
     "examples": [
@@ -38971,20 +37417,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "stilte",
-          "stilte",
-          "de stilte",
-          "de stilte"
-        ],
-        "plural": [
-          "stilltes",
-          "stilltes",
-          "de stilltes",
-          "de stilltes"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "stilte",
+        "plural": "stilltes"
       }
     },
     "examples": [
@@ -39013,20 +37448,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "storing",
-          "storing",
-          "de storing",
-          "de storing"
-        ],
-        "plural": [
-          "storingen",
-          "storingen",
-          "de storingen",
-          "de storingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "storing",
+        "plural": "storingen"
       }
     },
     "examples": [
@@ -39055,20 +37479,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "straf",
-          "straf",
-          "de straf",
-          "de straf"
-        ],
-        "plural": [
-          "straffen",
-          "straffen",
-          "de straffen",
-          "de straffen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "straf",
+        "plural": "straffen"
       }
     },
     "examples": [
@@ -39097,20 +37510,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "streek",
-          "streek",
-          "de streek",
-          "de streek"
-        ],
-        "plural": [
-          "streken",
-          "streken",
-          "de streken",
-          "de streken"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "streek",
+        "plural": "streken"
       }
     },
     "examples": [
@@ -39172,20 +37574,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "strijd",
-          "strijd",
-          "de strijd",
-          "de strijd"
-        ],
-        "plural": [
-          "strijden",
-          "strijden",
-          "de strijden",
-          "de strijden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "strijd",
+        "plural": "strijden"
       }
     },
     "examples": [
@@ -39214,20 +37605,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "stroom",
-          "stroom",
-          "de stroom",
-          "de stroom"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "stroom",
+        "plural": "-"
       }
     },
     "examples": [
@@ -39303,20 +37683,9 @@
     ],
     "forms": {
       "noun": {
-        "singular": [
-          "stuk",
-          "stuk",
-          "het stuk",
-          "het stuk"
-        ],
-        "plural": [
-          "stukken",
-          "stukken",
-          "de stukken",
-          "de stukken"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "stuk",
+        "plural": "stukken"
       }
     },
     "examples": [
@@ -39345,20 +37714,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "systeem",
-          "systeem",
-          "het systeem",
-          "het systeem"
-        ],
-        "plural": [
-          "systemen",
-          "systemen",
-          "de systemen",
-          "de systemen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "systeem",
+        "plural": "systemen"
       }
     },
     "examples": [
@@ -39387,20 +37745,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "taart",
-          "taart",
-          "de taart",
-          "de taart"
-        ],
-        "plural": [
-          "taarten",
-          "taarten",
-          "de taarten",
-          "de taarten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "taart",
+        "plural": "taarten"
       }
     },
     "examples": [
@@ -39429,20 +37776,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "tabel",
-          "tabel",
-          "de tabel",
-          "de tabel"
-        ],
-        "plural": [
-          "tabellen",
-          "tabellen",
-          "de tabellen",
-          "de tabellen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "tabel",
+        "plural": "tabellen"
       }
     },
     "examples": [
@@ -39496,20 +37832,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "tandarts",
-          "tandarts",
-          "de tandarts",
-          "de tandarts"
-        ],
-        "plural": [
-          "tandartsen",
-          "tandartsen",
-          "de tandartsen",
-          "de tandartsen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "tandarts",
+        "plural": "tandartsen"
       }
     },
     "examples": [
@@ -39538,20 +37863,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "team",
-          "team",
-          "het team",
-          "het team"
-        ],
-        "plural": [
-          "teams",
-          "teams",
-          "de teams",
-          "de teams"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "team",
+        "plural": "teams"
       }
     },
     "examples": [
@@ -39580,20 +37894,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "techniek",
-          "de techniek",
-          "de techniek",
-          "de techniek"
-        ],
-        "plural": [
-          "technieken",
-          "de technieken",
-          "de technieken",
-          "de technieken"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "techniek",
+        "plural": "technieken"
       }
     },
     "examples": [
@@ -39622,15 +37925,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "tegendeel",
-          "het tegendeel",
-          "het tegendeel",
-          "het tegendeel"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "tegendeel",
+        "plural": "-"
       }
     },
     "examples": [
@@ -39728,20 +38025,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "teken",
-          "het teken",
-          "het teken",
-          "het teken"
-        ],
-        "plural": [
-          "tekens",
-          "de tekens",
-          "de tekens",
-          "de tekens"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "teken",
+        "plural": "tekens"
       }
     },
     "examples": [
@@ -39770,20 +38056,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "tekort",
-          "het tekort",
-          "het tekort",
-          "het tekort"
-        ],
-        "plural": [
-          "tekorten",
-          "de tekorten",
-          "de tekorten",
-          "de tekorten"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "tekort",
+        "plural": "tekorten"
       }
     },
     "examples": [
@@ -39812,20 +38087,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "tekst",
-          "de tekst",
-          "de tekst",
-          "de tekst"
-        ],
-        "plural": [
-          "teksten",
-          "de teksten",
-          "de teksten",
-          "de teksten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "tekst",
+        "plural": "teksten"
       }
     },
     "examples": [
@@ -39854,20 +38118,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "teleurstelling",
-          "de teleurstelling",
-          "de teleurstelling",
-          "de teleurstelling"
-        ],
-        "plural": [
-          "teleurstellingen",
-          "de teleurstellingen",
-          "de teleurstellingen",
-          "de teleurstellingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "teleurstelling",
+        "plural": "teleurstellingen"
       }
     },
     "examples": [
@@ -39921,20 +38174,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "temperatuur",
-          "de temperatuur",
-          "de temperatuur",
-          "de temperatuur"
-        ],
-        "plural": [
-          "temperaturen",
-          "de temperaturen",
-          "de temperaturen",
-          "de temperaturen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "temperatuur",
+        "plural": "temperaturen"
       }
     },
     "examples": [
@@ -39988,20 +38230,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "terugkomst",
-          "de terugkomst",
-          "de terugkomst",
-          "de terugkomst"
-        ],
-        "plural": [
-          "terugkomsten",
-          "de terugkomsten",
-          "de terugkomsten",
-          "de terugkomsten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "terugkomst",
+        "plural": "terugkomsten"
       }
     },
     "examples": [
@@ -40055,20 +38286,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "tiental",
-          "het tiental",
-          "het tiental",
-          "het tiental"
-        ],
-        "plural": [
-          "tientallen",
-          "de tientallen",
-          "de tientallen",
-          "de tientallen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "tiental",
+        "plural": "tientallen"
       }
     },
     "examples": [
@@ -40130,20 +38350,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "toegang",
-          "de toegang",
-          "de toegang",
-          "de toegang"
-        ],
-        "plural": [
-          "toegangen",
-          "de toegangen",
-          "de toegangen",
-          "de toegangen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "toegang",
+        "plural": "toegangen"
       }
     },
     "examples": [
@@ -40172,20 +38381,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "toename",
-          "de toename",
-          "de toename",
-          "de toename"
-        ],
-        "plural": [
-          "toenames",
-          "de toenames",
-          "de toenames",
-          "de toenames"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "toename",
+        "plural": "toenames"
       }
     },
     "examples": [
@@ -40214,15 +38412,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "toerisme",
-          "het toerisme",
-          "het toerisme",
-          "het toerisme"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "toerisme",
+        "plural": "-"
       }
     },
     "examples": [
@@ -40251,20 +38443,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "toestemming",
-          "de toestemming",
-          "de toestemming",
-          "de toestemming"
-        ],
-        "plural": [
-          "toestemmingen",
-          "de toestemmingen",
-          "de toestemmingen",
-          "de toestemmingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "toestemming",
+        "plural": "toestemmingen"
       }
     },
     "examples": [
@@ -40293,15 +38474,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "toeval",
-          "het toeval",
-          "het toeval",
-          "het toeval"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "toeval",
+        "plural": "-"
       }
     },
     "examples": [
@@ -40363,20 +38538,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "twijfel",
-          "de twijfel",
-          "de twijfel",
-          "de twijfel"
-        ],
-        "plural": [
-          "twijfels",
-          "de twijfels",
-          "de twijfels",
-          "de twijfels"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "twijfel",
+        "plural": "twijfels"
       }
     },
     "examples": [
@@ -40405,20 +38569,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "type",
-          "de type",
-          "de type",
-          "de type"
-        ],
-        "plural": [
-          "types",
-          "de types",
-          "de types",
-          "de types"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "type",
+        "plural": "types"
       }
     },
     "examples": [
@@ -40491,20 +38644,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "uitspraak",
-          "de uitspraak",
-          "de uitspraak",
-          "de uitspraak"
-        ],
-        "plural": [
-          "uitspraken",
-          "de uitspraken",
-          "de uitspraken",
-          "de uitspraken"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "uitspraak",
+        "plural": "uitspraken"
       }
     },
     "examples": [
@@ -40566,20 +38708,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "uiterlijk",
-          "het uiterlijk",
-          "het uiterlijk",
-          "het uiterlijk"
-        ],
-        "plural": [
-          "uiterlijken",
-          "de uiterlijken",
-          "de uiterlijken",
-          "de uiterlijken"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "uiterlijk",
+        "plural": "uiterlijken"
       }
     },
     "examples": [
@@ -40608,20 +38739,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "uitgang",
-          "de uitgang",
-          "de uitgang",
-          "de uitgang"
-        ],
-        "plural": [
-          "uitgangen",
-          "de uitgangen",
-          "de uitgangen",
-          "de uitgangen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "uitgang",
+        "plural": "uitgangen"
       }
     },
     "examples": [
@@ -40694,20 +38814,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "uitkomst",
-          "de uitkomst",
-          "de uitkomst",
-          "de uitkomst"
-        ],
-        "plural": [
-          "uitkomsten",
-          "de uitkomsten",
-          "de uitkomsten",
-          "de uitkomsten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "uitkomst",
+        "plural": "uitkomsten"
       }
     },
     "examples": [
@@ -40736,15 +38845,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "uitleg",
-          "de uitleg",
-          "de uitleg",
-          "de uitleg"
-        ],
-        "plural": [],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "uitleg",
+        "plural": "-"
       }
     },
     "examples": [
@@ -40848,20 +38951,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "uitslag",
-          "de uitslag",
-          "de uitslag",
-          "de uitslag"
-        ],
-        "plural": [
-          "uitslagen",
-          "de uitslagen",
-          "de uitslagen",
-          "de uitslagen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "uitslag",
+        "plural": "uitslagen"
       }
     },
     "examples": [
@@ -41055,20 +39147,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "universiteit",
-          "de universiteit",
-          "de universiteit",
-          "de universiteit"
-        ],
-        "plural": [
-          "universiteiten",
-          "de universiteiten",
-          "de universiteiten",
-          "de universiteiten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "universiteit",
+        "plural": "universiteiten"
       }
     },
     "examples": [
@@ -41122,20 +39203,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "vakkracht",
-          "de vakkracht",
-          "de vakkracht",
-          "de vakkracht"
-        ],
-        "plural": [
-          "vakkrachten",
-          "de vakkrachten",
-          "de vakkrachten",
-          "de vakkrachten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "vakkracht",
+        "plural": "vakkrachten"
       }
     },
     "examples": [
@@ -41164,20 +39234,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "val",
-          "de val",
-          "de val",
-          "de val"
-        ],
-        "plural": [
-          "vallen",
-          "de vallen",
-          "de vallen",
-          "de vallen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "val",
+        "plural": "vallen"
       }
     },
     "examples": [
@@ -41250,20 +39309,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "vat",
-          "het vat",
-          "het vat",
-          "het vat"
-        ],
-        "plural": [
-          "vaten",
-          "de vaten",
-          "de vaten",
-          "de vaten"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "vat",
+        "plural": "vaten"
       }
     },
     "examples": [
@@ -41336,15 +39384,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "veiligheid",
-          "de veiligheid",
-          "de veiligheid",
-          "de veiligheid"
-        ],
-        "plural": [],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "veiligheid",
+        "plural": "-"
       }
     },
     "examples": [
@@ -41373,20 +39415,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "vel",
-          "het vel",
-          "het vel",
-          "het vel"
-        ],
-        "plural": [
-          "vellen",
-          "de vellen",
-          "de vellen",
-          "de vellen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "vel",
+        "plural": "vellen"
       }
     },
     "examples": [
@@ -41415,20 +39446,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "veld",
-          "het veld",
-          "het veld",
-          "het veld"
-        ],
-        "plural": [
-          "velden",
-          "de velden",
-          "de velden",
-          "de velden"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "veld",
+        "plural": "velden"
       }
     },
     "examples": [
@@ -41457,20 +39477,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "venster",
-          "het venster",
-          "het venster",
-          "het venster"
-        ],
-        "plural": [
-          "vensters",
-          "de vensters",
-          "de vensters",
-          "de vensters"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "venster",
+        "plural": "vensters"
       }
     },
     "examples": [
@@ -41499,20 +39508,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verandering",
-          "de verandering",
-          "de verandering",
-          "de verandering"
-        ],
-        "plural": [
-          "veranderingen",
-          "de veranderingen",
-          "de veranderingen",
-          "de veranderingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "verandering",
+        "plural": "veranderingen"
       }
     },
     "examples": [
@@ -41607,20 +39605,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verband",
-          "het verband",
-          "het verband",
-          "het verband"
-        ],
-        "plural": [
-          "verbanden",
-          "de verbanden",
-          "de verbanden",
-          "de verbanden"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verband",
+        "plural": "verbanden"
       }
     },
     "examples": [
@@ -41737,20 +39724,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verbinding",
-          "de verbinding",
-          "de verbinding",
-          "de verbinding"
-        ],
-        "plural": [
-          "verbindingen",
-          "de verbindingen",
-          "de verbindingen",
-          "de verbindingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "verbinding",
+        "plural": "verbindingen"
       }
     },
     "examples": [
@@ -41779,15 +39755,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verblijf",
-          "het verblijf",
-          "het verblijf",
-          "het verblijf"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verblijf",
+        "plural": "-"
       }
     },
     "examples": [
@@ -41860,15 +39830,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verbruik",
-          "het verbruik",
-          "het verbruik",
-          "het verbruik"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verbruik",
+        "plural": "-"
       }
     },
     "examples": [
@@ -42029,15 +39993,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verdriet",
-          "het verdriet",
-          "het verdriet",
-          "het verdriet"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verdriet",
+        "plural": "-"
       }
     },
     "examples": [
@@ -42154,20 +40112,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "vergadering",
-          "de vergadering",
-          "de vergadering",
-          "de vergadering"
-        ],
-        "plural": [
-          "vergaderingen",
-          "de vergaderingen",
-          "de vergaderingen",
-          "de vergaderingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "vergadering",
+        "plural": "vergaderingen"
       }
     },
     "examples": [
@@ -42284,20 +40231,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verhoging",
-          "de verhoging",
-          "de verhoging",
-          "de verhoging"
-        ],
-        "plural": [
-          "verhogingen",
-          "de verhogingen",
-          "de verhogingen",
-          "de verhogingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "verhoging",
+        "plural": "verhogingen"
       }
     },
     "examples": [
@@ -42370,15 +40306,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verkeer",
-          "het verkeer",
-          "het verkeer",
-          "het verkeer"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verkeer",
+        "plural": "-"
       }
     },
     "examples": [
@@ -42407,20 +40337,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verkoop",
-          "de verkoop",
-          "de verkoop",
-          "de verkoop"
-        ],
-        "plural": [
-          "verkopen",
-          "de verkopen",
-          "de verkopen",
-          "de verkopen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "verkoop",
+        "plural": "verkopen"
       }
     },
     "examples": [
@@ -42449,20 +40368,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verkoudheid",
-          "de verkoudheid",
-          "de verkoudheid",
-          "de verkoudheid"
-        ],
-        "plural": [
-          "verkoudheden",
-          "de verkoudheden",
-          "de verkoudheden",
-          "de verkoudheden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "verkoudheid",
+        "plural": "verkoudheden"
       }
     },
     "examples": [
@@ -42535,15 +40443,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verleden",
-          "het verleden",
-          "het verleden",
-          "het verleden"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verleden",
+        "plural": "-"
       }
     },
     "examples": [
@@ -42616,20 +40518,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verlies",
-          "het verlies",
-          "het verlies",
-          "het verlies"
-        ],
-        "plural": [
-          "verliezen",
-          "de verliezen",
-          "de verliezen",
-          "de verliezen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verlies",
+        "plural": "verliezen"
       }
     },
     "examples": [
@@ -42658,20 +40549,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verloop",
-          "het verloop",
-          "het verloop",
-          "het verloop"
-        ],
-        "plural": [
-          "verlopen",
-          "de verlopen",
-          "de verlopen",
-          "de verlopen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verloop",
+        "plural": "verlopen"
       }
     },
     "examples": [
@@ -42700,20 +40580,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verloving",
-          "de verloving",
-          "de verloving",
-          "de verloving"
-        ],
-        "plural": [
-          "verlovingen",
-          "de verlovingen",
-          "de verlovingen",
-          "de verlovingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "verloving",
+        "plural": "verlovingen"
       }
     },
     "examples": [
@@ -42874,20 +40743,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verpakking",
-          "de verpakking",
-          "de verpakking",
-          "de verpakking"
-        ],
-        "plural": [
-          "verpakkingen",
-          "de verpakkingen",
-          "de verpakkingen",
-          "de verpakkingen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "verpakking",
+        "plural": "verpakkingen"
       }
     },
     "examples": [
@@ -43114,20 +40972,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verschil",
-          "het verschil",
-          "het verschil",
-          "het verschil"
-        ],
-        "plural": [
-          "verschillen",
-          "de verschillen",
-          "de verschillen",
-          "de verschillen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verschil",
+        "plural": "verschillen"
       }
     },
     "examples": [
@@ -43277,20 +41124,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verslag",
-          "het verslag",
-          "het verslag",
-          "het verslag"
-        ],
-        "plural": [
-          "verslagen",
-          "de verslagen",
-          "de verslagen",
-          "de verslagen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verslag",
+        "plural": "verslagen"
       }
     },
     "examples": [
@@ -43319,15 +41155,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verstand",
-          "het verstand",
-          "het verstand",
-          "het verstand"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verstand",
+        "plural": "-"
       }
     },
     "examples": [
@@ -43576,15 +41406,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "vervoer",
-          "het vervoer",
-          "het vervoer",
-          "het vervoer"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "vervoer",
+        "plural": "-"
       }
     },
     "examples": [
@@ -43858,15 +41682,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verzet",
-          "het verzet",
-          "het verzet",
-          "het verzet"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verzet",
+        "plural": "-"
       }
     },
     "examples": [
@@ -43895,20 +41713,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verzorger",
-          "de verzorger",
-          "de verzorger",
-          "de verzorger"
-        ],
-        "plural": [
-          "verzorgers",
-          "de verzorgers",
-          "de verzorgers",
-          "de verzorgers"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "verzorger",
+        "plural": "verzorgers"
       }
     },
     "examples": [
@@ -43937,15 +41744,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verzorging",
-          "de verzorging",
-          "de verzorging",
-          "de verzorging"
-        ],
-        "plural": [],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "verzorging",
+        "plural": "-"
       }
     },
     "examples": [
@@ -43974,20 +41775,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "verzoek",
-          "het verzoek",
-          "het verzoek",
-          "het verzoek"
-        ],
-        "plural": [
-          "verzoeken",
-          "de verzoeken",
-          "de verzoeken",
-          "de verzoeken"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "verzoek",
+        "plural": "verzoeken"
       }
     },
     "examples": [
@@ -44085,15 +41875,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "visite",
-          "de visite",
-          "de visite",
-          "de visite"
-        ],
-        "plural": [],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "visite",
+        "plural": "-"
       }
     },
     "examples": [
@@ -44122,20 +41906,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "vlag",
-          "de vlag",
-          "de vlag",
-          "de vlag"
-        ],
-        "plural": [
-          "vlaggen",
-          "de vlaggen",
-          "de vlaggen",
-          "de vlaggen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "vlag",
+        "plural": "vlaggen"
       }
     },
     "examples": [
@@ -44164,20 +41937,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "vleugel",
-          "de vleugel",
-          "de vleugel",
-          "de vleugel"
-        ],
-        "plural": [
-          "vleugels",
-          "de vleugels",
-          "de vleugels",
-          "de vleugels"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "vleugel",
+        "plural": "vleugels"
       }
     },
     "examples": [
@@ -44250,15 +42012,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "voeding",
-          "de voeding",
-          "de voeding",
-          "de voeding"
-        ],
-        "plural": [],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "voeding",
+        "plural": "-"
       }
     },
     "examples": [
@@ -44287,15 +42043,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "voer",
-          "het voer",
-          "het voer",
-          "het voer"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "voer",
+        "plural": "-"
       }
     },
     "examples": [
@@ -44324,20 +42074,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "voertuig",
-          "het voertuig",
-          "het voertuig",
-          "het voertuig"
-        ],
-        "plural": [
-          "voertuigen",
-          "de voertuigen",
-          "de voertuigen",
-          "de voertuigen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "voertuig",
+        "plural": "voertuigen"
       }
     },
     "examples": [
@@ -44468,20 +42207,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "volwassene",
-          "de volwassene",
-          "de volwassene",
-          "de volwassene"
-        ],
-        "plural": [
-          "volwassenen",
-          "de volwassenen",
-          "de volwassenen",
-          "de volwassenen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "volwassene",
+        "plural": "volwassenen"
       }
     },
     "examples": [
@@ -44554,20 +42282,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "voorschrift",
-          "het voorschrift",
-          "het voorschrift",
-          "het voorschrift"
-        ],
-        "plural": [
-          "voorschriften",
-          "de voorschriften",
-          "de voorschriften",
-          "de voorschriften"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "voorschrift",
+        "plural": "voorschriften"
       }
     },
     "examples": [
@@ -44596,20 +42313,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "voorstel",
-          "het voorstel",
-          "het voorstel",
-          "het voorstel"
-        ],
-        "plural": [
-          "voorstellen",
-          "de voorstellen",
-          "de voorstellen",
-          "de voorstellen"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "voorstel",
+        "plural": "voorstellen"
       }
     },
     "examples": [
@@ -44638,20 +42344,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "voorziening",
-          "de voorziening",
-          "de voorziening",
-          "de voorziening"
-        ],
-        "plural": [
-          "voorzieningen",
-          "de voorzieningen",
-          "de voorzieningen",
-          "de voorzieningen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "voorziening",
+        "plural": "voorzieningen"
       }
     },
     "examples": [
@@ -44680,15 +42375,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "vrede",
-          "de vrede",
-          "de vrede",
-          "de vrede"
-        ],
-        "plural": [],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "vrede",
+        "plural": "-"
       }
     },
     "examples": [
@@ -44717,20 +42406,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "waarde",
-          "de waarde",
-          "de waarde",
-          "de waarde"
-        ],
-        "plural": [
-          "waarden",
-          "de waarden",
-          "de waarden",
-          "de waarden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "waarde",
+        "plural": "waarden"
       }
     },
     "examples": [
@@ -44847,20 +42525,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "wagen",
-          "de wagen",
-          "de wagen",
-          "de wagen"
-        ],
-        "plural": [
-          "wagens",
-          "de wagens",
-          "de wagens",
-          "de wagens"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "wagen",
+        "plural": "wagens"
       }
     },
     "examples": [
@@ -44889,15 +42556,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "warmte",
-          "de warmte",
-          "de warmte",
-          "de warmte"
-        ],
-        "plural": [],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "warmte",
+        "plural": "-"
       }
     },
     "examples": [
@@ -44926,15 +42587,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "weerstand",
-          "de weerstand",
-          "de weerstand",
-          "de weerstand"
-        ],
-        "plural": [],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "weerstand",
+        "plural": "-"
       }
     },
     "examples": [
@@ -45084,20 +42739,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "werkgever",
-          "de werkgever",
-          "de werkgever",
-          "de werkgever"
-        ],
-        "plural": [
-          "werkgevers",
-          "de werkgevers",
-          "de werkgevers",
-          "de werkgevers"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "werkgever",
+        "plural": "werkgevers"
       }
     },
     "examples": [
@@ -45159,20 +42803,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "werktijd",
-          "de werktijd",
-          "de werktijd",
-          "de werktijd"
-        ],
-        "plural": [
-          "werktijden",
-          "de werktijden",
-          "de werktijden",
-          "de werktijden"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "werktijd",
+        "plural": "werktijden"
       }
     },
     "examples": [
@@ -45201,20 +42834,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "wetenschap",
-          "de wetenschap",
-          "de wetenschap",
-          "de wetenschap"
-        ],
-        "plural": [
-          "wetenschappen",
-          "de wetenschappen",
-          "de wetenschappen",
-          "de wetenschappen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "wetenschap",
+        "plural": "wetenschappen"
       }
     },
     "examples": [
@@ -45243,20 +42865,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "wijze",
-          "de wijze",
-          "de wijze",
-          "de wijze"
-        ],
-        "plural": [
-          "wijzen",
-          "de wijzen",
-          "de wijzen",
-          "de wijzen"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "wijze",
+        "plural": "wijzen"
       }
     },
     "examples": [
@@ -45285,15 +42896,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "zicht",
-          "het zicht",
-          "het zicht",
-          "het zicht"
-        ],
-        "plural": [],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "zicht",
+        "plural": "-"
       }
     },
     "examples": [
@@ -45322,20 +42927,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
-        "singular": [
-          "ziekte",
-          "de ziekte",
-          "de ziekte",
-          "de ziekte"
-        ],
-        "plural": [
-          "ziekten",
-          "de ziekten",
-          "de ziekten",
-          "de ziekten"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "ziekte",
+        "plural": "ziekten"
       }
     },
     "examples": [
@@ -46970,7 +44564,6 @@
     "notes": "常用语：anoniem blijven (保持匿名)",
     "difficulty": "B1"
   },
-
   {
     "id": 1352,
     "word": "apparaat",
@@ -47015,7 +44608,7 @@
       "noun": {
         "article": "de",
         "singular": "applaus",
-        "plural": []
+        "plural": "-"
       }
     },
     "examples": [
@@ -47079,7 +44672,7 @@
       "noun": {
         "article": "de",
         "singular": "armoede",
-        "plural": []
+        "plural": "-"
       }
     },
     "examples": [
@@ -47399,7 +44992,7 @@
       "noun": {
         "article": "de",
         "singular": "bagage",
-        "plural": []
+        "plural": "-"
       }
     },
     "examples": [
@@ -48950,7 +46543,7 @@
       "noun": {
         "article": "het",
         "singular": "beleid",
-        "plural": []
+        "plural": "-"
       }
     },
     "examples": [
