@@ -191,6 +191,8 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       interjection: '感叹词',
       phrase: '短语',
       other: '其他',
+      determiner: '限定词',
+      numeral: '数词',
       A1: 'A1',
       A2: 'A2',
       B1: 'B1',
@@ -229,6 +231,8 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       interjection: 'Interjection',
       phrase: 'Phrase',
       other: 'Other',
+      determiner: 'Determiner',
+      numeral: 'Numeral',
       A1: 'A1',
       A2: 'A2',
       B1: 'B1',
@@ -294,7 +298,10 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       word.translation.english.toLowerCase().includes(searchLower)
 
     // 词性过滤
-    const matchesPartOfSpeech = selectedPartOfSpeech === 'all' || word.partOfSpeech === selectedPartOfSpeech
+    const matchesPartOfSpeech =
+      selectedPartOfSpeech === 'all' ||
+      (selectedPartOfSpeech === 'other' && otherPartsOfSpeech.includes(word.partOfSpeech)) ||
+      word.partOfSpeech === selectedPartOfSpeech
 
     // 难度过滤
     const matchesDifficulty = selectedDifficulty === 'all' || word.difficulty === selectedDifficulty
@@ -325,7 +332,9 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [currentPage, setCurrentPage] = useState(1)
 
   // 获取所有唯一的词性
-  const allPartsOfSpeech: string[] = ['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection', 'phrase', 'other']
+  const mainPartsOfSpeech: string[] = ['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection']
+  const otherPartsOfSpeech: string[] = ['determiner', 'numeral', 'phrase', 'other']
+  const allPartsOfSpeech: string[] = Array.from(new Set(words.map(w => w.partOfSpeech))).sort()
 
   // 获取所有唯一的难度
   const allDifficulties = Array.from(new Set(words.map(w => w.difficulty))).sort()

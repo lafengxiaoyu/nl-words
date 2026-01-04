@@ -594,6 +594,14 @@
   background: linear-gradient(135deg, #9333ea 0%, #7c3aed 100%);
 }
 
+.pos-numeral {
+  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+}
+
+.pos-determiner {
+  background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
+}
+
 .pos-other {
   background: linear-gradient(135deg, #64748b 0%, #475569 100%);
 }
