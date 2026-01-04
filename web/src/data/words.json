@@ -2695,7 +2695,7 @@
       "chinese": "这个（阳性/阴性）",
       "english": "the (masculine/feminine)"
     },
-    "partOfSpeech": "article",
+    "partOfSpeech": "determiner",
     "examples": [
       "De man staat daar.",
       "De vrouw is hier."
@@ -3498,7 +3498,7 @@
       "chinese": "一个",
       "english": "a, an, one"
     },
-    "partOfSpeech": "article",
+    "partOfSpeech": "determiner",
     "examples": [
       "Ik heb een auto.",
       "Een huis."
@@ -4619,7 +4619,7 @@
       "chinese": "这个（中性）",
       "english": "the (neuter)"
     },
-    "partOfSpeech": "article",
+    "partOfSpeech": "determiner",
     "examples": [
       "Het huis is groot.",
       "Het boek is nieuw."
@@ -5364,7 +5364,7 @@
       "chinese": "你的",
       "english": "your"
     },
-    "partOfSpeech": "possessive",
+    "partOfSpeech": "pronoun",
     "examples": [
       "Dit is jouw auto.",
       "Jouw boek is hier."
@@ -7512,7 +7512,7 @@
       "chinese": "我的",
       "english": "my, mine"
     },
-    "partOfSpeech": "possessive",
+    "partOfSpeech": "pronoun",
     "forms": {
       "possessive": {
         "person": "first",
@@ -8215,7 +8215,7 @@
       "chinese": "九",
       "english": "nine"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {
       "number": {
         "value": 9,
@@ -8628,7 +8628,7 @@
       "chinese": "零",
       "english": "zero"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {
       "number": {
         "value": 0,
@@ -9005,7 +9005,7 @@
       "chinese": "我们的",
       "english": "our"
     },
-    "partOfSpeech": "possessive",
+    "partOfSpeech": "pronoun",
     "forms": {
       "possessive": {
         "person": "first",
@@ -12905,7 +12905,7 @@
       "chinese": "十",
       "english": "ten"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {
       "number": {
         "value": 10,
@@ -14082,7 +14082,7 @@
       "chinese": "十二",
       "english": "twelve"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {},
     "examples": [
       "Het is twaalf uur.",
@@ -14108,7 +14108,7 @@
       "chinese": "二",
       "english": "two"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {},
     "examples": [
       "Ik heb twee boeken.",
@@ -14134,7 +14134,7 @@
       "chinese": "二十",
       "english": "twenty"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {},
     "examples": [
       "Ik ben twintig jaar oud.",
@@ -14729,7 +14729,7 @@
       "chinese": "四十",
       "english": "forty"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {},
     "examples": [
       "Ik ben veertig jaar oud.",
@@ -15701,7 +15701,7 @@
       "chinese": "四",
       "english": "four"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {},
     "examples": [
       "Ik heb vier zussen.",
@@ -15807,7 +15807,7 @@
       "chinese": "五",
       "english": "five"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {},
     "examples": [
       "Ik heb vijf boeken.",
@@ -15833,7 +15833,7 @@
       "chinese": "五十",
       "english": "fifty"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {},
     "examples": [
       "Ik ben vijftig jaar oud.",
@@ -19830,7 +19830,7 @@
       "chinese": "七",
       "english": "seven"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {},
     "examples": [
       "Ik heb zeven boeken.",
@@ -19856,7 +19856,7 @@
       "chinese": "六十",
       "english": "sixty"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {},
     "examples": [
       "Ik ben zestig jaar oud.",
@@ -19928,7 +19928,7 @@
       "chinese": "七十",
       "english": "seventy"
     },
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "forms": {},
     "examples": [
       "Ik ben zeventig jaar oud.",

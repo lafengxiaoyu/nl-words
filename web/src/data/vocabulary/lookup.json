@@ -843,7 +843,7 @@
     "id": 86,
     "word": "de",
     "level": "A1",
-    "partOfSpeech": "article",
+    "partOfSpeech": "determiner",
     "translation": {
       "chinese": "这个（阳性/阴性）",
       "english": "the (masculine/feminine)"
@@ -1093,7 +1093,7 @@
     "id": 111,
     "word": "een",
     "level": "A1",
-    "partOfSpeech": "article",
+    "partOfSpeech": "determiner",
     "translation": {
       "chinese": "一个",
       "english": "a, an, one"
@@ -1453,7 +1453,7 @@
     "id": 148,
     "word": "het",
     "level": "A1",
-    "partOfSpeech": "article",
+    "partOfSpeech": "determiner",
     "translation": {
       "chinese": "这个（中性）",
       "english": "the (neuter)"
@@ -1703,7 +1703,7 @@
     "id": 175,
     "word": "jouw",
     "level": "A1",
-    "partOfSpeech": "possessive",
+    "partOfSpeech": "pronoun",
     "translation": {
       "chinese": "你的",
       "english": "your"
@@ -2313,7 +2313,7 @@
     "id": 240,
     "word": "mijn",
     "level": "A1",
-    "partOfSpeech": "possessive",
+    "partOfSpeech": "pronoun",
     "translation": {
       "chinese": "我的",
       "english": "my, mine"
@@ -2523,7 +2523,7 @@
     "id": 262,
     "word": "negen",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "九",
       "english": "nine"
@@ -2653,7 +2653,7 @@
     "id": 276,
     "word": "nul",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "零",
       "english": "zero"
@@ -2773,7 +2773,7 @@
     "id": 288,
     "word": "onze",
     "level": "A1",
-    "partOfSpeech": "possessive",
+    "partOfSpeech": "pronoun",
     "translation": {
       "chinese": "我们的",
       "english": "our"
@@ -3923,7 +3923,7 @@
     "id": 405,
     "word": "tien",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "十",
       "english": "ten"
@@ -4273,7 +4273,7 @@
     "id": 441,
     "word": "twaalf",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "十二",
       "english": "twelve"
@@ -4283,7 +4283,7 @@
     "id": 442,
     "word": "twee",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "二",
       "english": "two"
@@ -4293,7 +4293,7 @@
     "id": 443,
     "word": "twintig",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "二十",
       "english": "twenty"
@@ -4483,7 +4483,7 @@
     "id": 462,
     "word": "veertig",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "四十",
       "english": "forty"
@@ -4753,7 +4753,7 @@
     "id": 490,
     "word": "vier",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "四",
       "english": "four"
@@ -4783,7 +4783,7 @@
     "id": 493,
     "word": "vijf",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "五",
       "english": "five"
@@ -4793,7 +4793,7 @@
     "id": 494,
     "word": "vijftig",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "五十",
       "english": "fifty"
@@ -5953,7 +5953,7 @@
     "id": 614,
     "word": "zeven",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "七",
       "english": "seven"
@@ -5963,7 +5963,7 @@
     "id": 615,
     "word": "zestig",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "六十",
       "english": "sixty"
@@ -5983,7 +5983,7 @@
     "id": 618,
     "word": "zeventig",
     "level": "A1",
-    "partOfSpeech": "number",
+    "partOfSpeech": "numeral",
     "translation": {
       "chinese": "七十",
       "english": "seventy"
