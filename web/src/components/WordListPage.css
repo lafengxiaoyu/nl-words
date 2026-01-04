@@ -39,19 +39,29 @@
 
 .word-details-panel {
   position: relative;
+  width: 100%;
   max-width: 600px;
+  min-width: 500px;
   max-height: 80vh;
   overflow-y: auto;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px) saturate(180%);
   border-radius: 20px;
   padding: 30px;
-  box-shadow: 
+  box-shadow:
     0 20px 60px rgba(0, 0, 0, 0.3),
     0 8px 24px rgba(31, 38, 135, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #1f2937;
   animation: slideUp 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .word-details-panel {
+    min-width: auto;
+    max-width: calc(100vw - 40px);
+    padding: 20px;
+  }
 }
 
 @keyframes slideUp {
@@ -119,12 +129,20 @@
 .word-details-panel .verb-details,
 .word-details-panel .adjective-details {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 12px;
   margin-top: 12px;
   padding: 12px;
   background: rgba(59, 130, 246, 0.05);
   border-radius: 10px;
+}
+
+@media (max-width: 480px) {
+  .word-details-panel .noun-details,
+  .word-details-panel .verb-details,
+  .word-details-panel .adjective-details {
+    grid-template-columns: 1fr;
+  }
 }
 
 .word-details-panel .noun-details div,
