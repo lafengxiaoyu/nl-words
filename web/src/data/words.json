@@ -45364,5 +45364,4330 @@
       ]
     },
     "difficulty": "A2"
+  },
+  {
+    "id": 1307,
+    "word": "aandacht",
+    "translation": {
+      "chinese": "注意",
+      "english": "attention"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "aandacht",
+        "plural": "aandachten"
+      }
+    },
+    "examples": [
+      "Je moet aandacht besteden aan je werk.",
+      "Hij let goed op mijn aandacht."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "你必须注意你的工作。",
+        "他很好地注意到了我的注意。"
+      ],
+      "english": [
+        "You must pay attention to your work.",
+        "He pays good attention to my attention."
+      ]
+    },
+    "notes": "阴性名词，常用短语：aandacht besteden aan (注意)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1308,
+    "word": "aanleiding",
+    "translation": {
+      "chinese": "原因、诱因",
+      "english": "reason, occasion, cause"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "aanleiding",
+        "plural": "aanleidingen"
+      }
+    },
+    "examples": [
+      "Dit was de aanleiding voor het besluit.",
+      "Zonder aanleiding deed hij dat."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是做出这个决定的原因。",
+        "他没有理由就做了那件事。"
+      ],
+      "english": [
+        "This was the occasion for the decision.",
+        "Without reason he did that."
+      ]
+    },
+    "notes": "常用短语：aanleiding geven tot (导致)，指事件或情况的原因",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1309,
+    "word": "aanpakken",
+    "translation": {
+      "chinese": "着手处理、对付",
+      "english": "to tackle, to approach, to handle"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "aanpakken",
+        "isSeparable": true,
+        "prefix": "aan",
+        "present": {
+          "ik": "pak aan",
+          "jij": "pakt aan",
+          "hij": "pakt aan",
+          "wij": "pakken aan",
+          "jullie": "pakken aan",
+          "zij": "pakken aan"
+        },
+        "past": {
+          "singular": "pakte aan",
+          "plural": "pakten aan"
+        },
+        "pastParticiple": "aangepakt",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "We moeten dit probleem aanpakken.",
+      "Hij pakt de taak met enthousiasme aan."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我们必须着手处理这个问题。",
+        "他热情地着手这个任务。"
+      ],
+      "english": [
+        "We must tackle this problem.",
+        "He approaches the task with enthusiasm."
+      ]
+    },
+    "notes": "可分动词，前缀 aan-，常用在正式场合",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1310,
+    "word": "aantonen",
+    "translation": {
+      "chinese": "证明、表明",
+      "english": "to demonstrate, to prove, to show"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "aantonen",
+        "isSeparable": false,
+        "present": {
+          "ik": "toon aan",
+          "jij": "toont aan",
+          "hij": "toont aan",
+          "wij": "tonen aan",
+          "jullie": "tonen aan",
+          "zij": "tonen aan"
+        },
+        "past": {
+          "singular": "toonde aan",
+          "plural": "toonden aan"
+        },
+        "pastParticiple": "aangetoond",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Ik kan het niet aantonen.",
+      "Het onderzoek toonde aan dat hij onschuldig was."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我无法证明这一点。",
+        "调查表明他是无罪的。"
+      ],
+      "english": [
+        "I cannot demonstrate this.",
+        "The investigation showed that he was innocent."
+      ]
+    },
+    "notes": "不可分动词，常用在正式和学术场合",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1311,
+    "word": "aanvraag",
+    "translation": {
+      "chinese": "申请、请求",
+      "english": "application, request"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "aanvraag",
+        "plural": "aanvragen"
+      }
+    },
+    "examples": [
+      "Ik heb een aanvraag ingediend.",
+      "De aanvraag werd goedgekeurd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我提交了申请。",
+        "申请被批准了。"
+      ],
+      "english": [
+        "I submitted an application.",
+        "The application was approved."
+      ]
+    },
+    "notes": "阴性名词，常用短语：een aanvraag indienen (提交申请)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1312,
+    "word": "aard",
+    "translation": {
+      "chinese": "性质、本质、性格",
+      "english": "nature, character, kind"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "aard",
+        "plural": "aarden"
+      }
+    },
+    "examples": [
+      "De aard van het probleem is complex.",
+      "Hij heeft een rustige aard."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这个问题的性质很复杂。",
+        "他性格温和。"
+      ],
+      "english": [
+        "The nature of the problem is complex.",
+        "He has a calm character."
+      ]
+    },
+    "notes": "阴性名词，常用短语：van aard zijn (是...性质的)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1313,
+    "word": "aarzelen",
+    "translation": {
+      "chinese": "犹豫",
+      "english": "to hesitate"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "aarzelen",
+        "isSeparable": false,
+        "present": {
+          "ik": "aarzel",
+          "jij": "aarzelt",
+          "hij": "aarzelt",
+          "wij": "aarzelen",
+          "jullie": "aarzelen",
+          "zij": "aarzelen"
+        },
+        "past": {
+          "singular": "aarzelde",
+          "plural": "aarzelden"
+        },
+        "pastParticiple": "aarzeld",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Ik aarzelde even voor ik antwoordde.",
+      "Zij aarzelt niet om de waarheid te vertellen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我在回答前犹豫了一下。",
+        "她毫不犹豫地说出了真相。"
+      ],
+      "english": [
+        "I hesitated for a moment before answering.",
+        "She does not hesitate to tell the truth."
+      ]
+    },
+    "notes": "不可分动词，常跟介词 om (aarzelen om te + infinitive)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1314,
+    "word": "absurd",
+    "translation": {
+      "chinese": "荒谬的",
+      "english": "absurd, ridiculous"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "absurd",
+        "withDe": "absurde",
+        "withHet": "absurd",
+        "comparative": "absurder",
+        "superlative": "het absurdst"
+      }
+    },
+    "examples": [
+      "Dat idee is totaal absurd.",
+      "Het is een absurde situatie."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "那个想法完全荒谬。",
+        "这是一个荒谬的情况。"
+      ],
+      "english": [
+        "That idea is totally absurd.",
+        "It's an absurd situation."
+      ]
+    },
+    "notes": "外来形容词，比较级和最高级规则变化",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1315,
+    "word": "accent",
+    "translation": {
+      "chinese": "口音、重音",
+      "english": "accent, stress"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "accent",
+        "plural": "accenten"
+      }
+    },
+    "examples": [
+      "Hij spreekt met een Frans accent.",
+      "De klemtoon ligt op de laatste lettergreep."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他说话带有法语口音。",
+        "重音在最后一个音节上。"
+      ],
+      "english": [
+        "He speaks with a French accent.",
+        "The stress is on the last syllable."
+      ]
+    },
+    "notes": "阳性名词，也可指重音(klemtoon)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1316,
+    "word": "accepteren",
+    "translation": {
+      "chinese": "接受",
+      "english": "to accept, to approve"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "accepteren",
+        "isSeparable": false,
+        "present": {
+          "ik": "accepteer",
+          "jij": "accepteert",
+          "hij": "accepteert",
+          "wij": "accepteren",
+          "jullie": "accepteren",
+          "zij": "accepteren"
+        },
+        "past": {
+          "singular": "accepteerde",
+          "plural": "accepteerden"
+        },
+        "pastParticiple": "geaccepteerd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Ik accepteer je aanbod.",
+      "Het voorstel werd niet geaccepteerd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我接受你的提议。",
+        "这个提议没有被接受。"
+      ],
+      "english": [
+        "I accept your offer.",
+        "The proposal was not accepted."
+      ]
+    },
+    "notes": "外来动词，规则变位，常用在正式场合",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1317,
+    "word": "achtergrond",
+    "translation": {
+      "chinese": "背景",
+      "english": "background"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "achtergrond",
+        "plural": "achtergronden"
+      }
+    },
+    "examples": [
+      "Hij heeft een interessante achtergrond.",
+      "De achtergrond van het schilderij is blauw."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他有一个有趣的背景。",
+        "这幅画的背景是蓝色的。"
+      ],
+      "english": [
+        "He has an interesting background.",
+        "The background of the painting is blue."
+      ]
+    },
+    "notes": "复合词，由achter(后面)和grond(地面)组成",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1318,
+    "word": "actie",
+    "translation": {
+      "chinese": "行动",
+      "english": "action"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "actie",
+        "plural": "acties"
+      }
+    },
+    "examples": [
+      "We moeten nu actie ondernemen.",
+      "Zijn actie was moedig."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我们现在必须采取行动。",
+        "他的行动很勇敢。"
+      ],
+      "english": [
+        "We must take action now.",
+        "His action was brave."
+      ]
+    },
+    "notes": "阴性名词，常用短语：actie ondernemen (采取行动)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1319,
+    "word": "actief",
+    "translation": {
+      "chinese": "活跃的、积极的",
+      "english": "active, positive"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "actief",
+        "withDe": "actieve",
+        "withHet": "actieve",
+        "comparative": "actiever",
+        "superlative": "het actiefst"
+      }
+    },
+    "examples": [
+      "Hij is erg actief in de sportschool.",
+      "Zij neemt een actieve rol in het project."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他在健身房非常活跃。",
+        "她在项目中发挥了积极作用。"
+      ],
+      "english": [
+        "He is very active in the gym.",
+        "She takes an active role in the project."
+      ]
+    },
+    "notes": "以-f结尾的形容词，变位规则",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1320,
+    "word": "activiteit",
+    "translation": {
+      "chinese": "活动",
+      "english": "activity"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "activiteit",
+        "plural": "activiteiten"
+      }
+    },
+    "examples": [
+      "Er zijn veel activiteiten in het park.",
+      "Welke activiteit vind jij leuk?"
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "公园里有很多活动。",
+        "你喜欢什么活动？"
+      ],
+      "english": [
+        "There are many activities in the park.",
+        "Which activity do you like?"
+      ]
+    },
+    "notes": "阴性名词，复数形式是-iteit → -iteiten",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1321,
+    "word": "actueel",
+    "translation": {
+      "chinese": "当前的、时事的",
+      "english": "current, topical, up-to-date"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "actueel",
+        "withDe": "actuele",
+        "withHet": "actuele",
+        "comparative": "actueler",
+        "superlative": "het actueelst"
+      }
+    },
+    "examples": [
+      "Dit onderwerp is erg actueel.",
+      "Hij is goed op de hoogte van actuele zaken."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这个话题非常时兴。",
+        "他很了解时事。"
+      ],
+      "english": [
+        "This topic is very topical.",
+        "He is well informed about current affairs."
+      ]
+    },
+    "notes": "外来形容词，用于描述时事或当前状况",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1322,
+    "word": "acuut",
+    "translation": {
+      "chinese": "急性的、剧烈的",
+      "english": "acute, severe, intense"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "acuut",
+        "withDe": "acute",
+        "withHet": "acute",
+        "comparative": "acuter",
+        "superlative": "het acutst"
+      }
+    },
+    "examples": [
+      "De patiënt heeft acuut pijn.",
+      "Er is een acuut probleem ontstaan."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "患者有剧烈疼痛。",
+        "出现了急性的问题。"
+      ],
+      "english": [
+        "The patient has acute pain.",
+        "An acute problem has arisen."
+      ]
+    },
+    "notes": "常用于医学描述急性症状",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1323,
+    "word": "adverteren",
+    "translation": {
+      "chinese": "做广告",
+      "english": "to advertise"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "adverteren",
+        "isSeparable": false,
+        "present": {
+          "ik": "advertseer",
+          "jij": "adverteert",
+          "hij": "adverteert",
+          "wij": "adverteren",
+          "jullie": "adverteren",
+          "zij": "adverteren"
+        },
+        "past": {
+          "singular": "advertseerde",
+          "plural": "advertseerden"
+        },
+        "pastParticiple": "geadverteerd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Het bedrijf adverteert op television.",
+      "Zij adverteert voor haar product online."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这家公司在电视上做广告。",
+        "她在线上为她的产品做广告。"
+      ],
+      "english": [
+        "The company advertises on television.",
+        "She advertises for her product online."
+      ]
+    },
+    "notes": "外来动词，规则变位",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1324,
+    "word": "advies",
+    "translation": {
+      "chinese": "建议、意见",
+      "english": "advice, opinion"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "advies",
+        "plural": "adviezen"
+      }
+    },
+    "examples": [
+      "Bedankt voor je advies.",
+      "Ik heb een goed advies voor je."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "谢谢你的建议。",
+        "我有个好建议给你。"
+      ],
+      "english": [
+        "Thank you for your advice.",
+        "I have a good advice for you."
+      ]
+    },
+    "notes": "中性名词，常用短语：advies geven/innemen (给出/接受建议)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1325,
+    "word": "adviseur",
+    "translation": {
+      "chinese": "顾问",
+      "english": "advisor, consultant"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "adviseur",
+        "plural": "adviseurs"
+      }
+    },
+    "examples": [
+      "Zij werkt als adviseur bij de bank.",
+      "De adviseur gaf nuttig advies."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她在银行当顾问。",
+        "顾问给出了有用的建议。"
+      ],
+      "english": [
+        "She works as advisor at the bank.",
+        "The advisor gave useful advice."
+      ]
+    },
+    "notes": "阳性名词，职业名称",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1326,
+    "word": "adviseren",
+    "translation": {
+      "chinese": "建议",
+      "english": "to advise, to recommend"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "adviseren",
+        "isSeparable": false,
+        "present": {
+          "ik": "adviceer",
+          "jij": "adviceert",
+          "hij": "adviceert",
+          "wij": "adviseren",
+          "jullie": "adviseren",
+          "zij": "adviseren"
+        },
+        "past": {
+          "singular": "adviceerde",
+          "plural": "adviceerden"
+        },
+        "pastParticiple": "geadviseerd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Ik adviseer je om te wachten.",
+      "De dokter adviseerde haar om te stoppen met roken."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我建议你等等。",
+        "医生建议她戒烟。"
+      ],
+      "english": [
+        "I advise you to wait.",
+        "The doctor advised her to stop smoking."
+      ]
+    },
+    "notes": "外来动词，常跟介词 om (adviseren om te + infinitive)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1327,
+    "word": "afkomst",
+    "translation": {
+      "chinese": "出身、来源",
+      "english": "origin, descent, background"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "afkomst",
+        "plural": "afkomsten"
+      }
+    },
+    "examples": [
+      "Hij is van Chinese afkomst.",
+      "Wat is je afkomst?"
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他是中国出身。",
+        "你的出身是什么？"
+      ],
+      "english": [
+        "He is of Chinese origin.",
+        "What is your origin?"
+      ]
+    },
+    "notes": "阴性名词，常用短语：van ... afkomst zijn (是...出身)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1328,
+    "word": "afname",
+    "translation": {
+      "chinese": "减少、下降",
+      "english": "decrease, decline, drop"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "afname",
+        "plural": "afnames"
+      }
+    },
+    "examples": [
+      "Er is een afname in de verkoop.",
+      "De afname van de temperatuur merkbaar."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "销售下降了。",
+        "温度下降很明显。"
+      ],
+      "english": [
+        "There is a decrease in sales.",
+        "The drop in temperature is noticeable."
+      ]
+    },
+    "notes": "阴性名词，指数量或程度的减少",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1329,
+    "word": "afnemen",
+    "translation": {
+      "chinese": "减少、取走",
+      "english": "to decrease, to take away, to adopt"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "afnemen",
+        "isSeparable": true,
+        "prefix": "af",
+        "present": {
+          "ik": "neem af",
+          "jij": "neemt af",
+          "hij": "neemt af",
+          "wij": "nemen af",
+          "jullie": "nemen af",
+          "zij": "nemen af"
+        },
+        "past": {
+          "singular": "nam af",
+          "plural": "namen af"
+        },
+        "pastParticiple": "afgenomen",
+        "pastParticipleAuxiliary": "zijn"
+      }
+    },
+    "examples": [
+      "Het aantal studenten neemt af.",
+      "Hij nam het kind af bij de school."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "学生人数在减少。",
+        "他去学校接了孩子。"
+      ],
+      "english": [
+        "The number of students is decreasing.",
+        "He picked up the child from school."
+      ]
+    },
+    "notes": "可分动词，过去分词用zijn作助动词",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1330,
+    "word": "afronden",
+    "translation": {
+      "chinese": "完成、四舍五入",
+      "english": "to round off, to complete"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "afronden",
+        "isSeparable": true,
+        "prefix": "af",
+        "present": {
+          "ik": "rond af",
+          "jij": "rondt af",
+          "hij": "rondt af",
+          "wij": "ronden af",
+          "jullie": "ronden af",
+          "zij": "ronden af"
+        },
+        "past": {
+          "singular": "rondde af",
+          "plural": "rondden af"
+        },
+        "pastParticiple": "afgerond",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Ik rond het bedrag af op hele euro's.",
+      "We moeten het project afronden."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我把金额四舍五入到整数欧元。",
+        "我们必须完成这个项目。"
+      ],
+      "english": [
+        "I round the amount to whole euros.",
+        "We must complete the project."
+      ]
+    },
+    "notes": "可分动词，用于数字四舍五入或任务完成",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1331,
+    "word": "afschaffen",
+    "translation": {
+      "chinese": "废除、取消",
+      "english": "to abolish, to cancel"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "afschaffen",
+        "isSeparable": true,
+        "prefix": "af",
+        "present": {
+          "ik": "schaf af",
+          "jij": "chaft af",
+          "hij": "chaft af",
+          "wij": "schaffen af",
+          "jullie": "schaffen af",
+          "zij": "schaffen af"
+        },
+        "past": {
+          "singular": "schafte af",
+          "plural": "chaften af"
+        },
+        "pastParticiple": "afgeschaft",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "De regering schaft de wet af.",
+      "De dienst wordt afgeschaft."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "政府废除了这项法律。",
+        "这项服务被取消了。"
+      ],
+      "english": [
+        "The government abolishes the law.",
+        "The service is being cancelled."
+      ]
+    },
+    "notes": "可分动词，常用于政策、法律或制度的取消",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1332,
+    "word": "afscheid",
+    "translation": {
+      "chinese": "告别、离别",
+      "english": "farewell, departure, goodbye"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "afscheid",
+        "plural": "afscheids"
+      }
+    },
+    "examples": [
+      "Het was een moeilijk afscheid.",
+      "Nemen we afscheid van onze vrienden."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "那是一次艰难的告别。",
+        "我们向朋友们告别。"
+      ],
+      "english": [
+        "It was a difficult farewell.",
+        "We say goodbye to our friends."
+      ]
+    },
+    "notes": "中性名词，常用短语：afscheid nemen (告别)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1333,
+    "word": "afstand",
+    "translation": {
+      "chinese": "距离",
+      "english": "distance"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "afstand",
+        "plural": "afstanden"
+      }
+    },
+    "examples": [
+      "Wat is de afstand naar het station?",
+      "Hij houdt afstand van anderen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "到车站的距离是多少？",
+        "他与其他人保持距离。"
+      ],
+      "english": [
+        "What is the distance to the station?",
+        "He keeps distance from others."
+      ]
+    },
+    "notes": "阳性名词，常用短语：afstand houden van (与...保持距离)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1334,
+    "word": "afval",
+    "translation": {
+      "chinese": "垃圾",
+      "english": "waste, garbage, trash"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "afval",
+        "plural": "afvallen"
+      }
+    },
+    "examples": [
+      "Gooi het afval in de vuilnisbak.",
+      "Hij scheidt het afval."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "把垃圾扔进垃圾桶。",
+        "他分类垃圾。"
+      ],
+      "english": [
+        "Throw the waste in the trash can.",
+        "He separates the garbage."
+      ]
+    },
+    "notes": "中性名词，常不可数，也作动词afvallen(减肥)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1335,
+    "word": "afwijken",
+    "translation": {
+      "chinese": "偏离、不同",
+      "english": "to deviate, to differ"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "afwijken",
+        "isSeparable": true,
+        "prefix": "af",
+        "present": {
+          "ik": "wijk af",
+          "jij": "wijkt af",
+          "hij": "wijkt af",
+          "wij": "wijken af",
+          "jullie": "wijken af",
+          "zij": "wijken af"
+        },
+        "past": {
+          "singular": "week af",
+          "plural": "weken af"
+        },
+        "pastParticiple": "afgeweken",
+        "pastParticipleAuxiliary": "zijn"
+      }
+    },
+    "examples": [
+      "Hij wijkt af van de regels.",
+      "Dit wijkt af van het plan."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他偏离了规则。",
+        "这与计划不同。"
+      ],
+      "english": [
+        "He deviates from the rules.",
+        "This differs from the plan."
+      ]
+    },
+    "notes": "可分动词，过去分词用zijn作助动词",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1336,
+    "word": "afwijzen",
+    "translation": {
+      "chinese": "拒绝",
+      "english": "to reject, to refuse"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "afwijzen",
+        "isSeparable": true,
+        "prefix": "af",
+        "present": {
+          "ik": "wijs af",
+          "jij": "wijst af",
+          "hij": "wijst af",
+          "wij": "wijzen af",
+          "jullie": "wijzen af",
+          "zij": "wijzen af"
+        },
+        "past": {
+          "singular": "wees af",
+          "plural": "wezen af"
+        },
+        "pastParticiple": "afgewezen",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Hij wees mijn aanbod af.",
+      "De rechter wees de klacht af."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他拒绝了我的提议。",
+        "法官驳回了投诉。"
+      ],
+      "english": [
+        "He rejected my offer.",
+        "The judge rejected the complaint."
+      ]
+    },
+    "notes": "可分动词，常用在正式场合",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1337,
+    "word": "afzeggen",
+    "translation": {
+      "chinese": "取消",
+      "english": "to cancel, to call off"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "afzeggen",
+        "isSeparable": true,
+        "prefix": "af",
+        "present": {
+          "ik": "zeg af",
+          "jij": "zegt af",
+          "hij": "zegt af",
+          "wij": "zeggen af",
+          "jullie": "zeggen af",
+          "zij": "zeggen af"
+        },
+        "past": {
+          "singular": "zei af",
+          "plural": "zeiden af"
+        },
+        "pastParticiple": "afgezegd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Ik zeg de afspraak af.",
+      "Hij zegde de meeting af."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我取消了预约。",
+        "他取消了会议。"
+      ],
+      "english": [
+        "I cancel the appointment.",
+        "He called off the meeting."
+      ]
+    },
+    "notes": "可分动词，不规则动词zeggen的可分形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1338,
+    "word": "afzetten",
+    "translation": {
+      "chinese": "关闭、放置",
+      "english": "to turn off, to put down"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "afzetten",
+        "isSeparable": true,
+        "prefix": "af",
+        "present": {
+          "ik": "zet af",
+          "jij": "zet af",
+          "hij": "zet af",
+          "wij": "zetten af",
+          "jullie": "zetten af",
+          "zij": "zetten af"
+        },
+        "past": {
+          "singular": "zette af",
+          "plural": "zetten af"
+        },
+        "pastParticiple": "afgezet",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Zet het licht af als je weggaat.",
+      "Hij zette de koffie af."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "你离开时请关灯。",
+        "他关掉了咖啡机。"
+      ],
+      "english": [
+        "Turn off the light when you leave.",
+        "He turned off the coffee machine."
+      ]
+    },
+    "notes": "可分动词，规则动词zetten的可分形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1339,
+    "word": "agenda",
+    "translation": {
+      "chinese": "日程表、议程",
+      "english": "agenda, schedule"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "agenda",
+        "plural": "agenda's"
+      }
+    },
+    "examples": [
+      "Ik heb een volle agenda vandaag.",
+      "De agenda voor de vergadering staat vast."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我今天日程很满。",
+        "会议的议程已经确定。"
+      ],
+      "english": [
+        "I have a full schedule today.",
+        "The agenda for the meeting is set."
+      ]
+    },
+    "notes": "阴性名词，复数加's'",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1340,
+    "word": "agent",
+    "translation": {
+      "chinese": "代理人、特工",
+      "english": "agent, representative"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "agent",
+        "plural": "agenten"
+      }
+    },
+    "examples": [
+      "De reisagent boekte de vlucht.",
+      "Hij werkt als verkoopagent."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "旅行社代理人预订了航班。",
+        "他做销售代理。"
+      ],
+      "english": [
+        "The travel agent booked the flight.",
+        "He works as sales agent."
+      ]
+    },
+    "notes": "阳性名词，职业名称",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1341,
+    "word": "akkoord",
+    "translation": {
+      "chinese": "同意、一致",
+      "english": "agreement, consent"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "akkoord",
+        "plural": "akkoorden"
+      }
+    },
+    "examples": [
+      "We zijn akkoord met het voorstel.",
+      "Er is geen akkoord bereikt."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我们同意这个提议。",
+        "没有达成一致。"
+      ],
+      "english": [
+        "We agree with the proposal.",
+        "No agreement was reached."
+      ]
+    },
+    "notes": "中性名词，常用短语：akkoord zijn met (同意)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1342,
+    "word": "algeheel",
+    "translation": {
+      "chinese": "完全的",
+      "english": "total, complete, overall"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "algeheel",
+        "withDe": "algehele",
+        "withHet": "algeheel",
+        "comparative": "algeheerder",
+        "superlative": "het algeheelst"
+      }
+    },
+    "examples": [
+      "De algehele situatie verbetert.",
+      "Het is een algehele ramp."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "整体情况在改善。",
+        "这是一个完全的灾难。"
+      ],
+      "english": [
+        "The overall situation is improving.",
+        "It's a total disaster."
+      ]
+    },
+    "notes": "复合形容词，表示整体的、全面的",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1343,
+    "word": "algemeen",
+    "translation": {
+      "chinese": "一般的、普遍的",
+      "english": "general, common, universal"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "algemeen",
+        "withDe": "algemene",
+        "withHet": "algemeen",
+        "comparative": "algemener",
+        "superlative": "het algemeenst"
+      }
+    },
+    "examples": [
+      "Dit is een algemene regel.",
+      "Het probleem is algemeen bekend."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是一般规则。",
+        "这个问题众所周知。"
+      ],
+      "english": [
+        "This is a general rule.",
+        "The problem is generally known."
+      ]
+    },
+    "notes": "常用形容词，表示普遍性或一般性",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1344,
+    "word": "alternatief",
+    "translation": {
+      "chinese": "替代的、可选择的",
+      "english": "alternative"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "alternatief",
+        "withDe": "alternatieve",
+        "withHet": "alternatief",
+        "comparative": "alternatiever",
+        "superlative": "het alternatiefst"
+      }
+    },
+    "examples": [
+      "Hebben we een alternatief plan?",
+      "Dit is een goed alternatief."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我们有替代方案吗？",
+        "这是一个好的替代方案。"
+      ],
+      "english": [
+        "Do we have an alternative plan?",
+        "This is a good alternative."
+      ]
+    },
+    "notes": "外来形容词，也可作名词(替代方案)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1345,
+    "word": "ambitie",
+    "translation": {
+      "chinese": "雄心、抱负",
+      "english": "ambition"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "ambitie",
+        "plural": "ambities"
+      }
+    },
+    "examples": [
+      "Zij heeft veel ambitie.",
+      "Zijn ambitie is om dokter te worden."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她有很多抱负。",
+        "他的雄心是成为一名医生。"
+      ],
+      "english": [
+        "She has a lot of ambition.",
+        "His ambition is to become a doctor."
+      ]
+    },
+    "notes": "阴性名词",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1346,
+    "word": "ambtenaar",
+    "translation": {
+      "chinese": "公务员、官员",
+      "english": "civil servant, official"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "ambtenaar",
+        "plural": "ambtenaren"
+      }
+    },
+    "examples": [
+      "Mijn vader is ambtenaar.",
+      "De ambtenaren gaan staken."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我的父亲是公务员。",
+        "公务员们要罢工。"
+      ],
+      "english": [
+        "My father is a civil servant.",
+        "The civil servants are going on strike."
+      ]
+    },
+    "notes": "阳性名词，复数形式不规则",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1347,
+    "word": "analyse",
+    "translation": {
+      "chinese": "分析",
+      "english": "analysis"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "analyse",
+        "plural": "analyses"
+      }
+    },
+    "examples": [
+      "De analyse van de data is klaar.",
+      "Hij maakte een analyse van de situatie."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "数据分析完成了。",
+        "他对情况进行了分析。"
+      ],
+      "english": [
+        "The analysis of the data is ready.",
+        "He made an analysis of the situation."
+      ]
+    },
+    "notes": "阴性名词，外来词，复数形式是-analyses",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1348,
+    "word": "analyseren",
+    "translation": {
+      "chinese": "分析",
+      "english": "to analyze"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "analyseren",
+        "isSeparable": false,
+        "present": {
+          "ik": "analyseer",
+          "jij": "analyseert",
+          "hij": "analyseert",
+          "wij": "analyseren",
+          "jullie": "analyseren",
+          "zij": "analyseren"
+        },
+        "past": {
+          "singular": "analyseerde",
+          "plural": "analyseerden"
+        },
+        "pastParticiple": "geanalyseerd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "De wetenschapper analyseert de data.",
+      "We moeten dit probleem analyseren."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "科学家分析数据。",
+        "我们需要分析这个问题。"
+      ],
+      "english": [
+        "The scientist analyzes the data.",
+        "We need to analyze this problem."
+      ]
+    },
+    "notes": "外来动词，规则变位",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1349,
+    "word": "angstig",
+    "translation": {
+      "chinese": "害怕的、焦虑的",
+      "english": "anxious, afraid"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "angstig",
+        "withDe": "angstige",
+        "withHet": "angstige",
+        "comparative": "angstiger",
+        "superlative": "het angstigst"
+      }
+    },
+    "examples": [
+      "Het kind is bang.",
+      "Ze voelt zich angstig."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "孩子很害怕。",
+        "她感到焦虑。"
+      ],
+      "english": [
+        "The child is afraid.",
+        "She feels anxious."
+      ]
+    },
+    "notes": "与 bang 同义",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1350,
+    "word": "anoniem",
+    "translation": {
+      "chinese": "匿名的",
+      "english": "anonymous"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "anoniem",
+        "withDe": "anonieme",
+        "withHet": "anonieme",
+        "comparative": "anoniemer",
+        "superlative": "het anoniemst"
+      }
+    },
+    "examples": [
+      "Een anonieme brief.",
+      "Hij wil anoniem blijven."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "一封匿名信。",
+        "他想保持匿名。"
+      ],
+      "english": [
+        "An anonymous letter.",
+        "He wants to stay anonymous."
+      ]
+    },
+    "notes": "常用语：anoniem blijven (保持匿名)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1351,
+    "word": "apart",
+    "translation": {
+      "chinese": "分开的、独特的",
+      "english": "separate, apart"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "apart",
+        "withDe": "aparte",
+        "withHet": "aparte",
+        "comparative": "aparter",
+        "superlative": "het apartst"
+      }
+    },
+    "examples": [
+      "Wij wonen apart.",
+      "Het is een apart verhaal."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我们分开住。",
+        "这是个独特的故事。"
+      ],
+      "english": [
+        "We live apart.",
+        "It's a special story."
+      ]
+    },
+    "notes": "也可作副词使用，意为 '分开'",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1352,
+    "word": "apparaat",
+    "translation": {
+      "chinese": "设备、装置",
+      "english": "device, apparatus"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "apparaat",
+        "plural": "apparaten"
+      }
+    },
+    "examples": [
+      "Het apparaat werkt niet.",
+      "Ik heb een nieuw apparaat gekocht."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "设备不工作。",
+        "我买了个新设备。"
+      ],
+      "english": [
+        "The device doesn't work.",
+        "I bought a new device."
+      ]
+    },
+    "notes": "复数形式为 apparaten",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1353,
+    "word": "applaus",
+    "translation": {
+      "chinese": "掌声",
+      "english": "applause"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "applaus",
+        "plural": []
+      }
+    },
+    "examples": [
+      "Het applaus was luid.",
+      "Er klonk applaus."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "掌声很响亮。",
+        "响起了掌声。"
+      ],
+      "english": [
+        "The applause was loud.",
+        "There was applause."
+      ]
+    },
+    "notes": "不可数名词，常用短语：applaus geven (鼓掌)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1354,
+    "word": "argument",
+    "translation": {
+      "chinese": "论点、论据",
+      "english": "argument"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "argument",
+        "plural": "argumenten"
+      }
+    },
+    "examples": [
+      "Dit is een sterk argument.",
+      "Ze heeft goede argumenten."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是一个有力的论点。",
+        "她有好的论据。"
+      ],
+      "english": [
+        "This is a strong argument.",
+        "She has good arguments."
+      ]
+    },
+    "notes": "复数形式为 argumenten",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1355,
+    "word": "armoede",
+    "translation": {
+      "chinese": "贫困",
+      "english": "poverty"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "armoede",
+        "plural": []
+      }
+    },
+    "examples": [
+      "Armoede is een groot probleem.",
+      "Ze leeft in armoede."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "贫困是个大问题。",
+        "她生活在贫困中。"
+      ],
+      "english": [
+        "Poverty is a big problem.",
+        "She lives in poverty."
+      ]
+    },
+    "notes": "不可数名词",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1356,
+    "word": "asiel",
+    "translation": {
+      "chinese": "庇护所、收容所",
+      "english": "asylum, shelter"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "asiel",
+        "plural": "asielen"
+      }
+    },
+    "examples": [
+      "Het asiel zoekt nieuwe vrijwilligers.",
+      "Veel mensen wonen in het asiel."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "庇护所在寻找新志愿者。",
+        "很多人住在收容所。"
+      ],
+      "english": [
+        "The shelter is looking for new volunteers.",
+        "Many people live in the asylum."
+      ]
+    },
+    "notes": "也可指 '政治庇护'",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1357,
+    "word": "aspect",
+    "translation": {
+      "chinese": "方面",
+      "english": "aspect"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "aspect",
+        "plural": "aspecten"
+      }
+    },
+    "examples": [
+      "Dit aspect is belangrijk.",
+      "Er zijn verschillende aspecten."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这个方面很重要。",
+        "有不同的方面。"
+      ],
+      "english": [
+        "This aspect is important.",
+        "There are different aspects."
+      ]
+    },
+    "notes": "复数形式为 aspecten",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1358,
+    "word": "assistent",
+    "translation": {
+      "chinese": "助手、助理",
+      "english": "assistant"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "assistent",
+        "plural": "assistenten"
+      }
+    },
+    "examples": [
+      "Zij werkt als assistent.",
+      "De assistent helpt de dokter."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她做助理工作。",
+        "助手帮助医生。"
+      ],
+      "english": [
+        "She works as assistant.",
+        "The assistant helps the doctor."
+      ]
+    },
+    "notes": "职业名称",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1359,
+    "word": "associatie",
+    "translation": {
+      "chinese": "联想、协会",
+      "english": "association"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "associatie",
+        "plural": "associaties"
+      }
+    },
+    "examples": [
+      "Ik heb een associatie met dit woord.",
+      "De associatie organiseert evenementen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我对这个词有联想。",
+        "协会组织活动。"
+      ],
+      "english": [
+        "I have an association with this word.",
+        "The association organizes events."
+      ]
+    },
+    "notes": "复数形式为 associaties",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1360,
+    "word": "atleet",
+    "translation": {
+      "chinese": "运动员",
+      "english": "athlete"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "atleet",
+        "plural": "atleten"
+      }
+    },
+    "examples": [
+      "Hij is een professionele atleet.",
+      "De atleten trainen hard."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他是职业运动员。",
+        "运动员们训练刻苦。"
+      ],
+      "english": [
+        "He is a professional athlete.",
+        "The athletes train hard."
+      ]
+    },
+    "notes": "复数形式为 atleten（不规则）",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1361,
+    "word": "auteur",
+    "translation": {
+      "chinese": "作者、作家",
+      "english": "author"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "auteur",
+        "plural": "auteurs"
+      }
+    },
+    "examples": [
+      "De auteur schreef dit boek.",
+      "Wie is de auteur?"
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "作者写了这本书。",
+        "作者是谁？"
+      ],
+      "english": [
+        "The author wrote this book.",
+        "Who is the author?"
+      ]
+    },
+    "notes": "指书籍、文章等的创作者",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1362,
+    "word": "autoriteit",
+    "translation": {
+      "chinese": "权威、当局",
+      "english": "authority"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "autoriteit",
+        "plural": "autoriteiten"
+      }
+    },
+    "examples": [
+      "Hij heeft veel autoriteit.",
+      "De autoriteiten onderzoeken de zaak."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他很有权威。",
+        "当局调查此案。"
+      ],
+      "english": [
+        "He has a lot of authority.",
+        "The authorities investigate the case."
+      ]
+    },
+    "notes": "复数形式为 autoriteiten，常用短语：autoriteit hebben (有权威)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1363,
+    "word": "avondje",
+    "translation": {
+      "chinese": "小晚、晚上",
+      "english": "evening, little evening"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "avondje",
+        "plural": "avondjes"
+      }
+    },
+    "examples": [
+      "Een gezellig avondje.",
+      "We maken een avondje ervan."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "一个愉快的夜晚。",
+        "我们度过一个晚上。"
+      ],
+      "english": [
+        "A cozy evening.",
+        "We make an evening of it."
+      ]
+    },
+    "notes": "指词的缩小形式，表示轻松愉快的晚上",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1364,
+    "word": "baan",
+    "translation": {
+      "chinese": "工作、道路",
+      "english": "job, road, track"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "baan",
+        "plural": "banen"
+      }
+    },
+    "examples": [
+      "Ik zoek een baan.",
+      "De baan is lang."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我在找工作。",
+        "路很长。"
+      ],
+      "english": [
+        "I'm looking for a job.",
+        "The road is long."
+      ]
+    },
+    "notes": "有多种含义：工作、道路、轨道等",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1365,
+    "word": "bagage",
+    "translation": {
+      "chinese": "行李",
+      "english": "luggage, baggage"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "bagage",
+        "plural": []
+      }
+    },
+    "examples": [
+      "Waar is mijn bagage?",
+      "De bagage is zwaar."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我的行李在哪里？",
+        "行李很重。"
+      ],
+      "english": [
+        "Where is my luggage?",
+        "The luggage is heavy."
+      ]
+    },
+    "notes": "不可数名词，多用于旅行语境",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1366,
+    "word": "balans",
+    "translation": {
+      "chinese": "平衡、余额",
+      "english": "balance"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "balans",
+        "plural": "balansen"
+      }
+    },
+    "examples": [
+      "Houd de balans.",
+      "De balans van de rekening."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "保持平衡。",
+        "账户余额。"
+      ],
+      "english": [
+        "Keep the balance.",
+        "The balance of the account."
+      ]
+    },
+    "notes": "复数形式为 balansen，也可指财务平衡",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1367,
+    "word": "bang",
+    "translation": {
+      "chinese": "害怕的",
+      "english": "afraid, scared"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "bang",
+        "withDe": "bange",
+        "withHet": "bange",
+        "comparative": "banger",
+        "superlative": "het bangst"
+      }
+    },
+    "examples": [
+      "Ik ben bang voor spinnen.",
+      "Hij is bang."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我怕蜘蛛。",
+        "他很害怕。"
+      ],
+      "english": [
+        "I am afraid of spiders.",
+        "He is scared."
+      ]
+    },
+    "notes": "常用短语：bang zijn voor (害怕某物)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1368,
+    "word": "bankpas",
+    "translation": {
+      "chinese": "银行卡",
+      "english": "bank card, debit card"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "bankpas",
+        "plural": "bankpassen"
+      }
+    },
+    "examples": [
+      "Ik heb mijn bankpas verloren.",
+      "De bankpas werkt niet."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我把银行卡丢了。",
+        "银行卡不工作。"
+      ],
+      "english": [
+        "I lost my bank card.",
+        "The bank card doesn't work."
+      ]
+    },
+    "notes": "复数形式为 bankpassen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1369,
+    "word": "barrière",
+    "translation": {
+      "chinese": "障碍、屏障",
+      "english": "barrier"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "barrière",
+        "plural": "barrières"
+      }
+    },
+    "examples": [
+      "Er zijn taalbarrières.",
+      "De barrière is hoog."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "存在语言障碍。",
+        "障碍很高。"
+      ],
+      "english": [
+        "There are language barriers.",
+        "The barrier is high."
+      ]
+    },
+    "notes": "可指物理障碍或抽象障碍",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1370,
+    "word": "basis",
+    "translation": {
+      "chinese": "基础",
+      "english": "basis, foundation"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "basis",
+        "plural": "basissen"
+      }
+    },
+    "examples": [
+      "Dit is de basis van het project.",
+      "Op basis van de feiten."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是项目的基础。",
+        "基于事实。"
+      ],
+      "english": [
+        "This is the basis of the project.",
+        "On the basis of the facts."
+      ]
+    },
+    "notes": "复数形式为 basissen，常用短语：op basis van (基于)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1371,
+    "word": "basta",
+    "translation": {
+      "chinese": "算了、够了",
+      "english": "enough, basta"
+    },
+    "partOfSpeech": "interjection",
+    "forms": {},
+    "examples": [
+      "Basta, geen gepraat meer.",
+      "Het is basta."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "算了，别再说了。",
+        "就这样了。"
+      ],
+      "english": [
+        "Enough, no more talk.",
+        "That's it."
+      ]
+    },
+    "notes": "意大利语借词，表示停止或拒绝",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1372,
+    "word": "beantwoorden",
+    "translation": {
+      "chinese": "回答",
+      "english": "to answer"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "beantwoorden",
+        "isSeparable": false,
+        "present": {
+          "ik": "beantwoord",
+          "jij": "beantwoordt",
+          "hij": "beantwoordt",
+          "wij": "beantwoorden",
+          "jullie": "beantwoorden",
+          "zij": "beantwoorden"
+        },
+        "past": {
+          "singular": "beantwoordde",
+          "plural": "beantwoordden"
+        },
+        "pastParticiple": "beantwoord",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Beantwoord de vraag.",
+      "Ze beantwoordde de brief."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "回答问题。",
+        "她回了信。"
+      ],
+      "english": [
+        "Answer the question.",
+        "She answered the letter."
+      ]
+    },
+    "notes": "及物动词，接宾语",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1373,
+    "word": "bedanken",
+    "translation": {
+      "chinese": "感谢",
+      "english": "to thank"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "bedanken",
+        "isSeparable": false,
+        "present": {
+          "ik": "bedank",
+          "jij": "bedankt",
+          "hij": "bedankt",
+          "wij": "bedanken",
+          "jullie": "bedanken",
+          "zij": "bedanken"
+        },
+        "past": {
+          "singular": "bedankte",
+          "plural": "bedankten"
+        },
+        "pastParticiple": "bedankt",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Ik bedank je voor de hulp.",
+      "Bedank u wel."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我感谢你的帮助。",
+        "非常感谢您。"
+      ],
+      "english": [
+        "I thank you for the help.",
+        "Thank you very much."
+      ]
+    },
+    "notes": "常用短语：bedanken voor (因某事感谢)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1374,
+    "word": "bedekken",
+    "translation": {
+      "chinese": "覆盖",
+      "english": "to cover"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "bedekken",
+        "isSeparable": false,
+        "present": {
+          "ik": "dek",
+          "jij": "dekt",
+          "hij": "dekt",
+          "wij": "dekken",
+          "jullie": "dekken",
+          "zij": "dekken"
+        },
+        "past": {
+          "singular": "dekte",
+          "plural": "dekten"
+        },
+        "pastParticiple": "bedekt",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Bedek de tafel.",
+      "De sneeuw bedekt de weg."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "铺好桌子。",
+        "雪覆盖了道路。"
+      ],
+      "english": [
+        "Cover the table.",
+        "The snow covers the road."
+      ]
+    },
+    "notes": "原形是 dekken，bedekken 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1375,
+    "word": "bedienen",
+    "translation": {
+      "chinese": "服务、操作",
+      "english": "to serve, to operate"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "bedienen",
+        "isSeparable": false,
+        "present": {
+          "ik": "dien",
+          "jij": "dient",
+          "hij": "dient",
+          "wij": "dienen",
+          "jullie": "dienen",
+          "zij": "dienen"
+        },
+        "past": {
+          "singular": "diende",
+          "plural": "dienden"
+        },
+        "pastParticiple": "bediend",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "De ober dient de klanten.",
+      "Ik bedien de machine."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "服务员为顾客服务。",
+        "我操作机器。"
+      ],
+      "english": [
+        "The waiter serves the customers.",
+        "I operate the machine."
+      ]
+    },
+    "notes": "原形是 dienen，bedienen 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1376,
+    "word": "bediening",
+    "translation": {
+      "chinese": "服务、操作",
+      "english": "service, operation"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "bediening",
+        "plural": "bedieningen"
+      }
+    },
+    "examples": [
+      "De bediening is goed.",
+      "De bediening van het apparaat."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "服务很好。",
+        "设备的操作。"
+      ],
+      "english": [
+        "The service is good.",
+        "The operation of the device."
+      ]
+    },
+    "notes": "指服务行为或操作方式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1377,
+    "word": "bedoeling",
+    "translation": {
+      "chinese": "意图、目的",
+      "english": "intention, purpose"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "bedoeling",
+        "plural": "bedoelingen"
+      }
+    },
+    "examples": [
+      "Wat is je bedoeling?",
+      "De bedoeling is goed."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "你的意图是什么？",
+        "目的是好的。"
+      ],
+      "english": [
+        "What is your intention?",
+        "The purpose is good."
+      ]
+    },
+    "notes": "复数形式为 bedoelingen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1378,
+    "word": "bedreigen",
+    "translation": {
+      "chinese": "威胁",
+      "english": "to threaten"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "bedreigen",
+        "isSeparable": false,
+        "present": {
+          "ik": "bedreig",
+          "jij": "bedreigt",
+          "hij": "bedreigt",
+          "wij": "bedreigen",
+          "jullie": "bedreigen",
+          "zij": "bedreigen"
+        },
+        "past": {
+          "singular": "bedreigde",
+          "plural": "bedreigden"
+        },
+        "pastParticiple": "bedreigd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Hij bedreigt mij.",
+      "De storm bedreigt het huis."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他威胁我。",
+        "暴风雨威胁着房子。"
+      ],
+      "english": [
+        "He threatens me.",
+        "The storm threatens the house."
+      ]
+    },
+    "notes": "及物动词",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1379,
+    "word": "bedreiging",
+    "translation": {
+      "chinese": "威胁",
+      "english": "threat"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "bedreiging",
+        "plural": "bedreigingen"
+      }
+    },
+    "examples": [
+      "Er is een bedreiging.",
+      "De bedreiging is serieus."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "有个威胁。",
+        "威胁很严重。"
+      ],
+      "english": [
+        "There is a threat.",
+        "The threat is serious."
+      ]
+    },
+    "notes": "复数形式为 bedreigingen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1380,
+    "word": "bedriegen",
+    "translation": {
+      "chinese": "欺骗",
+      "english": "to deceive, to cheat"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "bedriegen",
+        "isSeparable": false,
+        "present": {
+          "ik": "bedrieg",
+          "jij": "bedriegt",
+          "hij": "bedriegt",
+          "wij": "bedriegen",
+          "jullie": "bedriegen",
+          "zij": "bedriegen"
+        },
+        "past": {
+          "singular": "bedroog",
+          "plural": "bedrogen"
+        },
+        "pastParticiple": "bedrogen",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Bedrieg me niet.",
+      "Hij bedroog iedereen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "别骗我。",
+        "他骗了所有人。"
+      ],
+      "english": [
+        "Don't deceive me.",
+        "He deceived everyone."
+      ]
+    },
+    "notes": "过去分词是不规则的 bedrogen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1381,
+    "word": "bedroefd",
+    "translation": {
+      "chinese": "悲伤的",
+      "english": "sad, depressed"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "bedroefd",
+        "withDe": "bedroefde",
+        "withHet": "bedroefde",
+        "comparative": "bedroefder",
+        "superlative": "het bedroefdst"
+      }
+    },
+    "examples": [
+      "Ze ziet er bedroefd uit.",
+      "Ik ben bedroefd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她看起来很悲伤。",
+        "我很伤心。"
+      ],
+      "english": [
+        "She looks sad.",
+        "I am sad."
+      ]
+    },
+    "notes": "动词 bedroeven 的过去分词，现已形容词化",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1382,
+    "word": "beëindigen",
+    "translation": {
+      "chinese": "结束、终止",
+      "english": "to end, to finish"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "beëindigen",
+        "isSeparable": false,
+        "present": {
+          "ik": "beëindig",
+          "jij": "beëindigt",
+          "hij": "beëindigt",
+          "wij": "beëindigen",
+          "jullie": "beëindigen",
+          "zij": "beëindigen"
+        },
+        "past": {
+          "singular": "beëindigde",
+          "plural": "beëindigden"
+        },
+        "pastParticiple": "beëindigd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Beëindig het gesprek.",
+      "De oorlog werd beëindigd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "结束谈话。",
+        "战争结束了。"
+      ],
+      "english": [
+        "End the conversation.",
+        "The war was ended."
+      ]
+    },
+    "notes": "正式用语",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1383,
+    "word": "beeld",
+    "translation": {
+      "chinese": "图像、形象",
+      "english": "image, picture"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "beeld",
+        "plural": "beelden"
+      }
+    },
+    "examples": [
+      "Het beeld is mooi.",
+      "Beelden zeggen meer dan woorden."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "图像很美。",
+        "图像胜过千言万语。"
+      ],
+      "english": [
+        "The image is beautiful.",
+        "Images say more than words."
+      ]
+    },
+    "notes": "单复数形式不同",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1384,
+    "word": "begeleiden",
+    "translation": {
+      "chinese": "陪同、指导",
+      "english": "to accompany, to guide"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "begeleiden",
+        "isSeparable": false,
+        "present": {
+          "ik": "begeleid",
+          "jij": "begeleidt",
+          "hij": "begeleidt",
+          "wij": "begeleiden",
+          "jullie": "begeleiden",
+          "zij": "begeleiden"
+        },
+        "past": {
+          "singular": "begeleidde",
+          "plural": "begeleidden"
+        },
+        "pastParticiple": "begeleid",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Ik begeleid haar naar huis.",
+      "De gids begeleidt de groep."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我送她回家。",
+        "导游带领团队。"
+      ],
+      "english": [
+        "I accompany her home.",
+        "The guide leads the group."
+      ]
+    },
+    "notes": "现在时变位去掉 -en",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1385,
+    "word": "begeleiding",
+    "translation": {
+      "chinese": "陪同、指导",
+      "english": "guidance, accompaniment"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "begeleiding",
+        "plural": "begeleidingen"
+      }
+    },
+    "examples": [
+      "Ze heeft begeleiding nodig.",
+      "De begeleiding is goed."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她需要指导。",
+        "指导很好。"
+      ],
+      "english": [
+        "She needs guidance.",
+        "The guidance is good."
+      ]
+    },
+    "notes": "不可数名词居多",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1386,
+    "word": "beginnen",
+    "translation": {
+      "chinese": "开始",
+      "english": "to start, to begin"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "beginnen",
+        "isSeparable": false,
+        "present": {
+          "ik": "begin",
+          "jij": "begint",
+          "hij": "begint",
+          "wij": "beginnen",
+          "jullie": "beginnen",
+          "zij": "beginnen"
+        },
+        "past": {
+          "singular": "begon",
+          "plural": "begonnen"
+        },
+        "pastParticiple": "begonnen",
+        "pastParticipleAuxiliary": "zijn"
+      }
+    },
+    "examples": [
+      "Ik begin met mijn werk.",
+      "Het feest begint om acht uur."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我开始工作。",
+        "派对八点开始。"
+      ],
+      "english": [
+        "I start my work.",
+        "The party starts at eight o'clock."
+      ]
+    },
+    "notes": "强动词，过去分词用 zijn，常用短语：beginnen met (开始做某事)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1387,
+    "word": "begraafplaats",
+    "translation": {
+      "chinese": "墓地",
+      "english": "cemetery, graveyard"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "begraafplaats",
+        "plural": "begraafplaatsen"
+      }
+    },
+    "examples": [
+      "De begraafplaats is rustig.",
+      "We gaan naar de begraafplaats."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "墓地很安静。",
+        "我们去墓地。"
+      ],
+      "english": [
+        "The cemetery is quiet.",
+        "We go to the cemetery."
+      ]
+    },
+    "notes": "复合词，由 begraven (埋葬) + plaats (地方) 组成",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1388,
+    "word": "begrafenis",
+    "translation": {
+      "chinese": "葬礼",
+      "english": "funeral"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "begrafenis",
+        "plural": "begrafenissen"
+      }
+    },
+    "examples": [
+      "De begrafenis was sober.",
+      "We gaan naar de begrafenis."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "葬礼很简朴。",
+        "我们去参加葬礼。"
+      ],
+      "english": [
+        "The funeral was sober.",
+        "We go to the funeral."
+      ]
+    },
+    "notes": "复数形式为 begrafenissen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1389,
+    "word": "begrenzen",
+    "translation": {
+      "chinese": "限制、界定",
+      "english": "to limit, to bound"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "begrenzen",
+        "isSeparable": false,
+        "present": {
+          "ik": "grens",
+          "jij": "grenst",
+          "hij": "grenst",
+          "wij": "grenzen",
+          "jullie": "grenzen",
+          "zij": "grenzen"
+        },
+        "past": {
+          "singular": "grensde",
+          "plural": "grensden"
+        },
+        "pastParticiple": "begrensd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "De rivier begrenst de stad.",
+      "We begrenzen het gebied."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "河流界定了城市。",
+        "我们限制这个区域。"
+      ],
+      "english": [
+        "The river bounds the city.",
+        "We limit the area."
+      ]
+    },
+    "notes": "原形是 grenzen，begrenzen 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1390,
+    "word": "begrijpelijk",
+    "translation": {
+      "chinese": "可理解的",
+      "english": "understandable"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "begrijpelijk",
+        "withDe": "begrijpelijke",
+        "withHet": "begrijpelijke",
+        "comparative": "begrijpelijker",
+        "superlative": "het begrijpelijkst"
+      }
+    },
+    "examples": [
+      "Dit is begrijpelijk.",
+      "Het is heel begrijpelijk."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是可以理解的。",
+        "这很可以理解。"
+      ],
+      "english": [
+        "This is understandable.",
+        "It is very understandable."
+      ]
+    },
+    "notes": "动词 begrijpen 的形容词形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1391,
+    "word": "begroting",
+    "translation": {
+      "chinese": "预算",
+      "english": "budget"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "begroting",
+        "plural": "begrotingen"
+      }
+    },
+    "examples": [
+      "De begroting is goedgekeurd.",
+      "We maken de begroting."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "预算已批准。",
+        "我们制定预算。"
+      ],
+      "english": [
+        "The budget is approved.",
+        "We make the budget."
+      ]
+    },
+    "notes": "复数形式为 begrotingen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1392,
+    "word": "behandelen",
+    "translation": {
+      "chinese": "处理、治疗",
+      "english": "to treat, to handle"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "behandelen",
+        "isSeparable": false,
+        "present": {
+          "ik": "behandel",
+          "jij": "behandelt",
+          "hij": "behandelt",
+          "wij": "behandelen",
+          "jullie": "behandelen",
+          "zij": "behandelen"
+        },
+        "past": {
+          "singular": "behandelde",
+          "plural": "behandelden"
+        },
+        "pastParticiple": "behandeld",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "De dokter behandelt de patiënt.",
+      "We behandelen het probleem."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "医生治疗病人。",
+        "我们处理这个问题。"
+      ],
+      "english": [
+        "The doctor treats the patient.",
+        "We handle the problem."
+      ]
+    },
+    "notes": "可指医疗治疗或处理事务",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1393,
+    "word": "behandeling",
+    "translation": {
+      "chinese": "治疗、处理",
+      "english": "treatment, handling"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "behandeling",
+        "plural": "behandelingen"
+      }
+    },
+    "examples": [
+      "De behandeling werkt.",
+      "Een nieuwe behandeling."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "治疗有效。",
+        "一种新的治疗。"
+      ],
+      "english": [
+        "The treatment works.",
+        "A new treatment."
+      ]
+    },
+    "notes": "复数形式为 behandelingen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1394,
+    "word": "beheersen",
+    "translation": {
+      "chinese": "控制、掌握",
+      "english": "to control, to master"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "beheersen",
+        "isSeparable": false,
+        "present": {
+          "ik": "heers",
+          "jij": "heerst",
+          "hij": "heerst",
+          "wij": "heersen",
+          "jullie": "heersen",
+          "zij": "heersen"
+        },
+        "past": {
+          "singular": "heerste",
+          "plural": "heersten"
+        },
+        "pastParticiple": "beheerst",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Hij beheerst de taal.",
+      "Ze beheerst haar emoties."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他掌握了这门语言。",
+        "她控制自己的情绪。"
+      ],
+      "english": [
+        "He masters the language.",
+        "She controls her emotions."
+      ]
+    },
+    "notes": "原形是 heersen，beheersen 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1395,
+    "word": "beïnvloeden",
+    "translation": {
+      "chinese": "影响",
+      "english": "to influence"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "beïnvloeden",
+        "isSeparable": false,
+        "present": {
+          "ik": "beïnvloed",
+          "jij": "beïnvloedt",
+          "hij": "beïnvloedt",
+          "wij": "beïnvloeden",
+          "jullie": "beïnvloeden",
+          "zij": "beïnvloeden"
+        },
+        "past": {
+          "singular": "beïnvloedde",
+          "plural": "beïnvloedden"
+        },
+        "pastParticiple": "beïnvloed",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Weinig mensen beïnvloeden de politiek.",
+      "Het weer beïnvloedt mijn humeur."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "很少人影响政治。",
+        "天气影响我的心情。"
+      ],
+      "english": [
+        "Few people influence politics.",
+        "The weather influences my mood."
+      ]
+    },
+    "notes": "注意分音符 ï",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1396,
+    "word": "bekendmaken",
+    "translation": {
+      "chinese": "公布、宣布",
+      "english": "to announce, to make known"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "bekendmaken",
+        "isSeparable": true,
+        "prefix": "bekend",
+        "present": {
+          "ik": "maak bekend",
+          "jij": "maakt bekend",
+          "hij": "maakt bekend",
+          "wij": "maken bekend",
+          "jullie": "maken bekend",
+          "zij": "maken bekend"
+        },
+        "past": {
+          "singular": "maakte bekend",
+          "plural": "maakten bekend"
+        },
+        "pastParticiple": "bekendgemaakt",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "De overheid maakt het bekend.",
+      "Ik maak de datum bekend."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "政府宣布了这件事。",
+        "我公布日期。"
+      ],
+      "english": [
+        "The government announces it.",
+        "I announce the date."
+      ]
+    },
+    "notes": "可分动词，常用短语：bekendmaken dat (宣布某事)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1397,
+    "word": "bekijken",
+    "translation": {
+      "chinese": "查看、观看",
+      "english": "to look at, to examine"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "bekijken",
+        "isSeparable": false,
+        "present": {
+          "ik": "bekijk",
+          "jij": "bekijkt",
+          "hij": "bekijkt",
+          "wij": "bekijken",
+          "jullie": "bekijken",
+          "zij": "bekijken"
+        },
+        "past": {
+          "singular": "bekijkte",
+          "plural": "bekeken"
+        },
+        "pastParticiple": "bekeken",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Bekijk dit eens.",
+      "De arts bekijkt de patient."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "看一下这个。",
+        "医生检查病人。"
+      ],
+      "english": [
+        "Look at this.",
+        "The doctor examines the patient."
+      ]
+    },
+    "notes": "原形是 kijken，bekijken 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1398,
+    "word": "beklagen",
+    "translation": {
+      "chinese": "抱怨、哀悼",
+      "english": "to complain, to mourn"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "beklagen",
+        "isSeparable": false,
+        "present": {
+          "ik": "klaag",
+          "jij": "klaagt",
+          "hij": "klaagt",
+          "wij": "klagen",
+          "jullie": "klagen",
+          "zij": "klagen"
+        },
+        "past": {
+          "singular": "klaagde",
+          "plural": "klaagden"
+        },
+        "pastParticiple": "beklaagd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Ik beklag de situatie.",
+      "Ze beklagt zich over het weer."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我抱怨这个情况。",
+        "她抱怨天气。"
+      ],
+      "english": [
+        "I complain about situation.",
+        "She complains about the weather."
+      ]
+    },
+    "notes": "原形 is klagen，beklagen 是加强语气的形式，反身用法：zich beklagen over (抱怨某事)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1399,
+    "word": "beklimmen",
+    "translation": {
+      "chinese": "攀登、登上",
+      "english": "to climb, to ascend"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "beklimmen",
+        "isSeparable": false,
+        "present": {
+          "ik": "klim",
+          "jij": "klimt",
+          "hij": "klimt",
+          "wij": "klimmen",
+          "jullie": "klimmen",
+          "zij": "klimmen"
+        },
+        "past": {
+          "singular": "klom",
+          "plural": "klommen"
+        },
+        "pastParticiple": "beklommen",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Hij beklimt de berg.",
+      "We beklimmen de trap."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他攀登这座山。",
+        "我们爬楼梯。"
+      ],
+      "english": [
+        "He climbs the mountain.",
+        "We climb the stairs."
+      ]
+    },
+    "notes": "原形 is klimmen，beklimmen 是加强语气的形式，强动词",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1400,
+    "word": "bekwaam",
+    "translation": {
+      "chinese": "有能力的、胜任的",
+      "english": "competent, capable"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "bekwaam",
+        "withDe": "bekwame",
+        "withHet": "bekwame",
+        "comparative": "bekwamer",
+        "superlative": "het bekwaamst"
+      }
+    },
+    "examples": [
+      "Zij is bekwaam.",
+      "Een bekwaam leraar."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她很有能力。",
+        "一个有能力的老师。"
+      ],
+      "english": [
+        "She is competent.",
+        "A capable teacher."
+      ]
+    },
+    "notes": "常用短语：bekwaam zijn in (在某方面有能力)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1401,
+    "word": "belang",
+    "translation": {
+      "chinese": "重要性、利益",
+      "english": "importance, interest"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "belang",
+        "plural": "belangen"
+      }
+    },
+    "examples": [
+      "Van groot belang.",
+      "De belangen van het bedrijf."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "非常重要。",
+        "公司的利益。"
+      ],
+      "english": [
+        "Of great importance.",
+        "The interests of the company."
+      ]
+    },
+    "notes": "复数形式为 belangen，常用短语：van belang zijn (重要)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1402,
+    "word": "belangstelling",
+    "translation": {
+      "chinese": "兴趣",
+      "english": "interest"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "belangstelling",
+        "plural": "belangstellingen"
+      }
+    },
+    "examples": [
+      "Ik heb belangstelling voor kunst.",
+      "Tonen belangstelling."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我对艺术有兴趣。",
+        "表现出兴趣。"
+      ],
+      "english": [
+        "I have interest in art.",
+        "Show interest."
+      ]
+    },
+    "notes": "复数形式为 belangstellingen，常用短语：belangstelling hebben voor (对某事有兴趣)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1403,
+    "word": "belasten",
+    "translation": {
+      "chinese": "负担、征税",
+      "english": "to burden, to tax"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "belasten",
+        "isSeparable": false,
+        "present": {
+          "ik": "belast",
+          "jij": "belast",
+          "hij": "belast",
+          "wij": "belasten",
+          "jullie": "belasten",
+          "zij": "belasten"
+        },
+        "past": {
+          "singular": "belastte",
+          "plural": "belastten"
+        },
+        "pastParticiple": "belast",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "De kosten belasten ons.",
+      "Hij belast het bedrijf."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "费用给我们带来负担。",
+        "他给公司增加负担。"
+      ],
+      "english": [
+        "The costs burden us.",
+        "He burdens the company."
+      ]
+    },
+    "notes": "原形 is lasten，belasten 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1404,
+    "word": "belasting",
+    "translation": {
+      "chinese": "税收、负担",
+      "english": "tax, burden"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "belasting",
+        "plural": "belastingen"
+      }
+    },
+    "examples": [
+      "De belasting is hoog.",
+      "Ik betaal belasting."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "税收很高。",
+        "我交税。"
+      ],
+      "english": [
+        "The tax is high.",
+        "I pay tax."
+      ]
+    },
+    "notes": "复数形式为 belastingen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1405,
+    "word": "beleefd",
+    "translation": {
+      "chinese": "有礼貌的",
+      "english": "polite"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "beleefd",
+        "withDe": "beleefde",
+        "withHet": "beleefde",
+        "comparative": "beleefder",
+        "superlative": "het beleefdst"
+      }
+    },
+    "examples": [
+      "Hij is beleefd.",
+      "Een beleefde man."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他很礼貌。",
+        "一个有礼貌的人。"
+      ],
+      "english": [
+        "He is polite.",
+        "A polite man."
+      ]
+    },
+    "notes": "动词 beleven 的过去分词，现已形容词化",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1406,
+    "word": "beleid",
+    "translation": {
+      "chinese": "政策",
+      "english": "policy"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "beleid",
+        "plural": []
+      }
+    },
+    "examples": [
+      "Het beleid verandert.",
+      "Nieuw beleid."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "政策在改变。",
+        "新政策。"
+      ],
+      "english": [
+        "The policy changes.",
+        "New policy."
+      ]
+    },
+    "notes": "不可数名词",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1407,
+    "word": "belemmeren",
+    "translation": {
+      "chinese": "阻碍、妨碍",
+      "english": "to hinder, to obstruct"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "belemmeren",
+        "isSeparable": false,
+        "present": {
+          "ik": "belemmer",
+          "jij": "belemmert",
+          "hij": "belemmert",
+          "wij": "belemmeren",
+          "jullie": "belemmeren",
+          "zij": "belemmeren"
+        },
+        "past": {
+          "singular": "belemmerde",
+          "plural": "belemmerden"
+        },
+        "pastParticiple": "belemmerd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Niets belemmert hem.",
+      "Het verkeer belemmert ons."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "没有什么能阻碍他。",
+        "交通妨碍我们。"
+      ],
+      "english": [
+        "Nothing hinders him.",
+        "The traffic hinders us."
+      ]
+    },
+    "notes": "原形 is lemmeren，belemmeren 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1408,
+    "word": "beleven",
+    "translation": {
+      "chinese": "经历、体验",
+      "english": "to experience"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "beleven",
+        "isSeparable": false,
+        "present": {
+          "ik": "beleef",
+          "jij": "beleeft",
+          "hij": "beleeft",
+          "wij": "beleven",
+          "jullie": "beleven",
+          "zij": "beleven"
+        },
+        "past": {
+          "singular": "beleefde",
+          "plural": "beleefden"
+        },
+        "pastParticiple": "beleefd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Ik belee een leuke avond.",
+      "Ze beleefde veel."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我度过了一个愉快的夜晚。",
+        "她经历了很多。"
+      ],
+      "english": [
+        "I experience a nice evening.",
+        "She experienced a lot."
+      ]
+    },
+    "notes": "原形 is leven，beleven 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1409,
+    "word": "beleving",
+    "translation": {
+      "chinese": "体验、经历",
+      "english": "experience"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "beleving",
+        "plural": "belevingen"
+      }
+    },
+    "examples": [
+      "Een bijzondere beleving.",
+      "De beleving van de stad."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "一次特别的体验。",
+        "城市的体验。"
+      ],
+      "english": [
+        "A special experience.",
+        "The experience of the city."
+      ]
+    },
+    "notes": "复数形式为 belevingen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1410,
+    "word": "belofte",
+    "translation": {
+      "chinese": "承诺、诺言",
+      "english": "promise"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "belofte",
+        "plural": "beloften"
+      }
+    },
+    "examples": [
+      "Ik doe een belofte.",
+      "Hij breekt zijn belofte."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我许下一个承诺。",
+        "他打破了他的诺言。"
+      ],
+      "english": [
+        "I make a promise.",
+        "He breaks his promise."
+      ]
+    },
+    "notes": "复数形式为 beloften（不规则）",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1411,
+    "word": "belonen",
+    "translation": {
+      "chinese": "奖励、报酬",
+      "english": "to reward"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "belonen",
+        "isSeparable": false,
+        "present": {
+          "ik": "beloon",
+          "jij": "beloont",
+          "hij": "beloont",
+          "wij": "belonen",
+          "jullie": "belonen",
+          "zij": "belonen"
+        },
+        "past": {
+          "singular": "beloonde",
+          "plural": "beloonden"
+        },
+        "pastParticiple": "beloond",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "De baas beloont ons.",
+      "Ik beloon je hard werken."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "老板奖励我们。",
+        "我奖励你的努力工作。"
+      ],
+      "english": [
+        "The boss rewards us.",
+        "I reward your hard work."
+      ]
+    },
+    "notes": "原形 is lonen，belonen 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1412,
+    "word": "beloning",
+    "translation": {
+      "chinese": "奖励、报酬",
+      "english": "reward"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "beloning",
+        "plural": "beloningen"
+      }
+    },
+    "examples": [
+      "Een goede beloning.",
+      "De beloning is laag."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "一个好的奖励。",
+        "报酬很低。"
+      ],
+      "english": [
+        "A good reward.",
+        "The reward is low."
+      ]
+    },
+    "notes": "复数形式为 beloningen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1413,
+    "word": "bemiddelen",
+    "translation": {
+      "chinese": "调解、调停",
+      "english": "to mediate"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "bemiddelen",
+        "isSeparable": false,
+        "present": {
+          "ik": "bemiddel",
+          "jij": "bemiddelt",
+          "hij": "bemiddelt",
+          "wij": "bemiddelen",
+          "jullie": "bemiddelen",
+          "zij": "bemiddelen"
+        },
+        "past": {
+          "singular": "bemiddelde",
+          "plural": "bemiddelden"
+        },
+        "pastParticiple": "bemiddeld",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Hij bemiddelt het conflict.",
+      "We moeten bemiddelen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他调解这个冲突。",
+        "我们需要调解。"
+      ],
+      "english": [
+        "He mediates the conflict.",
+        "We need to mediate."
+      ]
+    },
+    "notes": "原形 is middelen，bemiddelen 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1414,
+    "word": "benaderen",
+    "translation": {
+      "chinese": "接近、处理",
+      "english": "to approach"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "benaderen",
+        "isSeparable": false,
+        "present": {
+          "ik": "benader",
+          "jij": "benadert",
+          "hij": "benadert",
+          "wij": "benaderen",
+          "jullie": "benaderen",
+          "zij": "benaderen"
+        },
+        "past": {
+          "singular": "benaderde",
+          "plural": "benaderden"
+        },
+        "pastParticiple": "benaderd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Ik benader het probleem anders.",
+      "Benader de hond voorzichtig."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我用不同的方法处理这个问题。",
+        "小心地接近这只狗。"
+      ],
+      "english": [
+        "I approach the problem differently.",
+        "Approach the dog carefully."
+      ]
+    },
+    "notes": "原形 is naderen，benaderen 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1415,
+    "word": "benadering",
+    "translation": {
+      "chinese": "方法、接近",
+      "english": "approach"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "benadering",
+        "plural": "benaderingen"
+      }
+    },
+    "examples": [
+      "Een nieuwe benadering.",
+      "Zijn benadering is goed."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "一种新方法。",
+        "他的方法很好。"
+      ],
+      "english": [
+        "A new approach.",
+        "His approach is good."
+      ]
+    },
+    "notes": "复数形式为 benaderingen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1416,
+    "word": "benadrukken",
+    "translation": {
+      "chinese": "强调",
+      "english": "to emphasize, to stress"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "benadrukken",
+        "isSeparable": false,
+        "present": {
+          "ik": "druk aan",
+          "jij": "drukt aan",
+          "hij": "drukt aan",
+          "wij": "drukken aan",
+          "jullie": "drukken aan",
+          "zij": "drukken aan"
+        },
+        "past": {
+          "singular": "drukte aan",
+          "plural": "drukten aan"
+        },
+        "pastParticiple": "aangedrukt",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Hij drukt zijn punt aan.",
+      "Ik druk het belang aan."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他强调他的观点。",
+        "我强调重要性。"
+      ],
+      "english": [
+        "He emphasizes his point.",
+        "I emphasize the importance."
+      ]
+    },
+    "notes": "原形 is aandrukken，benadrukken 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1417,
+    "word": "beoordeling",
+    "translation": {
+      "chinese": "评价、评估",
+      "english": "evaluation, assessment"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "beoordeling",
+        "plural": "beoordelingen"
+      }
+    },
+    "examples": [
+      "De beoordeling is goed.",
+      "Een nieuwe beoordeling."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "评价很好。",
+        "新的评估。"
+      ],
+      "english": [
+        "The evaluation is good.",
+        "A new assessment."
+      ]
+    },
+    "notes": "复数形式为 beoordelingen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1418,
+    "word": "bepalen",
+    "translation": {
+      "chinese": "决定、确定",
+      "english": "to determine, to decide"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "bepalen",
+        "isSeparable": false,
+        "present": {
+          "ik": "bepaal",
+          "jij": "bepaalt",
+          "hij": "bepaalt",
+          "wij": "bepalen",
+          "jullie": "bepalen",
+          "zij": "bepalen"
+        },
+        "past": {
+          "singular": "bepaalde",
+          "plural": "bepaalden"
+        },
+        "pastParticiple": "bepaald",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Het weer bepaalt de datum.",
+      "We moeten dat bepalen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "天气决定了日期。",
+        "我们需要确定那件事。"
+      ],
+      "english": [
+        "The weather determines the date.",
+        "We must determine that."
+      ]
+    },
+    "notes": "原形 is palen，bepalen 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1419,
+    "word": "beperken",
+    "translation": {
+      "chinese": "限制",
+      "english": "to limit, to restrict"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "beperken",
+        "isSeparable": false,
+        "present": {
+          "ik": "perk",
+          "jij": "perkt",
+          "hij": "perkt",
+          "wij": "perken",
+          "jullie": "perken",
+          "zij": "perken"
+        },
+        "past": {
+          "singular": "perkte",
+          "plural": "perkten"
+        },
+        "pastParticiple": "beperkt",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "We moeten de kosten beperken.",
+      "De regels beperken ons."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我们必须限制成本。",
+        "规则限制我们。"
+      ],
+      "english": [
+        "We must limit the costs.",
+        "The rules limit us."
+      ]
+    },
+    "notes": "原形 is perken，beperken 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1420,
+    "word": "beperking",
+    "translation": {
+      "chinese": "限制",
+      "english": "limitation, restriction"
+    },
+    "partOfSpeech": "noun",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "beperking",
+        "plural": "beperkingen"
+      }
+    },
+    "examples": [
+      "Er zijn beperkingen.",
+      "De beperking is erg."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "有限制。",
+        "限制很严重。"
+      ],
+      "english": [
+        "There are limitations.",
+        "The limitation is bad."
+      ]
+    },
+    "notes": "复数形式为 beperkingen",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1421,
+    "word": "bereid",
+    "translation": {
+      "chinese": "愿意的、准备好的",
+      "english": "willing, prepared"
+    },
+    "partOfSpeech": "adjective",
+    "forms": {
+      "adjective": {
+        "base": "bereid",
+        "withDe": "bereide",
+        "withHet": "bereide",
+        "comparative": "bereider",
+        "superlative": "het bereidst"
+      }
+    },
+    "examples": [
+      "Ik ben bereid om te helpen.",
+      "Zij is bereid."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我愿意帮忙。",
+        "她准备好了。"
+      ],
+      "english": [
+        "I am willing to help.",
+        "She is prepared."
+      ]
+    },
+    "notes": "常用短语：bereid zijn om te (愿意做某事)",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1422,
+    "word": "bereiken",
+    "translation": {
+      "chinese": "达到、联系",
+      "english": "to reach, to achieve"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "bereiken",
+        "isSeparable": false,
+        "present": {
+          "ik": "bereik",
+          "jij": "bereikt",
+          "hij": "bereikt",
+          "wij": "bereiken",
+          "jullie": "bereiken",
+          "zij": "bereiken"
+        },
+        "past": {
+          "singular": "bereikte",
+          "plural": "bereikten"
+        },
+        "pastParticiple": "bereikt",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "We bereiken het doel.",
+      "Ik kan hem niet bereiken."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我们达到了目标。",
+        "我联系不上他。"
+      ],
+      "english": [
+        "We achieve the goal.",
+        "I cannot reach him."
+      ]
+    },
+    "notes": "原形 is reiken，bereiken 是加强语气的形式",
+    "difficulty": "B1"
+  },
+  {
+    "id": 1423,
+    "word": "berekenen",
+    "translation": {
+      "chinese": "计算",
+      "english": "to calculate"
+    },
+    "partOfSpeech": "verb",
+    "forms": {
+      "verb": {
+        "infinitive": "berekenen",
+        "isSeparable": false,
+        "present": {
+          "ik": "bereken",
+          "jij": "berekent",
+          "hij": "berekent",
+          "wij": "berekenen",
+          "jullie": "berekenen",
+          "zij": "berekenen"
+        },
+        "past": {
+          "singular": "berekende",
+          "plural": "berekenden"
+        },
+        "pastParticiple": "berekend",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    },
+    "examples": [
+      "Ik bereken de kosten.",
+      "Hij berekent de som."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我计算费用。",
+        "他计算这道题。"
+      ],
+      "english": [
+        "I calculate the costs.",
+        "He calculates the sum."
+      ]
+    },
+    "notes": "原形 is rekenen，berekenen 是加强语气的形式",
+    "difficulty": "B1"
   }
 ]

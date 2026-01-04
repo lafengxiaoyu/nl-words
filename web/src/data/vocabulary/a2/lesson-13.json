@@ -2,267 +2,8 @@
   "id": "lA213",
   "level": "A2",
   "lessonNumber": 13,
-  "totalWords": 50,
+  "totalWords": 49,
   "words": [
-    {
-      "id": 1244,
-      "word": "verschillen",
-      "translation": {
-        "chinese": "不同,差异",
-        "english": "to differ, differences"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "verschillen",
-          "present": [
-            "verschil",
-            "verschilt",
-            "verschilt",
-            "verschillen",
-            "verschillen",
-            "verschillen"
-          ],
-          "past": [
-            "verschilde",
-            "verschilde",
-            "verschilde",
-            "verschilden",
-            "verschilden",
-            "verschilden"
-          ],
-          "participle": "verschillen"
-        }
-      },
-      "examples": [
-        "De meningen verschillen.",
-        "De prijzen verschillen per dag."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "意见不同。",
-          "价格每天不同。"
-        ],
-        "english": [
-          "Opinions differ.",
-          "Prices differ per day."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
-      "id": 1245,
-      "word": "verschillend",
-      "translation": {
-        "chinese": "不同的",
-        "english": "different"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "indefinite": [
-            "verschillend",
-            "verschillende",
-            "verschillend",
-            "verschillende"
-          ],
-          "definite": [
-            "verschillende",
-            "verschillende",
-            "verschillende",
-            "verschillende"
-          ],
-          "comparison": [],
-          "participle": ""
-        }
-      },
-      "examples": [
-        "Ze zijn verschillend.",
-        "Er zijn verschillende opties."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他们是不同的。",
-          "有各种不同的选择。"
-        ],
-        "english": [
-          "They are different.",
-          "There are various options."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
-      "id": 1246,
-      "word": "verschijnen",
-      "translation": {
-        "chinese": "出现,出版",
-        "english": "to appear, to publish"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "verschijnen",
-          "present": [
-            "verschijn",
-            "verschijnt",
-            "verschijnt",
-            "verschijnen",
-            "verschijnen",
-            "verschijnen"
-          ],
-          "past": [
-            "verscheen",
-            "verscheen",
-            "verscheen",
-            "verschenen",
-            "verschenen",
-            "verschenen"
-          ],
-          "participle": "verschenen"
-        }
-      },
-      "examples": [
-        "De zon verschijnt.",
-        "Het boek verschijnt volgende week."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "太阳出现了。",
-          "这本书下周出版。"
-        ],
-        "english": [
-          "The sun appears.",
-          "The book is published next week."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
-      "id": 1247,
-      "word": "verslag",
-      "translation": {
-        "chinese": "报告",
-        "english": "report"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": [
-            "verslag",
-            "het verslag",
-            "het verslag",
-            "het verslag"
-          ],
-          "plural": [
-            "verslagen",
-            "de verslagen",
-            "de verslagen",
-            "de verslagen"
-          ],
-          "gender": "het",
-          "article": "het"
-        }
-      },
-      "examples": [
-        "Schrijf een verslag.",
-        "Het verslag is klaar."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "写一份报告。",
-          "报告完成了。"
-        ],
-        "english": [
-          "Write a report.",
-          "The report is ready."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
-      "id": 1248,
-      "word": "verstand",
-      "translation": {
-        "chinese": "理智,理解力",
-        "english": "sense, understanding"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": [
-            "verstand",
-            "het verstand",
-            "het verstand",
-            "het verstand"
-          ],
-          "plural": [],
-          "gender": "het",
-          "article": "het"
-        }
-      },
-      "examples": [
-        "Gebruik je verstand.",
-        "Ik versta het niet."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "使用你的理智。",
-          "我不理解。"
-        ],
-        "english": [
-          "Use your sense.",
-          "I don't understand."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
-      "id": 1249,
-      "word": "verstaan",
-      "translation": {
-        "chinese": "理解,明白",
-        "english": "to understand"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "verstaan",
-          "present": [
-            "versta",
-            "verstaat",
-            "verstaat",
-            "verstaan",
-            "verstaan",
-            "verstaan"
-          ],
-          "past": [
-            "verstond",
-            "verstond",
-            "verstond",
-            "verstonden",
-            "verstonden",
-            "verstonden"
-          ],
-          "participle": "verstaan"
-        }
-      },
-      "examples": [
-        "Ik versta je niet.",
-        "Versta je Nederlands?"
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我不明白你的意思。",
-          "你懂荷兰语吗?"
-        ],
-        "english": [
-          "I don't understand you.",
-          "Do you understand Dutch?"
-        ]
-      },
-      "difficulty": "A2"
-    },
     {
       "id": 1250,
       "word": "versturen",
@@ -274,16 +15,21 @@
       "forms": {
         "verb": {
           "infinitive": "versturen",
-          "present": [
-            "stuur",
-            "stuurt",
-            "stuurt",
-            "sturen",
-            "sturen",
-            "sturen"
-          ],
-          "past": "stuurde",
-          "participle": "verstuurd"
+          "present": {
+            "ik": "stuur",
+            "jij": "stuurt",
+            "hij": "stuurt",
+            "wij": "sturen",
+            "jullie": "sturen",
+            "zij": "sturen"
+          },
+          "past": {
+            "singular": "stuurde",
+            "plural": "stuurden"
+          },
+          "participle": "verstuurd",
+          "isSeparable": false,
+          "pastParticiple": "verzonden"
         }
       },
       "examples": [
@@ -313,16 +59,21 @@
       "forms": {
         "verb": {
           "infinitive": "vertalen",
-          "present": [
-            "vertaal",
-            "vertaalt",
-            "vertaalt",
-            "vertalen",
-            "vertalen",
-            "vertalen"
-          ],
-          "past": "vertaalde",
-          "participle": "vertaald"
+          "present": {
+            "ik": "vertaal",
+            "jij": "vertaalt",
+            "hij": "vertaalt",
+            "wij": "vertalen",
+            "jullie": "vertalen",
+            "zij": "vertalen"
+          },
+          "past": {
+            "singular": "vertaalde",
+            "plural": "vertaalden"
+          },
+          "participle": "vertaald",
+          "isSeparable": false,
+          "pastParticiple": "vertaald"
         }
       },
       "examples": [
@@ -352,16 +103,21 @@
       "forms": {
         "verb": {
           "infinitive": "vertrouwen",
-          "present": [
-            "vertrouw",
-            "vertrouwt",
-            "vertrouwt",
-            "vertrouwen",
-            "vertrouwen",
-            "vertrouwen"
-          ],
-          "past": "vertrouwde",
-          "participle": "vertrouwd"
+          "present": {
+            "ik": "vertrouw",
+            "jij": "vertrouwt",
+            "hij": "vertrouwt",
+            "wij": "vertrouwen",
+            "jullie": "vertrouwen",
+            "zij": "vertrouwen"
+          },
+          "past": {
+            "singular": "vertrouwde",
+            "plural": "vertrouwden"
+          },
+          "participle": "vertrouwd",
+          "isSeparable": false,
+          "pastParticiple": "vertrouwd"
         }
       },
       "examples": [
@@ -391,16 +147,21 @@
       "forms": {
         "verb": {
           "infinitive": "vervangen",
-          "present": [
-            "vervang",
-            "vervangt",
-            "vervangt",
-            "vervangen",
-            "vervangen",
-            "vervangen"
-          ],
-          "past": "verving",
-          "participle": "vervangen"
+          "present": {
+            "ik": "vervang",
+            "jij": "vervangt",
+            "hij": "vervangt",
+            "wij": "vervangen",
+            "jullie": "vervangen",
+            "zij": "vervangen"
+          },
+          "past": {
+            "singular": "verving",
+            "plural": "verving"
+          },
+          "participle": "vervangen",
+          "isSeparable": false,
+          "pastParticiple": "vervangen"
         }
       },
       "examples": [
@@ -492,16 +253,21 @@
       "forms": {
         "verb": {
           "infinitive": "verwachten",
-          "present": [
-            "verwacht",
-            "verwacht",
-            "verwacht",
-            "verwachten",
-            "verwachten",
-            "verwachten"
-          ],
-          "past": "verwachtte",
-          "participle": "verwacht"
+          "present": {
+            "ik": "verwacht",
+            "jij": "verwacht",
+            "hij": "verwacht",
+            "wij": "verwachten",
+            "jullie": "verwachten",
+            "zij": "verwachten"
+          },
+          "past": {
+            "singular": "verwachtte",
+            "plural": "verwachtten"
+          },
+          "participle": "verwacht",
+          "isSeparable": false,
+          "pastParticiple": "verwacht"
         }
       },
       "examples": [
@@ -531,16 +297,21 @@
       "forms": {
         "verb": {
           "infinitive": "verwarmen",
-          "present": [
-            "verwarm",
-            "verwarmt",
-            "verwarmt",
-            "verwarmen",
-            "verwarmen",
-            "verwarmen"
-          ],
-          "past": "verwarmde",
-          "participle": "verwarmd"
+          "present": {
+            "ik": "verwarm",
+            "jij": "verwarmt",
+            "hij": "verwarmt",
+            "wij": "verwarmen",
+            "jullie": "verwarmen",
+            "zij": "verwarmen"
+          },
+          "past": {
+            "singular": "verwarmde",
+            "plural": "verwarmden"
+          },
+          "participle": "verwarmd",
+          "isSeparable": false,
+          "pastParticiple": "verwarmd"
         }
       },
       "examples": [
@@ -570,16 +341,21 @@
       "forms": {
         "verb": {
           "infinitive": "verwijderen",
-          "present": [
-            "verwijder",
-            "verwijder",
-            "verwijder",
-            "verwijderen",
-            "verwijderen",
-            "verwijderen"
-          ],
-          "past": "verwijderde",
-          "participle": "verwijderd"
+          "present": {
+            "ik": "verwijder",
+            "jij": "verwijder",
+            "hij": "verwijder",
+            "wij": "verwijderen",
+            "jullie": "verwijderen",
+            "zij": "verwijderen"
+          },
+          "past": {
+            "singular": "verwijderde",
+            "plural": "verwijderden"
+          },
+          "participle": "verwijderd",
+          "isSeparable": false,
+          "pastParticiple": "verwijderd"
         }
       },
       "examples": [
@@ -609,16 +385,21 @@
       "forms": {
         "verb": {
           "infinitive": "verwijzen",
-          "present": [
-            "verwijs",
-            "verwijst",
-            "verwijst",
-            "verwijzen",
-            "verwijzen",
-            "verwijzen"
-          ],
-          "past": "verwees",
-          "participle": "verwezen"
+          "present": {
+            "ik": "verwijs",
+            "jij": "verwijst",
+            "hij": "verwijst",
+            "wij": "verwijzen",
+            "jullie": "verwijzen",
+            "zij": "verwijzen"
+          },
+          "past": {
+            "singular": "verwees",
+            "plural": "verwees"
+          },
+          "participle": "verwezen",
+          "isSeparable": false,
+          "pastParticiple": "verwezen"
         }
       },
       "examples": [
@@ -648,16 +429,21 @@
       "forms": {
         "verb": {
           "infinitive": "verzekeren",
-          "present": [
-            "verzeker",
-            "verzeker",
-            "verzeker",
-            "verzekeren",
-            "verzekeren",
-            "verzekeren"
-          ],
-          "past": "verzekerde",
-          "participle": "verzekerd"
+          "present": {
+            "ik": "verzeker",
+            "jij": "verzeker",
+            "hij": "verzeker",
+            "wij": "verzekeren",
+            "jullie": "verzekeren",
+            "zij": "verzekeren"
+          },
+          "past": {
+            "singular": "verzekerde",
+            "plural": "verzekerden"
+          },
+          "participle": "verzekerd",
+          "isSeparable": false,
+          "pastParticiple": "verzekerd"
         }
       },
       "examples": [
@@ -845,16 +631,21 @@
       "forms": {
         "verb": {
           "infinitive": "vestigen",
-          "present": [
-            "vestig",
-            "vestigt",
-            "vestigt",
-            "vestigen",
-            "vestigen",
-            "vestigen"
-          ],
-          "past": "vestigde",
-          "participle": "gevestigd"
+          "present": {
+            "ik": "vestig",
+            "jij": "vestigt",
+            "hij": "vestigt",
+            "wij": "vestigen",
+            "jullie": "vestigen",
+            "zij": "vestigen"
+          },
+          "past": {
+            "singular": "vestigde",
+            "plural": "vestigden"
+          },
+          "participle": "gevestigd",
+          "isSeparable": false,
+          "pastParticiple": "gevestigd"
         }
       },
       "examples": [
@@ -1030,16 +821,21 @@
       "forms": {
         "verb": {
           "infinitive": "voeden",
-          "present": [
-            "voed",
-            "voedt",
-            "voedt",
-            "voeden",
-            "voeden",
-            "voeden"
-          ],
-          "past": "voedde",
-          "participle": "gevoed"
+          "present": {
+            "ik": "voed",
+            "jij": "voedt",
+            "hij": "voedt",
+            "wij": "voeden",
+            "jullie": "voeden",
+            "zij": "voeden"
+          },
+          "past": {
+            "singular": "voedde",
+            "plural": "voedden"
+          },
+          "participle": "gevoed",
+          "isSeparable": false,
+          "pastParticiple": "gevoed"
         }
       },
       "examples": [
@@ -1184,20 +980,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "voldoende",
-            "voldoende",
-            "voldoende",
-            "voldoende"
-          ],
-          "definite": [
-            "voldoende",
-            "voldoende",
-            "voldoende",
-            "voldoende"
-          ],
-          "comparison": [],
-          "participle": ""
+          "base": "voldoende",
+          "withDe": "voldoende",
+          "withHet": "voldoende",
+          "comparative": "voldoendeer",
+          "superlative": "voldoendest"
         }
       },
       "examples": [
@@ -1227,16 +1014,21 @@
       "forms": {
         "verb": {
           "infinitive": "volgen",
-          "present": [
-            "volg",
-            "volgt",
-            "volgt",
-            "volgen",
-            "volgen",
-            "volgen"
-          ],
-          "past": "volgde",
-          "participle": "gevolgd"
+          "present": {
+            "ik": "volg",
+            "jij": "volgt",
+            "hij": "volgt",
+            "wij": "volgen",
+            "jullie": "volgen",
+            "zij": "volgen"
+          },
+          "past": {
+            "singular": "volgde",
+            "plural": "volgden"
+          },
+          "participle": "gevolgd",
+          "isSeparable": false,
+          "pastParticiple": "gevolgd"
         }
       },
       "examples": [
@@ -1323,73 +1115,6 @@
       "difficulty": "A2"
     },
     {
-      "id": 1278,
-      "word": "vooral",
-      "translation": {
-        "chinese": "尤其,主要",
-        "english": "especially, mainly"
-      },
-      "partOfSpeech": "adverb",
-      "forms": {},
-      "examples": [
-        "Ik hou vooral van koffie.",
-        "Hij werkt vooral thuis."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我特别喜欢咖啡。",
-          "他主要在家里工作。"
-        ],
-        "english": [
-          "I especially like coffee.",
-          "He mainly works at home."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
-      "id": 1279,
-      "word": "voorwaarde",
-      "translation": {
-        "chinese": "条件",
-        "english": "condition"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": [
-            "voorwaarde",
-            "de voorwaarde",
-            "de voorwaarde",
-            "de voorwaarde"
-          ],
-          "plural": [
-            "voorwaarden",
-            "de voorwaarden",
-            "de voorwaarden",
-            "de voorwaarden"
-          ],
-          "gender": "de",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Dat is een voorwaarde.",
-        "Aan welke voorwaarden?"
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是一个条件。",
-          "什么条件?"
-        ],
-        "english": [
-          "That is a condition.",
-          "What conditions?"
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
       "id": 1280,
       "word": "voorbereiden",
       "translation": {
@@ -1400,16 +1125,21 @@
       "forms": {
         "verb": {
           "infinitive": "voorbereiden",
-          "present": [
-            "bereid ... voor",
-            "bereidt ... voor",
-            "bereidt ... voor",
-            "bereiden ... voor",
-            "bereiden ... voor",
-            "bereiden ... voor"
-          ],
-          "past": "bereidde ... voor",
-          "participle": "voorbereid"
+          "present": {
+            "ik": "bereid ... voor",
+            "jij": "bereidt ... voor",
+            "hij": "bereidt ... voor",
+            "wij": "bereiden ... voor",
+            "jullie": "bereiden ... voor",
+            "zij": "bereiden ... voor"
+          },
+          "past": {
+            "singular": "bereidde ... voor",
+            "plural": "bereidde ... voor"
+          },
+          "participle": "voorbereid",
+          "isSeparable": false,
+          "pastParticiple": "voorbereid"
         }
       },
       "examples": [
@@ -1592,127 +1322,6 @@
       "difficulty": "A2"
     },
     {
-      "id": 1285,
-      "word": "vrijheid",
-      "translation": {
-        "chinese": "自由",
-        "english": "freedom, liberty"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": [
-            "vrijheid",
-            "de vrijheid",
-            "de vrijheid",
-            "de vrijheid"
-          ],
-          "plural": [],
-          "gender": "de",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Vrijheid is belangrijk.",
-        "We genieten onze vrijheid."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "自由很重要。",
-          "我们享受自由。"
-        ],
-        "english": [
-          "Freedom is important.",
-          "We enjoy our freedom."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
-      "id": 1286,
-      "word": "vrijwilliger",
-      "translation": {
-        "chinese": "志愿者",
-        "english": "volunteer"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": [
-            "vrijwilliger",
-            "de vrijwilliger",
-            "de vrijwilliger",
-            "de vrijwilliger"
-          ],
-          "plural": [
-            "vrijwilligers",
-            "de vrijwilligers",
-            "de vrijwilligers",
-            "de vrijwilligers"
-          ],
-          "gender": "de",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Hij werkt als vrijwilliger.",
-        "We zoeken vrijwilligers."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他作为志愿者工作。",
-          "我们在寻找志愿者。"
-        ],
-        "english": [
-          "He works as a volunteer.",
-          "We are looking for volunteers."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
-      "id": 1287,
-      "word": "vuist",
-      "translation": {
-        "chinese": "拳头",
-        "english": "fist"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": [
-            "vuist",
-            "de vuist",
-            "de vuist",
-            "de vuist"
-          ],
-          "plural": [
-            "vuisten",
-            "de vuisten",
-            "de vuisten",
-            "de vuisten"
-          ],
-          "gender": "de",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Maak een vuist.",
-        "Hij slaat met zijn vuist."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "握紧拳头。",
-          "他用拳头打。"
-        ],
-        "english": [
-          "Make a fist.",
-          "He hits with his fist."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
       "id": 1288,
       "word": "waarde",
       "translation": {
@@ -1765,16 +1374,21 @@
       "forms": {
         "verb": {
           "infinitive": "waarderen",
-          "present": [
-            "waardeer",
-            "waardeert",
-            "waardeert",
-            "waarderen",
-            "waarderen",
-            "waarderen"
-          ],
-          "past": "waardeerde",
-          "participle": "gewaardeerd"
+          "present": {
+            "ik": "waardeer",
+            "jij": "waardeert",
+            "hij": "waardeert",
+            "wij": "waarderen",
+            "jullie": "waarderen",
+            "zij": "waarderen"
+          },
+          "past": {
+            "singular": "waardeerde",
+            "plural": "waardeerden"
+          },
+          "participle": "gewaardeerd",
+          "isSeparable": false,
+          "pastParticiple": "gewaardeerd"
         }
       },
       "examples": [
@@ -1804,16 +1418,21 @@
       "forms": {
         "verb": {
           "infinitive": "waarschuwen",
-          "present": [
-            "waarschuw",
-            "waarschuwt",
-            "waarschuwt",
-            "waarschuwen",
-            "waarschuwen",
-            "waarschuwen"
-          ],
-          "past": "waarschuwde",
-          "participle": "gewaarschuwd"
+          "present": {
+            "ik": "waarschuw",
+            "jij": "waarschuwt",
+            "hij": "waarschuwt",
+            "wij": "waarschuwen",
+            "jullie": "waarschuwen",
+            "zij": "waarschuwen"
+          },
+          "past": {
+            "singular": "waarschuwde",
+            "plural": "waarschuwden"
+          },
+          "participle": "gewaarschuwd",
+          "isSeparable": false,
+          "pastParticiple": "gewaarschuwd"
         }
       },
       "examples": [
@@ -1944,6 +1563,407 @@
         "english": [
           "There is resistance.",
           "He has a lot of resistance."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1294,
+      "word": "wegen",
+      "translation": {
+        "chinese": "称重,权衡",
+        "english": "to weigh"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "wegen",
+          "present": {
+            "ik": "weeg",
+            "jij": "weegt",
+            "hij": "weegt",
+            "wij": "wegen",
+            "jullie": "wegen",
+            "zij": "wegen"
+          },
+          "past": {
+            "singular": "woog",
+            "plural": "woog"
+          },
+          "participle": "gewogen",
+          "isSeparable": false,
+          "pastParticiple": "gewogen"
+        }
+      },
+      "examples": [
+        "Weeg het pakket.",
+        "Het weegt twee kilo."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "称一下包裹。",
+          "它重两公斤。"
+        ],
+        "english": [
+          "Weigh the package.",
+          "It weighs two kilos."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1295,
+      "word": "weigeren",
+      "translation": {
+        "chinese": "拒绝",
+        "english": "to refuse"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "weigeren",
+          "present": {
+            "ik": "weiger",
+            "jij": "weigert",
+            "hij": "weigert",
+            "wij": "weigeren",
+            "jullie": "weigeren",
+            "zij": "weigeren"
+          },
+          "past": {
+            "singular": "weigerde",
+            "plural": "weigerden"
+          },
+          "participle": "geweigerd",
+          "isSeparable": false,
+          "pastParticiple": "geweigerd"
+        }
+      },
+      "examples": [
+        "Ik weiger het.",
+        "Hij weigert te betalen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我拒绝。",
+          "他拒绝付款。"
+        ],
+        "english": [
+          "I refuse it.",
+          "He refuses to pay."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1296,
+      "word": "weinig",
+      "translation": {
+        "chinese": "少量,很少",
+        "english": "little, few"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "weinig",
+          "withDe": "weinige",
+          "withHet": "weinig",
+          "comparative": "minder",
+          "superlative": "minst"
+        }
+      },
+      "examples": [
+        "Ik heb weinig tijd.",
+        "Er zijn weinig mensen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我时间很少。",
+          "人很少。"
+        ],
+        "english": [
+          "I have little time.",
+          "There are few people."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1297,
+      "word": "werkgever",
+      "translation": {
+        "chinese": "雇主",
+        "english": "employer"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "werkgever",
+            "de werkgever",
+            "de werkgever",
+            "de werkgever"
+          ],
+          "plural": [
+            "werkgevers",
+            "de werkgevers",
+            "de werkgevers",
+            "de werkgevers"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Mijn werkgever is aardig.",
+        "De werkgever betaalt goed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的雇主很好。",
+          "雇主待遇好。"
+        ],
+        "english": [
+          "My employer is nice.",
+          "The employer pays well."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1298,
+      "word": "werkloos",
+      "translation": {
+        "chinese": "失业的",
+        "english": "unemployed"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "werkloos",
+          "withDe": "werkloze",
+          "withHet": "werkloos",
+          "comparative": "werklooser",
+          "superlative": "werkloosst"
+        }
+      },
+      "examples": [
+        "Hij is werkloos.",
+        "Veel mensen zijn werkloos."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他失业了。",
+          "很多人失业了。"
+        ],
+        "english": [
+          "He is unemployed.",
+          "Many people are unemployed."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1299,
+      "word": "werktijd",
+      "translation": {
+        "chinese": "工作时间",
+        "english": "working hours"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "werktijd",
+            "de werktijd",
+            "de werktijd",
+            "de werktijd"
+          ],
+          "plural": [
+            "werktijden",
+            "de werktijden",
+            "de werktijden",
+            "de werktijden"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Mijn werktijd is acht uur.",
+        "De werktijden zijn flexibel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的工作时间是八小时。",
+          "工作时间很灵活。"
+        ],
+        "english": [
+          "My working hours are eight hours.",
+          "Working hours are flexible."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1300,
+      "word": "wetenschap",
+      "translation": {
+        "chinese": "科学",
+        "english": "science"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "wetenschap",
+            "de wetenschap",
+            "de wetenschap",
+            "de wetenschap"
+          ],
+          "plural": [
+            "wetenschappen",
+            "de wetenschappen",
+            "de wetenschappen",
+            "de wetenschappen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik studeer wetenschap.",
+        "De wetenschap vooruit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我学习科学。",
+          "科学在进步。"
+        ],
+        "english": [
+          "I study science.",
+          "Science progresses."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1301,
+      "word": "wijze",
+      "translation": {
+        "chinese": "方式,方法",
+        "english": "way, manner"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "wijze",
+            "de wijze",
+            "de wijze",
+            "de wijze"
+          ],
+          "plural": [
+            "wijzen",
+            "de wijzen",
+            "de wijzen",
+            "de wijzen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Op deze wijze.",
+        "Er zijn verschillende wijzen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "用这种方式。",
+          "有不同的方法。"
+        ],
+        "english": [
+          "In this way.",
+          "There are different ways."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1305,
+      "word": "zicht",
+      "translation": {
+        "chinese": "视野,视线",
+        "english": "view, sight"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "zicht",
+            "het zicht",
+            "het zicht",
+            "het zicht"
+          ],
+          "plural": [],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het zicht is prachtig.",
+        "Ik heb zicht op de zee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "视野很美。",
+          "我能看到大海。"
+        ],
+        "english": [
+          "The view is beautiful.",
+          "I have a view of the sea."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1306,
+      "word": "ziekte",
+      "translation": {
+        "chinese": "疾病",
+        "english": "disease, illness"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "ziekte",
+            "de ziekte",
+            "de ziekte",
+            "de ziekte"
+          ],
+          "plural": [
+            "ziekten",
+            "de ziekten",
+            "de ziekten",
+            "de ziekten"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ze heeft een ernstige ziekte.",
+        "De ziekte is besmettelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她得了重病。",
+          "这种病具有传染性。"
+        ],
+        "english": [
+          "She has a serious illness.",
+          "The disease is contagious."
         ]
       },
       "difficulty": "A2"

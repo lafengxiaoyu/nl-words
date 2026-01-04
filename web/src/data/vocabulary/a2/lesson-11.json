@@ -5,93 +5,6 @@
   "totalWords": 50,
   "words": [
     {
-      "id": 1144,
-      "word": "stuk",
-      "translation": {
-        "chinese": "块,碎片",
-        "english": "piece, broken"
-      },
-      "partOfSpeech": [
-        "noun",
-        "adjective"
-      ],
-      "forms": {
-        "noun": {
-          "singular": [
-            "stuk",
-            "stuk",
-            "het stuk",
-            "het stuk"
-          ],
-          "plural": [
-            "stukken",
-            "stukken",
-            "de stukken",
-            "de stukken"
-          ],
-          "gender": "het",
-          "article": "het"
-        }
-      },
-      "examples": [
-        "Een stuk cake.",
-        "Het glas is stuk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "一块蛋糕。",
-          "玻璃碎了。"
-        ],
-        "english": [
-          "A piece of cake.",
-          "The glass is broken."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
-      "id": 1145,
-      "word": "systeem",
-      "translation": {
-        "chinese": "系统",
-        "english": "system"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": [
-            "systeem",
-            "systeem",
-            "het systeem",
-            "het systeem"
-          ],
-          "plural": [
-            "systemen",
-            "systemen",
-            "de systemen",
-            "de systemen"
-          ],
-          "gender": "het",
-          "article": "het"
-        }
-      },
-      "examples": [
-        "Het systeem werkt goed.",
-        "Wij hebben een nieuw systeem."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "系统运行良好。",
-          "我们有一个新系统。"
-        ],
-        "english": [
-          "The system works well.",
-          "We have a new system."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
       "id": 1146,
       "word": "taart",
       "translation": {
@@ -399,23 +312,21 @@
       "forms": {
         "verb": {
           "infinitive": "tegenvallen",
-          "present": [
-            "val tegen",
-            "valt tegen",
-            "valt tegen",
-            "vallen tegen",
-            "vallen tegen",
-            "vallen tegen"
-          ],
-          "past": [
-            "viel tegen",
-            "viel tegen",
-            "viel tegen",
-            "vielen tegen",
-            "vielen tegen",
-            "vielen tegen"
-          ],
-          "participle": "tegengevallen"
+          "present": {
+            "ik": "val tegen",
+            "jij": "valt tegen",
+            "hij": "valt tegen",
+            "wij": "vallen tegen",
+            "jullie": "vallen tegen",
+            "zij": "vallen tegen"
+          },
+          "past": {
+            "singular": "viel tegen",
+            "plural": "vielen tegen"
+          },
+          "participle": "tegengevallen",
+          "isSeparable": false,
+          "pastParticiple": "tegengevallen"
         }
       },
       "examples": [
@@ -813,23 +724,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "tijdelijk",
-            "tijdelijke",
-            "tijdelijk",
-            "tijdelijke"
-          ],
-          "definite": [
-            "tijdelijke",
-            "tijdelijke",
-            "tijdelijke",
-            "tijdelijke"
-          ],
-          "comparison": [
-            "tijdelijker",
-            "meest tijdelijk"
-          ],
-          "participle": ""
+          "base": "tijdelijk",
+          "withDe": "tijdelijke",
+          "withHet": "tijdelijk",
+          "comparative": "tijdelijker",
+          "superlative": "meest tijdelijk"
         }
       },
       "examples": [
@@ -1049,98 +948,6 @@
       "difficulty": "A2"
     },
     {
-      "id": 1171,
-      "word": "toevoegen",
-      "translation": {
-        "chinese": "添加,补充",
-        "english": "to add"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "toevoegen",
-          "present": [
-            "voeg toe",
-            "voegt toe",
-            "voegt toe",
-            "voegen toe",
-            "voegen toe",
-            "voegen toe"
-          ],
-          "past": [
-            "voegde toe",
-            "voegde toe",
-            "voegde toe",
-            "voegden toe",
-            "voegden toe",
-            "voegden toe"
-          ],
-          "participle": "toegevoegd"
-        }
-      },
-      "examples": [
-        "Voeg zout toe.",
-        "Ik wil iets toevoegen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "加盐。",
-          "我想补充一些东西。"
-        ],
-        "english": [
-          "Add salt.",
-          "I want to add something."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
-      "id": 1172,
-      "word": "tonen",
-      "translation": {
-        "chinese": "展示,显示",
-        "english": "to show, to display"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "tonen",
-          "present": [
-            "toon",
-            "toont",
-            "toont",
-            "tonen",
-            "tonen",
-            "tonen"
-          ],
-          "past": [
-            "toonde",
-            "toonde",
-            "toonde",
-            "toonden",
-            "toonden",
-            "toonden"
-          ],
-          "participle": "getoond"
-        }
-      },
-      "examples": [
-        "Toon me het ticket.",
-        "Hij toont zijn emoties."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "给我看票。",
-          "他展示他的情感。"
-        ],
-        "english": [
-          "Show me the ticket.",
-          "He shows his emotions."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
       "id": 1173,
       "word": "tweede",
       "translation": {
@@ -1150,20 +957,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "tweede",
-            "tweede",
-            "tweede",
-            "tweede"
-          ],
-          "definite": [
-            "tweede",
-            "tweede",
-            "tweede",
-            "tweede"
-          ],
-          "comparison": [],
-          "participle": ""
+          "base": "tweede",
+          "withDe": "tweede",
+          "withHet": "tweede",
+          "comparative": "tweedeer",
+          "superlative": "tweedest"
         }
       },
       "examples": [
@@ -1277,23 +1075,21 @@
       "forms": {
         "verb": {
           "infinitive": "uitbreiden",
-          "present": [
-            "breid uit",
-            "breidt uit",
-            "breidt uit",
-            "breiden uit",
-            "breiden uit",
-            "breiden uit"
-          ],
-          "past": [
-            "breidde uit",
-            "breidde uit",
-            "breidde uit",
-            "breidden uit",
-            "breidden uit",
-            "breidden uit"
-          ],
-          "participle": "uitgebreid"
+          "present": {
+            "ik": "breid uit",
+            "jij": "breidt uit",
+            "hij": "breidt uit",
+            "wij": "breiden uit",
+            "jullie": "breiden uit",
+            "zij": "breiden uit"
+          },
+          "past": {
+            "singular": "breidde uit",
+            "plural": "breidden uit"
+          },
+          "participle": "uitgebreid",
+          "isSeparable": false,
+          "pastParticiple": "uitgebreid"
         }
       },
       "examples": [
@@ -1308,48 +1104,6 @@
         "english": [
           "We want to expand the company.",
           "The road is being extended."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
-      "id": 1177,
-      "word": "uitdaging",
-      "translation": {
-        "chinese": "挑战",
-        "english": "challenge"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": [
-            "uitdaging",
-            "de uitdaging",
-            "de uitdaging",
-            "de uitdaging"
-          ],
-          "plural": [
-            "uitdagingen",
-            "de uitdagingen",
-            "de uitdagingen",
-            "de uitdagingen"
-          ],
-          "gender": "de",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Het is een grote uitdaging.",
-        "Ik zoek een nieuwe uitdaging."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是一个巨大的挑战。",
-          "我在寻找新的挑战。"
-        ],
-        "english": [
-          "It is a big challenge.",
-          "I am looking for a new challenge."
         ]
       },
       "difficulty": "A2"
@@ -1406,20 +1160,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "uitstekend",
-            "uitstekende",
-            "uitstekend",
-            "uitstekende"
-          ],
-          "definite": [
-            "uitstekende",
-            "uitstekende",
-            "uitstekende",
-            "uitstekende"
-          ],
-          "comparison": [],
-          "participle": ""
+          "base": "uitstekend",
+          "withDe": "uitstekende",
+          "withHet": "uitstekend",
+          "comparative": "uitstekender",
+          "superlative": "uitstekendst"
         }
       },
       "examples": [
@@ -1533,23 +1278,21 @@
       "forms": {
         "verb": {
           "infinitive": "uitgeven",
-          "present": [
-            "geef uit",
-            "geeft uit",
-            "geeft uit",
-            "geven uit",
-            "geven uit",
-            "geven uit"
-          ],
-          "past": [
-            "gaf uit",
-            "gaf uit",
-            "gaf uit",
-            "gaven uit",
-            "gaven uit",
-            "gaven uit"
-          ],
-          "participle": "uitgegeven"
+          "present": {
+            "ik": "geef uit",
+            "jij": "geeft uit",
+            "hij": "geeft uit",
+            "wij": "geven uit",
+            "jullie": "geven uit",
+            "zij": "geven uit"
+          },
+          "past": {
+            "singular": "gaf uit",
+            "plural": "gaven uit"
+          },
+          "participle": "uitgegeven",
+          "isSeparable": false,
+          "pastParticiple": "uitgegeven"
         }
       },
       "examples": [
@@ -1700,23 +1443,21 @@
       "forms": {
         "verb": {
           "infinitive": "uitrusten",
-          "present": [
-            "rust uit",
-            "rust uit",
-            "rust uit",
-            "rusten uit",
-            "rusten uit",
-            "rusten uit"
-          ],
-          "past": [
-            "rustte uit",
-            "rustte uit",
-            "rustte uit",
-            "rustten uit",
-            "rustten uit",
-            "rustten uit"
-          ],
-          "participle": "uitgerust"
+          "present": {
+            "ik": "rust uit",
+            "jij": "rust uit",
+            "hij": "rust uit",
+            "wij": "rusten uit",
+            "jullie": "rusten uit",
+            "zij": "rusten uit"
+          },
+          "past": {
+            "singular": "rustte uit",
+            "plural": "rustten uit"
+          },
+          "participle": "uitgerust",
+          "isSeparable": false,
+          "pastParticiple": "uitgerust"
         }
       },
       "examples": [
@@ -1788,23 +1529,21 @@
       "forms": {
         "verb": {
           "infinitive": "uitstappen",
-          "present": [
-            "stap uit",
-            "stapt uit",
-            "stapt uit",
-            "stappen uit",
-            "stappen uit",
-            "stappen uit"
-          ],
-          "past": [
-            "stapte uit",
-            "stapte uit",
-            "stapte uit",
-            "stapten uit",
-            "stapten uit",
-            "stapten uit"
-          ],
-          "participle": "uitgestapt"
+          "present": {
+            "ik": "stap uit",
+            "jij": "stapt uit",
+            "hij": "stapt uit",
+            "wij": "stappen uit",
+            "jullie": "stappen uit",
+            "zij": "stappen uit"
+          },
+          "past": {
+            "singular": "stapte uit",
+            "plural": "stapten uit"
+          },
+          "participle": "uitgestapt",
+          "isSeparable": false,
+          "pastParticiple": "uitgestapt"
         }
       },
       "examples": [
@@ -1834,23 +1573,21 @@
       "forms": {
         "verb": {
           "infinitive": "uitvoeren",
-          "present": [
-            "voer uit",
-            "voert uit",
-            "voert uit",
-            "voeren uit",
-            "voeren uit",
-            "voeren uit"
-          ],
-          "past": [
-            "voerde uit",
-            "voerde uit",
-            "voerde uit",
-            "voerden uit",
-            "voerden uit",
-            "voerden uit"
-          ],
-          "participle": "uitgevoerd"
+          "present": {
+            "ik": "voer uit",
+            "jij": "voert uit",
+            "hij": "voert uit",
+            "wij": "voeren uit",
+            "jullie": "voeren uit",
+            "zij": "voeren uit"
+          },
+          "past": {
+            "singular": "voerde uit",
+            "plural": "voerden uit"
+          },
+          "participle": "uitgevoerd",
+          "isSeparable": false,
+          "pastParticiple": "uitgevoerd"
         }
       },
       "examples": [
@@ -1880,23 +1617,21 @@
       "forms": {
         "verb": {
           "infinitive": "uitzoeken",
-          "present": [
-            "zoek uit",
-            "zoekt uit",
-            "zoekt uit",
-            "zoeken uit",
-            "zoeken uit",
-            "zoeken uit"
-          ],
-          "past": [
-            "zocht uit",
-            "zocht uit",
-            "zocht uit",
-            "zochten uit",
-            "zochten uit",
-            "zochten uit"
-          ],
-          "participle": "uitgezocht"
+          "present": {
+            "ik": "zoek uit",
+            "jij": "zoekt uit",
+            "hij": "zoekt uit",
+            "wij": "zoeken uit",
+            "jullie": "zoeken uit",
+            "zij": "zoeken uit"
+          },
+          "past": {
+            "singular": "zocht uit",
+            "plural": "zochten uit"
+          },
+          "participle": "uitgezocht",
+          "isSeparable": false,
+          "pastParticiple": "uitgezocht"
         }
       },
       "examples": [
@@ -1925,23 +1660,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "uniek",
-            "unieke",
-            "uniek",
-            "unieke"
-          ],
-          "definite": [
-            "unieke",
-            "unieke",
-            "unieke",
-            "unieke"
-          ],
-          "comparison": [
-            "unieker",
-            "meest uniek"
-          ],
-          "participle": ""
+          "base": "uniek",
+          "withDe": "unieke",
+          "withHet": "uniek",
+          "comparative": "unieker",
+          "superlative": "meest uniek"
         }
       },
       "examples": [
@@ -2023,6 +1746,220 @@
         "english": [
           "It is extremely important.",
           "I am extremely happy."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1194,
+      "word": "vakkracht",
+      "translation": {
+        "chinese": "专业人员",
+        "english": "professional, specialist"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "vakkracht",
+            "de vakkracht",
+            "de vakkracht",
+            "de vakkracht"
+          ],
+          "plural": [
+            "vakkrachten",
+            "de vakkrachten",
+            "de vakkrachten",
+            "de vakkrachten"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij is een vakkracht.",
+        "We hebben vakkrachten nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是专业人员。",
+          "我们需要专业人员。"
+        ],
+        "english": [
+          "He is a professional.",
+          "We need professionals."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1195,
+      "word": "val",
+      "translation": {
+        "chinese": "瀑布,陷阱,跌落",
+        "english": "waterfall, trap, fall"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "val",
+            "de val",
+            "de val",
+            "de val"
+          ],
+          "plural": [
+            "vallen",
+            "de vallen",
+            "de vallen",
+            "de vallen"
+          ],
+          "gender": "de",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De val is hoog.",
+        "Pas op dat je niet valt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "瀑布很高。",
+          "小心别跌倒。"
+        ],
+        "english": [
+          "The waterfall is high.",
+          "Watch out that you don't fall."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1196,
+      "word": "vaststellen",
+      "translation": {
+        "chinese": "确定,制定",
+        "english": "to determine, to establish"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vaststellen",
+          "present": {
+            "ik": "stel vast",
+            "jij": "stelt vast",
+            "hij": "stelt vast",
+            "wij": "stellen vast",
+            "jullie": "stellen vast",
+            "zij": "stellen vast"
+          },
+          "past": {
+            "singular": "stelde vast",
+            "plural": "stelden vast"
+          },
+          "participle": "vastgesteld",
+          "isSeparable": false,
+          "pastParticiple": "vastgesteld"
+        }
+      },
+      "examples": [
+        "We stellen de datum vast.",
+        "De oorzaak is vastgesteld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们要确定日期。",
+          "原因已经确定。"
+        ],
+        "english": [
+          "We determine the date.",
+          "The cause has been established."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1197,
+      "word": "vat",
+      "translation": {
+        "chinese": "桶,容器",
+        "english": "barrel, container"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "vat",
+            "het vat",
+            "het vat",
+            "het vat"
+          ],
+          "plural": [
+            "vaten",
+            "de vaten",
+            "de vaten",
+            "de vaten"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het vat is leeg.",
+        "Giet het in het vat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "桶是空的。",
+          "把它倒进桶里。"
+        ],
+        "english": [
+          "The barrel is empty.",
+          "Pour it into the barrel."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1198,
+      "word": "vechten",
+      "translation": {
+        "chinese": "战斗,打架",
+        "english": "to fight"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vechten",
+          "present": {
+            "ik": "vecht",
+            "jij": "vecht",
+            "hij": "vecht",
+            "wij": "vechten",
+            "jullie": "vechten",
+            "zij": "vechten"
+          },
+          "past": {
+            "singular": "vocht",
+            "plural": "vochten"
+          },
+          "participle": "gevochten",
+          "isSeparable": false,
+          "pastParticiple": "gevochten"
+        }
+      },
+      "examples": [
+        "Ze vechten voor hun rechten.",
+        "Ik wil niet vechten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他们为权利而战。",
+          "我不想打架。"
+        ],
+        "english": [
+          "They fight for their rights.",
+          "I don't want to fight."
         ]
       },
       "difficulty": "A2"

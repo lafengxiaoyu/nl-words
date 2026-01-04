@@ -231,19 +231,20 @@
         "verb": {
           "infinitive": "eindigen",
           "present": {
-            "singular": [
-              "eindig",
-              "eindigt",
-              "eindigt"
-            ],
-            "plural": "eindigen"
+            "ik": "eindig",
+            "jij": "eindigt",
+            "hij": "eindigt",
+            "wij": "eindigen",
+            "jullie": "eindigen",
+            "zij": "eindigen"
           },
           "past": {
             "singular": "eindigde",
             "plural": "eindigden"
           },
           "pastParticiple": "geëindigd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -369,9 +370,9 @@
         "adjective": {
           "base": "enige",
           "withDe": "enige",
-          "withHet": "enig",
-          "comparative": null,
-          "superlative": null
+          "withHet": "enige",
+          "comparative": "enigeer",
+          "superlative": "enigest"
         }
       },
       "examples": [
@@ -401,10 +402,10 @@
       "forms": {
         "adjective": {
           "base": "enorm",
-          "withDe": "enorme",
+          "withDe": "enorm",
           "withHet": "enorm",
-          "comparative": null,
-          "superlative": null
+          "comparative": "enormer",
+          "superlative": "enormst"
         }
       },
       "examples": [
@@ -499,19 +500,20 @@
         "verb": {
           "infinitive": "eruitzien",
           "present": {
-            "singular": [
-              "zie ik eruit",
-              "zie je eruit",
-              "ziet hij eruit"
-            ],
-            "plural": "zien wij eruit"
+            "ik": "zie ik eruit",
+            "jij": "zie je eruit",
+            "hij": "ziet hij eruit",
+            "wij": "zien wij eruit",
+            "jullie": "zien wij eruit",
+            "zij": "zien wij eruit"
           },
           "past": {
             "singular": "zag ik eruit",
             "plural": "zagen wij eruit"
           },
           "pastParticiple": "eruitgezien",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -543,19 +545,20 @@
         "verb": {
           "infinitive": "ervaren",
           "present": {
-            "singular": [
-              "ervaar",
-              "ervaart",
-              "ervaart"
-            ],
-            "plural": "ervaren"
+            "ik": "ervaar",
+            "jij": "ervaart",
+            "hij": "ervaart",
+            "wij": "ervaren",
+            "jullie": "ervaren",
+            "zij": "ervaren"
           },
           "past": {
             "singular": "ervoer",
             "plural": "ervaren"
           },
           "pastParticiple": "ervaren",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -666,10 +669,10 @@
       "forms": {
         "adjective": {
           "base": "eventueel",
-          "withDe": "eventuele",
+          "withDe": "eventueel",
           "withHet": "eventueel",
-          "comparative": null,
-          "superlative": null
+          "comparative": "eventueeler",
+          "superlative": "eventueelst"
         }
       },
       "examples": [
@@ -732,8 +735,8 @@
           "base": "extra",
           "withDe": "extra",
           "withHet": "extra",
-          "comparative": null,
-          "superlative": null
+          "comparative": "extraer",
+          "superlative": "extrast"
         }
       },
       "examples": [
@@ -828,19 +831,20 @@
         "verb": {
           "infinitive": "feliciteren",
           "present": {
-            "singular": [
-              "feliciteer",
-              "feliciteert",
-              "feliciteert"
-            ],
-            "plural": "feliciteren"
+            "ik": "feliciteer",
+            "jij": "feliciteert",
+            "hij": "feliciteert",
+            "wij": "feliciteren",
+            "jullie": "feliciteren",
+            "zij": "feliciteren"
           },
           "past": {
             "singular": "feliciteerde",
             "plural": "feliciteerden"
           },
           "pastParticiple": "gefeliciteerd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -997,7 +1001,7 @@
         "noun": {
           "article": "het",
           "singular": "gedrag",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -1028,19 +1032,20 @@
         "verb": {
           "infinitive": "gebeuren",
           "present": {
-            "singular": [
-              "gebeur",
-              "gebeurt",
-              "gebeurt"
-            ],
-            "plural": "gebeuren"
+            "ik": "gebeur",
+            "jij": "gebeurt",
+            "hij": "gebeurt",
+            "wij": "gebeuren",
+            "jullie": "gebeuren",
+            "zij": "gebeuren"
           },
           "past": {
             "singular": "gebeurde",
             "plural": "gebeurden"
           },
           "pastParticiple": "gebeurd",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1102,7 +1107,7 @@
         "noun": {
           "article": "het",
           "singular": "gebruik",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -1133,19 +1138,20 @@
         "verb": {
           "infinitive": "gebruiken",
           "present": {
-            "singular": [
-              "gebruik",
-              "gebruikt",
-              "gebruikt"
-            ],
-            "plural": "gebruiken"
+            "ik": "gebruik",
+            "jij": "gebruikt",
+            "hij": "gebruikt",
+            "wij": "gebruiken",
+            "jullie": "gebruiken",
+            "zij": "gebruiken"
           },
           "past": {
             "singular": "gebruikte",
             "plural": "gebruikten"
           },
           "pastParticiple": "gebruikt",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1176,7 +1182,7 @@
         "noun": {
           "article": "het",
           "singular": "geduld",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -1358,19 +1364,20 @@
         "verb": {
           "infinitive": "geloven",
           "present": {
-            "singular": [
-              "geloof",
-              "gelooft",
-              "gelooft"
-            ],
-            "plural": "geloven"
+            "ik": "geloof",
+            "jij": "gelooft",
+            "hij": "gelooft",
+            "wij": "geloven",
+            "jullie": "geloven",
+            "zij": "geloven"
           },
           "past": {
             "singular": "geloofde",
             "plural": "geloofden"
           },
           "pastParticiple": "gelooft",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1462,10 +1469,10 @@
       "forms": {
         "adjective": {
           "base": "gemiddeld",
-          "withDe": "gemiddelde",
+          "withDe": "gemiddeld",
           "withHet": "gemiddeld",
-          "comparative": null,
-          "superlative": null
+          "comparative": "gemiddelder",
+          "superlative": "gemiddeldst"
         }
       },
       "examples": [
@@ -1527,7 +1534,7 @@
         "noun": {
           "article": "het",
           "singular": "gereedschap",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -1592,8 +1599,8 @@
           "base": "gerust",
           "withDe": "gerust",
           "withHet": "gerust",
-          "comparative": null,
-          "superlative": null
+          "comparative": "gerustder",
+          "superlative": "gerustdst"
         }
       },
       "examples": [

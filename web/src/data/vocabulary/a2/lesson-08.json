@@ -146,23 +146,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "openbaar",
-            "openbare",
-            "openbaar",
-            "openbare"
-          ],
-          "definite": [
-            "openbare",
-            "openbare",
-            "openbare",
-            "openbare"
-          ],
-          "comparison": [
-            "-",
-            "-"
-          ],
-          "participle": ""
+          "base": "openbaar",
+          "withDe": "openbare",
+          "withHet": "openbaar",
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [
@@ -319,19 +307,20 @@
         "verb": {
           "infinitive": "opnemen",
           "present": {
-            "singular": [
-              "neem op",
-              "neemt op",
-              "neemt op"
-            ],
-            "plural": "nemen op"
+            "ik": "neem op",
+            "jij": "neemt op",
+            "hij": "neemt op",
+            "wij": "nemen op",
+            "jullie": "nemen op",
+            "zij": "nemen op"
           },
           "past": {
             "singular": "nam op",
             "plural": "namen op"
           },
           "pastParticiple": "opgenomen",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -362,19 +351,20 @@
         "verb": {
           "infinitive": "oppassen",
           "present": {
-            "singular": [
-              "pas op",
-              "past op",
-              "past op"
-            ],
-            "plural": "passen op"
+            "ik": "pas op",
+            "jij": "past op",
+            "hij": "past op",
+            "wij": "passen op",
+            "jullie": "passen op",
+            "zij": "passen op"
           },
           "past": {
             "singular": "passte op",
             "plural": "pasten op"
           },
           "pastParticiple": "opgepast",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -405,19 +395,20 @@
         "verb": {
           "infinitive": "oprichten",
           "present": {
-            "singular": [
-              "richt op",
-              "richt op",
-              "richt op"
-            ],
-            "plural": "richten op"
+            "ik": "richt op",
+            "jij": "richt op",
+            "hij": "richt op",
+            "wij": "richten op",
+            "jullie": "richten op",
+            "zij": "richten op"
           },
           "past": {
             "singular": "richtte op",
             "plural": "richtten op"
           },
           "pastParticiple": "opgericht",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -448,19 +439,20 @@
         "verb": {
           "infinitive": "opruimen",
           "present": {
-            "singular": [
-              "ruim op",
-              "ruimt op",
-              "ruimt op"
-            ],
-            "plural": "ruimen op"
+            "ik": "ruim op",
+            "jij": "ruimt op",
+            "hij": "ruimt op",
+            "wij": "ruimen op",
+            "jullie": "ruimen op",
+            "zij": "ruimen op"
           },
           "past": {
             "singular": "ruimde op",
             "plural": "ruimden op"
           },
           "pastParticiple": "opgeruimd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -533,19 +525,20 @@
         "verb": {
           "infinitive": "opvallen",
           "present": {
-            "singular": [
-              "val op",
-              "valt op",
-              "valt op"
-            ],
-            "plural": "vallen op"
+            "ik": "val op",
+            "jij": "valt op",
+            "hij": "valt op",
+            "wij": "vallen op",
+            "jullie": "vallen op",
+            "zij": "vallen op"
           },
           "past": {
             "singular": "viel op",
             "plural": "vielen op"
           },
           "pastParticiple": "opgevallen",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -618,19 +611,20 @@
         "verb": {
           "infinitive": "opzeggen",
           "present": {
-            "singular": [
-              "zeg op",
-              "zegt op",
-              "zegt op"
-            ],
-            "plural": "zeggen op"
+            "ik": "zeg op",
+            "jij": "zegt op",
+            "hij": "zegt op",
+            "wij": "zeggen op",
+            "jullie": "zeggen op",
+            "zij": "zeggen op"
           },
           "past": {
             "singular": "zegde op",
             "plural": "zegden op"
           },
           "pastParticiple": "opgezegd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -745,19 +739,20 @@
         "verb": {
           "infinitive": "organiseren",
           "present": {
-            "singular": [
-              "organiseer",
-              "organiseert",
-              "organiseert"
-            ],
-            "plural": "organiseren"
+            "ik": "organiseer",
+            "jij": "organiseert",
+            "hij": "organiseert",
+            "wij": "organiseren",
+            "jullie": "organiseren",
+            "zij": "organiseren"
           },
           "past": {
             "singular": "organiseerde",
             "plural": "organiseerden"
           },
           "pastParticiple": "georganiseerd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -984,19 +979,20 @@
         "verb": {
           "infinitive": "overstappen",
           "present": {
-            "singular": [
-              "stap over",
-              "stapt over",
-              "stapt over"
-            ],
-            "plural": "stappen over"
+            "ik": "stap over",
+            "jij": "stapt over",
+            "hij": "stapt over",
+            "wij": "stappen over",
+            "jullie": "stappen over",
+            "zij": "stappen over"
           },
           "past": {
             "singular": "stapte over",
             "plural": "stapten over"
           },
           "pastParticiple": "overgestapt",
-          "pastParticipleAuxiliary": "zijn/hebben"
+          "pastParticipleAuxiliary": "zijn/hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1027,19 +1023,20 @@
         "verb": {
           "infinitive": "overtuigen",
           "present": {
-            "singular": [
-              "overtuig",
-              "overtuigt",
-              "overtuigt"
-            ],
-            "plural": "overtuigen"
+            "ik": "overtuig",
+            "jij": "overtuigt",
+            "hij": "overtuigt",
+            "wij": "overtuigen",
+            "jullie": "overtuigen",
+            "zij": "overtuigen"
           },
           "past": {
             "singular": "overtuigde",
             "plural": "overtuigden"
           },
           "pastParticiple": "overtuigd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1196,19 +1193,20 @@
         "verb": {
           "infinitive": "parkeren",
           "present": {
-            "singular": [
-              "parkeer",
-              "parkeert",
-              "parkeert"
-            ],
-            "plural": "parkeren"
+            "ik": "parkeer",
+            "jij": "parkeert",
+            "hij": "parkeert",
+            "wij": "parkeren",
+            "jullie": "parkeren",
+            "zij": "parkeren"
           },
           "past": {
             "singular": "parkeerde",
             "plural": "parkeerden"
           },
           "pastParticiple": "geparkeerd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1576,23 +1574,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "plat",
-            "platte",
-            "plat",
-            "platte"
-          ],
-          "definite": [
-            "platte",
-            "platte",
-            "platte",
-            "platte"
-          ],
-          "comparison": [
-            "platter",
-            "platst"
-          ],
-          "participle": ""
+          "base": "plat",
+          "withDe": "platte",
+          "withHet": "plat",
+          "comparative": "platter",
+          "superlative": "platst"
         }
       },
       "examples": [
@@ -1789,23 +1775,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "populair",
-            "populaire",
-            "populair",
-            "populaire"
-          ],
-          "definite": [
-            "populaire",
-            "populaire",
-            "populaire",
-            "populaire"
-          ],
-          "comparison": [
-            "populairder",
-            "meest populair"
-          ],
-          "participle": ""
+          "base": "populair",
+          "withDe": "populaire",
+          "withHet": "populair",
+          "comparative": "populairder",
+          "superlative": "meest populair"
         }
       },
       "examples": [

@@ -5,49 +5,6 @@
   "totalWords": 50,
   "words": [
     {
-      "id": 1094,
-      "word": "schilderen",
-      "translation": {
-        "chinese": "画画,油漆",
-        "english": "to paint"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "schilderen",
-          "present": {
-            "singular": [
-              "schilder",
-              "schildert",
-              "schildert"
-            ],
-            "plural": "schilderen"
-          },
-          "past": {
-            "singular": "schilderde",
-            "plural": "schilderden"
-          },
-          "pastParticiple": "geschilderd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Ik schilder een schilderij.",
-        "Schilder de muur."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我画画。",
-          "粉刷墙壁。"
-        ],
-        "english": [
-          "I paint a painting.",
-          "Paint the wall."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
       "id": 1095,
       "word": "schoon",
       "translation": {
@@ -57,23 +14,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "schoon",
-            "schone",
-            "schoon",
-            "schone"
-          ],
-          "definite": [
-            "schone",
-            "schone",
-            "schone",
-            "schone"
-          ],
-          "comparison": [
-            "schoner",
-            "schoonst"
-          ],
-          "participle": ""
+          "base": "schoon",
+          "withDe": "schone",
+          "withHet": "schoon",
+          "comparative": "schoner",
+          "superlative": "schoonst"
         }
       },
       "examples": [
@@ -104,19 +49,20 @@
         "verb": {
           "infinitive": "schoonmaken",
           "present": {
-            "singular": [
-              "maak schoon",
-              "maakt schoon",
-              "maakt schoon"
-            ],
-            "plural": "maken schoon"
+            "ik": "maak schoon",
+            "jij": "maakt schoon",
+            "hij": "maakt schoon",
+            "wij": "maken schoon",
+            "jullie": "maken schoon",
+            "zij": "maken schoon"
           },
           "past": {
             "singular": "maakte schoon",
             "plural": "maakten schoon"
           },
           "pastParticiple": "schoongemaakt",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -147,19 +93,20 @@
         "verb": {
           "infinitive": "schreeuwen",
           "present": {
-            "singular": [
-              "schreeuw",
-              "schreeuwt",
-              "schreeuwt"
-            ],
-            "plural": "schreeuwen"
+            "ik": "schreeuw",
+            "jij": "schreeuwt",
+            "hij": "schreeuwt",
+            "wij": "schreeuwen",
+            "jullie": "schreeuwen",
+            "zij": "schreeuwen"
           },
           "past": {
             "singular": "schreeuwde",
             "plural": "schreeuwden"
           },
           "pastParticiple": "geschreeuwd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -190,15 +137,20 @@
         "verb": {
           "infinitive": "schrikken",
           "present": {
-            "singular": "schrik",
-            "plural": "schrikken"
+            "ik": "schrik",
+            "jij": "schrikt",
+            "hij": "schrikt",
+            "wij": "schrikken",
+            "jullie": "schrikken",
+            "zij": "schrikken"
           },
           "past": {
             "singular": "schrok",
             "plural": "schrokken"
           },
           "pastParticiple": "geschrokken",
-          "pastParticipleAuxiliary": "zijn/hebben"
+          "pastParticipleAuxiliary": "zijn/hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -269,23 +221,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "serieus",
-            "serieuze",
-            "serieus",
-            "serieuze"
-          ],
-          "definite": [
-            "serieuze",
-            "serieuze",
-            "serieuze",
-            "serieuze"
-          ],
-          "comparison": [
-            "seriuzer",
-            "meest serieus"
-          ],
-          "participle": ""
+          "base": "serieus",
+          "withDe": "serieuze",
+          "withHet": "serieus",
+          "comparative": "seriuzer",
+          "superlative": "meest serieus"
         }
       },
       "examples": [
@@ -400,15 +340,20 @@
         "verb": {
           "infinitive": "slagen",
           "present": {
-            "singular": "slag",
-            "plural": "slagen"
+            "ik": "slag",
+            "jij": "slagt",
+            "hij": "slagt",
+            "wij": "slagen",
+            "jullie": "slagen",
+            "zij": "slagen"
           },
           "past": {
             "singular": "sloeg",
             "plural": "slogen"
           },
           "pastParticiple": "geslaagd",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -437,23 +382,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "slank",
-            "slanke",
-            "slank",
-            "slanke"
-          ],
-          "definite": [
-            "slanke",
-            "slanke",
-            "slanke",
-            "slanke"
-          ],
-          "comparison": [
-            "slanker",
-            "slankst"
-          ],
-          "participle": ""
+          "base": "slank",
+          "withDe": "slanke",
+          "withHet": "slank",
+          "comparative": "slanker",
+          "superlative": "slankst"
         }
       },
       "examples": [
@@ -482,23 +415,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "slim",
-            "slimme",
-            "slim",
-            "slimme"
-          ],
-          "definite": [
-            "slimme",
-            "slimme",
-            "slimme",
-            "slimme"
-          ],
-          "comparison": [
-            "slimmer",
-            "slimst"
-          ],
-          "participle": ""
+          "base": "slim",
+          "withDe": "slimme",
+          "withHet": "slim",
+          "comparative": "slimmer",
+          "superlative": "slimst"
         }
       },
       "examples": [
@@ -571,19 +492,20 @@
         "verb": {
           "infinitive": "sluiten",
           "present": {
-            "singular": [
-              "sluit",
-              "sluit",
-              "sluit"
-            ],
-            "plural": "sluiten"
+            "ik": "sluit",
+            "jij": "sluit",
+            "hij": "sluit",
+            "wij": "sluiten",
+            "jullie": "sluiten",
+            "zij": "sluiten"
           },
           "past": {
             "singular": "sloot",
             "plural": "sloten"
           },
           "pastParticiple": "gesloten",
-          "pastParticipleAuxiliary": "zijn/hebben"
+          "pastParticipleAuxiliary": "zijn/hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -654,23 +576,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "smal",
-            "smalle",
-            "smal",
-            "smalle"
-          ],
-          "definite": [
-            "smalle",
-            "smalle",
-            "smalle",
-            "smalle"
-          ],
-          "comparison": [
-            "smaller",
-            "smalst"
-          ],
-          "participle": ""
+          "base": "smal",
+          "withDe": "smalle",
+          "withHet": "smal",
+          "comparative": "smaller",
+          "superlative": "smalst"
         }
       },
       "examples": [
@@ -743,15 +653,20 @@
         "verb": {
           "infinitive": "solliciteren",
           "present": {
-            "singular": "solliciteer",
-            "plural": "solliciteren"
+            "ik": "solliciteer",
+            "jij": "solliciteert",
+            "hij": "solliciteert",
+            "wij": "solliciteren",
+            "jullie": "solliciteren",
+            "zij": "solliciteren"
           },
           "past": {
             "singular": "solliciteerde",
             "plural": "solliciteerden"
           },
           "pastParticiple": "gesolliciteerd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -992,19 +907,20 @@
         "verb": {
           "infinitive": "splitsen",
           "present": {
-            "singular": [
-              "splits",
-              "splitst",
-              "splitst"
-            ],
-            "plural": "splitsen"
+            "ik": "splits",
+            "jij": "splitst",
+            "hij": "splitst",
+            "wij": "splitsen",
+            "jullie": "splitsen",
+            "zij": "splitsen"
           },
           "past": {
             "singular": "splitste",
             "plural": "splitsten"
           },
           "pastParticiple": "gesplitst",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1019,48 +935,6 @@
         "english": [
           "Split the problem.",
           "They split the group."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
-      "id": 1118,
-      "word": "stad",
-      "translation": {
-        "chinese": "城市",
-        "english": "city"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": [
-            "stad",
-            "stad",
-            "de stad",
-            "de stad"
-          ],
-          "plural": [
-            "steden",
-            "steden",
-            "de steden",
-            "de steden"
-          ],
-          "gender": "de",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "De stad is groot.",
-        "Ik woon in een kleine stad."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "城市很大。",
-          "我住在一个小城市。"
-        ],
-        "english": [
-          "The city is large.",
-          "I live in a small city."
         ]
       },
       "difficulty": "A2"
@@ -1291,19 +1165,20 @@
         "verb": {
           "infinitive": "starten",
           "present": {
-            "singular": [
-              "start",
-              "start",
-              "start"
-            ],
-            "plural": "starten"
+            "ik": "start",
+            "jij": "start",
+            "hij": "start",
+            "wij": "starten",
+            "jullie": "starten",
+            "zij": "starten"
           },
           "past": {
             "singular": "startte",
             "plural": "startten"
           },
           "pastParticiple": "gestart",
-          "pastParticipleAuxiliary": "zijn/hebben"
+          "pastParticipleAuxiliary": "zijn/hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1401,19 +1276,20 @@
         "verb": {
           "infinitive": "stelen",
           "present": {
-            "singular": [
-              "steel",
-              "steelt",
-              "steelt"
-            ],
-            "plural": "stelen"
+            "ik": "steel",
+            "jij": "steelt",
+            "hij": "steelt",
+            "wij": "stelen",
+            "jullie": "stelen",
+            "zij": "stelen"
           },
           "past": {
             "singular": "stal",
             "plural": "stalen"
           },
           "pastParticiple": "gestolen",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1490,19 +1366,20 @@
         "verb": {
           "infinitive": "stemmen",
           "present": {
-            "singular": [
-              "stem",
-              "stemt",
-              "stemt"
-            ],
-            "plural": "stemmen"
+            "ik": "stem",
+            "jij": "stemt",
+            "hij": "stemt",
+            "wij": "stemmen",
+            "jullie": "stemmen",
+            "zij": "stemmen"
           },
           "past": {
             "singular": "stemde",
             "plural": "stemden"
           },
           "pastParticiple": "gestemd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1573,23 +1450,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "sterk",
-            "sterke",
-            "sterk",
-            "sterke"
-          ],
-          "definite": [
-            "sterke",
-            "sterke",
-            "sterke",
-            "sterke"
-          ],
-          "comparison": [
-            "sterker",
-            "starkst"
-          ],
-          "participle": ""
+          "base": "sterk",
+          "withDe": "sterke",
+          "withHet": "sterk",
+          "comparative": "sterker",
+          "superlative": "starkst"
         }
       },
       "examples": [
@@ -1708,19 +1573,20 @@
         "verb": {
           "infinitive": "stijgen",
           "present": {
-            "singular": [
-              "stijg",
-              "stijgt",
-              "stijgt"
-            ],
-            "plural": "stijgen"
+            "ik": "stijg",
+            "jij": "stijgt",
+            "hij": "stijgt",
+            "wij": "stijgen",
+            "jullie": "stijgen",
+            "zij": "stijgen"
           },
           "past": {
             "singular": "steeg",
             "plural": "stegen"
           },
           "pastParticiple": "gestegen",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1749,23 +1615,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "stijl",
-            "stille",
-            "stijl",
-            "stille"
-          ],
-          "definite": [
-            "stille",
-            "stille",
-            "stille",
-            "stille"
-          ],
-          "comparison": [
-            "stiller",
-            "stilst"
-          ],
-          "participle": ""
+          "base": "stijl",
+          "withDe": "stille",
+          "withHet": "stijl",
+          "comparative": "stiller",
+          "superlative": "stilst"
         }
       },
       "examples": [
@@ -1962,23 +1816,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "streng",
-            "strenge",
-            "streng",
-            "strenge"
-          ],
-          "definite": [
-            "strenge",
-            "strenge",
-            "strenge",
-            "strenge"
-          ],
-          "comparison": [
-            "strenger",
-            "strenst"
-          ],
-          "participle": ""
+          "base": "streng",
+          "withDe": "strenge",
+          "withHet": "streng",
+          "comparative": "strenger",
+          "superlative": "strenst"
         }
       },
       "examples": [
@@ -2093,19 +1935,20 @@
         "verb": {
           "infinitive": "struikelen",
           "present": {
-            "singular": [
-              "struikel",
-              "struikelt",
-              "struikelt"
-            ],
-            "plural": "struikelen"
+            "ik": "struikel",
+            "jij": "struikelt",
+            "hij": "struikelt",
+            "wij": "struikelen",
+            "jullie": "struikelen",
+            "zij": "struikelen"
           },
           "past": {
             "singular": "struikelde",
             "plural": "struikelden"
           },
           "pastParticiple": "gestruikeld",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -2120,6 +1963,93 @@
         "english": [
           "I stumble over the stone.",
           "Watch out that you don't stumble."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1144,
+      "word": "stuk",
+      "translation": {
+        "chinese": "块,碎片",
+        "english": "piece, broken"
+      },
+      "partOfSpeech": [
+        "noun",
+        "adjective"
+      ],
+      "forms": {
+        "noun": {
+          "singular": [
+            "stuk",
+            "stuk",
+            "het stuk",
+            "het stuk"
+          ],
+          "plural": [
+            "stukken",
+            "stukken",
+            "de stukken",
+            "de stukken"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Een stuk cake.",
+        "Het glas is stuk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一块蛋糕。",
+          "玻璃碎了。"
+        ],
+        "english": [
+          "A piece of cake.",
+          "The glass is broken."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1145,
+      "word": "systeem",
+      "translation": {
+        "chinese": "系统",
+        "english": "system"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": [
+            "systeem",
+            "systeem",
+            "het systeem",
+            "het systeem"
+          ],
+          "plural": [
+            "systemen",
+            "systemen",
+            "de systemen",
+            "de systemen"
+          ],
+          "gender": "het",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het systeem werkt goed.",
+        "Wij hebben een nieuw systeem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "系统运行良好。",
+          "我们有一个新系统。"
+        ],
+        "english": [
+          "The system works well.",
+          "We have a new system."
         ]
       },
       "difficulty": "A2"

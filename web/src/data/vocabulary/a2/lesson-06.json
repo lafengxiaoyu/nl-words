@@ -47,19 +47,20 @@
         "verb": {
           "infinitive": "lenen",
           "present": {
-            "singular": [
-              "leen",
-              "leent",
-              "leent"
-            ],
-            "plural": "lenen"
+            "ik": "leen",
+            "jij": "leent",
+            "hij": "leent",
+            "wij": "lenen",
+            "jullie": "lenen",
+            "zij": "lenen"
           },
           "past": {
             "singular": "leende",
             "plural": "leenden"
           },
           "pastParticiple": "geleend",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -121,19 +122,20 @@
         "verb": {
           "infinitive": "letten",
           "present": {
-            "singular": [
-              "let",
-              "let",
-              "let"
-            ],
-            "plural": "letten"
+            "ik": "let",
+            "jij": "let",
+            "hij": "let",
+            "wij": "letten",
+            "jullie": "letten",
+            "zij": "letten"
           },
           "past": {
             "singular": "lette",
             "plural": "letten"
           },
           "pastParticiple": "gelet",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -164,19 +166,20 @@
         "verb": {
           "infinitive": "leveren",
           "present": {
-            "singular": [
-              "leef",
-              "levert",
-              "levert"
-            ],
-            "plural": "leveren"
+            "ik": "leef",
+            "jij": "levert",
+            "hij": "levert",
+            "wij": "leveren",
+            "jullie": "leveren",
+            "zij": "leveren"
           },
           "past": {
             "singular": "leverde",
             "plural": "leefden"
           },
           "pastParticiple": "geleverd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -300,19 +303,20 @@
         "verb": {
           "infinitive": "lijken",
           "present": {
-            "singular": [
-              "lijk",
-              "lijkt",
-              "lijkt"
-            ],
-            "plural": "lijken"
+            "ik": "lijk",
+            "jij": "lijkt",
+            "hij": "lijkt",
+            "wij": "lijken",
+            "jullie": "lijken",
+            "zij": "lijken"
           },
           "past": {
             "singular": "leek",
             "plural": "leken"
           },
           "pastParticiple": "geleken",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -341,23 +345,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "logisch",
-            "logische",
-            "logisch",
-            "logische"
-          ],
-          "definite": [
-            "logische",
-            "logische",
-            "logische",
-            "logische"
-          ],
-          "comparison": [
-            "logischer",
-            "meest logisch"
-          ],
-          "participle": ""
+          "base": "logisch",
+          "withDe": "logische",
+          "withHet": "logisch",
+          "comparative": "logischer",
+          "superlative": "meest logisch"
         }
       },
       "examples": [
@@ -812,23 +804,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "maximaal",
-            "maximale",
-            "maximaal",
-            "maximale"
-          ],
-          "definite": [
-            "maximale",
-            "maximale",
-            "maximale",
-            "maximale"
-          ],
-          "comparison": [
-            "-",
-            "-"
-          ],
-          "participle": ""
+          "base": "maximaal",
+          "withDe": "maximale",
+          "withHet": "maximaal",
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [
@@ -859,19 +839,20 @@
         "verb": {
           "infinitive": "meedoen",
           "present": {
-            "singular": [
-              "doe mee",
-              "doet mee",
-              "doet mee"
-            ],
-            "plural": "doen mee"
+            "ik": "doe mee",
+            "jij": "doet mee",
+            "hij": "doet mee",
+            "wij": "doen mee",
+            "jullie": "doen mee",
+            "zij": "doen mee"
           },
           "past": {
             "singular": "deed mee",
             "plural": "deden mee"
           },
           "pastParticiple": "mee gedaan",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -902,19 +883,20 @@
         "verb": {
           "infinitive": "meemaken",
           "present": {
-            "singular": [
-              "maak mee",
-              "maakt mee",
-              "maakt mee"
-            ],
-            "plural": "maken mee"
+            "ik": "maak mee",
+            "jij": "maakt mee",
+            "hij": "maakt mee",
+            "wij": "maken mee",
+            "jullie": "maken mee",
+            "zij": "maken mee"
           },
           "past": {
             "singular": "maakte mee",
             "plural": "maakten mee"
           },
           "pastParticiple": "mee gemaakt",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -970,19 +952,20 @@
         "verb": {
           "infinitive": "meevallen",
           "present": {
-            "singular": [
-              "valt mee",
-              "valt mee",
-              "valt mee"
-            ],
-            "plural": "vallen mee"
+            "ik": "valt mee",
+            "jij": "valt mee",
+            "hij": "valt mee",
+            "wij": "vallen mee",
+            "jullie": "vallen mee",
+            "zij": "vallen mee"
           },
           "past": {
             "singular": "viel mee",
             "plural": "vielen mee"
           },
           "pastParticiple": "meegevallen",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1419,23 +1402,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "minimaal",
-            "minimale",
-            "minimaal",
-            "minimale"
-          ],
-          "definite": [
-            "minimale",
-            "minimale",
-            "minimale",
-            "minimale"
-          ],
-          "comparison": [
-            "-",
-            "-"
-          ],
-          "participle": ""
+          "base": "minimaal",
+          "withDe": "minimale",
+          "withHet": "minimaal",
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [
@@ -1550,19 +1521,20 @@
         "verb": {
           "infinitive": "missen",
           "present": {
-            "singular": [
-              "mis",
-              "mist",
-              "mist"
-            ],
-            "plural": "missen"
+            "ik": "mis",
+            "jij": "mist",
+            "hij": "mist",
+            "wij": "missen",
+            "jullie": "missen",
+            "zij": "missen"
           },
           "past": {
             "singular": "miste",
             "plural": "misten"
           },
           "pastParticiple": "gemist",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1616,23 +1588,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "modern",
-            "moderne",
-            "modern",
-            "moderne"
-          ],
-          "definite": [
-            "moderne",
-            "moderne",
-            "moderne",
-            "moderne"
-          ],
-          "comparison": [
-            "moderner",
-            "meest modern"
-          ],
-          "participle": ""
+          "base": "modern",
+          "withDe": "moderne",
+          "withHet": "modern",
+          "comparative": "moderner",
+          "superlative": "meest modern"
         }
       },
       "examples": [
@@ -1703,23 +1663,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "moeizaam",
-            "moeizame",
-            "moeizaam",
-            "moeizame"
-          ],
-          "definite": [
-            "moeizame",
-            "moeizame",
-            "moeizame",
-            "moeizame"
-          ],
-          "comparison": [
-            "moeizamer",
-            "meest moeizaam"
-          ],
-          "participle": ""
+          "base": "moeizaam",
+          "withDe": "moeizame",
+          "withHet": "moeizaam",
+          "comparative": "moeizamer",
+          "superlative": "meest moeizaam"
         }
       },
       "examples": [
@@ -1958,23 +1906,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "naakt",
-            "naakte",
-            "naakt",
-            "naakte"
-          ],
-          "definite": [
-            "naakte",
-            "naakte",
-            "naakte",
-            "naakte"
-          ],
-          "comparison": [
-            "nakker",
-            "meest naakt"
-          ],
-          "participle": ""
+          "base": "naakt",
+          "withDe": "naakte",
+          "withHet": "naakt",
+          "comparative": "nakker",
+          "superlative": "meest naakt"
         }
       },
       "examples": [

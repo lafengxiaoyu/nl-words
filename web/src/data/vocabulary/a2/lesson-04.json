@@ -15,10 +15,10 @@
       "forms": {
         "adjective": {
           "base": "geschikt",
-          "withDe": "geschikte",
+          "withDe": "geschikt",
           "withHet": "geschikt",
-          "comparative": null,
-          "superlative": null
+          "comparative": "geschikter",
+          "superlative": "geschiktst"
         }
       },
       "examples": [
@@ -205,10 +205,10 @@
       "forms": {
         "adjective": {
           "base": "gewoon",
-          "withDe": "gewone",
+          "withDe": "gewoon",
           "withHet": "gewoon",
-          "comparative": null,
-          "superlative": null
+          "comparative": "gewooner",
+          "superlative": "gewoonst"
         }
       },
       "examples": [
@@ -239,7 +239,7 @@
         "noun": {
           "article": "de",
           "singular": "gezondheid",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -269,10 +269,10 @@
       "forms": {
         "adjective": {
           "base": "gezocht",
-          "withDe": "gezochte",
+          "withDe": "gezocht",
           "withHet": "gezocht",
-          "comparative": null,
-          "superlative": null
+          "comparative": "gezochter",
+          "superlative": "gezochtst"
         }
       },
       "examples": [
@@ -398,7 +398,7 @@
         "noun": {
           "article": "het",
           "singular": "gras",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -460,7 +460,7 @@
         "noun": {
           "article": "de",
           "singular": "griep",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -491,19 +491,20 @@
         "verb": {
           "infinitive": "groeien",
           "present": {
-            "singular": [
-              "groe",
-              "groeit",
-              "groeit"
-            ],
-            "plural": "groeien"
+            "ik": "groe",
+            "jij": "groeit",
+            "hij": "groeit",
+            "wij": "groeien",
+            "jullie": "groeien",
+            "zij": "groeien"
           },
           "past": {
             "singular": "groeide",
             "plural": "groeiden"
           },
           "pastParticiple": "gegroeid",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -565,19 +566,20 @@
         "verb": {
           "infinitive": "groeten",
           "present": {
-            "singular": [
-              "groet",
-              "groet",
-              "groet"
-            ],
-            "plural": "groeten"
+            "ik": "groet",
+            "jij": "groet",
+            "hij": "groet",
+            "wij": "groeten",
+            "jullie": "groeten",
+            "zij": "groeten"
           },
           "past": {
             "singular": "groette",
             "plural": "groetten"
           },
           "pastParticiple": "gegroet",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -639,19 +641,20 @@
         "verb": {
           "infinitive": "haasten",
           "present": {
-            "singular": [
-              "haast",
-              "haast",
-              "haast"
-            ],
-            "plural": "haasten"
+            "ik": "haast",
+            "jij": "haast",
+            "hij": "haast",
+            "wij": "haasten",
+            "jullie": "haasten",
+            "zij": "haasten"
           },
           "past": {
             "singular": "haastte",
             "plural": "haastten"
           },
           "pastParticiple": "gehaast",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -682,19 +685,20 @@
         "verb": {
           "infinitive": "halen",
           "present": {
-            "singular": [
-              "haal",
-              "haalt",
-              "haalt"
-            ],
-            "plural": "halen"
+            "ik": "haal",
+            "jij": "haalt",
+            "hij": "haalt",
+            "wij": "halen",
+            "jullie": "halen",
+            "zij": "halen"
           },
           "past": {
             "singular": "haalde",
             "plural": "haalden"
           },
           "pastParticiple": "gehaald",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -935,19 +939,20 @@
         "verb": {
           "infinitive": "herhalen",
           "present": {
-            "singular": [
-              "herhaal",
-              "herhaalt",
-              "herhaalt"
-            ],
-            "plural": "herhalen"
+            "ik": "herhaal",
+            "jij": "herhaalt",
+            "hij": "herhaalt",
+            "wij": "herhalen",
+            "jullie": "herhalen",
+            "zij": "herhalen"
           },
           "past": {
             "singular": "herhaalde",
             "plural": "herhaalden"
           },
           "pastParticiple": "herhaald",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -978,19 +983,20 @@
         "verb": {
           "infinitive": "herinneren",
           "present": {
-            "singular": [
-              "herinner",
-              "herinnert",
-              "herinnert"
-            ],
-            "plural": "herinneren"
+            "ik": "herinner",
+            "jij": "herinnert",
+            "hij": "herinnert",
+            "wij": "herinneren",
+            "jullie": "herinneren",
+            "zij": "herinneren"
           },
           "past": {
             "singular": "herinnerde",
             "plural": "herinnerden"
           },
           "pastParticiple": "herinnerd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1021,19 +1027,20 @@
         "verb": {
           "infinitive": "herkennen",
           "present": {
-            "singular": [
-              "herken",
-              "herkent",
-              "herkent"
-            ],
-            "plural": "herkennen"
+            "ik": "herken",
+            "jij": "herkent",
+            "hij": "herkent",
+            "wij": "herkennen",
+            "jullie": "herkennen",
+            "zij": "herkennen"
           },
           "past": {
             "singular": "herkende",
             "plural": "herkenden"
           },
           "pastParticiple": "herkend",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1064,19 +1071,20 @@
         "verb": {
           "infinitive": "herstellen",
           "present": {
-            "singular": [
-              "herstel",
-              "herstelt",
-              "herstelt"
-            ],
-            "plural": "herstellen"
+            "ik": "herstel",
+            "jij": "herstelt",
+            "hij": "herstelt",
+            "wij": "herstellen",
+            "jullie": "herstellen",
+            "zij": "herstellen"
           },
           "past": {
             "singular": "herstelde",
             "plural": "herstelden"
           },
           "pastParticiple": "hersteld",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1107,19 +1115,20 @@
         "verb": {
           "infinitive": "hervatten",
           "present": {
-            "singular": [
-              "hervat",
-              "hervat",
-              "hervat"
-            ],
-            "plural": "hervatten"
+            "ik": "hervat",
+            "jij": "hervat",
+            "hij": "hervat",
+            "wij": "hervatten",
+            "jullie": "hervatten",
+            "zij": "hervatten"
           },
           "past": {
             "singular": "hervatte",
             "plural": "hervatten"
           },
           "pastParticiple": "hervat",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1212,19 +1221,20 @@
         "verb": {
           "infinitive": "hoeven",
           "present": {
-            "singular": [
-              "hoef",
-              "hoeft",
-              "hoeft"
-            ],
-            "plural": "hoeven"
+            "ik": "hoef",
+            "jij": "hoeft",
+            "hij": "hoeft",
+            "wij": "hoeven",
+            "jullie": "hoeven",
+            "zij": "hoeven"
           },
           "past": {
             "singular": "hoefde",
             "plural": "hoefden"
           },
           "pastParticiple": "gehoeven",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1255,19 +1265,20 @@
         "verb": {
           "infinitive": "hopen",
           "present": {
-            "singular": [
-              "hoop",
-              "hoopt",
-              "hoopt"
-            ],
-            "plural": "hopen"
+            "ik": "hoop",
+            "jij": "hoopt",
+            "hij": "hoopt",
+            "wij": "hopen",
+            "jullie": "hopen",
+            "zij": "hopen"
           },
           "past": {
             "singular": "hoopte",
             "plural": "hoopten"
           },
           "pastParticiple": "gehoopt",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1329,7 +1340,7 @@
         "noun": {
           "article": "de",
           "singular": "hoofdpijn",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -1422,19 +1433,20 @@
         "verb": {
           "infinitive": "huilen",
           "present": {
-            "singular": [
-              "huil",
-              "huilt",
-              "huilt"
-            ],
-            "plural": "huilen"
+            "ik": "huil",
+            "jij": "huilt",
+            "hij": "huilt",
+            "wij": "huilen",
+            "jullie": "huilen",
+            "zij": "huilen"
           },
           "past": {
             "singular": "huilde",
             "plural": "huilden"
           },
           "pastParticiple": "gehuiled",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1527,7 +1539,7 @@
         "noun": {
           "article": "de",
           "singular": "hulp",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -1558,7 +1570,7 @@
         "noun": {
           "article": "de",
           "singular": "hygiëne",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -1587,11 +1599,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "base": "ideaal",
+          "base": "ideale",
           "withDe": "ideale",
-          "withHet": "ideaal",
-          "comparative": null,
-          "superlative": null
+          "withHet": "ideale",
+          "comparative": "idealeer",
+          "superlative": "idealest"
         }
       },
       "examples": [
@@ -1678,7 +1690,7 @@
         "noun": {
           "article": "de",
           "singular": "immigratie",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [

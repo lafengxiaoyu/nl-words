@@ -58,19 +58,20 @@
         "verb": {
           "infinitive": "proeven",
           "present": {
-            "singular": [
-              "proef",
-              "proeft",
-              "proeft"
-            ],
-            "plural": "proeven"
+            "ik": "proef",
+            "jij": "proeft",
+            "hij": "proeft",
+            "wij": "proeven",
+            "jullie": "proeven",
+            "zij": "proeven"
           },
           "past": {
             "singular": "proefde",
             "plural": "proefden"
           },
           "pastParticiple": "geproefd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -440,19 +441,20 @@
         "verb": {
           "infinitive": "raken",
           "present": {
-            "singular": [
-              "raak",
-              "raakt",
-              "raakt"
-            ],
-            "plural": "raken"
+            "ik": "raak",
+            "jij": "raakt",
+            "hij": "raakt",
+            "wij": "raken",
+            "jullie": "raken",
+            "zij": "raken"
           },
           "past": {
             "singular": "raakte",
             "plural": "raakten"
           },
           "pastParticiple": "geraakt",
-          "pastParticipleAuxiliary": "zijn/hebben"
+          "pastParticipleAuxiliary": "zijn/hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -567,19 +569,20 @@
         "verb": {
           "infinitive": "reageren",
           "present": {
-            "singular": [
-              "reageer",
-              "reageert",
-              "reageert"
-            ],
-            "plural": "reageren"
+            "ik": "reageer",
+            "jij": "reageert",
+            "hij": "reageert",
+            "wij": "reageren",
+            "jullie": "reageren",
+            "zij": "reageren"
           },
           "past": {
             "singular": "reageerde",
             "plural": "reageerden"
           },
           "pastParticiple": "gereageerd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -806,15 +809,20 @@
         "verb": {
           "infinitive": "regelen",
           "present": {
-            "singular": "regel",
-            "plural": "regelen"
+            "ik": "regel",
+            "jij": "regelt",
+            "hij": "regelt",
+            "wij": "regelen",
+            "jullie": "regelen",
+            "zij": "regelen"
           },
           "past": {
             "singular": "regelde",
             "plural": "regelden"
           },
           "pastParticiple": "geregeld",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -929,15 +937,20 @@
         "verb": {
           "infinitive": "rekenen",
           "present": {
-            "singular": "reken",
-            "plural": "rekenen"
+            "ik": "reken",
+            "jij": "rekent",
+            "hij": "rekent",
+            "wij": "rekenen",
+            "jullie": "rekenen",
+            "zij": "rekenen"
           },
           "past": {
             "singular": "rekende",
             "plural": "rekenden"
           },
           "pastParticiple": "gerekend",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1178,19 +1191,20 @@
         "verb": {
           "infinitive": "repareren",
           "present": {
-            "singular": [
-              "repareer",
-              "repareert",
-              "repareert"
-            ],
-            "plural": "repareren"
+            "ik": "repareer",
+            "jij": "repareert",
+            "hij": "repareert",
+            "wij": "repareren",
+            "jullie": "repareren",
+            "zij": "repareren"
           },
           "past": {
             "singular": "repareerde",
             "plural": "repareerden"
           },
           "pastParticiple": "gerepareerd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1683,19 +1697,20 @@
         "verb": {
           "infinitive": "ruilen",
           "present": {
-            "singular": [
-              "ruil",
-              "ruilt",
-              "ruilt"
-            ],
-            "plural": "ruilen"
+            "ik": "ruil",
+            "jij": "ruilt",
+            "hij": "ruilt",
+            "wij": "ruilen",
+            "jullie": "ruilen",
+            "zij": "ruilen"
           },
           "past": {
             "singular": "ruilde",
             "plural": "ruilden"
           },
           "pastParticiple": "geruild",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1768,19 +1783,20 @@
         "verb": {
           "infinitive": "rusten",
           "present": {
-            "singular": [
-              "rust",
-              "rust",
-              "rust"
-            ],
-            "plural": "rusten"
+            "ik": "rust",
+            "jij": "rust",
+            "hij": "rust",
+            "wij": "rusten",
+            "jullie": "rusten",
+            "zij": "rusten"
           },
           "past": {
             "singular": "rustte",
             "plural": "rustten"
           },
           "pastParticiple": "gerust",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1951,48 +1967,6 @@
       "difficulty": "A2"
     },
     {
-      "id": 1091,
-      "word": "samenwerking",
-      "translation": {
-        "chinese": "合作",
-        "english": "cooperation"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": [
-            "samenwerking",
-            "samenwerking",
-            "de samenwerking",
-            "de samenwerking"
-          ],
-          "plural": [
-            "-",
-            "-",
-            "-",
-            "-"
-          ],
-          "gender": "de",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Goede samenwerking.",
-        "Wij hebben goede samenwerking."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "良好的合作。",
-          "我们合作良好。"
-        ],
-        "english": [
-          "Good cooperation.",
-          "We have good cooperation."
-        ]
-      },
-      "difficulty": "A2"
-    },
-    {
       "id": 1092,
       "word": "schema",
       "translation": {
@@ -2046,19 +2020,20 @@
         "verb": {
           "infinitive": "scheiden",
           "present": {
-            "singular": [
-              "scheid",
-              "scheidt",
-              "scheidt"
-            ],
-            "plural": "scheiden"
+            "ik": "scheid",
+            "jij": "scheidt",
+            "hij": "scheidt",
+            "wij": "scheiden",
+            "jullie": "scheiden",
+            "zij": "scheiden"
           },
           "past": {
             "singular": "scheidde",
             "plural": "scheidden"
           },
           "pastParticiple": "gescheiden",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -2073,6 +2048,50 @@
         "english": [
           "They want to divorce.",
           "Separate the eggs."
+        ]
+      },
+      "difficulty": "A2"
+    },
+    {
+      "id": 1094,
+      "word": "schilderen",
+      "translation": {
+        "chinese": "画画,油漆",
+        "english": "to paint"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "schilderen",
+          "present": {
+            "ik": "schilder",
+            "jij": "schildert",
+            "hij": "schildert",
+            "wij": "schilderen",
+            "jullie": "schilderen",
+            "zij": "schilderen"
+          },
+          "past": {
+            "singular": "schilderde",
+            "plural": "schilderden"
+          },
+          "pastParticiple": "geschilderd",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
+        }
+      },
+      "examples": [
+        "Ik schilder een schilderij.",
+        "Schilder de muur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我画画。",
+          "粉刷墙壁。"
+        ],
+        "english": [
+          "I paint a painting.",
+          "Paint the wall."
         ]
       },
       "difficulty": "A2"

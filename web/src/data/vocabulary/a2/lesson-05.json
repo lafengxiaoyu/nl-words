@@ -47,7 +47,7 @@
         "noun": {
           "article": "de",
           "singular": "informatie",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -142,7 +142,7 @@
         "noun": {
           "article": "de",
           "singular": "inhoud",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -260,19 +260,20 @@
         "verb": {
           "infinitive": "inschrijven",
           "present": {
-            "singular": [
-              "schrijf in",
-              "schrijft in",
-              "schrijft in"
-            ],
-            "plural": "schrijven in"
+            "ik": "schrijf in",
+            "jij": "schrijft in",
+            "hij": "schrijft in",
+            "wij": "schrijven in",
+            "jullie": "schrijven in",
+            "zij": "schrijven in"
           },
           "past": {
             "singular": "schreef in",
             "plural": "schreven in"
           },
           "pastParticiple": "ingeschreven",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -484,19 +485,20 @@
         "verb": {
           "infinitive": "invullen",
           "present": {
-            "singular": [
-              "vul in",
-              "vult in",
-              "vult in"
-            ],
-            "plural": "vullen in"
+            "ik": "vul in",
+            "jij": "vult in",
+            "hij": "vult in",
+            "wij": "vullen in",
+            "jullie": "vullen in",
+            "zij": "vullen in"
           },
           "past": {
             "singular": "vulde in",
             "plural": "vulden in"
           },
           "pastParticiple": "ingevuld",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -528,7 +530,7 @@
         "noun": {
           "article": "het",
           "singular": "inzicht",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -592,7 +594,7 @@
         "noun": {
           "article": "de",
           "singular": "jeugd",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -622,10 +624,10 @@
       "forms": {
         "adjective": {
           "base": "juist",
-          "withDe": "juiste",
+          "withDe": "juist",
           "withHet": "juist",
-          "comparative": null,
-          "superlative": null
+          "comparative": "juistder",
+          "superlative": "juistdst"
         }
       },
       "examples": [
@@ -749,7 +751,7 @@
         "noun": {
           "article": "de",
           "singular": "kennis",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -842,19 +844,20 @@
         "verb": {
           "infinitive": "klagen",
           "present": {
-            "singular": [
-              "klaag",
-              "klaagt",
-              "klaagt"
-            ],
-            "plural": "klagen"
+            "ik": "klaag",
+            "jij": "klaagt",
+            "hij": "klaagt",
+            "wij": "klagen",
+            "jullie": "klagen",
+            "zij": "klagen"
           },
           "past": {
             "singular": "klaagde",
             "plural": "klaagden"
           },
           "pastParticiple": "geklaagd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -916,19 +919,20 @@
         "verb": {
           "infinitive": "klimmen",
           "present": {
-            "singular": [
-              "klim",
-              "klimt",
-              "klimt"
-            ],
-            "plural": "klimmen"
+            "ik": "klim",
+            "jij": "klimt",
+            "hij": "klimt",
+            "wij": "klimmen",
+            "jullie": "klimmen",
+            "zij": "klimmen"
           },
           "past": {
             "singular": "klom",
             "plural": "klommen"
           },
           "pastParticiple": "geklommen",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -959,19 +963,20 @@
         "verb": {
           "infinitive": "kloppen",
           "present": {
-            "singular": [
-              "klop",
-              "klopt",
-              "klopt"
-            ],
-            "plural": "kloppen"
+            "ik": "klop",
+            "jij": "klopt",
+            "hij": "klopt",
+            "wij": "kloppen",
+            "jullie": "kloppen",
+            "zij": "kloppen"
           },
           "past": {
             "singular": "klopte",
             "plural": "klopten"
           },
           "pastParticiple": "geklopt",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1315,8 +1320,8 @@
           "base": "kwijt",
           "withDe": "kwijt",
           "withHet": "kwijt",
-          "comparative": null,
-          "superlative": null
+          "comparative": "kwijter",
+          "superlative": "kwijtst"
         }
       },
       "examples": [
@@ -1379,10 +1384,10 @@
       "forms": {
         "adjective": {
           "base": "laatst",
-          "withDe": "laatste",
+          "withDe": "laatst",
           "withHet": "laatst",
-          "comparative": null,
-          "superlative": null
+          "comparative": "laatstder",
+          "superlative": "laatstdst"
         }
       },
       "examples": [
@@ -1475,7 +1480,7 @@
         "noun": {
           "article": "de",
           "singular": "lawaai",
-          "plural": null
+          "plural": "-"
         }
       },
       "examples": [
@@ -1601,19 +1606,20 @@
         "verb": {
           "infinitive": "leiden",
           "present": {
-            "singular": [
-              "leid",
-              "leidt",
-              "leidt"
-            ],
-            "plural": "leiden"
+            "ik": "leid",
+            "jij": "leidt",
+            "hij": "leidt",
+            "wij": "leiden",
+            "jullie": "leiden",
+            "zij": "leiden"
           },
           "past": {
             "singular": "leidde",
             "plural": "leidden"
           },
           "pastParticiple": "geleid",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [

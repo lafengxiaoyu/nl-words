@@ -140,23 +140,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "nauwkeurig",
-            "nauwkeurige",
-            "nauwkeurig",
-            "nauwkeurige"
-          ],
-          "definite": [
-            "nauwkeurige",
-            "nauwkeurige",
-            "nauwkeurige",
-            "nauwkeurige"
-          ],
-          "comparison": [
-            "nauwkeuriger",
-            "meest nauwkeurig"
-          ],
-          "participle": ""
+          "base": "nauwkeurig",
+          "withDe": "nauwkeurige",
+          "withHet": "nauwkeurig",
+          "comparative": "nauwkeuriger",
+          "superlative": "meest nauwkeurig"
         }
       },
       "examples": [
@@ -260,15 +248,20 @@
         "verb": {
           "infinitive": "negeren",
           "present": {
-            "singular": "negeer",
-            "plural": "negeren"
+            "ik": "negeer",
+            "jij": "negeert",
+            "hij": "negeert",
+            "wij": "negeren",
+            "jullie": "negeren",
+            "zij": "negeren"
           },
           "past": {
             "singular": "negeerde",
             "plural": "negeerden"
           },
           "pastParticiple": "genegeerd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -414,15 +407,20 @@
         "verb": {
           "infinitive": "noemen",
           "present": {
-            "singular": "noem",
-            "plural": "noemen"
+            "ik": "noem",
+            "jij": "noemt",
+            "hij": "noemt",
+            "wij": "noemen",
+            "jullie": "noemen",
+            "zij": "noemen"
           },
           "past": {
             "singular": "noemde",
             "plural": "noemden"
           },
           "pastParticiple": "genoemd",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -493,23 +491,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "noodzakelijk",
-            "noodzakelijke",
-            "noodzakelijk",
-            "noodzakelijke"
-          ],
-          "definite": [
-            "noodzakelijke",
-            "noodzakelijke",
-            "noodzakelijke",
-            "noodzakelijke"
-          ],
-          "comparison": [
-            "noodzakelijker",
-            "meest noodzakelijk"
-          ],
-          "participle": ""
+          "base": "noodzakelijk",
+          "withDe": "noodzakelijke",
+          "withHet": "noodzakelijk",
+          "comparative": "noodzakelijker",
+          "superlative": "meest noodzakelijk"
         }
       },
       "examples": [
@@ -538,23 +524,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "normaal",
-            "normale",
-            "normaal",
-            "normale"
-          ],
-          "definite": [
-            "normale",
-            "normale",
-            "normale",
-            "normale"
-          ],
-          "comparison": [
-            "normaler",
-            "meest normaal"
-          ],
-          "participle": ""
+          "base": "normaal",
+          "withDe": "normale",
+          "withHet": "normaal",
+          "comparative": "normaler",
+          "superlative": "meest normaal"
         }
       },
       "examples": [
@@ -625,23 +599,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "nuttig",
-            "nuttige",
-            "nuttig",
-            "nuttige"
-          ],
-          "definite": [
-            "nuttige",
-            "nuttige",
-            "nuttige",
-            "nuttige"
-          ],
-          "comparison": [
-            "nuttiger",
-            "meest nuttig"
-          ],
-          "participle": ""
+          "base": "nuttig",
+          "withDe": "nuttige",
+          "withHet": "nuttig",
+          "comparative": "nuttiger",
+          "superlative": "meest nuttig"
         }
       },
       "examples": [
@@ -714,19 +676,20 @@
         "verb": {
           "infinitive": "oefenen",
           "present": {
-            "singular": [
-              "oefen",
-              "oefent",
-              "oefent"
-            ],
-            "plural": "oefenen"
+            "ik": "oefen",
+            "jij": "oefent",
+            "hij": "oefent",
+            "wij": "oefenen",
+            "jullie": "oefenen",
+            "zij": "oefenen"
           },
           "past": {
             "singular": "oefende",
             "plural": "oefenden"
           },
           "pastParticiple": "geoefend",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -817,23 +780,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "officieel",
-            "officiële",
-            "officieel",
-            "officiële"
-          ],
-          "definite": [
-            "officiële",
-            "officiële",
-            "officiële",
-            "officiële"
-          ],
-          "comparison": [
-            "officiëler",
-            "meest officieel"
-          ],
-          "participle": ""
+          "base": "officieel",
+          "withDe": "officiële",
+          "withHet": "officieel",
+          "comparative": "officiëler",
+          "superlative": "meest officieel"
         }
       },
       "examples": [
@@ -956,19 +907,20 @@
         "verb": {
           "infinitive": "omruilen",
           "present": {
-            "singular": [
-              "ruil om",
-              "ruilt om",
-              "ruilt om"
-            ],
-            "plural": "ruilen om"
+            "ik": "ruil om",
+            "jij": "ruilt om",
+            "hij": "ruilt om",
+            "wij": "ruilen om",
+            "jullie": "ruilen om",
+            "zij": "ruilen om"
           },
           "past": {
             "singular": "ruilde om",
             "plural": "ruilden om"
           },
           "pastParticiple": "om geruild",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1039,23 +991,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "onafhankelijk",
-            "onafhankelijke",
-            "onafhankelijk",
-            "onafhankelijke"
-          ],
-          "definite": [
-            "onafhankelijke",
-            "onafhankelijke",
-            "onafhankelijke",
-            "onafhankelijke"
-          ],
-          "comparison": [
-            "onafhankelijker",
-            "meest onafhankelijk"
-          ],
-          "participle": ""
+          "base": "onafhankelijk",
+          "withDe": "onafhankelijke",
+          "withHet": "onafhankelijk",
+          "comparative": "onafhankelijker",
+          "superlative": "meest onafhankelijk"
         }
       },
       "examples": [
@@ -1151,23 +1091,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "onderling",
-            "onderlinge",
-            "onderling",
-            "onderlinge"
-          ],
-          "definite": [
-            "onderlinge",
-            "onderlinge",
-            "onderlinge",
-            "onderlinge"
-          ],
-          "comparison": [
-            "-",
-            "-"
-          ],
-          "participle": ""
+          "base": "onderling",
+          "withDe": "onderlinge",
+          "withHet": "onderling",
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [
@@ -1282,19 +1210,20 @@
         "verb": {
           "infinitive": "ondersteunen",
           "present": {
-            "singular": [
-              "ondersteun",
-              "ondersteunt",
-              "ondersteunt"
-            ],
-            "plural": "ondersteunen"
+            "ik": "ondersteun",
+            "jij": "ondersteunt",
+            "hij": "ondersteunt",
+            "wij": "ondersteunen",
+            "jullie": "ondersteunen",
+            "zij": "ondersteunen"
           },
           "past": {
             "singular": "ondersteunde",
             "plural": "ondersteunden"
           },
           "pastParticiple": "ondersteund",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1325,19 +1254,20 @@
         "verb": {
           "infinitive": "ondertekenen",
           "present": {
-            "singular": [
-              "onderteken",
-              "ondertekent",
-              "ondertekent"
-            ],
-            "plural": "ondertekenen"
+            "ik": "onderteken",
+            "jij": "ondertekent",
+            "hij": "ondertekent",
+            "wij": "ondertekenen",
+            "jullie": "ondertekenen",
+            "zij": "ondertekenen"
           },
           "past": {
             "singular": "ondertekende",
             "plural": "ondertekenden"
           },
           "pastParticiple": "ondertekend",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1433,23 +1363,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "onmogelijk",
-            "onmogelijke",
-            "onmogelijk",
-            "onmogelijke"
-          ],
-          "definite": [
-            "onmogelijke",
-            "onmogelijke",
-            "onmogelijke",
-            "onmogelijke"
-          ],
-          "comparison": [
-            "onmogelijker",
-            "meest onmogelijk"
-          ],
-          "participle": ""
+          "base": "onmogelijk",
+          "withDe": "onmogelijke",
+          "withHet": "onmogelijk",
+          "comparative": "onmogelijker",
+          "superlative": "meest onmogelijk"
         }
       },
       "examples": [
@@ -1547,19 +1465,20 @@
         "verb": {
           "infinitive": "ontstaan",
           "present": {
-            "singular": [
-              "ontsta",
-              "ontstaat",
-              "ontstaat"
-            ],
-            "plural": "ontstaan"
+            "ik": "ontsta",
+            "jij": "ontstaat",
+            "hij": "ontstaat",
+            "wij": "ontstaan",
+            "jullie": "ontstaan",
+            "zij": "ontstaan"
           },
           "past": {
             "singular": "ontstond",
             "plural": "ontstonden"
           },
           "pastParticiple": "ontstaan",
-          "pastParticipleAuxiliary": "zijn"
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1590,19 +1509,20 @@
         "verb": {
           "infinitive": "ontdekken",
           "present": {
-            "singular": [
-              "ontdek",
-              "ontdekt",
-              "ontdekt"
-            ],
-            "plural": "ontdekken"
+            "ik": "ontdek",
+            "jij": "ontdekt",
+            "hij": "ontdekt",
+            "wij": "ontdekken",
+            "jullie": "ontdekken",
+            "zij": "ontdekken"
           },
           "past": {
             "singular": "ontdekte",
             "plural": "ontdekten"
           },
           "pastParticiple": "ontdekt",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1633,19 +1553,20 @@
         "verb": {
           "infinitive": "onthouden",
           "present": {
-            "singular": [
-              "onthoud",
-              "onthoudt",
-              "onthoudt"
-            ],
-            "plural": "onthouden"
+            "ik": "onthoud",
+            "jij": "onthoudt",
+            "hij": "onthoudt",
+            "wij": "onthouden",
+            "jullie": "onthouden",
+            "zij": "onthouden"
           },
           "past": {
             "singular": "onthield",
             "plural": "onthielden"
           },
           "pastParticiple": "onthouden",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1676,19 +1597,20 @@
         "verb": {
           "infinitive": "ontmoeten",
           "present": {
-            "singular": [
-              "ontmoet",
-              "ontmoet",
-              "ontmoet"
-            ],
-            "plural": "ontmoeten"
+            "ik": "ontmoet",
+            "jij": "ontmoet",
+            "hij": "ontmoet",
+            "wij": "ontmoeten",
+            "jullie": "ontmoeten",
+            "zij": "ontmoeten"
           },
           "past": {
             "singular": "ontmoette",
             "plural": "ontmoetten"
           },
           "pastParticiple": "ontmoet",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1826,19 +1748,20 @@
         "verb": {
           "infinitive": "ontvangen",
           "present": {
-            "singular": [
-              "ontvang",
-              "ontvangt",
-              "ontvangt"
-            ],
-            "plural": "ontvangen"
+            "ik": "ontvang",
+            "jij": "ontvangt",
+            "hij": "ontvangt",
+            "wij": "ontvangen",
+            "jullie": "ontvangen",
+            "zij": "ontvangen"
           },
           "past": {
             "singular": "ontving",
             "plural": "ontvingen"
           },
           "pastParticiple": "ontvangen",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1869,19 +1792,20 @@
         "verb": {
           "infinitive": "ontwikkelen",
           "present": {
-            "singular": [
-              "ontwikkel",
-              "ontwikkelt",
-              "ontwikkelt"
-            ],
-            "plural": "ontwikkelen"
+            "ik": "ontwikkel",
+            "jij": "ontwikkelt",
+            "hij": "ontwikkelt",
+            "wij": "ontwikkelen",
+            "jullie": "ontwikkelen",
+            "zij": "ontwikkelen"
           },
           "past": {
             "singular": "ontwikkelde",
             "plural": "ontwikkelden"
           },
           "pastParticiple": "ontwikkeld",
-          "pastParticipleAuxiliary": "hebben"
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false
         }
       },
       "examples": [
@@ -1910,23 +1834,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "indefinite": [
-            "onvoldoende",
-            "onvoldoende",
-            "onvoldoende",
-            "onvoldoende"
-          ],
-          "definite": [
-            "onvoldoende",
-            "onvoldoende",
-            "onvoldoende",
-            "onvoldoende"
-          ],
-          "comparison": [
-            "-",
-            "-"
-          ],
-          "participle": ""
+          "base": "onvoldoende",
+          "withDe": "onvoldoende",
+          "withHet": "onvoldoende",
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [
