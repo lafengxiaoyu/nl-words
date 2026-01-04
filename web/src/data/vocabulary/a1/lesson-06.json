@@ -1,0 +1,1621 @@
+{
+  "id": "lA106",
+  "level": "A1",
+  "lessonNumber": 6,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 271,
+      "word": "nieuw",
+      "translation": {
+        "chinese": "新的",
+        "english": "new"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nieuw",
+          "withDe": "nieuwe",
+          "withHet": "nieuw",
+          "comparative": "nieuer",
+          "superlative": "nieuwst"
+        }
+      },
+      "examples": [
+        "Een nieuwe auto.",
+        "Het is nieuw."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一辆新车。",
+          "它是新的。"
+        ],
+        "english": [
+          "A new car.",
+          "It is new."
+        ]
+      },
+      "notes": "常用形容词，比较级：nieuer，最高级：nieuwst",
+      "difficulty": "A1"
+    },
+    {
+      "id": 272,
+      "word": "nieuws",
+      "translation": {
+        "chinese": "新闻",
+        "english": "news"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "nieuws",
+          "plural": "nieuws",
+          "uncountable": true
+        }
+      },
+      "examples": [
+        "Ik lees het nieuws.",
+        "Goed nieuws."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在看新闻。",
+          "好消息。"
+        ],
+        "english": [
+          "I read the news.",
+          "Good news."
+        ]
+      },
+      "notes": "中性名词，通常不可数，搭配介词lezen使用",
+      "difficulty": "A1"
+    },
+    {
+      "id": 273,
+      "word": "nodig",
+      "translation": {
+        "chinese": "需要的，必要的",
+        "english": "necessary, needed"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nodig",
+          "withDe": "nodige",
+          "withHet": "nodig",
+          "comparative": "noodzakelijker",
+          "superlative": "noodzakelijkst"
+        }
+      },
+      "examples": [
+        "Ik heb tijd nodig.",
+        "Is dat nodig?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我需要时间。",
+          "那有必要吗？"
+        ],
+        "english": [
+          "I need time.",
+          "Is that necessary?"
+        ]
+      },
+      "notes": "形容词，常用于hebben nodig（需要）结构",
+      "difficulty": "A1"
+    },
+    {
+      "id": 274,
+      "word": "nooit",
+      "translation": {
+        "chinese": "从不",
+        "english": "never"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "nooit"
+        }
+      },
+      "examples": [
+        "Ik ben nooit ziek.",
+        "Hij komt nooit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我从不得病。",
+          "他从不来。"
+        ],
+        "english": [
+          "I am never sick.",
+          "He never comes."
+        ]
+      },
+      "notes": "否定副词，表示频率",
+      "difficulty": "A1"
+    },
+    {
+      "id": 275,
+      "word": "nu",
+      "translation": {
+        "chinese": "现在",
+        "english": "now"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "nu"
+        }
+      },
+      "examples": [
+        "Ik kom nu.",
+        "Nu is het laat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我现在就来。",
+          "现在很晚了。"
+        ],
+        "english": [
+          "I come now.",
+          "Now it is late."
+        ]
+      },
+      "notes": "时间副词，表示当前时刻",
+      "difficulty": "A1"
+    },
+    {
+      "id": 276,
+      "word": "nul",
+      "translation": {
+        "chinese": "零",
+        "english": "zero"
+      },
+      "partOfSpeech": "number",
+      "forms": {
+        "number": {
+          "value": 0,
+          "ordinal": "nulde"
+        }
+      },
+      "examples": [
+        "Nul graden.",
+        "Het cijfer is nul."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "零度。",
+          "数字是零。"
+        ],
+        "english": [
+          "Zero degrees.",
+          "The number is zero."
+        ]
+      },
+      "notes": "基数词，序数词是nulde",
+      "difficulty": "A1"
+    },
+    {
+      "id": 277,
+      "word": "nummer",
+      "translation": {
+        "chinese": "号码，数字",
+        "english": "number, figure"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "nummer",
+          "plural": "nummers"
+        }
+      },
+      "examples": [
+        "Mijn telefoonnummer.",
+        "Nummer twee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的电话号码。",
+          "第二个。"
+        ],
+        "english": [
+          "My phone number.",
+          "Number two."
+        ]
+      },
+      "notes": "中性名词，复数形式是nummers",
+      "difficulty": "A1"
+    },
+    {
+      "id": 278,
+      "word": "ochtend",
+      "translation": {
+        "chinese": "早晨",
+        "english": "morning"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ochtend",
+          "plural": "ochtenden"
+        }
+      },
+      "examples": [
+        "Goedemorgen!",
+        "In de ochtend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "早上好！",
+          "在早上。"
+        ],
+        "english": [
+          "Good morning!",
+          "In the morning."
+        ]
+      },
+      "notes": "阴性名词，复数形式是ochtenden",
+      "difficulty": "A1"
+    },
+    {
+      "id": 279,
+      "word": "oefening",
+      "translation": {
+        "chinese": "练习，运动",
+        "english": "exercise, practice"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "oefening",
+          "plural": "oefeningen"
+        }
+      },
+      "examples": [
+        "Ik doe oefeningen.",
+        "Een moeilijke oefening."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我做练习。",
+          "一道难题。"
+        ],
+        "english": [
+          "I do exercises.",
+          "A difficult exercise."
+        ]
+      },
+      "notes": "阴性名词，复数形式是oefeningen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 280,
+      "word": "of",
+      "translation": {
+        "chinese": "或，或者",
+        "english": "or"
+      },
+      "partOfSpeech": "conjunction",
+      "forms": {
+        "conjunction": {
+          "type": "coordinating"
+        }
+      },
+      "examples": [
+        "Koffie of thee?",
+        "Ik ga of ik blijf."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "咖啡还是茶？",
+          "我去或我留下。"
+        ],
+        "english": [
+          "Coffee or tea?",
+          "I go or I stay."
+        ]
+      },
+      "notes": "并列连词，表示选择",
+      "difficulty": "A1"
+    },
+    {
+      "id": 281,
+      "word": "om",
+      "translation": {
+        "chinese": "为了，关于，围绕",
+        "english": "for, about, around"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "type": "basic"
+        }
+      },
+      "examples": [
+        "Ik denk om je.",
+        "Om de hoek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我关心你。",
+          "在拐角处。"
+        ],
+        "english": [
+          "I care about you.",
+          "Around the corner."
+        ]
+      },
+      "notes": "介词，有多种用法",
+      "difficulty": "A1"
+    },
+    {
+      "id": 282,
+      "word": "oma",
+      "translation": {
+        "chinese": "祖母，外祖母",
+        "english": "grandmother"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "oma",
+          "plural": "oma's"
+        }
+      },
+      "examples": [
+        "Mijn oma.",
+        "De oma van mijn zus."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我奶奶。",
+          "我姐姐的奶奶。"
+        ],
+        "english": [
+          "My grandmother.",
+          "My sister's grandmother."
+        ]
+      },
+      "notes": "阴性名词，复数形式是oma's（加-apostrophe-s）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 283,
+      "word": "omdat",
+      "translation": {
+        "chinese": "因为",
+        "english": "because"
+      },
+      "partOfSpeech": "conjunction",
+      "forms": {
+        "conjunction": {
+          "type": "subordinating"
+        }
+      },
+      "examples": [
+        "Ik ga niet, want ik ben moe.",
+        "Ik kom niet, want ik moet werken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我不去，因为我累了。",
+          "我不来，因为我得工作。"
+        ],
+        "english": [
+          "I don't go because I am tired.",
+          "I don't come because I have to work."
+        ]
+      },
+      "notes": "从属连词，引导原因状语从句",
+      "difficulty": "A1"
+    },
+    {
+      "id": 284,
+      "word": "onder",
+      "translation": {
+        "chinese": "在...下面",
+        "english": "under, below"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "type": "basic",
+          "opposite": "boven"
+        }
+      },
+      "examples": [
+        "Onder de tafel.",
+        "Het boek ligt onder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "桌子下面。",
+          "书在下面。"
+        ],
+        "english": [
+          "Under the table.",
+          "The book lies below."
+        ]
+      },
+      "notes": "介词，表示位置，反义词是boven",
+      "difficulty": "A1"
+    },
+    {
+      "id": 285,
+      "word": "onderwijs",
+      "translation": {
+        "chinese": "教育",
+        "english": "education"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "onderwijs",
+          "plural": "onderwijs",
+          "uncountable": true
+        }
+      },
+      "examples": [
+        "Goed onderwijs.",
+        "Ik heb onderwijs nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "良好的教育。",
+          "我需要教育。"
+        ],
+        "english": [
+          "Good education.",
+          "I need education."
+        ]
+      },
+      "notes": "中性名词，通常不可数",
+      "difficulty": "A1"
+    },
+    {
+      "id": 286,
+      "word": "onderzoek",
+      "translation": {
+        "chinese": "研究，调查",
+        "english": "research, investigation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "onderzoek",
+          "plural": "onderzoeken"
+        }
+      },
+      "examples": [
+        "Een onderzoek.",
+        "Het onderzoek is klaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一项研究。",
+          "研究完成了。"
+        ],
+        "english": [
+          "A research.",
+          "The research is complete."
+        ]
+      },
+      "notes": "中性名词，复数形式是onderzoeken",
+      "difficulty": "A1"
+    },
+    {
+      "id": 287,
+      "word": "ons",
+      "translation": {
+        "chinese": "我们（宾格）",
+        "english": "us (object)"
+      },
+      "partOfSpeech": "pronoun",
+      "forms": {
+        "pronoun": {
+          "type": "object",
+          "person": "first",
+          "number": "plural"
+        }
+      },
+      "examples": [
+        "Zij ziet ons.",
+        "Help ons!"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她看见我们。",
+          "帮助我们！"
+        ],
+        "english": [
+          "She sees us.",
+          "Help us!"
+        ]
+      },
+      "notes": "第一人称复数宾格代词，与主格'wij/we'对应",
+      "difficulty": "A1"
+    },
+    {
+      "id": 288,
+      "word": "onze",
+      "translation": {
+        "chinese": "我们的",
+        "english": "our"
+      },
+      "partOfSpeech": "possessive",
+      "forms": {
+        "possessive": {
+          "person": "first",
+          "number": "plural"
+        }
+      },
+      "examples": [
+        "Onze school.",
+        "Dit is onze auto."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们的学校。",
+          "这是我们的车。"
+        ],
+        "english": [
+          "Our school.",
+          "This is our car."
+        ]
+      },
+      "notes": "第一人称复数所有格，与所有性、数配合",
+      "difficulty": "A1"
+    },
+    {
+      "id": 289,
+      "word": "oog",
+      "translation": {
+        "chinese": "眼睛",
+        "english": "eye"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "oog",
+          "plural": "ogen"
+        }
+      },
+      "examples": [
+        "Mijn ogen.",
+        "Hij heeft blauwe ogen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的眼睛。",
+          "他有一双蓝眼睛。"
+        ],
+        "english": [
+          "My eyes.",
+          "He has blue eyes."
+        ]
+      },
+      "notes": "中性名词，复数形式是ogen（元音变化）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 290,
+      "word": "ook",
+      "translation": {
+        "chinese": "也，还",
+        "english": "also, too"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "ook"
+        }
+      },
+      "examples": [
+        "Ik ben ook moe.",
+        "Hij spreekt ook Nederlands."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我也累了。",
+          "他也会说荷兰语。"
+        ],
+        "english": [
+          "I am also tired.",
+          "He also speaks Dutch."
+        ]
+      },
+      "notes": "副词，表示添加",
+      "difficulty": "A1"
+    },
+    {
+      "id": 291,
+      "word": "oom",
+      "translation": {
+        "chinese": "叔叔，伯伯，舅舅",
+        "english": "uncle"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "oom",
+          "plural": "ooms"
+        }
+      },
+      "examples": [
+        "Mijn oom.",
+        "De oom van mijn moeder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我叔叔。",
+          "我母亲的叔叔。"
+        ],
+        "english": [
+          "My uncle.",
+          "My mother's uncle."
+        ]
+      },
+      "notes": "阳性名词，复数形式是ooms（加-s）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 292,
+      "word": "oor",
+      "translation": {
+        "chinese": "耳朵",
+        "english": "ear"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "oor",
+          "plural": "oren"
+        }
+      },
+      "examples": [
+        "Mijn oor.",
+        "Hij heeft pijn in zijn oor."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的耳朵。",
+          "他耳朵疼。"
+        ],
+        "english": [
+          "My ear.",
+          "He has pain in his ear."
+        ]
+      },
+      "notes": "中性名词，复数形式是oren（元音变化）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 293,
+      "word": "oosten",
+      "translation": {
+        "chinese": "东方，东部",
+        "english": "east"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "oosten",
+          "plural": "oosten"
+        }
+      },
+      "examples": [
+        "In het oosten.",
+        "De zon komt uit het oosten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在东部。",
+          "太阳从东方升起。"
+        ],
+        "english": [
+          "In the east.",
+          "The sun rises from the east."
+        ]
+      },
+      "notes": "方位名词，通常用单数形式",
+      "difficulty": "A1"
+    },
+    {
+      "id": 294,
+      "word": "opa",
+      "translation": {
+        "chinese": "祖父，外祖父",
+        "english": "grandfather"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "opa",
+          "plural": "opa's"
+        }
+      },
+      "examples": [
+        "Mijn opa.",
+        "De opa van mijn broer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我爷爷。",
+          "我哥哥的爷爷。"
+        ],
+        "english": [
+          "My grandfather.",
+          "My brother's grandfather."
+        ]
+      },
+      "notes": "阳性名词，复数形式是opa's（加-apostrophe-s）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 295,
+      "word": "op",
+      "translation": {
+        "chinese": "在...上，向上",
+        "english": "on, up"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "type": "basic",
+          "opposite": "af"
+        }
+      },
+      "examples": [
+        "Op de tafel.",
+        "Ik ga op."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在桌子上。",
+          "我上去。"
+        ],
+        "english": [
+          "On the table.",
+          "I go up."
+        ]
+      },
+      "notes": "介词，表示位置或方向，反义词是af",
+      "difficulty": "A1"
+    },
+    {
+      "id": 296,
+      "word": "open",
+      "translation": {
+        "chinese": "开着的，开放的",
+        "english": "open"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "open",
+          "withDe": "open",
+          "withHet": "open",
+          "comparative": "open",
+          "superlative": "openst"
+        }
+      },
+      "examples": [
+        "De deur is open.",
+        "Het winkel is open."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "门开着。",
+          "商店营业中。"
+        ],
+        "english": [
+          "The door is open.",
+          "The shop is open."
+        ]
+      },
+      "notes": "形容词，比较级和最高级形式不变或加-st",
+      "difficulty": "A1"
+    },
+    {
+      "id": 297,
+      "word": "opnieuw",
+      "translation": {
+        "chinese": "重新，再次",
+        "english": "again, anew"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "opnieuw"
+        }
+      },
+      "examples": [
+        "Ik doe het opnieuw.",
+        "Kom opnieuw!"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我再做一次。",
+          "再来一次！"
+        ],
+        "english": [
+          "I do it again.",
+          "Come again!"
+        ]
+      },
+      "notes": "副词，表示重复",
+      "difficulty": "A1"
+    },
+    {
+      "id": 298,
+      "word": "opstaan",
+      "translation": {
+        "chinese": "起床，站起",
+        "english": "to get up, to stand up"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "prefix": "op",
+          "pastParticiple": "opgestaan",
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": true,
+          "present": {
+            "ik": "sta op",
+            "jij": "staat op",
+            "hij": "staat op",
+            "wij": "staan op",
+            "jullie": "staan op",
+            "zij": "staan op"
+          },
+          "infinitive": "opstaan",
+          "past": {
+            "singular": "stond op",
+            "plural": "stonden op"
+          }
+        }
+      },
+      "examples": [
+        "Ik sta op om zeven uur.",
+        "Hij staat op en gaat weg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我七点起床。",
+          "他站起来离开了。"
+        ],
+        "english": [
+          "I get up at seven o'clock.",
+          "He stands up and leaves."
+        ]
+      },
+      "notes": "可分动词，过去分词：opgestaan（用zijn）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 299,
+      "word": "opzoeken",
+      "translation": {
+        "chinese": "查阅，拜访",
+        "english": "to look up, to visit"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "prefix": "op",
+          "pastParticiple": "opgezocht",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": true,
+          "present": {
+            "ik": "zoek op",
+            "jij": "zoekt op",
+            "hij": "zoekt op",
+            "wij": "zoeken op",
+            "jullie": "zoeken op",
+            "zij": "zoeken op"
+          },
+          "infinitive": "opzoeken",
+          "past": {
+            "singular": "zocht op",
+            "plural": "zochten op"
+          }
+        }
+      },
+      "examples": [
+        "Ik zoek het woord op.",
+        "Ik zoek mijn vriend op."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我查阅这个单词。",
+          "我去拜访朋友。"
+        ],
+        "english": [
+          "I look up the word.",
+          "I visit my friend."
+        ]
+      },
+      "notes": "可分动词，过去分词：opgezocht（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 300,
+      "word": "oranje",
+      "translation": {
+        "chinese": "橙色的",
+        "english": "orange"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "oranje",
+          "withDe": "oranje",
+          "withHet": "oranje",
+          "comparative": "oranjer",
+          "superlative": "oranjest"
+        }
+      },
+      "examples": [
+        "Een oranje appel.",
+        "De kleur is oranje."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个橙色的苹果。",
+          "颜色是橙色的。"
+        ],
+        "english": [
+          "An orange apple.",
+          "The color is orange."
+        ]
+      },
+      "notes": "形容词，荷兰国色",
+      "difficulty": "A1"
+    },
+    {
+      "id": 301,
+      "word": "oud",
+      "translation": {
+        "chinese": "老的，旧的",
+        "english": "old"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "oud",
+          "withDe": "oude",
+          "withHet": "oud",
+          "comparative": "ouder",
+          "superlative": "oudst"
+        }
+      },
+      "examples": [
+        "Een oude auto.",
+        "Hij is oud."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一辆旧车。",
+          "他很老了。"
+        ],
+        "english": [
+          "An old car.",
+          "He is old."
+        ]
+      },
+      "notes": "常用形容词，比较级：ouder，最高级：oudst",
+      "difficulty": "A1"
+    },
+    {
+      "id": 302,
+      "word": "ouders",
+      "translation": {
+        "chinese": "父母（复数）",
+        "english": "parents"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ouder",
+          "plural": "ouders"
+        }
+      },
+      "examples": [
+        "Mijn ouders.",
+        "De ouders van de kinderen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的父母。",
+          "孩子们的父母。"
+        ],
+        "english": [
+          "My parents.",
+          "The children's parents."
+        ]
+      },
+      "notes": "阴性名词，单数形式是ouder，复数是ouders",
+      "difficulty": "A1"
+    },
+    {
+      "id": 303,
+      "word": "over",
+      "translation": {
+        "chinese": "关于，超过，在...上方",
+        "english": "about, over, above"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "type": "basic"
+        }
+      },
+      "examples": [
+        "Ik praat over het werk.",
+        "Over het boek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在谈论工作。",
+          "关于这本书。"
+        ],
+        "english": [
+          "I talk about work.",
+          "About the book."
+        ]
+      },
+      "notes": "介词，有多种用法",
+      "difficulty": "A1"
+    },
+    {
+      "id": 304,
+      "word": "overal",
+      "translation": {
+        "chinese": "到处",
+        "english": "everywhere"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "overal",
+          "opposite": "nergens"
+        }
+      },
+      "examples": [
+        "Ik ben overal.",
+        "Het is overal te vinden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我到处都在。",
+          "到处都能找到。"
+        ],
+        "english": [
+          "I am everywhere.",
+          "It can be found everywhere."
+        ]
+      },
+      "notes": "副词，反义词是nergens（无处）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 305,
+      "word": "overmorgen",
+      "translation": {
+        "chinese": "后天",
+        "english": "the day after tomorrow"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "overmorgen"
+        }
+      },
+      "examples": [
+        "Ik kom overmorgen.",
+        "Overmorgen ga ik weg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我后天来。",
+          "我后天走。"
+        ],
+        "english": [
+          "I come the day after tomorrow.",
+          "I leave the day after tomorrow."
+        ]
+      },
+      "notes": "时间副词，表示两天后",
+      "difficulty": "A1"
+    },
+    {
+      "id": 306,
+      "word": "pak",
+      "translation": {
+        "chinese": "包，包裹",
+        "english": "package, parcel"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "pak",
+          "plural": "pakken"
+        }
+      },
+      "examples": [
+        "Het pak.",
+        "Ik open het pak."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "包裹。",
+          "我打开包裹。"
+        ],
+        "english": [
+          "The package.",
+          "I open the package."
+        ]
+      },
+      "notes": "阳性名词，复数形式是pakken",
+      "difficulty": "A1"
+    },
+    {
+      "id": 307,
+      "word": "pakket",
+      "translation": {
+        "chinese": "包裹，套件",
+        "english": "parcel, set"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "pakket",
+          "plural": "pakketten"
+        }
+      },
+      "examples": [
+        "Een softwarepakket.",
+        "Het pakket is hier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个软件包。",
+          "包裹在这里。"
+        ],
+        "english": [
+          "A software package.",
+          "The parcel is here."
+        ]
+      },
+      "notes": "中性名词，复数形式是pakketten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 308,
+      "word": "papier",
+      "translation": {
+        "chinese": "纸",
+        "english": "paper"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "papier",
+          "plural": "papier",
+          "uncountable": true
+        }
+      },
+      "examples": [
+        "Op papier.",
+        "Een vel papier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在纸上。",
+          "一张纸。"
+        ],
+        "english": [
+          "On paper.",
+          "A sheet of paper."
+        ]
+      },
+      "notes": "中性名词，通常不可数",
+      "difficulty": "A1"
+    },
+    {
+      "id": 309,
+      "word": "pardon",
+      "translation": {
+        "chinese": "对不起，借过",
+        "english": "excuse me, sorry"
+      },
+      "partOfSpeech": "interjection",
+      "forms": {
+        "interjection": {
+          "base": "pardon"
+        }
+      },
+      "examples": [
+        "Pardon, mag ik even?",
+        "Pardon, waar is het station?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "打扰一下，可以吗？",
+          "请问，车站在哪里？"
+        ],
+        "english": [
+          "Excuse me, can I just?",
+          "Excuse me, where is the station?"
+        ]
+      },
+      "notes": "礼貌用语，用于引起注意或道歉",
+      "difficulty": "A1"
+    },
+    {
+      "id": 310,
+      "word": "park",
+      "translation": {
+        "chinese": "公园",
+        "english": "park"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "park",
+          "plural": "parken"
+        }
+      },
+      "examples": [
+        "Het park is groot.",
+        "Ik ga naar het park."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公园很大。",
+          "我去公园。"
+        ],
+        "english": [
+          "The park is big.",
+          "I go to the park."
+        ]
+      },
+      "notes": "阴性名词，复数形式是parken",
+      "difficulty": "A1"
+    },
+    {
+      "id": 311,
+      "word": "pas",
+      "translation": {
+        "chinese": "才，刚才，卡片",
+        "english": "just, only, card"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "pas"
+        }
+      },
+      "examples": [
+        "Ik ben pas thuis.",
+        "Pas nu."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我刚到家。",
+          "现在才行。"
+        ],
+        "english": [
+          "I just arrived home.",
+          "Only now."
+        ]
+      },
+      "notes": "副词，表示时间晚或限制",
+      "difficulty": "A1"
+    },
+    {
+      "id": 312,
+      "word": "paspoort",
+      "translation": {
+        "chinese": "护照",
+        "english": "passport"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "paspoort",
+          "plural": "passen"
+        }
+      },
+      "examples": [
+        "Mijn paspoort.",
+        "Heb je je paspoort?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的护照。",
+          "你有护照吗？"
+        ],
+        "english": [
+          "My passport.",
+          "Do you have your passport?"
+        ]
+      },
+      "notes": "中性名词，复数形式是passen（元音变化）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 313,
+      "word": "patat",
+      "translation": {
+        "chinese": "薯条",
+        "english": "fries, french fries"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "patat",
+          "plural": "patatten"
+        }
+      },
+      "examples": [
+        "Ik eet patat.",
+        "Een portie patat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃薯条。",
+          "一份薯条。"
+        ],
+        "english": [
+          "I eat fries.",
+          "A portion of fries."
+        ]
+      },
+      "notes": "阴性名词，荷兰特色食品，复数形式是patatten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 314,
+      "word": "peer",
+      "translation": {
+        "chinese": "梨",
+        "english": "pear"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "peer",
+          "plural": "peren"
+        }
+      },
+      "examples": [
+        "Een peer.",
+        "De peer is zoet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个梨。",
+          "这个梨很甜。"
+        ],
+        "english": [
+          "A pear.",
+          "The pear is sweet."
+        ]
+      },
+      "notes": "阴性名词，复数形式是peren（元音变化）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 315,
+      "word": "pennen",
+      "translation": {
+        "chinese": "钢笔（复数）",
+        "english": "pens (plural)"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "pen",
+          "plural": "pennen"
+        }
+      },
+      "examples": [
+        "Mijn pennen.",
+        "Ik heb pennen nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的钢笔。",
+          "我需要钢笔。"
+        ],
+        "english": [
+          "My pens.",
+          "I need pens."
+        ]
+      },
+      "notes": "阴性名词pen的复数形式",
+      "difficulty": "A1"
+    },
+    {
+      "id": 316,
+      "word": "per",
+      "translation": {
+        "chinese": "每",
+        "english": "per, each"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "type": "basic"
+        }
+      },
+      "examples": [
+        "Twee keer per week.",
+        "Vijf euro per dag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "每周两次。",
+          "每天五欧元。"
+        ],
+        "english": [
+          "Twice per week.",
+          "Five euros per day."
+        ]
+      },
+      "notes": "介词，表示频率或比率",
+      "difficulty": "A1"
+    },
+    {
+      "id": 317,
+      "word": "piano",
+      "translation": {
+        "chinese": "钢琴",
+        "english": "piano"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "piano",
+          "plural": "piano's"
+        }
+      },
+      "examples": [
+        "Ik speel piano.",
+        "Een nieuwe piano."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我弹钢琴。",
+          "一架新钢琴。"
+        ],
+        "english": [
+          "I play the piano.",
+          "A new piano."
+        ]
+      },
+      "notes": "阴性名词，复数形式是piano's（加-apostrophe-s）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 318,
+      "word": "pijn",
+      "translation": {
+        "chinese": "疼痛，痛",
+        "english": "pain, ache"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "pijn",
+          "plural": "pijn",
+          "uncountable": true
+        }
+      },
+      "examples": [
+        "Ik heb pijn.",
+        "Hij heeft hoofdpijn."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我疼。",
+          "他头疼。"
+        ],
+        "english": [
+          "I have pain.",
+          "He has a headache."
+        ]
+      },
+      "notes": "阴性名词，通常不可数，搭配hebben使用",
+      "difficulty": "A1"
+    },
+    {
+      "id": 319,
+      "word": "pinda",
+      "translation": {
+        "chinese": "花生",
+        "english": "peanut"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "pinda",
+          "plural": "pinda's"
+        }
+      },
+      "examples": [
+        "Ik eet pinda's.",
+        "Een zak pinda's."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃花生。",
+          "一袋花生。"
+        ],
+        "english": [
+          "I eat peanuts.",
+          "A bag of peanuts."
+        ]
+      },
+      "notes": "阴性名词，复数形式是pinda's（加-apostrophe-s）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 320,
+      "word": "plaat",
+      "translation": {
+        "chinese": "唱片，图片",
+        "english": "record, picture"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "plaat",
+          "plural": "platen"
+        }
+      },
+      "examples": [
+        "Een plaat.",
+        "De plaat is mooi."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一张图片。",
+          "这张图片很美。"
+        ],
+        "english": [
+          "A picture.",
+          "The picture is beautiful."
+        ]
+      },
+      "notes": "阴性名词，复数形式是platen（元音变化）",
+      "difficulty": "A1"
+    }
+  ]
+}

@@ -1,0 +1,1672 @@
+{
+  "id": "lA109",
+  "level": "A1",
+  "lessonNumber": 9,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 424,
+      "word": "toon",
+      "translation": {
+        "chinese": "语气，音调",
+        "english": "tone, sound"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "toon",
+          "plural": "tonen"
+        }
+      },
+      "examples": [
+        "De toon van zijn stem.",
+        "Een vriendelijke toon."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他声音的语调。",
+          "一个友好的语气。"
+        ],
+        "english": [
+          "The tone of his voice.",
+          "A friendly tone."
+        ]
+      },
+      "notes": "阳性名词，复数形式是tonen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 425,
+      "word": "tonen",
+      "translation": {
+        "chinese": "显示，展示",
+        "english": "shows, displays"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "getoond",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "toon",
+            "jij": "toont",
+            "hij": "toont",
+            "wij": "tonen",
+            "jullie": "tonen",
+            "zij": "tonen"
+          },
+          "infinitive": "tonen",
+          "past": {
+            "singular": "toonde",
+            "plural": "toonden"
+          }
+        }
+      },
+      "examples": [
+        "Hij toont het boek.",
+        "De foto toont alles."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他展示这本书。",
+          "照片显示了一切。"
+        ],
+        "english": [
+          "He shows the book.",
+          "The photo shows everything."
+        ]
+      },
+      "notes": "规则弱动词，过去分词：getoond（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 426,
+      "word": "toornen",
+      "translation": {
+        "chinese": "愤怒",
+        "english": "to be angry"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "toornen",
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false,
+          "present": {
+            "ik": "toor",
+            "jij": "toort",
+            "hij": "toort",
+            "wij": "toornen",
+            "jullie": "toornen",
+            "zij": "toornen"
+          },
+          "infinitive": "toornen",
+          "past": {
+            "singular": "toornde",
+            "plural": "toornden"
+          }
+        }
+      },
+      "examples": [
+        "Ik ben toorn.",
+        "Hij is toorn."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我很愤怒。",
+          "他很愤怒。"
+        ],
+        "english": [
+          "I am angry.",
+          "He is angry."
+        ]
+      },
+      "notes": "罕见动词，更常用的是boos（形容词）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 427,
+      "word": "top",
+      "translation": {
+        "chinese": "顶端，顶部",
+        "english": "top, summit"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "top",
+          "plural": "toppen"
+        }
+      },
+      "examples": [
+        "De top van de berg.",
+        "Op de top."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "山顶。",
+          "在顶端。"
+        ],
+        "english": [
+          "The top of the mountain.",
+          "On the top."
+        ]
+      },
+      "notes": "阴性名词，复数形式是toppen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 428,
+      "word": "totaal",
+      "translation": {
+        "chinese": "总数，总计",
+        "english": "total, total amount"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "totaal",
+          "plural": "totalen"
+        }
+      },
+      "examples": [
+        "Het totaal is vijfentwintig.",
+        "In totaal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "总数是二十五。",
+          "总计。"
+        ],
+        "english": [
+          "The total is twenty-five.",
+          "In total."
+        ]
+      },
+      "notes": "中性名词，也用作形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 429,
+      "word": "touw",
+      "translation": {
+        "chinese": "绳子",
+        "english": "rope"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "touw",
+          "plural": "touwen"
+        }
+      },
+      "examples": [
+        "Het touw.",
+        "Ik gebruik een touw."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "绳子。",
+          "我用绳子。"
+        ],
+        "english": [
+          "The rope.",
+          "I use a rope."
+        ]
+      },
+      "notes": "中性名词，复数形式是touwen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 430,
+      "word": "traag",
+      "translation": {
+        "chinese": "慢的，缓慢的",
+        "english": "slow, sluggish"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "traag",
+          "withDe": "tragere",
+          "withHet": "traag",
+          "comparative": "trager",
+          "superlative": "traagst"
+        }
+      },
+      "examples": [
+        "Hij is traag.",
+        "Een trage auto."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很慢。",
+          "一辆慢车。"
+        ],
+        "english": [
+          "He is slow.",
+          "A slow car."
+        ]
+      },
+      "notes": "形容词，比较级：trager，最高级：traagst",
+      "difficulty": "A1"
+    },
+    {
+      "id": 431,
+      "word": "traan",
+      "translation": {
+        "chinese": "眼泪",
+        "english": "tear"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "traan",
+          "plural": "tranen"
+        }
+      },
+      "examples": [
+        "Een traan.",
+        "Hij huilt een traan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一滴眼泪。",
+          "他流了一滴泪。"
+        ],
+        "english": [
+          "A tear.",
+          "He sheds a tear."
+        ]
+      },
+      "notes": "阴性名词，复数形式是tranen（元音变化）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 432,
+      "word": "tram",
+      "translation": {
+        "chinese": "电车",
+        "english": "tram"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tram",
+          "plural": "trams"
+        }
+      },
+      "examples": [
+        "De tram.",
+        "Ik neem de tram."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "电车。",
+          "我坐电车。"
+        ],
+        "english": [
+          "The tram.",
+          "I take the tram."
+        ]
+      },
+      "notes": "阴性名词，复数形式是trams",
+      "difficulty": "A1"
+    },
+    {
+      "id": 433,
+      "word": "trap",
+      "translation": {
+        "chinese": "楼梯",
+        "english": "stairs, staircase"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "trap",
+          "plural": "trappen"
+        }
+      },
+      "examples": [
+        "De trap.",
+        "Ik ga via de trap."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "楼梯。",
+          "我走楼梯。"
+        ],
+        "english": [
+          "The stairs.",
+          "I go by the stairs."
+        ]
+      },
+      "notes": "阴性名词，复数形式是trappen（双写p）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 434,
+      "word": "trein",
+      "translation": {
+        "chinese": "火车",
+        "english": "train"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "trein",
+          "plural": "treinen"
+        }
+      },
+      "examples": [
+        "De trein.",
+        "Ik neem de trein."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "火车。",
+          "我坐火车。"
+        ],
+        "english": [
+          "The train.",
+          "I take the train."
+        ]
+      },
+      "notes": "阴性名词，复数形式是treinen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 435,
+      "word": "trekken",
+      "translation": {
+        "chinese": "拉，扯",
+        "english": "pull"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "getrokken",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "trek",
+            "jij": "trekt",
+            "hij": "trekt",
+            "wij": "trekken",
+            "jullie": "trekken",
+            "zij": "trekken"
+          },
+          "infinitive": "trekken",
+          "past": {
+            "singular": "trok",
+            "plural": "trokken"
+          }
+        }
+      },
+      "examples": [
+        "Trek aan de deur!",
+        "Ik trek mijn jas."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "拉门！",
+          "我拉外套。"
+        ],
+        "english": [
+          "Pull the door!",
+          "I pull my coat."
+        ]
+      },
+      "notes": "强动词，过去分词：getrokken（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 436,
+      "word": "trots",
+      "translation": {
+        "chinese": "骄傲的，自豪的",
+        "english": "proud"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "comparative": "troster",
+          "superlative": "trotst",
+          "withDe": "trots",
+          "withHet": "trots",
+          "base": "trots"
+        }
+      },
+      "examples": [
+        "Ik ben trots op jou.",
+        "Hij is een trotse vader."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我为你骄傲。",
+          "他是一个骄傲的父亲。"
+        ],
+        "english": [
+          "I am proud of you.",
+          "He is a proud father."
+        ]
+      },
+      "notes": "搭配：trots zijn op（对...感到骄傲）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 437,
+      "word": "trouwen",
+      "translation": {
+        "chinese": "结婚",
+        "english": "to marry"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "getrouwd",
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false,
+          "present": {
+            "ik": "trouw",
+            "jij": "trouwt",
+            "hij": "trouwt",
+            "wij/we": "trouwen",
+            "jullie": "trouwen",
+            "zij": "trouwen",
+            "wij": "trouwen"
+          },
+          "infinitive": "trouwen",
+          "past": {
+            "singular": "trouwde",
+            "plural": "trouwden"
+          }
+        }
+      },
+      "examples": [
+        "Zij trouwen volgende maand.",
+        "Ik wil met haar trouwen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他们下个月结婚。",
+          "我想和她结婚。"
+        ],
+        "english": [
+          "They marry next month.",
+          "I want to marry her."
+        ]
+      },
+      "notes": "弱动词，过去分词：getrouwd（用zijn）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 438,
+      "word": "trui",
+      "translation": {
+        "chinese": "毛衣",
+        "english": "sweater"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "trui",
+          "plural": "truien"
+        }
+      },
+      "examples": [
+        "Ik draag een trui.",
+        "De trui is warm."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我穿一件毛衣。",
+          "毛衣很暖和。"
+        ],
+        "english": [
+          "I wear a sweater.",
+          "The sweater is warm."
+        ]
+      },
+      "notes": "复数形式：truien",
+      "difficulty": "A1"
+    },
+    {
+      "id": 439,
+      "word": "tuin",
+      "translation": {
+        "chinese": "花园",
+        "english": "garden"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tuin",
+          "plural": "tuinen"
+        }
+      },
+      "examples": [
+        "De tuin is mooi.",
+        "Wij werken in de tuin."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "花园很漂亮。",
+          "我们在花园工作。"
+        ],
+        "english": [
+          "The garden is beautiful.",
+          "We work in the garden."
+        ]
+      },
+      "notes": "复数形式：tuinen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 440,
+      "word": "tussen",
+      "translation": {
+        "chinese": "在...之间",
+        "english": "between"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Hij zit tussen ons.",
+        "Het station ligt tussen de huizen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他坐在我们之间。",
+          "车站位于房屋之间。"
+        ],
+        "english": [
+          "He sits between us.",
+          "The station lies between the houses."
+        ]
+      },
+      "notes": "介词，后接宾格",
+      "difficulty": "A1"
+    },
+    {
+      "id": 441,
+      "word": "twaalf",
+      "translation": {
+        "chinese": "十二",
+        "english": "twelve"
+      },
+      "partOfSpeech": "number",
+      "forms": {},
+      "examples": [
+        "Het is twaalf uur.",
+        "Ik heb twaalf appels."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "现在是十二点。",
+          "我有十二个苹果。"
+        ],
+        "english": [
+          "It is twelve o'clock.",
+          "I have twelve apples."
+        ]
+      },
+      "notes": "基数词，序数词：twaalfde（第十二）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 442,
+      "word": "twee",
+      "translation": {
+        "chinese": "二",
+        "english": "two"
+      },
+      "partOfSpeech": "number",
+      "forms": {},
+      "examples": [
+        "Ik heb twee boeken.",
+        "Twee mensen komen hier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有两本书。",
+          "两个人来这里。"
+        ],
+        "english": [
+          "I have two books.",
+          "Two people come here."
+        ]
+      },
+      "notes": "基数词，序数词：tweede（第二）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 443,
+      "word": "twintig",
+      "translation": {
+        "chinese": "二十",
+        "english": "twenty"
+      },
+      "partOfSpeech": "number",
+      "forms": {},
+      "examples": [
+        "Ik ben twintig jaar oud.",
+        "Er zijn twintig studenten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我二十岁。",
+          "有二十个学生。"
+        ],
+        "english": [
+          "I am twenty years old.",
+          "There are twenty students."
+        ]
+      },
+      "notes": "基数词，序数词：twintigste（第二十）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 444,
+      "word": "u",
+      "translation": {
+        "chinese": "您",
+        "english": "you (polite)"
+      },
+      "partOfSpeech": "pronoun",
+      "forms": {},
+      "examples": [
+        "Wat wilt u?",
+        "Kan ik u helpen?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "您想要什么？",
+          "我可以帮您吗？"
+        ],
+        "english": [
+          "What do you want?",
+          "Can I help you?"
+        ]
+      },
+      "notes": "正式称呼，动词形式同je/jij",
+      "difficulty": "A1"
+    },
+    {
+      "id": 445,
+      "word": "uit",
+      "translation": {
+        "chinese": "出，从...出来",
+        "english": "out, from"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Ik kom uit Nederland.",
+        "Hij gaat uit huis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我来自荷兰。",
+          "他离家了。"
+        ],
+        "english": [
+          "I come from the Netherlands.",
+          "He leaves home."
+        ]
+      },
+      "notes": "介词，也可作可分动词前缀",
+      "difficulty": "A1"
+    },
+    {
+      "id": 446,
+      "word": "uitleggen",
+      "translation": {
+        "chinese": "解释",
+        "english": "to explain"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "uitgelegd",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "leg uit",
+            "jij": "legt uit",
+            "hij": "legt uit",
+            "wij/we": "leggen uit",
+            "jullie": "leggen uit",
+            "zij": "leggen uit",
+            "wij": "leggen uit"
+          },
+          "infinitive": "uitleggen",
+          "past": {
+            "singular": "legde uit",
+            "plural": "legden uit"
+          }
+        }
+      },
+      "examples": [
+        "Ik leg het uit.",
+        "Zij legt het woord uit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我解释这个。",
+          "她解释这个单词。"
+        ],
+        "english": [
+          "I explain it.",
+          "She explains the word."
+        ]
+      },
+      "notes": "可分动词，过去分词：uitgelegd（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 447,
+      "word": "uitnodigen",
+      "translation": {
+        "chinese": "邀请",
+        "english": "to invite"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "uitgenodigd",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": true,
+          "present": {
+            "ik": "nodig uit",
+            "jij": "nodigt uit",
+            "hij": "nodigt uit",
+            "wij/we": "nodigen uit",
+            "jullie": "nodigen uit",
+            "zij": "nodigen uit",
+            "wij": "nodigen uit"
+          },
+          "infinitive": "uitnodigen",
+          "past": {
+            "singular": "nodigde uit",
+            "plural": "nodigden uit"
+          },
+          "prefix": "uit"
+        }
+      },
+      "examples": [
+        "Ik nodig je uit.",
+        "Zij nodigt ons uit voor het feest."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我邀请你。",
+          "她邀请我们参加派对。"
+        ],
+        "english": [
+          "I invite you.",
+          "She invites us to the party."
+        ]
+      },
+      "notes": "可分动词，过去分词：uitgenodigd（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 448,
+      "word": "uur",
+      "translation": {
+        "chinese": "小时",
+        "english": "hour"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "uur",
+          "plural": "uren"
+        }
+      },
+      "examples": [
+        "Het is één uur.",
+        "Ik werk acht uur per dag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "现在是一点。",
+          "我每天工作八小时。"
+        ],
+        "english": [
+          "It is one o'clock.",
+          "I work eight hours per day."
+        ]
+      },
+      "notes": "复数形式：uren",
+      "difficulty": "A1"
+    },
+    {
+      "id": 449,
+      "word": "vaak",
+      "translation": {
+        "chinese": "经常",
+        "english": "often"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Ik ga vaak naar de stad.",
+        "Hij komt hier vaak."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我经常去城里。",
+          "他经常来这里。"
+        ],
+        "english": [
+          "I often go to the city.",
+          "He comes here often."
+        ]
+      },
+      "notes": "频率副词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 450,
+      "word": "vader",
+      "translation": {
+        "chinese": "父亲",
+        "english": "father"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "vader",
+          "plural": "vaders"
+        }
+      },
+      "examples": [
+        "Mijn vader is dokter.",
+        "Ik ben vader van drie kinderen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的父亲是医生。",
+          "我是三个孩子的父亲。"
+        ],
+        "english": [
+          "My father is a doctor.",
+          "I am a father of three children."
+        ]
+      },
+      "notes": "复数形式：vaders",
+      "difficulty": "A1"
+    },
+    {
+      "id": 451,
+      "word": "vakantie",
+      "translation": {
+        "chinese": "假期",
+        "english": "holiday, vacation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "vakantie",
+          "plural": "vakanties"
+        }
+      },
+      "examples": [
+        "Ik ga op vakantie.",
+        "Wij hebben een leuke vakantie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我去度假。",
+          "我们度过了一个愉快的假期。"
+        ],
+        "english": [
+          "I go on vacation.",
+          "We have a nice holiday."
+        ]
+      },
+      "notes": "复数形式：vakanties，搭配：op vakantie gaan（去度假）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 452,
+      "word": "van",
+      "translation": {
+        "chinese": "的，来自",
+        "english": "of, from"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Dit is een boek van mij.",
+        "Ik kom uit Amsterdam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是我的书。",
+          "我来自阿姆斯特丹。"
+        ],
+        "english": [
+          "This is a book of mine.",
+          "I come from Amsterdam."
+        ]
+      },
+      "notes": "介词，表示所属关系或来源",
+      "difficulty": "A1"
+    },
+    {
+      "id": 453,
+      "word": "vandaag",
+      "translation": {
+        "chinese": "今天",
+        "english": "today"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Ik ben vandaag vrij.",
+        "Vandaag regent het."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我今天有空。",
+          "今天下雨。"
+        ],
+        "english": [
+          "I am free today.",
+          "It rains today."
+        ]
+      },
+      "notes": "时间副词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 454,
+      "word": "vangen",
+      "translation": {
+        "chinese": "抓住，捕捉",
+        "english": "to catch"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gevangen",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "vang",
+            "jij": "vangt",
+            "hij": "vangt",
+            "wij/we": "vangen",
+            "jullie": "vangen",
+            "zij": "vangen",
+            "wij": "vangen"
+          },
+          "infinitive": "vangen",
+          "past": {
+            "singular": "ving",
+            "plural": "vingen"
+          }
+        }
+      },
+      "examples": [
+        "Ik vang een bal.",
+        "Hij vangt de trein."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我接住一个球。",
+          "他赶上了火车。"
+        ],
+        "english": [
+          "I catch a ball.",
+          "He catches the train."
+        ]
+      },
+      "notes": "强动词，过去分词：gevangen（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 455,
+      "word": "vanmiddag",
+      "translation": {
+        "chinese": "今天下午",
+        "english": "this afternoon"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Ik kom vanmiddag.",
+        "Wij eten vanmiddag thuis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我今天下午来。",
+          "我们今天下午在家吃饭。"
+        ],
+        "english": [
+          "I come this afternoon.",
+          "We eat at home this afternoon."
+        ]
+      },
+      "notes": "时间副词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 456,
+      "word": "vanochtend",
+      "translation": {
+        "chinese": "今天早上",
+        "english": "this morning"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Ik ben vanochtend opgestaan.",
+        "Zij komt vanochtend niet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我今天早上起床了。",
+          "她今天早上不来。"
+        ],
+        "english": [
+          "I got up this morning.",
+          "She does not come this morning."
+        ]
+      },
+      "notes": "时间副词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 457,
+      "word": "vanavond",
+      "translation": {
+        "chinese": "今晚",
+        "english": "this evening"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Ik kom vanavond.",
+        "Wij kijken vanavond TV."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我今晚来。",
+          "我们今晚看电视。"
+        ],
+        "english": [
+          "I come this evening.",
+          "We watch TV this evening."
+        ]
+      },
+      "notes": "时间副词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 458,
+      "word": "vanuit",
+      "translation": {
+        "chinese": "从...出发",
+        "english": "from"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Ik kijk vanuit het raam.",
+        "Wij reizen vanuit Amsterdam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我从窗户看。",
+          "我们从阿姆斯特丹出发旅行。"
+        ],
+        "english": [
+          "I look from the window.",
+          "We travel from Amsterdam."
+        ]
+      },
+      "notes": "复合介词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 459,
+      "word": "varken",
+      "translation": {
+        "chinese": "猪",
+        "english": "pig"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "varken",
+          "plural": "varkens"
+        }
+      },
+      "examples": [
+        "Het varken is groot.",
+        "Ik zie een varken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这头猪很大。",
+          "我看到一头猪。"
+        ],
+        "english": [
+          "The pig is big.",
+          "I see a pig."
+        ]
+      },
+      "notes": "复数形式：varkens",
+      "difficulty": "A1"
+    },
+    {
+      "id": 460,
+      "word": "vast",
+      "translation": {
+        "chinese": "固定的，紧的",
+        "english": "fixed, tight"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "comparative": "vaster",
+          "superlative": "vastst",
+          "withDe": "vaste",
+          "withHet": "vaste",
+          "base": "vast"
+        }
+      },
+      "examples": [
+        "De deur zit vast.",
+        "Ik heb een vaste baan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "门卡住了。",
+          "我有一份固定的工作。"
+        ],
+        "english": [
+          "The door is stuck.",
+          "I have a fixed job."
+        ]
+      },
+      "notes": "形容词变位：vaste",
+      "difficulty": "A1"
+    },
+    {
+      "id": 461,
+      "word": "veel",
+      "translation": {
+        "chinese": "许多",
+        "english": "many, much"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "comparative": "meer",
+          "superlative": "meest",
+          "withDe": "veel",
+          "withHet": "veel",
+          "base": "veel"
+        }
+      },
+      "examples": [
+        "Ik heb veel vrienden.",
+        "Er is veel water."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有很多朋友。",
+          "有很多水。"
+        ],
+        "english": [
+          "I have many friends.",
+          "There is much water."
+        ]
+      },
+      "notes": "不规则的比较级：meer，最高级：meest",
+      "difficulty": "A1"
+    },
+    {
+      "id": 462,
+      "word": "veertig",
+      "translation": {
+        "chinese": "四十",
+        "english": "forty"
+      },
+      "partOfSpeech": "number",
+      "forms": {},
+      "examples": [
+        "Ik ben veertig jaar oud.",
+        "Er zijn veertig mensen hier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我四十岁。",
+          "这里有四十个人。"
+        ],
+        "english": [
+          "I am forty years old.",
+          "There are forty people here."
+        ]
+      },
+      "notes": "基数词，序数词：veertigste（第四十）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 463,
+      "word": "veilig",
+      "translation": {
+        "chinese": "安全的",
+        "english": "safe"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "comparative": "veiliger",
+          "superlative": "veiligst",
+          "withDe": "veilige",
+          "withHet": "veilige",
+          "base": "veilig"
+        }
+      },
+      "examples": [
+        "De straat is veilig.",
+        "Ik voel me veilig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "街道很安全。",
+          "我感到安全。"
+        ],
+        "english": [
+          "The street is safe.",
+          "I feel safe."
+        ]
+      },
+      "notes": "形容词变位：veilige",
+      "difficulty": "A1"
+    },
+    {
+      "id": 464,
+      "word": "ver",
+      "translation": {
+        "chinese": "远的",
+        "english": "far"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "comparative": "verder",
+          "superlative": "verst",
+          "withDe": "ver",
+          "withHet": "ver",
+          "base": "ver"
+        }
+      },
+      "examples": [
+        "Het huis is ver.",
+        "Wij wonen ver van de stad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "房子很远。",
+          "我们住在远离城市的地方。"
+        ],
+        "english": [
+          "The house is far.",
+          "We live far from the city."
+        ]
+      },
+      "notes": "不规则的比较级：verder，最高级：verst",
+      "difficulty": "A1"
+    },
+    {
+      "id": 465,
+      "word": "veranderen",
+      "translation": {
+        "chinese": "改变",
+        "english": "to change"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "veranderd",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "verander",
+            "jij": "verandert",
+            "hij": "verandert",
+            "wij/we": "veranderen",
+            "jullie": "veranderen",
+            "zij": "veranderen",
+            "wij": "veranderen"
+          },
+          "infinitive": "veranderen",
+          "past": {
+            "singular": "veranderde",
+            "plural": "veranderden"
+          }
+        }
+      },
+      "examples": [
+        "Het weer verandert.",
+        "Ik verander mijn kleren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "天气在变化。",
+          "我换衣服。"
+        ],
+        "english": [
+          "The weather changes.",
+          "I change my clothes."
+        ]
+      },
+      "notes": "弱动词，过去分词：veranderd（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 466,
+      "word": "verder",
+      "translation": {
+        "chinese": "进一步的",
+        "english": "further"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Ik ga verder.",
+        "Vertel me verder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我继续。",
+          "继续告诉我。"
+        ],
+        "english": [
+          "I go further.",
+          "Tell me more."
+        ]
+      },
+      "notes": "副词，ver的比较级",
+      "difficulty": "A1"
+    },
+    {
+      "id": 467,
+      "word": "verdieping",
+      "translation": {
+        "chinese": "楼层",
+        "english": "floor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "verdieping",
+          "plural": "verdiepingen"
+        }
+      },
+      "examples": [
+        "Ik woon op de tweede verdieping.",
+        "Het gebouw heeft vijf verdiepingen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我住在三楼。",
+          "这栋楼有五层。"
+        ],
+        "english": [
+          "I live on the second floor.",
+          "The building has five floors."
+        ]
+      },
+      "notes": "复数形式：verdiepingen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 468,
+      "word": "vergeten",
+      "translation": {
+        "chinese": "忘记",
+        "english": "to forget"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "vergeten",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "vergeet",
+            "jij": "vergeet",
+            "hij": "vergeet",
+            "wij/we": "vergeten",
+            "jullie": "vergeten",
+            "zij": "vergeten",
+            "wij": "vergeten"
+          },
+          "infinitive": "vergeten",
+          "past": {
+            "singular": "vergat",
+            "plural": "vergaten"
+          }
+        }
+      },
+      "examples": [
+        "Ik vergeet mijn sleutels.",
+        "Zij vergeet het niet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我忘记了我的钥匙。",
+          "她没有忘记这件事。"
+        ],
+        "english": [
+          "I forget my keys.",
+          "She does not forget it."
+        ]
+      },
+      "notes": "强动词，过去分词：vergeten（用hebben），动词形式je/jij/u和hij/zij/het相同",
+      "difficulty": "A1"
+    },
+    {
+      "id": 469,
+      "word": "verhaal",
+      "translation": {
+        "chinese": "故事",
+        "english": "story"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "verhaal",
+          "plural": "verhalen"
+        }
+      },
+      "examples": [
+        "Dit is een mooi verhaal.",
+        "Hij vertelt een verhaal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个美丽的故事。",
+          "他讲了一个故事。"
+        ],
+        "english": [
+          "This is a beautiful story.",
+          "He tells a story."
+        ]
+      },
+      "notes": "复数形式：verhalen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 470,
+      "word": "verjaardag",
+      "translation": {
+        "chinese": "生日",
+        "english": "birthday"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "verjaardag",
+          "plural": "verjaardagen"
+        }
+      },
+      "examples": [
+        "Vandaag is mijn verjaardag.",
+        "Ik wens je een gelukkige verjaardag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "今天是我的生日。",
+          "祝你生日快乐。"
+        ],
+        "english": [
+          "Today is my birthday.",
+          "I wish you a happy birthday."
+        ]
+      },
+      "notes": "复数形式：verjaardagen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 471,
+      "word": "verkeerd",
+      "translation": {
+        "chinese": "错误的",
+        "english": "wrong"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "comparative": "verkeerder",
+          "superlative": "verkeerst",
+          "withDe": "verkeerde",
+          "withHet": "verkeerde",
+          "base": "verkeerd"
+        }
+      },
+      "examples": [
+        "Dit is verkeerd.",
+        "Je staat op de verkeerde plaats."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是错误的。",
+          "你站错了地方。"
+        ],
+        "english": [
+          "This is wrong.",
+          "You are at the wrong place."
+        ]
+      },
+      "notes": "形容词变位：verkeerde",
+      "difficulty": "A1"
+    },
+    {
+      "id": 472,
+      "word": "verkopen",
+      "translation": {
+        "chinese": "出售",
+        "english": "sells"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "verkocht",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "verkoop",
+            "jij": "verkoopt",
+            "hij": "verkoopt",
+            "wij/we": "verkopen",
+            "jullie": "verkopen",
+            "zij": "verkopen",
+            "wij": "verkopen"
+          },
+          "infinitive": "verkopen",
+          "past": {
+            "singular": "verkocht",
+            "plural": "verkochten"
+          }
+        }
+      },
+      "examples": [
+        "Hij verkoopt auto's.",
+        "De winkel verkoopt brood."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他卖汽车。",
+          "商店卖面包。"
+        ],
+        "english": [
+          "He sells cars.",
+          "The shop sells bread."
+        ]
+      },
+      "notes": "弱动词，过去分词：verkocht（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 474,
+      "word": "verliefd",
+      "translation": {
+        "chinese": "恋爱中的",
+        "english": "in love"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "comparative": "verlieverder",
+          "superlative": "verlieverst",
+          "withDe": "verliefde",
+          "withHet": "verliefde",
+          "base": "verliefd"
+        }
+      },
+      "examples": [
+        "Ik ben verliefd op jou.",
+        "Hij is verliefd op haar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我爱上你了。",
+          "他爱上她了。"
+        ],
+        "english": [
+          "I am in love with you.",
+          "He is in love with her."
+        ]
+      },
+      "notes": "搭配：verliefd zijn op（爱上...）",
+      "difficulty": "A1"
+    }
+  ]
+}

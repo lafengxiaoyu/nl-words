@@ -1,0 +1,1757 @@
+{
+  "id": "lA112",
+  "level": "A1",
+  "lessonNumber": 12,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 578,
+      "word": "wereld",
+      "translation": {
+        "chinese": "世界",
+        "english": "world"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "wereld",
+          "plural": "werelden"
+        }
+      },
+      "examples": [
+        "De wereld is groot.",
+        "Ik reis door de wereld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "世界很大。",
+          "我环游世界。"
+        ],
+        "english": [
+          "The world is big.",
+          "I travel the world."
+        ]
+      },
+      "notes": "复数形式：werelden",
+      "difficulty": "A1"
+    },
+    {
+      "id": 579,
+      "word": "werk",
+      "translation": {
+        "chinese": "工作",
+        "english": "work"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "werk",
+          "plural": "werken"
+        }
+      },
+      "examples": [
+        "Ik heb werk.",
+        "Het werk is belangrijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有工作。",
+          "工作很重要。"
+        ],
+        "english": [
+          "I have work.",
+          "The work is important."
+        ]
+      },
+      "notes": "复数形式：werken",
+      "difficulty": "A1"
+    },
+    {
+      "id": 580,
+      "word": "werken",
+      "translation": {
+        "chinese": "工作",
+        "english": "to work"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gewerkt",
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false,
+          "present": {
+            "ik": "werk",
+            "jij": "werkt",
+            "hij": "werkt",
+            "wij/we": "werken",
+            "jullie": "werken",
+            "zij": "werken",
+            "wij": "werken"
+          },
+          "infinitive": "werken",
+          "past": {
+            "singular": "werkte",
+            "plural": "werkten"
+          }
+        }
+      },
+      "examples": [
+        "Ik werk in een kantoor.",
+        "Zij werkt hard."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在办公室工作。",
+          "她努力工作。"
+        ],
+        "english": [
+          "I work in an office.",
+          "She works hard."
+        ]
+      },
+      "notes": "弱动词，过去分词：gewerkt（用zijn）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 581,
+      "word": "werknemer",
+      "translation": {
+        "chinese": "雇员",
+        "english": "employee"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "werknemer",
+          "plural": "werknemers"
+        }
+      },
+      "examples": [
+        "Hij is werknemer.",
+        "De werknemers werken hard."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是雇员。",
+          "雇员们努力工作。"
+        ],
+        "english": [
+          "He is an employee.",
+          "The employees work hard."
+        ]
+      },
+      "notes": "复数形式：werknemers",
+      "difficulty": "A1"
+    },
+    {
+      "id": 582,
+      "word": "west",
+      "translation": {
+        "chinese": "西方",
+        "english": "west"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "west",
+          "plural": "-",
+          "uncountablePreposition": "in het west"
+        }
+      },
+      "examples": [
+        "De zon gaat in het westen onder.",
+        "Wij wonen in het westen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "太阳在西边落下。",
+          "我们住在西部。"
+        ],
+        "english": [
+          "The sun sets in the west.",
+          "We live in the west."
+        ]
+      },
+      "notes": "方位名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 583,
+      "word": "wet",
+      "translation": {
+        "chinese": "法律",
+        "english": "law"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "wet",
+          "plural": "wetten"
+        }
+      },
+      "examples": [
+        "Dit is de wet.",
+        "Er zijn veel wetten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这就是法律。",
+          "有很多法律。"
+        ],
+        "english": [
+          "This is the law.",
+          "There are many laws."
+        ]
+      },
+      "notes": "复数形式：wetten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 584,
+      "word": "weten",
+      "translation": {
+        "chinese": "知道",
+        "english": "to know"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "geweten",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "weet",
+            "jij": "weet",
+            "hij": "weet",
+            "wij/we": "weten",
+            "jullie": "weten",
+            "zij": "weten",
+            "wij": "weten"
+          },
+          "infinitive": "weten",
+          "past": {
+            "singular": "wist",
+            "plural": "wisten"
+          }
+        }
+      },
+      "examples": [
+        "Ik weet het.",
+        "Zij weet het antwoord."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我知道。",
+          "她知道答案。"
+        ],
+        "english": [
+          "I know it.",
+          "She knows the answer."
+        ]
+      },
+      "notes": "不规则动词，过去分词：geweten（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 585,
+      "word": "wezen",
+      "translation": {
+        "chinese": "成为",
+        "english": "to become"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "geweest",
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false,
+          "present": {
+            "ik": "word",
+            "jij": "wordt",
+            "hij": "wordt",
+            "wij/we": "worden",
+            "jullie": "worden",
+            "zij": "worden",
+            "wij": "worden"
+          },
+          "infinitive": "wezen",
+          "past": {
+            "singular": "was",
+            "plural": "waren"
+          }
+        }
+      },
+      "examples": [
+        "Ik word dokter.",
+        "Zij wordt lerares."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我要成为医生。",
+          "她要成为老师。"
+        ],
+        "english": [
+          "I become a doctor.",
+          "She becomes a teacher."
+        ]
+      },
+      "notes": "不规则动词，过去分词：geweest（用zijn）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 586,
+      "word": "wie",
+      "translation": {
+        "chinese": "谁",
+        "english": "who"
+      },
+      "partOfSpeech": "pronoun",
+      "forms": {},
+      "examples": [
+        "Wie ben jij?",
+        "Ik weet niet wie hij is."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你是谁？",
+          "我不知道他是谁。"
+        ],
+        "english": [
+          "Who are you?",
+          "I don't know who he is."
+        ]
+      },
+      "notes": "疑问代词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 587,
+      "word": "wij",
+      "translation": {
+        "chinese": "我们（主格）",
+        "english": "we (subject)"
+      },
+      "partOfSpeech": "pronoun",
+      "forms": {},
+      "examples": [
+        "Wij zijn vrienden.",
+        "Wij leren Nederlands."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们是朋友。",
+          "我们学荷兰语。"
+        ],
+        "english": [
+          "We are friends.",
+          "We learn Dutch."
+        ]
+      },
+      "notes": "第一人称复数主格，宾格是ons",
+      "difficulty": "A1"
+    },
+    {
+      "id": 588,
+      "word": "wijk",
+      "translation": {
+        "chinese": "区，街区",
+        "english": "district, neighborhood"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "wijk",
+          "plural": "wijken"
+        }
+      },
+      "examples": [
+        "Ik woon in deze wijk.",
+        "De wijk is mooi."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我住在这个区。",
+          "这个街区很漂亮。"
+        ],
+        "english": [
+          "I live in this district.",
+          "The neighborhood is beautiful."
+        ]
+      },
+      "notes": "复数形式：wijken",
+      "difficulty": "A1"
+    },
+    {
+      "id": 589,
+      "word": "wijn",
+      "translation": {
+        "chinese": "酒",
+        "english": "wine"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "wijn",
+          "plural": "wijnen"
+        }
+      },
+      "examples": [
+        "Ik drink wijn.",
+        "De wijn is rood."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喝酒。",
+          "酒是红色的。"
+        ],
+        "english": [
+          "I drink wine.",
+          "The wine is red."
+        ]
+      },
+      "notes": "复数形式：wijnen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 590,
+      "word": "wijzen",
+      "translation": {
+        "chinese": "指向",
+        "english": "points"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gewezen",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "wijs",
+            "jij": "wijst",
+            "hij": "wijst",
+            "wij/we": "wijzen",
+            "jullie": "wijzen",
+            "zij": "wijzen",
+            "wij": "wijzen"
+          },
+          "infinitive": "wijzen",
+          "past": {
+            "singular": "wees",
+            "plural": "wezen"
+          }
+        }
+      },
+      "examples": [
+        "Hij wijst naar de deur.",
+        "Zij wijst mij de weg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他指向门。",
+          "她给我指路。"
+        ],
+        "english": [
+          "He points at the door.",
+          "She shows me the way."
+        ]
+      },
+      "notes": "不规则动词，过去分词：gewezen（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 591,
+      "word": "willen",
+      "translation": {
+        "chinese": "想要",
+        "english": "want"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gewild",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "wil",
+            "jij": "wilt",
+            "hij": "wil",
+            "wij/we": "willen",
+            "jullie": "willen",
+            "zij": "willen",
+            "wij": "willen"
+          },
+          "infinitive": "willen",
+          "past": {
+            "singular": "wilde",
+            "plural": "wilden"
+          }
+        }
+      },
+      "examples": [
+        "Ik wil thuis blijven.",
+        "Hij wil naar huis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我想留在家里。",
+          "他想回家。"
+        ],
+        "english": [
+          "I want to stay home.",
+          "He wants to go home."
+        ]
+      },
+      "notes": "不规则动词，过去分词：gewild（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 593,
+      "word": "wind",
+      "translation": {
+        "chinese": "风",
+        "english": "wind"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "wind",
+          "plural": "winden"
+        }
+      },
+      "examples": [
+        "De wind is hard.",
+        "Er is veel wind."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "风很大。",
+          "风很大。"
+        ],
+        "english": [
+          "The wind is strong.",
+          "There is a lot of wind."
+        ]
+      },
+      "notes": "复数形式：winden",
+      "difficulty": "A1"
+    },
+    {
+      "id": 594,
+      "word": "winkel",
+      "translation": {
+        "chinese": "商店",
+        "english": "shop, store"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "winkel",
+          "plural": "winkels"
+        }
+      },
+      "examples": [
+        "Ik ga naar de winkel.",
+        "De winkel is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我去商店。",
+          "商店很大。"
+        ],
+        "english": [
+          "I go to the shop.",
+          "The shop is big."
+        ]
+      },
+      "notes": "复数形式：winkels",
+      "difficulty": "A1"
+    },
+    {
+      "id": 595,
+      "word": "winnen",
+      "translation": {
+        "chinese": "赢得",
+        "english": "to win"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gewonnen",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "win",
+            "jij": "wint",
+            "hij": "wint",
+            "wij/we": "winnen",
+            "jullie": "winnen",
+            "zij": "winnen",
+            "wij": "winnen"
+          },
+          "infinitive": "winnen",
+          "past": {
+            "singular": "won",
+            "plural": "wonen"
+          }
+        }
+      },
+      "examples": [
+        "Ik win het spel.",
+        "Zij wint de prijs."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我赢了比赛。",
+          "她赢了奖。"
+        ],
+        "english": [
+          "I win the game.",
+          "She wins the prize."
+        ]
+      },
+      "notes": "不规则动词，过去分词：gewonnen（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 596,
+      "word": "winter",
+      "translation": {
+        "chinese": "冬天",
+        "english": "winter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "winter",
+          "plural": "winters"
+        }
+      },
+      "examples": [
+        "De winter is koud.",
+        "Ik hou van de winter."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "冬天很冷。",
+          "我喜欢冬天。"
+        ],
+        "english": [
+          "The winter is cold.",
+          "I love the winter."
+        ]
+      },
+      "notes": "复数形式：winters",
+      "difficulty": "A1"
+    },
+    {
+      "id": 597,
+      "word": "wissen",
+      "translation": {
+        "chinese": "擦除，删除",
+        "english": "to erase, to delete"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gewist",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "wis",
+            "jij": "wist",
+            "hij": "wist",
+            "wij/we": "wissen",
+            "jullie": "wissen",
+            "zij": "wissen",
+            "wij": "wissen"
+          },
+          "infinitive": "wissen",
+          "past": {
+            "singular": "wisste",
+            "plural": "wisten"
+          }
+        }
+      },
+      "examples": [
+        "Ik wis het bord.",
+        "Zij wist de tekst."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我擦黑板。",
+          "她删除文本。"
+        ],
+        "english": [
+          "I erase the board.",
+          "She deletes the text."
+        ]
+      },
+      "notes": "强动词，过去分词：gewist（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 598,
+      "word": "wit",
+      "translation": {
+        "chinese": "白色的",
+        "english": "white"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "comparative": "witter",
+          "superlative": "witst",
+          "withDe": "witte",
+          "withHet": "witte",
+          "base": "wit"
+        }
+      },
+      "examples": [
+        "Het huis is wit.",
+        "Ik draag een witte jurk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "房子是白色的。",
+          "我穿白裙子。"
+        ],
+        "english": [
+          "The house is white.",
+          "I wear a white dress."
+        ]
+      },
+      "notes": "形容词变位：witte",
+      "difficulty": "A1"
+    },
+    {
+      "id": 599,
+      "word": "woensdag",
+      "translation": {
+        "chinese": "星期三",
+        "english": "Wednesday"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "woensdag",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Vandaag is woensdag.",
+        "Ik werk niet op woensdag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "今天是星期三。",
+          "我星期三不工作。"
+        ],
+        "english": [
+          "Today is Wednesday.",
+          "I don't work on Wednesday."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 600,
+      "word": "wol",
+      "translation": {
+        "chinese": "羊毛",
+        "english": "wool"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "wol",
+          "plural": "wollen"
+        }
+      },
+      "examples": [
+        "De trui is van wol.",
+        "Ik houd van wol."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "毛衣是羊毛的。",
+          "我喜欢羊毛。"
+        ],
+        "english": [
+          "The sweater is made of wool.",
+          "I like wool."
+        ]
+      },
+      "notes": "复数形式：wollen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 601,
+      "word": "wolk",
+      "translation": {
+        "chinese": "云",
+        "english": "cloud"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "wolk",
+          "plural": "wolken"
+        }
+      },
+      "examples": [
+        "De wolk is wit.",
+        "Er zijn veel wolken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "云是白色的。",
+          "有很多云。"
+        ],
+        "english": [
+          "The cloud is white.",
+          "There are many clouds."
+        ]
+      },
+      "notes": "复数形式：wolken",
+      "difficulty": "A1"
+    },
+    {
+      "id": 602,
+      "word": "wonen",
+      "translation": {
+        "chinese": "居住",
+        "english": "to live"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gewoond",
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false,
+          "present": {
+            "ik": "woon",
+            "jij": "woont",
+            "hij": "woont",
+            "wij/we": "wonen",
+            "jullie": "wonen",
+            "zij": "wonen",
+            "wij": "wonen"
+          },
+          "infinitive": "wonen",
+          "past": {
+            "singular": "woonde",
+            "plural": "woonden"
+          }
+        }
+      },
+      "examples": [
+        "Ik woon in Amsterdam.",
+        "Zij woont bij haar ouders."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我住在阿姆斯特丹。",
+          "她和父母住在一起。"
+        ],
+        "english": [
+          "I live in Amsterdam.",
+          "She lives with her parents."
+        ]
+      },
+      "notes": "弱动词，过去分词：gewoond（用zijn）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 603,
+      "word": "woning",
+      "translation": {
+        "chinese": "住宅",
+        "english": "residence"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "woning",
+          "plural": "woningen"
+        }
+      },
+      "examples": [
+        "Dit is een mooie woning.",
+        "De woning heeft drie kamers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一所漂亮的住宅。",
+          "这所住宅有三个房间。"
+        ],
+        "english": [
+          "This is a beautiful residence.",
+          "The residence has three rooms."
+        ]
+      },
+      "notes": "复数形式：woningen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 604,
+      "word": "woonkamer",
+      "translation": {
+        "chinese": "客厅",
+        "english": "living room"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "woonkamer",
+          "plural": "woonkamers"
+        }
+      },
+      "examples": [
+        "De woonkamer is groot.",
+        "Ik zit in de woonkamer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "客厅很大。",
+          "我在客厅。"
+        ],
+        "english": [
+          "The living room is big.",
+          "I sit in the living room."
+        ]
+      },
+      "notes": "复合词：woon（住）+ kamer（房间），复数形式：woonkamers",
+      "difficulty": "A1"
+    },
+    {
+      "id": 605,
+      "word": "woord",
+      "translation": {
+        "chinese": "单词",
+        "english": "word"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "woord",
+          "plural": "woorden"
+        }
+      },
+      "examples": [
+        "Dit is een moeilijk woord.",
+        "Ik leer veel woorden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个难词。",
+          "我学很多单词。"
+        ],
+        "english": [
+          "This is a difficult word.",
+          "I learn many words."
+        ]
+      },
+      "notes": "复数形式：woorden",
+      "difficulty": "A1"
+    },
+    {
+      "id": 606,
+      "word": "worden",
+      "translation": {
+        "chinese": "成为",
+        "english": "to become"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "geworden",
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false,
+          "present": {
+            "ik": "word",
+            "jij": "wordt",
+            "hij": "wordt",
+            "wij/we": "worden",
+            "jullie": "worden",
+            "zij": "worden",
+            "wij": "worden"
+          },
+          "infinitive": "worden",
+          "past": {
+            "singular": "werd",
+            "plural": "werden"
+          }
+        }
+      },
+      "examples": [
+        "Ik word moe.",
+        "Het wordt donker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我累了。",
+          "天变黑了。"
+        ],
+        "english": [
+          "I become tired.",
+          "It becomes dark."
+        ]
+      },
+      "notes": "不规则动词，过去分词：geworden（用zijn）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 607,
+      "word": "woud",
+      "translation": {
+        "chinese": "森林",
+        "english": "forest"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "woud",
+          "plural": "wouden"
+        }
+      },
+      "examples": [
+        "Het woud is groot.",
+        "Ik loop in het woud."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "森林很大。",
+          "我在森林里走。"
+        ],
+        "english": [
+          "The forest is big.",
+          "I walk in the forest."
+        ]
+      },
+      "notes": "复数形式：wouden",
+      "difficulty": "A1"
+    },
+    {
+      "id": 608,
+      "word": "wrijven",
+      "translation": {
+        "chinese": "摩擦",
+        "english": "to rub"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gewreven",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "wrijf",
+            "jij": "wrijft",
+            "hij": "wrijft",
+            "wij/we": "wrijven",
+            "jullie": "wrijven",
+            "zij": "wrijven",
+            "wij": "wrijven"
+          },
+          "infinitive": "wrijven",
+          "past": {
+            "singular": "wreef",
+            "plural": "wreven"
+          }
+        }
+      },
+      "examples": [
+        "Ik wrijf mijn ogen.",
+        "Zij wrijft de deur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我擦眼睛。",
+          "她摩擦门。"
+        ],
+        "english": [
+          "I rub my eyes.",
+          "She rubs the door."
+        ]
+      },
+      "notes": "强动词，过去分词：gewreven（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 609,
+      "word": "ze",
+      "translation": {
+        "chinese": "她们，它们",
+        "english": "they, them"
+      },
+      "partOfSpeech": "pronoun",
+      "forms": {},
+      "examples": [
+        "Ze zijn vrienden.",
+        "Ik help ze."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她们是朋友。",
+          "我帮助她们。"
+        ],
+        "english": [
+          "They are friends.",
+          "I help them."
+        ]
+      },
+      "notes": "第三人称复数代词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 610,
+      "word": "zee",
+      "translation": {
+        "chinese": "海",
+        "english": "sea"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zee",
+          "plural": "zeeën"
+        }
+      },
+      "examples": [
+        "De zee is blauw.",
+        "Ik zwem in de zee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "海是蓝色的。",
+          "我在海里游泳。"
+        ],
+        "english": [
+          "The sea is blue.",
+          "I swim in the sea."
+        ]
+      },
+      "notes": "复数形式：zeeën",
+      "difficulty": "A1"
+    },
+    {
+      "id": 611,
+      "word": "zeep",
+      "translation": {
+        "chinese": "肥皂",
+        "english": "soap"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zeep",
+          "plural": "zepen"
+        }
+      },
+      "examples": [
+        "Ik gebruik zeep.",
+        "De zeep ruikt lekker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我用肥皂。",
+          "肥皂闻起来很香。"
+        ],
+        "english": [
+          "I use soap.",
+          "The soap smells good."
+        ]
+      },
+      "notes": "复数形式：zepen（长元音ee变为短元音e）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 612,
+      "word": "zeer",
+      "translation": {
+        "chinese": "非常",
+        "english": "very"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Ik ben zeer blij.",
+        "Het is zeer mooi."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我非常高兴。",
+          "这非常漂亮。"
+        ],
+        "english": [
+          "I am very happy.",
+          "It is very beautiful."
+        ]
+      },
+      "notes": "程度副词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 613,
+      "word": "zeggen",
+      "translation": {
+        "chinese": "说",
+        "english": "to say"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gezegd",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "zeg",
+            "jij": "zegt",
+            "hij": "zegt",
+            "wij/we": "zeggen",
+            "jullie": "zeggen",
+            "zij": "zeggen",
+            "wij": "zeggen"
+          },
+          "infinitive": "zeggen",
+          "past": {
+            "singular": "zei",
+            "plural": "zeiden"
+          }
+        }
+      },
+      "examples": [
+        "Ik zeg het.",
+        "Zij zegt de waarheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我说。",
+          "她说实话。"
+        ],
+        "english": [
+          "I say it.",
+          "She tells the truth."
+        ]
+      },
+      "notes": "不规则动词，过去分词：gezegd（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 614,
+      "word": "zeven",
+      "translation": {
+        "chinese": "七",
+        "english": "seven"
+      },
+      "partOfSpeech": "number",
+      "forms": {},
+      "examples": [
+        "Ik heb zeven boeken.",
+        "Het is zeven uur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有七本书。",
+          "现在是七点。"
+        ],
+        "english": [
+          "I have seven books.",
+          "It is seven o'clock."
+        ]
+      },
+      "notes": "基数词，序数词：zevende（第七）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 615,
+      "word": "zestig",
+      "translation": {
+        "chinese": "六十",
+        "english": "sixty"
+      },
+      "partOfSpeech": "number",
+      "forms": {},
+      "examples": [
+        "Ik ben zestig jaar oud.",
+        "Er zijn zestig studenten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我六十岁。",
+          "有六十个学生。"
+        ],
+        "english": [
+          "I am sixty years old.",
+          "There are sixty students."
+        ]
+      },
+      "notes": "基数词，序数词：zestigste（第六十）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 616,
+      "word": "zetten",
+      "translation": {
+        "chinese": "放",
+        "english": "put"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gezet",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "zet",
+            "jij": "zet",
+            "hij": "zet",
+            "wij/we": "zetten",
+            "jullie": "zetten",
+            "zij": "zetten",
+            "wij": "zetten"
+          },
+          "infinitive": "zetten",
+          "past": {
+            "singular": "zette",
+            "plural": "zetten"
+          }
+        }
+      },
+      "examples": [
+        "Ik zet de glas op tafel.",
+        "Hij zet het boek weg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我把杯子放在桌子上。",
+          "他把书收起来。"
+        ],
+        "english": [
+          "I put the glass on the table.",
+          "He puts the book away."
+        ]
+      },
+      "notes": "弱动词，过去分词：gezet（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 618,
+      "word": "zeventig",
+      "translation": {
+        "chinese": "七十",
+        "english": "seventy"
+      },
+      "partOfSpeech": "number",
+      "forms": {},
+      "examples": [
+        "Ik ben zeventig jaar oud.",
+        "Er zijn zeventig mensen hier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我七十岁。",
+          "这里有七十个人。"
+        ],
+        "english": [
+          "I am seventy years old.",
+          "There are seventy people here."
+        ]
+      },
+      "notes": "基数词，序数词：zeventigste（第七十）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 619,
+      "word": "zich",
+      "translation": {
+        "chinese": "自己",
+        "english": "oneself"
+      },
+      "partOfSpeech": "pronoun",
+      "forms": {},
+      "examples": [
+        "Ik was mij.",
+        "Zij wast zich."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我洗自己。",
+          "她洗她自己。"
+        ],
+        "english": [
+          "I wash myself.",
+          "She washes herself."
+        ]
+      },
+      "notes": "反身代词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 620,
+      "word": "ziek",
+      "translation": {
+        "chinese": "病的",
+        "english": "sick"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "comparative": "zieker",
+          "superlative": "ziekst",
+          "withDe": "zieke",
+          "withHet": "zieke",
+          "base": "ziek"
+        }
+      },
+      "examples": [
+        "Ik ben ziek.",
+        "De zieke man ligt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我病了。",
+          "病人在躺着。"
+        ],
+        "english": [
+          "I am sick.",
+          "The sick man lies down."
+        ]
+      },
+      "notes": "形容词变位：zieke",
+      "difficulty": "A1"
+    },
+    {
+      "id": 621,
+      "word": "ziekenhuis",
+      "translation": {
+        "chinese": "医院",
+        "english": "hospital"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "ziekenhuis",
+          "plural": "ziekenhuizen"
+        }
+      },
+      "examples": [
+        "Ik ga naar het ziekenhuis.",
+        "Het ziekenhuis is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我去医院。",
+          "医院很大。"
+        ],
+        "english": [
+          "I go to the hospital.",
+          "The hospital is big."
+        ]
+      },
+      "notes": "复合词：ziek（病）+ huis（房子），复数形式：ziekenhuizen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 622,
+      "word": "zien",
+      "translation": {
+        "chinese": "看见",
+        "english": "to see"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gezien",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "zie",
+            "jij": "ziet",
+            "hij": "ziet",
+            "wij/we": "zien",
+            "jullie": "zien",
+            "zij": "zien",
+            "wij": "zien"
+          },
+          "infinitive": "zien",
+          "past": {
+            "singular": "zag",
+            "plural": "zagen"
+          }
+        }
+      },
+      "examples": [
+        "Ik zie de auto.",
+        "Zij ziet mij niet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我看见汽车。",
+          "她看不见我。"
+        ],
+        "english": [
+          "I see the car.",
+          "She doesn't see me."
+        ]
+      },
+      "notes": "不规则动词，过去分词：gezien（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 623,
+      "word": "zij",
+      "translation": {
+        "chinese": "她，她们",
+        "english": "she, they"
+      },
+      "partOfSpeech": "pronoun",
+      "forms": {},
+      "examples": [
+        "Zij is lerares.",
+        "Zij wonen in Amsterdam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她是老师。",
+          "她们住在阿姆斯特丹。"
+        ],
+        "english": [
+          "She is a teacher.",
+          "They live in Amsterdam."
+        ]
+      },
+      "notes": "第三人称单数或复数代词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 625,
+      "word": "zilver",
+      "translation": {
+        "chinese": "银",
+        "english": "silver"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "zilver",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De ring is van zilver.",
+        "Zilver is waardevol."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "戒指是银做的。",
+          "银很有价值。"
+        ],
+        "english": [
+          "The ring is made of silver.",
+          "Silver is valuable."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 626,
+      "word": "zin",
+      "translation": {
+        "chinese": "句子",
+        "english": "sentence"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zin",
+          "plural": "zinnen"
+        }
+      },
+      "examples": [
+        "De zin is lang.",
+        "Ik schrijf een zin."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "句子很长。",
+          "我写一个句子。"
+        ],
+        "english": [
+          "The sentence is long.",
+          "I write a sentence."
+        ]
+      },
+      "notes": "复数形式：zinnen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 627,
+      "word": "zingen",
+      "translation": {
+        "chinese": "唱歌",
+        "english": "to sing"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gezongen",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "zing",
+            "jij": "zingt",
+            "hij": "zingt",
+            "wij/we": "zingen",
+            "jullie": "zingen",
+            "zij": "zingen",
+            "wij": "zingen"
+          },
+          "infinitive": "zingen",
+          "past": {
+            "singular": "zong",
+            "plural": "zongen"
+          }
+        }
+      },
+      "examples": [
+        "Ik zing een lied.",
+        "Zij zingt mooi."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我唱歌。",
+          "她唱得很好听。"
+        ],
+        "english": [
+          "I sing a song.",
+          "She sings beautifully."
+        ]
+      },
+      "notes": "强动词，过去分词：gezongen（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 628,
+      "word": "zitten",
+      "translation": {
+        "chinese": "坐着",
+        "english": "to sit"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gezeten",
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false,
+          "present": {
+            "ik": "zit",
+            "jij": "zit",
+            "hij": "zit",
+            "wij/we": "zitten",
+            "jullie": "zitten",
+            "zij": "zitten",
+            "wij": "zitten"
+          },
+          "infinitive": "zitten",
+          "past": {
+            "singular": "zat",
+            "plural": "zaten"
+          }
+        }
+      },
+      "examples": [
+        "Ik zit op de stoel.",
+        "Zij zit in de kamer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我坐在椅子上。",
+          "她坐在房间里。"
+        ],
+        "english": [
+          "I sit on the chair.",
+          "She sits in the room."
+        ]
+      },
+      "notes": "不规则动词，过去分词：gezeten（用zijn）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 629,
+      "word": "zo",
+      "translation": {
+        "chinese": "如此",
+        "english": "so, thus"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Zo is het.",
+        "Ik doe zo."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "就是这样。",
+          "我这样做。"
+        ],
+        "english": [
+          "So it is.",
+          "I do so."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 630,
+      "word": "zoals",
+      "translation": {
+        "chinese": "像...一样",
+        "english": "like, as"
+      },
+      "partOfSpeech": "conjunction",
+      "forms": {},
+      "examples": [
+        "Zij zingt zoals ik.",
+        "Hij werkt zoals ik."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她像我一样唱歌。",
+          "他像我一样工作。"
+        ],
+        "english": [
+          "She sings like me.",
+          "He works like me."
+        ]
+      },
+      "notes": "连词，表示比较",
+      "difficulty": "A1"
+    }
+  ]
+}

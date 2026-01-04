@@ -1,0 +1,48 @@
+{
+  "totalWords": 626,
+  "byDifficulty": {
+    "A1": 616,
+    "A2": 4,
+    "B1": 4,
+    "B2": 1,
+    "C2": 1
+  },
+  "byPartOfSpeech": {
+    "interjection": 10,
+    "phrase": 2,
+    "noun": 285,
+    "verb": 105,
+    "adjective": 83,
+    "preposition": 23,
+    "adverb": 62,
+    "pronoun": 25,
+    "conjunction": 9,
+    "article": 3,
+    "numeral": 2,
+    "determiner": 1,
+    "possessive": 3,
+    "number": 13
+  },
+  "byLevelAndPos": {
+    "A1-interjection": 10,
+    "A1-phrase": 2,
+    "A1-noun": 281,
+    "A2-verb": 3,
+    "A2-adjective": 1,
+    "A1-verb": 100,
+    "A1-adjective": 82,
+    "B1-noun": 2,
+    "B2-noun": 1,
+    "B1-verb": 2,
+    "C2-noun": 1,
+    "A1-preposition": 23,
+    "A1-adverb": 62,
+    "A1-pronoun": 25,
+    "A1-conjunction": 9,
+    "A1-article": 3,
+    "A1-numeral": 2,
+    "A1-determiner": 1,
+    "A1-possessive": 3,
+    "A1-number": 13
+  }
+}

@@ -1,0 +1,6262 @@
+{
+  "1": {
+    "id": 1,
+    "word": "hallo",
+    "level": "A1",
+    "partOfSpeech": "interjection",
+    "translation": {
+      "chinese": "你好",
+      "english": "hello"
+    }
+  },
+  "2": {
+    "id": 2,
+    "word": "dank je",
+    "level": "A1",
+    "partOfSpeech": "phrase",
+    "translation": {
+      "chinese": "谢谢",
+      "english": "thank you"
+    }
+  },
+  "3": {
+    "id": 3,
+    "word": "huis",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "房子",
+      "english": "house"
+    }
+  },
+  "4": {
+    "id": 4,
+    "word": "auto",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "汽车",
+      "english": "car"
+    }
+  },
+  "5": {
+    "id": 5,
+    "word": "eten",
+    "level": "A2",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "吃",
+      "english": "to eat"
+    }
+  },
+  "6": {
+    "id": 6,
+    "word": "goed",
+    "level": "A2",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "好的",
+      "english": "good"
+    }
+  },
+  "7": {
+    "id": 7,
+    "word": "water",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "水",
+      "english": "water"
+    }
+  },
+  "8": {
+    "id": 8,
+    "word": "boek",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "书",
+      "english": "book"
+    }
+  },
+  "9": {
+    "id": 9,
+    "word": "zijn",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "是",
+      "english": "to be"
+    }
+  },
+  "10": {
+    "id": 10,
+    "word": "mooi",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "美丽的",
+      "english": "beautiful"
+    }
+  },
+  "11": {
+    "id": 11,
+    "word": "samenwerking",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "合作",
+      "english": "collaboration"
+    }
+  },
+  "12": {
+    "id": 12,
+    "word": "verantwoordelijkheid",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "责任",
+      "english": "responsibility"
+    }
+  },
+  "13": {
+    "id": 13,
+    "word": "uitdaging",
+    "level": "B2",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "挑战",
+      "english": "challenge"
+    }
+  },
+  "14": {
+    "id": 14,
+    "word": "betalen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "支付",
+      "english": "to pay"
+    }
+  },
+  "15": {
+    "id": 15,
+    "word": "doorzettingsvermogen",
+    "level": "C2",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "毅力",
+      "english": "perseverance"
+    }
+  },
+  "16": {
+    "id": 16,
+    "word": "aankomen",
+    "level": "A2",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "到达",
+      "english": "to arrive"
+    }
+  },
+  "17": {
+    "id": 17,
+    "word": "opbellen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "打电话",
+      "english": "to call (by phone)"
+    }
+  },
+  "18": {
+    "id": 18,
+    "word": "groot",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "大的",
+      "english": "big, large"
+    }
+  },
+  "19": {
+    "id": 19,
+    "word": "lekker",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "美味的",
+      "english": "tasty, delicious"
+    }
+  },
+  "20": {
+    "id": 20,
+    "word": "koud",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "冷的",
+      "english": "cold"
+    }
+  },
+  "21": {
+    "id": 21,
+    "word": "tijd",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "时间",
+      "english": "time"
+    }
+  },
+  "22": {
+    "id": 22,
+    "word": "inloggen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "登录",
+      "english": "to log in"
+    }
+  },
+  "23": {
+    "id": 23,
+    "word": "snel",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "快的",
+      "english": "fast, quick"
+    }
+  },
+  "24": {
+    "id": 24,
+    "word": "koffie",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "咖啡",
+      "english": "coffee"
+    }
+  },
+  "25": {
+    "id": 25,
+    "word": "uitgaan",
+    "level": "A2",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "外出，出去玩",
+      "english": "to go out"
+    }
+  },
+  "26": {
+    "id": 26,
+    "word": "aan",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在...上，到",
+      "english": "on, to"
+    }
+  },
+  "27": {
+    "id": 27,
+    "word": "achter",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在...后面",
+      "english": "behind"
+    }
+  },
+  "28": {
+    "id": 28,
+    "word": "adres",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "地址",
+      "english": "address"
+    }
+  },
+  "29": {
+    "id": 29,
+    "word": "afspraak",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "约会，约定",
+      "english": "appointment"
+    }
+  },
+  "30": {
+    "id": 30,
+    "word": "al",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "已经",
+      "english": "already"
+    }
+  },
+  "31": {
+    "id": 31,
+    "word": "alleen",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "独自，只有",
+      "english": "alone, only"
+    }
+  },
+  "32": {
+    "id": 32,
+    "word": "alles",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "一切，所有",
+      "english": "everything"
+    }
+  },
+  "33": {
+    "id": 33,
+    "word": "als",
+    "level": "A1",
+    "partOfSpeech": "conjunction",
+    "translation": {
+      "chinese": "作为，当...时候",
+      "english": "as, when"
+    }
+  },
+  "34": {
+    "id": 34,
+    "word": "alsjeblieft",
+    "level": "A1",
+    "partOfSpeech": "interjection",
+    "translation": {
+      "chinese": "请，不客气",
+      "english": "please, here you go"
+    }
+  },
+  "35": {
+    "id": 35,
+    "word": "altijd",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "总是",
+      "english": "always"
+    }
+  },
+  "36": {
+    "id": 36,
+    "word": "alstublieft",
+    "level": "A1",
+    "partOfSpeech": "interjection",
+    "translation": {
+      "chinese": "请，不客气",
+      "english": "please, here you go"
+    }
+  },
+  "37": {
+    "id": 37,
+    "word": "ander",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "其他的，另一个",
+      "english": "other, another"
+    }
+  },
+  "38": {
+    "id": 38,
+    "word": "antwoord",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "回答",
+      "english": "answer"
+    }
+  },
+  "39": {
+    "id": 39,
+    "word": "appel",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "苹果",
+      "english": "apple"
+    }
+  },
+  "40": {
+    "id": 40,
+    "word": "appartement",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "公寓",
+      "english": "apartment"
+    }
+  },
+  "41": {
+    "id": 41,
+    "word": "familie",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "家庭",
+      "english": "family"
+    }
+  },
+  "42": {
+    "id": 42,
+    "word": "avond",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "晚上",
+      "english": "evening"
+    }
+  },
+  "43": {
+    "id": 43,
+    "word": "avondeten",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "晚餐",
+      "english": "dinner"
+    }
+  },
+  "44": {
+    "id": 44,
+    "word": "baas",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "老板",
+      "english": "boss"
+    }
+  },
+  "45": {
+    "id": 45,
+    "word": "badkamer",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "浴室",
+      "english": "bathroom"
+    }
+  },
+  "46": {
+    "id": 46,
+    "word": "bakker",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "面包师，面包店",
+      "english": "baker, bakery"
+    }
+  },
+  "47": {
+    "id": 47,
+    "word": "banaan",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "香蕉",
+      "english": "banana"
+    }
+  },
+  "48": {
+    "id": 48,
+    "word": "bank",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "银行，长椅",
+      "english": "bank, bench"
+    }
+  },
+  "49": {
+    "id": 49,
+    "word": "bed",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "床",
+      "english": "bed"
+    }
+  },
+  "50": {
+    "id": 50,
+    "word": "bedankt",
+    "level": "A1",
+    "partOfSpeech": "interjection",
+    "translation": {
+      "chinese": "谢谢",
+      "english": "thank you"
+    }
+  },
+  "51": {
+    "id": 51,
+    "word": "begrijpen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "理解，明白",
+      "english": "to understand"
+    }
+  },
+  "52": {
+    "id": 52,
+    "word": "belangrijk",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "重要的",
+      "english": "important"
+    }
+  },
+  "53": {
+    "id": 53,
+    "word": "bellen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "打电话",
+      "english": "to call, to ring"
+    }
+  },
+  "55": {
+    "id": 55,
+    "word": "fiets",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "自行车",
+      "english": "bicycle"
+    }
+  },
+  "56": {
+    "id": 56,
+    "word": "bezoek",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "访问，参观",
+      "english": "visit"
+    }
+  },
+  "57": {
+    "id": 57,
+    "word": "bier",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "啤酒",
+      "english": "beer"
+    }
+  },
+  "58": {
+    "id": 58,
+    "word": "bij",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在...附近，在...家",
+      "english": "at, near, by"
+    }
+  },
+  "59": {
+    "id": 59,
+    "word": "bijna",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "几乎，差点",
+      "english": "almost, nearly"
+    }
+  },
+  "60": {
+    "id": 60,
+    "word": "binnen",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "在里面，进来",
+      "english": "inside, come in"
+    }
+  },
+  "61": {
+    "id": 61,
+    "word": "blauw",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "蓝色的",
+      "english": "blue"
+    }
+  },
+  "62": {
+    "id": 62,
+    "word": "blij",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "高兴的",
+      "english": "happy, glad"
+    }
+  },
+  "63": {
+    "id": 63,
+    "word": "bloem",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "花",
+      "english": "flower"
+    }
+  },
+  "64": {
+    "id": 64,
+    "word": "fles",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "瓶子",
+      "english": "bottle"
+    }
+  },
+  "65": {
+    "id": 65,
+    "word": "boodschappen",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "购物，日用品",
+      "english": "groceries, shopping"
+    }
+  },
+  "66": {
+    "id": 66,
+    "word": "boom",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "树",
+      "english": "tree"
+    }
+  },
+  "67": {
+    "id": 67,
+    "word": "boot",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "船",
+      "english": "boat"
+    }
+  },
+  "68": {
+    "id": 68,
+    "word": "bord",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "盘子",
+      "english": "plate"
+    }
+  },
+  "69": {
+    "id": 69,
+    "word": "boven",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "上面，在上",
+      "english": "upstairs, above"
+    }
+  },
+  "70": {
+    "id": 70,
+    "word": "brief",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "信，信件",
+      "english": "letter"
+    }
+  },
+  "71": {
+    "id": 71,
+    "word": "broer",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "兄弟",
+      "english": "brother"
+    }
+  },
+  "72": {
+    "id": 72,
+    "word": "brood",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "面包",
+      "english": "bread"
+    }
+  },
+  "73": {
+    "id": 73,
+    "word": "broodje",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "小面包，三明治",
+      "english": "bread roll, sandwich"
+    }
+  },
+  "74": {
+    "id": 74,
+    "word": "bruin",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "棕色的",
+      "english": "brown"
+    }
+  },
+  "75": {
+    "id": 75,
+    "word": "buiten",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "外面，出去",
+      "english": "outside, out"
+    }
+  },
+  "76": {
+    "id": 76,
+    "word": "bus",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "公共汽车",
+      "english": "bus"
+    }
+  },
+  "77": {
+    "id": 77,
+    "word": "buurman",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "男邻居",
+      "english": "male neighbor"
+    }
+  },
+  "78": {
+    "id": 78,
+    "word": "buurvrouw",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "女邻居",
+      "english": "female neighbor"
+    }
+  },
+  "79": {
+    "id": 79,
+    "word": "cadeau",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "礼物",
+      "english": "gift, present"
+    }
+  },
+  "80": {
+    "id": 80,
+    "word": "chocolade",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "巧克力",
+      "english": "chocolate"
+    }
+  },
+  "81": {
+    "id": 81,
+    "word": "dag",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "白天，日",
+      "english": "day"
+    }
+  },
+  "82": {
+    "id": 82,
+    "word": "dank",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "谢谢",
+      "english": "thanks"
+    }
+  },
+  "83": {
+    "id": 83,
+    "word": "dankjewel",
+    "level": "A1",
+    "partOfSpeech": "interjection",
+    "translation": {
+      "chinese": "非常谢谢",
+      "english": "thank you very much"
+    }
+  },
+  "84": {
+    "id": 84,
+    "word": "dansen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "跳舞",
+      "english": "to dance"
+    }
+  },
+  "85": {
+    "id": 85,
+    "word": "dat",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "那，那个",
+      "english": "that"
+    }
+  },
+  "86": {
+    "id": 86,
+    "word": "de",
+    "level": "A1",
+    "partOfSpeech": "article",
+    "translation": {
+      "chinese": "这个（阳性/阴性）",
+      "english": "the (masculine/feminine)"
+    }
+  },
+  "87": {
+    "id": 87,
+    "word": "deur",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "门",
+      "english": "door"
+    }
+  },
+  "88": {
+    "id": 88,
+    "word": "deze",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "这个",
+      "english": "this"
+    }
+  },
+  "89": {
+    "id": 89,
+    "word": "dicht",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "关闭，近",
+      "english": "closed, near"
+    }
+  },
+  "90": {
+    "id": 90,
+    "word": "dictaat",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "讲义，笔记",
+      "english": "lecture notes"
+    }
+  },
+  "91": {
+    "id": 91,
+    "word": "die",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "那个",
+      "english": "that"
+    }
+  },
+  "92": {
+    "id": 92,
+    "word": "dier",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "动物",
+      "english": "animal"
+    }
+  },
+  "93": {
+    "id": 93,
+    "word": "ding",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "东西，事物",
+      "english": "thing"
+    }
+  },
+  "94": {
+    "id": 94,
+    "word": "dinsdag",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "星期二",
+      "english": "Tuesday"
+    }
+  },
+  "95": {
+    "id": 95,
+    "word": "dochter",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "女儿",
+      "english": "daughter"
+    }
+  },
+  "96": {
+    "id": 96,
+    "word": "doen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "做，干",
+      "english": "to do"
+    }
+  },
+  "97": {
+    "id": 97,
+    "word": "donderdag",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "星期四",
+      "english": "Thursday"
+    }
+  },
+  "98": {
+    "id": 98,
+    "word": "donker",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "暗的，黑色的",
+      "english": "dark"
+    }
+  },
+  "99": {
+    "id": 99,
+    "word": "door",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "通过，因为",
+      "english": "through, because"
+    }
+  },
+  "100": {
+    "id": 100,
+    "word": "doos",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "盒子",
+      "english": "box"
+    }
+  },
+  "101": {
+    "id": 101,
+    "word": "dorp",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "村庄",
+      "english": "village"
+    }
+  },
+  "102": {
+    "id": 102,
+    "word": "dorst",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "口渴",
+      "english": "thirst"
+    }
+  },
+  "103": {
+    "id": 103,
+    "word": "douche",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "淋浴",
+      "english": "shower"
+    }
+  },
+  "104": {
+    "id": 104,
+    "word": "dranken",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "饮料",
+      "english": "drinks"
+    }
+  },
+  "105": {
+    "id": 105,
+    "word": "drie",
+    "level": "A1",
+    "partOfSpeech": "numeral",
+    "translation": {
+      "chinese": "三",
+      "english": "three"
+    }
+  },
+  "106": {
+    "id": 106,
+    "word": "drinken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "喝",
+      "english": "to drink"
+    }
+  },
+  "107": {
+    "id": 107,
+    "word": "druk",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "忙的",
+      "english": "busy"
+    }
+  },
+  "108": {
+    "id": 108,
+    "word": "dubbel",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "双倍的",
+      "english": "double"
+    }
+  },
+  "109": {
+    "id": 109,
+    "word": "duur",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "贵的",
+      "english": "expensive"
+    }
+  },
+  "110": {
+    "id": 110,
+    "word": "echt",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "真的，真正的",
+      "english": "real, true"
+    }
+  },
+  "111": {
+    "id": 111,
+    "word": "een",
+    "level": "A1",
+    "partOfSpeech": "article",
+    "translation": {
+      "chinese": "一个",
+      "english": "a, an, one"
+    }
+  },
+  "112": {
+    "id": 112,
+    "word": "eerst",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "首先",
+      "english": "first"
+    }
+  },
+  "113": {
+    "id": 113,
+    "word": "ei",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "蛋",
+      "english": "egg"
+    }
+  },
+  "114": {
+    "id": 114,
+    "word": "eigen",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "自己的",
+      "english": "own"
+    }
+  },
+  "115": {
+    "id": 115,
+    "word": "eiland",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "岛屿",
+      "english": "island"
+    }
+  },
+  "116": {
+    "id": 116,
+    "word": "elkaar",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "互相",
+      "english": "each other"
+    }
+  },
+  "117": {
+    "id": 117,
+    "word": "en",
+    "level": "A1",
+    "partOfSpeech": "conjunction",
+    "translation": {
+      "chinese": "和",
+      "english": "and"
+    }
+  },
+  "118": {
+    "id": 118,
+    "word": "envelop",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "信封",
+      "english": "envelope"
+    }
+  },
+  "119": {
+    "id": 119,
+    "word": "er",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "那里，有",
+      "english": "there, it"
+    }
+  },
+  "120": {
+    "id": 120,
+    "word": "erg",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "非常",
+      "english": "very"
+    }
+  },
+  "121": {
+    "id": 121,
+    "word": "foto",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "照片",
+      "english": "photo, picture"
+    }
+  },
+  "122": {
+    "id": 122,
+    "word": "even",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "一会儿，甚至",
+      "english": "a moment, even"
+    }
+  },
+  "123": {
+    "id": 123,
+    "word": "fout",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "错误",
+      "english": "mistake, error"
+    }
+  },
+  "124": {
+    "id": 124,
+    "word": "fruit",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "水果",
+      "english": "fruit"
+    }
+  },
+  "125": {
+    "id": 125,
+    "word": "gaan",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "去",
+      "english": "to go"
+    }
+  },
+  "126": {
+    "id": 126,
+    "word": "gast",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "客人",
+      "english": "guest"
+    }
+  },
+  "127": {
+    "id": 127,
+    "word": "geboortedatum",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "出生日期",
+      "english": "date of birth"
+    }
+  },
+  "128": {
+    "id": 128,
+    "word": "geel",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "黄色的",
+      "english": "yellow"
+    }
+  },
+  "129": {
+    "id": 129,
+    "word": "geen",
+    "level": "A1",
+    "partOfSpeech": "determiner",
+    "translation": {
+      "chinese": "没有，不",
+      "english": "no, not any"
+    }
+  },
+  "130": {
+    "id": 130,
+    "word": "geld",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "钱",
+      "english": "money"
+    }
+  },
+  "131": {
+    "id": 131,
+    "word": "geluk",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "幸福，运气",
+      "english": "happiness, luck"
+    }
+  },
+  "132": {
+    "id": 132,
+    "word": "gemakkelijk",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "容易的",
+      "english": "easy"
+    }
+  },
+  "133": {
+    "id": 133,
+    "word": "genoeg",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "足够的",
+      "english": "enough"
+    }
+  },
+  "134": {
+    "id": 134,
+    "word": "gezin",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "家庭",
+      "english": "household"
+    }
+  },
+  "135": {
+    "id": 135,
+    "word": "gezond",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "健康的",
+      "english": "healthy"
+    }
+  },
+  "136": {
+    "id": 136,
+    "word": "gisteren",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "昨天",
+      "english": "yesterday"
+    }
+  },
+  "137": {
+    "id": 137,
+    "word": "glas",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "玻璃，玻璃杯",
+      "english": "glass, glass (cup)"
+    }
+  },
+  "139": {
+    "id": 139,
+    "word": "hand",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "手",
+      "english": "hand"
+    }
+  },
+  "140": {
+    "id": 140,
+    "word": "hard",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "硬的，努力的",
+      "english": "hard, difficult"
+    }
+  },
+  "141": {
+    "id": 141,
+    "word": "hart",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "心",
+      "english": "heart"
+    }
+  },
+  "142": {
+    "id": 142,
+    "word": "hebben",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "有",
+      "english": "to have"
+    }
+  },
+  "143": {
+    "id": 143,
+    "word": "heel",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "非常的，整个的",
+      "english": "very, whole"
+    }
+  },
+  "144": {
+    "id": 144,
+    "word": "heet",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "热的",
+      "english": "hot"
+    }
+  },
+  "145": {
+    "id": 145,
+    "word": "helpen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "帮助",
+      "english": "to help"
+    }
+  },
+  "146": {
+    "id": 146,
+    "word": "hem",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "他（宾格）",
+      "english": "him (object)"
+    }
+  },
+  "147": {
+    "id": 147,
+    "word": "herfst",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "秋天",
+      "english": "autumn, fall"
+    }
+  },
+  "148": {
+    "id": 148,
+    "word": "het",
+    "level": "A1",
+    "partOfSpeech": "article",
+    "translation": {
+      "chinese": "这个（中性）",
+      "english": "the (neuter)"
+    }
+  },
+  "149": {
+    "id": 149,
+    "word": "hier",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "这里",
+      "english": "here"
+    }
+  },
+  "150": {
+    "id": 150,
+    "word": "hij",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "他",
+      "english": "he"
+    }
+  },
+  "151": {
+    "id": 151,
+    "word": "hoe",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "如何",
+      "english": "how"
+    }
+  },
+  "152": {
+    "id": 152,
+    "word": "hoeveel",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "多少",
+      "english": "how much, how many"
+    }
+  },
+  "153": {
+    "id": 153,
+    "word": "hoi",
+    "level": "A1",
+    "partOfSpeech": "interjection",
+    "translation": {
+      "chinese": "嗨",
+      "english": "hi"
+    }
+  },
+  "154": {
+    "id": 154,
+    "word": "hond",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "狗",
+      "english": "dog"
+    }
+  },
+  "155": {
+    "id": 155,
+    "word": "honderd",
+    "level": "A1",
+    "partOfSpeech": "numeral",
+    "translation": {
+      "chinese": "一百",
+      "english": "hundred"
+    }
+  },
+  "156": {
+    "id": 156,
+    "word": "honger",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "饥饿",
+      "english": "hunger"
+    }
+  },
+  "157": {
+    "id": 157,
+    "word": "horen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "听见，听见",
+      "english": "to hear"
+    }
+  },
+  "158": {
+    "id": 158,
+    "word": "houden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "保持，拿着",
+      "english": "to hold, to keep"
+    }
+  },
+  "160": {
+    "id": 160,
+    "word": "huren",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "租",
+      "english": "to rent"
+    }
+  },
+  "161": {
+    "id": 161,
+    "word": "huwelijk",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "婚姻",
+      "english": "marriage"
+    }
+  },
+  "162": {
+    "id": 162,
+    "word": "iemand",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "某人",
+      "english": "someone"
+    }
+  },
+  "163": {
+    "id": 163,
+    "word": "iets",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "某物，一些",
+      "english": "something, a bit"
+    }
+  },
+  "164": {
+    "id": 164,
+    "word": "ijs",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "冰，冰淇淋",
+      "english": "ice, ice cream"
+    }
+  },
+  "165": {
+    "id": 165,
+    "word": "ik",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "我",
+      "english": "I"
+    }
+  },
+  "166": {
+    "id": 166,
+    "word": "in",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在...里面",
+      "english": "in"
+    }
+  },
+  "168": {
+    "id": 168,
+    "word": "ja",
+    "level": "A1",
+    "partOfSpeech": "interjection",
+    "translation": {
+      "chinese": "是",
+      "english": "yes"
+    }
+  },
+  "169": {
+    "id": 169,
+    "word": "jaar",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "年",
+      "english": "year"
+    }
+  },
+  "170": {
+    "id": 170,
+    "word": "jam",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "果酱",
+      "english": "jam"
+    }
+  },
+  "171": {
+    "id": 171,
+    "word": "januari",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "一月",
+      "english": "January"
+    }
+  },
+  "172": {
+    "id": 172,
+    "word": "jij",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "你",
+      "english": "you"
+    }
+  },
+  "173": {
+    "id": 173,
+    "word": "jong",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "年轻的",
+      "english": "young"
+    }
+  },
+  "174": {
+    "id": 174,
+    "word": "jou",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "你（宾格）",
+      "english": "you (object)"
+    }
+  },
+  "175": {
+    "id": 175,
+    "word": "jouw",
+    "level": "A1",
+    "partOfSpeech": "possessive",
+    "translation": {
+      "chinese": "你的",
+      "english": "your"
+    }
+  },
+  "176": {
+    "id": 176,
+    "word": "jullie",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "你们",
+      "english": "you (plural)"
+    }
+  },
+  "177": {
+    "id": 177,
+    "word": "kaas",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "奶酪",
+      "english": "cheese"
+    }
+  },
+  "178": {
+    "id": 178,
+    "word": "kaart",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "地图，卡片",
+      "english": "map, card"
+    }
+  },
+  "179": {
+    "id": 179,
+    "word": "kamer",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "房间",
+      "english": "room"
+    }
+  },
+  "180": {
+    "id": 180,
+    "word": "kunnen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "能，可以",
+      "english": "to be able to, can"
+    }
+  },
+  "181": {
+    "id": 181,
+    "word": "kantoor",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "办公室",
+      "english": "office"
+    }
+  },
+  "182": {
+    "id": 182,
+    "word": "kapot",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "坏的，破碎的",
+      "english": "broken"
+    }
+  },
+  "183": {
+    "id": 183,
+    "word": "kast",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "柜子",
+      "english": "cupboard, closet"
+    }
+  },
+  "184": {
+    "id": 184,
+    "word": "kat",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "猫",
+      "english": "cat"
+    }
+  },
+  "185": {
+    "id": 185,
+    "word": "keer",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "次，倍",
+      "english": "time (frequency), times"
+    }
+  },
+  "186": {
+    "id": 186,
+    "word": "kelder",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "地下室",
+      "english": "basement, cellar"
+    }
+  },
+  "187": {
+    "id": 187,
+    "word": "kennen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "认识",
+      "english": "to know (person)"
+    }
+  },
+  "188": {
+    "id": 188,
+    "word": "keuken",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "厨房",
+      "english": "kitchen"
+    }
+  },
+  "189": {
+    "id": 189,
+    "word": "kiezen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "选择",
+      "english": "to choose"
+    }
+  },
+  "190": {
+    "id": 190,
+    "word": "kijken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "看",
+      "english": "to look, to watch"
+    }
+  },
+  "191": {
+    "id": 191,
+    "word": "kind",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "孩子",
+      "english": "child"
+    }
+  },
+  "192": {
+    "id": 192,
+    "word": "klaar",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "准备好，完成",
+      "english": "ready, done"
+    }
+  },
+  "193": {
+    "id": 193,
+    "word": "klas",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "班级",
+      "english": "class"
+    }
+  },
+  "194": {
+    "id": 194,
+    "word": "kleding",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "衣服",
+      "english": "clothes"
+    }
+  },
+  "195": {
+    "id": 195,
+    "word": "klein",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "小的",
+      "english": "small, little"
+    }
+  },
+  "196": {
+    "id": 196,
+    "word": "kleur",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "颜色",
+      "english": "color"
+    }
+  },
+  "197": {
+    "id": 197,
+    "word": "klok",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "时钟",
+      "english": "clock"
+    }
+  },
+  "198": {
+    "id": 198,
+    "word": "knop",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "按钮",
+      "english": "button"
+    }
+  },
+  "200": {
+    "id": 200,
+    "word": "koken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "煮，烹饪",
+      "english": "to cook"
+    }
+  },
+  "201": {
+    "id": 201,
+    "word": "komen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "来",
+      "english": "to come"
+    }
+  },
+  "202": {
+    "id": 202,
+    "word": "koning",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "国王",
+      "english": "king"
+    }
+  },
+  "203": {
+    "id": 203,
+    "word": "kopen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "买",
+      "english": "to buy"
+    }
+  },
+  "204": {
+    "id": 204,
+    "word": "kop",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "头，杯子",
+      "english": "head, cup"
+    }
+  },
+  "206": {
+    "id": 206,
+    "word": "kort",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "短的",
+      "english": "short"
+    }
+  },
+  "208": {
+    "id": 208,
+    "word": "krant",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "报纸",
+      "english": "newspaper"
+    }
+  },
+  "209": {
+    "id": 209,
+    "word": "krijgen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "得到，收到",
+      "english": "to get, to receive"
+    }
+  },
+  "211": {
+    "id": 211,
+    "word": "kwart",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "四分之一，刻",
+      "english": "quarter"
+    }
+  },
+  "212": {
+    "id": 212,
+    "word": "laat",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "晚的",
+      "english": "late"
+    }
+  },
+  "213": {
+    "id": 213,
+    "word": "lachen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "笑",
+      "english": "to laugh"
+    }
+  },
+  "214": {
+    "id": 214,
+    "word": "lamp",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "灯",
+      "english": "lamp"
+    }
+  },
+  "215": {
+    "id": 215,
+    "word": "land",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "国家",
+      "english": "country, land"
+    }
+  },
+  "216": {
+    "id": 216,
+    "word": "lang",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "长的",
+      "english": "long, tall"
+    }
+  },
+  "217": {
+    "id": 217,
+    "word": "langzaam",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "慢的",
+      "english": "slow"
+    }
+  },
+  "218": {
+    "id": 218,
+    "word": "lopen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "走，行走",
+      "english": "to walk, to go"
+    }
+  },
+  "219": {
+    "id": 219,
+    "word": "leuk",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "有趣的，愉快的",
+      "english": "nice, fun, pleasant"
+    }
+  },
+  "220": {
+    "id": 220,
+    "word": "leven",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "生活，活着",
+      "english": "to live, life"
+    }
+  },
+  "221": {
+    "id": 221,
+    "word": "lezen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "阅读",
+      "english": "to read"
+    }
+  },
+  "222": {
+    "id": 222,
+    "word": "licht",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "轻的，光，光线",
+      "english": "light (adj), light (noun)"
+    }
+  },
+  "223": {
+    "id": 223,
+    "word": "lief",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "可爱的，亲爱的",
+      "english": "sweet, dear, kind"
+    }
+  },
+  "224": {
+    "id": 224,
+    "word": "liever",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "宁愿，更喜欢",
+      "english": "rather, prefer"
+    }
+  },
+  "225": {
+    "id": 225,
+    "word": "liggen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "躺着，位于",
+      "english": "to lie (position), to be located"
+    }
+  },
+  "226": {
+    "id": 226,
+    "word": "links",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "左边，左侧",
+      "english": "left"
+    }
+  },
+  "227": {
+    "id": 227,
+    "word": "lijst",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "列表，清单",
+      "english": "list"
+    }
+  },
+  "228": {
+    "id": 228,
+    "word": "luisteren",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "听，倾听",
+      "english": "to listen, to listen to"
+    }
+  },
+  "229": {
+    "id": 229,
+    "word": "maand",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "月，月份",
+      "english": "month"
+    }
+  },
+  "230": {
+    "id": 230,
+    "word": "maandag",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "星期一",
+      "english": "Monday"
+    }
+  },
+  "231": {
+    "id": 231,
+    "word": "maar",
+    "level": "A1",
+    "partOfSpeech": "conjunction",
+    "translation": {
+      "chinese": "但是，然而",
+      "english": "but, however"
+    }
+  },
+  "232": {
+    "id": 232,
+    "word": "maken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "做，制作",
+      "english": "to make, to do"
+    }
+  },
+  "233": {
+    "id": 233,
+    "word": "man",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "男人",
+      "english": "man, husband"
+    }
+  },
+  "234": {
+    "id": 234,
+    "word": "markt",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "市场，集市",
+      "english": "market"
+    }
+  },
+  "235": {
+    "id": 235,
+    "word": "mensen",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "人们",
+      "english": "people"
+    }
+  },
+  "236": {
+    "id": 236,
+    "word": "met",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "和，用，带有",
+      "english": "with, by, through"
+    }
+  },
+  "237": {
+    "id": 237,
+    "word": "mevrouw",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "女士，夫人",
+      "english": "Mrs., Ms., lady"
+    }
+  },
+  "238": {
+    "id": 238,
+    "word": "middag",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "下午",
+      "english": "afternoon"
+    }
+  },
+  "239": {
+    "id": 239,
+    "word": "mij",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "我（宾格）",
+      "english": "me (object)"
+    }
+  },
+  "240": {
+    "id": 240,
+    "word": "mijn",
+    "level": "A1",
+    "partOfSpeech": "possessive",
+    "translation": {
+      "chinese": "我的",
+      "english": "my, mine"
+    }
+  },
+  "241": {
+    "id": 241,
+    "word": "minder",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "更少的，较少",
+      "english": "less, fewer"
+    }
+  },
+  "242": {
+    "id": 242,
+    "word": "minuut",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "分钟",
+      "english": "minute"
+    }
+  },
+  "243": {
+    "id": 243,
+    "word": "misschien",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "也许，可能",
+      "english": "maybe, perhaps"
+    }
+  },
+  "244": {
+    "id": 244,
+    "word": "moeder",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "母亲",
+      "english": "mother"
+    }
+  },
+  "245": {
+    "id": 245,
+    "word": "moeilijk",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "困难的，难的",
+      "english": "difficult, hard"
+    }
+  },
+  "246": {
+    "id": 246,
+    "word": "moeten",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "必须，应该",
+      "english": "must, have to"
+    }
+  },
+  "247": {
+    "id": 247,
+    "word": "mogen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "可以，允许",
+      "english": "may, to be allowed"
+    }
+  },
+  "249": {
+    "id": 249,
+    "word": "morgen",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "明天，早上",
+      "english": "tomorrow, morning"
+    }
+  },
+  "250": {
+    "id": 250,
+    "word": "muis",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "老鼠，鼠标",
+      "english": "mouse (animal), mouse (computer)"
+    }
+  },
+  "251": {
+    "id": 251,
+    "word": "muziek",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "音乐",
+      "english": "music"
+    }
+  },
+  "252": {
+    "id": 252,
+    "word": "na",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在...之后，向",
+      "english": "after, to, towards"
+    }
+  },
+  "253": {
+    "id": 253,
+    "word": "naam",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "名字",
+      "english": "name"
+    }
+  },
+  "254": {
+    "id": 254,
+    "word": "naar",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "向，往",
+      "english": "to, towards, at"
+    }
+  },
+  "255": {
+    "id": 255,
+    "word": "naast",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在...旁边",
+      "english": "next to, beside"
+    }
+  },
+  "256": {
+    "id": 256,
+    "word": "nacht",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "夜晚",
+      "english": "night"
+    }
+  },
+  "257": {
+    "id": 257,
+    "word": "nat",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "湿的",
+      "english": "wet"
+    }
+  },
+  "258": {
+    "id": 258,
+    "word": "natuurlijk",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "当然，自然地",
+      "english": "of course, naturally"
+    }
+  },
+  "259": {
+    "id": 259,
+    "word": "nee",
+    "level": "A1",
+    "partOfSpeech": "interjection",
+    "translation": {
+      "chinese": "不",
+      "english": "no"
+    }
+  },
+  "260": {
+    "id": 260,
+    "word": "nemen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "拿，取",
+      "english": "take"
+    }
+  },
+  "261": {
+    "id": 261,
+    "word": "neef",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "表兄弟，堂兄弟",
+      "english": "cousin (male)"
+    }
+  },
+  "262": {
+    "id": 262,
+    "word": "negen",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "九",
+      "english": "nine"
+    }
+  },
+  "264": {
+    "id": 264,
+    "word": "nergens",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "无处，哪里都不",
+      "english": "nowhere"
+    }
+  },
+  "265": {
+    "id": 265,
+    "word": "net",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "正好，刚刚，网",
+      "english": "just, net (internet)"
+    }
+  },
+  "266": {
+    "id": 266,
+    "word": "netjes",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "整洁的，礼貌的",
+      "english": "neat, tidy, polite"
+    }
+  },
+  "267": {
+    "id": 267,
+    "word": "neven",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "表兄弟们，堂兄弟们（复数）",
+      "english": "cousins (male, plural)"
+    }
+  },
+  "268": {
+    "id": 268,
+    "word": "nicht",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "表姐妹，堂姐妹",
+      "english": "cousin (female)"
+    }
+  },
+  "269": {
+    "id": 269,
+    "word": "niemand",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "没有人",
+      "english": "nobody, no one"
+    }
+  },
+  "270": {
+    "id": 270,
+    "word": "niet",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "不，不是",
+      "english": "not"
+    }
+  },
+  "271": {
+    "id": 271,
+    "word": "nieuw",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "新的",
+      "english": "new"
+    }
+  },
+  "272": {
+    "id": 272,
+    "word": "nieuws",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "新闻",
+      "english": "news"
+    }
+  },
+  "273": {
+    "id": 273,
+    "word": "nodig",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "需要的，必要的",
+      "english": "necessary, needed"
+    }
+  },
+  "274": {
+    "id": 274,
+    "word": "nooit",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "从不",
+      "english": "never"
+    }
+  },
+  "275": {
+    "id": 275,
+    "word": "nu",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "现在",
+      "english": "now"
+    }
+  },
+  "276": {
+    "id": 276,
+    "word": "nul",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "零",
+      "english": "zero"
+    }
+  },
+  "277": {
+    "id": 277,
+    "word": "nummer",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "号码，数字",
+      "english": "number, figure"
+    }
+  },
+  "278": {
+    "id": 278,
+    "word": "ochtend",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "早晨",
+      "english": "morning"
+    }
+  },
+  "279": {
+    "id": 279,
+    "word": "oefening",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "练习，运动",
+      "english": "exercise, practice"
+    }
+  },
+  "280": {
+    "id": 280,
+    "word": "of",
+    "level": "A1",
+    "partOfSpeech": "conjunction",
+    "translation": {
+      "chinese": "或，或者",
+      "english": "or"
+    }
+  },
+  "281": {
+    "id": 281,
+    "word": "om",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "为了，关于，围绕",
+      "english": "for, about, around"
+    }
+  },
+  "282": {
+    "id": 282,
+    "word": "oma",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "祖母，外祖母",
+      "english": "grandmother"
+    }
+  },
+  "283": {
+    "id": 283,
+    "word": "omdat",
+    "level": "A1",
+    "partOfSpeech": "conjunction",
+    "translation": {
+      "chinese": "因为",
+      "english": "because"
+    }
+  },
+  "284": {
+    "id": 284,
+    "word": "onder",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在...下面",
+      "english": "under, below"
+    }
+  },
+  "285": {
+    "id": 285,
+    "word": "onderwijs",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "教育",
+      "english": "education"
+    }
+  },
+  "286": {
+    "id": 286,
+    "word": "onderzoek",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "研究，调查",
+      "english": "research, investigation"
+    }
+  },
+  "287": {
+    "id": 287,
+    "word": "ons",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "我们（宾格）",
+      "english": "us (object)"
+    }
+  },
+  "288": {
+    "id": 288,
+    "word": "onze",
+    "level": "A1",
+    "partOfSpeech": "possessive",
+    "translation": {
+      "chinese": "我们的",
+      "english": "our"
+    }
+  },
+  "289": {
+    "id": 289,
+    "word": "oog",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "眼睛",
+      "english": "eye"
+    }
+  },
+  "290": {
+    "id": 290,
+    "word": "ook",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "也，还",
+      "english": "also, too"
+    }
+  },
+  "291": {
+    "id": 291,
+    "word": "oom",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "叔叔，伯伯，舅舅",
+      "english": "uncle"
+    }
+  },
+  "292": {
+    "id": 292,
+    "word": "oor",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "耳朵",
+      "english": "ear"
+    }
+  },
+  "293": {
+    "id": 293,
+    "word": "oosten",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "东方，东部",
+      "english": "east"
+    }
+  },
+  "294": {
+    "id": 294,
+    "word": "opa",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "祖父，外祖父",
+      "english": "grandfather"
+    }
+  },
+  "295": {
+    "id": 295,
+    "word": "op",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在...上，向上",
+      "english": "on, up"
+    }
+  },
+  "296": {
+    "id": 296,
+    "word": "open",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "开着的，开放的",
+      "english": "open"
+    }
+  },
+  "297": {
+    "id": 297,
+    "word": "opnieuw",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "重新，再次",
+      "english": "again, anew"
+    }
+  },
+  "298": {
+    "id": 298,
+    "word": "opstaan",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "起床，站起",
+      "english": "to get up, to stand up"
+    }
+  },
+  "299": {
+    "id": 299,
+    "word": "opzoeken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "查阅，拜访",
+      "english": "to look up, to visit"
+    }
+  },
+  "300": {
+    "id": 300,
+    "word": "oranje",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "橙色的",
+      "english": "orange"
+    }
+  },
+  "301": {
+    "id": 301,
+    "word": "oud",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "老的，旧的",
+      "english": "old"
+    }
+  },
+  "302": {
+    "id": 302,
+    "word": "ouders",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "父母（复数）",
+      "english": "parents"
+    }
+  },
+  "303": {
+    "id": 303,
+    "word": "over",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "关于，超过，在...上方",
+      "english": "about, over, above"
+    }
+  },
+  "304": {
+    "id": 304,
+    "word": "overal",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "到处",
+      "english": "everywhere"
+    }
+  },
+  "305": {
+    "id": 305,
+    "word": "overmorgen",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "后天",
+      "english": "the day after tomorrow"
+    }
+  },
+  "306": {
+    "id": 306,
+    "word": "pak",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "包，包裹",
+      "english": "package, parcel"
+    }
+  },
+  "307": {
+    "id": 307,
+    "word": "pakket",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "包裹，套件",
+      "english": "parcel, set"
+    }
+  },
+  "308": {
+    "id": 308,
+    "word": "papier",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "纸",
+      "english": "paper"
+    }
+  },
+  "309": {
+    "id": 309,
+    "word": "pardon",
+    "level": "A1",
+    "partOfSpeech": "interjection",
+    "translation": {
+      "chinese": "对不起，借过",
+      "english": "excuse me, sorry"
+    }
+  },
+  "310": {
+    "id": 310,
+    "word": "park",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "公园",
+      "english": "park"
+    }
+  },
+  "311": {
+    "id": 311,
+    "word": "pas",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "才，刚才，卡片",
+      "english": "just, only, card"
+    }
+  },
+  "312": {
+    "id": 312,
+    "word": "paspoort",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "护照",
+      "english": "passport"
+    }
+  },
+  "313": {
+    "id": 313,
+    "word": "patat",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "薯条",
+      "english": "fries, french fries"
+    }
+  },
+  "314": {
+    "id": 314,
+    "word": "peer",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "梨",
+      "english": "pear"
+    }
+  },
+  "315": {
+    "id": 315,
+    "word": "pennen",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "钢笔（复数）",
+      "english": "pens (plural)"
+    }
+  },
+  "316": {
+    "id": 316,
+    "word": "per",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "每",
+      "english": "per, each"
+    }
+  },
+  "317": {
+    "id": 317,
+    "word": "piano",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "钢琴",
+      "english": "piano"
+    }
+  },
+  "318": {
+    "id": 318,
+    "word": "pijn",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "疼痛，痛",
+      "english": "pain, ache"
+    }
+  },
+  "319": {
+    "id": 319,
+    "word": "pinda",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "花生",
+      "english": "peanut"
+    }
+  },
+  "320": {
+    "id": 320,
+    "word": "plaat",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "唱片，图片",
+      "english": "record, picture"
+    }
+  },
+  "321": {
+    "id": 321,
+    "word": "plaats",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "地方，场所",
+      "english": "place, spot"
+    }
+  },
+  "322": {
+    "id": 322,
+    "word": "plan",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "计划",
+      "english": "plan"
+    }
+  },
+  "323": {
+    "id": 323,
+    "word": "plant",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "植物",
+      "english": "plant"
+    }
+  },
+  "324": {
+    "id": 324,
+    "word": "plein",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "广场",
+      "english": "square, plaza"
+    }
+  },
+  "325": {
+    "id": 325,
+    "word": "plus",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "加，加上",
+      "english": "plus, plus sign"
+    }
+  },
+  "326": {
+    "id": 326,
+    "word": "poes",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "猫（昵称）",
+      "english": "cat (informal)"
+    }
+  },
+  "327": {
+    "id": 327,
+    "word": "politie",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "警察",
+      "english": "police"
+    }
+  },
+  "328": {
+    "id": 328,
+    "word": "postcode",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "邮政编码",
+      "english": "postal code"
+    }
+  },
+  "329": {
+    "id": 329,
+    "word": "potlood",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "铅笔",
+      "english": "pencil"
+    }
+  },
+  "330": {
+    "id": 330,
+    "word": "praten",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "说话，交谈",
+      "english": "to talk, to speak"
+    }
+  },
+  "331": {
+    "id": 331,
+    "word": "prettig",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "愉快的，不错的",
+      "english": "pleasant, nice, agreeable"
+    }
+  },
+  "332": {
+    "id": 332,
+    "word": "prijs",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "价格",
+      "english": "price"
+    }
+  },
+  "333": {
+    "id": 333,
+    "word": "proberen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "尝试",
+      "english": "to try, to attempt"
+    }
+  },
+  "334": {
+    "id": 334,
+    "word": "provincie",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "省",
+      "english": "province"
+    }
+  },
+  "335": {
+    "id": 335,
+    "word": "punt",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "点，分数",
+      "english": "point, dot, score"
+    }
+  },
+  "336": {
+    "id": 336,
+    "word": "raam",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "窗户",
+      "english": "window"
+    }
+  },
+  "337": {
+    "id": 337,
+    "word": "radio",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "收音机",
+      "english": "radio"
+    }
+  },
+  "338": {
+    "id": 338,
+    "word": "recept",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "收据，食谱",
+      "english": "receipt, recipe"
+    }
+  },
+  "339": {
+    "id": 339,
+    "word": "rechts",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "右边，右侧",
+      "english": "right"
+    }
+  },
+  "340": {
+    "id": 340,
+    "word": "regen",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "雨",
+      "english": "rain"
+    }
+  },
+  "341": {
+    "id": 341,
+    "word": "reizen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "旅行",
+      "english": "to travel"
+    }
+  },
+  "342": {
+    "id": 342,
+    "word": "rekening",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "账单，计算",
+      "english": "bill, account"
+    }
+  },
+  "343": {
+    "id": 343,
+    "word": "rennen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "跑",
+      "english": "run"
+    }
+  },
+  "344": {
+    "id": 344,
+    "word": "restaurant",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "餐厅",
+      "english": "restaurant"
+    }
+  },
+  "345": {
+    "id": 345,
+    "word": "rijden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "驾驶，骑车",
+      "english": "to drive, to ride"
+    }
+  },
+  "346": {
+    "id": 346,
+    "word": "rijk",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "富有的",
+      "english": "rich"
+    }
+  },
+  "347": {
+    "id": 347,
+    "word": "ring",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "戒指",
+      "english": "ring"
+    }
+  },
+  "348": {
+    "id": 348,
+    "word": "rood",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "红色的",
+      "english": "red"
+    }
+  },
+  "349": {
+    "id": 349,
+    "word": "roken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "吸烟",
+      "english": "to smoke"
+    }
+  },
+  "350": {
+    "id": 350,
+    "word": "rol",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "角色，卷",
+      "english": "role, roll"
+    }
+  },
+  "351": {
+    "id": 351,
+    "word": "rond",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "圆的，周围",
+      "english": "round, around"
+    }
+  },
+  "352": {
+    "id": 352,
+    "word": "roze",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "粉红色的",
+      "english": "pink"
+    }
+  },
+  "353": {
+    "id": 353,
+    "word": "rustig",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "安静的，平静的",
+      "english": "quiet, calm"
+    }
+  },
+  "354": {
+    "id": 354,
+    "word": "sap",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "果汁",
+      "english": "juice"
+    }
+  },
+  "355": {
+    "id": 355,
+    "word": "schoen",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "鞋子",
+      "english": "shoe"
+    }
+  },
+  "356": {
+    "id": 356,
+    "word": "school",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "学校",
+      "english": "school"
+    }
+  },
+  "357": {
+    "id": 357,
+    "word": "schrijven",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "写",
+      "english": "to write"
+    }
+  },
+  "358": {
+    "id": 358,
+    "word": "september",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "九月",
+      "english": "September"
+    }
+  },
+  "359": {
+    "id": 359,
+    "word": "sinaasappel",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "橙子",
+      "english": "orange"
+    }
+  },
+  "360": {
+    "id": 360,
+    "word": "slapen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "睡觉",
+      "english": "to sleep"
+    }
+  },
+  "361": {
+    "id": 361,
+    "word": "slecht",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "坏的，差的",
+      "english": "bad, poor"
+    }
+  },
+  "362": {
+    "id": 362,
+    "word": "sleutel",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "钥匙",
+      "english": "key"
+    }
+  },
+  "364": {
+    "id": 364,
+    "word": "snijden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "切，割",
+      "english": "to cut"
+    }
+  },
+  "365": {
+    "id": 365,
+    "word": "soep",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "汤",
+      "english": "soup"
+    }
+  },
+  "366": {
+    "id": 366,
+    "word": "soms",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "有时",
+      "english": "sometimes"
+    }
+  },
+  "367": {
+    "id": 367,
+    "word": "sorry",
+    "level": "A1",
+    "partOfSpeech": "interjection",
+    "translation": {
+      "chinese": "对不起",
+      "english": "sorry, excuse me"
+    }
+  },
+  "368": {
+    "id": 368,
+    "word": "spelen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "玩，演奏",
+      "english": "to play, to play (instrument)"
+    }
+  },
+  "369": {
+    "id": 369,
+    "word": "sport",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "运动",
+      "english": "sport"
+    }
+  },
+  "370": {
+    "id": 370,
+    "word": "spreken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "说，讲",
+      "english": "to speak, to talk"
+    }
+  },
+  "371": {
+    "id": 371,
+    "word": "staan",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "站立",
+      "english": "to stand"
+    }
+  },
+  "372": {
+    "id": 372,
+    "word": "stad",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "城市",
+      "english": "city"
+    }
+  },
+  "373": {
+    "id": 373,
+    "word": "station",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "车站",
+      "english": "station"
+    }
+  },
+  "374": {
+    "id": 374,
+    "word": "stoel",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "椅子",
+      "english": "chair"
+    }
+  },
+  "375": {
+    "id": 375,
+    "word": "stop",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "停止",
+      "english": "stop"
+    }
+  },
+  "376": {
+    "id": 376,
+    "word": "straat",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "街道",
+      "english": "street"
+    }
+  },
+  "377": {
+    "id": 377,
+    "word": "straks",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "一会儿，稍后",
+      "english": "later, soon"
+    }
+  },
+  "378": {
+    "id": 378,
+    "word": "student",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "学生",
+      "english": "student"
+    }
+  },
+  "379": {
+    "id": 379,
+    "word": "studeren",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "学习，研究",
+      "english": "to study, to research"
+    }
+  },
+  "380": {
+    "id": 380,
+    "word": "sturen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "发送",
+      "english": "to send"
+    }
+  },
+  "381": {
+    "id": 381,
+    "word": "succes",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "成功",
+      "english": "success"
+    }
+  },
+  "382": {
+    "id": 382,
+    "word": "suiker",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "糖",
+      "english": "sugar"
+    }
+  },
+  "383": {
+    "id": 383,
+    "word": "supermarkt",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "超市",
+      "english": "supermarket"
+    }
+  },
+  "384": {
+    "id": 384,
+    "word": "taal",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "语言",
+      "english": "language"
+    }
+  },
+  "385": {
+    "id": 385,
+    "word": "tafel",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "桌子",
+      "english": "table"
+    }
+  },
+  "386": {
+    "id": 386,
+    "word": "tand",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "牙齿",
+      "english": "tooth"
+    }
+  },
+  "387": {
+    "id": 387,
+    "word": "tante",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "阿姨，姑姑，婶婶",
+      "english": "aunt"
+    }
+  },
+  "388": {
+    "id": 388,
+    "word": "tas",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "包",
+      "english": "bag"
+    }
+  },
+  "389": {
+    "id": 389,
+    "word": "taxi",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "出租车",
+      "english": "taxi"
+    }
+  },
+  "390": {
+    "id": 390,
+    "word": "te",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "太，过于",
+      "english": "too, too much"
+    }
+  },
+  "391": {
+    "id": 391,
+    "word": "tegen",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "反对，对，向",
+      "english": "against, towards, to"
+    }
+  },
+  "392": {
+    "id": 392,
+    "word": "tekenen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "画画，画",
+      "english": "to draw, to sketch"
+    }
+  },
+  "393": {
+    "id": 393,
+    "word": "telefoon",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "电话",
+      "english": "telephone, phone"
+    }
+  },
+  "394": {
+    "id": 394,
+    "word": "televisie",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "电视",
+      "english": "television, TV"
+    }
+  },
+  "396": {
+    "id": 396,
+    "word": "tellen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "数数，计算",
+      "english": "to count"
+    }
+  },
+  "397": {
+    "id": 397,
+    "word": "tenminste",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "至少",
+      "english": "at least"
+    }
+  },
+  "398": {
+    "id": 398,
+    "word": "tenslotte",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "最后",
+      "english": "finally, at last"
+    }
+  },
+  "399": {
+    "id": 399,
+    "word": "tent",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "帐篷",
+      "english": "tent"
+    }
+  },
+  "400": {
+    "id": 400,
+    "word": "terug",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "回来，回",
+      "english": "back, return"
+    }
+  },
+  "401": {
+    "id": 401,
+    "word": "terwijl",
+    "level": "A1",
+    "partOfSpeech": "conjunction",
+    "translation": {
+      "chinese": "当...时候，然而",
+      "english": "while, whereas"
+    }
+  },
+  "402": {
+    "id": 402,
+    "word": "test",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "测试，考试",
+      "english": "test, exam"
+    }
+  },
+  "403": {
+    "id": 403,
+    "word": "teveel",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "太多",
+      "english": "too much, too many"
+    }
+  },
+  "404": {
+    "id": 404,
+    "word": "thuis",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "在家",
+      "english": "at home, home"
+    }
+  },
+  "405": {
+    "id": 405,
+    "word": "tien",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "十",
+      "english": "ten"
+    }
+  },
+  "407": {
+    "id": 407,
+    "word": "tijdens",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在...期间",
+      "english": "during, while"
+    }
+  },
+  "408": {
+    "id": 408,
+    "word": "tikken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "滴答声",
+      "english": "tick"
+    }
+  },
+  "409": {
+    "id": 409,
+    "word": "timmerman",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "木匠",
+      "english": "carpenter"
+    }
+  },
+  "410": {
+    "id": 410,
+    "word": "titel",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "标题，题目",
+      "english": "title"
+    }
+  },
+  "411": {
+    "id": 411,
+    "word": "toch",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "但是，还是",
+      "english": "yet, still, after all"
+    }
+  },
+  "412": {
+    "id": 412,
+    "word": "toekomst",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "未来",
+      "english": "future"
+    }
+  },
+  "413": {
+    "id": 413,
+    "word": "toen",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "那时，当时",
+      "english": "then, at that time"
+    }
+  },
+  "414": {
+    "id": 414,
+    "word": "toerist",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "游客",
+      "english": "tourist"
+    }
+  },
+  "415": {
+    "id": 415,
+    "word": "toetje",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "甜点",
+      "english": "dessert"
+    }
+  },
+  "416": {
+    "id": 416,
+    "word": "toilet",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "厕所",
+      "english": "toilet"
+    }
+  },
+  "417": {
+    "id": 417,
+    "word": "tol",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "收费站",
+      "english": "toll"
+    }
+  },
+  "418": {
+    "id": 418,
+    "word": "tolk",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "翻译，口译员",
+      "english": "translator, interpreter"
+    }
+  },
+  "419": {
+    "id": 419,
+    "word": "tomaat",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "西红柿",
+      "english": "tomato"
+    }
+  },
+  "420": {
+    "id": 420,
+    "word": "ton",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "吨",
+      "english": "ton"
+    }
+  },
+  "421": {
+    "id": 421,
+    "word": "toneel",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "戏剧，舞台剧",
+      "english": "theater, drama"
+    }
+  },
+  "422": {
+    "id": 422,
+    "word": "tong",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "舌头",
+      "english": "tongue"
+    }
+  },
+  "423": {
+    "id": 423,
+    "word": "tonijn",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "金枪鱼",
+      "english": "tuna"
+    }
+  },
+  "424": {
+    "id": 424,
+    "word": "toon",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "语气，音调",
+      "english": "tone, sound"
+    }
+  },
+  "425": {
+    "id": 425,
+    "word": "tonen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "显示，展示",
+      "english": "shows, displays"
+    }
+  },
+  "426": {
+    "id": 426,
+    "word": "toornen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "愤怒",
+      "english": "to be angry"
+    }
+  },
+  "427": {
+    "id": 427,
+    "word": "top",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "顶端，顶部",
+      "english": "top, summit"
+    }
+  },
+  "428": {
+    "id": 428,
+    "word": "totaal",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "总数，总计",
+      "english": "total, total amount"
+    }
+  },
+  "429": {
+    "id": 429,
+    "word": "touw",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "绳子",
+      "english": "rope"
+    }
+  },
+  "430": {
+    "id": 430,
+    "word": "traag",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "慢的，缓慢的",
+      "english": "slow, sluggish"
+    }
+  },
+  "431": {
+    "id": 431,
+    "word": "traan",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "眼泪",
+      "english": "tear"
+    }
+  },
+  "432": {
+    "id": 432,
+    "word": "tram",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "电车",
+      "english": "tram"
+    }
+  },
+  "433": {
+    "id": 433,
+    "word": "trap",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "楼梯",
+      "english": "stairs, staircase"
+    }
+  },
+  "434": {
+    "id": 434,
+    "word": "trein",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "火车",
+      "english": "train"
+    }
+  },
+  "435": {
+    "id": 435,
+    "word": "trekken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "拉，扯",
+      "english": "pull"
+    }
+  },
+  "436": {
+    "id": 436,
+    "word": "trots",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "骄傲的，自豪的",
+      "english": "proud"
+    }
+  },
+  "437": {
+    "id": 437,
+    "word": "trouwen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "结婚",
+      "english": "to marry"
+    }
+  },
+  "438": {
+    "id": 438,
+    "word": "trui",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "毛衣",
+      "english": "sweater"
+    }
+  },
+  "439": {
+    "id": 439,
+    "word": "tuin",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "花园",
+      "english": "garden"
+    }
+  },
+  "440": {
+    "id": 440,
+    "word": "tussen",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在...之间",
+      "english": "between"
+    }
+  },
+  "441": {
+    "id": 441,
+    "word": "twaalf",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "十二",
+      "english": "twelve"
+    }
+  },
+  "442": {
+    "id": 442,
+    "word": "twee",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "二",
+      "english": "two"
+    }
+  },
+  "443": {
+    "id": 443,
+    "word": "twintig",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "二十",
+      "english": "twenty"
+    }
+  },
+  "444": {
+    "id": 444,
+    "word": "u",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "您",
+      "english": "you (polite)"
+    }
+  },
+  "445": {
+    "id": 445,
+    "word": "uit",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "出，从...出来",
+      "english": "out, from"
+    }
+  },
+  "446": {
+    "id": 446,
+    "word": "uitleggen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "解释",
+      "english": "to explain"
+    }
+  },
+  "447": {
+    "id": 447,
+    "word": "uitnodigen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "邀请",
+      "english": "to invite"
+    }
+  },
+  "448": {
+    "id": 448,
+    "word": "uur",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "小时",
+      "english": "hour"
+    }
+  },
+  "449": {
+    "id": 449,
+    "word": "vaak",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "经常",
+      "english": "often"
+    }
+  },
+  "450": {
+    "id": 450,
+    "word": "vader",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "父亲",
+      "english": "father"
+    }
+  },
+  "451": {
+    "id": 451,
+    "word": "vakantie",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "假期",
+      "english": "holiday, vacation"
+    }
+  },
+  "452": {
+    "id": 452,
+    "word": "van",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "的，来自",
+      "english": "of, from"
+    }
+  },
+  "453": {
+    "id": 453,
+    "word": "vandaag",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "今天",
+      "english": "today"
+    }
+  },
+  "454": {
+    "id": 454,
+    "word": "vangen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "抓住，捕捉",
+      "english": "to catch"
+    }
+  },
+  "455": {
+    "id": 455,
+    "word": "vanmiddag",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "今天下午",
+      "english": "this afternoon"
+    }
+  },
+  "456": {
+    "id": 456,
+    "word": "vanochtend",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "今天早上",
+      "english": "this morning"
+    }
+  },
+  "457": {
+    "id": 457,
+    "word": "vanavond",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "今晚",
+      "english": "this evening"
+    }
+  },
+  "458": {
+    "id": 458,
+    "word": "vanuit",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "从...出发",
+      "english": "from"
+    }
+  },
+  "459": {
+    "id": 459,
+    "word": "varken",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "猪",
+      "english": "pig"
+    }
+  },
+  "460": {
+    "id": 460,
+    "word": "vast",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "固定的，紧的",
+      "english": "fixed, tight"
+    }
+  },
+  "461": {
+    "id": 461,
+    "word": "veel",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "许多",
+      "english": "many, much"
+    }
+  },
+  "462": {
+    "id": 462,
+    "word": "veertig",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "四十",
+      "english": "forty"
+    }
+  },
+  "463": {
+    "id": 463,
+    "word": "veilig",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "安全的",
+      "english": "safe"
+    }
+  },
+  "464": {
+    "id": 464,
+    "word": "ver",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "远的",
+      "english": "far"
+    }
+  },
+  "465": {
+    "id": 465,
+    "word": "veranderen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "改变",
+      "english": "to change"
+    }
+  },
+  "466": {
+    "id": 466,
+    "word": "verder",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "进一步的",
+      "english": "further"
+    }
+  },
+  "467": {
+    "id": 467,
+    "word": "verdieping",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "楼层",
+      "english": "floor"
+    }
+  },
+  "468": {
+    "id": 468,
+    "word": "vergeten",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "忘记",
+      "english": "to forget"
+    }
+  },
+  "469": {
+    "id": 469,
+    "word": "verhaal",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "故事",
+      "english": "story"
+    }
+  },
+  "470": {
+    "id": 470,
+    "word": "verjaardag",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "生日",
+      "english": "birthday"
+    }
+  },
+  "471": {
+    "id": 471,
+    "word": "verkeerd",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "错误的",
+      "english": "wrong"
+    }
+  },
+  "472": {
+    "id": 472,
+    "word": "verkopen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "出售",
+      "english": "sells"
+    }
+  },
+  "474": {
+    "id": 474,
+    "word": "verliefd",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "恋爱中的",
+      "english": "in love"
+    }
+  },
+  "475": {
+    "id": 475,
+    "word": "verliezen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "丢失，输掉",
+      "english": "to lose"
+    }
+  },
+  "476": {
+    "id": 476,
+    "word": "vermoeid",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "疲惫的",
+      "english": "tired"
+    }
+  },
+  "477": {
+    "id": 477,
+    "word": "verpleegster",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "护士",
+      "english": "nurse"
+    }
+  },
+  "478": {
+    "id": 478,
+    "word": "verrassen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "使惊讶",
+      "english": "to surprise"
+    }
+  },
+  "479": {
+    "id": 479,
+    "word": "verrassing",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "惊喜",
+      "english": "surprise"
+    }
+  },
+  "480": {
+    "id": 480,
+    "word": "vertellen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "告诉",
+      "english": "to tell"
+    }
+  },
+  "481": {
+    "id": 481,
+    "word": "vertrek",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "出发",
+      "english": "departure"
+    }
+  },
+  "482": {
+    "id": 482,
+    "word": "vertrekken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "出发",
+      "english": "to depart"
+    }
+  },
+  "483": {
+    "id": 483,
+    "word": "vervelend",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "无聊的",
+      "english": "boring"
+    }
+  },
+  "484": {
+    "id": 484,
+    "word": "verwarming",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "暖气",
+      "english": "heating"
+    }
+  },
+  "485": {
+    "id": 485,
+    "word": "ver weg",
+    "level": "A1",
+    "partOfSpeech": "phrase",
+    "translation": {
+      "chinese": "很远",
+      "english": "far away"
+    }
+  },
+  "486": {
+    "id": 486,
+    "word": "verzamelen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "收集",
+      "english": "to collect"
+    }
+  },
+  "487": {
+    "id": 487,
+    "word": "verzekering",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "保险",
+      "english": "insurance"
+    }
+  },
+  "488": {
+    "id": 488,
+    "word": "vest",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "背心",
+      "english": "vest"
+    }
+  },
+  "489": {
+    "id": 489,
+    "word": "vet",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "脂肪的，油",
+      "english": "fat"
+    }
+  },
+  "490": {
+    "id": 490,
+    "word": "vier",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "四",
+      "english": "four"
+    }
+  },
+  "491": {
+    "id": 491,
+    "word": "vieren",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "庆祝",
+      "english": "to celebrate"
+    }
+  },
+  "492": {
+    "id": 492,
+    "word": "vies",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "脏的",
+      "english": "dirty"
+    }
+  },
+  "493": {
+    "id": 493,
+    "word": "vijf",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "五",
+      "english": "five"
+    }
+  },
+  "494": {
+    "id": 494,
+    "word": "vijftig",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "五十",
+      "english": "fifty"
+    }
+  },
+  "495": {
+    "id": 495,
+    "word": "vinden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "认为",
+      "english": "find, think"
+    }
+  },
+  "497": {
+    "id": 497,
+    "word": "vinger",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "手指",
+      "english": "finger"
+    }
+  },
+  "498": {
+    "id": 498,
+    "word": "vis",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "鱼",
+      "english": "fish"
+    }
+  },
+  "499": {
+    "id": 499,
+    "word": "vlees",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "肉",
+      "english": "meat"
+    }
+  },
+  "500": {
+    "id": 500,
+    "word": "vliegen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "飞",
+      "english": "to fly"
+    }
+  },
+  "501": {
+    "id": 501,
+    "word": "vliegtuig",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "飞机",
+      "english": "airplane"
+    }
+  },
+  "502": {
+    "id": 502,
+    "word": "vloeistof",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "液体",
+      "english": "liquid"
+    }
+  },
+  "503": {
+    "id": 503,
+    "word": "vloer",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "地板",
+      "english": "floor"
+    }
+  },
+  "504": {
+    "id": 504,
+    "word": "toevoegen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "加入",
+      "english": "add"
+    }
+  },
+  "505": {
+    "id": 505,
+    "word": "voelen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "感觉",
+      "english": "to feel"
+    }
+  },
+  "506": {
+    "id": 506,
+    "word": "voeren",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "驾驶，运输",
+      "english": "drives, transports"
+    }
+  },
+  "507": {
+    "id": 507,
+    "word": "voet",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "脚",
+      "english": "foot"
+    }
+  },
+  "508": {
+    "id": 508,
+    "word": "voetbal",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "足球",
+      "english": "football, soccer"
+    }
+  },
+  "509": {
+    "id": 509,
+    "word": "vogel",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "鸟",
+      "english": "bird"
+    }
+  },
+  "510": {
+    "id": 510,
+    "word": "vol",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "满的",
+      "english": "full"
+    }
+  },
+  "511": {
+    "id": 511,
+    "word": "volgende",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "下一个",
+      "english": "next"
+    }
+  },
+  "512": {
+    "id": 512,
+    "word": "volkslied",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "国歌",
+      "english": "national anthem"
+    }
+  },
+  "513": {
+    "id": 513,
+    "word": "volledig",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "完全的",
+      "english": "complete, full"
+    }
+  },
+  "514": {
+    "id": 514,
+    "word": "volwassen",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "成年的",
+      "english": "adult"
+    }
+  },
+  "515": {
+    "id": 515,
+    "word": "voor",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在...之前，为了",
+      "english": "before, for"
+    }
+  },
+  "516": {
+    "id": 516,
+    "word": "vooral",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "特别是",
+      "english": "especially"
+    }
+  },
+  "517": {
+    "id": 517,
+    "word": "voorbeeld",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "例子",
+      "english": "example"
+    }
+  },
+  "518": {
+    "id": 518,
+    "word": "voordat",
+    "level": "A1",
+    "partOfSpeech": "conjunction",
+    "translation": {
+      "chinese": "在...之前",
+      "english": "before"
+    }
+  },
+  "519": {
+    "id": 519,
+    "word": "voordeel",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "优势，好处",
+      "english": "advantage"
+    }
+  },
+  "520": {
+    "id": 520,
+    "word": "voordoen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "发生，出现",
+      "english": "to happen, to occur"
+    }
+  },
+  "521": {
+    "id": 521,
+    "word": "voorjaar",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "春天",
+      "english": "spring"
+    }
+  },
+  "522": {
+    "id": 522,
+    "word": "voorkomen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "防止，发生",
+      "english": "to prevent, to occur"
+    }
+  },
+  "523": {
+    "id": 523,
+    "word": "voorlezen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "朗读",
+      "english": "to read aloud"
+    }
+  },
+  "524": {
+    "id": 524,
+    "word": "voorlopig",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "暂时的",
+      "english": "temporary, for now"
+    }
+  },
+  "525": {
+    "id": 525,
+    "word": "voornamelijk",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "主要地",
+      "english": "mainly, primarily"
+    }
+  },
+  "526": {
+    "id": 526,
+    "word": "voornaam",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "重要的，名字",
+      "english": "important, first name"
+    }
+  },
+  "527": {
+    "id": 527,
+    "word": "voorstellen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "介绍，想象",
+      "english": "to introduce, to imagine"
+    }
+  },
+  "528": {
+    "id": 528,
+    "word": "voortdurend",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "持续的",
+      "english": "continuous, constantly"
+    }
+  },
+  "529": {
+    "id": 529,
+    "word": "vooruit",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "向前",
+      "english": "forward, ahead"
+    }
+  },
+  "530": {
+    "id": 530,
+    "word": "voorwaarde",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "条件",
+      "english": "condition"
+    }
+  },
+  "531": {
+    "id": 531,
+    "word": "voorzichtig",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "小心的",
+      "english": "careful"
+    }
+  },
+  "532": {
+    "id": 532,
+    "word": "voorzitter",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "主席",
+      "english": "chairman"
+    }
+  },
+  "533": {
+    "id": 533,
+    "word": "vorige",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "上一个",
+      "english": "previous, last"
+    }
+  },
+  "534": {
+    "id": 534,
+    "word": "vork",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "叉子",
+      "english": "fork"
+    }
+  },
+  "535": {
+    "id": 535,
+    "word": "vorm",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "形状，形式",
+      "english": "shape, form"
+    }
+  },
+  "536": {
+    "id": 536,
+    "word": "vorig",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "上一个",
+      "english": "previous, last"
+    }
+  },
+  "537": {
+    "id": 537,
+    "word": "vraag",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "问题",
+      "english": "question"
+    }
+  },
+  "538": {
+    "id": 538,
+    "word": "vragen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "询问",
+      "english": "to ask"
+    }
+  },
+  "539": {
+    "id": 539,
+    "word": "vreemd",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "奇怪的，外国的",
+      "english": "strange, foreign"
+    }
+  },
+  "540": {
+    "id": 540,
+    "word": "vriend",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "朋友",
+      "english": "friend"
+    }
+  },
+  "541": {
+    "id": 541,
+    "word": "vriendin",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "女性朋友，女朋友",
+      "english": "female friend, girlfriend"
+    }
+  },
+  "542": {
+    "id": 542,
+    "word": "vriezen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "结冰",
+      "english": "to freeze"
+    }
+  },
+  "543": {
+    "id": 543,
+    "word": "vrij",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "自由的，空的",
+      "english": "free, available"
+    }
+  },
+  "544": {
+    "id": 544,
+    "word": "vrijdag",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "星期五",
+      "english": "Friday"
+    }
+  },
+  "545": {
+    "id": 545,
+    "word": "vrijheid",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "自由",
+      "english": "freedom"
+    }
+  },
+  "546": {
+    "id": 546,
+    "word": "vrijwilliger",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "志愿者",
+      "english": "volunteer"
+    }
+  },
+  "547": {
+    "id": 547,
+    "word": "vroeg",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "早",
+      "english": "early"
+    }
+  },
+  "548": {
+    "id": 548,
+    "word": "vroeger",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "以前",
+      "english": "formerly, before"
+    }
+  },
+  "549": {
+    "id": 549,
+    "word": "vrouw",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "女人，妻子",
+      "english": "woman, wife"
+    }
+  },
+  "550": {
+    "id": 550,
+    "word": "vrucht",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "果实",
+      "english": "fruit"
+    }
+  },
+  "551": {
+    "id": 551,
+    "word": "vuil",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "脏的",
+      "english": "dirty"
+    }
+  },
+  "552": {
+    "id": 552,
+    "word": "vuist",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "拳头",
+      "english": "fist"
+    }
+  },
+  "553": {
+    "id": 553,
+    "word": "vullen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "填满",
+      "english": "to fill"
+    }
+  },
+  "554": {
+    "id": 554,
+    "word": "vuur",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "火",
+      "english": "fire"
+    }
+  },
+  "555": {
+    "id": 555,
+    "word": "waar",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "哪里",
+      "english": "where"
+    }
+  },
+  "556": {
+    "id": 556,
+    "word": "waarom",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "为什么",
+      "english": "why"
+    }
+  },
+  "557": {
+    "id": 557,
+    "word": "waarover",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "关于什么",
+      "english": "about what"
+    }
+  },
+  "558": {
+    "id": 558,
+    "word": "waarschijnlijk",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "很可能",
+      "english": "probably"
+    }
+  },
+  "559": {
+    "id": 559,
+    "word": "wachten",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "等待",
+      "english": "to wait"
+    }
+  },
+  "560": {
+    "id": 560,
+    "word": "wakker",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "醒着的",
+      "english": "awake"
+    }
+  },
+  "561": {
+    "id": 561,
+    "word": "wandelen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "散步",
+      "english": "to walk"
+    }
+  },
+  "562": {
+    "id": 562,
+    "word": "wanneer",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "什么时候",
+      "english": "when"
+    }
+  },
+  "563": {
+    "id": 563,
+    "word": "want",
+    "level": "A1",
+    "partOfSpeech": "conjunction",
+    "translation": {
+      "chinese": "因为",
+      "english": "because"
+    }
+  },
+  "564": {
+    "id": 564,
+    "word": "warm",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "温暖的",
+      "english": "warm"
+    }
+  },
+  "566": {
+    "id": 566,
+    "word": "wassen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "洗",
+      "english": "to wash"
+    }
+  },
+  "567": {
+    "id": 567,
+    "word": "wat",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "什么",
+      "english": "what"
+    }
+  },
+  "569": {
+    "id": 569,
+    "word": "we",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "我们",
+      "english": "we"
+    }
+  },
+  "570": {
+    "id": 570,
+    "word": "week",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "周",
+      "english": "week"
+    }
+  },
+  "571": {
+    "id": 571,
+    "word": "weekend",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "周末",
+      "english": "weekend"
+    }
+  },
+  "572": {
+    "id": 572,
+    "word": "weer",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "天气，又",
+      "english": "weather, again"
+    }
+  },
+  "573": {
+    "id": 573,
+    "word": "weg",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "路，离开",
+      "english": "road, away"
+    }
+  },
+  "574": {
+    "id": 574,
+    "word": "wel",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "当然，好",
+      "english": "certainly, well"
+    }
+  },
+  "575": {
+    "id": 575,
+    "word": "welk",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "哪个",
+      "english": "which"
+    }
+  },
+  "576": {
+    "id": 576,
+    "word": "welkom",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "欢迎",
+      "english": "welcome"
+    }
+  },
+  "577": {
+    "id": 577,
+    "word": "wensen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "希望",
+      "english": "wishes"
+    }
+  },
+  "578": {
+    "id": 578,
+    "word": "wereld",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "世界",
+      "english": "world"
+    }
+  },
+  "579": {
+    "id": 579,
+    "word": "werk",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "工作",
+      "english": "work"
+    }
+  },
+  "580": {
+    "id": 580,
+    "word": "werken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "工作",
+      "english": "to work"
+    }
+  },
+  "581": {
+    "id": 581,
+    "word": "werknemer",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "雇员",
+      "english": "employee"
+    }
+  },
+  "582": {
+    "id": 582,
+    "word": "west",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "西方",
+      "english": "west"
+    }
+  },
+  "583": {
+    "id": 583,
+    "word": "wet",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "法律",
+      "english": "law"
+    }
+  },
+  "584": {
+    "id": 584,
+    "word": "weten",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "知道",
+      "english": "to know"
+    }
+  },
+  "585": {
+    "id": 585,
+    "word": "wezen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "成为",
+      "english": "to become"
+    }
+  },
+  "586": {
+    "id": 586,
+    "word": "wie",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "谁",
+      "english": "who"
+    }
+  },
+  "587": {
+    "id": 587,
+    "word": "wij",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "我们（主格）",
+      "english": "we (subject)"
+    }
+  },
+  "588": {
+    "id": 588,
+    "word": "wijk",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "区，街区",
+      "english": "district, neighborhood"
+    }
+  },
+  "589": {
+    "id": 589,
+    "word": "wijn",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "酒",
+      "english": "wine"
+    }
+  },
+  "590": {
+    "id": 590,
+    "word": "wijzen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "指向",
+      "english": "points"
+    }
+  },
+  "591": {
+    "id": 591,
+    "word": "willen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "想要",
+      "english": "want"
+    }
+  },
+  "593": {
+    "id": 593,
+    "word": "wind",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "风",
+      "english": "wind"
+    }
+  },
+  "594": {
+    "id": 594,
+    "word": "winkel",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "商店",
+      "english": "shop, store"
+    }
+  },
+  "595": {
+    "id": 595,
+    "word": "winnen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "赢得",
+      "english": "to win"
+    }
+  },
+  "596": {
+    "id": 596,
+    "word": "winter",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "冬天",
+      "english": "winter"
+    }
+  },
+  "597": {
+    "id": 597,
+    "word": "wissen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "擦除，删除",
+      "english": "to erase, to delete"
+    }
+  },
+  "598": {
+    "id": 598,
+    "word": "wit",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "白色的",
+      "english": "white"
+    }
+  },
+  "599": {
+    "id": 599,
+    "word": "woensdag",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "星期三",
+      "english": "Wednesday"
+    }
+  },
+  "600": {
+    "id": 600,
+    "word": "wol",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "羊毛",
+      "english": "wool"
+    }
+  },
+  "601": {
+    "id": 601,
+    "word": "wolk",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "云",
+      "english": "cloud"
+    }
+  },
+  "602": {
+    "id": 602,
+    "word": "wonen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "居住",
+      "english": "to live"
+    }
+  },
+  "603": {
+    "id": 603,
+    "word": "woning",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "住宅",
+      "english": "residence"
+    }
+  },
+  "604": {
+    "id": 604,
+    "word": "woonkamer",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "客厅",
+      "english": "living room"
+    }
+  },
+  "605": {
+    "id": 605,
+    "word": "woord",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "单词",
+      "english": "word"
+    }
+  },
+  "606": {
+    "id": 606,
+    "word": "worden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "成为",
+      "english": "to become"
+    }
+  },
+  "607": {
+    "id": 607,
+    "word": "woud",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "森林",
+      "english": "forest"
+    }
+  },
+  "608": {
+    "id": 608,
+    "word": "wrijven",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "摩擦",
+      "english": "to rub"
+    }
+  },
+  "609": {
+    "id": 609,
+    "word": "ze",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "她们，它们",
+      "english": "they, them"
+    }
+  },
+  "610": {
+    "id": 610,
+    "word": "zee",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "海",
+      "english": "sea"
+    }
+  },
+  "611": {
+    "id": 611,
+    "word": "zeep",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "肥皂",
+      "english": "soap"
+    }
+  },
+  "612": {
+    "id": 612,
+    "word": "zeer",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "非常",
+      "english": "very"
+    }
+  },
+  "613": {
+    "id": 613,
+    "word": "zeggen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "说",
+      "english": "to say"
+    }
+  },
+  "614": {
+    "id": 614,
+    "word": "zeven",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "七",
+      "english": "seven"
+    }
+  },
+  "615": {
+    "id": 615,
+    "word": "zestig",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "六十",
+      "english": "sixty"
+    }
+  },
+  "616": {
+    "id": 616,
+    "word": "zetten",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "放",
+      "english": "put"
+    }
+  },
+  "618": {
+    "id": 618,
+    "word": "zeventig",
+    "level": "A1",
+    "partOfSpeech": "number",
+    "translation": {
+      "chinese": "七十",
+      "english": "seventy"
+    }
+  },
+  "619": {
+    "id": 619,
+    "word": "zich",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "自己",
+      "english": "oneself"
+    }
+  },
+  "620": {
+    "id": 620,
+    "word": "ziek",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "病的",
+      "english": "sick"
+    }
+  },
+  "621": {
+    "id": 621,
+    "word": "ziekenhuis",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "医院",
+      "english": "hospital"
+    }
+  },
+  "622": {
+    "id": 622,
+    "word": "zien",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "看见",
+      "english": "to see"
+    }
+  },
+  "623": {
+    "id": 623,
+    "word": "zij",
+    "level": "A1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "她，她们",
+      "english": "she, they"
+    }
+  },
+  "625": {
+    "id": 625,
+    "word": "zilver",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "银",
+      "english": "silver"
+    }
+  },
+  "626": {
+    "id": 626,
+    "word": "zin",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "句子",
+      "english": "sentence"
+    }
+  },
+  "627": {
+    "id": 627,
+    "word": "zingen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "唱歌",
+      "english": "to sing"
+    }
+  },
+  "628": {
+    "id": 628,
+    "word": "zitten",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "坐着",
+      "english": "to sit"
+    }
+  },
+  "629": {
+    "id": 629,
+    "word": "zo",
+    "level": "A1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "如此",
+      "english": "so, thus"
+    }
+  },
+  "630": {
+    "id": 630,
+    "word": "zoals",
+    "level": "A1",
+    "partOfSpeech": "conjunction",
+    "translation": {
+      "chinese": "像...一样",
+      "english": "like, as"
+    }
+  },
+  "631": {
+    "id": 631,
+    "word": "zoeken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "寻找",
+      "english": "search"
+    }
+  },
+  "633": {
+    "id": 633,
+    "word": "zoet",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "甜的",
+      "english": "sweet"
+    }
+  },
+  "634": {
+    "id": 634,
+    "word": "zomer",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "夏天",
+      "english": "summer"
+    }
+  },
+  "635": {
+    "id": 635,
+    "word": "zon",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "太阳",
+      "english": "sun"
+    }
+  },
+  "636": {
+    "id": 636,
+    "word": "zondag",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "星期日",
+      "english": "Sunday"
+    }
+  },
+  "637": {
+    "id": 637,
+    "word": "zonder",
+    "level": "A1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "没有",
+      "english": "without"
+    }
+  },
+  "638": {
+    "id": 638,
+    "word": "zoon",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "儿子",
+      "english": "son"
+    }
+  },
+  "639": {
+    "id": 639,
+    "word": "zorg",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "关心，照顾",
+      "english": "care"
+    }
+  },
+  "640": {
+    "id": 640,
+    "word": "zorgen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "关心，担心",
+      "english": "to care, to worry"
+    }
+  },
+  "641": {
+    "id": 641,
+    "word": "zout",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "盐",
+      "english": "salt"
+    }
+  },
+  "642": {
+    "id": 642,
+    "word": "zuid",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "南方",
+      "english": "south"
+    }
+  },
+  "643": {
+    "id": 643,
+    "word": "zus",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "姐妹",
+      "english": "sister"
+    }
+  },
+  "644": {
+    "id": 644,
+    "word": "zwaar",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "重的",
+      "english": "heavy"
+    }
+  },
+  "645": {
+    "id": 645,
+    "word": "zwart",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "黑色的",
+      "english": "black"
+    }
+  },
+  "646": {
+    "id": 646,
+    "word": "zwembad",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "游泳池",
+      "english": "swimming pool"
+    }
+  },
+  "647": {
+    "id": 647,
+    "word": "zwemmen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "游泳",
+      "english": "to swim"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "lC201",
+  "level": "C2",
+  "lessonNumber": 1,
+  "totalWords": 1,
+  "words": [
+    {
+      "id": 15,
+      "word": "doorzettingsvermogen",
+      "translation": {
+        "chinese": "毅力",
+        "english": "perseverance"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "doorzettingsvermogen",
+          "plural": "doorzettingsvermogens",
+          "uncountablePreposition": "met doorzettingsvermogen"
+        }
+      },
+      "examples": [
+        "Succes vereist doorzettingsvermogen.",
+        "Zij heeft veel doorzettingsvermogen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "成功需要毅力。",
+          "她有很多毅力。"
+        ],
+        "english": [
+          "Success requires perseverance.",
+          "She has a lot of perseverance."
+        ]
+      },
+      "notes": "荷兰语典型长复合词，由door(穿过)+zetting(安置)+vermogen(能力)组成",
+      "difficulty": "C2"
+    }
+  ]
+}

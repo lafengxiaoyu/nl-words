@@ -1,0 +1,1595 @@
+{
+  "id": "lA102",
+  "level": "A1",
+  "lessonNumber": 2,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 62,
+      "word": "blij",
+      "translation": {
+        "chinese": "高兴的",
+        "english": "happy, glad"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "blij",
+          "withDe": "blijde",
+          "withHet": "blij",
+          "comparative": "blijer",
+          "superlative": "blijst"
+        }
+      },
+      "examples": [
+        "Ik ben erg blij.",
+        "Zij is blij met het cadeau."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我非常高兴。",
+          "她对这个礼物很开心。"
+        ],
+        "english": [
+          "I am very happy.",
+          "She is happy with the gift."
+        ]
+      },
+      "notes": "形容词，常与met连用",
+      "difficulty": "A1"
+    },
+    {
+      "id": 63,
+      "word": "bloem",
+      "translation": {
+        "chinese": "花",
+        "english": "flower"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bloem",
+          "plural": "bloemen"
+        }
+      },
+      "examples": [
+        "De bloem is mooi.",
+        "Ik koop bloemen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这朵花很漂亮。",
+          "我买花。"
+        ],
+        "english": [
+          "The flower is beautiful.",
+          "I buy flowers."
+        ]
+      },
+      "notes": "阴性名词，复数加-en",
+      "difficulty": "A1"
+    },
+    {
+      "id": 64,
+      "word": "fles",
+      "translation": {
+        "chinese": "瓶子",
+        "english": "bottle"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "fles",
+          "plural": "flessen"
+        }
+      },
+      "examples": [
+        "Ik heb een fles water.",
+        "De fles is leeg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有一瓶水。",
+          "瓶子空了。"
+        ],
+        "english": [
+          "I have a bottle of water.",
+          "The bottle is empty."
+        ]
+      },
+      "notes": "阴性名词，复数形式是flessen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 65,
+      "word": "boodschappen",
+      "translation": {
+        "chinese": "购物，日用品",
+        "english": "groceries, shopping"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "boodschap",
+          "plural": "boodschappen"
+        }
+      },
+      "examples": [
+        "Ik doe boodschappen.",
+        "Zij maakt de boodschappen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我去购物。",
+          "她去买日用品。"
+        ],
+        "english": [
+          "I do shopping.",
+          "She does the shopping."
+        ]
+      },
+      "notes": "常用复数形式，由boodschap(消息/购物)+pen组成",
+      "difficulty": "A1"
+    },
+    {
+      "id": 66,
+      "word": "boom",
+      "translation": {
+        "chinese": "树",
+        "english": "tree"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "boom",
+          "plural": "bomen"
+        }
+      },
+      "examples": [
+        "De boom is hoog.",
+        "Er staan veel bomen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这棵树很高。",
+          "这里有很多树。"
+        ],
+        "english": [
+          "The tree is tall.",
+          "There are many trees."
+        ]
+      },
+      "notes": "阳性名词，复数形式是bomen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 67,
+      "word": "boot",
+      "translation": {
+        "chinese": "船",
+        "english": "boat"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "boot",
+          "plural": "boten"
+        }
+      },
+      "examples": [
+        "De boot gaat om 10 uur.",
+        "Ik ga met de boot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "船10点出发。",
+          "我坐船去。"
+        ],
+        "english": [
+          "The boat leaves at 10 o'clock.",
+          "I go by boat."
+        ]
+      },
+      "notes": "阴性名词，复数形式是boten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 68,
+      "word": "bord",
+      "translation": {
+        "chinese": "盘子",
+        "english": "plate"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "bord",
+          "plural": "borden"
+        }
+      },
+      "examples": [
+        "Ik heb een schoon bord nodig.",
+        "Het bord is vol."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我需要一个干净的盘子。",
+          "盘子满了。"
+        ],
+        "english": [
+          "I need a clean plate.",
+          "The plate is full."
+        ]
+      },
+      "notes": "中性名词，复数形式是borden",
+      "difficulty": "A1"
+    },
+    {
+      "id": 69,
+      "word": "boven",
+      "translation": {
+        "chinese": "上面，在上",
+        "english": "upstairs, above"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "Ik woon boven.",
+        "Het is boven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我住在楼上。",
+          "它在上边。"
+        ],
+        "english": [
+          "I live upstairs.",
+          "It is above."
+        ]
+      },
+      "notes": "副词，表示位置或方向",
+      "difficulty": "A1"
+    },
+    {
+      "id": 70,
+      "word": "brief",
+      "translation": {
+        "chinese": "信，信件",
+        "english": "letter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "brief",
+          "plural": "brieven"
+        }
+      },
+      "examples": [
+        "Ik schrijf een brief.",
+        "De brief is voor jou."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我写一封信。",
+          "这封信是给你的。"
+        ],
+        "english": [
+          "I write a letter.",
+          "The letter is for you."
+        ]
+      },
+      "notes": "阴性名词，复数形式是brieven",
+      "difficulty": "A1"
+    },
+    {
+      "id": 71,
+      "word": "broer",
+      "translation": {
+        "chinese": "兄弟",
+        "english": "brother"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "broer",
+          "plural": "broers"
+        }
+      },
+      "examples": [
+        "Dit is mijn broer.",
+        "Ik heb twee broers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是我哥哥/弟弟。",
+          "我有两个兄弟。"
+        ],
+        "english": [
+          "This is my brother.",
+          "I have two brothers."
+        ]
+      },
+      "notes": "阳性名词，复数加-s",
+      "difficulty": "A1"
+    },
+    {
+      "id": 72,
+      "word": "brood",
+      "translation": {
+        "chinese": "面包",
+        "english": "bread"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "brood",
+          "plural": "broden",
+          "uncountablePreposition": "een snee brood"
+        }
+      },
+      "examples": [
+        "Ik eet brood.",
+        "Het brood is vers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃面包。",
+          "面包很新鲜。"
+        ],
+        "english": [
+          "I eat bread.",
+          "The bread is fresh."
+        ]
+      },
+      "notes": "中性名词，常不可数",
+      "difficulty": "A1"
+    },
+    {
+      "id": 73,
+      "word": "broodje",
+      "translation": {
+        "chinese": "小面包，三明治",
+        "english": "bread roll, sandwich"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "broodje",
+          "plural": "broodjes"
+        }
+      },
+      "examples": [
+        "Ik eet een broodje.",
+        "Een kaasbroodje, alstublieft."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃一个小面包。",
+          "请给我一个奶酪三明治。"
+        ],
+        "english": [
+          "I eat a bread roll.",
+          "A cheese sandwich, please."
+        ]
+      },
+      "notes": "指小词，由brood加后缀-je构成",
+      "difficulty": "A1"
+    },
+    {
+      "id": 74,
+      "word": "bruin",
+      "translation": {
+        "chinese": "棕色的",
+        "english": "brown"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bruin",
+          "withDe": "bruine",
+          "withHet": "bruin",
+          "comparative": "bruiner",
+          "superlative": "bruinist"
+        }
+      },
+      "examples": [
+        "De auto is bruin.",
+        "Hij heeft bruine ogen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "汽车是棕色的。",
+          "他有棕色的眼睛。"
+        ],
+        "english": [
+          "The car is brown.",
+          "He has brown eyes."
+        ]
+      },
+      "notes": "规则形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 75,
+      "word": "buiten",
+      "translation": {
+        "chinese": "外面，出去",
+        "english": "outside, out"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "Ik ga naar buiten.",
+        "Het is koud buiten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我出去。",
+          "外面很冷。"
+        ],
+        "english": [
+          "I go outside.",
+          "It is cold outside."
+        ]
+      },
+      "notes": "副词，可作方向词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 76,
+      "word": "bus",
+      "translation": {
+        "chinese": "公共汽车",
+        "english": "bus"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bus",
+          "plural": "bussen"
+        }
+      },
+      "examples": [
+        "Ik neem de bus.",
+        "De bus komt over 5 minuten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我坐公共汽车。",
+          "公共汽车5分钟后到。"
+        ],
+        "english": [
+          "I take the bus.",
+          "The bus arrives in 5 minutes."
+        ]
+      },
+      "notes": "阴性名词，复数形式是bussen(双s)",
+      "difficulty": "A1"
+    },
+    {
+      "id": 77,
+      "word": "buurman",
+      "translation": {
+        "chinese": "男邻居",
+        "english": "male neighbor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "buurman",
+          "plural": "buren"
+        }
+      },
+      "examples": [
+        "Mijn buurman is aardig.",
+        "De buren komen vanavond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的男邻居人很好。",
+          "邻居们今晚来。"
+        ],
+        "english": [
+          "My male neighbor is nice.",
+          "The neighbors come tonight."
+        ]
+      },
+      "notes": "复合名词，由buur(邻居)+man(男人)组成，复数用buren",
+      "difficulty": "A1"
+    },
+    {
+      "id": 78,
+      "word": "buurvrouw",
+      "translation": {
+        "chinese": "女邻居",
+        "english": "female neighbor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "buurvrouw",
+          "plural": "buren"
+        }
+      },
+      "examples": [
+        "Mijn buurvrouw is oud.",
+        "De buren zijn aardig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的女邻居年纪很大。",
+          "邻居们人很好。"
+        ],
+        "english": [
+          "My female neighbor is old.",
+          "The neighbors are nice."
+        ]
+      },
+      "notes": "复合名词，由buur(邻居)+vrouw(女人)组成，复数用buren",
+      "difficulty": "A1"
+    },
+    {
+      "id": 79,
+      "word": "cadeau",
+      "translation": {
+        "chinese": "礼物",
+        "english": "gift, present"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "cadeau",
+          "plural": "cadeaus"
+        }
+      },
+      "examples": [
+        "Ik heb een cadeau.",
+        "Dit is voor jou, een cadeau."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有一个礼物。",
+          "这是给你的礼物。"
+        ],
+        "english": [
+          "I have a gift.",
+          "This is for you, a present."
+        ]
+      },
+      "notes": "中性名词，源自法语",
+      "difficulty": "A1"
+    },
+    {
+      "id": 80,
+      "word": "chocolade",
+      "translation": {
+        "chinese": "巧克力",
+        "english": "chocolate"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "chocolade",
+          "plural": "chocolades",
+          "uncountablePreposition": "van chocolade"
+        }
+      },
+      "examples": [
+        "Ik eet chocolade.",
+        "De chocolade is lekker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃巧克力。",
+          "巧克力很好吃。"
+        ],
+        "english": [
+          "I eat chocolate.",
+          "The chocolate is tasty."
+        ]
+      },
+      "notes": "阴性名词，常不可数，源自法语",
+      "difficulty": "A1"
+    },
+    {
+      "id": 81,
+      "word": "dag",
+      "translation": {
+        "chinese": "白天，日",
+        "english": "day"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "dag",
+          "plural": "dagen"
+        }
+      },
+      "examples": [
+        "Goedendag.",
+        "Ik heb een goede dag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "日安。",
+          "我今天过得很好。"
+        ],
+        "english": [
+          "Good day.",
+          "I have a good day."
+        ]
+      },
+      "notes": "阴性名词，用于问候和计算时间",
+      "difficulty": "A1"
+    },
+    {
+      "id": 82,
+      "word": "dank",
+      "translation": {
+        "chinese": "谢谢",
+        "english": "thanks"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "dank",
+          "plural": "danken"
+        }
+      },
+      "examples": [
+        "Dank u wel.",
+        "Met dank."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "谢谢您。",
+          "表示感谢。"
+        ],
+        "english": [
+          "Thank you.",
+          "With thanks."
+        ]
+      },
+      "notes": "名词，多用于固定表达",
+      "difficulty": "A1"
+    },
+    {
+      "id": 83,
+      "word": "dankjewel",
+      "translation": {
+        "chinese": "非常谢谢",
+        "english": "thank you very much"
+      },
+      "partOfSpeech": "interjection",
+      "examples": [
+        "Dankjewel voor je hulp.",
+        "Ja, dankjewel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "非常谢谢你的帮助。",
+          "是的，非常谢谢。"
+        ],
+        "english": [
+          "Thank you very much for your help.",
+          "Yes, thank you."
+        ]
+      },
+      "notes": "非正式感谢语，由dank(谢谢)+je(你)+wel(确实)组成",
+      "difficulty": "A1"
+    },
+    {
+      "id": 84,
+      "word": "dansen",
+      "translation": {
+        "chinese": "跳舞",
+        "english": "to dance"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "dansen",
+          "isSeparable": false,
+          "present": {
+            "ik": "dans",
+            "jij": "danst",
+            "hij": "danst",
+            "wij": "dansen",
+            "jullie": "dansen",
+            "zij": "dansen"
+          },
+          "past": {
+            "singular": "danste",
+            "plural": "dansten"
+          },
+          "pastParticiple": "gedanst",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik dans graag.",
+        "Zij dansen samen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喜欢跳舞。",
+          "他们一起跳舞。"
+        ],
+        "english": [
+          "I like to dance.",
+          "They dance together."
+        ]
+      },
+      "notes": "规则弱动词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 85,
+      "word": "dat",
+      "translation": {
+        "chinese": "那，那个",
+        "english": "that"
+      },
+      "partOfSpeech": "pronoun",
+      "examples": [
+        "Dat is mijn auto.",
+        "Ik weet dat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那是我的汽车。",
+          "我知道那个。"
+        ],
+        "english": [
+          "That is my car.",
+          "I know that."
+        ]
+      },
+      "notes": "指示代词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 86,
+      "word": "de",
+      "translation": {
+        "chinese": "这个（阳性/阴性）",
+        "english": "the (masculine/feminine)"
+      },
+      "partOfSpeech": "article",
+      "examples": [
+        "De man staat daar.",
+        "De vrouw is hier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那个男人站在那里。",
+          "那个女人在这里。"
+        ],
+        "english": [
+          "The man stands there.",
+          "The woman is here."
+        ]
+      },
+      "notes": "定冠词，用于阳性或阴性名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 87,
+      "word": "deur",
+      "translation": {
+        "chinese": "门",
+        "english": "door"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "deur",
+          "plural": "deuren"
+        }
+      },
+      "examples": [
+        "De deur is open.",
+        "Ga naar de deur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "门开着。",
+          "去门口。"
+        ],
+        "english": [
+          "The door is open.",
+          "Go to the door."
+        ]
+      },
+      "notes": "阴性名词，复数形式是deuren",
+      "difficulty": "A1"
+    },
+    {
+      "id": 88,
+      "word": "deze",
+      "translation": {
+        "chinese": "这个",
+        "english": "this"
+      },
+      "partOfSpeech": "pronoun",
+      "examples": [
+        "Deze auto is mooi.",
+        "Ik vind deze leuk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这辆车很漂亮。",
+          "我觉得这个不错。"
+        ],
+        "english": [
+          "This car is beautiful.",
+          "I like this one."
+        ]
+      },
+      "notes": "指示代词，近指",
+      "difficulty": "A1"
+    },
+    {
+      "id": 89,
+      "word": "dicht",
+      "translation": {
+        "chinese": "关闭，近",
+        "english": "closed, near"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "dicht",
+          "withDe": "dichte",
+          "withHet": "dicht",
+          "comparative": "dichter",
+          "superlative": "dichtst"
+        }
+      },
+      "examples": [
+        "De deur is dicht.",
+        "Hij woont dicht bij het station."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "门关着。",
+          "他住在车站附近。"
+        ],
+        "english": [
+          "The door is closed.",
+          "He lives near the station."
+        ]
+      },
+      "notes": "形容词，可表示状态或距离",
+      "difficulty": "A1"
+    },
+    {
+      "id": 90,
+      "word": "dictaat",
+      "translation": {
+        "chinese": "讲义，笔记",
+        "english": "lecture notes"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "dictaat",
+          "plural": "dictaten"
+        }
+      },
+      "examples": [
+        "Ik heb een dictaat.",
+        "Het dictaat is duidelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有一份讲义。",
+          "这份讲义很清楚。"
+        ],
+        "english": [
+          "I have lecture notes.",
+          "The lecture notes are clear."
+        ]
+      },
+      "notes": "中性名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 91,
+      "word": "die",
+      "translation": {
+        "chinese": "那个",
+        "english": "that"
+      },
+      "partOfSpeech": "pronoun",
+      "examples": [
+        "Die auto is rood.",
+        "Ik zie die."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那辆车是红色的。",
+          "我看见那个。"
+        ],
+        "english": [
+          "That car is red.",
+          "I see that one."
+        ]
+      },
+      "notes": "指示代词，远指",
+      "difficulty": "A1"
+    },
+    {
+      "id": 92,
+      "word": "dier",
+      "translation": {
+        "chinese": "动物",
+        "english": "animal"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "dier",
+          "plural": "dieren"
+        }
+      },
+      "examples": [
+        "Het dier is groot.",
+        "Ik hou van dieren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这只动物很大。",
+          "我喜欢动物。"
+        ],
+        "english": [
+          "The animal is big.",
+          "I love animals."
+        ]
+      },
+      "notes": "中性名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 93,
+      "word": "ding",
+      "translation": {
+        "chinese": "东西，事物",
+        "english": "thing"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "ding",
+          "plural": "dingen"
+        }
+      },
+      "examples": [
+        "Wat is dat voor ding?",
+        "Ik heb een ding nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那是什么东西？",
+          "我需要一样东西。"
+        ],
+        "english": [
+          "What kind of thing is that?",
+          "I need a thing."
+        ]
+      },
+      "notes": "中性名词，复数形式是dingen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 94,
+      "word": "dinsdag",
+      "translation": {
+        "chinese": "星期二",
+        "english": "Tuesday"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "dinsdag",
+          "plural": "dinsdagen"
+        }
+      },
+      "examples": [
+        "Vandaag is het dinsdag.",
+        "Op dinsdag werk ik."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "今天是星期二。",
+          "我星期二工作。"
+        ],
+        "english": [
+          "Today is Tuesday.",
+          "I work on Tuesday."
+        ]
+      },
+      "notes": "阴性名词，星期之一",
+      "difficulty": "A1"
+    },
+    {
+      "id": 95,
+      "word": "dochter",
+      "translation": {
+        "chinese": "女儿",
+        "english": "daughter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "dochter",
+          "plural": "dochters"
+        }
+      },
+      "examples": [
+        "Dit is mijn dochter.",
+        "Ik heb één dochter."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是我女儿。",
+          "我有一个女儿。"
+        ],
+        "english": [
+          "This is my daughter.",
+          "I have one daughter."
+        ]
+      },
+      "notes": "阴性名词，复数加-s",
+      "difficulty": "A1"
+    },
+    {
+      "id": 96,
+      "word": "doen",
+      "translation": {
+        "chinese": "做，干",
+        "english": "to do"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "doen",
+          "isSeparable": false,
+          "present": {
+            "ik": "doe",
+            "jij": "doet",
+            "hij": "doet",
+            "wij": "doen",
+            "jullie": "doen",
+            "zij": "doen"
+          },
+          "past": {
+            "singular": "deed",
+            "plural": "deden"
+          },
+          "pastParticiple": "gedaan",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik doe mijn best.",
+        "Wat doe je?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我尽力。",
+          "你在做什么？"
+        ],
+        "english": [
+          "I do my best.",
+          "What are you doing?"
+        ]
+      },
+      "notes": "不规则动词，过去式是deed/deden",
+      "difficulty": "A1"
+    },
+    {
+      "id": 97,
+      "word": "donderdag",
+      "translation": {
+        "chinese": "星期四",
+        "english": "Thursday"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "donderdag",
+          "plural": "donderdagen"
+        }
+      },
+      "examples": [
+        "Donderdag ga ik weg.",
+        "Het is donderdag vandaag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我星期四离开。",
+          "今天是星期四。"
+        ],
+        "english": [
+          "I leave on Thursday.",
+          "Today is Thursday."
+        ]
+      },
+      "notes": "阴性名词，星期之一",
+      "difficulty": "A1"
+    },
+    {
+      "id": 98,
+      "word": "donker",
+      "translation": {
+        "chinese": "暗的，黑色的",
+        "english": "dark"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "donker",
+          "withDe": "donkere",
+          "withHet": "donker",
+          "comparative": "donkerder",
+          "superlative": "donkerst"
+        }
+      },
+      "examples": [
+        "Het is donker.",
+        "Een donkere kamer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "天黑了。",
+          "一个黑暗的房间。"
+        ],
+        "english": [
+          "It is dark.",
+          "A dark room."
+        ]
+      },
+      "notes": "规则形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 99,
+      "word": "door",
+      "translation": {
+        "chinese": "通过，因为",
+        "english": "through, because"
+      },
+      "partOfSpeech": "preposition",
+      "examples": [
+        "Ik ga door de deur.",
+        "Door het regen blijven we thuis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我通过门进去。",
+          "因为下雨我们待在家里。"
+        ],
+        "english": [
+          "I go through the door.",
+          "Because of the rain we stay home."
+        ]
+      },
+      "notes": "介词，可表示方式或原因",
+      "difficulty": "A1"
+    },
+    {
+      "id": 100,
+      "word": "doos",
+      "translation": {
+        "chinese": "盒子",
+        "english": "box"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "doos",
+          "plural": "dozen"
+        }
+      },
+      "examples": [
+        "Ik heb een doos.",
+        "De doos is open."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有一个盒子。",
+          "盒子开着。"
+        ],
+        "english": [
+          "I have a box.",
+          "The box is open."
+        ]
+      },
+      "notes": "阴性名词，复数形式是dozen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 101,
+      "word": "dorp",
+      "translation": {
+        "chinese": "村庄",
+        "english": "village"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "dorp",
+          "plural": "dorpen"
+        }
+      },
+      "examples": [
+        "Ik woon in een dorp.",
+        "Het dorp is klein."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我住在一个村庄里。",
+          "这个村庄很小。"
+        ],
+        "english": [
+          "I live in a village.",
+          "The village is small."
+        ]
+      },
+      "notes": "中性名词，复数形式是dorpen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 102,
+      "word": "dorst",
+      "translation": {
+        "chinese": "口渴",
+        "english": "thirst"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "dorst",
+          "plural": "dorsten"
+        }
+      },
+      "examples": [
+        "Ik heb dorst.",
+        "Dorst is slecht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我口渴。",
+          "口渴是不好的。"
+        ],
+        "english": [
+          "I am thirsty.",
+          "Thirst is bad."
+        ]
+      },
+      "notes": "阴性名词，常与hebben(有)连用",
+      "difficulty": "A1"
+    },
+    {
+      "id": 103,
+      "word": "douche",
+      "translation": {
+        "chinese": "淋浴",
+        "english": "shower"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "douche",
+          "plural": "douches"
+        }
+      },
+      "examples": [
+        "Ik neem een douche.",
+        "De douche is warm."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我冲个淋浴。",
+          "淋浴是热的。"
+        ],
+        "english": [
+          "I take a shower.",
+          "The shower is warm."
+        ]
+      },
+      "notes": "阴性名词，源自法语",
+      "difficulty": "A1"
+    },
+    {
+      "id": 104,
+      "word": "dranken",
+      "translation": {
+        "chinese": "饮料",
+        "english": "drinks"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "drank",
+          "plural": "dranken"
+        }
+      },
+      "examples": [
+        "Ik drink graag dranken.",
+        "De dranken staan hier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喜欢喝饮料。",
+          "饮料在这里。"
+        ],
+        "english": [
+          "I like drinks.",
+          "The drinks are here."
+        ]
+      },
+      "notes": "阴性名词，复数形式是dranken",
+      "difficulty": "A1"
+    },
+    {
+      "id": 105,
+      "word": "drie",
+      "translation": {
+        "chinese": "三",
+        "english": "three"
+      },
+      "partOfSpeech": "numeral",
+      "examples": [
+        "Ik heb drie boeken.",
+        "Het is drie uur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有三本书。",
+          "现在是三点钟。"
+        ],
+        "english": [
+          "I have three books.",
+          "It is three o'clock."
+        ]
+      },
+      "notes": "基数词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 106,
+      "word": "drinken",
+      "translation": {
+        "chinese": "喝",
+        "english": "to drink"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "drinken",
+          "isSeparable": false,
+          "present": {
+            "ik": "drink",
+            "jij": "drinkt",
+            "hij": "drinkt",
+            "wij": "drinken",
+            "jullie": "drinken",
+            "zij": "drinken"
+          },
+          "past": {
+            "singular": "dronk",
+            "plural": "dronken"
+          },
+          "pastParticiple": "gedronken",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik drink water.",
+        "Hij drinkt koffie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喝水。",
+          "他喝咖啡。"
+        ],
+        "english": [
+          "I drink water.",
+          "He drinks coffee."
+        ]
+      },
+      "notes": "不规则动词，过去式是dronk/dronken",
+      "difficulty": "A1"
+    },
+    {
+      "id": 107,
+      "word": "druk",
+      "translation": {
+        "chinese": "忙的",
+        "english": "busy"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "druk",
+          "withDe": "drukke",
+          "withHet": "druk",
+          "comparative": "drukker",
+          "superlative": "drukst"
+        }
+      },
+      "examples": [
+        "Ik ben druk.",
+        "Een drukke dag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我很忙。",
+          "忙碌的一天。"
+        ],
+        "english": [
+          "I am busy.",
+          "A busy day."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 108,
+      "word": "dubbel",
+      "translation": {
+        "chinese": "双倍的",
+        "english": "double"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "dubbel",
+          "withDe": "dubbele",
+          "withHet": "dubbel",
+          "comparative": "dubbeler",
+          "superlative": "dubbelst"
+        }
+      },
+      "examples": [
+        "Ik wil een dubbele kamer.",
+        "Dubbele koffie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我想要一个双人间。",
+          "双倍咖啡。"
+        ],
+        "english": [
+          "I want a double room.",
+          "Double coffee."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 109,
+      "word": "duur",
+      "translation": {
+        "chinese": "贵的",
+        "english": "expensive"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "duur",
+          "withDe": "dure",
+          "withHet": "duur",
+          "comparative": "duurder",
+          "superlative": "duurst"
+        }
+      },
+      "examples": [
+        "De auto is duur.",
+        "Het is te duur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "汽车很贵。",
+          "这太贵了。"
+        ],
+        "english": [
+          "The car is expensive.",
+          "It is too expensive."
+        ]
+      },
+      "notes": "规则形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 110,
+      "word": "echt",
+      "translation": {
+        "chinese": "真的，真正的",
+        "english": "real, true"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "echt",
+          "withDe": "echte",
+          "withHet": "echt",
+          "comparative": "echter",
+          "superlative": "echtst"
+        }
+      },
+      "examples": [
+        "Is dit echt?",
+        "Een echt vriend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是真的吗？",
+          "一个真正的朋友。"
+        ],
+        "english": [
+          "Is this real?",
+          "A true friend."
+        ]
+      },
+      "notes": "形容词，可表示真实或真正的",
+      "difficulty": "A1"
+    },
+    {
+      "id": 111,
+      "word": "een",
+      "translation": {
+        "chinese": "一个",
+        "english": "a, an, one"
+      },
+      "partOfSpeech": "article",
+      "examples": [
+        "Ik heb een auto.",
+        "Een huis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有一辆汽车。",
+          "一所房子。"
+        ],
+        "english": [
+          "I have a car.",
+          "A house."
+        ]
+      },
+      "notes": "不定冠词，或数字一",
+      "difficulty": "A1"
+    }
+  ]
+}

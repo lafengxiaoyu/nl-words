@@ -1,0 +1,1700 @@
+{
+  "id": "lA105",
+  "level": "A1",
+  "lessonNumber": 5,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 219,
+      "word": "leuk",
+      "translation": {
+        "chinese": "有趣的，愉快的",
+        "english": "nice, fun, pleasant"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "leuk",
+          "withDe": "leuke",
+          "withHet": "leuk",
+          "comparative": "leuker",
+          "superlative": "leukst"
+        }
+      },
+      "examples": [
+        "Het is een leuk boek.",
+        "Heb je een leuke dag?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一本有趣的书。",
+          "你过得愉快吗？"
+        ],
+        "english": [
+          "It is a nice book.",
+          "Did you have a nice day?"
+        ]
+      },
+      "notes": "常用形容词，比较级：leuker，最高级：leukst",
+      "difficulty": "A1"
+    },
+    {
+      "id": 220,
+      "word": "leven",
+      "translation": {
+        "chinese": "生活，活着",
+        "english": "to live, life"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "geleefd",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "leef",
+            "jij": "leeft",
+            "hij": "leeft",
+            "wij": "leven",
+            "jullie": "leven",
+            "zij": "leven"
+          },
+          "infinitive": "leven",
+          "past": {
+            "singular": "leefde",
+            "plural": "leefden"
+          }
+        }
+      },
+      "examples": [
+        "Ik leef in Nederland.",
+        "Hij leeft hier al jaren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我住在荷兰。",
+          "他住在这里好几年了。"
+        ],
+        "english": [
+          "I live in the Netherlands.",
+          "He has lived here for years."
+        ]
+      },
+      "notes": "强动词，过去分词：geleefd（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 221,
+      "word": "lezen",
+      "translation": {
+        "chinese": "阅读",
+        "english": "to read"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gelezen",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "lees",
+            "jij": "leest",
+            "hij": "leest",
+            "wij": "lezen",
+            "jullie": "lezen",
+            "zij": "lezen"
+          },
+          "infinitive": "lezen",
+          "past": {
+            "singular": "las",
+            "plural": "lazen"
+          }
+        }
+      },
+      "examples": [
+        "Ik lees een boek.",
+        "Ze leest de krant."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在看书。",
+          "她在看报纸。"
+        ],
+        "english": [
+          "I am reading a book.",
+          "She reads the newspaper."
+        ]
+      },
+      "notes": "强动词，过去分词：gelezen（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 222,
+      "word": "licht",
+      "translation": {
+        "chinese": "轻的，光，光线",
+        "english": "light (adj), light (noun)"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "licht",
+          "withDe": "lichte",
+          "withHet": "licht",
+          "comparative": "lichter",
+          "superlative": "lichtst"
+        }
+      },
+      "examples": [
+        "De tafel is licht.",
+        "Er is te weinig licht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这张桌子很轻。",
+          "光线太暗了。"
+        ],
+        "english": [
+          "The table is light.",
+          "There is too little light."
+        ]
+      },
+      "notes": "形容词兼名词形式，比较级：lichter，最高级：lichtst",
+      "difficulty": "A1"
+    },
+    {
+      "id": 223,
+      "word": "lief",
+      "translation": {
+        "chinese": "可爱的，亲爱的",
+        "english": "sweet, dear, kind"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "lief",
+          "withDe": "lieve",
+          "withHet": "lief",
+          "comparative": "liever",
+          "superlative": "liefst"
+        }
+      },
+      "examples": [
+        "Ze is een lief meisje.",
+        "Dat is erg lief van je."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她是个可爱的女孩。",
+          "你真好。"
+        ],
+        "english": [
+          "She is a sweet girl.",
+          "That is very kind of you."
+        ]
+      },
+      "notes": "常用形容词，比较级：liever，最高级：liefst",
+      "difficulty": "A1"
+    },
+    {
+      "id": 224,
+      "word": "liever",
+      "translation": {
+        "chinese": "宁愿，更喜欢",
+        "english": "rather, prefer"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "liever",
+          "comparative": "liefst"
+        }
+      },
+      "examples": [
+        "Ik liever koffie dan thee.",
+        "Ik liever thuis blijven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我宁愿喝咖啡也不喝茶。",
+          "我宁愿待在家里。"
+        ],
+        "english": [
+          "I prefer coffee over tea.",
+          "I prefer to stay home."
+        ]
+      },
+      "notes": "liever是lief的比较级形式，用作副词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 225,
+      "word": "liggen",
+      "translation": {
+        "chinese": "躺着，位于",
+        "english": "to lie (position), to be located"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gelegen",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "lig",
+            "jij": "ligt",
+            "hij": "ligt",
+            "wij": "liggen",
+            "jullie": "liggen",
+            "zij": "liggen"
+          },
+          "infinitive": "liggen",
+          "past": {
+            "singular": "lag",
+            "plural": "lagen"
+          }
+        }
+      },
+      "examples": [
+        "Het boek ligt op tafel.",
+        "Hij ligt op bed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "书在桌子上。",
+          "他躺在床上。"
+        ],
+        "english": [
+          "The book lies on the table.",
+          "He lies on the bed."
+        ]
+      },
+      "notes": "强动词，表示位置或状态时用hebben",
+      "difficulty": "A1"
+    },
+    {
+      "id": 226,
+      "word": "links",
+      "translation": {
+        "chinese": "左边，左侧",
+        "english": "left"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "links",
+          "opposite": "rechts"
+        }
+      },
+      "examples": [
+        "Ga naar links.",
+        "Links van het huis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "往左走。",
+          "房子的左边。"
+        ],
+        "english": [
+          "Go left.",
+          "To the left of the house."
+        ]
+      },
+      "notes": "方向副词，反义词是rechts（右边）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 227,
+      "word": "lijst",
+      "translation": {
+        "chinese": "列表，清单",
+        "english": "list"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lijst",
+          "plural": "lijsten"
+        }
+      },
+      "examples": [
+        "Dit is de lijst.",
+        "Heb je een lijst?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这就是清单。",
+          "你有清单吗？"
+        ],
+        "english": [
+          "This is the list.",
+          "Do you have a list?"
+        ]
+      },
+      "notes": "阴性名词，复数形式是lijsten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 228,
+      "word": "luisteren",
+      "translation": {
+        "chinese": "听，倾听",
+        "english": "to listen, to listen to"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "geluisterd",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "luister",
+            "jij": "luistert",
+            "hij": "luistert",
+            "wij": "luisteren",
+            "jullie": "luisteren",
+            "zij": "luisteren"
+          },
+          "infinitive": "luisteren",
+          "past": {
+            "singular": "luisterde",
+            "plural": "luisterden"
+          }
+        }
+      },
+      "examples": [
+        "Ik luister naar muziek.",
+        "Luister naar me!"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在听音乐。",
+          "听我说！"
+        ],
+        "english": [
+          "I listen to music.",
+          "Listen to me!"
+        ]
+      },
+      "notes": "规则弱动词，搭配介词naar使用",
+      "difficulty": "A1"
+    },
+    {
+      "id": 229,
+      "word": "maand",
+      "translation": {
+        "chinese": "月，月份",
+        "english": "month"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "maand",
+          "plural": "maanden"
+        }
+      },
+      "examples": [
+        "De maand januari.",
+        "Er zijn twaalf maanden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一月。",
+          "一年有十二个月。"
+        ],
+        "english": [
+          "The month January.",
+          "There are twelve months."
+        ]
+      },
+      "notes": "阴性名词，复数形式是maanden",
+      "difficulty": "A1"
+    },
+    {
+      "id": 230,
+      "word": "maandag",
+      "translation": {
+        "chinese": "星期一",
+        "english": "Monday"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "maandag",
+          "plural": "maandagen"
+        }
+      },
+      "examples": [
+        "Vandaag is het maandag.",
+        "Op maandag werk ik."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "今天是星期一。",
+          "星期一我工作。"
+        ],
+        "english": [
+          "Today is Monday.",
+          "On Monday I work."
+        ]
+      },
+      "notes": "阴性名词，星期名称前不加冠词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 231,
+      "word": "maar",
+      "translation": {
+        "chinese": "但是，然而",
+        "english": "but, however"
+      },
+      "partOfSpeech": "conjunction",
+      "forms": {
+        "conjunction": {
+          "type": "coordinating"
+        }
+      },
+      "examples": [
+        "Ik wil, maar ik kan niet.",
+        "Het is duur, maar mooi."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我想，但我不能。",
+          "它很贵，但很美。"
+        ],
+        "english": [
+          "I want to, but I can't.",
+          "It's expensive, but beautiful."
+        ]
+      },
+      "notes": "并列连词，连接两个并列成分",
+      "difficulty": "A1"
+    },
+    {
+      "id": 232,
+      "word": "maken",
+      "translation": {
+        "chinese": "做，制作",
+        "english": "to make, to do"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gemaakt",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "maak",
+            "jij": "maakt",
+            "hij": "maakt",
+            "wij": "maken",
+            "jullie": "maken",
+            "zij": "maken"
+          },
+          "infinitive": "maken",
+          "past": {
+            "singular": "maakte",
+            "plural": "maakten"
+          }
+        }
+      },
+      "examples": [
+        "Ik maak koffie.",
+        "Hij maakt huiswerk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在做咖啡。",
+          "他在做作业。"
+        ],
+        "english": [
+          "I make coffee.",
+          "He does homework."
+        ]
+      },
+      "notes": "规则弱动词，过去分词：gemaakt（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 233,
+      "word": "man",
+      "translation": {
+        "chinese": "男人",
+        "english": "man, husband"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "man",
+          "plural": "mannen"
+        }
+      },
+      "examples": [
+        "De man loopt.",
+        "Mijn man werkt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那个男人在走。",
+          "我的丈夫在工作。"
+        ],
+        "english": [
+          "The man walks.",
+          "My husband works."
+        ]
+      },
+      "notes": "阳性名词，复数形式是mannen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 234,
+      "word": "markt",
+      "translation": {
+        "chinese": "市场，集市",
+        "english": "market"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "markt",
+          "plural": "markten"
+        }
+      },
+      "examples": [
+        "Ik ga naar de markt.",
+        "De markt is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我去市场。",
+          "市场很大。"
+        ],
+        "english": [
+          "I go to the market.",
+          "The market is big."
+        ]
+      },
+      "notes": "阴性名词，复数形式是markten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 235,
+      "word": "mensen",
+      "translation": {
+        "chinese": "人们",
+        "english": "people"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "mens",
+          "plural": "mensen"
+        }
+      },
+      "examples": [
+        "Veel mensen.",
+        "De mensen werken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "很多人。",
+          "人们在工作。"
+        ],
+        "english": [
+          "Many people.",
+          "The people work."
+        ]
+      },
+      "notes": "阴性名词，单数形式是mens，复数是mensen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 236,
+      "word": "met",
+      "translation": {
+        "chinese": "和，用，带有",
+        "english": "with, by, through"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "type": "basic"
+        }
+      },
+      "examples": [
+        "Ik ga met je.",
+        "Met de auto."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我和你一起去。",
+          "开车。"
+        ],
+        "english": [
+          "I go with you.",
+          "By car."
+        ]
+      },
+      "notes": "常用介词，表示伴随、方式等",
+      "difficulty": "A1"
+    },
+    {
+      "id": 237,
+      "word": "mevrouw",
+      "translation": {
+        "chinese": "女士，夫人",
+        "english": "Mrs., Ms., lady"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "mevrouw",
+          "plural": "mevrouwen"
+        }
+      },
+      "examples": [
+        "Mevrouw Jansen.",
+        "Goedendag, mevrouw."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "Jansen女士。",
+          "您好，女士。"
+        ],
+        "english": [
+          "Mrs. Jansen.",
+          "Hello, madam."
+        ]
+      },
+      "notes": "阴性名词，复数形式是mevrouwen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 238,
+      "word": "middag",
+      "translation": {
+        "chinese": "下午",
+        "english": "afternoon"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "middag",
+          "plural": "middagen"
+        }
+      },
+      "examples": [
+        "Goedemiddag!",
+        "In de middag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "下午好！",
+          "在下午。"
+        ],
+        "english": [
+          "Good afternoon!",
+          "In the afternoon."
+        ]
+      },
+      "notes": "阴性名词，复数形式是middagen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 239,
+      "word": "mij",
+      "translation": {
+        "chinese": "我（宾格）",
+        "english": "me (object)"
+      },
+      "partOfSpeech": "pronoun",
+      "forms": {
+        "pronoun": {
+          "type": "object",
+          "person": "first",
+          "number": "singular"
+        }
+      },
+      "examples": [
+        "Zij ziet mij.",
+        "Geef mij het boek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她看见我。",
+          "给我那本书。"
+        ],
+        "english": [
+          "She sees me.",
+          "Give me the book."
+        ]
+      },
+      "notes": "第一人称单数宾格代词，与主格'ik'对应",
+      "difficulty": "A1"
+    },
+    {
+      "id": 240,
+      "word": "mijn",
+      "translation": {
+        "chinese": "我的",
+        "english": "my, mine"
+      },
+      "partOfSpeech": "possessive",
+      "forms": {
+        "possessive": {
+          "person": "first",
+          "number": "singular"
+        }
+      },
+      "examples": [
+        "Mijn boek.",
+        "Dit is mijn huis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的书。",
+          "这是我的房子。"
+        ],
+        "english": [
+          "My book.",
+          "This is my house."
+        ]
+      },
+      "notes": "第一人称单数所有格，与所有性、数配合",
+      "difficulty": "A1"
+    },
+    {
+      "id": 241,
+      "word": "minder",
+      "translation": {
+        "chinese": "更少的，较少",
+        "english": "less, fewer"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "minder",
+          "withDe": "mindere",
+          "withHet": "minder",
+          "comparative": "minst",
+          "superlative": "minst"
+        }
+      },
+      "examples": [
+        "Ik heb minder tijd.",
+        "Hij eet minder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有更少的时间。",
+          "他吃得少了。"
+        ],
+        "english": [
+          "I have less time.",
+          "He eats less."
+        ]
+      },
+      "notes": "minder已经是比较级形式，最高级是minst",
+      "difficulty": "A1"
+    },
+    {
+      "id": 242,
+      "word": "minuut",
+      "translation": {
+        "chinese": "分钟",
+        "english": "minute"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "minuut",
+          "plural": "minuten"
+        }
+      },
+      "examples": [
+        "Een minuut.",
+        "Tien minuten later."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一分钟。",
+          "十分钟后。"
+        ],
+        "english": [
+          "A minute.",
+          "Ten minutes later."
+        ]
+      },
+      "notes": "阴性名词，复数形式是minuten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 243,
+      "word": "misschien",
+      "translation": {
+        "chinese": "也许，可能",
+        "english": "maybe, perhaps"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "misschien"
+        }
+      },
+      "examples": [
+        "Misschien morgen.",
+        "Ik weet het misschien."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "也许明天。",
+          "我也许知道。"
+        ],
+        "english": [
+          "Maybe tomorrow.",
+          "I might know."
+        ]
+      },
+      "notes": "副词，表示可能性",
+      "difficulty": "A1"
+    },
+    {
+      "id": 244,
+      "word": "moeder",
+      "translation": {
+        "chinese": "母亲",
+        "english": "mother"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "moeder",
+          "plural": "moeders"
+        }
+      },
+      "examples": [
+        "Mijn moeder.",
+        "De moeder van het kind."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我母亲。",
+          "孩子的母亲。"
+        ],
+        "english": [
+          "My mother.",
+          "The mother of the child."
+        ]
+      },
+      "notes": "阴性名词，复数形式是moeders",
+      "difficulty": "A1"
+    },
+    {
+      "id": 245,
+      "word": "moeilijk",
+      "translation": {
+        "chinese": "困难的，难的",
+        "english": "difficult, hard"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "moeilijk",
+          "withDe": "moeilijke",
+          "withHet": "moeilijk",
+          "comparative": "moeilijker",
+          "superlative": "moeilijkst"
+        }
+      },
+      "examples": [
+        "De test is moeilijk.",
+        "Een moeilijke vraag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "考试很难。",
+          "一个困难的问题。"
+        ],
+        "english": [
+          "The test is difficult.",
+          "A difficult question."
+        ]
+      },
+      "notes": "形容词，比较级：moeilijker，最高级：moeilijkst",
+      "difficulty": "A1"
+    },
+    {
+      "id": 246,
+      "word": "moeten",
+      "translation": {
+        "chinese": "必须，应该",
+        "english": "must, have to"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gemoeten",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "moet",
+            "jij": "moet",
+            "hij": "moet",
+            "wij": "moeten",
+            "jullie": "moeten",
+            "zij": "moeten"
+          },
+          "infinitive": "moeten",
+          "past": {
+            "singular": "moest",
+            "plural": "moesten"
+          }
+        }
+      },
+      "examples": [
+        "Ik moet werken.",
+        "Hij moet naar huis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我必须工作。",
+          "他必须回家。"
+        ],
+        "english": [
+          "I must work.",
+          "He has to go home."
+        ]
+      },
+      "notes": "情态动词，变位特殊（单数都是moet）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 247,
+      "word": "mogen",
+      "translation": {
+        "chinese": "可以，允许",
+        "english": "may, to be allowed"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gemogen",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "mag",
+            "jij": "mag",
+            "hij": "mag",
+            "wij": "mogen",
+            "jullie": "mogen",
+            "zij": "mogen"
+          },
+          "infinitive": "mogen",
+          "past": {
+            "singular": "mocht",
+            "plural": "mochten"
+          }
+        }
+      },
+      "examples": [
+        "Ik mag gaan.",
+        "Mag ik de deur open?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我可以走了。",
+          "我可以开门吗？"
+        ],
+        "english": [
+          "I may go.",
+          "May I open the door?"
+        ]
+      },
+      "notes": "情态动词，变位特殊（单数都是mag）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 249,
+      "word": "morgen",
+      "translation": {
+        "chinese": "明天，早上",
+        "english": "tomorrow, morning"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "morgen"
+        }
+      },
+      "examples": [
+        "Tot morgen!",
+        "Goedemorgen!"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "明天见！",
+          "早上好！"
+        ],
+        "english": [
+          "See you tomorrow!",
+          "Good morning!"
+        ]
+      },
+      "notes": "可作副词（明天）或名词（早晨，写作de morgen）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 250,
+      "word": "muis",
+      "translation": {
+        "chinese": "老鼠，鼠标",
+        "english": "mouse (animal), mouse (computer)"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "muis",
+          "plural": "muizen"
+        }
+      },
+      "examples": [
+        "De muis.",
+        "Ik klik met de muis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "老鼠。",
+          "我用鼠标点击。"
+        ],
+        "english": [
+          "The mouse.",
+          "I click with the mouse."
+        ]
+      },
+      "notes": "阴性名词，复数形式是muizen（元音变化）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 251,
+      "word": "muziek",
+      "translation": {
+        "chinese": "音乐",
+        "english": "music"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "muziek",
+          "plural": "muziek",
+          "uncountable": true
+        }
+      },
+      "examples": [
+        "Ik luister naar muziek.",
+        "Goede muziek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在听音乐。",
+          "好音乐。"
+        ],
+        "english": [
+          "I listen to music.",
+          "Good music."
+        ]
+      },
+      "notes": "阴性名词，通常不可数，搭配介词naar使用",
+      "difficulty": "A1"
+    },
+    {
+      "id": 252,
+      "word": "na",
+      "translation": {
+        "chinese": "在...之后，向",
+        "english": "after, to, towards"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "type": "basic"
+        }
+      },
+      "examples": [
+        "Na het eten.",
+        "Ik ga naar school."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "饭后。",
+          "我去上学。"
+        ],
+        "english": [
+          "After the meal.",
+          "I go to school."
+        ]
+      },
+      "notes": "常用介词，可表示时间顺序或方向",
+      "difficulty": "A1"
+    },
+    {
+      "id": 253,
+      "word": "naam",
+      "translation": {
+        "chinese": "名字",
+        "english": "name"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "naam",
+          "plural": "namen"
+        }
+      },
+      "examples": [
+        "Wat is je naam?",
+        "Mijn naam is Jan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你叫什么名字？",
+          "我叫Jan。"
+        ],
+        "english": [
+          "What is your name?",
+          "My name is Jan."
+        ]
+      },
+      "notes": "阳性名词，复数形式是namen（元音变化）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 254,
+      "word": "naar",
+      "translation": {
+        "chinese": "向，往",
+        "english": "to, towards, at"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "type": "basic"
+        }
+      },
+      "examples": [
+        "Ik ga naar huis.",
+        "Kijk naar me."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我回家。",
+          "看着我。"
+        ],
+        "english": [
+          "I go home.",
+          "Look at me."
+        ]
+      },
+      "notes": "常用介词，表示方向或对象",
+      "difficulty": "A1"
+    },
+    {
+      "id": 255,
+      "word": "naast",
+      "translation": {
+        "chinese": "在...旁边",
+        "english": "next to, beside"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "type": "basic"
+        }
+      },
+      "examples": [
+        "Naast het huis.",
+        "Ik zit naast hem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "房子旁边。",
+          "我坐在他旁边。"
+        ],
+        "english": [
+          "Next to the house.",
+          "I sit next to him."
+        ]
+      },
+      "notes": "介词，表示位置关系",
+      "difficulty": "A1"
+    },
+    {
+      "id": 256,
+      "word": "nacht",
+      "translation": {
+        "chinese": "夜晚",
+        "english": "night"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nacht",
+          "plural": "nachten"
+        }
+      },
+      "examples": [
+        "Goedenavond!",
+        "In de nacht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "晚上好！",
+          "在夜里。"
+        ],
+        "english": [
+          "Good evening!",
+          "At night."
+        ]
+      },
+      "notes": "阴性名词，复数形式是nachten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 257,
+      "word": "nat",
+      "translation": {
+        "chinese": "湿的",
+        "english": "wet"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nat",
+          "withDe": "natte",
+          "withHet": "nat",
+          "comparative": "natter",
+          "superlative": "natst"
+        }
+      },
+      "examples": [
+        "Het is nat weer.",
+        "Een natte hand."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "天气潮湿。",
+          "一只湿手。"
+        ],
+        "english": [
+          "It is wet weather.",
+          "A wet hand."
+        ]
+      },
+      "notes": "形容词，比较级：natter，最高级：natst",
+      "difficulty": "A1"
+    },
+    {
+      "id": 258,
+      "word": "natuurlijk",
+      "translation": {
+        "chinese": "当然，自然地",
+        "english": "of course, naturally"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "natuurlijk"
+        }
+      },
+      "examples": [
+        "Natuurlijk!",
+        "Natuurlijk help ik je."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "当然！",
+          "我当然会帮你。"
+        ],
+        "english": [
+          "Of course!",
+          "Of course I help you."
+        ]
+      },
+      "notes": "副词，表示肯定",
+      "difficulty": "A1"
+    },
+    {
+      "id": 259,
+      "word": "nee",
+      "translation": {
+        "chinese": "不",
+        "english": "no"
+      },
+      "partOfSpeech": "interjection",
+      "forms": {
+        "interjection": {
+          "base": "nee"
+        }
+      },
+      "examples": [
+        "Nee, dat kan niet.",
+        "Nee, bedankt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "不，那不行。",
+          "不，谢谢。"
+        ],
+        "english": [
+          "No, that can't.",
+          "No, thanks."
+        ]
+      },
+      "notes": "否定回答，比'ik weet het niet'更直接",
+      "difficulty": "A1"
+    },
+    {
+      "id": 260,
+      "word": "nemen",
+      "translation": {
+        "chinese": "拿，取",
+        "english": "take"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "genomen",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "neem",
+            "jij": "neemt",
+            "hij": "neemt",
+            "wij": "nemen",
+            "jullie": "nemen",
+            "zij": "nemen"
+          },
+          "infinitive": "nemen",
+          "past": {
+            "singular": "nam",
+            "plural": "namen"
+          }
+        }
+      },
+      "examples": [
+        "Neem dit.",
+        "Ik neem de trein."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "拿着这个。",
+          "我坐火车。"
+        ],
+        "english": [
+          "Take this.",
+          "I take the train."
+        ]
+      },
+      "notes": "强动词，过去分词：genomen（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 261,
+      "word": "neef",
+      "translation": {
+        "chinese": "表兄弟，堂兄弟",
+        "english": "cousin (male)"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "neef",
+          "plural": "neven"
+        }
+      },
+      "examples": [
+        "Mijn neef.",
+        "De neef van mijn vader."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的表弟。",
+          "我父亲的表弟。"
+        ],
+        "english": [
+          "My cousin.",
+          "My father's cousin."
+        ]
+      },
+      "notes": "阳性名词，复数形式是neven（元音变化）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 262,
+      "word": "negen",
+      "translation": {
+        "chinese": "九",
+        "english": "nine"
+      },
+      "partOfSpeech": "number",
+      "forms": {
+        "number": {
+          "value": 9,
+          "ordinal": "negende"
+        }
+      },
+      "examples": [
+        "Negen boeken.",
+        "Het is negen uur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "九本书。",
+          "九点钟。"
+        ],
+        "english": [
+          "Nine books.",
+          "It is nine o'clock."
+        ]
+      },
+      "notes": "基数词，序数词是negende",
+      "difficulty": "A1"
+    },
+    {
+      "id": 264,
+      "word": "nergens",
+      "translation": {
+        "chinese": "无处，哪里都不",
+        "english": "nowhere"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "nergens",
+          "opposite": "overal"
+        }
+      },
+      "examples": [
+        "Ik ben nergens.",
+        "Het is nergens te vinden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我哪里都不在。",
+          "哪里都找不到。"
+        ],
+        "english": [
+          "I am nowhere.",
+          "It is nowhere to be found."
+        ]
+      },
+      "notes": "否定副词，反义词是overal（到处）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 265,
+      "word": "net",
+      "translation": {
+        "chinese": "正好，刚刚，网",
+        "english": "just, net (internet)"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "net"
+        }
+      },
+      "examples": [
+        "Ik ben net thuis.",
+        "Het is net twee uur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我刚到家。",
+          "正好两点。"
+        ],
+        "english": [
+          "I just arrived home.",
+          "It is exactly two o'clock."
+        ]
+      },
+      "notes": "副词，表示时间或精确",
+      "difficulty": "A1"
+    },
+    {
+      "id": 266,
+      "word": "netjes",
+      "translation": {
+        "chinese": "整洁的，礼貌的",
+        "english": "neat, tidy, polite"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "netjes",
+          "withDe": "nette",
+          "withHet": "netjes",
+          "comparative": "netter",
+          "superlative": "netst"
+        }
+      },
+      "examples": [
+        "Een netje kamer.",
+        "Hij is netjes."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个整洁的房间。",
+          "他很礼貌。"
+        ],
+        "english": [
+          "A neat room.",
+          "He is polite."
+        ]
+      },
+      "notes": "形容词，比较级：netter，最高级：netst",
+      "difficulty": "A1"
+    },
+    {
+      "id": 267,
+      "word": "neven",
+      "translation": {
+        "chinese": "表兄弟们，堂兄弟们（复数）",
+        "english": "cousins (male, plural)"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "neef",
+          "plural": "neven"
+        }
+      },
+      "examples": [
+        "Mijn neven.",
+        "De neven komen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的表兄弟们。",
+          "表兄弟们来了。"
+        ],
+        "english": [
+          "My cousins.",
+          "The cousins are coming."
+        ]
+      },
+      "notes": "阳性名词neef的复数形式",
+      "difficulty": "A1"
+    },
+    {
+      "id": 268,
+      "word": "nicht",
+      "translation": {
+        "chinese": "表姐妹，堂姐妹",
+        "english": "cousin (female)"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nicht",
+          "plural": "nichten"
+        }
+      },
+      "examples": [
+        "Mijn nicht.",
+        "De nicht van mijn moeder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的表妹。",
+          "我母亲的表妹。"
+        ],
+        "english": [
+          "My cousin.",
+          "My mother's cousin."
+        ]
+      },
+      "notes": "阴性名词，复数形式是nichten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 269,
+      "word": "niemand",
+      "translation": {
+        "chinese": "没有人",
+        "english": "nobody, no one"
+      },
+      "partOfSpeech": "pronoun",
+      "forms": {
+        "pronoun": {
+          "type": "indefinite",
+          "person": "third",
+          "number": "singular"
+        }
+      },
+      "examples": [
+        "Niemand is thuis.",
+        "Ik zie niemand."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "没人在家。",
+          "我没看见任何人。"
+        ],
+        "english": [
+          "Nobody is home.",
+          "I see no one."
+        ]
+      },
+      "notes": "不定代词，表示否定",
+      "difficulty": "A1"
+    },
+    {
+      "id": 270,
+      "word": "niet",
+      "translation": {
+        "chinese": "不，不是",
+        "english": "not"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "niet"
+        }
+      },
+      "examples": [
+        "Ik weet het niet.",
+        "Het is niet waar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我不知道。",
+          "这不是真的。"
+        ],
+        "english": [
+          "I don't know.",
+          "It is not true."
+        ]
+      },
+      "notes": "否定副词，与动词、形容词等连用",
+      "difficulty": "A1"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "lB101",
+  "level": "B1",
+  "lessonNumber": 1,
+  "totalWords": 4,
+  "words": [
+    {
+      "id": 11,
+      "word": "samenwerking",
+      "translation": {
+        "chinese": "合作",
+        "english": "collaboration"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "samenwerking",
+          "plural": "samenwerkingen"
+        }
+      },
+      "examples": [
+        "Goede samenwerking is belangrijk voor succes.",
+        "De samenwerking tussen de bedrijven verloopt goed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "良好的合作对成功很重要。",
+          "公司之间的合作进展顺利。"
+        ],
+        "english": [
+          "Good collaboration is important for success.",
+          "The collaboration between the companies is going well."
+        ]
+      },
+      "notes": "复合词，由samen(一起)和werking(工作)组成",
+      "difficulty": "B1"
+    },
+    {
+      "id": 12,
+      "word": "verantwoordelijkheid",
+      "translation": {
+        "chinese": "责任",
+        "english": "responsibility"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "verantwoordelijkheid",
+          "plural": "verantwoordelijkheden"
+        }
+      },
+      "examples": [
+        "Het is jouw verantwoordelijkheid om dit te doen.",
+        "We moeten onze verantwoordelijkheid nemen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "做这件事是你的责任。",
+          "我们必须承担我们的责任。"
+        ],
+        "english": [
+          "It's your responsibility to do this.",
+          "We need to take our responsibility."
+        ]
+      },
+      "notes": "常用在商务和正式场合",
+      "difficulty": "B1"
+    },
+    {
+      "id": 14,
+      "word": "betalen",
+      "translation": {
+        "chinese": "支付",
+        "english": "to pay"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "betalen",
+          "isSeparable": false,
+          "present": {
+            "ik": "betaal",
+            "jij": "betaalt",
+            "hij": "betaalt",
+            "wij": "betalen",
+            "jullie": "betalen",
+            "zij": "betalen"
+          },
+          "past": {
+            "singular": "betaalde",
+            "plural": "betaalden"
+          },
+          "pastParticiple": "betaald",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik wil contant betalen.",
+        "Hij betaalt de rekening."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我想付现金。",
+          "他付账单。"
+        ],
+        "english": [
+          "I want to pay cash.",
+          "He pays the bill."
+        ]
+      },
+      "notes": "规则弱动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 22,
+      "word": "inloggen",
+      "translation": {
+        "chinese": "登录",
+        "english": "to log in"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "inloggen",
+          "isSeparable": true,
+          "prefix": "in",
+          "present": {
+            "ik": "log in",
+            "jij": "logt in",
+            "hij": "logt in",
+            "wij": "loggen in",
+            "jullie": "loggen in",
+            "zij": "loggen in"
+          },
+          "past": {
+            "singular": "logde in",
+            "plural": "logden in"
+          },
+          "pastParticiple": "ingelogd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik log in op de computer.",
+        "Je kunt inloggen met je account."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我登录电脑。",
+          "你可以用你的账户登录。"
+        ],
+        "english": [
+          "I log in to the computer.",
+          "You can log in with your account."
+        ]
+      },
+      "notes": "可分动词，前缀 in-，常用于数字环境",
+      "difficulty": "B1"
+    }
+  ]
+}

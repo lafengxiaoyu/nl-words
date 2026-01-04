@@ -1,0 +1,1650 @@
+{
+  "id": "lA108",
+  "level": "A1",
+  "lessonNumber": 8,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 372,
+      "word": "stad",
+      "translation": {
+        "chinese": "城市",
+        "english": "city"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "stad",
+          "plural": "steden"
+        }
+      },
+      "examples": [
+        "De stad is groot.",
+        "Ik woon in de stad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "城市很大。",
+          "我住在城市里。"
+        ],
+        "english": [
+          "The city is big.",
+          "I live in the city."
+        ]
+      },
+      "notes": "阴性名词，复数形式是steden（元音变化）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 373,
+      "word": "station",
+      "translation": {
+        "chinese": "车站",
+        "english": "station"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "station",
+          "plural": "stations"
+        }
+      },
+      "examples": [
+        "Het station.",
+        "Ik wacht op het station."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "车站。",
+          "我在车站等。"
+        ],
+        "english": [
+          "The station.",
+          "I wait at the station."
+        ]
+      },
+      "notes": "中性名词，复数形式是stations",
+      "difficulty": "A1"
+    },
+    {
+      "id": 374,
+      "word": "stoel",
+      "translation": {
+        "chinese": "椅子",
+        "english": "chair"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "stoel",
+          "plural": "stoelen"
+        }
+      },
+      "examples": [
+        "De stoel.",
+        "Ik zit op een stoel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "椅子。",
+          "我坐在椅子上。"
+        ],
+        "english": [
+          "The chair.",
+          "I sit on a chair."
+        ]
+      },
+      "notes": "阳性名词，复数形式是stoelen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 375,
+      "word": "stop",
+      "translation": {
+        "chinese": "停止",
+        "english": "stop"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "stop",
+          "plural": "stops"
+        }
+      },
+      "examples": [
+        "Stop!",
+        "De bus stopt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "停！",
+          "公交车停了。"
+        ],
+        "english": [
+          "Stop!",
+          "The bus stops."
+        ]
+      },
+      "notes": "阴性名词，也用作命令式动词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 376,
+      "word": "straat",
+      "translation": {
+        "chinese": "街道",
+        "english": "street"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "straat",
+          "plural": "straten"
+        }
+      },
+      "examples": [
+        "De straat.",
+        "Ik woon in de straat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "街道。",
+          "我住在这条街上。"
+        ],
+        "english": [
+          "The street.",
+          "I live in the street."
+        ]
+      },
+      "notes": "阴性名词，复数形式是straten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 377,
+      "word": "straks",
+      "translation": {
+        "chinese": "一会儿，稍后",
+        "english": "later, soon"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "straks"
+        }
+      },
+      "examples": [
+        "Ik kom straks.",
+        "Zie je straks!"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我一会儿来。",
+          "一会儿见！"
+        ],
+        "english": [
+          "I come later.",
+          "See you later!"
+        ]
+      },
+      "notes": "时间副词，表示不久的将来",
+      "difficulty": "A1"
+    },
+    {
+      "id": 378,
+      "word": "student",
+      "translation": {
+        "chinese": "学生",
+        "english": "student"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "student",
+          "plural": "studenten"
+        }
+      },
+      "examples": [
+        "Een student.",
+        "De studenten studeren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个学生。",
+          "学生们在学习。"
+        ],
+        "english": [
+          "A student.",
+          "The students study."
+        ]
+      },
+      "notes": "阳性名词，复数形式是studenten（加-en）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 379,
+      "word": "studeren",
+      "translation": {
+        "chinese": "学习，研究",
+        "english": "to study, to research"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gestudeerd",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "studeer",
+            "jij": "studeert",
+            "hij": "studeert",
+            "wij": "studeren",
+            "jullie": "studeren",
+            "zij": "studeren"
+          },
+          "infinitive": "studeren",
+          "past": {
+            "singular": "studeerde",
+            "plural": "studeerden"
+          }
+        }
+      },
+      "examples": [
+        "Ik studeer in Amsterdam.",
+        "Zij studeert geneeskunde."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在阿姆斯特丹学习。",
+          "她学医学。"
+        ],
+        "english": [
+          "I study in Amsterdam.",
+          "She studies medicine."
+        ]
+      },
+      "notes": "规则弱动词，过去分词：gestudeerd（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 380,
+      "word": "sturen",
+      "translation": {
+        "chinese": "发送",
+        "english": "to send"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gestuurd",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "stuur",
+            "jij": "stuurt",
+            "hij": "stuurt",
+            "wij": "sturen",
+            "jullie": "sturen",
+            "zij": "sturen"
+          },
+          "infinitive": "sturen",
+          "past": {
+            "singular": "stuurde",
+            "plural": "stuurden"
+          }
+        }
+      },
+      "examples": [
+        "Ik stuur een email.",
+        "Zij stuurt het pakket."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我发一封邮件。",
+          "她发送包裹。"
+        ],
+        "english": [
+          "I send an email.",
+          "She sends the package."
+        ]
+      },
+      "notes": "规则弱动词，过去分词：gestuurd（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 381,
+      "word": "succes",
+      "translation": {
+        "chinese": "成功",
+        "english": "success"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "succes",
+          "plural": "successen"
+        }
+      },
+      "examples": [
+        "Veel succes!",
+        "Het project is een succes."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "祝你好运！",
+          "这个项目很成功。"
+        ],
+        "english": [
+          "Much success!",
+          "The project is a success."
+        ]
+      },
+      "notes": "阳性名词，复数形式是successen（双写s）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 382,
+      "word": "suiker",
+      "translation": {
+        "chinese": "糖",
+        "english": "sugar"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "suiker",
+          "plural": "suiker",
+          "uncountable": true
+        }
+      },
+      "examples": [
+        "Suiker in de koffie.",
+        "Ik wil suiker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "咖啡里加糖。",
+          "我要糖。"
+        ],
+        "english": [
+          "Sugar in coffee.",
+          "I want sugar."
+        ]
+      },
+      "notes": "阳性名词，通常不可数",
+      "difficulty": "A1"
+    },
+    {
+      "id": 383,
+      "word": "supermarkt",
+      "translation": {
+        "chinese": "超市",
+        "english": "supermarket"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "supermarkt",
+          "plural": "supermarkten"
+        }
+      },
+      "examples": [
+        "Ik ga naar de supermarkt.",
+        "De supermarkt is dicht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我去超市。",
+          "超市关门了。"
+        ],
+        "english": [
+          "I go to the supermarket.",
+          "The supermarket is closed."
+        ]
+      },
+      "notes": "阴性名词，复数形式是supermarkten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 384,
+      "word": "taal",
+      "translation": {
+        "chinese": "语言",
+        "english": "language"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "taal",
+          "plural": "talen"
+        }
+      },
+      "examples": [
+        "Ik spreek twee talen.",
+        "De Nederlandse taal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我会说两种语言。",
+          "荷兰语。"
+        ],
+        "english": [
+          "I speak two languages.",
+          "The Dutch language."
+        ]
+      },
+      "notes": "阴性名词，复数形式是talen（元音变化）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 385,
+      "word": "tafel",
+      "translation": {
+        "chinese": "桌子",
+        "english": "table"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tafel",
+          "plural": "tafels"
+        }
+      },
+      "examples": [
+        "Aan tafel.",
+        "De tafel is wit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在桌子旁。",
+          "桌子是白色的。"
+        ],
+        "english": [
+          "At the table.",
+          "The table is white."
+        ]
+      },
+      "notes": "阴性名词，复数形式是tafels",
+      "difficulty": "A1"
+    },
+    {
+      "id": 386,
+      "word": "tand",
+      "translation": {
+        "chinese": "牙齿",
+        "english": "tooth"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tand",
+          "plural": "tanden"
+        }
+      },
+      "examples": [
+        "Mijn tanden.",
+        "Ik poets mijn tanden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的牙齿。",
+          "我刷牙。"
+        ],
+        "english": [
+          "My teeth.",
+          "I brush my teeth."
+        ]
+      },
+      "notes": "阳性名词，复数形式是tanden（元音变化）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 387,
+      "word": "tante",
+      "translation": {
+        "chinese": "阿姨，姑姑，婶婶",
+        "english": "aunt"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tante",
+          "plural": "tantes"
+        }
+      },
+      "examples": [
+        "Mijn tante.",
+        "De tante van mijn moeder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我阿姨。",
+          "我母亲的姐姐。"
+        ],
+        "english": [
+          "My aunt.",
+          "My mother's sister."
+        ]
+      },
+      "notes": "阴性名词，复数形式是tantes（加-s）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 388,
+      "word": "tas",
+      "translation": {
+        "chinese": "包",
+        "english": "bag"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tas",
+          "plural": "tassen"
+        }
+      },
+      "examples": [
+        "Mijn tas.",
+        "Ik heb een nieuwe tas."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的包。",
+          "我有一个新包。"
+        ],
+        "english": [
+          "My bag.",
+          "I have a new bag."
+        ]
+      },
+      "notes": "阴性名词，复数形式是tassen（双写s）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 389,
+      "word": "taxi",
+      "translation": {
+        "chinese": "出租车",
+        "english": "taxi"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "taxi",
+          "plural": "taxi's"
+        }
+      },
+      "examples": [
+        "Ik neem een taxi.",
+        "De taxi komt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我打车。",
+          "出租车来了。"
+        ],
+        "english": [
+          "I take a taxi.",
+          "The taxi comes."
+        ]
+      },
+      "notes": "阴性名词，复数形式是taxi's（加-apostrophe-s）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 390,
+      "word": "te",
+      "translation": {
+        "chinese": "太，过于",
+        "english": "too, too much"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "te"
+        }
+      },
+      "examples": [
+        "Het is te duur.",
+        "Ik heb te weinig tijd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这太贵了。",
+          "我的时间太少了。"
+        ],
+        "english": [
+          "It is too expensive.",
+          "I have too little time."
+        ]
+      },
+      "notes": "副词，表示程度",
+      "difficulty": "A1"
+    },
+    {
+      "id": 391,
+      "word": "tegen",
+      "translation": {
+        "chinese": "反对，对，向",
+        "english": "against, towards, to"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "type": "basic"
+        }
+      },
+      "examples": [
+        "Ik loop tegen hem aan.",
+        "Hij spreekt tegen me."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我撞到他。",
+          "他对我说。"
+        ],
+        "english": [
+          "I bump into him.",
+          "He speaks to me."
+        ]
+      },
+      "notes": "介词，表示方向或对象",
+      "difficulty": "A1"
+    },
+    {
+      "id": 392,
+      "word": "tekenen",
+      "translation": {
+        "chinese": "画画，画",
+        "english": "to draw, to sketch"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "getekend",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "teken",
+            "jij": "tekent",
+            "hij": "tekent",
+            "wij": "tekenen",
+            "jullie": "tekenen",
+            "zij": "tekenen"
+          },
+          "infinitive": "tekenen",
+          "past": {
+            "singular": "tekende",
+            "plural": "tekenden"
+          }
+        }
+      },
+      "examples": [
+        "Ik teken een huis.",
+        "Zij tekent goed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我画一座房子。",
+          "她画得很好。"
+        ],
+        "english": [
+          "I draw a house.",
+          "She draws well."
+        ]
+      },
+      "notes": "规则弱动词，过去分词：getekend（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 393,
+      "word": "telefoon",
+      "translation": {
+        "chinese": "电话",
+        "english": "telephone, phone"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "telefoon",
+          "plural": "telefoons"
+        }
+      },
+      "examples": [
+        "Mijn telefoon.",
+        "Ik bel op de telefoon."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的电话。",
+          "我打电话。"
+        ],
+        "english": [
+          "My phone.",
+          "I call on the phone."
+        ]
+      },
+      "notes": "阳性名词，复数形式是telefoons",
+      "difficulty": "A1"
+    },
+    {
+      "id": 394,
+      "word": "televisie",
+      "translation": {
+        "chinese": "电视",
+        "english": "television, TV"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "televisie",
+          "plural": "televisies"
+        }
+      },
+      "examples": [
+        "Ik kijk televisie.",
+        "De televisie staat aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我看电视。",
+          "电视开着。"
+        ],
+        "english": [
+          "I watch TV.",
+          "The TV is on."
+        ]
+      },
+      "notes": "阴性名词，复数形式是televisies",
+      "difficulty": "A1"
+    },
+    {
+      "id": 396,
+      "word": "tellen",
+      "translation": {
+        "chinese": "数数，计算",
+        "english": "to count"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "geteld",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "tel",
+            "jij": "telt",
+            "hij": "telt",
+            "wij": "tellen",
+            "jullie": "tellen",
+            "zij": "tellen"
+          },
+          "infinitive": "tellen",
+          "past": {
+            "singular": "telde",
+            "plural": "telden"
+          }
+        }
+      },
+      "examples": [
+        "Ik tel tot tien.",
+        "Hij telt het geld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我数到十。",
+          "他数钱。"
+        ],
+        "english": [
+          "I count to ten.",
+          "He counts the money."
+        ]
+      },
+      "notes": "规则弱动词，过去分词：geteld（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 397,
+      "word": "tenminste",
+      "translation": {
+        "chinese": "至少",
+        "english": "at least"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "tenminste"
+        }
+      },
+      "examples": [
+        "Tenminste één keer.",
+        "Tenminste drie uur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "至少一次。",
+          "至少三小时。"
+        ],
+        "english": [
+          "At least once.",
+          "At least three hours."
+        ]
+      },
+      "notes": "副词，表示最小值",
+      "difficulty": "A1"
+    },
+    {
+      "id": 398,
+      "word": "tenslotte",
+      "translation": {
+        "chinese": "最后",
+        "english": "finally, at last"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "tenslotte"
+        }
+      },
+      "examples": [
+        "Tenslotte komt hij.",
+        "Tenslotte eten we."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "最后他来了。",
+          "最后我们吃饭。"
+        ],
+        "english": [
+          "Finally he comes.",
+          "Finally we eat."
+        ]
+      },
+      "notes": "副词，用于句尾总结",
+      "difficulty": "A1"
+    },
+    {
+      "id": 399,
+      "word": "tent",
+      "translation": {
+        "chinese": "帐篷",
+        "english": "tent"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tent",
+          "plural": "tenten"
+        }
+      },
+      "examples": [
+        "De tent is groot.",
+        "We slapen in de tent."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "帐篷很大。",
+          "我们睡在帐篷里。"
+        ],
+        "english": [
+          "The tent is big.",
+          "We sleep in the tent."
+        ]
+      },
+      "notes": "阴性名词，复数形式是tenten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 400,
+      "word": "terug",
+      "translation": {
+        "chinese": "回来，回",
+        "english": "back, return"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "terug",
+          "opposite": "heen"
+        }
+      },
+      "examples": [
+        "Ik kom terug.",
+        "Ga terug!"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我回来了。",
+          "回去！"
+        ],
+        "english": [
+          "I come back.",
+          "Go back!"
+        ]
+      },
+      "notes": "副词，表示返回，反义词是heen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 401,
+      "word": "terwijl",
+      "translation": {
+        "chinese": "当...时候，然而",
+        "english": "while, whereas"
+      },
+      "partOfSpeech": "conjunction",
+      "forms": {
+        "conjunction": {
+          "type": "subordinating"
+        }
+      },
+      "examples": [
+        "Ik lees, terwijl je slaapt.",
+        "Hij werkt, terwijl ik speel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在读书时，你在睡觉。",
+          "他工作，而我在玩。"
+        ],
+        "english": [
+          "I read while you sleep.",
+          "He works whereas I play."
+        ]
+      },
+      "notes": "从属连词，引导时间或对比从句",
+      "difficulty": "A1"
+    },
+    {
+      "id": 402,
+      "word": "test",
+      "translation": {
+        "chinese": "测试，考试",
+        "english": "test, exam"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "test",
+          "plural": "testen"
+        }
+      },
+      "examples": [
+        "De test is moeilijk.",
+        "Ik heb een test."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "考试很难。",
+          "我有一场考试。"
+        ],
+        "english": [
+          "The test is difficult.",
+          "I have a test."
+        ]
+      },
+      "notes": "阴性名词，复数形式是testen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 403,
+      "word": "teveel",
+      "translation": {
+        "chinese": "太多",
+        "english": "too much, too many"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "teveel"
+        }
+      },
+      "examples": [
+        "Het is teveel.",
+        "Ik heb teveel werk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这太多了。",
+          "我的工作太多。"
+        ],
+        "english": [
+          "It is too much.",
+          "I have too much work."
+        ]
+      },
+      "notes": "副词，表示过量",
+      "difficulty": "A1"
+    },
+    {
+      "id": 404,
+      "word": "thuis",
+      "translation": {
+        "chinese": "在家",
+        "english": "at home, home"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "thuis"
+        }
+      },
+      "examples": [
+        "Ik ben thuis.",
+        "Ga naar huis, ben je thuis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在家。",
+          "回家，到家了。"
+        ],
+        "english": [
+          "I am at home.",
+          "Go home, you are home."
+        ]
+      },
+      "notes": "副词，表示地点",
+      "difficulty": "A1"
+    },
+    {
+      "id": 405,
+      "word": "tien",
+      "translation": {
+        "chinese": "十",
+        "english": "ten"
+      },
+      "partOfSpeech": "number",
+      "forms": {
+        "number": {
+          "value": 10,
+          "ordinal": "tiende"
+        }
+      },
+      "examples": [
+        "Tien euro.",
+        "Ik heb tien boeken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "十欧元。",
+          "我有十本书。"
+        ],
+        "english": [
+          "Ten euros.",
+          "I have ten books."
+        ]
+      },
+      "notes": "基数词，序数词是tiende",
+      "difficulty": "A1"
+    },
+    {
+      "id": 407,
+      "word": "tijdens",
+      "translation": {
+        "chinese": "在...期间",
+        "english": "during, while"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "type": "basic"
+        }
+      },
+      "examples": [
+        "Tijdens de les.",
+        "Tijdens de vakantie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "上课期间。",
+          "假期期间。"
+        ],
+        "english": [
+          "During the class.",
+          "During the vacation."
+        ]
+      },
+      "notes": "介词，表示时间段",
+      "difficulty": "A1"
+    },
+    {
+      "id": 408,
+      "word": "tikken",
+      "translation": {
+        "chinese": "滴答声",
+        "english": "tick"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "getikt",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "tik",
+            "jij": "tikt",
+            "hij": "tikt",
+            "wij": "tikken",
+            "jullie": "tikken",
+            "zij": "tikken"
+          },
+          "infinitive": "tikken",
+          "past": {
+            "singular": "tikte",
+            "plural": "tikten"
+          }
+        }
+      },
+      "examples": [
+        "De klok tikt.",
+        "Hij tikt op de toetsen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "时钟滴答响。",
+          "他敲击键盘。"
+        ],
+        "english": [
+          "The clock ticks.",
+          "He types on the keyboard."
+        ]
+      },
+      "notes": "规则弱动词，过去分词：getikt（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 409,
+      "word": "timmerman",
+      "translation": {
+        "chinese": "木匠",
+        "english": "carpenter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "timmerman",
+          "plural": "timmermannen"
+        }
+      },
+      "examples": [
+        "De timmerman.",
+        "De timmermannen werken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "木匠。",
+          "木匠们在工作。"
+        ],
+        "english": [
+          "The carpenter.",
+          "The carpenters work."
+        ]
+      },
+      "notes": "阳性名词，复数形式是timmermannen（加-en）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 410,
+      "word": "titel",
+      "translation": {
+        "chinese": "标题，题目",
+        "english": "title"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "titel",
+          "plural": "titels"
+        }
+      },
+      "examples": [
+        "De titel van het boek.",
+        "Wat is de titel?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "书的标题。",
+          "标题是什么？"
+        ],
+        "english": [
+          "The title of the book.",
+          "What is the title?"
+        ]
+      },
+      "notes": "阴性名词，复数形式是titels",
+      "difficulty": "A1"
+    },
+    {
+      "id": 411,
+      "word": "toch",
+      "translation": {
+        "chinese": "但是，还是",
+        "english": "yet, still, after all"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "toch"
+        }
+      },
+      "examples": [
+        "Ik ga toch.",
+        "Hij is toch thuis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我还是去。",
+          "他还是在家。"
+        ],
+        "english": [
+          "I go anyway.",
+          "He is still at home."
+        ]
+      },
+      "notes": "副词，表示转折或强调",
+      "difficulty": "A1"
+    },
+    {
+      "id": 412,
+      "word": "toekomst",
+      "translation": {
+        "chinese": "未来",
+        "english": "future"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "toekomst",
+          "plural": "toekomsten"
+        }
+      },
+      "examples": [
+        "In de toekomst.",
+        "De toekomst is onzeker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在未来。",
+          "未来是不确定的。"
+        ],
+        "english": [
+          "In the future.",
+          "The future is uncertain."
+        ]
+      },
+      "notes": "阴性名词，复数形式是toekomsten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 413,
+      "word": "toen",
+      "translation": {
+        "chinese": "那时，当时",
+        "english": "then, at that time"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "toen"
+        }
+      },
+      "examples": [
+        "Toen was ik jong.",
+        "Toen kwam hij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那时我还年轻。",
+          "那时他来了。"
+        ],
+        "english": [
+          "Then I was young.",
+          "Then he came."
+        ]
+      },
+      "notes": "时间副词，用于过去时",
+      "difficulty": "A1"
+    },
+    {
+      "id": 414,
+      "word": "toerist",
+      "translation": {
+        "chinese": "游客",
+        "english": "tourist"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "toerist",
+          "plural": "toeristen"
+        }
+      },
+      "examples": [
+        "Veel toeristen.",
+        "De toeristen bezoeken Amsterdam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "很多游客。",
+          "游客们游览阿姆斯特丹。"
+        ],
+        "english": [
+          "Many tourists.",
+          "The tourists visit Amsterdam."
+        ]
+      },
+      "notes": "阳性名词，复数形式是toeristen（加-en）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 415,
+      "word": "toetje",
+      "translation": {
+        "chinese": "甜点",
+        "english": "dessert"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "toetje",
+          "plural": "toetjes"
+        }
+      },
+      "examples": [
+        "Het toetje is lekker.",
+        "Ik wil een toetje."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "甜点很好吃。",
+          "我想要甜点。"
+        ],
+        "english": [
+          "The dessert is delicious.",
+          "I want a dessert."
+        ]
+      },
+      "notes": "中性名词，复数形式是toetjes（加-je）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 416,
+      "word": "toilet",
+      "translation": {
+        "chinese": "厕所",
+        "english": "toilet"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "toilet",
+          "plural": "toiletten"
+        }
+      },
+      "examples": [
+        "Het toilet.",
+        "Ik ga naar het toilet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "厕所。",
+          "我去厕所。"
+        ],
+        "english": [
+          "The toilet.",
+          "I go to the toilet."
+        ]
+      },
+      "notes": "中性名词，复数形式是toiletten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 417,
+      "word": "tol",
+      "translation": {
+        "chinese": "收费站",
+        "english": "toll"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tol",
+          "plural": "tollen"
+        }
+      },
+      "examples": [
+        "De tol is duur.",
+        "Ik betaal de tol."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "收费站很贵。",
+          "我付过路费。"
+        ],
+        "english": [
+          "The toll is expensive.",
+          "I pay the toll."
+        ]
+      },
+      "notes": "阴性名词，复数形式是tollen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 418,
+      "word": "tolk",
+      "translation": {
+        "chinese": "翻译，口译员",
+        "english": "translator, interpreter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tolk",
+          "plural": "tolken"
+        }
+      },
+      "examples": [
+        "De tolk spreekt goed.",
+        "Ik heb een tolk nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "翻译说得很好。",
+          "我需要一个翻译。"
+        ],
+        "english": [
+          "The translator speaks well.",
+          "I need a translator."
+        ]
+      },
+      "notes": "阳性名词，复数形式是tolken",
+      "difficulty": "A1"
+    },
+    {
+      "id": 419,
+      "word": "tomaat",
+      "translation": {
+        "chinese": "西红柿",
+        "english": "tomato"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tomaat",
+          "plural": "tomaten"
+        }
+      },
+      "examples": [
+        "Een tomaat.",
+        "Ik eet tomaat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个西红柿。",
+          "我吃西红柿。"
+        ],
+        "english": [
+          "A tomato.",
+          "I eat tomato."
+        ]
+      },
+      "notes": "阴性名词，复数形式是tomaten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 420,
+      "word": "ton",
+      "translation": {
+        "chinese": "吨",
+        "english": "ton"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ton",
+          "plural": "tonnen"
+        }
+      },
+      "examples": [
+        "Een ton vlees.",
+        "Twee tonnen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一吨肉。",
+          "两吨。"
+        ],
+        "english": [
+          "A ton of meat.",
+          "Two tons."
+        ]
+      },
+      "notes": "阳性名词，复数形式是tonnen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 421,
+      "word": "toneel",
+      "translation": {
+        "chinese": "戏剧，舞台剧",
+        "english": "theater, drama"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "toneel",
+          "plural": "toneelstukken"
+        }
+      },
+      "examples": [
+        "Het toneel.",
+        "Ik zie toneel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "戏剧。",
+          "我看戏剧。"
+        ],
+        "english": [
+          "The theater.",
+          "I watch theater."
+        ]
+      },
+      "notes": "中性名词，复数形式是toneelstukken（戏剧作品）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 422,
+      "word": "tong",
+      "translation": {
+        "chinese": "舌头",
+        "english": "tongue"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tong",
+          "plural": "tongen"
+        }
+      },
+      "examples": [
+        "Mijn tong.",
+        "Hij steekt zijn tong uit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的舌头。",
+          "他伸出舌头。"
+        ],
+        "english": [
+          "My tongue.",
+          "He sticks out his tongue."
+        ]
+      },
+      "notes": "阴性名词，复数形式是tongen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 423,
+      "word": "tonijn",
+      "translation": {
+        "chinese": "金枪鱼",
+        "english": "tuna"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tonijn",
+          "plural": "tonijnen"
+        }
+      },
+      "examples": [
+        "Ik eet tonijn.",
+        "Een blikje tonijn."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃金枪鱼。",
+          "一罐金枪鱼。"
+        ],
+        "english": [
+          "I eat tuna.",
+          "A can of tuna."
+        ]
+      },
+      "notes": "阳性名词，复数形式是tonijnen",
+      "difficulty": "A1"
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "id": "lA113",
+  "level": "A1",
+  "lessonNumber": 13,
+  "totalWords": 16,
+  "words": [
+    {
+      "id": 631,
+      "word": "zoeken",
+      "translation": {
+        "chinese": "寻找",
+        "english": "search"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gezocht",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "zoek",
+            "jij": "zoekt",
+            "hij": "zoekt",
+            "wij/we": "zoeken",
+            "jullie": "zoeken",
+            "zij": "zoeken",
+            "wij": "zoeken"
+          },
+          "infinitive": "zoeken",
+          "past": {
+            "singular": "zocht",
+            "plural": "zochten"
+          }
+        }
+      },
+      "examples": [
+        "Ik zoek mijn sleutels.",
+        "Hij zoekt een baan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我找我的钥匙。",
+          "他找工作。"
+        ],
+        "english": [
+          "I look for my keys.",
+          "He looks for a job."
+        ]
+      },
+      "notes": "强动词，过去分词：gezocht（用hebben）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 633,
+      "word": "zoet",
+      "translation": {
+        "chinese": "甜的",
+        "english": "sweet"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "comparative": "zoeter",
+          "superlative": "zoetst",
+          "withDe": "zoete",
+          "withHet": "zoete",
+          "base": "zoet"
+        }
+      },
+      "examples": [
+        "De cake is zoet.",
+        "Ik houd van zoete dingen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "蛋糕很甜。",
+          "我喜欢甜食。"
+        ],
+        "english": [
+          "The cake is sweet.",
+          "I like sweet things."
+        ]
+      },
+      "notes": "形容词变位：zoete",
+      "difficulty": "A1"
+    },
+    {
+      "id": 634,
+      "word": "zomer",
+      "translation": {
+        "chinese": "夏天",
+        "english": "summer"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zomer",
+          "plural": "zomers"
+        }
+      },
+      "examples": [
+        "De zomer is warm.",
+        "Ik hou van de zomer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "夏天很暖和。",
+          "我喜欢夏天。"
+        ],
+        "english": [
+          "The summer is warm.",
+          "I love the summer."
+        ]
+      },
+      "notes": "复数形式：zomers",
+      "difficulty": "A1"
+    },
+    {
+      "id": 635,
+      "word": "zon",
+      "translation": {
+        "chinese": "太阳",
+        "english": "sun"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zon",
+          "plural": "zonnen"
+        }
+      },
+      "examples": [
+        "De zon schijnt.",
+        "Ik ga in de zon liggen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "太阳照耀。",
+          "我躺在阳光下。"
+        ],
+        "english": [
+          "The sun shines.",
+          "I lie in the sun."
+        ]
+      },
+      "notes": "复数形式：zonnen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 636,
+      "word": "zondag",
+      "translation": {
+        "chinese": "星期日",
+        "english": "Sunday"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zondag",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Vandaag is zondag.",
+        "Ik werk niet op zondag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "今天是星期日。",
+          "我星期日不工作。"
+        ],
+        "english": [
+          "Today is Sunday.",
+          "I don't work on Sunday."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 637,
+      "word": "zonder",
+      "translation": {
+        "chinese": "没有",
+        "english": "without"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Ik koffie zonder suiker.",
+        "Hij gaat zonder mij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喝不加糖的咖啡。",
+          "他没有我去。"
+        ],
+        "english": [
+          "I drink coffee without sugar.",
+          "He goes without me."
+        ]
+      },
+      "notes": "介词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 638,
+      "word": "zoon",
+      "translation": {
+        "chinese": "儿子",
+        "english": "son"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zoon",
+          "plural": "zonen"
+        }
+      },
+      "examples": [
+        "Mijn zoon is groot.",
+        "Hij heeft drie zonen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的儿子长大了。",
+          "他有三个儿子。"
+        ],
+        "english": [
+          "My son is big.",
+          "He has three sons."
+        ]
+      },
+      "notes": "复数形式：zonen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 639,
+      "word": "zorg",
+      "translation": {
+        "chinese": "关心，照顾",
+        "english": "care"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zorg",
+          "plural": "zorgen"
+        }
+      },
+      "examples": [
+        "Ik heb zorg voor jou.",
+        "Zorg is belangrijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我关心你。",
+          "照顾很重要。"
+        ],
+        "english": [
+          "I care for you.",
+          "Care is important."
+        ]
+      },
+      "notes": "复数形式：zorgen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 640,
+      "word": "zorgen",
+      "translation": {
+        "chinese": "关心，担心",
+        "english": "to care, to worry"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "zorgd",
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false,
+          "present": {
+            "ik": "zorg",
+            "jij": "zorgt",
+            "hij": "zorgt",
+            "wij/we": "zorgen",
+            "jullie": "zorgen",
+            "zij": "zorgen",
+            "wij": "zorgen"
+          },
+          "infinitive": "zorgen",
+          "past": {
+            "singular": "zorgde",
+            "plural": "zorgden"
+          }
+        }
+      },
+      "examples": [
+        "Ik zorg voor mijn kinderen.",
+        "Zij maakt zich zorgen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我照顾我的孩子。",
+          "她担心。"
+        ],
+        "english": [
+          "I take care of my children.",
+          "She worries."
+        ]
+      },
+      "notes": "弱动词，过去分词：zorgd（用zijn），搭配：zorgen voor（照顾），zich zorgen om（担心）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 641,
+      "word": "zout",
+      "translation": {
+        "chinese": "盐",
+        "english": "salt"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "zout",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Ik voeg zout toe.",
+        "Het eten heeft zout nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我加盐。",
+          "食物需要盐。"
+        ],
+        "english": [
+          "I add salt.",
+          "The food needs salt."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 642,
+      "word": "zuid",
+      "translation": {
+        "chinese": "南方",
+        "english": "south"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "zuid",
+          "plural": "-",
+          "uncountablePreposition": "in het zuid"
+        }
+      },
+      "examples": [
+        "De zon komt in het zuiden op.",
+        "Wij wonen in het zuiden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "太阳从南方升起。",
+          "我们住在南部。"
+        ],
+        "english": [
+          "The sun rises in the south.",
+          "We live in the south."
+        ]
+      },
+      "notes": "方位名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 643,
+      "word": "zus",
+      "translation": {
+        "chinese": "姐妹",
+        "english": "sister"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zus",
+          "plural": "zussen"
+        }
+      },
+      "examples": [
+        "Mijn zus is oud.",
+        "Ik heb twee zussen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的姐姐很老。",
+          "我有两个姐妹。"
+        ],
+        "english": [
+          "My sister is old.",
+          "I have two sisters."
+        ]
+      },
+      "notes": "复数形式：zussen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 644,
+      "word": "zwaar",
+      "translation": {
+        "chinese": "重的",
+        "english": "heavy"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "comparative": "zwaarder",
+          "superlative": "zwaarst",
+          "withDe": "zware",
+          "withHet": "zware",
+          "base": "zwaar"
+        }
+      },
+      "examples": [
+        "De tas is zwaar.",
+        "Ik til een zware doos."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "包很重。",
+          "我提起一个重箱子。"
+        ],
+        "english": [
+          "The bag is heavy.",
+          "I lift a heavy box."
+        ]
+      },
+      "notes": "形容词变位：zware",
+      "difficulty": "A1"
+    },
+    {
+      "id": 645,
+      "word": "zwart",
+      "translation": {
+        "chinese": "黑色的",
+        "english": "black"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "comparative": "zwarter",
+          "superlative": "zwartst",
+          "withDe": "zwarte",
+          "withHet": "zwarte",
+          "base": "zwart"
+        }
+      },
+      "examples": [
+        "De auto is zwart.",
+        "Ik draag een zwarte broek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "汽车是黑色的。",
+          "我穿黑裤子。"
+        ],
+        "english": [
+          "The car is black.",
+          "I wear black trousers."
+        ]
+      },
+      "notes": "形容词变位：zwarte",
+      "difficulty": "A1"
+    },
+    {
+      "id": 646,
+      "word": "zwembad",
+      "translation": {
+        "chinese": "游泳池",
+        "english": "swimming pool"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "zwembad",
+          "plural": "zwembaden"
+        }
+      },
+      "examples": [
+        "Het zwembad is groot.",
+        "Ik zwem in het zwembad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "游泳池很大。",
+          "我在游泳池里游泳。"
+        ],
+        "english": [
+          "The swimming pool is big.",
+          "I swim in the swimming pool."
+        ]
+      },
+      "notes": "复合词：zwem（游）+ bad（澡），复数形式：zwembaden",
+      "difficulty": "A1"
+    },
+    {
+      "id": 647,
+      "word": "zwemmen",
+      "translation": {
+        "chinese": "游泳",
+        "english": "to swim"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gezwommen",
+          "pastParticipleAuxiliary": "zijn",
+          "isSeparable": false,
+          "present": {
+            "ik": "zwem",
+            "jij": "zwemt",
+            "hij": "zwemt",
+            "wij/we": "zwemmen",
+            "jullie": "zwemmen",
+            "zij": "zwemmen",
+            "wij": "zwemmen"
+          },
+          "infinitive": "zwemmen",
+          "past": {
+            "singular": "zwom",
+            "plural": "zwommen"
+          }
+        }
+      },
+      "examples": [
+        "Ik zwem in het water.",
+        "Zij zwemt snel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在水里游泳。",
+          "她游得很快。"
+        ],
+        "english": [
+          "I swim in the water.",
+          "She swims fast."
+        ]
+      },
+      "notes": "强动词，过去分词：gezwommen（用zijn）",
+      "difficulty": "A1"
+    }
+  ]
+}

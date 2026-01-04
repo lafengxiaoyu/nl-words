@@ -1,0 +1,173 @@
+{
+  "id": "lA201",
+  "level": "A2",
+  "lessonNumber": 1,
+  "totalWords": 4,
+  "words": [
+    {
+      "id": 5,
+      "word": "eten",
+      "translation": {
+        "chinese": "吃",
+        "english": "to eat"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "eten",
+          "isSeparable": false,
+          "present": {
+            "ik": "eet",
+            "jij": "eet",
+            "hij": "eet",
+            "wij": "eten",
+            "jullie": "eten",
+            "zij": "eten"
+          },
+          "past": {
+            "singular": "at",
+            "plural": "aten"
+          },
+          "pastParticiple": "gegeten",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik eet een appel.",
+        "Wij eten om zes uur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃一个苹果。",
+          "我们六点吃饭。"
+        ],
+        "english": [
+          "I eat an apple.",
+          "We eat at six o'clock."
+        ]
+      },
+      "notes": "不规则动词，过去式是at/aten",
+      "difficulty": "A2"
+    },
+    {
+      "id": 6,
+      "word": "goed",
+      "translation": {
+        "chinese": "好的",
+        "english": "good"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "goed",
+          "withDe": "goede",
+          "withHet": "goed",
+          "comparative": "beter",
+          "superlative": "best"
+        }
+      },
+      "examples": [
+        "Het is goed weer vandaag.",
+        "Dit is een goede vraag."
+      ],
+      "exampleTranslations": [
+        "今天天气很好。",
+        "这是一个好问题。"
+      ],
+      "notes": "不规则形容词，比较级和最高级是beter/best",
+      "difficulty": "A2"
+    },
+    {
+      "id": 16,
+      "word": "aankomen",
+      "translation": {
+        "chinese": "到达",
+        "english": "to arrive"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aankomen",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "kom aan",
+            "jij": "komt aan",
+            "hij": "komt aan",
+            "wij": "komen aan",
+            "jullie": "komen aan",
+            "zij": "komen aan"
+          },
+          "past": {
+            "singular": "kwam aan",
+            "plural": "kwamen aan"
+          },
+          "pastParticiple": "aangekomen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De trein komt aan om 15:00.",
+        "We komen morgen aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "火车下午3点到达。",
+          "我们明天到达。"
+        ],
+        "english": [
+          "The train arrives at 15:00.",
+          "We arrive tomorrow."
+        ]
+      },
+      "notes": "可分动词，前缀 aan-，在主句中分开使用",
+      "difficulty": "A2"
+    },
+    {
+      "id": 25,
+      "word": "uitgaan",
+      "translation": {
+        "chinese": "外出，出去玩",
+        "english": "to go out"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "uitgaan",
+          "isSeparable": true,
+          "prefix": "uit",
+          "present": {
+            "ik": "ga uit",
+            "jij": "gaat uit",
+            "hij": "gaat uit",
+            "wij": "gaan uit",
+            "jullie": "gaan uit",
+            "zij": "gaan uit"
+          },
+          "past": {
+            "singular": "ging uit",
+            "plural": "gingen uit"
+          },
+          "pastParticiple": "uitgegaan",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Vanavond ga ik uit.",
+        "Zij gaan graag uit in het weekend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "今晚我要外出。",
+          "他们周末喜欢出去玩。"
+        ],
+        "english": [
+          "I'm going out tonight.",
+          "They like to go out on weekends."
+        ]
+      },
+      "notes": "可分动词，前缀 uit-，动词 gaan 本身是不规则动词",
+      "difficulty": "A2"
+    }
+  ]
+}

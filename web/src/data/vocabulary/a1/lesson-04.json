@@ -1,0 +1,1708 @@
+{
+  "id": "lA104",
+  "level": "A1",
+  "lessonNumber": 4,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 164,
+      "word": "ijs",
+      "translation": {
+        "chinese": "冰，冰淇淋",
+        "english": "ice, ice cream"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "ijs",
+          "plural": "ijsjes",
+          "uncountablePreposition": "van ijs"
+        }
+      },
+      "examples": [
+        "Ik eet ijs.",
+        "Het ijs is koud."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃冰淇淋。",
+          "冰很冷。"
+        ],
+        "english": [
+          "I eat ice cream.",
+          "The ice is cold."
+        ]
+      },
+      "notes": "中性名词，常不可数",
+      "difficulty": "A1"
+    },
+    {
+      "id": 165,
+      "word": "ik",
+      "translation": {
+        "chinese": "我",
+        "english": "I"
+      },
+      "partOfSpeech": "pronoun",
+      "examples": [
+        "Ik kom uit China.",
+        "Ik heet Jan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我来自中国。",
+          "我叫Jan。"
+        ],
+        "english": [
+          "I come from China.",
+          "My name is Jan."
+        ]
+      },
+      "notes": "第一人称单数主格代词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 166,
+      "word": "in",
+      "translation": {
+        "chinese": "在...里面",
+        "english": "in"
+      },
+      "partOfSpeech": "preposition",
+      "examples": [
+        "Ik woon in Amsterdam.",
+        "Het boek is in de tas."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我住在阿姆斯特丹。",
+          "书在包里。"
+        ],
+        "english": [
+          "I live in Amsterdam.",
+          "The book is in the bag."
+        ]
+      },
+      "notes": "介词，表示位置",
+      "difficulty": "A1"
+    },
+    {
+      "id": 168,
+      "word": "ja",
+      "translation": {
+        "chinese": "是",
+        "english": "yes"
+      },
+      "partOfSpeech": "interjection",
+      "examples": [
+        "Ja, dat is waar.",
+        "Ja, graag!"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "是的，那是对的。",
+          "好的，乐意！"
+        ],
+        "english": [
+          "Yes, that is true.",
+          "Yes, please!"
+        ]
+      },
+      "notes": "肯定回答词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 169,
+      "word": "jaar",
+      "translation": {
+        "chinese": "年",
+        "english": "year"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "jaar",
+          "plural": "jaren"
+        }
+      },
+      "examples": [
+        "Ik ben 25 jaar.",
+        "Het jaar 2024."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我25岁。",
+          "2024年。"
+        ],
+        "english": [
+          "I am 25 years.",
+          "The year 2024."
+        ]
+      },
+      "notes": "中性名词，复数形式是jaren",
+      "difficulty": "A1"
+    },
+    {
+      "id": 170,
+      "word": "jam",
+      "translation": {
+        "chinese": "果酱",
+        "english": "jam"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "jam",
+          "plural": "jams",
+          "uncountablePreposition": "van jam"
+        }
+      },
+      "examples": [
+        "Ik eet graag jam.",
+        "Een potje jam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喜欢吃果酱。",
+          "一罐果酱。"
+        ],
+        "english": [
+          "I like jam.",
+          "A jar of jam."
+        ]
+      },
+      "notes": "阴性名词，常不可数",
+      "difficulty": "A1"
+    },
+    {
+      "id": 171,
+      "word": "januari",
+      "translation": {
+        "chinese": "一月",
+        "english": "January"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "januari",
+          "plural": "januaris"
+        }
+      },
+      "examples": [
+        "Het is januari.",
+        "Ik ben geboren in januari."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "现在是一月。",
+          "我出生在一月。"
+        ],
+        "english": [
+          "It is January.",
+          "I was born in January."
+        ]
+      },
+      "notes": "阴性名词，月份之一",
+      "difficulty": "A1"
+    },
+    {
+      "id": 172,
+      "word": "jij",
+      "translation": {
+        "chinese": "你",
+        "english": "you"
+      },
+      "partOfSpeech": "pronoun",
+      "examples": [
+        "Jij bent mooi.",
+        "Jij woont hier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你很美。",
+          "你住在这里。"
+        ],
+        "english": [
+          "You are beautiful.",
+          "You live here."
+        ]
+      },
+      "notes": "第二人称单数主格代词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 173,
+      "word": "jong",
+      "translation": {
+        "chinese": "年轻的",
+        "english": "young"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "jong",
+          "withDe": "jonge",
+          "withHet": "jong",
+          "comparative": "jonger",
+          "superlative": "jongst"
+        }
+      },
+      "examples": [
+        "Hij is jong.",
+        "Een jonge man."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很年轻。",
+          "一个年轻男人。"
+        ],
+        "english": [
+          "He is young.",
+          "A young man."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 174,
+      "word": "jou",
+      "translation": {
+        "chinese": "你（宾格）",
+        "english": "you (object)"
+      },
+      "partOfSpeech": "pronoun",
+      "examples": [
+        "Ik zie jou.",
+        "Ik help jou."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我看见你。",
+          "我帮你。"
+        ],
+        "english": [
+          "I see you.",
+          "I help you."
+        ]
+      },
+      "notes": "第二人称宾格代词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 175,
+      "word": "jouw",
+      "translation": {
+        "chinese": "你的",
+        "english": "your"
+      },
+      "partOfSpeech": "possessive",
+      "examples": [
+        "Dit is jouw auto.",
+        "Jouw boek is hier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是你的汽车。",
+          "你的书在这里。"
+        ],
+        "english": [
+          "This is your car.",
+          "Your book is here."
+        ]
+      },
+      "notes": "物主代词，放在名词前",
+      "difficulty": "A1"
+    },
+    {
+      "id": 176,
+      "word": "jullie",
+      "translation": {
+        "chinese": "你们",
+        "english": "you (plural)"
+      },
+      "partOfSpeech": "pronoun",
+      "examples": [
+        "Jullie zijn hier.",
+        "Jullie komen uit China."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你们在这里。",
+          "你们来自中国。"
+        ],
+        "english": [
+          "You are here.",
+          "You come from China."
+        ]
+      },
+      "notes": "第二人称复数代词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 177,
+      "word": "kaas",
+      "translation": {
+        "chinese": "奶酪",
+        "english": "cheese"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kaas",
+          "plural": "kazen",
+          "uncountablePreposition": "een stuk kaas"
+        }
+      },
+      "examples": [
+        "Ik eet kaas.",
+        "De kaas is lekker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃奶酪。",
+          "奶酪很好吃。"
+        ],
+        "english": [
+          "I eat cheese.",
+          "The cheese is tasty."
+        ]
+      },
+      "notes": "阴性名词，常不可数",
+      "difficulty": "A1"
+    },
+    {
+      "id": 178,
+      "word": "kaart",
+      "translation": {
+        "chinese": "地图，卡片",
+        "english": "map, card"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kaart",
+          "plural": "kaarten"
+        }
+      },
+      "examples": [
+        "Ik zoek de kaart.",
+        "Een kaart voor jou."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我找地图。",
+          "给你一张卡片。"
+        ],
+        "english": [
+          "I look for the map.",
+          "A card for you."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 179,
+      "word": "kamer",
+      "translation": {
+        "chinese": "房间",
+        "english": "room"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kamer",
+          "plural": "kamers"
+        }
+      },
+      "examples": [
+        "Mijn kamer is groot.",
+        "Ik heb een eigen kamer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的房间很大。",
+          "我有自己的房间。"
+        ],
+        "english": [
+          "My room is big.",
+          "I have my own room."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 180,
+      "word": "kunnen",
+      "translation": {
+        "chinese": "能，可以",
+        "english": "to be able to, can"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kunnen",
+          "isSeparable": false,
+          "present": {
+            "ik": "kan",
+            "jij": "kunt",
+            "hij": "kan",
+            "wij": "kunnen",
+            "jullie": "kunnen",
+            "zij": "kunnen"
+          },
+          "past": {
+            "singular": "kon",
+            "plural": "konden"
+          },
+          "pastParticiple": "gekund",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik kan Nederlands spreken.",
+        "Kunt u mij helpen?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我会说荷兰语。",
+          "您能帮我吗？"
+        ],
+        "english": [
+          "I can speak Dutch.",
+          "Can you help me?"
+        ]
+      },
+      "notes": "kunnen(能)的第一人称单数形式",
+      "difficulty": "A1"
+    },
+    {
+      "id": 181,
+      "word": "kantoor",
+      "translation": {
+        "chinese": "办公室",
+        "english": "office"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "kantoor",
+          "plural": "kantoren"
+        }
+      },
+      "examples": [
+        "Ik werk op kantoor.",
+        "Het kantoor is dicht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在办公室工作。",
+          "办公室关门了。"
+        ],
+        "english": [
+          "I work at office.",
+          "The office is closed."
+        ]
+      },
+      "notes": "中性名词，复数形式是kantoren",
+      "difficulty": "A1"
+    },
+    {
+      "id": 182,
+      "word": "kapot",
+      "translation": {
+        "chinese": "坏的，破碎的",
+        "english": "broken"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "kapot",
+          "withDe": "kapotte",
+          "withHet": "kapot",
+          "comparative": "kapotter",
+          "superlative": "kapotst"
+        }
+      },
+      "examples": [
+        "De auto is kapot.",
+        "Het is kapot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "汽车坏了。",
+          "它坏了。"
+        ],
+        "english": [
+          "The car is broken.",
+          "It is broken."
+        ]
+      },
+      "notes": "形容词，表示损坏",
+      "difficulty": "A1"
+    },
+    {
+      "id": 183,
+      "word": "kast",
+      "translation": {
+        "chinese": "柜子",
+        "english": "cupboard, closet"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kast",
+          "plural": "kasten"
+        }
+      },
+      "examples": [
+        "De kast staat in de kamer.",
+        "Ik pak het uit de kast."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "柜子在房间里。",
+          "我从柜子里拿它。"
+        ],
+        "english": [
+          "The cupboard is in the room.",
+          "I take it from the cupboard."
+        ]
+      },
+      "notes": "阴性名词，复数形式是kasten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 184,
+      "word": "kat",
+      "translation": {
+        "chinese": "猫",
+        "english": "cat"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kat",
+          "plural": "katten"
+        }
+      },
+      "examples": [
+        "Ik heb een kat.",
+        "De kat slaapt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有一只猫。",
+          "猫在睡觉。"
+        ],
+        "english": [
+          "I have a cat.",
+          "The cat is sleeping."
+        ]
+      },
+      "notes": "阴性名词，复数形式是katten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 185,
+      "word": "keer",
+      "translation": {
+        "chinese": "次，倍",
+        "english": "time (frequency), times"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "keer",
+          "plural": "keren"
+        }
+      },
+      "examples": [
+        "Ik kom hier vaak.",
+        "Twee keer per week."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我经常来这里。",
+          "一周两次。"
+        ],
+        "english": [
+          "I come here often.",
+          "Twice a week."
+        ]
+      },
+      "notes": "阴性名词，复数形式是keren",
+      "difficulty": "A1"
+    },
+    {
+      "id": 186,
+      "word": "kelder",
+      "translation": {
+        "chinese": "地下室",
+        "english": "basement, cellar"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kelder",
+          "plural": "kelders"
+        }
+      },
+      "examples": [
+        "De kelder is donker.",
+        "Ik ga naar de kelder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "地下室很暗。",
+          "我去地下室。"
+        ],
+        "english": [
+          "The basement is dark.",
+          "I go to the basement."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 187,
+      "word": "kennen",
+      "translation": {
+        "chinese": "认识",
+        "english": "to know (person)"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kennen",
+          "isSeparable": false,
+          "present": {
+            "ik": "ken",
+            "jij": "kent",
+            "hij": "kent",
+            "wij": "kennen",
+            "jullie": "kennen",
+            "zij": "kennen"
+          },
+          "past": {
+            "singular": "kende",
+            "plural": "kenden"
+          },
+          "pastParticiple": "gekend",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik ken hem.",
+        "Ken je Jan?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我认识他。",
+          "你认识Jan吗？"
+        ],
+        "english": [
+          "I know him.",
+          "Do you know Jan?"
+        ]
+      },
+      "notes": "kennen(认识)的第一人称单数形式，用于认识人",
+      "difficulty": "A1"
+    },
+    {
+      "id": 188,
+      "word": "keuken",
+      "translation": {
+        "chinese": "厨房",
+        "english": "kitchen"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "keuken",
+          "plural": "keukens"
+        }
+      },
+      "examples": [
+        "De keuken is schoon.",
+        "Ik kook in de keuken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "厨房很干净。",
+          "我在厨房做饭。"
+        ],
+        "english": [
+          "The kitchen is clean.",
+          "I cook in the kitchen."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 189,
+      "word": "kiezen",
+      "translation": {
+        "chinese": "选择",
+        "english": "to choose"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kiezen",
+          "isSeparable": false,
+          "present": {
+            "ik": "kies",
+            "jij": "kiest",
+            "hij": "kiest",
+            "wij": "kiezen",
+            "jullie": "kiezen",
+            "zij": "kiezen"
+          },
+          "past": {
+            "singular": "koos",
+            "plural": "kozen"
+          },
+          "pastParticiple": "gekozen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik kies een boek.",
+        "Kies je favoriet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我选一本书。",
+          "选择你的最爱。"
+        ],
+        "english": [
+          "I choose a book.",
+          "Choose your favorite."
+        ]
+      },
+      "notes": "不规则动词，过去式是koos/kozen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 190,
+      "word": "kijken",
+      "translation": {
+        "chinese": "看",
+        "english": "to look, to watch"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kijken",
+          "isSeparable": false,
+          "present": {
+            "ik": "kijk",
+            "jij": "kijkt",
+            "hij": "kijkt",
+            "wij": "kijken",
+            "jullie": "kijken",
+            "zij": "kijken"
+          },
+          "past": {
+            "singular": "keek",
+            "plural": "keken"
+          },
+          "pastParticiple": "gekeken",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik kijk tv.",
+        "Kijk naar mij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我看电视。",
+          "看着我。"
+        ],
+        "english": [
+          "I watch TV.",
+          "Look at me."
+        ]
+      },
+      "notes": "不规则动词，过去式是keek/keken",
+      "difficulty": "A1"
+    },
+    {
+      "id": 191,
+      "word": "kind",
+      "translation": {
+        "chinese": "孩子",
+        "english": "child"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "kind",
+          "plural": "kinderen"
+        }
+      },
+      "examples": [
+        "Ik heb twee kinderen.",
+        "Het kind speelt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有两个孩子。",
+          "孩子在玩耍。"
+        ],
+        "english": [
+          "I have two children.",
+          "The child is playing."
+        ]
+      },
+      "notes": "中性名词，复数形式特殊(kinderen)",
+      "difficulty": "A1"
+    },
+    {
+      "id": 192,
+      "word": "klaar",
+      "translation": {
+        "chinese": "准备好，完成",
+        "english": "ready, done"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "klaar",
+          "withDe": "klaare",
+          "withHet": "klaar",
+          "comparative": "klaarder",
+          "superlative": "klaarst"
+        }
+      },
+      "examples": [
+        "Ik ben klaar.",
+        "Het eten is klaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我准备好了。",
+          "饭菜好了。"
+        ],
+        "english": [
+          "I am ready.",
+          "The food is ready."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 193,
+      "word": "klas",
+      "translation": {
+        "chinese": "班级",
+        "english": "class"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "klas",
+          "plural": "klassen"
+        }
+      },
+      "examples": [
+        "Ik zit in klas 5.",
+        "De klas is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在5班。",
+          "班级很大。"
+        ],
+        "english": [
+          "I am in class 5.",
+          "The class is big."
+        ]
+      },
+      "notes": "阴性名词，复数形式是klassen(双s)",
+      "difficulty": "A1"
+    },
+    {
+      "id": 194,
+      "word": "kleding",
+      "translation": {
+        "chinese": "衣服",
+        "english": "clothes"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kleding",
+          "plural": "kledingen"
+        }
+      },
+      "examples": [
+        "Ik koop kleding.",
+        "De kleding is duur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我买衣服。",
+          "衣服很贵。"
+        ],
+        "english": [
+          "I buy clothes.",
+          "The clothes are expensive."
+        ]
+      },
+      "notes": "阴性名词，常用复数形式",
+      "difficulty": "A1"
+    },
+    {
+      "id": 195,
+      "word": "klein",
+      "translation": {
+        "chinese": "小的",
+        "english": "small, little"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "klein",
+          "withDe": "kleine",
+          "withHet": "klein",
+          "comparative": "kleiner",
+          "superlative": "kleinst"
+        }
+      },
+      "examples": [
+        "Het huis is klein.",
+        "Een klein kind."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "房子很小。",
+          "一个小孩。"
+        ],
+        "english": [
+          "The house is small.",
+          "A small child."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 196,
+      "word": "kleur",
+      "translation": {
+        "chinese": "颜色",
+        "english": "color"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kleur",
+          "plural": "kleuren"
+        }
+      },
+      "examples": [
+        "Wat is je favoriete kleur?",
+        "De kleur is mooi."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你最喜欢的颜色是什么？",
+          "颜色很漂亮。"
+        ],
+        "english": [
+          "What is your favorite color?",
+          "The color is beautiful."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 197,
+      "word": "klok",
+      "translation": {
+        "chinese": "时钟",
+        "english": "clock"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "klok",
+          "plural": "klokken"
+        }
+      },
+      "examples": [
+        "De klok slaat twaalf.",
+        "Ik heb een nieuwe klok."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "时钟敲响12下。",
+          "我有一个新时钟。"
+        ],
+        "english": [
+          "The clock strikes twelve.",
+          "I have a new clock."
+        ]
+      },
+      "notes": "阴性名词，复数形式是klokken",
+      "difficulty": "A1"
+    },
+    {
+      "id": 198,
+      "word": "knop",
+      "translation": {
+        "chinese": "按钮",
+        "english": "button"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "knop",
+          "plural": "knopen"
+        }
+      },
+      "examples": [
+        "Druk op de knop.",
+        "De knop werkt niet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "按按钮。",
+          "按钮不工作。"
+        ],
+        "english": [
+          "Press the button.",
+          "The button doesn't work."
+        ]
+      },
+      "notes": "阴性名词，复数形式是knopen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 200,
+      "word": "koken",
+      "translation": {
+        "chinese": "煮，烹饪",
+        "english": "to cook"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "koken",
+          "isSeparable": false,
+          "present": {
+            "ik": "kook",
+            "jij": "kookt",
+            "hij": "kookt",
+            "wij": "koken",
+            "jullie": "koken",
+            "zij": "koken"
+          },
+          "past": {
+            "singular": "kookte",
+            "plural": "kookten"
+          },
+          "pastParticiple": "gekookt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik kook avondeten.",
+        "Hij kookt graag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我做晚饭。",
+          "他喜欢做饭。"
+        ],
+        "english": [
+          "I cook dinner.",
+          "He likes cooking."
+        ]
+      },
+      "notes": "规则弱动词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 201,
+      "word": "komen",
+      "translation": {
+        "chinese": "来",
+        "english": "to come"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "komen",
+          "isSeparable": false,
+          "present": {
+            "ik": "kom",
+            "jij": "komt",
+            "hij": "komt",
+            "wij": "komen",
+            "jullie": "komen",
+            "zij": "komen"
+          },
+          "past": {
+            "singular": "kwam",
+            "plural": "kwamen"
+          },
+          "pastParticiple": "gekomen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Kom binnen!",
+        "Wij komen vanavond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "进来！",
+          "我们今晚来。"
+        ],
+        "english": [
+          "Come in!",
+          "We come tonight."
+        ]
+      },
+      "notes": "不规则动词，过去式是kwam/kwamen，过去分词用zijn",
+      "difficulty": "A1"
+    },
+    {
+      "id": 202,
+      "word": "koning",
+      "translation": {
+        "chinese": "国王",
+        "english": "king"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "koning",
+          "plural": "koningen"
+        }
+      },
+      "examples": [
+        "De koning woont in het paleis.",
+        "De koning is machtig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "国王住在宫殿里。",
+          "国王很有权势。"
+        ],
+        "english": [
+          "The king lives in the palace.",
+          "The king is powerful."
+        ]
+      },
+      "notes": "阳性名词，复数形式是koningen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 203,
+      "word": "kopen",
+      "translation": {
+        "chinese": "买",
+        "english": "to buy"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kopen",
+          "isSeparable": false,
+          "present": {
+            "ik": "koop",
+            "jij": "koopt",
+            "hij": "koopt",
+            "wij": "kopen",
+            "jullie": "kopen",
+            "zij": "kopen"
+          },
+          "past": {
+            "singular": "kocht",
+            "plural": "kochten"
+          },
+          "pastParticiple": "gekocht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik koop een boek.",
+        "Hij koopt een auto."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我买一本书。",
+          "他买一辆汽车。"
+        ],
+        "english": [
+          "I buy a book.",
+          "He buys a car."
+        ]
+      },
+      "notes": "kopen(买)的第三人称单数形式",
+      "difficulty": "A1"
+    },
+    {
+      "id": 204,
+      "word": "kop",
+      "translation": {
+        "chinese": "头，杯子",
+        "english": "head, cup"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kop",
+          "plural": "koppen"
+        }
+      },
+      "examples": [
+        "Een kop koffie.",
+        "Mijn hoofd doet pijn."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一杯咖啡。",
+          "我头疼。"
+        ],
+        "english": [
+          "A cup of coffee.",
+          "My head hurts."
+        ]
+      },
+      "notes": "阴性名词，可指头部或杯子",
+      "difficulty": "A1"
+    },
+    {
+      "id": 206,
+      "word": "kort",
+      "translation": {
+        "chinese": "短的",
+        "english": "short"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "kort",
+          "withDe": "korte",
+          "withHet": "kort",
+          "comparative": "korter",
+          "superlative": "kortst"
+        }
+      },
+      "examples": [
+        "Het haar is kort.",
+        "Een korte broek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "头发很短。",
+          "一条短裤。"
+        ],
+        "english": [
+          "The hair is short.",
+          "Short pants."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 208,
+      "word": "krant",
+      "translation": {
+        "chinese": "报纸",
+        "english": "newspaper"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "krant",
+          "plural": "kranten"
+        }
+      },
+      "examples": [
+        "Ik lees de krant.",
+        "De krant ligt op tafel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我看报纸。",
+          "报纸在桌子上。"
+        ],
+        "english": [
+          "I read the newspaper.",
+          "The newspaper is on the table."
+        ]
+      },
+      "notes": "阴性名词，复数形式是kranten",
+      "difficulty": "A1"
+    },
+    {
+      "id": 209,
+      "word": "krijgen",
+      "translation": {
+        "chinese": "得到，收到",
+        "english": "to get, to receive"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "krijgen",
+          "isSeparable": false,
+          "present": {
+            "ik": "krijg",
+            "jij": "krijgt",
+            "hij": "krijgt",
+            "wij": "krijgen",
+            "jullie": "krijgen",
+            "zij": "krijgen"
+          },
+          "past": {
+            "singular": "kreeg",
+            "plural": "kregen"
+          },
+          "pastParticiple": "gekregen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik krijg een brief.",
+        "Hij krijgt een cadeau."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我收到一封信。",
+          "他收到一份礼物。"
+        ],
+        "english": [
+          "I get a letter.",
+          "He receives a gift."
+        ]
+      },
+      "notes": "不规则动词，过去式是kreeg/kregen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 211,
+      "word": "kwart",
+      "translation": {
+        "chinese": "四分之一，刻",
+        "english": "quarter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kwart",
+          "plural": "kwartieren"
+        }
+      },
+      "examples": [
+        "Het is kwart over drie.",
+        "Een kwartier later."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "三点一刻。",
+          "一刻钟后。"
+        ],
+        "english": [
+          "It's quarter past three.",
+          "A quarter later."
+        ]
+      },
+      "notes": "阴性名词，用于时间表达",
+      "difficulty": "A1"
+    },
+    {
+      "id": 212,
+      "word": "laat",
+      "translation": {
+        "chinese": "晚的",
+        "english": "late"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "laat",
+          "withDe": "late",
+          "withHet": "laat",
+          "comparative": "later",
+          "superlative": "laatst"
+        }
+      },
+      "examples": [
+        "Ik kom laat thuis.",
+        "Het is laat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我很晚回家。",
+          "很晚了。"
+        ],
+        "english": [
+          "I come home late.",
+          "It is late."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 213,
+      "word": "lachen",
+      "translation": {
+        "chinese": "笑",
+        "english": "to laugh"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "lachen",
+          "isSeparable": false,
+          "present": {
+            "ik": "lach",
+            "jij": "lacht",
+            "hij": "lacht",
+            "wij": "lachen",
+            "jullie": "lachen",
+            "zij": "lachen"
+          },
+          "past": {
+            "singular": "lachte",
+            "plural": "lachten"
+          },
+          "pastParticiple": "gelachen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik lach om de grap.",
+        "Zij lacht veel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我笑话这个笑话。",
+          "她经常笑。"
+        ],
+        "english": [
+          "I laugh at the joke.",
+          "She laughs a lot."
+        ]
+      },
+      "notes": "规则弱动词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 214,
+      "word": "lamp",
+      "translation": {
+        "chinese": "灯",
+        "english": "lamp"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lamp",
+          "plural": "lampen"
+        }
+      },
+      "examples": [
+        "De lamp is aan.",
+        "Ik zet de lamp aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "灯开着。",
+          "我打开灯。"
+        ],
+        "english": [
+          "The lamp is on.",
+          "I turn on the lamp."
+        ]
+      },
+      "notes": "阴性名词，复数形式是lampen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 215,
+      "word": "land",
+      "translation": {
+        "chinese": "国家",
+        "english": "country, land"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "land",
+          "plural": "landen"
+        }
+      },
+      "examples": [
+        "Ik kom uit China.",
+        "Nederland is een mooi land."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我来自中国。",
+          "荷兰是一个美丽的国家。"
+        ],
+        "english": [
+          "I come from China.",
+          "Netherlands is a beautiful country."
+        ]
+      },
+      "notes": "中性名词，复数形式是landen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 216,
+      "word": "lang",
+      "translation": {
+        "chinese": "长的",
+        "english": "long, tall"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "lang",
+          "withDe": "lange",
+          "withHet": "lang",
+          "comparative": "langer",
+          "superlative": "langst"
+        }
+      },
+      "examples": [
+        "De straat is lang.",
+        "Een lange dag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这条街很长。",
+          "漫长的一天。"
+        ],
+        "english": [
+          "The street is long.",
+          "A long day."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 217,
+      "word": "langzaam",
+      "translation": {
+        "chinese": "慢的",
+        "english": "slow"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "langzaam",
+          "withDe": "langzame",
+          "withHet": "langzaam",
+          "comparative": "langzamer",
+          "superlative": "langzaamst"
+        }
+      },
+      "examples": [
+        "Hij loopt langzaam.",
+        "Een langzame auto."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他走得很慢。",
+          "一辆慢车。"
+        ],
+        "english": [
+          "He walks slowly.",
+          "A slow car."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 218,
+      "word": "lopen",
+      "translation": {
+        "chinese": "走，行走",
+        "english": "to walk, to go"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "pastParticiple": "gelopen",
+          "pastParticipleAuxiliary": "hebben",
+          "isSeparable": false,
+          "present": {
+            "ik": "loop",
+            "jij": "loopt",
+            "hij": "loopt",
+            "wij": "lopen",
+            "jullie": "lopen",
+            "zij": "lopen"
+          },
+          "infinitive": "lopen",
+          "past": {
+            "singular": "liep",
+            "plural": "liepen"
+          }
+        }
+      },
+      "examples": [
+        "Ik loop naar school.",
+        "Hij loopt snel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我走路去学校。",
+          "他走得很快。"
+        ],
+        "english": [
+          "I walk to school.",
+          "He walks fast."
+        ]
+      },
+      "notes": "规则弱动词，过去分词：gelopen",
+      "difficulty": "A1"
+    }
+  ]
+}
