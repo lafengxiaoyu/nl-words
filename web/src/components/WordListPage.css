@@ -205,6 +205,11 @@
 .word-details-panel .example-english {
   font-size: 1rem;
   color: #6b7280;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.word-details-panel .example-english {
+  word-spacing: 0.1em; /* 修复 Inter Semi Bold 字体导致的英文单词间距拥挤问题 */
 }
 
 .word-details-panel .difficulty-tag {
@@ -513,7 +518,7 @@
 }
 
 .words-table td {
-  padding: 16px 15px;
+  padding: 12px 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
@@ -528,6 +533,8 @@
 
 .translation-col {
   width: 35%;
+  text-align: left;
+  vertical-align: middle;
 }
 
 .pos-col {
@@ -541,11 +548,18 @@
 .word-dutch {
   font-size: 1.2rem;
   font-weight: 600;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .word-translation {
   font-size: 1.1rem;
   opacity: 0.95;
+  word-spacing: 0.1em; /* 增加英文单词之间的间距，修复 Inter Semi Bold 字体导致的拥挤问题 */
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  display: inline-block;
+  text-align: left;
+  line-height: 1.1;
+  width: 100%;
 }
 
 /* 词性标签 */
@@ -1014,7 +1028,7 @@
 
   .words-table th,
   .words-table td {
-    padding: 12px 10px;
+    padding: 8px 5px;
     font-size: 0.95rem;
   }
 
@@ -1024,6 +1038,18 @@
 
   .word-translation {
     font-size: 1rem;
+    word-spacing: 0.08em; /* 移动端增加更多间距，因为屏幕更小 */
+    display: inline-block;
+    text-align: left;
+    line-height: 1.1;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+  }
+
+  .translation-col {
+    vertical-align: middle;
   }
 
   .pos-tag,
