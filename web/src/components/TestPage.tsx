@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { User } from '@supabase/supabase-js'
 import type { Word, DifficultyLevel } from '../data/words'
@@ -68,6 +68,14 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const [wordCount, setWordCount] = useState(10)
   const [currentOptions, setCurrentOptions] = useState<Word[]>([])
   const [wrongAnswers, setWrongAnswers] = useState<{word: Word, userChoice: Word | 'not-mastered', correctWord: Word}[]>([])
+
+  // Swipe functionality state
+  const [isDragging, setIsDragging] = useState(false)
+  const [dragOffset, setDragOffset] = useState(0)
+  const [isAnimating, setIsAnimating] = useState(false)
+  const cardRef = useRef<HTMLDivElement>(null)
+  const startPosRef = useRef({ x: 0, y: 0 })
+  const [swipeDirection, setSwipeDirection] = useState<'left' | 'right' | null>(null)
 
   // 检查用户认证状态
   useEffect(() => {
@@ -337,6 +345,107 @@ export default function TestPage({ languageMode }: TestPageProps) {
     }
   }
 
+  // Swipe functionality handlers
+  const handleTouchStart = useCallback((e: TouchEvent | MouseEvent) => {
+    if (showResult || isAnimating) return
+
+    setIsDragging(true)
+    const clientX = 'touches' in e ? e.touches[0].clientX : e.clientX
+    const clientY = 'touches' in e ? e.touches[0].clientY : e.clientY
+    startPosRef.current = { x: clientX, y: clientY }
+  }, [showResult, isAnimating])
+
+  const handleTouchMove = useCallback((e: TouchEvent | MouseEvent) => {
+    if (!isDragging || showResult || isAnimating) return
+
+    e.preventDefault()
+    const clientX = 'touches' in e ? e.touches[0].clientX : e.clientX
+    const deltaX = clientX - startPosRef.current.x
+    const deltaY = 'touches' in e ? e.touches[0].clientY - startPosRef.current.y : (e as MouseEvent).clientY - startPosRef.current.y
+
+    // Only handle horizontal swipes
+    if (Math.abs(deltaX) > Math.abs(deltaY)) {
+      setDragOffset(deltaX)
+
+      // Set swipe direction for visual feedback
+      if (Math.abs(deltaX) > 50) {
+        setSwipeDirection(deltaX > 0 ? 'right' : 'left')
+      } else {
+        setSwipeDirection(null)
+      }
+    }
+  }, [isDragging, showResult, isAnimating])
+
+  const handleTouchEnd = useCallback(() => {
+    if (!isDragging || showResult || isAnimating) return
+
+    setIsDragging(false)
+    const threshold = 100 // Minimum distance to trigger action
+
+    if (Math.abs(dragOffset) > threshold) {
+      setIsAnimating(true)
+
+      if (dragOffset > 0) {
+        // Swipe right - mark as correct (if there's a correct answer)
+        const correctOption = currentOptions.find(option => option.id === currentWord.id)
+        if (correctOption) {
+          setTimeout(() => {
+            submitAnswer(correctOption)
+            setIsAnimating(false)
+            setDragOffset(0)
+            setSwipeDirection(null)
+          }, 300)
+        } else {
+          // Reset if no correct answer found
+          setIsAnimating(false)
+          setDragOffset(0)
+          setSwipeDirection(null)
+        }
+      } else {
+        // Swipe left - mark as not mastered
+        setTimeout(() => {
+          markAsNotMastered()
+          setIsAnimating(false)
+          setDragOffset(0)
+          setSwipeDirection(null)
+        }, 300)
+      }
+    } else {
+      // Reset if swipe distance is too small
+      setDragOffset(0)
+      setSwipeDirection(null)
+    }
+  }, [isDragging, showResult, isAnimating, dragOffset, currentOptions, currentWord, markAsNotMastered, submitAnswer])
+
+  // Add event listeners
+  useEffect(() => {
+    const card = cardRef.current
+    if (!card) return
+
+    const handleMouseDown = (e: MouseEvent) => handleTouchStart(e)
+    const handleMouseMove = (e: MouseEvent) => handleTouchMove(e)
+    const handleMouseUp = () => handleTouchEnd()
+
+    // Touch events
+    card.addEventListener('touchstart', handleTouchStart, { passive: false })
+    card.addEventListener('touchmove', handleTouchMove, { passive: false })
+    card.addEventListener('touchend', handleTouchEnd, { passive: true })
+
+    // Mouse events for desktop
+    card.addEventListener('mousedown', handleMouseDown)
+    document.addEventListener('mousemove', handleMouseMove)
+    document.addEventListener('mouseup', handleMouseUp)
+
+    return () => {
+      card.removeEventListener('touchstart', handleTouchStart)
+      card.removeEventListener('touchmove', handleTouchMove)
+      card.removeEventListener('touchend', handleTouchEnd)
+      card.removeEventListener('mousedown', handleMouseDown)
+      document.removeEventListener('mousemove', handleMouseMove)
+      document.removeEventListener('mouseup', handleMouseUp)
+    }
+  }, [handleTouchStart, handleTouchMove, handleTouchEnd])
+
   // 重新开始
   const restartTest = () => {
     startTest()
@@ -511,18 +620,66 @@ export default function TestPage({ languageMode }: TestPageProps) {
           <span>{currentIndex + 1} / {testWords.length}</span>
         </div>
 
-        <div className="question-card">
-          <div className="question-header">
-            <span className="question-label">{t.currentWord}</span>
-            <button
-              className="speak-btn-test"
-              onClick={() => speakDutch(currentWord.word)}
-              title={t.speakButton}
-            >
-              <SpeakerIcon isSpeaking={isSpeaking} />
-            </button>
+        {/* Swipe Instructions */}
+        <div className="swipe-instructions">
+          <div className="swipe-instruction left">
+            <span className="swipe-arrow">←</span>
+            <span>{languageMode === 'chinese' ? '左滑：不认识' : 'Swipe to mark unknown'}</span>
           </div>
-          <div className="word-dutch-test">{currentWord.word}</div>
+          <div className="swipe-instruction right">
+            <span className="swipe-arrow">→</span>
+            <span>{languageMode === 'chinese' ? '右滑：认识' : 'Swipe if you know it'}</span>
+          </div>
+        </div>
+
+        <div
+          className={`question-card-container ${isDragging ? 'dragging' : ''} ${isAnimating ? 'animating' : ''}`}
+        >
+          <div
+            ref={cardRef}
+            className={`question-card swipeable ${swipeDirection ? `swipe-${swipeDirection}` : ''}`}
+            style={{
+              transform: `translateX(${dragOffset}px) rotate(${dragOffset * 0.1}deg)`,
+              transition: isDragging ? 'none' : 'transform 0.3s ease-out'
+            }}
+          >
+            <div className="question-header">
+              <span className="question-label">{t.currentWord}</span>
+              <button
+                className="speak-btn-test"
+                onClick={() => speakDutch(currentWord.word)}
+                title={t.speakButton}
+              >
+                <SpeakerIcon isSpeaking={isSpeaking} />
+              </button>
+            </div>
+            <div className="word-dutch-test">{currentWord.word}</div>
+
+            {/* Swipe feedback overlays */}
+            <div className={`swipe-overlay left-overlay ${swipeDirection === 'left' ? 'active' : ''}`}>
+              <div className="overlay-content">
+                <span className="overlay-icon">✗</span>
+                <span className="overlay-text">{languageMode === 'chinese' ? '不认识' : 'Unknown'}</span>
+              </div>
+            </div>
+            <div className={`swipe-overlay right-overlay ${swipeDirection === 'right' ? 'active' : ''}`}>
+              <div className="overlay-content">
+                <span className="overlay-icon">✓</span>
+                <span className="overlay-text">{languageMode === 'chinese' ? '认识' : 'Known'}</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Next card preview */}
+          {currentIndex < testWords.length - 1 && (
+            <div className="next-card-preview">
+              <div className="question-card preview-card">
+                <div className="word-dutch-test preview-word">
+                  {testWords[currentIndex + 1].word}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="options-container">
@@ -539,12 +696,22 @@ export default function TestPage({ languageMode }: TestPageProps) {
 
         </div>
 
-        <button
-          className={`btn btn-lg next-btn ${showResult ? 'btn-primary' : 'btn-not-mastered'}`}
-          onClick={() => !showResult ? markAsNotMastered() : nextQuestion()}
-        >
-          {t.nextQuestion}
-        </button>
+        <div className="action-section">
+          <div className="swipe-hint">
+            <span className="hint-text">
+              {languageMode === 'chinese'
+                ? '💡 温馨提示：左滑表示不认识，右滑表示认识这个单词'
+                : '💡 Tip: Swipe left if unknown, swipe right if you know it'}
+            </span>
+          </div>
+
+          <button
+            className={`btn btn-lg next-btn ${showResult ? 'btn-primary' : 'btn-not-mastered'}`}
+            onClick={() => !showResult ? markAsNotMastered() : nextQuestion()}
+          >
+            {showResult ? t.nextQuestion : (languageMode === 'chinese' ? '不认识，跳过' : 'Don\'t Know, Skip')}
+          </button>
+        </div>
       </div>
     </div>
   )
