@@ -375,7 +375,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
         setGameComplete(true)
       }, 1000)
     }
-  }, [gameWords, currentIndex, user, setUserWords])
+  }, [gameWords, currentIndex, user, userWords, lives])
 
   // 开始游戏
   const startGame = () => {

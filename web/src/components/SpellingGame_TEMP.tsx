@@ -279,7 +279,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
         setGameComplete(true)
       }, 1000)
     }
-  }, [gameWords, currentIndex, userWords])
+  }, [gameWords, currentIndex, userWords, lives])
 
   // 开始游戏
   const startGame = () => {
@@ -440,7 +440,6 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     if (lives <= 0 && gameStarted) {
       setGameComplete(true)
     }
-    // eslint-disable-next-line react-hooks/set-state-in-effect
   }, [lives, gameStarted])
 
   const currentWord = gameWords[currentIndex]
