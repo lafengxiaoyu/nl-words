@@ -165,7 +165,7 @@ export async function incrementViewCount(
       .select('*')
       .eq('user_id', userId)
       .eq('word_id', wordId)
-      .single()
+      .maybeSingle()
 
     const newStats: LearningStats = {
       viewCount: (existing?.view_count || currentStats?.viewCount || 0) + 1,
@@ -253,7 +253,7 @@ export async function updateMasteryStats(
       .select('*')
       .eq('user_id', userId)
       .eq('word_id', wordId)
-      .single()
+      .maybeSingle()
 
     const newStats: LearningStats = {
       viewCount: existing?.view_count || currentStats?.viewCount || 0,
@@ -340,7 +340,7 @@ export async function updateTestStats(
       .select('*')
       .eq('user_id', userId)
       .eq('word_id', wordId)
-      .single()
+      .maybeSingle()
 
     const newStats: LearningStats = {
       viewCount: existing?.view_count || currentStats?.viewCount || 0,
