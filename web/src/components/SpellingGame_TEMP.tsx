@@ -1,9 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
-import type { User } from '@supabase/supabase-js'
 import type { Word, DifficultyLevel, FamiliarityLevel } from '../data/words'
 import { words as baseWords } from '../data/words'
-import { loadUserProgress, updateTestStats, mergeProgress } from '../lib/progressSync'
 import { calculateFamiliarity } from '../lib/familiarityCalculator'
 import './SpellingGame.css'
 
@@ -74,7 +72,6 @@ const HintIcon = () => {
 
 export default function SpellingGame({ languageMode }: SpellingGameProps) {
   const navigate = useNavigate()
-  const [user, setUser] = useState<User | null>(null)
   const [userWords, setUserWords] = useState<Word[]>(baseWords) // 用户带进度的单词列表
   const [gameWords, setGameWords] = useState<Word[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -96,39 +93,6 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   const [timeModeEnabled, setTimeModeEnabled] = useState(false)
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
-
-  // 从 localStorage 加载用户进度
-  const loadProgressFromLocalStorage = useCallback(() => {
-    const savedWords = localStorage.getItem('nl-words')
-    if (savedWords) {
-      try {
-        const parsed = JSON.parse(savedWords)
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setUserWords(parsed)
-          console.log('从 localStorage 加载了用户进度')
-        }
-      } catch (e) {
-        console.error('加载本地进度失败:', e)
-        setUserWords(baseWords)
-      }
-    } else {
-      setUserWords(baseWords)
-    }
-  }, [])
-
-  // 从 Supabase 加载用户进度
-  const loadProgressFromSupabase = useCallback(async (userId: string) => {
-    try {
-      const progressMap = await loadUserProgress(userId)
-      const mergedWords = mergeProgress(baseWords, progressMap)
-      setUserWords(mergedWords)
-      localStorage.setItem('nl-words', JSON.stringify(mergedWords))
-      console.log('从 Supabase 加载了用户进度')
-    } catch (error) {
-      console.error('从 Supabase 加载进度失败，使用本地数据:', error)
-      loadProgressFromLocalStorage()
-    }
-  }, [loadUserProgress, loadProgressFromLocalStorage])
 
   const translations = {
     chinese: {
@@ -264,6 +228,59 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     return hints
   }
 
+  // 时间到
+  const handleTimeUp = useCallback(async () => {
+    const currentWord = gameWords[currentIndex]
+    setLives(prev => prev - 1)
+    setCombo(0)
+    setWrongAnswers(prev => [...prev, {
+      word: currentWord,
+      userAnswer: '',
+      correctAnswer: currentWord.word
+    }])
+
+    // 更新测试统计（时间到算作错误）
+    try {
+      // 本地用户：更新 localStorage
+      const updatedWords = userWords.map(w => {
+        if (w.id === currentWord.id) {
+          const currentStats = w.stats
+          const updatedStats = {
+            viewCount: currentStats?.viewCount ?? 0,
+            masteredCount: currentStats?.masteredCount ?? 0,
+            unmasteredCount: currentStats?.unmasteredCount ?? 0,
+            testCount: (currentStats?.testCount ?? 0) + 1,
+            testCorrectCount: currentStats?.testCorrectCount ?? 0,
+            testWrongCount: (currentStats?.testWrongCount ?? 0) + 1,
+            lastViewedAt: currentStats?.lastViewedAt,
+            lastTestedAt: new Date().toISOString(),
+          }
+          const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+          console.log(`时间到 - 拼写结果: 错误, 自动计算熟悉程度: ${calculatedFamiliarity}`)
+          return {
+            ...w,
+            stats: updatedStats,
+            familiarity: calculatedFamiliarity
+          }
+        }
+        return w
+      })
+      setUserWords(updatedWords)
+      localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+    } catch (error) {
+      console.error('更新测试统计失败:', error)
+    }
+
+    setShowResult(true)
+
+    // 检查是否游戏结束
+    if (lives <= 1 || currentIndex >= gameWords.length - 1) {
+      setTimeout(() => {
+        setGameComplete(true)
+      }, 1000)
+    }
+  }, [gameWords, currentIndex, userWords])
+
   // 开始游戏
   const startGame = () => {
     const filteredWords = filterWordsByDifficulty(userWords, selectedDifficulty)
@@ -309,7 +326,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
         clearInterval(timerRef.current)
       }
     }
-  }, [gameStarted, showResult, gameComplete, timeRemaining, timeModeEnabled, currentIndex])
+  }, [gameStarted, showResult, gameComplete, timeRemaining, timeModeEnabled, currentIndex, handleTimeUp])
 
   // 发音功能
   const speakDutch = (text: string) => {
@@ -355,141 +372,31 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
 
     // 更新测试统计
     try {
-      if (user) {
-        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, currentWord.id, isCorrect, currentWord.stats)
-        console.log(`拼写结果: ${isCorrect ? '正确' : '错误'}, 自动计算熟悉程度: ${calculatedFamiliarity}`)
-
-        // 更新本地状态中的单词进度
-        setUserWords(prevWords => {
-          return prevWords.map(w => {
-            if (w.id === currentWord.id) {
-              return {
-                ...w,
-                familiarity: calculatedFamiliarity,
-                stats: {
-                  viewCount: (w.stats?.viewCount ?? 0),
-                  masteredCount: (w.stats?.masteredCount ?? 0),
-                  unmasteredCount: (w.stats?.unmasteredCount ?? 0),
-                  testCount: (w.stats?.testCount ?? 0) + 1,
-                  testCorrectCount: isCorrect ? (w.stats?.testCorrectCount ?? 0) + 1 : (w.stats?.testCorrectCount ?? 0),
-                  testWrongCount: !isCorrect ? (w.stats?.testWrongCount ?? 0) + 1 : (w.stats?.testWrongCount ?? 0),
-                  lastTestedAt: new Date().toISOString(),
-                  lastViewedAt: w.stats?.lastViewedAt,
-                }
-              }
-            }
-            return w
-          })
-        })
-      } else {
-        // 本地用户：更新 localStorage
-        const updatedWords = userWords.map(w => {
-          if (w.id === currentWord.id) {
-            const currentStats = w.stats
-            const updatedStats = {
-              viewCount: currentStats?.viewCount ?? 0,
-              masteredCount: currentStats?.masteredCount ?? 0,
-              unmasteredCount: currentStats?.unmasteredCount ?? 0,
-              testCount: (currentStats?.testCount ?? 0) + 1,
-              testCorrectCount: isCorrect ? (currentStats?.testCorrectCount ?? 0) + 1 : (currentStats?.testCorrectCount ?? 0),
-              testWrongCount: !isCorrect ? (currentStats?.testWrongCount ?? 0) + 1 : (currentStats?.testWrongCount ?? 0),
-              lastViewedAt: currentStats?.lastViewedAt,
-              lastTestedAt: new Date().toISOString(),
-            }
-            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
-            return {
-              ...w,
-              stats: updatedStats,
-              familiarity: calculatedFamiliarity
-            }
+      // 本地用户：更新 localStorage
+      const updatedWords = userWords.map(w => {
+        if (w.id === currentWord.id) {
+          const currentStats = w.stats
+          const updatedStats = {
+            viewCount: currentStats?.viewCount ?? 0,
+            masteredCount: currentStats?.masteredCount ?? 0,
+            unmasteredCount: currentStats?.unmasteredCount ?? 0,
+            testCount: (currentStats?.testCount ?? 0) + 1,
+            testCorrectCount: isCorrect ? (currentStats?.testCorrectCount ?? 0) + 1 : (currentStats?.testCorrectCount ?? 0),
+            testWrongCount: !isCorrect ? (currentStats?.testWrongCount ?? 0) + 1 : (currentStats?.testWrongCount ?? 0),
+            lastViewedAt: currentStats?.lastViewedAt,
+            lastTestedAt: new Date().toISOString(),
           }
-          return w
-        })
-        setUserWords(updatedWords)
-        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
-      }
-    } catch (error) {
-      console.error('更新测试统计失败:', error)
-    }
-
-    setShowResult(true)
-
-    // 检查是否游戏结束
-    if (lives <= 1 || currentIndex >= gameWords.length - 1) {
-      setTimeout(() => {
-        setGameComplete(true)
-      }, 1000)
-    }
-  }
-
-  // 时间到
-  const handleTimeUp = async () => {
-    const currentWord = gameWords[currentIndex]
-    setLives(prev => prev - 1)
-    setCombo(0)
-    setWrongAnswers(prev => [...prev, {
-      word: currentWord,
-      userAnswer: '',
-      correctAnswer: currentWord.word
-    }])
-
-    // 更新测试统计（时间到算作错误）
-    try {
-      if (user) {
-        // 登录用户：更新 Supabase
-        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, currentWord.id, false, currentWord.stats)
-        console.log(`时间到 - 拼写结果: 错误, 自动计算熟悉程度: ${calculatedFamiliarity}`)
-
-        // 更新本地状态中的单词进度
-        setUserWords(prevWords => {
-          return prevWords.map(w => {
-            if (w.id === currentWord.id) {
-              return {
-                ...w,
-                familiarity: calculatedFamiliarity,
-                stats: {
-                  viewCount: (w.stats?.viewCount ?? 0),
-                  masteredCount: (w.stats?.masteredCount ?? 0),
-                  unmasteredCount: (w.stats?.unmasteredCount ?? 0),
-                  testCount: (w.stats?.testCount ?? 0) + 1,
-                  testCorrectCount: (w.stats?.testCorrectCount ?? 0),
-                  testWrongCount: (w.stats?.testWrongCount ?? 0) + 1,
-                  lastTestedAt: new Date().toISOString(),
-                  lastViewedAt: w.stats?.lastViewedAt,
-                }
-              }
-            }
-            return w
-          })
-        })
-      } else {
-        // 本地用户：更新 localStorage
-        const updatedWords = userWords.map(w => {
-          if (w.id === currentWord.id) {
-            const currentStats = w.stats
-            const updatedStats = {
-              viewCount: currentStats?.viewCount ?? 0,
-              masteredCount: currentStats?.masteredCount ?? 0,
-              unmasteredCount: currentStats?.unmasteredCount ?? 0,
-              testCount: (currentStats?.testCount ?? 0) + 1,
-              testCorrectCount: currentStats?.testCorrectCount ?? 0,
-              testWrongCount: (currentStats?.testWrongCount ?? 0) + 1,
-              lastViewedAt: currentStats?.lastViewedAt,
-              lastTestedAt: new Date().toISOString(),
-            }
-            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
-            console.log(`时间到 - 拼写结果: 错误, 自动计算熟悉程度: ${calculatedFamiliarity}`)
-            return {
-              ...w,
-              stats: updatedStats,
-              familiarity: calculatedFamiliarity
-            }
+          const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+          return {
+            ...w,
+            stats: updatedStats,
+            familiarity: calculatedFamiliarity
           }
-          return w
-        })
-        setUserWords(updatedWords)
-        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
-      }
+        }
+        return w
+      })
+      setUserWords(updatedWords)
+      localStorage.setItem('nl-words', JSON.stringify(updatedWords))
     } catch (error) {
       console.error('更新测试统计失败:', error)
     }
@@ -533,6 +440,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     if (lives <= 0 && gameStarted) {
       setGameComplete(true)
     }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
   }, [lives, gameStarted])
 
   const currentWord = gameWords[currentIndex]

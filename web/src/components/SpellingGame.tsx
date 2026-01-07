@@ -98,7 +98,25 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
 
-    // 检查用户登录状态
+  // 从 localStorage 加载用户进度
+  const loadProgressFromLocalStorage = useCallback(() => {
+    const savedWords = localStorage.getItem('nl-words')
+    if (savedWords) {
+      try {
+        const parsed = JSON.parse(savedWords)
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          setUserWords(parsed)
+        }
+      } catch {
+        // 加载本地进度失败
+        setUserWords(baseWords)
+      }
+    } else {
+      setUserWords(baseWords)
+    }
+  }, [])
+
+  // 检查用户登录状态
   useEffect(() => {
     const checkUser = async () => {
       try {
@@ -108,7 +126,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
         } else {
           setUser(user)
         }
-      } catch (error) {
+      } catch {
         // 检查用户登录状态失败
       }
     }
@@ -128,7 +146,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
             const mergedWords = mergeProgress(baseWords, progressMap)
             setUserWords(mergedWords)
             localStorage.setItem('nl-words', JSON.stringify(mergedWords))
-          } catch (error) {
+          } catch {
             // 从 Supabase 加载进度失败，使用本地数据
             loadProgressFromLocalStorage()
           }
@@ -143,25 +161,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     return () => {
       subscription.unsubscribe()
     }
-  }, [])
-
-  // 从 localStorage 加载用户进度
-  const loadProgressFromLocalStorage = useCallback(() => {
-    const savedWords = localStorage.getItem('nl-words')
-    if (savedWords) {
-      try {
-        const parsed = JSON.parse(savedWords)
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setUserWords(parsed)
-        }
-      } catch (e) {
-        // 加载本地进度失败
-        setUserWords(baseWords)
-      }
-    } else {
-      setUserWords(baseWords)
-    }
-  }, [])
+  }, [loadProgressFromLocalStorage])
 
   const translations = {
     chinese: {
@@ -297,6 +297,86 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     return hints
   }
 
+  // 时间到
+  const handleTimeUp = useCallback(async () => {
+    const currentWord = gameWords[currentIndex]
+    setLives(prev => prev - 1)
+    setCombo(0)
+    setWrongAnswers(prev => [...prev, {
+      word: currentWord,
+      userAnswer: '',
+      correctAnswer: currentWord.word
+    }])
+
+    // 更新测试统计（时间到算作错误）
+    try {
+      if (user) {
+        // 登录用户：更新 Supabase
+        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, currentWord.id, false, currentWord.stats)
+
+        // 更新本地状态中的单词进度
+        setUserWords(prevWords => {
+          return prevWords.map(w => {
+            if (w.id === currentWord.id) {
+              return {
+                ...w,
+                familiarity: calculatedFamiliarity,
+                stats: {
+                  viewCount: (w.stats?.viewCount ?? 0),
+                  masteredCount: (w.stats?.masteredCount ?? 0),
+                  unmasteredCount: (w.stats?.unmasteredCount ?? 0),
+                  testCount: (w.stats?.testCount ?? 0) + 1,
+                  testCorrectCount: (w.stats?.testCorrectCount ?? 0),
+                  testWrongCount: (w.stats?.testWrongCount ?? 0) + 1,
+                  lastTestedAt: new Date().toISOString(),
+                  lastViewedAt: w.stats?.lastViewedAt,
+                }
+              }
+            }
+            return w
+          })
+        })
+      } else {
+        // 本地用户：更新 localStorage
+        const updatedWords = userWords.map(w => {
+          if (w.id === currentWord.id) {
+            const currentStats = w.stats
+            const updatedStats = {
+              viewCount: currentStats?.viewCount ?? 0,
+              masteredCount: currentStats?.masteredCount ?? 0,
+              unmasteredCount: currentStats?.unmasteredCount ?? 0,
+              testCount: (currentStats?.testCount ?? 0) + 1,
+              testCorrectCount: (currentStats?.testCorrectCount ?? 0),
+              testWrongCount: (currentStats?.testWrongCount ?? 0) + 1,
+              lastViewedAt: currentStats?.lastViewedAt,
+              lastTestedAt: new Date().toISOString(),
+            }
+            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+            return {
+              ...w,
+              stats: updatedStats,
+              familiarity: calculatedFamiliarity
+            }
+          }
+          return w
+        })
+        setUserWords(updatedWords)
+        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+      }
+    } catch {
+      // 更新测试统计失败
+    }
+
+    setShowResult(true)
+
+    // 检查是否游戏结束
+    if (lives <= 1 || currentIndex >= gameWords.length - 1) {
+      setTimeout(() => {
+        setGameComplete(true)
+      }, 1000)
+    }
+  }, [gameWords, currentIndex, user, setUserWords])
+
   // 开始游戏
   const startGame = () => {
     const filteredWords = filterWordsByDifficulty(userWords, selectedDifficulty)
@@ -342,7 +422,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
         clearInterval(timerRef.current)
       }
     }
-  }, [gameStarted, showResult, gameComplete, timeRemaining, timeModeEnabled, currentIndex])
+  }, [gameStarted, showResult, gameComplete, timeRemaining, timeModeEnabled, currentIndex, handleTimeUp])
 
   // 发音功能
   const speakDutch = (text: string) => {
@@ -440,7 +520,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
         setUserWords(updatedWords)
         localStorage.setItem('nl-words', JSON.stringify(updatedWords))
       }
-    } catch (error) {
+    } catch {
       // 更新测试统计失败
     }
 
@@ -520,7 +600,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
         setUserWords(updatedWords)
         localStorage.setItem('nl-words', JSON.stringify(updatedWords))
       }
-    } catch (error) {
+    } catch {
       // 更新测试统计失败
     }
 

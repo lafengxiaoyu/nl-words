@@ -156,7 +156,7 @@ function OptionSelect<T extends string>({
 
 export default function WordListPage({ languageMode }: WordListPageProps) {
   const navigate = useNavigate()
-  const [wordList, setWordList] = useState<Word[]>([])
+  const [wordList, setWordList] = useState<Word[]>(words)
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedPartOfSpeech, setSelectedPartOfSpeech] = useState<string>('all')
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all')
@@ -164,9 +164,10 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [sortBy, setSortBy] = useState<'word' | 'translation' | 'partOfSpeech' | 'difficulty'>('word')
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc')
 
+  // 过滤条件的key，用于重置分页
+  const filterKey = `${searchTerm}-${selectedPartOfSpeech}-${selectedDifficulty}-${itemsPerPage}`
 
-
-  // 加载单词列表
+  // 初始化单词列表（仅在加载时执行一次）
   useEffect(() => {
     setWordList(words)
   }, [])
@@ -375,7 +376,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   // 重置当前页当过滤条件变化时
   useEffect(() => {
     setCurrentPage(1)
-  }, [searchTerm, selectedPartOfSpeech, selectedDifficulty, itemsPerPage])
+  }, [filterKey])
 
   return (
     <div className="word-list-page">

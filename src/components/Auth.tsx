@@ -59,8 +59,8 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
           }, 2000)
         }
       }
-    } catch (err: any) {
-      setError(err.message || '操作失败，请重试')
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : '操作失败，请重试')
     } finally {
       setLoading(false)
     }

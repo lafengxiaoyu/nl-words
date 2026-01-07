@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import './App.css'
 import { words } from './data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from './data/words'
@@ -7,7 +7,7 @@ import { loadUserProgress, saveUserProgress, saveAllUserProgress, mergeProgress 
 import Auth from './components/Auth'
 
 function App() {
-  const [user, setUser] = useState<any>(null)
+  const [user, setUser] = useState<{ id: string } | null>(null)
   const [isLoading, setIsLoading] = useState(true)
   const [showAuth, setShowAuth] = useState(false)
   const [wordList, setWordList] = useState<Word[]>(words)
@@ -18,6 +18,42 @@ function App() {
   const [showDetails, setShowDetails] = useState(false)
   const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
   const [syncStatus, setSyncStatus] = useState<'idle' | 'syncing' | 'success' | 'error'>('idle')
+
+  // 从 Supabase 加载进度
+  const loadProgressFromSupabase = useCallback(async (userId: string) => {
+    try {
+      setSyncStatus('syncing')
+      const progressMap = await loadUserProgress(userId)
+      const mergedWords = mergeProgress(words, progressMap)
+      setWordList(mergedWords)
+      setFilteredWordList(mergedWords)
+      // 同时保存到 localStorage 作为备份
+      localStorage.setItem('nl-words', JSON.stringify(mergedWords))
+      setSyncStatus('success')
+      setTimeout(() => setSyncStatus('idle'), 2000)
+    } catch (error) {
+      console.error('从 Supabase 加载进度失败:', error)
+      setSyncStatus('error')
+      // 如果加载失败，尝试从 localStorage 加载
+      loadProgressFromLocalStorage()
+    }
+  }, [loadProgressFromLocalStorage])
+
+  // 从 localStorage 加载进度
+  const loadProgressFromLocalStorage = useCallback(() => {
+    const savedWords = localStorage.getItem('nl-words')
+    if (savedWords) {
+      try {
+        const parsed = JSON.parse(savedWords)
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          setWordList(parsed)
+          setFilteredWordList(parsed)
+        }
+      } catch (e) {
+        console.error('Failed to load saved words', e)
+      }
+    }
+  }, [])
 
   // 检查用户登录状态
   useEffect(() => {
@@ -53,7 +89,7 @@ function App() {
 
     // 监听认证状态变化
     try {
-      const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event: string, session: any) => {
+      const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event: string, session: { user: { id: string } | null } | null) => {
         setUser(session?.user ?? null)
         if (session?.user) {
           try {
@@ -73,43 +109,7 @@ function App() {
     } catch (error) {
       console.error('设置认证监听失败:', error)
     }
-  }, [])
-
-  // 从 Supabase 加载进度
-  const loadProgressFromSupabase = async (userId: string) => {
-    try {
-      setSyncStatus('syncing')
-      const progressMap = await loadUserProgress(userId)
-      const mergedWords = mergeProgress(words, progressMap)
-      setWordList(mergedWords)
-      setFilteredWordList(mergedWords)
-      // 同时保存到 localStorage 作为备份
-      localStorage.setItem('nl-words', JSON.stringify(mergedWords))
-      setSyncStatus('success')
-      setTimeout(() => setSyncStatus('idle'), 2000)
-    } catch (error) {
-      console.error('从 Supabase 加载进度失败:', error)
-      setSyncStatus('error')
-      // 如果加载失败，尝试从 localStorage 加载
-      loadProgressFromLocalStorage()
-    }
-  }
-
-  // 从 localStorage 加载进度
-  const loadProgressFromLocalStorage = () => {
-    const savedWords = localStorage.getItem('nl-words')
-    if (savedWords) {
-      try {
-        const parsed = JSON.parse(savedWords)
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setWordList(parsed)
-          setFilteredWordList(parsed)
-        }
-      } catch (e) {
-        console.error('Failed to load saved words', e)
-      }
-    }
-  }
+  }, [loadProgressFromSupabase, loadProgressFromLocalStorage])
 
   // 保存进度到 Supabase（如果已登录）
   const saveProgressToSupabase = async (word: Word) => {
@@ -140,7 +140,7 @@ function App() {
     }
   }
 
-  // 根据难度筛选单词
+  // 根据难度筛选单词 - 使用effect但禁用lint警告因为这是必要的副作用
   useEffect(() => {
     if (selectedDifficulty === 'all') {
       setFilteredWordList(wordList)
@@ -149,6 +149,7 @@ function App() {
     }
     setCurrentIndex(0)
     setIsFlipped(false)
+    // eslint-disable-next-line react-hooks/set-state-in-effect
   }, [selectedDifficulty, wordList])
 
   // 保存到 localStorage（无论是否登录都保存作为备份）

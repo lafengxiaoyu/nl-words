@@ -23,7 +23,7 @@ export async function loadUserProgress(userId: string): Promise<Map<number, Part
       data.forEach((item: UserProgress) => {
         progressMap.set(item.word_id, {
           mastered: item.mastered,
-          familiarity: item.familiarity as any,
+          familiarity: item.familiarity as 'unknown' | 'learning' | 'familiar' | 'mastered',
         })
       })
     }
