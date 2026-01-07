@@ -97,17 +97,17 @@
         }
       },
       "examples": [
-        "Ik wil contant betalen.",
-        "Hij betaalt de rekening."
+        "De klant betaalde de rekening met zijn creditcard.",
+        "Het is belangrijk om je rekeningen altijd op tijd te betalen."
       ],
       "exampleTranslations": {
         "chinese": [
-          "我想付现金。",
-          "他付账单。"
+          "顾客用信用卡支付了账单。",
+          "重要的是要按时支付账单。"
         ],
         "english": [
-          "I want to pay cash.",
-          "He pays the bill."
+          "The customer paid the bill with his credit card.",
+          "It is important to always pay your bills on time."
         ]
       },
       "notes": "规则弱动词",
@@ -143,17 +143,17 @@
         }
       },
       "examples": [
-        "Ik log in op de computer.",
-        "Je kunt inloggen met je account."
+        "Ik log elke ochtend in op mijn werkcomputer om mijn e-mail te controleren.",
+        "Je kunt veilig inloggen met je persoonlijke account en wachtwoord."
       ],
       "exampleTranslations": {
         "chinese": [
-          "我登录电脑。",
-          "你可以用你的账户登录。"
+          "我每天早上都登录工作电脑来查看邮件。",
+          "你可以用你的个人账户和密码安全地登录。"
         ],
         "english": [
-          "I log in to the computer.",
-          "You can log in with your account."
+          "I log in to my work computer every morning to check my email.",
+          "You can log in securely with your personal account and password."
         ]
       },
       "notes": "可分动词，前缀 in-，常用于数字环境",
@@ -550,19 +550,19 @@
         }
       },
       "examples": [
-        "Hij heeft een interessante achtergrond.",
-        "De achtergrond van het schilderij is blauw."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他有一个有趣的背景。",
-          "这幅画的背景是蓝色的。"
+          "Ze heeft een academische achtergrond in de economie en werkt nu bij een bank.",
+          "De achtergrondinformatie over de kandidaat is grondig onderzocht."
         ],
-        "english": [
-          "He has an interesting background.",
-          "The background of the painting is blue."
-        ]
-      },
+        "exampleTranslations": {
+          "chinese": [
+            "她有经济学学术背景，现在在一家银行工作。",
+            "候选人的背景信息已经过彻底调查。"
+          ],
+          "english": [
+            "She has an academic background in economics and now works at a bank.",
+            "The background information about the candidate has been thoroughly investigated."
+          ]
+        },
       "notes": "复合词，由achter(后面)和grond(地面)组成",
       "difficulty": "B1"
     },
@@ -582,17 +582,17 @@
         }
       },
       "examples": [
-        "We moeten nu actie ondernemen.",
-        "Zijn actie was moedig."
+        "Het bedrijf moet direct actie ondernemen om de schade te beperken.",
+        "Zijn snelle actie heeft levens gered."
       ],
       "exampleTranslations": {
         "chinese": [
-          "我们现在必须采取行动。",
-          "他的行动很勇敢。"
+          "公司必须立即采取行动以限制损失。",
+          "他的快速行动挽救了生命。"
         ],
         "english": [
-          "We must take action now.",
-          "His action was brave."
+          "The company must take immediate action to limit the damage.",
+          "His quick action saved lives."
         ]
       },
       "notes": "阴性名词，常用短语：actie ondernemen (采取行动)",
@@ -648,17 +648,17 @@
         }
       },
       "examples": [
-        "Er zijn veel activiteiten in het park.",
-        "Welke activiteit vind jij leuk?"
+        "De school organiseert diverse culturele activiteiten voor de studenten deze zomer.",
+        "Vrijetijdsactiviteiten spelen een belangrijke rol in het welzijn van kinderen."
       ],
       "exampleTranslations": {
         "chinese": [
-          "公园里有很多活动。",
-          "你喜欢什么活动？"
+          "学校今年夏天为学生组织了各种文化活动。",
+          "休闲活动在儿童的幸福生活中扮演着重要角色。"
         ],
         "english": [
-          "There are many activities in the park.",
-          "Which activity do you like?"
+          "The school organizes various cultural activities for the students this summer.",
+          "Leisure activities play an important role in the well-being of children."
         ]
       },
       "notes": "阴性名词，复数形式是-iteit → -iteiten",
@@ -1791,17 +1791,17 @@
         }
       },
       "examples": [
-        "Het apparaat werkt niet.",
-        "Ik heb een nieuw apparaat gekocht."
+        "Het medische apparaat is essentieel voor de behandeling van de patiënt.",
+        "De technici repareerden het defecte apparaat efficiënt."
       ],
       "exampleTranslations": {
         "chinese": [
-          "设备不工作。",
-          "我买了个新设备。"
+          "这个医疗设备对患者的治疗至关重要。",
+          "技术人员高效地修复了有故障的设备。"
         ],
         "english": [
-          "The device doesn't work.",
-          "I bought a new device."
+          "The medical device is essential for the treatment of the patient.",
+          "The technicians repaired the faulty device efficiently."
         ]
       },
       "notes": "复数形式为 apparaten",
@@ -1823,17 +1823,17 @@
         }
       },
       "examples": [
-        "Het applaus was luid.",
-        "Er klonk applaus."
+        "Na de prachtige uitvoering klonk er luid applaus door de zaal.",
+        "Het publiek gaf de dirigent een staande ovatie voor zijn exceptionele performance."
       ],
       "exampleTranslations": {
         "chinese": [
-          "掌声很响亮。",
-          "响起了掌声。"
+          "精彩的演出后，大厅里响起了热烈的掌声。",
+          "观众为指挥家杰出的表演起立鼓掌致敬。"
         ],
         "english": [
-          "The applause was loud.",
-          "There was applause."
+          "After the magnificent performance, loud applause resounded through the hall.",
+          "The audience gave the conductor a standing ovation for his exceptional performance."
         ]
       },
       "notes": "不可数名词，常用短语：applaus geven (鼓掌)",
