@@ -30134,19 +30134,20 @@
       "verb": {
         "infinitive": "merken",
         "present": {
-          "singular": [
-            "merk",
-            "merkt",
-            "merkt"
-          ],
-          "plural": "merken"
+          "ik": "merk",
+          "jij": "merkt",
+          "hij": "merkt",
+          "wij": "merken",
+          "jullie": "merken",
+          "zij": "merken"
         },
         "past": {
           "singular": "merkte",
           "plural": "merkten"
         },
         "pastParticiple": "gemerkt",
-        "pastParticipleAuxiliary": "hebben"
+        "pastParticipleAuxiliary": "hebben",
+        "isSeparable": false
       }
     },
     "examples": [
@@ -31422,35 +31423,25 @@
       "verb": {
         "infinitive": "offeren",
         "present": {
-          "singular": [
-            "offer",
-            "offert",
-            "offert"
-          ],
-          "plural": "offeren"
+          "ik": "offer",
+          "jij": "offert",
+          "hij": "offert",
+          "wij": "offeren",
+          "jullie": "offeren",
+          "zij": "offeren"
         },
         "past": {
           "singular": "offerde",
           "plural": "offerden"
         },
         "pastParticiple": "aangeboden",
-        "pastParticipleAuxiliary": "hebben"
+        "pastParticipleAuxiliary": "hebben",
+        "isSeparable": false
       },
       "noun": {
-        "singular": [
-          "offer",
-          "offer",
-          "het offer",
-          "het offer"
-        ],
-        "plural": [
-          "offers",
-          "offers",
-          "de offers",
-          "de offers"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "offer",
+        "plural": "offers"
       }
     },
     "examples": [
@@ -32300,19 +32291,20 @@
       "verb": {
         "infinitive": "ontspannen",
         "present": {
-          "singular": [
-            "ontspan",
-            "ontspant",
-            "ontspant"
-          ],
-          "plural": "ontspannen"
+          "ik": "ontspan",
+          "jij": "ontspant",
+          "hij": "ontspant",
+          "wij": "ontspannen",
+          "jullie": "ontspannen",
+          "zij": "ontspannen"
         },
         "past": {
           "singular": "ontspande",
           "plural": "ontspanden"
         },
         "pastParticiple": "ontspannen",
-        "pastParticipleAuxiliary": "zijn/hebben"
+        "pastParticipleAuxiliary": "zijn/hebben",
+        "isSeparable": false
       },
       "adjective": {
         "base": "ontspannen",
@@ -33228,20 +33220,9 @@
     ],
     "forms": {
       "noun": {
-        "singular": [
-          "ouder",
-          "ouder",
-          "de ouder",
-          "de ouder"
-        ],
-        "plural": [
-          "ouders",
-          "ouders",
-          "de ouders",
-          "de ouders"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "ouder",
+        "plural": "ouders"
       }
     },
     "examples": [
@@ -33834,20 +33815,9 @@
     ],
     "forms": {
       "noun": {
-        "singular": [
-          "plastic",
-          "plastic",
-          "het plastic",
-          "het plastic"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "plastic",
+        "plural": "-"
       }
     },
     "examples": [
@@ -34532,20 +34502,9 @@
     ],
     "forms": {
       "noun": {
-        "singular": [
-          "publiek",
-          "publiek",
-          "het publiek",
-          "het publiek"
-        ],
-        "plural": [
-          "-",
-          "-",
-          "-",
-          "-"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "publiek",
+        "plural": "-"
       }
     },
     "examples": [
@@ -34790,20 +34749,9 @@
     ],
     "forms": {
       "noun": {
-        "singular": [
-          "rechter",
-          "rechter",
-          "de rechter",
-          "de rechter"
-        ],
-        "plural": [
-          "rechters",
-          "rechters",
-          "de rechters",
-          "de rechters"
-        ],
-        "gender": "de",
-        "article": "de"
+        "article": "de",
+        "singular": "rechter",
+        "plural": "rechters"
       }
     },
     "examples": [
@@ -36932,19 +36880,20 @@
       "verb": {
         "infinitive": "staan",
         "present": {
-          "singular": [
-            "sta",
-            "staat",
-            "staat"
-          ],
-          "plural": "staan"
+          "ik": "sta",
+          "jij": "staat",
+          "hij": "staat",
+          "wij": "staan",
+          "jullie": "staan",
+          "zij": "staan"
         },
         "past": {
           "singular": "stond",
           "plural": "stonden"
         },
         "pastParticiple": "gestaan",
-        "pastParticipleAuxiliary": "zijn/hebben"
+        "pastParticipleAuxiliary": "zijn/hebben",
+        "isSeparable": false
       }
     },
     "examples": [
@@ -37156,19 +37105,20 @@
       "verb": {
         "infinitive": "stemmen",
         "present": {
-          "singular": [
-            "stem",
-            "stemt",
-            "stemt"
-          ],
-          "plural": "stemmen"
+          "ik": "stem",
+          "jij": "stemt",
+          "hij": "stemt",
+          "wij": "stemmen",
+          "jullie": "stemmen",
+          "zij": "stemmen"
         },
         "past": {
           "singular": "stemde",
           "plural": "stemden"
         },
         "pastParticiple": "gestemd",
-        "pastParticipleAuxiliary": "hebben"
+        "pastParticipleAuxiliary": "hebben",
+        "isSeparable": false
       }
     },
     "examples": [
@@ -37314,19 +37264,20 @@
       "verb": {
         "infinitive": "steunen",
         "present": {
-          "singular": [
-            "steun",
-            "steunt",
-            "steunt"
-          ],
-          "plural": "steunen"
+          "ik": "steun",
+          "jij": "steunt",
+          "hij": "steunt",
+          "wij": "steunen",
+          "jullie": "steunen",
+          "zij": "steunen"
         },
         "past": {
           "singular": "steunde",
           "plural": "steunden"
         },
         "pastParticiple": "gesteund",
-        "pastParticipleAuxiliary": "hebben"
+        "pastParticipleAuxiliary": "hebben",
+        "isSeparable": false
       }
     },
     "examples": [
@@ -37740,20 +37691,9 @@
     ],
     "forms": {
       "noun": {
-        "singular": [
-          "stuk",
-          "stuk",
-          "het stuk",
-          "het stuk"
-        ],
-        "plural": [
-          "stukken",
-          "stukken",
-          "de stukken",
-          "de stukken"
-        ],
-        "gender": "het",
-        "article": "het"
+        "article": "het",
+        "singular": "stuk",
+        "plural": "stukken"
       }
     },
     "examples": [
@@ -37999,8 +37939,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "tegendeel",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -38500,8 +38441,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "toerisme",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -38563,8 +38505,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "toeval",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -38944,8 +38887,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "de",
         "singular": "uitleg",
-        "article": "de"
+        "plural": "-"
       }
     },
     "examples": [
@@ -39497,8 +39441,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "de",
         "singular": "veiligheid",
-        "article": "de"
+        "plural": "-"
       }
     },
     "examples": [
@@ -39878,8 +39823,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "verblijf",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -39954,8 +39900,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "verbruik",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -40119,8 +40066,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "verdriet",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -40439,8 +40387,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "verkeer",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -40579,8 +40528,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "verleden",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -41308,8 +41258,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "verstand",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -41564,8 +41515,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "vervoer",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -41846,8 +41798,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "verzet",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -41909,8 +41862,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "de",
         "singular": "verzorging",
-        "article": "de"
+        "plural": "-"
       }
     },
     "examples": [
@@ -42043,8 +41997,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "de",
         "singular": "visite",
-        "article": "de"
+        "plural": "-"
       }
     },
     "examples": [
@@ -42183,8 +42138,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "de",
         "singular": "voeding",
-        "article": "de"
+        "plural": "-"
       }
     },
     "examples": [
@@ -42214,8 +42170,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "voer",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -42555,8 +42512,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "de",
         "singular": "vrede",
-        "article": "de"
+        "plural": "-"
       }
     },
     "examples": [
@@ -42740,8 +42698,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "de",
         "singular": "warmte",
-        "article": "de"
+        "plural": "-"
       }
     },
     "examples": [
@@ -42771,8 +42730,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "de",
         "singular": "weerstand",
-        "article": "de"
+        "plural": "-"
       }
     },
     "examples": [
@@ -43088,8 +43048,9 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "zicht",
-        "article": "het"
+        "plural": "-"
       }
     },
     "examples": [
@@ -62347,10 +62308,10 @@
     "forms": {
       "adjective": {
         "base": "hetzelfde",
-        "withDe": "dezelfde",
+        "withDe": "hetzelfde",
         "withHet": "hetzelfde",
-        "comparative": null,
-        "superlative": null
+        "comparative": "hetzelfdeer",
+        "superlative": "hetzelfdest"
       }
     },
     "examples": [
@@ -62825,10 +62786,10 @@
     "forms": {
       "adjective": {
         "base": "hoger",
-        "withDe": "hogere",
-        "withHet": "hogere",
-        "comparative": null,
-        "superlative": null
+        "withDe": "hoger",
+        "withHet": "hoger",
+        "comparative": "hogerder",
+        "superlative": "hogerdst"
       }
     },
     "examples": [
@@ -62925,10 +62886,10 @@
     "forms": {
       "adjective": {
         "base": "homoseksueel",
-        "withDe": "homoseksuele",
-        "withHet": "homoseksuele",
-        "comparative": null,
-        "superlative": null
+        "withDe": "homoseksueel",
+        "withHet": "homoseksueel",
+        "comparative": "homoseksueeler",
+        "superlative": "homoseksueelst"
       }
     },
     "examples": [
@@ -63083,10 +63044,10 @@
     "forms": {
       "adjective": {
         "base": "hoogachtend",
-        "withDe": "hoogachtende",
-        "withHet": "hoogachtende",
-        "comparative": null,
-        "superlative": null
+        "withDe": "hoogachtend",
+        "withHet": "hoogachtend",
+        "comparative": "hoogachtender",
+        "superlative": "hoogachtendst"
       }
     },
     "examples": [
@@ -63409,10 +63370,10 @@
     "forms": {
       "adjective": {
         "base": "huidig",
-        "withDe": "huidige",
-        "withHet": "huidige",
-        "comparative": null,
-        "superlative": null
+        "withDe": "huidig",
+        "withHet": "huidig",
+        "comparative": "huidiger",
+        "superlative": "huidigst"
       }
     },
     "examples": [
@@ -63607,10 +63568,10 @@
     "forms": {
       "adjective": {
         "base": "humanitair",
-        "withDe": "humanitaire",
-        "withHet": "humanitaire",
-        "comparative": null,
-        "superlative": null
+        "withDe": "humanitair",
+        "withHet": "humanitair",
+        "comparative": "humanitairder",
+        "superlative": "humanitairdst"
       }
     },
     "examples": [
@@ -64119,10 +64080,10 @@
     "forms": {
       "adjective": {
         "base": "illegaal",
-        "withDe": "illegale",
-        "withHet": "illegale",
-        "comparative": null,
-        "superlative": null
+        "withDe": "illegaal",
+        "withHet": "illegaal",
+        "comparative": "illegaaler",
+        "superlative": "illegaalst"
       }
     },
     "examples": [
@@ -64863,10 +64824,10 @@
     "forms": {
       "adjective": {
         "base": "juichend",
-        "withDe": "juichende",
-        "withHet": "juichende",
-        "comparative": null,
-        "superlative": null
+        "withDe": "juichend",
+        "withHet": "juichend",
+        "comparative": "juichender",
+        "superlative": "juichendst"
       }
     },
     "examples": [
@@ -65355,10 +65316,10 @@
     "forms": {
       "adjective": {
         "base": "karakteristiek",
-        "withDe": "karakteristieke",
-        "withHet": "karakteristieke",
-        "comparative": null,
-        "superlative": null
+        "withDe": "karakteristiek",
+        "withHet": "karakteristiek",
+        "comparative": "karakteristieker",
+        "superlative": "karakteristiekst"
       }
     },
     "examples": [
@@ -65517,10 +65478,10 @@
     "forms": {
       "adjective": {
         "base": "katholiek",
-        "withDe": "katholieke",
-        "withHet": "katholieke",
-        "comparative": null,
-        "superlative": null
+        "withDe": "katholiek",
+        "withHet": "katholiek",
+        "comparative": "katholieker",
+        "superlative": "katholiekst"
       }
     },
     "examples": [
@@ -66249,8 +66210,8 @@
         "base": "inbegrepen",
         "withDe": "inbegrepen",
         "withHet": "inbegrepen",
-        "comparative": null,
-        "superlative": null
+        "comparative": "inbegrepender",
+        "superlative": "inbegrependst"
       }
     },
     "examples": [
@@ -66701,10 +66662,10 @@
     "forms": {
       "adjective": {
         "base": "inferieur",
-        "withDe": "inferieure",
-        "withHet": "inferieure",
-        "comparative": null,
-        "superlative": null
+        "withDe": "inferieur",
+        "withHet": "inferieur",
+        "comparative": "inferieurder",
+        "superlative": "inferieurdst"
       }
     },
     "examples": [
@@ -67313,8 +67274,8 @@
         "base": "interim",
         "withDe": "interim",
         "withHet": "interim",
-        "comparative": null,
-        "superlative": null
+        "comparative": "interimer",
+        "superlative": "interimst"
       }
     },
     "examples": [
@@ -67377,10 +67338,10 @@
     "forms": {
       "adjective": {
         "base": "internationaal",
-        "withDe": "internationale",
-        "withHet": "internationale",
-        "comparative": null,
-        "superlative": null
+        "withDe": "internationaal",
+        "withHet": "internationaal",
+        "comparative": "internationaaler",
+        "superlative": "internationaalst"
       }
     },
     "examples": [
@@ -67616,10 +67577,10 @@
     "forms": {
       "adjective": {
         "base": "intiem",
-        "withDe": "intieme",
-        "withHet": "intieme",
-        "comparative": null,
-        "superlative": null
+        "withDe": "intiem",
+        "withHet": "intiem",
+        "comparative": "intiemer",
+        "superlative": "intiemst"
       }
     },
     "examples": [
@@ -68463,10 +68424,10 @@
     "forms": {
       "adjective": {
         "base": "klassiek",
-        "withDe": "klassieke",
-        "withHet": "klassieke",
-        "comparative": null,
-        "superlative": null
+        "withDe": "klassiek",
+        "withHet": "klassiek",
+        "comparative": "klassieker",
+        "superlative": "klassiekst"
       }
     },
     "examples": [
@@ -69610,10 +69571,10 @@
     "forms": {
       "adjective": {
         "base": "kwalitatief",
-        "withDe": "kwalitatieve",
-        "withHet": "kwalitatieve",
-        "comparative": null,
-        "superlative": null
+        "withDe": "kwalitatief",
+        "withHet": "kwalitatief",
+        "comparative": "kwalitatiefer",
+        "superlative": "kwalitatiefst"
       }
     },
     "examples": [
@@ -69822,8 +69783,8 @@
         "base": "laatstgenoemde",
         "withDe": "laatstgenoemde",
         "withHet": "laatstgenoemde",
-        "comparative": null,
-        "superlative": null
+        "comparative": "laatstgenoemdeer",
+        "superlative": "laatstgenoemdest"
       }
     },
     "examples": [
@@ -70664,10 +70625,10 @@
     "forms": {
       "adjective": {
         "base": "legaal",
-        "withDe": "legale",
-        "withHet": "legale",
-        "comparative": null,
-        "superlative": null
+        "withDe": "legaal",
+        "withHet": "legaal",
+        "comparative": "legaaler",
+        "superlative": "legaalst"
       }
     },
     "examples": [
@@ -71423,10 +71384,10 @@
     "forms": {
       "adjective": {
         "base": "lichtgewicht",
-        "withDe": "lichtgewichtige",
-        "withHet": "lichtgewichtige",
-        "comparative": null,
-        "superlative": null
+        "withDe": "lichtgewicht",
+        "withHet": "lichtgewicht",
+        "comparative": "lichtgewichter",
+        "superlative": "lichtgewichtst"
       }
     },
     "examples": [
@@ -72509,10 +72470,10 @@
     "forms": {
       "adjective": {
         "base": "lyrisch",
-        "withDe": "lyrische",
-        "withHet": "lyrische",
-        "comparative": null,
-        "superlative": null
+        "withDe": "lyrisch",
+        "withHet": "lyrisch",
+        "comparative": "lyrischer",
+        "superlative": "lyrischst"
       }
     },
     "examples": [
@@ -72822,10 +72783,10 @@
     "forms": {
       "adjective": {
         "base": "maatwork",
-        "withDe": "maatwerk",
-        "withHet": "maatwerk",
-        "comparative": null,
-        "superlative": null
+        "withDe": "maatwork",
+        "withHet": "maatwork",
+        "comparative": "maatworker",
+        "superlative": "maatworkst"
       }
     },
     "examples": [
@@ -74539,10 +74500,10 @@
     "forms": {
       "adjective": {
         "base": "meertalig",
-        "withDe": "meertalige",
-        "withHet": "meertalige",
-        "comparative": null,
-        "superlative": null
+        "withDe": "meertalig",
+        "withHet": "meertalig",
+        "comparative": "meertaliger",
+        "superlative": "meertaligst"
       }
     },
     "examples": [
@@ -76850,10 +76811,10 @@
     "forms": {
       "adjective": {
         "base": "multicultureel",
-        "withDe": "multiculturele",
-        "withHet": "multiculturele",
-        "comparative": null,
-        "superlative": null
+        "withDe": "multicultureel",
+        "withHet": "multicultureel",
+        "comparative": "multicultureeler",
+        "superlative": "multicultureelst"
       }
     },
     "examples": [
@@ -82287,10 +82248,10 @@
     "forms": {
       "adjective": {
         "base": "optimaal",
-        "withDe": "optimale",
-        "withHet": "optimale",
-        "comparative": null,
-        "superlative": null
+        "withDe": "optimaal",
+        "withHet": "optimaal",
+        "comparative": "optimaaler",
+        "superlative": "optimaalst"
       }
     },
     "examples": [
@@ -82557,10 +82518,10 @@
     "forms": {
       "adjective": {
         "base": "opvolger",
-        "withDe": "opvolgende",
-        "withHet": "opvolgende",
-        "comparative": null,
-        "superlative": null
+        "withDe": "opvolger",
+        "withHet": "opvolger",
+        "comparative": "opvolgerder",
+        "superlative": "opvolgerdst"
       }
     },
     "examples": [
@@ -83038,10 +82999,10 @@
     "forms": {
       "adjective": {
         "base": "organisch",
-        "withDe": "organische",
-        "withHet": "organische",
-        "comparative": null,
-        "superlative": null
+        "withDe": "organisch",
+        "withHet": "organisch",
+        "comparative": "organischer",
+        "superlative": "organischst"
       }
     },
     "examples": [
@@ -83341,8 +83302,8 @@
         "base": "oudste",
         "withDe": "oudste",
         "withHet": "oudste",
-        "comparative": null,
-        "superlative": null
+        "comparative": "oudsteer",
+        "superlative": "oudstest"
       }
     },
     "examples": [
@@ -83846,10 +83807,10 @@
     "forms": {
       "adjective": {
         "base": "overleden",
-        "withDe": "overledene",
-        "withHet": "overledene",
-        "comparative": null,
-        "superlative": null
+        "withDe": "overleden",
+        "withHet": "overleden",
+        "comparative": "overledender",
+        "superlative": "overledendst"
       }
     },
     "examples": [
@@ -84849,8 +84810,8 @@
         "base": "parttime",
         "withDe": "parttime",
         "withHet": "parttime",
-        "comparative": null,
-        "superlative": null
+        "comparative": "parttimeer",
+        "superlative": "parttimest"
       }
     },
     "examples": [
@@ -84979,10 +84940,10 @@
     "forms": {
       "adjective": {
         "base": "passief",
-        "withDe": "passieve",
-        "withHet": "passieve",
-        "comparative": null,
-        "superlative": null
+        "withDe": "passief",
+        "withHet": "passief",
+        "comparative": "passiefer",
+        "superlative": "passiefst"
       }
     },
     "examples": [
@@ -85173,10 +85134,10 @@
     "forms": {
       "adjective": {
         "base": "permanent",
-        "withDe": "permanente",
-        "withHet": "permanente",
-        "comparative": null,
-        "superlative": null
+        "withDe": "permanent",
+        "withHet": "permanent",
+        "comparative": "permanenter",
+        "superlative": "permanentst"
       }
     },
     "examples": [
@@ -86253,10 +86214,10 @@
     "forms": {
       "adjective": {
         "base": "potentieel",
-        "withDe": "potentiële",
-        "withHet": "potentiële",
-        "comparative": null,
-        "superlative": null
+        "withDe": "potentieel",
+        "withHet": "potentieel",
+        "comparative": "potentieeler",
+        "superlative": "potentieelst"
       }
     },
     "examples": [
@@ -86460,10 +86421,10 @@
     "forms": {
       "adjective": {
         "base": "preventief",
-        "withDe": "preventieve",
-        "withHet": "preventieve",
-        "comparative": null,
-        "superlative": null
+        "withDe": "preventief",
+        "withHet": "preventief",
+        "comparative": "preventiefer",
+        "superlative": "preventiefst"
       }
     },
     "examples": [
@@ -86573,8 +86534,8 @@
         "base": "prima",
         "withDe": "prima",
         "withHet": "prima",
-        "comparative": null,
-        "superlative": null
+        "comparative": "primaer",
+        "superlative": "primast"
       }
     },
     "examples": [
@@ -88455,10 +88416,10 @@
     "forms": {
       "adjective": {
         "base": "regionaal",
-        "withDe": "regionale",
-        "withHet": "regionale",
-        "comparative": null,
-        "superlative": null
+        "withDe": "regionaal",
+        "withHet": "regionaal",
+        "comparative": "regionaaler",
+        "superlative": "regionaalst"
       }
     },
     "examples": [
@@ -88600,10 +88561,10 @@
     "forms": {
       "adjective": {
         "base": "relatief",
-        "withDe": "relatieve",
-        "withHet": "relatieve",
-        "comparative": null,
-        "superlative": null
+        "withDe": "relatief",
+        "withHet": "relatief",
+        "comparative": "relatiefer",
+        "superlative": "relatiefst"
       }
     },
     "examples": [
