@@ -360,22 +360,25 @@ export async function updateTestStats(
     // 自动计算熟悉程度
     const calculatedFamiliarity = calculateFamiliarity(newStats)
 
+    const upsertData = {
+      user_id: userId,
+      word_id: wordId,
+      familiarity: calculatedFamiliarity,
+      test_count: newStats.testCount,
+      test_correct_count: newStats.testCorrectCount,
+      test_wrong_count: newStats.testWrongCount,
+      last_tested_at: newStats.lastTestedAt,
+      updated_at: new Date().toISOString(),
+    }
+
     const { error } = await supabase
       .from('user_progress')
-      .upsert({
-        user_id: userId,
-        word_id: wordId,
-        familiarity: calculatedFamiliarity,
-        test_count: newStats.testCount,
-        test_correct_count: newStats.testCorrectCount,
-        test_wrong_count: newStats.testWrongCount,
-        last_tested_at: newStats.lastTestedAt,
-        updated_at: new Date().toISOString(),
-      }, {
+      .upsert(upsertData, {
         onConflict: 'user_id,word_id'
       })
 
     if (error) throw error
+
     return { stats: newStats, familiarity: calculatedFamiliarity }
   } catch (error: unknown) {
     console.error('更新测试统计失败:', error)

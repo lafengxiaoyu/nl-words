@@ -13,6 +13,7 @@ import ProfilePage from './components/ProfilePage'
 import TestPage from './components/TestPage'
 import WordListPage from './components/WordListPage'
 import AdminDashboard from './components/AdminDashboard'
+import SpellingGame from './components/SpellingGame'
 import logo from './assets/images/dutch-lex.svg'
 
 // 发音按钮图标组件
@@ -535,11 +536,13 @@ function MainApp() {
     chinese: {
       learn: '学单词',
       test: '测单词',
+      game: '玩游戏',
       wordList: '单词表'
     },
     english: {
       learn: 'Learn',
       test: 'Test',
+      game: 'Game',
       wordList: 'Word List'
     }
   }
@@ -1062,6 +1065,12 @@ function MainApp() {
                     {navTranslations[languageMode].test}
                   </button>
                   <button
+                    className={`nav-btn ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/game` ? 'nav-btn--active' : ''}`}
+                    onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/game`)}
+                  >
+                    {navTranslations[languageMode].game}
+                  </button>
+                  <button
                     className={`nav-btn ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/wordlist` ? 'nav-btn--active' : ''}`}
                     onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/wordlist`)}
                   >
@@ -1144,6 +1153,15 @@ function MainApp() {
                   }}
                 >
                   {navTranslations[languageMode].test}
+                </button>
+                <button
+                  className={`mobile-menu-item ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/game` ? 'mobile-menu-item--active' : ''}`}
+                  onClick={() => {
+                    navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/game`)
+                    setMobileMenuOpen(false)
+                  }}
+                >
+                  {navTranslations[languageMode].game}
                 </button>
                 <button
                   className={`mobile-menu-item ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/wordlist` ? 'mobile-menu-item--active' : ''}`}
@@ -1497,6 +1515,13 @@ function WordListRoute() {
   return <WordListPage languageMode={languageMode} />
 }
 
+// Game Page Route Component
+function GameRoute() {
+  const location = useLocation()
+  const languageMode = location.pathname.startsWith('/zh') ? 'chinese' : 'english'
+  return <SpellingGame languageMode={languageMode} />
+}
+
 // App 组件处理路由
 function App() {
   return (
@@ -1505,11 +1530,13 @@ function App() {
       <Route path="/zh" element={<Navigate to="/zh/learn" replace />} />
       <Route path="/zh/learn" element={<MainApp />} />
       <Route path="/zh/test" element={<TestRoute />} />
+      <Route path="/zh/game" element={<GameRoute />} />
       <Route path="/zh/profile" element={<ProfileRoute />} />
       <Route path="/zh/wordlist" element={<WordListRoute />} />
       <Route path="/en" element={<Navigate to="/en/learn" replace />} />
       <Route path="/en/learn" element={<MainApp />} />
       <Route path="/en/test" element={<TestRoute />} />
+      <Route path="/en/game" element={<GameRoute />} />
       <Route path="/en/profile" element={<ProfileRoute />} />
       <Route path="/en/wordlist" element={<WordListRoute />} />
       <Route path="/admin" element={<AdminDashboard />} />

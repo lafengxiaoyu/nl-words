@@ -1,0 +1,933 @@
+import { useState, useEffect, useRef, useCallback } from 'react'
+import { useNavigate } from 'react-router-dom'
+import type { User } from '@supabase/supabase-js'
+import type { Word, DifficultyLevel, FamiliarityLevel } from '../data/words'
+import { words as baseWords } from '../data/words'
+import { supabase } from '../lib/supabase'
+import { loadUserProgress, updateTestStats, mergeProgress } from '../lib/progressSync'
+import { calculateFamiliarity } from '../lib/familiarityCalculator'
+import './SpellingGame.css'
+
+interface SpellingGameProps {
+  languageMode: 'chinese' | 'english'
+}
+
+// 发音按钮图标组件
+const SpeakerIcon = ({ isSpeaking }: { isSpeaking: boolean }) => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={`speaker-icon ${isSpeaking ? 'speaking' : ''}`}>
+      <path d="M3 9V15H7L12 20V4L7 9H3Z" fill="currentColor" />
+      <path d="M16.5 12C16.5 10.23 15.48 8.71 14 7.97V16.02C15.48 15.29 16.5 13.77 16.5 12Z" fill="currentColor" opacity="0.7" />
+      <path d="M14 3.23V5.29C16.89 6.15 19 8.83 19 12C19 15.17 16.89 17.85 14 18.71V20.77C18.01 19.86 21 16.28 21 12C21 7.72 18.01 4.14 14 3.23Z" fill="currentColor" opacity="0.5" />
+    </svg>
+  )
+}
+
+// 地球图标组件
+const GlobeIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="globe-icon">
+      <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M2 12H22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M12 2C12 2 15 8 15 12C15 16 12 22 12 22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+// 心形图标
+const HeartIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="heart-icon">
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+    </svg>
+  )
+}
+
+// 时钟图标
+const ClockIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="clock-icon">
+      <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M12 6v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+// 火焰图标（连击）
+const FireIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="fire-icon">
+      <path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z" />
+    </svg>
+  )
+}
+
+// 提示图标
+const HintIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="hint-icon">
+      <path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M12 17h.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+export default function SpellingGame({ languageMode }: SpellingGameProps) {
+  const navigate = useNavigate()
+  const [user, setUser] = useState<User | null>(null)
+  const [userWords, setUserWords] = useState<Word[]>(baseWords) // 用户带进度的单词列表
+  const [gameWords, setGameWords] = useState<Word[]>([])
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [userAnswer, setUserAnswer] = useState('')
+  const [showResult, setShowResult] = useState(false)
+  const [score, setScore] = useState(0)
+  const [gameComplete, setGameComplete] = useState(false)
+  const [isSpeaking, setIsSpeaking] = useState(false)
+  const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
+  const [wordCount, setWordCount] = useState(10)
+  const [timeLimit, setTimeLimit] = useState(15) // 每个单词的时间限制（秒）
+  const [timeRemaining, setTimeRemaining] = useState(15)
+  const [lives, setLives] = useState(3)
+  const [combo, setCombo] = useState(0)
+  const [wrongAnswers, setWrongAnswers] = useState<{word: Word, userAnswer: string, correctAnswer: string}[]>([])
+  const [hints, setHints] = useState<string[]>([])
+  const [hintIndex, setHintIndex] = useState(0)
+  const [gameStarted, setGameStarted] = useState(false)
+  const [timeModeEnabled, setTimeModeEnabled] = useState(false)
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
+
+    // 检查用户登录状态
+  useEffect(() => {
+    const checkUser = async () => {
+      try {
+        const { data: { user }, error } = await supabase.auth.getUser()
+        if (error) {
+          console.warn('获取用户信息失败:', error.message)
+        } else {
+          setUser(user)
+        }
+      } catch (error) {
+        // 检查用户登录状态失败
+      }
+    }
+
+    checkUser()
+
+    // 监听认证状态变化
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, authData) => {
+      if (event === 'SIGNED_IN') {
+        const loggedInUser = authData?.user || null
+        setUser(loggedInUser)
+
+        // 登录后从 Supabase 加载进度
+        if (loggedInUser) {
+          try {
+            const progressMap = await loadUserProgress(loggedInUser.id)
+            const mergedWords = mergeProgress(baseWords, progressMap)
+            setUserWords(mergedWords)
+            localStorage.setItem('nl-words', JSON.stringify(mergedWords))
+          } catch (error) {
+            // 从 Supabase 加载进度失败，使用本地数据
+            loadProgressFromLocalStorage()
+          }
+        }
+      } else if (event === 'SIGNED_OUT') {
+        setUser(null)
+        // 登出后重新加载本地进度
+        loadProgressFromLocalStorage()
+      }
+    })
+
+    return () => {
+      subscription.unsubscribe()
+    }
+  }, [])
+
+  // 从 localStorage 加载用户进度
+  const loadProgressFromLocalStorage = useCallback(() => {
+    const savedWords = localStorage.getItem('nl-words')
+    if (savedWords) {
+      try {
+        const parsed = JSON.parse(savedWords)
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          setUserWords(parsed)
+        }
+      } catch (e) {
+        // 加载本地进度失败
+        setUserWords(baseWords)
+      }
+    } else {
+      setUserWords(baseWords)
+    }
+  }, [])
+
+  const translations = {
+    chinese: {
+      title: '单词拼写挑战',
+      backToLearn: '← 返回学单词',
+      startGame: '开始挑战',
+      question: '请拼写这个荷兰语单词',
+      currentWord: '当前单词',
+      yourAnswer: '你的答案',
+      submitAnswer: '提交答案',
+      nextQuestion: '下一题',
+      gameComplete: '挑战完成',
+      score: '得分',
+      correct: '正确',
+      wrong: '错误',
+      correctAnswer: '正确答案',
+      speakButton: '🔊 发音',
+      selectDifficulty: '选择难度',
+      selectWordCount: '选择单词数量',
+      allDifficulty: '全部',
+      wordCountLabel: (count: number) => `${count} 个单词`,
+      lives: '生命值',
+      combo: '连击',
+      timeRemaining: '剩余时间',
+      hintText: '提示',
+      useHint: '使用提示',
+      noMoreHints: '没有更多提示',
+      timeMode: '限时模式',
+      timeModeLabel: (seconds: number) => `${seconds}秒/词`,
+      wrongAnswersSummary: '错误单词回顾',
+      yourSpelling: '你的拼写',
+      correctSpelling: '正确拼写',
+      comboBonus: '连击奖励 x',
+      comboLost: '连击中断',
+      timeUp: '时间到',
+      startTimer: '开始计时',
+      pauseTimer: '暂停计时',
+      perfect: '完美！',
+      excellent: '优秀！',
+      good: '不错！',
+      tryAgain: '再接再厉',
+      newRecord: '新纪录！',
+      continuePlaying: '继续挑战',
+    },
+    english: {
+      title: 'Spelling Challenge',
+      backToLearn: '← Back to Learn',
+      startGame: 'Start Challenge',
+      question: 'Spell this Dutch word',
+      currentWord: 'Current Word',
+      yourAnswer: 'Your Answer',
+      submitAnswer: 'Submit',
+      nextQuestion: 'Next',
+      gameComplete: 'Challenge Complete',
+      score: 'Score',
+      correct: 'Correct',
+      wrong: 'Wrong',
+      correctAnswer: 'Correct Answer',
+      speakButton: '🔊 Pronounce',
+      selectDifficulty: 'Select Difficulty',
+      selectWordCount: 'Select Word Count',
+      allDifficulty: 'All',
+      wordCountLabel: (count: number) => `${count} words`,
+      lives: 'Lives',
+      combo: 'Combo',
+      timeRemaining: 'Time Remaining',
+      hintText: 'Hint',
+      useHint: 'Use Hint',
+      noMoreHints: 'No more hints',
+      timeMode: 'Time Mode',
+      timeModeLabel: (seconds: number) => `${seconds}s/word`,
+      wrongAnswersSummary: 'Wrong Words Review',
+      yourSpelling: 'Your Spelling',
+      correctSpelling: 'Correct Spelling',
+      comboBonus: 'Combo Bonus x',
+      comboLost: 'Combo Lost',
+      timeUp: 'Time\'s up',
+      startTimer: 'Start Timer',
+      pauseTimer: 'Pause Timer',
+      perfect: 'Perfect!',
+      excellent: 'Excellent!',
+      good: 'Good!',
+      tryAgain: 'Keep trying',
+      newRecord: 'New Record!',
+      continuePlaying: 'Continue Playing',
+    }
+  }
+
+  const t = translations[languageMode]
+
+  // 根据难度筛选单词
+  const filterWordsByDifficulty = (allWords: Word[], difficulty: DifficultyLevel | 'all') => {
+    if (difficulty === 'all') {
+      return allWords
+    } else if (difficulty === 'A1') {
+      return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+    } else if (difficulty === 'B1') {
+      return allWords.filter(w => w.difficulty === 'B1' || w.difficulty === 'B2')
+    } else if (difficulty === 'C1') {
+      return allWords.filter(w => w.difficulty === 'C1' || w.difficulty === 'C2')
+    } else {
+      return allWords.filter(w => w.difficulty === difficulty)
+    }
+  }
+
+  // 生成提示
+  const generateHints = (word: string, familiarity: FamiliarityLevel): string[] => {
+    const hints: string[] = []
+    const length = word.length
+
+    // 根据熟悉度生成不同提示级别
+    if (familiarity === 'new') {
+      // 新词：显示完整单词，但要隐藏部分
+      hints.push(word[0] + '_'.repeat(length - 2) + word[length - 1])
+      hints.push(word[0] + word[1] + '_'.repeat(length - 3) + word[length - 2] + word[length - 1])
+      hints.push(word)
+    } else if (familiarity === 'learning') {
+      // 学习中：显示首字母和末字母
+      hints.push(word[0] + '_'.repeat(length - 2) + word[length - 1])
+      hints.push(word[0] + word[1] + '_'.repeat(length - 3) + word[length - 2] + word[length - 1])
+      hints.push(word)
+    } else if (familiarity === 'familiar') {
+      // 熟悉：只显示首字母
+      hints.push(word[0] + '_'.repeat(length - 1))
+      hints.push(word[0] + word[1] + '_'.repeat(length - 2))
+      hints.push(word)
+    } else {
+      // 已掌握：只显示部分字符
+      hints.push(word[0] + '_'.repeat(length - 1))
+      hints.push(word)
+    }
+
+    return hints
+  }
+
+  // 开始游戏
+  const startGame = () => {
+    const filteredWords = filterWordsByDifficulty(userWords, selectedDifficulty)
+    const count = Math.min(wordCount, filteredWords.length)
+    const shuffled = [...filteredWords].sort(() => Math.random() - 0.5).slice(0, count)
+
+    setGameWords(shuffled)
+    setCurrentIndex(0)
+    setScore(0)
+    setLives(3)
+    setCombo(0)
+    setGameComplete(false)
+    setShowResult(false)
+    setUserAnswer('')
+    setWrongAnswers([])
+    setHintIndex(0)
+    setGameStarted(true)
+
+    if (shuffled.length > 0) {
+      const firstWord = shuffled[0]
+      const firstHints = generateHints(firstWord.word, firstWord.familiarity)
+      setHints(firstHints)
+      setTimeRemaining(timeLimit)
+    }
+  }
+
+  // 倒计时
+  useEffect(() => {
+    if (gameStarted && timeModeEnabled && !showResult && !gameComplete && timeRemaining > 0) {
+      timerRef.current = setInterval(() => {
+        setTimeRemaining(prev => {
+          if (prev <= 1) {
+            handleTimeUp()
+            return 0
+          }
+          return prev - 1
+        })
+      }, 1000)
+    }
+
+    return () => {
+      if (timerRef.current) {
+        clearInterval(timerRef.current)
+      }
+    }
+  }, [gameStarted, showResult, gameComplete, timeRemaining, timeModeEnabled, currentIndex])
+
+  // 发音功能
+  const speakDutch = (text: string) => {
+    if (!text || !window.speechSynthesis) return
+    window.speechSynthesis.cancel()
+    const utterance = new SpeechSynthesisUtterance(text)
+    utterance.lang = 'nl-NL'
+    utterance.rate = 0.9
+    utterance.pitch = 1
+    utterance.onstart = () => setIsSpeaking(true)
+    utterance.onend = () => setIsSpeaking(false)
+    utterance.onerror = () => setIsSpeaking(false)
+    window.speechSynthesis.speak(utterance)
+  }
+
+  // 使用提示
+  const useHint = () => {
+    if (hintIndex < hints.length - 1) {
+      setHintIndex(prev => prev + 1)
+    }
+  }
+
+  // 提交答案
+  const submitAnswer = async () => {
+    const currentWord = gameWords[currentIndex]
+    const isCorrect = userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim()
+
+    if (isCorrect) {
+      // 答对
+      const bonusPoints = 10 + (combo * 2) // 连击奖励
+      setScore(prev => prev + bonusPoints)
+      setCombo(prev => prev + 1)
+    } else {
+      // 答错
+      setLives(prev => prev - 1)
+      setCombo(0)
+      setWrongAnswers(prev => [...prev, {
+        word: currentWord,
+        userAnswer: userAnswer || '',
+        correctAnswer: currentWord.word
+      }])
+    }
+
+    // 更新测试统计
+    try {
+      if (user) {
+        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, currentWord.id, isCorrect, currentWord.stats)
+
+        // 更新本地状态中的单词进度
+        setUserWords(prevWords => {
+          return prevWords.map(w => {
+            if (w.id === currentWord.id) {
+              return {
+                ...w,
+                familiarity: calculatedFamiliarity,
+                stats: {
+                  viewCount: (w.stats?.viewCount ?? 0),
+                  masteredCount: (w.stats?.masteredCount ?? 0),
+                  unmasteredCount: (w.stats?.unmasteredCount ?? 0),
+                  testCount: (w.stats?.testCount ?? 0) + 1,
+                  testCorrectCount: isCorrect ? (w.stats?.testCorrectCount ?? 0) + 1 : (w.stats?.testCorrectCount ?? 0),
+                  testWrongCount: !isCorrect ? (w.stats?.testWrongCount ?? 0) + 1 : (w.stats?.testWrongCount ?? 0),
+                  lastTestedAt: new Date().toISOString(),
+                  lastViewedAt: w.stats?.lastViewedAt,
+                }
+              }
+            }
+            return w
+          })
+        })
+      } else {
+        // 本地用户：更新 localStorage
+        const updatedWords = userWords.map(w => {
+          if (w.id === currentWord.id) {
+            const currentStats = w.stats
+            const updatedStats = {
+              viewCount: currentStats?.viewCount ?? 0,
+              masteredCount: currentStats?.masteredCount ?? 0,
+              unmasteredCount: currentStats?.unmasteredCount ?? 0,
+              testCount: (currentStats?.testCount ?? 0) + 1,
+              testCorrectCount: isCorrect ? (currentStats?.testCorrectCount ?? 0) + 1 : (currentStats?.testCorrectCount ?? 0),
+              testWrongCount: !isCorrect ? (currentStats?.testWrongCount ?? 0) + 1 : (currentStats?.testWrongCount ?? 0),
+              lastViewedAt: currentStats?.lastViewedAt,
+              lastTestedAt: new Date().toISOString(),
+            }
+            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+            return {
+              ...w,
+              stats: updatedStats,
+              familiarity: calculatedFamiliarity
+            }
+          }
+          return w
+        })
+        setUserWords(updatedWords)
+        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+      }
+    } catch (error) {
+      // 更新测试统计失败
+    }
+
+    setShowResult(true)
+
+    // 检查是否游戏结束
+    if (lives <= 1 || currentIndex >= gameWords.length - 1) {
+      setTimeout(() => {
+        setGameComplete(true)
+      }, 1000)
+    }
+  }
+
+  // 时间到
+  const handleTimeUp = async () => {
+    const currentWord = gameWords[currentIndex]
+    setLives(prev => prev - 1)
+    setCombo(0)
+    setWrongAnswers(prev => [...prev, {
+      word: currentWord,
+      userAnswer: '',
+      correctAnswer: currentWord.word
+    }])
+
+    // 更新测试统计（时间到算作错误）
+    try {
+      if (user) {
+        // 登录用户：更新 Supabase
+        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, currentWord.id, false, currentWord.stats)
+
+        // 更新本地状态中的单词进度
+        setUserWords(prevWords => {
+          return prevWords.map(w => {
+            if (w.id === currentWord.id) {
+              return {
+                ...w,
+                familiarity: calculatedFamiliarity,
+                stats: {
+                  viewCount: (w.stats?.viewCount ?? 0),
+                  masteredCount: (w.stats?.masteredCount ?? 0),
+                  unmasteredCount: (w.stats?.unmasteredCount ?? 0),
+                  testCount: (w.stats?.testCount ?? 0) + 1,
+                  testCorrectCount: (w.stats?.testCorrectCount ?? 0),
+                  testWrongCount: (w.stats?.testWrongCount ?? 0) + 1,
+                  lastTestedAt: new Date().toISOString(),
+                  lastViewedAt: w.stats?.lastViewedAt,
+                }
+              }
+            }
+            return w
+          })
+        })
+      } else {
+        // 本地用户：更新 localStorage
+        const updatedWords = userWords.map(w => {
+          if (w.id === currentWord.id) {
+            const currentStats = w.stats
+            const updatedStats = {
+              viewCount: currentStats?.viewCount ?? 0,
+              masteredCount: currentStats?.masteredCount ?? 0,
+              unmasteredCount: currentStats?.unmasteredCount ?? 0,
+              testCount: (currentStats?.testCount ?? 0) + 1,
+              testCorrectCount: currentStats?.testCorrectCount ?? 0,
+              testWrongCount: (currentStats?.testWrongCount ?? 0) + 1,
+              lastViewedAt: currentStats?.lastViewedAt,
+              lastTestedAt: new Date().toISOString(),
+            }
+            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+            return {
+              ...w,
+              stats: updatedStats,
+              familiarity: calculatedFamiliarity
+            }
+          }
+          return w
+        })
+        setUserWords(updatedWords)
+        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+      }
+    } catch (error) {
+      // 更新测试统计失败
+    }
+
+    setShowResult(true)
+
+    // 检查是否游戏结束
+    if (lives <= 1 || currentIndex >= gameWords.length - 1) {
+      setTimeout(() => {
+        setGameComplete(true)
+      }, 1000)
+    }
+  }
+
+  // 下一题
+  const nextQuestion = () => {
+    if (currentIndex < gameWords.length - 1) {
+      const nextIndex = currentIndex + 1
+      setCurrentIndex(nextIndex)
+      setShowResult(false)
+      setUserAnswer('')
+      setHintIndex(0)
+      setTimeRemaining(timeLimit)
+
+      if (gameWords[nextIndex]) {
+        const nextHints = generateHints(gameWords[nextIndex].word, gameWords[nextIndex].familiarity)
+        setHints(nextHints)
+      }
+    } else {
+      setGameComplete(true)
+    }
+  }
+
+  // 重新开始
+  const restartGame = () => {
+    startGame()
+  }
+
+  // 检查是否生命值为0
+  useEffect(() => {
+    if (lives <= 0 && gameStarted) {
+      setGameComplete(true)
+    }
+  }, [lives, gameStarted])
+
+  const currentWord = gameWords[currentIndex]
+
+  // 处理难度选择，自动调整单词数量
+  const handleDifficultySelect = (difficulty: DifficultyLevel | 'all') => {
+    // 先更新难度
+    setSelectedDifficulty(difficulty)
+
+    // 使用函数式更新，确保使用最新的 userWords
+    setWordCount(prevCount => {
+      const filteredWords = filterWordsByDifficulty(userWords, difficulty)
+      const maxWordCount = filteredWords.length
+      if (prevCount > maxWordCount) {
+        const newCount = [5, 10, 15, 25].find(c => c <= maxWordCount) || maxWordCount
+        return newCount
+      }
+      return prevCount
+    })
+  }
+
+  // 如果游戏未开始，显示设置界面
+  if (!gameStarted) {
+    const filteredWords = filterWordsByDifficulty(userWords, selectedDifficulty)
+    const maxWordCount = filteredWords.length
+
+    return (
+      <div className="spelling-game">
+        <div className="game-container">
+          <div className="page-header">
+            <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
+              {t.backToLearn}
+            </button>
+            <button
+              className="lang-toggle-btn"
+              onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/game`)}
+              aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+              title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+            >
+              <GlobeIcon />
+              <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
+            </button>
+          </div>
+          <div className="game-intro">
+            <h1>{t.title}</h1>
+
+            <div className="game-options">
+              <div className="option-group">
+                <label className="option-label">{t.selectDifficulty}</label>
+                <div className="difficulty-selector">
+                  <button
+                    className={`difficulty-option ${selectedDifficulty === 'all' ? 'selected' : ''}`}
+                    onClick={() => handleDifficultySelect('all')}
+                  >
+                    {t.allDifficulty}
+                  </button>
+                  <button
+                    className={`difficulty-option ${selectedDifficulty === 'A1' ? 'selected' : ''}`}
+                    onClick={() => handleDifficultySelect('A1')}
+                  >
+                    A1-A2
+                  </button>
+                  <button
+                    className={`difficulty-option ${selectedDifficulty === 'B1' ? 'selected' : ''}`}
+                    onClick={() => handleDifficultySelect('B1')}
+                  >
+                    B1-B2
+                  </button>
+                  <button
+                    className={`difficulty-option ${selectedDifficulty === 'C1' ? 'selected' : ''}`}
+                    onClick={() => handleDifficultySelect('C1')}
+                  >
+                    C1-C2
+                  </button>
+                </div>
+              </div>
+
+              <div className="option-group">
+                <label className="option-label">{t.selectWordCount}</label>
+                <div className="word-count-selector">
+                  {[5, 10, 15, 25].map((count) => (
+                    <button
+                      key={count}
+                      className={`count-option ${wordCount === count ? 'selected' : ''} ${count > maxWordCount ? 'disabled' : ''}`}
+                      onClick={() => count <= maxWordCount && setWordCount(count)}
+                      disabled={count > maxWordCount}
+                    >
+                      {count}
+                    </button>
+                  ))}
+                </div>
+                {maxWordCount < wordCount && (
+                  <p className="warning-text">
+                    {languageMode === 'chinese'
+                      ? `该难度下只有 ${maxWordCount} 个单词`
+                      : `Only ${maxWordCount} words available at this difficulty`
+                    }
+                  </p>
+                )}
+              </div>
+
+              <div className="option-group">
+                <label className="option-label">{t.timeMode}</label>
+                <div className="time-mode-selector">
+                  <button
+                    className={`time-option ${!timeModeEnabled ? 'selected' : ''}`}
+                    onClick={() => setTimeModeEnabled(false)}
+                  >
+                    {languageMode === 'chinese' ? '无限制' : 'No Limit'}
+                  </button>
+                  <button
+                    className={`time-option ${timeModeEnabled && timeLimit === 10 ? 'selected' : ''}`}
+                    onClick={() => { setTimeModeEnabled(true); setTimeLimit(10) }}
+                  >
+                    10s
+                  </button>
+                  <button
+                    className={`time-option ${timeModeEnabled && timeLimit === 15 ? 'selected' : ''}`}
+                    onClick={() => { setTimeModeEnabled(true); setTimeLimit(15) }}
+                  >
+                    15s
+                  </button>
+                  <button
+                    className={`time-option ${timeModeEnabled && timeLimit === 20 ? 'selected' : ''}`}
+                    onClick={() => { setTimeModeEnabled(true); setTimeLimit(20) }}
+                  >
+                    20s
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <button className="btn btn-primary btn-lg" onClick={startGame}>
+              {t.startGame}
+            </button>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  // 游戏完成界面
+  if (gameComplete) {
+    const correctCount = gameWords.length - wrongAnswers.length
+
+    let resultMessage = ''
+    if (correctCount === gameWords.length) {
+      resultMessage = t.perfect
+    } else if (correctCount >= gameWords.length * 0.8) {
+      resultMessage = t.excellent
+    } else if (correctCount >= gameWords.length * 0.6) {
+      resultMessage = t.good
+    } else {
+      resultMessage = t.tryAgain
+    }
+
+    return (
+      <div className="spelling-game">
+        <div className="game-container">
+          <div className="page-header">
+            <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
+              {t.backToLearn}
+            </button>
+            <button
+              className="lang-toggle-btn"
+              onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/game`)}
+              aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+              title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+            >
+              <GlobeIcon />
+              <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
+            </button>
+          </div>
+          <div className="game-complete">
+            <h1>{t.gameComplete}</h1>
+            <div className="result-message">{resultMessage}</div>
+
+            <div className="stats-display">
+              <div className="stat-item">
+                <div className="stat-label">{t.score}</div>
+                <div className="stat-value">{score}</div>
+              </div>
+              <div className="stat-item">
+                <div className="stat-label">{t.correct}</div>
+                <div className="stat-value">{correctCount} / {gameWords.length}</div>
+              </div>
+              <div className="stat-item">
+                <div className="stat-label">{t.lives}</div>
+                <div className="stat-value">{lives} / 3</div>
+              </div>
+            </div>
+
+            {wrongAnswers.length > 0 && (
+              <div className="wrong-answers-summary">
+                <h3>{t.wrongAnswersSummary}</h3>
+                <div className="wrong-answers-list">
+                  {wrongAnswers.map((item, index) => (
+                    <div key={index} className="wrong-answer-item">
+                      <div className="wrong-word">
+                        <strong>{item.word.word}</strong> -
+                        {languageMode === 'chinese' ? item.word.translation.chinese : item.word.translation.english}
+                      </div>
+                      <div className="spelling-comparison">
+                        <span className="your-spelling">{t.yourSpelling}: {item.userAnswer || '—'}</span>
+                        <span className="correct-spelling">{t.correctSpelling}: {item.correctAnswer}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <div className="game-actions">
+              <button className="btn btn-primary btn-lg" onClick={restartGame}>
+                {t.continuePlaying}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  // 游戏进行中
+  return (
+    <div className="spelling-game">
+      <div className="game-container">
+        <div className="page-header">
+          <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
+            {t.backToLearn}
+          </button>
+          <button
+            className="lang-toggle-btn"
+            onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/game`)}
+            aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+            title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+          >
+            <GlobeIcon />
+            <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
+          </button>
+        </div>
+
+        {/* 游戏状态栏 */}
+        <div className="game-status-bar">
+          <div className="status-item">
+            <span className="status-label">{currentIndex + 1} / {gameWords.length}</span>
+          </div>
+          <div className="status-item">
+            <HeartIcon />
+            <span className="status-label">{lives}</span>
+          </div>
+          {combo > 0 && (
+            <div className="status-item combo-active">
+              <FireIcon />
+              <span className="status-label">{combo}x</span>
+            </div>
+          )}
+          <div className="status-item">
+            <span className="status-label">{t.score}: {score}</span>
+          </div>
+          {timeModeEnabled && !showResult && (
+            <div className="status-item">
+              <ClockIcon />
+              <span className={`status-label ${timeRemaining <= 5 ? 'warning' : ''}`}>{timeRemaining}s</span>
+            </div>
+          )}
+        </div>
+
+        {/* 问题卡片 */}
+        <div className="question-card">
+          <div className="question-header">
+            <span className="question-label">{t.currentWord}</span>
+            <button
+              className="speak-btn-test"
+              onClick={() => speakDutch(currentWord.word)}
+              title={t.speakButton}
+            >
+              <SpeakerIcon isSpeaking={isSpeaking} />
+            </button>
+          </div>
+          <div className="word-translation">
+            {languageMode === 'chinese' ? currentWord.translation.chinese : currentWord.translation.english}
+          </div>
+          <div className="word-difficulty-badge">
+            <span className={`difficulty-badge difficulty--${currentWord.difficulty}`}>
+              {currentWord.difficulty}
+            </span>
+            <span className={`familiarity-badge familiarity--${currentWord.familiarity}`}>
+              {languageMode === 'chinese'
+                ? currentWord.familiarity === 'new' ? '新词'
+                  : currentWord.familiarity === 'learning' ? '学习中'
+                  : currentWord.familiarity === 'familiar' ? '熟悉'
+                  : '已掌握'
+                : currentWord.familiarity}
+            </span>
+          </div>
+        </div>
+
+        {/* 输入区域 */}
+        {!showResult && (
+          <div className="input-section">
+            <input
+              ref={inputRef}
+              type="text"
+              className="word-input"
+              value={userAnswer}
+              onChange={(e) => setUserAnswer(e.target.value)}
+              onKeyPress={(e) => e.key === 'Enter' && userAnswer.trim() && submitAnswer()}
+              placeholder={languageMode === 'chinese' ? '输入荷兰语单词...' : 'Type Dutch word...'}
+              autoFocus
+              disabled={showResult}
+            />
+            {hints.length > 0 && hints[hintIndex] && (
+              <div className="hint-display">
+                <HintIcon />
+                <span className="hint-text">{hints[hintIndex]}</span>
+                {hintIndex < hints.length - 1 && (
+                  <button className="hint-btn" onClick={useHint}>
+                    {t.useHint} ({hints.length - 1 - hintIndex})
+                  </button>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* 结果显示 */}
+        {showResult && (
+          <div className="result-section">
+            <div className={`result-message ${userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() ? 'correct' : 'wrong'}`}>
+              {userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() ? t.correct : t.wrong}
+            </div>
+            {userAnswer.toLowerCase().trim() !== currentWord.word.toLowerCase().trim() && (
+              <div className="correct-answer-display">
+                {t.correctAnswer}: <strong>{currentWord.word}</strong>
+              </div>
+            )}
+            {combo > 0 && userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() && (
+              <div className="combo-display">
+                <FireIcon />
+                <span>{t.comboBonus}{combo}</span>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* 操作按钮 */}
+        {!showResult ? (
+          <button
+            className="btn btn-primary btn-lg submit-btn"
+            onClick={submitAnswer}
+            disabled={!userAnswer.trim()}
+          >
+            {t.submitAnswer}
+          </button>
+        ) : (
+          <button
+            className="btn btn-primary btn-lg next-btn"
+            onClick={nextQuestion}
+          >
+            {t.nextQuestion}
+          </button>
+        )}
+      </div>
+    </div>
+  )
+}
+
