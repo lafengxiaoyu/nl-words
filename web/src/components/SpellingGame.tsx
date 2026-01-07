@@ -97,6 +97,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   const [timeModeEnabled, setTimeModeEnabled] = useState(false)
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
+  const isProcessingRef = useRef(false) // 防止重复处理答案
 
   // 从 localStorage 加载用户进度
   const loadProgressFromLocalStorage = useCallback(() => {
@@ -297,88 +298,17 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     return hints
   }
 
-  // 时间到
-  const handleTimeUp = useCallback(async () => {
-    const currentWord = gameWords[currentIndex]
-    setLives(prev => prev - 1)
-    setCombo(0)
-    setWrongAnswers(prev => [...prev, {
-      word: currentWord,
-      userAnswer: '',
-      correctAnswer: currentWord.word
-    }])
-
-    // 更新测试统计（时间到算作错误）
-    try {
-      if (user) {
-        // 登录用户：更新 Supabase
-        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, currentWord.id, false, currentWord.stats)
-
-        // 更新本地状态中的单词进度
-        setUserWords(prevWords => {
-          return prevWords.map(w => {
-            if (w.id === currentWord.id) {
-              return {
-                ...w,
-                familiarity: calculatedFamiliarity,
-                stats: {
-                  viewCount: (w.stats?.viewCount ?? 0),
-                  masteredCount: (w.stats?.masteredCount ?? 0),
-                  unmasteredCount: (w.stats?.unmasteredCount ?? 0),
-                  testCount: (w.stats?.testCount ?? 0) + 1,
-                  testCorrectCount: (w.stats?.testCorrectCount ?? 0),
-                  testWrongCount: (w.stats?.testWrongCount ?? 0) + 1,
-                  lastTestedAt: new Date().toISOString(),
-                  lastViewedAt: w.stats?.lastViewedAt,
-                }
-              }
-            }
-            return w
-          })
-        })
-      } else {
-        // 本地用户：更新 localStorage
-        const updatedWords = userWords.map(w => {
-          if (w.id === currentWord.id) {
-            const currentStats = w.stats
-            const updatedStats = {
-              viewCount: currentStats?.viewCount ?? 0,
-              masteredCount: currentStats?.masteredCount ?? 0,
-              unmasteredCount: currentStats?.unmasteredCount ?? 0,
-              testCount: (currentStats?.testCount ?? 0) + 1,
-              testCorrectCount: (currentStats?.testCorrectCount ?? 0),
-              testWrongCount: (currentStats?.testWrongCount ?? 0) + 1,
-              lastViewedAt: currentStats?.lastViewedAt,
-              lastTestedAt: new Date().toISOString(),
-            }
-            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
-            return {
-              ...w,
-              stats: updatedStats,
-              familiarity: calculatedFamiliarity
-            }
-          }
-          return w
-        })
-        setUserWords(updatedWords)
-        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
-      }
-    } catch {
-      // 更新测试统计失败
-    }
-
-    setShowResult(true)
-
-    // 检查是否游戏结束
-    if (lives <= 1 || currentIndex >= gameWords.length - 1) {
-      setTimeout(() => {
-        setGameComplete(true)
-      }, 1000)
-    }
-  }, [gameWords, currentIndex, user, userWords, lives])
-
   // 开始游戏
   const startGame = () => {
+    // 清除计时器
+    if (timerRef.current) {
+      clearInterval(timerRef.current)
+      timerRef.current = null
+    }
+
+    // 重置处理标志
+    isProcessingRef.current = false
+
     const filteredWords = filterWordsByDifficulty(userWords, selectedDifficulty)
     const count = Math.min(wordCount, filteredWords.length)
     const shuffled = [...filteredWords].sort(() => Math.random() - 0.5).slice(0, count)
@@ -405,11 +335,157 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
 
   // 倒计时
   useEffect(() => {
+    // 清除现有计时器
+    if (timerRef.current) {
+      clearInterval(timerRef.current)
+      timerRef.current = null
+    }
+
+    // 只有在游戏进行中、启用计时模式、未显示结果、游戏未完成且还有剩余时间时才启动计时
     if (gameStarted && timeModeEnabled && !showResult && !gameComplete && timeRemaining > 0) {
       timerRef.current = setInterval(() => {
         setTimeRemaining(prev => {
           if (prev <= 1) {
-            handleTimeUp()
+            // 时间到，清除计时器并处理超时
+            if (timerRef.current) {
+              clearInterval(timerRef.current)
+              timerRef.current = null
+            }
+
+            // 处理超时逻辑
+            if (!isProcessingRef.current && currentIndex < gameWords.length) {
+              isProcessingRef.current = true
+              const currentWord = gameWords[currentIndex]
+
+              if (currentWord) {
+                setLives(prevLives => prevLives - 1)
+                setCombo(0)
+                setWrongAnswers(prev => [...prev, {
+                  word: currentWord,
+                  userAnswer: '',
+                  correctAnswer: currentWord.word
+                }])
+
+                // 更新单词统计
+                const updateWordStats = () => {
+                  if (user) {
+                    return updateTestStats(user.id, currentWord.id, false, currentWord.stats)
+                  } else {
+                    const currentStats = currentWord.stats
+                    const updatedStats = {
+                      viewCount: currentStats?.viewCount ?? 0,
+                      masteredCount: currentStats?.masteredCount ?? 0,
+                      unmasteredCount: currentStats?.unmasteredCount ?? 0,
+                      testCount: (currentStats?.testCount ?? 0) + 1,
+                      testCorrectCount: (currentStats?.testCorrectCount ?? 0),
+                      testWrongCount: (currentStats?.testWrongCount ?? 0) + 1,
+                      lastViewedAt: currentStats?.lastViewedAt,
+                      lastTestedAt: new Date().toISOString(),
+                    }
+                    const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+                    return Promise.resolve({ familiarity: calculatedFamiliarity })
+                  }
+                }
+
+                updateWordStats().then(({ familiarity: calculatedFamiliarity }) => {
+                  // 更新本地状态
+                  if (user) {
+                    setUserWords(prevWords => prevWords.map(w => {
+                      if (w.id === currentWord.id) {
+                        return {
+                          ...w,
+                          familiarity: calculatedFamiliarity,
+                          stats: {
+                            viewCount: (w.stats?.viewCount ?? 0),
+                            masteredCount: (w.stats?.masteredCount ?? 0),
+                            unmasteredCount: (w.stats?.unmasteredCount ?? 0),
+                            testCount: (w.stats?.testCount ?? 0) + 1,
+                            testCorrectCount: (w.stats?.testCorrectCount ?? 0),
+                            testWrongCount: (w.stats?.testWrongCount ?? 0) + 1,
+                            lastTestedAt: new Date().toISOString(),
+                            lastViewedAt: w.stats?.lastViewedAt,
+                          }
+                        }
+                      }
+                      return w
+                    }))
+                  } else {
+                    setUserWords(prevWords => prevWords.map(w => {
+                      if (w.id === currentWord.id) {
+                        const currentStats = w.stats
+                        const updatedStats = {
+                          viewCount: currentStats?.viewCount ?? 0,
+                          masteredCount: currentStats?.masteredCount ?? 0,
+                          unmasteredCount: currentStats?.unmasteredCount ?? 0,
+                          testCount: (currentStats?.testCount ?? 0) + 1,
+                          testCorrectCount: (currentStats?.testCorrectCount ?? 0),
+                          testWrongCount: (currentStats?.testWrongCount ?? 0) + 1,
+                          lastViewedAt: currentStats?.lastViewedAt,
+                          lastTestedAt: new Date().toISOString(),
+                        }
+                        const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+                        return {
+                          ...w,
+                          stats: updatedStats,
+                          familiarity: calculatedFamiliarity
+                        }
+                      }
+                      return w
+                    }))
+
+                    // 保存到localStorage
+                    setTimeout(() => {
+                      const words = JSON.parse(localStorage.getItem('nl-words') || '[]')
+                      const updatedWords = words.map((w: Word) => {
+                        if (w.id === currentWord.id) {
+                          const currentStats = w.stats
+                          const updatedStats = {
+                            viewCount: currentStats?.viewCount ?? 0,
+                            masteredCount: currentStats?.masteredCount ?? 0,
+                            unmasteredCount: currentStats?.unmasteredCount ?? 0,
+                            testCount: (currentStats?.testCount ?? 0) + 1,
+                            testCorrectCount: (currentStats?.testCorrectCount ?? 0),
+                            testWrongCount: (currentStats?.testWrongCount ?? 0) + 1,
+                            lastViewedAt: currentStats?.lastViewedAt,
+                            lastTestedAt: new Date().toISOString(),
+                          }
+                          const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+                          return {
+                            ...w,
+                            stats: updatedStats,
+                            familiarity: calculatedFamiliarity
+                          }
+                        }
+                        return w
+                      })
+                      localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+                    }, 0)
+                  }
+                }).catch(() => {
+                  // 更新失败
+                }).finally(() => {
+                  setShowResult(true)
+
+                  // 检查是否游戏结束
+                  setTimeout(() => {
+                    setLives(currentLives => {
+                      if (currentLives <= 0 || currentIndex >= gameWords.length - 1) {
+                        setGameComplete(true)
+                      }
+                      return currentLives
+                    })
+                  }, 100)
+
+                  // 立即重置处理标志，允许用户点击"下一题"
+                  setTimeout(() => {
+                    isProcessingRef.current = false
+                  }, 200)
+                })
+              }
+
+              return 0
+            }
+
             return 0
           }
           return prev - 1
@@ -420,9 +496,10 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     return () => {
       if (timerRef.current) {
         clearInterval(timerRef.current)
+        timerRef.current = null
       }
     }
-  }, [gameStarted, showResult, gameComplete, timeRemaining, timeModeEnabled, currentIndex, handleTimeUp])
+  }, [gameStarted, showResult, gameComplete, timeModeEnabled, currentIndex, gameWords, user])
 
   // 发音功能
   const speakDutch = (text: string) => {
@@ -447,7 +524,30 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
 
   // 提交答案
   const submitAnswer = async () => {
+    // 检查是否已经有结果在显示
+    if (showResult) {
+      return
+    }
+
+    // 防止重复提交
+    if (isProcessingRef.current) {
+      return
+    }
+
+    // 立即清除计时器，防止重复触发
+    if (timerRef.current) {
+      clearInterval(timerRef.current)
+      timerRef.current = null
+    }
+
     const currentWord = gameWords[currentIndex]
+    if (!currentWord) {
+      return
+    }
+
+    // 立即设置处理标志
+    isProcessingRef.current = true
+
     const isCorrect = userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim()
 
     if (isCorrect) {
@@ -527,11 +627,16 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     setShowResult(true)
 
     // 检查是否游戏结束
-    if (lives <= 1 || currentIndex >= gameWords.length - 1) {
+    if (lives <= 0 || currentIndex >= gameWords.length - 1) {
       setTimeout(() => {
         setGameComplete(true)
       }, 1000)
     }
+
+    // 延迟重置处理标志，确保状态更新完成
+    setTimeout(() => {
+      isProcessingRef.current = false
+    }, 300)
   }
 
   // 下一题
@@ -543,6 +648,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
       setUserAnswer('')
       setHintIndex(0)
       setTimeRemaining(timeLimit)
+      isProcessingRef.current = false // 重置处理标志
 
       if (gameWords[nextIndex]) {
         const nextHints = generateHints(gameWords[nextIndex].word, gameWords[nextIndex].familiarity)
