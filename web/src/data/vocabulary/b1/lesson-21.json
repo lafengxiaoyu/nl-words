@@ -1,0 +1,925 @@
+{
+  "id": "lB121",
+  "level": "B1",
+  "lessonNumber": 21,
+  "totalWords": 28,
+  "words": [
+    {
+      "id": 2300,
+      "word": "melodie",
+      "translation": {
+        "chinese": "旋律",
+        "english": "melody"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "melodie",
+          "plural": "melodieën"
+        }
+      },
+      "examples": [
+        "De complexe melodie die de componist schreef voor het symfonieorkest nodigt de luisteraar uit tot diepe reflectie over emoties die moeilijk in woorden uit te drukken zijn.",
+        "Ze ontwikkelde een unieke melodie voor het kinderliedje die kinderen helpt om op een speelse manier nieuwe woorden te leren terwijl ze zingen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "作曲家为交响乐团创作的复杂旋律引导听众深入反思那些难以用言语表达的情感。",
+          "她为儿歌创作了独特的旋律，帮助孩子们在唱歌时以游戏化的方式学习新单词。"
+        ],
+        "english": [
+          "The complex melody that the composer wrote for the symphony orchestra invites the listener to deep reflection on emotions that are difficult to express in words.",
+          "She developed a unique melody for the children's song that helps children learn new words in a playful way while they sing."
+        ]
+      },
+      "notes": "复数形式为 melodieën（-ie 结尾加 -ën）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2301,
+      "word": "memorie",
+      "translation": {
+        "chinese": "记忆",
+        "english": "memory"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "memorie",
+          "plural": "memories"
+        }
+      },
+      "examples": [
+        "Omdat de computer over onvoldoende werkgeheugen beschikt, crasht de applicatie wanneer gebruikers te veel bestanden tegelijkertijd proberen te bewerken.",
+        "Ze beschikt over een buitengewoon goede memorie voor complexe feiten en gedetailleerde data, wat haar helpt om tijdens presentaties indrukwekkend te presteren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "由于计算机的工作内存不足，当用户试图同时编辑过多文件时应用程序会崩溃。",
+          "她对复杂的事实和详细的数据拥有非凡的记忆力，这帮助她在演示时表现出色。"
+        ],
+        "english": [
+          "Because the computer has insufficient working memory, the application crashes when users try to edit too many files simultaneously.",
+          "She possesses an extraordinary memory for complex facts and detailed data, which helps her perform impressively during presentations."
+        ]
+      },
+      "notes": "技术用语，也指人的记忆能力",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2302,
+      "word": "memorabel",
+      "translation": {
+        "chinese": "难忘的",
+        "english": "memorable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "memorabel",
+          "withDe": "memorabele",
+          "withHet": "memorabele",
+          "comparative": "memorabeler",
+          "superlative": "het memorabelst"
+        }
+      },
+      "examples": [
+        "Het weekend dat we samen doorbrachten in het bergdorp was zo memorabel dat we nog vaak terugdenken aan de bijzondere momenten die we daar hebben gedeeld.",
+        "De bruiloft vormde een memorabele gelegenheid voor alle aanwezige gasten, niet alleen vanwege de prachtige locatie maar ook door de hartverwarmende toespraken van familieleden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们在山村度过的周末如此难忘，以至于我们经常回想起在那里分享的特殊时刻。",
+          "婚礼对所有在场的客人来说都是一个难忘的场合，不仅因为美丽的地点，还因为家人们温暖的讲话。"
+        ],
+        "english": [
+          "The weekend we spent together in the mountain village was so memorable that we still often think back to the special moments we shared there.",
+          "The wedding formed a memorable occasion for all guests present, not only because of the beautiful location but also due to the heartwarming speeches by family members."
+        ]
+      },
+      "notes": "形容值得记住或难以忘记的事物",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2303,
+      "word": "mengeling",
+      "translation": {
+        "chinese": "混合",
+        "english": "mixture"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "mengeling",
+          "plural": "mengelingen"
+        }
+      },
+      "examples": [
+        "De moderne samenleving in grote steden vertoont een fascinerende mengeling van diverse culturen, tradities en levensstijlen die naast elkaar bestaan en elkaar beïnvloeden.",
+        "Het interieurontwerp van het museum presenteert een interessante mengeling van historische elementen en eigentijdse architectuur die bezoekers uitnodigt om de evolutie van kunst door de eeuwen heen te ervaren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "大城市的现代社会呈现出不同文化、传统和生活方式的迷人融合，它们并存并相互影响。",
+          "博物馆的室内设计展示了历史元素和当代建筑的有趣融合，邀请游客体验艺术几个世纪以来的演变。"
+        ],
+        "english": [
+          "Modern society in large cities shows a fascinating mixture of diverse cultures, traditions and lifestyles that coexist alongside each other and influence one another.",
+          "The interior design of the museum presents an interesting mixture of historical elements and contemporary architecture that invites visitors to experience the evolution of art through the centuries."
+        ]
+      },
+      "notes": "比喻用法，形容各种事物的结合",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2304,
+      "word": "mengen",
+      "translation": {
+        "chinese": "混合",
+        "english": "to mix"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "mengen",
+          "isSeparable": false,
+          "present": {
+            "ik": "meng",
+            "jij": "mengt",
+            "hij": "mengt",
+            "wij": "mengen",
+            "jullie": "mengen",
+            "zij": "mengen"
+          },
+          "past": {
+            "singular": "mengde",
+            "plural": "mengden"
+          },
+          "pastParticiple": "gemengd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De chef mengt nauwgezet de diverse ingrediënten voor het gerecht, waarbij hij rekening houdt met de specifieke smaakprofielen van de gasten die die avond dineren.",
+        "Hoewel ze goed op de hoogte is van wat er in haar familie omgaat, mengt ze zich bewust niet in andermans persoonlijke zaken uit respect voor hun privacy."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "厨师仔细地为菜肴混合各种配料，考虑到当晚用餐客人的特定口味偏好。",
+          "虽然她清楚了解家里发生的事情，但出于对他们隐私的尊重，她有意识地不干涉他人的私事。"
+        ],
+        "english": [
+          "The chef carefully mixes the diverse ingredients for the dish, taking into account the specific taste profiles of the guests dining that evening.",
+          "Although she is well informed about what goes on in her family, she consciously does not interfere in other people's personal affairs out of respect for their privacy."
+        ]
+      },
+      "notes": "反身用法 zich mengen（干涉、参与）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2305,
+      "word": "mengsel",
+      "translation": {
+        "chinese": "混合物",
+        "english": "mixture"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "mengsel",
+          "plural": "mengsels"
+        }
+      },
+      "examples": [
+        "Het nauwkeurige mengsel van verschillende kleuren pigmenten resulteerde in een volledig nieuwe tint die schilders over de hele wereld inspireerde om met paletten te experimenteren.",
+        "Dit populaire mengsel van koffie en melk, dat in de meeste cafés wordt aangeboden, is vooral in trek bij mensen die op zoek zijn naar een mildere smaakervaring."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "不同颜色颜料的精确混合产生了一种全新的色调，启发了世界各地的画家用调色板进行实验。",
+          "这种在大多数咖啡馆提供的流行的咖啡和奶的混合物，尤其受到寻找更温和味觉体验的人们的欢迎。"
+        ],
+        "english": [
+          "The precise mixture of different color pigments resulted in a completely new shade that inspired painters all over the world to experiment with palettes.",
+          "This popular mixture of coffee and milk, offered in most cafés, is especially in demand among people looking for a milder taste experience."
+        ]
+      },
+      "notes": "指物理或化学上的混合物",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2306,
+      "word": "meningsuiting",
+      "translation": {
+        "chinese": "表达",
+        "english": "expression of opinion"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "meningsuiting",
+          "plural": "meningsuitingen"
+        }
+      },
+      "examples": [
+        "In een democratische samenleving wordt vrijheid van meningsuiting beschouwd als een fundamenteel recht dat beschermd moet worden, ongeacht of men het eens is met de geuite standpunten.",
+        "Zijn genuanceerde meningsuiting over het controversiële onderwerp was zo helder en weloverwogen dat het andere deelnemers aan het debat aan het denken zette over hun eigen positie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在民主社会中，言论自由被认为是一项必须受到保护的基本权利，无论人们是否同意所表达的观点。",
+          "他对这个争议问题的细致表达如此清晰和深思熟虑，以至于让辩论的其他参与者开始反思自己的立场。"
+        ],
+        "english": [
+          "In a democratic society, freedom of expression is considered a fundamental right that must be protected, regardless of whether one agrees with the expressed viewpoints.",
+          "His nuanced expression of opinion on the controversial subject was so clear and well-considered that it made other participants in the debate think about their own position."
+        ]
+      },
+      "notes": "复数形式为 meningsuitingen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2307,
+      "word": "mentaliteit",
+      "translation": {
+        "chinese": "心态",
+        "english": "mentality"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "mentaliteit",
+          "plural": "mentaliteiten"
+        }
+      },
+      "examples": [
+        "Onder de inspirerende leiding van de nieuwe directeur heeft de mentaliteit in het bedrijf zich ingrijpend veranderd, waardoor medewerkers nu meer verantwoordelijkheid en initiatief tonen.",
+        "Een sterke winnaarsmentaliteit is niet alleen belangrijk voor succes in de sport, maar ook in het bedrijfsleven waar doorzettingsvermogen en positiviteit doorslaggevend kunnen zijn voor het behalen van doelen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在新任主任的鼓舞人心的领导下，公司的心态发生了深刻的变化，员工现在表现出更多的责任感和主动性。",
+          "强烈的获胜心态不仅对体育成功很重要，在商业生活中也是如此，其中毅力和积极性对于实现目标可能是决定性的。"
+        ],
+        "english": [
+          "Under the inspiring leadership of the new director, the mentality in the company has changed profoundly, causing employees to now show more responsibility and initiative.",
+          "A strong winner's mentality is not only important for success in sports, but also in business life where perseverance and positivity can be decisive for achieving goals."
+        ]
+      },
+      "notes": "也指思维方式或态度",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2308,
+      "word": "menselijk",
+      "translation": {
+        "chinese": "人类的",
+        "english": "human"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "menselijk",
+          "withDe": "menselijke",
+          "withHet": "menselijke",
+          "comparative": "menselijker",
+          "superlative": "het menselijkst"
+        }
+      },
+      "examples": [
+        "Het maken van menselijke fouten is een onvermijdelijk aspect van het leven dat ons kwetsbaar maakt, maar het is juist deze imperfectie die ons menselijk en empathisch laat zijn in onze omgang met anderen.",
+        "Iedereen, ongeacht achtergrond of status, verdient menselijke behandeling die wordt gekenmerkt door respect, waardigheid en begrip voor individuele omstandigheden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "犯人为的错误是生活中不可避免的一部分，它使我们脆弱，但正是这种不完美让我们在与他人的交往中具有人性化和同理心。",
+          "每个人，无论背景或地位如何，都应得到以尊重、尊严和对个人情况的理解为特征的人性化对待。"
+        ],
+        "english": [
+          "Making human errors is an inevitable aspect of life that makes us vulnerable, but it is precisely this imperfection that makes us human and empathetic in our dealings with others.",
+          "Everyone, regardless of background or status, deserves human treatment characterized by respect, dignity and understanding of individual circumstances."
+        ]
+      },
+      "notes": "也可以形容具有人类特征的事物",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2309,
+      "word": "menselijkheid",
+      "translation": {
+        "chinese": "人性",
+        "english": "humanity"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "menselijkheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Tijdens de economische crisis en de daaropvolgende moeilijke tijden toonde ze opmerkelijke menselijkheid door vrijwilligerswerk te doen voor de meest kwetsbare leden van de gemeenschap.",
+        "In een wereld die steeds meer wordt gedomineerd door technologie en kunstmatige intelligentie, blijft menselijkheid met haar unieke vermogens tot empathie, creativiteit en moreel oordeel het fundamentele element dat ons onderscheidt van machines."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在经济危机和随后的困难时期，她通过为社区中最脆弱的成员做志愿工作表现出了显著的人性。",
+          "在一个日益被技术和人工智能主宰的世界里，人性及其独特的同理心、创造力和道德判断能力仍然是使我们与机器区别开来的基本要素。"
+        ],
+        "english": [
+          "During the economic crisis and the subsequent difficult times, she showed remarkable humanity by doing volunteer work for the most vulnerable members of the community.",
+          "In a world that is increasingly dominated by technology and artificial intelligence, humanity with its unique capacities for empathy, creativity and moral judgment remains the fundamental element that distinguishes us from machines."
+        ]
+      },
+      "notes": "抽象名词，通常不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2310,
+      "word": "mensheid",
+      "translation": {
+        "chinese": "人类",
+        "english": "humanity"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "mensheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De toekomst van de mensheid hangt in essentie af van de collectieve keuzes die we vandaag maken met betrekking tot milieu, technologie en sociale rechtvaardigheid.",
+        "Het ultieme doel van deze internationale organisatie is om de gehele mensheid te dienen door projecten te initiëren die armoede bestrijden, onderwijs bevorderen en gezondheidszorg toegankelijk maken voor iedereen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "人类的未来本质上取决于我们今天在环境、技术和社会正义方面所做的集体选择。",
+          "这个国际组织的最终目标是通过启动打击贫困、促进教育和让每个人都获得医疗保健的项目来为全人类服务。"
+        ],
+        "english": [
+          "The future of humanity essentially depends on the collective choices we make today regarding environment, technology and social justice.",
+          "The ultimate goal of this international organization is to serve all of humanity by initiating projects that combat poverty, promote education and make healthcare accessible to everyone."
+        ]
+      },
+      "notes": "指整个人类群体",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2311,
+      "word": "mentaal",
+      "translation": {
+        "chinese": "精神的",
+        "english": "mental"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "mentaal",
+          "withDe": "mentale",
+          "withHet": "mentale",
+          "comparative": "mentaler",
+          "superlative": "het mentaalst"
+        }
+      },
+      "examples": [
+        "In de moderne maatschappij wordt steeds meer erkend dat mentale gezondheid net zo cruciaal is als fysieke gezondheid voor het behouden van een gebalanceerd en productief leven.",
+        "Professionele atleten bereiden zich niet alleen fysiek maar ook mentaal voor op belangrijke wedstrijden door middel van visualisatietechnieken en psychologische begeleiding om om te kunnen gaan met druk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在现代社会中，人们越来越认识到，对于维持平衡和富有成效的生活来说，心理健康与身体健康同样至关重要。",
+          "职业运动员不仅通过身体训练，还通过可视化技术和心理指导来为重要比赛做心理准备，以应对压力。"
+        ],
+        "english": [
+          "In modern society it is increasingly recognized that mental health is just as crucial as physical health for maintaining a balanced and productive life.",
+          "Professional athletes prepare not only physically but also mentally for important competitions through visualization techniques and psychological guidance to be able to cope with pressure."
+        ]
+      },
+      "notes": "与心理、精神或智力相关",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2312,
+      "word": "merk",
+      "translation": {
+        "chinese": "品牌",
+        "english": "brand"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "merk",
+          "plural": "merken"
+        }
+      },
+      "examples": [
+        "Dit gerenommeerde merk staat wereldwijd bekend om zijn compromisloze kwaliteit en voortdurende innovatie op het gebied van consumentenelektronica.",
+        "Ze bewust gekozen voor een duurzaam merk dat ethische productiemethoden hanteert voor haar nieuwe garderobe, om bij te dragen aan een betere wereld voor toekomstige generaties."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个享有盛誉的品牌以其在消费电子产品领域无可妥协的质量和持续创新而闻名世界。",
+          "她有意识地选择了采用道德生产方法的可持续品牌来购置新衣橱，以为子孙后代创造一个更美好的世界做出贡献。"
+        ],
+        "english": [
+          "This renowned brand is known worldwide for its uncompromising quality and continuous innovation in the field of consumer electronics.",
+          "She consciously chose a sustainable brand that employs ethical production methods for her new wardrobe, to contribute to a better world for future generations."
+        ]
+      },
+      "notes": "也指商标或标志",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2313,
+      "word": "merkwaardig",
+      "translation": {
+        "chinese": "奇特的",
+        "english": "peculiar"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "merkwaardig",
+          "withDe": "merkwaardige",
+          "withHet": "merkwaardige",
+          "comparative": "merkwaardiger",
+          "superlative": "het merkwaardigst"
+        }
+      },
+      "examples": [
+        "Tijdens de langdurige bijeenkomst gebeurde er iets merkwaardigs waardoor de aanwezigen perplex achterbleven en meningen begonnen te vormen over wat er precies had kunnen gebeuren.",
+        "Hij had een merkwaardige gewoonte van elke ochtend extreem vroeg opstaan om in alle rust de zon te zien opkomen, wat hij als een bron van inspiratie beschouwde voor zijn dagelijks werk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在漫长的会议期间发生了一些奇特的事情，使得在场的与会者感到困惑，并开始对可能发生了什么形成看法。",
+          "他有一个每天清晨极早起床的习惯，以便在完全的宁静中观看日出，他认为这是他日常工作的灵感来源。"
+        ],
+        "english": [
+          "During the lengthy meeting something peculiar happened that left those present perplexed and began forming opinions about what exactly might have happened.",
+          "He had a peculiar habit of getting up extremely early every morning to watch the sunrise in complete quiet, which he considered a source of inspiration for his daily work."
+        ]
+      },
+      "notes": "也指值得注意的或引人注目的",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2314,
+      "word": "merkteken",
+      "translation": {
+        "chinese": "标记",
+        "english": "mark"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "merkteken",
+          "plural": "merktekens"
+        }
+      },
+      "examples": [
+        "Het duidelijke merkteken op de gedetailleerde kaart wijst precies de locatie van het centrale station aan, wat het voor toeristen veel gemakkelijker maakt om hun weg te vinden in de onbekende stad.",
+        "Ze draagt nog altijd een klein merkteken op haar hand als herinnering aan het ongeluk dat haar leven voorgoed veranderde en haar leerde om elke dag als een geschenk te waarderen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "详细地图上的清晰标记精确地指出了中央车站的位置，这使得游客在不熟悉的城市中找路变得容易得多。",
+          "她的手上仍然带着一个小印记，作为那次永远改变她生活的事故的纪念，教会她每天都要把生活当作礼物来珍惜。"
+        ],
+        "english": [
+          "The clear mark on the detailed map indicates precisely the location of the central station, which makes it much easier for tourists to find their way in the unfamiliar city.",
+          "She still bears a small mark on her hand as a reminder of the accident that changed her life forever and taught her to appreciate every day as a gift."
+        ]
+      },
+      "notes": "也指标志或记号",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2315,
+      "word": "metalen",
+      "translation": {
+        "chinese": "金属的",
+        "english": "metal"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "metaal",
+          "plural": "metalen"
+        }
+      },
+      "examples": [
+        "De indrukwekkende brug die over de rivier is gebouwd, is vervaardigd uit een combinatie van verschillende metalen die specifiek zijn gekozen om de structurele integriteit te garanderen onder extreme weersomstandigheden.",
+        "Diverse metalen die in de moderne industrie worden gebruikt, bezitten unieke fysische en chemische eigenschappen die ze bijzonder geschikt maken voor uiteenlopende industriële toepassingen variërend van ruimtevaartuigen tot consumentenproducten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这座横跨河流的令人印象深刻的桥梁是由多种金属的混合物建造的，这些金属被专门选择以保证在极端天气条件下的结构完整性。",
+          "现代工业中使用的各种金属拥有独特的物理和化学特性，使它们特别适用于从航天器到消费产品的各种工业应用。"
+        ],
+        "english": [
+          "The impressive bridge built across the river is constructed from a combination of various metals that were specifically chosen to guarantee structural integrity under extreme weather conditions.",
+          "Various metals used in modern industry possess unique physical and chemical properties that make them particularly suitable for diverse industrial applications ranging from spacecraft to consumer products."
+        ]
+      },
+      "notes": "metalen 是复数形式，也可作形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2316,
+      "word": "metafoor",
+      "translation": {
+        "chinese": "隐喻",
+        "english": "metaphor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "metafoor",
+          "plural": "metaforen"
+        }
+      },
+      "examples": [
+        "De getalenteerde schrijver gebruikt een krachtige en doordachte metafoor om zijn complexe punt op een manier over te brengen die lezers diep laat nadenken over de onderliggende thema's van het verhaal.",
+        "De uitspraak 'hij is een leeuw' is een krachtige metafoor voor moed, die verwijst naar de onverzettende aard en de vastberadenheid die dit majestueuze dier in de natuur laat zien."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这位有天赋的作家使用一个有力且深思熟虑的隐喻来传达他的复杂观点，让读者深入思考故事的潜在主题。",
+          "'他是一头狮子'这句话是勇气的有力隐喻，指的是这种雄伟动物在自然界中表现出的不屈不挠的本性和决心。"
+        ],
+        "english": [
+          "The talented writer uses a powerful and thoughtful metaphor to convey his complex point in a way that makes readers think deeply about the underlying themes of the story.",
+          "The saying 'he is a lion' is a powerful metaphor for courage, referring to the persevering nature and determination that this majestic animal shows in nature."
+        ]
+      },
+      "notes": "修辞手法，用一种事物比喻另一种",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2317,
+      "word": "meteoroloog",
+      "translation": {
+        "chinese": "气象学家",
+        "english": "meteorologist"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "meteoroloog",
+          "plural": "meteorologen"
+        }
+      },
+      "examples": [
+        "Na uitvoerige analyse van atmosferische patronen voorspelde de meteoroloog dat er dit weekend aanhoudend zonnig weer verwacht kan worden, wat uitstekende omstandigheden biedt voor buitenactiviteiten.",
+        "Meteorologen volgen de ontwikkeling van de storm nauwgezet door middel van geavanceerde satellietbeelden en weermodellen om de bevolking tijdig te waarschuwen voor mogelijke gevaren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在对大气模式进行详细分析后，气象学家预测本周末预计将持续晴朗天气，为户外活动提供绝佳条件。",
+          "气象学家通过先进的卫星图像和天气模型密切跟踪风暴的发展，以便及时向人口发出潜在危险的警告。"
+        ],
+        "english": [
+          "After extensive analysis of atmospheric patterns, the meteorologist predicted that persistent sunny weather can be expected this weekend, offering excellent conditions for outdoor activities.",
+          "Meteorologists follow the development of the storm closely through advanced satellite images and weather models to warn the population in time about potential dangers."
+        ]
+      },
+      "notes": "职业名词，复数形式为 meteorologen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2318,
+      "word": "meter",
+      "translation": {
+        "chinese": "米",
+        "english": "meter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "meter",
+          "plural": "meters"
+        }
+      },
+      "examples": [
+        "De historische toren die het stadscentrum domineert, is meer dan honderd meter hoog en biedt bezoekers een panoramisch uitzicht over de omgeving dat de moeite van de klim absoluut waard is.",
+        "Hij won de atletiekwedstrijd overtuigend met een verschil van twee meter, wat zijn jarenlange training en toewijding aan zijn sport bevestigde als zeer effectief."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这座主宰市中心的历史性塔楼超过一百米高，为游客提供了周围环境的全景视野，绝对值得攀登的辛苦。",
+          "他以两米的差距令人信服地赢得了田径比赛，证实了他多年的训练和对运动的奉献非常有效。"
+        ],
+        "english": [
+          "The historic tower that dominates the city center is more than a hundred meters high and offers visitors a panoramic view of the surroundings that is absolutely worth the climb.",
+          "He won the athletics competition convincingly with a difference of two meters, confirming his years of training and dedication to his sport as very effective."
+        ]
+      },
+      "notes": "长度单位，也可指测量仪器",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2319,
+      "word": "middelen",
+      "translation": {
+        "chinese": "手段",
+        "english": "means"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "middel",
+          "plural": "middelen"
+        }
+      },
+      "examples": [
+        "Helaas beschikken we momenteel niet over voldoende financiële en materiële middelen om het ambitieuze project naar tevredenheid van alle stakeholders te voltooien.",
+        "De overheid heeft aanzienlijke middelen beschikbaar gesteld voor onderwijs, met de specifieke bedoeling om de kwaliteit van het onderwijssysteem te verbeteren en gelijke kansen te creëren voor alle leerlingen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "遗憾的是，我们目前没有足够的财政和物质手段来让所有利益相关者满意地完成这个雄心勃勃的项目。",
+          "政府为教育提供了大量资金，旨在提高教育系统的质量，为所有学生创造平等的机会。"
+        ],
+        "english": [
+          "Unfortunately, we currently do not have sufficient financial and material means to complete the ambitious project to the satisfaction of all stakeholders.",
+          "The government has made considerable means available for education, with the specific intention of improving the quality of the education system and creating equal opportunities for all students."
+        ]
+      },
+      "notes": "也指资源、方法或工具",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2320,
+      "word": "migratie",
+      "translation": {
+        "chinese": "移民",
+        "english": "migration"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "migratie",
+          "plural": "migraties"
+        }
+      },
+      "examples": [
+        "De jaarlijkse migratie van vogels over duizenden kilometers is een fascinerend fenomeen dat biologen al generaties lang bezighoudt met de vraag hoe deze kleine wezens zo precies navigeren.",
+        "Migratie, zowel nationaal als internationaal, heeft een grote en diepgaande impact op de samenleving door culturele, economische en sociale veranderingen teweeg te brengen die de demografische samenstelling van gebieden transformeren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "鸟类跨越数千公里的年度迁徙是一个迷人的现象，世世代代以来一直让生物学家着迷于思考这些小生物如何如此精确地导航。",
+          "无论是国内还是国际移民，对社会都有重大而深远的影响，通过引起改变区域人口构成的文化、经济和社会变化。"
+        ],
+        "english": [
+          "The annual migration of birds over thousands of kilometers is a fascinating phenomenon that has kept biologists occupied for generations with the question of how these small creatures navigate so precisely.",
+          "Migration, both national and international, has a great and profound impact on society by bringing about cultural, economic and social changes that transform the demographic composition of regions."
+        ]
+      },
+      "notes": "也指人口流动或数据迁移",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2321,
+      "word": "milieuvervuiling",
+      "translation": {
+        "chinese": "环境污染",
+        "english": "environmental pollution"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "milieuvervuiling",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Milieuvervuiling, met name lucht- en watervervuiling door industriële activiteiten, vormt een ernstig en wereldwijd probleem dat onmiddellijk en gecoördineerd moet worden aangepakt.",
+        "We moeten collectief en besluitvaardig actie ondernemen tegen milieuvervuiling door duurzamere alternatieven te omarmen en het bewustzijn over de ecologische gevolgen van ons handelen te vergroten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "环境污染，特别是工业活动造成的空气和水污染，构成了一个严重和全球性的问题，必须立即和协调地解决。",
+          "我们必须集体和果断地采取行动对抗环境污染，通过拥抱更可持续的替代方案并提高对我们行为生态后果的认识。"
+        ],
+        "english": [
+          "Environmental pollution, particularly air and water pollution from industrial activities, constitutes a serious and worldwide problem that must be addressed immediately and in a coordinated manner.",
+          "We must collectively and decisively take action against environmental pollution by embracing more sustainable alternatives and raising awareness about the ecological consequences of our actions."
+        ]
+      },
+      "notes": "复合名词，通常不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2322,
+      "word": "miljoen",
+      "translation": {
+        "chinese": "百万",
+        "english": "million"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "miljoen",
+          "plural": "miljoenen"
+        }
+      },
+      "examples": [
+        "Het jaarlijkse muziekfestival trok dit keer meer dan een miljoen bezoekers uit alle hoeken van de wereld, wat het tot een van de grootste culturele evenementen van het continent maakte.",
+        "De overheid heeft besloten om de komende tien jaar miljarden te investeren in de vernieuwing van de infrastructuur, om de economische groei te stimuleren en de levenskwaliteit van burgers te verbeteren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "年度音乐节这次吸引了来自世界各地的超过一百万游客，使其成为该大陆最大的文化盛会之一。",
+          "政府已决定在未来十年内投资数十亿用于基础设施更新，以刺激经济增长并改善公民的生活质量。"
+        ],
+        "english": [
+          "The annual music festival attracted more than a million visitors from all corners of the world this time, making it one of the largest cultural events on the continent.",
+          "The government has decided to invest billions in the renewal of infrastructure over the next ten years, to stimulate economic growth and improve citizens' quality of life."
+        ]
+      },
+      "notes": "基数词，复数形式为 miljoenen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2323,
+      "word": "miljonair",
+      "translation": {
+        "chinese": "百万富翁",
+        "english": "millionaire"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "miljonair",
+          "plural": "miljonairs"
+        }
+      },
+      "examples": [
+        "Hij werd op relatief jonge leeftijd miljonair door zijn succesvolle technologiebedrijf dat innovatieve oplossingen ontwikkelde voor complexe problemen in de medische sector.",
+        "De filantropische miljonair doneert jaarlijks een aanzienlijk deel van zijn vermogen aan diverse goede doelen, met bijzondere aandacht voor onderwijsprojecten in ontwikkelingslanden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在相对年轻的年龄通过成功的科技公司成为了百万富翁，该公司为医疗领域的复杂问题开发了创新解决方案。",
+          "这位慈善的百万富翁每年将其财富的相当一部分捐赠给各种慈善机构，特别关注发展中国家的教育项目。"
+        ],
+        "english": [
+          "He became a millionaire at a relatively young age through his successful technology company that developed innovative solutions for complex problems in the medical sector.",
+          "The philanthropic millionaire annually donates a considerable portion of his fortune to various charities, with special attention to education projects in developing countries."
+        ]
+      },
+      "notes": "也可作形容词使用",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2324,
+      "word": "militair",
+      "translation": {
+        "chinese": "军事的",
+        "english": "military"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "militair",
+          "withDe": "militaire",
+          "withHet": "militaire",
+          "comparative": "militairder",
+          "superlative": "het militairst"
+        }
+      },
+      "examples": [
+        "Na uitvoerige beraadslaging stelde de regering een militaire interventie voor om de stabiliteit in het betrokken gebied te herstellen en de burgerbevolking te beschermen tegen verdere escalatie van het geweld.",
+        "Hij heeft een indrukwekkende militaire achtergrond met jarenlange operationele ervaring in conflictgebieden, wat hem uitermate geschikt maakt voor zijn huidige adviserende rol bij defensie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "经过详细商议，政府提议进行军事干预以恢复有关地区的稳定并保护平民免受暴力进一步升级的伤害。",
+          "他有令人印象深刻的军事背景，在冲突地区拥有多年的作战经验，这使他非常适合目前在国防部担任顾问的角色。"
+        ],
+        "english": [
+          "After extensive deliberation, the government proposed a military intervention to restore stability in the affected region and protect the civilian population from further escalation of violence.",
+          "He has an impressive military background with years of operational experience in conflict zones, making him extremely suitable for his current advisory role at defense."
+        ]
+      },
+      "notes": "与军队或军事相关",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2325,
+      "word": "minderheid",
+      "translation": {
+        "chinese": "少数",
+        "english": "minority"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "minderheid",
+          "plural": "minderheden"
+        }
+      },
+      "examples": [
+        "In een rechtvaardige en inclusieve samenleving moeten de rechten van minderheden actief beschermd worden door wetgeving die discriminatie voorkomt en gelijke kansen bevordert voor alle burgers.",
+        "In dit land vormen de immigranten momenteel een groeiende minderheid die steeds meer bijdraagt aan de culturele diversiteit en economische dynamiek van de samenleving."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在一个公正和包容的社会中，少数群体的权利必须通过防止歧视和促进所有公民平等机会的法律得到积极保护。",
+          "在这个国家，移民目前构成一个不断增长的少数群体，越来越多地为社会的文化多样性和经济活力做出贡献。"
+        ],
+        "english": [
+          "In a just and inclusive society, the rights of minorities must be actively protected by legislation that prevents discrimination and promotes equal opportunities for all citizens.",
+          "In this country, immigrants currently form a growing minority that increasingly contributes to the cultural diversity and economic dynamism of society."
+        ]
+      },
+      "notes": "复数形式为 minderheden",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2326,
+      "word": "minima",
+      "translation": {
+        "chinese": "最小值",
+        "english": "minimum"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "minimum",
+          "plural": "minima"
+        }
+      },
+      "examples": [
+        "Om voor dit veeleisende examen te slagen, moeten studenten niet alleen het wettelijk vastgestelde minimum bereiken, maar ook aantonen dat ze de stof diepgaand begrijpen en kunnen toepassen.",
+        "Hoewel het minimum aan benodigde materialen op dit moment beschikbaar is, adviseert het projectmanagementteam om extra reserveonderdelen aan te schaffen om eventuele vertragingen in de uitvoering te voorkomen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "要通过这个高难度的考试，学生不仅要达到法律规定的最低要求，还要证明他们深入理解了材料并能够应用。",
+          "虽然目前所需材料的最低数量是可用的，但项目管理团队建议购买额外的备件以防止执行过程中出现任何延误。"
+        ],
+        "english": [
+          "To pass this demanding exam, students must not only reach the legally established minimum but also demonstrate that they understand the subject matter in depth and can apply it.",
+          "Although the minimum of required materials is currently available, the project management team advises procuring additional spare parts to prevent any delays in execution."
+        ]
+      },
+      "notes": "也可作形容词使用",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2327,
+      "word": "minstens",
+      "translation": {
+        "chinese": "至少",
+        "english": "at least"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "minstens"
+        }
+      },
+      "examples": [
+        "Volgens de nieuwe gezondheidsrichtlijnen moeten volwassenen minstens drie keer per week matig tot intensief sporten om hun fysieke en mentale gezondheid op peil te houden.",
+        "Gezien de onverwachte technische complicaties die zich hebben voorgedaan, zal het waarschijnlijk minstens nog een maand duren voordat het project naar tevredenheid van alle betrokken partijen kan worden afgerond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "根据新的健康指导方针，成年人每周至少需要进行中等至强度的运动三次，以保持身体和心理健康水平。",
+          "鉴于已发生的意外技术复杂性，项目可能至少还需要一个月才能让所有相关方满意地完成。"
+        ],
+        "english": [
+          "According to the new health guidelines, adults should exercise at least three times a week moderately to intensively to maintain their physical and mental health level.",
+          "Given the unexpected technical complications that have occurred, it will likely take at least another month before the project can be completed to the satisfaction of all parties involved."
+        ]
+      },
+      "notes": "副词，表示最低限度",
+      "difficulty": "B1"
+    }
+  ]
+}

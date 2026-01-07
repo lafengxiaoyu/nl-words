@@ -1,0 +1,429 @@
+{
+  "id": "lB130",
+  "level": "B1",
+  "lessonNumber": 30,
+  "totalWords": 13,
+  "words": [
+    {
+      "id": 2918,
+      "word": "uitdaging",
+      "translation": {
+        "chinese": "挑战",
+        "english": "challenge"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "uitdaging",
+          "plural": "uitdagingen"
+        }
+      },
+      "examples": [
+        "Zij houdt van uitdagingen.",
+        "Zij gaat de uitdaging aan.",
+        "Dit is een grote uitdaging voor mij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这对我来说是一个很大的挑战。",
+          "她接受了这个挑战。",
+          "她接受了这个挑战。"
+        ],
+        "english": [
+          "This is a big challenge for me.",
+          "She takes on the challenge.",
+          "She takes on the challenge."
+        ]
+      },
+      "notes": "也可以指'挑衅'；来自 uitdagen（挑战）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2940,
+      "word": "somber",
+      "translation": {
+        "chinese": "阴沉的、忧郁的",
+        "english": "gloomy, somber, depressing"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "somber",
+          "withDe": "somber",
+          "withHet": "somber",
+          "comparative": "somberder",
+          "superlative": "het somberst"
+        }
+      },
+      "examples": [
+        "Het weer is erg somber vandaag.",
+        "Hij ziet er somber uit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "今天天气很阴沉。",
+          "他看起来很忧郁。"
+        ],
+        "english": [
+          "The weather is very gloomy today.",
+          "He looks depressed."
+        ]
+      },
+      "notes": "比较级和最高级规则：somber - somberder - somberst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2942,
+      "word": "sponsoring",
+      "translation": {
+        "chinese": "赞助、赞助活动",
+        "english": "sponsorship, sponsorship activities"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "sponsoring",
+          "plural": "sponsorings"
+        }
+      },
+      "examples": [
+        "Het bedrijf doet veel aan sponsoring.",
+        "Sponsoring is belangrijk voor evenementen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这家公司做很多赞助活动。",
+          "赞助对活动很重要。"
+        ],
+        "english": [
+          "The company does a lot of sponsorship.",
+          "Sponsorship is important for events."
+        ]
+      },
+      "notes": "来自动词 sponsoren（赞助）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2943,
+      "word": "spoor",
+      "translation": {
+        "chinese": "轨道、痕迹",
+        "english": "track, trace, rail"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "spoor",
+          "plural": "sporen"
+        }
+      },
+      "examples": [
+        "De trein volgt het spoor.",
+        "Er zijn geen sporen van hem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "火车沿着轨道行驶。",
+          "没有任何他的痕迹。"
+        ],
+        "english": [
+          "The train follows the track.",
+          "There are no traces of him."
+        ]
+      },
+      "notes": "复数形式为 sporen，固定搭配：spoor zoeken（寻找痕迹）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2944,
+      "word": "staal",
+      "translation": {
+        "chinese": "钢、钢铁",
+        "english": "steel"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "staal",
+          "plural": "stalen"
+        }
+      },
+      "examples": [
+        "De brug is van staal.",
+        "Staal is een sterk materiaal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这座桥是钢制的。",
+          "钢是一种坚固的材料。"
+        ],
+        "english": [
+          "The bridge is made of steel.",
+          "Steel is a strong material."
+        ]
+      },
+      "notes": "复数形式为 stalen，指钢材或钢制品",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2945,
+      "word": "stabiliteit",
+      "translation": {
+        "chinese": "稳定性、稳定",
+        "english": "stability"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "stabiliteit",
+          "plural": "stabiliteiten"
+        }
+      },
+      "examples": [
+        "De politieke stabiliteit is belangrijk.",
+        "We zoeken financiële stabiliteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "政治稳定很重要。",
+          "我们在寻求金融稳定。"
+        ],
+        "english": [
+          "Political stability is important.",
+          "We seek financial stability."
+        ]
+      },
+      "notes": "来自形容词 stabiel（稳定的）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2946,
+      "word": "staf",
+      "translation": {
+        "chinese": "员工、职员",
+        "english": "staff, personnel"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "staf",
+          "plural": "staven"
+        }
+      },
+      "examples": [
+        "De staf van het bedrijf werkt hard.",
+        "De directie en haar staf."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司的员工工作很努力。",
+          "管理层和她的职员。"
+        ],
+        "english": [
+          "The staff of the company works hard.",
+          "The management and her staff."
+        ]
+      },
+      "notes": "复数形式为 staven，也指手杖",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2947,
+      "word": "standpunt",
+      "translation": {
+        "chinese": "立场、观点",
+        "english": "position, viewpoint, standpoint"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "standpunt",
+          "plural": "standpunten"
+        }
+      },
+      "examples": [
+        "Wat is jouw standpunt?",
+        "Ik ben het niet met zijn standpunt eens."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你的立场是什么？",
+          "我不同意他的观点。"
+        ],
+        "english": [
+          "What is your position?",
+          "I don't agree with his viewpoint."
+        ]
+      },
+      "notes": "复合名词：stand（站立）+ punt（点），复数形式为 standpunten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2948,
+      "word": "staatkundig",
+      "translation": {
+        "chinese": "政治的、国家治理的",
+        "english": "political, constitutional"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "staatkundig",
+          "withDe": "staatkundige",
+          "withHet": "staatkundige",
+          "comparative": "staatkundiger",
+          "superlative": "het staatkundigst"
+        }
+      },
+      "examples": [
+        "Een staatkundige kwestie.",
+        "De staatkundige hervorming."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个政治问题。",
+          "政治改革。"
+        ],
+        "english": [
+          "A political issue.",
+          "The constitutional reform."
+        ]
+      },
+      "notes": "来自名词 staat（国家）+ kundig（精通的），比较级和最高级规则：staatkundig - staatkundiger - staatkundigst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2952,
+      "word": "stelling",
+      "translation": {
+        "chinese": "论点、立场",
+        "english": "statement, proposition, position"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "stelling",
+          "plural": "stellingen"
+        }
+      },
+      "examples": [
+        "Hij deed een sterke stelling.",
+        "De stelling is bewezen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他提出了一个强有力的论点。",
+          "这个论点已被证明。"
+        ],
+        "english": [
+          "He made a strong statement.",
+          "The proposition has been proven."
+        ]
+      },
+      "notes": "来自动词 stellen（放置、提出），复数形式为 stellingen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2956,
+      "word": "stil",
+      "translation": {
+        "chinese": "安静的",
+        "english": "quiet, still"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "stil",
+          "withDe": "stille",
+          "withHet": "stille",
+          "comparative": "stiller",
+          "superlative": "het stilst"
+        }
+      },
+      "examples": [
+        "Het is heel stil hier.",
+        "Wees alsjeblieft stil."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这里非常安静。",
+          "请保持安静。"
+        ],
+        "english": [
+          "It is very quiet here.",
+          "Please be quiet."
+        ]
+      },
+      "notes": "比较级和最高级规则：stil - stiller - stilst，反义词 is luid（喧闹的）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2976,
+      "word": "verdachten",
+      "translation": {
+        "chinese": "怀疑的（过去分词作形容词用）",
+        "english": "suspected"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "verdacht",
+          "withDe": "vermeende",
+          "withHet": "vermeende",
+          "comparative": "verdachter",
+          "superlative": "het verdachtst"
+        }
+      },
+      "examples": [
+        "Hij is verdacht van diefstal.",
+        "Er is een verdacht pakket gevonden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他涉嫌盗窃。",
+          "发现了一个可疑的包裹。"
+        ],
+        "english": [
+          "He is suspected of theft.",
+          "A suspicious package was found."
+        ]
+      },
+      "notes": "来自动词 verdenken（怀疑），比较级和最高级规则：verdacht - verdachter - verdachtst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3039,
+      "word": "volgens",
+      "translation": {
+        "chinese": "根据、按照",
+        "english": "according to"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Volgens het rapport is het waar.",
+        "Volgens mij is het niet waar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "根据报告这是真的。",
+          "在我看来这是不对的。"
+        ],
+        "english": [
+          "According to the report it is true.",
+          "According to me it is not true."
+        ]
+      },
+      "notes": "介词，表示依据或来源，后接名词或代词",
+      "difficulty": "B1"
+    }
+  ]
+}

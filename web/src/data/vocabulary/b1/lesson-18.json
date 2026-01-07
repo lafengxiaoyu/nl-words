@@ -1,0 +1,1621 @@
+{
+  "id": "lB118",
+  "level": "B1",
+  "lessonNumber": 18,
+  "totalWords": 48,
+  "words": [
+    {
+      "id": 2128,
+      "word": "legitimeren",
+      "translation": {
+        "chinese": "使合法",
+        "english": "to legitimize"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "legitimeren",
+          "isSeparable": false,
+          "present": {
+            "ik": "legitimeer",
+            "jij": "legitimeert",
+            "hij": "legitimeert",
+            "wij": "legitimeren",
+            "jullie": "legitimeren",
+            "zij": "legitimeren"
+          },
+          "past": {
+            "singular": "legitimeerde",
+            "plural": "legitimeerden"
+          },
+          "pastParticiple": "gelegitimeerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het parlement heeft wetten aangenomen die bepaalde bedrijfsactiviteiten legitimeren.",
+        "De regering legitimeert het nieuwe beleid om de financiële sector te stabiliseren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "议会通过了使某些商业行为合法化的法律。",
+          "政府使新政策合法化以确保社会稳定。"
+        ],
+        "english": [
+          "The parliament passed laws that made certain business practices legitimate.",
+          "The government legitimizes the new policy to ensure social stability."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2129,
+      "word": "leidraad",
+      "translation": {
+        "chinese": "指导方针",
+        "english": "guideline"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "leidraad",
+          "plural": "leidraden"
+        }
+      },
+      "examples": [
+        "De nieuwe leidraad voor het onderwijs geeft duidelijke kaders aan scholen voor de komende jaren.",
+        "De medische leidraad adviseert artsen om rookvrije omgevingen te vermijden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "新的教育指导方针为学校提供了清晰的指导框架。",
+          "医疗指导方针建议患者采取健康的生活方式以预防疾病。"
+        ],
+        "english": [
+          "The new educational guideline provides clear guidance frameworks to schools for the coming years.",
+          "The medical guideline advises patients to adopt a healthy lifestyle to prevent diseases."
+        ]
+      },
+      "notes": "复数形式为 leidraden",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2130,
+      "word": "lelijk",
+      "translation": {
+        "chinese": "丑陋的",
+        "english": "ugly"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "lelijk",
+          "withDe": "lelijke",
+          "withHet": "lelijke",
+          "comparative": "lelijker",
+          "superlative": "het lelijkst"
+        }
+      },
+      "examples": [
+        "De lelijke aanleg van de nieuwe wijk leidt tot onvrechte buren en meer sociale cohesie.",
+        "De discussie over het lelijke gebiedsontwerp verliep tot een harde confrontatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "该社区的丑陋开发对邻里关系产生了负面影响。",
+          "关于丑陋社会问题的讨论导致了许多人感到沮丧和孤立。"
+        ],
+        "english": [
+          "The ugly redevelopment of the neighborhood had a negative impact on neighbor relations.",
+          "The discussion about the ugly social problems led to many people feeling frustrated and isolated."
+        ]
+      },
+      "notes": "比较级和最高级规则：lelijk - lelijker - lelijkst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2131,
+      "word": "lema",
+      "translation": {
+        "chinese": "粘液",
+        "english": "mucus"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lema",
+          "plural": "lema's"
+        }
+      },
+      "examples": [
+        "De patiënt klaagde over de dikke slijm in zijn keel wat het slikken bemoeilijk maakte.",
+        "De arts schreef een recept voor een vloeibare oplossing tegen keelontsteking."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "严重的粘液导致患者感到窒息和持续咳嗽。",
+          "感冒病毒感染会产生厚重的粘液，这是常见的症状之一。"
+        ],
+        "english": [
+          "Severe mucus causes patients to feel suffocated and have a persistent cough.",
+          "Common cold virus infections produce thick mucus, which is one of the most common symptoms."
+        ]
+      },
+      "notes": "复数形式为 lema's（外来词加 's）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2132,
+      "word": "lener",
+      "translation": {
+        "chinese": "借款人",
+        "english": "borrower"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lener",
+          "plural": "leners"
+        }
+      },
+      "examples": [
+        "De jonge lener slaagde terug na de studie met een behoorlijke schuldgevoel die bijna onmogelijk was.",
+        "De bank stelde een repaymentplan op die de lener in staat zou brengen uit zijn financiële problemen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "许多年轻人因为缺乏经验而难以获得优惠贷款利率。",
+          "银行制定了一个灵活的还款计划，帮助这位年轻借款人走出经济困境。"
+        ],
+        "english": [
+          "Many young people find it difficult to get favorable loan rates due to lack of experience.",
+          "The bank established a flexible repayment plan that would help this young borrower get out of financial difficulties."
+        ]
+      },
+      "notes": "复数形式为 leners",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2133,
+      "word": "lengte",
+      "translation": {
+        "chinese": "长度",
+        "english": "length"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lengte",
+          "plural": "lengten"
+        }
+      },
+      "examples": [
+        "De lengte van het nieuwe project is een uitdaging die veel voorbereiding en coördinatie vereist.",
+        "De spoorwegmaatschappij investeert in de verlenging van het traject om de reistijd aanzienlijk te verkorten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这座大桥的长度令人印象，成为地区的重要地标。",
+          "延长高速铁路线的长度需要精确的工程计算和安全规划。"
+        ],
+        "english": [
+          "The length of the new bridge is impressive, making it an important landmark in the region.",
+          "The extension of the high-speed rail line requires precise engineering calculations and safety planning."
+        ]
+      },
+      "notes": "复数形式为 lengten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2134,
+      "word": "lening",
+      "translation": {
+        "chinese": "贷款",
+        "english": "loan"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lening",
+          "plural": "leningen"
+        }
+      },
+      "examples": [
+        "De bank verstrekte de leningsvoorwaarden in een poging om de huizenmarkt te stabiliseren.",
+        "De overheid introduceerde fiscale maatregelen om het lenen aan gezinnen met een laag inkomen te beperken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "为了购买第一套住房，这对夫妇申请了一笔大型抵押贷款。",
+          "金融监管机构收紧了贷款政策，以防止房地产市场过热。"
+        ],
+        "english": [
+          "The couple applied for a large mortgage to purchase their first home.",
+          "Financial regulators tightened lending policies to prevent the real estate market from overheating."
+        ]
+      },
+      "notes": "复数形式为 leningen（-ing 结尾的词加 -en）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2135,
+      "word": "lente",
+      "translation": {
+        "chinese": "春天",
+        "english": "spring"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lente",
+          "plural": "lentes"
+        }
+      },
+      "examples": [
+        "De lente brengt talloze bloemen tot bloei wat de natuur weer tot leven wekt.",
+        "Tijdens de lente organiseren tuincentra om mensen te inspireren de schoonheid van het seizoen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "春季是许多文化中象征新生和希望的季节。",
+          "园艺展览展示了数百种春季花卉，吸引了成千名游客。"
+        ],
+        "english": [
+          "Spring is a season that symbolizes new life and hope in many cultures.",
+          "The gardening exhibition featured hundreds of types of spring flowers, attracting thousands of visitors."
+        ]
+      },
+      "notes": "复数形式为 lentes",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2136,
+      "word": "lesstof",
+      "translation": {
+        "chinese": "教材",
+        "english": "course material"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lesstof",
+          "plural": "lesstoffen"
+        }
+      },
+      "examples": [
+        "De universiteit herziet de lesstof voor het volgende academisch jaar om de kwaliteit te verhogen.",
+        "Docenten ontwikkelen digitale lesstof die interactiever en persoonlijker zijn dan de traditionele methode."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "高质量的教材对学习效果起着至关重要的作用。",
+          "新的数字化教学材料让学生能够按照自己的节奏学习，提高了学习效率。"
+        ],
+        "english": [
+          "High-quality course materials play a crucial role in learning effectiveness.",
+          "New digital teaching materials enable students to learn at their own pace, improving learning efficiency."
+        ]
+      },
+      "notes": "复数形式为 lesstoffen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2137,
+      "word": "letterlijk",
+      "translation": {
+        "chinese": "字面意义的",
+        "english": "literally"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "letterlijk"
+        }
+      },
+      "examples": [
+        "Letterlijk is een misinterpretatie die vaak leidt tot onbegrip en verwarring.",
+        "Ze leg letterlijk uit dat ze niet letterlijk bedoelde, maar figuurlijk in de betekenis had."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "字面理解往往会导致沟通障碍和误会。",
+          "为了避免误解，我们应该更仔细地表达自己的想法，尤其是在跨文化沟通时。"
+        ],
+        "english": [
+          "Literal understanding often leads to communication barriers and misunderstandings.",
+          "To avoid misunderstandings, we should express our ideas more carefully, especially in cross-cultural communication."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2138,
+      "word": "leugen",
+      "translation": {
+        "chinese": "谎言",
+        "english": "lie"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "leugen",
+          "plural": "leugens"
+        }
+      },
+      "examples": [
+        "De politicus die tijdens de verkiezing leugens vertelde werd later aangeklaagd voor fraude.",
+        "Onderschte integriteit is essentieel om het vertrouwen in democratie te bewaren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公众对政治家的信任被一系列谎言严重破坏。",
+          "媒体透明度对于维持民主制度至关重要，这样公众可以做出知情决定。"
+        ],
+        "english": [
+          "Public trust in politicians was severely undermined by a series of lies.",
+          "Media transparency is crucial for maintaining a democratic system, so that the public can make informed decisions."
+        ]
+      },
+      "notes": "复数形式为 leugens",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2139,
+      "word": "leuning",
+      "translation": {
+        "chinese": "栏杆",
+        "english": "railing"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "leuning",
+          "plural": "leuningen"
+        }
+      },
+      "examples": [
+        "De nieuwe veiligheidsleuning op het balkon voldoet de eisen van de bouwregelgeving.",
+        "De architect ontwierp een elegante leuning die privacy biedt zonder het uitzicht op het uitzicht te blokkeren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "阳台上的玻璃栏杆既美观又安全，为住宅提供了额外的保护。",
+          "工程标准要求所有新建的阳台和楼梯必须安装符合安全规范的栏杆。"
+        ],
+        "english": [
+          "The glass railing on the balcony is both beautiful and safe, providing additional protection for the residence.",
+          "Engineering standards require all newly constructed balconies and staircases to be equipped with railings that meet safety specifications."
+        ]
+      },
+      "notes": "复数形式为 leuningen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2140,
+      "word": "levendig",
+      "translation": {
+        "chinese": "活跃的",
+        "english": "lively"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "levendig",
+          "withDe": "levendige",
+          "withHet": "levendige",
+          "comparative": "levendiger",
+          "superlative": "het levendigst"
+        }
+      },
+      "examples": [
+        "Hij is levendig.",
+        "Een levendige discussie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很活跃。",
+          "活跃的讨论。"
+        ],
+        "english": [
+          "He is lively.",
+          "A lively discussion."
+        ]
+      },
+      "notes": "比较级和最高级规则：levendig - levendiger - levendigst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2141,
+      "word": "levensstijl",
+      "translation": {
+        "chinese": "生活方式",
+        "english": "lifestyle"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "levensstijl",
+          "plural": "levensstijlen"
+        }
+      },
+      "examples": [
+        "De gezondheidse factoren die levensverwachting verkorten zijn onderwerp van intensief onderzoek.",
+        "Arts adviseren patiënten om hun levensstijl te verhogen door een gebalanceerd dieet en regelmatige lichaamsbeweging."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "医疗进步使人们的预期寿命显著提高。",
+          "健康的生活方式和定期体检是延长寿命的关键因素。"
+        ],
+        "english": [
+          "Medical advances have significantly increased people's life expectancy.",
+          "Healthy lifestyle and regular check-ups are key factors in extending lifespan."
+        ]
+      },
+      "notes": "复数形式为 levensstijlen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2142,
+      "word": "levensverwachting",
+      "translation": {
+        "chinese": "预期寿命",
+        "english": "life expectancy"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "levensverwachting",
+          "plural": "levensverwachtingen"
+        }
+      },
+      "examples": [
+        "De levensverwachting is hoog.",
+        "Verschillende levensverwachtingen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "预期寿命很高。",
+          "不同的预期寿命。"
+        ],
+        "english": [
+          "Life expectancy is high.",
+          "Different life expectancies."
+        ]
+      },
+      "notes": "复数形式为 levensverwachtingen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2143,
+      "word": "levering",
+      "translation": {
+        "chinese": "交付",
+        "english": "delivery"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "levering",
+          "plural": "leveringen"
+        }
+      },
+      "examples": [
+        "De logistieke keten werken nauw samen om de levering van pakketten te optimaliseren.",
+        "De e-commerce gigant beloofde nieuwe distributiecentra en koeriersdiensten in de randgebieden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "高效的物流系统确保了假日购物季期间的准时交付。",
+          "电子商务的兴起改变了零售模式，要求物流供应商提供更快捷、更可靠的服务。"
+        ],
+        "english": [
+          "Efficient logistics systems ensured on-time delivery during the holiday shopping season.",
+          "The rise of e-commerce has changed retail patterns, requiring logistics providers to offer faster and more reliable services."
+        ]
+      },
+      "notes": "复数形式为 leveringen（-ing 结尾的词加 -en）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2144,
+      "word": "lezer",
+      "translation": {
+        "chinese": "读者",
+        "english": "reader"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lezer",
+          "plural": "lezers"
+        }
+      },
+      "examples": [
+        "De digitale boeken hebben nieuwe lezers aangetrokken die interactief content waarderen.",
+        "De uitgever spreekt over hoe technologie de leesgewoontes van jongeren verandert."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这本小说吸引了年轻读者和评论家的关注。",
+          "互动故事元素和引人入胜的情节让各个年龄段的读者都能享受阅读乐趣。"
+        ],
+        "english": [
+          "This novel attracted young readers and attention from critics.",
+          "Interactive story elements and engaging plot allow readers of all ages to enjoy the reading experience."
+        ]
+      },
+      "notes": "复数形式为 lezers",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2145,
+      "word": "lichamelijk",
+      "translation": {
+        "chinese": "身体的",
+        "english": "physical"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "lichamelijk",
+          "withDe": "lichamelijke",
+          "withHet": "lichamelijke",
+          "comparative": "lichamelijker",
+          "superlative": "het lichamelijkst"
+        }
+      },
+      "examples": [
+        "De arbeidsomstandigheden vereisen dat werknemers hun lichamelijke grenzen respecteren.",
+        "Bedrijven voeren fysieke ergonomieprogramma's aan om arbeidsletsels te voorkomen en het comfort te verhogen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这位运动员在经历了严重受伤后，通过物理治疗重新获得竞技状态。",
+          "劳动法规定雇主必须为员工提供安全的工作环境，预防工作相关伤害。"
+        ],
+        "english": [
+          "After sustaining a serious injury, this athlete regained competitive condition through physical therapy.",
+          "Labor laws require employers to provide safe working environments for employees, preventing work-related injuries."
+        ]
+      },
+      "notes": "比较级和最高级规则：lichamelijk - lichamelijkker - lichamelijkst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2146,
+      "word": "lichtbron",
+      "translation": {
+        "chinese": "光源",
+        "english": "light source"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lichtbron",
+          "plural": "lichtbronnen"
+        }
+      },
+      "examples": [
+        "De zonne-energiecentrale leveren schone, hernieuwbare energie die talloze huizen van elektriciteit voorziet.",
+        "Overal maakt men de overgang naar duurzame energiebronnen en vermindert afhankelijkheid van fossiele brandstoffen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "创新的LED照明技术提供了明亮、节能的照明解决方案。",
+          "太阳能发电厂和风能技术的普及为可再生能源奠定了基础，推动能源转型。"
+        ],
+        "english": [
+          "Innovative LED lighting technology provides bright and energy-efficient lighting solutions.",
+          "The widespread adoption of solar power plants and wind energy has laid the foundation for renewable energy, driving the energy transition."
+        ]
+      },
+      "notes": "复数形式为 lichtbronnen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2147,
+      "word": "lichtelijk",
+      "translation": {
+        "chinese": "容易的",
+        "english": "easy"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "lichtelijk",
+          "withDe": "lichtelijken",
+          "withHet": "lichtelijken",
+          "comparative": "lichtelijker",
+          "superlative": "het lichtelijkst"
+        }
+      },
+      "examples": [
+        "Het is lichtelijk.",
+        "Een lichtelijken taak."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是容易的。",
+          "容易的任务。"
+        ],
+        "english": [
+          "It is easy.",
+          "An easy task."
+        ]
+      },
+      "notes": "比较级和最高级规则：lichtelijk - lichtelijker - lichtelijkst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2148,
+      "word": "lichtgewicht",
+      "translation": {
+        "chinese": "轻量级",
+        "english": "lightweight"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "lichtgewicht",
+          "withDe": "lichtgewichtige",
+          "withHet": "lichtgewichtige",
+          "comparative": null,
+          "superlative": null
+        }
+      },
+      "examples": [
+        "De ultralicht materialen maken modern vliegtuigen mogelijk voor langdurige ruimtereizen.",
+        "Innovatieve bedrijven produceren lichtgewichtige componenten voor de lucht- en ruimtevaart industrie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "使用超轻材料可以大幅减少飞机的燃料消耗。",
+          "航空航天工业持续寻找更轻、更强的材料以提高燃油效率和飞行距离。"
+        ],
+        "english": [
+          "Using ultra-light materials can significantly reduce aircraft fuel consumption.",
+          "The aerospace industry continues to seek lighter and stronger materials to improve fuel efficiency and flight range."
+        ]
+      },
+      "notes": "不比较",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2149,
+      "word": "lidmaatschap",
+      "translation": {
+        "chinese": "会员资格",
+        "english": "membership"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "lidmaatschap",
+          "plural": "lidmaatschappen"
+        }
+      },
+      "examples": [
+        "Het lidmaatschap is belangrijk.",
+        "Verschillende lidmaatschappen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "会员资格重要。",
+          "不同的会员资格。"
+        ],
+        "english": [
+          "The membership is important.",
+          "Different memberships."
+        ]
+      },
+      "notes": "复数形式为 lidmaatschappen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2150,
+      "word": "lied",
+      "translation": {
+        "chinese": "歌曲",
+        "english": "song"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "lied",
+          "plural": "liederen"
+        }
+      },
+      "examples": [
+        "De componist schreef een symfonie die door haar melodische lijn ontroert.",
+        "Het volkslied zingt het lied met diepe emotie tijdens het jaarlijkse festival."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这首民歌承载着几代人的记忆和文化传统。",
+          "音乐节上，这首关于家乡和传统的民歌引发了观众强烈的共鸣和掌声。"
+        ],
+        "english": [
+          "This folk song carries the memories and cultural traditions of several generations.",
+          "At the music festival, this folk song about hometown and traditions evoked strong resonance and applause from the audience."
+        ]
+      },
+      "notes": "复数形式为 liederen（不规则复数）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2152,
+      "word": "ligging",
+      "translation": {
+        "chinese": "位置",
+        "english": "location"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ligging",
+          "plural": "liggingen"
+        }
+      },
+      "examples": [
+        "De strategische ligging van het nieuwe kantoorpand biedt uitstekende toegang tot openbaar vervoer.",
+        "Bedrijven kiezen locaties op basis van transportverbindingen, arbeidskrachten en beschikbaarheid van geschoold personeel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个优越的地理位置为企业带来了显著竞争优势。",
+          "靠近高速公路和物流枢纽的战略位置大大降低了运输成本并提高了运营效率。"
+        ],
+        "english": [
+          "The strategic location offers significant competitive advantages to the company.",
+          "Proximity to highways and logistics hubs greatly reduces transportation costs and improves operational efficiency."
+        ]
+      },
+      "notes": "复数形式为 liggingen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2153,
+      "word": "lijden",
+      "translation": {
+        "chinese": "遭受",
+        "english": "to suffer"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "lijden",
+          "isSeparable": false,
+          "present": {
+            "ik": "lijdt",
+            "jij": "lijdt",
+            "hij": "lijdt",
+            "wij": "lijden",
+            "jullie": "lijden",
+            "zij": "lijden"
+          },
+          "past": {
+            "singular": "leed",
+            "plural": "leden"
+          },
+          "pastParticiple": "geleden",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De patiënt beschrijft een doffe pijn in haar rug die chronisch is en behandeling vereist.",
+        "Chronische pijn kan de kwaliteit van het leven aanzienlijk beïnvloeden en sociale participatie beperken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "慢性疼痛严重影响患者的工作能力和社交生活。",
+          "多学科协作的治疗方法，包括物理治疗、心理支持和药物治疗，能够更有效地管理慢性疼痛。"
+        ],
+        "english": [
+          "Chronic pain significantly affects a patient's work ability and social life.",
+          "Multidisciplinary treatment approaches, including physical therapy, psychological support, and medication, can manage chronic pain more effectively."
+        ]
+      },
+      "notes": "不规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2154,
+      "word": "lijf",
+      "translation": {
+        "chinese": "身体",
+        "english": "body"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "lijf",
+          "plural": "lijven"
+        }
+      },
+      "examples": [
+        "De sportwetenschapper heeft een lijf opgebouwd door jarenlang training en gevarieerde voeding.",
+        "Zijn krachtige prestaties weerspiegelen in de sportgeschiedenis als inspiratiebron voor atleten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这位运动员通过科学训练和严格营养计划获得了冠军体格。",
+          "他的强壮体魄和出色的技术让他在比赛中脱颖而出，成为年轻运动员的榜样。"
+        ],
+        "english": [
+          "This athlete achieved a champion physique through scientific training and strict nutrition plans.",
+          "His strong physique and excellent technique made him stand out in competitions, becoming a role model for young athletes."
+        ]
+      },
+      "notes": "复数形式为 lijven",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2155,
+      "word": "lijk",
+      "translation": {
+        "chinese": "尸体",
+        "english": "body"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "lijk",
+          "plural": "lijken"
+        }
+      },
+      "examples": [
+        "De forensisch onderzoek van het lijk leidde tot de arrestatie van de verdachte.",
+        "De familie van het slachtoffer maakte een formele identificatie van het stoffelijk overschot voor een waardige begrafenis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "法医鉴定结果确认了死者身份并协助破案调查。",
+          "警方通过DNA分析确定了受害者身份，为案件侦破提供了关键线索。"
+        ],
+        "english": [
+          "The forensic examination confirmed the deceased's identity and assisted in the investigation of the murder.",
+          "Police identified the victim through DNA analysis, providing key clues for solving the case."
+        ]
+      },
+      "notes": "复数形式为 lijken",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2156,
+      "word": "lijm",
+      "translation": {
+        "chinese": "胶水",
+        "english": "glue"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lijm",
+          "plural": "lijmen"
+        }
+      },
+      "examples": [
+        "De ambachtslieder wacht tot de lijm volledig is voordat ze het kunstwerk kunnen vastzetten.",
+        "De restaurateur gebruikte een speciale lijm om het fragiele kunstwerk te herstellen zonder schade."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "修复古老艺术品需要专业的知识和耐心。",
+          "文物保护专家使用特制的粘合剂和精细的修复技术，确保了这件18世纪画作的原貌。"
+        ],
+        "english": [
+          "Restoring ancient artworks requires professional knowledge and patience.",
+          "Conservation experts used special adhesives and fine restoration techniques to preserve the original appearance of this 18th-century painting."
+        ]
+      },
+      "notes": "复数形式为 lijmen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2157,
+      "word": "lijn",
+      "translation": {
+        "chinese": "线",
+        "english": "line"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lijn",
+          "plural": "lijnen"
+        }
+      },
+      "examples": [
+        "De architectuur tekende een nieuwe spoorlijn die rechte lijnen volgt om de capaciteit te verhogen.",
+        "Het projectmanagement besliste een nauwkeurige planning om de uitvoering op tijd te voltooien."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个严格的几何要求确保了结构的稳定性和视觉效果。",
+          "建筑事务所使用了先进的建模软件来计算和优化线路设计，以实现最佳的负载分布。"
+        ],
+        "english": [
+          "The strict geometric requirements ensured structural stability and visual consistency.",
+          "The architectural firm used advanced modeling software to calculate and optimize the line design to achieve optimal load distribution."
+        ]
+      },
+      "notes": "复数形式为 lijnen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2158,
+      "word": "limiet",
+      "translation": {
+        "chinese": "限制",
+        "english": "limit"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "limiet",
+          "plural": "limieten"
+        }
+      },
+      "examples": [
+        "De productielimietatie van de fabriek dwong de efficiëntie tot het limiet van 95%.",
+        "De natuurwetgever stelde nieuwe emissienormen om de uitstoot van bedrijven te limiteren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "为了保护环境，工厂必须严格遵守排放限制。",
+          "环保组织推动更严格的排放标准，要求工业设施安装先进的过滤和监测系统。"
+        ],
+        "english": [
+          "To protect the environment, the factory must strictly adhere to emission limits.",
+          "Environmental agencies are pushing stricter emission standards, requiring industrial facilities to install advanced filtration and monitoring systems."
+        ]
+      },
+      "notes": "复数形式为 limieten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2159,
+      "word": "limiteren",
+      "translation": {
+        "chinese": "限制",
+        "english": "to limit"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "limiteren",
+          "isSeparable": false,
+          "present": {
+            "ik": "limiteer",
+            "jij": "limiteert",
+            "hij": "limiteert",
+            "wij": "limiteren",
+            "jullie": "limiteren",
+            "zij": "limiteren"
+          },
+          "past": {
+            "singular": "limiteerde",
+            "plural": "limiteerden"
+          },
+          "pastParticiple": "gelimiteerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De telecommunicatieprovider limiteert de databundeling om overgebruik te voorkomen.",
+        "Het gezin voert een campagne om bewust gebruik van data te bevorderen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "用户对数据使用的限制反映了隐私权保护的重视。",
+          "数据保护法规要求服务提供商实施透明的数据收集政策，并明确告知用户其权利。"
+        ],
+        "english": [
+          "The limits on data usage reflect the importance of privacy protection.",
+          "Data protection regulations require service providers to implement transparent data collection policies and clearly inform users of their rights."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2160,
+      "word": "lint",
+      "translation": {
+        "chinese": "丝带",
+        "english": "ribbon"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "lint",
+          "plural": "linten"
+        }
+      },
+      "examples": [
+        "Het lint is rood.",
+        "Verschillende linten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "丝带红色。",
+          "不同的丝带。"
+        ],
+        "english": [
+          "The ribbon is red.",
+          "Different ribbons."
+        ]
+      },
+      "notes": "复数形式为 linten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2161,
+      "word": "literair",
+      "translation": {
+        "chinese": "文学的",
+        "english": "literary"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "literair",
+          "withDe": "literaire",
+          "withHet": "literaire",
+          "comparative": "literairer",
+          "superlative": "het literairst"
+        }
+      },
+      "examples": [
+        "De dichter won de Nobelprijs voor zijn meesterwerk dat de levens van gewone mensen beschrijft.",
+        "Literaire critici prijzen het diepe diepte van zijn werk en de universele thema's die hij aanroert."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这部小说被公认为文学史上的重要里程碑。",
+          "作品中对人性、社会议题的深刻探讨和优美的散文风格使其获得了广泛的文学赞誉。"
+        ],
+        "english": [
+          "This novel is widely recognized as an important milestone in literary history.",
+          "The profound exploration of human nature and social issues, along with the beautiful prose style, earned it widespread literary acclaim."
+        ]
+      },
+      "notes": "比较级和最高级规则：literair - literairer - literairst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2162,
+      "word": "literatuur",
+      "translation": {
+        "chinese": "文学",
+        "english": "literature"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "literatuur",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het nationaal literatuurmuseum bewaart miljoenen boeken en manuscripten uit de Nederlandse geschiedenis.",
+        "Onderzoek naar de invloed van klassieke werken draagt bij aan het behoud van cultureel erfgoed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "国家文学博物馆保存着珍贵的文化遗产，让后代能够欣赏和学习。",
+          "文学教育项目通过展示古典作品来培养学生的审美品味和文化认同感。"
+        ],
+        "english": [
+          "The national literature museum preserves millions of books and manuscripts from Dutch history.",
+          "Literature education projects cultivate students' aesthetic taste and cultural identity by showcasing classical works."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2163,
+      "word": "locatie",
+      "translation": {
+        "chinese": "位置",
+        "english": "location"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "locatie",
+          "plural": "locaties"
+        }
+      },
+      "examples": [
+        "De logistiek centrum stroomlijnd duizenden goederen door heel Europa en daarbuiten.",
+        "Geavanceerde magazijnen en geautomatiseerde sorteersystemen maken distributie efficiënter mogelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个物流枢纽位于欧洲的中心位置，战略价值极高。",
+          "便利的交通网络和现代化仓储设施使该物流中心能够快速处理大规模货物，为整个欧洲供应链提供关键支持。"
+        ],
+        "english": [
+          "This logistics hub is located in the center of Europe with extremely high strategic value.",
+          "Convenient transport networks and modernized warehousing facilities enable this logistics center to handle large-scale goods quickly, providing critical support for the entire European supply chain."
+        ]
+      },
+      "notes": "复数形式为 locaties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2165,
+      "word": "logistiek",
+      "translation": {
+        "chinese": "物流",
+        "english": "logistics"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "logistiek",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De logistiek is goed.",
+        "Veel logistiek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "物流很好。",
+          "很大物流。"
+        ],
+        "english": [
+          "Logistics is good.",
+          "Much logistics."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2166,
+      "word": "lojaliteit",
+      "translation": {
+        "chinese": "忠诚",
+        "english": "loyalty"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lojaliteit",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De getrouwe lojaliteit van klanten is de sterkste concurrentievoordeel in de markt.",
+        "Bedrijven investeren in loyaliteitsprogramma's om klantenbindingen te versterken en retentiepercentages te verhogen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "忠诚的客户群为企业带来了稳定的收入和长期成功。",
+          "建立品牌忠诚度需要一致性、可靠性和卓越的客户服务，这是实现可持续增长的基础。"
+        ],
+        "english": [
+          "A loyal customer base brings stable revenue and long-term success to the company.",
+          "Building brand loyalty requires consistency, reliability, and excellent customer service, which is the foundation for sustainable growth."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2167,
+      "word": "loket",
+      "translation": {
+        "chinese": "窗口",
+        "english": "counter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "loket",
+          "plural": "loketten"
+        }
+      },
+      "examples": [
+        "De balie van het restaurant biedt een prachtig uitzicht op het plein.",
+        "De obers serveert verschillende gerechten en drankjes aan gasten via de servicebalie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这家商店的展示窗口吸引着大量行人的目光。",
+          "精心设计的橱窗展示不仅商品，还营造了温馨的购物氛围，吸引顾客驻足欣赏。"
+        ],
+        "english": [
+          "The display window of this shop attracts the attention of many passersby.",
+          "The carefully designed display window not only showcases products but also creates a warm shopping atmosphere, enticing customers to stop and admire."
+        ]
+      },
+      "notes": "复数形式为 loketten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2168,
+      "word": "long",
+      "translation": {
+        "chinese": "肺",
+        "english": "lung"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "long",
+          "plural": "longen"
+        }
+      },
+      "examples": [
+        "De long is gezond.",
+        "Verschillende longen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "肺健康。",
+          "不同的肺。"
+        ],
+        "english": [
+          "The lung is healthy.",
+          "Different lungs."
+        ]
+      },
+      "notes": "复数形式为 longen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2169,
+      "word": "lood",
+      "translation": {
+        "chinese": "铅",
+        "english": "lead"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "lood",
+          "plural": "looden"
+        }
+      },
+      "examples": [
+        "De waterdichte loodconstructie in het historisch centrum is een architectonisch meesterwerk.",
+        "De stad renoveert looddeleiding om de gezondheid van de inwoners te verbeteren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这些古老的铅制管道仍然是城市文化遗产的一部分。",
+          "历史中心的铅制管道展示了19世纪工程技术成就，虽然已经不再使用，但作为历史遗迹受到保护。"
+        ],
+        "english": [
+          "These ancient lead pipes remain part of the city's cultural heritage.",
+          "The lead pipes in the historic center showcase 19th-century engineering achievements, although no longer in use, they are protected as historical relics."
+        ]
+      },
+      "notes": "复数形式为 looden",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2170,
+      "word": "loon",
+      "translation": {
+        "chinese": "工资",
+        "english": "wage"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "loon",
+          "plural": "lonen"
+        }
+      },
+      "examples": [
+        "De CAO en de vakbond onderhandelden over een nieuwe loneregeling.",
+        "De werknemers eisen hogere lonen om de stijgende kosten van levensonderhoud te dekken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "技术行业的高薪吸引了大量人才，但也加剧了房价压力。",
+          "为了留住核心人才，科技公司提供有竞争力的薪酬包，包括股权激励和灵活的工作安排。"
+        ],
+        "english": [
+          "High salaries in the tech industry attract lots of talent but also increase housing cost pressures.",
+          "To retain core talent, tech companies offer competitive compensation packages, including equity incentives and flexible work arrangements."
+        ]
+      },
+      "notes": "复数形式为 lonen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2171,
+      "word": "loskoppelen",
+      "translation": {
+        "chinese": "分离",
+        "english": "to disconnect"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "loskoppelen",
+          "isSeparable": true,
+          "present": {
+            "ik": "koppel los",
+            "jij": "koppelt los",
+            "hij": "koppelt los",
+            "wij": "koppelen los",
+            "jullie": "koppelen los",
+            "zij": "koppelen los"
+          },
+          "past": {
+            "singular": "koppelde los",
+            "plural": "koppelden los"
+          },
+          "pastParticiple": "losgekoppeld",
+          "pastParticipleAuxiliary": "hebben",
+          "prefix": "l"
+        }
+      },
+      "examples": [
+        "Ik koppel het systeem los.",
+        "Hij koppelt de apparaten los."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我分离这个系统。",
+          "他分离这些设备。"
+        ],
+        "english": [
+          "I disconnect the system.",
+          "He disconnects the devices."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2172,
+      "word": "loslaten",
+      "translation": {
+        "chinese": "放开",
+        "english": "to let go"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "loslaten",
+          "isSeparable": true,
+          "present": {
+            "ik": "laat los",
+            "jij": "laat los",
+            "hij": "laat los",
+            "wij": "laten los",
+            "jullie": "laten los",
+            "zij": "laten los"
+          },
+          "past": {
+            "singular": "liet los",
+            "plural": "lieten los"
+          },
+          "pastParticiple": "losgelaten",
+          "pastParticipleAuxiliary": "hebben",
+          "prefix": "l"
+        }
+      },
+      "examples": [
+        "Ik laat het los.",
+        "Hij laat de hond los."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我放开它。",
+          "他放开狗。"
+        ],
+        "english": [
+          "I let it go.",
+          "He lets the dog go."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2173,
+      "word": "loterij",
+      "translation": {
+        "chinese": "彩票",
+        "english": "lottery"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "loterij",
+          "plural": "loterijen"
+        }
+      },
+      "examples": [
+        "De loterij is gewonnen.",
+        "Verschillende loterijen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "彩票赢了。",
+          "不同的彩票。"
+        ],
+        "english": [
+          "The lottery is won.",
+          "Different lotteries."
+        ]
+      },
+      "notes": "复数形式为 loterijen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2174,
+      "word": "louter",
+      "translation": {
+        "chinese": "纯粹",
+        "english": "sheer"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "louter"
+        }
+      },
+      "examples": [
+        "Het is louter.",
+        "Hij louter werkt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是纯粹的。",
+          "他纯粹工作。"
+        ],
+        "english": [
+          "It is sheer.",
+          "He works sheer."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2175,
+      "word": "luchtig",
+      "translation": {
+        "chinese": "多风的",
+        "english": "breezy"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "luchtig",
+          "withDe": "luchtige",
+          "withHet": "luchtige",
+          "comparative": "luchtiger",
+          "superlative": "het luchtigst"
+        }
+      },
+      "examples": [
+        "Het is luchtig.",
+        "Een luchtige dag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是多风的。",
+          "多风的一天。"
+        ],
+        "english": [
+          "It is breezy.",
+          "A breezy day."
+        ]
+      },
+      "notes": "比较级和最高级规则：luchtig - luchtiger - luchtigst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2176,
+      "word": "luchtkwaliteit",
+      "translation": {
+        "chinese": "空气质量",
+        "english": "air quality"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "luchtkwaliteit",
+          "plural": "luchtkwaliteiten"
+        }
+      },
+      "examples": [
+        "De luchtkwaliteit is goed.",
+        "Verschillende luchtkwaliteiten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "空气质量很好。",
+          "不同的空气质量。"
+        ],
+        "english": [
+          "Air quality is good.",
+          "Different air qualities."
+        ]
+      },
+      "notes": "复数形式为 luchtkwaliteiten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2177,
+      "word": "luchtwegen",
+      "translation": {
+        "chinese": "呼吸道",
+        "english": "airways"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "luchtweg",
+          "plural": "luchtwegen"
+        }
+      },
+      "examples": [
+        "De luchtwegen zijn open.",
+        "Verschillende luchtwegen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "呼吸道打开。",
+          "不同的呼吸道。"
+        ],
+        "english": [
+          "The airways are open.",
+          "Different airways."
+        ]
+      },
+      "notes": "复数形式为 luchtwegen",
+      "difficulty": "B1"
+    }
+  ]
+}

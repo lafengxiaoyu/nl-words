@@ -1,0 +1,1715 @@
+{
+  "id": "lB105",
+  "level": "B1",
+  "lessonNumber": 5,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 1478,
+      "word": "centraal",
+      "translation": {
+        "chinese": "中央的、中心的",
+        "english": "central"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "centraal",
+          "withDe": "centrale",
+          "withHet": "centrale",
+          "comparative": "centraler",
+          "superlative": "het centraalst"
+        }
+      },
+      "examples": [
+        "De plaats is centraal.",
+        "Een centrale locatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "位置在中央。",
+          "一个中心地点。"
+        ],
+        "english": [
+          "The location is central.",
+          "A central location."
+        ]
+      },
+      "notes": "比较级和最高级规则：centraal - centraler - centraalst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1479,
+      "word": "centrum",
+      "translation": {
+        "chinese": "中心、市中心",
+        "english": "center, city center"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "centrum",
+          "plural": "centra"
+        }
+      },
+      "examples": [
+        "Het centrum is druk.",
+        "In het centrum."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "市中心很忙。",
+          "在市中心。"
+        ],
+        "english": [
+          "The center is busy.",
+          "In center."
+        ]
+      },
+      "notes": "复数形式为 centra（元音变化）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1480,
+      "word": "ceremonie",
+      "translation": {
+        "chinese": "仪式、典礼",
+        "english": "ceremony"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ceremonie",
+          "plural": "ceremoniën"
+        }
+      },
+      "examples": [
+        "De ceremonie start.",
+        "Een officiële ceremonie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "仪式开始了。",
+          "一个正式仪式。"
+        ],
+        "english": [
+          "The ceremony starts.",
+          "An official ceremony."
+        ]
+      },
+      "notes": "复数形式为 ceremoniën（-ie 结尾的词变 -iën）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1481,
+      "word": "certificaat",
+      "translation": {
+        "chinese": "证书",
+        "english": "certificate"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "certificaat",
+          "plural": "certificaten"
+        }
+      },
+      "examples": [
+        "Het certificaat is belangrijk.",
+        "Een nieuw certificaat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "证书很重要。",
+          "一个新证书。"
+        ],
+        "english": [
+          "The certificate is important.",
+          "A new certificate."
+        ]
+      },
+      "notes": "复数形式为 certificaten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1482,
+      "word": "chantage",
+      "translation": {
+        "chinese": "勒索",
+        "english": "blackmail"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "chantage",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De chantage is erg.",
+        "Geen chantage."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "勒索很严重。",
+          "没有勒索。"
+        ],
+        "english": [
+          "The blackmail is bad.",
+          "No blackmail."
+        ]
+      },
+      "notes": "不可数名词，外来词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1483,
+      "word": "chaos",
+      "translation": {
+        "chinese": "混乱",
+        "english": "chaos"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "chaos",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het chaos is groot.",
+        "Vol chaos."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "混乱很大。",
+          "充满混乱。"
+        ],
+        "english": [
+          "The chaos is great.",
+          "Full of chaos."
+        ]
+      },
+      "notes": "不可数名词，外来词，用法与英语相同",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1484,
+      "word": "charme",
+      "translation": {
+        "chinese": "魅力",
+        "english": "charm"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "charme",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Zij heeft veel charme.",
+        "De charme van de stad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她很有魅力。",
+          "城市的魅力。"
+        ],
+        "english": [
+          "She has a lot of charm.",
+          "The charm of the city."
+        ]
+      },
+      "notes": "不可数名词，外来词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1485,
+      "word": "checken",
+      "translation": {
+        "chinese": "检查",
+        "english": "to check"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "checken",
+          "isSeparable": false,
+          "present": {
+            "ik": "check",
+            "jij": "checkt",
+            "hij": "checkt",
+            "wij": "checken",
+            "jullie": "checken",
+            "zij": "checken"
+          },
+          "past": {
+            "singular": "checkte",
+            "plural": "checkten"
+          },
+          "pastParticiple": "gecheckt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik check de mail.",
+        "Check je werk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我检查邮件。",
+          "检查你的工作。"
+        ],
+        "english": [
+          "I check the mail.",
+          "Check your work."
+        ]
+      },
+      "notes": "外来动词，规则变化",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1486,
+      "word": "chemisch",
+      "translation": {
+        "chinese": "化学的",
+        "english": "chemical"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "chemisch",
+          "withDe": "chemische",
+          "withHet": "chemische",
+          "comparative": "chemischer",
+          "superlative": "het chemischst"
+        }
+      },
+      "examples": [
+        "Het proces is chemisch.",
+        "Een chemische reactie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个过程是化学的。",
+          "一个化学反应。"
+        ],
+        "english": [
+          "The process is chemical.",
+          "A chemical reaction."
+        ]
+      },
+      "notes": "比较级和最高级规则：chemisch - chemischer - chemischst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1487,
+      "word": "chirurg",
+      "translation": {
+        "chinese": "外科医生",
+        "english": "surgeon"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "chirurg",
+          "plural": "chirurgen"
+        }
+      },
+      "examples": [
+        "De chirurg is druk.",
+        "Een goede chirurg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "外科医生很忙。",
+          "一个好的外科医生。"
+        ],
+        "english": [
+          "The surgeon is busy.",
+          "A good surgeon."
+        ]
+      },
+      "notes": "复数形式为 chirurgen（不规则变化，由 -g 变为 -gen）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1488,
+      "word": "circulatie",
+      "translation": {
+        "chinese": "循环、流通",
+        "english": "circulation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "circulatie",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De circulatie is goed.",
+        "Bloedcirculatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "循环很好。",
+          "血液循环。"
+        ],
+        "english": [
+          "The circulation is good.",
+          "Blood circulation."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1489,
+      "word": "cirkel",
+      "translation": {
+        "chinese": "圆、圆圈",
+        "english": "circle"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "cirkel",
+          "plural": "cirkels"
+        }
+      },
+      "examples": [
+        "De cirkel is groot.",
+        "Teken een cirkel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "圆圈很大。",
+          "画一个圆。"
+        ],
+        "english": [
+          "The circle is large.",
+          "Draw a circle."
+        ]
+      },
+      "notes": "复数形式为 cirkels",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1490,
+      "word": "citaat",
+      "translation": {
+        "chinese": "引用语",
+        "english": "quote, citation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "citaat",
+          "plural": "citaten"
+        }
+      },
+      "examples": [
+        "Het citaat is bekend.",
+        "Een beroemd citaat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个引用很有名。",
+          "一个著名的引用语。"
+        ],
+        "english": [
+          "The quote is famous.",
+          "A famous quote."
+        ]
+      },
+      "notes": "复数形式为 citaten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1491,
+      "word": "citeren",
+      "translation": {
+        "chinese": "引用",
+        "english": "to quote, to cite"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "citeren",
+          "isSeparable": false,
+          "present": {
+            "ik": "citeer",
+            "jij": "citeert",
+            "hij": "citeert",
+            "wij": "citeren",
+            "jullie": "citeren",
+            "zij": "citeren"
+          },
+          "past": {
+            "singular": "citeerde",
+            "plural": "citeerden"
+          },
+          "pastParticiple": "geciteerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik citeer hem.",
+        "Hij citeert het boek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我引用他。",
+          "他引用这本书。"
+        ],
+        "english": [
+          "I quote him.",
+          "He quotes the book."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1492,
+      "word": "claim",
+      "translation": {
+        "chinese": "索赔、声明",
+        "english": "claim, demand"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "claim",
+          "plural": "claims"
+        }
+      },
+      "examples": [
+        "De claim is groot.",
+        "Een nieuwe claim."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "索赔金额很大。",
+          "一个新的索赔。"
+        ],
+        "english": [
+          "The claim is large.",
+          "A new claim."
+        ]
+      },
+      "notes": "复数形式为 claims（外来词，英语借词）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1493,
+      "word": "cliché",
+      "translation": {
+        "chinese": "陈词滥调",
+        "english": "cliché"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "cliché",
+          "plural": "clichés"
+        }
+      },
+      "examples": [
+        "Dat is een cliché.",
+        "Geen clichés."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那是陈词滥调。",
+          "没有陈词滥调。"
+        ],
+        "english": [
+          "That is a cliché.",
+          "No clichés."
+        ]
+      },
+      "notes": "复数形式为 clichés（保留重音）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1494,
+      "word": "cliënteel",
+      "translation": {
+        "chinese": "客户群、客户",
+        "english": "clientele, clients"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "cliënteel",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het cliënteel groeit.",
+        "Een groot cliënteel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "客户群在增长。",
+          "一个大的客户群。"
+        ],
+        "english": [
+          "The clientele grows.",
+          "A large clientele."
+        ]
+      },
+      "notes": "不可数名词，集合名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1495,
+      "word": "club",
+      "translation": {
+        "chinese": "俱乐部",
+        "english": "club"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "club",
+          "plural": "clubs"
+        }
+      },
+      "examples": [
+        "De club is populair.",
+        "In de club."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个俱乐部很受欢迎。",
+          "在俱乐部里。"
+        ],
+        "english": [
+          "The club is popular.",
+          "In the club."
+        ]
+      },
+      "notes": "复数形式为 clubs",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1496,
+      "word": "coach",
+      "translation": {
+        "chinese": "教练",
+        "english": "coach"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "coach",
+          "plural": "coaches"
+        }
+      },
+      "examples": [
+        "De coach spreekt.",
+        "Een goede coach."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "教练在讲话。",
+          "一个好教练。"
+        ],
+        "english": [
+          "The coach speaks.",
+          "A good coach."
+        ]
+      },
+      "notes": "复数形式为 coaches",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1497,
+      "word": "coaching",
+      "translation": {
+        "chinese": "辅导、指导",
+        "english": "coaching"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "coaching",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De coaching is goed.",
+        "Nieuwe coaching."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "指导很好。",
+          "新的辅导。"
+        ],
+        "english": [
+          "The coaching is good.",
+          "New coaching."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1498,
+      "word": "code",
+      "translation": {
+        "chinese": "代码、密码",
+        "english": "code"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "code",
+          "plural": "codes"
+        }
+      },
+      "examples": [
+        "De code is verkeerd.",
+        "Een geheime code."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "密码错了。",
+          "一个秘密代码。"
+        ],
+        "english": [
+          "The code is wrong.",
+          "A secret code."
+        ]
+      },
+      "notes": "复数形式为 codes",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1499,
+      "word": "cognitief",
+      "translation": {
+        "chinese": "认知的",
+        "english": "cognitive"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "cognitief",
+          "withDe": "cognitieve",
+          "withHet": "cognitieve",
+          "comparative": "cognitiever",
+          "superlative": "het cognitiefst"
+        }
+      },
+      "examples": [
+        "Het proces is cognitief.",
+        "Cognitieve ontwikkeling."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个过程是认知的。",
+          "认知发展。"
+        ],
+        "english": [
+          "The process is cognitive.",
+          "Cognitive development."
+        ]
+      },
+      "notes": "比较级和最高级规则：cognitief - cognitiever - cognitiefst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1500,
+      "word": "collectie",
+      "translation": {
+        "chinese": "收藏、集合",
+        "english": "collection"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "collectie",
+          "plural": "collecties"
+        }
+      },
+      "examples": [
+        "De collectie is groot.",
+        "Nieuwe collectie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "收藏很大。",
+          "新收藏。"
+        ],
+        "english": [
+          "The collection is large.",
+          "New collection."
+        ]
+      },
+      "notes": "复数形式为 collecties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1501,
+      "word": "collectief",
+      "translation": {
+        "chinese": "集体的、共同的",
+        "english": "collective, collective"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "collectief",
+          "withDe": "collectieve",
+          "withHet": "collectieve",
+          "comparative": "collectiever",
+          "superlative": "het collectiefst"
+        }
+      },
+      "examples": [
+        "Het is collectief.",
+        "Collectieve actie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是集体的。",
+          "集体行动。"
+        ],
+        "english": [
+          "It is collective.",
+          "Collective action."
+        ]
+      },
+      "notes": "比较级和最高级规则：collectief - collectiever - collectiefst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1502,
+      "word": "combinatie",
+      "translation": {
+        "chinese": "组合、结合",
+        "english": "combination"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "combinatie",
+          "plural": "combinaties"
+        }
+      },
+      "examples": [
+        "De combinatie is goed.",
+        "Een nieuwe combinatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个组合很好。",
+          "一个新的组合。"
+        ],
+        "english": [
+          "The combination is good.",
+          "A new combination."
+        ]
+      },
+      "notes": "复数形式为 combinaties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1503,
+      "word": "combineren",
+      "translation": {
+        "chinese": "组合、结合",
+        "english": "to combine"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "combineren",
+          "isSeparable": false,
+          "present": {
+            "ik": "combineer",
+            "jij": "combineert",
+            "hij": "combineert",
+            "wij": "combineren",
+            "jullie": "combineren",
+            "zij": "combineren"
+          },
+          "past": {
+            "singular": "combineerde",
+            "plural": "combineerden"
+          },
+          "pastParticiple": "gecombineerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik combineer de kleuren.",
+        "Hij combineert werk en privé."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我组合颜色。",
+          "他结合工作和私人生活。"
+        ],
+        "english": [
+          "I combine the colors.",
+          "He combines work and private life."
+        ]
+      },
+      "notes": "规则动词，固定搭配：combineren met（与...结合）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1504,
+      "word": "comité",
+      "translation": {
+        "chinese": "委员会",
+        "english": "committee"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "comité",
+          "plural": "comités"
+        }
+      },
+      "examples": [
+        "Het comité vergadert.",
+        "Nieuw comité."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "委员会开会。",
+          "新委员会。"
+        ],
+        "english": [
+          "The committee meets.",
+          "New committee."
+        ]
+      },
+      "notes": "复数形式为 comités（外来词，保留重音）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1505,
+      "word": "commentaar",
+      "translation": {
+        "chinese": "评论",
+        "english": "comment"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "commentaar",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De commentaar is negatief.",
+        "Geen commentaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "评论是负面的。",
+          "没有评论。"
+        ],
+        "english": [
+          "The comment is negative.",
+          "No comments."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1506,
+      "word": "commercieel",
+      "translation": {
+        "chinese": "商业的",
+        "english": "commercial"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "commercieel",
+          "withDe": "commerciële",
+          "withHet": "commerciële",
+          "comparative": "commercieeler",
+          "superlative": "het commercieelst"
+        }
+      },
+      "examples": [
+        "Het project is commercieel.",
+        "Commerciële success."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个项目是商业的。",
+          "商业成功。"
+        ],
+        "english": [
+          "The project is commercial.",
+          "Commercial success."
+        ]
+      },
+      "notes": "比较级和最高级规则：commercieel - commercieeler - commercieelst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1507,
+      "word": "commissie",
+      "translation": {
+        "chinese": "委员会",
+        "english": "commission"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "commissie",
+          "plural": "commissies"
+        }
+      },
+      "examples": [
+        "De commissie vergadert.",
+        "Nieuwe commissie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "委员会开会。",
+          "新委员会。"
+        ],
+        "english": [
+          "The commission meets.",
+          "New commission."
+        ]
+      },
+      "notes": "复数形式为 commissies",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1508,
+      "word": "communicatie",
+      "translation": {
+        "chinese": "交流、沟通",
+        "english": "communication"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "communicatie",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De communicatie is goed.",
+        "Goede communicatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "沟通很好。",
+          "良好的沟通。"
+        ],
+        "english": [
+          "The communication is good.",
+          "Good communication."
+        ]
+      },
+      "notes": "不可数名词，常与 met + dat 搭配（communicatie met... 与...的沟通）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1509,
+      "word": "communiceren",
+      "translation": {
+        "chinese": "交流、沟通",
+        "english": "to communicate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "communiceren",
+          "isSeparable": false,
+          "present": {
+            "ik": "communiceer",
+            "jij": "communiceert",
+            "hij": "communiceert",
+            "wij": "communiceren",
+            "jullie": "communiceren",
+            "zij": "communiceren"
+          },
+          "past": {
+            "singular": "communiceerde",
+            "plural": "communiceerden"
+          },
+          "pastParticiple": "gecommuniceerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik communiceer met hem.",
+        "Zij communiceren goed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我与他沟通。",
+          "他们沟通得很好。"
+        ],
+        "english": [
+          "I communicate with him.",
+          "They communicate well."
+        ]
+      },
+      "notes": "规则动词，固定搭配：communiceren met（与...沟通）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1510,
+      "word": "compacter",
+      "translation": {
+        "chinese": "更紧凑的",
+        "english": "more compact"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "compact",
+          "withDe": "compacte",
+          "withHet": "compacte",
+          "comparative": "compacter",
+          "superlative": "het compactst"
+        }
+      },
+      "examples": [
+        "Het is compacter.",
+        "Een compacter model."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "它更紧凑。",
+          "一个更紧凑的型号。"
+        ],
+        "english": [
+          "It is more compact.",
+          "A more compact model."
+        ]
+      },
+      "notes": "比较级和最高级规则：compact - compacter - compactst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1511,
+      "word": "compensatie",
+      "translation": {
+        "chinese": "补偿",
+        "english": "compensation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "compensatie",
+          "plural": "compensaties"
+        }
+      },
+      "examples": [
+        "De compensatie is laag.",
+        "Nieuwe compensatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "补偿很低。",
+          "新补偿。"
+        ],
+        "english": [
+          "The compensation is low.",
+          "New compensation."
+        ]
+      },
+      "notes": "复数形式为 compensaties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1512,
+      "word": "compenseren",
+      "translation": {
+        "chinese": "补偿",
+        "english": "to compensate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "compenseren",
+          "isSeparable": false,
+          "present": {
+            "ik": "compenseer",
+            "jij": "compenseert",
+            "hij": "compenseert",
+            "wij": "compenseren",
+            "jullie": "compenseren",
+            "zij": "compenseren"
+          },
+          "past": {
+            "singular": "compenseerde",
+            "plural": "compenseerden"
+          },
+          "pastParticiple": "gecompenseerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik compenseer het verlies.",
+        "Hij compenseert de kosten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我补偿损失。",
+          "他补偿费用。"
+        ],
+        "english": [
+          "I compensate the loss.",
+          "He compensates the costs."
+        ]
+      },
+      "notes": "规则动词，固定搭配：compenseren voor（为...补偿）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1513,
+      "word": "competentie",
+      "translation": {
+        "chinese": "能力、资格",
+        "english": "competence, skill"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "competentie",
+          "plural": "competenties"
+        }
+      },
+      "examples": [
+        "Zijn competentie is groot.",
+        "Nieuwe competentie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的能力很强。",
+          "新能力。"
+        ],
+        "english": [
+          "His competence is great.",
+          "New competence."
+        ]
+      },
+      "notes": "复数形式为 competenties（-ie 结尾的词变 -iën 或 -ies，这里用 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1514,
+      "word": "competitie",
+      "translation": {
+        "chinese": "竞争",
+        "english": "competition"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "competitie",
+          "plural": "competities"
+        }
+      },
+      "examples": [
+        "De competitie is sterk.",
+        "Nieuwe competitie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "竞争很强。",
+          "新竞争。"
+        ],
+        "english": [
+          "The competition is strong.",
+          "New competition."
+        ]
+      },
+      "notes": "复数形式为 competities（-ie 结尾的词变 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1515,
+      "word": "compleet",
+      "translation": {
+        "chinese": "完整的、完全的",
+        "english": "complete, entire"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "compleet",
+          "withDe": "complete",
+          "withHet": "complete",
+          "comparative": "completer",
+          "superlative": "het compleetst"
+        }
+      },
+      "examples": [
+        "Het boek is compleet.",
+        "Een complete set."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这本书完整。",
+          "一套完整的。"
+        ],
+        "english": [
+          "The book is complete.",
+          "A complete set."
+        ]
+      },
+      "notes": "比较级和最高级规则：compleet - completer - compleetst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1516,
+      "word": "complex",
+      "translation": {
+        "chinese": "复杂的",
+        "english": "complex, complicated"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "complex",
+          "withDe": "complexe",
+          "withHet": "complexe",
+          "comparative": "complexer",
+          "superlative": "het complexst"
+        }
+      },
+      "examples": [
+        "Het probleem is complex.",
+        "Een complexe situatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个问题很复杂。",
+          "一个复杂的情况。"
+        ],
+        "english": [
+          "The problem is complex.",
+          "A complex situation."
+        ]
+      },
+      "notes": "比较级和最高级规则：complex - complexer - complexst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1517,
+      "word": "complicatie",
+      "translation": {
+        "chinese": "并发症",
+        "english": "complication"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "complicatie",
+          "plural": "complicaties"
+        }
+      },
+      "examples": [
+        "Er is een complicatie.",
+        "Meerdere complicaties."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "有并发症。",
+          "多个并发症。"
+        ],
+        "english": [
+          "There is a complication.",
+          "Multiple complications."
+        ]
+      },
+      "notes": "复数形式为 complicaties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1518,
+      "word": "componist",
+      "translation": {
+        "chinese": "作曲家",
+        "english": "composer"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "componist",
+          "plural": "componisten"
+        }
+      },
+      "examples": [
+        "De componist schrijft.",
+        "Een beroemde componist."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "作曲家在写作。",
+          "一个著名的作曲家。"
+        ],
+        "english": [
+          "The composer writes.",
+          "A famous composer."
+        ]
+      },
+      "notes": "复数形式为 componisten（-ist 结尾的词变 -isten）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1519,
+      "word": "compositie",
+      "translation": {
+        "chinese": "构图、组成",
+        "english": "composition"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "compositie",
+          "plural": "composities"
+        }
+      },
+      "examples": [
+        "De compositie is mooi.",
+        "Een nieuwe compositie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "构图很美。",
+          "新构图。"
+        ],
+        "english": [
+          "The composition is beautiful.",
+          "A new composition."
+        ]
+      },
+      "notes": "复数形式为 composities（-ie 结尾的词变 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1520,
+      "word": "compromis",
+      "translation": {
+        "chinese": "妥协",
+        "english": "compromise"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "compromis",
+          "plural": "compromissen"
+        }
+      },
+      "examples": [
+        "Het is een compromis.",
+        "Een slecht compromis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个妥协。",
+          "一个糟糕的妥协。"
+        ],
+        "english": [
+          "It is a compromise.",
+          "A bad compromise."
+        ]
+      },
+      "notes": "复数形式为 compromissen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1521,
+      "word": "concentratie",
+      "translation": {
+        "chinese": "专注、集中",
+        "english": "concentration"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "concentratie",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De concentratie is hoog.",
+        "Goede concentratie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "专注度很高。",
+          "良好的专注。"
+        ],
+        "english": [
+          "The concentration is high.",
+          "Good concentration."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1522,
+      "word": "concentreren",
+      "translation": {
+        "chinese": "集中、专注",
+        "english": "to concentrate, to focus"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "concentreren",
+          "isSeparable": false,
+          "present": {
+            "ik": "concentreer",
+            "jij": "concentreert",
+            "hij": "concentreert",
+            "wij": "concentreren",
+            "jullie": "concentreren",
+            "zij": "concentreren"
+          },
+          "past": {
+            "singular": "concentreerde",
+            "plural": "concentreerden"
+          },
+          "pastParticiple": "geconcentreerd",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Ik concentreer me op het werk.",
+        "Zij concentreert zich."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我专注于工作。",
+          "她专心致志。"
+        ],
+        "english": [
+          "I concentrate on the work.",
+          "She concentrates herself."
+        ]
+      },
+      "notes": "规则动词，使用 zijn 作为助动词（表示状态的改变），固定搭配：zich concentreren op（专注于...）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1523,
+      "word": "concept",
+      "translation": {
+        "chinese": "概念、理念",
+        "english": "concept"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "concept",
+          "plural": "concepten"
+        }
+      },
+      "examples": [
+        "Het concept is nieuw.",
+        "Een goed concept."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个概念很新。",
+          "一个好理念。"
+        ],
+        "english": [
+          "The concept is new.",
+          "A good concept."
+        ]
+      },
+      "notes": "复数形式为 concepten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1524,
+      "word": "concurrent",
+      "translation": {
+        "chinese": "竞争者",
+        "english": "competitor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "concurrent",
+          "plural": "concurrenten"
+        }
+      },
+      "examples": [
+        "De concurrent is sterk.",
+        "Veel concurrenten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "竞争者很强。",
+          "很多竞争者。"
+        ],
+        "english": [
+          "The competitor is strong.",
+          "Many competitors."
+        ]
+      },
+      "notes": "复数形式为 concurrenten（-ent 结尾的词变 -enten）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1525,
+      "word": "concurrentie",
+      "translation": {
+        "chinese": "竞争",
+        "english": "competition"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "concurrentie",
+          "plural": "concurrenties"
+        }
+      },
+      "examples": [
+        "De concurrentie is groot.",
+        "Nieuwe concurrentie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "竞争很大。",
+          "新竞争。"
+        ],
+        "english": [
+          "The competition is large.",
+          "New competition."
+        ]
+      },
+      "notes": "复数形式为 concurrenties（-ie 结尾的词变 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1526,
+      "word": "concurreren",
+      "translation": {
+        "chinese": "竞争",
+        "english": "to compete"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "concurreren",
+          "isSeparable": false,
+          "present": {
+            "ik": "concurrer",
+            "jij": "concurrert",
+            "hij": "concurrert",
+            "wij": "concurreren",
+            "jullie": "concurreren",
+            "zij": "concurreren"
+          },
+          "past": {
+            "singular": "concurrerde",
+            "plural": "concurrerden"
+          },
+          "pastParticiple": "geconcurrerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Wij concurreren om de prijs.",
+        "Hij concurrert met anderen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们竞争这个奖项。",
+          "他与其他人竞争。"
+        ],
+        "english": [
+          "We compete for the prize.",
+          "He competes with others."
+        ]
+      },
+      "notes": "规则动词，固定搭配：concurreren met（与...竞争）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1527,
+      "word": "condoleance",
+      "translation": {
+        "chinese": "慰问、哀悼",
+        "english": "condolence"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "condoleance",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Condoleance aan de familie.",
+        "Mijn condoleance."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的慰问。",
+          "对家属的慰问。"
+        ],
+        "english": [
+          "My condolences.",
+          "Condolences to the family."
+        ]
+      },
+      "notes": "不可数名词，固定搭配：condoleance aan（对...的慰问）",
+      "difficulty": "B1"
+    }
+  ]
+}

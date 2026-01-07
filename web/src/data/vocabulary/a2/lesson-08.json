@@ -16,24 +16,17 @@
         "adjective"
       ],
       "forms": {
+        "noun": {
+          "singular": "het oosten",
+          "plural": "osten",
+          "article": "het"
+        },
         "adjective": {
-          "indefinite": [
-            "oost",
-            "oost",
-            "oost",
-            "oost"
-          ],
-          "definite": [
-            "oost",
-            "oost",
-            "oost",
-            "oost"
-          ],
-          "comparison": [
-            "-",
-            "-"
-          ],
-          "participle": ""
+          "base": "oost",
+          "withDe": "oostelijke",
+          "withHet": "oost",
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [
@@ -595,7 +588,8 @@
           "There is order in chaos."
         ]
       },
-      "difficulty": "A2"
+      "difficulty": "A2",
+      "notes": "也指法律或法规"
     },
     {
       "id": 1010,
@@ -626,7 +620,8 @@
           "We work for an organization."
         ]
       },
-      "difficulty": "A2"
+      "difficulty": "A2",
+      "notes": "也指公司或团体"
     },
     {
       "id": 1011,
@@ -921,7 +916,8 @@
           "She wants to convince me."
         ]
       },
-      "difficulty": "A2"
+      "difficulty": "A2",
+      "notes": "也可作反身动词：zich overtuigen（确信）"
     },
     {
       "id": 1019,
@@ -1618,23 +1614,11 @@
       ],
       "forms": {
         "adjective": {
-          "indefinite": [
-            "precies",
-            "precieze",
-            "precies",
-            "precieze"
-          ],
-          "definite": [
-            "precieze",
-            "precieze",
-            "precieze",
-            "precieze"
-          ],
-          "comparison": [
-            "preciezer",
-            "meest precies"
-          ],
-          "participle": ""
+          "base": "precies",
+          "withDe": "precieze",
+          "withHet": "precies",
+          "comparative": "preciezer",
+          "superlative": "meest precies"
         }
       },
       "examples": [
@@ -1651,7 +1635,8 @@
           "He is exactly on time."
         ]
       },
-      "difficulty": "A2"
+      "difficulty": "A2",
+      "notes": "副词用法：precies（精确地）"
     },
     {
       "id": 1041,
@@ -1696,24 +1681,17 @@
         "noun"
       ],
       "forms": {
+        "noun": {
+          "singular": "het privé",
+          "plural": "-",
+          "article": "het"
+        },
         "adjective": {
-          "indefinite": [
-            "privé",
-            "privé",
-            "privé",
-            "privé"
-          ],
-          "definite": [
-            "privé",
-            "privé",
-            "privé",
-            "privé"
-          ],
-          "comparison": [
-            "-",
-            "-"
-          ],
-          "participle": ""
+          "base": "privé",
+          "withDe": "privé",
+          "withHet": "privé",
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [

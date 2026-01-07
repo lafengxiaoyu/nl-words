@@ -1,0 +1,1672 @@
+{
+  "id": "lB115",
+  "level": "B1",
+  "lessonNumber": 15,
+  "totalWords": 49,
+  "words": [
+    {
+      "id": 1978,
+      "word": "keuring",
+      "translation": {
+        "chinese": "检查",
+        "english": "inspection"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "keuring",
+          "plural": "keuringen"
+        }
+      },
+      "examples": [
+        "De technische keuring van het gebouw duurt twee dagen.",
+        "Alle voertuigen moeten jaarlijkse keuringen ondergaan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "建筑物的技术检查需要两天时间。",
+          "所有车辆都必须进行年度检查。"
+        ],
+        "english": [
+          "The technical inspection of the building takes two days.",
+          "All vehicles must undergo annual inspections."
+        ]
+      },
+      "notes": "复数形式为 keuringen",
+      "difficulty": "B1"
+    },
+    {
+      "translation": {
+        "chinese": "形象",
+        "english": "image"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "imago",
+          "plural": "imago's"
+        }
+      },
+      "examples": [
+        "Het bedrijf werkt hard aan het verbeteren van zijn imago.",
+        "Het imago van de politiek heeft een zware klap gekregen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司正在努力改善其形象。",
+          "政治形象受到了沉重打击。"
+        ],
+        "english": [
+          "The company works hard on improving its image.",
+          "The image of politics has received a heavy blow."
+        ]
+      },
+      "notes": "复数形式为 imago's（外来词加 's）",
+      "difficulty": "B1",
+      "id": 1979,
+      "word": "imago"
+    },
+    {
+      "id": 1980,
+      "word": "imitatie",
+      "translation": {
+        "chinese": "模仿",
+        "english": "imitation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "imitatie",
+          "plural": "imitaties"
+        }
+      },
+      "examples": [
+        "Zijn imitatie van de beroemde schilder was verbazingwekkend.",
+        "De film is een imitatie van een klassiek verhaal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他对这位著名画家的模仿令人惊叹。",
+          "这部电影是对一个经典故事的模仿。"
+        ],
+        "english": [
+          "His imitation of the famous painter was astonishing.",
+          "The film is an imitation of a classic story."
+        ]
+      },
+      "notes": "复数形式为 imitaties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1981,
+      "word": "imiteren",
+      "translation": {
+        "chinese": "模仿",
+        "english": "to imitate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "imiteren",
+          "isSeparable": false,
+          "present": {
+            "ik": "imiteer",
+            "jij": "imiteert",
+            "hij": "imiteert",
+            "wij": "imiteren",
+            "jullie": "imiteren",
+            "zij": "imiteren"
+          },
+          "past": {
+            "singular": "imiteerde",
+            "plural": "imiteerden"
+          },
+          "pastParticiple": "geïmiteerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik imiteer hem.",
+        "Hij imiteert het geluid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我模仿他。",
+          "他模仿这个声音。"
+        ],
+        "english": [
+          "I imitate him.",
+          "He imitates sound."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1982,
+      "word": "impact",
+      "translation": {
+        "chinese": "影响",
+        "english": "impact"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "impact",
+          "plural": "impacts"
+        }
+      },
+      "examples": [
+        "De impact van klimaatverandering op de landbouw is significant.",
+        "Het beleid heeft een grote impact op de samenleving."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "气候变化对农业的影响是显著的。",
+          "这项政策对社会有重大影响。"
+        ],
+        "english": [
+          "The impact of climate change on agriculture is significant.",
+          "The policy has a major impact on society."
+        ]
+      },
+      "notes": "复数形式为 impacts（外来词加 -s）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1983,
+      "word": "implementatie",
+      "translation": {
+        "chinese": "实施",
+        "english": "implementation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "implementatie",
+          "plural": "implementaties"
+        }
+      },
+      "examples": [
+        "De implementatie van het nieuwe softwaresysteem verloopt goed.",
+        "Er zijn verschillende methoden voor de implementatie van het project."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "新软件系统的实施进展顺利。",
+          "项目实施有多种方法。"
+        ],
+        "english": [
+          "The implementation of the new software system is going well.",
+          "There are various methods for the implementation of the project."
+        ]
+      },
+      "notes": "复数形式为 implementaties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1984,
+      "word": "implementeren",
+      "translation": {
+        "chinese": "实施",
+        "english": "to implement"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "implementeren",
+          "isSeparable": false,
+          "present": {
+            "ik": "implementeer",
+            "jij": "implementeert",
+            "hij": "implementeert",
+            "wij": "implementeren",
+            "jullie": "implementeren",
+            "zij": "implementeren"
+          },
+          "past": {
+            "singular": "implementeerde",
+            "plural": "implementeerden"
+          },
+          "pastParticiple": "geïmplementeerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik implementeer het plan.",
+        "Hij implementeert het systeem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我实施这个计划。",
+          "他实施这个系统。"
+        ],
+        "english": [
+          "I implement plan.",
+          "He implements system."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1985,
+      "word": "implicatie",
+      "translation": {
+        "chinese": "暗示",
+        "english": "implication"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "implicatie",
+          "plural": "implicaties"
+        }
+      },
+      "examples": [
+        "De implicatie van het besluit is voor iedereen duidelijk.",
+        "Het contract heeft belangrijke juridische implicaties voor beide partijen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这项决定的影响对每个人都很清楚。",
+          "合同对双方都有重要的法律含义。"
+        ],
+        "english": [
+          "The implication of the decision is clear to everyone.",
+          "The contract has important legal implications for both parties."
+        ]
+      },
+      "notes": "复数形式为 implicaties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1986,
+      "word": "importeren",
+      "translation": {
+        "chinese": "进口",
+        "english": "to import"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "importeren",
+          "isSeparable": false,
+          "present": {
+            "ik": "importeer",
+            "jij": "importeert",
+            "hij": "importeert",
+            "wij": "importeren",
+            "jullie": "importeren",
+            "zij": "importeren"
+          },
+          "past": {
+            "singular": "importeerde",
+            "plural": "importeerden"
+          },
+          "pastParticiple": "geïmporteerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het bedrijf importeert goederen uit verschillende Aziatische landen.",
+        "Hij importeert elektrische auto's uit Duitsland."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司从各个亚洲国家进口商品。",
+          "他从德国进口电动汽车。"
+        ],
+        "english": [
+          "The company imports goods from various Asian countries.",
+          "He imports electric cars from Germany."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1987,
+      "word": "improvisatie",
+      "translation": {
+        "chinese": "即兴创作",
+        "english": "improvisation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "improvisatie",
+          "plural": "improvisaties"
+        }
+      },
+      "examples": [
+        "Zijn improvisatie tijdens het optreden was briljant.",
+        "Jazzmuziek staat bekend om zijn creatieve improvisaties."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在演出中的即兴演奏非常精彩。",
+          "爵士乐以其创造性的即兴演奏而闻名。"
+        ],
+        "english": [
+          "His improvisation during the performance was brilliant.",
+          "Jazz music is known for its creative improvisations."
+        ]
+      },
+      "notes": "复数形式为 improvisaties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1988,
+      "word": "improviseren",
+      "translation": {
+        "chinese": "即兴创作",
+        "english": "to improvise"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "improviseren",
+          "isSeparable": false,
+          "present": {
+            "ik": "improviseer",
+            "jij": "improviseert",
+            "hij": "improviseert",
+            "wij": "improviseren",
+            "jullie": "improviseren",
+            "zij": "improviseren"
+          },
+          "past": {
+            "singular": "improviseerde",
+            "plural": "improviseerden"
+          },
+          "pastParticiple": "geïmproviseerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De pianist improviseer prachtige melodieën tijdens het concert.",
+        "De acteurs improviseer hun dialoog spontaan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "钢琴家在音乐会上即兴演奏美妙的旋律。",
+          "演员们自发地即兴创作对话。"
+        ],
+        "english": [
+          "The pianist improvises beautiful melodies during the concert.",
+          "The actors improvise their dialogue spontaneously."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1989,
+      "word": "impuls",
+      "translation": {
+        "chinese": "冲动",
+        "english": "impulse"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "impuls",
+          "plural": "impulsen"
+        }
+      },
+      "examples": [
+        "De impuls om te kopen was sterk.",
+        "Impulsen kunnen leiden tot onbedoelde beslissingen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "购买冲动很强。",
+          "冲动可能导致错误的决定。"
+        ],
+        "english": [
+          "The impulse to buy was strong.",
+          "Impulses can lead to unintended decisions."
+        ]
+      },
+      "notes": "复数形式为 impulsen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1990,
+      "word": "inbegrepen",
+      "translation": {
+        "chinese": "包括的",
+        "english": "included"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "inbegrepen",
+          "withDe": "inbegrepen",
+          "withHet": "inbegrepen",
+          "comparative": null,
+          "superlative": null
+        }
+      },
+      "examples": [
+        "Alles is inbegrepen in de prijs.",
+        "De lunch is inbegrepen in het arrangement."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "价格包含一切。",
+          "午餐包含在安排中。"
+        ],
+        "english": [
+          "Everything is included in the price.",
+          "The lunch is included in the arrangement."
+        ]
+      },
+      "notes": "过去分词作形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1991,
+      "word": "inbraak",
+      "translation": {
+        "chinese": "入室盗窃",
+        "english": "break-in"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "inbraak",
+          "plural": "inbraken"
+        }
+      },
+      "examples": [
+        "De politie onderzoekt de inbraak aan de Hoofdstraat.",
+        "De eigenaar was geschokt toen hij de inbraak ontdekte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "警方正在调查主街的入室盗窃案。",
+          "当主人发现入室盗窃时,他感到震惊。"
+        ],
+        "english": [
+          "The police investigates the break-in on Main Street.",
+          "The owner was shocked when he discovered the break-in."
+        ]
+      },
+      "notes": "复数形式为 inbraken",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1992,
+      "word": "inbreuk",
+      "translation": {
+        "chinese": "违反",
+        "english": "infringement"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "inbreuk",
+          "plural": "inbreuken"
+        }
+      },
+      "examples": [
+        "De inbreuk op de privacywetgeving is ernstig.",
+        "Het bedrijf wordt beschuldigd van het maken van een inbreuk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "对隐私法的侵犯是严重的。",
+          "公司被指控违反规定。"
+        ],
+        "english": [
+          "The infringement on privacy legislation is serious.",
+          "The company is accused of making an infringement."
+        ]
+      },
+      "notes": "复数形式为 inbreuken",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1993,
+      "word": "incidenteel",
+      "translation": {
+        "chinese": "偶然的",
+        "english": "incidental"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "incidenteel",
+          "withDe": "incidentele",
+          "withHet": "incidentele",
+          "comparative": "incidenteler",
+          "superlative": "het incidenteelst"
+        }
+      },
+      "examples": [
+        "Het probleem is slechts incidenteel van aard.",
+        "Incidentele fouten kunnen voorkomen worden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个问题只是偶然性质的。",
+          "偶然的错误是可以预防的。"
+        ],
+        "english": [
+          "The problem is merely incidental in nature.",
+          "Incidental errors can be prevented."
+        ]
+      },
+      "notes": "比较级和最高级规则：incidenteel - incidenteler - incidenteelst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1994,
+      "word": "inclusief",
+      "translation": {
+        "chinese": "包括",
+        "english": "including"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "base": "inclusief"
+        }
+      },
+      "examples": [
+        "De prijs is inclusief alle belastingen.",
+        "Inclusief het ontbijt verblijven we drie dagen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "价格包含所有税费。",
+          "包括早餐,我们逗留三天。"
+        ],
+        "english": [
+          "The price is inclusive all taxes.",
+          "Inclusive the breakfast we stay three days."
+        ]
+      },
+      "notes": "介词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1995,
+      "word": "inconsequent",
+      "translation": {
+        "chinese": "不一致的",
+        "english": "inconsistent"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "inconsequent",
+          "withDe": "inconsequente",
+          "withHet": "inconsequente",
+          "comparative": "inconsequenter",
+          "superlative": "het inconsequentst"
+        }
+      },
+      "examples": [
+        "Zijn inconsequent gedrag verward de werknemers.",
+        "Het inconsequent beleid van de regering leidt tot kritiek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他前后不一的行为让员工感到困惑。",
+          "政府前后不一的政策导致批评。"
+        ],
+        "english": [
+          "His inconsistent behavior confuses the employees.",
+          "The inconsistent policy of the government leads to criticism."
+        ]
+      },
+      "notes": "比较级和最高级规则：inconsequent - inconsequenter - inconsequentst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1996,
+      "word": "indicatie",
+      "translation": {
+        "chinese": "指示",
+        "english": "indication"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "indicatie",
+          "plural": "indicaties"
+        }
+      },
+      "examples": [
+        "Er is een duidelijke indicatie voor economische groei.",
+        "De arts geeft zijn indicatie voor behandeling."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "有经济增长的明显迹象。",
+          "医生给出了治疗指示。"
+        ],
+        "english": [
+          "There is a clear indication for economic growth.",
+          "The doctor gives his indication for treatment."
+        ]
+      },
+      "notes": "复数形式为 indicaties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1997,
+      "word": "indice",
+      "translation": {
+        "chinese": "索引",
+        "english": "index"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "indice",
+          "plural": "indicen"
+        }
+      },
+      "examples": [
+        "De indice is goed.",
+        "Verschillende indicen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "索引很好。",
+          "不同的索引。"
+        ],
+        "english": [
+          "The index is good.",
+          "Different indexes."
+        ]
+      },
+      "notes": "复数形式为 indicen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1998,
+      "word": "individueel",
+      "translation": {
+        "chinese": "个人的",
+        "english": "individual"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "individueel",
+          "withDe": "individuele",
+          "withHet": "individuele",
+          "comparative": "individueeler",
+          "superlative": "het individueelst"
+        }
+      },
+      "examples": [
+        "Het is individueel.",
+        "Een individuele oplossing."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是个人的。",
+          "个人解决方案。"
+        ],
+        "english": [
+          "It is individual.",
+          "An individual solution."
+        ]
+      },
+      "notes": "比较级和最高级规则：individueel - individueeler - individueelst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1999,
+      "word": "individu",
+      "translation": {
+        "chinese": "个体",
+        "english": "individual"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "individu",
+          "plural": "individuen"
+        }
+      },
+      "examples": [
+        "De individu is uniek.",
+        "Verschillende individuen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "个体是独特的。",
+          "不同的个体。"
+        ],
+        "english": [
+          "The individual is unique.",
+          "Different individuals."
+        ]
+      },
+      "notes": "复数形式为 individuen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2000,
+      "word": "industrieel",
+      "translation": {
+        "chinese": "工业的",
+        "english": "industrial"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "industrieel",
+          "withDe": "industriële",
+          "withHet": "industriële",
+          "comparative": "industriëler",
+          "superlative": "het industrieelst"
+        }
+      },
+      "examples": [
+        "Het is industrieel.",
+        "Een industrieel gebied."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是工业的。",
+          "工业区。"
+        ],
+        "english": [
+          "It is industrial.",
+          "An industrial area."
+        ]
+      },
+      "notes": "比较级和最高级规则：industrieel - industriëler - industrieelst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2001,
+      "word": "industrie",
+      "translation": {
+        "chinese": "工业",
+        "english": "industry"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "industrie",
+          "plural": "industrieën"
+        }
+      },
+      "examples": [
+        "De industrie is belangrijk.",
+        "Verschillende industrieën."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "工业很重要。",
+          "不同的工业。"
+        ],
+        "english": [
+          "The industry is important.",
+          "Different industries."
+        ]
+      },
+      "notes": "复数形式为 industrieën（-ie 结尾的词变 -iën）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2002,
+      "word": "ineens",
+      "translation": {
+        "chinese": "突然",
+        "english": "suddenly"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "ineens"
+        }
+      },
+      "examples": [
+        "Het gebeurde ineens.",
+        "Hij kwam ineens."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "突然发生了。",
+          "他突然来了。"
+        ],
+        "english": [
+          "It happened suddenly.",
+          "He came suddenly."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2003,
+      "word": "infectie",
+      "translation": {
+        "chinese": "感染",
+        "english": "infection"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "infectie",
+          "plural": "infecties"
+        }
+      },
+      "examples": [
+        "De infectie is ernstig.",
+        "Verschillende infecties."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "感染很严重。",
+          "不同的感染。"
+        ],
+        "english": [
+          "The infection is serious.",
+          "Different infections."
+        ]
+      },
+      "notes": "复数形式为 infecties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2004,
+      "word": "inferieur",
+      "translation": {
+        "chinese": "低劣的",
+        "english": "inferior"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "inferieur",
+          "withDe": "inferieure",
+          "withHet": "inferieure",
+          "comparative": null,
+          "superlative": null
+        }
+      },
+      "examples": [
+        "Het is inferieur.",
+        "Een inferieur product."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是低劣的。",
+          "低劣产品。"
+        ],
+        "english": [
+          "It is inferior.",
+          "An inferior product."
+        ]
+      },
+      "notes": "比较级和最高级不常用",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2005,
+      "word": "inflatie",
+      "translation": {
+        "chinese": "通货膨胀",
+        "english": "inflation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "inflatie",
+          "plural": "inflaties"
+        }
+      },
+      "examples": [
+        "De inflatie is hoog.",
+        "Verschillende inflaties."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "通货膨胀很高。",
+          "不同的通货膨胀。"
+        ],
+        "english": [
+          "The inflation is high.",
+          "Different inflations."
+        ]
+      },
+      "notes": "复数形式为 inflaties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2006,
+      "word": "informeel",
+      "translation": {
+        "chinese": "非正式的",
+        "english": "informal"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "informeel",
+          "withDe": "informele",
+          "withHet": "informele",
+          "comparative": "informeler",
+          "superlative": "het informeelst"
+        }
+      },
+      "examples": [
+        "Het is informeel.",
+        "Een informele sfeer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是非正式的。",
+          "非正式氛围。"
+        ],
+        "english": [
+          "It is informal.",
+          "An informal atmosphere."
+        ]
+      },
+      "notes": "比较级和最高级规则：informeel - informeler - informeelst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2007,
+      "word": "informeren",
+      "translation": {
+        "chinese": "通知",
+        "english": "to inform"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "informeren",
+          "isSeparable": false,
+          "present": {
+            "ik": "informeer",
+            "jij": "informeert",
+            "hij": "informeert",
+            "wij": "informeren",
+            "jullie": "informeren",
+            "zij": "informeren"
+          },
+          "past": {
+            "singular": "informeerde",
+            "plural": "informeerden"
+          },
+          "pastParticiple": "geïnformeerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik informeer hem.",
+        "Hij informeert de klant."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我通知他。",
+          "他通知客户。"
+        ],
+        "english": [
+          "I inform him.",
+          "He informs customer."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2008,
+      "word": "instituut",
+      "translation": {
+        "chinese": "机构",
+        "english": "institution"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "instituut",
+          "plural": "instituten"
+        }
+      },
+      "examples": [
+        "Verschillende instituten.",
+        "Het instituut is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "机构很大。",
+          "不同的机构。"
+        ],
+        "english": [
+          "The institution is large.",
+          "Different institutions."
+        ]
+      },
+      "notes": "复数形式为 instituten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2010,
+      "word": "instructeur",
+      "translation": {
+        "chinese": "教练",
+        "english": "instructor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "instructeur",
+          "plural": "instructeurs"
+        }
+      },
+      "examples": [
+        "De instructeur is streng.",
+        "Verschillende instructeurs."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "教练很严格。",
+          "不同的教练。"
+        ],
+        "english": [
+          "The instructor is strict.",
+          "Different instructors."
+        ]
+      },
+      "notes": "复数形式为 instructeurs",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2011,
+      "word": "instrumenten",
+      "translation": {
+        "chinese": "乐器",
+        "english": "instruments"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "instrument",
+          "plural": "instrumenten"
+        }
+      },
+      "examples": [
+        "De instrumenten zijn luid.",
+        "Veel instrumenten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "乐器很响。",
+          "很多乐器。"
+        ],
+        "english": [
+          "The instruments are loud.",
+          "Many instruments."
+        ]
+      },
+      "notes": "复数形式为 instrumenten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2012,
+      "word": "integendeel",
+      "translation": {
+        "chinese": "相反",
+        "english": "on the contrary"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "integendeel"
+        }
+      },
+      "examples": [
+        "Het is integendeel.",
+        "Hij integendeel denkt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是相反的。",
+          "他相反地想。"
+        ],
+        "english": [
+          "It is on the contrary.",
+          "He thinks on the contrary."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2013,
+      "word": "integratie",
+      "translation": {
+        "chinese": "融合",
+        "english": "integration"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "integratie",
+          "plural": "integraties"
+        }
+      },
+      "examples": [
+        "De integratie is succesvol.",
+        "Verschillende integraties."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "融合很成功。",
+          "不同的融合。"
+        ],
+        "english": [
+          "The integration is successful.",
+          "Different integrations."
+        ]
+      },
+      "notes": "复数形式为 integraties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2014,
+      "word": "integriteit",
+      "translation": {
+        "chinese": "正直",
+        "english": "integrity"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "integriteit",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De integriteit is belangrijk.",
+        "Veel integriteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "正直很重要。",
+          "很大正直。"
+        ],
+        "english": [
+          "Integrity is important.",
+          "Much integrity."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2015,
+      "word": "integreren",
+      "translation": {
+        "chinese": "融合",
+        "english": "to integrate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "integreren",
+          "isSeparable": false,
+          "present": {
+            "ik": "integreer",
+            "jij": "integreert",
+            "hij": "integreert",
+            "wij": "integreren",
+            "jullie": "integreren",
+            "zij": "integreren"
+          },
+          "past": {
+            "singular": "integreerde",
+            "plural": "integreerden"
+          },
+          "pastParticiple": "geïntegreerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik integreer het systeem.",
+        "Hij integreert de teams."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我融合这个系统。",
+          "他融合这些团队。"
+        ],
+        "english": [
+          "I integrate the system.",
+          "He integrates the teams."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2016,
+      "word": "intellectueel",
+      "translation": {
+        "chinese": "智力的",
+        "english": "intellectual"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "intellectueel",
+          "withDe": "intellectuele",
+          "withHet": "intellectuele",
+          "comparative": "intellectueler",
+          "superlative": "het intellectueelst"
+        }
+      },
+      "examples": [
+        "Hij is intellectueel.",
+        "Een intellectueel debat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是智力的。",
+          "智力辩论。"
+        ],
+        "english": [
+          "He is intellectual.",
+          "An intellectual debate."
+        ]
+      },
+      "notes": "比较级和最高级规则：intellectueel - intellectueler - intellectueelst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2017,
+      "word": "intelligentie",
+      "translation": {
+        "chinese": "智力",
+        "english": "intelligence"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "intelligentie",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De intelligentie is hoog.",
+        "Veel intelligentie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "智力很高。",
+          "很大智力。"
+        ],
+        "english": [
+          "Intelligence is high.",
+          "Much intelligence."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2018,
+      "word": "intensief",
+      "translation": {
+        "chinese": "密集的",
+        "english": "intensive"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "intensief",
+          "withDe": "intensieve",
+          "withHet": "intensieve",
+          "comparative": "intensiever",
+          "superlative": "het intensiefst"
+        }
+      },
+      "examples": [
+        "Het is intensief.",
+        "Een intensieve cursus."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是密集的。",
+          "密集课程。"
+        ],
+        "english": [
+          "It is intensive.",
+          "An intensive course."
+        ]
+      },
+      "notes": "比较级和最高级规则：intensief - intensiever - intensiefst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2019,
+      "word": "intensiteit",
+      "translation": {
+        "chinese": "强度",
+        "english": "intensity"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "intensiteit",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De intensiteit is groot.",
+        "Veel intensiteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "强度很大。",
+          "很大强度。"
+        ],
+        "english": [
+          "The intensity is great.",
+          "Much intensity."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2020,
+      "word": "interactie",
+      "translation": {
+        "chinese": "互动",
+        "english": "interaction"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "interactie",
+          "plural": "interacties"
+        }
+      },
+      "examples": [
+        "De interactie is goed.",
+        "Verschillende interacties."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "互动很好。",
+          "不同的互动。"
+        ],
+        "english": [
+          "The interaction is good.",
+          "Different interactions."
+        ]
+      },
+      "notes": "复数形式为 interacties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2021,
+      "word": "interessant",
+      "translation": {
+        "chinese": "有趣的",
+        "english": "interesting"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "interessant",
+          "withDe": "interessante",
+          "withHet": "interessante",
+          "comparative": "interessanter",
+          "superlative": "het interessanst"
+        }
+      },
+      "examples": [
+        "Het is interessant.",
+        "Een interessant boek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是有趣的。",
+          "有趣的书。"
+        ],
+        "english": [
+          "It is interesting.",
+          "An interesting book."
+        ]
+      },
+      "notes": "比较级和最高级规则：interessant - interessanter - interessanst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2022,
+      "word": "interesse",
+      "translation": {
+        "chinese": "兴趣",
+        "english": "interest"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "interesse",
+          "plural": "interesses"
+        }
+      },
+      "examples": [
+        "De interesse is groot.",
+        "Verschillende interesses."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "兴趣很大。",
+          "不同的兴趣。"
+        ],
+        "english": [
+          "The interest is great.",
+          "Different interests."
+        ]
+      },
+      "notes": "复数形式为 interesses",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2023,
+      "word": "interim",
+      "translation": {
+        "chinese": "临时的",
+        "english": "interim"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "interim",
+          "withDe": "interim",
+          "withHet": "interim",
+          "comparative": null,
+          "superlative": null
+        }
+      },
+      "examples": [
+        "Het is interim.",
+        "Een interim oplossing."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是临时的。",
+          "临时解决方案。"
+        ],
+        "english": [
+          "It is interim.",
+          "An interim solution."
+        ]
+      },
+      "notes": "不变形",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2024,
+      "word": "interieur",
+      "translation": {
+        "chinese": "室内",
+        "english": "interior"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "interieur",
+          "plural": "interieurs"
+        }
+      },
+      "examples": [
+        "Het interieur is mooi.",
+        "Verschillende interieurs."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "室内很漂亮。",
+          "不同的室内设计。"
+        ],
+        "english": [
+          "The interior is beautiful.",
+          "Different interiors."
+        ]
+      },
+      "notes": "复数形式为 interieurs",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2025,
+      "word": "internationaal",
+      "translation": {
+        "chinese": "国际的",
+        "english": "international"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "internationaal",
+          "withDe": "internationale",
+          "withHet": "internationale",
+          "comparative": null,
+          "superlative": null
+        }
+      },
+      "examples": [
+        "Het is internationaal.",
+        "Een internationale samenwerking."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是国际的。",
+          "国际合作。"
+        ],
+        "english": [
+          "It is international.",
+          "An international cooperation."
+        ]
+      },
+      "notes": "比较级和最高级不常用",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2026,
+      "word": "internet",
+      "translation": {
+        "chinese": "互联网",
+        "english": "internet"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "internet",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het internet is snel.",
+        "Veel internet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "互联网很快。",
+          "很多互联网。"
+        ],
+        "english": [
+          "The internet is fast.",
+          "Much internet."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2027,
+      "word": "interpretatie",
+      "translation": {
+        "chinese": "解释",
+        "english": "interpretation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "interpretatie",
+          "plural": "interpretaties"
+        }
+      },
+      "examples": [
+        "De interpretatie is duidelijk.",
+        "Verschillende interpretaties."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "解释很清楚。",
+          "不同的解释。"
+        ],
+        "english": [
+          "The interpretation is clear.",
+          "Different interpretations."
+        ]
+      },
+      "notes": "复数形式为 interpretaties",
+      "difficulty": "B1"
+    }
+  ]
+}

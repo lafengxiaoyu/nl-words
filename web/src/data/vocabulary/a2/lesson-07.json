@@ -142,24 +142,17 @@
         "noun"
       ],
       "forms": {
+        "noun": {
+          "singular": "het Nederlands",
+          "plural": "-",
+          "article": "het"
+        },
         "adjective": {
-          "indefinite": [
-            "nederlands",
-            "nederlandse",
-            "nederlands",
-            "nederlandse"
-          ],
-          "definite": [
-            "nederlandse",
-            "nederlandse",
-            "nederlandse",
-            "nederlandse"
-          ],
-          "comparison": [
-            "-",
-            "-"
-          ],
-          "participle": ""
+          "base": "nederlands",
+          "withDe": "nederlandse",
+          "withHet": "nederlands",
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [
@@ -260,23 +253,11 @@
       ],
       "forms": {
         "adjective": {
-          "indefinite": [
-            "netto",
-            "netto",
-            "netto",
-            "netto"
-          ],
-          "definite": [
-            "netto",
-            "netto",
-            "netto",
-            "netto"
-          ],
-          "comparison": [
-            "-",
-            "-"
-          ],
-          "participle": ""
+          "base": "netto",
+          "withDe": "netto",
+          "withHet": "netto",
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [
@@ -1064,7 +1045,8 @@
           "Make a distinction between A and B."
         ]
       },
-      "difficulty": "A2"
+      "difficulty": "A2",
+      "notes": "复数形式为 onderscheiden，与动词 onderscheiden 相同"
     },
     {
       "id": 975,
@@ -1266,7 +1248,8 @@
           "We start immediately."
         ]
       },
-      "difficulty": "A2"
+      "difficulty": "A2",
+      "notes": "也可作副词使用：onmiddellijk（立刻）"
     },
     {
       "id": 981,
@@ -1473,7 +1456,8 @@
           "Where shall we meet?"
         ]
       },
-      "difficulty": "A2"
+      "difficulty": "A2",
+      "notes": "过去分词与原形相同"
     },
     {
       "id": 986,
@@ -1536,23 +1520,11 @@
           "pastParticipleAuxiliary": "zijn/hebben"
         },
         "adjective": {
-          "indefinite": [
-            "ontspannen",
-            "ontspannen",
-            "ontspannen",
-            "ontspannen"
-          ],
-          "definite": [
-            "ontspannen",
-            "ontspannen",
-            "ontspannen",
-            "ontspannen"
-          ],
-          "comparison": [
-            "-",
-            "-"
-          ],
-          "participle": ""
+          "base": "ontspannen",
+          "withDe": "ontspannen",
+          "withHet": "ontspannen",
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [

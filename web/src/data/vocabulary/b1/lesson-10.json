@@ -1,0 +1,1688 @@
+{
+  "id": "lB110",
+  "level": "B1",
+  "lessonNumber": 10,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 1728,
+      "word": "gebrek",
+      "translation": {
+        "chinese": "缺乏、缺陷",
+        "english": "lack, defect"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "gebrek",
+          "plural": "gebreken"
+        }
+      },
+      "examples": [
+        "Het gebrek is groot.",
+        "Verschillende gebreken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "缺陷很大。",
+          "不同的缺陷。"
+        ],
+        "english": [
+          "The defect is large.",
+          "Different defects."
+        ]
+      },
+      "notes": "复数形式为 gebreken（-ek 变 -eken）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1729,
+      "word": "gebrekkig",
+      "translation": {
+        "chinese": "有缺陷的",
+        "english": "defective"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gebrekkig",
+          "withDe": "gebrekkige",
+          "withHet": "gebrekkige",
+          "comparative": "gebrekkiger",
+          "superlative": "het gebrekkigst"
+        }
+      },
+      "examples": [
+        "Het is gebrekkig.",
+        "Een gebrekkige machine."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是有缺陷的。",
+          "有缺陷的机器。"
+        ],
+        "english": [
+          "It is defective.",
+          "A defective machine."
+        ]
+      },
+      "notes": "比较级和最高级规则：gebrekkig - gebrekkiger - gebrekkigst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1730,
+      "word": "gebruikelijk",
+      "translation": {
+        "chinese": "通常的",
+        "english": "usual, customary"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gebruikelijk",
+          "withDe": "gebruikelijke",
+          "withHet": "gebruikelijke",
+          "comparative": "gebruikelijker",
+          "superlative": "het gebruikelijkst"
+        }
+      },
+      "examples": [
+        "Het is gebruikelijk.",
+        "Een gebruikelijke procedure."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是通常的。",
+          "通常程序。"
+        ],
+        "english": [
+          "It is usual.",
+          "A usual procedure."
+        ]
+      },
+      "notes": "比较级和最高级规则：gebruikelijk - gebruikelijker - gebruikelijkst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1731,
+      "word": "gebruikersnaam",
+      "translation": {
+        "chinese": "用户名",
+        "english": "username"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "gebruikersnaam",
+          "plural": "gebruikersnamen"
+        }
+      },
+      "examples": [
+        "De gebruikersnaam is kort.",
+        "Mijn gebruikersnaam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "用户名很短。",
+          "我的用户名。"
+        ],
+        "english": [
+          "The username is short.",
+          "My username."
+        ]
+      },
+      "notes": "复数形式为 gebruikersnamen（-naam 变 -namen）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1732,
+      "word": "gebruiksvriendelijk",
+      "translation": {
+        "chinese": "用户友好的",
+        "english": "user-friendly"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gebruiksvriendelijk",
+          "withDe": "gebruiksvriendelijke",
+          "withHet": "gebruiksvriendelijke",
+          "comparative": "gebruiksvriendelijker",
+          "superlative": "het gebruiksvriendelijkst"
+        }
+      },
+      "examples": [
+        "Het is gebruiksvriendelijk.",
+        "Een gebruiksvriendelijke app."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是用户友好的。",
+          "用户友好的应用。"
+        ],
+        "english": [
+          "It is user-friendly.",
+          "A user-friendly app."
+        ]
+      },
+      "notes": "比较级和最高级规则：gebruiksvriendelijk - gebruiksvriendelijker - gebruiksvriendelijkst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1733,
+      "word": "gedachte",
+      "translation": {
+        "chinese": "想法、念头",
+        "english": "thought"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "gedachte",
+          "plural": "gedachten"
+        }
+      },
+      "examples": [
+        "De gedachte is duidelijk.",
+        "Een goede gedachte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "想法清楚。",
+          "好想法。"
+        ],
+        "english": [
+          "The thought is clear.",
+          "A good thought."
+        ]
+      },
+      "notes": "复数形式为 gedachten（-e 变 -en）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1734,
+      "word": "gedateerd",
+      "translation": {
+        "chinese": "过期的",
+        "english": "outdated"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gedateerd",
+          "withDe": "gedateerde",
+          "withHet": "gedateerde",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is gedateerd.",
+        "Een gedateerd document."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是过期的。",
+          "过期文档。"
+        ],
+        "english": [
+          "It is outdated.",
+          "An outdated document."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1735,
+      "word": "gedocumenteerd",
+      "translation": {
+        "chinese": "有文档的",
+        "english": "documented"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gedocumenteerd",
+          "withDe": "gedocumenteerde",
+          "withHet": "gedocumenteerde",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is gedocumenteerd.",
+        "Een gedocumenteerde procedure."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是有文档的。",
+          "有文档的程序。"
+        ],
+        "english": [
+          "It is documented.",
+          "A documented procedure."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1736,
+      "word": "gedragen",
+      "translation": {
+        "chinese": "被携带的",
+        "english": "carried, worn"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gedragen",
+          "withDe": "gedragen",
+          "withHet": "gedragen",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is gedragen.",
+        "Een gedragen kleding."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是被携带的。",
+          "穿过的衣服。"
+        ],
+        "english": [
+          "It is carried.",
+          "Worn clothing."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1737,
+      "word": "gedurende",
+      "translation": {
+        "chinese": "持续的",
+        "english": "during, lasting"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gedurende",
+          "withDe": "gedurende",
+          "withHet": "gedurende",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Gedurende de dag.",
+        "Een gedurende periode."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在这一天期间。",
+          "持续期间。"
+        ],
+        "english": [
+          "During the day.",
+          "A lasting period."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1738,
+      "word": "geest",
+      "translation": {
+        "chinese": "精神、灵魂",
+        "english": "spirit, mind"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "geest",
+          "plural": "geesten"
+        }
+      },
+      "examples": [
+        "De geest is vrij.",
+        "Een sterke geest."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "精神自由。",
+          "强大的精神。"
+        ],
+        "english": [
+          "The spirit is free.",
+          "A strong spirit."
+        ]
+      },
+      "notes": "复数形式为 geesten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1739,
+      "word": "geestelijk",
+      "translation": {
+        "chinese": "精神的",
+        "english": "spiritual, mental"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "geestelijk",
+          "withDe": "geestelijke",
+          "withHet": "geestelijke",
+          "comparative": "geestelijker",
+          "superlative": "het geestelijkst"
+        }
+      },
+      "examples": [
+        "Het is geestelijk.",
+        "Een geestelijke uitdaging."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是精神的。",
+          "精神挑战。"
+        ],
+        "english": [
+          "It is spiritual.",
+          "A spiritual challenge."
+        ]
+      },
+      "notes": "比较级和最高级规则：geestelijk - geestelijker - geestelijkst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1740,
+      "word": "gegeven",
+      "translation": {
+        "chinese": "给予的",
+        "english": "given"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gegeven",
+          "withDe": "gegeven",
+          "withHet": "gegeven",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is gegeven.",
+        "Een gegeven waarheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是给予的。",
+          "给定事实。"
+        ],
+        "english": [
+          "It is given.",
+          "A given truth."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1741,
+      "word": "gehandicapt",
+      "translation": {
+        "chinese": "残疾的",
+        "english": "disabled"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gehandicapt",
+          "withDe": "gehandicapte",
+          "withHet": "gehandicapte",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Hij is gehandicapt.",
+        "Een gehandicapte persoon."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他残疾。",
+          "残疾人。"
+        ],
+        "english": [
+          "He is disabled.",
+          "A disabled person."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1742,
+      "word": "geheel",
+      "translation": {
+        "chinese": "整个",
+        "english": "whole, entire"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "geheel",
+          "withDe": "gehele",
+          "withHet": "gehele",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is geheel.",
+        "Een geheel gebied."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是整个。",
+          "整个区域。"
+        ],
+        "english": [
+          "It is whole.",
+          "An entire area."
+        ]
+      },
+      "notes": "绝对形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1743,
+      "word": "gehoorzaam",
+      "translation": {
+        "chinese": "听话的",
+        "english": "obedient"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gehoorzaam",
+          "withDe": "gehoorzame",
+          "withHet": "gehoorzame",
+          "comparative": "gehoorzamer",
+          "superlative": "het gehoorzaamst"
+        }
+      },
+      "examples": [
+        "Het kind is gehoorzaam.",
+        "Een gehoorzame hond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "孩子听话。",
+          "听话的狗。"
+        ],
+        "english": [
+          "The child is obedient.",
+          "An obedient dog."
+        ]
+      },
+      "notes": "比较级和最高级规则：gehoorzaam - gehoorzamer - gehoorzaamer",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1744,
+      "word": "gekwalificeerd",
+      "translation": {
+        "chinese": "合格的",
+        "english": "qualified"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gekwalificeerd",
+          "withDe": "gekwalificeerde",
+          "withHet": "gekwalificeerde",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Hij is gekwalificeerd.",
+        "Een gekwalificeerde kandidaat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他合格。",
+          "合格候选人。"
+        ],
+        "english": [
+          "He is qualified.",
+          "A qualified candidate."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1745,
+      "word": "geland",
+      "translation": {
+        "chinese": "降落的、登陆的",
+        "english": "landed"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "geland",
+          "withDe": "geland",
+          "withHet": "geland",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het vliegtuig is geland.",
+        "Een geland boot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "飞机已降落。",
+          "登陆的船。"
+        ],
+        "english": [
+          "The plane has landed.",
+          "A landed boat."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1746,
+      "word": "gelaten",
+      "translation": {
+        "chinese": "冷静的",
+        "english": "calm, composed"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gelaten",
+          "withDe": "gelaten",
+          "withHet": "gelaten",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Hij is gelaten.",
+        "Een gelaten houding."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他冷静。",
+          "冷静的态度。"
+        ],
+        "english": [
+          "He is calm.",
+          "A composed attitude."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1747,
+      "word": "gelden",
+      "translation": {
+        "chinese": "钱",
+        "english": "money"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "geld",
+          "plural": "gelden"
+        }
+      },
+      "examples": [
+        "Het geld is schaars.",
+        "Veel gelden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "钱稀缺。",
+          "很多钱。"
+        ],
+        "english": [
+          "Money is scarce.",
+          "Much money."
+        ]
+      },
+      "notes": "复数形式为 gelden（-d 变 -den）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1748,
+      "word": "geleidelijk",
+      "translation": {
+        "chinese": "逐渐地",
+        "english": "gradually"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "geleidelijk"
+        }
+      },
+      "examples": [
+        "Geleidelijk verbetert het.",
+        "Hij leert geleidelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "逐渐改善。",
+          "他逐渐学习。"
+        ],
+        "english": [
+          "Gradually it improves.",
+          "He learns gradually."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1749,
+      "word": "gelijk",
+      "translation": {
+        "chinese": "相等",
+        "english": "equal, same"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gelijk",
+          "withDe": "gelijke",
+          "withHet": "gelijke",
+          "comparative": "gelijker",
+          "superlative": "het gelijkst"
+        }
+      },
+      "examples": [
+        "Het is gelijk.",
+        "Een gelijke kans."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是相等的。",
+          "平等机会。"
+        ],
+        "english": [
+          "It is equal.",
+          "An equal chance."
+        ]
+      },
+      "notes": "比较级和最高级规则：gelijk - gelijker - gelijkst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1750,
+      "word": "gelijkenis",
+      "translation": {
+        "chinese": "相似",
+        "english": "likeness"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "gelijkenis",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De gelijkenis is duidelijk.",
+        "Opvallende gelijkenis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "相似清楚。",
+          "明显的相似。"
+        ],
+        "english": [
+          "The likeness is clear.",
+          "Obvious likeness."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1751,
+      "word": "gelijkheid",
+      "translation": {
+        "chinese": "平等",
+        "english": "equality"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "gelijkheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De gelijkheid is belangrijk.",
+        "Meer gelijkheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "平等很重要。",
+          "更多平等。"
+        ],
+        "english": [
+          "Equality is important.",
+          "More equality."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1752,
+      "word": "gelijkwaardig",
+      "translation": {
+        "chinese": "平等的",
+        "english": "equal, equivalent"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gelijkwaardig",
+          "withDe": "gelijkwaardige",
+          "withHet": "gelijkwaardige",
+          "comparative": "gelijkwaardiger",
+          "superlative": "het gelijkwaardigst"
+        }
+      },
+      "examples": [
+        "Het is gelijkwaardig.",
+        "Een gelijkwaardige situatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是平等的。",
+          "平等的情况。"
+        ],
+        "english": [
+          "It is equal.",
+          "An equivalent situation."
+        ]
+      },
+      "notes": "比较级和最高级规则：gelijkwaardig - gelijkwaardiger - gelijkwaardigst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1753,
+      "word": "geloof",
+      "translation": {
+        "chinese": "信仰",
+        "english": "faith, belief"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "geloof",
+          "plural": "gelooven"
+        }
+      },
+      "examples": [
+        "Het geloof is sterk.",
+        "Verschillende gelooven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "信仰很强。",
+          "不同的信仰。"
+        ],
+        "english": [
+          "The faith is strong.",
+          "Different beliefs."
+        ]
+      },
+      "notes": "复数形式为 gelooven（短元音变长元音）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1754,
+      "word": "geloofwaardig",
+      "translation": {
+        "chinese": "可信的",
+        "english": "credible, trustworthy"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "geloofwaardig",
+          "withDe": "geloofwaardige",
+          "withHet": "geloofwaardige",
+          "comparative": "geloofwaardiger",
+          "superlative": "het geloofwaardigst"
+        }
+      },
+      "examples": [
+        "Hij is geloofwaardig.",
+        "Een geloofwaardige bron."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他可信。",
+          "可信来源。"
+        ],
+        "english": [
+          "He is credible.",
+          "A trustworthy source."
+        ]
+      },
+      "notes": "比较级和最高级规则：geloofwaardig - geloofwaardiger - geloofwaardigst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1755,
+      "word": "gelukken",
+      "translation": {
+        "chinese": "幸运",
+        "english": "happiness"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "geluk",
+          "plural": "gelukken"
+        }
+      },
+      "examples": [
+        "Het geluk is groot.",
+        "Verschillende gelukken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "幸运很大。",
+          "不同的幸运。"
+        ],
+        "english": [
+          "Happiness is great.",
+          "Different happiness."
+        ]
+      },
+      "notes": "复数形式为 gelukken",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1756,
+      "word": "gemak",
+      "translation": {
+        "chinese": "方便",
+        "english": "convenience"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "gemak",
+          "plural": "gemakken"
+        }
+      },
+      "examples": [
+        "Het gemak is groot.",
+        "Veel gemakken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "方便很大。",
+          "很多方便。"
+        ],
+        "english": [
+          "The convenience is great.",
+          "Much convenience."
+        ]
+      },
+      "notes": "复数形式为 gemakken",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1757,
+      "word": "gemotiveerd",
+      "translation": {
+        "chinese": "有动力的",
+        "english": "motivated"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gemotiveerd",
+          "withDe": "gemotiveerde",
+          "withHet": "gemotiveerde",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Hij is gemotiveerd.",
+        "Een gemotiveerd team."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他有动力。",
+          "有动力的团队。"
+        ],
+        "english": [
+          "He is motivated.",
+          "A motivated team."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1758,
+      "word": "genieten",
+      "translation": {
+        "chinese": "浇注的、投下",
+        "english": "poured, cast"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "genieten",
+          "withDe": "genieten",
+          "withHet": "genieten",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is genieten.",
+        "Een genieten object."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是浇注的。",
+          "浇注的物体。"
+        ],
+        "english": [
+          "It is poured.",
+          "A cast object."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1759,
+      "word": "genot",
+      "translation": {
+        "chinese": "享受",
+        "english": "enjoyment, pleasure"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "genot",
+          "plural": "genoten"
+        }
+      },
+      "examples": [
+        "Het genot is groot.",
+        "Verschillende genoten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "享受很大。",
+          "不同的享受。"
+        ],
+        "english": [
+          "The enjoyment is great.",
+          "Different enjoyments."
+        ]
+      },
+      "notes": "复数形式为 genoten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1760,
+      "word": "gepensioneerd",
+      "translation": {
+        "chinese": "退休的",
+        "english": "retired"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gepensioneerd",
+          "withDe": "gepensioneerde",
+          "withHet": "gepensioneerde",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Hij is gepensioneerd.",
+        "Een gepensioneerde man."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他退休了。",
+          "退休的人。"
+        ],
+        "english": [
+          "He is retired.",
+          "A retired man."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1761,
+      "word": "geplaatst",
+      "translation": {
+        "chinese": "放置的",
+        "english": "placed"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "geplaatst",
+          "withDe": "geplaatste",
+          "withHet": "geplaatste",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is geplaatst.",
+        "Een geplaatst item."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是放置的。",
+          "放置的项目。"
+        ],
+        "english": [
+          "It is placed.",
+          "A placed item."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1762,
+      "word": "geplakt",
+      "translation": {
+        "chinese": "粘贴的",
+        "english": "stuck, pasted"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "geplakt",
+          "withDe": "geplakte",
+          "withHet": "geplakte",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is geplakt.",
+        "Een geplakte brief."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是粘贴的。",
+          "粘贴的信。"
+        ],
+        "english": [
+          "It is stuck.",
+          "A pasted letter."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1763,
+      "word": "geraakt",
+      "translation": {
+        "chinese": "接触的",
+        "english": "touched"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "geraakt",
+          "withDe": "geraakte",
+          "withHet": "geraakte",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is geraakt.",
+        "Een geraakt gebied."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是接触的。",
+          "接触的区域。"
+        ],
+        "english": [
+          "It is touched.",
+          "A touched area."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1764,
+      "word": "gerelateerd",
+      "translation": {
+        "chinese": "相关的",
+        "english": "related"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gerelateerd",
+          "withDe": "gerelateerde",
+          "withHet": "gerelateerde",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is gerelateerd.",
+        "Een gerelateerd onderwerp."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是相关的。",
+          "相关主题。"
+        ],
+        "english": [
+          "It is related.",
+          "A related topic."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1765,
+      "word": "gerucht",
+      "translation": {
+        "chinese": "传闻",
+        "english": "rumor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "gerucht",
+          "plural": "geruchten"
+        }
+      },
+      "examples": [
+        "Het gerucht is onwaar.",
+        "Verschillende geruchten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "传闻是假的。",
+          "不同的传闻。"
+        ],
+        "english": [
+          "The rumor is false.",
+          "Different rumors."
+        ]
+      },
+      "notes": "复数形式为 geruchten（短元音变长元音）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1766,
+      "word": "geruststellen",
+      "translation": {
+        "chinese": "使安心",
+        "english": "to reassure"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "geruststellen",
+          "isSeparable": true,
+          "present": {
+            "ik": "stel gerust",
+            "jij": "stelt gerust",
+            "hij": "stelt gerust",
+            "wij": "stellen gerust",
+            "jullie": "stellen gerust",
+            "zij": "stellen gerust"
+          },
+          "past": {
+            "singular": "stelde gerust",
+            "plural": "stelden gerust"
+          },
+          "pastParticiple": "gerustgesteld",
+          "pastParticipleAuxiliary": "hebben",
+          "prefix": "g"
+        }
+      },
+      "examples": [
+        "Ik stel hem gerust.",
+        "Hij stelt haar gerust."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我使他安心。",
+          "他使她安心。"
+        ],
+        "english": [
+          "I reassure him.",
+          "He reassures her."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1767,
+      "word": "gescheiden",
+      "translation": {
+        "chinese": "分离",
+        "english": "to separate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "gescheiden",
+          "isSeparable": true,
+          "present": {
+            "ik": "scheid",
+            "jij": "scheidt",
+            "hij": "scheidt",
+            "wij": "scheiden",
+            "jullie": "scheiden",
+            "zij": "scheiden"
+          },
+          "past": {
+            "singular": "scheidde",
+            "plural": "scheidden"
+          },
+          "pastParticiple": "gescheiden",
+          "pastParticipleAuxiliary": "zijn",
+          "prefix": "g"
+        }
+      },
+      "examples": [
+        "Ik scheid de eieren.",
+        "Hij scheidt zich."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我分离鸡蛋。",
+          "他分离自己。"
+        ],
+        "english": [
+          "I separate eggs.",
+          "He separates himself."
+        ]
+      },
+      "notes": "可分动词，助动词用zijn",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1768,
+      "word": "geschenk",
+      "translation": {
+        "chinese": "礼物",
+        "english": "gift, present"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "geschenk",
+          "plural": "geschenken"
+        }
+      },
+      "examples": [
+        "Het geschenk is mooi.",
+        "Verschillende geschenken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "礼物很美。",
+          "不同的礼物。"
+        ],
+        "english": [
+          "The gift is beautiful.",
+          "Different gifts."
+        ]
+      },
+      "notes": "复数形式为 geschenken",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1769,
+      "word": "geslacht",
+      "translation": {
+        "chinese": "性别",
+        "english": "gender"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "geslacht",
+          "plural": "geslachten"
+        }
+      },
+      "examples": [
+        "Het geslacht is onbelangrijk.",
+        "Verschillende geslachten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "性别不重要。",
+          "不同的性别。"
+        ],
+        "english": [
+          "Gender is unimportant.",
+          "Different genders."
+        ]
+      },
+      "notes": "复数形式为 geslachten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1770,
+      "word": "gesloten",
+      "translation": {
+        "chinese": "关闭的",
+        "english": "closed"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gesloten",
+          "withDe": "gesloten",
+          "withHet": "gesloten",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is gesloten.",
+        "Een gesloten deur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是关闭的。",
+          "关闭的门。"
+        ],
+        "english": [
+          "It is closed.",
+          "A closed door."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1771,
+      "word": "gestaag",
+      "translation": {
+        "chinese": "坚持的",
+        "english": "persistent, stubborn"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gestaag",
+          "withDe": "gestaage",
+          "withHet": "gestaage",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Hij is gestaag.",
+        "Een gestaage houding."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他坚持。",
+          "坚持的态度。"
+        ],
+        "english": [
+          "He is persistent.",
+          "A stubborn attitude."
+        ]
+      },
+      "notes": "分词形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1772,
+      "word": "gesteldheid",
+      "translation": {
+        "chinese": "姿势、态度",
+        "english": "posture, attitude"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "gesteldheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De gesteldheid is goed.",
+        "Zijn gesteldheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "姿势很好。",
+          "他的态度。"
+        ],
+        "english": [
+          "The posture is good.",
+          "His attitude."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1773,
+      "word": "getal",
+      "translation": {
+        "chinese": "数字",
+        "english": "number"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "getal",
+          "plural": "getallen"
+        }
+      },
+      "examples": [
+        "Het getal is groot.",
+        "Verschillende getallen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "数字很大。",
+          "不同的数字。"
+        ],
+        "english": [
+          "The number is large.",
+          "Different numbers."
+        ]
+      },
+      "notes": "复数形式为 getallen（短元音变长元音）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1774,
+      "word": "getuigen",
+      "translation": {
+        "chinese": "证人",
+        "english": "witnesses"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "getuige",
+          "plural": "getuigen"
+        }
+      },
+      "examples": [
+        "De getuigen spreken.",
+        "Bekende getuigen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "证人们作证。",
+          "著名的证人。"
+        ],
+        "english": [
+          "The witnesses speak.",
+          "Famous witnesses."
+        ]
+      },
+      "notes": "复数形式为 getuigen（-ige 变 -igen）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1775,
+      "word": "getuige",
+      "translation": {
+        "chinese": "证人",
+        "english": "witness"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "getuige",
+          "plural": "getuigen"
+        }
+      },
+      "examples": [
+        "De getuige spreekt.",
+        "Een betrouwbare getuige."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "证人作证。",
+          "可信证人。"
+        ],
+        "english": [
+          "The witness speaks.",
+          "A reliable witness."
+        ]
+      },
+      "notes": "复数形式为 getuigen（-ige 变 -igen）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1776,
+      "word": "geur",
+      "translation": {
+        "chinese": "气味",
+        "english": "smell, odor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "geur",
+          "plural": "geuren"
+        }
+      },
+      "examples": [
+        "De geur is sterk.",
+        "Verschillende geuren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "气味很强。",
+          "不同的气味。"
+        ],
+        "english": [
+          "The smell is strong.",
+          "Different smells."
+        ]
+      },
+      "notes": "复数形式为 geuren",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1777,
+      "word": "gevecht",
+      "translation": {
+        "chinese": "战斗",
+        "english": "battle, fight"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "gevecht",
+          "plural": "gevechten"
+        }
+      },
+      "examples": [
+        "Het gevecht is zwaar.",
+        "Verschillende gevechten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "战斗很激烈。",
+          "不同的战斗。"
+        ],
+        "english": [
+          "The battle is heavy.",
+          "Different battles."
+        ]
+      },
+      "notes": "复数形式为 gevechten",
+      "difficulty": "B1"
+    }
+  ]
+}

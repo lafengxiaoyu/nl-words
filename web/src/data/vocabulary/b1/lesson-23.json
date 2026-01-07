@@ -1,0 +1,1700 @@
+{
+  "id": "lB123",
+  "level": "B1",
+  "lessonNumber": 23,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 2378,
+      "word": "nauw",
+      "translation": {
+        "chinese": "紧密的",
+        "english": "close"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nauw",
+          "withDe": "nauwe",
+          "withHet": "nauwe",
+          "comparative": "nauwer",
+          "superlative": "het nauwst"
+        }
+      },
+      "examples": [
+        "De nauwe samenwerking tussen de bedrijven resulteerde in succes.",
+        "Hij heeft nauwe contacten met de politie onderzocht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司之间紧密的合作带来了成功。",
+          "他与警方进行了密切接触。"
+        ],
+        "english": [
+          "The close cooperation between the companies resulted in success.",
+          "He has close contacts with the police investigated."
+        ]
+      },
+      "notes": "形容关系密切或空间狭窄",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2379,
+      "word": "nauwelijks",
+      "translation": {
+        "chinese": "精确的",
+        "english": "precise"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nauwelijks",
+          "withDe": "nauwkeurige",
+          "withHet": "nauwkeurige",
+          "comparative": "nauwkeuriger",
+          "superlative": "het nauwkeurigst"
+        }
+      },
+      "examples": [
+        "De nauwkeurige analyse van de data leidde tot nieuwe inzichten die de manier waarop we ons bedrijf runnende veranderingen fundamenteel hebben veranderd.",
+        "Ze werkt nauwkeurig en maakt nauwelijks fouten, wat haar reputatie als een van de meest betrouwbare professionals in haar vakgebied heeft gevestigd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "对数据的精确分析导致了新的见解，从根本上改变了我们公司目前运营的方式。",
+          "她工作精确，几乎没有犯错，这使她作为其所在行业最值得信赖的专业人士之一而声誉卓著。"
+        ],
+        "english": [
+          "The precise analysis of the data led to new insights that have fundamentally changed the way our company currently operates.",
+          "She works precisely and makes almost no mistakes, which has established her reputation as one of the most reliable professionals in her field."
+        ]
+      },
+      "notes": "同义词 nauwkeurig，表示精确",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2380,
+      "word": "nauwgezet",
+      "translation": {
+        "chinese": "密切的",
+        "english": "closely"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "nauwgezet"
+        }
+      },
+      "examples": [
+        "De politie onderzoekt de zaak nauwgezet.",
+        "Ze volgt nauwgezet de ontwikkelingen in de markt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "警方正在密切调查此案。",
+          "她密切跟踪市场的发展。"
+        ],
+        "english": [
+          "The police investigate the case closely.",
+          "She follows closely the developments in the market."
+        ]
+      },
+      "notes": "副词，表示密切地",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2381,
+      "word": "nauwkeurigheid",
+      "translation": {
+        "chinese": "精确性",
+        "english": "precision"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nauwkeurigheid",
+          "plural": "nauwkeurigheden"
+        }
+      },
+      "examples": [
+        "De nauwkeurigheid van het toestel is indrukwekkend.",
+        "Wetenschappelijk werk vereist absolute nauwkeurigheid bij het meten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "设备的精确性令人印象深刻。",
+          "科学研究在测量时需要绝对的精确性。"
+        ],
+        "english": [
+          "The precision of the device is impressive.",
+          "Scientific work requires absolute precision in measuring."
+        ]
+      },
+      "notes": "复数形式为 nauwkeurigheden",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2382,
+      "word": "navigatie",
+      "translation": {
+        "chinese": "导航",
+        "english": "navigation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "navigatie",
+          "plural": "navigaties"
+        }
+      },
+      "examples": [
+        "De GPS-navigatie in de auto werkt perfect.",
+        "De site heeft een intuïtieve navigatie voor gebruikers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "汽车里的GPS导航运作完美。",
+          "该网站为用户提供直观的导航。"
+        ],
+        "english": [
+          "The GPS navigation in the car works perfectly.",
+          "The site has intuitive navigation for users."
+        ]
+      },
+      "notes": "复数形式为 navigaties",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2383,
+      "word": "navigeren",
+      "translation": {
+        "chinese": "导航",
+        "english": "to navigate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "navigeren",
+          "isSeparable": false,
+          "present": {
+            "ik": "navigeer",
+            "jij": "navigeert",
+            "hij": "navigeert",
+            "wij": "navigeren",
+            "jullie": "navigeren",
+            "zij": "navigeren"
+          },
+          "past": {
+            "singular": "navigeerde",
+            "plural": "navigeerden"
+          },
+          "pastParticiple": "genavigeerd",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Hij navigeerde vaardig door het doolhof van smalle, steegstraten in de oude stad, waarbij hij verschillende korte routes moest nemen om zijn bestemming te bereiken.",
+        "Het is voor onervaren gebruikers niet makkelijk om op deze website te navigeren zonder een gids, omdat de structuur verwarrend en de zoekfuncties niet naar verwachtingen presteeren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他熟练地穿过老城里迷宫般的街道，为了到达目的地不得不走几条短路径。",
+          "对于没有经验的用户来说，在没有指南的情况下在这个网站上导航并不容易，因为结构混乱和搜索功能不尽如人意。"
+        ],
+        "english": [
+          "He navigated skillfully through the maze of narrow streets in the old city, having to take several short routes to reach his destination.",
+          "It is not easy for inexperienced users to navigate on this website without a guide, because the structure is confusing and search functionality does not perform as expected."
+        ]
+      },
+      "notes": "规则动词，-eren 结尾",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2384,
+      "word": "nazi",
+      "translation": {
+        "chinese": "纳粹",
+        "english": "Nazi"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nazi",
+          "plural": "nazi's"
+        }
+      },
+      "examples": [
+        "De nazi-bewind tijdens de Tweede Wereldoorlog veroorzaakte enorme ellende en miljoenen slachtoffers, en had een onuitwisbare impact op de wereldgeschiedenis.",
+        "Historici onderzoeken nog steeds de daden van de nazi's tijdens de oorlog, waarbij nieuw archiefmateriaal openbaarm is gemaakt en getuigenissen verzameld worden voor historische accuratie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "纳粹统治在第二次世界大战期间造成了巨大的苦难和数百万受害者的死亡，对世界历史产生了不可否认的影响。",
+          "历史学家仍在研究战争期间纳粹的行为，新档案材料已被开放并收集了证词以确保历史准确性。"
+        ],
+        "english": [
+          "The Nazi regime during the Second World War caused enormous suffering and millions of victims, leaving an undeniable impact on world history.",
+          "Historians are still researching the actions of the Nazis during the war, with new archive material being opened up and testimonies being collected to ensure historical accuracy."
+        ]
+      },
+      "notes": "首字母大写，复数形式为 nazi's",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2385,
+      "word": "neerslag",
+      "translation": {
+        "chinese": "挫折",
+        "english": "defeat"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "neerslag",
+          "plural": "neerslagen"
+        }
+      },
+      "examples": [
+        "De zware neerslag van het team had een grote impact op het moreel.",
+        "Na elke neerslag leer je weer een beetje en sterker worden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "团队的惨重创对士气有很大影响。",
+          "每次挫折后，你都会学一点并变得更强大。"
+        ],
+        "english": [
+          "The heavy defeat of the team had a major impact on morale.",
+          "After every defeat you learn a little and become stronger."
+        ]
+      },
+      "notes": "复数形式为 neerslagen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2386,
+      "word": "negatief",
+      "translation": {
+        "chinese": "负面的",
+        "english": "negative"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "negatief",
+          "withDe": "negatieve",
+          "withHet": "negatieve",
+          "comparative": "negatiever",
+          "superlative": "het negatiefst"
+        }
+      },
+      "examples": [
+        "De negatieve feedback leidde tot verbeteringen in het product.",
+        "Een negatieve houding kan je kansen op succes beperken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "负面的反馈导致了产品的改进。",
+          "消极的态度可能会限制你成功的机会。"
+        ],
+        "english": [
+          "The negative feedback led to improvements in the product.",
+          "A negative attitude can limit your chances of success."
+        ]
+      },
+      "notes": "比较级和最高级规则：negatief - negatiever - negatiefst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2387,
+      "word": "neiging",
+      "translation": {
+        "chinese": "倾向",
+        "english": "tendency"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "neiging",
+          "plural": "neigingen"
+        }
+      },
+      "examples": [
+        "Hij heeft de neiging om uitgebreid te spreken over zijn professionele successen, wat soms leidt tot enige irritatie bij zijn collega's.",
+        "De neiging van mensen om naar buiten te gaan in de zomer neemt toe naarmate de zomermaanden langer en intensiever worden door toeristen, recreatieve bedrijven en de horecasector."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他有过度谈论职业成就的倾向，这有时会引起同事的一些不满。",
+          "人们在夏天去户外的倾向增加，使得旅游企业、休闲公司和酒店业的旺季更强烈和更持久。"
+        ],
+        "english": [
+          "He has the tendency to speak extensively about his professional successes, which sometimes leads to some irritation among his colleagues.",
+          "The tendency of people to go outside in the summer increases as the summer months are becoming longer and more intensive due to tourists, recreational companies and the hospitality sector."
+        ]
+      },
+      "notes": "复数形式为 neigingen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2388,
+      "word": "neocon",
+      "translation": {
+        "chinese": "新保守主义者",
+        "english": "neoconservative"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "neocon",
+          "plural": "neocons"
+        }
+      },
+      "examples": [
+        "De neocons pleiten in de jaren negentig voor een agressiever buitenlandbeleid, wat leidde tot de controversiële interventies in het Midden-Oosten.",
+        "Veel neocons maken deel uit van de Amerikaanse politiek, waar ze invloed hebben op het beleid met betrekking tot nationale veiligheid, belastinghervorming en het buitenlandbeleid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "新保守主义者多年来一直主张更具侵略性的外交政策，这导致了在中东引起争议的军事干预。",
+          "许多新保守主义者是美国政治的一部分，他们在国家安全、税收改革和外交政策方面产生重大影响。"
+        ],
+        "english": [
+          "The neoconservatives have advocated for years for a more aggressive foreign policy, which led to controversial military interventions in the Middle East.",
+          "Many neoconservatives are part of the American politics, where they have influenced policy regarding national security, tax reform and foreign policy significantly."
+        ]
+      },
+      "notes": "政治术语，复数形式为 neocons",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2389,
+      "word": "nep",
+      "translation": {
+        "chinese": "假的",
+        "english": "fake"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nep",
+          "withDe": "neppe",
+          "withHet": "neppe",
+          "comparative": "nepper",
+          "superlative": "het neppest"
+        }
+      },
+      "examples": [
+        "Hij droeg een nep horloge om indruk te maken op zijn vrienden tijdens het chique party, zonder te beseffen dat de kwaliteit te wensen was over.",
+        "De politie arresteerde iemand voor de verkoop van nep designerkleding en luxurygoederen, waarschuwende consumenten om alert te zijn op verdachte deals."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在时尚派对上戴着假手表给朋友留下印象，却没有考虑到质量可能不符合预期。",
+          "警方因销售假冒设计师服装和奢侈品逮捕了一人，警告消费者要对可疑交易保持警惕。"
+        ],
+        "english": [
+          "He wore a fake luxury watch to impress his friends at the chic party, without considering that the quality might not meet expectations.",
+          "The police arrested someone for the sale of counterfeit designer clothing and luxury goods, warning consumers to be alert to suspicious deals."
+        ]
+      },
+      "notes": "比较级和最高级：nep - nepper - neppest",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2390,
+      "word": "nest",
+      "translation": {
+        "chinese": "巢",
+        "english": "nest"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "nest",
+          "plural": "nesten"
+        }
+      },
+      "examples": [
+        "De vogels bouwen een nest in de boom om hun eieren in te leggen.",
+        "Het project was een compleet nest van bureacratie en vertragingen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "鸟儿在树上筑巢产蛋。",
+          "该项目是官僚主义和延误的完美巢穴。"
+        ],
+        "english": [
+          "The birds build a nest in the tree to lay their eggs.",
+          "The project was a complete nest of bureaucracy and delays."
+        ]
+      },
+      "notes": "比喻用法也可指复杂的情况",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2391,
+      "word": "netheid",
+      "translation": {
+        "chinese": "整洁性",
+        "english": "neatness"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "netheid",
+          "plural": "netheden"
+        }
+      },
+      "examples": [
+        "De uitmuntende netheid van het nieuwe gebouw werd door de inspecteurs geprezen vanwege de moderne faciliteiten en het grondige onderhoudsprogramma.",
+        "Haar persoonlijke netheid, inclusief de orde van haar werkplek en de zorg waarmee ze haar taken uitvoert, is iets waar ze bijzonder trots op is en door anderen wordt gerespecteerd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "新建建筑的出色整洁性因现代化设施和周密的维护计划而受到检查员的称赞。",
+          "她的个人整洁，包括工作空间的有序和执行任务的谨慎，是她感到自豪的特质，并受到他人的尊重。"
+        ],
+        "english": [
+          "The exemplary cleanliness of the new building was praised by the inspectors due to modern facilities and the thorough maintenance program.",
+          "Her personal neatness, including the order of her workspace and the care with which she performs her tasks, is a quality she is particularly proud of and that is respected by others."
+        ]
+      },
+      "notes": "复数形式为 netheden",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2392,
+      "word": "neutraal",
+      "translation": {
+        "chinese": "中立的",
+        "english": "neutral"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "neutraal",
+          "withDe": "neutrale",
+          "withHet": "neutrale",
+          "comparative": "neutraler",
+          "superlative": "het neutralst"
+        }
+      },
+      "examples": [
+        "Zwitserland heeft altijd een neutrale positie ingenomen in internationaal conflicten, en probeert te fungeren als onpartijdige bemiddelaar.",
+        "De scheidsrechter trachtte neutraal te blijven in het conflict door beslissingen te baseren op feiten en regels in plaats van emotionele of politieke overwegingen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "瑞士在国际冲突中始终保持中立立场，试图作为公正的调解者发挥作用。",
+          "裁判努力在冲突中保持中立，基于事实和规则而不是情绪或政治考量做出决定。"
+        ],
+        "english": [
+          "Switzerland has always taken a neutral position in international conflicts, trying to function as an impartial mediator.",
+          "The referee strived to remain neutral in the conflict by making decisions based on facts and rules rather than on emotional or political considerations."
+        ]
+      },
+      "notes": "常用于政治或学术语境",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2393,
+      "word": "neveneffect",
+      "translation": {
+        "chinese": "副作用",
+        "english": "side effect"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "neveneffect",
+          "plural": "neveneffecten"
+        }
+      },
+      "examples": [
+        "Dit geneesmiddel heeft minder neveneffecten vergeleken met de eerdere versie, wat het een veiligere en populairdere optie maakt voor patiënten.",
+        "De neveneffecten van de maatregel worden zorgvuldig gemonitord door een onafhankelijk toezichtsorgaan, zodat eventuele onverwachte reacties snel kunnen worden geïdentificeerd en behandeld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这种新药的副作用比早期版本少，使其成为患者更安全和更受欢迎的选择。",
+          "该措施的副作用正在被独立的监督机构仔细监测，以便能够迅速识别和处理任何意外的反应。"
+        ],
+        "english": [
+          "This medicine has fewer side effects compared to the earlier version, making it a safer and more popular option for patients.",
+          "The side effects of the measure are being carefully monitored by an independent supervisory body so that any unexpected reactions can be quickly identified and treated."
+        ]
+      },
+      "notes": "复数形式为 neveneffecten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2394,
+      "word": "niet-roker",
+      "translation": {
+        "chinese": "不吸烟者",
+        "english": "non-smoker"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "niet-roker",
+          "plural": "niet-roker"
+        }
+      },
+      "examples": [
+        "Als niet-roker heb je een lager risico op longkanker, en bovendien kun je genieten van de nadelige gevolgen van passief roken voor je gezondheid.",
+        "Het restaurant heeft een comfortabele, goed geventileerde ruimte ingericht voor niet-roker, waar ze kunnen genieten van hun maaltijd in een gezonde omgeving zonder hinder te lijden van tabaksrook."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "作为不吸烟者，你患肺癌的风险较低，此外你可以免受被动吸烟带来的有害健康影响。",
+          "餐厅设有一个舒适且通风良好的专门区域供不吸烟者使用，让他们可以在没有受到二手烟干扰的清新环境中享受饭菜。"
+        ],
+        "english": [
+          "As a non-smoker you have a lower risk of lung cancer, and in addition you can be spared from the harmful health effects of passive smoking.",
+          "The restaurant has a comfortable, well-ventilated area specifically designated for non-smokers, where they can enjoy their meal in a fresh environment without being bothered by second-hand smoke."
+        ]
+      },
+      "notes": "复合名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2395,
+      "word": "nieuwsbrief",
+      "translation": {
+        "chinese": "通讯",
+        "english": "newsletter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nieuwsbrief",
+          "plural": "nieuwsbrieven"
+        }
+      },
+      "examples": [
+        "Ik ontvang de wekelijkse nieuwsbrief van mijn sportsclub.",
+        "Het bedrijf zendt maandelijkse nieuwsbrieven naar alle klanten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我收到体育俱乐部的每周通讯。",
+          "公司每月向所有客户发送通讯。"
+        ],
+        "english": [
+          "I receive the weekly newsletter from my sports club.",
+          "The company sends monthly newsletters to all customers."
+        ]
+      },
+      "notes": "复数形式为 nieuwsbrieven",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2396,
+      "word": "nieuwwaarde",
+      "translation": {
+        "chinese": "价值",
+        "english": "value"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nieuwwaarde",
+          "plural": "nieuwwaarden"
+        }
+      },
+      "examples": [
+        "De nieuwwaarde van het huis is gestegen door de recente renovaties die de wooncomfort en energie-efficiëntie hebben verbeterd.",
+        "Onderwijs heeft enorme nieuwwaarde voor de ontwikkeling van kinderen, niet alleen cognitief maar ook emotioneel, sociaal en cultureel, en bereidt hen op een succesvolle toekomst in een snel veranderende wereld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "由于近期的翻新，房屋的价值增加了，因为居住舒适度和能源效率得到了改善。",
+          "教育对儿童的发展具有巨大价值，不仅在认知方面，还在情感、社会和文化方面，为他们在这个快速变化的世界中的成功未来做准备。"
+        ],
+        "english": [
+          "The value of the house has increased due to the recent renovations because the living comfort and energy efficiency have been improved.",
+          "Education has enormous value for the development of children, not only cognitively but also emotionally, socially and culturally, preparing them for a successful future in a rapidly changing world."
+        ]
+      },
+      "notes": "复数形式为 nieuwwaarden",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2397,
+      "word": "notaris",
+      "translation": {
+        "chinese": "公证人",
+        "english": "notary"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "notaris",
+          "plural": "notarissen"
+        }
+      },
+      "examples": [
+        "De notaris heeft het contract getekend.",
+        "Je hebt een notaris nodig voor het kopen van een huis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公证人签署了合同。",
+          "买房需要公证人。"
+        ],
+        "english": [
+          "The notary signed contract.",
+          "You need a notary for buying a house."
+        ]
+      },
+      "notes": "职业名称，复数形式为 notarissen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2398,
+      "word": "notificatie",
+      "translation": {
+        "chinese": "通知",
+        "english": "notification"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "notificatie",
+          "plural": "notificaties"
+        }
+      },
+      "examples": [
+        "Ik ontving een onmiddellijke notificatie op mijn telefoon die me herinnerde aan de aankomende deadline.",
+        "Het is raadzaam om de notificaties in te schakelen voor belangrijke updates, zodat je constant op de hoogte blijft van ontwikkelingen in lopende projecten en geen cruciale informatie mist."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在手机上收到即时通知，提醒我即将到来的截止日期。",
+          "建议为重要更新启用通知，以便你始终了解正在进行的项目的进展情况，不会错过任何关键信息。"
+        ],
+        "english": [
+          "I received an instant notification on my phone that reminded me of the approaching deadline.",
+          "It is advisable to enable notifications for important updates so that you always stay informed about the progress of ongoing projects and do not miss any crucial information."
+        ]
+      },
+      "notes": "常用于数字环境，如手机、电脑通知",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2399,
+      "word": "notulen",
+      "translation": {
+        "chinese": "会议记录",
+        "english": "minutes"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "notulen",
+          "plural": "notulen"
+        }
+      },
+      "examples": [
+        "De notulen van de maandelijkse teamvergadering zijn op tijd klaar en verspreid aan alle aanwezigen voor accoordatie.",
+        "We moeten de notulen van de vorige vergadering goedkeuren alvorens we kunnen overgaan tot de besluiten van de nieuwe agenda en de actiepunten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "月度团队会议的记录已准备完毕并分发给所有与会者以供批准。",
+          "在我们继续进行新会议的议程和讨论行动点之前，必须仔细审查并批准上次会议的记录。"
+        ],
+        "english": [
+          "The minutes of the monthly team meeting are ready on time and distributed to all attendees for approval.",
+          "We must carefully review and approve the minutes of the previous meeting before we can proceed to the new agenda and the action points."
+        ]
+      },
+      "notes": "复数形式不变，常用于商务和正式场合",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2400,
+      "word": "nuance",
+      "translation": {
+        "chinese": "细微差别",
+        "english": "nuance"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nuance",
+          "plural": "nuances"
+        }
+      },
+      "examples": [
+        "Hij begrijpt de nuances van de Nederlandse taal op een diepe niveau, waardoor hij in staat is om subtiele culturele referenties en dubbelzinnige uitdrukkingen correct te interpreteren.",
+        "Dit schilderij heeft vele mooie nuances in de kleurgebruik, die het licht op verschillende manieren verandert afhankelijk van het invallicht, waardoor de kijker een compleet andere beleving van het kunstwerk ervaart."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他以深刻的水平理解荷兰语的细微差别，能够正确解释微小的文化参考和模棱两可的表达。",
+          "这幅画有许多美丽的色调，根据入射光以不同方式变化，使观看者对艺术作品获得完整的审美体验。"
+        ],
+        "english": [
+          "He understands the nuances of the Dutch language at a deep level, enabling him to correctly interpret subtle cultural references and ambiguous expressions.",
+          "This painting has many beautiful nuances in the color usage, which changes in different ways depending on the incident light, giving the viewer a complete aesthetic experience of the artwork."
+        ]
+      },
+      "notes": "也可指色调、层次",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2401,
+      "word": "nuanceren",
+      "translation": {
+        "chinese": "使更细致、澄清",
+        "english": "to nuance, to refine"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "nuanceren",
+          "isSeparable": false,
+          "present": {
+            "ik": "nuanceer",
+            "jij": "nuanceert",
+            "hij": "nuanceert",
+            "wij": "nuanceren",
+            "jullie": "nuanceren",
+            "zij": "nuanceren"
+          },
+          "past": {
+            "singular": "nuanceerde",
+            "plural": "nuanceerden"
+          },
+          "pastParticiple": "genuanceerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik moet mijn standpunt nuanceren nadat gebleken is dat mijn eerdere opmerking te eendzijdig waren en voor verkeerde begrepen konden worden.",
+        "Tijdens het persconferentie nuanceerde hij zijn eerdere opmerkingen door toe te voegen dat zijn bezorgdheid over milieuvloeding gerechtvaardig was, zonder de urgentie van de zaak te ontkennen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我需要澄清我的立场，因为我之前的评论过早并被误解了。",
+          "在新闻发布会上，他澄清了他早些时候的评论，补充说他对环境公正的担忧并非对案件的紧迫性不屑一顾。"
+        ],
+        "english": [
+          "I need to nuance my position because my earlier remarks proved to be premature and were misunderstood.",
+          "During the press conference he clarified his earlier remarks by adding that his concern about environmental pollution was by no means a dismissal of the urgency of the case."
+        ]
+      },
+      "notes": "动词形式来自名词 nuance，表示使陈述更准确细致",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2402,
+      "word": "nuchter",
+      "translation": {
+        "chinese": "清醒的、理性的",
+        "english": "sober, clear-headed, rational"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nuchter",
+          "withDe": "nuchtere",
+          "withHet": "nuchter",
+          "comparative": "nuchterder",
+          "superlative": "het nuchterst"
+        }
+      },
+      "examples": [
+        "Hij is nuchter genoeg om beslissingen te nemen.",
+        "Een nuchtere kijk op de situatie helpt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他足够清醒来做决定。",
+          "对情况持理性观点有帮助。"
+        ],
+        "english": [
+          "He is clear-headed enough to make decisions.",
+          "A sober view of situation helps."
+        ]
+      },
+      "notes": "也可表示'未饮酒的'（空腹）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2403,
+      "word": "nutteloos",
+      "translation": {
+        "chinese": "无用的、徒劳的",
+        "english": "useless, futile"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nutteloos",
+          "withDe": "nutteloze",
+          "withHet": "nutteloze",
+          "comparative": "nuttelozer",
+          "superlative": "het nutteloost"
+        }
+      },
+      "examples": [
+        "Het is voor velen een nutteloze zaak om op te wachten, aangezien de omstandigheden onveranderd zijn en de kans op succes minimaal is.",
+        "De investering in dit project is een complete verspilling van middelen, aangezien de oorspronkelijke planning gebreken was en de verwachtingen onrealistisch waren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "对许多人来说这是一个徒劳的等待项目，因为情况已经发生变化，成功的机会微乎其微。",
+          "这个项目完全是资源的浪费，因为最初的计划存在根本缺陷且预期不切实际，已经没有挽回的可能了。"
+        ],
+        "english": [
+          "It is for many a futile project to wait, since the circumstances have changed and the chance of success is minimal.",
+          "The investment in this project is a complete waste of resources, because the original planning had fundamental flaws and the expectations were unrealistic, with no possibility of recovery anymore."
+        ]
+      },
+      "notes": "复合形容词，由 nuttig(有用的)和 -loos(无)组成",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2404,
+      "word": "objectief",
+      "translation": {
+        "chinese": "客观的",
+        "english": "objective"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "objectief",
+          "withDe": "objectieve",
+          "withHet": "objectieve",
+          "comparative": "objectiever",
+          "superlative": "het objectiefst"
+        }
+      },
+      "examples": [
+        "We moeten objectief blijven door feiten en bewijsmateriaal te laten spreken, zelfs als onze persoonlijke meningen tegenstrijden.",
+        "Hij gaf een objectief oordeel over de zaak, gebaseerd op de feiten die tijdens het onderzoek naar voren zijn gekomen en zonder beïnvloed door persoonlijke vooroordelen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们必须基于事实和证据材料保持客观，即使我们的个人观点相冲突。",
+          "他根据调查期间出现的证据做出了客观判断，没有受到个人偏见或先入为主的影响。"
+        ],
+        "english": [
+          "We must remain objective by letting facts and evidence material speak, even if our personal opinions contradict each other.",
+          "He gave an objective judgment on the case based on the facts that came forward during the investigation and without being influenced by personal biases or prejudices."
+        ]
+      },
+      "notes": "反义词是 subjectief（主观的）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2405,
+      "word": "obligatie",
+      "translation": {
+        "chinese": "债券",
+        "english": "bond"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "obligatie",
+          "plural": "obligaties"
+        }
+      },
+      "examples": [
+        "De overheid gaf nieuwe staatsobligaties uit om investeringen in infrastructuur en economisch herstel te financieren.",
+        "Hij investeert voorzichtig in staatsobligaties, aangezien deze als veilige belegging met een vaste rentevoet doorgaans worden beschouwd als een stabiele investering voor zijn pensioen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "政府发行了新国债以资助基础设施投资和促进经济复苏。",
+          "他谨慎地投资于国债，因为这些债券以固定利率回报且历来被认为是一种安全的长期投资。"
+        ],
+        "english": [
+          "The government issued new government bonds to finance infrastructure investments and promote economic recovery.",
+          "He invests cautiously in government bonds, since these are considered a safe long-term investment with a fixed interest rate that historically provides stable returns."
+        ]
+      },
+      "notes": "金融术语",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2406,
+      "word": "observatie",
+      "translation": {
+        "chinese": "观察",
+        "english": "observation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "observatie",
+          "plural": "observaties"
+        }
+      },
+      "examples": [
+        "De observatie van de patiënt duurde 24 uur.",
+        "Zijn observaties zijn zeer nauwkeurig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "对患者的观察持续了24小时。",
+          "他的观察非常准确。"
+        ],
+        "english": [
+          "The observation of patient lasted 24 hours.",
+          "His observations are very accurate."
+        ]
+      },
+      "notes": "科学和正式用语",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2407,
+      "word": "observeren",
+      "translation": {
+        "chinese": "观察",
+        "english": "to observe"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "observeren",
+          "isSeparable": false,
+          "present": {
+            "ik": "observeer",
+            "jij": "observeert",
+            "hij": "observeert",
+            "wij": "observeren",
+            "jullie": "observeren",
+            "zij": "observeren"
+          },
+          "past": {
+            "singular": "observeerde",
+            "plural": "observeerden"
+          },
+          "pastParticiple": "geobserveerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De wetenschapper observeert de sterren door middel van geavanceerde telescopen, in de hoop op het ontdekken van nieuwe planeten en zelfs van buitenaards leven.",
+        "We observeerden het gedrag van de dieren in hun natuurlijke habitat gedurende meerdere weken, waarbij we letten op patronen in voedselzoeking, sociale interacties en migratiegedrag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "科学家通过先进的望远镜观察星星，希望发现新行星甚至外星生命。",
+          "我们在几周内观察了动物在其自然栖息地的行为，注意到捕食模式、社交互动和迁徙行为。"
+        ],
+        "english": [
+          "The scientist observes the stars through advanced telescopes, hoping to discover new planets and even extraterrestrial life.",
+          "We observed the behavior of the animals in their natural habitat over several weeks, noting patterns in food search, social interactions and migration behavior."
+        ]
+      },
+      "notes": "外来动词，规则变位",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2408,
+      "word": "obstakel",
+      "translation": {
+        "chinese": "障碍",
+        "english": "obstacle"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "obstakel",
+          "plural": "obstakels"
+        }
+      },
+      "examples": [
+        "Er waren veel obstakels op de weg naar de bestemming, waaronder wegwerkzaamheden, slecht weer en een ongeval dat een extra vertraging veroorzaakte.",
+        "Dit project stuitte op een groot obstakel voor het doorgaan van de implementatie van het nieuwe softwaresysteem in de bestaande infrastructuur van het bedrijf."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "通往目的地的路上有很多障碍，包括道路施工、恶劣天气和一起导致额外延误的事故。",
+          "该项目在公司现有基础设施中实施新软件系统时遇到了重大障碍，这需要全面的重新评估和额外的资源分配。"
+        ],
+        "english": [
+          "There were many obstacles on the road to the destination, including roadworks, bad weather and an accident that caused additional delays.",
+          "The project encountered a major obstacle in implementing the new software system in the company's existing infrastructure, requiring a comprehensive reevaluation and additional resource allocation."
+        ]
+      },
+      "notes": "既可指物理障碍，也可指抽象困难",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2409,
+      "word": "oceaan",
+      "translation": {
+        "chinese": "海洋",
+        "english": "ocean"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "oceaan",
+          "plural": "oceanen"
+        }
+      },
+      "examples": [
+        "De Atlantische Oceaan is enorm groot en beslaart meer dan een derde van het aardoppervlak, met diepe dieptes en mysteriën die wetenschappers nog steeds proberen te doorgronden.",
+        "Hij zwom als een pionier over de oceaan, een prestatie die door velen als onmogelijk wordt beschouwd vanwege de extreme weersomstandigheden en de gevaren van de open zee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "大西洋极其巨大，覆盖地球表面超过三分之一，蕴含着科学家仍在努力解开的深处和奥秘。",
+          "他作为先驱游过了海洋，这项壮举由于极端的天气条件和开放海洋的巨大危险，被许多人视为不可能完成。"
+        ],
+        "english": [
+          "The Atlantic Ocean is enormous and covers more than a third of the Earth's surface, with depths and mysteries that scientists are still trying to fathom.",
+          "He swam across the ocean as a pioneer, a feat that due to the extreme weather conditions and the immense dangers of the open sea is considered impossible by many."
+        ]
+      },
+      "notes": "大写字母开头，常用复数形式",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2410,
+      "word": "oever",
+      "translation": {
+        "chinese": "岸、河岸",
+        "english": "bank, shore"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "oever",
+          "plural": "oevers"
+        }
+      },
+      "examples": [
+        "We liepen langs de schilderachtige oever van de rivier, genietend van het uitzicht op de zonsondergang en de frisse lentebries.",
+        "Aan de overkant van de oever bevindt zich een uitgebreid bos dat dienst als recreatiev gebied en als habitat voor diverse plant- en diersoorten functioneert."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们沿着风景如画的河岸漫步，享受日落和清新的春风。",
+          "河对岸拥有一片广阔的森林，它既作为娱乐区又作为多种动植物的栖息地发挥着生态功能。"
+        ],
+        "english": [
+          "We walked along the picturesque riverbank, enjoying the sunset and the fresh spring breezes.",
+          "The riverbank has an extensive forest on the opposite side, which functions both as a recreational area and as a habitat for diverse plant and animal species."
+        ]
+      },
+      "notes": "常用于河流、湖泊的岸边",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2411,
+      "word": "offensief",
+      "translation": {
+        "chinese": "进攻的、冒犯的",
+        "english": "offensive"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "offensief",
+          "withDe": "offensieve",
+          "withHet": "offensieve",
+          "comparative": "offensiever",
+          "superlative": "het offensiefst"
+        }
+      },
+      "examples": [
+        "Zijn opmerking was zeer offensief.",
+        "Het team begon een offensief aanval."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的评论非常冒犯人。",
+          "团队开始了一场进攻。"
+        ],
+        "english": [
+          "His remark was very offensive.",
+          "The team started an offensive attack."
+        ]
+      },
+      "notes": "也可作名词，指军事进攻",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2412,
+      "word": "offerte",
+      "translation": {
+        "chinese": "报价",
+        "english": "quote, offer"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "offerte",
+          "plural": "offertes"
+        }
+      },
+      "examples": [
+        "Ik heb een offerte gevraagd voor de volledige renovatie van mijn huis, inclusief alle werkzaamheden en materialen.",
+        "De offerte is geldig voor een periode van 30 dagen, en omvat gedetailleerde kostenramingen, specificaties van het werk en voorwaarden voor annulatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我要求了翻新整栋房子的报价，包括所有工程和材料。",
+          "报价有效期为30天，包含详细的成本估算、工作细节和取消条件。"
+        ],
+        "english": [
+          "I requested a quote for the complete renovation of my house, including all workmanship and materials.",
+          "The offer is valid for a period of 30 days, and includes detailed cost estimates, specifications of the work and conditions for cancellation."
+        ]
+      },
+      "notes": "商务用语",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2413,
+      "word": "officier",
+      "translation": {
+        "chinese": "军官",
+        "english": "officer"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "officier",
+          "plural": "officieren"
+        }
+      },
+      "examples": [
+        "De hooggeplaatste officier gaf het bevel om aan te vallen na een langdurig beleid van strategische patrouilles.",
+        "Hij is een zeer gerespecteerde officier die decennia van ervaring heeft opgebouwd, en wordt nu ingezet als adviseur om jongere officieren te trainen in moderne oorlogsvoering en crisismanagement."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这位高级军官在长期战略巡逻后下令进攻，改变了前线的军事态势。",
+          "他是一位备受尊敬的军官，拥有几十年的经验，现在被聘为顾问训练年轻军官现代战争和危机管理技能。"
+        ],
+        "english": [
+          "The high-ranking officer gave the order to attack after a long period of strategic patrol, changing the military situation on the front lines.",
+          "He is a highly respected officer who has built up decades of experience, and is now employed as an advisor to train young officers in modern warfare and crisis management skills."
+        ]
+      },
+      "notes": "职业名称，复数形式为 officieren",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2414,
+      "word": "olie",
+      "translation": {
+        "chinese": "油",
+        "english": "oil"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "olie",
+          "plural": "olies"
+        }
+      },
+      "examples": [
+        "Ik heb olie nodig voor de auto om de motor correct te kunnen smeren en het risico op oververhitting te minimaliseren.",
+        "De wereldwijde prijs van olie is de laatste jaren aanzienlijk geschommeld, wat leidde tot onzekerheid bij consumenten en economische gevolgen voor olie-afhankelijke landen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我需要汽车用油来正确润滑发动机并将过热风险降至最低。",
+          "近年来油价大幅波动，导致消费者不确定和对依赖石油的经济国家产生重大经济影响。"
+        ],
+        "english": [
+          "I need oil for the car to properly lubricate the engine and minimize the risk of overheating.",
+          "The world price of oil has fluctuated significantly in recent years, leading to uncertainty among consumers and major economic consequences for oil-dependent countries."
+        ]
+      },
+      "notes": "可指石油、食用油等多种油类",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2415,
+      "word": "olympisch",
+      "translation": {
+        "chinese": "奥林匹克的",
+        "english": "Olympic"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "olympisch",
+          "withDe": "olympische",
+          "withHet": "olympische",
+          "comparative": "olympischer",
+          "superlative": "het olympischst"
+        }
+      },
+      "examples": [
+        "De Olympische Spelen worden elke vier jaar gehouden, waarbij atleten uit de hele wereld samenkomen om hun dromen na te jagen.",
+        "Zij is een inspirerende Olympische kampioene die in haar discipline hard trainde om de top te bereiken, nu werkt ze als rolmodel voor jonge sporters en moedigt meisjes over de hele wereld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "奥运会每四年举办一次，来自世界各地的运动员聚集在一起追逐他们的梦想。",
+          "她是一位鼓舞人心的奥运冠军，在多年刻苦训练后达到了巅峰，现在担任全球年轻运动员和女孩的榜样。"
+        ],
+        "english": [
+          "The Olympic Games are held every four years, where athletes from all over the world come together to chase their dreams.",
+          "She is an inspiring Olympic champion who trained rigorously for many years to reach the top, now serving as a role model for young athletes and girls all over the world."
+        ]
+      },
+      "notes": "大写字母开头，常用于奥运会相关",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2416,
+      "word": "omarmen",
+      "translation": {
+        "chinese": "拥抱、接受",
+        "english": "to embrace, to adopt"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "omarmen",
+          "isSeparable": false,
+          "present": {
+            "ik": "omarm",
+            "jij": "omarmt",
+            "hij": "omarmt",
+            "wij": "omarmen",
+            "jullie": "omarmen",
+            "zij": "omarmen"
+          },
+          "past": {
+            "singular": "omarmde",
+            "plural": "omarmden"
+          },
+          "pastParticiple": "omarmd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij omarmde zijn vrouw met een warme knuffel nadat ze jarenlang van elkaar gescheiden waren geweest door zijn werk in het buitenland.",
+        "We moeten nieuwe ideeën en technologieën omarmen om relevant te blijven in een wereld die razend verandert, zonder bang te zijn voor vernieuwing maar met respect voor het verleden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在国外工作多年分离后用温暖的拥抱欢迎妻子回家，这象征着他们的重新团聚。",
+          "我们必须接受新思想和技术以在这个快速变化的世界中保持相关性，但不应出于恐惧而拒绝创新，同时尊重为我们带来今天的传统和价值观。"
+        ],
+        "english": [
+          "He welcomed his wife home with a warm hug after they had been separated for years because of his work abroad, symbolizing their reunion.",
+          "We must embrace new ideas and technologies to remain relevant in a rapidly changing world, without rejecting innovation out of fear but with respect for the traditions and values that have brought us to where we are today."
+        ]
+      },
+      "notes": "既可指物理拥抱，也可指抽象的接受、采纳",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2417,
+      "word": "omvang",
+      "translation": {
+        "chinese": "规模、范围",
+        "english": "scale, scope, size"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "omvang",
+          "plural": "omvangen"
+        }
+      },
+      "examples": [
+        "De omvang van het project is enorm.",
+        "We moeten de omvang van het probleem begrijpen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "项目的规模巨大。",
+          "我们必须了解问题的规模。"
+        ],
+        "english": [
+          "The scale of the project is enormous.",
+          "We need to understand the scope of the problem."
+        ]
+      },
+      "notes": "指事物的大小、规模或程度",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2418,
+      "word": "omvangrijk",
+      "translation": {
+        "chinese": "大规模的、广泛的",
+        "english": "extensive, large-scale"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "omvangrijk",
+          "withDe": "omvangrijke",
+          "withHet": "omvangrijke",
+          "comparative": "omvangrijker",
+          "superlative": "het omvangrijkst"
+        }
+      },
+      "examples": [
+        "De documentatie is zeer omvangrijk en bevat duizenden pagina's met gedetailleerde specificaties en technische schema's.",
+        "Het is een omvangrijk onderzoek waarbij meerdere jarenlang diverse gegevens zijn verzameld en geanalyseerd om trends te identificeren en toekomstige ontwikkelingen te voorspellen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "文档非常广泛，包含数千页详细的规格和图表。",
+          "这是一项大规模研究，多年来收集和分析了多样化数据，以识别趋势并预测未来发展。"
+        ],
+        "english": [
+          "The documentation is very extensive and contains thousands of pages with detailed specifications and technical diagrams.",
+          "It is an extensive research where diverse data have been collected and analyzed over many years to identify trends and predict future developments."
+        ]
+      },
+      "notes": "复合形容词，由 omvang 和 -rijk 组成",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2419,
+      "word": "omweg",
+      "translation": {
+        "chinese": "绕路、弯路",
+        "english": "detour"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "omweg",
+          "plural": "omwegen"
+        }
+      },
+      "examples": [
+        "Door de schitterende sneeuw moesten we een omweg maken, wat een aanzienlijk vertraging veroorzaakte maar ons de mogelijkheid bood om alternatieve routes te overwegen.",
+        "Een omweg kan soms nodig zijn om de meest efficiënte route te vermijden, hoewel dit vaak als een vervelende ervaring wordt gezien, maar het kan ook een prachtige kans zijn om landschappen te ontdekken die anders over het hoofd zouden blijven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "由于耀眼的雪，我们不得不绕道，虽然这造成了重大延误，但也给了我们探索替代路线的机会。",
+          "绕道有时是必要的，以避免最有效的路线，但这也可以是一次美丽的意外，让你能看到原本无法看到的风景。"
+        ],
+        "english": [
+          "Due to the brilliant snow we had to take a detour, which caused a considerable delay but also gave us the opportunity to explore alternative routes.",
+          "A detour is sometimes necessary to avoid the most efficient route, but it can also be a beautiful opportunity that lets you discover landscapes you would otherwise not see."
+        ]
+      },
+      "notes": "也可比喻'曲折的道路'或'额外的努力'",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2420,
+      "word": "omzet",
+      "translation": {
+        "chinese": "营业额、销售额",
+        "english": "turnover, revenue"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "omzet",
+          "plural": "omzetten"
+        }
+      },
+      "examples": [
+        "De omzet van het bedrijf is gestegen.",
+        "Wij hebben een recordomzet dit jaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司的营业额上升了。",
+          "今年我们有创纪录的销售额。"
+        ],
+        "english": [
+          "The turnover of the company has increased.",
+          "We have a record revenue this year."
+        ]
+      },
+      "notes": "商务和财务术语",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2421,
+      "word": "omzetten",
+      "translation": {
+        "chinese": "转换、改变",
+        "english": "to convert, to transform"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "omzetten",
+          "isSeparable": true,
+          "prefix": "om",
+          "present": {
+            "ik": "zet om",
+            "jij": "zet om",
+            "hij": "zet om",
+            "wij": "zetten om",
+            "jullie": "zetten om",
+            "zij": "zetten om"
+          },
+          "past": {
+            "singular": "zette om",
+            "plural": "zetten om"
+          },
+          "pastParticiple": "omgezet",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik zette het document om naar PDF.",
+        "Zij zette de kamer om tot een kantoor."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我将文档转换为PDF。",
+          "她把房间改造成了办公室。"
+        ],
+        "english": [
+          "I converted the document to PDF.",
+          "She transformed the room into an office."
+        ]
+      },
+      "notes": "可分动词，表示转换形式或改变用途",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2422,
+      "word": "onafhankelijkheid",
+      "translation": {
+        "chinese": "独立",
+        "english": "independence"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "onafhankelijkheid",
+          "plural": "onafhankelijkheden"
+        }
+      },
+      "examples": [
+        "Het land vierde zijn onafhankelijkheid in 1975 met groots feestelijk en internationale erkenning.",
+        "Zij streeft naar financiële onafhankelijkheid, wat haar in staat stelt om onafhankelijke keuzes te maken over haar carrière, leven en investeringen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "该国在1975年庆祝独立，伴随大规模的庆祝活动和国际社会的承认。",
+          "她追求财务独立，这让她能够对自己的职业、生活和投资做出自主决定，而无需他人批准。"
+        ],
+        "english": [
+          "The country celebrated its independence in 1975 with massive festivities and international recognition.",
+          "She strives for financial independence, which empowers her to make autonomous decisions about her career, life and investments without needing approval from others."
+        ]
+      },
+      "notes": "复合词，由 onafhankelijk 和 -heid 组成",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2423,
+      "word": "onbeperkt",
+      "translation": {
+        "chinese": "无限的",
+        "english": "unlimited"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onbeperkt",
+          "withDe": "onbeperkte",
+          "withHet": "onbeperkte",
+          "comparative": "onbeperkter",
+          "superlative": "het onbeperktst"
+        }
+      },
+      "examples": [
+        "Je hebt onbeperkt toegang tot de bibliotheek, zowel fysiek als digitaal, en kunt duizenden boeken en tijdschriften raadplegen op elk moment.",
+        "Dit is een onbeperkt abonnement dat voor een vast bedrag per maand toegang geeft tot alle streamingdiensten en premium content, inclusief offline luistermogelijkheden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你可以无限使用图书馆，无论是物理访问还是数字访问，并可以随时借阅成千本书和期刊。",
+          "这是一个无限订阅，每月支付固定费用即可访问所有流媒体服务和高级内容，还包括离线收听功能。"
+        ],
+        "english": [
+          "You have unlimited access to the library, both physically and digitally, and can borrow thousands of books and journals at any time.",
+          "This is an unlimited subscription that gives access to all streaming services and premium content for a fixed monthly fee, also including offline listening capabilities."
+        ]
+      },
+      "notes": "反义词是 beperkt（有限的）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2424,
+      "word": "onbewust",
+      "translation": {
+        "chinese": "无意识的",
+        "english": "unconscious, subconscious"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onbewust",
+          "withDe": "onbewuste",
+          "withHet": "onbewuste",
+          "comparative": "onbewuster",
+          "superlative": "het onbewustst"
+        }
+      },
+      "examples": [
+        "Hij maakte een onbewuste fout tijdens het invullen van de belastingaangifte, maar dit kwam pas aan het licht na een grondige controle.",
+        "Mijn onbewuste angst voor donkere ruimtes verdween langzaam naarmate ik me bewust werd van de rationele aard van mijn angsten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在填写纳税申报表时犯了一个无意识的错误，但直到详细审查后才被发现。",
+          "随着我更理性地意识到黑暗空间的本质，我对空房和黑暗小巷的潜意识恐惧慢慢消失了。"
+        ],
+        "english": [
+          "He made an unconscious mistake while filling in the tax return, but this only came to light after a thorough review.",
+          "My subconscious fear of dark spaces slowly disappeared as I became more rationally aware of the irrational nature of my anxieties about empty rooms and dark alleys."
+        ]
+      },
+      "notes": "反义词是 bewust（有意识的）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2425,
+      "word": "onbetaalbaar",
+      "translation": {
+        "chinese": "昂贵的、无价的",
+        "english": "priceless, unaffordable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onbetaalbaar",
+          "withDe": "onbetaalbare",
+          "withHet": "onbetaalbare",
+          "comparative": "onbetaalbaarder",
+          "superlative": "het onbetaalbaarst"
+        }
+      },
+      "examples": [
+        "Dit unieke meesterwerk uit de Gouden Eeuw wordt onbetaalbaar beschouwd, met een geschatte waarde die in een museum wordt tentoongesteld.",
+        "De ervaring was voor mij onbetaalbaar, aangezien de impact die het op mijn levensperspectief, mijn carrière en de relaties met de mensen om mij heen heeft gehad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这幅来自黄金时代的独特艺术品被认为是无价的，估计价值巨大，目前在博物馆展出。",
+          "这段经历对我来说是无价的，因为它深刻影响了我的生活观、职业道路以及与所有人的关系。"
+        ],
+        "english": [
+          "This unique masterpiece from the Golden Age is considered priceless, with an estimated value that is enormous and currently exhibited in a museum.",
+          "The experience was priceless to me, because it profoundly affected my life perspective, career path and the relationships with all those around me."
+        ]
+      },
+      "notes": "由 on-(无)和 betaalbaar(可支付的)组成",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2426,
+      "word": "niveau",
+      "translation": {
+        "chinese": "水平",
+        "english": "level"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "niveau",
+          "plural": "niveaus"
+        }
+      },
+      "examples": [
+        "Het waterpeil is op een gevaarlijk niveau gestegen door zware regenval, en dreigt nu dijken te overstromen waarbij kwetsbare wijken moeten worden geëvacueerd.",
+        "Het academisch niveau van deze studenten is hoog, en ze beschikken over uitstekende analytische vaardigheden die hen in staat stellen om complexe problemen op te lossen en innovatieve oplossingen te ontwikkelen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "由于大雨，水位已升至危险水平，威胁要淹没低洼地区，弱势社区必须立即撤离。",
+          "这些学生的学术水平很高，具备出色的分析技能，使他们能够解决复杂问题并开发创新的解决方案。"
+        ],
+        "english": [
+          "The water level has risen to a dangerous level due to heavy rainfall, threatening to flood low-lying areas where vulnerable communities must be immediately evacuated.",
+          "The academic level of these students is high, possessing excellent analytical skills that enable them to solve complex problems and develop innovative solutions."
+        ]
+      },
+      "notes": "复数形式为 niveaus",
+      "difficulty": "B1"
+    },
+    {
+      "id": 2427,
+      "word": "nobel",
+      "translation": {
+        "chinese": "诺贝尔",
+        "english": "Nobel"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nobelprijs",
+          "plural": "nobelprijzen"
+        }
+      },
+      "examples": [
+        "Ze won de Nobelprijs voor de Vrede, erkend voor haar moedige inzet om mensenrechten te bevorderen in conflictgebieden.",
+        "De Nobelprijs wordt jaarlijks toegekend aan uitmukende wetenschappers, die vaak een leven lang gewijd hebben aan een belangrijk maatschappelijk of wetenschappelijk vraagstuk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她因在冲突地区促进人权而获得诺贝尔和平奖，承认她的勇敢和献身精神。",
+          "诺贝尔奖每年颁发给杰出的科学家，他们往往毕生致力于重大的社会或科学问题，为人类知识进步做出贡献。"
+        ],
+        "english": [
+          "She won the Nobel Peace Prize for promoting human rights in conflict regions, acknowledging her brave and dedicated spirit.",
+          "The Nobel Prize is awarded annually to outstanding scientists, who often have dedicated their entire lives to addressing important social or scientific questions, making contributions to human knowledge and progress."
+        ]
+      },
+      "notes": "通常与 prijs 连用：Nobelprijs",
+      "difficulty": "B1"
+    }
+  ]
+}

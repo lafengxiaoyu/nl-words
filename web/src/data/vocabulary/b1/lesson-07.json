@@ -1,0 +1,1714 @@
+{
+  "id": "lB107",
+  "level": "B1",
+  "lessonNumber": 7,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 1578,
+      "word": "desinfecteren",
+      "translation": {
+        "chinese": "消毒",
+        "english": "to disinfect"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "desinfecteren",
+          "isSeparable": false,
+          "present": {
+            "ik": "desinfecteer",
+            "jij": "desinfecteert",
+            "hij": "desinfecteert",
+            "wij": "desinfecteren",
+            "jullie": "desinfecteren",
+            "zij": "desinfecteren"
+          },
+          "past": {
+            "singular": "desinfecteerde",
+            "plural": "desinfecteerden"
+          },
+          "pastParticiple": "gedesinfecteerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik desinfecteer de tafel.",
+        "Hij desinfecteert zijn handen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我消毒桌子。",
+          "他消毒双手。"
+        ],
+        "english": [
+          "I disinfect the table.",
+          "He disinfects his hands."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1579,
+      "word": "deskundig",
+      "translation": {
+        "chinese": "专业的、有知识的",
+        "english": "expert, knowledgeable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "deskundig",
+          "withDe": "deskundige",
+          "withHet": "deskundige",
+          "comparative": "deskundiger",
+          "superlative": "het deskundigst"
+        }
+      },
+      "examples": [
+        "Hij is deskundig.",
+        "Een deskundig advies."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很专业。",
+          "专业建议。"
+        ],
+        "english": [
+          "He is expert.",
+          "An expert advice."
+        ]
+      },
+      "notes": "比较级和最高级规则：deskundig - deskundiger - deskundigst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1580,
+      "word": "deskundigheid",
+      "translation": {
+        "chinese": "专业知识",
+        "english": "expertise"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "deskundigheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Zijn deskundigheid is groot.",
+        "Veel deskundigheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的专业知识很丰富。",
+          "很多专业知识。"
+        ],
+        "english": [
+          "His expertise is great.",
+          "Much expertise."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1581,
+      "word": "detail",
+      "translation": {
+        "chinese": "细节",
+        "english": "detail"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "detail",
+          "plural": "details"
+        }
+      },
+      "examples": [
+        "Het detail is belangrijk.",
+        "Veel details."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "细节很重要。",
+          "很多细节。"
+        ],
+        "english": [
+          "The detail is important.",
+          "Many details."
+        ]
+      },
+      "notes": "复数形式为 details（英语借词）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1582,
+      "word": "detecteren",
+      "translation": {
+        "chinese": "检测、察觉",
+        "english": "to detect"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "detecteren",
+          "isSeparable": false,
+          "present": {
+            "ik": "detecteer",
+            "jij": "detecteert",
+            "hij": "detecteert",
+            "wij": "detecteren",
+            "jullie": "detecteren",
+            "zij": "detecteren"
+          },
+          "past": {
+            "singular": "detecteerde",
+            "plural": "detecteerden"
+          },
+          "pastParticiple": "gedetecteerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik detecteer het probleem.",
+        "Hij detecteert een fout."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我检测到问题。",
+          "他发现一个错误。"
+        ],
+        "english": [
+          "I detect the problem.",
+          "He detects an error."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1583,
+      "word": "determinatie",
+      "translation": {
+        "chinese": "确定、测定",
+        "english": "determination"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "determinatie",
+          "plural": "determinaties"
+        }
+      },
+      "examples": [
+        "De determinatie is moeilijk.",
+        "Een nieuwe determinatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "确定很困难。",
+          "新的测定。"
+        ],
+        "english": [
+          "The determination is difficult.",
+          "A new determination."
+        ]
+      },
+      "notes": "复数形式为 determinaties（-ie 结尾的词变 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1584,
+      "word": "deugd",
+      "translation": {
+        "chinese": "美德、品德",
+        "english": "virtue"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "deugd",
+          "plural": "deugden"
+        }
+      },
+      "examples": [
+        "De deugd is belangrijk.",
+        "Veel deugden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "美德很重要。",
+          "很多美德。"
+        ],
+        "english": [
+          "Virtue is important.",
+          "Many virtues."
+        ]
+      },
+      "notes": "复数形式为 deugden（-gd 变为 -gden）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1585,
+      "word": "diagnose",
+      "translation": {
+        "chinese": "诊断",
+        "english": "diagnosis"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "diagnose",
+          "plural": "diagnoses"
+        }
+      },
+      "examples": [
+        "De diagnose is duidelijk.",
+        "Een nieuwe diagnose."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "诊断很清楚。",
+          "新诊断。"
+        ],
+        "english": [
+          "The diagnosis is clear.",
+          "A new diagnosis."
+        ]
+      },
+      "notes": "复数形式为 diagnoses（-ose 结尾的词变 -oses，拉丁语源）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1586,
+      "word": "dialoog",
+      "translation": {
+        "chinese": "对话",
+        "english": "dialogue"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "dialoog",
+          "plural": "dialogen"
+        }
+      },
+      "examples": [
+        "De dialoog is open.",
+        "Een goede dialoog."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "对话是开放的。",
+          "好的对话。"
+        ],
+        "english": [
+          "The dialogue is open.",
+          "A good dialogue."
+        ]
+      },
+      "notes": "复数形式为 dialogen（-o 变 -ogen）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1587,
+      "word": "dichtbij",
+      "translation": {
+        "chinese": "附近的",
+        "english": "nearby, close by"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "dichtbij"
+        }
+      },
+      "examples": [
+        "Hij woont dichtbij.",
+        "De school is dichtbij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他住在附近。",
+          "学校在附近。"
+        ],
+        "english": [
+          "He lives nearby.",
+          "The school is nearby."
+        ]
+      },
+      "notes": "副词，表示距离近",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1588,
+      "word": "dicteren",
+      "translation": {
+        "chinese": "口述、听写",
+        "english": "to dictate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "dicteren",
+          "isSeparable": false,
+          "present": {
+            "ik": "dicteer",
+            "jij": "dicteert",
+            "hij": "dicteert",
+            "wij": "dicteren",
+            "jullie": "dicteren",
+            "zij": "dicteren"
+          },
+          "past": {
+            "singular": "dicteerde",
+            "plural": "dicteerden"
+          },
+          "pastParticiple": "gedicteerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik dicteer de tekst.",
+        "Hij dicteert de brief."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我口述文本。",
+          "他口述这封信。"
+        ],
+        "english": [
+          "I dictate the text.",
+          "He dictates the letter."
+        ]
+      },
+      "notes": "规则动词，固定搭配：dicteren aan（口述给...）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1589,
+      "word": "didactiek",
+      "translation": {
+        "chinese": "教学法",
+        "english": "didactics, pedagogy"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "didactiek",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De didactiek is belangrijk.",
+        "Goede didactiek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "教学法很重要。",
+          "好的教学法。"
+        ],
+        "english": [
+          "Didactics is important.",
+          "Good didactics."
+        ]
+      },
+      "notes": "不可数名词，指教学方法",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1590,
+      "word": "dienstbaar",
+      "translation": {
+        "chinese": "服务的、奉献的",
+        "english": "servant, helpful"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "dienstbaar",
+          "withDe": "dienstbare",
+          "withHet": "dienstbare",
+          "comparative": "dienstbaarder",
+          "superlative": "het dienstbaarst"
+        }
+      },
+      "examples": [
+        "Hij is dienstbaar.",
+        "Een dienstbare houding."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很乐于助人。",
+          "服务的态度。"
+        ],
+        "english": [
+          "He is helpful.",
+          "A servant attitude."
+        ]
+      },
+      "notes": "比较级和最高级规则：dienstbaar - dienstbaarder - dienstbaarst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1591,
+      "word": "dienstplicht",
+      "translation": {
+        "chinese": "兵役义务",
+        "english": "military service, conscription"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "dienstplicht",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De dienstplicht is kort.",
+        "Mijn dienstplicht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "兵役期很短。",
+          "我的兵役。"
+        ],
+        "english": [
+          "Military service is short.",
+          "My military service."
+        ]
+      },
+      "notes": "复合名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1592,
+      "word": "dienstverlening",
+      "translation": {
+        "chinese": "服务、服务提供",
+        "english": "service provision"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "dienstverlening",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De dienstverlening is goed.",
+        "Goede dienstverlening."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "服务很好。",
+          "好的服务。"
+        ],
+        "english": [
+          "The service provision is good.",
+          "Good service provision."
+        ]
+      },
+      "notes": "复合名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1593,
+      "word": "diepte",
+      "translation": {
+        "chinese": "深度",
+        "english": "depth"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "diepte",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De diepte is groot.",
+        "In de diepte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "深度很大。",
+          "在深处。"
+        ],
+        "english": [
+          "The depth is great.",
+          "In depth."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1594,
+      "word": "dierbaar",
+      "translation": {
+        "chinese": "珍贵的、亲爱的",
+        "english": "dear, precious"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "dierbaar",
+          "withDe": "dierbare",
+          "withHet": "dierbare",
+          "comparative": "dierbaarder",
+          "superlative": "het dierbaarst"
+        }
+      },
+      "examples": [
+        "Het is dierbaar.",
+        "Een dierbaar voorwerp."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这很珍贵。",
+          "珍贵的物品。"
+        ],
+        "english": [
+          "It is dear.",
+          "A precious object."
+        ]
+      },
+      "notes": "比较级和最高级规则：dierbaar - dierbaarder - dierbaarst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1595,
+      "word": "digitaal",
+      "translation": {
+        "chinese": "数字的",
+        "english": "digital"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "digitaal",
+          "withDe": "digitale",
+          "withHet": "digitale",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is digitaal.",
+        "Een digitale camera."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是数字的。",
+          "数码相机。"
+        ],
+        "english": [
+          "It is digital.",
+          "A digital camera."
+        ]
+      },
+      "notes": "形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1596,
+      "word": "dilemma",
+      "translation": {
+        "chinese": "困境、两难",
+        "english": "dilemma"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "dilemma",
+          "plural": "dilemma's"
+        }
+      },
+      "examples": [
+        "Het dilemma is moeilijk.",
+        "Een groot dilemma."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "困境很难。",
+          "大困境。"
+        ],
+        "english": [
+          "The dilemma is difficult.",
+          "A big dilemma."
+        ]
+      },
+      "notes": "复数形式为 dilemma's（外来词，加 -'s）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1597,
+      "word": "dimensie",
+      "translation": {
+        "chinese": "维度",
+        "english": "dimension"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "dimensie",
+          "plural": "dimensies"
+        }
+      },
+      "examples": [
+        "De dimensie is groot.",
+        "Meer dimensies."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "维度很大。",
+          "更多维度。"
+        ],
+        "english": [
+          "The dimension is large.",
+          "More dimensions."
+        ]
+      },
+      "notes": "复数形式为 dimensies（-ie 结尾的词变 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1598,
+      "word": "diploma",
+      "translation": {
+        "chinese": "文凭",
+        "english": "diploma"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "diploma",
+          "plural": "diploma's"
+        }
+      },
+      "examples": [
+        "Het diploma is mooi.",
+        "Mijn diploma."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "文凭很漂亮。",
+          "我的文凭。"
+        ],
+        "english": [
+          "The diploma is beautiful.",
+          "My diploma."
+        ]
+      },
+      "notes": "复数形式为 diploma's（外来词，加 -'s）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1599,
+      "word": "diplomaat",
+      "translation": {
+        "chinese": "外交官",
+        "english": "diplomat"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "diplomaat",
+          "plural": "diplomaten"
+        }
+      },
+      "examples": [
+        "De diplomaat spreekt.",
+        "Een ervaren diplomaat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "外交官在讲话。",
+          "有经验的外交官。"
+        ],
+        "english": [
+          "The diplomat speaks.",
+          "An experienced diplomat."
+        ]
+      },
+      "notes": "复数形式为 diplomaten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1600,
+      "word": "diplomatie",
+      "translation": {
+        "chinese": "外交",
+        "english": "diplomacy"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "diplomatie",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De diplomatie is belangrijk.",
+        "Goede diplomatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "外交很重要。",
+          "好的外交。"
+        ],
+        "english": [
+          "Diplomacy is important.",
+          "Good diplomacy."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1601,
+      "word": "directeur",
+      "translation": {
+        "chinese": "主任、经理",
+        "english": "director, manager"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "directeur",
+          "plural": "directeuren"
+        }
+      },
+      "examples": [
+        "De directeur werkt.",
+        "Nieuwe directeur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "主任在工作。",
+          "新主任。"
+        ],
+        "english": [
+          "The director works.",
+          "New director."
+        ]
+      },
+      "notes": "复数形式为 directeuren",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1602,
+      "word": "discipline",
+      "translation": {
+        "chinese": "纪律",
+        "english": "discipline"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "discipline",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De discipline is groot.",
+        "Veel discipline."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "纪律很强。",
+          "很多纪律。"
+        ],
+        "english": [
+          "The discipline is strong.",
+          "Much discipline."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1603,
+      "word": "discreet",
+      "translation": {
+        "chinese": "谨慎的、审慎的",
+        "english": "discreet, cautious"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "discreet",
+          "withDe": "discrete",
+          "withHet": "discrete",
+          "comparative": "discreter",
+          "superlative": "het discreetst"
+        }
+      },
+      "examples": [
+        "Hij is discreet.",
+        "Een discrete afspraak."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很谨慎。",
+          "谨慎的约定。"
+        ],
+        "english": [
+          "He is discreet.",
+          "A discreet appointment."
+        ]
+      },
+      "notes": "比较级和最高级规则：discreet - discreter - discreetst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1604,
+      "word": "discriminatie",
+      "translation": {
+        "chinese": "歧视",
+        "english": "discrimination"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "discriminatie",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De discriminatie is verkeerd.",
+        "Geen discriminatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "歧视是错的。",
+          "没有歧视。"
+        ],
+        "english": [
+          "Discrimination is wrong.",
+          "No discrimination."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1605,
+      "word": "discrimineren",
+      "translation": {
+        "chinese": "歧视",
+        "english": "to discriminate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "discrimineren",
+          "isSeparable": false,
+          "present": {
+            "ik": "discrimineer",
+            "jij": "discrimineert",
+            "hij": "discrimineert",
+            "wij": "discrimineren",
+            "jullie": "discrimineren",
+            "zij": "discrimineren"
+          },
+          "past": {
+            "singular": "discrimineerde",
+            "plural": "discrimineerden"
+          },
+          "pastParticiple": "gediscrimineerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik discrimineer niemand.",
+        "Hij discrimineert mensen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我不歧视任何人。",
+          "他歧视人们。"
+        ],
+        "english": [
+          "I discriminate no one.",
+          "He discriminates people."
+        ]
+      },
+      "notes": "规则动词，固定搭配：discrimineren op（歧视关于...）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1606,
+      "word": "display",
+      "translation": {
+        "chinese": "显示、显示器",
+        "english": "display"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "display",
+          "plural": "displays"
+        }
+      },
+      "examples": [
+        "De display is groot.",
+        "Een nieuwe display."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "显示器很大。",
+          "新显示器。"
+        ],
+        "english": [
+          "The display is large.",
+          "A new display."
+        ]
+      },
+      "notes": "复数形式为 displays（英语借词）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1607,
+      "word": "dispuut",
+      "translation": {
+        "chinese": "争议、辩论",
+        "english": "dispute, debate"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "dispuut",
+          "plural": "disputen"
+        }
+      },
+      "examples": [
+        "Het dispuut is groot.",
+        "Een politiek dispuut."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "争议很大。",
+          "政治争议。"
+        ],
+        "english": [
+          "The dispute is large.",
+          "A political dispute."
+        ]
+      },
+      "notes": "复数形式为 disputen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1608,
+      "word": "distantie",
+      "translation": {
+        "chinese": "距离",
+        "english": "distance"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "distantie",
+          "plural": "distanties"
+        }
+      },
+      "examples": [
+        "De distantie is groot.",
+        "Veel distantie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "距离很大。",
+          "很大距离。"
+        ],
+        "english": [
+          "The distance is large.",
+          "Much distance."
+        ]
+      },
+      "notes": "复数形式为 distanties（-ie 结尾的词变 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1609,
+      "word": "distribueren",
+      "translation": {
+        "chinese": "分发、分配",
+        "english": "to distribute"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "distribueren",
+          "isSeparable": false,
+          "present": {
+            "ik": "distribueer",
+            "jij": "distribueert",
+            "hij": "distribueert",
+            "wij": "distribueren",
+            "jullie": "distribueren",
+            "zij": "distribueren"
+          },
+          "past": {
+            "singular": "distribueerde",
+            "plural": "distribueerden"
+          },
+          "pastParticiple": "gedistribueerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik distribueer de goederen.",
+        "Hij distribueert het geld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我分发货物。",
+          "他分配资金。"
+        ],
+        "english": [
+          "I distribute the goods.",
+          "He distributes the money."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1610,
+      "word": "distributie",
+      "translation": {
+        "chinese": "分发、分配",
+        "english": "distribution"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "distributie",
+          "plural": "distributies"
+        }
+      },
+      "examples": [
+        "De distributie is snel.",
+        "Een goede distributie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "分发很快。",
+          "好的分发。"
+        ],
+        "english": [
+          "The distribution is fast.",
+          "A good distribution."
+        ]
+      },
+      "notes": "复数形式为 distributies（-ie 结尾的词变 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1611,
+      "word": "divers",
+      "translation": {
+        "chinese": "多样的",
+        "english": "diverse, various"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "divers",
+          "withDe": "diverse",
+          "withHet": "diverse",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Het is divers.",
+        "Diverse mensen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是多样的。",
+          "各种各样的人。"
+        ],
+        "english": [
+          "It is diverse.",
+          "Various people."
+        ]
+      },
+      "notes": "形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1612,
+      "word": "diversiteit",
+      "translation": {
+        "chinese": "多样性",
+        "english": "diversity"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "diversiteit",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De diversiteit is groot.",
+        "Veel diversiteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "多样性很大。",
+          "很多多样性。"
+        ],
+        "english": [
+          "The diversity is great.",
+          "Much diversity."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1613,
+      "word": "dividend",
+      "translation": {
+        "chinese": "红利、股息",
+        "english": "dividend"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "dividend",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het dividend is hoog.",
+        "Mijn dividend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "红利很高。",
+          "我的红利。"
+        ],
+        "english": [
+          "The dividend is high.",
+          "My dividend."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1614,
+      "word": "divisie",
+      "translation": {
+        "chinese": "部门、分部",
+        "english": "division"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "divisie",
+          "plural": "divisies"
+        }
+      },
+      "examples": [
+        "De divisie is groot.",
+        "Een nieuwe divisie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "部门很大。",
+          "新部门。"
+        ],
+        "english": [
+          "The division is large.",
+          "A new division."
+        ]
+      },
+      "notes": "复数形式为 divisies（-ie 结尾的词变 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1615,
+      "word": "document",
+      "translation": {
+        "chinese": "文档",
+        "english": "document"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "document",
+          "plural": "documenten"
+        }
+      },
+      "examples": [
+        "Het document is klaar.",
+        "Veel documenten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "文档准备好了。",
+          "很多文档。"
+        ],
+        "english": [
+          "The document is ready.",
+          "Many documents."
+        ]
+      },
+      "notes": "复数形式为 documenten",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1616,
+      "word": "documentaire",
+      "translation": {
+        "chinese": "纪录片",
+        "english": "documentary"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "documentaire",
+          "plural": "documentaires"
+        }
+      },
+      "examples": [
+        "De documentaire is interessant.",
+        "Een goede documentaire."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "纪录片很有趣。",
+          "好的纪录片。"
+        ],
+        "english": [
+          "The documentary is interesting.",
+          "A good documentary."
+        ]
+      },
+      "notes": "复数形式为 documentaires（-e 结尾的词加 -s）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1617,
+      "word": "doelgericht",
+      "translation": {
+        "chinese": "目标导向的",
+        "english": "goal-oriented, targeted"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "doelgericht",
+          "withDe": "doelgerichte",
+          "withHet": "doelgerichte",
+          "comparative": "doelgerichter",
+          "superlative": "het doelgerichtst"
+        }
+      },
+      "examples": [
+        "Hij is doelgericht.",
+        "Een doelgerichte aanpak."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很目标导向。",
+          "目标导向的方法。"
+        ],
+        "english": [
+          "He is goal-oriented.",
+          "A goal-oriented approach."
+        ]
+      },
+      "notes": "比较级和最高级规则：doelgericht - doelgerichter - doelgerichtst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1618,
+      "word": "doelmatig",
+      "translation": {
+        "chinese": "高效的",
+        "english": "efficient"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "doelmatig",
+          "withDe": "doelmatige",
+          "withHet": "doelmatige",
+          "comparative": "doelmatiger",
+          "superlative": "het doelmatigst"
+        }
+      },
+      "examples": [
+        "Het is doelmatig.",
+        "Een doelmatige methode."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是高效的。",
+          "高效的方法。"
+        ],
+        "english": [
+          "It is efficient.",
+          "An efficient method."
+        ]
+      },
+      "notes": "比较级和最高级规则：doelmatig - doelmatiger - doelmatigst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1619,
+      "word": "doelstelling",
+      "translation": {
+        "chinese": "目标",
+        "english": "objective, target"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "doelstelling",
+          "plural": "doelstellingen"
+        }
+      },
+      "examples": [
+        "De doelstelling is duidelijk.",
+        "Veel doelstellingen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "目标很清楚。",
+          "很多目标。"
+        ],
+        "english": [
+          "The objective is clear.",
+          "Many objectives."
+        ]
+      },
+      "notes": "复数形式为 doelstellingen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1620,
+      "word": "doeltreffend",
+      "translation": {
+        "chinese": "有效的",
+        "english": "effective"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "doeltreffend",
+          "withDe": "doeltreffende",
+          "withHet": "doeltreffende",
+          "comparative": "doeltreffender",
+          "superlative": "het doeltreffendst"
+        }
+      },
+      "examples": [
+        "Het is doeltreffend.",
+        "Een doeltreffend middel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是有效的。",
+          "有效的手段。"
+        ],
+        "english": [
+          "It is effective.",
+          "An effective means."
+        ]
+      },
+      "notes": "比较级和最高级规则：doeltreffend - doeltreffender - doeltreffendst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1621,
+      "word": "domineren",
+      "translation": {
+        "chinese": "支配、统治",
+        "english": "to dominate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "domineren",
+          "isSeparable": false,
+          "present": {
+            "ik": "domineer",
+            "jij": "domineert",
+            "hij": "domineert",
+            "wij": "domineren",
+            "jullie": "domineren",
+            "zij": "domineren"
+          },
+          "past": {
+            "singular": "domineerde",
+            "plural": "domineerden"
+          },
+          "pastParticiple": "gedomineerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik domineer de discussie.",
+        "Hij domineert het spel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我支配讨论。",
+          "他统治比赛。"
+        ],
+        "english": [
+          "I dominate the discussion.",
+          "He dominates the game."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1622,
+      "word": "doorbraak",
+      "translation": {
+        "chinese": "突破",
+        "english": "breakthrough"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "doorbraak",
+          "plural": "doorbraken"
+        }
+      },
+      "examples": [
+        "De doorbraak is groot.",
+        "Een nieuwe doorbraak."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "突破很大。",
+          "新突破。"
+        ],
+        "english": [
+          "The breakthrough is large.",
+          "A new breakthrough."
+        ]
+      },
+      "notes": "复数形式为 doorbraken（-aa 变 -a）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1623,
+      "word": "doordacht",
+      "translation": {
+        "chinese": "深思熟虑的",
+        "english": "thoughtful, considered"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "doordacht",
+          "withDe": "doordachte",
+          "withHet": "doordachte",
+          "comparative": "doordachter",
+          "superlative": "het doordachst"
+        }
+      },
+      "examples": [
+        "Hij is doordacht.",
+        "Een doordacht plan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他深思熟虑。",
+          "深思熟虑的计划。"
+        ],
+        "english": [
+          "He is thoughtful.",
+          "A thoughtful plan."
+        ]
+      },
+      "notes": "比较级和最高级规则：doordacht - doordachter - doordachst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1624,
+      "word": "doordeweeks",
+      "translation": {
+        "chinese": "工作日的",
+        "english": "on weekdays"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "doordeweeks"
+        }
+      },
+      "examples": [
+        "Ik werk doordeweeks.",
+        "Het is doordeweeks rustig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我工作日上班。",
+          "工作日很安静。"
+        ],
+        "english": [
+          "I work on weekdays.",
+          "It is quiet on weekdays."
+        ]
+      },
+      "notes": "副词，表示工作日",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1625,
+      "word": "doordringen",
+      "translation": {
+        "chinese": "渗透、穿透",
+        "english": "to penetrate, to permeate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "doordringen",
+          "isSeparable": true,
+          "present": {
+            "ik": "dring door",
+            "jij": "dringt door",
+            "hij": "dringt door",
+            "wij": "dringen door",
+            "jullie": "dringen door",
+            "zij": "dringen door"
+          },
+          "past": {
+            "singular": "drong door",
+            "plural": "drongen door"
+          },
+          "pastParticiple": "doorgedrongen",
+          "pastParticipleAuxiliary": "zijn",
+          "prefix": "d"
+        }
+      },
+      "examples": [
+        "Het licht dringt door.",
+        "Hij dringt door de muur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "光线穿透进来。",
+          "他穿透墙壁。"
+        ],
+        "english": [
+          "The light penetrates.",
+          "He penetrates the wall."
+        ]
+      },
+      "notes": "可分动词，助动词用zijn",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1626,
+      "word": "doorgang",
+      "translation": {
+        "chinese": "通行、通过",
+        "english": "passage, access"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "doorgang",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De doorgang is breed.",
+        "Vrije doorgang."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "通道很宽。",
+          "自由通行。"
+        ],
+        "english": [
+          "The passage is wide.",
+          "Free passage."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1627,
+      "word": "doorheen",
+      "translation": {
+        "chinese": "穿过",
+        "english": "through"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {
+        "preposition": {
+          "base": "doorheen"
+        }
+      },
+      "examples": [
+        "Hij gaat doorheen het bos.",
+        "Ik loop doorheen de stad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我穿过城市。",
+          "他穿过森林。"
+        ],
+        "english": [
+          "I walk through the city.",
+          "He goes through the forest."
+        ]
+      },
+      "notes": "介词，与名词连用",
+      "difficulty": "B1"
+    }
+  ]
+}

@@ -366,7 +366,8 @@
           "The answer is logical."
         ]
       },
-      "difficulty": "A2"
+      "difficulty": "A2",
+      "notes": "比较级和最高级规则：logisch - logischer - logischst"
     },
     {
       "id": 904,
@@ -380,24 +381,17 @@
         "noun"
       ],
       "forms": {
+        "noun": {
+          "singular": "lokaal",
+          "plural": "lokalen",
+          "article": "het"
+        },
         "adjective": {
-          "indefinite": [
-            "lokaal",
-            "lokale",
-            "lokaal",
-            "lokale"
-          ],
-          "definite": [
-            "lokale",
-            "lokale",
-            "lokale",
-            "lokale"
-          ],
-          "comparison": [
-            "lokaler",
-            "meest lokaal"
-          ],
-          "participle": ""
+          "base": "lokaal",
+          "withDe": "lokale",
+          "withHet": "lokaal",
+          "comparative": "lokaler",
+          "superlative": "meest lokaal"
         }
       },
       "examples": [
@@ -814,7 +808,8 @@
           "She has experienced a lot."
         ]
       },
-      "difficulty": "A2"
+      "difficulty": "A2",
+      "notes": "可分动词，常用于描述人生经历；可分动词，表示经历某事"
     },
     {
       "id": 917,
@@ -1667,23 +1662,11 @@
       ],
       "forms": {
         "adjective": {
-          "indefinite": [
-            "nabij",
-            "nabije",
-            "nabij",
-            "nabije"
-          ],
-          "definite": [
-            "nabije",
-            "nabije",
-            "nabije",
-            "nabije"
-          ],
-          "comparison": [
-            "-",
-            "-"
-          ],
-          "participle": ""
+          "base": "nabij",
+          "withDe": "nabije",
+          "withHet": "nabij",
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [

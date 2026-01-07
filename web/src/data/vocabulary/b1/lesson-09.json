@@ -1,0 +1,1756 @@
+{
+  "id": "lB109",
+  "level": "B1",
+  "lessonNumber": 9,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 1678,
+      "word": "fenomeen",
+      "translation": {
+        "chinese": "现象",
+        "english": "phenomenon"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "fenomeen",
+          "plural": "fenomenen"
+        }
+      },
+      "examples": [
+        "Het fenomeen is interessant.",
+        "Verschillende fenomenen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "现象很有趣。",
+          "不同的现象。"
+        ],
+        "english": [
+          "The phenomenon is interesting.",
+          "Different phenomena."
+        ]
+      },
+      "notes": "复数形式为 fenomenen（-een 变 -enen）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1679,
+      "word": "figuur",
+      "translation": {
+        "chinese": "图形、人物",
+        "english": "figure, shape"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "figuur",
+          "plural": "figuren"
+        }
+      },
+      "examples": [
+        "De figuur is groot.",
+        "Verschillende figuren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "图形很大。",
+          "不同的人物。"
+        ],
+        "english": [
+          "The figure is large.",
+          "Different figures."
+        ]
+      },
+      "notes": "复数形式为 figuren",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1680,
+      "word": "filiaal",
+      "translation": {
+        "chinese": "分公司",
+        "english": "branch"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "filiaal",
+          "plural": "filialen"
+        }
+      },
+      "examples": [
+        "Het filiaal is nieuw.",
+        "Verschillende filialen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "分公司是新的。",
+          "不同的分公司。"
+        ],
+        "english": [
+          "The branch is new.",
+          "Different branches."
+        ]
+      },
+      "notes": "复数形式为 filialen（-aal 变 -alen）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1681,
+      "word": "filosoof",
+      "translation": {
+        "chinese": "哲学家",
+        "english": "philosopher"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "filosoof",
+          "plural": "filosofen"
+        }
+      },
+      "examples": [
+        "De filosoof denkt.",
+        "Bekende filosofen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "哲学家在思考。",
+          "著名的哲学家。"
+        ],
+        "english": [
+          "The philosopher thinks.",
+          "Famous philosophers."
+        ]
+      },
+      "notes": "复数形式为 filosofen（-oo 变 -o）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1682,
+      "word": "filosofie",
+      "translation": {
+        "chinese": "哲学",
+        "english": "philosophy"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "filosofie",
+          "plural": "filosofieën"
+        }
+      },
+      "examples": [
+        "De filosofie is diep.",
+        "Verschillende filosofieën."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "哲学很深奥。",
+          "不同的哲学流派。"
+        ],
+        "english": [
+          "The philosophy is deep.",
+          "Different philosophies."
+        ]
+      },
+      "notes": "复数形式为 filosofieën（-ie 结尾的词变 -iën）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1683,
+      "word": "financieel",
+      "translation": {
+        "chinese": "财务的",
+        "english": "financial"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "financieel",
+          "withDe": "financiële",
+          "withHet": "financiële",
+          "comparative": "financiëler",
+          "superlative": "het financieelst"
+        }
+      },
+      "examples": [
+        "Het is financieel.",
+        "Een financiële positie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是财务的。",
+          "财务状况。"
+        ],
+        "english": [
+          "It is financial.",
+          "A financial position."
+        ]
+      },
+      "notes": "比较级和最高级规则：financieel - financiëler - financieelst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1684,
+      "word": "financieren",
+      "translation": {
+        "chinese": "资助",
+        "english": "to finance"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "financieren",
+          "isSeparable": false,
+          "present": {
+            "ik": "financeer",
+            "jij": "financiert",
+            "hij": "financiert",
+            "wij": "financieren",
+            "jullie": "financieren",
+            "zij": "financieren"
+          },
+          "past": {
+            "singular": "financierde",
+            "plural": "financierden"
+          },
+          "pastParticiple": "gefinancierd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik financier het project.",
+        "Hij financiert het plan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我资助项目。",
+          "他资助计划。"
+        ],
+        "english": [
+          "I finance the project.",
+          "He finances the plan."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1685,
+      "word": "financiering",
+      "translation": {
+        "chinese": "资助",
+        "english": "financing"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "financiering",
+          "plural": "financieringen"
+        }
+      },
+      "examples": [
+        "De financiering is klaar.",
+        "Nieuwe financiering."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "资助完成了。",
+          "新资助。"
+        ],
+        "english": [
+          "The financing is ready.",
+          "New financing."
+        ]
+      },
+      "notes": "复数形式为 financieringen（-ing 结尾的词加 -en）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1686,
+      "word": "fit",
+      "translation": {
+        "chinese": "健康的",
+        "english": "fit"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "fit",
+          "withDe": "fit",
+          "withHet": "fit",
+          "comparative": "fitter",
+          "superlative": "het fitst"
+        }
+      },
+      "examples": [
+        "Ik ben fit.",
+        "Een fit lichaam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我很健康。",
+          "健康的身体。"
+        ],
+        "english": [
+          "I am fit.",
+          "A fit body."
+        ]
+      },
+      "notes": "比较级和最高级规则：fit - fitter - fitst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1687,
+      "word": "flexibel",
+      "translation": {
+        "chinese": "灵活的",
+        "english": "flexible"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "flexibel",
+          "withDe": "flexibele",
+          "withHet": "flexibele",
+          "comparative": "flexibeler",
+          "superlative": "het flexibelst"
+        }
+      },
+      "examples": [
+        "Het is flexibel.",
+        "Een flexibele planning."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是灵活的。",
+          "灵活的计划。"
+        ],
+        "english": [
+          "It is flexible.",
+          "A flexible schedule."
+        ]
+      },
+      "notes": "比较级和最高级规则：flexibel - flexibeler - flexibelst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1688,
+      "word": "flexibiliteit",
+      "translation": {
+        "chinese": "灵活性",
+        "english": "flexibility"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "flexibiliteit",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De flexibiliteit is groot.",
+        "Meer flexibiliteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "灵活性很大。",
+          "更大灵活性。"
+        ],
+        "english": [
+          "The flexibility is great.",
+          "More flexibility."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1689,
+      "word": "flits",
+      "translation": {
+        "chinese": "闪光",
+        "english": "flash"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "flits",
+          "plural": "flitsen"
+        }
+      },
+      "examples": [
+        "De flits is helder.",
+        "Een snelle flits."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "闪光明亮。",
+          "快速闪光。"
+        ],
+        "english": [
+          "The flash is bright.",
+          "A fast flash."
+        ]
+      },
+      "notes": "复数形式为 flitsen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1690,
+      "word": "fluisteren",
+      "translation": {
+        "chinese": "耳语",
+        "english": "to whisper"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "fluisteren",
+          "isSeparable": false,
+          "present": {
+            "ik": "fluister",
+            "jij": "fluistert",
+            "hij": "fluistert",
+            "wij": "fluisteren",
+            "jullie": "fluisteren",
+            "zij": "fluisteren"
+          },
+          "past": {
+            "singular": "fluisterde",
+            "plural": "fluisterden"
+          },
+          "pastParticiple": "gefluisterd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik fluister in haar oor.",
+        "Hij fluistert iets."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我耳语告诉她。",
+          "他耳语一些话。"
+        ],
+        "english": [
+          "I whisper in her ear.",
+          "He whispers something."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1691,
+      "word": "focus",
+      "translation": {
+        "chinese": "焦点",
+        "english": "focus"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "focus",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De focus is belangrijk.",
+        "In focus."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "焦点很重要。",
+          "聚焦。"
+        ],
+        "english": [
+          "The focus is important.",
+          "In focus."
+        ]
+      },
+      "notes": "不可数名词，借自英语",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1692,
+      "word": "focussen",
+      "translation": {
+        "chinese": "聚焦",
+        "english": "to focus"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "focussen",
+          "isSeparable": false,
+          "present": {
+            "ik": "focus",
+            "jij": "focust",
+            "hij": "focust",
+            "wij": "focussen",
+            "jullie": "focussen",
+            "zij": "focussen"
+          },
+          "past": {
+            "singular": "focusste",
+            "plural": "focussten"
+          },
+          "pastParticiple": "gefocusd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik focus op het doel.",
+        "Hij focust zich."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我聚焦目标。",
+          "他集中注意力。"
+        ],
+        "english": [
+          "I focus on the goal.",
+          "He focuses himself."
+        ]
+      },
+      "notes": "规则动词，借自英语",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1693,
+      "word": "folie",
+      "translation": {
+        "chinese": "箔、薄膜",
+        "english": "foil, film"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "folie",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De folie is dun.",
+        "Verse folie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "薄膜很薄。",
+          "新鲜薄膜。"
+        ],
+        "english": [
+          "The foil is thin.",
+          "Fresh foil."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1694,
+      "word": "fonds",
+      "translation": {
+        "chinese": "基金",
+        "english": "fund"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "fonds",
+          "plural": "fondsen"
+        }
+      },
+      "examples": [
+        "Het fonds is groot.",
+        "Verschillende fondsen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "基金很大。",
+          "不同的基金。"
+        ],
+        "english": [
+          "The fund is large.",
+          "Different funds."
+        ]
+      },
+      "notes": "复数形式为 fondsen（-s 结尾加 -en）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1695,
+      "word": "fontijn",
+      "translation": {
+        "chinese": "喷泉",
+        "english": "fountain"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "fontijn",
+          "plural": "fonteinen"
+        }
+      },
+      "examples": [
+        "De fontijn is hoog.",
+        "Verschillende fonteinen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "喷泉很高。",
+          "不同的喷泉。"
+        ],
+        "english": [
+          "The fountain is high.",
+          "Different fountains."
+        ]
+      },
+      "notes": "复数形式为 fonteinen",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1696,
+      "word": "forceren",
+      "translation": {
+        "chinese": "强迫、迫使",
+        "english": "to force"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "forceren",
+          "isSeparable": false,
+          "present": {
+            "ik": "forceer",
+            "jij": "forceert",
+            "hij": "forceert",
+            "wij": "forceren",
+            "jullie": "forceren",
+            "zij": "forceren"
+          },
+          "past": {
+            "singular": "forceerde",
+            "plural": "forceerden"
+          },
+          "pastParticiple": "geforceerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik forceer hem niet.",
+        "Hij forceert een glimlach."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我不强迫他。",
+          "他勉强微笑。"
+        ],
+        "english": [
+          "I don't force him.",
+          "He forces a smile."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1697,
+      "word": "formaat",
+      "translation": {
+        "chinese": "格式、大小",
+        "english": "format, size"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "formaat",
+          "plural": "formaten"
+        }
+      },
+      "examples": [
+        "Het formaat is groot.",
+        "Verschillende formaten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "格式很大。",
+          "不同的格式。"
+        ],
+        "english": [
+          "The format is large.",
+          "Different formats."
+        ]
+      },
+      "notes": "复数形式为 formaten（-aat 变 -aten）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1698,
+      "word": "formeel",
+      "translation": {
+        "chinese": "正式的",
+        "english": "formal"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "formeel",
+          "withDe": "formele",
+          "withHet": "formele",
+          "comparative": "formeler",
+          "superlative": "het formeelst"
+        }
+      },
+      "examples": [
+        "Het is formeel.",
+        "Een formele brief."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是正式的。",
+          "正式信函。"
+        ],
+        "english": [
+          "It is formal.",
+          "A formal letter."
+        ]
+      },
+      "notes": "比较级和最高级规则：formeel - formeler - formeelst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1699,
+      "word": "formeren",
+      "translation": {
+        "chinese": "形成、组建",
+        "english": "to form"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "formeren",
+          "isSeparable": false,
+          "present": {
+            "ik": "formeer",
+            "jij": "formeert",
+            "hij": "formeert",
+            "wij": "formeren",
+            "jullie": "formeren",
+            "zij": "formeren"
+          },
+          "past": {
+            "singular": "formeerde",
+            "plural": "formeerden"
+          },
+          "pastParticiple": "geformeerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik formeer een team.",
+        "Hij formeert een mening."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我组建团队。",
+          "他形成观点。"
+        ],
+        "english": [
+          "I form a team.",
+          "He forms an opinion."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1700,
+      "word": "formule",
+      "translation": {
+        "chinese": "公式、配方",
+        "english": "formula"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "formule",
+          "plural": "formules"
+        }
+      },
+      "examples": [
+        "De formule is simpel.",
+        "Verschillende formules."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公式简单。",
+          "不同的公式。"
+        ],
+        "english": [
+          "The formula is simple.",
+          "Different formulas."
+        ]
+      },
+      "notes": "复数形式为 formules（-e 结尾的词加 -s）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1701,
+      "word": "formuleren",
+      "translation": {
+        "chinese": "表述、制定",
+        "english": "to formulate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "formuleren",
+          "isSeparable": false,
+          "present": {
+            "ik": "formuleer",
+            "jij": "formuleert",
+            "hij": "formuleert",
+            "wij": "formuleren",
+            "jullie": "formuleren",
+            "zij": "formuleren"
+          },
+          "past": {
+            "singular": "formuleerde",
+            "plural": "formuleerden"
+          },
+          "pastParticiple": "geformuleerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik formuleer mijn idee.",
+        "Hij formuleert het plan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我表述我的想法。",
+          "他制定计划。"
+        ],
+        "english": [
+          "I formulate my idea.",
+          "He formulates the plan."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1702,
+      "word": "fortuin",
+      "translation": {
+        "chinese": "财富",
+        "english": "fortune"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "fortuin",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het fortuin is groot.",
+        "Veel fortuin."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "财富很大。",
+          "很大财富。"
+        ],
+        "english": [
+          "The fortune is large.",
+          "Much fortune."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1703,
+      "word": "fotograaf",
+      "translation": {
+        "chinese": "摄影师",
+        "english": "photographer"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "fotograaf",
+          "plural": "fotografen"
+        }
+      },
+      "examples": [
+        "De fotograaf werkt.",
+        "Bekende fotografen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "摄影师在工作。",
+          "著名的摄影师。"
+        ],
+        "english": [
+          "The photographer works.",
+          "Famous photographers."
+        ]
+      },
+      "notes": "复数形式为 fotografen（-aa 变 -a）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1704,
+      "word": "fotografie",
+      "translation": {
+        "chinese": "摄影",
+        "english": "photography"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "fotografie",
+          "plural": "fotografieën"
+        }
+      },
+      "examples": [
+        "De fotografie is mooi.",
+        "Moderne fotografie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "摄影很美。",
+          "现代摄影。"
+        ],
+        "english": [
+          "The photography is beautiful.",
+          "Modern photography."
+        ]
+      },
+      "notes": "复数形式为 fotografieën（-ie 结尾的词变 -iën）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1705,
+      "word": "fotokopie",
+      "translation": {
+        "chinese": "复印件",
+        "english": "photocopy"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "fotokopie",
+          "plural": "fotokopieën"
+        }
+      },
+      "examples": [
+        "De fotokopie is helder.",
+        "Verschillende fotokopieën."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "复印件清晰。",
+          "不同的复印件。"
+        ],
+        "english": [
+          "The photocopy is clear.",
+          "Different photocopies."
+        ]
+      },
+      "notes": "复数形式为 fotokopieën（-ie 结尾的词变 -iën）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1706,
+      "word": "fragment",
+      "translation": {
+        "chinese": "片段",
+        "english": "fragment"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "fragment",
+          "plural": "fragmenten"
+        }
+      },
+      "examples": [
+        "Het fragment is kort.",
+        "Verschillende fragmenten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "片段很短。",
+          "不同的片段。"
+        ],
+        "english": [
+          "The fragment is short.",
+          "Different fragments."
+        ]
+      },
+      "notes": "复数形式为 fragmenten（-ent 结尾的词加 -en）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1707,
+      "word": "fraude",
+      "translation": {
+        "chinese": "欺诈",
+        "english": "fraud"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "fraude",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De fraude is groot.",
+        "Veel fraude."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "欺诈很严重。",
+          "很大欺诈。"
+        ],
+        "english": [
+          "The fraud is large.",
+          "Much fraud."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1708,
+      "word": "frequent",
+      "translation": {
+        "chinese": "频繁的",
+        "english": "frequent"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "frequent",
+          "withDe": "frequente",
+          "withHet": "frequente",
+          "comparative": "frequenter",
+          "superlative": "het frequentst"
+        }
+      },
+      "examples": [
+        "Het is frequent.",
+        "Een frequente bezoeker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是频繁的。",
+          "频繁的访客。"
+        ],
+        "english": [
+          "It is frequent.",
+          "A frequent visitor."
+        ]
+      },
+      "notes": "比较级和最高级规则：frequent - frequenter - frequentst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1709,
+      "word": "frequentie",
+      "translation": {
+        "chinese": "频率",
+        "english": "frequency"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "frequentie",
+          "plural": "frequenties"
+        }
+      },
+      "examples": [
+        "De frequentie is hoog.",
+        "Verschillende frequenties."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "频率很高。",
+          "不同的频率。"
+        ],
+        "english": [
+          "The frequency is high.",
+          "Different frequencies."
+        ]
+      },
+      "notes": "复数形式为 frequenties（-ie 结尾的词变 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1710,
+      "word": "fris",
+      "translation": {
+        "chinese": "新鲜的",
+        "english": "fresh"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "fris",
+          "withDe": "frisse",
+          "withHet": "frisse",
+          "comparative": "frisser",
+          "superlative": "het frist"
+        }
+      },
+      "examples": [
+        "Het is fris.",
+        "Een frisse start."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是新鲜的。",
+          "新鲜开始。"
+        ],
+        "english": [
+          "It is fresh.",
+          "A fresh start."
+        ]
+      },
+      "notes": "比较级和最高级规则：fris - frisser - frist",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1711,
+      "word": "frustratie",
+      "translation": {
+        "chinese": "挫折",
+        "english": "frustration"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "frustratie",
+          "plural": "frustraties"
+        }
+      },
+      "examples": [
+        "De frustratie is groot.",
+        "Veel frustratie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "挫折很大。",
+          "很大挫折。"
+        ],
+        "english": [
+          "The frustration is large.",
+          "Much frustration."
+        ]
+      },
+      "notes": "复数形式为 frustraties（-ie 结尾的词变 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1712,
+      "word": "frustreren",
+      "translation": {
+        "chinese": "使挫折",
+        "english": "to frustrate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "frustreren",
+          "isSeparable": false,
+          "present": {
+            "ik": "frustreer",
+            "jij": "frustreert",
+            "hij": "frustreert",
+            "wij": "frustreren",
+            "jullie": "frustreren",
+            "zij": "frustreren"
+          },
+          "past": {
+            "singular": "frustreerde",
+            "plural": "frustreerden"
+          },
+          "pastParticiple": "gefrustreerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik frustreer hem niet.",
+        "Hij frustreert het plan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我不使他挫折。",
+          "他挫折计划。"
+        ],
+        "english": [
+          "I don't frustrate him.",
+          "He frustrates the plan."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1713,
+      "word": "fulltime",
+      "translation": {
+        "chinese": "全职的",
+        "english": "full-time"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "fulltime",
+          "withDe": "fulltime",
+          "withHet": "fulltime",
+          "comparative": "niet toepasselijk",
+          "superlative": "niet toepasselijk"
+        }
+      },
+      "examples": [
+        "Ik werk fulltime.",
+        "Een fulltime baan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我全职工作。",
+          "全职工作。"
+        ],
+        "english": [
+          "I work full-time.",
+          "A full-time job."
+        ]
+      },
+      "notes": "形容词，无比较级和最高级",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1714,
+      "word": "fundament",
+      "translation": {
+        "chinese": "基础",
+        "english": "foundation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "fundament",
+          "plural": "fundamenten"
+        }
+      },
+      "examples": [
+        "Het fundament is sterk.",
+        "Verschillende fundamenten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "基础很牢固。",
+          "不同的基础。"
+        ],
+        "english": [
+          "The foundation is strong.",
+          "Different foundations."
+        ]
+      },
+      "notes": "复数形式为 fundamenten（-ent 结尾的词加 -en）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1715,
+      "word": "fundamenteel",
+      "translation": {
+        "chinese": "根本的",
+        "english": "fundamental"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "fundamenteel",
+          "withDe": "fundamentele",
+          "withHet": "fundamentele",
+          "comparative": "fundamenteler",
+          "superlative": "het fundamenteelst"
+        }
+      },
+      "examples": [
+        "Het is fundamenteel.",
+        "Een fundamenteel verschil."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是根本的。",
+          "根本差异。"
+        ],
+        "english": [
+          "It is fundamental.",
+          "A fundamental difference."
+        ]
+      },
+      "notes": "比较级和最高级规则：fundamenteel - fundamenteler - fundamenteelst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1716,
+      "word": "functioneren",
+      "translation": {
+        "chinese": "运作、起作用",
+        "english": "to function"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "functioneren",
+          "isSeparable": false,
+          "present": {
+            "ik": "functioneer",
+            "jij": "functioneert",
+            "hij": "functioneert",
+            "wij": "functioneren",
+            "jullie": "functioneren",
+            "zij": "functioneren"
+          },
+          "past": {
+            "singular": "functioneerde",
+            "plural": "functioneerden"
+          },
+          "pastParticiple": "gefunctioneerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het apparaat functioneert goed.",
+        "Ik functioneer goed in een team."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "设备运作良好。",
+          "我在团队中运作良好。"
+        ],
+        "english": [
+          "The device functions well.",
+          "I function well in a team."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1717,
+      "word": "fusie",
+      "translation": {
+        "chinese": "合并",
+        "english": "merger"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "fusie",
+          "plural": "fusies"
+        }
+      },
+      "examples": [
+        "De fusie is groot.",
+        "Een nieuwe fusie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "合并很大。",
+          "新合并。"
+        ],
+        "english": [
+          "The merger is large.",
+          "A new merger."
+        ]
+      },
+      "notes": "复数形式为 fusies（-ie 结尾的词变 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1718,
+      "word": "fysiek",
+      "translation": {
+        "chinese": "身体的",
+        "english": "physical"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "fysiek",
+          "withDe": "fysieke",
+          "withHet": "fysieke",
+          "comparative": "fysieker",
+          "superlative": "het fysiekst"
+        }
+      },
+      "examples": [
+        "Het is fysiek.",
+        "Een fysieke beperking."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是身体的。",
+          "身体限制。"
+        ],
+        "english": [
+          "It is physical.",
+          "A physical limitation."
+        ]
+      },
+      "notes": "比较级和最高级规则：fysiek - fysieker - fysiekst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1719,
+      "word": "gaandeweg",
+      "translation": {
+        "chinese": "逐渐地",
+        "english": "gradually"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "gaandeweg"
+        }
+      },
+      "examples": [
+        "Gaandeweg verbetert het.",
+        "Hij leert gaandeweg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "逐渐改善。",
+          "他逐渐学习。"
+        ],
+        "english": [
+          "Gradually it improves.",
+          "He learns gradually."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1720,
+      "word": "garanteer",
+      "translation": {
+        "chinese": "保证",
+        "english": "guarantee"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "garanderen",
+          "isSeparable": false,
+          "present": {
+            "ik": "garandeer",
+            "jij": "garandeert",
+            "hij": "garandeert",
+            "wij": "garanderen",
+            "jullie": "garanderen",
+            "zij": "garanderen"
+          },
+          "past": {
+            "singular": "garandeerde",
+            "plural": "garandeerden"
+          },
+          "pastParticiple": "garandeerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik garandeer kwaliteit.",
+        "Hij garandeert het succes."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我保证质量。",
+          "他保证成功。"
+        ],
+        "english": [
+          "I guarantee quality.",
+          "He guarantees success."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1721,
+      "word": "garanderen",
+      "translation": {
+        "chinese": "保证",
+        "english": "to guarantee"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "garanderen",
+          "isSeparable": false,
+          "present": {
+            "ik": "garandeer",
+            "jij": "garandeert",
+            "hij": "garandeert",
+            "wij": "garanderen",
+            "jullie": "garanderen",
+            "zij": "garanderen"
+          },
+          "past": {
+            "singular": "garandeerde",
+            "plural": "garandeerden"
+          },
+          "pastParticiple": "garandeerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik garandeer kwaliteit.",
+        "Hij garandeert het succes."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我保证质量。",
+          "他保证成功。"
+        ],
+        "english": [
+          "I guarantee quality.",
+          "He guarantees success."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1722,
+      "word": "garantie",
+      "translation": {
+        "chinese": "保证、保修",
+        "english": "guarantee, warranty"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "garantie",
+          "plural": "garanties"
+        }
+      },
+      "examples": [
+        "De garantie is goed.",
+        "Een lange garantie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "保修很好。",
+          "长保修。"
+        ],
+        "english": [
+          "The warranty is good.",
+          "A long warranty."
+        ]
+      },
+      "notes": "复数形式为 garanties（-ie 结尾的词变 -ies）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1723,
+      "word": "gastheer",
+      "translation": {
+        "chinese": "主人、东道主",
+        "english": "host"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "gastheer",
+          "plural": "gastheren"
+        }
+      },
+      "examples": [
+        "De gastheer is vriendelijk.",
+        "Verschillende gastheren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "主人很友好。",
+          "不同的主人。"
+        ],
+        "english": [
+          "The host is friendly.",
+          "Different hosts."
+        ]
+      },
+      "notes": "复数形式为 gastheren",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1724,
+      "word": "gastvrij",
+      "translation": {
+        "chinese": "好客的",
+        "english": "hospitable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "gastvrij",
+          "withDe": "gastvrije",
+          "withHet": "gastvrije",
+          "comparative": "gastvrijer",
+          "superlative": "het gastvrijst"
+        }
+      },
+      "examples": [
+        "Het is gastvrij.",
+        "Een gastvrije ontvangst."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是好客的。",
+          "好客的接待。"
+        ],
+        "english": [
+          "It is hospitable.",
+          "A hospitable reception."
+        ]
+      },
+      "notes": "比较级和最高级规则：gastvrij - gastvrijer - gastvrijst",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1725,
+      "word": "gastvrijheid",
+      "translation": {
+        "chinese": "好客",
+        "english": "hospitality"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "gastvrijheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De gastvrijheid is groot.",
+        "Veel gastvrijheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "好客度很高。",
+          "很大好客度。"
+        ],
+        "english": [
+          "The hospitality is great.",
+          "Much hospitality."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1726,
+      "word": "gaten",
+      "translation": {
+        "chinese": "洞、孔",
+        "english": "holes, gaps"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "gat",
+          "plural": "gaten"
+        }
+      },
+      "examples": [
+        "De gaten zijn groot.",
+        "Verschillende gaten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "洞很大。",
+          "不同的洞。"
+        ],
+        "english": [
+          "The holes are large.",
+          "Different holes."
+        ]
+      },
+      "notes": "复数形式为 gaten（短元音变长元音）",
+      "difficulty": "B1"
+    },
+    {
+      "id": 1727,
+      "word": "geaardheid",
+      "translation": {
+        "chinese": "特质、倾向",
+        "english": "disposition, tendency"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "geaardheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De geaardheid is duidelijk.",
+        "Zijn geaardheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "特质清楚。",
+          "他的特质。"
+        ],
+        "english": [
+          "The disposition is clear.",
+          "His disposition."
+        ]
+      },
+      "notes": "不可数名词",
+      "difficulty": "B1"
+    }
+  ]
+}
