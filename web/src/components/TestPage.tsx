@@ -198,11 +198,40 @@ export default function TestPage({ languageMode }: TestPageProps) {
   }
 
   // 生成选项（包含正确答案和3个错误答案）
+  // 优先选择与考察单词相同词性的迷惑项，除非单词不够
   const generateOptions = (correctWord: Word) => {
     const options = [correctWord]
-    const otherWords = words.filter(w => w.id !== correctWord.id)
-    const shuffledOthers = otherWords.sort(() => Math.random() - 0.5).slice(0, 3)
-    options.push(...shuffledOthers)
+    const targetPartOfSpeech = correctWord.partOfSpeech
+
+    // 找出所有与考察单词相同词性的其他单词
+    const samePartOfSpeechWords = words.filter(
+      w => w.id !== correctWord.id && w.partOfSpeech === targetPartOfSpeech
+    )
+
+    // 找出其他词性的单词
+    const otherPartOfSpeechWords = words.filter(
+      w => w.id !== correctWord.id && w.partOfSpeech !== targetPartOfSpeech
+    )
+
+    const distractorCount = 3
+    const samePartCount = samePartOfSpeechWords.length
+
+    if (samePartCount >= distractorCount) {
+      // 相同词性的单词足够，随机选择3个
+      const shuffledSame = samePartOfSpeechWords.sort(() => Math.random() - 0.5)
+      options.push(...shuffledSame.slice(0, distractorCount))
+    } else if (samePartCount > 0) {
+      // 相同词性的单词不够，使用全部相同词性的，剩余从其他词性中选择
+      const shuffledSame = samePartOfSpeechWords.sort(() => Math.random() - 0.5)
+      const shuffledOther = otherPartOfSpeechWords.sort(() => Math.random() - 0.5)
+      options.push(...shuffledSame)
+      options.push(...shuffledOther.slice(0, distractorCount - samePartCount))
+    } else {
+      // 没有相同词性的单词，只能从其他词性中选择
+      const shuffledOther = otherPartOfSpeechWords.sort(() => Math.random() - 0.5)
+      options.push(...shuffledOther.slice(0, distractorCount))
+    }
+
     return options.sort(() => Math.random() - 0.5)
   }
 
