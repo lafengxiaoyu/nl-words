@@ -68,6 +68,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const [wordCount, setWordCount] = useState(10)
   const [currentOptions, setCurrentOptions] = useState<Word[]>([])
   const [wrongAnswers, setWrongAnswers] = useState<{word: Word, userChoice: Word | 'not-mastered', correctWord: Word}[]>([])
+  const [showHint, setShowHint] = useState(false)
 
   // 检查用户认证状态
   useEffect(() => {
@@ -111,7 +112,9 @@ export default function TestPage({ languageMode }: TestPageProps) {
       wordCountLabel: (count: number) => `${count} 个单词`,
       notMastered: '未掌握',
       wrongAnswersSummary: '错误答案总结',
-      skipped: '你跳过了它'
+      skipped: '你跳过了它',
+      hintButton: '💡 提示',
+      hintLabel: '例句：'
     },
     english: {
       title: 'Word Test',
@@ -134,7 +137,9 @@ export default function TestPage({ languageMode }: TestPageProps) {
       wordCountLabel: (count: number) => `${count} words`,
       notMastered: 'Not Mastered',
       wrongAnswersSummary: 'Wrong Answers Summary',
-      skipped: 'You skipped it'
+      skipped: 'You skipped it',
+      hintButton: '💡 Hint',
+      hintLabel: 'Example: '
     }
   }
 
@@ -173,6 +178,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
     setScore(0)
     setTestComplete(false)
     setShowResult(false)
+    setShowHint(false)
     setUserAnswer('')
     setWrongAnswers([])
     // 为第一个单词生成选项
@@ -355,6 +361,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
       setCurrentIndex(nextIndex)
       setShowResult(false)
       setUserAnswer('')
+      setShowHint(false)
       // 为下一个单词生成选项
       if (testWords[nextIndex]) {
         setCurrentOptions(generateOptions(testWords[nextIndex]))
@@ -369,6 +376,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
   // 重新开始
   const restartTest = () => {
     startTest()
+    setShowHint(false)
   }
 
   if (testWords.length === 0) {
@@ -552,6 +560,22 @@ export default function TestPage({ languageMode }: TestPageProps) {
             </button>
           </div>
           <div className="word-dutch-test">{currentWord.word}</div>
+          {!showResult && currentWord.examples && currentWord.examples.length > 0 && (
+            <div className="hint-section">
+              <button
+                className="hint-btn"
+                onClick={() => setShowHint(!showHint)}
+              >
+                {t.hintButton}
+              </button>
+              {showHint && (
+                <div className="hint-content">
+                  <span className="hint-label">{t.hintLabel}</span>
+                  <span className="hint-text">{currentWord.examples[0]}</span>
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
         <div className="options-container">
