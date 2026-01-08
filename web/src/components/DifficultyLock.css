@@ -1,0 +1,95 @@
+.difficulty-lock {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+  border: 2px dashed #f59e0b;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(245, 158, 11, 0);
+  }
+}
+
+.difficulty-lock:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(245, 158, 11, 0.2);
+}
+
+.lock-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: #f59e0b;
+  border-radius: 12px;
+  flex-shrink: 0;
+  color: white;
+}
+
+.lock-icon-small {
+  width: 24px;
+  height: 24px;
+}
+
+.lock-content {
+  flex: 1;
+}
+
+.lock-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #92400e;
+  margin: 0 0 8px 0;
+}
+
+.crown-icon {
+  color: #f59e0b;
+}
+
+.lock-description {
+  font-size: 14px;
+  color: #78350f;
+  margin: 0 0 16px 0;
+  line-height: 1.5;
+}
+
+.difficulty-lock .btn {
+  min-width: 140px;
+}
+
+/* 移动端适配 */
+@media (max-width: 640px) {
+  .difficulty-lock {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .lock-icon-wrapper {
+    width: 40px;
+    height: 40px;
+  }
+
+  .lock-title {
+    justify-content: center;
+    font-size: 16px;
+  }
+
+  .lock-description {
+    font-size: 13px;
+  }
+}

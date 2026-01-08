@@ -1,0 +1,296 @@
+.premium-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.premium-modal {
+  background: white;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.premium-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #f3f4f6;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #6b7280;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.premium-modal-close:hover {
+  background: #e5e7eb;
+  color: #1f2937;
+}
+
+.premium-modal-header {
+  text-align: center;
+  padding: 32px 32px 24px;
+}
+
+.lock-icon {
+  color: #f59e0b;
+  margin-bottom: 16px;
+}
+
+.premium-modal-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0 0 8px 0;
+}
+
+.premium-modal-subtitle {
+  font-size: 16px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.premium-modal-body {
+  padding: 0 32px 32px;
+}
+
+/* 功能列表 */
+.premium-features {
+  margin-bottom: 32px;
+}
+
+.premium-features-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 16px 0;
+}
+
+.premium-features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.premium-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  font-size: 15px;
+  color: #374151;
+}
+
+.check-icon {
+  color: #10b981;
+  flex-shrink: 0;
+}
+
+/* 订阅计划 */
+.premium-plans {
+  margin-bottom: 32px;
+}
+
+.premium-plans-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 16px 0;
+}
+
+.premium-plans-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.premium-plan-card {
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.premium-plan-card:hover {
+  border-color: #f59e0b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.premium-plan-card.selected {
+  border-color: #f59e0b;
+  background: #fffbeb;
+}
+
+.premium-plan-card.popular {
+  border-color: #f59e0b;
+}
+
+.plan-badge {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f59e0b;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+.plan-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.plan-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f59e0b;
+  margin-bottom: 8px;
+}
+
+.plan-description {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* 操作按钮 */
+.premium-actions {
+  margin-bottom: 24px;
+}
+
+.premium-actions .btn {
+  width: 100%;
+}
+
+/* 安全保障 */
+.premium-guarantee {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 24px;
+}
+
+.guarantee-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.guarantee-item:last-child {
+  margin-bottom: 0;
+}
+
+.guarantee-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.guarantee-text {
+  flex: 1;
+}
+
+.guarantee-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 4px;
+}
+
+.guarantee-description {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* 移动端适配 */
+@media (max-width: 640px) {
+  .premium-modal {
+    width: 95%;
+    max-height: 95vh;
+  }
+
+  .premium-modal-header {
+    padding: 24px 20px;
+  }
+
+  .premium-modal-body {
+    padding: 0 20px 24px;
+  }
+
+  .premium-modal-title {
+    font-size: 24px;
+  }
+
+  .premium-plans-container {
+    grid-template-columns: 1fr;
+  }
+
+  .premium-feature-item {
+    font-size: 14px;
+  }
+}
+
+/* 响应式滚动条 */
+.premium-modal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.premium-modal::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.premium-modal::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.premium-modal::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
