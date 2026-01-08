@@ -156,21 +156,14 @@ function OptionSelect<T extends string>({
 
 export default function WordListPage({ languageMode }: WordListPageProps) {
   const navigate = useNavigate()
-  const [wordList, setWordList] = useState<Word[]>(words)
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedPartOfSpeech, setSelectedPartOfSpeech] = useState<string>('all')
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all')
   const [selectedWord, setSelectedWord] = useState<Word | null>(null)
   const [sortBy, setSortBy] = useState<'word' | 'translation' | 'partOfSpeech' | 'difficulty'>('word')
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc')
-
-  // 过滤条件的key，用于重置分页
-  const filterKey = `${searchTerm}-${selectedPartOfSpeech}-${selectedDifficulty}-${itemsPerPage}`
-
-  // 初始化单词列表（仅在加载时执行一次）
-  useEffect(() => {
-    setWordList(words)
-  }, [])
+  const [itemsPerPage, setItemsPerPage] = useState(20)
+  const [currentPage, setCurrentPage] = useState(1)
 
   const translations = {
     chinese: {
@@ -255,6 +248,33 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     }
   }
 
+  const t = translations[languageMode] as any // eslint-disable-line @typescript-eslint/no-explicit-any
+
+  // 安全获取翻译字符串的辅助函数
+  const getTranslation = (key: string): string => {
+    const value = t[key]
+    return typeof value === 'string' ? value : key
+  }
+
+  // 获取所有唯一的词性和难度
+  const otherPartsOfSpeech: string[] = ['determiner', 'numeral', 'phrase']
+  const allPartsOfSpeech: string[] = Array.from(
+    new Set(
+      words.flatMap(w =>
+        Array.isArray(w.partOfSpeech) ? w.partOfSpeech : [w.partOfSpeech]
+      )
+    )
+  ).sort()
+  const allDifficulties: string[] = Array.from(new Set(words.map(w => w.difficulty))).sort()
+  const partOfSpeechOptions = [
+    { value: 'all', label: t.allParts },
+    ...allPartsOfSpeech.map((pos: string) => ({ value: pos, label: getTranslation(pos) }))
+  ]
+  const difficultyOptions = [
+    { value: 'all', label: t.allDifficulties },
+    ...allDifficulties.map((diff: string) => ({ value: diff, label: getTranslation(diff) }))
+  ]
+
   const detailsPanel = {
     title: languageMode === 'chinese' ? '单词详情' : 'Word Details',
     dutch: languageMode === 'chinese' ? '荷兰语' : 'Dutch',
@@ -282,14 +302,6 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     notes: languageMode === 'chinese' ? '备注' : 'Notes'
   }
 
-  const t = translations[languageMode] as any // eslint-disable-line @typescript-eslint/no-explicit-any
-
-  // 安全获取翻译字符串的辅助函数
-  const getTranslation = (key: string): string => {
-    const value = t[key]
-    return typeof value === 'string' ? value : key
-  }
-
   // 获取用于排序的词性（如果是数组，取第一个）
   const getPartOfSpeechForSort = (partOfSpeech: string | string[]): string => {
     if (Array.isArray(partOfSpeech)) {
@@ -299,7 +311,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   }
 
   // 过滤单词
-  const filteredWords = wordList.filter(word => {
+  const filteredWords = words.filter(word => {
     // 搜索过滤
     const searchLower = searchTerm.toLowerCase()
     const matchesSearch =
@@ -311,8 +323,12 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     const matchesPartOfSpeech =
       selectedPartOfSpeech === 'all' ||
       (selectedPartOfSpeech === 'other' &&
-        (typeof word.partOfSpeech === 'string' ? otherPartsOfSpeech.includes(word.partOfSpeech) : word.partOfSpeech.some(pos => otherPartsOfSpeech.includes(pos)))) ||
-      (typeof word.partOfSpeech === 'string' ? word.partOfSpeech === selectedPartOfSpeech : word.partOfSpeech.includes(selectedPartOfSpeech))
+        (Array.isArray(word.partOfSpeech)
+          ? word.partOfSpeech.some((pos: string) => otherPartsOfSpeech.includes(pos))
+          : otherPartsOfSpeech.includes(word.partOfSpeech))) ||
+      (Array.isArray(word.partOfSpeech)
+        ? word.partOfSpeech.includes(selectedPartOfSpeech)
+        : word.partOfSpeech === selectedPartOfSpeech)
 
     // 难度过滤
     const matchesDifficulty = selectedDifficulty === 'all' || word.difficulty === selectedDifficulty
@@ -339,35 +355,6 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   })
 
   // 分页状态
-  const [itemsPerPage, setItemsPerPage] = useState(20)
-  const [currentPage, setCurrentPage] = useState(1)
-
-  // 获取所有唯一的词性
-  const otherPartsOfSpeech: string[] = ['determiner', 'numeral', 'phrase']
-  const allPartsOfSpeech: string[] = Array.from(
-    new Set(
-      words.flatMap(w =>
-        Array.isArray(w.partOfSpeech) ? w.partOfSpeech : [w.partOfSpeech]
-      )
-    )
-  ).sort()
-
-  // 获取所有唯一的难度
-  const allDifficulties = Array.from(new Set(words.map(w => w.difficulty))).sort()
-
-  // 词性选项
-  const partOfSpeechOptions = [
-    { value: 'all', label: t.allParts },
-    ...allPartsOfSpeech.map(pos => ({ value: pos, label: getTranslation(pos) }))
-  ]
-
-  // 难度选项
-  const difficultyOptions = [
-    { value: 'all', label: t.allDifficulties },
-    ...allDifficulties.map(diff => ({ value: diff, label: getTranslation(diff) }))
-  ]
-
-  // 分页计算
   const totalPages = Math.ceil(filteredWords.length / itemsPerPage)
   const startIndex = (currentPage - 1) * itemsPerPage
   const endIndex = Math.min(startIndex + itemsPerPage, filteredWords.length)
@@ -376,7 +363,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   // 重置当前页当过滤条件变化时
   useEffect(() => {
     setCurrentPage(1)
-  }, [filterKey])
+  }, [searchTerm, selectedPartOfSpeech, selectedDifficulty, itemsPerPage])
 
   return (
     <div className="word-list-page">
@@ -424,7 +411,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                 >
                   {t.allParts}
                 </button>
-                {allPartsOfSpeech.map(pos => (
+                {allPartsOfSpeech.map((pos: string) => (
                   <button
                     key={pos}
                     className={`filter-option ${selectedPartOfSpeech === pos ? 'selected' : ''}`}
@@ -445,7 +432,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                 >
                   {t.allDifficulties}
                 </button>
-                {allDifficulties.map(diff => (
+                {allDifficulties.map((diff: string) => (
                   <button
                     key={diff}
                     className={`filter-option ${selectedDifficulty === diff ? 'selected' : ''}`}
@@ -774,3 +761,13 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     </div>
   )
 }
+
+
+
+
+
+
+
+
+
+
