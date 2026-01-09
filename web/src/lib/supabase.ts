@@ -51,6 +51,8 @@ export interface UserProgress {
   word_id: number
   familiarity: string // 熟悉程度（'new' | 'learning' | 'familiar' | 'mastered'）
   stats_reset?: boolean // 标记统计是否已重置
+  is_favorited?: boolean // 是否已收藏
+  favorited_at?: string // 收藏时间
   // 学习统计字段
   view_count?: number
   mastered_count?: number
