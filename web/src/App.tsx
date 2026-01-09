@@ -838,6 +838,53 @@ function MainApp() {
     setIsFlipped(false)
   }
 
+  // 收藏功能
+  const handleFavorite = async () => {
+    if (!currentWord) return
+
+    const updatedWord = {
+      ...currentWord,
+      favorited: !currentWord.favorited
+    }
+
+    // 更新本地状态
+    setWordList(prev => prev.map(word =>
+      word.id === currentWord.id ? updatedWord : word
+    ))
+
+    // 更新 localStorage
+    const updatedWords = wordList.map(word =>
+      word.id === currentWord.id ? updatedWord : word
+    )
+    localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+
+    // 如果已登录，同步到 Supabase
+    if (user) {
+      try {
+        const { error } = await supabase
+          .from('user_progress')
+          .upsert({
+            user_id: user.id,
+            word_id: currentWord.id,
+            familiarity: currentWord.familiarity,
+            is_favorited: updatedWord.favorited,
+            favorited_at: updatedWord.favorited ? new Date().toISOString() : null,
+            updated_at: new Date().toISOString(),
+          }, {
+            onConflict: 'user_id,word_id'
+          })
+
+        if (error) throw error
+
+        setSyncStatus('success')
+        setTimeout(() => setSyncStatus('idle'), 2000)
+      } catch (error) {
+        console.error('保存收藏状态失败:', error)
+        setSyncStatus('error')
+      }
+    }
+  }
+
   // 导航函数
   const goToNext = () => {
     setIsFlipped(false)
@@ -1257,6 +1304,26 @@ function MainApp() {
                         </button>
                       </div>
                       <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty`}>{currentWord.difficulty}</span>
+                      <div className="card-front-meta">
+                        <button
+                          className={`favorite-btn ${currentWord.favorited ? 'favorited' : ''}`}
+                          onClick={(e) => {
+                            e.stopPropagation()
+                            handleFavorite()
+                          }}
+                          title={currentWord.favorited ? '取消收藏' : '收藏单词'}
+                        >
+                          {currentWord.favorited ? (
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                            </svg>
+                          ) : (
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                            </svg>
+                          )}
+                        </button>
+                      </div>
                     </div>
                     <div className="card-back">
                       <div className="word-dutch-small">{currentWord.word}</div>

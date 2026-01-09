@@ -10,6 +10,7 @@ const base = process.env.NODE_ENV === 'production' ? `/${basePath}/` : '/'
 export default defineConfig({
   plugins: [react()],
   base,
+  root: 'web', // 设置根目录为 web
   build: {
     outDir: 'dist',
     sourcemap: false,

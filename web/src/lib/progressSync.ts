@@ -27,7 +27,7 @@ export async function loadUserProgress(userId: string): Promise<Map<number, User
     if (error) throw error
 
     const progressMap = new Map<number, UserWordProgress>()
-    
+
     if (data) {
       data.forEach((item: UserProgress) => {
         // 如果标记为已重置，则不创建 stats 对象
@@ -48,6 +48,7 @@ export async function loadUserProgress(userId: string): Promise<Map<number, User
           wordId: item.word_id,
           familiarity: item.familiarity as FamiliarityLevel,
           stats,
+          favorited: item.is_favorited || false,
         })
       })
     }
@@ -470,6 +471,7 @@ export function mergeProgress(
         ...word,
         familiarity: progress.familiarity,
         stats: progress.stats,
+        favorited: progress.favorited || false,
       }
     }
     // 如果没有进度数据，使用默认值，清除所有本地进度数据
@@ -477,6 +479,7 @@ export function mergeProgress(
       ...word,
       familiarity: 'new' as FamiliarityLevel,
       stats: undefined,
+      favorited: false,
     }
   })
 }

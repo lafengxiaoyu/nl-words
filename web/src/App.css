@@ -896,6 +896,68 @@ body {
   width: 100%;
 }
 
+/* 卡片上的难度标签 */
+.card-difficulty {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 0.75rem;
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-weight: 700;
+  z-index: 10;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.card-front-meta {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 10;
+}
+
+.favorite-btn {
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.favorite-btn:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.favorite-btn svg {
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease;
+}
+
+.favorite-btn.favorited {
+  color: #ef4444;
+}
+
+.favorite-btn.favorited:hover {
+  color: #dc2626;
+}
+
 .speak-btn {
   position: absolute;
   top: 15px;

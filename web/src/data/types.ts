@@ -97,12 +97,14 @@ export interface UserWordProgress {
   wordId: number
   familiarity: FamiliarityLevel // 熟悉程度（'new' | 'learning' | 'familiar' | 'mastered'）
   stats?: LearningStats // 学习统计信息
+  favorited?: boolean // 是否已收藏
 }
 
 // 单词与用户进度的组合（用于UI显示）
 export interface WordWithProgress extends BaseWord {
   familiarity: FamiliarityLevel // 熟悉程度（'new' | 'learning' | 'familiar' | 'mastered'）
   stats?: LearningStats // 学习统计信息
+  favorited?: boolean // 是否已收藏
 }
 
 // Word 类型作为 WordWithProgress 的别名，用于UI显示
