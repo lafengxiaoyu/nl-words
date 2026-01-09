@@ -522,6 +522,109 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     }
   }
 
+  // 跳过题目（点击下一题按钮）
+  const skipQuestion = async () => {
+    // 防止重复处理
+    if (isProcessingRef.current) {
+      return
+    }
+
+    // 立即清除计时器
+    if (timerRef.current) {
+      clearInterval(timerRef.current)
+      timerRef.current = null
+    }
+
+    const currentWord = gameWords[currentIndex]
+    if (!currentWord) {
+      return
+    }
+
+    // 立即设置处理标志
+    isProcessingRef.current = true
+
+    // 跳过视为答错
+    setLives(prev => prev - 1)
+    setCombo(0)
+    setWrongAnswers(prev => [...prev, {
+      word: currentWord,
+      userAnswer: '',
+      correctAnswer: currentWord.word
+    }])
+
+    // 更新测试统计
+    try {
+      if (user) {
+        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, currentWord.id, false, currentWord.stats)
+
+        // 更新本地状态中的单词进度
+        setUserWords(prevWords => {
+          return prevWords.map(w => {
+            if (w.id === currentWord.id) {
+              return {
+                ...w,
+                familiarity: calculatedFamiliarity,
+                stats: {
+                  viewCount: (w.stats?.viewCount ?? 0),
+                  masteredCount: (w.stats?.masteredCount ?? 0),
+                  unmasteredCount: (w.stats?.unmasteredCount ?? 0),
+                  testCount: (w.stats?.testCount ?? 0) + 1,
+                  testCorrectCount: (w.stats?.testCorrectCount ?? 0),
+                  testWrongCount: (w.stats?.testWrongCount ?? 0) + 1,
+                  lastTestedAt: new Date().toISOString(),
+                  lastViewedAt: w.stats?.lastViewedAt,
+                }
+              }
+            }
+            return w
+          })
+        })
+      } else {
+        // 本地用户：更新 localStorage
+        const updatedWords = userWords.map(w => {
+          if (w.id === currentWord.id) {
+            const currentStats = w.stats
+            const updatedStats = {
+              viewCount: currentStats?.viewCount ?? 0,
+              masteredCount: currentStats?.masteredCount ?? 0,
+              unmasteredCount: currentStats?.unmasteredCount ?? 0,
+              testCount: (currentStats?.testCount ?? 0) + 1,
+              testCorrectCount: (currentStats?.testCorrectCount ?? 0),
+              testWrongCount: (currentStats?.testWrongCount ?? 0) + 1,
+              lastViewedAt: currentStats?.lastViewedAt,
+              lastTestedAt: new Date().toISOString(),
+            }
+            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+            return {
+              ...w,
+              stats: updatedStats,
+              familiarity: calculatedFamiliarity
+            }
+          }
+          return w
+        })
+        setUserWords(updatedWords)
+        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+      }
+    } catch {
+      // 更新测试统计失败
+    }
+
+    setShowResult(true)
+
+    // 检查是否游戏结束
+    if (lives <= 1 || currentIndex >= gameWords.length - 1) {
+      setTimeout(() => {
+        setGameComplete(true)
+      }, 1000)
+    }
+
+    // 延迟重置处理标志，确保状态更新完成
+    setTimeout(() => {
+      isProcessingRef.current = false
+    }, 300)
+  }
+
   // 提交答案
   const submitAnswer = async () => {
     // 检查是否已经有结果在显示
@@ -1017,13 +1120,23 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
 
         {/* 操作按钮 */}
         {!showResult ? (
-          <button
-            className="btn btn-primary btn-lg submit-btn"
-            onClick={submitAnswer}
-            disabled={!userAnswer.trim()}
-          >
-            {t.submitAnswer}
-          </button>
+          <div style={{ display: 'flex', gap: '15px', width: '100%' }}>
+            <button
+              className="btn btn-outline btn-lg"
+              style={{ flex: 1 }}
+              onClick={skipQuestion}
+            >
+              {t.nextQuestion}
+            </button>
+            <button
+              className="btn btn-primary btn-lg submit-btn"
+              style={{ flex: 1 }}
+              onClick={submitAnswer}
+              disabled={!userAnswer.trim()}
+            >
+              {t.submitAnswer}
+            </button>
+          </div>
         ) : (
           <button
             className="btn btn-primary btn-lg next-btn"

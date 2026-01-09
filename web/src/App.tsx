@@ -1105,7 +1105,7 @@ function MainApp() {
                       title="中文"
                     >
                       <GlobeIcon />
-                      <span className="language-text">中文</span>
+                      <span className="language-text">CN</span>
                     </button>
                     <button
                       className={`btn btn-sm language-btn ${languageMode === 'english' ? 'btn-primary' : 'btn-outline'}`}

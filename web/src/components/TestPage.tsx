@@ -67,7 +67,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
   const [wordCount, setWordCount] = useState(10)
   const [currentOptions, setCurrentOptions] = useState<Word[]>([])
-  const [wrongAnswers, setWrongAnswers] = useState<{word: Word, userChoice: Word | 'not-mastered', correctWord: Word}[]>([])
+  const [wrongAnswers, setWrongAnswers] = useState<{word: Word, userChoice: Word | 'not-mastered' | 'skipped', correctWord: Word}[]>([])
   const [showHint, setShowHint] = useState(false)
 
   // 检查用户认证状态
@@ -354,6 +354,58 @@ export default function TestPage({ languageMode }: TestPageProps) {
     setShowResult(true)
   }
 
+  // 标记为跳过（点击下一题按钮时）
+  const markAsSkipped = async () => {
+    const isCorrect = false
+    setUserAnswer('skipped')
+    // 记录错误答案（跳过）
+    setWrongAnswers(prev => [...prev, {
+      word: currentWord,
+      userChoice: 'skipped',
+      correctWord: currentWord
+    }])
+    // 更新测试统计
+    try {
+      if (user) {
+        // 登录用户：更新 Supabase
+        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, currentWord.id, isCorrect, currentWord.stats)
+        console.log(`跳过题目，自动计算熟悉程度: ${calculatedFamiliarity}`)
+      } else {
+        // 本地用户：更新 localStorage
+        const localStorageData = localStorage.getItem('nl-words')
+        if (localStorageData) {
+          const localWords: Word[] = JSON.parse(localStorageData)
+          const wordIndex = localWords.findIndex(w => w.id === currentWord.id)
+          if (wordIndex !== -1) {
+            const currentStats = localWords[wordIndex].stats
+            const updatedStats = {
+              viewCount: currentStats?.viewCount || 0,
+              masteredCount: currentStats?.masteredCount || 0,
+              unmasteredCount: currentStats?.unmasteredCount || 0,
+              testCount: (currentStats?.testCount || 0) + 1,
+              testCorrectCount: currentStats?.testCorrectCount || 0,
+              testWrongCount: (currentStats?.testWrongCount || 0) + 1,
+              lastViewedAt: currentStats?.lastViewedAt,
+              lastTestedAt: new Date().toISOString(),
+            }
+            // 自动计算熟悉程度
+            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+            console.log(`跳过题目，自动计算熟悉程度: ${calculatedFamiliarity}`)
+            localWords[wordIndex] = {
+              ...localWords[wordIndex],
+              stats: updatedStats,
+              familiarity: calculatedFamiliarity
+            }
+            localStorage.setItem('nl-words', JSON.stringify(localWords))
+          }
+        }
+      }
+    } catch (error) {
+      console.error('跳过题目失败:', error)
+    }
+    setShowResult(true)
+  }
+
   // 下一题
   const nextQuestion = () => {
     if (currentIndex < testWords.length - 1) {
@@ -509,7 +561,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
                         {languageMode === 'chinese' ? item.word.translation.chinese : item.word.translation.english}
                       </div>
                       <div className="user-choice">
-                        {item.userChoice === 'not-mastered' ? t.skipped : `${t.yourAnswer}: ${languageMode === 'chinese' ? (item.userChoice as Word).translation.chinese : (item.userChoice as Word).translation.english}`}
+                        {item.userChoice === 'not-mastered' ? t.notMastered : item.userChoice === 'skipped' ? t.skipped : `${t.yourAnswer}: ${languageMode === 'chinese' ? (item.userChoice as Word).translation.chinese : (item.userChoice as Word).translation.english}`}
                       </div>
                     </div>
                   ))}
@@ -592,12 +644,29 @@ export default function TestPage({ languageMode }: TestPageProps) {
 
         </div>
 
-        <button
-          className={`btn btn-lg next-btn ${showResult ? 'btn-primary' : 'btn-not-mastered'}`}
-          onClick={() => !showResult ? markAsNotMastered() : nextQuestion()}
-        >
-          {t.nextQuestion}
-        </button>
+        <div style={{ display: 'flex', gap: '15px', marginTop: '20px' }}>
+          {!showResult && (
+            <button
+              className="btn btn-lg"
+              style={{ 
+                flex: 1, 
+                border: '2px solid #f59e0b', 
+                background: 'rgba(245, 158, 11, 0.5)',
+                color: 'white'
+              }}
+              onClick={markAsNotMastered}
+            >
+              {t.notMastered}
+            </button>
+          )}
+          <button
+            className={`btn btn-lg ${showResult ? 'btn-primary' : 'btn-outline'}`}
+            style={{ flex: 1 }}
+            onClick={() => !showResult ? markAsSkipped() : nextQuestion()}
+          >
+            {t.nextQuestion}
+          </button>
+        </div>
       </div>
     </div>
   )
