@@ -612,11 +612,12 @@ export default function TestPage({ languageMode }: TestPageProps) {
             </button>
           </div>
           <div className="word-dutch-test">{currentWord.word}</div>
-          {!showResult && currentWord.examples && currentWord.examples.length > 0 && (
+          {currentWord.examples && currentWord.examples.length > 0 && (
             <div className="hint-section">
               <button
                 className="hint-btn"
                 onClick={() => setShowHint(!showHint)}
+                disabled={showResult}
               >
                 {t.hintButton}
               </button>
@@ -637,28 +638,46 @@ export default function TestPage({ languageMode }: TestPageProps) {
               className={`option-btn ${showResult && option.id === currentWord.id ? 'correct' : ''} ${showResult && option.id !== currentWord.id && userAnswer === String(option.id) ? 'wrong' : ''}`}
               onClick={() => !showResult && submitAnswer(option)}
               disabled={showResult}
+              style={{ 
+                display: 'flex', 
+                flexDirection: 'column', 
+                alignItems: 'center', 
+                justifyContent: 'center',
+                height: '80px'
+              }}
             >
-              {languageMode === 'chinese' ? option.translation.chinese : option.translation.english}
+              {showResult ? (
+                <>
+                  <span style={{ fontWeight: 600, fontSize: '1.1rem', lineHeight: '1.2' }}>{option.word}</span>
+                  <span style={{ fontSize: '0.9rem', opacity: 0.9, lineHeight: '1.2', marginTop: '6px' }}>{languageMode === 'chinese' ? option.translation.chinese : option.translation.english}</span>
+                </>
+              ) : (
+                <>
+                  <span style={{ lineHeight: '1.2', fontSize: '1.1rem' }}>{languageMode === 'chinese' ? option.translation.chinese : option.translation.english}</span>
+                  <span style={{ height: '0', fontSize: '0.9rem' }}>&nbsp;</span>
+                </>
+              )}
             </button>
           ))}
 
         </div>
 
         <div style={{ display: 'flex', gap: '15px', marginTop: '20px' }}>
-          {!showResult && (
-            <button
-              className="btn btn-lg"
-              style={{ 
-                flex: 1, 
-                border: '2px solid #f59e0b', 
-                background: 'rgba(245, 158, 11, 0.5)',
-                color: 'white'
-              }}
-              onClick={markAsNotMastered}
-            >
-              {t.notMastered}
-            </button>
-          )}
+          <button
+            className="btn btn-lg"
+            style={{ 
+              flex: 1, 
+              border: '2px solid #f59e0b', 
+              background: showResult ? 'rgba(245, 158, 11, 0.3)' : 'rgba(245, 158, 11, 0.5)',
+              color: 'white',
+              cursor: showResult ? 'not-allowed' : 'pointer',
+              opacity: showResult ? 0.6 : 1
+            }}
+            onClick={markAsNotMastered}
+            disabled={showResult}
+          >
+            {t.notMastered}
+          </button>
           <button
             className={`btn btn-lg ${showResult ? 'btn-primary' : 'btn-outline'}`}
             style={{ flex: 1 }}
