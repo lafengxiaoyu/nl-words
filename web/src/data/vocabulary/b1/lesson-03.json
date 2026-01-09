@@ -516,19 +516,6 @@
         }
       },
       "examples": [
-<<<<<<< Current (Your changes)
-        "De beoordeling is goed.",
-        "Een nieuwe beoordeling wordt elk kwartaal uitgevoerd door het management."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "评价很好。",
-          "管理层每个季度进行一次新的评估。"
-        ],
-        "english": [
-          "The evaluation is good.",
-          "A new assessment is conducted each quarter by management."
-=======
         "De beoordeling van het project was positief ondanks enkele vertragingen.",
         "Na de beoordeling kreeg de werknemer constructieve feedback om te verbeteren."
       ],
@@ -540,7 +527,6 @@
         "english": [
           "The evaluation of the project was positive despite some delays.",
           "After the assessment, the employee received constructive feedback to improve."
->>>>>>> Incoming (Background Agent changes)
         ]
       },
       "notes": "复数形式为 beoordelingen",
