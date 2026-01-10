@@ -1,9 +1,11 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import { supabase } from '../lib/supabase'
 import type { Word } from '../data/words'
 import { words } from '../data/words'
 import type { ExampleTranslations } from '../data/types'
+import type { User as SupabaseUser } from '@supabase/supabase-js'
 
 import './WordListPage.css'
 
@@ -166,8 +168,18 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [currentPage, setCurrentPage] = useState(1)
 
   const [favoriteMap, setFavoriteMap] = useState<Map<number, boolean>>(new Map())
+  const [user, setUser] = useState<SupabaseUser | null>(null)
 
-  const toggleFavorite = useCallback((wordId: number) => {
+  // 获取当前登录用户
+  useEffect(() => {
+    const fetchUser = async () => {
+      const { data: { user } } = await supabase.auth.getUser()
+      setUser(user)
+    }
+    fetchUser()
+  }, [])
+
+  const toggleFavorite = useCallback(async (wordId: number) => {
     const isFavorited = favoriteMap.get(wordId) || false
     const newFavoriteMap = new Map(favoriteMap)
     newFavoriteMap.set(wordId, !isFavorited)
@@ -188,7 +200,38 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
         }
       }
     }
-  }, [favoriteMap])
+
+    // 如果已登录，同步到 Supabase
+    if (user) {
+      try {
+        // 先从数据库获取现有的记录，保留 familiarity 和其他字段
+        const { data: existingData } = await supabase
+          .from('user_progress')
+          .select('*')
+          .eq('user_id', user.id)
+          .eq('word_id', wordId)
+          .maybeSingle()
+
+        const { error: upsertError } = await supabase
+          .from('user_progress')
+          .upsert({
+            user_id: user.id,
+            word_id: wordId,
+            familiarity: existingData?.familiarity || 'new',
+            is_favorited: !isFavorited,
+            favorited_at: !isFavorited ? new Date().toISOString() : null,
+            updated_at: new Date().toISOString(),
+          }, {
+            onConflict: 'user_id,word_id'
+          })
+
+        if (upsertError) throw upsertError
+        console.log('收藏状态已同步到数据库')
+      } catch (error) {
+        console.error('保存收藏状态失败:', error)
+      }
+    }
+  }, [favoriteMap, user])
 
   const loadFavorites = useCallback(() => {
     if (typeof window === 'undefined') return
