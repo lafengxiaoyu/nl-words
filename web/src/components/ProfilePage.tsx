@@ -541,6 +541,18 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
           </div>
         </header>
 
+        {/* Error and Success Messages */}
+        {error && (
+          <div className="error-message">
+            {error}
+          </div>
+        )}
+        {message && (
+          <div className="success-message">
+            {message}
+          </div>
+        )}
+
         {/* Main Content */}
         <main className="profile-main">
           <div className="profile-card">
