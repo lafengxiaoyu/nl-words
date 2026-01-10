@@ -1759,6 +1759,10 @@ body {
   z-index: 5;
   /* 移动端底部安全区域支持 */
   padding-bottom: max(20px, env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 
 /* Google 字体样式 */

@@ -14,6 +14,7 @@ import TestPage from './components/TestPage'
 import WordListPage from './components/WordListPage'
 import AdminDashboard from './components/AdminDashboard'
 import SpellingGame from './components/SpellingGame'
+import VersionDisplay from './components/VersionDisplay'
 import logo from './assets/images/dutch-lex.svg'
 
 // 发音按钮图标组件
@@ -1545,6 +1546,7 @@ function MainApp() {
 
             <footer className="footer">
               <p className="google-font-text">{t.flipCardHint} | {languageMode === 'chinese' ? '使用键盘方向键切换单词' : 'Use arrow keys to navigate'}</p>
+              <VersionDisplay languageMode={languageMode} position="footer" />
             </footer>
 
             {showUserProfile && user && (
