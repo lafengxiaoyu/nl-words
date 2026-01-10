@@ -268,9 +268,9 @@
             "singular": "viel tegen",
             "plural": "vielen tegen"
           },
-          "participle": "tegengevallen",
-          "isSeparable": false,
-          "pastParticiple": "tegengevallen"
+        "participle": "tegengevallen",
+        "isSeparable": true,
+        "pastParticiple": "tegengevallen"
         }
       },
       "examples": [
@@ -905,7 +905,7 @@
             "plural": "breidden uit"
           },
           "participle": "uitgebreid",
-          "isSeparable": false,
+          "isSeparable": true,
           "pastParticiple": "uitgebreid"
         }
       },
@@ -1220,7 +1220,7 @@
             "plural": "rustten uit"
           },
           "participle": "uitgerust",
-          "isSeparable": false,
+          "isSeparable": true,
           "pastParticiple": "uitgerust"
         }
       },
@@ -1297,7 +1297,7 @@
             "plural": "stapten uit"
           },
           "participle": "uitgestapt",
-          "isSeparable": false,
+          "isSeparable": true,
           "pastParticiple": "uitgestapt"
         }
       },
@@ -1342,7 +1342,7 @@
             "plural": "voerden uit"
           },
           "participle": "uitgevoerd",
-          "isSeparable": false,
+          "isSeparable": true,
           "pastParticiple": "uitgevoerd"
         }
       },
@@ -1387,7 +1387,7 @@
             "plural": "zochten uit"
           },
           "participle": "uitgezocht",
-          "isSeparable": false,
+          "isSeparable": true,
           "pastParticiple": "uitgezocht"
         }
       },

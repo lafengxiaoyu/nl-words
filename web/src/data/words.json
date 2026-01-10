@@ -27753,7 +27753,7 @@
         },
         "pastParticiple": "ingeschreven",
         "pastParticipleAuxiliary": "hebben",
-        "isSeparable": false
+        "isSeparable": true
       }
     },
     "examples": [
@@ -27978,7 +27978,7 @@
         },
         "pastParticiple": "ingevuld",
         "pastParticipleAuxiliary": "hebben",
-        "isSeparable": false
+        "isSeparable": true
       }
     },
     "examples": [
@@ -29861,7 +29861,7 @@
         },
         "pastParticiple": "mee gedaan",
         "pastParticipleAuxiliary": "hebben",
-        "isSeparable": false
+        "isSeparable": true
       }
     },
     "examples": [
@@ -29905,7 +29905,7 @@
         },
         "pastParticiple": "mee gemaakt",
         "pastParticipleAuxiliary": "hebben",
-        "isSeparable": false
+        "isSeparable": true
       }
     },
     "examples": [
@@ -29975,7 +29975,7 @@
         },
         "pastParticiple": "meegevallen",
         "pastParticipleAuxiliary": "zijn",
-        "isSeparable": false
+        "isSeparable": true
       }
     },
     "examples": [
@@ -32798,7 +32798,7 @@
         },
         "pastParticiple": "opgenomen",
         "pastParticipleAuxiliary": "hebben",
-        "isSeparable": false
+        "isSeparable": true
       }
     },
     "examples": [
@@ -32842,7 +32842,7 @@
         },
         "pastParticiple": "opgepast",
         "pastParticipleAuxiliary": "hebben",
-        "isSeparable": false
+        "isSeparable": true
       }
     },
     "examples": [
@@ -32886,7 +32886,7 @@
         },
         "pastParticiple": "opgericht",
         "pastParticipleAuxiliary": "hebben",
-        "isSeparable": false
+        "isSeparable": true
       }
     },
     "examples": [
@@ -32930,7 +32930,7 @@
         },
         "pastParticiple": "opgeruimd",
         "pastParticipleAuxiliary": "hebben",
-        "isSeparable": false
+        "isSeparable": true
       }
     },
     "examples": [
@@ -33005,7 +33005,7 @@
         },
         "pastParticiple": "opgevallen",
         "pastParticipleAuxiliary": "zijn",
-        "isSeparable": false
+        "isSeparable": true
       }
     },
     "examples": [
@@ -33080,7 +33080,7 @@
         },
         "pastParticiple": "opgezegd",
         "pastParticipleAuxiliary": "hebben",
-        "isSeparable": false
+        "isSeparable": true
       }
     },
     "examples": [
@@ -33384,7 +33384,7 @@
         },
         "pastParticiple": "overgestapt",
         "pastParticipleAuxiliary": "zijn/hebben",
-        "isSeparable": false
+        "isSeparable": true
       }
     },
     "examples": [
@@ -38011,7 +38011,7 @@
           "plural": "vielen tegen"
         },
         "participle": "tegengevallen",
-        "isSeparable": false,
+        "isSeparable": true,
         "pastParticiple": "tegengevallen"
       }
     },
@@ -38649,7 +38649,7 @@
           "plural": "breidden uit"
         },
         "participle": "uitgebreid",
-        "isSeparable": false,
+        "isSeparable": true,
         "pastParticiple": "uitgebreid"
       }
     },
@@ -38965,7 +38965,7 @@
           "plural": "rustten uit"
         },
         "participle": "uitgerust",
-        "isSeparable": false,
+        "isSeparable": true,
         "pastParticiple": "uitgerust"
       }
     },
@@ -39042,7 +39042,7 @@
           "plural": "stapten uit"
         },
         "participle": "uitgestapt",
-        "isSeparable": false,
+        "isSeparable": true,
         "pastParticiple": "uitgestapt"
       }
     },
@@ -39087,7 +39087,7 @@
           "plural": "voerden uit"
         },
         "participle": "uitgevoerd",
-        "isSeparable": false,
+        "isSeparable": true,
         "pastParticiple": "uitgevoerd"
       }
     },
@@ -39132,7 +39132,7 @@
           "plural": "zochten uit"
         },
         "participle": "uitgezocht",
-        "isSeparable": false,
+        "isSeparable": true,
         "pastParticiple": "uitgezocht"
       }
     },
@@ -43223,7 +43223,7 @@
     "forms": {
       "verb": {
         "infinitive": "aantonen",
-        "isSeparable": false,
+        "isSeparable": true,
         "present": {
           "ik": "toon aan",
           "jij": "toont aan",
@@ -74709,7 +74709,7 @@
         },
         "pastParticiple": "meegevoeld",
         "pastParticipleAuxiliary": "hebben",
-        "prefix": "m"
+        "prefix": "mee"
       }
     },
     "examples": [
