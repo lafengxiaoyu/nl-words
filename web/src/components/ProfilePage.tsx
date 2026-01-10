@@ -39,15 +39,17 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const [wordList, setWordList] = useState<Word[]>(initialWords)
   const [newPassword, setNewPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
+  const [profileLoading, setProfileLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+  const [message, setMessage] = useState<string | null>(null)
   const [editingUsername, setEditingUsername] = useState(false)
   const [usernameInput, setUsernameInput] = useState('')
   const [editingBio, setEditingBio] = useState(false)
   const [bioInput, setBioInput] = useState('')
   const [editingAvatar, setEditingAvatar] = useState(false)
-  const [loading, setLoading] = useState(false)
-  const [profileLoading, setProfileLoading] = useState(false)
-  const [error, setError] = useState<string | null>(null)
-  const [message, setMessage] = useState<string | null>(null)
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false)
+  const [emailConfirm, setEmailConfirm] = useState('')
+  const [deleteLoading, setDeleteLoading] = useState(false)
 
   // 获取基础路径（兼容 Vite base path）
   const getBasePath = () => {
@@ -170,6 +172,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
 
   // 计算学习统计
   const masteredCount = wordList.filter(w => w.familiarity === 'mastered').length
+  const favoritedCount = wordList.filter(w => w.favorited === true).length
   const totalCount = wordList.length
   const progressPercentage = totalCount > 0 ? Math.round((masteredCount / totalCount) * 100) : 0
 
@@ -179,6 +182,9 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       accountInfo: '账户信息',
       username: '用户名',
       email: '邮箱',
+      password: '密码',
+      enterNewPassword: '输入新密码（至少6个字符）',
+      confirmPassword: '确认密码',
       bio: '个人简介',
       avatar: '头像',
       editUsername: '编辑用户名',
@@ -189,6 +195,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       learningStats: '学习统计',
       totalWords: '总单词数',
       mastered: '已掌握',
+      favorited: '已收藏',
       masteryRate: '掌握率',
       difficultyStats: '按难度统计',
       familiarityStats: '按熟悉程度统计',
@@ -211,26 +218,22 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         familiar: '😊 熟悉',
         mastered: '✅ 已掌握'
       },
-      changePassword: '修改密码',
-      newPassword: '新密码',
-      confirmPassword: '确认密码',
-      updateButton: '更新密码',
       backButton: '返回学习',
       logoutButton: '退出登录',
-      errors: {
-        notConfigured: 'Supabase 未配置',
-        passwordsNotMatch: '两次输入的密码不一致',
-        passwordTooShort: '密码至少需要6个字符',
-      },
-      success: '密码修改成功',
-      failed: '密码修改失败',
-      lastUpdated: '最后更新'
+      deleteAccount: '删除账户',
+      deleteAccountConfirm: '确认删除账户',
+      enterEmailConfirm: '请输入您的邮箱以确认删除',
+      deleteWarning: '警告：此操作将永久删除您的账户和所有学习数据，无法恢复！',
+      deleteSuccess: '账户数据已删除。认证账户仍然存在，如需完全删除账户请联系管理员。'
     },
     english: {
       title: 'My Account',
       accountInfo: 'Account Information',
       username: 'Username',
       email: 'Email',
+      password: 'Password',
+      enterNewPassword: 'Enter new password (min 6 chars)',
+      confirmPassword: 'Confirm password',
       bio: 'Bio',
       avatar: 'Avatar',
       editUsername: 'Edit Username',
@@ -241,6 +244,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       learningStats: 'Learning Statistics',
       totalWords: 'Total Words',
       mastered: 'Mastered',
+      favorited: 'Favorited',
       masteryRate: 'Mastery Rate',
       difficultyStats: 'By Difficulty',
       familiarityStats: 'By Familiarity',
@@ -263,20 +267,13 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         familiar: '😊 Familiar',
         mastered: '✅ Mastered'
       },
-      changePassword: 'Change Password',
-      newPassword: 'New Password',
-      confirmPassword: 'Confirm Password',
-      updateButton: 'Update Password',
       backButton: 'Back to Learning',
       logoutButton: 'Logout',
-      errors: {
-        notConfigured: 'Supabase not configured',
-        passwordsNotMatch: 'Passwords do not match',
-        passwordTooShort: 'Password must be at least 6 characters',
-      },
-      success: 'Password updated successfully',
-      failed: 'Failed to update password',
-      lastUpdated: 'Last Updated'
+      deleteAccount: 'Delete Account',
+      deleteAccountConfirm: 'Confirm Account Deletion',
+      enterEmailConfirm: 'Please enter your email to confirm deletion',
+      deleteWarning: 'Warning: This action will permanently delete your account and all learning data. This cannot be undone!',
+      deleteSuccess: 'Account data deleted. Authentication account still exists. Contact administrator for complete account deletion.'
     }
   }
 
@@ -480,38 +477,44 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
     }
   }
 
-  const handleChangePassword = async (e: React.FormEvent) => {
-    e.preventDefault()
-
-    if (newPassword !== confirmPassword) {
-      setError(text.errors.passwordsNotMatch)
+  // 删除账户
+  const handleDeleteAccount = async () => {
+    if (!user || !user.email) {
+      setError(languageMode === 'chinese' ? '无法获取用户信息' : 'Cannot get user information')
       return
     }
 
-    if (newPassword.length < 6) {
-      setError(text.errors.passwordTooShort)
+    if (emailConfirm.trim().toLowerCase() !== user.email.toLowerCase()) {
+      setError(languageMode === 'chinese' ? '邮箱不匹配，请重新输入' : 'Email does not match, please try again')
       return
     }
 
-    setLoading(true)
+    setDeleteLoading(true)
     setError(null)
     setMessage(null)
 
     try {
-      const { error } = await supabase.auth.updateUser({
-        password: newPassword
-      })
+      // 删除用户的所有进度数据
+      await supabase.from('user_progress').delete().eq('user_id', user.id)
+      await supabase.from('word_stats').delete().eq('user_id', user.id)
+      await supabase.from('user_profiles').delete().eq('user_id', user.id)
 
-      if (error) throw error
+      // 清空本地存储
+      localStorage.removeItem('nl-words')
 
-      setMessage(text.success)
-      setNewPassword('')
-      setConfirmPassword('')
+      setMessage(text.deleteSuccess)
+      setShowDeleteConfirm(false)
+      setEmailConfirm('')
+
+      // 登出用户
+      setTimeout(() => {
+        handleLogout()
+      }, 3000)
     } catch (err: unknown) {
       const error = err as Error
-      setError(`${text.failed}: ${error.message}`)
+      setError(`${languageMode === 'chinese' ? '删除失败' : 'Delete failed'}: ${error.message}`)
     } finally {
-      setLoading(false)
+      setDeleteLoading(false)
     }
   }
 
@@ -686,6 +689,79 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
                     )}
                   </div>
                 </div>
+                <div className="info-item password-item">
+                  <div className="password-row">
+                    <div>
+                      <label>{text.password}</label>
+                      <div className="info-value with-edit">
+                        <div className="password-display">
+                          <input
+                            type="password"
+                            value={newPassword}
+                            onChange={(e) => setNewPassword(e.target.value)}
+                            placeholder={text.enterNewPassword}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <label>{text.confirmPassword}</label>
+                      <div className="info-value with-edit">
+                        <div className="password-display">
+                          <input
+                            type="password"
+                            value={confirmPassword}
+                            onChange={(e) => setConfirmPassword(e.target.value)}
+                            placeholder={text.confirmPassword}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      className="btn btn-small btn-primary update-button"
+                      onClick={async () => {
+                        if (newPassword.length < 6) {
+                          alert(languageMode === 'chinese' ? '密码至少需要6个字符' : 'Password must be at least 6 characters')
+                          return
+                        }
+                        if (newPassword !== confirmPassword) {
+                          alert(languageMode === 'chinese' ? '两次输入的密码不一致' : 'Passwords do not match')
+                          return
+                        }
+                        try {
+                          const { error } = await supabase.auth.updateUser({
+                            password: newPassword
+                          })
+                          if (error) {
+                            console.error('Password update error:', error)
+                            alert(`${languageMode === 'chinese' ? '密码修改失败' : 'Failed to update password'}: ${error.message}`)
+                            return
+                          }
+                          alert(languageMode === 'chinese' ? '密码修改成功' : 'Password updated successfully')
+                          setNewPassword('')
+                          setConfirmPassword('')
+                        } catch (err) {
+                          console.error('Unexpected error:', err)
+                          alert(languageMode === 'chinese' ? '密码修改失败：未知错误' : 'Failed to update password: Unknown error')
+                        }
+                      }}
+                    >
+                      {languageMode === 'chinese' ? '更新' : 'Update'}
+                    </button>
+                  </div>
+                </div>
+                <div className="info-item">
+                  <label>{text.logoutButton}</label>
+                  <div className="info-value">
+                    <button
+                      className="btn btn-danger btn-full"
+                      onClick={handleLogout}
+                    >
+                      {text.logoutButton}
+                    </button>
+                  </div>
+                </div>
               </div>
             </section>
 
@@ -704,40 +780,46 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
                   <div className="stat-value">{masteredCount}</div>
                 </div>
                 <div className="stat-item">
+                  <div className="stat-label">{text.favorited}</div>
+                  <div className="stat-value">{favoritedCount}</div>
+                </div>
+                <div className="stat-item">
                   <div className="stat-label">{text.masteryRate}</div>
                   <div className="stat-value">{progressPercentage}%</div>
                 </div>
               </div>
-              <div className="difficulty-stats">
-                <h3>{text.difficultyStats}</h3>
-                {(['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as DifficultyLevel[]).map(level => {
-                  const levelWords = wordList.filter(w => w.difficulty === level)
-                  const levelMastered = levelWords.filter(w => w.familiarity === 'mastered').length
-                  const levelPercentage = levelWords.length > 0 ? Math.round((levelMastered / levelWords.length) * 100) : 0
-                  return (
-                    <div key={level} className="difficulty-stat">
-                      <span className="difficulty-badge difficulty--{level}">{level}</span>
-                      <span>{levelMastered}/{levelWords.length}</span>
-                      <span>({levelPercentage}%)</span>
-                    </div>
-                  )
-                })}
-              </div>
-              <div className="familiarity-stats">
-                <h3>{text.familiarityStats}</h3>
-                {(['new', 'learning', 'familiar', 'mastered'] as FamiliarityLevel[]).map(level => {
-                  const levelWords = wordList.filter(w => w.familiarity === level)
-                  const levelPercentage = wordList.length > 0 ? Math.round((levelWords.length / wordList.length) * 100) : 0
-                  return (
-                    <div key={level} className="familiarity-stat">
-                      <span className={`familiarity-badge familiarity--${level}`}>
-                        {text.familiarityLabels[level]}
-                      </span>
-                      <span>{levelWords.length}</span>
-                      <span>({levelPercentage}%)</span>
-                    </div>
-                  )
-                })}
+              <div className="stats-detail-grid">
+                <div className="difficulty-stats">
+                  <h3>{text.difficultyStats}</h3>
+                  {(['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as DifficultyLevel[]).map(level => {
+                    const levelWords = wordList.filter(w => w.difficulty === level)
+                    const levelMastered = levelWords.filter(w => w.familiarity === 'mastered').length
+                    const levelPercentage = levelWords.length > 0 ? Math.round((levelMastered / levelWords.length) * 100) : 0
+                    return (
+                      <div key={level} className="difficulty-stat">
+                        <span className="difficulty-badge difficulty--{level}">{level}</span>
+                        <span>{levelMastered}/{levelWords.length}</span>
+                        <span>({levelPercentage}%)</span>
+                      </div>
+                    )
+                  })}
+                </div>
+                <div className="familiarity-stats">
+                  <h3>{text.familiarityStats}</h3>
+                  {(['new', 'learning', 'familiar', 'mastered'] as FamiliarityLevel[]).map(level => {
+                    const levelWords = wordList.filter(w => w.familiarity === level)
+                    const levelPercentage = wordList.length > 0 ? Math.round((levelWords.length / wordList.length) * 100) : 0
+                    return (
+                      <div key={level} className="familiarity-stat">
+                        <span className={`familiarity-badge familiarity--${level}`}>
+                          {text.familiarityLabels[level]}
+                        </span>
+                        <span>{levelWords.length}</span>
+                        <span>({levelPercentage}%)</span>
+                      </div>
+                    )
+                  })}
+                </div>
               </div>
             </section>
 
@@ -765,64 +847,17 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
               </button>
             </section>
 
-            <hr className="profile-divider" />
-
-            {/* Change Password Section */}
-            <section className="profile-section">
-              <h2>{text.changePassword}</h2>
-              <form onSubmit={handleChangePassword} className="password-form">
-                <div className="form-group">
-                  <label htmlFor="new-password">{text.newPassword}</label>
-                  <input
-                    id="new-password"
-                    type="password"
-                    value={newPassword}
-                    onChange={(e) => setNewPassword(e.target.value)}
-                    placeholder="••••••••"
-                    required
-                    minLength={6}
-                    disabled={loading}
-                  />
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="confirm-password">{text.confirmPassword}</label>
-                  <input
-                    id="confirm-password"
-                    type="password"
-                    value={confirmPassword}
-                    onChange={(e) => setConfirmPassword(e.target.value)}
-                    placeholder="••••••••"
-                    required
-                    minLength={6}
-                    disabled={loading}
-                  />
-                </div>
-
-                {error && <div className="error-message">{error}</div>}
-                {message && <div className="success-message">{message}</div>}
-
-                <button
-                  type="submit"
-                  className="btn btn-primary btn-full"
-                  disabled={loading || !newPassword || !confirmPassword}
-                >
-                  {loading ? '处理中...' : text.updateButton}
-                </button>
-              </form>
-            </section>
-
-            <hr className="profile-divider" />
-
-            {/* Logout Section */}
+            {/* Delete Account Section */}
             <section className="profile-section">
               <button
                 className="btn btn-danger btn-full"
-                onClick={handleLogout}
+                onClick={() => setShowDeleteConfirm(true)}
               >
-                {text.logoutButton}
+                {text.deleteAccount}
               </button>
             </section>
+
+
           </div>
         </main>
 
@@ -830,6 +865,43 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         <footer className="profile-footer">
           <p>🇳🇱 {languageMode === 'chinese' ? '荷兰语单词学习' : 'Dutch Word Learning'}</p>
         </footer>
+
+        {/* Delete Account Confirmation Modal */}
+        {showDeleteConfirm && (
+          <div className="avatar-overlay" onClick={() => setShowDeleteConfirm(false)}>
+            <div className="avatar-modal" onClick={(e) => e.stopPropagation()}>
+              <h3>{text.deleteAccountConfirm}</h3>
+              <div className="delete-confirm-content">
+                <p className="delete-warning">{text.deleteWarning}</p>
+                <div className="form-group">
+                  <label>{text.enterEmailConfirm}</label>
+                  <input
+                    type="email"
+                    value={emailConfirm}
+                    onChange={(e) => setEmailConfirm(e.target.value)}
+                    disabled={deleteLoading}
+                  />
+                </div>
+                <div className="modal-actions">
+                  <button
+                    className="btn btn-danger btn-full"
+                    onClick={handleDeleteAccount}
+                    disabled={deleteLoading}
+                  >
+                    {deleteLoading ? (languageMode === 'chinese' ? '删除中...' : 'Deleting...') : text.deleteAccount}
+                  </button>
+                  <button
+                    className="btn btn-secondary btn-full"
+                    onClick={() => setShowDeleteConfirm(false)}
+                    disabled={deleteLoading}
+                  >
+                    {text.cancel}
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )

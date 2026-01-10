@@ -240,6 +240,7 @@
 .btn-small {
   padding: 6px 12px;
   font-size: 13px;
+  white-space: nowrap;
 }
 
 .profile-page::before {
@@ -309,7 +310,7 @@
   border-radius: 16px;
   padding: 30px;
   box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
-  max-width: 600px;
+  max-width: 780px;
   margin: 0 auto;
 }
 
@@ -332,7 +333,7 @@
 /* Stats Grid */
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   margin-bottom: 24px;
 }
@@ -355,9 +356,10 @@
 }
 
 .stat-value {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
   color: #667eea;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
 /* Difficulty Stats */
@@ -384,6 +386,7 @@
   background-color: white;
   border-radius: 6px;
   transition: transform 0.2s;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .difficulty-stat:hover {
@@ -430,6 +433,7 @@
   background-color: white;
   border-radius: 6px;
   transition: transform 0.2s;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .familiarity-stat:hover {
@@ -467,6 +471,28 @@
   padding: 16px;
 }
 
+/* Password inputs */
+.password-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  .password-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .info-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  /* 将退出登录按钮放到右侧列 */
+  .info-item:nth-child(5) {
+    grid-column: 2;
+  }
+}
+
 .info-item label {
   display: block;
   font-size: 12px;
@@ -491,6 +517,66 @@
   background-color: #e9ecef;
   padding: 8px 12px;
   border-radius: 6px;
+}
+
+/* Password Display */
+.password-display {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.password-display input {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  background-color: white;
+  min-width: 0; /* 防止 flex item 溢出 */
+}
+
+.password-display input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.password-hint {
+  font-size: 11px;
+  color: #666;
+  margin-top: 4px;
+  opacity: 0.8;
+}
+
+/* Password row for two inputs */
+.password-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  width: 100%;
+}
+
+.password-row > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.password-row .update-button {
+  margin-top: 8px;
+}
+
+@media (min-width: 768px) {
+  .password-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .info-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* Password Form */
@@ -628,18 +714,68 @@
   opacity: 0.9;
 }
 
+/* Delete Account Modal Styles */
+.delete-confirm-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.delete-warning {
+  color: #d32f2f;
+  background-color: #ffebee;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border-left: 4px solid #d32f2f;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 /* Responsive */
 @media (min-width: 768px) {
-  .info-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .profile-card {
     padding: 40px;
   }
 
+  .info-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .stats-detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
   .profile-header h1 {
     font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .stats-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 8px;
+  }
+
+  .stat-item {
+    padding: 10px 4px;
+  }
+
+  .stat-label {
+    font-size: 10px;
+    margin-bottom: 4px;
+    letter-spacing: 0;
+  }
+
+  .stat-value {
+    font-size: 16px;
   }
 }
 
