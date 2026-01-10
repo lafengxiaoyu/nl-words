@@ -406,11 +406,12 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       case 'difficulty':
         comparison = a.difficulty.localeCompare(b.difficulty)
         break
-      case 'favorite':
+      case 'favorite': {
         const aFav = favoriteMap.get(a.id) || false
         const bFav = favoriteMap.get(b.id) || false
         comparison = aFav === bFav ? 0 : (aFav ? -1 : 1)
         break
+      }
     }
     return sortOrder === 'asc' ? comparison : -comparison
   })

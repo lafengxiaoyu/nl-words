@@ -499,7 +499,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
         timerRef.current = null
       }
     }
-  }, [gameStarted, showResult, gameComplete, timeModeEnabled, currentIndex, gameWords, user])
+  }, [gameStarted, showResult, gameComplete, timeModeEnabled, currentIndex, gameWords, user, timeRemaining])
 
   // 发音功能
   const speakDutch = (text: string) => {
