@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { Word } from '../data/words'
@@ -160,10 +160,66 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [selectedPartOfSpeech, setSelectedPartOfSpeech] = useState<string>('all')
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all')
   const [selectedWord, setSelectedWord] = useState<Word | null>(null)
-  const [sortBy, setSortBy] = useState<'word' | 'translation' | 'partOfSpeech' | 'difficulty'>('word')
+  const [sortBy, setSortBy] = useState<'word' | 'translation' | 'partOfSpeech' | 'difficulty' | 'favorite'>('word')
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc')
   const [itemsPerPage, setItemsPerPage] = useState(20)
   const [currentPage, setCurrentPage] = useState(1)
+
+  const [favoriteMap, setFavoriteMap] = useState<Map<number, boolean>>(new Map())
+
+  const toggleFavorite = useCallback((wordId: number) => {
+    const isFavorited = favoriteMap.get(wordId) || false
+    const newFavoriteMap = new Map(favoriteMap)
+    newFavoriteMap.set(wordId, !isFavorited)
+    setFavoriteMap(newFavoriteMap)
+
+    // 更新 localStorage
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('nl-words')
+      if (saved) {
+        try {
+          const wordsWithProgress = JSON.parse(saved) as Word[]
+          const updatedWords = wordsWithProgress.map(word =>
+            word.id === wordId ? { ...word, favorited: !word.favorited } : word
+          )
+          localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+        } catch (err) {
+          console.error('Failed to update favorite data:', err)
+        }
+      }
+    }
+  }, [favoriteMap])
+
+  const loadFavorites = useCallback(() => {
+    if (typeof window === 'undefined') return
+    const saved = localStorage.getItem('nl-words')
+    if (!saved) return
+    try {
+      const wordsWithProgress = JSON.parse(saved) as Word[]
+      const map = new Map<number, boolean>()
+      wordsWithProgress.forEach(word => {
+        if (word.favorited) {
+          map.set(word.id, true)
+        }
+      })
+      setFavoriteMap(map)
+    } catch (err) {
+      console.error('Failed to parse favorite data:', err)
+    }
+  }, [])
+
+  useEffect(() => {
+    loadFavorites()
+    
+    const handleStorageChange = (event: StorageEvent) => {
+      if (event.key === 'nl-words') {
+        loadFavorites()
+      }
+    }
+    
+    window.addEventListener('storage', handleStorageChange)
+    return () => window.removeEventListener('storage', handleStorageChange)
+  }, [loadFavorites])
 
   const translations = {
     chinese: {
@@ -349,6 +405,11 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
         break
       case 'difficulty':
         comparison = a.difficulty.localeCompare(b.difficulty)
+        break
+      case 'favorite':
+        const aFav = favoriteMap.get(a.id) || false
+        const bFav = favoriteMap.get(b.id) || false
+        comparison = aFav === bFav ? 0 : (aFav ? -1 : 1)
         break
     }
     return sortOrder === 'asc' ? comparison : -comparison
@@ -559,10 +620,28 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                         <span className="sort-indicator">{sortOrder === 'asc' ? '↑' : '↓'}</span>
                       )}
                     </th>
+                    <th
+                      className={`favorite-col sortable ${sortBy === 'favorite' ? 'active' : ''}`}
+                      onClick={() => {
+                        if (sortBy === 'favorite') {
+                          setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
+                        } else {
+                          setSortBy('favorite')
+                          setSortOrder('desc')
+                        }
+                      }}
+                    >
+                      {languageMode === 'chinese' ? '收藏' : 'Favorite'}
+                      {sortBy === 'favorite' && (
+                        <span className="sort-indicator">{sortOrder === 'asc' ? '↑' : '↓'}</span>
+                      )}
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
-                  {currentPageWords.map(word => (
+                  {currentPageWords.map(word => {
+                    const isFavorited = favoriteMap.get(word.id) || false
+                    return (
                     <tr
                       key={word.id}
                       className={`word-row ${selectedWord?.id === word.id ? 'word-row--selected' : ''}`}
@@ -595,8 +674,30 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                           {getTranslation(word.difficulty)}
                         </span>
                       </td>
+                      <td className="favorite-col">
+                        <button
+                          className={`favorite-btn ${isFavorited ? 'favorited' : ''}`}
+                          title={isFavorited ? (languageMode === 'chinese' ? '取消收藏' : 'Remove from favorites') : (languageMode === 'chinese' ? '添加收藏' : 'Add to favorites')}
+                          onClick={(e) => {
+                            e.stopPropagation()
+                            toggleFavorite(word.id)
+                          }}
+                          style={{ display: 'inline-flex', alignItems: 'center', padding: 0 }}
+                        >
+                          {isFavorited ? (
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                            </svg>
+                          ) : (
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                            </svg>
+                          )}
+                        </button>
+                      </td>
                     </tr>
-                  ))}
+                    )
+                  })}
                 </tbody>
               </table>
 
@@ -657,6 +758,23 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
             <div className="detail-item">
               <strong>{detailsPanel.difficulty}：</strong>
               <span className={`difficulty-tag difficulty--${selectedWord.difficulty}`}>{selectedWord.difficulty}</span>
+            </div>
+            <div className="detail-item">
+              <strong>{languageMode === 'chinese' ? '收藏状态' : 'Favorite Status'}:</strong>
+              <span className={`favorite-btn ${favoriteMap.get(selectedWord.id) ? 'favorited' : ''}`} style={{ marginLeft: '8px', display: 'inline-flex', alignItems: 'center' }}>
+                {favoriteMap.get(selectedWord.id) ? (
+                  <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                  </svg>
+                ) : (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                  </svg>
+                )}
+                <span style={{ marginLeft: '4px' }}>
+                  {favoriteMap.get(selectedWord.id) ? (languageMode === 'chinese' ? '已收藏' : 'Favorited') : (languageMode === 'chinese' ? '未收藏' : 'Not favorited')}
+                </span>
+              </span>
             </div>
 
             {/* 名词信息 */}
