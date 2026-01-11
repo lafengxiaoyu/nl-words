@@ -1457,8 +1457,8 @@
       "forms": {
         "verb": {
           "infinitive": "bestellen",
-          "isSeparable": true,
-          "prefix": "best",
+          "isSeparable": false,
+          "present": {
           "present": {
             "ik": "bestel",
             "jij": "bestelt",

@@ -1294,7 +1294,7 @@
           },
           "pastParticiple": "gerustgesteld",
           "pastParticipleAuxiliary": "hebben",
-          "prefix": "g"
+          "prefix": "gerust"
         }
       },
       "examples": [
@@ -1316,7 +1316,7 @@
     },
     {
       "id": 1767,
-      "word": "gescheiden",
+      "word": "scheiden",
       "translation": {
         "chinese": "分离",
         "english": "to separate"
@@ -1324,8 +1324,8 @@
       "partOfSpeech": "verb",
       "forms": {
         "verb": {
-          "infinitive": "gescheiden",
-          "isSeparable": true,
+          "infinitive": "scheiden",
+          "isSeparable": false,
           "present": {
             "ik": "scheid",
             "jij": "scheidt",
@@ -1339,8 +1339,7 @@
             "plural": "scheidden"
           },
           "pastParticiple": "gescheiden",
-          "pastParticipleAuxiliary": "zijn",
-          "prefix": "g"
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1357,7 +1356,7 @@
           "He separates himself emotionally from the difficult situation to be able to make an objective decision."
         ]
       },
-      "notes": "可分动词，助动词用zijn",
+      "notes": "不可分动词，过去分词: gescheiden（不规则，用zijn）",
       "difficulty": "B1"
     },
     {

@@ -494,7 +494,7 @@
     },
     {
       "id": 1213,
-      "word": "verdagaan",
+      "word": "verdagen",
       "translation": {
         "chinese": "延期",
         "english": "to postpone"
@@ -502,27 +502,27 @@
       "partOfSpeech": "verb",
       "forms": {
         "verb": {
-          "infinitive": "verdagaan",
+          "infinitive": "verdagen",
+          "isSeparable": false,
           "present": {
-            "ik": "dag uit",
-            "jij": "daagt uit",
-            "hij": "daagt uit",
-            "wij": "dagen uit",
-            "jullie": "dagen uit",
-            "zij": "dagen uit"
+            "ik": "verdag",
+            "jij": "verdaagt",
+            "hij": "verdaagt",
+            "wij": "verdagen",
+            "jullie": "verdagen",
+            "zij": "verdagen"
           },
           "past": {
-            "singular": "daagde uit",
-            "plural": "daagden uit"
+            "singular": "verdaagde",
+            "plural": "verdaagden"
           },
-          "participle": "uitgedaagd",
-          "isSeparable": false,
-          "pastParticiple": "uitgedaagd"
+          "pastParticiple": "verdaagd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
         "We moeten de meeting verdagen.",
-        "Het besluit is verdagen."
+        "Het besluit is verdaagd."
       ],
       "exampleTranslations": {
         "chinese": [

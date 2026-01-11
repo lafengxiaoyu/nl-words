@@ -222,22 +222,21 @@
       "forms": {
         "verb": {
           "infinitive": "handhaven",
-          "isSeparable": true,
+          "isSeparable": false,
           "present": {
-            "ik": "houd in stand",
-            "jij": "houdt in stand",
-            "hij": "houdt in stand",
-            "wij": "houden in stand",
-            "jullie": "houden in stand",
-            "zij": "houden in stand"
+            "ik": "handhaaf",
+            "jij": "handhaaft",
+            "hij": "handhaaft",
+            "wij": "handhaven",
+            "jullie": "handhaven",
+            "zij": "handhaven"
           },
           "past": {
-            "singular": "hield in stand",
-            "plural": "hielden in stand"
+            "singular": "handhaafde",
+            "plural": "handhaafden"
           },
-          "pastParticiple": "in stand gehouden",
-          "pastParticipleAuxiliary": "hebben",
-          "prefix": "h"
+          "pastParticiple": "handhaafd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -254,7 +253,7 @@
           "The police had trouble maintaining order during the demonstrations."
         ]
       },
-      "notes": "可分动词",
+      "notes": "不可分动词，过去分词: handhaafd",
       "difficulty": "B1"
     },
     {
