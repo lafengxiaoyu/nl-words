@@ -2,7 +2,7 @@
   "id": "lA113",
   "level": "A1",
   "lessonNumber": 13,
-  "totalWords": 16,
+  "totalWords": 50,
   "words": [
     {
       "id": 631,
@@ -555,6 +555,1097 @@
       },
       "notes": "强动词，过去分词：gezwommen（用zijn）",
       "difficulty": "A1"
+    },
+    {
+      "id": 3040,
+      "word": "a.u.b.",
+      "translation": {
+        "chinese": "请",
+        "english": "please"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Kunt u dat a.u.b. herhalen?",
+        "A.u.b., kom binnen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "请您能重复一下吗？",
+          "请进。"
+        ],
+        "english": [
+          "Could you please repeat that?",
+          "Please, come in."
+        ]
+      },
+      "notes": "缩写：alstublieft",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3041,
+      "word": "blok",
+      "translation": {
+        "chinese": "块",
+        "english": "block"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "blok",
+          "plural": "blokken"
+        }
+      },
+      "examples": [
+        "Een blok kaas.",
+        "Het blok hout."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一块奶酪。",
+          "这块木头。"
+        ],
+        "english": [
+          "A block of cheese.",
+          "The block of wood."
+        ]
+      },
+      "notes": "复数形式：blokken",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3042,
+      "word": "friet",
+      "translation": {
+        "chinese": "薯条",
+        "english": "fries"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "friet",
+          "plural": "frieten"
+        }
+      },
+      "examples": [
+        "Ik eet friet met mayonaise.",
+        "De friet is heet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃薯条配蛋黄酱。",
+          "薯条很热。"
+        ],
+        "english": [
+          "I eat fries with mayonnaise.",
+          "The fries are hot."
+        ]
+      },
+      "notes": "复数形式：frieten，常用复数形式frietjes",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3043,
+      "word": "halte",
+      "translation": {
+        "chinese": "站点",
+        "english": "stop"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "halte",
+          "plural": "haltes"
+        }
+      },
+      "examples": [
+        "De bushalte is hier.",
+        "Ik wacht op de halte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公交站在这里。",
+          "我在站点等待。"
+        ],
+        "english": [
+          "The bus stop is here.",
+          "I wait at the stop."
+        ]
+      },
+      "notes": "复数形式：haltes，复合词如bushalte（公交站）",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3044,
+      "word": "lade",
+      "translation": {
+        "chinese": "抽屉",
+        "english": "drawer"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lade",
+          "plural": "laden"
+        }
+      },
+      "examples": [
+        "De lade is open.",
+        "Ik open de lade."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "抽屉是开着的。",
+          "我打开抽屉。"
+        ],
+        "english": [
+          "The drawer is open.",
+          "I open the drawer."
+        ]
+      },
+      "notes": "复数形式：laden",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3045,
+      "word": "rits",
+      "translation": {
+        "chinese": "拉链",
+        "english": "zipper"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rits",
+          "plural": "ritsen"
+        }
+      },
+      "examples": [
+        "De rits is kapot.",
+        "Ik doe de rits dicht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "拉链坏了。",
+          "我拉上拉链。"
+        ],
+        "english": [
+          "The zipper is broken.",
+          "I close the zipper."
+        ]
+      },
+      "notes": "复数形式：ritsen",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3048,
+      "word": "aaien",
+      "translation": {
+        "chinese": "抚摸",
+        "english": "to pet/stroke"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik aai de kat.",
+        "Zij aait de hond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我抚摸猫。",
+          "她抚摸狗。"
+        ],
+        "english": [
+          "I pet the cat.",
+          "She pets the dog."
+        ]
+      },
+      "notes": "弱动词",
+      "difficulty": "A1",
+      "forms": {
+        "verb": {
+          "infinitive": "aaien",
+          "isSeparable": false,
+          "present": {
+            "ik": "aaien",
+            "jij": "aaient",
+            "hij": "aaient",
+            "wij": "aaienen",
+            "jullie": "aaienen",
+            "zij": "aaienen"
+          },
+          "past": {
+            "singular": "aaiende",
+            "plural": "aaienden"
+          },
+          "pastParticiple": "geaaien",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3049,
+      "word": "jas",
+      "translation": {
+        "chinese": "外套",
+        "english": "jacket"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Mijn jas is nieuw.",
+        "Ik draag een jas."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的外套是新的。",
+          "我穿一件外套。"
+        ],
+        "english": [
+          "My jacket is new.",
+          "I wear a jacket."
+        ]
+      },
+      "notes": "复数形式：jassen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "jas",
+          "plural": "jasen"
+        }
+      }
+    },
+    {
+      "id": 3050,
+      "word": "acht",
+      "translation": {
+        "chinese": "八",
+        "english": "eight"
+      },
+      "partOfSpeech": "numeral",
+      "examples": [
+        "Ik heb acht appels.",
+        "Het is nu acht uur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有八个苹果。",
+          "现在是八点钟。"
+        ],
+        "english": [
+          "I have eight apples.",
+          "It is eight o'clock now."
+        ]
+      },
+      "notes": "",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3051,
+      "word": "juf",
+      "translation": {
+        "chinese": "老师（女）",
+        "english": "female teacher"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De juf leest voor.",
+        "Ik help de juf."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "女老师朗读。",
+          "我帮助女老师。"
+        ],
+        "english": [
+          "The teacher reads aloud.",
+          "I help the teacher."
+        ]
+      },
+      "notes": "复数形式：juffen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "juf",
+          "plural": "jufen"
+        }
+      }
+    },
+    {
+      "id": 3052,
+      "word": "arm",
+      "translation": {
+        "chinese": "手臂",
+        "english": "arm"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Mijn arm doet pijn.",
+        "Ik heb twee armen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的手臂疼。",
+          "我有两只手臂。"
+        ],
+        "english": [
+          "My arm hurts.",
+          "I have two arms."
+        ]
+      },
+      "notes": "复数形式：armen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "arm",
+          "plural": "armen"
+        }
+      }
+    },
+    {
+      "id": 3053,
+      "word": "keel",
+      "translation": {
+        "chinese": "喉咙",
+        "english": "throat"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Mijn keel is droog.",
+        "Ik heb een zere keel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的喉咙干。",
+          "我喉咙疼。"
+        ],
+        "english": [
+          "My throat is dry.",
+          "I have a sore throat."
+        ]
+      },
+      "notes": "复数形式：keels",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "keel",
+          "plural": "keelen"
+        }
+      }
+    },
+    {
+      "id": 3054,
+      "word": "bad",
+      "translation": {
+        "chinese": "洗澡/澡盆",
+        "english": "bath"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik neem een bad.",
+        "Het bad is warm."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我洗澡。",
+          "澡盆里的水很暖和。"
+        ],
+        "english": [
+          "I take a bath.",
+          "The bath is warm."
+        ]
+      },
+      "notes": "复数形式：baden",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "bad",
+          "plural": "baden"
+        }
+      }
+    },
+    {
+      "id": 3055,
+      "word": "kip",
+      "translation": {
+        "chinese": "鸡",
+        "english": "chicken"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik eet kip met rijst.",
+        "De kip legt eieren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃鸡肉配米饭。",
+          "鸡下蛋。"
+        ],
+        "english": [
+          "I eat chicken with rice.",
+          "The chicken lays eggs."
+        ]
+      },
+      "notes": "复数形式：kippen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "kip",
+          "plural": "kipen"
+        }
+      }
+    },
+    {
+      "id": 3056,
+      "word": "bak",
+      "translation": {
+        "chinese": "盒子/盘子",
+        "english": "tray/box"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De bak is leeg.",
+        "Ik gebruik een bak."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "盒子是空的。",
+          "我使用一个盒子。"
+        ],
+        "english": [
+          "The tray is empty.",
+          "I use a tray."
+        ]
+      },
+      "notes": "复数形式：bakken",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "bak",
+          "plural": "baken"
+        }
+      }
+    },
+    {
+      "id": 3057,
+      "word": "klap",
+      "translation": {
+        "chinese": "拍打",
+        "english": "slap/clap"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik hoor een klap.",
+        "De klap is hard."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我听到一声拍打。",
+          "拍打很响。"
+        ],
+        "english": [
+          "I hear a clap.",
+          "The clap is loud."
+        ]
+      },
+      "notes": "复数形式：klappen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "klap",
+          "plural": "klapen"
+        }
+      }
+    },
+    {
+      "id": 3058,
+      "word": "band",
+      "translation": {
+        "chinese": "带子/轮胎",
+        "english": "band/tire"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De band is plat.",
+        "Ik heb een nieuwe band."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "轮胎瘪了。",
+          "我有一个新轮胎。"
+        ],
+        "english": [
+          "The tire is flat.",
+          "I have a new tire."
+        ]
+      },
+      "notes": "复数形式：banden",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "band",
+          "plural": "banden"
+        }
+      }
+    },
+    {
+      "id": 3059,
+      "word": "koe",
+      "translation": {
+        "chinese": "牛",
+        "english": "cow"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De koe geeft melk.",
+        "Ik zie een koe."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "牛产奶。",
+          "我看到一头牛。"
+        ],
+        "english": [
+          "The cow gives milk.",
+          "I see a cow."
+        ]
+      },
+      "notes": "复数形式：koeien",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "koe",
+          "plural": "koeen"
+        }
+      }
+    },
+    {
+      "id": 3060,
+      "word": "been",
+      "translation": {
+        "chinese": "腿",
+        "english": "leg"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Mijn been is gebroken.",
+        "Ik heb twee benen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的腿断了。",
+          "我有两条腿。"
+        ],
+        "english": [
+          "My leg is broken.",
+          "I have two legs."
+        ]
+      },
+      "notes": "复数形式：benen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "been",
+          "plural": "beenen"
+        }
+      }
+    },
+    {
+      "id": 3156,
+      "word": "kom",
+      "translation": {
+        "chinese": "碗",
+        "english": "bowl"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De kom is leeg.",
+        "Ik eet uit een kom."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "碗是空的。",
+          "我用碗吃饭。"
+        ],
+        "english": [
+          "The bowl is empty.",
+          "I eat from a bowl."
+        ]
+      },
+      "notes": "名词：de kom, kommen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kom",
+          "plural": "kommen"
+        }
+      }
+    },
+    {
+      "id": 3062,
+      "word": "beer",
+      "translation": {
+        "chinese": "熊",
+        "english": "bear"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De beer is groot.",
+        "Ik zie een beer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "熊很大。",
+          "我看到一只熊。"
+        ],
+        "english": [
+          "The bear is big.",
+          "I see a bear."
+        ]
+      },
+      "notes": "复数形式：beren",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "beer",
+          "plural": "beeren"
+        }
+      }
+    },
+    {
+      "id": 3063,
+      "word": "laars",
+      "translation": {
+        "chinese": "靴子",
+        "english": "boot"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Mijn laarzen zijn nat.",
+        "Ik draag laarzen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的靴子湿了。",
+          "我穿靴子。"
+        ],
+        "english": [
+          "My boots are wet.",
+          "I wear boots."
+        ]
+      },
+      "notes": "复数形式：laarzen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "laars",
+          "plural": "laarsen"
+        }
+      }
+    },
+    {
+      "id": 3064,
+      "word": "beest",
+      "translation": {
+        "chinese": "野兽",
+        "english": "beast"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Het beest is gevaarlijk.",
+        "Ik zie een wild beest."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "野兽很危险。",
+          "我看到一只野兽。"
+        ],
+        "english": [
+          "The beast is dangerous.",
+          "I see a wild beast."
+        ]
+      },
+      "notes": "复数形式：beesten",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "beest",
+          "plural": "beesten"
+        }
+      }
+    },
+    {
+      "id": 3066,
+      "word": "best",
+      "translation": {
+        "chinese": "最好的",
+        "english": "best"
+      },
+      "partOfSpeech": "adjective",
+      "examples": [
+        "Dit is het beste.",
+        "Hij is de beste."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是最好的。",
+          "他是最好的。"
+        ],
+        "english": [
+          "This is the best.",
+          "He is the best."
+        ]
+      },
+      "notes": "不规则形容词",
+      "difficulty": "A1",
+      "forms": {
+        "adjective": {
+          "base": "best",
+          "withDe": "beste",
+          "withHet": "best",
+          "comparative": "bester",
+          "superlative": "bestst"
+        }
+      }
+    },
+    {
+      "id": 3067,
+      "word": "lam",
+      "translation": {
+        "chinese": "羔羊",
+        "english": "lamb"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Het lam is schattig.",
+        "Ik zie een lam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "羔羊很可爱。",
+          "我看到一只羔羊。"
+        ],
+        "english": [
+          "The lamb is cute.",
+          "I see a lamb."
+        ]
+      },
+      "notes": "复数形式：lammeren",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "lam",
+          "plural": "lamen"
+        }
+      }
+    },
+    {
+      "id": 3068,
+      "word": "bh",
+      "translation": {
+        "chinese": "胸罩",
+        "english": "bra"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De bh is nieuw.",
+        "Ik koop een bh."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这件胸罩是新的。",
+          "我买一件胸罩。"
+        ],
+        "english": [
+          "The bra is new.",
+          "I buy a bra."
+        ]
+      },
+      "notes": "复数形式：bh's",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "bh",
+          "plural": "bhen"
+        }
+      }
+    },
+    {
+      "id": 3069,
+      "word": "lap",
+      "translation": {
+        "chinese": "布块",
+        "english": "rag/patch"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik gebruik een lap.",
+        "De lap is vies."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我使用一块布。",
+          "布块很脏。"
+        ],
+        "english": [
+          "I use a rag.",
+          "The rag is dirty."
+        ]
+      },
+      "notes": "复数形式：lappen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "lap",
+          "plural": "lapen"
+        }
+      }
+    },
+    {
+      "id": 3070,
+      "word": "blik",
+      "translation": {
+        "chinese": "罐头",
+        "english": "can/tin"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik open het blik.",
+        "Het blik is leeg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我打开罐头。",
+          "罐头是空的。"
+        ],
+        "english": [
+          "I open the can.",
+          "The can is empty."
+        ]
+      },
+      "notes": "复数形式：blikken",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "blik",
+          "plural": "bliken"
+        }
+      }
+    },
+    {
+      "id": 3071,
+      "word": "lol",
+      "translation": {
+        "chinese": "乐趣",
+        "english": "fun"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "We hebben lol.",
+        "Het is veel lol."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们很开心。",
+          "这很有趣。"
+        ],
+        "english": [
+          "We have fun.",
+          "It is a lot of fun."
+        ]
+      },
+      "notes": "不可数",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lol",
+          "plural": "-"
+        }
+      }
+    },
+    {
+      "id": 3072,
+      "word": "bloed",
+      "translation": {
+        "chinese": "血液",
+        "english": "blood"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik verlies bloed.",
+        "Bloed is rood."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我流血了。",
+          "血液是红色的。"
+        ],
+        "english": [
+          "I lose blood.",
+          "Blood is red."
+        ]
+      },
+      "notes": "不可数",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bloed",
+          "plural": "-"
+        }
+      }
+    },
+    {
+      "id": 3073,
+      "word": "lot",
+      "translation": {
+        "chinese": "命运/奖券",
+        "english": "lot/fate"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik koop een lot.",
+        "Het lot is gewonnen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我买一张奖券。",
+          "奖券中奖了。"
+        ],
+        "english": [
+          "I buy a lottery ticket.",
+          "The ticket has won."
+        ]
+      },
+      "notes": "复数形式：loten",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "lot",
+          "plural": "loten"
+        }
+      }
+    },
+    {
+      "id": 3075,
+      "word": "lui",
+      "translation": {
+        "chinese": "懒惰的",
+        "english": "lazy"
+      },
+      "partOfSpeech": "adjective",
+      "examples": [
+        "Hij is erg lui.",
+        "De luie kat slaapt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很懒。",
+          "懒惰的猫在睡觉。"
+        ],
+        "english": [
+          "He is very lazy.",
+          "The lazy cat sleeps."
+        ]
+      },
+      "notes": "形容词变位：luie",
+      "difficulty": "A1",
+      "forms": {
+        "adjective": {
+          "base": "lui",
+          "withDe": "luie",
+          "withHet": "lui",
+          "comparative": "luier",
+          "superlative": "luist"
+        }
+      }
+    },
+    {
+      "id": 3076,
+      "word": "boer",
+      "translation": {
+        "chinese": "农民",
+        "english": "farmer"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De boer werkt hard.",
+        "Ik ken een boer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "农民辛勤工作。",
+          "我认识一个农民。"
+        ],
+        "english": [
+          "The farmer works hard.",
+          "I know a farmer."
+        ]
+      },
+      "notes": "复数形式：boeren",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "boer",
+          "plural": "boeren"
+        }
+      }
+    },
+    {
+      "id": 3077,
+      "word": "map",
+      "translation": {
+        "chinese": "文件夹",
+        "english": "folder"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De map is vol.",
+        "Ik zoek de map."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "文件夹满了。",
+          "我在找文件夹。"
+        ],
+        "english": [
+          "The folder is full.",
+          "I look for the folder."
+        ]
+      },
+      "notes": "复数形式：mappen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "map",
+          "plural": "mapen"
+        }
+      }
     }
   ]
 }

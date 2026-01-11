@@ -1,0 +1,1580 @@
+{
+  "id": "lA114",
+  "level": "A1",
+  "lessonNumber": 14,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 3078,
+      "word": "bon",
+      "translation": {
+        "chinese": "票据",
+        "english": "ticket/coupon"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik heb een bon.",
+        "De bon is geldig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有一张优惠券。",
+          "优惠券有效。"
+        ],
+        "english": [
+          "I have a coupon.",
+          "The coupon is valid."
+        ]
+      },
+      "notes": "复数形式：bonnen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "bon",
+          "plural": "bonen"
+        }
+      }
+    },
+    {
+      "id": 3079,
+      "word": "mei",
+      "translation": {
+        "chinese": "五月",
+        "english": "May"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Het is mei vandaag.",
+        "Ik ben in mei jarig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "今天是五月。",
+          "我五月生日。"
+        ],
+        "english": [
+          "It is May today.",
+          "My birthday is in May."
+        ]
+      },
+      "notes": "月份",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "mei",
+          "plural": "meien"
+        }
+      }
+    },
+    {
+      "id": 3081,
+      "word": "melk",
+      "translation": {
+        "chinese": "牛奶",
+        "english": "milk"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik drink melk.",
+        "De melk is koud."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喝牛奶。",
+          "牛奶是冷的。"
+        ],
+        "english": [
+          "I drink milk.",
+          "The milk is cold."
+        ]
+      },
+      "notes": "不可数",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "melk",
+          "plural": "-"
+        }
+      }
+    },
+    {
+      "id": 3082,
+      "word": "borst",
+      "translation": {
+        "chinese": "胸部",
+        "english": "chest/breast"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Mijn borst doet pijn.",
+        "Ik heb een borst koud."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的胸部疼。",
+          "我胸部着凉了。"
+        ],
+        "english": [
+          "My chest hurts.",
+          "I have a cold chest."
+        ]
+      },
+      "notes": "复数形式：borsten",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "borst",
+          "plural": "borsten"
+        }
+      }
+    },
+    {
+      "id": 3083,
+      "word": "mier",
+      "translation": {
+        "chinese": "蚂蚁",
+        "english": "ant"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De mier is klein.",
+        "Ik zie een mier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "蚂蚁很小。",
+          "我看到一只蚂蚁。"
+        ],
+        "english": [
+          "The ant is small.",
+          "I see an ant."
+        ]
+      },
+      "notes": "复数形式：mieren",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "mier",
+          "plural": "mieren"
+        }
+      }
+    },
+    {
+      "id": 3084,
+      "word": "boter",
+      "translation": {
+        "chinese": "黄油",
+        "english": "butter"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik smeer boter op brood.",
+        "De boter is zacht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在面包上涂黄油。",
+          "黄油是软的。"
+        ],
+        "english": [
+          "I spread butter on bread.",
+          "The butter is soft."
+        ]
+      },
+      "notes": "不可数",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "boter",
+          "plural": "-"
+        }
+      }
+    },
+    {
+      "id": 3085,
+      "word": "mist",
+      "translation": {
+        "chinese": "雾",
+        "english": "fog/mist"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Er is veel mist.",
+        "Ik zie niets in de mist."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "雾很大。",
+          "在雾中我什么都看不见。"
+        ],
+        "english": [
+          "There is a lot of fog.",
+          "I see nothing in the fog."
+        ]
+      },
+      "notes": "不可数",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "mist",
+          "plural": "-"
+        }
+      }
+    },
+    {
+      "id": 3086,
+      "word": "broek",
+      "translation": {
+        "chinese": "裤子",
+        "english": "trousers"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Mijn broek is vies.",
+        "Ik heb een nieuwe broek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的裤子脏了。",
+          "我有一条新裤子。"
+        ],
+        "english": [
+          "My trousers are dirty.",
+          "I have new trousers."
+        ]
+      },
+      "notes": "复数形式：broeken",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "broek",
+          "plural": "broeken"
+        }
+      }
+    },
+    {
+      "id": 3087,
+      "word": "moe",
+      "translation": {
+        "chinese": "疲劳的",
+        "english": "tired"
+      },
+      "partOfSpeech": "adjective",
+      "examples": [
+        "Ik ben erg moe.",
+        "Zij is nu moe."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我很累。",
+          "她现在累了。"
+        ],
+        "english": [
+          "I am very tired.",
+          "She is tired now."
+        ]
+      },
+      "notes": "形容词变位：moeë",
+      "difficulty": "A1",
+      "forms": {
+        "adjective": {
+          "base": "moe",
+          "withDe": "moee",
+          "withHet": "moe",
+          "comparative": "moeer",
+          "superlative": "moest"
+        }
+      }
+    },
+    {
+      "id": 3088,
+      "word": "buik",
+      "translation": {
+        "chinese": "肚子",
+        "english": "belly/stomach"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Mijn buik doet pijn.",
+        "Ik heb een volle buik."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的肚子疼。",
+          "我吃饱了。"
+        ],
+        "english": [
+          "My stomach hurts.",
+          "I have a full stomach."
+        ]
+      },
+      "notes": "复数形式：buiken",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "buik",
+          "plural": "buiken"
+        }
+      }
+    },
+    {
+      "id": 3090,
+      "word": "dag!",
+      "translation": {
+        "chinese": "再见",
+        "english": "bye!"
+      },
+      "partOfSpeech": "interjection",
+      "examples": [
+        "Dag! Ik ga nu.",
+        "Zij zegt dag!"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "再见！我现在走了。",
+          "她说再见！"
+        ],
+        "english": [
+          "Bye! I am leaving now.",
+          "She says bye!"
+        ]
+      },
+      "notes": "感叹词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3091,
+      "word": "mug",
+      "translation": {
+        "chinese": "蚊子",
+        "english": "mosquito"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De mug bijt me.",
+        "Ik sla de mug dood."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "蚊子咬我。",
+          "我打死蚊子。"
+        ],
+        "english": [
+          "The mosquito bites me.",
+          "I kill the mosquito."
+        ]
+      },
+      "notes": "复数形式：muggen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "mug",
+          "plural": "mugen"
+        }
+      }
+    },
+    {
+      "id": 3092,
+      "word": "dal",
+      "translation": {
+        "chinese": "山谷",
+        "english": "valley"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Het dal is diep.",
+        "Ik wandel in het dal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "山谷很深。",
+          "我在山谷里散步。"
+        ],
+        "english": [
+          "The valley is deep.",
+          "I walk in the valley."
+        ]
+      },
+      "notes": "复数形式：dalen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "dal",
+          "plural": "dalen"
+        }
+      }
+    },
+    {
+      "id": 3093,
+      "word": "nek",
+      "translation": {
+        "chinese": "脖子",
+        "english": "neck"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Mijn nek is stijf.",
+        "Ik draag een sjaal om mijn nek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的脖子僵硬。",
+          "我脖子上围着围巾。"
+        ],
+        "english": [
+          "My neck is stiff.",
+          "I wear a scarf around my neck."
+        ]
+      },
+      "notes": "复数形式：nekken",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "nek",
+          "plural": "neken"
+        }
+      }
+    },
+    {
+      "id": 3094,
+      "word": "dam",
+      "translation": {
+        "chinese": "水坝",
+        "english": "dam"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De dam houdt water tegen.",
+        "Ik zie de dam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "水坝挡住水。",
+          "我看到水坝。"
+        ],
+        "english": [
+          "The dam holds back water.",
+          "I see the dam."
+        ]
+      },
+      "notes": "复数形式：dammen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "dam",
+          "plural": "damen"
+        }
+      }
+    },
+    {
+      "id": 3096,
+      "word": "das",
+      "translation": {
+        "chinese": "领带/围巾",
+        "english": "tie/scarf"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De das is duur.",
+        "Ik draag een das."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "领带很贵。",
+          "我戴领带。"
+        ],
+        "english": [
+          "The tie is expensive.",
+          "I wear a tie."
+        ]
+      },
+      "notes": "复数形式：dassen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "das",
+          "plural": "dasen"
+        }
+      }
+    },
+    {
+      "id": 3097,
+      "word": "neus",
+      "translation": {
+        "chinese": "鼻子",
+        "english": "nose"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Mijn neus is koud.",
+        "Ik heb een grote neus."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的鼻子冷。",
+          "我有一个大鼻子。"
+        ],
+        "english": [
+          "My nose is cold.",
+          "I have a big nose."
+        ]
+      },
+      "notes": "复数形式：neuzen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "neus",
+          "plural": "neusen"
+        }
+      }
+    },
+    {
+      "id": 3098,
+      "word": "dief",
+      "translation": {
+        "chinese": "小偷",
+        "english": "thief"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De dief steelt geld.",
+        "Ik zie de dief."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "小偷偷钱。",
+          "我看到小偷。"
+        ],
+        "english": [
+          "The thief steals money.",
+          "I see the thief."
+        ]
+      },
+      "notes": "复数形式：dieven",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "dief",
+          "plural": "diefen"
+        }
+      }
+    },
+    {
+      "id": 3099,
+      "word": "nier",
+      "translation": {
+        "chinese": "肾脏",
+        "english": "kidney"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De nier is belangrijk.",
+        "Ik heb twee nieren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "肾脏很重要。",
+          "我有两个肾脏。"
+        ],
+        "english": [
+          "The kidney is important.",
+          "I have two kidneys."
+        ]
+      },
+      "notes": "复数形式：niernieren",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "nier",
+          "plural": "nieren"
+        }
+      }
+    },
+    {
+      "id": 3100,
+      "word": "dik",
+      "translation": {
+        "chinese": "胖的/厚的",
+        "english": "fat/thick"
+      },
+      "partOfSpeech": "adjective",
+      "examples": [
+        "Het boek is dik.",
+        "Hij is dik."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这本书很厚。",
+          "他很胖。"
+        ],
+        "english": [
+          "The book is thick.",
+          "He is fat."
+        ]
+      },
+      "notes": "形容词变位：dikke",
+      "difficulty": "A1",
+      "forms": {
+        "adjective": {
+          "base": "dik",
+          "withDe": "dike",
+          "withHet": "dik",
+          "comparative": "diker",
+          "superlative": "dikst"
+        }
+      }
+    },
+    {
+      "id": 3101,
+      "word": "non",
+      "translation": {
+        "chinese": "修女",
+        "english": "nun"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De non bidt.",
+        "Ik ken een non."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "修女在祈祷。",
+          "我认识一个修女。"
+        ],
+        "english": [
+          "The nun prays.",
+          "I know a nun."
+        ]
+      },
+      "notes": "复数形式：nonnen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "non",
+          "plural": "nonen"
+        }
+      }
+    },
+    {
+      "id": 3102,
+      "word": "doei!",
+      "translation": {
+        "chinese": "拜拜",
+        "english": "bye!"
+      },
+      "partOfSpeech": "interjection",
+      "examples": [
+        "Doei! Tot ziens!",
+        "Zij zegt doei!"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "拜拜！再见！",
+          "她说拜拜！"
+        ],
+        "english": [
+          "Bye! See you!",
+          "She says bye!"
+        ]
+      },
+      "notes": "非正式告别",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3103,
+      "word": "noot",
+      "translation": {
+        "chinese": "坚果",
+        "english": "nut"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik eet een noot.",
+        "De noot is hard."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃一个坚果。",
+          "坚果很硬。"
+        ],
+        "english": [
+          "I eat a nut.",
+          "The nut is hard."
+        ]
+      },
+      "notes": "复数形式：noten",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "noot",
+          "plural": "nooten"
+        }
+      }
+    },
+    {
+      "id": 3104,
+      "word": "dom",
+      "translation": {
+        "chinese": "愚蠢的",
+        "english": "stupid"
+      },
+      "partOfSpeech": "adjective",
+      "examples": [
+        "Dat is dom.",
+        "Hij is dom."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那很愚蠢。",
+          "他很愚蠢。"
+        ],
+        "english": [
+          "That is stupid.",
+          "He is stupid."
+        ]
+      },
+      "notes": "形容词变位：domme",
+      "difficulty": "A1",
+      "forms": {
+        "adjective": {
+          "base": "dom",
+          "withDe": "dome",
+          "withHet": "dom",
+          "comparative": "domer",
+          "superlative": "domst"
+        }
+      }
+    },
+    {
+      "id": 3105,
+      "word": "nou",
+      "translation": {
+        "chinese": "现在/那么",
+        "english": "well now"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "Nou ga ik slapen.",
+        "Nou, dat is leuk!"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "现在我去睡觉。",
+          "那么，这很有趣！"
+        ],
+        "english": [
+          "Now I go to sleep.",
+          "Well, that's fun!"
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3106,
+      "word": "doof",
+      "translation": {
+        "chinese": "聋的",
+        "english": "deaf"
+      },
+      "partOfSpeech": "adjective",
+      "examples": [
+        "Hij is doof.",
+        "De doof man lacht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是聋的。",
+          "聋人在笑。"
+        ],
+        "english": [
+          "He is deaf.",
+          "The deaf man laughs."
+        ]
+      },
+      "notes": "形容词变位：dove",
+      "difficulty": "A1",
+      "forms": {
+        "adjective": {
+          "base": "doof",
+          "withDe": "doofe",
+          "withHet": "doof",
+          "comparative": "doofer",
+          "superlative": "doofst"
+        }
+      }
+    },
+    {
+      "id": 3107,
+      "word": "o.a.",
+      "translation": {
+        "chinese": "等等",
+        "english": "among others"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Ik eet groente, o.a. wortels.",
+        "We gaan naar steden, o.a. Amsterdam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃蔬菜，比如胡萝卜。",
+          "我们去城市，比如阿姆斯特丹。"
+        ],
+        "english": [
+          "I eat vegetables, among others carrots.",
+          "We go to cities, among others Amsterdam."
+        ]
+      },
+      "notes": "缩写：onder andere",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3108,
+      "word": "droom",
+      "translation": {
+        "chinese": "梦",
+        "english": "dream"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik heb een droom.",
+        "De droom is mooi."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有一个梦。",
+          "梦很美。"
+        ],
+        "english": [
+          "I have a dream.",
+          "The dream is beautiful."
+        ]
+      },
+      "notes": "复数形式：dromen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "droom",
+          "plural": "droomen"
+        }
+      }
+    },
+    {
+      "id": 3110,
+      "word": "dus",
+      "translation": {
+        "chinese": "所以",
+        "english": "so"
+      },
+      "partOfSpeech": "conjunction",
+      "examples": [
+        "Ik ben moe, dus ik ga slapen.",
+        "Het regent, dus ik blijf binnen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我很累，所以我去睡觉。",
+          "下雨了，所以我呆在室内。"
+        ],
+        "english": [
+          "I am tired, so I go to sleep.",
+          "It rains, so I stay inside."
+        ]
+      },
+      "notes": "连词",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3111,
+      "word": "paal",
+      "translation": {
+        "chinese": "柱子",
+        "english": "post/pole"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De paal staat in de grond.",
+        "Ik zie een houten paal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "柱子立在地里。",
+          "我看到一根木柱子。"
+        ],
+        "english": [
+          "The post stands in the ground.",
+          "I see a wooden post."
+        ]
+      },
+      "notes": "复数形式：palen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "paal",
+          "plural": "paalen"
+        }
+      }
+    },
+    {
+      "id": 3113,
+      "word": "pad",
+      "translation": {
+        "chinese": "小路",
+        "english": "path"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Het pad loopt door het bos.",
+        "Ik wandel op het pad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "小路穿过森林。",
+          "我在小路上散步。"
+        ],
+        "english": [
+          "The path runs through the forest.",
+          "I walk on the path."
+        ]
+      },
+      "notes": "复数形式：paden",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "pad",
+          "plural": "paden"
+        }
+      }
+    },
+    {
+      "id": 3114,
+      "word": "eend",
+      "translation": {
+        "chinese": "鸭子",
+        "english": "duck"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De eend zwemt in het water.",
+        "Ik zie een witte eend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "鸭子在水中游泳。",
+          "我看到一只白鸭子。"
+        ],
+        "english": [
+          "The duck swims in the water.",
+          "I see a white duck."
+        ]
+      },
+      "notes": "复数形式：eenden",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "eend",
+          "plural": "eenden"
+        }
+      }
+    },
+    {
+      "id": 3115,
+      "word": "pap",
+      "translation": {
+        "chinese": "粥",
+        "english": "porridge"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik eet pap als ontbijt.",
+        "De pap is warm en lekker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃粥当早餐。",
+          "粥又热又好吃。"
+        ],
+        "english": [
+          "I eat porridge for breakfast.",
+          "The porridge is warm and tasty."
+        ]
+      },
+      "notes": "不可数",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "pap",
+          "plural": "-"
+        }
+      }
+    },
+    {
+      "id": 3116,
+      "word": "elf",
+      "translation": {
+        "chinese": "十一",
+        "english": "eleven"
+      },
+      "partOfSpeech": "numeral",
+      "examples": [
+        "Ik heb elf ballen.",
+        "Het is elf uur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有十一个球。",
+          "现在是十一点钟。"
+        ],
+        "english": [
+          "I have eleven balls.",
+          "It is eleven o'clock."
+        ]
+      },
+      "notes": "",
+      "difficulty": "A1"
+    },
+    {
+      "id": 3117,
+      "word": "pet",
+      "translation": {
+        "chinese": "帽子",
+        "english": "cap"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik draag een pet tegen de zon.",
+        "De pet is rood en blauw."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我戴帽子防晒。",
+          "帽子是红蓝相间的。"
+        ],
+        "english": [
+          "I wear a cap against the sun.",
+          "The cap is red and blue."
+        ]
+      },
+      "notes": "复数形式：petten",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "pet",
+          "plural": "peten"
+        }
+      }
+    },
+    {
+      "id": 3118,
+      "word": "erwt",
+      "translation": {
+        "chinese": "豌豆",
+        "english": "pea"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik eet erwtensoep.",
+        "De erwt is groen en klein."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喝豌豆汤。",
+          "豌豆是绿色的小的。"
+        ],
+        "english": [
+          "I eat pea soup.",
+          "The pea is green and small."
+        ]
+      },
+      "notes": "复数形式：erwten",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "erwt",
+          "plural": "erwten"
+        }
+      }
+    },
+    {
+      "id": 3119,
+      "word": "pop",
+      "translation": {
+        "chinese": "娃娃",
+        "english": "doll"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Mijn dochter speelt met een pop.",
+        "De pop heeft blonde haren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我女儿玩娃娃。",
+          "娃娃有金色的头发。"
+        ],
+        "english": [
+          "My daughter plays with a doll.",
+          "The doll has blonde hair."
+        ]
+      },
+      "notes": "复数形式：poppen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "pop",
+          "plural": "popen"
+        }
+      }
+    },
+    {
+      "id": 3120,
+      "word": "ezel",
+      "translation": {
+        "chinese": "驴",
+        "english": "donkey"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De ezel draagt zware spullen.",
+        "Ik zie een ezel op de boerderij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "驴驮重物。",
+          "我在农场看到一头驴。"
+        ],
+        "english": [
+          "The donkey carries heavy things.",
+          "I see a donkey on the farm."
+        ]
+      },
+      "notes": "复数形式：ezels",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "ezel",
+          "plural": "ezelen"
+        }
+      }
+    },
+    {
+      "id": 3122,
+      "word": "feest",
+      "translation": {
+        "chinese": "节日/派对",
+        "english": "party"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "We hebben een feest voor mijn verjaardag.",
+        "Het feest is leuk en gezellig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们为我的生日举办派对。",
+          "派对既有趣又温馨。"
+        ],
+        "english": [
+          "We have a party for my birthday.",
+          "The party is fun and cozy."
+        ]
+      },
+      "notes": "复数形式：feesten",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "feest",
+          "plural": "feesten"
+        }
+      }
+    },
+    {
+      "id": 3123,
+      "word": "prei",
+      "translation": {
+        "chinese": "大葱",
+        "english": "leek"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik snijd prei voor de soep.",
+        "De prei is lang en groen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我切大葱做汤。",
+          "大葱又长又绿。"
+        ],
+        "english": [
+          "I cut leek for the soup.",
+          "The leek is long and green."
+        ]
+      },
+      "notes": "不可数",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "prei",
+          "plural": "-"
+        }
+      }
+    },
+    {
+      "id": 3125,
+      "word": "pruik",
+      "translation": {
+        "chinese": "假发",
+        "english": "wig"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Zij draagt een pruik omdat ze kaal is.",
+        "De pruik ziet er natuurlijk uit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她戴假发因为她是秃头。",
+          "假发看起来很自然。"
+        ],
+        "english": [
+          "She wears a wig because she is bald.",
+          "The wig looks natural."
+        ]
+      },
+      "notes": "复数形式：pruiken",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "pruik",
+          "plural": "pruiken"
+        }
+      }
+    },
+    {
+      "id": 3126,
+      "word": "gaaf",
+      "translation": {
+        "chinese": "酷/完好",
+        "english": "cool"
+      },
+      "partOfSpeech": "adjective",
+      "examples": [
+        "Die auto is echt gaaf!",
+        "Het is gaaf om te zwemmen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那辆车真酷！",
+          "游泳很爽。"
+        ],
+        "english": [
+          "That car is really cool!",
+          "It's cool to swim."
+        ]
+      },
+      "notes": "形容词变位：gave",
+      "difficulty": "A1",
+      "forms": {
+        "adjective": {
+          "base": "gaaf",
+          "withDe": "gaafe",
+          "withHet": "gaaf",
+          "comparative": "gaafer",
+          "superlative": "gaafst"
+        }
+      }
+    },
+    {
+      "id": 3127,
+      "word": "pruim",
+      "translation": {
+        "chinese": "李子",
+        "english": "plum"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Ik eet een zoete pruim.",
+        "De pruim is paars en rond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃一个甜李子。",
+          "李子是紫色的圆的。"
+        ],
+        "english": [
+          "I eat a sweet plum.",
+          "The plum is purple and round."
+        ]
+      },
+      "notes": "复数形式：pruimen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "pruim",
+          "plural": "pruimen"
+        }
+      }
+    },
+    {
+      "id": 3128,
+      "word": "gans",
+      "translation": {
+        "chinese": "鹅",
+        "english": "goose"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De gans zwemt in de vijver.",
+        "Ik hoor de gans geluid maken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "鹅在池塘里游泳。",
+          "我听到鹅叫。"
+        ],
+        "english": [
+          "The goose swims in the pond.",
+          "I hear the goose making sound."
+        ]
+      },
+      "notes": "复数形式：ganzen",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "gans",
+          "plural": "gansen"
+        }
+      }
+    },
+    {
+      "id": 3130,
+      "word": "geit",
+      "translation": {
+        "chinese": "山羊",
+        "english": "goat"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De geit eet gras.",
+        "Ik zie een geit op de heuvel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "山羊吃草。",
+          "我在山上看到一只山羊。"
+        ],
+        "english": [
+          "The goat eats grass.",
+          "I see a goat on the hill."
+        ]
+      },
+      "notes": "复数形式：geiten",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "geit",
+          "plural": "geiten"
+        }
+      }
+    },
+    {
+      "id": 3131,
+      "word": "raar",
+      "translation": {
+        "chinese": "奇怪的",
+        "english": "strange"
+      },
+      "partOfSpeech": "adjective",
+      "examples": [
+        "Dat is een raar geluid.",
+        "Ik voel me raar vandaag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那是个奇怪的声音。",
+          "我今天感觉很奇怪。"
+        ],
+        "english": [
+          "That is a strange sound.",
+          "I feel strange today."
+        ]
+      },
+      "notes": "形容词变位：rare",
+      "difficulty": "A1",
+      "forms": {
+        "adjective": {
+          "base": "raar",
+          "withDe": "raare",
+          "withHet": "raar",
+          "comparative": "raarer",
+          "superlative": "raarst"
+        }
+      }
+    },
+    {
+      "id": 3132,
+      "word": "gif",
+      "translation": {
+        "chinese": "毒药",
+        "english": "poison"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Gif is gevaarlijk.",
+        "Ik gebruik geen gif."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "毒药很危险。",
+          "我不使用毒药。"
+        ],
+        "english": [
+          "Poison is dangerous.",
+          "I don't use poison."
+        ]
+      },
+      "notes": "不可数",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "gif",
+          "plural": "-"
+        }
+      }
+    },
+    {
+      "id": 3133,
+      "word": "rat",
+      "translation": {
+        "chinese": "老鼠",
+        "english": "rat"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "De rat rent snel.",
+        "Ik heb een rat in de kelder gezien."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "老鼠跑得很快。",
+          "我在地下室看到一只老鼠。"
+        ],
+        "english": [
+          "The rat runs fast.",
+          "I saw a rat in the basement."
+        ]
+      },
+      "notes": "复数形式：ratten",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "rat",
+          "plural": "raten"
+        }
+      }
+    },
+    {
+      "id": 3134,
+      "word": "glad",
+      "translation": {
+        "chinese": "光滑的",
+        "english": "smooth"
+      },
+      "partOfSpeech": "adjective",
+      "examples": [
+        "De tafel is glad.",
+        "Het ijs is glad en gevaarlijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "桌子很光滑。",
+          "冰面光滑且危险。"
+        ],
+        "english": [
+          "The table is smooth.",
+          "The ice is smooth and dangerous."
+        ]
+      },
+      "notes": "形容词变位：gladde",
+      "difficulty": "A1",
+      "forms": {
+        "adjective": {
+          "base": "glad",
+          "withDe": "glade",
+          "withHet": "glad",
+          "comparative": "glader",
+          "superlative": "gladst"
+        }
+      }
+    },
+    {
+      "id": 3135,
+      "word": "rok",
+      "translation": {
+        "chinese": "裙子",
+        "english": "skirt"
+      },
+      "partOfSpeech": "noun",
+      "examples": [
+        "Zij draagt een rode rok.",
+        "De rok is te lang."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她穿一条红裙子。",
+          "裙子太长了。"
+        ],
+        "english": [
+          "She wears a red skirt.",
+          "The skirt is too long."
+        ]
+      },
+      "notes": "复数形式：rokken",
+      "difficulty": "A1",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "rok",
+          "plural": "roken"
+        }
+      }
+    }
+  ]
+}
