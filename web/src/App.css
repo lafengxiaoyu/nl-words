@@ -122,6 +122,8 @@ body {
   backdrop-filter: blur(10px);
   position: relative;
   overflow: hidden;
+  min-width: 100px;
+  text-align: center;
 }
 
 .nav-btn::before {

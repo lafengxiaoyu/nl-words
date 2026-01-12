@@ -14,7 +14,6 @@ import TestPage from './components/TestPage'
 import WordListPage from './components/WordListPage'
 import AdminDashboard from './components/AdminDashboard'
 import SpellingGame from './components/SpellingGame'
-import VersionDisplay from './components/VersionDisplay'
 import AboutPage from './components/AboutPage'
 import logo from './assets/images/dutch-lex.svg'
 
