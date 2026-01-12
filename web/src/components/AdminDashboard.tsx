@@ -26,6 +26,7 @@ interface AdminStats {
   totalProgress: number
   activeUsers24h: number
   recentSignups: number
+  inactiveUsers3m: number
 }
 
 export default function AdminDashboard() {
@@ -35,7 +36,8 @@ export default function AdminDashboard() {
     totalUsers: 0,
     totalProgress: 0,
     activeUsers24h: 0,
-    recentSignups: 0
+    recentSignups: 0,
+    inactiveUsers3m: 0
   })
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -43,6 +45,9 @@ export default function AdminDashboard() {
   const [selectedUser, setSelectedUser] = useState<AdminUser | null>(null)
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false)
   const [message, setMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null)
+  const [showInactiveOnly, setShowInactiveOnly] = useState(false)
+  const [selectedInactiveUsers, setSelectedInactiveUsers] = useState<Set<string>>(new Set())
+  const [showBatchDeleteConfirm, setShowBatchDeleteConfirm] = useState(false)
 
   const ADMIN_EMAIL = import.meta.env.VITE_ADMIN_EMAIL || ''
 
@@ -82,8 +87,8 @@ export default function AdminDashboard() {
         return
       }
 
-      const userCount = await loadUsers()
-      await loadStats(userCount)
+      const adminUsers = await loadUsers()
+      await loadStats(adminUsers)
     } catch (err) {
       console.error('检查管理员权限失败:', err)
       setError('加载失败')
@@ -94,7 +99,7 @@ export default function AdminDashboard() {
     try {
       setLoading(true)
 
-      // 直接从 user_profiles 表获取所有用户
+      // 使用 service role 获取所有用户资料（绕过 RLS）
       const { data: profilesData, error: profilesError } = await supabase
         .from('user_profiles')
         .select('user_id, username, email, created_at, role')
@@ -104,12 +109,16 @@ export default function AdminDashboard() {
         throw profilesError
       }
 
+      console.log('加载到的用户数量:', profilesData?.length || 0)
+
       // 为每个用户获取最新的进度信息
       const userIds = profilesData?.map(p => p.user_id) || []
       const { data: progressData } = await supabase
         .from('user_progress')
         .select('user_id, updated_at')
         .in('user_id', userIds)
+
+      console.log('加载到的进度记录数量:', progressData?.length || 0)
 
       // 计算过去24小时的时间
       const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString()
@@ -137,8 +146,9 @@ export default function AdminDashboard() {
         }
       })
 
+      console.log('构建的用户列表长度:', adminUsers.length)
       setUsers(adminUsers)
-      return adminUsers.length // 返回用户数量用于统计
+      return adminUsers // 返回用户数组用于统计
     } catch (err) {
       console.error('加载用户失败:', err)
       showMessage('error', '加载用户列表失败')
@@ -148,12 +158,14 @@ export default function AdminDashboard() {
     }
   }
 
-  const loadStats = async (userCount: number = 0) => {
+  const loadStats = async (usersList: AdminUser[] = []) => {
     try {
       // 统计总学习记录数
       const { count: totalProgressCount } = await supabase
         .from('user_progress')
         .select('*', { count: 'exact', head: true })
+
+      console.log('总学习记录数:', totalProgressCount)
 
       // 统计最近24小时活跃用户（唯一用户数）
       const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString()
@@ -165,11 +177,25 @@ export default function AdminDashboard() {
       // 计算唯一活跃用户数
       const uniqueActiveUsers = new Set(activeUsersData?.map(u => u.user_id) || []).size
 
+      console.log('24小时活跃用户数:', uniqueActiveUsers)
+      console.log('用户列表长度:', usersList.length)
+
+      // 统计三个月未活跃用户
+      const threeMonthsAgo = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000)
+      const inactiveUsers3m = usersList.filter(user => {
+        const lastActivity = user.last_sign_in_at || user.created_at
+        return new Date(lastActivity) < threeMonthsAgo
+      }).length
+
+      console.log('三个月未活跃用户数:', inactiveUsers3m)
+      console.log('用户总数:', usersList.length)
+
       setStats({
-        totalUsers: userCount,
+        totalUsers: usersList.length,
         totalProgress: totalProgressCount || 0,
         activeUsers24h: uniqueActiveUsers,
-        recentSignups: 0 // 前端无法获取注册信息
+        recentSignups: 0,
+        inactiveUsers3m
       })
     } catch (err) {
       console.error('加载统计失败:', err)
@@ -189,8 +215,8 @@ export default function AdminDashboard() {
       showMessage('success', '用户数据已删除')
       setShowDeleteConfirm(false)
       setSelectedUser(null)
-      await loadUsers()
-      await loadStats()
+      const adminUsers = await loadUsers()
+      await loadStats(adminUsers)
     } catch (err) {
       console.error('删除用户失败:', err)
       showMessage('error', '删除用户失败')
@@ -207,11 +233,63 @@ export default function AdminDashboard() {
       if (error) throw error
 
       showMessage('success', '用户进度已重置')
-      await loadStats()
+      const adminUsers = await loadUsers()
+      await loadStats(adminUsers)
     } catch (err) {
       console.error('重置进度失败:', err)
       showMessage('error', '重置进度失败')
     }
+  }
+
+  const handleBatchDeleteInactive = async () => {
+    try {
+      if (selectedInactiveUsers.size === 0) {
+        showMessage('error', '请先选择要删除的用户')
+        return
+      }
+
+      const userIds = Array.from(selectedInactiveUsers)
+
+      // 批量删除用户的所有进度数据
+      const { error } = await supabase
+        .from('user_progress')
+        .delete()
+        .in('user_id', userIds)
+
+      if (error) throw error
+
+      showMessage('success', `已删除 ${userIds.length} 个用户的数据`)
+      setSelectedInactiveUsers(new Set())
+      setShowBatchDeleteConfirm(false)
+      const adminUsers = await loadUsers()
+      await loadStats(adminUsers)
+    } catch (err) {
+      console.error('批量删除失败:', err)
+      showMessage('error', '批量删除失败')
+    }
+  }
+
+  const toggleInactiveUserSelection = (userId: string) => {
+    const newSelection = new Set(selectedInactiveUsers)
+    if (newSelection.has(userId)) {
+      newSelection.delete(userId)
+    } else {
+      newSelection.add(userId)
+    }
+    setSelectedInactiveUsers(newSelection)
+  }
+
+  const selectAllInactiveUsers = () => {
+    const threeMonthsAgo = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000)
+    const inactiveUsers = users.filter(user => {
+      const lastActivity = user.last_sign_in_at || user.created_at
+      return new Date(lastActivity) < threeMonthsAgo && !user.is_admin
+    })
+    setSelectedInactiveUsers(new Set(inactiveUsers.map(u => u.id)))
+  }
+
+  const clearInactiveUserSelection = () => {
+    setSelectedInactiveUsers(new Set())
   }
 
   const filteredUsers = users.filter(user =>
@@ -219,6 +297,18 @@ export default function AdminDashboard() {
     user.email?.toLowerCase().includes(searchQuery.toLowerCase()) ||
     user.username?.toLowerCase().includes(searchQuery.toLowerCase())
   )
+
+  // 计算三个月未活跃的用户
+  const threeMonthsAgo = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000)
+  const getInactiveStatus = (user: AdminUser) => {
+    const lastActivity = user.last_sign_in_at || user.created_at
+    return new Date(lastActivity) < threeMonthsAgo
+  }
+
+  // 筛选三个月未活跃的用户
+  const displayUsers = showInactiveOnly
+    ? filteredUsers.filter(user => getInactiveStatus(user) && !user.is_admin)
+    : filteredUsers
 
   const formatDate = (dateString?: string) => {
     if (!dateString) return '-'
@@ -269,9 +359,16 @@ export default function AdminDashboard() {
             <div className="stat-label">24小时活跃</div>
           </div>
         </div>
+        <div className="stat-card stat-card--warning">
+          <div className="stat-icon">⚠️</div>
+          <div className="stat-info">
+            <div className="stat-value">{stats.inactiveUsers3m}</div>
+            <div className="stat-label">3个月未活跃</div>
+          </div>
+        </div>
       </div>
 
-      {/* 搜索栏 */}
+      {/* 搜索栏和筛选 */}
       <div className="search-bar">
         <input
           type="text"
@@ -280,11 +377,43 @@ export default function AdminDashboard() {
           onChange={(e) => setSearchQuery(e.target.value)}
           className="search-input"
         />
+        <button
+          className={`btn ${showInactiveOnly ? 'btn-warning' : 'btn-secondary'}`}
+          onClick={() => {
+            setShowInactiveOnly(!showInactiveOnly)
+            setSelectedInactiveUsers(new Set())
+          }}
+        >
+          {showInactiveOnly ? '显示所有用户' : `仅显示3个月未活跃用户 (${stats.inactiveUsers3m})`}
+        </button>
       </div>
+
+      {/* 批量操作栏（仅显示未活跃用户时显示） */}
+      {showInactiveOnly && (
+        <div className="batch-actions">
+          <button className="btn btn-small btn-secondary" onClick={selectAllInactiveUsers}>
+            全选
+          </button>
+          <button className="btn btn-small btn-secondary" onClick={clearInactiveUserSelection}>
+            清除选择
+          </button>
+          <span className="selected-count">已选择 {selectedInactiveUsers.size} 个用户</span>
+          {selectedInactiveUsers.size > 0 && (
+            <button
+              className="btn btn-danger"
+              onClick={() => setShowBatchDeleteConfirm(true)}
+            >
+              批量删除
+            </button>
+          )}
+        </div>
+      )}
 
       {/* 用户列表 */}
       <div className="users-section">
-        <h2>用户列表</h2>
+        <h2>
+          {showInactiveOnly ? '三个月未活跃用户' : '用户列表'}
+        </h2>
         {loading ? (
           <div className="loading">加载中...</div>
         ) : (
@@ -292,6 +421,7 @@ export default function AdminDashboard() {
             <table>
               <thead>
                 <tr>
+                  {showInactiveOnly && <th className="checkbox-column">选择</th>}
                   <th>用户ID</th>
                   <th>用户名</th>
                   <th>邮箱</th>
@@ -303,20 +433,34 @@ export default function AdminDashboard() {
                 </tr>
               </thead>
               <tbody>
-                {filteredUsers.length === 0 ? (
+                {displayUsers.length === 0 ? (
                   <tr>
-                    <td colSpan={8} className="no-data">
-                      {searchQuery ? '未找到匹配的用户' : '暂无用户数据'}
+                    <td colSpan={showInactiveOnly ? 9 : 8} className="no-data">
+                      {searchQuery ? '未找到匹配的用户' : (showInactiveOnly ? '暂无三个月未活跃用户' : '暂无用户数据')}
                     </td>
                   </tr>
                 ) : (
-                  filteredUsers.map(user => (
-                    <tr key={user.id}>
+                  displayUsers.map(user => (
+                    <tr key={user.id} className={getInactiveStatus(user) ? 'user-row--inactive' : ''}>
+                      {showInactiveOnly && (
+                        <td className="checkbox-column">
+                          <input
+                            type="checkbox"
+                            checked={selectedInactiveUsers.has(user.id)}
+                            onChange={() => toggleInactiveUserSelection(user.id)}
+                          />
+                        </td>
+                      )}
                       <td className="user-id">{user.id.substring(0, 8)}...</td>
                       <td>{user.username || '-'}</td>
                       <td>{user.email || '-'}</td>
                       <td className="datetime-field">{formatDate(user.created_at)}</td>
-                      <td className="datetime-field">{formatDate(user.last_sign_in_at)}</td>
+                      <td className="datetime-field">
+                        {formatDate(user.last_sign_in_at)}
+                        {getInactiveStatus(user) && (
+                          <span className="inactive-badge">3个月未活跃</span>
+                        )}
+                      </td>
                       <td className="word-count-badge">{user.wordsLearned24h || 0}</td>
                       <td>
                         {user.is_admin ? (
@@ -385,6 +529,31 @@ export default function AdminDashboard() {
                 onClick={() => handleDeleteUser(selectedUser.id)}
               >
                 确认删除
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 批量删除确认对话框 */}
+      {showBatchDeleteConfirm && (
+        <div className="modal-overlay" onClick={() => setShowBatchDeleteConfirm(false)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <h3>批量删除确认</h3>
+            <p>确定要删除 {selectedInactiveUsers.size} 个用户的进度数据吗？</p>
+            <p className="warning">此操作不可撤销！被删除的数据将无法恢复。</p>
+            <div className="modal-actions">
+              <button
+                className="btn btn-secondary"
+                onClick={() => setShowBatchDeleteConfirm(false)}
+              >
+                取消
+              </button>
+              <button
+                className="btn btn-danger"
+                onClick={handleBatchDeleteInactive}
+              >
+                确认批量删除
               </button>
             </div>
           </div>

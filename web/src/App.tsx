@@ -15,6 +15,7 @@ import WordListPage from './components/WordListPage'
 import AdminDashboard from './components/AdminDashboard'
 import SpellingGame from './components/SpellingGame'
 import VersionDisplay from './components/VersionDisplay'
+import AboutPage from './components/AboutPage'
 import logo from './assets/images/dutch-lex.svg'
 
 // 发音按钮图标组件
@@ -538,13 +539,15 @@ function MainApp() {
       learn: '学单词',
       test: '测单词',
       game: '玩游戏',
-      wordList: '单词表'
+      wordList: '单词表',
+      about: '关于'
     },
     english: {
       learn: 'Learn',
       test: 'Test',
       game: 'Game',
-      wordList: 'Word List'
+      wordList: 'Word List',
+      about: 'About'
     }
   }
 
@@ -1124,6 +1127,12 @@ function MainApp() {
                   >
                     {navTranslations[languageMode].wordList}
                   </button>
+                  <button
+                    className={`nav-btn ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/about` ? 'nav-btn--active' : ''}`}
+                    onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/about`)}
+                  >
+                    {navTranslations[languageMode].about}
+                  </button>
                 </nav>
 
                 <div className="header-right">
@@ -1219,6 +1228,15 @@ function MainApp() {
                   }}
                 >
                   {navTranslations[languageMode].wordList}
+                </button>
+                <button
+                  className={`mobile-menu-item ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/about` ? 'mobile-menu-item--active' : ''}`}
+                  onClick={() => {
+                    navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/about`)
+                    setMobileMenuOpen(false)
+                  }}
+                >
+                  {navTranslations[languageMode].about}
                 </button>
               </div>
 
@@ -1546,7 +1564,6 @@ function MainApp() {
 
             <footer className="footer">
               <p className="google-font-text">{t.flipCardHint} | {languageMode === 'chinese' ? '使用键盘方向键切换单词' : 'Use arrow keys to navigate'}</p>
-              <VersionDisplay languageMode={languageMode} position="footer" />
             </footer>
 
             {showUserProfile && user && (
@@ -1591,6 +1608,13 @@ function GameRoute() {
   return <SpellingGame languageMode={languageMode} />
 }
 
+// About Page Route Component
+function AboutRoute() {
+  const location = useLocation()
+  const languageMode = location.pathname.startsWith('/zh') ? 'chinese' : 'english'
+  return <AboutPage languageMode={languageMode} />
+}
+
 // App 组件处理路由
 function App() {
   return (
@@ -1602,12 +1626,14 @@ function App() {
       <Route path="/zh/game" element={<GameRoute />} />
       <Route path="/zh/profile" element={<ProfileRoute />} />
       <Route path="/zh/wordlist" element={<WordListRoute />} />
+      <Route path="/zh/about" element={<AboutRoute />} />
       <Route path="/en" element={<Navigate to="/en/learn" replace />} />
       <Route path="/en/learn" element={<MainApp />} />
       <Route path="/en/test" element={<TestRoute />} />
       <Route path="/en/game" element={<GameRoute />} />
       <Route path="/en/profile" element={<ProfileRoute />} />
       <Route path="/en/wordlist" element={<WordListRoute />} />
+      <Route path="/en/about" element={<AboutRoute />} />
       <Route path="/admin" element={<AdminDashboard />} />
       <Route path="*" element={<Navigate to="/zh/learn" replace />} />
     </Routes>

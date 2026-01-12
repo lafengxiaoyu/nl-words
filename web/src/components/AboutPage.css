@@ -1,0 +1,268 @@
+.about-page {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+.about-container {
+  max-width: 800px;
+  width: 100%;
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-title,
+.about-subtitle,
+.section-title,
+.about-description,
+.disclaimer-text,
+.feature-item,
+.thanks-text {
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+.back-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.back-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.back-button:active {
+  transform: translateY(0);
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 30px 0;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.about-section {
+  padding: 0;
+}
+
+.about-subtitle {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 12px 0;
+}
+
+.about-description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4a4a6a;
+  margin: 0;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 16px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-title::before {
+  content: '';
+  width: 4px;
+  height: 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2px;
+}
+
+.issue-link {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.issue-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.issue-link:active {
+  transform: translateY(0);
+}
+
+.disclaimer-section {
+  background: linear-gradient(135deg, #fff5f5 0%, #fff0f0 100%);
+  border-left: 4px solid #ff6b6b;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.disclaimer-section .section-title {
+  color: #c92a2a;
+}
+
+.disclaimer-section .section-title::before {
+  background: #ff6b6b;
+}
+
+.disclaimer-text {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4a4a6a;
+  margin: 0;
+  font-weight: 500;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4a4a6a;
+}
+
+.feature-bullet {
+  color: #667eea;
+  font-size: 20px;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.about-footer {
+  padding-top: 20px;
+  border-top: 2px solid #f0f0f5;
+  text-align: center;
+}
+
+.about-footer .version-display {
+  margin-top: 20px;
+}
+
+.thanks-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #667eea;
+  margin: 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .about-page {
+    padding: 12px;
+  }
+
+  .about-container {
+    padding: 24px;
+    margin-top: 12px;
+  }
+
+  .about-title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .about-subtitle {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .about-description,
+  .disclaimer-text,
+  .feature-item {
+    font-size: 15px;
+  }
+
+  .back-button {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .disclaimer-section {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 20px;
+  }
+
+  .about-title {
+    font-size: 24px;
+  }
+
+  .about-subtitle {
+    font-size: 20px;
+  }
+
+  .about-description,
+  .disclaimer-text,
+  .feature-item {
+    font-size: 14px;
+  }
+}
