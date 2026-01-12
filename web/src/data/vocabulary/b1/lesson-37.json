@@ -1,0 +1,1100 @@
+{
+  "id": "lB137",
+  "level": "B1",
+  "lessonNumber": 37,
+  "totalWords": 30,
+  "words": [
+    {
+      "id": 3361,
+      "word": "breien",
+      "translation": {
+        "chinese": "编织",
+        "english": "to knit"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "breien",
+          "isSeparable": false,
+          "present": {
+            "ik": "brei",
+            "jij": "breit",
+            "hij": "breit",
+            "wij": "breien",
+            "jullie": "breien",
+            "zij": "breien"
+          },
+          "past": {
+            "singular": "breide",
+            "plural": "breiden"
+          },
+          "pastParticiple": "gebreid",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zij breit een sjaal.",
+        "Ik brei wel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她织围巾。",
+          "我会编织。"
+        ],
+        "english": [
+          "She knits a scarf.",
+          "I can knit."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3362,
+      "word": "brengen",
+      "translation": {
+        "chinese": "带来",
+        "english": "to bring"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "brengen",
+          "isSeparable": false,
+          "present": {
+            "ik": "breng",
+            "jij": "brengt",
+            "hij": "brengt",
+            "wij": "brengen",
+            "jullie": "brengen",
+            "zij": "brengen"
+          },
+          "past": {
+            "singular": "bracht",
+            "plural": "brachten"
+          },
+          "pastParticiple": "gebracht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik breng mijn studieboeken naar de universiteit.",
+        "Breng me terug naar huis na het werk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我带教科书去大学。",
+          "下班后送我回家。"
+        ],
+        "english": [
+          "I bring my textbooks to the university.",
+          "Bring me back home after work."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3363,
+      "word": "brevet",
+      "translation": {
+        "chinese": "证书",
+        "english": "certificate, diploma"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "brevet",
+          "plural": "brevetten",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Hij heeft een brevet.",
+        "Het brevet is belangrijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他有证书。",
+          "证书很重要。"
+        ],
+        "english": [
+          "He has a certificate.",
+          "The diploma is important."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 brevetten"
+    },
+    {
+      "id": 3364,
+      "word": "briefen",
+      "translation": {
+        "chinese": "简报",
+        "english": "to brief, to instruct"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "briefen",
+          "isSeparable": false,
+          "present": {
+            "ik": "brief",
+            "jij": "brief",
+            "hij": "brief",
+            "wij": "briefen",
+            "jullie": "briefen",
+            "zij": "briefen"
+          },
+          "past": {
+            "singular": "briefte",
+            "plural": "brieften"
+          },
+          "pastParticiple": "gebriefd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij brieft de pers over de nieuwe ontwikkelingen.",
+        "Ik brief je later vandaag over het project."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他向媒体做关于新发展的简报。",
+          "我今天稍后告诉你关于项目的详情。"
+        ],
+        "english": [
+          "He briefs the press about the new developments.",
+          "I will brief you later today about the project."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3365,
+      "word": "broeden",
+      "translation": {
+        "chinese": "孵化,沉思",
+        "english": "to brood, to hatch"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "broeden",
+          "isSeparable": false,
+          "present": {
+            "ik": "broed",
+            "jij": "broedt",
+            "hij": "broedt",
+            "wij": "broeden",
+            "jullie": "broeden",
+            "zij": "broeden"
+          },
+          "past": {
+            "singular": "broede",
+            "plural": "broeden"
+          },
+          "pastParticiple": "gebroed",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De kip broedt.",
+        "Zij broedt op een idee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "母鸡在孵蛋。",
+          "她在思考一个主意。"
+        ],
+        "english": [
+          "The chicken is hatching.",
+          "She is brooding on an idea."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3366,
+      "word": "broeien",
+      "translation": {
+        "chinese": "发酵,酝酿",
+        "english": "to incubate, to develop"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "broeien",
+          "isSeparable": false,
+          "present": {
+            "ik": "broei",
+            "jij": "broeit",
+            "hij": "broeit",
+            "wij": "broeien",
+            "jullie": "broeien",
+            "zij": "broeien"
+          },
+          "past": {
+            "singular": "broeide",
+            "plural": "broeiden"
+          },
+          "pastParticiple": "gebroeid",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het plan broeit.",
+        "Het broeit in de keuken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "计划在酝酿中。",
+          "厨房里很闷热。"
+        ],
+        "english": [
+          "The plan is developing.",
+          "It is stifling in the kitchen."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3367,
+      "word": "brommen",
+      "translation": {
+        "chinese": "嘟囔,坐牢",
+        "english": "to hum, to grumble"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "brommen",
+          "isSeparable": false,
+          "present": {
+            "ik": "brom",
+            "jij": "bromt",
+            "hij": "bromt",
+            "wij": "brommen",
+            "jullie": "brommen",
+            "zij": "brommen"
+          },
+          "past": {
+            "singular": "bromde",
+            "plural": "bromden"
+          },
+          "pastParticiple": "gebromd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij bromt iets.",
+        "De motor bromt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他嘟囔着什么。",
+          "马达嗡嗡响。"
+        ],
+        "english": [
+          "He grumbles something.",
+          "The motor hums."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3368,
+      "word": "brommer",
+      "translation": {
+        "chinese": "轻便摩托车",
+        "english": "moped, scooter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "brommer",
+          "plural": "brommers",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij rijdt op een brommer.",
+        "Een snelle brommer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他骑轻便摩托车。",
+          "一辆快的摩托车。"
+        ],
+        "english": [
+          "He rides a moped.",
+          "A fast scooter."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 brommers"
+    },
+    {
+      "id": 3369,
+      "word": "brouwen",
+      "translation": {
+        "chinese": "酿造",
+        "english": "to brew"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "brouwen",
+          "isSeparable": false,
+          "present": {
+            "ik": "brouw",
+            "jij": "brouwt",
+            "hij": "brouwt",
+            "wij": "brouwen",
+            "jullie": "brouwen",
+            "zij": "brouwen"
+          },
+          "past": {
+            "singular": "brouwde",
+            "plural": "brouwden"
+          },
+          "pastParticiple": "gebrouwen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij brouwt zijn eigen bier in de garage.",
+        "Zij brouwen verse koffie voor de gasten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在车库自酿啤酒。",
+          "她们为客人冲泡新鲜咖啡。"
+        ],
+        "english": [
+          "He brews his own beer in the garage.",
+          "They brew fresh coffee for the guests."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3370,
+      "word": "brullen",
+      "translation": {
+        "chinese": "吼叫",
+        "english": "to roar, to shout"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "brullen",
+          "isSeparable": false,
+          "present": {
+            "ik": "brul",
+            "jij": "brult",
+            "hij": "brult",
+            "wij": "brullen",
+            "jullie": "brullen",
+            "zij": "brullen"
+          },
+          "past": {
+            "singular": "brulde",
+            "plural": "brulden"
+          },
+          "pastParticiple": "gebruld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De leeuw brult.",
+        "Hij brult hard."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "狮子吼叫。",
+          "他大声喊叫。"
+        ],
+        "english": [
+          "The lion roars.",
+          "He shouts loudly."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3371,
+      "word": "brutaal",
+      "translation": {
+        "chinese": "粗鲁的,大胆的",
+        "english": "rude, bold"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "brutaal",
+          "withDe": "brutale",
+          "withHet": "brutaal",
+          "comparative": "brutaler",
+          "superlative": "brutaalst"
+        }
+      },
+      "examples": [
+        "Hij is erg brutale.",
+        "Een brutale opmerking."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很粗鲁。",
+          "无礼的话。"
+        ],
+        "english": [
+          "He is very rude.",
+          "A bold remark."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：brutaal - brutaler - brutaalst"
+    },
+    {
+      "id": 3372,
+      "word": "buigen",
+      "translation": {
+        "chinese": "弯曲",
+        "english": "to bend"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "buigen",
+          "isSeparable": false,
+          "present": {
+            "ik": "buig",
+            "jij": "buigt",
+            "hij": "buigt",
+            "wij": "buigen",
+            "jullie": "buigen",
+            "zij": "buigen"
+          },
+          "past": {
+            "singular": "boog",
+            "plural": "bogen"
+          },
+          "pastParticiple": "gebogen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Buig je benen.",
+        "De boom buigt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "弯曲你的腿。",
+          "树弯曲了。"
+        ],
+        "english": [
+          "Bend your legs.",
+          "The tree bends."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3373,
+      "word": "bunker",
+      "translation": {
+        "chinese": "地堡",
+        "english": "bunker"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bunker",
+          "plural": "bunkers",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De bunker is veilig.",
+        "Een oude bunker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "地堡很安全。",
+          "一个古老的地堡。"
+        ],
+        "english": [
+          "The bunker is safe.",
+          "An old bunker."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 bunkers"
+    },
+    {
+      "id": 3374,
+      "word": "burcht",
+      "translation": {
+        "chinese": "城堡",
+        "english": "castle, fortress"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "burcht",
+          "plural": "burchten",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De burcht is hoog.",
+        "Een middeleeuwse burcht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "城堡很高。",
+          "一座中世纪城堡。"
+        ],
+        "english": [
+          "The castle is high.",
+          "A medieval fortress."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 burchten"
+    },
+    {
+      "id": 3375,
+      "word": "bureau",
+      "translation": {
+        "chinese": "书桌,办公室",
+        "english": "desk, office"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bureau",
+          "plural": "bureaus",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het bureau is groot.",
+        "Ik werk aan het bureau."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "书桌很大。",
+          "我在书桌前工作。"
+        ],
+        "english": [
+          "The desk is big.",
+          "I work at the desk."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 bureaus"
+    },
+    {
+      "id": 3376,
+      "word": "burger",
+      "translation": {
+        "chinese": "公民,汉堡",
+        "english": "citizen, burger"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "burger",
+          "plural": "burgers",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij is een burger.",
+        "Ik eet een burger."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是公民。",
+          "我吃汉堡。"
+        ],
+        "english": [
+          "He is a citizen.",
+          "I eat a burger."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 burgers"
+    },
+    {
+      "id": 3377,
+      "word": "buurman",
+      "translation": {
+        "chinese": "邻居-男",
+        "english": "neighbor (male)"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "buurman",
+          "plural": "buren",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Mijn buurman is aardig.",
+        "De buurman groet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的男邻居很好。",
+          "邻居打招呼。"
+        ],
+        "english": [
+          "My male neighbor is nice.",
+          "The neighbor greets."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 buren，buurvrouw为女邻居"
+    },
+    {
+      "id": 3378,
+      "word": "cabaret",
+      "translation": {
+        "chinese": "卡巴莱",
+        "english": "cabaret"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "cabaret",
+          "plural": "cabarets",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het cabaret is grappig.",
+        "Ga naar het cabaret."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "卡巴莱很有趣。",
+          "去看卡巴莱表演。"
+        ],
+        "english": [
+          "The cabaret is funny.",
+          "Go to the cabaret."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 cabarets"
+    },
+    {
+      "id": 3379,
+      "word": "cadeau",
+      "translation": {
+        "chinese": "礼物",
+        "english": "gift, present"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "cadeau",
+          "plural": "cadeaus",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Dit is een cadeau.",
+        "Geef haar een cadeau."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一份礼物。",
+          "给她一份礼物。"
+        ],
+        "english": [
+          "This is a gift.",
+          "Give her a present."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 cadeaus"
+    },
+    {
+      "id": 3380,
+      "word": "caravan",
+      "translation": {
+        "chinese": "大篷车,拖挂房车",
+        "english": "caravan, trailer"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "caravan",
+          "plural": "caravans",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De caravan is groot.",
+        "Wij rijden met een caravan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "房车很大。",
+          "我们开房车。"
+        ],
+        "english": [
+          "The caravan is big.",
+          "We drive with a trailer."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 caravans"
+    },
+    {
+      "id": 3381,
+      "word": "cement",
+      "translation": {
+        "chinese": "水泥",
+        "english": "cement"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "cement",
+          "plural": "cement",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het cement is hard.",
+        "Gebruik cement."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "水泥很硬。",
+          "使用水泥。"
+        ],
+        "english": [
+          "The cement is hard.",
+          "Use cement."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不可数名词，复数形式相同"
+    },
+    {
+      "id": 3382,
+      "word": "censuur",
+      "translation": {
+        "chinese": "审查",
+        "english": "censorship"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "censuur",
+          "plural": "censuren",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De censuur is streng.",
+        "Tegen censuur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "审查很严格。",
+          "反对审查。"
+        ],
+        "english": [
+          "The censorship is strict.",
+          "Against censorship."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 censuren"
+    },
+    {
+      "id": 3383,
+      "word": "chloor",
+      "translation": {
+        "chinese": "氯",
+        "english": "chlorine"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "chloor",
+          "plural": "chloor",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Chloor in het water.",
+        "Chloor ruikt sterk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "水中有氯。",
+          "氯气味很浓。"
+        ],
+        "english": [
+          "Chlorine in the water.",
+          "Chlorine smells strong."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "化学元素，复数形式相同"
+    },
+    {
+      "id": 3384,
+      "word": "cijfer",
+      "translation": {
+        "chinese": "数字,分数",
+        "english": "digit, number, grade"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "cijfer",
+          "plural": "cijfers",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het cijfer is goed.",
+        "Schrijf het cijfer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "分数很好。",
+          "写下这个数字。"
+        ],
+        "english": [
+          "The grade is good.",
+          "Write the digit."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 cijfers"
+    },
+    {
+      "id": 3385,
+      "word": "cirkel",
+      "translation": {
+        "chinese": "圆圈",
+        "english": "circle"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "cirkel",
+          "plural": "cirkels",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Teken een cirkel.",
+        "De cirkel is rond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "画一个圆圈。",
+          "圆圈是圆的。"
+        ],
+        "english": [
+          "Draw a circle.",
+          "The circle is round."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 cirkels"
+    },
+    {
+      "id": 3386,
+      "word": "citaat",
+      "translation": {
+        "chinese": "引文",
+        "english": "quote, citation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "citaat",
+          "plural": "citaat",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Dit is een citaat.",
+        "Het citaat is mooi."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一段引文。",
+          "引文很美。"
+        ],
+        "english": [
+          "This is a quote.",
+          "The citation is beautiful."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 citaat"
+    },
+    {
+      "id": 3387,
+      "word": "citeren",
+      "translation": {
+        "chinese": "引用",
+        "english": "to quote, to cite"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "citeren",
+          "isSeparable": false,
+          "present": {
+            "ik": "citeer",
+            "jij": "citeert",
+            "hij": "citeert",
+            "wij": "citeren",
+            "jullie": "citeren",
+            "zij": "citeren"
+          },
+          "past": {
+            "singular": "citeerde",
+            "plural": "citeerden"
+          },
+          "pastParticiple": "geciteerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij citeert het boek.",
+        "Citeer de auteur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他引用这本书。",
+          "引用作者的话。"
+        ],
+        "english": [
+          "He quotes the book.",
+          "Cite the author."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3388,
+      "word": "cockpit",
+      "translation": {
+        "chinese": "驾驶舱",
+        "english": "cockpit"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "cockpit",
+          "plural": "cockpits",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De piloot in de cockpit.",
+        "De cockpit is klein."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "飞行员在驾驶舱。",
+          "驾驶舱很小。"
+        ],
+        "english": [
+          "The pilot in the cockpit.",
+          "The cockpit is small."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 cockpits"
+    },
+    {
+      "id": 3389,
+      "word": "colbert",
+      "translation": {
+        "chinese": "西装外套",
+        "english": "jacket, blazer"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "colbert",
+          "plural": "colberts",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij draagt een colbert.",
+        "Een mooie colbert."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他穿西装外套。",
+          "一件漂亮的西装。"
+        ],
+        "english": [
+          "He wears a jacket.",
+          "A beautiful blazer."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 colberts"
+    },
+    {
+      "id": 3390,
+      "word": "collega",
+      "translation": {
+        "chinese": "同事",
+        "english": "colleague"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "collega",
+          "plural": "collega's",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Mijn collega is aardig.",
+        "Wij zijn collega's."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的同事很好。",
+          "我们是同事。"
+        ],
+        "english": [
+          "My colleague is nice.",
+          "We are colleagues."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 collega's"
+    }
+  ]
+}

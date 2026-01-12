@@ -1,0 +1,1058 @@
+{
+  "id": "lB138",
+  "level": "B1",
+  "lessonNumber": 38,
+  "totalWords": 30,
+  "words": [
+    {
+      "id": 3391,
+      "word": "college",
+      "translation": {
+        "chinese": "讲座,学院",
+        "english": "lecture, college"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "college",
+          "plural": "colleges",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het college is interessant.",
+        "Hij geeft een college."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "讲座很有趣。",
+          "他开讲座。"
+        ],
+        "english": [
+          "The lecture is interesting.",
+          "He gives a lecture."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 colleges"
+    },
+    {
+      "id": 3392,
+      "word": "coltrui",
+      "translation": {
+        "chinese": "高领毛衣",
+        "english": "turtleneck sweater"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "coltrui",
+          "plural": "coltruien",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Zij draagt een coltrui.",
+        "Een warme coltrui."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她穿高领毛衣。",
+          "一件温暖的毛衣。"
+        ],
+        "english": [
+          "She wears a turtleneck.",
+          "A warm sweater."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复合名词，复数形式为 coltruien"
+    },
+    {
+      "id": 3393,
+      "word": "in spe",
+      "translation": {
+        "chinese": "未来的",
+        "english": "future, prospective"
+      },
+      "partOfSpeech": "phrase",
+      "forms": {},
+      "examples": [
+        "De koning in spe.",
+        "In spe toekomst."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "未来的国王。",
+          "未来的。"
+        ],
+        "english": [
+          "The future king.",
+          "Future, prospective."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "固定短语，表示即将上任的"
+    },
+    {
+      "id": 3394,
+      "word": "inbraak",
+      "translation": {
+        "chinese": "入室盗窃",
+        "english": "burglary, break-in"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "inbraak",
+          "plural": "inbraken",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er was een inbraak.",
+        "De inbraak is gemeld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "发生了一起盗窃。",
+          "盗窃已被报案。"
+        ],
+        "english": [
+          "There was a burglary.",
+          "The break-in is reported."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 inbraken"
+    },
+    {
+      "id": 3395,
+      "word": "inbreng",
+      "translation": {
+        "chinese": "贡献,投入",
+        "english": "contribution, input"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "inbreng",
+          "plural": "inbreng",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Jouw inbreng is belangrijk.",
+        "Dank voor de inbreng."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你的贡献很重要。",
+          "感谢你的投入。"
+        ],
+        "english": [
+          "Your contribution is important.",
+          "Thanks for the input."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不可数名词，复数形式相同"
+    },
+    {
+      "id": 3396,
+      "word": "inbreuk",
+      "translation": {
+        "chinese": "侵犯",
+        "english": "infringement, violation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "inbreuk",
+          "plural": "inbreuken",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Een inbreuk op de regels.",
+        "De inbreuk is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "违反规则。",
+          "侵犯很严重。"
+        ],
+        "english": [
+          "A violation of the rules.",
+          "The infringement is big."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 inbreuken"
+    },
+    {
+      "id": 3397,
+      "word": "incasso",
+      "translation": {
+        "chinese": "代收",
+        "english": "collection, direct debit"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "incasso",
+          "plural": "incasso's",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De incasso is gedaan.",
+        "Automatische incasso."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "代收已完成。",
+          "自动代收。"
+        ],
+        "english": [
+          "The collection is done.",
+          "Automatic direct debit."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 incasso's"
+    },
+    {
+      "id": 3398,
+      "word": "indelen",
+      "translation": {
+        "chinese": "分类,划分",
+        "english": "to classify, to divide"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "indelen",
+          "isSeparable": false,
+          "present": {
+            "ik": "deel in",
+            "jij": "deelt in",
+            "hij": "deelt in",
+            "wij": "delen in",
+            "jullie": "delen in",
+            "zij": "delen in"
+          },
+          "past": {
+            "singular": "deelde in",
+            "plural": "deelden in"
+          },
+          "pastParticiple": "ingedeeld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik deel de boeken in.",
+        "Indeel de taken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我把书分类。",
+          "划分任务。"
+        ],
+        "english": [
+          "I classify the books.",
+          "Divide the tasks."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，可分词"
+    },
+    {
+      "id": 3399,
+      "word": "indien",
+      "translation": {
+        "chinese": "如果",
+        "english": "if, in case"
+      },
+      "partOfSpeech": "conjunction",
+      "forms": {},
+      "examples": [
+        "Indien nodig.",
+        "Indien het regent."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "如果有必要。",
+          "如果下雨。"
+        ],
+        "english": [
+          "If necessary.",
+          "In case it rains."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "连词，较正式用法"
+    },
+    {
+      "id": 3400,
+      "word": "koppig",
+      "translation": {
+        "chinese": "顽固的",
+        "english": "stubborn"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "koppig",
+          "withDe": "koppige",
+          "withHet": "koppig",
+          "comparative": "koppiger",
+          "superlative": "koppigst"
+        }
+      },
+      "examples": [
+        "Hij is erg koppig.",
+        "Een koppig kind."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很顽固。",
+          "一个固执的孩子。"
+        ],
+        "english": [
+          "He is very stubborn.",
+          "A stubborn child."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：koppig - koppiger - koppigst"
+    },
+    {
+      "id": 3401,
+      "word": "kopstuk",
+      "translation": {
+        "chinese": "领袖人物",
+        "english": "key figure, leader"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "kopstuk",
+          "plural": "kopstukken",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Een kopstuk van de partij.",
+        "Hij is een kopstuk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "党派领袖。",
+          "他是个重要人物。"
+        ],
+        "english": [
+          "A key figure of the party.",
+          "He is a leader."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 kopstukken"
+    },
+    {
+      "id": 3402,
+      "word": "korrel",
+      "translation": {
+        "chinese": "颗粒",
+        "english": "grain, particle"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "korrel",
+          "plural": "korrels",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Een korrel zand.",
+        "De korrels zijn klein."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一粒沙子。",
+          "颗粒很小。"
+        ],
+        "english": [
+          "A grain of sand.",
+          "The particles are small."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 korrels"
+    },
+    {
+      "id": 3403,
+      "word": "korting",
+      "translation": {
+        "chinese": "折扣",
+        "english": "discount"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "korting",
+          "plural": "kortingen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik heb korting op de zomerkleding.",
+        "Alle artikelen hebben korting deze week."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "夏季商品有折扣。",
+          "这周所有商品都打折。"
+        ],
+        "english": [
+          "I have a discount on the summer collection.",
+          "All items have a discount this week."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 kortingen"
+    },
+    {
+      "id": 3404,
+      "word": "kortom",
+      "translation": {
+        "chinese": "简而言之",
+        "english": "in short, briefly"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Kortom, het is goed.",
+        "Kortom, wij winnen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "简而言之，这很好。",
+          "简而言之，我们赢了。"
+        ],
+        "english": [
+          "In short, it is good.",
+          "Briefly, we win."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，用于总结"
+    },
+    {
+      "id": 3405,
+      "word": "kotsen",
+      "translation": {
+        "chinese": "呕吐",
+        "english": "to vomit, to throw up"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kotsen",
+          "isSeparable": false,
+          "present": {
+            "ik": "kots",
+            "jij": "kotst",
+            "hij": "kotst",
+            "wij": "kotsen",
+            "jullie": "kotsen",
+            "zij": "kotsen"
+          },
+          "past": {
+            "singular": "kotste",
+            "plural": "kotsten"
+          },
+          "pastParticiple": "gekotst",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij kots.",
+        "Zij kotsen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他呕吐。",
+          "她们呕吐。"
+        ],
+        "english": [
+          "He vomits.",
+          "They throw up."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，粗俗用语"
+    },
+    {
+      "id": 3406,
+      "word": "kozijn",
+      "translation": {
+        "chinese": "窗框",
+        "english": "window frame"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "kozijn",
+          "plural": "kozijnen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het kozijn is wit.",
+        "Het kozijn is oud."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "窗框是白色的。",
+          "窗框旧了。"
+        ],
+        "english": [
+          "The window frame is white.",
+          "The frame is old."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 kozijnen"
+    },
+    {
+      "id": 3407,
+      "word": "kraaien",
+      "translation": {
+        "chinese": "啼叫",
+        "english": "to crow"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kraaien",
+          "isSeparable": false,
+          "present": {
+            "ik": "kraai",
+            "jij": "kraait",
+            "hij": "kraait",
+            "wij": "kraaien",
+            "jullie": "kraaien",
+            "zij": "kraaien"
+          },
+          "past": {
+            "singular": "kraaide",
+            "plural": "kraaiden"
+          },
+          "pastParticiple": "gekraaid",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De haan kraait.",
+        "De vogels kraaien."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公鸡啼叫。",
+          "鸟儿啼叫。"
+        ],
+        "english": [
+          "The rooster crows.",
+          "The birds crow."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3408,
+      "word": "krabben",
+      "translation": {
+        "chinese": "抓挠",
+        "english": "to scratch"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "krabben",
+          "isSeparable": false,
+          "present": {
+            "ik": "krab",
+            "jij": "krabt",
+            "hij": "krabt",
+            "wij": "krabben",
+            "jullie": "krabben",
+            "zij": "krabben"
+          },
+          "past": {
+            "singular": "krabde",
+            "plural": "krabden"
+          },
+          "pastParticiple": "gekrabd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij krabt zijn hoofd.",
+        "Zij krabben over het papier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他挠头。",
+          "她们在纸上涂写。"
+        ],
+        "english": [
+          "He scratches his head.",
+          "They scribble on the paper."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3409,
+      "word": "kracht",
+      "translation": {
+        "chinese": "力量",
+        "english": "strength, power"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "kracht",
+          "plural": "krachten",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij heeft veel kracht.",
+        "Verlies kracht niet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很有力气。",
+          "不要失去力量。"
+        ],
+        "english": [
+          "He has much strength.",
+          "Do not lose power."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 krachten"
+    },
+    {
+      "id": 3410,
+      "word": "kraken",
+      "translation": {
+        "chinese": "压裂,破解",
+        "english": "to crack, to break"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kraken",
+          "isSeparable": false,
+          "present": {
+            "ik": "kraak",
+            "jij": "kraakt",
+            "hij": "kraakt",
+            "wij": "kraken",
+            "jullie": "kraken",
+            "zij": "kraken"
+          },
+          "past": {
+            "singular": "kraakte",
+            "plural": "kraakten"
+          },
+          "pastParticiple": "gekraakt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het ei kraakt.",
+        "Krak de code."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "蛋裂开了。",
+          "破解代码。"
+        ],
+        "english": [
+          "The egg cracks.",
+          "Crack the code."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3411,
+      "word": "krapte",
+      "translation": {
+        "chinese": "紧缺",
+        "english": "shortage, scarcity"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "krapte",
+          "plural": "kraptes",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er is een krapte.",
+        "De krapte is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "有紧缺。",
+          "紧缺很严重。"
+        ],
+        "english": [
+          "There is a shortage.",
+          "The scarcity is big."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 kraptes"
+    },
+    {
+      "id": 3412,
+      "word": "krediet",
+      "translation": {
+        "chinese": "信用",
+        "english": "credit"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "krediet",
+          "plural": "kredieten",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Hij heeft krediet.",
+        "Krediet checken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他有信用。",
+          "检查信用。"
+        ],
+        "english": [
+          "He has credit.",
+          "Check credit."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 kredieten"
+    },
+    {
+      "id": 3413,
+      "word": "kreeft",
+      "translation": {
+        "chinese": "龙虾,巨蟹座",
+        "english": "lobster, Cancer"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "kreeft",
+          "plural": "kreeften",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik eet kreeft.",
+        "De kreeft is rood."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃龙虾。",
+          "龙虾是红色的。"
+        ],
+        "english": [
+          "I eat lobster.",
+          "The lobster is red."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 kreeften，也指巨蟹座星座"
+    },
+    {
+      "id": 3414,
+      "word": "kreunen",
+      "translation": {
+        "chinese": "呻吟",
+        "english": "to groan, to moan"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kreunen",
+          "isSeparable": false,
+          "present": {
+            "ik": "kreun",
+            "jij": "kreunt",
+            "hij": "kreunt",
+            "wij": "kreunen",
+            "jullie": "kreunen",
+            "zij": "kreunen"
+          },
+          "past": {
+            "singular": "kreunde",
+            "plural": "kreunden"
+          },
+          "pastParticiple": "gekreund",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij kreunt van pijn.",
+        "Zij kreunen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他痛苦地呻吟。",
+          "她们呻吟。"
+        ],
+        "english": [
+          "He groans with pain.",
+          "They moan."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3415,
+      "word": "kreupel",
+      "translation": {
+        "chinese": "瘸的",
+        "english": "lame, crippled"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "kreupel",
+          "withDe": "kreupele",
+          "withHet": "kreupel",
+          "comparative": "kreupeler",
+          "superlative": "kreupelst"
+        }
+      },
+      "examples": [
+        "Hij is kreupel.",
+        "Een kreupel been."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他腿瘸。",
+          "一条瘸腿。"
+        ],
+        "english": [
+          "He is lame.",
+          "A crippled leg."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：kreupel - kreupeler - kreupelst"
+    },
+    {
+      "id": 3416,
+      "word": "kriebel",
+      "translation": {
+        "chinese": "发痒",
+        "english": "itch, tickle"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "kriebel",
+          "plural": "kriebels",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik heb kriebel.",
+        "Een leuke kriebel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我发痒。",
+          "一种有趣的痒感。"
+        ],
+        "english": [
+          "I have an itch.",
+          "A nice tickle."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 kriebels"
+    },
+    {
+      "id": 3417,
+      "word": "krijgen",
+      "translation": {
+        "chinese": "获得",
+        "english": "to get, to receive"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "krijgen",
+          "isSeparable": false,
+          "present": {
+            "ik": "krijg",
+            "jij": "krijgt",
+            "hij": "krijgt",
+            "wij": "krijgen",
+            "jullie": "krijgen",
+            "zij": "krijgen"
+          },
+          "past": {
+            "singular": "kreeg",
+            "plural": "kregen"
+          },
+          "pastParticiple": "gekregen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik krijg een cadeau.",
+        "Krijg je hulp?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我收到礼物。",
+          "你得到帮助了吗？"
+        ],
+        "english": [
+          "I get a gift.",
+          "Do you get help?"
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词，非常常用的动词"
+    },
+    {
+      "id": 3418,
+      "word": "krimpen",
+      "translation": {
+        "chinese": "收缩",
+        "english": "to shrink, to contract"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "krimpen",
+          "isSeparable": false,
+          "present": {
+            "ik": "krimp",
+            "jij": "krimpt",
+            "hij": "krimpt",
+            "wij": "krimpen",
+            "jullie": "krimpen",
+            "zij": "krimpen"
+          },
+          "past": {
+            "singular": "kromp",
+            "plural": "krompen"
+          },
+          "pastParticiple": "gekrompen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Het shirt krimpt.",
+        "De markt krimpt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "衬衫缩水。",
+          "市场收缩。"
+        ],
+        "english": [
+          "The shirt shrinks.",
+          "The market contracts."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3419,
+      "word": "kritiek",
+      "translation": {
+        "chinese": "批评",
+        "english": "criticism"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "kritiek",
+          "plural": "kritieken",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik heb kritiek.",
+        "Kritiek op het plan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有批评意见。",
+          "对计划的批评。"
+        ],
+        "english": [
+          "I have criticism.",
+          "Criticism of the plan."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 kritieken"
+    },
+    {
+      "id": 3420,
+      "word": "kroket",
+      "translation": {
+        "chinese": "炸肉丸",
+        "english": "croquette"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "kroket",
+          "plural": "kroketten",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik eet een kroket.",
+        "Een hete kroket."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃炸肉丸。",
+          "一个热腾腾的肉丸。"
+        ],
+        "english": [
+          "I eat a croquette.",
+          "A hot croquette."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 kroketten，荷兰传统小吃"
+    }
+  ]
+}

@@ -1,0 +1,1110 @@
+{
+  "id": "lB134",
+  "level": "B1",
+  "lessonNumber": 34,
+  "totalWords": 30,
+  "words": [
+    {
+      "id": 3271,
+      "word": "behang",
+      "translation": {
+        "chinese": "壁纸",
+        "english": "wallpaper"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "behang",
+          "plural": "behange",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het behang is oud.",
+        "Nieuw behang op de muur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "壁纸旧了。",
+          "墙上的新壁纸。"
+        ],
+        "english": [
+          "The wallpaper is old.",
+          "New wallpaper on wall."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 behange"
+    },
+    {
+      "id": 3272,
+      "word": "beheren",
+      "translation": {
+        "chinese": "管理",
+        "english": "to manage, to administer"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "beheren",
+          "isSeparable": false,
+          "present": {
+            "ik": "beheer",
+            "jij": "beheert",
+            "hij": "beheert",
+            "wij": "beheren",
+            "jullie": "beheren",
+            "zij": "beheren"
+          },
+          "past": {
+            "singular": "beheerde",
+            "plural": "beheerden"
+          },
+          "pastParticiple": "beheerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij beheert het bedrijf.",
+        "Zij beheert de afdeling."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他管理公司。",
+          "她管理这个部门。"
+        ],
+        "english": [
+          "He manages the company.",
+          "She administers the department."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，商务词汇"
+    },
+    {
+      "id": 3273,
+      "word": "behoud",
+      "translation": {
+        "chinese": "保留",
+        "english": "preservation, retention"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "behoud",
+          "plural": "behouden",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Behoud van het gebied.",
+        "Het behoud van cultuur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "保留这个地区。",
+          "文化的保留。"
+        ],
+        "english": [
+          "Preservation of the area.",
+          "The retention of culture."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 behouden"
+    },
+    {
+      "id": 3274,
+      "word": "beitel",
+      "translation": {
+        "chinese": "凿子",
+        "english": "chisel"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "beitel",
+          "plural": "beitels",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Gebruik de beitel.",
+        "De beitel is scherp."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "使用凿子。",
+          "凿子很锋利。"
+        ],
+        "english": [
+          "Use the chisel.",
+          "The chisel is sharp."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 beitels，工具词汇"
+    },
+    {
+      "id": 3275,
+      "word": "bejagen",
+      "translation": {
+        "chinese": "狩猎",
+        "english": "to hunt"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bejagen",
+          "isSeparable": false,
+          "present": {
+            "ik": "bejaag",
+            "jij": "bejaagt",
+            "hij": "bejaagt",
+            "wij": "bejagen",
+            "jullie": "bejagen",
+            "zij": "bejagen"
+          },
+          "past": {
+            "singular": "bejaagde",
+            "plural": "bejaagden"
+          },
+          "pastParticiple": "bejaagd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij bejaagt een hert.",
+        "Zij bejaagt vogels."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他猎鹿。",
+          "她狩猎鸟类。"
+        ],
+        "english": [
+          "He hunts a deer.",
+          "She hunts birds."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，户外活动词汇"
+    },
+    {
+      "id": 3276,
+      "word": "bekend",
+      "translation": {
+        "chinese": "著名的",
+        "english": "famous, known"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bekend",
+          "withDe": "bekende",
+          "withHet": "bekend",
+          "comparative": "bekender",
+          "superlative": "bekendst"
+        }
+      },
+      "examples": [
+        "Hij is een bekende artiest.",
+        "Het verhaal is bekend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是著名的艺术家。",
+          "这个故事很有名。"
+        ],
+        "english": [
+          "He is a famous artist.",
+          "The story is known."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：bekend - bekender - bekendst，来自动词 kennen（知道）的过去分词"
+    },
+    {
+      "id": 3277,
+      "word": "bekende",
+      "translation": {
+        "chinese": "熟人",
+        "english": "acquaintance"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bekende",
+          "plural": "bekenden",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij is een bekende.",
+        "Mijn bekenden helpen mij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是个熟人。",
+          "我的熟人帮助我。"
+        ],
+        "english": [
+          "He is an acquaintance.",
+          "My acquaintances help me."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bekenden"
+    },
+    {
+      "id": 3278,
+      "word": "beklag",
+      "translation": {
+        "chinese": "投诉",
+        "english": "complaint"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "beklag",
+          "plural": "beklachten",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Heb je beklacht?",
+        "Zij doet beklacht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你有投诉吗？",
+          "她投诉了。"
+        ],
+        "english": [
+          "Do you have a complaint?",
+          "She files a complaint."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 beklachten"
+    },
+    {
+      "id": 3279,
+      "word": "beknopt",
+      "translation": {
+        "chinese": "简明的",
+        "english": "concise, brief"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beknopt",
+          "withDe": "beknopte",
+          "withHet": "beknopt",
+          "comparative": "beknopper",
+          "superlative": "beknopst"
+        }
+      },
+      "examples": [
+        "Het verslag is beknopt.",
+        "Een beknopte uitleg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "报告很简明。",
+          "简明的解释。"
+        ],
+        "english": [
+          "The report is concise.",
+          "A brief explanation."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：beknopt - beknopper - beknoopst"
+    },
+    {
+      "id": 3280,
+      "word": "bekwaam",
+      "translation": {
+        "chinese": "称职的",
+        "english": "competent, qualified"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bekwaam",
+          "withDe": "bekwame",
+          "withHet": "bekwaam",
+          "comparative": "bekwamer",
+          "superlative": "bekwaamst"
+        }
+      },
+      "examples": [
+        "Hij is bekwaam.",
+        "Een bekwaame leraar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很称职。",
+          "一位称职的老师。"
+        ],
+        "english": [
+          "He is competent.",
+          "A qualified teacher."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：bekwaam - bekwamer - bekwaamst"
+    },
+    {
+      "id": 3281,
+      "word": "belagen",
+      "translation": {
+        "chinese": "骚扰",
+        "english": "to harass, to annoy"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "belagen",
+          "isSeparable": false,
+          "present": {
+            "ik": "belag",
+            "jij": "belt",
+            "hij": "belt",
+            "wij": "belagen",
+            "jullie": "belagen",
+            "zij": "belagen"
+          },
+          "past": {
+            "singular": "belagde",
+            "plural": "belagden"
+          },
+          "pastParticiple": "belagd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij belt haar vaak.",
+        "Zij belt de buren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他经常给她打电话。",
+          "她给邻居打电话。"
+        ],
+        "english": [
+          "He calls her often.",
+          "She calls the neighbors."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3282,
+      "word": "belang",
+      "translation": {
+        "chinese": "利益,重要性",
+        "english": "interest, importance"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "belang",
+          "plural": "belangen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het is van groot belang.",
+        "De belangen van het bedrijf."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这很重要。",
+          "公司的利益。"
+        ],
+        "english": [
+          "It is of great importance.",
+          "The interests of the company."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 belangen，固定搭配：van belang zijn（重要）"
+    },
+    {
+      "id": 3283,
+      "word": "beleid",
+      "translation": {
+        "chinese": "政策",
+        "english": "policy"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "beleid",
+          "plural": "beleiden",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het nieuwe beleid.",
+        "Volg het beleid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "新政策。",
+          "遵循政策。"
+        ],
+        "english": [
+          "The new policy.",
+          "Follow the policy."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 beleiden"
+    },
+    {
+      "id": 3284,
+      "word": "beleven",
+      "translation": {
+        "chinese": "体验",
+        "english": "to experience"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "beleven",
+          "isSeparable": false,
+          "present": {
+            "ik": "beleef",
+            "jij": "beleefd",
+            "hij": "beleefd",
+            "wij": "beleven",
+            "jullie": "beleven",
+            "zij": "beleven"
+          },
+          "past": {
+            "singular": "beleefde",
+            "plural": "beleefden"
+          },
+          "pastParticiple": "beleefd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij beleefde veel plezier.",
+        "Zij beleefde het avontuur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他体验了很多乐趣。",
+          "她经历了这次冒险。"
+        ],
+        "english": [
+          "He experienced much pleasure.",
+          "She experienced the adventure."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3285,
+      "word": "belofte",
+      "translation": {
+        "chinese": "诺言",
+        "english": "promise"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "belofte",
+          "plural": "beloften",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij houdt zijn belofte aan zijn kinderen.",
+        "Dit is mijn belofte voor de toekomst."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他信守对孩子的承诺。",
+          "这是我对未来的承诺。"
+        ],
+        "english": [
+          "He keeps his promise to his children.",
+          "This is my promise for the future."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 beloven（承诺），复数形式为 beloften"
+    },
+    {
+      "id": 3286,
+      "word": "belonen",
+      "translation": {
+        "chinese": "奖励",
+        "english": "to reward"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "belonen",
+          "isSeparable": false,
+          "present": {
+            "ik": "beloon",
+            "jij": "beloont",
+            "hij": "beloont",
+            "wij": "belonen",
+            "jullie": "belonen",
+            "zij": "belonen"
+          },
+          "past": {
+            "singular": "beloonde",
+            "plural": "beloondden"
+          },
+          "pastParticiple": "beloond",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij beloont zijn werknemers.",
+        "Zij wordt beloond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他奖励员工。",
+          "她得到奖励。"
+        ],
+        "english": [
+          "He rewards his employees.",
+          "She gets rewarded."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3287,
+      "word": "beloven",
+      "translation": {
+        "chinese": "承诺",
+        "english": "to promise"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "beloven",
+          "isSeparable": false,
+          "present": {
+            "ik": "beloof",
+            "jij": "belooft",
+            "hij": "belooft",
+            "wij": "beloven",
+            "jullie": "beloven",
+            "zij": "beloven"
+          },
+          "past": {
+            "singular": "beloofde",
+            "plural": "beloofden"
+          },
+          "pastParticiple": "beloofd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik beloof om te komen.",
+        "Hij belooft niets."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我承诺会来。",
+          "他什么都不承诺。"
+        ],
+        "english": [
+          "I promise to come.",
+          "He promises nothing."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，固定搭配：beloven om te（承诺做...）"
+    },
+    {
+      "id": 3288,
+      "word": "benauwd",
+      "translation": {
+        "chinese": "闷热的,焦虑的",
+        "english": "stuffy, anxious"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "benauwd",
+          "withDe": "benauwde",
+          "withHet": "benauwd",
+          "comparative": "benauwder",
+          "superlative": "benauwdst"
+        }
+      },
+      "examples": [
+        "Het is benauwd in de kamer.",
+        "De lucht is benauwd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "房间里很闷热。",
+          "空气很闷。"
+        ],
+        "english": [
+          "It is stuffy in the room.",
+          "The air is stuffy."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：benauwd - benauwder - benauwdst"
+    },
+    {
+      "id": 3289,
+      "word": "beneden",
+      "translation": {
+        "chinese": "在下面",
+        "english": "below, downstairs"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Het is beneden nul.",
+        "Kom naar beneden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在零度以下。",
+          "下来。"
+        ],
+        "english": [
+          "It is below zero.",
+          "Come down below."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "介词/副词，表示位置"
+    },
+    {
+      "id": 3290,
+      "word": "beogen",
+      "translation": {
+        "chinese": "打算",
+        "english": "to aim, to intend"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "beogen",
+          "isSeparable": false,
+          "present": {
+            "ik": "beoog",
+            "jij": "beoogt",
+            "hij": "beoogt",
+            "wij": "beogen",
+            "jullie": "beogen",
+            "zij": "beogen"
+          },
+          "past": {
+            "singular": "beoogde",
+            "plural": "beoogden"
+          },
+          "pastParticiple": "beoogd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij beoogt succes.",
+        "Wij beogen dit doel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他追求成功。",
+          "我们要达到这个目标。"
+        ],
+        "english": [
+          "He aims for success.",
+          "We aim for this goal."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3291,
+      "word": "beoogd",
+      "translation": {
+        "chinese": "预期的",
+        "english": "intended, aimed"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beoogd",
+          "withDe": "beoogde",
+          "withHet": "beoogd",
+          "comparative": "beogder",
+          "superlative": "beogdst"
+        }
+      },
+      "examples": [
+        "Het beoogde resultaat.",
+        "Het beoogde doel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "预期的结果。",
+          "预期的目标。"
+        ],
+        "english": [
+          "The intended result.",
+          "The intended goal."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 beogen（打算），比较级和最高级规则：beoogd - beogder - beogdst"
+    },
+    {
+      "id": 3292,
+      "word": "bepaald",
+      "translation": {
+        "chinese": "特定的",
+        "english": "specific, certain"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bepaald",
+          "withDe": "bepaalde",
+          "withHet": "bepaald",
+          "comparative": "bepalder",
+          "superlative": "bepaaldst"
+        }
+      },
+      "examples": [
+        "Op een bepaald moment.",
+        "Het is een bepaald soort."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在特定时刻。",
+          "这是一种特定的类型。"
+        ],
+        "english": [
+          "At a specific moment.",
+          "It is a certain type."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 bepalen（决定），比较级和最高级规则：bepaald - bepalder - bepaaldst"
+    },
+    {
+      "id": 3293,
+      "word": "bepalen",
+      "translation": {
+        "chinese": "决定",
+        "english": "to determine, to decide"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bepalen",
+          "isSeparable": false,
+          "present": {
+            "ik": "bepaal",
+            "jij": "bepaalt",
+            "hij": "bepaalt",
+            "wij": "bepalen",
+            "jullie": "bepalen",
+            "zij": "bepalen"
+          },
+          "past": {
+            "singular": "bepaalde",
+            "plural": "bepaalden"
+          },
+          "pastParticiple": "bepaald",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij bepaalt de prijs.",
+        "Zij bepalen de regels."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他决定价格。",
+          "她们制定规则。"
+        ],
+        "english": [
+          "He determines the price.",
+          "They decide the rules."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3294,
+      "word": "beperkt",
+      "translation": {
+        "chinese": "有限的",
+        "english": "limited, restricted"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beperkt",
+          "withDe": "beperkte",
+          "withHet": "beperkt",
+          "comparative": "beperkter",
+          "superlative": "beperkst"
+        }
+      },
+      "examples": [
+        "De tijd is beperkt.",
+        "Hij heeft beperkte middelen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "时间有限。",
+          "他资源有限。"
+        ],
+        "english": [
+          "The time is limited.",
+          "He has limited resources."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 beperken（限制），比较级和最高级规则：beperkt - beperkter - beperkst"
+    },
+    {
+      "id": 3295,
+      "word": "beraad",
+      "translation": {
+        "chinese": "商讨",
+        "english": "consultation, deliberation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "beraad",
+          "plural": "beraden",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "In beraad.",
+        "Het beraad duurt lang."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在商讨中。",
+          "商讨持续很久。"
+        ],
+        "english": [
+          "In consultation.",
+          "The deliberation takes long."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 beraden"
+    },
+    {
+      "id": 3296,
+      "word": "beraden",
+      "translation": {
+        "chinese": "商议",
+        "english": "to consult, to deliberate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "beraden",
+          "isSeparable": false,
+          "present": {
+            "ik": "beraad",
+            "jij": "beraadt",
+            "hij": "beraadt",
+            "wij": "beraden",
+            "jullie": "beraden",
+            "zij": "beraden"
+          },
+          "past": {
+            "singular": "beraamde",
+            "plural": "beraamden"
+          },
+          "pastParticiple": "beraamd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij beraadt met zijn team.",
+        "Zij beraadt over het plan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他和团队商议。",
+          "她商议这个计划。"
+        ],
+        "english": [
+          "He deliberates with his team.",
+          "She deliberates about the plan."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3297,
+      "word": "bericht",
+      "translation": {
+        "chinese": "消息",
+        "english": "message, news"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bericht",
+          "plural": "berichten",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Ik kreeg een bericht.",
+        "Stuur me een bericht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我收到一条消息。",
+          "给我发个消息。"
+        ],
+        "english": [
+          "I received a message.",
+          "Send me a message."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 berichten"
+    },
+    {
+      "id": 3298,
+      "word": "beroemd",
+      "translation": {
+        "chinese": "著名的",
+        "english": "famous, renowned"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beroemd",
+          "withDe": "beroemde",
+          "withHet": "beroemd",
+          "comparative": "beroemder",
+          "superlative": "beroemdst"
+        }
+      },
+      "examples": [
+        "Hij is een beroemde schrijver.",
+        "Een beroemde stad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是著名的作家。",
+          "一座著名的城市。"
+        ],
+        "english": [
+          "He is a famous writer.",
+          "A renowned city."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：beroemd - beroemder - beroemdst"
+    },
+    {
+      "id": 3299,
+      "word": "beroven",
+      "translation": {
+        "chinese": "抢劫",
+        "english": "to rob, to deprive"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "beroven",
+          "isSeparable": false,
+          "present": {
+            "ik": "beroof",
+            "jij": "berooft",
+            "hij": "berooft",
+            "wij": "beroven",
+            "jullie": "beroven",
+            "zij": "beroven"
+          },
+          "past": {
+            "singular": "beroofde",
+            "plural": "beroofden"
+          },
+          "pastParticiple": "beroofd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij beroofde de bank.",
+        "Zij berooven hem van zijn vrijheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他抢劫了银行。",
+          "她剥夺了他的自由。"
+        ],
+        "english": [
+          "He robbed the bank.",
+          "She deprived him of his freedom."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3300,
+      "word": "berucht",
+      "translation": {
+        "chinese": "臭名昭著的",
+        "english": "infamous, notorious"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "berucht",
+          "withDe": "beruchte",
+          "withHet": "berucht",
+          "comparative": "beruchter",
+          "superlative": "beruchtst"
+        }
+      },
+      "examples": [
+        "Hij is een beruchte man.",
+        "De gevangenis is berucht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是个臭名昭著的人。",
+          "这所监狱臭名昭著。"
+        ],
+        "english": [
+          "He is a notorious man.",
+          "The prison is infamous."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：berucht - beruchter - beruchtst"
+    }
+  ]
+}

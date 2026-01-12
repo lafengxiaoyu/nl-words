@@ -1,0 +1,1515 @@
+{
+  "id": "lA214",
+  "level": "A2",
+  "lessonNumber": 14,
+  "totalWords": 37,
+  "words": [
+    {
+      "id": 1299,
+      "word": "werktijd",
+      "translation": {
+        "chinese": "工作时间",
+        "english": "working hours"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "werktijd",
+          "plural": "werktijden",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Mijn werktijd is acht uur.",
+        "De werktijden zijn flexibel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的工作时间是八小时。",
+          "工作时间很灵活。"
+        ],
+        "english": [
+          "My working hours are eight hours.",
+          "Working hours are flexible."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复合名词：werk（工作）+ tijd（时间），复数形式为 werktijden"
+    },
+    {
+      "id": 1300,
+      "word": "wetenschap",
+      "translation": {
+        "chinese": "科学",
+        "english": "science"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "wetenschap",
+          "plural": "wetenschappen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik studeer wetenschap.",
+        "De wetenschap vooruit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我学习科学。",
+          "科学在进步。"
+        ],
+        "english": [
+          "I study science.",
+          "Science progresses."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复合名词：wet（法律）+ schap（后缀），复数形式为 wetenschappen"
+    },
+    {
+      "id": 1301,
+      "word": "wijze",
+      "translation": {
+        "chinese": "方式,方法",
+        "english": "way, manner"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "wijze",
+          "plural": "wijzen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Op deze wijze.",
+        "Er zijn verschillende wijzen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "用这种方式。",
+          "有不同的方法。"
+        ],
+        "english": [
+          "In this way.",
+          "There are different ways."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "固定搭配：op deze wijze（以这种方式）"
+    },
+    {
+      "id": 1305,
+      "word": "zicht",
+      "translation": {
+        "chinese": "视野,视线",
+        "english": "view, sight"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "zicht",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het zicht is prachtig.",
+        "Ik heb zicht op de zee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "视野很美。",
+          "我能看到大海。"
+        ],
+        "english": [
+          "The view is beautiful.",
+          "I have a view of the sea."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "固定搭配：in zicht komen（进入视野）"
+    },
+    {
+      "id": 1306,
+      "word": "ziekte",
+      "translation": {
+        "chinese": "疾病",
+        "english": "disease, illness"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "ziekte",
+          "plural": "ziekten",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ze heeft een ernstige ziekte.",
+        "De ziekte is besmettelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她得了重病。",
+          "这种病具有传染性。"
+        ],
+        "english": [
+          "She has a serious illness.",
+          "The disease is contagious."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "来自形容词 ziek（病的），复数形式为 ziekten"
+    },
+    {
+      "id": 3157,
+      "word": "afrekenen",
+      "translation": {
+        "chinese": "结账",
+        "english": "to pay, to check out"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afrekenen",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "reken af",
+            "jij": "rekent af",
+            "hij": "rekent af",
+            "wij": "rekenen af",
+            "jullie": "rekenen af",
+            "zij": "rekenen af"
+          },
+          "past": {
+            "singular": "rekende af",
+            "plural": "rekenden af"
+          },
+          "participle": "afgerekend",
+          "pastParticiple": "afgerekend",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik wil afrekenen.",
+        "Wilt u contant of afrekenen?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我想结账。",
+          "您想现金还是结账？"
+        ],
+        "english": [
+          "I want to pay.",
+          "Do you want to pay cash or check out?"
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "可分动词，前缀 af 在现在时和过去时分离，常用于商店结账或付款"
+    },
+    {
+      "id": 3158,
+      "word": "afwassen",
+      "translation": {
+        "chinese": "洗碗",
+        "english": "to wash dishes"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afwassen",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "was af",
+            "jij": "wast af",
+            "hij": "wast af",
+            "wij": "wassen af",
+            "jullie": "wassen af",
+            "zij": "wassen af"
+          },
+          "past": {
+            "singular": "waste af",
+            "plural": "wasten af"
+          },
+          "participle": "afgewassen",
+          "pastParticiple": "afgewassen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik was de borden af.",
+        "Wie wast het servies af?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我洗碗。",
+          "谁洗碗？"
+        ],
+        "english": [
+          "I wash the plates.",
+          "Who washes the dishes?"
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "可分动词，家务核心词，不规则动词：wassen - wast - waste - wasten - heeft - gewassen"
+    },
+    {
+      "id": 3159,
+      "word": "aanmelden",
+      "translation": {
+        "chinese": "报名,注册",
+        "english": "to register, to sign up"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanmelden",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "meld aan",
+            "jij": "meldt aan",
+            "hij": "meldt aan",
+            "wij": "melden aan",
+            "jullie": "melden aan",
+            "zij": "melden aan"
+          },
+          "past": {
+            "singular": "meldde aan",
+            "plural": "meldden aan"
+          },
+          "participle": "aangemeld",
+          "pastParticiple": "aangemeld",
+          "pastParticipleAuxiliary": "zijn/hebben"
+        }
+      },
+      "examples": [
+        "Ik meld me aan voor de cursus.",
+        "Wilt u zich aanmelden?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我报名参加课程。",
+          "您想注册吗？"
+        ],
+        "english": [
+          "I sign up for the course.",
+          "Do you want to register?"
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "可分动词，办理各类会员、课程必备，固定搭配：aanmelden voor（报名...）"
+    },
+    {
+      "id": 3161,
+      "word": "ophalen",
+      "translation": {
+        "chinese": "取,接",
+        "english": "to pick up, to collect"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ophalen",
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "haal op",
+            "jij": "haalt op",
+            "hij": "haalt op",
+            "wij": "halen op",
+            "jullie": "halen op",
+            "zij": "halen op"
+          },
+          "past": {
+            "singular": "haalde op",
+            "plural": "haalden op"
+          },
+          "participle": "opgehaald",
+          "pastParticiple": "opgehaald",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik haal het pakket op.",
+        "Wanneer haal je me op?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我去取包裹。",
+          "你什么时候来接我？"
+        ],
+        "english": [
+          "I pick up the package.",
+          "When do you pick me up?"
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "可分动词，去取包裹、去学校接人，固定搭配：ophalen bij（在...取）"
+    },
+    {
+      "id": 3163,
+      "word": "oversteken",
+      "translation": {
+        "chinese": "横穿",
+        "english": "to cross"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "oversteken",
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "steek over",
+            "jij": "steekt over",
+            "hij": "steekt over",
+            "wij": "steken over",
+            "jullie": "steken over",
+            "zij": "steken over"
+          },
+          "past": {
+            "singular": "stak over",
+            "plural": "staken over"
+          },
+          "participle": "overgestoken",
+          "pastParticiple": "overgestoken",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Steek de straat over.",
+        "We steken de brug over."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "穿过马路。",
+          "我们过桥。"
+        ],
+        "english": [
+          "Cross the street.",
+          "We cross the bridge."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "可分动词，特指穿过马路或桥梁，不规则动词：steken - steekt - stak - staken - is - overgestoken"
+    },
+    {
+      "id": 3164,
+      "word": "poetsen",
+      "translation": {
+        "chinese": "刷,擦",
+        "english": "to brush, to clean"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "poetsen",
+          "isSeparable": false,
+          "present": {
+            "ik": "poets",
+            "jij": "poetst",
+            "hij": "poetst",
+            "wij": "poetsen",
+            "jullie": "poetsen",
+            "zij": "poetsen"
+          },
+          "past": {
+            "singular": "poetste",
+            "plural": "poetsten"
+          },
+          "participle": "gepoetst",
+          "pastParticiple": "gepoetst",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik poets mijn tanden.",
+        "Hij poetst zijn schoenen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我刷牙。",
+          "他擦鞋。"
+        ],
+        "english": [
+          "I brush my teeth.",
+          "He cleans his shoes."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "固定搭配：tanden poetsen（刷牙），固定搭配：schoenen poetsen（擦鞋）"
+    },
+    {
+      "id": 3165,
+      "word": "strijken",
+      "translation": {
+        "chinese": "熨衣服",
+        "english": "to iron"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "strijken",
+          "isSeparable": false,
+          "present": {
+            "ik": "strijk",
+            "jij": "strijkt",
+            "hij": "strijkt",
+            "wij": "strijken",
+            "jullie": "strijken",
+            "zij": "strijken"
+          },
+          "past": {
+            "singular": "streek",
+            "plural": "streken"
+          },
+          "participle": "gestreken",
+          "pastParticiple": "gestreken",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik strijk de kleding.",
+        "Het overhemd is gestreken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我熨衣服。",
+          "衬衫已经熨好了。"
+        ],
+        "english": [
+          "I iron the clothes.",
+          "The shirt is ironed."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "家务核心词，不规则动词：strijken - strijkt - streek - streken - heeft - gestreken"
+    },
+    {
+      "id": 3166,
+      "word": "aardbei",
+      "translation": {
+        "chinese": "草莓",
+        "english": "strawberry"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aardbei",
+          "plural": "aardbeien",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik eet een aardbei.",
+        "De aardbeien zijn zoet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃草莓。",
+          "草莓很甜。"
+        ],
+        "english": [
+          "I eat a strawberry.",
+          "The strawberries are sweet."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复数形式为 aardbeien，以 -ien 结尾的复数形式"
+    },
+    {
+      "id": 3167,
+      "word": "aanbieding",
+      "translation": {
+        "chinese": "优惠,特价",
+        "english": "offer, special"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aanbieding",
+          "plural": "aanbiedingen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er is een aanbieding in de supermarkt.",
+        "Deze aanbieding is goedkoop."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "超市有特价活动。",
+          "这个优惠很便宜。"
+        ],
+        "english": [
+          "There is an offer in the supermarket.",
+          "This special is cheap."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "来自动词 aanbieden（提供），超市海报最常见的词，复数形式为 aanbiedingen"
+    },
+    {
+      "id": 3168,
+      "word": "bagage",
+      "translation": {
+        "chinese": "行李",
+        "english": "luggage, baggage"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bagage",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Heeft u bagage?",
+        "Mijn bagage is op de band."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "您有行李吗？",
+          "我的行李在传送带上。"
+        ],
+        "english": [
+          "Do you have luggage?",
+          "My luggage is on the belt."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "旅游场景核心词，通常作为不可数名词使用，复数形式为 bagages"
+    },
+    {
+      "id": 3169,
+      "word": "huisarts",
+      "translation": {
+        "chinese": "家庭医生",
+        "english": "GP, family doctor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "huisarts",
+          "plural": "huisartsen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik ga naar de huisarts.",
+        "De huisarts verwijst me door."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我去家庭医生那里。",
+          "家庭医生把我转诊给专家。"
+        ],
+        "english": [
+          "I go to the family doctor.",
+          "The GP refers me to a specialist."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "荷兰生活的重中之重，复合名词：huis（房子）+ arts（医生），复数形式为 huisartsen"
+    },
+    {
+      "id": 3170,
+      "word": "kassa",
+      "translation": {
+        "chinese": "收银台",
+        "english": "cash register, checkout"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "kassa",
+          "plural": "kassa's",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik betaal bij de kassa.",
+        "De kassa is aan de linkerkant."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在收银台付款。",
+          "收银台在左边。"
+        ],
+        "english": [
+          "I pay at the checkout.",
+          "The cash register is on the left."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "超市场景核心词，复数形式为 kassa's"
+    },
+    {
+      "id": 3171,
+      "word": "verdieping",
+      "translation": {
+        "chinese": "楼层",
+        "english": "floor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "verdieping",
+          "plural": "verdiepingen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik woon op de tweede verdieping.",
+        "De lift gaat naar de verdieping."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我住在二楼。",
+          "电梯去往该楼层。"
+        ],
+        "english": [
+          "I live on the second floor.",
+          "The elevator goes to the floor."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "问路、居住描述核心词，复合名词：verdiep（深）+ ing（后缀），复数形式为 verdiepingen"
+    },
+    {
+      "id": 3172,
+      "word": "aardappel",
+      "translation": {
+        "chinese": "土豆",
+        "english": "potato"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aardappel",
+          "plural": "aardappelen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik eet aardappelen.",
+        "De aardappel is gekookt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃土豆。",
+          "土豆煮熟了。"
+        ],
+        "english": [
+          "I eat potatoes.",
+          "The potato is cooked."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "荷兰饮食文化核心词，复合名词：aarde（地）+ appel（苹果），复数形式为 aardappelen"
+    },
+    {
+      "id": 3173,
+      "word": "beleefd",
+      "translation": {
+        "chinese": "礼貌的",
+        "english": "polite"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beleefd",
+          "withDe": "beleefde",
+          "withHet": "beleefd",
+          "comparative": "beleefder",
+          "superlative": "beleefdst"
+        }
+      },
+      "examples": [
+        "Hij is beleefd.",
+        "Wees beleefd tegen anderen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很礼貌。",
+          "对别人要礼貌。"
+        ],
+        "english": [
+          "He is polite.",
+          "Be polite to others."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "比较级和最高级规则：beleefd - beleefder - beleefdst，注意 d 在中间时保持 d"
+    },
+    {
+      "id": 3174,
+      "word": "goedkoop",
+      "translation": {
+        "chinese": "便宜的",
+        "english": "cheap, inexpensive"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "goedkoop",
+          "withDe": "goede",
+          "withHet": "goedkoop",
+          "comparative": "goedkoper",
+          "superlative": "goedkoopst"
+        }
+      },
+      "examples": [
+        "Dit is goedkoop.",
+        "Het huis is niet goedkoop."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个很便宜。",
+          "这房子不便宜。"
+        ],
+        "english": [
+          "This is cheap.",
+          "The house is not cheap."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "duur（贵的）的反义词，比较级和最高级规则：goedkoop - goedkoper - goedkoopst，与 de 连用时变为 goede"
+    },
+    {
+      "id": 3175,
+      "word": "handig",
+      "translation": {
+        "chinese": "好用的,方便的",
+        "english": "handy, convenient"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "handig",
+          "withDe": "handige",
+          "withHet": "handig",
+          "comparative": "handiger",
+          "superlative": "handigst"
+        }
+      },
+      "examples": [
+        "Dit is handig.",
+        "De app is handig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这很方便。",
+          "这个APP很好用。"
+        ],
+        "english": [
+          "This is convenient.",
+          "The app is handy."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "比较级和最高级规则：handig - handiger - handigst"
+    },
+    {
+      "id": 3176,
+      "word": "lelijk",
+      "translation": {
+        "chinese": "丑陋的",
+        "english": "ugly"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "lelijk",
+          "withDe": "lelijke",
+          "withHet": "lelijk",
+          "comparative": "lelijker",
+          "superlative": "lelijkst"
+        }
+      },
+      "examples": [
+        "Het is lelijk weer.",
+        "Dit huis is lelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "天气很糟糕。",
+          "这房子很丑。"
+        ],
+        "english": [
+          "The weather is ugly.",
+          "This house is ugly."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "mooi（美丽的）的反义词，比较级和最高级规则：lelijk - lelijker - lelijkst"
+    },
+    {
+      "id": 3177,
+      "word": "nieuwschierig",
+      "translation": {
+        "chinese": "好奇的",
+        "english": "curious"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nieuwschierig",
+          "withDe": "nieuwschierige",
+          "withHet": "nieuwschierig",
+          "comparative": "nieuwschieriger",
+          "superlative": "nieuwschierigst"
+        }
+      },
+      "examples": [
+        "Ik ben nieuwschierig.",
+        "Het kind is nieuwschierig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我很好奇。",
+          "这个孩子很好奇。"
+        ],
+        "english": [
+          "I am curious.",
+          "The child is curious."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复合形容词：nieuws（新闻）+ schierig（喜欢...的），比较级和最高级规则：nieuwschierig - nieuwschieriger - nieuwschierigst"
+    },
+    {
+      "id": 3178,
+      "word": "zenuwachtig",
+      "translation": {
+        "chinese": "紧张的",
+        "english": "nervous"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "zenuwachtig",
+          "withDe": "zenuwachtige",
+          "withHet": "zenuwachtig",
+          "comparative": "zenuwachtiger",
+          "superlative": "zenuwachtigst"
+        }
+      },
+      "examples": [
+        "Ik ben zenuwachtig.",
+        "Hij is zenuwachtig voor het examen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我很紧张。",
+          "他考试前很紧张。"
+        ],
+        "english": [
+          "I am nervous.",
+          "He is nervous before exam."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "描述考试或面试心情，复合形容词：zenuw（神经）+ achtig（表示特征），比较级和最高级规则：zenuwachtig - zenuwachtiger - zenuwachtigst"
+    },
+    {
+      "id": 3179,
+      "word": "inderdaad",
+      "translation": {
+        "chinese": "确实,没错",
+        "english": "indeed, really"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Dat is inderdaad.",
+        "Inderdaad, ik kom."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那确实如此。",
+          "没错，我来了。"
+        ],
+        "english": [
+          "That is indeed.",
+          "Indeed, I come."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "口语高频确认词，用于肯定对方说法或强调事实"
+    },
+    {
+      "id": 3180,
+      "word": "plotseling",
+      "translation": {
+        "chinese": "突然",
+        "english": "suddenly"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Plotseling regent het.",
+        "Hij kwam plotseling binnen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "突然下雨了。",
+          "他突然进来了。"
+        ],
+        "english": [
+          "Suddenly it rains.",
+          "He came in suddenly."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "叙述故事时的连接词，副词表示出乎意料的情况变化"
+    },
+    {
+      "id": 3181,
+      "word": "aaibaar",
+      "translation": {
+        "chinese": "可爱的,好摸的",
+        "english": "cuddly, touchable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "aaibaar",
+          "withDe": "aaien",
+          "withHet": "aaibaar",
+          "comparative": "aaienbaarder",
+          "superlative": "aaienbaarst"
+        }
+      },
+      "examples": [
+        "De kat is aaibaar.",
+        "Dit is een aaibaar speelgoed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这只猫很可爱。",
+          "这是个可爱的玩具。"
+        ],
+        "english": [
+          "The cat is cuddly.",
+          "This is a cuddly toy."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "来自动词 aaien（抚摸），后缀 -baar 表示'可以...的'，比较级和最高级规则：aaibaar - aaienbaarder - aaienbaarst"
+    },
+    {
+      "id": 3184,
+      "word": "aandeel",
+      "translation": {
+        "chinese": "股份,份额",
+        "english": "share, portion"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aandeel",
+          "plural": "aandelen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Ik heb een aandeel in het bedrijf.",
+        "Hij heeft een groot aandeel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有公司的一股股份。",
+          "他有很大份额。"
+        ],
+        "english": [
+          "I have a share in the company.",
+          "He has a large portion."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复数形式为 aandelen，用于股票或分摊的部分"
+    },
+    {
+      "id": 3185,
+      "word": "aandoen",
+      "translation": {
+        "chinese": "穿上,引起",
+        "english": "to put on, to affect"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aandoen",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "doe aan",
+            "jij": "doet aan",
+            "hij": "doet aan",
+            "wij": "doen aan",
+            "jullie": "doen aan",
+            "zij": "doen aan"
+          },
+          "past": {
+            "singular": "deed aan",
+            "plural": "deden aan"
+          },
+          "pastParticiple": "aangetrokken",
+          "pastParticipleAuxiliary": "hebben/zijn"
+        }
+      },
+      "examples": [
+        "Doe je jas aan.",
+        "Het doet me pijn."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "穿上你的外套。",
+          "这让我感到痛苦。"
+        ],
+        "english": [
+          "Put your coat on.",
+          "It affects me painfully."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "可分动词，固定搭配：aandoen aan（穿上）, iemand aandoen（影响某人）"
+    },
+    {
+      "id": 3186,
+      "word": "aanhef",
+      "translation": {
+        "chinese": "称呼,开头",
+        "english": "salutation, opening"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aanhef",
+          "plural": "aanheffen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De aanhef van de brief.",
+        "Gebruik een formele aanhef."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "信的开头。",
+          "使用正式的称呼。"
+        ],
+        "english": [
+          "The salutation of the letter.",
+          "Use a formal opening."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复数形式为 aanheffen，信函写作常用词"
+    },
+    {
+      "id": 3187,
+      "word": "aanloop",
+      "translation": {
+        "chinese": "冲刺,前奏",
+        "english": "run-up, approach"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aanloop",
+          "plural": "aanlopen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er was een grote aanloop.",
+        "De aanloop naar het evenement."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "有很大的前奏。",
+          "活动的前奏。"
+        ],
+        "english": [
+          "There was a large run-up.",
+          "The approach to the event."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复数形式为 aanlopen，固定搭配：de aanloop naar（...的前奏）"
+    },
+    {
+      "id": 3188,
+      "word": "aanpak",
+      "translation": {
+        "chinese": "方法,处理",
+        "english": "approach, method"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aanpak",
+          "plural": "aanpakken",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik vind zijn aanpak goed.",
+        "Een andere aanpak is nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我觉得他的方法很好。",
+          "需要另一种处理方式。"
+        ],
+        "english": [
+          "I find his approach good.",
+          "A different approach is needed."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "来自动词 aanpakken（处理），复数形式为 aanpakken"
+    },
+    {
+      "id": 3189,
+      "word": "aanslag",
+      "translation": {
+        "chinese": "袭击,税单",
+        "english": "attack, tax bill"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aanslag",
+          "plural": "aanslagen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er was een aanslag.",
+        "Ik kreeg een aanslag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "发生了一次袭击。",
+          "我收到了税单。"
+        ],
+        "english": [
+          "There was an attack.",
+          "I received a tax bill."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复数形式为 aanslagen，有两个常见含义"
+    },
+    {
+      "id": 3190,
+      "word": "aanwas",
+      "translation": {
+        "chinese": "增长",
+        "english": "growth, increase"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aanwas",
+          "plural": "aanwassen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De aanwas van de bevolking.",
+        "Er is veel aanwas."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "人口的增长。",
+          "有很大的增长。"
+        ],
+        "english": [
+          "The growth of the population.",
+          "There is much growth."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "来自动词 aangroeien（生长），复数形式为 aanwassen"
+    },
+    {
+      "id": 3191,
+      "word": "aanzet",
+      "translation": {
+        "chinese": "冲动,开始",
+        "english": "impulse, start"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aanzet",
+          "plural": "aanzetten",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Geef de aanzet.",
+        "De aanzet tot het project."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "给出开始的冲动。",
+          "项目的开端。"
+        ],
+        "english": [
+          "Give the impulse.",
+          "The start of the project."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复数形式为 aanzetten，固定搭配：de aanzet geven（发起）"
+    },
+    {
+      "id": 3192,
+      "word": "aanzien",
+      "translation": {
+        "chinese": "声望,看",
+        "english": "prestige, consideration"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aanzien",
+          "plural": "aanzichten",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Hij heeft veel aanzien.",
+        "In mijn aanzien."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很有声望。",
+          "在我看来。"
+        ],
+        "english": [
+          "He has much prestige.",
+          "In my consideration."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复数形式为 aanzichten，固定搭配：aanzien genieten（享有声望）"
+    },
+    {
+      "id": 3193,
+      "word": "aanzoek",
+      "translation": {
+        "chinese": "求婚",
+        "english": "marriage proposal"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aanzoek",
+          "plural": "aanzoeken",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Hij deed een aanzoek.",
+        "Zij accepteerde het aanzoek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他求婚了。",
+          "她接受了求婚。"
+        ],
+        "english": [
+          "He made a marriage proposal.",
+          "She accepted the proposal."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复数形式为 aanzoeken，来自动词 aanzoeken（求婚）"
+    },
+    {
+      "id": 3194,
+      "word": "aardbol",
+      "translation": {
+        "chinese": "地球仪,地球",
+        "english": "globe, earth"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aardbol",
+          "plural": "aardbollen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Op de aardbol.",
+        "Een aardbol in de klas."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在地球上。",
+          "教室里的地球仪。"
+        ],
+        "english": [
+          "On the earth.",
+          "A globe in the classroom."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复合名词：aarde（地）+ bol（球），复数形式为 aardbollen"
+    },
+    {
+      "id": 3195,
+      "word": "aardgas",
+      "translation": {
+        "chinese": "天然气",
+        "english": "natural gas"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aardgas",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "We koken op aardgas.",
+        "Aardgas is goedkoop."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们用天然气做饭。",
+          "天然气很便宜。"
+        ],
+        "english": [
+          "We cook on natural gas.",
+          "Natural gas is cheap."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "不可数名词，复合词：aarde（地）+ gas（气）"
+    },
+    {
+      "id": 3196,
+      "word": "accent",
+      "translation": {
+        "chinese": "口音,重音",
+        "english": "accent"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "accent",
+          "plural": "accenten",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Hij heeft een accent.",
+        "Leg de nadruk op het accent."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他有口音。",
+          "强调重音。"
+        ],
+        "english": [
+          "He has an accent.",
+          "Emphasize the accent."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "复数形式为 accenten，固定搭配：accent leggen op（强调）"
+    },
+    {
+      "id": 3197,
+      "word": "achten",
+      "translation": {
+        "chinese": "认为,尊重",
+        "english": "to consider, to respect"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "achten",
+          "isSeparable": false,
+          "present": {
+            "ik": "acht",
+            "jij": "acht",
+            "hij": "acht",
+            "wij": "achten",
+            "jullie": "achten",
+            "zij": "achten"
+          },
+          "past": {
+            "singular": "achtte",
+            "plural": "achtten"
+          },
+          "pastParticiple": "geacht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik acht het mogelijk.",
+        "Wij achten hem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我认为这是可能的。",
+          "我们尊重他。"
+        ],
+        "english": [
+          "I consider it possible.",
+          "We respect him."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "固定搭配：achten voor（认为）, in hoog acht houden（尊重）"
+    },
+    {
+      "id": 3198,
+      "word": "actueel",
+      "translation": {
+        "chinese": "当前的",
+        "english": "current, topical"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "actueel",
+          "withDe": "actuele",
+          "withHet": "actueel",
+          "comparative": "actueler",
+          "superlative": "actueelst"
+        }
+      },
+      "examples": [
+        "Dit onderwerp is actueel.",
+        "Een actuele situatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个话题是当前的。",
+          "一个当前的情况。"
+        ],
+        "english": [
+          "This topic is current.",
+          "A topical situation."
+        ]
+      },
+      "difficulty": "A2",
+      "notes": "比较级和最高级规则：actueel - actueler - actueelst"
+    }
+  ]
+}

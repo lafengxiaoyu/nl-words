@@ -1,0 +1,1339 @@
+{
+  "id": "lB131",
+  "level": "B1",
+  "lessonNumber": 31,
+  "totalWords": 32,
+  "words": [
+    {
+      "id": 3182,
+      "word": "aanvaardbaar",
+      "translation": {
+        "chinese": "可接受的",
+        "english": "acceptable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "aanvaardbaar",
+          "withDe": "aanvaardbare",
+          "withHet": "aanvaardbaar",
+          "comparative": "aanvaardbaarder",
+          "superlative": "aanvaardbaarst"
+        }
+      },
+      "examples": [
+        "Dit voorstel is aanvaardbaar.",
+        "De prijs is voor ons aanvaardbaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个提议是可以接受的。",
+          "这个价格对我们来说是可接受的。"
+        ],
+        "english": [
+          "This proposal is acceptable.",
+          "The price is acceptable for us."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 aanvaarden（接受），后缀 -baar 表示'可以...的'，比较级和最高级规则：aanvaardbaar - aanvaardbaarder - aanvaardbaarst"
+    },
+    {
+      "id": 3183,
+      "word": "aannemen",
+      "translation": {
+        "chinese": "接受,采用,雇佣",
+        "english": "to accept, to adopt, to hire"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aannemen",
+          "isSeparable": false,
+          "present": {
+            "ik": "neem aan",
+            "jij": "neemt aan",
+            "hij": "neemt aan",
+            "wij": "nemen aan",
+            "jullie": "nemen aan",
+            "zij": "nemen aan"
+          },
+          "past": {
+            "singular": "nam aan",
+            "plural": "namen aan"
+          },
+          "pastParticiple": "aangenomen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik neem het aanbod aan.",
+        "Het bedrijf neemt nieuwe werknemers aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我接受这个提议。",
+          "公司雇佣新员工。"
+        ],
+        "english": [
+          "I accept the offer.",
+          "The company hires new employees."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复合动词：aan + nemen，不规则动词：nemen - neemt - nam - namen - heeft - genomen，固定搭配：aannemen（接受）, in dienst nemen（雇佣）"
+    },
+    {
+      "id": 3184,
+      "word": "aangaan",
+      "translation": {
+        "chinese": "涉及,建立",
+        "english": "to concern, to establish"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aangaan",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "ga aan",
+            "jij": "gaat aan",
+            "hij": "gaat aan",
+            "wij": "gaan aan",
+            "jullie": "gaan aan",
+            "zij": "gaan aan"
+          },
+          "past": {
+            "singular": "ging aan",
+            "plural": "gingen aan"
+          },
+          "pastParticiple": "aangegegaan",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Dit gaat mij aan.",
+        "Hij ging een relatie aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这涉及到我。",
+          "他建立了关系。"
+        ],
+        "english": [
+          "This concerns me.",
+          "He established a relationship."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，不规则动词：gaan - gaat - ging - gingen - is - gegaan，固定搭配：aangaan（涉及）"
+    },
+    {
+      "id": 3185,
+      "word": "aanleg",
+      "translation": {
+        "chinese": "天赋,建造",
+        "english": "aptitude, construction"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aanleg",
+          "plural": "aanleggen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij heeft aanleg voor muziek.",
+        "De aanleg van de tuin."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他有音乐天赋。",
+          "花园的建造。"
+        ],
+        "english": [
+          "He has aptitude for music.",
+          "The construction of garden."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 aanleggen，固定搭配：aanleg hebben voor（有...天赋）"
+    },
+    {
+      "id": 3186,
+      "word": "aannames",
+      "translation": {
+        "chinese": "假设,接收",
+        "english": "assumptions, reception"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "aanname",
+          "plural": "aannames",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Dit zijn mijn belangrijkste aannames.",
+        "De aanname van het pakket was gisteren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这些是我最重要的假设。",
+          "包裹昨天已接收。"
+        ],
+        "english": [
+          "These are my most important assumptions.",
+          "The package was received yesterday."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 aannemen（假设/接收），复数形式为 aannames"
+    },
+    {
+      "id": 3187,
+      "word": "abortus",
+      "translation": {
+        "chinese": "流产",
+        "english": "abortion"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "abortus",
+          "plural": "abortussen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Abortus is een moeilijk onderwerp.",
+        "Zij kreeg een abortus."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "流产是个困难的话题。",
+          "她做了流产。"
+        ],
+        "english": [
+          "Abortion is a difficult topic.",
+          "She had an abortion."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 abortussen，医学术语"
+    },
+    {
+      "id": 3188,
+      "word": "abrupt",
+      "translation": {
+        "chinese": "突然的",
+        "english": "abrupt, sudden"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "abrupt",
+          "withDe": "abrupte",
+          "withHet": "abrupt",
+          "comparative": "abrupter",
+          "superlative": "abruptst"
+        }
+      },
+      "examples": [
+        "Het was een abrupt einde.",
+        "Hij is abrupt vertrokken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是个突然的结局。",
+          "他突然离开了。"
+        ],
+        "english": [
+          "It was an abrupt end.",
+          "He left abruptly."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：abrupt - abrupter - abruptst"
+    },
+    {
+      "id": 3189,
+      "word": "accijns",
+      "translation": {
+        "chinese": "消费税",
+        "english": "excise duty"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "accijns",
+          "plural": "accijnzen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De accijns is hoog.",
+        "Je moet accijns betalen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "消费税很高。",
+          "你需要付消费税。"
+        ],
+        "english": [
+          "The excise duty is high.",
+          "You must pay excise duty."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 accijnzen，财经术语"
+    },
+    {
+      "id": 3190,
+      "word": "adagium",
+      "translation": {
+        "chinese": "格言",
+        "english": "adage, motto"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "adagium",
+          "plural": "adagia",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Dit is een bekend adagium.",
+        "Het adagium klopt niet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是个著名的格言。",
+          "这个格言不对。"
+        ],
+        "english": [
+          "This is a well-known adage.",
+          "The adage is not correct."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 adagia，拉丁语源词汇"
+    },
+    {
+      "id": 3191,
+      "word": "affiche",
+      "translation": {
+        "chinese": "海报",
+        "english": "poster"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "affiche",
+          "plural": "affiches",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Plak de affiche op de muur.",
+        "De affiche is kleurrijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "把海报贴在墙上。",
+          "海报色彩丰富。"
+        ],
+        "english": [
+          "Paste the poster on the wall.",
+          "The poster is colorful."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 affiches，法语源词汇"
+    },
+    {
+      "id": 3192,
+      "word": "afgaan",
+      "translation": {
+        "chinese": "响起,失败",
+        "english": "to go off, to fail"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afgaan",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "ga af",
+            "jij": "gaat af",
+            "hij": "gaat af",
+            "wij": "gaan af",
+            "jullie": "gaan af",
+            "zij": "gaan af"
+          },
+          "past": {
+            "singular": "ging af",
+            "plural": "gingen af"
+          },
+          "pastParticiple": "afgegaan",
+          "pastParticipleAuxiliary": "zijn/hebben"
+        }
+      },
+      "examples": [
+        "De wekker gaat af.",
+        "Het plan ging af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "闹钟响了。",
+          "计划失败了。"
+        ],
+        "english": [
+          "The alarm goes off.",
+          "The plan failed."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，不规则动词：gaan - gaat - ging - gingen - is - gegaan，固定搭配：afgaan（响起/失败）"
+    },
+    {
+      "id": 3193,
+      "word": "afgang",
+      "translation": {
+        "chinese": "丢脸,下台",
+        "english": "disgrace, departure"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "afgang",
+          "plural": "afgangen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij kreeg een afgang.",
+        "De afgang van de politicus."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他丢脸了。",
+          "政治家的下台。"
+        ],
+        "english": [
+          "He suffered a disgrace.",
+          "The departure of politician."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 afgangen，固定搭配：een afgang krijgen（丢脸）"
+    },
+    {
+      "id": 3194,
+      "word": "afgeven",
+      "translation": {
+        "chinese": "交付,掉色",
+        "english": "to hand over, to fade"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afgeven",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "geef af",
+            "jij": "geeft af",
+            "hij": "geeft af",
+            "wij": "geven af",
+            "jullie": "geven af",
+            "zij": "geven af"
+          },
+          "past": {
+            "singular": "gaf af",
+            "plural": "gaven af"
+          },
+          "pastParticiple": "afgegeven",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Geef het pakket af.",
+        "De kleur geeft af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "交付包裹。",
+          "颜色掉色了。"
+        ],
+        "english": [
+          "Hand over the package.",
+          "The color fades."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，不规则动词：geven - geeft - gaf - gaven - heeft - gegeven，固定搭配：afgeven aan（交付给...）"
+    },
+    {
+      "id": 3195,
+      "word": "afgunst",
+      "translation": {
+        "chinese": "嫉妒",
+        "english": "envy, jealousy"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "afgunst",
+          "plural": "afgunsten",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij voelt afgunst.",
+        "Afgunst is slecht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他感到嫉妒。",
+          "嫉妒是坏事。"
+        ],
+        "english": [
+          "He feels envy.",
+          "Jealousy is bad."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 afgunstig（嫉妒的），复数形式为 afgunsten"
+    },
+    {
+      "id": 3196,
+      "word": "afhaken",
+      "translation": {
+        "chinese": "退出,放弃",
+        "english": "to drop out, to quit"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afhaken",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "hak af",
+            "jij": "haakt af",
+            "hij": "haakt af",
+            "wij": "haken af",
+            "jullie": "haken af",
+            "zij": "haken af"
+          },
+          "past": {
+            "singular": "haakte af",
+            "plural": "haakten af"
+          },
+          "pastParticiple": "afgehaakt",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Hij haakte af.",
+        "Veel studenten haken af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他退出了。",
+          "很多学生放弃了。"
+        ],
+        "english": [
+          "He dropped out.",
+          "Many students quit."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，固定搭配：afhaken bij（退出...）"
+    },
+    {
+      "id": 3197,
+      "word": "afkeren",
+      "translation": {
+        "chinese": "转开",
+        "english": "to turn away, to reject"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afkeren",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "keer af",
+            "jij": "keert af",
+            "hij": "keert af",
+            "wij": "keren af",
+            "jullie": "keren af",
+            "zij": "keren af"
+          },
+          "past": {
+            "singular": "keerde af",
+            "plural": "keerden af"
+          },
+          "pastParticiple": "afgekeerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij keerde zich af.",
+        "Ik keer af van het idee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他转过身去。",
+          "我拒绝这个想法。"
+        ],
+        "english": [
+          "He turned away.",
+          "I reject the idea."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，固定搭配：afkeren van（拒绝...）"
+    },
+    {
+      "id": 3198,
+      "word": "afkeur",
+      "translation": {
+        "chinese": "反对",
+        "english": "disapproval, rejection"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "afkeur",
+          "plural": "afkeuren",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij toonde afkeur.",
+        "De afkeur van het plan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他表示反对。",
+          "对计划的反对。"
+        ],
+        "english": [
+          "He showed disapproval.",
+          "The rejection of the plan."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 afkeuren（拒绝），复数形式为 afkeuren"
+    },
+    {
+      "id": 3199,
+      "word": "afkomen",
+      "translation": {
+        "chinese": "摆脱,走过来",
+        "english": "to approach, to get rid of"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afkomen",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "kom af",
+            "jij": "komt af",
+            "hij": "komt af",
+            "wij": "komen af",
+            "jullie": "komen af",
+            "zij": "komen af"
+          },
+          "past": {
+            "singular": "kwam af",
+            "plural": "kwamen af"
+          },
+          "pastParticiple": "afgekomen",
+          "pastParticipleAuxiliary": "zijn/hebben"
+        }
+      },
+      "examples": [
+        "Hij komt op me af.",
+        "Kom ik hier van af?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他向我走来。",
+          "我能摆脱这个吗？"
+        ],
+        "english": [
+          "He approaches me.",
+          "Can I get rid of this?"
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，不规则动词：komen - komt - kwam - kwamen - is - gekomen，固定搭配：afkomen op（走向...）"
+    },
+    {
+      "id": 3200,
+      "word": "afleren",
+      "translation": {
+        "chinese": "戒掉",
+        "english": "to unlearn, to break a habit"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afleren",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "leer af",
+            "jij": "leert af",
+            "hij": "leert af",
+            "wij": "leren af",
+            "jullie": "leren af",
+            "zij": "leren af"
+          },
+          "past": {
+            "singular": "leerde af",
+            "plural": "leerden af"
+          },
+          "pastParticiple": "afgeleerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik leer het af.",
+        "Leer roken af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我戒掉这个。",
+          "戒烟。"
+        ],
+        "english": [
+          "I unlearn this.",
+          "Unlearn smoking."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，固定搭配：afleren van（戒掉...）"
+    },
+    {
+      "id": 3201,
+      "word": "afloop",
+      "translation": {
+        "chinese": "结局",
+        "english": "outcome, ending"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "afloop",
+          "plural": "aflopen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De afloop van het verhaal.",
+        "Een slechte afloop."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "故事的结局。",
+          "糟糕的结局。"
+        ],
+        "english": [
+          "The outcome of story.",
+          "A bad ending."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 aflopen（结束），复数形式为 aflopen"
+    },
+    {
+      "id": 3202,
+      "word": "afmeten",
+      "translation": {
+        "chinese": "测量",
+        "english": "to measure"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afmeten",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "meet af",
+            "jij": "meet af",
+            "hij": "meet af",
+            "wij": "meten af",
+            "jullie": "meten af",
+            "zij": "meten af"
+          },
+          "past": {
+            "singular": "mat af",
+            "plural": "maten af"
+          },
+          "pastParticiple": "afgemeten",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Meet het af.",
+        "Ik meet de tafel af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "测量一下。",
+          "我测量桌子。"
+        ],
+        "english": [
+          "Measure it.",
+          "I measure the table."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，不规则动词：meten - meet - mat - maten - heeft - gemeten"
+    },
+    {
+      "id": 3203,
+      "word": "afnemen",
+      "translation": {
+        "chinese": "减少,购买",
+        "english": "to decrease, to buy"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afnemen",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "neem af",
+            "jij": "neemt af",
+            "hij": "neemt af",
+            "wij": "nemen af",
+            "jullie": "nemen af",
+            "zij": "nemen af"
+          },
+          "past": {
+            "singular": "nam af",
+            "plural": "namen af"
+          },
+          "pastParticiple": "afgenomen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het aantal neemt af.",
+        "Ik neem een abonnement af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "数量在减少。",
+          "我订阅一份。"
+        ],
+        "english": [
+          "The number decreases.",
+          "I take a subscription."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，不规则动词：nemen - neemt - nam - namen - heeft - genomen，固定搭配：afnemen（减少/购买）"
+    },
+    {
+      "id": 3204,
+      "word": "afnemer",
+      "translation": {
+        "chinese": "客户",
+        "english": "customer, client"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "afnemer",
+          "plural": "afnemers",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De afnemer is tevreden.",
+        "Wij hebben veel afnemers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "客户很满意。",
+          "我们有很多客户。"
+        ],
+        "english": [
+          "The customer is satisfied.",
+          "We have many clients."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 afnemen（购买），复数形式为 afnemers"
+    },
+    {
+      "id": 3205,
+      "word": "afslaan",
+      "translation": {
+        "chinese": "拒绝,转弯",
+        "english": "to reject, to turn off"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afslaan",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "sla af",
+            "jij": "slaat af",
+            "hij": "slaat af",
+            "wij": "slaan af",
+            "jullie": "slaan af",
+            "zij": "slaan af"
+          },
+          "past": {
+            "singular": "sloeg af",
+            "plural": "sloegen af"
+          },
+          "pastParticiple": "afgeslagen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij sloeg het aanbod af.",
+        "Sla rechts af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他拒绝了提议。",
+          "右转。"
+        ],
+        "english": [
+          "He rejected the offer.",
+          "Turn right."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，不规则动词：slaan - slaat - sloeg - sloegen - heeft - geslagen，固定搭配：afslaan（拒绝/转弯）"
+    },
+    {
+      "id": 3206,
+      "word": "afslag",
+      "translation": {
+        "chinese": "出口,折扣",
+        "english": "exit, discount"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "afslag",
+          "plural": "afslagen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Neem de afslag.",
+        "Er is korting op de afslag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "走出口。",
+          "出口有折扣。"
+        ],
+        "english": [
+          "Take the exit.",
+          "There is discount at exit."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 afslaan（转弯），复数形式为 afslagen"
+    },
+    {
+      "id": 3207,
+      "word": "afstaan",
+      "translation": {
+        "chinese": "让出",
+        "english": "to give up, to cede"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afstaan",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "sta af",
+            "jij": "staat af",
+            "hij": "staat af",
+            "wij": "staan af",
+            "jullie": "staan af",
+            "zij": "staan af"
+          },
+          "past": {
+            "singular": "stond af",
+            "plural": "stonden af"
+          },
+          "pastParticiple": "afgestaan",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik sta mijn plek af.",
+        "Hij staat het recht af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我让出我的位置。",
+          "他让出权利。"
+        ],
+        "english": [
+          "I give up my place.",
+          "He cedes the right."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，不规则动词：staan - staat - stond - stonden - heeft - gestaan，固定搭配：afstaan aan（让出给...）"
+    },
+    {
+      "id": 3208,
+      "word": "afvoer",
+      "translation": {
+        "chinese": "排水",
+        "english": "drainage, outlet"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "afvoer",
+          "plural": "afvoeren",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De afvoer is verstopt.",
+        "Er is een afvoer nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "排水堵塞了。",
+          "需要排水。"
+        ],
+        "english": [
+          "The drainage is blocked.",
+          "There is need for drainage."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 afvoeren（排出），复数形式为 afvoeren"
+    },
+    {
+      "id": 3209,
+      "word": "afvuren",
+      "translation": {
+        "chinese": "开火",
+        "english": "to fire, to shoot"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afvuren",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "vuur af",
+            "jij": "vuurt af",
+            "hij": "vuurt af",
+            "wij": "vuren af",
+            "jullie": "vuren af",
+            "zij": "vuren af"
+          },
+          "past": {
+            "singular": "vuurde af",
+            "plural": "vuurden af"
+          },
+          "pastParticiple": "afgevuurd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het leger vuurde af.",
+        "Vuurt het kanon af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "军队开火了。",
+          "开炮。"
+        ],
+        "english": [
+          "The army fired.",
+          "Fire the cannon."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，固定搭配：afvuren op（向...开火）"
+    },
+    {
+      "id": 3210,
+      "word": "afwegen",
+      "translation": {
+        "chinese": "权衡",
+        "english": "to weigh, to consider"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afwegen",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "weeg af",
+            "jij": "weegt af",
+            "hij": "weegt af",
+            "wij": "wegen af",
+            "jullie": "wegen af",
+            "zij": "wegen af"
+          },
+          "past": {
+            "singular": "woog af",
+            "plural": "wogen af"
+          },
+          "pastParticiple": "afgewogen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Weeg de voor- en nadelen af.",
+        "Ik weeg mijn opties af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "权衡利弊。",
+          "我权衡我的选择。"
+        ],
+        "english": [
+          "Weigh the pros and cons.",
+          "I weigh my options."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，不规则动词：wegen - weegt - woog - wogen - heeft - gewogen"
+    },
+    {
+      "id": 3211,
+      "word": "afweren",
+      "translation": {
+        "chinese": "击退",
+        "english": "to ward off, to repel"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afweren",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "weer af",
+            "jij": "weert af",
+            "hij": "weert af",
+            "wij": "weren af",
+            "jullie": "weren af",
+            "zij": "weren af"
+          },
+          "past": {
+            "singular": "weerde af",
+            "plural": "weerden af"
+          },
+          "pastParticiple": "afgeweerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij weerde de aanval af.",
+        "Weer het kwaad af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他击退了攻击。",
+          "击退邪恶。"
+        ],
+        "english": [
+          "He repelled the attack.",
+          "Ward off evil."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，不规则动词：weren - weert - weerde - weerden - heeft - geweerd，固定搭配：afweren（击退）"
+    },
+    {
+      "id": 3212,
+      "word": "afweten",
+      "translation": {
+        "chinese": "知晓",
+        "english": "to know, to be aware"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afweten",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "weet af",
+            "jij": "weet af",
+            "hij": "weet af",
+            "wij": "weten af",
+            "jullie": "weten af",
+            "zij": "weten af"
+          },
+          "past": {
+            "singular": "wist af",
+            "plural": "wisten af"
+          },
+          "pastParticiple": "afgeweten",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik weet het af.",
+        "Weet jij er van af?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我知道这个。",
+          "你知道这件事吗？"
+        ],
+        "english": [
+          "I know about it.",
+          "Do you know about this?"
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，不规则动词：weten - weet - wist - wisten - heeft - geweten，固定搭配：afweten（知道）"
+    },
+    {
+      "id": 3213,
+      "word": "afwezig",
+      "translation": {
+        "chinese": "缺席的",
+        "english": "absent"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "afwezig",
+          "withDe": "afwezige",
+          "withHet": "afwezig",
+          "comparative": "afweziger",
+          "superlative": "afwezigst"
+        }
+      },
+      "examples": [
+        "Hij is afwezig.",
+        "Zij was afwezig op de vergadering."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他缺席了。",
+          "她没参加会议。"
+        ],
+        "english": [
+          "He is absent.",
+          "She was absent at the meeting."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "aanwezig（在场的）的反义词，比较级和最高级规则：afwezig - afweziger - afwezigst"
+    },
+    {
+      "id": 3214,
+      "word": "afzien",
+      "translation": {
+        "chinese": "放弃",
+        "english": "to give up, to refrain"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "afzien",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "zie af",
+            "jij": "ziet af",
+            "hij": "ziet af",
+            "wij": "zien af",
+            "jullie": "zien af",
+            "zij": "zien af"
+          },
+          "past": {
+            "singular": "zag af",
+            "plural": "zagen af"
+          },
+          "pastParticiple": "afgezien",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij zag af van het plan.",
+        "Ik zie er van af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他放弃了这个计划。",
+          "我放弃了这个。"
+        ],
+        "english": [
+          "He gave up the plan.",
+          "I refrain from this."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，不规则动词：zien - ziet - zag - zagen - heeft - gezien，固定搭配：afzien van（放弃...）"
+    },
+    {
+      "id": 3215,
+      "word": "alinea",
+      "translation": {
+        "chinese": "段落",
+        "english": "paragraph"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "alinea",
+          "plural": "alinea's",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Lees de eerste alinea.",
+        "De alinea is lang."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "阅读第一段。",
+          "这段很长。"
+        ],
+        "english": [
+          "Read the first paragraph.",
+          "The paragraph is long."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "写作常用词，复数形式为 alinea's"
+    }
+  ]
+}

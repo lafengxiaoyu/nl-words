@@ -1,0 +1,1136 @@
+{
+  "id": "lB135",
+  "level": "B1",
+  "lessonNumber": 35,
+  "totalWords": 30,
+  "words": [
+    {
+      "id": 3301,
+      "word": "beslaan",
+      "translation": {
+        "chinese": "覆盖,占地",
+        "english": "to cover, to occupy"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "beslaan",
+          "isSeparable": false,
+          "present": {
+            "ik": "besla",
+            "jij": "beslaat",
+            "hij": "beslaat",
+            "wij": "beslaan",
+            "jullie": "beslaan",
+            "zij": "beslaan"
+          },
+          "past": {
+            "singular": "besloeg",
+            "plural": "besloegen"
+          },
+          "pastParticiple": "beslagen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het ijs beslaat het meer.",
+        "Het park beslaat een groot gebied."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "冰覆盖着湖面。",
+          "公园占地很大。"
+        ],
+        "english": [
+          "The ice covers the lake.",
+          "The park occupies a large area."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词，过去式为 besloeg/besloegen"
+    },
+    {
+      "id": 3302,
+      "word": "beslag",
+      "translation": {
+        "chinese": "面糊,没收",
+        "english": "batter, seizure"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "beslag",
+          "plural": "beslagen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Maak het beslag voor de pannenkoeken.",
+        "Er is beslag gelegd op zijn bezit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "做薄饼的面糊。",
+          "他的财产被没收了。"
+        ],
+        "english": [
+          "Make the batter for the pancakes.",
+          "His property has been seized."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 beslagen，法律词汇"
+    },
+    {
+      "id": 3303,
+      "word": "beslist",
+      "translation": {
+        "chinese": "决然的",
+        "english": "decisive, determined"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beslist",
+          "withDe": "besliste",
+          "withHet": "beslist",
+          "comparative": "beslist",
+          "superlative": "beslist"
+        }
+      },
+      "examples": [
+        "Hij is een beslist man.",
+        "Een beslist antwoord."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是一个果断的人。",
+          "一个坚决的回答。"
+        ],
+        "english": [
+          "He is a decisive man.",
+          "A determined answer."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 beslissen（决定），无比较级"
+    },
+    {
+      "id": 3304,
+      "word": "bestaan",
+      "translation": {
+        "chinese": "存在",
+        "english": "to exist"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bestaan",
+          "isSeparable": false,
+          "present": {
+            "ik": "besta",
+            "jij": "bestaat",
+            "hij": "bestaat",
+            "wij": "bestaan",
+            "jullie": "bestaan",
+            "zij": "bestaan"
+          },
+          "past": {
+            "singular": "bestond",
+            "plural": "bestonden"
+          },
+          "pastParticiple": "bestaan",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Het probleem bestaat niet.",
+        "Wij bestaan al jaren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个问题不存在。",
+          "我们已经存在多年了。"
+        ],
+        "english": [
+          "The problem does not exist.",
+          "We have existed for years."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词，用zijn作助动词"
+    },
+    {
+      "id": 3305,
+      "word": "bestand",
+      "translation": {
+        "chinese": "文件,耐受的",
+        "english": "file, resistant"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bestand",
+          "plural": "bestanden",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Open het bestand.",
+        "Sla het bestand op."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "打开文件。",
+          "保存文件。"
+        ],
+        "english": [
+          "Open the file.",
+          "Save the file."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bestanden"
+    },
+    {
+      "id": 3306,
+      "word": "bestek",
+      "translation": {
+        "chinese": "餐具,规模",
+        "english": "cutlery, scope"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bestek",
+          "plural": "besteken",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het bestek ligt op tafel.",
+        "In het bestek van een uur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "餐具在桌子上。",
+          "在一小时内。"
+        ],
+        "english": [
+          "The cutlery is on the table.",
+          "Within the scope of an hour."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 besteken"
+    },
+    {
+      "id": 3307,
+      "word": "betogen",
+      "translation": {
+        "chinese": "论证,示威",
+        "english": "to argue, to demonstrate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "betogen",
+          "isSeparable": false,
+          "present": {
+            "ik": "betoog",
+            "jij": "betoogt",
+            "hij": "betoogt",
+            "wij": "betogen",
+            "jullie": "betogen",
+            "zij": "betogen"
+          },
+          "past": {
+            "singular": "betoogde",
+            "plural": "betoogden"
+          },
+          "pastParticiple": "betoogd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij betoogt zijn punt.",
+        "Zij betogen tegen het plan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他论证他的观点。",
+          "她们反对这个计划。"
+        ],
+        "english": [
+          "He argues his point.",
+          "They demonstrate against the plan."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3308,
+      "word": "betoog",
+      "translation": {
+        "chinese": "演讲,论述",
+        "english": "argument, speech"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "betoog",
+          "plural": "betogen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Zijn betoog was sterk.",
+        "Hield een betoog."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的论述很有力。",
+          "发表演讲。"
+        ],
+        "english": [
+          "His argument was strong.",
+          "Gave a speech."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 betogen"
+    },
+    {
+      "id": 3309,
+      "word": "beugel",
+      "translation": {
+        "chinese": "支架,牙套",
+        "english": "bracket, brace"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "beugel",
+          "plural": "beugels",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De beugel voor het boek.",
+        "Zij draagt een beugel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "书的支架。",
+          "她戴着牙套。"
+        ],
+        "english": [
+          "The bracket for the book.",
+          "She wears a brace."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 beugels"
+    },
+    {
+      "id": 3310,
+      "word": "beuken",
+      "translation": {
+        "chinese": "山毛榉,猛击",
+        "english": "beech tree, to pound"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "beuken",
+          "isSeparable": false,
+          "present": {
+            "ik": "beuk",
+            "jij": "beukt",
+            "hij": "beukt",
+            "wij": "beuken",
+            "jullie": "beuken",
+            "zij": "beuken"
+          },
+          "past": {
+            "singular": "beukte",
+            "plural": "beukten"
+          },
+          "pastParticiple": "beukt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij beukt de deur.",
+        "De storm beukt tegen het huis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他猛击门。",
+          "暴风雨拍打着房子。"
+        ],
+        "english": [
+          "He pounds the door.",
+          "The storm pounds against the house."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，名词意义指山毛榉"
+    },
+    {
+      "id": 3311,
+      "word": "bevelen",
+      "translation": {
+        "chinese": "命令",
+        "english": "to command, to order"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bevelen",
+          "isSeparable": false,
+          "present": {
+            "ik": "beveel",
+            "jij": "beveelt",
+            "hij": "beveelt",
+            "wij": "bevelen",
+            "jullie": "bevelen",
+            "zij": "bevelen"
+          },
+          "past": {
+            "singular": "beval",
+            "plural": "bevielen"
+          },
+          "pastParticiple": "bevolen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De kapitein beveelt.",
+        "Hij beveelt ons te werken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "船长下令。",
+          "他命令我们工作。"
+        ],
+        "english": [
+          "The captain commands.",
+          "He orders us to work."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3312,
+      "word": "bevoegd",
+      "translation": {
+        "chinese": "有权的,合格的",
+        "english": "authorized, qualified"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bevoegd",
+          "withDe": "bevoegde",
+          "withHet": "bevoegd",
+          "comparative": "bevoegd",
+          "superlative": "bevoegd"
+        }
+      },
+      "examples": [
+        "Hij is bevoegd.",
+        "Een bevoegd persoon."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他有权限。",
+          "一位合格的人员。"
+        ],
+        "english": [
+          "He is authorized.",
+          "A qualified person."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 bevoegen（授权），无比较级"
+    },
+    {
+      "id": 3313,
+      "word": "bewaken",
+      "translation": {
+        "chinese": "看守",
+        "english": "to guard, to watch"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bewaken",
+          "isSeparable": false,
+          "present": {
+            "ik": "bewaak",
+            "jij": "bewaakt",
+            "hij": "bewaakt",
+            "wij": "bewaken",
+            "jullie": "bewaken",
+            "zij": "bewaken"
+          },
+          "past": {
+            "singular": "bewaakte",
+            "plural": "bewaakten"
+          },
+          "pastParticiple": "bewaakt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij bewaakt de poort.",
+        "Zij bewaakt het gebouw."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他看守大门。",
+          "她看守这栋楼。"
+        ],
+        "english": [
+          "He guards the gate.",
+          "She watches the building."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3314,
+      "word": "bewaker",
+      "translation": {
+        "chinese": "警卫",
+        "english": "guard, watchman"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bewaker",
+          "plural": "bewakers",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De bewaker staat bij de deur.",
+        "Een strenge bewaker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "警卫站在门口。",
+          "一个严厉的警卫。"
+        ],
+        "english": [
+          "The guard stands at the door.",
+          "A strict guard."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bewakers"
+    },
+    {
+      "id": 3315,
+      "word": "bewaren",
+      "translation": {
+        "chinese": "保存",
+        "english": "to keep, to store"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bewaren",
+          "isSeparable": false,
+          "present": {
+            "ik": "bewaar",
+            "jij": "bewaart",
+            "hij": "bewaart",
+            "wij": "bewaren",
+            "jullie": "bewaren",
+            "zij": "bewaren"
+          },
+          "past": {
+            "singular": "bewaarde",
+            "plural": "bewaarden"
+          },
+          "pastParticiple": "bewaard",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Bewaar het voedsel koel.",
+        "Zij bewaart haar sieraden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "把食物冷藏保存。",
+          "她保存她的首饰。"
+        ],
+        "english": [
+          "Keep the food cool.",
+          "She stores her jewelry."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3316,
+      "word": "bewegen",
+      "translation": {
+        "chinese": "移动",
+        "english": "to move, to exercise"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bewegen",
+          "isSeparable": false,
+          "present": {
+            "ik": "beweeg",
+            "jij": "beweegt",
+            "hij": "beweegt",
+            "wij": "bewegen",
+            "jullie": "bewegen",
+            "zij": "bewegen"
+          },
+          "past": {
+            "singular": "bewoog",
+            "plural": "bewogen"
+          },
+          "pastParticiple": "bewogen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij beweegt zich veel.",
+        "Beweeg de stoel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他经常活动。",
+          "移动椅子。"
+        ],
+        "english": [
+          "He exercises a lot.",
+          "Move the chair."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3317,
+      "word": "beweren",
+      "translation": {
+        "chinese": "声称",
+        "english": "to claim, to assert"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "beweren",
+          "isSeparable": false,
+          "present": {
+            "ik": "beweer",
+            "jij": "beweert",
+            "hij": "beweert",
+            "wij": "beweren",
+            "jullie": "beweren",
+            "zij": "beweren"
+          },
+          "past": {
+            "singular": "beweerde",
+            "plural": "beweerden"
+          },
+          "pastParticiple": "beweerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij beweert dat hij weet.",
+        "Zij beweren het niet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他声称他知道。",
+          "她们声称不是。"
+        ],
+        "english": [
+          "He claims that he knows.",
+          "They claim it is not true."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3318,
+      "word": "bewijs",
+      "translation": {
+        "chinese": "证据",
+        "english": "proof, evidence"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bewijs",
+          "plural": "bewijzen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Geef me bewijs.",
+        "Er is geen bewijs."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "给我证据。",
+          "没有证据。"
+        ],
+        "english": [
+          "Give me proof.",
+          "There is no evidence."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bewijzen"
+    },
+    {
+      "id": 3319,
+      "word": "bewind",
+      "translation": {
+        "chinese": "政府,政权",
+        "english": "government, regime"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bewind",
+          "plural": "bewinden",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het nieuwe bewind.",
+        "Het bewind valt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "新政府。",
+          "政府倒台。"
+        ],
+        "english": [
+          "The new government.",
+          "The regime falls."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bewinden"
+    },
+    {
+      "id": 3320,
+      "word": "bewogen",
+      "translation": {
+        "chinese": "激动的,动荡的",
+        "english": "moved, turbulent"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bewogen",
+          "withDe": "bewogen",
+          "withHet": "bewogen",
+          "comparative": "bewogen",
+          "superlative": "bewogen"
+        }
+      },
+      "examples": [
+        "Hij was bewogen.",
+        "Een bewogen geschiedenis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很感动。",
+          "动荡的历史。"
+        ],
+        "english": [
+          "He was moved.",
+          "A turbulent history."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 bewegen（移动/感动），无比较级"
+    },
+    {
+      "id": 3321,
+      "word": "bewolkt",
+      "translation": {
+        "chinese": "多云的",
+        "english": "cloudy"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bewolkt",
+          "withDe": "bewolkte",
+          "withHet": "bewolkt",
+          "comparative": "bewolkter",
+          "superlative": "bewolkst"
+        }
+      },
+      "examples": [
+        "Het is bewolkt.",
+        "Een bewolkte dag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "天气多云。",
+          "阴天。"
+        ],
+        "english": [
+          "It is cloudy.",
+          "A cloudy day."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：bewolkt - bewolkter - bewolkst"
+    },
+    {
+      "id": 3322,
+      "word": "bewoner",
+      "translation": {
+        "chinese": "居民",
+        "english": "resident, inhabitant"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bewoner",
+          "plural": "bewoners",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De bewoners klagen.",
+        "Een nieuwe bewoner."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "居民投诉。",
+          "新居民。"
+        ],
+        "english": [
+          "The residents complain.",
+          "A new resident."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bewoners"
+    },
+    {
+      "id": 3323,
+      "word": "bewust",
+      "translation": {
+        "chinese": "意识到的",
+        "english": "aware, conscious"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bewust",
+          "withDe": "bewuste",
+          "withHet": "bewust",
+          "comparative": "bewuster",
+          "superlative": "bewustst"
+        }
+      },
+      "examples": [
+        "Ik ben me bewust.",
+        "Zij is bewust van het risico."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我意识到了。",
+          "她意识到风险。"
+        ],
+        "english": [
+          "I am aware.",
+          "She is conscious of the risk."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：bewust - bewuster - bewustst"
+    },
+    {
+      "id": 3324,
+      "word": "bezien",
+      "translation": {
+        "chinese": "查看",
+        "english": "to view, to examine"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bezien",
+          "isSeparable": false,
+          "present": {
+            "ik": "bezien",
+            "jij": "beziet",
+            "hij": "beziet",
+            "wij": "bezien",
+            "jullie": "bezien",
+            "zij": "bezien"
+          },
+          "past": {
+            "singular": "bezag",
+            "plural": "bezagen"
+          },
+          "pastParticiple": "bezag",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Bezien we het probleem.",
+        "Hij bezie het huis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们看看这个问题。",
+          "他查看房子。"
+        ],
+        "english": [
+          "Let us view the problem.",
+          "He examines the house."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3325,
+      "word": "bezorgd",
+      "translation": {
+        "chinese": "担心的",
+        "english": "worried, concerned"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bezorgd",
+          "withDe": "bezorgde",
+          "withHet": "bezorgd",
+          "comparative": "bezorgder",
+          "superlative": "bezorgdst"
+        }
+      },
+      "examples": [
+        "Ik ben bezorgd.",
+        "Zij is bezorgd om hem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我很担心。",
+          "她担心他。"
+        ],
+        "english": [
+          "I am worried.",
+          "She is concerned about him."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 bezorgen（投递/使担忧），比较级和最高级规则：bezorgd - bezorgder - bezorgdst"
+    },
+    {
+      "id": 3326,
+      "word": "bezwaar",
+      "translation": {
+        "chinese": "反对",
+        "english": "objection, complaint"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bezwaar",
+          "plural": "bezwaren",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Heb je bezwaar?",
+        "Er is geen bezwaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你反对吗？",
+          "没有异议。"
+        ],
+        "english": [
+          "Do you have any objection?",
+          "There is no objection."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bezwaren"
+    },
+    {
+      "id": 3327,
+      "word": "bidden",
+      "translation": {
+        "chinese": "祈祷",
+        "english": "to pray"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bidden",
+          "isSeparable": false,
+          "present": {
+            "ik": "bid",
+            "jij": "bidt",
+            "hij": "bidt",
+            "wij": "bidden",
+            "jullie": "bidden",
+            "zij": "bidden"
+          },
+          "past": {
+            "singular": "bad",
+            "plural": "baden"
+          },
+          "pastParticiple": "gebeden",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij bidt elke dag.",
+        "Wij bidden voor vrede."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他每天祈祷。",
+          "我们祈祷和平。"
+        ],
+        "english": [
+          "He prays every day.",
+          "We pray for peace."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3328,
+      "word": "bieden",
+      "translation": {
+        "chinese": "提供,出价",
+        "english": "to offer, to bid"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bieden",
+          "isSeparable": false,
+          "present": {
+            "ik": "bied",
+            "jij": "biedt",
+            "hij": "biedt",
+            "wij": "bieden",
+            "jullie": "bieden",
+            "zij": "bieden"
+          },
+          "past": {
+            "singular": "bood",
+            "plural": "boden"
+          },
+          "pastParticiple": "geboden",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij biedt hulp.",
+        "Zij bieden een goede prijs."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他提供帮助。",
+          "她们出个好价钱。"
+        ],
+        "english": [
+          "He offers help.",
+          "They bid a good price."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3329,
+      "word": "bijlage",
+      "translation": {
+        "chinese": "附件",
+        "english": "attachment, enclosure"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bijlage",
+          "plural": "bijlagen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Kijk de bijlage.",
+        "Voeg een bijlage toe."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "查看附件。",
+          "添加附件。"
+        ],
+        "english": [
+          "Check the attachment.",
+          "Add an attachment."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bijlagen"
+    },
+    {
+      "id": 3330,
+      "word": "bijnaam",
+      "translation": {
+        "chinese": "绰号",
+        "english": "nickname"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bijnaam",
+          "plural": "bijnamen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Zijn bijnaam is Piet.",
+        "Een leuke bijnaam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的绰号是Piet。",
+          "一个有趣的绰号。"
+        ],
+        "english": [
+          "His nickname is Piet.",
+          "A nice nickname."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bijnamen"
+    }
+  ]
+}

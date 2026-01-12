@@ -1,0 +1,1058 @@
+{
+  "id": "lB139",
+  "level": "B1",
+  "lessonNumber": 39,
+  "totalWords": 30,
+  "words": [
+    {
+      "id": 3421,
+      "word": "kroost",
+      "translation": {
+        "chinese": "后代",
+        "english": "offspring, brood"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "kroost",
+          "plural": "kroost",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hun kroost is groot.",
+        "De kroost groeit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他们的孩子很多。",
+          "孩子们在成长。"
+        ],
+        "english": [
+          "Their offspring is large.",
+          "The brood grows."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式相同，较正式用语"
+    },
+    {
+      "id": 3422,
+      "word": "kruipen",
+      "translation": {
+        "chinese": "爬行",
+        "english": "to crawl, to creep"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kruipen",
+          "isSeparable": false,
+          "present": {
+            "ik": "kruip",
+            "jij": "kruipt",
+            "hij": "kruipt",
+            "wij": "kruipen",
+            "jullie": "kruipen",
+            "zij": "kruipen"
+          },
+          "past": {
+            "singular": "kroop",
+            "plural": "kropen"
+          },
+          "pastParticiple": "gekropen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De baby kruip.",
+        "Kruip naar voren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "婴儿爬行。",
+          "向前爬。"
+        ],
+        "english": [
+          "The baby crawls.",
+          "Crawl forward."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词，用zijn作助动词"
+    },
+    {
+      "id": 3423,
+      "word": "kruisen",
+      "translation": {
+        "chinese": "交叉",
+        "english": "to cross, to intersect"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kruisen",
+          "isSeparable": false,
+          "present": {
+            "ik": "kruis",
+            "jij": "kruist",
+            "hij": "kruist",
+            "wij": "kruisen",
+            "jullie": "kruisen",
+            "zij": "kruisen"
+          },
+          "past": {
+            "singular": "kruiste",
+            "plural": "kruisten"
+          },
+          "pastParticiple": "gekruist",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De wegen kruisen.",
+        "Kruis je vingers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "道路交叉。",
+          "交叉手指（祈祷好运）。"
+        ],
+        "english": [
+          "The roads intersect.",
+          "Cross your fingers."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3424,
+      "word": "kuipje",
+      "translation": {
+        "chinese": "小盒,小桶",
+        "english": "small tub, small container"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "kuipje",
+          "plural": "kuipjes",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het kuipje is vol.",
+        "Een klein kuipje."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "小盒子满了。",
+          "一个小容器。"
+        ],
+        "english": [
+          "The small tub is full.",
+          "A small container."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "小称形式，复数为 kuipjes"
+    },
+    {
+      "id": 3425,
+      "word": "kunnen",
+      "translation": {
+        "chinese": "能够",
+        "english": "can, to be able to"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kunnen",
+          "isSeparable": false,
+          "present": {
+            "ik": "kan",
+            "jij": "kunt",
+            "hij": "kan",
+            "wij": "kunnen",
+            "jullie": "kunnen",
+            "zij": "kunnen"
+          },
+          "past": {
+            "singular": "kon",
+            "plural": "konden"
+          },
+          "pastParticiple": "gekund",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik kan het.",
+        "Kun jij komen?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我能做到。",
+          "你能来吗？"
+        ],
+        "english": [
+          "I can do it.",
+          "Can you come?"
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词，最常用的情态动词"
+    },
+    {
+      "id": 3426,
+      "word": "kussen",
+      "translation": {
+        "chinese": "亲吻,枕头",
+        "english": "to kiss, pillow"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "kussen",
+          "isSeparable": false,
+          "present": {
+            "ik": "kus",
+            "jij": "kust",
+            "hij": "kust",
+            "wij": "kussen",
+            "jullie": "kussen",
+            "zij": "kussen"
+          },
+          "past": {
+            "singular": "kuste",
+            "plural": "kusten"
+          },
+          "pastParticiple": "gekust",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij kust haar.",
+        "Zij kussen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他亲吻她。",
+          "她们亲吻。"
+        ],
+        "english": [
+          "He kisses her.",
+          "They kiss."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3427,
+      "word": "kwalijk",
+      "translation": {
+        "chinese": "有害的",
+        "english": "harmful, bad"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "kwalijk",
+          "withDe": "kwalijke",
+          "withHet": "kwalijk",
+          "comparative": "kwalijker",
+          "superlative": "kwalijkst"
+        }
+      },
+      "examples": [
+        "Het is kwalijk.",
+        "Een kwalijke zaak."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这有害。",
+          "一件坏事。"
+        ],
+        "english": [
+          "It is harmful.",
+          "A bad matter."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：kwalijk - kwalijker - kwalijkst"
+    },
+    {
+      "id": 3428,
+      "word": "omheen",
+      "translation": {
+        "chinese": "围绕",
+        "english": "around, surrounding"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Loop omheen.",
+        "Het gras omheen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "绕着走。",
+          "周围的草。"
+        ],
+        "english": [
+          "Walk around.",
+          "The grass around."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "介词，表示围绕"
+    },
+    {
+      "id": 3429,
+      "word": "omkeren",
+      "translation": {
+        "chinese": "转向",
+        "english": "to turn, to reverse"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "omkeren",
+          "isSeparable": true,
+          "present": {
+            "ik": "keer om",
+            "jij": "keert om",
+            "hij": "keert om",
+            "wij": "keren om",
+            "jullie": "keren om",
+            "zij": "keren om"
+          },
+          "past": {
+            "singular": "keerde om",
+            "plural": "keerden om"
+          },
+          "pastParticiple": "omgekeerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Keer om.",
+        "De auto keert om."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "掉头。",
+          "汽车掉头。"
+        ],
+        "english": [
+          "Turn around.",
+          "The car turns."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词"
+    },
+    {
+      "id": 3430,
+      "word": "omkomen",
+      "translation": {
+        "chinese": "丧生",
+        "english": "to perish, to die"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "omkomen",
+          "isSeparable": true,
+          "present": {
+            "ik": "kom om",
+            "jij": "komt om",
+            "hij": "komt om",
+            "wij": "komen om",
+            "jullie": "komen om",
+            "zij": "komen om"
+          },
+          "past": {
+            "singular": "kwam om",
+            "plural": "kwamen om"
+          },
+          "pastParticiple": "omgekomen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Hij is omgekomen.",
+        "Velen zijn omgekomen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他去世了。",
+          "很多人丧生了。"
+        ],
+        "english": [
+          "He perished.",
+          "Many people died."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，用zijn作助动词"
+    },
+    {
+      "id": 3431,
+      "word": "omkopen",
+      "translation": {
+        "chinese": "贿赂",
+        "english": "to bribe"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "omkopen",
+          "isSeparable": true,
+          "present": {
+            "ik": "koop om",
+            "jij": "koopt om",
+            "hij": "koopt om",
+            "wij": "kopen om",
+            "jullie": "kopen om",
+            "zij": "kopen om"
+          },
+          "past": {
+            "singular": "kocht om",
+            "plural": "kochten om"
+          },
+          "pastParticiple": "omgekocht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij koopt hem om.",
+        "Zij kopen om."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他贿赂他。",
+          "她们贿赂。"
+        ],
+        "english": [
+          "He bribes him.",
+          "They bribe."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词"
+    },
+    {
+      "id": 3432,
+      "word": "omlopen",
+      "translation": {
+        "chinese": "绕道",
+        "english": "to detour, to go around"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "omlopen",
+          "isSeparable": true,
+          "present": {
+            "ik": "loop om",
+            "jij": "loopt om",
+            "hij": "loopt om",
+            "wij": "lopen om",
+            "jullie": "lopen om",
+            "zij": "lopen om"
+          },
+          "past": {
+            "singular": "liep om",
+            "plural": "liepen om"
+          },
+          "pastParticiple": "omgelopen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Loop om de bocht.",
+        "Wij lopen om."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "绕过弯道。",
+          "我们绕道。"
+        ],
+        "english": [
+          "Go around the bend.",
+          "We detour."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，用zijn作助动词"
+    },
+    {
+      "id": 3433,
+      "word": "omroep",
+      "translation": {
+        "chinese": "广播",
+        "english": "broadcast, announcement"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "omroep",
+          "plural": "omroepen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De omroep is duidelijk.",
+        "Luister naar de omroep."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "广播很清楚。",
+          "听广播。"
+        ],
+        "english": [
+          "The broadcast is clear.",
+          "Listen to the announcement."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 omroepen"
+    },
+    {
+      "id": 3434,
+      "word": "omslaan",
+      "translation": {
+        "chinese": "翻转,突然改变",
+        "english": "to turn over, to change"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "omslaan",
+          "isSeparable": true,
+          "present": {
+            "ik": "sla om",
+            "jij": "slaat om",
+            "hij": "slaat om",
+            "wij": "slaan om",
+            "jullie": "slaan om",
+            "zij": "slaan om"
+          },
+          "past": {
+            "singular": "sloeg om",
+            "plural": "sloegen om"
+          },
+          "pastParticiple": "omgeslagen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Sla de pagina om.",
+        "Het weer slaat om."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "翻页。",
+          "天气突然变了。"
+        ],
+        "english": [
+          "Turn the page.",
+          "The weather changes."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词，用zijn作助动词"
+    },
+    {
+      "id": 3435,
+      "word": "omslag",
+      "translation": {
+        "chinese": "封面,转变",
+        "english": "cover, turn"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "omslag",
+          "plural": "omslagen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De omslag is mooi.",
+        "Een snelle omslag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "封面很美。",
+          "快速转变。"
+        ],
+        "english": [
+          "The cover is beautiful.",
+          "A quick turn."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 omslagen"
+    },
+    {
+      "id": 3436,
+      "word": "omtrent",
+      "translation": {
+        "chinese": "关于",
+        "english": "about, concerning"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Omtrent dit onderwerp.",
+        "Vragen omtrent het plan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "关于这个主题。",
+          "关于计划的问题。"
+        ],
+        "english": [
+          "About this subject.",
+          "Questions concerning the plan."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "介词，较正式用法"
+    },
+    {
+      "id": 3437,
+      "word": "omvang",
+      "translation": {
+        "chinese": "范围,规模",
+        "english": "scope, size, scale"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "omvang",
+          "plural": "omvangen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De omvang is groot.",
+        "Meet de omvang."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "规模很大。",
+          "测量范围。"
+        ],
+        "english": [
+          "The scope is big.",
+          "Measure the size."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 omvangen"
+    },
+    {
+      "id": 3438,
+      "word": "omzagen",
+      "translation": {
+        "chinese": "锯掉",
+        "english": "to saw off"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "omzagen",
+          "isSeparable": true,
+          "present": {
+            "ik": "zag om",
+            "jij": "zaagt om",
+            "hij": "zaagt om",
+            "wij": "zagen om",
+            "jullie": "zagen om",
+            "zij": "zagen om"
+          },
+          "past": {
+            "singular": "zaagde om",
+            "plural": "zaagden om"
+          },
+          "pastParticiple": "omgezaagd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zag de tak om.",
+        "Zagen om."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "锯掉树枝。",
+          "锯掉。"
+        ],
+        "english": [
+          "Saw off the branch.",
+          "Saw it off."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词"
+    },
+    {
+      "id": 3439,
+      "word": "ondanks",
+      "translation": {
+        "chinese": "尽管",
+        "english": "despite, in spite of"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Ondanks het regen.",
+        "Ondanks alles."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "尽管下雨。",
+          "尽管一切。"
+        ],
+        "english": [
+          "Despite the rain.",
+          "In spite of everything."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "介词，表示让步"
+    },
+    {
+      "id": 3440,
+      "word": "onderaf",
+      "translation": {
+        "chinese": "从下面",
+        "english": "from below"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Kom onderaf.",
+        "Licht van onderaf."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "从下面来。",
+          "从下方的光。"
+        ],
+        "english": [
+          "Come from below.",
+          "Light from below."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，表示方向"
+    },
+    {
+      "id": 3441,
+      "word": "onderop",
+      "translation": {
+        "chinese": "在最下面",
+        "english": "at the bottom"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Het ligt onderop.",
+        "Zet het onderop."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "它在最底下。",
+          "把它放在最下面。"
+        ],
+        "english": [
+          "It lies at the bottom.",
+          "Put it at the bottom."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，表示位置"
+    },
+    {
+      "id": 3442,
+      "word": "ongemak",
+      "translation": {
+        "chinese": "不便",
+        "english": "inconvenience"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "ongemak",
+          "plural": "ongemakken",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Sorry voor het ongemak.",
+        "Het ongemak is klein."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "不便之处请见谅。",
+          "不便很小。"
+        ],
+        "english": [
+          "Sorry for the inconvenience.",
+          "The inconvenience is small."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 ongemakken"
+    },
+    {
+      "id": 3443,
+      "word": "tendens",
+      "translation": {
+        "chinese": "趋势",
+        "english": "tendency, trend"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "tendens",
+          "plural": "tendenzen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De tendens is positief.",
+        "Volg de tendens."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "趋势是积极的。",
+          "跟随趋势。"
+        ],
+        "english": [
+          "The tendency is positive.",
+          "Follow the trend."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 tendenzen"
+    },
+    {
+      "id": 3444,
+      "word": "teneur",
+      "translation": {
+        "chinese": "大意,基调",
+        "english": "gist, tone"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "teneur",
+          "plural": "teneuren",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De teneur is positief.",
+        "In die teneur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "基调是积极的。",
+          "用那种基调。"
+        ],
+        "english": [
+          "The tone is positive.",
+          "In that tone."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 teneuren"
+    },
+    {
+      "id": 3445,
+      "word": "tenzij",
+      "translation": {
+        "chinese": "除非",
+        "english": "unless"
+      },
+      "partOfSpeech": "conjunction",
+      "forms": {},
+      "examples": [
+        "Tenzij hij komt.",
+        "Ik ga, tenzij het regent."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "除非他来。",
+          "我去，除非下雨。"
+        ],
+        "english": [
+          "Unless he comes.",
+          "I go, unless it rains."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "连词，表示条件"
+    },
+    {
+      "id": 3446,
+      "word": "terecht",
+      "translation": {
+        "chinese": "正确的,公正地",
+        "english": "rightly, justified"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Hij komt terecht.",
+        "Terecht klagen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他到对了地方。",
+          "合理投诉。"
+        ],
+        "english": [
+          "He arrives at the right place.",
+          "Rightly complain."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，表示公正或正确"
+    },
+    {
+      "id": 3447,
+      "word": "tering",
+      "translation": {
+        "chinese": "肺结核",
+        "english": "tuberculosis"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "tering",
+          "plural": "teringen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij heeft tering.",
+        "Tering is een ziekte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他患肺结核。",
+          "肺结核是一种疾病。"
+        ],
+        "english": [
+          "He has tuberculosis.",
+          "TB is a disease."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 teringen，医学词汇"
+    },
+    {
+      "id": 3448,
+      "word": "termijn",
+      "translation": {
+        "chinese": "期限",
+        "english": "term, period"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "termijn",
+          "plural": "termijnen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De termijn is kort.",
+        "Binnen de termijn."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "期限很短。",
+          "在期限内。"
+        ],
+        "english": [
+          "The term is short.",
+          "Within the period."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 termijnen"
+    },
+    {
+      "id": 3449,
+      "word": "terrain",
+      "translation": {
+        "chinese": "地形,领域",
+        "english": "terrain, field"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "terrain",
+          "plural": "terrains",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het terrain is groot.",
+        "Speel op het terrain."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "场地很大。",
+          "在场地玩耍。"
+        ],
+        "english": [
+          "The terrain is large.",
+          "Play on the field."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 terrains"
+    },
+    {
+      "id": 3450,
+      "word": "terras",
+      "translation": {
+        "chinese": "露台",
+        "english": "terrace, patio"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "terras",
+          "plural": "terrassen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het terras is mooi.",
+        "Zitten op het terras."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "露台很美。",
+          "坐在露台上。"
+        ],
+        "english": [
+          "The terrace is beautiful.",
+          "Sit on the patio."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 terrassen"
+    }
+  ]
+}

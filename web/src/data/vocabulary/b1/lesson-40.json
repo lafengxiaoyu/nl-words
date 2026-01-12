@@ -1,0 +1,1024 @@
+{
+  "id": "lB140",
+  "level": "B1",
+  "lessonNumber": 40,
+  "totalWords": 30,
+  "words": [
+    {
+      "id": 3451,
+      "word": "tevens",
+      "translation": {
+        "chinese": "同时也",
+        "english": "also, at the same time"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Hij komt tevens naar de bijeenkomst.",
+        "Tevens zal hij het project leiden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他也来参加会议。",
+          "同时他还将领导这个项目。"
+        ],
+        "english": [
+          "He also comes to the meeting.",
+          "At the same time he will lead the project."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，较正式用法"
+    },
+    {
+      "id": 3452,
+      "word": "textiel",
+      "translation": {
+        "chinese": "纺织品",
+        "english": "textile, fabric"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "textiel",
+          "plural": "textielen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het textiel voelt zacht aan.",
+        "Wij kopen textiel voor de gordijnen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个纺织品摸起来很软。",
+          "我们买纺织品做窗帘。"
+        ],
+        "english": [
+          "The textile feels soft.",
+          "We buy fabric for the curtains."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 textielen"
+    },
+    {
+      "id": 3453,
+      "word": "tezamen",
+      "translation": {
+        "chinese": "共同",
+        "english": "together, jointly"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Wij werken tezamen aan dit project.",
+        "Zij komen tezamen aan op het station."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们共同合作这个项目。",
+          "她们一起到达车站。"
+        ],
+        "english": [
+          "We work together on this project.",
+          "They arrive together at the station."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，较正式用法"
+    },
+    {
+      "id": 3454,
+      "word": "theater",
+      "translation": {
+        "chinese": "剧院",
+        "english": "theater"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "theater",
+          "plural": "theaters",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het theater is groot.",
+        "Ga naar het theater."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "剧院很大。",
+          "去剧院。"
+        ],
+        "english": [
+          "The theater is large.",
+          "Go to the theater."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 theaters"
+    },
+    {
+      "id": 3455,
+      "word": "theorie",
+      "translation": {
+        "chinese": "理论",
+        "english": "theory"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "theorie",
+          "plural": "theorieën",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De theorie is moeilijk te begrijpen.",
+        "In theorie zou het moeten werken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个理论很难理解。",
+          "理论上应该行得通。"
+        ],
+        "english": [
+          "The theory is difficult to understand.",
+          "In theory it should work."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 theorieën（分音符）"
+    },
+    {
+      "id": 3456,
+      "word": "tiener",
+      "translation": {
+        "chinese": "青少年",
+        "english": "teenager"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "tiener",
+          "plural": "tieners",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij is nog maar een tiener.",
+        "Veel tieners hangen op het plein."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他还只是个青少年。",
+          "很多青少年在广场上闲逛。"
+        ],
+        "english": [
+          "He is only a teenager.",
+          "Many teenagers hang around the square."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 tieners"
+    },
+    {
+      "id": 3457,
+      "word": "tijdens",
+      "translation": {
+        "chinese": "在...期间",
+        "english": "during, while"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Tijdens de les leerde hij veel.",
+        "Tijdens de vakantie gingen wij naar het strand."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "上课期间他学到了很多。",
+          "假期里我们去了海滩。"
+        ],
+        "english": [
+          "During the lesson he learned a lot.",
+          "During the vacation we went to the beach."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "介词，表示时间"
+    },
+    {
+      "id": 3458,
+      "word": "tijdig",
+      "translation": {
+        "chinese": "及时的",
+        "english": "timely, on time"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "tijdig",
+          "withDe": "tijdige",
+          "withHet": "tijdig",
+          "comparative": "tijdiger",
+          "superlative": "tijdigst"
+        }
+      },
+      "examples": [
+        "Kom op tijd naar de afspraak.",
+        "Een tijdige waarschuwing kan helpen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "准时来参加约会。",
+          "及时的警告可能会有帮助。"
+        ],
+        "english": [
+          "Come to the appointment on time.",
+          "A timely warning can help."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：tijdig - tijdiger - tijdigst"
+    },
+    {
+      "id": 3459,
+      "word": "tijger",
+      "translation": {
+        "chinese": "老虎",
+        "english": "tiger"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "tijger",
+          "plural": "tijgers",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De tijger is een sterk roofdier.",
+        "Een wilde tijger zocht voedsel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "老虎是强壮的掠食者。",
+          "一只野虎在寻找食物。"
+        ],
+        "english": [
+          "The tiger is a strong predator.",
+          "A wild tiger was looking for food."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 tijgers"
+    },
+    {
+      "id": 3460,
+      "word": "tikken",
+      "translation": {
+        "chinese": "敲击,轻拍",
+        "english": "to tap, to click"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "tikken",
+          "isSeparable": false,
+          "present": {
+            "ik": "tik",
+            "jij": "tikt",
+            "hij": "tikt",
+            "wij": "tikken",
+            "jullie": "tikken",
+            "zij": "tikken"
+          },
+          "past": {
+            "singular": "tikte",
+            "plural": "tikten"
+          },
+          "pastParticiple": "getikt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Tik op het scherm om te beginnen.",
+        "Hij tikt zachtjes op haar schouder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "点击屏幕开始。",
+          "他轻拍她的肩膀。"
+        ],
+        "english": [
+          "Tap on the screen to start.",
+          "He taps gently on her shoulder."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3461,
+      "word": "tillen",
+      "translation": {
+        "chinese": "举起",
+        "english": "to lift, to raise"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "tillen",
+          "isSeparable": false,
+          "present": {
+            "ik": "til",
+            "jij": "tilt",
+            "hij": "tilt",
+            "wij": "tillen",
+            "jullie": "tillen",
+            "zij": "tillen"
+          },
+          "past": {
+            "singular": "tilde",
+            "plural": "tilden"
+          },
+          "pastParticiple": "getild",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij tilt de zware doos met moeite.",
+        "Kun je de tafel tillen?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他费力地举起沉重的盒子。",
+          "你能抬起桌子吗？"
+        ],
+        "english": [
+          "He lifts the heavy box with difficulty.",
+          "Can you lift the table?"
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3462,
+      "word": "tinten",
+      "translation": {
+        "chinese": "色调",
+        "english": "shades, tints"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "tint",
+          "plural": "tinten",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De muren hebben verschillende tinten.",
+        "Kies je favoriete tinten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "墙壁有不同的色调。",
+          "选择你喜欢的色调。"
+        ],
+        "english": [
+          "The walls have different shades.",
+          "Choose your favorite tints."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 tinten"
+    },
+    {
+      "id": 3463,
+      "word": "toegift",
+      "translation": {
+        "chinese": "返场,额外物",
+        "english": "encore, extra"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "toegift",
+          "plural": "toegiften",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Het publieum vroeg om een toegift.",
+        "Er was helaas geen toegift."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "观众要求返场。",
+          "遗憾的是没有返场。"
+        ],
+        "english": [
+          "The audience asked for an encore.",
+          "Unfortunately there was no encore."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 toegiften"
+    },
+    {
+      "id": 3464,
+      "word": "toerist",
+      "translation": {
+        "chinese": "游客",
+        "english": "tourist"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "toerist",
+          "plural": "toeristen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Veel toeristen bezoeken de stad.",
+        "De toerist kijkt naar de kaart."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "很多游客参观这座城市。",
+          "游客在看地图。"
+        ],
+        "english": [
+          "Many tourists visit the city.",
+          "The tourist looks at the map."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 toeristen"
+    },
+    {
+      "id": 3465,
+      "word": "toerit",
+      "translation": {
+        "chinese": "入口匝道",
+        "english": "entrance ramp"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "toerit",
+          "plural": "toeritten",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De toerit is tijdelijk gesloten.",
+        "Neem de volgende toerit naar de stad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "入口匝道暂时关闭。",
+          "从下一个匝道进城。"
+        ],
+        "english": [
+          "The entrance ramp is temporarily closed.",
+          "Take the next entrance ramp to the city."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 toeritten"
+    },
+    {
+      "id": 3466,
+      "word": "toeslag",
+      "translation": {
+        "chinese": "津贴,附加费",
+        "english": "surcharge, allowance"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "toeslag",
+          "plural": "toeslagen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Er is geen extra toeslag nodig.",
+        "Moet ik een toeslag betalen?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "不需要额外付费。",
+          "我需要支付附加费吗？"
+        ],
+        "english": [
+          "No extra surcharge is needed.",
+          "Do I have to pay a surcharge?"
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 toeslagen"
+    },
+    {
+      "id": 3467,
+      "word": "toestel",
+      "translation": {
+        "chinese": "仪器,设备",
+        "english": "device, apparatus"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "toestel",
+          "plural": "toestellen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het toestel werkt niet meer goed.",
+        "Wij hebben een groot toestel gekocht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个设备运转不正常了。",
+          "我们买了一台大设备。"
+        ],
+        "english": [
+          "The device does not work properly anymore.",
+          "We bought a large apparatus."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 toestellen"
+    },
+    {
+      "id": 3468,
+      "word": "toetje",
+      "translation": {
+        "chinese": "甜点",
+        "english": "dessert"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "toetje",
+          "plural": "toetjes",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het toetje smaakte heerlijk.",
+        "Ik wil graag een toetje na het diner."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "甜点味道很棒。",
+          "晚餐后我想吃甜点。"
+        ],
+        "english": [
+          "The dessert tasted delicious.",
+          "I would like a dessert after dinner."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "小称形式，复数为 toetjes"
+    },
+    {
+      "id": 3469,
+      "word": "toetsen",
+      "translation": {
+        "chinese": "测试,按键",
+        "english": "to test, to press key"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "toetsen",
+          "isSeparable": false,
+          "present": {
+            "ik": "toets",
+            "jij": "toetst",
+            "hij": "toetst",
+            "wij": "toetsen",
+            "jullie": "toetsen",
+            "zij": "toetsen"
+          },
+          "past": {
+            "singular": "toetste",
+            "plural": "toetsten"
+          },
+          "pastParticiple": "getoetst",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Toets het programma.",
+        "Hij toetst het toetsenbord."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "测试程序。",
+          "他按键。"
+        ],
+        "english": [
+          "Test the program.",
+          "He presses the keyboard."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3470,
+      "word": "toezien",
+      "translation": {
+        "chinese": "监督",
+        "english": "to supervise, to watch"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "toezien",
+          "isSeparable": true,
+          "present": {
+            "ik": "zie toe",
+            "jij": "ziet toe",
+            "hij": "ziet toe",
+            "wij": "zien toe",
+            "jullie": "zien toe",
+            "zij": "zien toe"
+          },
+          "past": {
+            "singular": "zag toe",
+            "plural": "zagen toe"
+          },
+          "pastParticiple": "toegezien",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik zie toe op het werk.",
+        "Zij zien toe."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我监督这项工作。",
+          "她们监督。"
+        ],
+        "english": [
+          "I supervise the work.",
+          "They watch over."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词"
+    },
+    {
+      "id": 3471,
+      "word": "toneel",
+      "translation": {
+        "chinese": "舞台,戏剧",
+        "english": "stage, theater"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "toneel",
+          "plural": "toneels",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "De acteurs staan op het toneel.",
+        "Het toneel is slecht verlicht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "演员在舞台上。",
+          "舞台照明很差。"
+        ],
+        "english": [
+          "The actors stand on the stage.",
+          "The stage is poorly lit."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 toneels"
+    },
+    {
+      "id": 3472,
+      "word": "topstuk",
+      "translation": {
+        "chinese": "杰作",
+        "english": "masterpiece, top piece"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "topstuk",
+          "plural": "topstukken",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Dit schilderij is een echt topstuk.",
+        "Het museum heeft waardevolle topstukken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这幅画确实是杰作。",
+          "博物馆有珍贵的杰作。"
+        ],
+        "english": [
+          "This painting is a true masterpiece.",
+          "The museum has valuable masterpieces."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 topstukken"
+    },
+    {
+      "id": 3473,
+      "word": "tornen",
+      "translation": {
+        "chinese": "拆线,动摇",
+        "english": "to tear, to undermine"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "tornen",
+          "isSeparable": false,
+          "present": {
+            "ik": "torn",
+            "jij": "tornt",
+            "hij": "tornt",
+            "wij": "tornen",
+            "jullie": "tornen",
+            "zij": "tornen"
+          },
+          "past": {
+            "singular": "tornde",
+            "plural": "tornen"
+          },
+          "pastParticiple": "getornd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij tornt aan het plan van de directie.",
+        "Zij proberen het vertrouwen te tornen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他动摇管理层的计划。",
+          "她们试图破坏信任。"
+        ],
+        "english": [
+          "He undermines the management's plan.",
+          "They try to undermine the trust."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3474,
+      "word": "totdat",
+      "translation": {
+        "chinese": "直到",
+        "english": "until"
+      },
+      "partOfSpeech": "conjunction",
+      "forms": {},
+      "examples": [
+        "Wacht totdat ik terug kom.",
+        "Blijf werken totdat het klaar is."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "等到我回来。",
+          "继续工作直到完成。"
+        ],
+        "english": [
+          "Wait until I come back.",
+          "Keep working until it is ready."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "连词，表示时间"
+    },
+    {
+      "id": 3475,
+      "word": "tournee",
+      "translation": {
+        "chinese": "巡演",
+        "english": "tour"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "tournee",
+          "plural": "tournees",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De band maakt een tournee door Europa.",
+        "De tournee duurt drie maanden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "乐队在欧洲巡演。",
+          "巡演持续三个月。"
+        ],
+        "english": [
+          "The band does a tour through Europe.",
+          "The tour lasts three months."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 tournees"
+    },
+    {
+      "id": 3476,
+      "word": "toveren",
+      "translation": {
+        "chinese": "变魔术",
+        "english": "to do magic"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "toveren",
+          "isSeparable": false,
+          "present": {
+            "ik": "tover",
+            "jij": "tovert",
+            "hij": "tovert",
+            "wij": "toveren",
+            "jullie": "toveren",
+            "zij": "toveren"
+          },
+          "past": {
+            "singular": "toverde",
+            "plural": "toverden"
+          },
+          "pastParticiple": "getoverd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij tovert met een speelkaart.",
+        "Zij toveren met woorden op het podium."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他用扑克牌变魔术。",
+          "她们在舞台上用语言变魔术。"
+        ],
+        "english": [
+          "He does magic with a playing card.",
+          "They do magic with words on stage."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3477,
+      "word": "toxine",
+      "translation": {
+        "chinese": "毒素",
+        "english": "toxin"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "toxine",
+          "plural": "toxines",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De toxine in het water zijn gevaarlijk.",
+        "Vermijd toxines in je voedsel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "水中的毒素很危险。",
+          "避免食物中的毒素。"
+        ],
+        "english": [
+          "The toxins in the water are dangerous.",
+          "Avoid toxins in your food."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 toxines"
+    },
+    {
+      "id": 3478,
+      "word": "traject",
+      "translation": {
+        "chinese": "路线,过程",
+        "english": "route, trajectory"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "traject",
+          "plural": "trajecten",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het traject is ongeveer vijftig kilometer.",
+        "Volg het traject op de kaart."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "路线大约五十公里。",
+          "按照地图上的路线走。"
+        ],
+        "english": [
+          "The route is approximately fifty kilometers.",
+          "Follow the route on the map."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 trajecten"
+    },
+    {
+      "id": 3479,
+      "word": "trance",
+      "translation": {
+        "chinese": "恍惚,入迷",
+        "english": "trance"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "trance",
+          "plural": "trances",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij leek in een diepe trance.",
+        "De muziek bracht haar in trance."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他似乎处于深度恍惚中。",
+          "音乐让她入迷了。"
+        ],
+        "english": [
+          "He seemed to be in a deep trance.",
+          "The music put her in a trance."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 trances"
+    },
+    {
+      "id": 3480,
+      "word": "trapper",
+      "translation": {
+        "chinese": "踏板",
+        "english": "pedal"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "trapper",
+          "plural": "trappers",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De trapper van de fiets werkt goed.",
+        "Druk op de trapper om te versnellen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "自行车的踏板工作正常。",
+          "踩踏板加速。"
+        ],
+        "english": [
+          "The bicycle pedal works well.",
+          "Step on the pedal to accelerate."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 trappers"
+    }
+  ]
+}

@@ -1,0 +1,912 @@
+{
+  "id": "lB132",
+  "level": "B1",
+  "lessonNumber": 32,
+  "totalWords": 30,
+  "words": [
+    {
+      "id": 3216,
+      "word": "akkoord",
+      "translation": {
+        "chinese": "协议,同意",
+        "english": "agreement, agreed"
+      },
+      "partOfSpeech": "noun/adjective",
+      "forms": {
+        "noun": {
+          "singular": "akkoord",
+          "plural": "akkoorden",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Wij zijn akkoord.",
+        "Teken het akkoord."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们同意了。",
+          "签署协议。"
+        ],
+        "english": [
+          "We agreed.",
+          "Sign the agreement."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "既可作名词也可作形容词，固定搭配：akkoord gaan met（同意...）"
+    },
+    {
+      "id": 3217,
+      "word": "allang",
+      "translation": {
+        "chinese": "早已",
+        "english": "long ago, for a long time"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Ik weet het allang.",
+        "Hij is allang weg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我早就知道。",
+          "他早就走了。"
+        ],
+        "english": [
+          "I have known for a long time.",
+          "He has been gone for a long time."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，强调时间久远"
+    },
+    {
+      "id": 3218,
+      "word": "allicht",
+      "translation": {
+        "chinese": "当然",
+        "english": "probably, likely"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Hij komt allicht.",
+        "Dat is allicht waar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他可能会来。",
+          "那可能是真的。"
+        ],
+        "english": [
+          "He will probably come.",
+          "That is probably true."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，表示可能性"
+    },
+    {
+      "id": 3219,
+      "word": "almaar",
+      "translation": {
+        "chinese": "不断地",
+        "english": "constantly, continuously"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Hij werkt almaar.",
+        "Het regent almaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他一直在工作。",
+          "雨一直在下。"
+        ],
+        "english": [
+          "He works continuously.",
+          "It rains constantly."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，表示持续的动作"
+    },
+    {
+      "id": 3220,
+      "word": "alsmaar",
+      "translation": {
+        "chinese": "持续地",
+        "english": "continuously, all the time"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Zij praat alsmaar.",
+        "Hij rent alsmaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她一直在说。",
+          "他一直在跑。"
+        ],
+        "english": [
+          "She talks continuously.",
+          "He runs all the time."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，与 almaar 同义"
+    },
+    {
+      "id": 3221,
+      "word": "alsmede",
+      "translation": {
+        "chinese": "以及",
+        "english": "as well as, and also"
+      },
+      "partOfSpeech": "conjunction",
+      "forms": {},
+      "examples": [
+        "Hij, alsmede zij, komt.",
+        "Het boek, alsmede de pen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他以及她都来了。",
+          "这本书以及这支笔。"
+        ],
+        "english": [
+          "He, as well as she, comes.",
+          "The book, as well as the pen."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "连接词，用于列举"
+    },
+    {
+      "id": 3222,
+      "word": "alsnog",
+      "translation": {
+        "chinese": "仍然,还是",
+        "english": "still, yet"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Hij komt alsnog.",
+        "Ik ga alsnog."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他还是来了。",
+          "我还是去。"
+        ],
+        "english": [
+          "He still comes.",
+          "I still go."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，强调尽管某事仍发生"
+    },
+    {
+      "id": 3223,
+      "word": "altaar",
+      "translation": {
+        "chinese": "祭坛",
+        "english": "altar"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "altaar",
+          "plural": "altaren",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Het altaar in de kerk.",
+        "Licht een kaars op het altaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "教堂里的祭坛。",
+          "在祭坛上点蜡烛。"
+        ],
+        "english": [
+          "The altar in church.",
+          "Light a candle on the altar."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 altaren，宗教词汇"
+    },
+    {
+      "id": 3224,
+      "word": "althans",
+      "translation": {
+        "chinese": "至少",
+        "english": "at least, at any rate"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Althans ik probeer.",
+        "Althans tien euro."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "至少我尝试了。",
+          "至少十欧元。"
+        ],
+        "english": [
+          "At least I try.",
+          "At least ten euros."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，用于强调最低限度"
+    },
+    {
+      "id": 3225,
+      "word": "alvast",
+      "translation": {
+        "chinese": "预先",
+        "english": "in advance, already"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Dank u alvast.",
+        "Ik boek alvast."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "提前感谢。",
+          "我提前预订。"
+        ],
+        "english": [
+          "Thank you in advance.",
+          "I book in advance."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，常用于感谢或提前做某事"
+    },
+    {
+      "id": 3226,
+      "word": "alwaar",
+      "translation": {
+        "chinese": "在那里",
+        "english": "where, in which"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Het huis alwaar ik woon.",
+        "De stad alwaar hij was."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我住的房子。",
+          "他在的城市。"
+        ],
+        "english": [
+          "The house where I live.",
+          "The city where he was."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "关系副词，正式用语"
+    },
+    {
+      "id": 3227,
+      "word": "amandel",
+      "translation": {
+        "chinese": "杏仁,扁桃体",
+        "english": "almond, tonsil"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "amandel",
+          "plural": "amandelen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik eet een amandel.",
+        "De amandelen zijn ontstoken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃一颗杏仁。",
+          "扁桃体发炎了。"
+        ],
+        "english": [
+          "I eat an almond.",
+          "The tonsils are inflamed."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 amandelen，有两个常见含义"
+    },
+    {
+      "id": 3228,
+      "word": "ambacht",
+      "translation": {
+        "chinese": "手艺",
+        "english": "craft, trade"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "ambacht",
+          "plural": "ambachten",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Hij leert een ambacht.",
+        "De ambacht van de timmerman."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他学习一门手艺。",
+          "木匠的手艺。"
+        ],
+        "english": [
+          "He learns a craft.",
+          "The carpenter's craft."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 ambachten"
+    },
+    {
+      "id": 3229,
+      "word": "anatoom",
+      "translation": {
+        "chinese": "解剖学家",
+        "english": "anatomist"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "anatoom",
+          "plural": "anatomen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De anatoom bestudeert het lichaam.",
+        "Een beroemde anatoom."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "解剖学家研究身体。",
+          "一位著名的解剖学家。"
+        ],
+        "english": [
+          "The anatomist studies the body.",
+          "A famous anatomist."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 anatomen，医学术语"
+    },
+    {
+      "id": 3230,
+      "word": "andere",
+      "translation": {
+        "chinese": "其他的",
+        "english": "other, different"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ander",
+          "withDe": "andere",
+          "withHet": "ander",
+          "comparative": "ander",
+          "superlative": "anderst"
+        }
+      },
+      "examples": [
+        "Ik wil een andere auto.",
+        "Een andere keer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我想要另一辆车。",
+          "另一次。"
+        ],
+        "english": [
+          "I want another car.",
+          "Another time."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则形容词，比较级和最高级形式特殊"
+    },
+    {
+      "id": 3231,
+      "word": "anders",
+      "translation": {
+        "chinese": "否则,不同",
+        "english": "otherwise, differently"
+      },
+      "partOfSpeech": "adverb/adjective",
+      "forms": {},
+      "examples": [
+        "Anders ga ik weg.",
+        "Hij doet het anders."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "否则我就走了。",
+          "他做的不同。"
+        ],
+        "english": [
+          "Otherwise I go away.",
+          "He does it differently."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "既可作副词也可作形容词"
+    },
+    {
+      "id": 3232,
+      "word": "angstig",
+      "translation": {
+        "chinese": "害怕的",
+        "english": "afraid, fearful"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "angstig",
+          "withDe": "angstige",
+          "withHet": "angstig",
+          "comparative": "angstiger",
+          "superlative": "angstigst"
+        }
+      },
+      "examples": [
+        "Hij is angstig.",
+        "Een angstige hond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很害怕。",
+          "一只害怕的狗。"
+        ],
+        "english": [
+          "He is afraid.",
+          "A fearful dog."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：angstig - angstiger - angstigst"
+    },
+    {
+      "id": 3233,
+      "word": "anoniem",
+      "translation": {
+        "chinese": "匿名的",
+        "english": "anonymous"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "anoniem",
+          "withDe": "anonieme",
+          "withHet": "anoniem",
+          "comparative": "anoniemer",
+          "superlative": "anoniemst"
+        }
+      },
+      "examples": [
+        "De brieven zijn anoniem.",
+        "Hij blijft anoniem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这些信件是匿名的。",
+          "他保持匿名。"
+        ],
+        "english": [
+          "The letters are anonymous.",
+          "He remains anonymous."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：anoniem - anoniemer - anoniemst"
+    },
+    {
+      "id": 3234,
+      "word": "apparat",
+      "translation": {
+        "chinese": "设备",
+        "english": "apparatus, device"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "apparaat",
+          "plural": "apparaten",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het apparaat werkt niet.",
+        "Koop een nieuw apparaat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "设备不工作。",
+          "买个新设备。"
+        ],
+        "english": [
+          "The apparatus does not work.",
+          "Buy a new device."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 apparaten"
+    },
+    {
+      "id": 3235,
+      "word": "archief",
+      "translation": {
+        "chinese": "档案",
+        "english": "archive"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "archief",
+          "plural": "archieven",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "In het archief.",
+        "Het archief is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在档案里。",
+          "档案很大。"
+        ],
+        "english": [
+          "In the archive.",
+          "The archive is large."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 archieven"
+    },
+    {
+      "id": 3236,
+      "word": "argwaan",
+      "translation": {
+        "chinese": "怀疑",
+        "english": "suspicion, doubt"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "argwaan",
+          "plural": "argwanen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik heb argwaan.",
+        "Zonder argwaan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有所怀疑。",
+          "没有怀疑。"
+        ],
+        "english": [
+          "I have suspicion.",
+          "Without suspicion."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 argwanen（怀疑），复数形式为 argwanen"
+    },
+    {
+      "id": 3237,
+      "word": "armoede",
+      "translation": {
+        "chinese": "贫困",
+        "english": "poverty"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "armoede",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Armoede is een groot probleem.",
+        "Zij leeft in armoede."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "贫困是个大问题。",
+          "她生活在贫困中。"
+        ],
+        "english": [
+          "Poverty is a big problem.",
+          "She lives in poverty."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不可数名词"
+    },
+    {
+      "id": 3238,
+      "word": "artiest",
+      "translation": {
+        "chinese": "艺术家",
+        "english": "artist"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "artiest",
+          "plural": "artiesten",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij is een artiest.",
+        "De artiest schildert."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是一位艺术家。",
+          "艺术家在画画。"
+        ],
+        "english": [
+          "He is an artist.",
+          "The artist paints."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 artiesten"
+    },
+    {
+      "id": 3239,
+      "word": "artrose",
+      "translation": {
+        "chinese": "关节炎",
+        "english": "arthritis"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "artrose",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Zij heeft artrose.",
+        "Artrose komt veel voor bij ouderen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她患有关节炎。",
+          "关节炎在老年人中很常见。"
+        ],
+        "english": [
+          "She has arthritis.",
+          "Arthritis is common among elderly."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不可数名词，医学术语"
+    },
+    {
+      "id": 3240,
+      "word": "asbest",
+      "translation": {
+        "chinese": "石棉",
+        "english": "asbestos"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "asbest",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Asbest is gevaarlijk.",
+        "Het gebouw bevat asbest."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "石棉很危险。",
+          "建筑含有石棉。"
+        ],
+        "english": [
+          "Asbestos is dangerous.",
+          "The building contains asbestos."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不可数名词，建材词汇"
+    },
+    {
+      "id": 3241,
+      "word": "asfalt",
+      "translation": {
+        "chinese": "沥青",
+        "english": "asphalt"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "asfalt",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "De weg is van asfalt.",
+        "Leg nieuw asfalt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "道路是沥青的。",
+          "铺设新沥青。"
+        ],
+        "english": [
+          "The road is made of asphalt.",
+          "Lay new asphalt."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不可数名词"
+    },
+    {
+      "id": 3242,
+      "word": "atelier",
+      "translation": {
+        "chinese": "工作室",
+        "english": "studio, workshop"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "atelier",
+          "plural": "ateliers",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Zij werkt in haar atelier.",
+        "Het atelier is vol."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她在工作室工作。",
+          "工作室满了。"
+        ],
+        "english": [
+          "She works in her studio.",
+          "The workshop is full."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 ateliers"
+    },
+    {
+      "id": 3243,
+      "word": "atleet",
+      "translation": {
+        "chinese": "运动员",
+        "english": "athlete"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "atleet",
+          "plural": "atleten",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij is een professionele atleet.",
+        "De atleet traint hard."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是专业运动员。",
+          "运动员训练刻苦。"
+        ],
+        "english": [
+          "He is a professional athlete.",
+          "The athlete trains hard."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 atleten"
+    },
+    {
+      "id": 3244,
+      "word": "attent",
+      "translation": {
+        "chinese": "体贴的",
+        "english": "attentive, thoughtful"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "attent",
+          "withDe": "attente",
+          "withHet": "attent",
+          "comparative": "attenter",
+          "superlative": "attentst"
+        }
+      },
+      "examples": [
+        "Hij is attent voor zijn collega's.",
+        "Wees attent op de veiligheidsregels."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他对同事很体贴。",
+          "注意安全规定。"
+        ],
+        "english": [
+          "He is attentive to his colleagues.",
+          "Pay attention to the safety rules."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：attent - attenter - attentst"
+    },
+    {
+      "id": 3245,
+      "word": "augurk",
+      "translation": {
+        "chinese": "腌黄瓜",
+        "english": "pickled cucumber"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "augurk",
+          "plural": "augurken",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik eet graag augurk.",
+        "Een augurk op de boterham."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喜欢吃腌黄瓜。",
+          "面包上放腌黄瓜。"
+        ],
+        "english": [
+          "I like eating pickled cucumber.",
+          "A pickle on the sandwich."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 augurken，食品词汇"
+    }
+  ]
+}

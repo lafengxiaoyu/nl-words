@@ -1,0 +1,926 @@
+{
+  "id": "lB133",
+  "level": "B1",
+  "lessonNumber": 33,
+  "totalWords": 30,
+  "words": [
+    {
+      "id": 3246,
+      "word": "autisme",
+      "translation": {
+        "chinese": "自闭症",
+        "english": "autism"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "autisme",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Hij heeft autisme.",
+        "Autisme is een stoornis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他患有自闭症。",
+          "自闭症是一种障碍。"
+        ],
+        "english": [
+          "He has autism.",
+          "Autism is a disorder."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不可数名词，医学术语"
+    },
+    {
+      "id": 3247,
+      "word": "bakker",
+      "translation": {
+        "chinese": "面包师",
+        "english": "baker"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bakker",
+          "plural": "bakkers",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De bakker bakt brood.",
+        "Ik ga naar de bakker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "面包师烤面包。",
+          "我去面包店。"
+        ],
+        "english": [
+          "The baker bakes bread.",
+          "I go to the baker."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bakkers"
+    },
+    {
+      "id": 3248,
+      "word": "balans",
+      "translation": {
+        "chinese": "平衡",
+        "english": "balance"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "balans",
+          "plural": "balansen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Houd een goede balans tussen werk en privé.",
+        "De balans tussen werk en ontspanning is belangrijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在工作与私人生活之间保持良好平衡。",
+          "工作与休闲的平衡很重要。"
+        ],
+        "english": [
+          "Keep a good balance between work and private life.",
+          "The balance between work and relaxation is important."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 balansen"
+    },
+    {
+      "id": 3249,
+      "word": "balkon",
+      "translation": {
+        "chinese": "阳台",
+        "english": "balcony"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "balkon",
+          "plural": "balkons",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Zij staat op het balkon.",
+        "Het balkon heeft uitzicht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她站在阳台上。",
+          "阳台有风景。"
+        ],
+        "english": [
+          "She stands on the balcony.",
+          "The balcony has a view."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 balkons"
+    },
+    {
+      "id": 3250,
+      "word": "banket",
+      "translation": {
+        "chinese": "宴会,糕点",
+        "english": "banquet, pastry"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "banket",
+          "plural": "banketten",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Wij gaan naar een banket.",
+        "Het banket is prachtig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们去参加宴会。",
+          "宴会很盛大。"
+        ],
+        "english": [
+          "We go to a banquet.",
+          "The banquet is magnificent."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 banketten"
+    },
+    {
+      "id": 3251,
+      "word": "bankpas",
+      "translation": {
+        "chinese": "银行卡",
+        "english": "bank card"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bankpas",
+          "plural": "bankpassen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Gebruik je bankpas.",
+        "Ik ben mijn bankpas kwijt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "使用你的银行卡。",
+          "我把银行卡丢了。"
+        ],
+        "english": [
+          "Use your bank card.",
+          "I lost my bank card."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bankpassen"
+    },
+    {
+      "id": 3252,
+      "word": "bannen",
+      "translation": {
+        "chinese": "驱逐",
+        "english": "to ban, to expel"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bannen",
+          "isSeparable": false,
+          "present": {
+            "ik": "ban",
+            "jij": "bant",
+            "hij": "bant",
+            "wij": "bannen",
+            "jullie": "bannen",
+            "zij": "bannen"
+          },
+          "past": {
+            "singular": "bande",
+            "plural": "banden"
+          },
+          "pastParticiple": "gebanned",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zij bant sigaretten.",
+        "Het land bant de immigrant."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她禁止香烟。",
+          "国家驱逐移民。"
+        ],
+        "english": [
+          "She bans cigarettes.",
+          "The country expels the immigrant."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，固定搭配：bannen van（驱逐...）"
+    },
+    {
+      "id": 3253,
+      "word": "barkruk",
+      "translation": {
+        "chinese": "吧台凳",
+        "english": "bar stool"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "barkruk",
+          "plural": "barkrukken",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Zit op de barkruk.",
+        "De barkruk is comfortabel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "坐在吧台凳上。",
+          "吧台凳很舒服。"
+        ],
+        "english": [
+          "Sit on the bar stool.",
+          "The bar stool is comfortable."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复合名词：bar（酒吧）+ kruk（凳子），复数形式为 barkrukken"
+    },
+    {
+      "id": 3254,
+      "word": "barsten",
+      "translation": {
+        "chinese": "裂开",
+        "english": "to crack, to burst"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "barsten",
+          "isSeparable": false,
+          "present": {
+            "ik": "bars",
+            "jij": "barst",
+            "hij": "barst",
+            "wij": "barsten",
+            "jullie": "barsten",
+            "zij": "barsten"
+          },
+          "past": {
+            "singular": "barstte",
+            "plural": "barstten"
+          },
+          "pastParticiple": "gebarsten",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De buik barst.",
+        "Het glas barst."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "肚子裂开。",
+          "玻璃碎了。"
+        ],
+        "english": [
+          "The belly bursts.",
+          "The glass cracks."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，使用 zijn 作为助动词"
+    },
+    {
+      "id": 3255,
+      "word": "bashen",
+      "translation": {
+        "chinese": "抨击",
+        "english": "to bash, to attack"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bashen",
+          "isSeparable": false,
+          "present": {
+            "ik": "bash",
+            "jij": "basht",
+            "hij": "basht",
+            "wij": "bashen",
+            "jullie": "bashen",
+            "zij": "bashen"
+          },
+          "past": {
+            "singular": "bashte",
+            "plural": "bashten"
+          },
+          "pastParticiple": "gebasht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij basht de regering.",
+        "Zij bashen het beleid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他抨击政府。",
+          "她们批评政策。"
+        ],
+        "english": [
+          "He attacks the government.",
+          "They bash the policy."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，口语词汇"
+    },
+    {
+      "id": 3256,
+      "word": "beamen",
+      "translation": {
+        "chinese": "确认,同意",
+        "english": "to confirm, to agree"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "beamen",
+          "isSeparable": false,
+          "present": {
+            "ik": "beam",
+            "jij": "beaamt",
+            "hij": "beaamt",
+            "wij": "beamen",
+            "jullie": "beamen",
+            "zij": "beamen"
+          },
+          "past": {
+            "singular": "beamde",
+            "plural": "beaamden"
+          },
+          "pastParticiple": "beaamtd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij beaamt het verhaal.",
+        "Zij beaamt de beschuldiging."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他确认了这个故事。",
+          "她承认指控。"
+        ],
+        "english": [
+          "He confirms the story.",
+          "She admits the accusation."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，正式用语"
+    },
+    {
+      "id": 3257,
+      "word": "bebost",
+      "translation": {
+        "chinese": "森林覆盖的",
+        "english": "forested, wooded"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bebost",
+          "withDe": "beboste",
+          "withHet": "bebost",
+          "comparative": "beboster",
+          "superlative": "bebostst"
+        }
+      },
+      "examples": [
+        "Het gebied is bebost.",
+        "Een bebost landschap."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个地区有森林覆盖。",
+          "森林覆盖的景观。"
+        ],
+        "english": [
+          "The area is forested.",
+          "A wooded landscape."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自名词 bos（森林），比较级和最高级规则：bebost - beboster - bebostst"
+    },
+    {
+      "id": 3258,
+      "word": "bedaren",
+      "translation": {
+        "chinese": "冷静",
+        "english": "to calm down"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bedaren",
+          "isSeparable": false,
+          "present": {
+            "ik": "daar",
+            "jij": "daart",
+            "hij": "daart",
+            "wij": "daren",
+            "jullie": "daren",
+            "zij": "daren"
+          },
+          "past": {
+            "singular": "daarde",
+            "plural": "daarden"
+          },
+          "pastParticiple": "bedaard",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De situatie daart.",
+        "Hij daart zich."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "局势冷静下来。",
+          "他冷静下来。"
+        ],
+        "english": [
+          "The situation calms down.",
+          "He calms himself."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词：daren - daart - daarde - daarden - is - bedaard"
+    },
+    {
+      "id": 3259,
+      "word": "bedeeld",
+      "translation": {
+        "chinese": "获赠的",
+        "english": "gifted, bestowed"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bedeeld",
+          "withDe": "bedeelde",
+          "withHet": "bedeeld",
+          "comparative": "bedeelder",
+          "superlative": "bedeeldst"
+        }
+      },
+      "examples": [
+        "Hij is bedeeld.",
+        "Een bedeeld kind."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他天赋异禀。",
+          "一个有天赋的孩子。"
+        ],
+        "english": [
+          "He is gifted.",
+          "A gifted child."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "来自动词 bedelen（分配），比较级和最高级规则：bedeeld - bedeelder - bedeeldst"
+    },
+    {
+      "id": 3260,
+      "word": "bedrag",
+      "translation": {
+        "chinese": "金额",
+        "english": "amount, sum"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bedrag",
+          "plural": "bedragen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het bedrag is groot.",
+        "Betaal het bedrag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "金额很大。",
+          "支付这笔金额。"
+        ],
+        "english": [
+          "The amount is large.",
+          "Pay the sum."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bedragen，财经词汇"
+    },
+    {
+      "id": 3261,
+      "word": "bedrog",
+      "translation": {
+        "chinese": "欺诈",
+        "english": "deception, fraud"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bedrog",
+          "plural": "bedrogingen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Dit is bedrog.",
+        "Hij is slachtoffer van bedrog."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是欺诈。",
+          "他是欺诈的受害者。"
+        ],
+        "english": [
+          "This is deception.",
+          "He is victim of fraud."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bedrogingen"
+    },
+    {
+      "id": 3262,
+      "word": "bedrukt",
+      "translation": {
+        "chinese": "印花的,忧郁的",
+        "english": "printed, melancholic"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bedrukt",
+          "withDe": "bedrukte",
+          "withHet": "bedrukt",
+          "comparative": "bedrukter",
+          "superlative": "bedrukst"
+        }
+      },
+      "examples": [
+        "De stof is bedrukt.",
+        "Hij ziet bedrukt uit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "面料是印花的。",
+          "他看起来很忧郁。"
+        ],
+        "english": [
+          "The fabric is printed.",
+          "He looks melancholic."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：bedrukt - bedrukter - bedrukst"
+    },
+    {
+      "id": 3263,
+      "word": "beducht",
+      "translation": {
+        "chinese": "担心的",
+        "english": "suspicious, wary"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beducht",
+          "withDe": "beduchte",
+          "withHet": "beducht",
+          "comparative": "beduchter",
+          "superlative": "beduchtst"
+        }
+      },
+      "examples": [
+        "Hij is beducht.",
+        "Wees beducht voor bedrog."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很警惕。",
+          "小心欺诈。"
+        ],
+        "english": [
+          "He is suspicious.",
+          "Be wary of deception."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：beducht - beduchter - beduchtst"
+    },
+    {
+      "id": 3264,
+      "word": "beeldje",
+      "translation": {
+        "chinese": "小雕像",
+        "english": "small statue, figurine"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "beeldje",
+          "plural": "beeldjes",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Een mooi beeldje.",
+        "Het beeldje is van hout."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个漂亮的小雕像。",
+          "小雕像是木头的。"
+        ],
+        "english": [
+          "A beautiful small statue.",
+          "The figurine is made of wood."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "缩小词：beeld（雕像）+ -je（小），复数形式为 beeldjes"
+    },
+    {
+      "id": 3265,
+      "word": "begaan",
+      "translation": {
+        "chinese": "犯下,关心的",
+        "english": "to commit, to sympathize"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "begaan",
+          "isSeparable": false,
+          "present": {
+            "ik": "ga",
+            "jij": "gaat",
+            "hij": "gaat",
+            "wij": "gaan",
+            "jullie": "gaan",
+            "zij": "gaan"
+          },
+          "past": {
+            "singular": "ging",
+            "plural": "gingen"
+          },
+          "pastParticiple": "begaan",
+          "pastParticipleAuxiliary": "hebben/zijn"
+        }
+      },
+      "examples": [
+        "Hij begaat een fout.",
+        "Zij begaat zich met de armen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他犯了一个错误。",
+          "她关心穷人。"
+        ],
+        "english": [
+          "He commits a mistake.",
+          "She sympathizes with the poor."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词：gaan - gaat - ging - gingen - heeft - gegaan，固定搭配：begaan（犯下/关心）"
+    },
+    {
+      "id": 3266,
+      "word": "begeren",
+      "translation": {
+        "chinese": "渴望",
+        "english": "to desire, to crave"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "begeren",
+          "isSeparable": false,
+          "present": {
+            "ik": "begeer",
+            "jij": "begeert",
+            "hij": "begeert",
+            "wij": "begeren",
+            "jullie": "begeren",
+            "zij": "begeren"
+          },
+          "past": {
+            "singular": "begeerde",
+            "plural": "begeerden"
+          },
+          "pastParticiple": "begeerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij begeert macht.",
+        "Zij begeert aandacht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他渴望权力。",
+          "她渴望关注。"
+        ],
+        "english": [
+          "He desires power.",
+          "She craves attention."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，正式用语"
+    },
+    {
+      "id": 3267,
+      "word": "begrip",
+      "translation": {
+        "chinese": "理解,概念",
+        "english": "understanding, concept"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "begrip",
+          "plural": "begrippen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Ik heb begrip.",
+        "Het begrip is moeilijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我理解。",
+          "这个概念很难。"
+        ],
+        "english": [
+          "I have understanding.",
+          "The concept is difficult."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 begrippen"
+    },
+    {
+      "id": 3268,
+      "word": "behagen",
+      "translation": {
+        "chinese": "取悦,满意",
+        "english": "to please, to satisfy"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "behagen",
+          "isSeparable": false,
+          "present": {
+            "ik": "behaag",
+            "jij": "behaagt",
+            "hij": "behaagt",
+            "wij": "behagen",
+            "jullie": "behagen",
+            "zij": "behagen"
+          },
+          "past": {
+            "singular": "behaagde",
+            "plural": "behaagden"
+          },
+          "pastParticiple": "behaagd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het behaagt haar.",
+        "Niets behaagt mij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这让她满意。",
+          "没有什么让我满意。"
+        ],
+        "english": [
+          "It pleases her.",
+          "Nothing pleases me."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，固定搭配：behagen（满意）"
+    },
+    {
+      "id": 3269,
+      "word": "behalen",
+      "translation": {
+        "chinese": "获得",
+        "english": "to achieve, to obtain"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "behalen",
+          "isSeparable": false,
+          "present": {
+            "ik": "haal",
+            "jij": "haalt",
+            "hij": "haalt",
+            "wij": "halen",
+            "jullie": "halen",
+            "zij": "halen"
+          },
+          "past": {
+            "singular": "haalde",
+            "plural": "haalden"
+          },
+          "pastParticiple": "behaald",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij behaalt zijn doel.",
+        "Zij behaalt success."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他达成了目标。",
+          "她取得了成功。"
+        ],
+        "english": [
+          "He achieves his goal.",
+          "She obtains success."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3270,
+      "word": "behalve",
+      "translation": {
+        "chinese": "除...之外",
+        "english": "except for, besides"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Behalve ik, iedereen is er.",
+        "Het werkt behalve op zondag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "除了我，大家都在。",
+          "除了周日，它都工作。"
+        ],
+        "english": [
+          "Except me, everyone is there.",
+          "It works except on Sunday."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "介词，表示例外"
+    }
+  ]
+}

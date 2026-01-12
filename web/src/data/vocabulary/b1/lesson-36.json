@@ -1,0 +1,1148 @@
+{
+  "id": "lB136",
+  "level": "B1",
+  "lessonNumber": 36,
+  "totalWords": 30,
+  "words": [
+    {
+      "id": 3331,
+      "word": "bijten",
+      "translation": {
+        "chinese": "咬",
+        "english": "to bite"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bijten",
+          "isSeparable": false,
+          "present": {
+            "ik": "bijt",
+            "jij": "bijt",
+            "hij": "bijt",
+            "wij": "bijten",
+            "jullie": "bijten",
+            "zij": "bijten"
+          },
+          "past": {
+            "singular": "beet",
+            "plural": "beten"
+          },
+          "pastParticiple": "gebeten",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De hond bijt.",
+        "Zij bijt in de appel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "狗咬人。",
+          "她咬了一口苹果。"
+        ],
+        "english": [
+          "The dog bites.",
+          "She bites into the apple."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3332,
+      "word": "bikken",
+      "translation": {
+        "chinese": "凿",
+        "english": "to chop, to hew"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bikken",
+          "isSeparable": false,
+          "present": {
+            "ik": "bik",
+            "jij": "bikt",
+            "hij": "bikt",
+            "wij": "bikken",
+            "jullie": "bikken",
+            "zij": "bikken"
+          },
+          "past": {
+            "singular": "bikte",
+            "plural": "bikten"
+          },
+          "pastParticiple": "bikt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij bikt de steen.",
+        "Bik de boom."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他凿石头。",
+          "砍树。"
+        ],
+        "english": [
+          "He chops the stone.",
+          "Hew the tree."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3333,
+      "word": "billen",
+      "translation": {
+        "chinese": "屁股",
+        "english": "buttocks"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bil",
+          "plural": "billen",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Mijn billen doen pijn.",
+        "Klop op je billen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我的屁股疼。",
+          "拍屁股。"
+        ],
+        "english": [
+          "My buttocks hurt.",
+          "Pat your buttocks."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "单数为 bil，复数为 billen"
+    },
+    {
+      "id": 3334,
+      "word": "binden",
+      "translation": {
+        "chinese": "绑定",
+        "english": "to bind, to tie"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "binden",
+          "isSeparable": false,
+          "present": {
+            "ik": "bind",
+            "jij": "bindt",
+            "hij": "bindt",
+            "wij": "binden",
+            "jullie": "binden",
+            "zij": "binden"
+          },
+          "past": {
+            "singular": "bond",
+            "plural": "bonden"
+          },
+          "pastParticiple": "gebonden",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij bindt zijn schoenen strak.",
+        "Bind de losse bladzijden bijeen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他系紧鞋带。",
+          "把散页装订在一起。"
+        ],
+        "english": [
+          "He ties his shoes tightly.",
+          "Bind the loose pages together."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3335,
+      "word": "bitumen",
+      "translation": {
+        "chinese": "沥青",
+        "english": "bitumen, asphalt"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bitumen",
+          "plural": "bitumen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "De weg is van bitumen.",
+        "Bitumen is zwart."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "路是沥青做的。",
+          "沥青是黑色的。"
+        ],
+        "english": [
+          "The road is made of bitumen.",
+          "Bitumen is black."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不可数名词，复数形式相同"
+    },
+    {
+      "id": 3336,
+      "word": "blaffen",
+      "translation": {
+        "chinese": "吠叫",
+        "english": "to bark"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "blaffen",
+          "isSeparable": false,
+          "present": {
+            "ik": "blaf",
+            "jij": "blaft",
+            "hij": "blaft",
+            "wij": "blaffen",
+            "jullie": "blaffen",
+            "zij": "blaffen"
+          },
+          "past": {
+            "singular": "blafte",
+            "plural": "blaften"
+          },
+          "pastParticiple": "geblaft",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De hond blaft naar de postbode.",
+        "Hij blaft hard naar voorbijgangers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "狗对着邮递员叫。",
+          "他大声对着路人叫。"
+        ],
+        "english": [
+          "The dog barks at the postman.",
+          "He barks loudly at passersby."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3337,
+      "word": "blanco",
+      "translation": {
+        "chinese": "空白的",
+        "english": "blank, white"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "blanco",
+          "withDe": "blanco",
+          "withHet": "blanco",
+          "comparative": "blanco",
+          "superlative": "blanco"
+        }
+      },
+      "examples": [
+        "Een blanco bladzijde.",
+        "Blijft blanco."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "空白页。",
+          "保持空白。"
+        ],
+        "english": [
+          "A blank page.",
+          "Remain blank."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，无比较级"
+    },
+    {
+      "id": 3338,
+      "word": "blazen",
+      "translation": {
+        "chinese": "吹",
+        "english": "to blow"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "blazen",
+          "isSeparable": false,
+          "present": {
+            "ik": "blaas",
+            "jij": "blaast",
+            "hij": "blaast",
+            "wij": "blazen",
+            "jullie": "blazen",
+            "zij": "blazen"
+          },
+          "past": {
+            "singular": "blies",
+            "plural": "bliezen"
+          },
+          "pastParticiple": "geblazen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij blaast de kaars.",
+        "De wind blaast hard."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他吹灭蜡烛。",
+          "风吹得很大。"
+        ],
+        "english": [
+          "He blows out the candle.",
+          "The wind blows hard."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3339,
+      "word": "bliksem",
+      "translation": {
+        "chinese": "闪电",
+        "english": "lightning"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bliksem",
+          "plural": "bliksems",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De bliksem slaat in.",
+        "Er is bliksem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "闪电击中。",
+          "有闪电。"
+        ],
+        "english": [
+          "The lightning strikes.",
+          "There is lightning."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bliksems"
+    },
+    {
+      "id": 3340,
+      "word": "bloeden",
+      "translation": {
+        "chinese": "流血",
+        "english": "to bleed"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bloeden",
+          "isSeparable": false,
+          "present": {
+            "ik": "bloed",
+            "jij": "bloedt",
+            "hij": "bloedt",
+            "wij": "bloeden",
+            "jullie": "bloeden",
+            "zij": "bloeden"
+          },
+          "past": {
+            "singular": "bloedde",
+            "plural": "bloedden"
+          },
+          "pastParticiple": "gebloed",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De neus bloedt.",
+        "Hij bloedt veel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "鼻子流血。",
+          "他流血很多。"
+        ],
+        "english": [
+          "The nose bleeds.",
+          "He bleeds a lot."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3341,
+      "word": "bloesem",
+      "translation": {
+        "chinese": "花朵",
+        "english": "blossom, flower"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bloesem",
+          "plural": "bloesems",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De bloesem is mooi.",
+        "De boom staat in bloesem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "花朵很美。",
+          "树开花了。"
+        ],
+        "english": [
+          "The blossom is beautiful.",
+          "The tree is in blossom."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bloesems"
+    },
+    {
+      "id": 3342,
+      "word": "blooper",
+      "translation": {
+        "chinese": "洋相",
+        "english": "blooper, mistake"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "blooper",
+          "plural": "bloopers",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Dat was een blooper.",
+        "Veel bloopers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那是个大错。",
+          "很多洋相。"
+        ],
+        "english": [
+          "That was a blooper.",
+          "Many bloopers."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 bloopers"
+    },
+    {
+      "id": 3343,
+      "word": "blouse",
+      "translation": {
+        "chinese": "女衬衫",
+        "english": "blouse"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "blouse",
+          "plural": "blouses",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Zij draagt een blouse.",
+        "Een mooie blouse."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她穿一件女衬衫。",
+          "一件漂亮的衬衫。"
+        ],
+        "english": [
+          "She wears a blouse.",
+          "A beautiful blouse."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 blouses"
+    },
+    {
+      "id": 3344,
+      "word": "blunder",
+      "translation": {
+        "chinese": "大错",
+        "english": "blunder, mistake"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "blunder",
+          "plural": "blunders",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij maakte een blunder.",
+        "Een grote blunder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他犯了个大错。",
+          "一个巨大的错误。"
+        ],
+        "english": [
+          "He made a blunder.",
+          "A big mistake."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 blunders"
+    },
+    {
+      "id": 3345,
+      "word": "blussen",
+      "translation": {
+        "chinese": "灭火",
+        "english": "to extinguish, to put out"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "blussen",
+          "isSeparable": false,
+          "present": {
+            "ik": "blus",
+            "jij": "blust",
+            "hij": "blust",
+            "wij": "blussen",
+            "jullie": "blussen",
+            "zij": "blussen"
+          },
+          "past": {
+            "singular": "bluste",
+            "plural": "blusten"
+          },
+          "pastParticiple": "geblust",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Blus het vuur.",
+        "De brandweer blust."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "灭火。",
+          "消防队在灭火。"
+        ],
+        "english": [
+          "Extinguish the fire.",
+          "The fire brigade puts it out."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3346,
+      "word": "boeien",
+      "translation": {
+        "chinese": "迷住,戴手铐",
+        "english": "to fascinate, to handcuff"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "boeien",
+          "isSeparable": false,
+          "present": {
+            "ik": "boei",
+            "jij": "boeit",
+            "hij": "boeit",
+            "wij": "boeien",
+            "jullie": "boeien",
+            "zij": "boeien"
+          },
+          "past": {
+            "singular": "boeide",
+            "plural": "boeiden"
+          },
+          "pastParticiple": "geboeid",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het verhaal boeit mij.",
+        "De politie boeit hem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个故事吸引我。",
+          "警察给他戴上手铐。"
+        ],
+        "english": [
+          "The story fascinates me.",
+          "The police handcuff him."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，双义"
+    },
+    {
+      "id": 3347,
+      "word": "boeiend",
+      "translation": {
+        "chinese": "引人入胜的",
+        "english": "fascinating, interesting"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "boeiend",
+          "withDe": "boeiende",
+          "withHet": "boeiend",
+          "comparative": "boeiender",
+          "superlative": "boeiendst"
+        }
+      },
+      "examples": [
+        "Het boek is boeiend.",
+        "Een boeiend verhaal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这本书很引人入胜。",
+          "一个有趣的故事。"
+        ],
+        "english": [
+          "The book is fascinating.",
+          "An interesting story."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "现在分词作形容词，比较级和最高级规则：boeiend - boeiender - boeiendst"
+    },
+    {
+      "id": 3348,
+      "word": "boeken",
+      "translation": {
+        "chinese": "预订",
+        "english": "to book, to reserve"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "boeken",
+          "isSeparable": false,
+          "present": {
+            "ik": "boek",
+            "jij": "boekt",
+            "hij": "boekt",
+            "wij": "boeken",
+            "jullie": "boeken",
+            "zij": "boeken"
+          },
+          "past": {
+            "singular": "boekte",
+            "plural": "boekten"
+          },
+          "pastParticiple": "geboekt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik boek een hotel.",
+        "Boek de vlucht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我预订酒店。",
+          "预订航班。"
+        ],
+        "english": [
+          "I book a hotel.",
+          "Book the flight."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3349,
+      "word": "boeket",
+      "translation": {
+        "chinese": "花束",
+        "english": "bouquet, bunch of flowers"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "boeket",
+          "plural": "boeketten",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Hij koopt een boeket.",
+        "Een mooi boeket."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他买一束花。",
+          "一束漂亮的花。"
+        ],
+        "english": [
+          "He buys a bouquet.",
+          "A beautiful bouquet."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 boeketten"
+    },
+    {
+      "id": 3350,
+      "word": "boemel",
+      "translation": {
+        "chinese": "慢车",
+        "english": "slow train"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "boemel",
+          "plural": "boemels",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De boemel is langzaam.",
+        "Ik neem de boemel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "慢车很慢。",
+          "我坐慢车。"
+        ],
+        "english": [
+          "The slow train is slow.",
+          "I take the slow train."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 boemels"
+    },
+    {
+      "id": 3351,
+      "word": "boksen",
+      "translation": {
+        "chinese": "拳击",
+        "english": "to box"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "boksen",
+          "isSeparable": false,
+          "present": {
+            "ik": "boks",
+            "jij": "bokst",
+            "hij": "bokst",
+            "wij": "boksen",
+            "jullie": "boksen",
+            "zij": "boksen"
+          },
+          "past": {
+            "singular": "bokste",
+            "plural": "boksten"
+          },
+          "pastParticiple": "gebokst",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij boks goed.",
+        "Zij boksen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他拳击打得很好。",
+          "她们打拳击。"
+        ],
+        "english": [
+          "He boxes well.",
+          "They box."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3352,
+      "word": "bolwerk",
+      "translation": {
+        "chinese": "堡垒",
+        "english": "bulwark, fortress"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bolwerk",
+          "plural": "bolwerken",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Het bolwerk is sterk.",
+        "Een oud bolwerk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "堡垒很坚固。",
+          "一个古老的堡垒。"
+        ],
+        "english": [
+          "The bulwark is strong.",
+          "An old fortress."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 bolwerken"
+    },
+    {
+      "id": 3353,
+      "word": "bonken",
+      "translation": {
+        "chinese": "敲击",
+        "english": "to pound, to hammer"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bonken",
+          "isSeparable": false,
+          "present": {
+            "ik": "bonk",
+            "jij": "bonkt",
+            "hij": "bonkt",
+            "wij": "bonken",
+            "jullie": "bonken",
+            "zij": "bonken"
+          },
+          "past": {
+            "singular": "bonkte",
+            "plural": "bonkten"
+          },
+          "pastParticiple": "gebonkt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij bonkt op de deur.",
+        "Het hart bonkt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他敲打门。",
+          "心脏怦怦跳。"
+        ],
+        "english": [
+          "He pounds on the door.",
+          "The heart pounds."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3354,
+      "word": "borden",
+      "translation": {
+        "chinese": "盘子",
+        "english": "plates"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bord",
+          "plural": "borden",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De borden zijn schoon.",
+        "Zet de borden op tafel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "盘子很干净。",
+          "把盘子放在桌上。"
+        ],
+        "english": [
+          "The plates are clean.",
+          "Put the plates on the table."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "单数为 bord，复数为 borden"
+    },
+    {
+      "id": 3355,
+      "word": "borgen",
+      "translation": {
+        "chinese": "保证,担保",
+        "english": "to guarantee, to deposit"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "borgen",
+          "isSeparable": false,
+          "present": {
+            "ik": "borg",
+            "jij": "borgt",
+            "hij": "borgt",
+            "wij": "borgen",
+            "jullie": "borgen",
+            "zij": "borgen"
+          },
+          "past": {
+            "singular": "borgde",
+            "plural": "borgden"
+          },
+          "pastParticiple": "geborgd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik borg je geld.",
+        "Borg de fiets."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我担保你的钱。",
+          "寄存自行车。"
+        ],
+        "english": [
+          "I guarantee your money.",
+          "Deposit the bicycle."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3356,
+      "word": "botsen",
+      "translation": {
+        "chinese": "碰撞",
+        "english": "to collide, to crash"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "botsen",
+          "isSeparable": false,
+          "present": {
+            "ik": "bots",
+            "jij": "botst",
+            "hij": "botst",
+            "wij": "botsen",
+            "jullie": "botsen",
+            "zij": "botsen"
+          },
+          "past": {
+            "singular": "botste",
+            "plural": "botsten"
+          },
+          "pastParticiple": "gebotst",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De auto's botsen.",
+        "Hij botst tegen de tafel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "汽车相撞。",
+          "他撞到桌子。"
+        ],
+        "english": [
+          "The cars collide.",
+          "He crashes into the table."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3357,
+      "word": "bovenal",
+      "translation": {
+        "chinese": "首先",
+        "english": "above all, first of all"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Bovenal gezond blijven.",
+        "Bovenal genieten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "首先保持健康。",
+          "首要的是享受。"
+        ],
+        "english": [
+          "Above all stay healthy.",
+          "First of all enjoy."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，表示强调"
+    },
+    {
+      "id": 3358,
+      "word": "braden",
+      "translation": {
+        "chinese": "烘烤",
+        "english": "to roast, to fry"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "braden",
+          "isSeparable": false,
+          "present": {
+            "ik": "braad",
+            "jij": "braadt",
+            "hij": "braadt",
+            "wij": "braden",
+            "jullie": "braden",
+            "zij": "braden"
+          },
+          "past": {
+            "singular": "braadde",
+            "plural": "braadden"
+          },
+          "pastParticiple": "gebraden",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik braad de kip.",
+        "Zij braden het vlees."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我烤鸡肉。",
+          "她们烤肉。"
+        ],
+        "english": [
+          "I roast the chicken.",
+          "They fry the meat."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3359,
+      "word": "branche",
+      "translation": {
+        "chinese": "行业",
+        "english": "sector, branch"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "branche",
+          "plural": "branches",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De branche groeit.",
+        "Een nieuwe branche."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "行业在增长。",
+          "一个新行业。"
+        ],
+        "english": [
+          "The sector grows.",
+          "A new branch."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 branches"
+    },
+    {
+      "id": 3360,
+      "word": "breedte",
+      "translation": {
+        "chinese": "宽度",
+        "english": "width, breadth"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "breedte",
+          "plural": "breedtes",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De breedte is twee meter.",
+        "Meet de breedte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "宽度是两米。",
+          "测量宽度。"
+        ],
+        "english": [
+          "The width is two meters.",
+          "Measure the width."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 breedtes"
+    }
+  ]
+}

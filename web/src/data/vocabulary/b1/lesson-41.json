@@ -1,0 +1,777 @@
+{
+  "id": "lB141",
+  "level": "B1",
+  "lessonNumber": 41,
+  "totalWords": 22,
+  "words": [
+    {
+      "id": 3481,
+      "word": "trauma",
+      "translation": {
+        "chinese": "创伤",
+        "english": "trauma"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "trauma",
+          "plural": "trauma's",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Hij heeft een trauma uit zijn jeugd.",
+        "Het emotionele trauma duurt lang."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他有童年创伤。",
+          "情感创伤持续很久。"
+        ],
+        "english": [
+          "He has a trauma from his childhood.",
+          "The emotional trauma lasts a long time."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 trauma's"
+    },
+    {
+      "id": 3482,
+      "word": "treffen",
+      "translation": {
+        "chinese": "击中,遇见",
+        "english": "to hit, to meet"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "treffen",
+          "isSeparable": false,
+          "present": {
+            "ik": "tref",
+            "jij": "treft",
+            "hij": "treft",
+            "wij": "treffen",
+            "jullie": "treffen",
+            "zij": "treffen"
+          },
+          "past": {
+            "singular": "trof",
+            "plural": "troffen"
+          },
+          "pastParticiple": "getroffen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij treft het doel.",
+        "Zij treffen elkaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他击中目标。",
+          "她们遇见彼此。"
+        ],
+        "english": [
+          "He hits the target.",
+          "They meet each other."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3483,
+      "word": "trekken",
+      "translation": {
+        "chinese": "拉,吸引",
+        "english": "to pull, to attract"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "trekken",
+          "isSeparable": false,
+          "present": {
+            "ik": "trek",
+            "jij": "trekt",
+            "hij": "trekt",
+            "wij": "trekken",
+            "jullie": "trekken",
+            "zij": "trekken"
+          },
+          "past": {
+            "singular": "trok",
+            "plural": "trokken"
+          },
+          "pastParticiple": "getrokken",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Trek aan de deur.",
+        "De film trekt veel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "拉门。",
+          "这部电影很吸引人。"
+        ],
+        "english": [
+          "Pull the door.",
+          "The film attracts many."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "不规则动词"
+    },
+    {
+      "id": 3484,
+      "word": "trekker",
+      "translation": {
+        "chinese": "拖拉机,触发器",
+        "english": "tractor, trigger"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "trekker",
+          "plural": "trekkers",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De trekker werkt prima in het veld.",
+        "Hij rijdt dagelijks met de grote trekker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "拖拉机在田里运作良好。",
+          "他每天开着那台大拖拉机。"
+        ],
+        "english": [
+          "The tractor works fine in the field.",
+          "He drives the large tractor daily."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 trekkers"
+    },
+    {
+      "id": 3485,
+      "word": "treurig",
+      "translation": {
+        "chinese": "悲伤的",
+        "english": "sad, sorrowful"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "treurig",
+          "withDe": "treurige",
+          "withHet": "treurig",
+          "comparative": "treuriger",
+          "superlative": "treurigst"
+        }
+      },
+      "examples": [
+        "Het nieuws is heel treurig vandaag.",
+        "Een treurig verhaal over oorlog."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "今天的消息很悲伤。",
+          "一个关于战争的悲伤故事。"
+        ],
+        "english": [
+          "The news is very sad today.",
+          "A sad story about war."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：treurig - treuriger - treurigst"
+    },
+    {
+      "id": 3486,
+      "word": "tribune",
+      "translation": {
+        "chinese": "看台",
+        "english": "tribune, stand"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "tribune",
+          "plural": "tribunes",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "De tribune zit vol met supporters.",
+        "Zit op de tribune bij de ingang."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "看台上坐满了支持者。",
+          "坐在入口处的看台上。"
+        ],
+        "english": [
+          "The tribune is full of supporters.",
+          "Sit on the tribune near the entrance."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 tribunes"
+    },
+    {
+      "id": 3487,
+      "word": "triest",
+      "translation": {
+        "chinese": "悲惨的",
+        "english": "miserable, pathetic"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "triest",
+          "withDe": "trieste",
+          "withHet": "triest",
+          "comparative": "trister",
+          "superlative": "triestst"
+        }
+      },
+      "examples": [
+        "De situatie is heel triest.",
+        "Een trieste situatie voor het gezin."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这处境很悲惨。",
+          "对家庭来说悲惨的处境。"
+        ],
+        "english": [
+          "The situation is very miserable.",
+          "A pathetic situation for the family."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "比较级和最高级规则：triest - trister - triestst"
+    },
+    {
+      "id": 3488,
+      "word": "trillen",
+      "translation": {
+        "chinese": "发抖",
+        "english": "to tremble, to shake"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "trillen",
+          "isSeparable": false,
+          "present": {
+            "ik": "tril",
+            "jij": "trilt",
+            "hij": "trilt",
+            "wij": "trillen",
+            "jullie": "trillen",
+            "zij": "trillen"
+          },
+          "past": {
+            "singular": "trilde",
+            "plural": "trilden"
+          },
+          "pastParticiple": "getrild",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij trilt van kou.",
+        "Mijn hand trilt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他冷得发抖。",
+          "我的手在抖。"
+        ],
+        "english": [
+          "He trembles with cold.",
+          "My hand shakes."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3489,
+      "word": "trimmen",
+      "translation": {
+        "chinese": "修剪,慢跑",
+        "english": "to trim, to jog"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "trimmen",
+          "isSeparable": false,
+          "present": {
+            "ik": "trim",
+            "jij": "trimt",
+            "hij": "trimt",
+            "wij": "trimmen",
+            "jullie": "trimmen",
+            "zij": "trimmen"
+          },
+          "past": {
+            "singular": "trimde",
+            "plural": "trimden"
+          },
+          "pastParticiple": "getrimd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zij trimmen regelmatig in het park.",
+        "Hij trimt de haag in de tuin."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她们经常在公园慢跑。",
+          "他修剪花园里的树篱。"
+        ],
+        "english": [
+          "They jog regularly in the park.",
+          "He trims the hedge in the garden."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3490,
+      "word": "troffel",
+      "translation": {
+        "chinese": "镘刀",
+        "english": "trowel"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "troffel",
+          "plural": "troffels",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Gebruik de troffel voor het cement.",
+        "Een troffel is essentieel voor metselwerk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "用镘刀涂抹水泥。",
+          "镘刀对砌砖工作很重要。"
+        ],
+        "english": [
+          "Use the trowel for the cement.",
+          "A trowel is essential for masonry work."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 troffels"
+    },
+    {
+      "id": 3491,
+      "word": "trommel",
+      "translation": {
+        "chinese": "鼓,盒子",
+        "english": "drum, box"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "trommel",
+          "plural": "trommels",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Hij speelt de trommel.",
+        "Een trommel vol koekjes."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他打鼓。",
+          "一盒饼干。"
+        ],
+        "english": [
+          "He plays the drum.",
+          "A box full of cookies."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 trommels"
+    },
+    {
+      "id": 3492,
+      "word": "trouwen",
+      "translation": {
+        "chinese": "结婚",
+        "english": "to marry, to get married"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "trouwen",
+          "isSeparable": false,
+          "present": {
+            "ik": "trouw",
+            "jij": "trouwt",
+            "hij": "trouwt",
+            "wij": "trouwen",
+            "jullie": "trouwen",
+            "zij": "trouwen"
+          },
+          "past": {
+            "singular": "trouwde",
+            "plural": "trouwden"
+          },
+          "pastParticiple": "getrouwd",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Zij trouwen morgen.",
+        "Hij trouwt haar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她们明天结婚。",
+          "他娶她。"
+        ],
+        "english": [
+          "They marry tomorrow.",
+          "He marries her."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词，用zijn作助动词"
+    },
+    {
+      "id": 3493,
+      "word": "tsunami",
+      "translation": {
+        "chinese": "海啸",
+        "english": "tsunami"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "tsunami",
+          "plural": "tsunami's",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Een krachtige tsunami vernietigde de kust.",
+        "De tsunami was een ramp voor het land."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "强烈的海啸摧毁了海岸。",
+          "这场海啸对国家来说是场灾难。"
+        ],
+        "english": [
+          "A powerful tsunami destroyed the coast.",
+          "The tsunami was a disaster for the country."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "外来词，复数形式为 tsunami's"
+    },
+    {
+      "id": 3494,
+      "word": "turnen",
+      "translation": {
+        "chinese": "体操",
+        "english": "to do gymnastics"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "turnen",
+          "isSeparable": false,
+          "present": {
+            "ik": "turn",
+            "jij": "turnt",
+            "hij": "turnt",
+            "wij": "turnen",
+            "jullie": "turnen",
+            "zij": "turnen"
+          },
+          "past": {
+            "singular": "turnde",
+            "plural": "turnden"
+          },
+          "pastParticiple": "geturnd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De equipe turnt goed in de zaal.",
+        "Hij turnt regelmatig tijdens de oefeningen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "队伍在体育馆刻苦训练。",
+          "他训练时很认真。"
+        ],
+        "english": [
+          "The team trains excellently in the gym.",
+          "He trains seriously during the exercises."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "规则动词"
+    },
+    {
+      "id": 3495,
+      "word": "tussen",
+      "translation": {
+        "chinese": "在...之间",
+        "english": "between"
+      },
+      "partOfSpeech": "preposition",
+      "forms": {},
+      "examples": [
+        "Tussen de bomen.",
+        "Zit tussen ons."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在树木之间。",
+          "坐在我们中间。"
+        ],
+        "english": [
+          "Between the trees.",
+          "Sit between us."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "介词，表示位置"
+    },
+    {
+      "id": 3496,
+      "word": "twaalf",
+      "translation": {
+        "chinese": "十二",
+        "english": "twelve"
+      },
+      "partOfSpeech": "numeral",
+      "forms": {},
+      "examples": [
+        "Ik ben twaalf.",
+        "Twaalf uur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我十二岁。",
+          "十二点。"
+        ],
+        "english": [
+          "I am twelve.",
+          "Twelve o'clock."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "基数词"
+    },
+    {
+      "id": 3497,
+      "word": "tweede",
+      "translation": {
+        "chinese": "第二",
+        "english": "second"
+      },
+      "partOfSpeech": "numeral",
+      "forms": {},
+      "examples": [
+        "De tweede dag.",
+        "Op de tweede plaats."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "第二天。",
+          "在第二名。"
+        ],
+        "english": [
+          "The second day.",
+          "In second place."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "序数词"
+    },
+    {
+      "id": 3498,
+      "word": "tweetal",
+      "translation": {
+        "chinese": "一对,两个",
+        "english": "pair, duo"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "tweetal",
+          "plural": "tallen",
+          "article": "het"
+        }
+      },
+      "examples": [
+        "Een tweetal mensen.",
+        "In tweetallen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "两个人。",
+          "成对地。"
+        ],
+        "english": [
+          "A pair of people.",
+          "In pairs."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 tallen"
+    },
+    {
+      "id": 3499,
+      "word": "twijfel",
+      "translation": {
+        "chinese": "怀疑",
+        "english": "doubt"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "twijfel",
+          "plural": "twijfels",
+          "article": "de"
+        }
+      },
+      "examples": [
+        "Ik heb mijn twijfel over het plan.",
+        "Er is geen twijfel over zijn succes."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我对这个计划有疑虑。",
+          "对他的成功毫无疑问。"
+        ],
+        "english": [
+          "I have doubt about the plan.",
+          "There is no doubt about his success."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "复数形式为 twijfels"
+    },
+    {
+      "id": 3500,
+      "word": "twintig",
+      "translation": {
+        "chinese": "二十",
+        "english": "twenty"
+      },
+      "partOfSpeech": "numeral",
+      "forms": {},
+      "examples": [
+        "Ik ben twintig.",
+        "Twintig jaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我二十岁。",
+          "二十年。"
+        ],
+        "english": [
+          "I am twenty.",
+          "Twenty years."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "基数词"
+    },
+    {
+      "id": 3501,
+      "word": "uitdoen",
+      "translation": {
+        "chinese": "熄灭,脱掉",
+        "english": "to turn off, to take off"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "uitdoen",
+          "isSeparable": true,
+          "present": {
+            "ik": "doe uit",
+            "jij": "doe uit",
+            "hij": "doet uit",
+            "wij": "doen uit",
+            "jullie": "doen uit",
+            "zij": "doen uit"
+          },
+          "past": {
+            "singular": "deed uit",
+            "plural": "deden uit"
+          },
+          "pastParticiple": "uitgedaan",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Doe het licht uit.",
+        "Zij doet haar jas uit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "关灯。",
+          "她脱掉外套。"
+        ],
+        "english": [
+          "Turn off the light.",
+          "She takes off her coat."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "可分动词"
+    },
+    {
+      "id": 3502,
+      "word": "uiteen",
+      "translation": {
+        "chinese": "分开",
+        "english": "apart, separate"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Hij valt uiteen.",
+        "Ga uiteen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他散开了。",
+          "分开走。"
+        ],
+        "english": [
+          "He falls apart.",
+          "Go separate ways."
+        ]
+      },
+      "difficulty": "B1",
+      "notes": "副词，常与动词连用"
+    }
+  ]
+}
