@@ -31,6 +31,13 @@ interface AdminStats {
   inactiveUsers3m: number
 }
 
+interface SubscriptionUpdateData {
+  subscription_tier: 'free' | 'premium';
+  subscription_status?: 'active' | 'cancelled' | 'past_due' | 'expired';
+  subscription_started_at?: string | null;
+  subscription_ends_at?: string | null;
+}
+
 export default function AdminDashboard() {
   const navigate = useNavigate()
   const [users, setUsers] = useState<AdminUser[]>([])
@@ -97,7 +104,7 @@ export default function AdminDashboard() {
     }
   }
 
-  const loadUsers = async () => {
+  const loadUsers = async (): Promise<AdminUser[] | undefined> => {
     try {
       setLoading(true)
 
@@ -156,7 +163,7 @@ export default function AdminDashboard() {
     } catch (err) {
       console.error('加载用户失败:', err)
       showMessage('error', '加载用户列表失败')
-      return 0
+      return undefined
     } finally {
       setLoading(false)
     }
@@ -250,7 +257,7 @@ export default function AdminDashboard() {
     tier: 'free' | 'premium'
   ) => {
     try {
-      const updateData: any = {
+      const updateData: SubscriptionUpdateData = {
         subscription_tier: tier
       }
 
