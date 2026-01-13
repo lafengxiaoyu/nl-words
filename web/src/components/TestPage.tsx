@@ -6,6 +6,8 @@ import { words } from '../data/words'
 import { supabase } from '../lib/supabase'
 import { updateTestStats } from '../lib/progressSync'
 import { calculateFamiliarity } from '../lib/familiarityCalculator'
+import { isPremiumUser } from '../lib/subscription'
+import PremiumUpgradeModal from './PremiumUpgradeModal'
 import './TestPage.css'
 
 interface TestPageProps {
@@ -57,6 +59,8 @@ const GlobeIcon = () => {
 export default function TestPage({ languageMode }: TestPageProps) {
   const navigate = useNavigate()
   const [user, setUser] = useState<User | null>(null)
+  const [isPremium, setIsPremium] = useState(false)
+  const [showPremiumModal, setShowPremiumModal] = useState(false)
   const [testWords, setTestWords] = useState<Word[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
   const [userAnswer, setUserAnswer] = useState('')
@@ -76,13 +80,22 @@ export default function TestPage({ languageMode }: TestPageProps) {
       const { data: { session } } = await supabase.auth.getSession()
       if (session) {
         setUser(session.user)
+        // 加载订阅状态
+        const premium = await isPremiumUser(session.user.id)
+        setIsPremium(premium)
       }
     }
 
     checkUser()
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event, session) => {
       setUser(session?.user || null)
+      if (session?.user) {
+        const premium = await isPremiumUser(session.user.id)
+        setIsPremium(premium)
+      } else {
+        setIsPremium(false)
+      }
     })
 
     return () => {
@@ -145,20 +158,44 @@ export default function TestPage({ languageMode }: TestPageProps) {
 
   const t = translations[languageMode]
 
-  // 根据难度筛选单词
+  // 根据难度筛选单词（考虑订阅状态）
   const filterWordsByDifficulty = (allWords: Word[], difficulty: DifficultyLevel | 'all') => {
     if (difficulty === 'all') {
-      return allWords
+      // 免费用户只显示 A1-A2，付费用户显示全部
+      if (isPremium) {
+        return allWords
+      } else {
+        return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+      }
     } else if (difficulty === 'A1') {
       // A1-A2 组合筛选
       return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
     } else if (difficulty === 'B1') {
-      // B1-B2 组合筛选
+      // B1-B2 组合筛选 - 需要检查权限
+      if (!isPremium) {
+        // 触发付费弹窗
+        setShowPremiumModal(true)
+        // 回退到 A1-A2
+        setSelectedDifficulty('A1')
+        return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+      }
       return allWords.filter(w => w.difficulty === 'B1' || w.difficulty === 'B2')
     } else if (difficulty === 'C1') {
-      // C1-C2 组合筛选
+      // C1-C2 组合筛选 - 需要检查权限
+      if (!isPremium) {
+        setShowPremiumModal(true)
+        setSelectedDifficulty('A1')
+        return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+      }
       return allWords.filter(w => w.difficulty === 'C1' || w.difficulty === 'C2')
     } else {
+      // 单独的难度级别筛选（这里只可能是 'B2' 或 'C2'）
+      const isAllowed = isPremium
+      if (!isAllowed) {
+        setShowPremiumModal(true)
+        setSelectedDifficulty('A1')
+        return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+      }
       return allWords.filter(w => w.difficulty === difficulty)
     }
   }
@@ -436,6 +473,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
     const maxWordCount = filteredWords.length
 
     return (
+      <>
       <div className="test-page">
         <div className="test-container">
           <div className="page-header">
@@ -472,16 +510,20 @@ export default function TestPage({ languageMode }: TestPageProps) {
                     A1-A2
                   </button>
                   <button
-                    className={`difficulty-option ${selectedDifficulty === 'B1' ? 'selected' : ''}`}
+                    className={`difficulty-option ${!isPremium ? 'locked' : ''} ${selectedDifficulty === 'B1' ? 'selected' : ''}`}
                     onClick={() => setSelectedDifficulty('B1')}
+                    title={isPremium ? '' : '需要 Premium 才能访问'}
                   >
                     B1-B2
+                    {!isPremium && <span className="lock-icon">🔒</span>}
                   </button>
                   <button
-                    className={`difficulty-option ${selectedDifficulty === 'C1' ? 'selected' : ''}`}
+                    className={`difficulty-option ${!isPremium ? 'locked' : ''} ${selectedDifficulty === 'C1' ? 'selected' : ''}`}
                     onClick={() => setSelectedDifficulty('C1')}
+                    title={isPremium ? '' : '需要 Premium 才能访问'}
                   >
                     C1-C2
+                    {!isPremium && <span className="lock-icon">🔒</span>}
                   </button>
                 </div>
               </div>
@@ -517,12 +559,23 @@ export default function TestPage({ languageMode }: TestPageProps) {
           </div>
         </div>
       </div>
+
+      {/* Premium 升级弹窗 */}
+      <PremiumUpgradeModal
+        isOpen={showPremiumModal}
+        onClose={() => {
+          setShowPremiumModal(false)
+        }}
+        languageMode={languageMode}
+      />
+      </>
     )
   }
 
   if (testComplete) {
     const percentage = Math.round((score / testWords.length) * 100)
     return (
+      <>
       <div className="test-page">
         <div className="test-container">
           <div className="page-header">
@@ -574,10 +627,21 @@ export default function TestPage({ languageMode }: TestPageProps) {
           </div>
         </div>
       </div>
+
+      {/* Premium 升级弹窗 */}
+      <PremiumUpgradeModal
+        isOpen={showPremiumModal}
+        onClose={() => {
+          setShowPremiumModal(false)
+        }}
+        languageMode={languageMode}
+      />
+      </>
     )
   }
 
   return (
+    <>
     <div className="test-page">
       <div className="test-container">
         <div className="page-header">
@@ -688,5 +752,6 @@ export default function TestPage({ languageMode }: TestPageProps) {
         </div>
       </div>
     </div>
+    </>
   )
 }

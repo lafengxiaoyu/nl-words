@@ -6,6 +6,8 @@ import { words as baseWords } from '../data/words'
 import { supabase } from '../lib/supabase'
 import { loadUserProgress, updateTestStats, mergeProgress } from '../lib/progressSync'
 import { calculateFamiliarity } from '../lib/familiarityCalculator'
+import { isPremiumUser } from '../lib/subscription'
+import PremiumUpgradeModal from './PremiumUpgradeModal'
 import './SpellingGame.css'
 
 interface SpellingGameProps {
@@ -76,6 +78,8 @@ const HintIcon = () => {
 export default function SpellingGame({ languageMode }: SpellingGameProps) {
   const navigate = useNavigate()
   const [user, setUser] = useState<User | null>(null)
+  const [isPremium, setIsPremium] = useState(false)
+  const [showPremiumModal, setShowPremiumModal] = useState(false)
   const [userWords, setUserWords] = useState<Word[]>(baseWords) // 用户带进度的单词列表
   const [gameWords, setGameWords] = useState<Word[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -163,6 +167,19 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
       subscription.unsubscribe()
     }
   }, [loadProgressFromLocalStorage])
+
+  // 加载订阅状态
+  useEffect(() => {
+    const loadSubscriptionStatus = async () => {
+      if (user) {
+        const premium = await isPremiumUser(user.id)
+        setIsPremium(premium)
+      } else {
+        setIsPremium(false)
+      }
+    }
+    loadSubscriptionStatus()
+  }, [user])
 
   const translations = {
     chinese: {
@@ -253,8 +270,21 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
 
   const t = translations[languageMode]
 
-  // 根据难度筛选单词
+  // 根据难度筛选单词（考虑订阅状态）
   const filterWordsByDifficulty = (allWords: Word[], difficulty: DifficultyLevel | 'all') => {
+    // 免费用户只能访问 A1 和 A2
+    if (!isPremium) {
+      if (difficulty === 'all') {
+        return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+      } else if (difficulty === 'A1') {
+        return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+      } else {
+        // B1, B2, C1, C2 对免费用户返回空数组
+        return []
+      }
+    }
+    
+    // 付费用户可以访问所有难度
     if (difficulty === 'all') {
       return allWords
     } else if (difficulty === 'A1') {
@@ -776,8 +806,14 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
 
   const currentWord = gameWords[currentIndex]
 
-  // 处理难度选择，自动调整单词数量
+  // 处理难度选择，自动调整单词数量（检查订阅权限）
   const handleDifficultySelect = (difficulty: DifficultyLevel | 'all') => {
+    // 检查是否为 Premium 内容但用户未订阅
+    if ((difficulty === 'B1' || difficulty === 'B2' || difficulty === 'C1' || difficulty === 'C2') && !isPremium) {
+      setShowPremiumModal(true)
+      return
+    }
+    
     // 先更新难度
     setSelectedDifficulty(difficulty)
 
@@ -799,6 +835,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     const maxWordCount = filteredWords.length
 
     return (
+      <>
       <div className="spelling-game">
         <div className="game-container">
           <div className="page-header">
@@ -835,16 +872,20 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
                     A1-A2
                   </button>
                   <button
-                    className={`difficulty-option ${selectedDifficulty === 'B1' ? 'selected' : ''}`}
+                    className={`difficulty-option ${!isPremium ? 'locked' : ''} ${selectedDifficulty === 'B1' ? 'selected' : ''}`}
                     onClick={() => handleDifficultySelect('B1')}
+                    title={isPremium ? '' : '需要 Premium 才能访问'}
                   >
                     B1-B2
+                    {!isPremium && <span className="lock-icon">🔒</span>}
                   </button>
                   <button
-                    className={`difficulty-option ${selectedDifficulty === 'C1' ? 'selected' : ''}`}
+                    className={`difficulty-option ${!isPremium ? 'locked' : ''} ${selectedDifficulty === 'C1' ? 'selected' : ''}`}
                     onClick={() => handleDifficultySelect('C1')}
+                    title={isPremium ? '' : '需要 Premium 才能访问'}
                   >
                     C1-C2
+                    {!isPremium && <span className="lock-icon">🔒</span>}
                   </button>
                 </div>
               </div>
@@ -910,6 +951,14 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
           </div>
         </div>
       </div>
+
+      {/* Premium 升级弹窗 */}
+      <PremiumUpgradeModal
+        isOpen={showPremiumModal}
+        onClose={() => setShowPremiumModal(false)}
+        languageMode={languageMode}
+      />
+      </>
     )
   }
 
@@ -929,6 +978,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     }
 
     return (
+      <>
       <div className="spelling-game">
         <div className="game-container">
           <div className="page-header">
@@ -992,11 +1042,20 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
           </div>
         </div>
       </div>
+
+      {/* Premium 升级弹窗 */}
+      <PremiumUpgradeModal
+        isOpen={showPremiumModal}
+        onClose={() => setShowPremiumModal(false)}
+        languageMode={languageMode}
+      />
+      </>
     )
   }
 
   // 游戏进行中
   return (
+    <>
     <div className="spelling-game">
       <div className="game-container">
         <div className="page-header">
@@ -1147,6 +1206,14 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
         )}
       </div>
     </div>
+
+    {/* Premium 升级弹窗 */}
+    <PremiumUpgradeModal
+      isOpen={showPremiumModal}
+      onClose={() => setShowPremiumModal(false)}
+      languageMode={languageMode}
+    />
+    </>
   )
 }
 

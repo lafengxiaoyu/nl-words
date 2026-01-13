@@ -7,6 +7,7 @@ import type { ExampleTranslations } from './data/types'
 import { supabase } from './lib/supabase'
 import { loadUserProgress, saveUserProgress, mergeProgress, incrementViewCount, updateMasteryStats } from './lib/progressSync'
 import { calculateFamiliarity, calculateFamiliarityScore } from './lib/familiarityCalculator'
+import { isPremiumUser } from './lib/subscription'
 import Auth from './components/Auth'
 import UserProfile from './components/UserProfile'
 import ProfilePage from './components/ProfilePage'
@@ -15,6 +16,7 @@ import WordListPage from './components/WordListPage'
 import AdminDashboard from './components/AdminDashboard'
 import SpellingGame from './components/SpellingGame'
 import AboutPage from './components/AboutPage'
+import PremiumUpgradeModal from './components/PremiumUpgradeModal'
 import logo from './assets/images/dutch-lex.svg'
 
 // 发音按钮图标组件
@@ -278,8 +280,10 @@ function MainApp() {
   const location = useLocation()
   const [user, setUser] = useState<SupabaseUser | null>(null)
   const [userProfile, setUserProfile] = useState<{ avatar_url?: string } | null>(null)
+  const [isPremium, setIsPremium] = useState(false)
   const [showAuth, setShowAuth] = useState(false)
   const [showUserProfile, setShowUserProfile] = useState(false)
+  const [showPremiumModal, setShowPremiumModal] = useState(false)
   
   // 获取基础路径（兼容 Vite base path）
   const getBasePath = () => {
@@ -338,6 +342,17 @@ function MainApp() {
       setUserProfile(null)
     }
   }
+
+  // 加载用户订阅状态
+  const loadUserSubscription = async (userId: string) => {
+    try {
+      const premium = await isPremiumUser(userId)
+      setIsPremium(premium)
+    } catch (err) {
+      console.error('加载订阅状态失败:', err)
+      setIsPremium(false)
+    }
+  }
   const [wordList, setWordList] = useState<Word[]>(words)
   const [filteredWordList, setFilteredWordList] = useState<Word[]>(words)
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -378,6 +393,7 @@ function MainApp() {
       a1a2Label: 'A1-A2',
       b1b2Label: 'B1-B2',
       c1c2Label: 'C1-C2',
+      premiumBadge: '👑 Premium',
       masteredText: '已掌握',
       masteredCount: (mastered: number, total: number, percentage: number) => `${mastered} / ${total} 已掌握 (${percentage}%)`,
       syncStatus: {
@@ -457,6 +473,7 @@ function MainApp() {
       a1a2Label: 'A1-A2',
       b1b2Label: 'B1-B2',
       c1c2Label: 'C1-C2',
+      premiumBadge: '👑 Premium',
       masteredText: 'Mastered',
       masteredCount: (mastered: number, total: number, percentage: number) => `${mastered} / ${total} Mastered (${percentage}%)`,
       syncStatus: {
@@ -659,6 +676,7 @@ function MainApp() {
           try {
             await loadProgressFromSupabase(user.id)
             await loadUserProfile(user.id)
+            await loadUserSubscription(user.id)
           } catch (error) {
             console.error('加载云端进度失败，使用本地数据:', error)
           }
@@ -681,8 +699,12 @@ function MainApp() {
           loadUserProfile(user.id).catch((error) => {
             console.error('加载用户资料失败:', error)
           })
+          loadUserSubscription(user.id).catch((error) => {
+            console.error('加载订阅状态失败:', error)
+          })
         } else {
           setUserProfile(null)
+          setIsPremium(false)
         }
       })
 
@@ -711,20 +733,41 @@ function MainApp() {
   // 计算筛选后的单词列表
   const calculateFilteredWordList = useCallback(() => {
     if (selectedDifficulty === 'all') {
-      return wordList
+      // 免费用户只显示 A1-A2，付费用户显示全部
+      if (isPremium) {
+        return wordList
+      } else {
+        return wordList.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+      }
     } else if (selectedDifficulty === 'A1') {
       // A1-A2 组合筛选
       return wordList.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
     } else if (selectedDifficulty === 'B1') {
-      // B1-B2 组合筛选
+      // B1-B2 组合筛选 - 需要检查权限
+      if (!isPremium) {
+        // 触发付费弹窗
+        setShowPremiumModal(true)
+        // 回退到 A1-A2
+        return wordList.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+      }
       return wordList.filter(w => w.difficulty === 'B1' || w.difficulty === 'B2')
     } else if (selectedDifficulty === 'C1') {
-      // C1-C2 组合筛选
+      // C1-C2 组合筛选 - 需要检查权限
+      if (!isPremium) {
+        setShowPremiumModal(true)
+        return wordList.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+      }
       return wordList.filter(w => w.difficulty === 'C1' || w.difficulty === 'C2')
     } else {
+      // 单独的难度级别筛选（这里只可能是 'B2' 或 'C2'）
+      const isAllowed = isPremium
+      if (!isAllowed) {
+        setShowPremiumModal(true)
+        return wordList.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+      }
       return wordList.filter(w => w.difficulty === selectedDifficulty)
     }
-  }, [wordList, selectedDifficulty])
+  }, [wordList, selectedDifficulty, isPremium])
 
   // 根据难度筛选单词
   useEffect(() => {
@@ -1260,8 +1303,22 @@ function MainApp() {
               <div className="difficulty-filters">
                 <button className={`btn ${selectedDifficulty === 'all' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setSelectedDifficulty('all')}>{t.allLabel}</button>
                 <button className={`btn ${selectedDifficulty === 'A1' || selectedDifficulty === 'A2' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setSelectedDifficulty('A1')}>{t.a1a2Label}</button>
-                <button className={`btn ${selectedDifficulty === 'B1' || selectedDifficulty === 'B2' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setSelectedDifficulty('B1')}>{t.b1b2Label}</button>
-                <button className={`btn ${selectedDifficulty === 'C1' || selectedDifficulty === 'C2' ? 'btn-primary' : 'btn-outline'}`} onClick={() => setSelectedDifficulty('C1')}>{t.c1c2Label}</button>
+                <button
+                  className={`btn ${!isPremium ? 'btn-locked' : ''} ${selectedDifficulty === 'B1' || selectedDifficulty === 'B2' ? 'btn-primary' : 'btn-outline'}`}
+                  onClick={() => setSelectedDifficulty('B1')}
+                  title={isPremium ? '' : '需要 Premium 才能访问'}
+                >
+                  {t.b1b2Label}
+                  {!isPremium && <span className="lock-icon">🔒</span>}
+                </button>
+                <button
+                  className={`btn ${!isPremium ? 'btn-locked' : ''} ${selectedDifficulty === 'C1' || selectedDifficulty === 'C2' ? 'btn-primary' : 'btn-outline'}`}
+                  onClick={() => setSelectedDifficulty('C1')}
+                  title={isPremium ? '' : '需要 Premium 才能访问'}
+                >
+                  {t.c1c2Label}
+                  {!isPremium && <span className="lock-icon">🔒</span>}
+                </button>
               </div>
 
               {currentWord && (
@@ -1374,9 +1431,7 @@ function MainApp() {
                       <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty ${hideBackElements ? 'hidden-element' : ''}`}>{currentWord.difficulty}</span>
                     </div>
                   </div>
-
-
-      </div>
+                </div>
               )}
 
               <div className="navigation">
@@ -1572,7 +1627,16 @@ function MainApp() {
                 languageMode={languageMode}
               />
             )}
-      </div>
+
+            {/* Premium 升级弹窗 */}
+            <PremiumUpgradeModal
+              isOpen={showPremiumModal}
+              onClose={() => {
+                setShowPremiumModal(false)
+              }}
+              languageMode={languageMode}
+            />
+          </div>
         </>
       )}
     </>

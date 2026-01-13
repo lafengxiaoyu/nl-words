@@ -1358,3 +1358,32 @@
     gap: 5px;
   }
 }
+
+/* Premium 锁定样式 */
+.filter-option.locked {
+  opacity: 0.6;
+  cursor: not-allowed;
+  position: relative;
+}
+
+.filter-option.locked:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: none;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.filter-option.locked .lock-icon {
+  margin-left: 6px;
+  font-size: 14px;
+}
+
+/* 移动端下拉菜单中的锁定样式 */
+.custom-select-option.locked {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.custom-select-option.locked .lock-icon {
+  margin-left: 6px;
+  font-size: 14px;
+}

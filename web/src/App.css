@@ -1463,18 +1463,25 @@ body {
     transform: scale(0.97);
     transition: transform 0.1s ease;
   }
-  
+
   .btn-primary:active {
     box-shadow: 0 2px 10px rgba(59, 130, 246, 0.3);
   }
-  
+
   .btn-success:active {
     box-shadow: 0 2px 10px rgba(74, 222, 128, 0.3);
   }
-  
+
   .btn-danger:active {
     box-shadow: 0 2px 10px rgba(239, 68, 68, 0.3);
   }
+}
+
+/* 小尺寸按钮 */
+.btn-small {
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  border-radius: 10px;
 }
 
 .btn:disabled {
@@ -2764,5 +2771,164 @@ body {
 
   .score-value {
     font-size: 0.95rem;
+  }
+}
+
+/* ========== Premium 订阅相关样式 ========== */
+
+/* Premium 提示横幅 */
+.premium-notice {
+  background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 锁定的按钮样式 */
+.btn-locked {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-locked .lock-icon {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+/* Premium 徽章 */
+.premium-badge {
+  background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  display: inline-block;
+  margin-left: 8px;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+}
+
+/* 订阅管理页面样式 */
+.subscription-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.subscription-card.free {
+  border-color: rgba(156, 163, 175, 0.5);
+  background: rgba(156, 163, 175, 0.1);
+}
+
+.subscription-card.premium {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.2) 0%, rgba(249, 115, 22, 0.2) 100%);
+  border-color: rgba(245, 158, 11, 0.4);
+}
+
+.subscription-tier {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.subscription-tier.premium {
+  color: #f59e0b;
+}
+
+.subscription-status {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 16px;
+}
+
+.subscription-features {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
+}
+
+.subscription-features li {
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.subscription-features li::before {
+  content: '✓';
+  color: #10b981;
+  margin-right: 8px;
+  font-weight: 700;
+}
+
+.subscription-features li.locked::before {
+  content: '✗';
+  color: #ef4444;
+}
+
+.subscription-features li.locked {
+  opacity: 0.6;
+}
+
+/* 价格标签 */
+.subscription-price {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px 0;
+  color: #f59e0b;
+}
+
+.subscription-price .currency {
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+/* 降级警告 */
+.downgrade-warning {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #ef4444;
+}
+
+.downgrade-warning strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Premium 响应式调整 */
+@media (max-width: 640px) {
+  .premium-notice {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+
+  .subscription-price {
+    font-size: 24px;
   }
 }

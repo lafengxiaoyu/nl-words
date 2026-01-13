@@ -6,6 +6,8 @@ import type { Word } from '../data/words'
 import { words } from '../data/words'
 import type { ExampleTranslations } from '../data/types'
 import type { User as SupabaseUser } from '@supabase/supabase-js'
+import { isPremiumUser } from '../lib/subscription'
+import PremiumUpgradeModal from './PremiumUpgradeModal'
 
 import './WordListPage.css'
 
@@ -161,6 +163,16 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedPartOfSpeech, setSelectedPartOfSpeech] = useState<string>('all')
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all')
+
+  // 处理难度选择，检查权限
+  const handleDifficultySelect = (difficulty: string) => {
+    // 检查是否为 Premium 内容但用户未订阅
+    if ((difficulty === 'B1' || difficulty === 'B2' || difficulty === 'C1' || difficulty === 'C2') && !isPremium) {
+      setShowPremiumModal(true)
+      return
+    }
+    setSelectedDifficulty(difficulty)
+  }
   const [selectedWord, setSelectedWord] = useState<Word | null>(null)
   const [sortBy, setSortBy] = useState<'word' | 'translation' | 'partOfSpeech' | 'difficulty' | 'favorite'>('word')
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc')
@@ -169,6 +181,8 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
 
   const [favoriteMap, setFavoriteMap] = useState<Map<number, boolean>>(new Map())
   const [user, setUser] = useState<SupabaseUser | null>(null)
+  const [isPremium, setIsPremium] = useState(false)
+  const [showPremiumModal, setShowPremiumModal] = useState(false)
 
   // 获取当前登录用户
   useEffect(() => {
@@ -178,6 +192,19 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     }
     fetchUser()
   }, [])
+
+  // 加载订阅状态
+  useEffect(() => {
+    const loadSubscriptionStatus = async () => {
+      if (user) {
+        const premium = await isPremiumUser(user.id)
+        setIsPremium(premium)
+      } else {
+        setIsPremium(false)
+      }
+    }
+    loadSubscriptionStatus()
+  }, [user])
 
   const toggleFavorite = useCallback(async (wordId: number) => {
     const isFavorited = favoriteMap.get(wordId) || false
@@ -429,8 +456,28 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
         ? word.partOfSpeech.includes(selectedPartOfSpeech)
         : word.partOfSpeech === selectedPartOfSpeech)
 
-    // 难度过滤
-    const matchesDifficulty = selectedDifficulty === 'all' || word.difficulty === selectedDifficulty
+    // 难度过滤（考虑订阅状态）
+    const matchesDifficulty = (() => {
+      if (selectedDifficulty === 'all') {
+        // 免费用户只显示 A1-A2，付费用户显示全部
+        if (!isPremium) {
+          return word.difficulty === 'A1' || word.difficulty === 'A2'
+        }
+        return true
+      } else if (selectedDifficulty === 'A1') {
+        // A1-A2 组合筛选
+        return word.difficulty === 'A1' || word.difficulty === 'A2'
+      } else if (selectedDifficulty === 'B1') {
+        // B1-B2 组合筛选
+        return word.difficulty === 'B1' || word.difficulty === 'B2'
+      } else if (selectedDifficulty === 'C1') {
+        // C1-C2 组合筛选
+        return word.difficulty === 'C1' || word.difficulty === 'C2'
+      } else {
+        // 单独的难度级别筛选
+        return word.difficulty === selectedDifficulty
+      }
+    })()
 
     return matchesSearch && matchesPartOfSpeech && matchesDifficulty
   }).sort((a, b) => {
@@ -533,19 +580,24 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
               <div className="filter-options">
                 <button
                   className={`filter-option ${selectedDifficulty === 'all' ? 'selected' : ''}`}
-                  onClick={() => setSelectedDifficulty('all')}
+                  onClick={() => handleDifficultySelect('all')}
                 >
                   {t.allDifficulties}
                 </button>
-                {allDifficulties.map((diff: string) => (
-                  <button
-                    key={diff}
-                    className={`filter-option ${selectedDifficulty === diff ? 'selected' : ''}`}
-                    onClick={() => setSelectedDifficulty(diff)}
-                  >
-                    {getTranslation(diff)}
-                  </button>
-                ))}
+                {allDifficulties.map((diff: string) => {
+                  const isLocked = (diff === 'B1' || diff === 'B2' || diff === 'C1' || diff === 'C2') && !isPremium
+                  return (
+                    <button
+                      key={diff}
+                      className={`filter-option ${isLocked ? 'locked' : ''} ${selectedDifficulty === diff ? 'selected' : ''}`}
+                      onClick={() => handleDifficultySelect(diff)}
+                      title={isLocked ? '需要 Premium 才能访问' : ''}
+                    >
+                      {getTranslation(diff)}
+                      {isLocked && <span className="lock-icon">🔒</span>}
+                    </button>
+                  )
+                })}
               </div>
             </div>
           </div>
@@ -566,7 +618,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
               <label className="filter-label">{t.difficulty}</label>
               <OptionSelect
                 value={selectedDifficulty}
-                onChange={setSelectedDifficulty}
+                onChange={handleDifficultySelect}
                 options={difficultyOptions}
                 className="mobile-filter-select"
               />
@@ -925,6 +977,14 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
           </div>
         </div>
       )}
+      {/* Premium 升级弹窗 */}
+      <PremiumUpgradeModal
+        isOpen={showPremiumModal}
+        onClose={() => {
+          setShowPremiumModal(false)
+        }}
+        languageMode={languageMode}
+      />
     </div>
   )
 }

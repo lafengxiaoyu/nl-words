@@ -19,6 +19,8 @@ interface AdminUser {
   }
   is_admin?: boolean
   wordsLearned24h?: number
+  subscription_tier?: 'free' | 'premium'
+  subscription_status?: string
 }
 
 interface AdminStats {
@@ -102,7 +104,7 @@ export default function AdminDashboard() {
       // 使用 service role 获取所有用户资料（绕过 RLS）
       const { data: profilesData, error: profilesError } = await supabase
         .from('user_profiles')
-        .select('user_id, username, email, created_at, role')
+        .select('user_id, username, email, created_at, role, subscription_tier, subscription_status')
 
       if (profilesError) {
         console.error('加载用户资料失败:', profilesError)
@@ -142,7 +144,9 @@ export default function AdminDashboard() {
           created_at: profile.created_at,
           last_sign_in_at: userProgress?.updated_at,
           is_admin: profile.role === 'admin',
-          wordsLearned24h
+          wordsLearned24h,
+          subscription_tier: profile.subscription_tier as 'free' | 'premium',
+          subscription_status: profile.subscription_status
         }
       })
 
@@ -238,6 +242,40 @@ export default function AdminDashboard() {
     } catch (err) {
       console.error('重置进度失败:', err)
       showMessage('error', '重置进度失败')
+    }
+  }
+
+  const handleUpdateSubscription = async (
+    userId: string,
+    tier: 'free' | 'premium'
+  ) => {
+    try {
+      const updateData: any = {
+        subscription_tier: tier
+      }
+
+      if (tier === 'premium') {
+        updateData.subscription_status = 'active'
+        updateData.subscription_started_at = new Date().toISOString()
+        updateData.subscription_ends_at = null
+      } else {
+        updateData.subscription_status = 'expired'
+        updateData.subscription_ends_at = new Date().toISOString()
+      }
+
+      const { error } = await supabase
+        .from('user_profiles')
+        .update(updateData)
+        .eq('user_id', userId)
+
+      if (error) throw error
+
+      showMessage('success', tier === 'premium' ? '用户已升级为 Premium' : '用户已降级为免费用户')
+      const adminUsers = await loadUsers()
+      await loadStats(adminUsers)
+    } catch (err) {
+      console.error('更新订阅失败:', err)
+      showMessage('error', '更新订阅失败')
     }
   }
 
@@ -428,6 +466,7 @@ export default function AdminDashboard() {
                   <th>创建时间</th>
                   <th>最后活跃</th>
                   <th>24h学习</th>
+                  <th>订阅</th>
                   <th>状态</th>
                   <th>操作</th>
                 </tr>
@@ -435,7 +474,7 @@ export default function AdminDashboard() {
               <tbody>
                 {displayUsers.length === 0 ? (
                   <tr>
-                    <td colSpan={showInactiveOnly ? 9 : 8} className="no-data">
+                    <td colSpan={showInactiveOnly ? 10 : 9} className="no-data">
                       {searchQuery ? '未找到匹配的用户' : (showInactiveOnly ? '暂无三个月未活跃用户' : '暂无用户数据')}
                     </td>
                   </tr>
@@ -463,6 +502,13 @@ export default function AdminDashboard() {
                       </td>
                       <td className="word-count-badge">{user.wordsLearned24h || 0}</td>
                       <td>
+                        {user.subscription_tier === 'premium' ? (
+                          <span className="badge badge-premium">👑 Premium</span>
+                        ) : (
+                          <span className="badge badge-free">免费</span>
+                        )}
+                      </td>
+                      <td>
                         {user.is_admin ? (
                           <span className="badge badge-admin">管理员</span>
                         ) : (
@@ -472,6 +518,31 @@ export default function AdminDashboard() {
                       <td className="actions">
                         {!user.is_admin && (
                           <>
+                            {user.subscription_tier === 'premium' ? (
+                              <button
+                                className="btn btn-small btn-warning"
+                                onClick={() => {
+                                  if (window.confirm(`确定要降级用户 ${user.email || user.username} 为免费用户吗？`)) {
+                                    handleUpdateSubscription(user.id, 'free')
+                                  }
+                                }}
+                                title="降级为免费用户"
+                              >
+                                降级
+                              </button>
+                            ) : (
+                              <button
+                                className="btn btn-small btn-success"
+                                onClick={() => {
+                                  if (window.confirm(`确定要升级用户 ${user.email || user.username} 为 Premium 用户吗？`)) {
+                                    handleUpdateSubscription(user.id, 'premium')
+                                  }
+                                }}
+                                title="升级为 Premium"
+                              >
+                                升级
+                              </button>
+                            )}
                             <button
                               className="btn btn-small btn-danger"
                               onClick={() => {

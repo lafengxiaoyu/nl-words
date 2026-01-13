@@ -234,6 +234,24 @@
   color: #3730a3;
 }
 
+.badge-premium {
+  background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge-free {
+  background: #e5e7eb;
+  color: #374151;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
 /* 三个月未活跃用户标识 */
 .user-row--inactive {
   background: #fef2f2;

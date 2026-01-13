@@ -606,6 +606,17 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* 锁定的难度按钮 */
+.difficulty-option.locked {
+  position: relative;
+  opacity: 0.7;
+}
+
+.difficulty-option.locked .lock-icon {
+  margin-left: 6px;
+  font-size: 14px;
+}
+
 .word-count-selector {
   display: flex;
   gap: 12px;
