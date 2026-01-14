@@ -202,10 +202,19 @@
   opacity: 0.6;
   transition: opacity 0.2s;
   margin-left: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-edit:hover {
   opacity: 1;
+}
+
+.btn-edit .icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 0;
 }
 
 .info-value.with-edit {
@@ -445,6 +454,27 @@
   border-radius: 4px;
   font-size: 13px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Icon styles */
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.familiarity-badge .icon {
+  width: 14px;
+  height: 14px;
+}
+
+.btn .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
 }
 
 .familiarity--new { background: linear-gradient(135deg, #e0e0e0 0%, #bdbdbd 100%); color: #333; }
@@ -693,6 +723,38 @@
 .btn-danger {
   background: linear-gradient(135deg, #ff6b6b 0%, #ee5a5a 100%);
   color: white;
+}
+
+/* Logout Button - Warning style (orange/amber) */
+.btn-logout {
+  background: linear-gradient(135deg, #ffa726 0%, #ff9800 100%);
+  color: white;
+}
+
+.btn-logout:hover:not(:disabled) {
+  background: linear-gradient(135deg, #fb8c00 0%, #f57c00 100%);
+}
+
+/* Reset Progress Button - Danger style (red) */
+.btn-reset {
+  background: linear-gradient(135deg, #ef5350 0%, #e53935 100%);
+  color: white;
+}
+
+.btn-reset:hover:not(:disabled) {
+  background: linear-gradient(135deg, #e53935 0%, #d32f2f 100%);
+}
+
+/* Delete Account Button - Critical style (dark red/crimson) */
+.btn-delete {
+  background: linear-gradient(135deg, #c62828 0%, #b71c1c 100%);
+  color: white;
+  border: 2px solid #b71c1c;
+}
+
+.btn-delete:hover:not(:disabled) {
+  background: linear-gradient(135deg, #b71c1c 0%, #8b0000 100%);
+  border-color: #8b0000;
 }
 
 /* Profile Footer */

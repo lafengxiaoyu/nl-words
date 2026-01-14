@@ -5,6 +5,7 @@ import { baseWords } from '../data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from '../data/words'
 import { isPremiumUser } from '../lib/subscription'
 import ActivityTimeline from './ActivityTimeline'
+import { EditIcon, NewIcon, LearningIcon, FamiliarIcon, MasteredIcon, ResetIcon, LogoutIcon, DeleteIcon } from './Icons'
 import './ProfilePage.css'
 
 interface User {
@@ -218,12 +219,12 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         lastTested: '最后测试'
       },
       resetProgress: '确定要重置所有学习进度吗？此操作不可撤销。',
-      resetButton: '🔄 重置进度',
+      resetButton: '重置进度',
       familiarityLabels: {
-        new: '🆕 新词',
-        learning: '📖 学习中',
-        familiar: '😊 熟悉',
-        mastered: '✅ 已掌握'
+        new: '新词',
+        learning: '学习中',
+        familiar: '熟悉',
+        mastered: '已掌握'
       },
       backButton: '返回学习',
       logoutButton: '退出登录',
@@ -267,12 +268,12 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         lastTested: 'Last Tested'
       },
       resetProgress: 'Are you sure you want to reset all learning progress? This action cannot be undone.',
-      resetButton: '🔄 Reset Progress',
+      resetButton: 'Reset Progress',
       familiarityLabels: {
-        new: '🆕 New',
-        learning: '📖 Learning',
-        familiar: '😊 Familiar',
-        mastered: '✅ Mastered'
+        new: 'New',
+        learning: 'Learning',
+        familiar: 'Familiar',
+        mastered: 'Mastered'
       },
       backButton: 'Back to Learning',
       logoutButton: 'Logout',
@@ -577,7 +578,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
                     className="btn btn-outline btn-small"
                     onClick={() => setEditingAvatar(true)}
                   >
-                    ✏️ {text.editAvatar}
+                    <EditIcon /> {text.editAvatar}
                   </button>
                 </div>
               </div>
@@ -657,7 +658,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
                           className="btn-edit"
                           onClick={() => setEditingUsername(true)}
                         >
-                          ✏️
+                          <EditIcon />
                         </button>
                       </>
                     )}
@@ -705,7 +706,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
                           className="btn-edit"
                           onClick={() => setEditingBio(true)}
                         >
-                          ✏️
+                          <EditIcon />
                         </button>
                       </>
                     )}
@@ -777,10 +778,10 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
                   <label>{text.logoutButton}</label>
                   <div className="info-value">
                     <button
-                      className="btn btn-danger btn-full"
+                      className="btn btn-logout btn-full"
                       onClick={handleLogout}
                     >
-                      {text.logoutButton}
+                      <LogoutIcon /> {text.logoutButton}
                     </button>
                   </div>
                 </div>
@@ -831,10 +832,19 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
                   {(['new', 'learning', 'familiar', 'mastered'] as FamiliarityLevel[]).map(level => {
                     const levelWords = wordListForStats.filter(w => w.familiarity === level)
                     const levelPercentage = wordListForStats.length > 0 ? Math.round((levelWords.length / wordListForStats.length) * 100) : 0
+                    const getIcon = (level: string) => {
+                      switch(level) {
+                        case 'new': return <NewIcon />
+                        case 'learning': return <LearningIcon />
+                        case 'familiar': return <FamiliarIcon />
+                        case 'mastered': return <MasteredIcon />
+                        default: return null
+                      }
+                    }
                     return (
                       <div key={level} className="familiarity-stat">
                         <span className={`familiarity-badge familiarity--${level}`}>
-                          {text.familiarityLabels[level]}
+                          {getIcon(level)} {text.familiarityLabels[level]}
                         </span>
                         <span>{levelWords.length}</span>
                         <span>({levelPercentage}%)</span>
@@ -862,20 +872,20 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
             {/* Reset Progress Section */}
             <section className="profile-section">
               <button
-                className="btn btn-danger btn-full"
+                className="btn btn-reset btn-full"
                 onClick={resetProgress}
               >
-                {text.resetButton}
+                <ResetIcon /> {text.resetButton}
               </button>
             </section>
 
             {/* Delete Account Section */}
             <section className="profile-section">
               <button
-                className="btn btn-danger btn-full"
+                className="btn btn-delete btn-full"
                 onClick={() => setShowDeleteConfirm(true)}
               >
-                {text.deleteAccount}
+                <DeleteIcon /> {text.deleteAccount}
               </button>
             </section>
 
