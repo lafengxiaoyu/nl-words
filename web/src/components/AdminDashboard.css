@@ -242,6 +242,12 @@
   font-family: 'Roboto', monospace;
 }
 
+.api-calls-placeholder {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  text-align: center;
+}
+
 .access-count {
   font-family: 'Roboto', monospace;
   font-size: 0.85rem;

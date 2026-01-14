@@ -2,30 +2,38 @@
 
 ## 概述
 
-本系统提供了完整的 API 使用追踪和速率限制功能，帮助监控和限制用户对 Supabase 数据库的访问。
+本系统提供了轻量级的 API 使用追踪功能，帮助监控用户对 Supabase 数据库的访问情况。设计重点：**低数据库负担、小用户量（<1000）、管理员按需查看、采样统计**。
 
 ## 功能特性
 
-### 1. API 使用日志记录
+### 1. API 使用日志记录（采样模式）
 
-- ✅ 自动记录所有数据库操作（read、write、upsert、delete）
+- ✅ **采样记录**：默认只记录 10% 的操作，减少 90% 数据库负担
+- ✅ 自动记录数据库操作（read、write、upsert、delete）
 - ✅ 记录操作成功/失败状态
-- ✅ 记录操作时间和受影响的记录数
 - ✅ 按用户 ID 关联所有操作
+- ✅ 异步记录，不阻塞主流程
 
-### 2. 速率限制
+**采样率配置**：
+- 默认：10%（可通过 `VITE_API_LOG_SAMPLING_RATE` 环境变量调整）
+- 设置为 `1.0` 记录所有操作
+- 设置为 `0.1` 记录 10% 操作（推荐）
+- 设置为 `0.01` 记录 1% 操作（超轻量）
+
+### 2. 速率限制（可选）
 
 - ✅ 免费用户：每小时 100 次请求，每天 1000 次读取/500 次写入
 - ✅ Premium 用户：每小时 1000 次请求，每天 10000 次读取/5000 次写入
 - ✅ 管理员：无限制
 - ✅ 可自定义配置
+- ℹ️ 默认不启用，需要时手动添加检查
 
-### 3. 管理员面板统计
+### 3. 管理员面板统计（懒加载）
 
-- ✅ 查看每个用户的总 API 调用次数
-- ✅ 查看今日 API 调用次数
-- ✅ 查看本月 API 调用次数
-- ✅ 识别高频使用用户
+- ✅ 默认不加载 API 统计，减少数据库查询
+- ✅ 按需查看用户 API 调用情况（可手动加载）
+- ✅ 支持识别高频使用用户
+- ℹ️ 采样统计适用于趋势分析，不适合精确计费
 
 ## 数据库结构
 
@@ -146,17 +154,43 @@ await saveUserProgress(userId, wordId, familiarity, stats)
 
 ### 查看用户 API 使用情况
 
-1. 登录管理员账户
-2. 进入管理员控制台
-3. 在用户列表中查看 "API调用" 列
+**当前设计**：
+- 用户列表默认显示 "-" 占位符
+- 不预加载 API 统计，减少数据库查询负担
+- 如需查看特定用户的统计，可以手动查询数据库
 
-该列显示：
-- **大数字**：该用户的总 API 调用次数
-- **小字**：今日调用次数 / 本月调用次数
+### 手动查询用户 API 统计
 
-### 识别高频用户
+如果需要查看某个用户的详细 API 使用情况，可以在 Supabase Dashboard 的 SQL Editor 中运行：
 
-可以搜索高调用次数的用户，分析他们是否正常使用或有异常行为。
+```sql
+-- 查看特定用户的 API 使用统计
+SELECT
+  operation_type,
+  COUNT(*) as call_count,
+  SUM(record_count) as total_records
+FROM api_usage_log
+WHERE user_id = 'user-uuid-here'
+  AND created_at >= NOW() - INTERVAL '30 days'
+GROUP BY operation_type;
+```
+
+```sql
+-- 查看高频用户（基于采样数据）
+SELECT
+  up.username,
+  up.email,
+  COUNT(*) as sample_count,
+  COUNT(*) * 10 as estimated_total  -- 乘以 10 估算总数（10% 采样率）
+FROM api_usage_log al
+JOIN user_profiles up ON al.user_id = up.user_id
+WHERE al.created_at >= NOW() - INTERVAL '7 days'
+GROUP BY up.user_id, up.username, up.email
+ORDER BY sample_count DESC
+LIMIT 10;
+```
+
+**注意**：由于采用采样模式，显示的调用次数需要乘以采样率的倒数来估算实际调用次数。例如 10% 采样率显示 100 次，实际约为 1000 次。
 
 ### 清理不活跃用户
 

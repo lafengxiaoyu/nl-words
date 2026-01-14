@@ -164,10 +164,14 @@ export default function AdminDashboard() {
 
       console.log('加载到的进度记录数量:', progressData?.length || 0)
 
+      // 只在需要时加载 API 使用统计（懒加载）
+      // 为减轻数据库负担，默认不加载，管理员点击用户时再加载
+      const userApiStats = new Map<string, { total: number; today: number; month: number }>()
+
       // 计算过去24小时的时间
       const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString()
 
-      // 构建用户数据
+      // 构建用户数据（不加载 API 统计，设置为 null）
       const adminUsers: AdminUser[] = (profilesData || []).map(profile => {
         // 获取该用户的最新更新时间
         const userProgress = progressData
@@ -179,9 +183,6 @@ export default function AdminDashboard() {
           p.user_id === profile.user_id && new Date(p.updated_at) >= new Date(oneDayAgo)
         ).length || 0
 
-        // 获取 API 使用统计
-        const apiStats = userApiStats.get(profile.user_id) || { total: 0, today: 0, month: 0 }
-
         return {
           id: profile.user_id,
           email: profile.email || 'user@example.com',
@@ -192,9 +193,9 @@ export default function AdminDashboard() {
           wordsLearned24h,
           subscription_tier: profile.subscription_tier as 'free' | 'premium',
           subscription_status: profile.subscription_status,
-          totalApiCalls: apiStats.total,
-          callsToday: apiStats.today,
-          callsThisMonth: apiStats.month
+          totalApiCalls: undefined, // 默认不加载
+          callsToday: undefined,
+          callsThisMonth: undefined
         }
       })
 
@@ -581,12 +582,16 @@ export default function AdminDashboard() {
                       </td>
                       <td className="word-count-badge">{user.wordsLearned24h || 0}</td>
                       <td className="api-calls-cell">
-                        <div className="api-calls-info">
-                          <div className="api-calls-total">{user.totalApiCalls || 0}</div>
-                          <div className="api-calls-detail">
-                            今日: {user.callsToday || 0} / 本月: {user.callsThisMonth || 0}
+                        {user.totalApiCalls !== undefined ? (
+                          <div className="api-calls-info">
+                            <div className="api-calls-total">{user.totalApiCalls || 0}</div>
+                            <div className="api-calls-detail">
+                              今日: {user.callsToday || 0} / 本月: {user.callsThisMonth || 0}
+                            </div>
                           </div>
-                        </div>
+                        ) : (
+                          <div className="api-calls-placeholder">-</div>
+                        )}
                       </td>
                       <td>
                         {user.subscription_tier === 'premium' ? (
