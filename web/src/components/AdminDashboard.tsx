@@ -29,6 +29,8 @@ interface AdminStats {
   activeUsers24h: number
   recentSignups: number
   inactiveUsers3m: number
+  premiumUsers: number
+  databaseSizeEstimate: string
 }
 
 interface SubscriptionUpdateData {
@@ -46,7 +48,9 @@ export default function AdminDashboard() {
     totalProgress: 0,
     activeUsers24h: 0,
     recentSignups: 0,
-    inactiveUsers3m: 0
+    inactiveUsers3m: 0,
+    premiumUsers: 0,
+    databaseSizeEstimate: '0 MB'
   })
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -201,12 +205,28 @@ export default function AdminDashboard() {
       console.log('三个月未活跃用户数:', inactiveUsers3m)
       console.log('用户总数:', usersList.length)
 
+      // 统计 Premium 用户数
+      const premiumUsers = usersList.filter(user => 
+        user.subscription_tier === 'premium' && 
+        user.subscription_status === 'active'
+      ).length
+
+      // 估算数据库大小（假设每条 user_progress 记录约 1KB）
+      const estimatedSizeMB = ((totalProgressCount || 0) * 1024) / (1024 * 1024)
+      const databaseSizeEstimate = estimatedSizeMB < 1 
+        ? '< 1 MB' 
+        : estimatedSizeMB < 1024 
+          ? `${estimatedSizeMB.toFixed(2)} MB`
+          : `${(estimatedSizeMB / 1024).toFixed(2)} GB`
+
       setStats({
         totalUsers: usersList.length,
         totalProgress: totalProgressCount || 0,
         activeUsers24h: uniqueActiveUsers,
         recentSignups: 0,
-        inactiveUsers3m
+        inactiveUsers3m,
+        premiumUsers,
+        databaseSizeEstimate
       })
     } catch (err) {
       console.error('加载统计失败:', err)
@@ -404,11 +424,25 @@ export default function AdminDashboard() {
             <div className="stat-label">24小时活跃</div>
           </div>
         </div>
+        <div className="stat-card stat-card--premium">
+          <div className="stat-icon">👑</div>
+          <div className="stat-info">
+            <div className="stat-value">{stats.premiumUsers}</div>
+            <div className="stat-label">Premium用户</div>
+          </div>
+        </div>
         <div className="stat-card stat-card--warning">
           <div className="stat-icon">⚠️</div>
           <div className="stat-info">
             <div className="stat-value">{stats.inactiveUsers3m}</div>
             <div className="stat-label">3个月未活跃</div>
+          </div>
+        </div>
+        <div className="stat-card stat-card--storage">
+          <div className="stat-icon">💾</div>
+          <div className="stat-info">
+            <div className="stat-value">{stats.databaseSizeEstimate}</div>
+            <div className="stat-label">数据库大小</div>
           </div>
         </div>
       </div>
@@ -585,6 +619,17 @@ export default function AdminDashboard() {
           <li>如需完整的用户管理功能，建议使用 Supabase Dashboard 或实现后端 API</li>
           <li>可以设置环境变量 VITE_ADMIN_EMAIL 来指定管理员邮箱</li>
           <li>建议定期备份数据库，防止恶意操作</li>
+        </ul>
+      </div>
+
+      {/* 成本分析提示 */}
+      <div className="cost-notice">
+        <h3>💰 成本分析提示</h3>
+        <ul>
+          <li><strong>未注册用户：</strong>所有未登录用户的数据都存储在浏览器本地（localStorage），不会产生 Supabase API 调用和存储费用</li>
+          <li><strong>API 调用：</strong>只有已登录用户的学习进度操作才会调用 Supabase API</li>
+          <li><strong>存储成本：</strong>数据库大小估算基于 user_progress 表记录数，实际占用可能因数据压缩而不同</li>
+          <li><strong>建议：</strong>定期清理三个月未活跃用户的数据，可以降低存储成本并提高查询性能</li>
         </ul>
       </div>
 
