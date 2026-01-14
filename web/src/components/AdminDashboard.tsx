@@ -21,6 +21,9 @@ interface AdminUser {
   wordsLearned24h?: number
   subscription_tier?: 'free' | 'premium'
   subscription_status?: string
+  totalApiCalls?: number
+  callsToday?: number
+  callsThisMonth?: number
 }
 
 interface AdminStats {
@@ -124,8 +127,36 @@ export default function AdminDashboard() {
 
       console.log('加载到的用户数量:', profilesData?.length || 0)
 
-      // 为每个用户获取最新的进度信息
+      // 获取所有用户的 API 使用统计
       const userIds = profilesData?.map(p => p.user_id) || []
+      const { data: apiUsageStats } = await supabase
+        .from('api_usage_log')
+        .select('user_id, operation_type, created_at')
+        .in('user_id', userIds)
+
+      // 构建用户 API 使用统计映射
+      const userApiStats = new Map<string, { total: number; today: number; month: number }>()
+      const today = new Date()
+      today.setHours(0, 0, 0, 0)
+      const thisMonth = new Date()
+      thisMonth.setDate(1)
+      thisMonth.setHours(0, 0, 0, 0)
+
+      apiUsageStats?.forEach(log => {
+        if (!userApiStats.has(log.user_id)) {
+          userApiStats.set(log.user_id, { total: 0, today: 0, month: 0 })
+        }
+        const stats = userApiStats.get(log.user_id)!
+        stats.total++
+        if (new Date(log.created_at) >= today) {
+          stats.today++
+        }
+        if (new Date(log.created_at) >= thisMonth) {
+          stats.month++
+        }
+      })
+
+      // 为每个用户获取最新的进度信息
       const { data: progressData } = await supabase
         .from('user_progress')
         .select('user_id, updated_at')
@@ -148,6 +179,9 @@ export default function AdminDashboard() {
           p.user_id === profile.user_id && new Date(p.updated_at) >= new Date(oneDayAgo)
         ).length || 0
 
+        // 获取 API 使用统计
+        const apiStats = userApiStats.get(profile.user_id) || { total: 0, today: 0, month: 0 }
+
         return {
           id: profile.user_id,
           email: profile.email || 'user@example.com',
@@ -157,7 +191,10 @@ export default function AdminDashboard() {
           is_admin: profile.role === 'admin',
           wordsLearned24h,
           subscription_tier: profile.subscription_tier as 'free' | 'premium',
-          subscription_status: profile.subscription_status
+          subscription_status: profile.subscription_status,
+          totalApiCalls: apiStats.total,
+          callsToday: apiStats.today,
+          callsThisMonth: apiStats.month
         }
       })
 
@@ -507,6 +544,7 @@ export default function AdminDashboard() {
                   <th>创建时间</th>
                   <th>最后活跃</th>
                   <th>24h学习</th>
+                  <th>API调用</th>
                   <th>订阅</th>
                   <th>状态</th>
                   <th>操作</th>
@@ -542,6 +580,14 @@ export default function AdminDashboard() {
                         )}
                       </td>
                       <td className="word-count-badge">{user.wordsLearned24h || 0}</td>
+                      <td className="api-calls-cell">
+                        <div className="api-calls-info">
+                          <div className="api-calls-total">{user.totalApiCalls || 0}</div>
+                          <div className="api-calls-detail">
+                            今日: {user.callsToday || 0} / 本月: {user.callsThisMonth || 0}
+                          </div>
+                        </div>
+                      </td>
                       <td>
                         {user.subscription_tier === 'premium' ? (
                           <span className="badge badge-premium">👑 Premium</span>

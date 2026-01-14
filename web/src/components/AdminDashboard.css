@@ -219,6 +219,29 @@
   color: #059669;
 }
 
+.api-calls-cell {
+  padding: 12px 16px;
+}
+
+.api-calls-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.api-calls-total {
+  font-family: 'Roboto', monospace;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.api-calls-detail {
+  font-size: 0.75rem;
+  color: #64748b;
+  font-family: 'Roboto', monospace;
+}
+
 .access-count {
   font-family: 'Roboto', monospace;
   font-size: 0.85rem;

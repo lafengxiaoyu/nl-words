@@ -1,6 +1,7 @@
 import { supabase, isSupabaseConfigured, type UserProgress } from './supabase'
 import type { BaseWord, WordWithProgress, UserWordProgress, FamiliarityLevel, LearningStats, Word } from '../data/types'
 import { calculateFamiliarity } from './familiarityCalculator'
+import { logApiUsage } from './apiUsageLogger'
 
 // Supabase 错误类型
 interface SupabaseError {
@@ -17,7 +18,7 @@ export async function loadUserProgress(userId: string): Promise<Map<number, User
   if (!isSupabaseConfigured) {
     return new Map()
   }
-  
+
   try {
     const { data, error } = await supabase
       .from('user_progress')
@@ -25,6 +26,15 @@ export async function loadUserProgress(userId: string): Promise<Map<number, User
       .eq('user_id', userId)
 
     if (error) throw error
+
+    // 记录 API 调用
+    await logApiUsage({
+      userId,
+      operationType: 'read',
+      tableName: 'user_progress',
+      recordCount: data?.length || 0,
+      success: true
+    })
 
     const progressMap = new Map<number, UserWordProgress>()
 
@@ -55,6 +65,16 @@ export async function loadUserProgress(userId: string): Promise<Map<number, User
 
     return progressMap
   } catch (error: unknown) {
+    // 记录失败的 API 调用
+    await logApiUsage({
+      userId,
+      operationType: 'read',
+      tableName: 'user_progress',
+      recordCount: 0,
+      success: false,
+      error: error instanceof Error ? error.message : String(error)
+    })
+
     console.error('加载学习进度失败:', error)
     // 提供更详细的错误信息
     const supabaseError = error as SupabaseError
@@ -122,7 +142,26 @@ export async function saveUserProgress(
       })
 
     if (error) throw error
+
+    // 记录 API 调用
+    await logApiUsage({
+      userId,
+      operationType: 'upsert',
+      tableName: 'user_progress',
+      recordCount: 1,
+      success: true
+    })
   } catch (error: unknown) {
+    // 记录失败的 API 调用
+    await logApiUsage({
+      userId,
+      operationType: 'upsert',
+      tableName: 'user_progress',
+      recordCount: 0,
+      success: false,
+      error: error instanceof Error ? error.message : String(error)
+    })
+
     console.error('保存学习进度失败:', error)
     // 提供更详细的错误信息
     const supabaseError = error as SupabaseError
