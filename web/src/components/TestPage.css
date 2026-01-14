@@ -559,11 +559,17 @@
     margin-bottom: 10px;
   }
 
+  .difficulty-selector {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
   .difficulty-option {
-    flex: 1 0 45%;
+    flex: 1;
     min-width: auto;
-    padding: 10px 15px;
-    font-size: 0.95rem;
+    padding: 12px 10px;
+    font-size: 0.9rem;
   }
 
   .difficulty-option.locked {
@@ -572,7 +578,7 @@
 
   .difficulty-option.selected {
     border-width: 2px;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 700;
     box-shadow: 0 4px 15px rgba(34, 197, 94, 0.5);
   }

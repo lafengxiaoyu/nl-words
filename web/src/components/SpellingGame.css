@@ -866,12 +866,18 @@
     font-size: 1.8rem;
   }
 
+  .difficulty-selector {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
   .difficulty-option,
   .count-option,
   .time-option {
-    flex: 1 0 45%;
+    flex: 1;
     min-width: auto;
-    padding: 12px 15px;
+    padding: 12px 10px;
   }
 
   .difficulty-option.locked {
