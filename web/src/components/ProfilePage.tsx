@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import { baseWords } from '../data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from '../data/words'
+import { isPremiumUser } from '../lib/subscription'
 import ActivityTimeline from './ActivityTimeline'
 import './ProfilePage.css'
 
@@ -37,6 +38,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
     stats: undefined,
   }))
   const [wordList, setWordList] = useState<Word[]>(initialWords)
+  const [isPremium, setIsPremium] = useState(false)
   const [newPassword, setNewPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
   const [profileLoading, setProfileLoading] = useState(false)
@@ -170,10 +172,15 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
     return getDefaultAvatar()
   }
 
+  // 根据订阅状态过滤单词列表用于统计
+  const wordListForStats = isPremium
+    ? wordList
+    : wordList.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
+
   // 计算学习统计
-  const masteredCount = wordList.filter(w => w.familiarity === 'mastered').length
-  const favoritedCount = wordList.filter(w => w.favorited === true).length
-  const totalCount = wordList.length
+  const masteredCount = wordListForStats.filter(w => w.familiarity === 'mastered').length
+  const favoritedCount = wordListForStats.filter(w => w.favorited === true).length
+  const totalCount = wordListForStats.length
   const progressPercentage = totalCount > 0 ? Math.round((masteredCount / totalCount) * 100) : 0
 
   const t = {
@@ -288,6 +295,9 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         setUser(user)
         // 加载用户资料
         await loadUserProfile(user.id)
+        // 加载订阅状态
+        const premium = await isPremiumUser(user.id)
+        setIsPremium(premium)
       }
     }
     getUser()
@@ -803,8 +813,8 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
               <div className="stats-detail-grid">
                 <div className="difficulty-stats">
                   <h3>{text.difficultyStats}</h3>
-                  {(['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as DifficultyLevel[]).map(level => {
-                    const levelWords = wordList.filter(w => w.difficulty === level)
+                  {(isPremium ? ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] : ['A1', 'A2'] as DifficultyLevel[]).map(level => {
+                    const levelWords = wordListForStats.filter(w => w.difficulty === level)
                     const levelMastered = levelWords.filter(w => w.familiarity === 'mastered').length
                     const levelPercentage = levelWords.length > 0 ? Math.round((levelMastered / levelWords.length) * 100) : 0
                     return (
@@ -819,8 +829,8 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
                 <div className="familiarity-stats">
                   <h3>{text.familiarityStats}</h3>
                   {(['new', 'learning', 'familiar', 'mastered'] as FamiliarityLevel[]).map(level => {
-                    const levelWords = wordList.filter(w => w.familiarity === level)
-                    const levelPercentage = wordList.length > 0 ? Math.round((levelWords.length / wordList.length) * 100) : 0
+                    const levelWords = wordListForStats.filter(w => w.familiarity === level)
+                    const levelPercentage = wordListForStats.length > 0 ? Math.round((levelWords.length / wordListForStats.length) * 100) : 0
                     return (
                       <div key={level} className="familiarity-stat">
                         <span className={`familiarity-badge familiarity--${level}`}>
@@ -872,11 +882,6 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
 
           </div>
         </main>
-
-        {/* Footer */}
-        <footer className="profile-footer">
-          <p>🇳🇱 {languageMode === 'chinese' ? '荷兰语单词学习' : 'Dutch Word Learning'}</p>
-        </footer>
 
         {/* Delete Account Confirmation Modal */}
         {showDeleteConfirm && (

@@ -20,6 +20,7 @@
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   position: relative;
   overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .premium-modal-content::before {

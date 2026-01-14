@@ -14,6 +14,7 @@ body {
   /* 移动端优化 */
   -webkit-tap-highlight-color: transparent; /* 移除点击高亮 */
   overscroll-behavior-y: auto; /* 允许垂直滚动 */
+  overscroll-behavior-x: none; /* 禁止水平过度滚动 */
 }
 
 /* 应用容器 - 现代渐变背景 */
@@ -27,6 +28,7 @@ body {
   overflow-x: hidden;
   /* 移动端优化 */
   overscroll-behavior-y: auto; /* 允许垂直滚动 */
+  overscroll-behavior-x: none; /* 禁止水平过度滚动 */
 }
 
 .app::before {
@@ -726,6 +728,7 @@ body {
   padding: 0 20px 40px;
   position: relative;
   z-index: 5;
+  overflow-x: hidden; /* 禁止水平滚动 */
 }
 
 /* 难度筛选器 */
@@ -737,6 +740,8 @@ body {
   justify-content: center;
   /* 移动端优化 */
   -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
+  padding-top: 5px; /* 确保顶部有足够空间，防止被header遮挡 */
+  scroll-margin-top: 0; /* 禁用滚动边距 */
 }
 
 /* 单词卡片容器 */
@@ -1855,7 +1860,7 @@ body {
   }
 
   .header {
-    margin: 10px;
+    margin: 10px 10px 10px 10px;
     padding: 20px 18px;
     border-radius: 16px;
   }
@@ -2131,7 +2136,7 @@ body {
   }
 
   .main {
-    padding: 0 10px max(30px, env(safe-area-inset-bottom));
+    padding: 10px 10px max(30px, env(safe-area-inset-bottom));
   }
 
   .word-card-container {
@@ -2152,7 +2157,7 @@ body {
   }
 
   .header {
-    margin: 8px;
+    margin: 8px 8px 10px 8px;
     padding: 16px 14px;
     border-radius: 14px;
   }
@@ -2297,7 +2302,9 @@ body {
 
   .difficulty-filters {
     gap: 8px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 5px; /* 确保顶部有足够空间 */
   }
 
   .difficulty-filters .btn {
