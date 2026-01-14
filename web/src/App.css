@@ -736,12 +736,21 @@ body {
   display: flex;
   gap: 12px;
   margin-bottom: 30px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   /* 移动端优化 */
   -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
   padding-top: 5px; /* 确保顶部有足够空间，防止被header遮挡 */
   scroll-margin-top: 0; /* 禁用滚动边距 */
+}
+
+.difficulty-filters .btn {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  flex: 1;
+  white-space: nowrap;
+  min-width: 0;
 }
 
 /* 单词卡片容器 */
@@ -1379,8 +1388,13 @@ body {
   display: flex;
   gap: 12px;
   margin-bottom: 30px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
+}
+
+.tools .btn {
+  flex: 1;
+  min-width: 0;
 }
 
 /* 随机排序按钮 */
@@ -2053,12 +2067,13 @@ body {
   }
 
   .difficulty-filters .btn {
-    min-height: 44px; /* 确保触摸区域足够大 */
-    padding: 12px 18px;
-    font-size: 0.95rem;
-    border-radius: 12px;
-    flex: 1 0 auto;
+    min-height: 40px; /* 确保触摸区域足够大 */
+    padding: 8px 10px;
+    font-size: 0.85rem;
+    border-radius: 10px;
+    flex: 1;
     white-space: nowrap;
+    min-width: 0;
   }
 
   .difficulty-filters .btn-locked {
@@ -2301,16 +2316,18 @@ body {
 
 
   .difficulty-filters {
-    gap: 8px;
+    gap: 6px;
     margin-top: 5px;
     margin-bottom: 10px;
     padding-top: 5px; /* 确保顶部有足够空间 */
   }
 
   .difficulty-filters .btn {
-    min-height: 42px;
-    padding: 10px 16px;
-    font-size: 0.9rem;
+    min-height: 36px;
+    padding: 6px 8px;
+    font-size: 0.8rem;
+    flex: 1;
+    min-width: 0;
   }
 
   .difficulty-filters .btn-locked {

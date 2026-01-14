@@ -490,7 +490,7 @@ export default function AdminDashboard() {
     <div className="admin-dashboard">
       <div className="dashboard-header">
         <h1>🛡️ 管理员控制台</h1>
-        <button className="btn btn-secondary" onClick={() => navigate('/')}>
+        <button className="admin-btn admin-btn-secondary" onClick={() => navigate('/')}>
           返回首页
         </button>
       </div>
@@ -563,7 +563,7 @@ export default function AdminDashboard() {
           className="search-input"
         />
         <button
-          className={`btn ${showInactiveOnly ? 'btn-warning' : 'btn-secondary'}`}
+          className={`admin-btn ${showInactiveOnly ? 'admin-btn-warning' : 'admin-btn-secondary'}`}
           onClick={() => {
             setShowInactiveOnly(!showInactiveOnly)
             setSelectedInactiveUsers(new Set())
@@ -576,16 +576,16 @@ export default function AdminDashboard() {
       {/* 批量操作栏（仅显示未活跃用户时显示） */}
       {showInactiveOnly && (
         <div className="batch-actions">
-          <button className="btn btn-small btn-secondary" onClick={selectAllInactiveUsers}>
+          <button className="admin-btn admin-btn-small admin-btn-secondary" onClick={selectAllInactiveUsers}>
             全选
           </button>
-          <button className="btn btn-small btn-secondary" onClick={clearInactiveUserSelection}>
+          <button className="admin-btn admin-btn-small admin-btn-secondary" onClick={clearInactiveUserSelection}>
             清除选择
           </button>
           <span className="selected-count">已选择 {selectedInactiveUsers.size} 个用户</span>
           {selectedInactiveUsers.size > 0 && (
             <button
-              className="btn btn-danger"
+              className="admin-btn admin-btn-danger"
               onClick={() => setShowBatchDeleteConfirm(true)}
             >
               批量删除
@@ -659,7 +659,7 @@ export default function AdminDashboard() {
                             <div className="api-calls-info">
                               <div className="api-calls-total">{user.totalApiCalls || 0}</div>
                               <div className="api-calls-detail">
-                                今日: {user.callsToday || 0} / 本月: {user.callsThisMonth || 0}
+                                今: {user.callsToday || 0} / 月: {user.callsThisMonth || 0}
                               </div>
                             </div>
                           ) : (
@@ -686,7 +686,7 @@ export default function AdminDashboard() {
                           <>
                             {user.subscription_tier === 'premium' ? (
                               <button
-                                className="btn btn-small btn-warning"
+                                className="admin-btn admin-btn-small admin-btn-warning"
                                 onClick={() => {
                                   if (window.confirm(`确定要降级用户 ${user.email || user.username} 为免费用户吗？`)) {
                                     handleUpdateSubscription(user.id, 'free')
@@ -698,7 +698,7 @@ export default function AdminDashboard() {
                               </button>
                             ) : (
                               <button
-                                className="btn btn-small btn-success"
+                                className="admin-btn admin-btn-small admin-btn-success"
                                 onClick={() => {
                                   if (window.confirm(`确定要升级用户 ${user.email || user.username} 为 Premium 用户吗？`)) {
                                     handleUpdateSubscription(user.id, 'premium')
@@ -710,7 +710,7 @@ export default function AdminDashboard() {
                               </button>
                             )}
                             <button
-                              className="btn btn-small btn-danger"
+                              className="admin-btn admin-btn-small admin-btn-danger"
                               onClick={() => {
                                 setSelectedUser(user)
                                 setShowDeleteConfirm(true)
@@ -719,10 +719,10 @@ export default function AdminDashboard() {
                               删除
                             </button>
                             <button
-                              className="btn btn-small btn-warning"
+                              className="admin-btn admin-btn-small admin-btn-warning"
                               onClick={() => handleResetUserProgress(user.id)}
                             >
-                              重置进度
+                              重置
                             </button>
                           </>
                         )}
@@ -767,13 +767,13 @@ export default function AdminDashboard() {
             <p className="warning">此操作不可撤销！</p>
             <div className="modal-actions">
               <button
-                className="btn btn-secondary"
+                className="admin-btn admin-btn-secondary"
                 onClick={() => setShowDeleteConfirm(false)}
               >
                 取消
               </button>
               <button
-                className="btn btn-danger"
+                className="admin-btn admin-btn-danger"
                 onClick={() => handleDeleteUser(selectedUser.id)}
               >
                 确认删除
@@ -792,13 +792,13 @@ export default function AdminDashboard() {
             <p className="warning">此操作不可撤销！被删除的数据将无法恢复。</p>
             <div className="modal-actions">
               <button
-                className="btn btn-secondary"
+                className="admin-btn admin-btn-secondary"
                 onClick={() => setShowBatchDeleteConfirm(false)}
               >
                 取消
               </button>
               <button
-                className="btn btn-danger"
+                className="admin-btn admin-btn-danger"
                 onClick={handleBatchDeleteInactive}
               >
                 确认批量删除
@@ -858,7 +858,7 @@ export default function AdminDashboard() {
                 <div className="modal-actions">
                   <p className="info-text">仅显示最近100条记录（采样率10%）</p>
                   <button
-                    className="btn btn-secondary"
+                    className="admin-btn admin-btn-secondary"
                     onClick={() => {
                       setShowApiDetailsModal(false)
                       // 关闭时销毁图表
