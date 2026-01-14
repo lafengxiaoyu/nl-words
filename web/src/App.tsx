@@ -135,6 +135,46 @@ const GlobeIcon = () => {
   )
 }
 
+// 锁图标组件
+const LockIcon = () => {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="lock-svg-icon">
+      <path
+        d="M12 15V17"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 15V17"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <rect
+        x="5"
+        y="11"
+        width="14"
+        height="11"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M8 11V7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7V11"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
 // 菜单图标组件
 const MenuIcon = ({ isOpen }: { isOpen: boolean }) => {
   return (
@@ -1309,7 +1349,7 @@ function MainApp() {
                   title={isPremium ? '' : '需要 Premium 才能访问'}
                 >
                   {t.b1b2Label}
-                  {!isPremium && <span className="lock-icon">🔒</span>}
+                  {!isPremium && <LockIcon />}
                 </button>
                 <button
                   className={`btn ${!isPremium ? 'btn-locked' : ''} ${selectedDifficulty === 'C1' || selectedDifficulty === 'C2' ? 'btn-primary' : 'btn-outline'}`}
@@ -1317,7 +1357,7 @@ function MainApp() {
                   title={isPremium ? '' : '需要 Premium 才能访问'}
                 >
                   {t.c1c2Label}
-                  {!isPremium && <span className="lock-icon">🔒</span>}
+                  {!isPremium && <LockIcon />}
                 </button>
               </div>
 

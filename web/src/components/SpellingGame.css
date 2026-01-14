@@ -610,11 +610,19 @@
 .difficulty-option.locked {
   position: relative;
   opacity: 0.7;
+  padding-right: 8px;
 }
 
 .difficulty-option.locked .lock-icon {
   margin-left: 6px;
   font-size: 14px;
+}
+
+.difficulty-option.locked .lock-svg-icon {
+  margin-left: 4px;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
 }
 
 .word-count-selector {
@@ -864,6 +872,10 @@
     flex: 1 0 45%;
     min-width: auto;
     padding: 12px 15px;
+  }
+
+  .difficulty-option.locked {
+    padding-right: 6px;
   }
 
   .difficulty-option.selected,
