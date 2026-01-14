@@ -45,7 +45,7 @@ export async function logApiUsage(params: LogApiUsageParams): Promise<void> {
 export async function getUserApiUsageStats(
   userId: string,
   days: number = 30
-): Promise<any> {
+): Promise<Array<{ operation_type: string; call_count: number; record_count: number }> | null> {
   try {
     const { data, error } = await supabase
       .rpc('get_user_api_usage', {
