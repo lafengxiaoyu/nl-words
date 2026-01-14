@@ -1188,7 +1188,7 @@ function MainApp() {
 
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [location.pathname, showDetails])
+  }, [location.pathname, showDetails, goToNext, goToPrevious])
 
   return (
     <>

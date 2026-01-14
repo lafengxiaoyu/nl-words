@@ -526,9 +526,6 @@ export default function AdminDashboard() {
     ? filteredUsers.filter(user => getInactiveStatus(user) && !user.is_admin)
     : filteredUsers
 
-  // 计算过去24小时的时间（用于统计活跃用户）
-  const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString()
-
   const formatDate = (dateString?: string) => {
     if (!dateString) return '-'
     return new Date(dateString).toLocaleString('zh-CN')
