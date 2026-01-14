@@ -202,7 +202,7 @@
   padding: 12px 10px;
   text-align: left;
   border-bottom: 1px solid #f1f5f9;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .users-table th {
@@ -246,6 +246,7 @@
 .api-calls-cell {
   padding: 8px 6px;
   min-width: 80px;
+  vertical-align: middle;
 }
 
 .api-cells-clickable {
@@ -263,6 +264,7 @@
   color: #3b82f6;
   font-weight: 500;
   font-size: 0.75rem;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
 .api-calls-info {
@@ -270,10 +272,11 @@
   flex-direction: column;
   gap: 2px;
   align-items: center;
+  justify-content: center;
 }
 
 .api-calls-total {
-  font-family: 'Roboto', monospace;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   font-size: 0.8rem;
   font-weight: 700;
   color: #1e293b;
@@ -282,7 +285,7 @@
 .api-calls-detail {
   font-size: 0.7rem;
   color: #64748b;
-  font-family: 'Roboto', monospace;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
 .api-calls-placeholder {
@@ -295,12 +298,16 @@
   margin: 20px 0;
   padding: 20px;
   background: #f8fafc;
-  border-radius: 8px;
+  border-radius: 12px;
   border: 1px solid #e2e8f0;
+  min-height: 300px;
+  height: 300px;
+  position: relative;
 }
 
 .api-stats-chart canvas {
-  max-width: 100%;
+  width: 100% !important;
+  height: 260px !important;
 }
 
 .access-count {
@@ -397,6 +404,41 @@
 .modal-content--large {
   max-width: 700px;
   width: 90%;
+  max-height: 85vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content--large .modal-content-body {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+.modal-content--large .api-logs-table {
+  margin: 20px 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.modal-content--large .api-stats-chart {
+  margin: 20px 0;
+}
+
+.modal-content--large .modal-actions {
+  flex-shrink: 0;
+  padding: 20px 0 0 0;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.modal-content--large .modal-actions .info-text {
+  margin: 0;
 }
 
 /* 徽章 */
@@ -507,6 +549,8 @@
   white-space: nowrap;
   min-width: 160px;
   align-items: center;
+  justify-content: flex-start;
+  min-height: 40px;
 }
 
 .admin-btn {
@@ -518,6 +562,11 @@
   cursor: pointer;
   transition: all 0.2s;
   white-space: nowrap;
+  height: 32px;
+  line-height: 1.4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .admin-btn-small {
@@ -606,6 +655,7 @@
   align-items: center;
   justify-content: center;
   z-index: 1000;
+  padding: 20px;
 }
 
 .modal-content {
@@ -615,6 +665,8 @@
   max-width: 400px;
   width: 90%;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  max-height: 90vh;
+  overflow-y: auto;
 }
 
 .modal-content h3 {

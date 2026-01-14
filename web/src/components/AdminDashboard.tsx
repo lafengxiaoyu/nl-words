@@ -19,7 +19,6 @@ interface AdminUser {
     provider?: string
   }
   is_admin?: boolean
-  wordsLearned24h?: number
   subscription_tier?: 'free' | 'premium'
   subscription_status?: string
   totalApiCalls?: number
@@ -153,20 +152,30 @@ export default function AdminDashboard() {
 
       console.log('加载到的进度记录数量:', progressData?.length || 0)
 
-      // 计算过去24小时的时间
-      const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString()
+      // 获取所有用户的API使用统计
+      const { data: apiUsageStats } = await supabase
+        .from('user_api_usage_stats')
+        .select('*')
 
-      // 构建用户数据（不加载 API 统计，设置为 null）
+      // 创建用户API统计的映射
+      const apiUsageMap = new Map<string, { total: number; today: number; month: number }>()
+      apiUsageStats?.forEach(stat => {
+        apiUsageMap.set(stat.user_id, {
+          total: stat.total_calls || 0,
+          today: stat.calls_today || 0,
+          month: stat.calls_month || 0
+        })
+      })
+
+      // 构建用户数据（包含 API 统计）
       const adminUsers: AdminUser[] = (profilesData || []).map(profile => {
         // 获取该用户的最新更新时间
         const userProgress = progressData
           ?.filter(p => p.user_id === profile.user_id)
           .sort((a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime())[0]
 
-        // 计算过去24小时学习的词汇数量
-        const wordsLearned24h = progressData?.filter(p =>
-          p.user_id === profile.user_id && new Date(p.updated_at) >= new Date(oneDayAgo)
-        ).length || 0
+        // 获取API统计
+        const apiStats = apiUsageMap.get(profile.user_id) || { total: 0, today: 0, month: 0 }
 
         return {
           id: profile.user_id,
@@ -175,12 +184,11 @@ export default function AdminDashboard() {
           created_at: profile.created_at,
           last_sign_in_at: userProgress?.updated_at,
           is_admin: profile.role === 'admin',
-          wordsLearned24h,
           subscription_tier: profile.subscription_tier as 'free' | 'premium',
           subscription_status: profile.subscription_status,
-          totalApiCalls: undefined, // 默认不加载
-          callsToday: undefined,
-          callsThisMonth: undefined
+          totalApiCalls: apiStats.total,
+          callsToday: apiStats.today,
+          callsThisMonth: apiStats.month
         }
       })
 
@@ -385,6 +393,7 @@ export default function AdminDashboard() {
       setApiDetailsLoading(true)
       setApiDetailsUserId(userId)
       setShowApiDetailsModal(true)
+      setApiUsageLogs([]) // 清空旧数据
 
       const { data, error } = await supabase
         .from('api_usage_log')
@@ -394,70 +403,106 @@ export default function AdminDashboard() {
         .limit(100) // 只显示最近100条
 
       if (error) throw error
-      setApiUsageLogs(data || [])
+
+      if (!data || data.length === 0) {
+        setApiUsageLogs([])
+        return
+      }
+
+      setApiUsageLogs(data)
 
       // 计算操作类型统计
       const operationStats: Record<string, number> = {}
-      data?.forEach(log => {
+      data.forEach(log => {
         operationStats[log.operation_type] = (operationStats[log.operation_type] || 0) + 1
       })
 
-      // 创建图表
-      if (canvasRef.current) {
-        // 销毁旧图表
-        if (chartRef.current) {
-          chartRef.current.destroy()
-        }
+      // 延迟创建图表，确保DOM已渲染
+      setTimeout(() => {
+        // 创建图表
+        if (canvasRef.current) {
+          // 销毁旧图表
+          if (chartRef.current) {
+            chartRef.current.destroy()
+            chartRef.current = null
+          }
 
-        const ctx = canvasRef.current.getContext('2d')
-        if (ctx && Object.keys(operationStats).length > 0) {
-          const labels = Object.keys(operationStats)
-          const values = labels.map(label => operationStats[label])
-          const colors = [
-            'rgba(5, 150, 105, 0.8)',   // green for insert
-            'rgba(37, 99, 235, 0.8)',   // blue for update
-            'rgba(124, 58, 237, 0.8)',  // purple for select
-            'rgba(239, 68, 68, 0.8)',   // red for delete
-          ]
+          const ctx = canvasRef.current.getContext('2d')
+          if (ctx && Object.keys(operationStats).length > 0) {
+            const labels = Object.keys(operationStats)
+            const values = labels.map(label => operationStats[label])
+            const colors = [
+              '#10b981',   // green for read
+              '#3b82f6',   // blue for write
+              '#8b5cf6',   // purple for upsert
+              '#ef4444',   // red for delete
+            ]
 
-          chartRef.current = new Chart(ctx, {
-            type: 'bar',
-            data: {
-              labels: labels,
-              datasets: [{
-                label: '操作次数',
-                data: values,
-                backgroundColor: colors,
-                borderColor: colors.map(c => c.replace('0.8', '1')),
-                borderWidth: 1
-              }]
-            },
-            options: {
-              responsive: true,
-              plugins: {
-                legend: {
-                  display: false
-                },
-                title: {
-                  display: true,
-                  text: '操作类型分布（最近100条记录）'
-                }
+            chartRef.current = new Chart(ctx, {
+              type: 'bar',
+              data: {
+                labels: labels,
+                datasets: [{
+                  label: '操作次数',
+                  data: values,
+                  backgroundColor: colors.slice(0, labels.length),
+                  borderColor: colors.slice(0, labels.length),
+                  borderWidth: 2,
+                  borderRadius: 4
+                }]
               },
-              scales: {
-                y: {
-                  beginAtZero: true,
-                  ticks: {
-                    stepSize: 1
+              options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                  legend: {
+                    display: false
+                  },
+                  title: {
+                    display: true,
+                    text: '操作类型分布（最近100条记录）',
+                    color: '#1e293b',
+                    font: {
+                      size: 16,
+                      weight: 'bold'
+                    }
+                  }
+                },
+                scales: {
+                  y: {
+                    beginAtZero: true,
+                    ticks: {
+                      stepSize: 1,
+                      color: '#475569',
+                      font: {
+                        size: 12
+                      }
+                    },
+                    grid: {
+                      color: '#e2e8f0'
+                    }
+                  },
+                  x: {
+                    ticks: {
+                      color: '#475569',
+                      font: {
+                        size: 12
+                      }
+                    },
+                    grid: {
+                      color: '#e2e8f0'
+                    }
                   }
                 }
               }
-            }
-          })
+            })
+          }
         }
-      }
+      }, 100)
     } catch (err) {
       console.error('加载API详情失败:', err)
       showMessage('error', '加载API详情失败')
+      setApiUsageLogs([])
     } finally {
       setApiDetailsLoading(false)
     }
@@ -480,6 +525,9 @@ export default function AdminDashboard() {
   const displayUsers = showInactiveOnly
     ? filteredUsers.filter(user => getInactiveStatus(user) && !user.is_admin)
     : filteredUsers
+
+  // 计算过去24小时的时间（用于统计活跃用户）
+  const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString()
 
   const formatDate = (dateString?: string) => {
     if (!dateString) return '-'
@@ -612,7 +660,6 @@ export default function AdminDashboard() {
                   <th>邮箱</th>
                   <th>创建时间</th>
                   <th>最后活跃</th>
-                  <th>24h学习</th>
                   <th>API调用</th>
                   <th>订阅</th>
                   <th>状态</th>
@@ -622,7 +669,7 @@ export default function AdminDashboard() {
               <tbody>
                 {displayUsers.length === 0 ? (
                   <tr>
-                    <td colSpan={showInactiveOnly ? 10 : 9} className="no-data">
+                    <td colSpan={showInactiveOnly ? 9 : 8} className="no-data">
                       {searchQuery ? '未找到匹配的用户' : (showInactiveOnly ? '暂无三个月未活跃用户' : '暂无用户数据')}
                     </td>
                   </tr>
@@ -648,7 +695,6 @@ export default function AdminDashboard() {
                           <span className="inactive-badge">3个月未活跃</span>
                         )}
                       </td>
-                      <td className="word-count-badge">{user.wordsLearned24h || 0}</td>
                       <td className="api-calls-cell">
                         <div
                           className="api-cells-clickable"
@@ -826,37 +872,39 @@ export default function AdminDashboard() {
               <div className="loading">加载中...</div>
             ) : (
               <>
-                {apiUsageLogs.length > 0 && (
-                  <div className="api-stats-chart">
-                    <canvas ref={canvasRef} style={{ maxHeight: '300px' }} />
-                  </div>
-                )}
-                <div className="api-logs-table">
-                  {apiUsageLogs.length === 0 ? (
-                    <div className="no-data">暂无API调用记录</div>
-                  ) : (
-                    <table>
-                      <thead>
-                        <tr>
-                          <th>操作类型</th>
-                          <th>表名</th>
-                          <th>时间</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {apiUsageLogs.map(log => (
-                          <tr key={log.id}>
-                            <td className="operation-type">{log.operation_type}</td>
-                            <td>{log.table_name || '-'}</td>
-                            <td className="datetime-field">{formatDate(log.created_at)}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
+                <div className="modal-content-body">
+                  {apiUsageLogs.length > 0 && (
+                    <div className="api-stats-chart">
+                      <canvas ref={canvasRef} />
+                    </div>
                   )}
+                  <div className="api-logs-table">
+                    {apiUsageLogs.length === 0 ? (
+                      <div className="no-data">暂无API调用记录</div>
+                    ) : (
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>操作类型</th>
+                            <th>表名</th>
+                            <th>时间</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {apiUsageLogs.map(log => (
+                            <tr key={log.id}>
+                              <td className="operation-type">{log.operation_type}</td>
+                              <td>{log.table_name || '-'}</td>
+                              <td className="datetime-field">{formatDate(log.created_at)}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    )}
+                  </div>
                 </div>
                 <div className="modal-actions">
-                  <p className="info-text">仅显示最近100条记录（采样率10%）</p>
+                  <p className="info-text">仅显示最近100条记录</p>
                   <button
                     className="admin-btn admin-btn-secondary"
                     onClick={() => {

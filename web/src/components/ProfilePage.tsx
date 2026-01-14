@@ -4,6 +4,7 @@ import { supabase } from '../lib/supabase'
 import { baseWords } from '../data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from '../data/words'
 import { isPremiumUser } from '../lib/subscription'
+import { logApiUsage } from '../lib/apiUsageLogger'
 import ActivityTimeline from './ActivityTimeline'
 import { EditIcon, NewIcon, LearningIcon, FamiliarIcon, MasteredIcon, ResetIcon, LogoutIcon, DeleteIcon } from './Icons'
 import './ProfilePage.css'
@@ -391,11 +392,33 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
 
       if (error) throw error
 
+      // 记录 API 调用
+      await logApiUsage({
+        userId: user.id,
+        operationType: 'write',
+        tableName: 'user_profiles',
+        recordCount: 1,
+        success: true
+      })
+
       setMessage(languageMode === 'chinese' ? '用户名更新成功' : 'Username updated successfully')
       setUserProfile(prev => prev ? { ...prev, username: usernameInput.trim() } : null)
       setEditingUsername(false)
     } catch (err: unknown) {
       const error = err as Error
+
+      // 记录失败的 API 调用
+      if (user) {
+        await logApiUsage({
+          userId: user.id,
+          operationType: 'write',
+          tableName: 'user_profiles',
+          recordCount: 1,
+          success: false,
+          error: error.message
+        })
+      }
+
       setError(`${languageMode === 'chinese' ? '更新失败' : 'Update failed'}: ${error.message}`)
     } finally {
       setProfileLoading(false)
@@ -417,11 +440,33 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
 
       if (error) throw error
 
+      // 记录 API 调用
+      await logApiUsage({
+        userId: user.id,
+        operationType: 'write',
+        tableName: 'user_profiles',
+        recordCount: 1,
+        success: true
+      })
+
       setMessage(languageMode === 'chinese' ? '简介更新成功' : 'Bio updated successfully')
       setUserProfile(prev => prev ? { ...prev, bio: bioInput.trim() || undefined } : null)
       setEditingBio(false)
     } catch (err: unknown) {
       const error = err as Error
+
+      // 记录失败的 API 调用
+      if (user) {
+        await logApiUsage({
+          userId: user.id,
+          operationType: 'write',
+          tableName: 'user_profiles',
+          recordCount: 1,
+          success: false,
+          error: error.message
+        })
+      }
+
       setError(`${languageMode === 'chinese' ? '更新失败' : 'Update failed'}: ${error.message}`)
     } finally {
       setProfileLoading(false)
@@ -440,8 +485,8 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
       const base = getBasePath()
       const basePath = base.endsWith('/') ? base.slice(0, -1) : base
       // 如果路径包含 base path，移除它；否则直接使用
-      const relativePath = avatarUrl.startsWith(basePath) 
-        ? avatarUrl.slice(basePath.length) 
+      const relativePath = avatarUrl.startsWith(basePath)
+        ? avatarUrl.slice(basePath.length)
         : avatarUrl
 
       const { error } = await supabase
@@ -451,12 +496,34 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
 
       if (error) throw error
 
+      // 记录 API 调用
+      await logApiUsage({
+        userId: user.id,
+        operationType: 'write',
+        tableName: 'user_profiles',
+        recordCount: 1,
+        success: true
+      })
+
       setMessage(languageMode === 'chinese' ? '头像更新成功' : 'Avatar updated successfully')
       // 更新本地状态时使用完整路径（包含 base path）
       setUserProfile(prev => prev ? { ...prev, avatar_url: relativePath } : null)
       setEditingAvatar(false)
     } catch (err: unknown) {
       const error = err as Error
+
+      // 记录失败的 API 调用
+      if (user) {
+        await logApiUsage({
+          userId: user.id,
+          operationType: 'write',
+          tableName: 'user_profiles',
+          recordCount: 1,
+          success: false,
+          error: error.message
+        })
+      }
+
       setError(`${languageMode === 'chinese' ? '更新失败' : 'Update failed'}: ${error.message}`)
     } finally {
       setProfileLoading(false)
@@ -471,8 +538,27 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         try {
           await supabase.from('user_progress').delete().eq('user_id', user.id)
           await supabase.from('word_stats').delete().eq('user_id', user.id)
+
+          // 记录 API 调用
+          await logApiUsage({
+            userId: user.id,
+            operationType: 'delete',
+            tableName: 'user_progress',
+            recordCount: 1,
+            success: true
+          })
         } catch (error) {
           console.error('删除云端进度失败:', error)
+
+          // 记录失败的 API 调用
+          await logApiUsage({
+            userId: user.id,
+            operationType: 'delete',
+            tableName: 'user_progress',
+            recordCount: 1,
+            success: false,
+            error: error instanceof Error ? error.message : String(error)
+          })
         }
       }
 
