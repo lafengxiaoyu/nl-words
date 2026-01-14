@@ -745,8 +745,8 @@ body {
 }
 
 .difficulty-filters .btn {
-  padding: 8px 16px;
-  font-size: 0.9rem;
+  padding: 10px 18px;
+  font-size: 0.95rem;
   border-radius: 10px;
   flex: 1;
   white-space: nowrap;
@@ -2068,7 +2068,7 @@ body {
 
   .difficulty-filters .btn {
     min-height: 40px; /* 确保触摸区域足够大 */
-    padding: 8px 10px;
+    padding: 8px 14px;
     font-size: 0.85rem;
     border-radius: 10px;
     flex: 1;
@@ -2324,7 +2324,7 @@ body {
 
   .difficulty-filters .btn {
     min-height: 36px;
-    padding: 6px 8px;
+    padding: 6px 10px;
     font-size: 0.8rem;
     flex: 1;
     min-width: 0;

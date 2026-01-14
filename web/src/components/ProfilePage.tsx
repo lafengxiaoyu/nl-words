@@ -227,6 +227,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         mastered: '已掌握'
       },
       backButton: '返回学习',
+      adminButton: '管理面板',
       logoutButton: '退出登录',
       deleteAccount: '删除账户',
       deleteAccountConfirm: '确认删除账户',
@@ -546,9 +547,16 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         <header className="profile-header">
           <div className="profile-header-content">
             <h1>{text.title}</h1>
-            <button className="btn btn-outline btn-sm" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
-              {text.backButton}
-            </button>
+            <div className="header-actions">
+              {userProfile?.role === 'admin' && (
+                <button className="btn btn-outline btn-sm" onClick={() => navigate('/admin')}>
+                  {text.adminButton}
+                </button>
+              )}
+              <button className="btn btn-outline btn-sm" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
+                {text.backButton}
+              </button>
+            </div>
           </div>
         </header>
 

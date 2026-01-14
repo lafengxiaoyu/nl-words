@@ -1171,6 +1171,25 @@ function MainApp() {
   // 汉堡菜单状态
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
+  // 键盘导航 - 左右方向键切换单词
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // 只在 learn 页面且没有打开详情面板时响应
+      if (location.pathname.endsWith('/learn') && !showDetails) {
+        if (e.key === 'ArrowRight') {
+          e.preventDefault()
+          goToNext()
+        } else if (e.key === 'ArrowLeft') {
+          e.preventDefault()
+          goToPrevious()
+        }
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [location.pathname, showDetails])
+
   return (
     <>
       {showAuth ? (
