@@ -223,6 +223,22 @@
   padding: 12px 16px;
 }
 
+.api-cells-clickable {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.api-cells-clickable:hover {
+  background: #f1f5f9;
+}
+
+.api-cells-clickable .api-calls-placeholder {
+  color: #3b82f6;
+  font-weight: 500;
+}
+
 .api-calls-info {
   display: flex;
   flex-direction: column;
@@ -246,6 +262,18 @@
   font-size: 0.9rem;
   color: #cbd5e1;
   text-align: center;
+}
+
+.api-stats-chart {
+  margin: 20px 0;
+  padding: 20px;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.api-stats-chart canvas {
+  max-width: 100%;
 }
 
 .access-count {
@@ -279,6 +307,69 @@
   text-align: center;
   padding: 40px;
   color: #64748b;
+}
+
+/* API日志表格 */
+.api-logs-table {
+  margin: 20px 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.api-logs-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.api-logs-table th {
+  background: #f1f5f9;
+  padding: 10px 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #475569;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.api-logs-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.api-logs-table tr:hover {
+  background: #f8fafc;
+}
+
+.operation-type {
+  font-family: 'Roboto', monospace;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.operation-type[data-operation="insert"] {
+  color: #059669;
+}
+
+.operation-type[data-operation="update"] {
+  color: #2563eb;
+}
+
+.operation-type[data-operation="select"] {
+  color: #7c3aed;
+}
+
+.info-text {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin: 0;
+  text-align: center;
+}
+
+/* 大号模态框 */
+.modal-content--large {
+  max-width: 700px;
+  width: 90%;
 }
 
 /* 徽章 */

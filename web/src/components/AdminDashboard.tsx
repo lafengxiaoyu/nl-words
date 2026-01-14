@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import './AdminDashboard.css'
+import Chart from 'chart.js/auto'
 
 interface AdminUser {
   id: string
@@ -43,6 +44,14 @@ interface SubscriptionUpdateData {
   subscription_ends_at?: string | null;
 }
 
+interface ApiUsageLog {
+  id: string
+  user_id: string
+  operation_type: string
+  table_name: string
+  created_at: string
+}
+
 export default function AdminDashboard() {
   const navigate = useNavigate()
   const [users, setUsers] = useState<AdminUser[]>([])
@@ -64,6 +73,12 @@ export default function AdminDashboard() {
   const [showInactiveOnly, setShowInactiveOnly] = useState(false)
   const [selectedInactiveUsers, setSelectedInactiveUsers] = useState<Set<string>>(new Set())
   const [showBatchDeleteConfirm, setShowBatchDeleteConfirm] = useState(false)
+  const [showApiDetailsModal, setShowApiDetailsModal] = useState(false)
+  const [apiDetailsUserId, setApiDetailsUserId] = useState<string | null>(null)
+  const [apiDetailsLoading, setApiDetailsLoading] = useState(false)
+  const [apiUsageLogs, setApiUsageLogs] = useState<ApiUsageLog[]>([])
+  const chartRef = useRef<Chart | null>(null)
+  const canvasRef = useRef<HTMLCanvasElement | null>(null)
 
   const ADMIN_EMAIL = import.meta.env.VITE_ADMIN_EMAIL || ''
 
@@ -127,34 +142,8 @@ export default function AdminDashboard() {
 
       console.log('加载到的用户数量:', profilesData?.length || 0)
 
-      // 获取所有用户的 API 使用统计
+      // 获取用户ID列表
       const userIds = profilesData?.map(p => p.user_id) || []
-      const { data: apiUsageStats } = await supabase
-        .from('api_usage_log')
-        .select('user_id, operation_type, created_at')
-        .in('user_id', userIds)
-
-      // 构建用户 API 使用统计映射
-      const userApiStats = new Map<string, { total: number; today: number; month: number }>()
-      const today = new Date()
-      today.setHours(0, 0, 0, 0)
-      const thisMonth = new Date()
-      thisMonth.setDate(1)
-      thisMonth.setHours(0, 0, 0, 0)
-
-      apiUsageStats?.forEach(log => {
-        if (!userApiStats.has(log.user_id)) {
-          userApiStats.set(log.user_id, { total: 0, today: 0, month: 0 })
-        }
-        const stats = userApiStats.get(log.user_id)!
-        stats.total++
-        if (new Date(log.created_at) >= today) {
-          stats.today++
-        }
-        if (new Date(log.created_at) >= thisMonth) {
-          stats.month++
-        }
-      })
 
       // 为每个用户获取最新的进度信息
       const { data: progressData } = await supabase
@@ -163,10 +152,6 @@ export default function AdminDashboard() {
         .in('user_id', userIds)
 
       console.log('加载到的进度记录数量:', progressData?.length || 0)
-
-      // 只在需要时加载 API 使用统计（懒加载）
-      // 为减轻数据库负担，默认不加载，管理员点击用户时再加载
-      const userApiStats = new Map<string, { total: number; today: number; month: number }>()
 
       // 计算过去24小时的时间
       const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString()
@@ -395,6 +380,89 @@ export default function AdminDashboard() {
     setSelectedInactiveUsers(new Set())
   }
 
+  const loadUserApiDetails = async (userId: string) => {
+    try {
+      setApiDetailsLoading(true)
+      setApiDetailsUserId(userId)
+      setShowApiDetailsModal(true)
+
+      const { data, error } = await supabase
+        .from('api_usage_log')
+        .select('*')
+        .eq('user_id', userId)
+        .order('created_at', { ascending: false })
+        .limit(100) // 只显示最近100条
+
+      if (error) throw error
+      setApiUsageLogs(data || [])
+
+      // 计算操作类型统计
+      const operationStats: Record<string, number> = {}
+      data?.forEach(log => {
+        operationStats[log.operation_type] = (operationStats[log.operation_type] || 0) + 1
+      })
+
+      // 创建图表
+      if (canvasRef.current) {
+        // 销毁旧图表
+        if (chartRef.current) {
+          chartRef.current.destroy()
+        }
+
+        const ctx = canvasRef.current.getContext('2d')
+        if (ctx && Object.keys(operationStats).length > 0) {
+          const labels = Object.keys(operationStats)
+          const values = labels.map(label => operationStats[label])
+          const colors = [
+            'rgba(5, 150, 105, 0.8)',   // green for insert
+            'rgba(37, 99, 235, 0.8)',   // blue for update
+            'rgba(124, 58, 237, 0.8)',  // purple for select
+            'rgba(239, 68, 68, 0.8)',   // red for delete
+          ]
+
+          chartRef.current = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: labels,
+              datasets: [{
+                label: '操作次数',
+                data: values,
+                backgroundColor: colors,
+                borderColor: colors.map(c => c.replace('0.8', '1')),
+                borderWidth: 1
+              }]
+            },
+            options: {
+              responsive: true,
+              plugins: {
+                legend: {
+                  display: false
+                },
+                title: {
+                  display: true,
+                  text: '操作类型分布（最近100条记录）'
+                }
+              },
+              scales: {
+                y: {
+                  beginAtZero: true,
+                  ticks: {
+                    stepSize: 1
+                  }
+                }
+              }
+            }
+          })
+        }
+      }
+    } catch (err) {
+      console.error('加载API详情失败:', err)
+      showMessage('error', '加载API详情失败')
+    } finally {
+      setApiDetailsLoading(false)
+    }
+  }
+
   const filteredUsers = users.filter(user =>
     user.id.toLowerCase().includes(searchQuery.toLowerCase()) ||
     user.email?.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -582,16 +650,22 @@ export default function AdminDashboard() {
                       </td>
                       <td className="word-count-badge">{user.wordsLearned24h || 0}</td>
                       <td className="api-calls-cell">
-                        {user.totalApiCalls !== undefined ? (
-                          <div className="api-calls-info">
-                            <div className="api-calls-total">{user.totalApiCalls || 0}</div>
-                            <div className="api-calls-detail">
-                              今日: {user.callsToday || 0} / 本月: {user.callsThisMonth || 0}
+                        <div
+                          className="api-cells-clickable"
+                          onClick={() => loadUserApiDetails(user.id)}
+                          title="点击查看API调用详情"
+                        >
+                          {user.totalApiCalls !== undefined ? (
+                            <div className="api-calls-info">
+                              <div className="api-calls-total">{user.totalApiCalls || 0}</div>
+                              <div className="api-calls-detail">
+                                今日: {user.callsToday || 0} / 本月: {user.callsThisMonth || 0}
+                              </div>
                             </div>
-                          </div>
-                        ) : (
-                          <div className="api-calls-placeholder">-</div>
-                        )}
+                          ) : (
+                            <div className="api-calls-placeholder">查看详情</div>
+                          )}
+                        </div>
                       </td>
                       <td>
                         {user.subscription_tier === 'premium' ? (
@@ -730,6 +804,75 @@ export default function AdminDashboard() {
                 确认批量删除
               </button>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* API调用详情模态框 */}
+      {showApiDetailsModal && (
+        <div className="modal-overlay" onClick={() => {
+          setShowApiDetailsModal(false)
+          // 关闭时销毁图表
+          if (chartRef.current) {
+            chartRef.current.destroy()
+            chartRef.current = null
+          }
+        }}>
+          <div className="modal-content modal-content--large" onClick={(e) => e.stopPropagation()}>
+            <h3>API调用详情</h3>
+            <p>用户ID: {apiDetailsUserId?.substring(0, 8)}...</p>
+
+            {apiDetailsLoading ? (
+              <div className="loading">加载中...</div>
+            ) : (
+              <>
+                {apiUsageLogs.length > 0 && (
+                  <div className="api-stats-chart">
+                    <canvas ref={canvasRef} style={{ maxHeight: '300px' }} />
+                  </div>
+                )}
+                <div className="api-logs-table">
+                  {apiUsageLogs.length === 0 ? (
+                    <div className="no-data">暂无API调用记录</div>
+                  ) : (
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>操作类型</th>
+                          <th>表名</th>
+                          <th>时间</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {apiUsageLogs.map(log => (
+                          <tr key={log.id}>
+                            <td className="operation-type">{log.operation_type}</td>
+                            <td>{log.table_name || '-'}</td>
+                            <td className="datetime-field">{formatDate(log.created_at)}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  )}
+                </div>
+                <div className="modal-actions">
+                  <p className="info-text">仅显示最近100条记录（采样率10%）</p>
+                  <button
+                    className="btn btn-secondary"
+                    onClick={() => {
+                      setShowApiDetailsModal(false)
+                      // 关闭时销毁图表
+                      if (chartRef.current) {
+                        chartRef.current.destroy()
+                        chartRef.current = null
+                      }
+                    }}
+                  >
+                    关闭
+                  </button>
+                </div>
+              </>
+            )}
           </div>
         </div>
       )}
