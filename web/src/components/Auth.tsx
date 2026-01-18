@@ -68,11 +68,11 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
             console.error('保存用户信息失败:', profileError)
           }
 
-          setMessage('注册成功！请检查邮箱验证链接（如果启用了邮箱验证）')
+          setMessage('注册成功！正在跳转到学习页面...')
           setTimeout(() => {
-            setIsLogin(true)
-            setMessage(null)
-          }, 2000)
+            // 直接跳转到 GitHub Pages 的学习页面
+            window.location.href = 'https://lafengxiaoyu.github.io/nl-words/zh/learn'
+          }, 1500)
         }
       }
     } catch (err: unknown) {
