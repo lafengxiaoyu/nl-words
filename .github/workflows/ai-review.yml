@@ -1,0 +1,161 @@
+name: AI Code Review
+
+on:
+  pull_request:
+    branches:
+      - main
+      - master
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+    inputs:
+      files:
+        description: '要审查的文件路径 (留空则审查所有)'
+        required: false
+        default: ''
+
+jobs:
+  ai-review:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Get changed files
+        id: changed-files
+        if: github.event_name == 'pull_request'
+        uses: tj-actions/changed-files@v42
+        with:
+          files: |
+            web/src/**/*.{ts,tsx,js,jsx}
+            **/*.ts
+            **/*.tsx
+            **/*.js
+            **/*.jsx
+          files_ignore: |
+            **/*.test.{ts,tsx,js,jsx}
+            **/*.spec.{ts,tsx,js,jsx}
+            **/*.d.ts
+
+      - name: Setup files to review
+        id: setup-files
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            # 手动触发时使用指定的文件
+            if [ -n "${{ github.event.inputs.files }}" ]; then
+              echo "files=${{ github.event.inputs.files }}" >> $GITHUB_OUTPUT
+            else
+              # 查找所有 TypeScript/JavaScript 文件
+              FILES=$(find web/src -type f \( -name "*.ts" -o -name "*.tsx" -o -name "*.js" -o -name "*.jsx" \) | grep -v -E "(test|spec)\.(ts|tsx|js|jsx)$" | tr '\n' ' ')
+              echo "files=$FILES" >> $GITHUB_OUTPUT
+            fi
+          else
+            # PR 时只审查变更的文件
+            FILES="${{ steps.changed-files.outputs.all_changed_files }}"
+            echo "files=$FILES" >> $GITHUB_OUTPUT
+          fi
+
+      - name: AI Review with Groq
+        id: ai-review
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          REVIEW_OUTPUT="${{ runner.temp }}/ai-review-output.md"
+          echo "# 🤖 AI Code Review Report" > "$REVIEW_OUTPUT"
+          echo "" >> "$REVIEW_OUTPUT"
+          echo "**Triggered by:** @${{ github.actor }}" >> "$REVIEW_OUTPUT"
+          echo "**PR:** #${{ github.event.pull_request.number }}" >> "$REVIEW_OUTPUT"
+          echo "**Commit:** ${{ github.sha }}" >> "$REVIEW_OUTPUT"
+          echo "**Date:** $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> "$REVIEW_OUTPUT"
+          echo "" >> "$REVIEW_OUTPUT"
+          echo "---" >> "$REVIEW_OUTPUT"
+          echo "" >> "$REVIEW_OUTPUT"
+
+          FILES="${{ steps.setup-files.outputs.files }}"
+
+          if [ -z "$FILES" ]; then
+            echo "ℹ️ 没有找到需要审查的文件" >> "$REVIEW_OUTPUT"
+          else
+            echo "正在审查以下文件:" >> "$REVIEW_OUTPUT"
+            echo "" >> "$REVIEW_OUTPUT"
+            for file in $FILES; do
+              if [ -f "$file" ]; then
+                echo "- \`$file\`" >> "$REVIEW_OUTPUT"
+              fi
+            done
+            echo "" >> "$REVIEW_OUTPUT"
+            echo "---" >> "$REVIEW_OUTPUT"
+            echo "" >> "$REVIEW_OUTPUT"
+
+            # 运行 AI 审查脚本
+            node scripts/ai-review.cjs $FILES 2>&1 | tee -a "$REVIEW_OUTPUT"
+          fi
+
+          # 设置输出
+          {
+            echo 'review_output<<EOF'
+            cat "$REVIEW_OUTPUT"
+            echo EOF
+          } >> $GITHUB_OUTPUT
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const output = `${{ steps.ai-review.outputs.review_output }}`;
+
+            // 查找已有的 AI Review 评论
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const botComment = comments.find(comment =>
+              comment.user.type === 'Bot' &&
+              comment.body.includes('🤖 AI Code Review Report')
+            );
+
+            if (botComment) {
+              // 更新已有评论
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: output
+              });
+            } else {
+              // 创建新评论
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: output
+              });
+            }
+
+      - name: Upload review artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ai-review-report-${{ github.run_number }}
+          path: ${{ runner.temp }}/ai-review-output.md
+          retention-days: 30
+
+      - name: Check review status
+        if: steps.ai-review.outputs.review_output != ''
+        run: |
+          echo "✅ AI Code Review 完成"
+          echo "审查结果已添加到 PR 评论"

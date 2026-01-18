@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "validate:words": "node scripts/validate-words.cjs",
+    "ai-review": "node scripts/ai-review.cjs",
     "pre-commit": "npm run validate:words"
   },
   "dependencies": {
