@@ -26003,26 +26003,6 @@
       "english": "novel"
     }
   },
-  "2868": {
-    "id": 2868,
-    "word": "spijt",
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "遗憾、后悔",
-      "english": "regret, remorse"
-    }
-  },
-  "2869": {
-    "id": 2869,
-    "word": "stadion",
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "体育场、运动场",
-      "english": "stadium"
-    }
-  },
   "2918": {
     "id": 2918,
     "word": "uitdaging",
@@ -26981,186 +26961,6 @@
     "translation": {
       "chinese": "裙子",
       "english": "skirt"
-    }
-  },
-  "3137": {
-    "id": 3137,
-    "word": "saai",
-    "level": "A1",
-    "partOfSpeech": "adjective",
-    "translation": {
-      "chinese": "无聊的",
-      "english": "boring"
-    }
-  },
-  "3138": {
-    "id": 3138,
-    "word": "grijs",
-    "level": "A1",
-    "partOfSpeech": "adjective",
-    "translation": {
-      "chinese": "灰色的",
-      "english": "gray"
-    }
-  },
-  "3140": {
-    "id": 3140,
-    "word": "groen",
-    "level": "A1",
-    "partOfSpeech": "adjective",
-    "translation": {
-      "chinese": "绿色的",
-      "english": "green"
-    }
-  },
-  "3141": {
-    "id": 3141,
-    "word": "sla",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "生菜",
-      "english": "lettuce"
-    }
-  },
-  "3142": {
-    "id": 3142,
-    "word": "grot",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "洞穴",
-      "english": "cave"
-    }
-  },
-  "3143": {
-    "id": 3143,
-    "word": "sok",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "袜子",
-      "english": "sock"
-    }
-  },
-  "3144": {
-    "id": 3144,
-    "word": "haai",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "鲨鱼",
-      "english": "shark"
-    }
-  },
-  "3145": {
-    "id": 3145,
-    "word": "sop",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "肥皂水",
-      "english": "soapy water"
-    }
-  },
-  "3146": {
-    "id": 3146,
-    "word": "haak",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "钩子",
-      "english": "hook"
-    }
-  },
-  "3147": {
-    "id": 3147,
-    "word": "thee",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "茶",
-      "english": "tea"
-    }
-  },
-  "3148": {
-    "id": 3148,
-    "word": "haan",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "公鸡",
-      "english": "rooster"
-    }
-  },
-  "3149": {
-    "id": 3149,
-    "word": "uien",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "洋葱（单数 ui）",
-      "english": "onions"
-    }
-  },
-  "3150": {
-    "id": 3150,
-    "word": "haas",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "野兔",
-      "english": "hare"
-    }
-  },
-  "3151": {
-    "id": 3151,
-    "word": "uil",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "猫头鹰",
-      "english": "owl"
-    }
-  },
-  "3152": {
-    "id": 3152,
-    "word": "hak",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "鞋跟/砍",
-      "english": "heel/chop"
-    }
-  },
-  "3153": {
-    "id": 3153,
-    "word": "vacht",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "皮毛",
-      "english": "fur"
-    }
-  },
-  "3154": {
-    "id": 3154,
-    "word": "hals",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "颈部",
-      "english": "neck/throat"
-    }
-  },
-  "3155": {
-    "id": 3155,
-    "word": "wc",
-    "level": "A1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "厕所",
-      "english": "toilet"
     }
   },
   "3156": {
@@ -29851,6 +29651,537 @@
     "translation": {
       "chinese": "分开",
       "english": "apart, separate"
+    }
+  },
+  "3522": {
+    "id": 3522,
+    "word": "saai",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "无聊的",
+      "english": "boring"
+    }
+  },
+  "3523": {
+    "id": 3523,
+    "word": "grijs",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "灰色的",
+      "english": "gray"
+    }
+  },
+  "3524": {
+    "id": 3524,
+    "word": "groen",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "绿色的",
+      "english": "green"
+    }
+  },
+  "3525": {
+    "id": 3525,
+    "word": "sla",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "生菜",
+      "english": "lettuce"
+    }
+  },
+  "3526": {
+    "id": 3526,
+    "word": "grot",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "洞穴",
+      "english": "cave"
+    }
+  },
+  "3527": {
+    "id": 3527,
+    "word": "sok",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "袜子",
+      "english": "sock"
+    }
+  },
+  "3528": {
+    "id": 3528,
+    "word": "haai",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "鲨鱼",
+      "english": "shark"
+    }
+  },
+  "3529": {
+    "id": 3529,
+    "word": "sop",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "肥皂水",
+      "english": "soapy water"
+    }
+  },
+  "3530": {
+    "id": 3530,
+    "word": "haak",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "钩子",
+      "english": "hook"
+    }
+  },
+  "3531": {
+    "id": 3531,
+    "word": "thee",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "茶",
+      "english": "tea"
+    }
+  },
+  "3532": {
+    "id": 3532,
+    "word": "haan",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "公鸡",
+      "english": "rooster"
+    }
+  },
+  "3533": {
+    "id": 3533,
+    "word": "uien",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "洋葱（单数 ui）",
+      "english": "onions"
+    }
+  },
+  "3534": {
+    "id": 3534,
+    "word": "haas",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "野兔",
+      "english": "hare"
+    }
+  },
+  "3535": {
+    "id": 3535,
+    "word": "uil",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "猫头鹰",
+      "english": "owl"
+    }
+  },
+  "3536": {
+    "id": 3536,
+    "word": "hak",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "鞋跟/砍",
+      "english": "heel/chop"
+    }
+  },
+  "3537": {
+    "id": 3537,
+    "word": "vacht",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "皮毛",
+      "english": "fur"
+    }
+  },
+  "3538": {
+    "id": 3538,
+    "word": "hals",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "颈部",
+      "english": "neck/throat"
+    }
+  },
+  "3539": {
+    "id": 3539,
+    "word": "wc",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "厕所",
+      "english": "toilet"
+    }
+  },
+  "3540": {
+    "id": 3540,
+    "word": "aandoen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "感觉、经历",
+      "english": "to feel, to experience"
+    }
+  },
+  "3541": {
+    "id": 3541,
+    "word": "aankijken",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "看着",
+      "english": "to look at, to watch"
+    }
+  },
+  "3542": {
+    "id": 3542,
+    "word": "aankleden",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "穿衣服",
+      "english": "to get dressed, to dress"
+    }
+  },
+  "3543": {
+    "id": 3543,
+    "word": "aankondigen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "宣布、通知",
+      "english": "to announce, to notify"
+    }
+  },
+  "3544": {
+    "id": 3544,
+    "word": "aantrekken",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "穿上、吸引",
+      "english": "to put on, to attract"
+    }
+  },
+  "3545": {
+    "id": 3545,
+    "word": "aanvaarden",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "接受、承认",
+      "english": "to accept, to acknowledge"
+    }
+  },
+  "3546": {
+    "id": 3546,
+    "word": "aanvragen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "申请、请求",
+      "english": "to apply for, to request"
+    }
+  },
+  "3547": {
+    "id": 3547,
+    "word": "aanwijzen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "指出、指示",
+      "english": "to point out, to indicate"
+    }
+  },
+  "3548": {
+    "id": 3548,
+    "word": "aanzien",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "看见、察觉",
+      "english": "to see, to notice"
+    }
+  },
+  "3549": {
+    "id": 3549,
+    "word": "achten",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "认为、尊重",
+      "english": "to consider, to respect"
+    }
+  },
+  "3550": {
+    "id": 3550,
+    "word": "achterblijven",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "留下、留守",
+      "english": "to stay behind, to remain"
+    }
+  },
+  "3551": {
+    "id": 3551,
+    "word": "aflopen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "跑遍、走遍",
+      "english": "to walk through, to patrol"
+    }
+  },
+  "3552": {
+    "id": 3552,
+    "word": "afpakken",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "拿下、没收",
+      "english": "to take off, to confiscate"
+    }
+  },
+  "3553": {
+    "id": 3553,
+    "word": "afsluiten",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "关闭、结束",
+      "english": "to close, to finish"
+    }
+  },
+  "3554": {
+    "id": 3554,
+    "word": "afvragen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "打听、询问",
+      "english": "to ask, to inquire"
+    }
+  },
+  "3555": {
+    "id": 3555,
+    "word": "afwachten",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "等待、等候",
+      "english": "to wait, to await"
+    }
+  },
+  "3556": {
+    "id": 3556,
+    "word": "antwoorden",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "回答、回复",
+      "english": "to answer, to reply"
+    }
+  },
+  "3557": {
+    "id": 3557,
+    "word": "geven",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "给、给予",
+      "english": "to give, to provide"
+    }
+  },
+  "3558": {
+    "id": 3558,
+    "word": "glijden",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "滑动、滑行",
+      "english": "to slide, to glide"
+    }
+  },
+  "3559": {
+    "id": 3559,
+    "word": "glimlachen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "微笑、闪现",
+      "english": "to smile, to shine"
+    }
+  },
+  "3560": {
+    "id": 3560,
+    "word": "glimmen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "闪烁、微光",
+      "english": "to twinkle, to shimmer"
+    }
+  },
+  "3561": {
+    "id": 3561,
+    "word": "goedvinden",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "找到、认为好",
+      "english": "to find good, to like"
+    }
+  },
+  "3562": {
+    "id": 3562,
+    "word": "gooien",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "扔、投",
+      "english": "to throw, to toss"
+    }
+  },
+  "3563": {
+    "id": 3563,
+    "word": "grijpen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "抓、握",
+      "english": "to grab, to seize"
+    }
+  },
+  "3564": {
+    "id": 3564,
+    "word": "hangen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "挂、悬挂",
+      "english": "to hang, to suspend"
+    }
+  },
+  "3565": {
+    "id": 3565,
+    "word": "heten",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "叫作、名为",
+      "english": "to be called, to be named"
+    }
+  },
+  "3566": {
+    "id": 3566,
+    "word": "kennismaken",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "认识、结识",
+      "english": "to get to know, to meet"
+    }
+  },
+  "3567": {
+    "id": 3567,
+    "word": "keren",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "转、转动",
+      "english": "to turn, to rotate"
+    }
+  },
+  "3568": {
+    "id": 3568,
+    "word": "klinken",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "听起来、发出声音",
+      "english": "to sound, to ring"
+    }
+  },
+  "3569": {
+    "id": 3569,
+    "word": "laten",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "让、允许",
+      "english": "to let, to allow"
+    }
+  },
+  "3570": {
+    "id": 3570,
+    "word": "leggen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "放、放置",
+      "english": "to put, to place"
+    }
+  },
+  "3571": {
+    "id": 3571,
+    "word": "leren",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "学习、教",
+      "english": "to learn, to teach"
+    }
+  },
+  "3572": {
+    "id": 3572,
+    "word": "liegen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "撒谎、躺",
+      "english": "to lie, to tell lies"
+    }
+  },
+  "3573": {
+    "id": 3573,
+    "word": "logeren",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "住宿、过夜",
+      "english": "to stay overnight, to lodge"
+    }
+  },
+  "3574": {
+    "id": 3574,
+    "word": "luiden",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "发出声音、响",
+      "english": "to sound loud, to ring"
+    }
+  },
+  "3575": {
+    "id": 3575,
+    "word": "lukken",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "成功、侥幸完成",
+      "english": "to succeed, to manage"
+    }
+  },
+  "3576": {
+    "id": 3576,
+    "word": "waaien",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "挥手、飘动",
+      "english": "to wave, to blow"
+    }
+  },
+  "3577": {
+    "id": 3577,
+    "word": "weggaan",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "离开、走开",
+      "english": "to leave, to go away"
+    }
+  },
+  "3578": {
+    "id": 3578,
+    "word": "wekken",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "唤醒、惊醒",
+      "english": "to wake up, to startle"
+    }
+  },
+  "3579": {
+    "id": 3579,
+    "word": "wennen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "习惯、适应",
+      "english": "to get used to, to adjust"
+    }
+  },
+  "3580": {
+    "id": 3580,
+    "word": "werpen",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "抛、投掷",
+      "english": "to throw, to cast"
     }
   }
 }

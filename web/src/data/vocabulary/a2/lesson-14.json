@@ -2,7 +2,7 @@
   "id": "lA214",
   "level": "A2",
   "lessonNumber": 14,
-  "totalWords": 37,
+  "totalWords": 64,
   "words": [
     {
       "id": 1299,
@@ -1510,6 +1510,1230 @@
       },
       "difficulty": "A2",
       "notes": "比较级和最高级规则：actueel - actueler - actueelst"
+    },
+    {
+      "id": 3522,
+      "word": "bedenken",
+      "translation": {
+        "chinese": "想到、发明",
+        "english": "to think of, to invent"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik denk een idee uit.",
+        "Zij bedenkt een oplossing."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我想出了一个主意。",
+          "她想出了办法。"
+        ],
+        "english": [
+          "I think of an idea.",
+          "She thinks of a solution."
+        ]
+      },
+      "notes": "可分动词，bed + denken",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "bedenken",
+          "isSeparable": true,
+          "prefix": "bed",
+          "present": {
+            "ik": "denk uit",
+            "jij": "denkt uit",
+            "hij": "denkt uit",
+            "wij": "denken uit",
+            "jullie": "denken uit",
+            "zij": "denken uit"
+          },
+          "past": {
+            "singular": "dacht uit",
+            "plural": "dachten uit"
+          },
+          "pastParticiple": "uitgebedacht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3523,
+      "word": "bedragen",
+      "translation": {
+        "chinese": "合计、总计",
+        "english": "to amount to, to total"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Het bedraagt honderd euro.",
+        "De kosten bedragen duizend euro."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "总计一百欧元。",
+          "费用总计一千欧元。"
+        ],
+        "english": [
+          "It amounts to hundred euros.",
+          "The costs total thousand euros."
+        ]
+      },
+      "notes": "不规则动词，bed + dragen",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "bedragen",
+          "isSeparable": false,
+          "present": {
+            "ik": "bedraag",
+            "jij": "bedraagt",
+            "hij": "bedraagt",
+            "wij": "bedragen",
+            "jullie": "bedragen",
+            "zij": "bedragen"
+          },
+          "past": {
+            "singular": "bedroeg",
+            "plural": "bedroegen"
+          },
+          "pastParticiple": "bedragen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      }
+    },
+    {
+      "id": 3524,
+      "word": "behouden",
+      "translation": {
+        "chinese": "保留、保持",
+        "english": "to keep, to retain"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik behoud mijn baan.",
+        "Wij behouden onze cultuur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我保留我的工作。",
+          "我们保持我们的文化。"
+        ],
+        "english": [
+          "I keep my job.",
+          "We retain our culture."
+        ]
+      },
+      "notes": "不规则动词，be + houden",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "behouden",
+          "isSeparable": false,
+          "present": {
+            "ik": "behoud",
+            "jij": "behoudt",
+            "hij": "behoudt",
+            "wij": "behouden",
+            "jullie": "behouden",
+            "zij": "behouden"
+          },
+          "past": {
+            "singular": "behield",
+            "plural": "behielden"
+          },
+          "pastParticiple": "behouden",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3525,
+      "word": "bekennen",
+      "translation": {
+        "chinese": "承认、招认",
+        "english": "to confess, to admit"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik bekende mijn fout.",
+        "Zij bekent de waarheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我承认我的错误。",
+          "她承认了真相。"
+        ],
+        "english": [
+          "I confessed my mistake.",
+          "She admits the truth."
+        ]
+      },
+      "notes": "规则动词，be + kennen",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "bekennen",
+          "isSeparable": false,
+          "present": {
+            "ik": "bekennis",
+            "jij": "bekent",
+            "hij": "bekent",
+            "wij": "bekennen",
+            "jullie": "bekennen",
+            "zij": "bekennen"
+          },
+          "past": {
+            "singular": "bekende",
+            "plural": "bekenden"
+          },
+          "pastParticiple": "bekend",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3526,
+      "word": "beoordelen",
+      "translation": {
+        "chinese": "评估、评价",
+        "english": "to assess, to evaluate"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik beoordeel het werk.",
+        "Wij beoordelen de student."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我评估这项工作。",
+          "我们评价学生。"
+        ],
+        "english": [
+          "I assess the work.",
+          "We evaluate the student."
+        ]
+      },
+      "notes": "规则动词，be + oordelen",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "beoordelen",
+          "isSeparable": false,
+          "present": {
+            "ik": "beoordeel",
+            "jij": "beoordeelt",
+            "hij": "beoordeelt",
+            "wij": "beoordelen",
+            "jullie": "beoordelen",
+            "zij": "beoordelen"
+          },
+          "past": {
+            "singular": "beoordeelde",
+            "plural": "beoordeelden"
+          },
+          "pastParticiple": "beoordeeld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3527,
+      "word": "beschermen",
+      "translation": {
+        "chinese": "保护",
+        "english": "to protect"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik bescherm mijn kind.",
+        "Wij beschermen het milieu."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我保护我的孩子。",
+          "我们保护环境。"
+        ],
+        "english": [
+          "I protect my child.",
+          "We protect the environment."
+        ]
+      },
+      "notes": "规则动词，be + schermen",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "beschermen",
+          "isSeparable": false,
+          "present": {
+            "ik": "bescherm",
+            "jij": "beschermt",
+            "hij": "beschermt",
+            "wij": "beschermen",
+            "jullie": "beschermen",
+            "zij": "beschermen"
+          },
+          "past": {
+            "singular": "beschermde",
+            "plural": "beschermden"
+          },
+          "pastParticiple": "beschermd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3528,
+      "word": "besteden",
+      "translation": {
+        "chinese": "花费、花费时间",
+        "english": "to spend, to spend time"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik besteed veel tijd.",
+        "Zij besteedt geld aan kleding."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我花很多时间。",
+          "她把钱花在衣服上。"
+        ],
+        "english": [
+          "I spend much time.",
+          "She spends money on clothes."
+        ]
+      },
+      "notes": "规则动词，be + steden",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "besteden",
+          "isSeparable": false,
+          "present": {
+            "ik": "besteed",
+            "jij": "besteedt",
+            "hij": "besteedt",
+            "wij": "besteden",
+            "jullie": "besteden",
+            "zij": "besteden"
+          },
+          "past": {
+            "singular": "besteedde",
+            "plural": "besteden"
+          },
+          "pastParticiple": "besteed",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3529,
+      "word": "betekenen",
+      "translation": {
+        "chinese": "意味着、表示",
+        "english": "to mean, to signify"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Wat betekent dit woord?",
+        "Het betekent veel voor mij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个词是什么意思？",
+          "这对我很重要。"
+        ],
+        "english": [
+          "What does this word mean?",
+          "It means a lot to me."
+        ]
+      },
+      "notes": "不规则动词，be + tekenen",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "betekenen",
+          "isSeparable": false,
+          "present": {
+            "ik": "beteken",
+            "jij": "betekent",
+            "hij": "betekent",
+            "wij": "betekenen",
+            "jullie": "betekenen",
+            "zij": "betekenen"
+          },
+          "past": {
+            "singular": "betekende",
+            "plural": "betekenden"
+          },
+          "pastParticiple": "betekend",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3530,
+      "word": "betrekken",
+      "translation": {
+        "chinese": "涉及、包括",
+        "english": "to involve, to include"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik betrek hem bij het plan.",
+        "Wij betrekken de kosten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我让他参与计划。",
+          "我们包括费用。"
+        ],
+        "english": [
+          "I involve him in the plan.",
+          "We include the costs."
+        ]
+      },
+      "notes": "规则动词，be + trekken",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "betrekken",
+          "isSeparable": false,
+          "present": {
+            "ik": "betrek",
+            "jij": "betrekt",
+            "hij": "betrekt",
+            "wij": "betrekken",
+            "jullie": "betrekken",
+            "zij": "betrekken"
+          },
+          "past": {
+            "singular": "trok",
+            "plural": "trokken"
+          },
+          "pastParticiple": "betrokken",
+          "pastParticipleAuxiliary": "hebben/zijn"
+        }
+      }
+    },
+    {
+      "id": 3531,
+      "word": "bevatten",
+      "translation": {
+        "chinese": "包含、容纳",
+        "english": "to contain, to hold"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "De doos bevat boeken.",
+        "Het rapport bevat veel informatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "盒子里装着书。",
+          "报告包含很多信息。"
+        ],
+        "english": [
+          "The box contains books.",
+          "The report holds much information."
+        ]
+      },
+      "notes": "不规则动词，be + vatten",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "bevatten",
+          "isSeparable": false,
+          "present": {
+            "ik": "bevat",
+            "jij": "bevat",
+            "hij": "bevat",
+            "wij": "bevatten",
+            "jullie": "bevatten",
+            "zij": "bevatten"
+          },
+          "past": {
+            "singular": "vatte",
+            "plural": "vatten"
+          },
+          "pastParticiple": "bevat",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3532,
+      "word": "bevinden",
+      "translation": {
+        "chinese": "位于、发现",
+        "english": "to be located, to find"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Het hotel bevindt zich aan het strand.",
+        "Ik bevind me thuis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "酒店位于海滩。",
+          "我在家。"
+        ],
+        "english": [
+          "The hotel is located at the beach.",
+          "I find myself at home."
+        ]
+      },
+      "notes": "不规则动词，be + vinden",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "bevinden",
+          "isSeparable": false,
+          "present": {
+            "ik": "bevind",
+            "jij": "bevindt",
+            "hij": "bevindt",
+            "wij": "bevinden",
+            "jullie": "bevinden",
+            "zij": "bevinden"
+          },
+          "past": {
+            "singular": "bevond",
+            "plural": "bevonden"
+          },
+          "pastParticiple": "bevonden",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      }
+    },
+    {
+      "id": 3533,
+      "word": "bewijzen",
+      "translation": {
+        "chinese": "证明",
+        "english": "to prove"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik bewijs mijn onschuld.",
+        "Wij bewijzen dat het waar is."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我证明我的清白。",
+          "我们证明这是真的。"
+        ],
+        "english": [
+          "I prove my innocence.",
+          "We prove that it is true."
+        ]
+      },
+      "notes": "不规则动词，be + wijzen",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "bewijzen",
+          "isSeparable": false,
+          "present": {
+            "ik": "bewijs",
+            "jij": "bewijst",
+            "hij": "bewijst",
+            "wij": "bewijzen",
+            "jullie": "bewijzen",
+            "zij": "bewijzen"
+          },
+          "past": {
+            "singular": "bewees",
+            "plural": "bewezen"
+          },
+          "pastParticiple": "bewezen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3534,
+      "word": "bezoeken",
+      "translation": {
+        "chinese": "访问、参观",
+        "english": "to visit, to attend"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik bezoek mijn vrienden.",
+        "Zij bezoekt het museum."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我拜访我的朋友。",
+          "她参观博物馆。"
+        ],
+        "english": [
+          "I visit my friends.",
+          "She visits the museum."
+        ]
+      },
+      "notes": "规则动词，be + zoeken",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "bezoeken",
+          "isSeparable": false,
+          "present": {
+            "ik": "bezoek",
+            "jij": "bezoekt",
+            "hij": "bezoekt",
+            "wij": "bezoeken",
+            "jullie": "bezoeken",
+            "zij": "bezoeken"
+          },
+          "past": {
+            "singular": "bezocht",
+            "plural": "bezochten"
+          },
+          "pastParticiple": "bezocht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3535,
+      "word": "binnenkomen",
+      "translation": {
+        "chinese": "进入",
+        "english": "to enter, to come in"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik kom het huis binnen.",
+        "Zij komt de zaal binnen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我进入房子。",
+          "她进入大厅。"
+        ],
+        "english": [
+          "I enter the house.",
+          "She comes into the hall."
+        ]
+      },
+      "notes": "可分动词，binnen + komen",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "binnenkomen",
+          "isSeparable": true,
+          "prefix": "binnen",
+          "present": {
+            "ik": "kom binnen",
+            "jij": "komt binnen",
+            "hij": "komt binnen",
+            "wij": "komen binnen",
+            "jullie": "komen binnen",
+            "zij": "komen binnen"
+          },
+          "past": {
+            "singular": "kwam binnen",
+            "plural": "kwamen binnen"
+          },
+          "pastParticiple": "binnengekomen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      }
+    },
+    {
+      "id": 3536,
+      "word": "mededelen",
+      "translation": {
+        "chinese": "告知、通知",
+        "english": "to inform, to announce"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik deel het nieuws mee.",
+        "Zij deelt de beslissing mee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我告知这个消息。",
+          "她通知这个决定。"
+        ],
+        "english": [
+          "I inform the news.",
+          "She announces the decision."
+        ]
+      },
+      "notes": "可分动词，mede + delen",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "mededelen",
+          "isSeparable": true,
+          "prefix": "mede",
+          "present": {
+            "ik": "deel mee",
+            "jij": "deelt mee",
+            "hij": "deelt mee",
+            "wij": "delen mee",
+            "jullie": "delen mee",
+            "zij": "delen mee"
+          },
+          "past": {
+            "singular": "deelde mee",
+            "plural": "deelden mee"
+          },
+          "pastParticiple": "medegedeeld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3537,
+      "word": "meebrengen",
+      "translation": {
+        "chinese": "带来",
+        "english": "to bring along"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik breng het boek mee.",
+        "Zij brengt haar vrienden mee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我带书来。",
+          "她带朋友来。"
+        ],
+        "english": [
+          "I bring the book along.",
+          "She brings her friends along."
+        ]
+      },
+      "notes": "可分动词，mee + brengen",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "meebrengen",
+          "isSeparable": true,
+          "prefix": "mee",
+          "present": {
+            "ik": "breng mee",
+            "jij": "brengt mee",
+            "hij": "brengt mee",
+            "wij": "brengen mee",
+            "jullie": "brengen mee",
+            "zij": "brengen mee"
+          },
+          "past": {
+            "singular": "bracht mee",
+            "plural": "brachten mee"
+          },
+          "pastParticiple": "meegebracht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3538,
+      "word": "meedelen",
+      "translation": {
+        "chinese": "通知、告知",
+        "english": "to communicate, to share"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik deel mijn mening mee.",
+        "Zij deelt het resultaat mee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我告知我的意见。",
+          "她通知结果。"
+        ],
+        "english": [
+          "I communicate my opinion.",
+          "She shares the result."
+        ]
+      },
+      "notes": "可分动词，mee + delen",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "meedelen",
+          "isSeparable": true,
+          "prefix": "mee",
+          "present": {
+            "ik": "deel mee",
+            "jij": "deelt mee",
+            "hij": "deelt mee",
+            "wij": "delen mee",
+            "jullie": "delen mee",
+            "zij": "delen mee"
+          },
+          "past": {
+            "singular": "deelde mee",
+            "plural": "deelden mee"
+          },
+          "pastParticiple": "megedeeld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3539,
+      "word": "meegaan",
+      "translation": {
+        "chinese": "一起去",
+        "english": "to go along, to go with"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik ga mee naar de bioscoop.",
+        "Zij gaat met ons mee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我和大家一起去看电影。",
+          "她跟我们一起去。"
+        ],
+        "english": [
+          "I go along to the cinema.",
+          "She goes with us."
+        ]
+      },
+      "notes": "可分动词，mee + gaan",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "meegaan",
+          "isSeparable": true,
+          "prefix": "mee",
+          "present": {
+            "ik": "ga mee",
+            "jij": "gaat mee",
+            "hij": "gaat mee",
+            "wij": "gaan mee",
+            "jullie": "gaan mee",
+            "zij": "gaan mee"
+          },
+          "past": {
+            "singular": "ging mee",
+            "plural": "gingen mee"
+          },
+          "pastParticiple": "meegaan",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      }
+    },
+    {
+      "id": 3540,
+      "word": "meenemen",
+      "translation": {
+        "chinese": "带去、带上",
+        "english": "to take along, to take with"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik neem mijn tas mee.",
+        "Zij neemt haar kinderen mee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我带上我的包。",
+          "她带上她的孩子。"
+        ],
+        "english": [
+          "I take my bag with me.",
+          "She takes her children with her."
+        ]
+      },
+      "notes": "可分动词，mee + nemen",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "meenemen",
+          "isSeparable": true,
+          "prefix": "mee",
+          "present": {
+            "ik": "neem mee",
+            "jij": "neemt mee",
+            "hij": "neemt mee",
+            "wij": "nemen mee",
+            "jullie": "nemen mee",
+            "zij": "nemen mee"
+          },
+          "past": {
+            "singular": "nam mee",
+            "plural": "namen mee"
+          },
+          "pastParticiple": "meegeomen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3541,
+      "word": "menen",
+      "translation": {
+        "chinese": "认为、以为",
+        "english": "to think, to believe"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik meen dat het waar is.",
+        "Zij meent het goed te doen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我认为这是真的。",
+          "她以为她在做对的事。"
+        ],
+        "english": [
+          "I think it is true.",
+          "She believes she is doing right."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "menen",
+          "isSeparable": false,
+          "present": {
+            "ik": "meen",
+            "jij": "meent",
+            "hij": "meent",
+            "wij": "menen",
+            "jullie": "menen",
+            "zij": "menen"
+          },
+          "past": {
+            "singular": "meende",
+            "plural": "meenden"
+          },
+          "pastParticiple": "gemeend",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3542,
+      "word": "zakken",
+      "translation": {
+        "chinese": "下沉、失败",
+        "english": "to sink, to fail"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Het schip zakt.",
+        "Ik zak voor het examen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "船沉下去。",
+          "我考试不及格。"
+        ],
+        "english": [
+          "The ship sinks.",
+          "I fail the exam."
+        ]
+      },
+      "notes": "不规则动词",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "zakken",
+          "isSeparable": false,
+          "present": {
+            "ik": "zak",
+            "jij": "zakt",
+            "hij": "zakt",
+            "wij": "zakken",
+            "jullie": "zakken",
+            "zij": "zakken"
+          },
+          "past": {
+            "singular": "zakte",
+            "plural": "zakten"
+          },
+          "pastParticiple": "gezakt",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      }
+    },
+    {
+      "id": 3543,
+      "word": "zenden",
+      "translation": {
+        "chinese": "发送、传送",
+        "english": "to send, to transmit"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik stuur een brief.",
+        "Zij stuurt het bericht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我发一封信。",
+          "她发送消息。"
+        ],
+        "english": [
+          "I send a letter.",
+          "She sends the message."
+        ]
+      },
+      "notes": "不规则动词",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "zenden",
+          "isSeparable": false,
+          "present": {
+            "ik": "zend",
+            "jij": "zendt",
+            "hij": "zendt",
+            "wij": "zenden",
+            "jullie": "zenden",
+            "zij": "zenden"
+          },
+          "past": {
+            "singular": "zond",
+            "plural": "zonden"
+          },
+          "pastParticiple": "gezonden",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3544,
+      "word": "zuchten",
+      "translation": {
+        "chinese": "叹气",
+        "english": "to sigh"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik zucht diep.",
+        "Zij zucht van vermoeidheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我深深叹气。",
+          "她因疲劳而叹气。"
+        ],
+        "english": [
+          "I sigh deeply.",
+          "She sighs from fatigue."
+        ]
+      },
+      "notes": "规则动词",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "zuchten",
+          "isSeparable": false,
+          "present": {
+            "ik": "zucht",
+            "jij": "zucht",
+            "hij": "zucht",
+            "wij": "zuchten",
+            "jullie": "zuchten",
+            "zij": "zuchten"
+          },
+          "past": {
+            "singular": "zuchtte",
+            "plural": "zuchtten"
+          },
+          "pastParticiple": "gezucht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3545,
+      "word": "zullen",
+      "translation": {
+        "chinese": "将要",
+        "english": "to will, to shall"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik zal morgen komen.",
+        "Zij zal het doen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我明天会来。",
+          "她会做这件事。"
+        ],
+        "english": [
+          "I will come tomorrow.",
+          "She will do it."
+        ]
+      },
+      "notes": "情态动词，用于将来时",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "zullen",
+          "isSeparable": false,
+          "present": {
+            "ik": "zal",
+            "jij": "zult",
+            "hij": "zal",
+            "wij": "zullen",
+            "jullie": "zullen",
+            "zij": "zullen"
+          },
+          "past": {
+            "singular": "zou",
+            "plural": "zouden"
+          },
+          "pastParticiple": "-",
+          "pastParticipleAuxiliary": "-"
+        }
+      }
+    },
+    {
+      "id": 3546,
+      "word": "zwijgen",
+      "translation": {
+        "chinese": "沉默",
+        "english": "to be silent, to keep silent"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik zwijg over het geheim.",
+        "Zij zwijgt in de les."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我对这个秘密保持沉默。",
+          "她在课堂上保持安静。"
+        ],
+        "english": [
+          "I keep silent about the secret.",
+          "She stays silent in class."
+        ]
+      },
+      "notes": "不规则动词，变音词（ij → ie）",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "zwijgen",
+          "isSeparable": false,
+          "present": {
+            "ik": "zwijg",
+            "jij": "zwijgt",
+            "hij": "zwijgt",
+            "wij": "zwijgen",
+            "jullie": "zwijgen",
+            "zij": "zwijgen"
+          },
+          "past": {
+            "singular": "zweeg",
+            "plural": "zweegen"
+          },
+          "pastParticiple": "gezwegen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3547,
+      "word": "afvegen",
+      "translation": {
+        "chinese": "擦拭",
+        "english": "to wipe"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik veeg de tafel af.",
+        "Zij veegt het glas af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我擦桌子。",
+          "她擦玻璃。"
+        ],
+        "english": [
+          "I wipe the table.",
+          "She wipes the glass."
+        ]
+      },
+      "notes": "可分动词，af + vegen",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "afvegen",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "veeg af",
+            "jij": "veegt af",
+            "hij": "veegt af",
+            "wij": "vegen af",
+            "jullie": "vegen af",
+            "zij": "vegen af"
+          },
+          "past": {
+            "singular": "veegde af",
+            "plural": "veegden af"
+          },
+          "pastParticiple": "afgeveegd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
+    },
+    {
+      "id": 3548,
+      "word": "afwachten",
+      "translation": {
+        "chinese": "等待、观望",
+        "english": "to wait, to await"
+      },
+      "partOfSpeech": "verb",
+      "examples": [
+        "Ik wacht het resultaat af.",
+        "Zij wacht het antwoord af."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我等待结果。",
+          "她等待答复。"
+        ],
+        "english": [
+          "I await the result.",
+          "She waits for the answer."
+        ]
+      },
+      "notes": "可分动词，af + wachten",
+      "difficulty": "A2",
+      "forms": {
+        "verb": {
+          "infinitive": "afwachten",
+          "isSeparable": true,
+          "prefix": "af",
+          "present": {
+            "ik": "wacht af",
+            "jij": "wacht af",
+            "hij": "wacht af",
+            "wij": "wachten af",
+            "jullie": "wachten af",
+            "zij": "wachten af"
+          },
+          "past": {
+            "singular": "wachtte af",
+            "plural": "wachtten af"
+          },
+          "pastParticiple": "afgewacht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      }
     }
   ]
 }
