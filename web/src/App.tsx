@@ -884,8 +884,8 @@ function MainApp() {
           unmasteredCount: !isMastered ? currentStats.unmasteredCount + 1 : currentStats.unmasteredCount,
         }
 
-        // 自动计算熟悉程度，传入用户选择
-        const calculatedFamiliarity = calculateFamiliarity(updatedStats, familiarity)
+        // 直接使用用户选择，简化逻辑
+        const calculatedFamiliarity = familiarity
         console.log(`设置熟悉程度为 ${calculatedFamiliarity}（用户选择: ${familiarity}）`)
 
         return {

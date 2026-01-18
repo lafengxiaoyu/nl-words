@@ -283,7 +283,7 @@ export async function updateMasteryStats(
       lastTestedAt: currentStats?.lastTestedAt,
     }
     // 传入用户选择，实现混合策略
-    const calculatedFamiliarity = calculateFamiliarity(newStats, familiarity)
+    const calculatedFamiliarity = calculateFamiliarity(familiarity, newStats)
     return { stats: newStats, familiarity: calculatedFamiliarity }
   }
 
@@ -311,7 +311,7 @@ export async function updateMasteryStats(
     }
 
     // 传入用户选择，实现混合策略
-    const calculatedFamiliarity = calculateFamiliarity(newStats, familiarity)
+    const calculatedFamiliarity = calculateFamiliarity(familiarity, newStats)
 
     const { error } = await supabase
       .from('user_progress')
@@ -344,7 +344,7 @@ export async function updateMasteryStats(
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: currentStats?.lastTestedAt,
     }
-    const calculatedFamiliarity = calculateFamiliarity(newStats)
+    const calculatedFamiliarity = calculateFamiliarity(undefined, newStats)
     return { stats: newStats, familiarity: calculatedFamiliarity }
   }
 }
@@ -370,7 +370,7 @@ export async function updateTestStats(
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: new Date().toISOString(),
     }
-    const calculatedFamiliarity = calculateFamiliarity(newStats)
+    const calculatedFamiliarity = calculateFamiliarity(undefined, newStats)
     return { stats: newStats, familiarity: calculatedFamiliarity }
   }
 
@@ -398,7 +398,7 @@ export async function updateTestStats(
     }
 
     // 自动计算熟悉程度
-    const calculatedFamiliarity = calculateFamiliarity(newStats)
+    const calculatedFamiliarity = calculateFamiliarity(undefined, newStats)
 
     const upsertData = {
       user_id: userId,
@@ -436,7 +436,7 @@ export async function updateTestStats(
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: new Date().toISOString(),
     }
-    const calculatedFamiliarity = calculateFamiliarity(newStats)
+    const calculatedFamiliarity = calculateFamiliarity(undefined, newStats)
     return { stats: newStats, familiarity: calculatedFamiliarity }
   }
 }

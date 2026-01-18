@@ -1,153 +1,121 @@
 import type { LearningStats, FamiliarityLevel } from '../data/types'
 
 /**
- * 熟悉程度计算器
- * 根据用户的学习统计数据自动计算熟悉程度
- */
-
-/**
- * 计算熟悉程度分数 (0-100)
- * 
- * 评分因素：
- * - 测试正确率 (40%): 最能反映真实掌握程度
- * - 掌握倾向 (30%): 用户主动标记的倾向
- * - 练习频次 (20%): 查看次数代表接触频率
- * - 时间因素 (10%): 最近学习活动
- */
-export function calculateFamiliarityScore(stats: LearningStats | undefined): number {
-  if (!stats || stats.testCount === 0 && stats.masteredCount === 0 && stats.unmasteredCount === 0) {
-    return 0 // 新单词
-  }
-
-  // 1. 测试正确率 (0-40分)
-  let testScore = 0
-  if (stats.testCount > 0) {
-    const accuracy = stats.testCorrectCount / stats.testCount
-    testScore = accuracy * 40
-  }
-
-  // 2. 掌握倾向 (0-30分)
-  let masteryScore = 0
-  const totalMasteryMarks = stats.masteredCount + stats.unmasteredCount
-  if (totalMasteryMarks > 0) {
-    const masteryRatio = stats.masteredCount / totalMasteryMarks
-    masteryScore = masteryRatio * 30
-  }
-
-  // 3. 练习频次 (0-20分)
-  const viewScore = Math.min(stats.viewCount * 2, 20)
-
-  // 4. 时间因素 (0-10分)
-  let timeScore = 0
-  const now = new Date()
-  const lastActivity = stats.lastTestedAt || stats.lastViewedAt
-  if (lastActivity) {
-    const daysSinceLastActivity = (now.getTime() - new Date(lastActivity).getTime()) / (1000 * 60 * 60 * 24)
-    // 最近7天有活动得10分，30天内按比例衰减
-    if (daysSinceLastActivity <= 7) {
-      timeScore = 10
-    } else if (daysSinceLastActivity <= 30) {
-      timeScore = 10 * (1 - (daysSinceLastActivity - 7) / 23)
-    }
-  }
-
-  return Math.round(testScore + masteryScore + viewScore + timeScore)
-}
-
-/**
- * 根据分数和统计信息返回熟悉程度
+ * 熟悉程度计算器 - 直观版本
  *
- * 采用混合策略：用户明确标记优先 + 智能降级保护
+ * 设计原则：
+ * 1. 用户的滑动操作是明确的意图，应该直接反映到熟悉度
+ * 2. 向右滑动 = mastered（已掌握），向左滑动 = learning（学习中）
+ * 3. 测试功能用于自动升级/降级，提供更精细的熟悉度调整
+ * 4. 熟悉度保持四个级别：new（新词）、learning（学习中）、familiar（熟悉）、mastered（已掌握）
+ */
+
+/**
+ * 根据用户操作和统计信息返回熟悉程度
  *
  * 级别划分标准：
  * - new: 0分（无任何学习活动）
- * - learning: 1-39分（刚开始学习，掌握度较低）
- * - familiar: 40-69分（有一定掌握，但还未达到精通）
- * - mastered: 70+分（高度掌握，需满足额外条件）
+ * - learning: 用户明确标记为学习中，或测试表现不佳
+ * - familiar: 自动升级状态，介于学习和掌握之间
+ * - mastered: 用户明确标记为已掌握，或测试表现优异
  *
- * @param score - 计算出的分数
+ * @param userFamiliarity - 用户手动标记的熟悉程度（滑动操作）
  * @param stats - 学习统计数据
- * @param userFamiliarity - 用户手动标记的熟悉程度（可选）
  */
-export function getFamiliarityFromScore(
-  score: number,
-  stats: LearningStats | undefined,
-  userFamiliarity?: FamiliarityLevel
+export function calculateFamiliarity(
+  userFamiliarity?: FamiliarityLevel,
+  stats?: LearningStats
 ): FamiliarityLevel {
-  // 如果没有任何学习活动
-  if (!stats || stats.testCount === 0 && stats.masteredCount === 0 && stats.unmasteredCount === 0 && stats.viewCount === 0) {
+  // 如果没有任何学习活动，标记为 new
+  if (!stats || (stats.viewCount === 0 && stats.testCount === 0 && stats.masteredCount === 0 && stats.unmasteredCount === 0)) {
     return 'new'
   }
 
-  // 混合策略：优先考虑用户明确标记，但添加智能降级保护
-
-  // 1. 如果用户明确标记为mastered，尊重用户选择，但需要验证分数是否达标
-  if (userFamiliarity === 'mastered') {
-    // 检查是否有明显的测试失误
-    if (stats.testCount >= 2) {
-      const accuracy = stats.testCorrectCount / stats.testCount
-      // 测试正确率低于50%，说明用户可能盲目标记，强制降级
-      if (accuracy < 0.5) {
-        return score <= 39 ? 'learning' : 'familiar'
-      }
-    }
-    // 测试数据正常或不足，但还需要检查分数是否真的达标
-    // 如果分数未达到70分，按实际分数返回正确的级别
-    if (score >= 70) {
-      return 'mastered'
-    } else if (score <= 39) {
-      return 'learning'
-    } else {
-      return 'familiar'
-    }
-  }
-
-  // 2. 如果用户明确标记为new或learning，尊重用户选择
-  if (userFamiliarity === 'new' || userFamiliarity === 'learning') {
+  // 优先使用用户的明确标记（滑动操作）
+  if (userFamiliarity === 'mastered' || userFamiliarity === 'learning' || userFamiliarity === 'familiar') {
+    // 用户通过滑动明确标记了熟悉度，直接使用
     return userFamiliarity
   }
 
-  // 3. 如果用户标记为familiar，尊重用户选择
-  if (userFamiliarity === 'familiar') {
-    return 'familiar'
+  // 如果用户标记为 new，检查是否真的应该重置
+  if (userFamiliarity === 'new') {
+    return 'new'
   }
 
-  // 4. 没有用户明确标记，按分数计算
-  if (score <= 39) {
+  // 没有用户明确标记时，根据统计信息自动判断
+  const hasTestRecords = stats.testCount > 0
+
+  if (hasTestRecords) {
+    const accuracy = stats.testCorrectCount / stats.testCount
+
+    // 测试正确率 >= 85% 且测试次数 >= 3，自动标记为已掌握
+    if (accuracy >= 0.85 && stats.testCount >= 3) {
+      return 'mastered'
+    }
+
+    // 测试正确率 >= 70%，自动标记为熟悉
+    if (accuracy >= 0.7 && stats.testCount >= 2) {
+      return 'familiar'
+    }
+
+    // 测试正确率 >= 50%，标记为学习中
+    if (accuracy >= 0.5) {
+      return 'learning'
+    }
+
+    // 测试正确率 < 50%，保持在学习中
     return 'learning'
   }
 
-  if (score <= 69) {
+  // 没有测试记录，根据查看次数判断
+  if (stats.viewCount >= 5) {
+    // 查看过5次以上，标记为熟悉
     return 'familiar'
   }
 
-  // 高分（70+）还需要满足最低条件才能标记为掌握
-  if (score >= 70) {
-    // 需要至少有测试记录和一定的正确率
-    const hasTestRecords = stats.testCount >= 3
-    const hasGoodAccuracy = stats.testCount > 0 && (stats.testCorrectCount / stats.testCount) >= 0.7
-
-    if (hasTestRecords && hasGoodAccuracy) {
-      return 'mastered'
-    }
+  if (stats.viewCount >= 3) {
+    // 查看过3次以上，标记为学习中
+    return 'learning'
   }
 
-  return 'familiar'
+  // 其他情况标记为学习中
+  return 'learning'
 }
 
 /**
- * 自动计算熟悉程度
- * 组合上述两个函数，直接返回熟悉程度
+ * 计算熟悉程度分数 (0-100) - 仅用于显示
  *
- * @param stats - 学习统计数据
- * @param userFamiliarity - 用户手动标记的熟悉程度（可选）
+ * 评分因素：
+ * - 用户标记 (40%): 直接反映用户意图
+ * - 测试正确率 (35%): 验证掌握程度
+ * - 练习频次 (25%): 接触频率
  */
-export function calculateFamiliarity(
-  stats: LearningStats | undefined,
-  userFamiliarity?: FamiliarityLevel
-): FamiliarityLevel {
-  const score = calculateFamiliarityScore(stats)
-  return getFamiliarityFromScore(score, stats, userFamiliarity)
+export function calculateFamiliarityScore(stats: LearningStats | undefined, userFamiliarity?: FamiliarityLevel): number {
+  if (!stats || (stats.viewCount === 0 && stats.testCount === 0 && stats.masteredCount === 0 && stats.unmasteredCount === 0)) {
+    return 0 // 新单词
+  }
+
+  let score = 0
+
+  // 1. 用户标记权重 (0-40分)
+  if (userFamiliarity === 'mastered') {
+    score += 40
+  } else if (userFamiliarity === 'familiar') {
+    score += 30
+  } else if (userFamiliarity === 'learning') {
+    score += 20
+  }
+
+  // 2. 测试正确率 (0-35分)
+  if (stats.testCount > 0) {
+    const accuracy = stats.testCorrectCount / stats.testCount
+    score += accuracy * 35
+  }
+
+  // 3. 练习频次 (0-25分)
+  score += Math.min(stats.viewCount * 3, 25)
+
+  return Math.round(score)
 }
 
 /**
