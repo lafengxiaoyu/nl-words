@@ -6,7 +6,7 @@ import type { Word, FamiliarityLevel, DifficultyLevel } from './data/words'
 import type { ExampleTranslations } from './data/types'
 import { supabase } from './lib/supabase'
 import { loadUserProgress, saveUserProgress, mergeProgress, incrementViewCount, updateMasteryStats } from './lib/progressSync'
-import { calculateFamiliarity, calculateFamiliarityScore } from './lib/familiarityCalculator'
+import { calculateFamiliarityScore } from './lib/familiarityCalculator'
 import { isPremiumUser } from './lib/subscription'
 import Auth from './components/Auth'
 import UserProfile from './components/UserProfile'
@@ -972,15 +972,15 @@ function MainApp() {
   }
 
   // 导航函数
-  const goToNext = () => {
+  const goToNext = useCallback(() => {
     setIsFlipped(false)
     setCurrentIndex((prev) => (prev + 1) % filteredWordList.length)
-  }
+  }, [filteredWordList.length])
 
-  const goToPrevious = () => {
+  const goToPrevious = useCallback(() => {
     setIsFlipped(false)
     setCurrentIndex((prev) => (prev - 1 + filteredWordList.length) % filteredWordList.length)
-  }
+  }, [filteredWordList.length])
 
   // 记录单词查看次数（当单词变化时）
   useEffect(() => {
