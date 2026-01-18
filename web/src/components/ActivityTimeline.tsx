@@ -162,21 +162,23 @@ export default function ActivityTimeline({ languageMode, userId }: ActivityTimel
         // 处理数据库数据
         if (data) {
           data.forEach((progress) => {
-            // 处理查看时间
+            // 处理查看次数（只在查看日期当天计数）
             if (progress.last_viewed_at) {
               const viewDate = new Date(progress.last_viewed_at).toISOString().split('T')[0]
               const activity = dailyMap.get(viewDate)
               if (activity) {
-                activity.viewCount += progress.view_count || 0
+                // 只在最后查看的那天加1，而不是累加总查看次数
+                activity.viewCount += 1
               }
             }
 
-            // 处理测试时间
+            // 处理测试次数（只在测试日期当天计数）
             if (progress.last_tested_at) {
               const testDate = new Date(progress.last_tested_at).toISOString().split('T')[0]
               const activity = dailyMap.get(testDate)
               if (activity) {
-                activity.testCount += progress.test_count || 0
+                // 只在最后测试的那天加1，而不是累加总测试次数
+                activity.testCount += 1
               }
             }
 
