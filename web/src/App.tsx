@@ -17,6 +17,7 @@ import AdminDashboard from './components/AdminDashboard'
 import SpellingGame from './components/SpellingGame'
 import AboutPage from './components/AboutPage'
 import PremiumUpgradeModal from './components/PremiumUpgradeModal'
+import { Flashcard } from './components/Flashcard'
 import logo from './assets/images/dutch-lex.svg'
 
 // 发音按钮图标组件
@@ -396,13 +397,11 @@ function MainApp() {
   const [wordList, setWordList] = useState<Word[]>(words)
   const [filteredWordList, setFilteredWordList] = useState<Word[]>(words)
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [isFlipped, setIsFlipped] = useState(false)
   const [showDetails, setShowDetails] = useState(false)
   const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
   const [languageMode, setLanguageMode] = useState<LanguageMode>('chinese')
   const [syncStatus, setSyncStatus] = useState<'idle' | 'syncing' | 'success' | 'error'>('idle')
   const [isSpeaking, setIsSpeaking] = useState(false)
-  const [hideBackElements, setHideBackElements] = useState(false) // 控制背面元素的显示
 
   // 发音功能
   const speakDutch = (text: string) => {
@@ -608,13 +607,7 @@ function MainApp() {
   }
 
   // 触摸事件处理
-  const [touchStartX, setTouchStartX] = useState(0)
-  const [touchEndX, setTouchEndX] = useState(0)
-  const [touchStartY, setTouchStartY] = useState(0)
-  const [swipeFeedback, setSwipeFeedback] = useState<string | null>(null)
-  const [swipeOffset, setSwipeOffset] = useState(0) // 滑动偏移量，用于动画
-  const [isSwiping, setIsSwiping] = useState(false) // 是否正在滑动
-  const lastTapRef = useRef(0) // 记录最后一次点击时间，用于双击检测
+
 
   // 根据路径确定语言模式
   const prevPathRef = useRef<string>('')
@@ -815,10 +808,7 @@ function MainApp() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wordList, selectedDifficulty])
 
-  // 当切换单词时，确保卡片重置为未翻转状态
-  useEffect(() => {
-    setIsFlipped(false)
-  }, [currentIndex])
+  // 当切换单词时，确保卡片重置为未翻转状态（由 Flashcard 组件处理）
 
   // 当前单词（需要在 useEffect 之前定义，以便在 useEffect 中使用）
   const currentWord = filteredWordList[currentIndex]
@@ -921,7 +911,6 @@ function MainApp() {
     const shuffled = [...wordList].sort(() => Math.random() - 0.5)
     setWordList(shuffled)
     setCurrentIndex(0)
-    setIsFlipped(false)
   }
 
   // 收藏功能
@@ -973,12 +962,10 @@ function MainApp() {
 
   // 导航函数
   const goToNext = useCallback(() => {
-    setIsFlipped(false)
     setCurrentIndex((prev) => (prev + 1) % filteredWordList.length)
   }, [filteredWordList.length])
 
   const goToPrevious = useCallback(() => {
-    setIsFlipped(false)
     setCurrentIndex((prev) => (prev - 1 + filteredWordList.length) % filteredWordList.length)
   }, [filteredWordList.length])
 
@@ -1042,88 +1029,7 @@ function MainApp() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentWord?.id, user?.id])
 
-  // 触摸事件处理函数
-  const handleTouchStart = (e: React.TouchEvent) => {
-    const touch = e.changedTouches[0]
-    const startX = touch.screenX
-    const startY = touch.screenY
-    setTouchStartX(startX)
-    setTouchEndX(startX) // 初始化结束位置
-    setTouchStartY(startY)
-    setSwipeOffset(0)
-    setIsSwiping(false) // 初始状态不是滑动
-  }
 
-  const handleTouchMove = (e: React.TouchEvent) => {
-    const touch = e.changedTouches[0]
-    const currentX = touch.screenX
-    const currentY = touch.screenY
-    setTouchEndX(currentX)
-
-    // 计算滑动偏移量
-    if (touchStartX !== 0) {
-      const offsetX = currentX - touchStartX
-      const offsetY = currentY - touchStartY
-      const absOffsetX = Math.abs(offsetX)
-      const absOffsetY = Math.abs(offsetY)
-
-      // 只处理水平滑动（水平距离大于垂直距离，且水平距离超过阈值）
-      if (absOffsetX > 10 && absOffsetX > absOffsetY * 1.5) {
-        setIsSwiping(true)
-        setSwipeOffset(offsetX)
-      } else if (absOffsetY > absOffsetX) {
-        // 垂直滑动，忽略
-        setIsSwiping(false)
-      }
-    }
-  }
-
-  const handleTouchEnd = () => {
-    if (touchStartX === 0 || touchEndX === 0) {
-      setIsSwiping(false)
-      setSwipeOffset(0)
-      setTouchStartX(0)
-      setTouchEndX(0)
-      setTouchStartY(0)
-      return
-    }
-
-    // If not swiping, return
-    if (!isSwiping) {
-      setTouchStartX(0)
-      setTouchEndX(0)
-      setTouchStartY(0)
-      setSwipeOffset(0)
-      setIsSwiping(false)
-      return
-    }
-
-    const swipeDistance = touchEndX - touchStartX
-
-    // Swipe left: mark as unmastered and go to next
-    if (swipeDistance < 0) {
-      setSwipeFeedback(languageMode === 'chinese' ? t.swipeFeedback.unmastered : t.swipeFeedback.unmastered)
-      setTimeout(() => setSwipeFeedback(null), 1000)
-      setWordFamiliarity(currentWord!.id, 'learning')
-      goToNext()
-    }
-    // Swipe right: mark as mastered and go to next
-    else if (swipeDistance > 0) {
-      setSwipeFeedback(languageMode === 'chinese' ? t.swipeFeedback.mastered : t.swipeFeedback.mastered)
-      setTimeout(() => setSwipeFeedback(null), 1000)
-      setWordFamiliarity(currentWord!.id, 'mastered')
-      goToNext()
-    }
-
-    // Reset touch state and animation
-    setTimeout(() => {
-      setTouchStartX(0)
-      setTouchEndX(0)
-      setTouchStartY(0)
-      setSwipeOffset(0)
-      setIsSwiping(false)
-    }, 200)
-  }
 
   // 获取当前单词的例句和翻译
   const getCurrentExample = () => {
@@ -1381,115 +1287,90 @@ function MainApp() {
               </div>
 
               {currentWord && (
-                <div className={`word-card-container ${isSwiping ? 'swiping' : ''}`}>
-                  {swipeFeedback && (
-                    <div className="swipe-feedback">{swipeFeedback}</div>
-                  )}
-                  <div
+                <div className="word-card-container">
+                  <Flashcard
                     key={`word-${currentWord.id}-${currentIndex}`}
-                    className={`word-card ${isFlipped ? 'flipped' : ''} ${isSwiping ? 'swiping' : ''}`}
-                    onClick={() => {
-                      // Double tap detection: if tapped again within 300ms, flip card
-                      const now = Date.now()
-                      const timeSinceLastTap = now - lastTapRef.current
-
-                      // Only respond to double tap when not swiping
-                      if (!isSwiping && timeSinceLastTap < 300 && timeSinceLastTap > 0) {
-                        // Double tap triggers flip
-                        // 先隐藏背面元素，延迟50ms后再翻转
-                        setHideBackElements(true)
-                        setTimeout(() => {
-                          setIsFlipped(!isFlipped)
-                          // 翻转完成后显示背面元素
-                          setTimeout(() => setHideBackElements(false), 600)
-                        }, 50)
-                        lastTapRef.current = 0 // Reset to prevent triple tap
-                      } else {
-                        // Single tap, record time
-                        lastTapRef.current = now
-                      }
-                    }}
-                    onTouchStart={handleTouchStart}
-                    onTouchMove={handleTouchMove}
-                    onTouchEnd={handleTouchEnd}
-                    style={{
-                      transform: isSwiping
-                        ? `translateX(${swipeOffset}px) rotateZ(${swipeOffset * 0.15}deg)`
-                        : undefined,
-                      opacity: isSwiping ? Math.max(0.3, 1 - Math.abs(swipeOffset) / 500) : undefined,
-                      transition: isSwiping ? 'none' : undefined,
-                      filter: isSwiping && Math.abs(swipeOffset) > 50
-                        ? `drop-shadow(${swipeOffset > 0 ? '4px' : '-4px'} 8px 16px ${swipeOffset > 0 ? 'rgba(74, 222, 128, 0.4)' : 'rgba(239, 68, 68, 0.4)'})`
-                        : undefined,
-                    }}
-                  >
-                    <div className="card-front">
-                      <div className="word-front-content">
-                        <div className={`word-dutch ${currentWordLengthClass}`}>{currentWord.word}</div>
-                        <button
-                          className="speak-btn"
-                          onClick={(e) => {
-                            e.stopPropagation()
-                            speakDutch(currentWord.word)
-                          }}
-                          title={t.speakButton}
-                        >
-                          <SpeakerIcon isSpeaking={isSpeaking} />
-                        </button>
-                      </div>
-                      <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty`}>{currentWord.difficulty}</span>
-                      <div className="card-front-meta">
-                        <button
-                          className={`favorite-btn ${currentWord.favorited ? 'favorited' : ''}`}
-                          onClick={(e) => {
-                            e.stopPropagation()
-                            handleFavorite()
-                          }}
-                          title={currentWord.favorited ? '取消收藏' : '收藏单词'}
-                        >
-                          {currentWord.favorited ? (
-                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-                            </svg>
-                          ) : (
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-                            </svg>
-                          )}
-                        </button>
-                      </div>
-                    </div>
-                    <div className="card-back">
-                      <div className="word-dutch-small">{currentWord.word}</div>
-                      <div className="word-type">{currentWord.partOfSpeech}</div>
-                      <div className="word-translation">
-                        {languageMode === 'chinese' ? currentWord.translation.chinese : currentWord.translation.english}
-                      </div>
-                      {currentExample && currentExample.dutch && (
-                        <div className="word-example">
-                          <div className="example-header">
-                            <div className="example-nl">{currentExample.dutch}</div>
+                    frontContent={
+                      <div className="card-front-content">
+                        <div className="word-front-content">
+                          <div className="word-with-speaker">
+                            <div className={`word-dutch ${currentWordLengthClass}`}>{currentWord.word}</div>
                             <button
-                              className={`speak-btn-example ${hideBackElements ? 'hidden-element' : ''}`}
+                              className="speak-btn"
                               onClick={(e) => {
                                 e.stopPropagation()
-                                speakDutch(currentExample.dutch)
+                                speakDutch(currentWord.word)
                               }}
-                              title={t.speakExampleButton}
+                              title={t.speakButton}
                             >
                               <SpeakerIcon isSpeaking={isSpeaking} />
                             </button>
                           </div>
-                          {(languageMode === 'chinese' ? currentExample.chinese : currentExample.english) && (
-                            <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english' : ''}`}>
-                              {languageMode === 'chinese' ? currentExample.chinese : currentExample.english}
-                            </div>
-                          )}
                         </div>
-                      )}
-                      <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty ${hideBackElements ? 'hidden-element' : ''}`}>{currentWord.difficulty}</span>
-                    </div>
-                  </div>
+                        <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty`}>{currentWord.difficulty}</span>
+                        <div className="card-front-meta">
+                          <button
+                            className={`favorite-btn ${currentWord.favorited ? 'favorited' : ''}`}
+                            onClick={(e) => {
+                              e.stopPropagation()
+                              handleFavorite()
+                            }}
+                            title={currentWord.favorited ? '取消收藏' : '收藏单词'}
+                          >
+                            {currentWord.favorited ? (
+                              <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                              </svg>
+                            ) : (
+                              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                              </svg>
+                            )}
+                          </button>
+                        </div>
+                      </div>
+                    }
+                    backContent={
+                      <div className="card-back-content">
+                        <div className="word-dutch-small">{currentWord.word}</div>
+                        <div className="word-type">{currentWord.partOfSpeech}</div>
+                        <div className="word-translation">
+                          {languageMode === 'chinese' ? currentWord.translation.chinese : currentWord.translation.english}
+                        </div>
+                        {currentExample && currentExample.dutch && (
+                          <div className="word-example">
+                            <div className="example-header">
+                              <div className="example-nl">{currentExample.dutch}</div>
+                              <button
+                                className="speak-btn-example"
+                                onClick={(e) => {
+                                  e.stopPropagation()
+                                  speakDutch(currentExample.dutch)
+                                }}
+                                title={t.speakExampleButton}
+                              >
+                                <SpeakerIcon isSpeaking={isSpeaking} />
+                              </button>
+                            </div>
+                            {(languageMode === 'chinese' ? currentExample.chinese : currentExample.english) && (
+                              <div className={`example-${languageMode} ${languageMode === 'english' ? 'example-english' : ''}`}>
+                                {languageMode === 'chinese' ? currentExample.chinese : currentExample.english}
+                              </div>
+                            )}
+                          </div>
+                        )}
+                        <span className={`difficulty-badge difficulty--${currentWord.difficulty} card-difficulty`}>{currentWord.difficulty}</span>
+                      </div>
+                    }
+                    onSwipeRight={() => {
+                      setWordFamiliarity(currentWord.id, 'mastered')
+                      goToNext()
+                    }}
+                    onSwipeLeft={() => {
+                      setWordFamiliarity(currentWord.id, 'learning')
+                      goToNext()
+                    }}
+                  />
                 </div>
               )}
 
