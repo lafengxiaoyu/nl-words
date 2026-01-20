@@ -4,29 +4,15 @@ import './PremiumUpgradeModal.css'
 interface PremiumUpgradeModalProps {
   isOpen: boolean
   onClose: () => void
-  onUpgrade?: () => void
   languageMode: 'chinese' | 'english'
 }
 
 export default function PremiumUpgradeModal({
   isOpen,
   onClose,
-  onUpgrade,
   languageMode
 }: PremiumUpgradeModalProps) {
-  const [loading, setLoading] = useState(false)
-
-  const handleUpgrade = async () => {
-    setLoading(true)
-    try {
-      // 这里未来可以集成 LemonSqueezy 支付
-      if (onUpgrade) {
-        await onUpgrade()
-      }
-    } finally {
-      setLoading(false)
-    }
-  }
+  const [showQRCode, setShowQRCode] = useState(false)
 
   if (!isOpen) return null
 
@@ -40,10 +26,19 @@ export default function PremiumUpgradeModal({
         '✅ 提升到高级荷兰语水平',
         '✅ 终身访问权限'
       ],
-      price: '一次性付费 ¥99',
-      upgradeButton: '立即升级',
+      price: '一次性付费 ¥66',
+      upgradeButton: '查看支付方式',
       closeButton: '暂时不需要',
-      note: '💡 提示：目前由管理员手动升级订阅'
+      note: '💡 提示：支付后备注您的邮箱或用户名，管理员将手动为您解锁',
+      qrCodeNote: '📱 支付说明',
+      qrCodeSteps: [
+        '使用支付宝扫描上方二维码',
+        '支付 ¥66',
+        '在备注中填写您的邮箱地址或用户名',
+        '管理员收到支付后会为您解锁 Premium 权限',
+        '通常在 48 小时内完成解锁'
+      ],
+      hideQRCode: '返回'
     },
     english: {
       title: '🔓 Unlock Premium Words',
@@ -54,10 +49,19 @@ export default function PremiumUpgradeModal({
         '✅ Reach advanced Dutch level',
         '✅ Lifetime access'
       ],
-      price: 'One-time payment $15',
-      upgradeButton: 'Upgrade Now',
+      price: 'One-time payment ¥66',
+      upgradeButton: 'View Payment Options',
       closeButton: 'Not Now',
-      note: '💡 Note: Currently upgraded manually by admin'
+      note: '💡 Note: Include your email or username in payment note, admin will unlock for you manually',
+      qrCodeNote: '📱 Payment Instructions',
+      qrCodeSteps: [
+        'Scan the QR code above with Alipay',
+        'Pay ¥66',
+        'Include your email or username in the payment note',
+        'Admin will unlock Premium access after payment is received',
+        'Usually unlocked within 48 hours'
+      ],
+      hideQRCode: 'Back'
     }
   }
 
@@ -74,32 +78,81 @@ export default function PremiumUpgradeModal({
         </div>
 
         <div className="premium-modal-body">
-          <div className="premium-features">
-            {t.features.map((feature, index) => (
-              <div key={index} className="premium-feature">{feature}</div>
-            ))}
-          </div>
+          {!showQRCode ? (
+            <>
+              <div className="premium-features">
+                {t.features.map((feature, index) => (
+                  <div key={index} className="premium-feature">{feature}</div>
+                ))}
+              </div>
 
-          <div className="premium-price">{t.price}</div>
+              <div className="premium-price">{t.price}</div>
 
-          <div className="premium-note">{t.note}</div>
+              <div className="premium-note">{t.note}</div>
+            </>
+          ) : (
+            <div className="alipay-qrcode-container">
+              <div className="qrcode-wrapper">
+                {/* 请将您的支付宝收款码图片放在 public 目录下，例如 public/alipay-qrcode.png */}
+                <img
+                  src="/alipay-qrcode.png"
+                  alt="支付宝收款码 / Alipay QR Code"
+                  className="alipay-qrcode"
+                  onError={(e) => {
+                    // 如果图片不存在，显示占位符
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    const placeholder = document.createElement('div');
+                    placeholder.className = 'qrcode-placeholder';
+                    placeholder.innerHTML = `
+                      <div class="qrcode-placeholder-text">
+                        <p>📷</p>
+                        <p>请将支付宝收款码图片重命名为</p>
+                        <p><strong>alipay-qrcode.png</strong></p>
+                        <p>并放在 <strong>web/public/</strong> 目录下</p>
+                      </div>
+                    `;
+                    target.parentElement?.appendChild(placeholder);
+                  }}
+                />
+              </div>
+
+              <div className="payment-instructions">
+                <h3>{t.qrCodeNote}</h3>
+                <ol className="payment-steps">
+                  {t.qrCodeSteps.map((step, index) => (
+                    <li key={index}>{step}</li>
+                  ))}
+                </ol>
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="premium-modal-footer">
-          <button
-            className="btn btn-primary btn-full premium-upgrade-btn"
-            onClick={handleUpgrade}
-            disabled={loading}
-          >
-            {loading ? '处理中...' : t.upgradeButton}
-          </button>
-          <button
-            className="btn btn-outline btn-full"
-            onClick={onClose}
-            disabled={loading}
-          >
-            {t.closeButton}
-          </button>
+          {!showQRCode ? (
+            <>
+              <button
+                className="btn btn-primary btn-full premium-upgrade-btn"
+                onClick={() => setShowQRCode(true)}
+              >
+                {t.upgradeButton}
+              </button>
+              <button
+                className="btn btn-outline btn-full"
+                onClick={onClose}
+              >
+                {t.closeButton}
+              </button>
+            </>
+          ) : (
+            <button
+              className="btn btn-primary btn-full"
+              onClick={() => setShowQRCode(false)}
+            >
+              {t.hideQRCode}
+            </button>
+          )}
         </div>
       </div>
     </div>
