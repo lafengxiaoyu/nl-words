@@ -17,23 +17,37 @@ export function Flashcard({
   
   const cardRef = useRef<HTMLDivElement>(null);
   const startX = useRef(0);
+  const startY = useRef(0);
   const currentX = useRef(0);
   const isDragging = useRef(false);
+  const isHorizontalSwipe = useRef(false);
 
   // Touch handlers
   const handleTouchStart = (e: React.TouchEvent) => {
     startX.current = e.touches[0].clientX;
+    startY.current = e.touches[0].clientY;
     currentX.current = e.touches[0].clientX;
     isDragging.current = true;
+    isHorizontalSwipe.current = false;
   };
 
   const handleTouchMove = (e: React.TouchEvent) => {
     if (!isDragging.current) return;
-    currentX.current = e.touches[0].clientX;
-    const diff = currentX.current - startX.current;
     
-    if (cardRef.current) {
-      cardRef.current.style.transform = `translateX(${diff}px) rotate(${diff * 0.05}deg)${isFlipped ? ' rotateY(180deg)' : ''}`;
+    const touchX = e.touches[0].clientX;
+    const touchY = e.touches[0].clientY;
+    const deltaX = touchX - startX.current;
+    const deltaY = touchY - startY.current;
+    
+    // Determine if it's a horizontal swipe
+    if (!isHorizontalSwipe.current && Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 10) {
+      isHorizontalSwipe.current = true;
+    }
+    
+    currentX.current = touchX;
+    
+    if (cardRef.current && isHorizontalSwipe.current) {
+      cardRef.current.style.transform = `translateX(${deltaX}px) rotate(${deltaX * 0.05}deg)${isFlipped ? ' rotateY(180deg)' : ''}`;
       cardRef.current.style.transition = 'none';
     }
   };
@@ -41,6 +55,7 @@ export function Flashcard({
   const handleTouchEnd = () => {
     if (!isDragging.current) return;
     isDragging.current = false;
+    isHorizontalSwipe.current = false;
     
     const diff = currentX.current - startX.current;
     const threshold = 80;
@@ -53,6 +68,7 @@ export function Flashcard({
     }
     
     startX.current = 0;
+    startY.current = 0;
     currentX.current = 0;
   };
 

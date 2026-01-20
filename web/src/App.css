@@ -15,6 +15,8 @@ body {
   -webkit-tap-highlight-color: transparent; /* 移除点击高亮 */
   overscroll-behavior-y: auto; /* 允许垂直滚动 */
   overscroll-behavior-x: none; /* 禁止水平过度滚动 */
+  touch-action: pan-y; /* 只允许垂直滚动，禁止水平滚动 */
+  overflow-x: hidden; /* 隐藏水平溢出 */
 }
 
 /* 应用容器 - 现代渐变背景 */
@@ -29,6 +31,9 @@ body {
   /* 移动端优化 */
   overscroll-behavior-y: auto; /* 允许垂直滚动 */
   overscroll-behavior-x: none; /* 禁止水平过度滚动 */
+  touch-action: pan-y; /* 只允许垂直滚动，禁止水平滚动 */
+  width: 100%;
+  max-width: 100%;
 }
 
 .app::before {
@@ -384,6 +389,10 @@ body {
   /* 移动端闪卡更紧凑 */
   .flashcard-wrapper {
     padding-bottom: 95%; /* 移动端稍高一点 */
+  }
+
+  .flashcard-wrapper .word-card {
+    touch-action: none; /* 禁止卡片上的默认触摸行为，完全由 JS 接管 */
   }
 
   .word-dutch {
