@@ -1035,7 +1035,7 @@ body {
   background: rgba(99, 102, 241, 0.1);
   border: 2px solid rgba(99, 102, 241, 0.3);
   border-radius: 12px;
-  padding: 8px 12px;
+  padding: 6px 10px;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -2049,15 +2049,15 @@ body {
   }
 
   .word-with-speaker .speak-btn {
-    flex: 1 1 100%;
-    min-width: 100%;
+    flex: 0 0 auto;
+    min-width: auto;
     justify-content: center;
     margin-top: 5px;
   }
 
   .speak-btn {
     position: relative;
-    padding: 6px 10px;
+    padding: 6px 12px;
     font-size: 0.9rem;
   }
 
@@ -2361,15 +2361,15 @@ body {
   }
 
   .word-with-speaker .speak-btn {
-    flex: 1 1 100%;
-    min-width: 100%;
+    flex: 0 0 auto;
+    min-width: auto;
     justify-content: center;
     margin-top: 5px;
   }
 
   .speak-btn {
     position: relative;
-    padding: 5px 8px;
+    padding: 5px 10px;
     font-size: 0.85rem;
   }
 
