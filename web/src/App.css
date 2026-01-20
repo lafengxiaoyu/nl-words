@@ -972,13 +972,13 @@ body {
   max-width: 90%;
 }
 
-/* 当换行时，确保按钮居中 */
+/* 当换行时，确保按钮保持紧凑 */
 .word-with-speaker .speak-btn {
-  flex: 1 1 100%;
+  flex: 0 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 100%;
+  min-width: auto;
   margin-top: 10px;
 }
 
@@ -1045,7 +1045,7 @@ body {
   background: rgba(99, 102, 241, 0.1);
   border: 2px solid rgba(99, 102, 241, 0.3);
   border-radius: 12px;
-  padding: 6px 10px;
+  padding: 6px 8px;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1125,7 +1125,7 @@ body {
   background: rgba(99, 102, 241, 0.08);
   border: 1.5px solid rgba(99, 102, 241, 0.2);
   border-radius: 8px;
-  padding: 5px 8px;
+  padding: 5px 6px;
   font-size: 0.9rem;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -1552,6 +1552,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .details-btn .info-icon {
@@ -2122,14 +2124,14 @@ body {
 
   .speak-btn {
     position: relative;
-    padding: 6px 12px;
+    padding: 6px 10px;
     font-size: 0.9rem;
   }
 
   .speak-btn-example {
     top: 6px;
     right: 6px;
-    padding: 5px 8px;
+    padding: 5px 6px;
     font-size: 0.9rem;
   }
 
@@ -2434,14 +2436,14 @@ body {
 
   .speak-btn {
     position: relative;
-    padding: 5px 10px;
+    padding: 5px 8px;
     font-size: 0.85rem;
   }
 
   .speak-btn-example {
     top: 5px;
     right: 5px;
-    padding: 4px 6px;
+    padding: 4px 5px;
     font-size: 0.8rem;
   }
 
