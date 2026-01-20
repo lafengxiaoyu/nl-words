@@ -890,8 +890,8 @@ body {
 
 .flashcard-wrapper .word-card.flipped .card-back .speak-btn-example,
 .flashcard-wrapper .word-card.flipped .card-back .card-difficulty {
-  visibility: visible;
-  opacity: 1;
+  visibility: visible !important;
+  opacity: 1 !important;
   transition: opacity 0.2s ease 0.5s, visibility 0.2s ease 0.5s;
 }
 
@@ -970,6 +970,7 @@ body {
   justify-content: center;
   align-items: center;
   min-width: 100%;
+  margin-top: 10px;
 }
 
 /* 卡片上的难度标签 */
@@ -1078,6 +1079,15 @@ body {
   animation: pulse 1.5s ease-out infinite;
 }
 
+/* 翻译图标 */
+.translate-icon {
+  color: #6366f1;
+  opacity: 0.8;
+  margin-right: 6px;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
 @keyframes pulse {
   0% {
     transform: scale(0.8);
@@ -1103,30 +1113,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(99, 102, 241, 0.1);
-  border: 2px solid rgba(99, 102, 241, 0.3);
-  border-radius: 10px;
-  padding: 6px 10px;
-  font-size: 1rem;
+  background: rgba(99, 102, 241, 0.08);
+  border: 1.5px solid rgba(99, 102, 241, 0.2);
+  border-radius: 8px;
+  padding: 5px 8px;
+  font-size: 0.9rem;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   color: #6366f1;
   flex-shrink: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .speak-btn-example .speaker-icon {
   color: #6366f1;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .speak-btn-example:hover {
-  background: rgba(99, 102, 241, 0.15);
-  border-color: rgba(99, 102, 241, 0.5);
-  transform: scale(1.1);
+  background: rgba(99, 102, 241, 0.12);
+  border-color: rgba(99, 102, 241, 0.35);
+  transform: scale(1.05);
+  box-shadow: 0 2px 6px rgba(99, 102, 241, 0.2);
 }
 
 .speak-btn-example:active {
-  transform: scale(0.95);
+  transform: scale(0.98);
 }
 
 /* 卡片上的难度标签 */
@@ -1150,6 +1162,31 @@ body {
   background: rgba(255, 255, 255, 0.95);
   border: 1.5px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* 卡片背面的难度标签 - 使用渐变背景 */
+.card-back .difficulty--A1,
+.card-back .difficulty--A2 {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+}
+
+.card-back .difficulty--B1,
+.card-back .difficulty--B2 {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+}
+
+.card-back .difficulty--C1,
+.card-back .difficulty--C2 {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.3);
 }
 
 /* 卡片正面的难度标签 - 使用渐变背景 */
@@ -1226,88 +1263,107 @@ body {
 .card-back {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0;
   padding: 24px;
   align-items: center;
   text-align: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.card-back-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0;
+  align-items: center;
+  max-width: 100%;
 }
 
 .word-dutch-small {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: #334155;
-  letter-spacing: -0.02em;
-  margin: 0;
+  color: #475569;
+  letter-spacing: -0.01em;
+  margin: 0 0 8px 0;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+  opacity: 0.85;
 }
 
 .word-type {
-  font-size: 1.3rem;
+  font-size: 0.85rem;
   font-weight: 600;
   color: #6366f1;
-  background: rgba(99, 102, 241, 0.08);
-  padding: 8px 20px;
-  border-radius: 20px;
-  border: 1px solid rgba(99, 102, 241, 0.15);
-  margin: 0;
+  background: rgba(99, 102, 241, 0.1);
+  padding: 5px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  margin: 0 0 16px 0;
+  display: inline-block;
 }
 
 .word-translation {
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.4;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.3;
   word-spacing: -0.05em;
   color: #1e293b;
-  margin: 0;
-  padding: 8px 16px;
-  background: rgba(99, 102, 241, 0.05);
-  border-radius: 12px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  border: none;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+  text-align: left;
+  padding-left: 5%;
 }
 
 /* 例句 */
 .word-example {
   position: relative;
   margin-top: 0;
-  padding: 20px 24px;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.08), rgba(59, 130, 246, 0.03));
-  border-radius: 16px;
-  border: 1.5px solid rgba(59, 130, 246, 0.2);
+  padding: 16px 18px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.06), rgba(99, 102, 241, 0.02));
+  border-radius: 12px;
+  border: 1px solid rgba(99, 102, 241, 0.12);
   width: 100%;
   text-align: left;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 }
 
 .example-header {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   gap: 12px;
 }
 
 .example-nl {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-style: italic;
-  color: #374151;
+  color: #475569;
   flex: 1;
   font-weight: 500;
+  line-height: 1.5;
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
 .example-zh,
 .example-english {
-  font-size: 1.05rem;
-  color: #6b7280;
+  font-size: 0.95rem;
+  color: #64748b;
   word-spacing: -0.02em;
   line-height: 1.6;
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+  margin-top: 4px;
 }
 
 /* 卡片背面的英文例句使用深色 */
 .card-back .example-english {
-  color: #374151;
+  color: #475569;
 }
 
 /* 单词信息 */
@@ -2418,14 +2474,26 @@ body {
     padding: 4px 7px;
   }
 
+  .word-dutch-small {
+    font-size: 1.3rem;
+    margin-bottom: 6px;
+    opacity: 0.85;
+  }
+
   .word-type {
-    font-size: 0.95rem;
-    padding: 5px 10px;
+    font-size: 0.8rem;
+    padding: 4px 12px;
+    margin-bottom: 12px;
+  }
+
+  .word-translation {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
   }
 
   .word-example {
-    margin-top: 14px;
-    padding: 14px;
+    margin-top: 0;
+    padding: 12px 14px;
     border-radius: 10px;
   }
 

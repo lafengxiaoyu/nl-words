@@ -51,6 +51,77 @@ const SpeakerIcon = ({ isSpeaking }: { isSpeaking: boolean }) => {
   )
 }
 
+// 翻译图标组件
+const TranslateIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="translate-icon">
+      <path
+        d="M5 8l6 0"
+        stroke="#6366f1"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M5 8l0 6"
+        stroke="#6366f1"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4 14l8 0"
+        stroke="#6366f1"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4 14l0 4"
+        stroke="#6366f1"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M2 5h12"
+        stroke="#6366f1"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M7 2h1"
+        stroke="#6366f1"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M22 22l-3-10"
+        stroke="#6366f1"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M22 22l5-18"
+        stroke="#6366f1"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M22 22l-5-18"
+        stroke="#6366f1"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
 // 左箭头图标组件
 const ChevronLeftIcon = () => {
   return (
@@ -1335,7 +1406,7 @@ function MainApp() {
                         <div className="word-dutch-small">{currentWord.word}</div>
                         <div className="word-type">{currentWord.partOfSpeech}</div>
                         <div className="word-translation">
-                          {languageMode === 'chinese' ? currentWord.translation.chinese : currentWord.translation.english}
+                          <TranslateIcon /> {languageMode === 'chinese' ? currentWord.translation.chinese : currentWord.translation.english}
                         </div>
                         {currentExample && currentExample.dutch && (
                           <div className="word-example">

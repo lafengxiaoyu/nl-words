@@ -1,5 +1,29 @@
 // SVG Icon Components for ProfilePage
 
+export const TranslateIcon = ({ className = '' }: { className?: string }) => (
+  <svg
+    className={`icon ${className}`}
+    width="20"
+    height="20"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M5 8l6 0" />
+    <path d="M5 8l0 6" />
+    <path d="M4 14l8 0" />
+    <path d="M4 14l0 4" />
+    <path d="M2 5h12" />
+    <path d="M7 2h1" />
+    <path d="M22 22l-3-10" />
+    <path d="M22 22l5-18" />
+    <path d="M22 22l-5-18" />
+  </svg>
+)
+
 export const EditIcon = ({ className = '' }: { className?: string }) => (
   <svg
     className={`icon ${className}`}
