@@ -909,20 +909,28 @@ body {
 .flashcard-wrapper .word-card.flipped .card-front .card-difficulty,
 .flashcard-wrapper .word-card.flipped .card-front .card-front-meta,
 .flashcard-wrapper .word-card.flipped .card-front .speak-btn {
+  clip-path: inset(100% 100% 100% 100%) !important;
   visibility: hidden !important;
   opacity: 0 !important;
   pointer-events: none !important;
-  transition: visibility 0s, opacity 0s;
+  transform: scale(0) translateZ(-1000px) !important;
+  transition: none !important;
+  position: absolute !important;
+  z-index: -1 !important;
 }
 
 /* 未翻转时确保正面元素可见 */
 .flashcard-wrapper .word-card:not(.flipped) .card-front .card-difficulty,
 .flashcard-wrapper .word-card:not(.flipped) .card-front .card-front-meta,
 .flashcard-wrapper .word-card:not(.flipped) .card-front .speak-btn {
-  visibility: visible;
-  opacity: 1;
-  pointer-events: auto;
-  transition: opacity 0.15s ease-out, visibility 0.15s ease-out;
+  clip-path: inset(0% 0% 0% 0%) !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  transform: scale(1) translateZ(0) !important;
+  transition: opacity 0.15s ease-out, visibility 0.15s ease-out, transform 0.15s ease-out, clip-path 0s !important;
+  position: absolute !important;
+  z-index: 10 !important;
 }
 
 /* 滑动时如果卡片是翻转状态，需要在滑动的基础上加上翻转 */
@@ -2907,25 +2915,31 @@ body {
     will-change: auto;
   }
   
-  /* 移动端：翻转时立即隐藏正面元素，使用零延迟过渡 */
+  /* 移动端：翻转时立即隐藏正面元素，使用clip-path和transform确保完全隐藏 */
   .flashcard-wrapper .word-card.flipped .card-front .card-difficulty,
   .flashcard-wrapper .word-card.flipped .card-front .card-front-meta,
   .flashcard-wrapper .word-card.flipped .card-front .speak-btn {
+    clip-path: inset(100% 100% 100% 100%) !important;
     visibility: hidden !important;
     opacity: 0 !important;
     pointer-events: none !important;
-    transition: visibility 0s linear 0s, opacity 0s linear 0s !important;
-    transform: translateZ(0); /* 硬件加速 */
+    transform: scale(0) translateZ(-1000px) !important;
+    transition: none !important;
+    position: absolute !important;
+    z-index: -1 !important;
   }
   
   .flashcard-wrapper .word-card:not(.flipped) .card-front .card-difficulty,
   .flashcard-wrapper .word-card:not(.flipped) .card-front .card-front-meta,
   .flashcard-wrapper .word-card:not(.flipped) .card-front .speak-btn {
+    clip-path: inset(0% 0% 0% 0%) !important;
     visibility: visible !important;
     opacity: 1 !important;
     pointer-events: auto !important;
-    transition: opacity 0.2s ease-out, visibility 0.2s ease-out !important;
-    transform: translateZ(0); /* 硬件加速 */
+    transform: scale(1) translateZ(0) !important;
+    transition: opacity 0.2s ease-out, visibility 0.2s ease-out, transform 0.2s ease-out, clip-path 0s !important;
+    position: absolute !important;
+    z-index: 10 !important;
   }
   
   /* 优化面板动画 */

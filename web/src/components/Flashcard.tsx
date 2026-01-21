@@ -17,6 +17,7 @@ export function Flashcard({
   const [isHorizontalSwipe, setIsHorizontalSwipeState] = useState(false);
   
   const cardRef = useRef<HTMLDivElement>(null);
+  const frontRef = useRef<HTMLDivElement>(null);
   const startX = useRef(0);
   const startY = useRef(0);
   const currentX = useRef(0);
@@ -33,6 +34,44 @@ export function Flashcard({
       }
     };
   }, [isHorizontalSwipe]);
+
+  // 翻转时立即隐藏正面的元素（难度标签、收藏按钮、音量按钮）
+  useEffect(() => {
+    if (!frontRef.current) return;
+    
+    // 使用更具体的选择器
+    const difficultyEl = frontRef.current.querySelector('.card-difficulty') as HTMLElement;
+    const metaEl = frontRef.current.querySelector('.card-front-meta') as HTMLElement;
+    const speakBtnEl = frontRef.current.querySelector('.speak-btn') as HTMLElement;
+    
+    const elements = [difficultyEl, metaEl, speakBtnEl].filter(Boolean);
+    
+    if (isFlipped) {
+      // 立即隐藏，不使用requestAnimationFrame以确保零延迟
+      elements.forEach((el) => {
+        if (el) {
+          el.style.display = 'none';
+          el.style.visibility = 'hidden';
+          el.style.opacity = '0';
+          el.style.pointerEvents = 'none';
+          el.style.transform = 'scale(0)';
+          el.style.transition = 'none';
+        }
+      });
+    } else {
+      // 恢复显示
+      elements.forEach((el) => {
+        if (el) {
+          el.style.display = '';
+          el.style.visibility = '';
+          el.style.opacity = '';
+          el.style.pointerEvents = '';
+          el.style.transform = '';
+          el.style.transition = '';
+        }
+      });
+    }
+  }, [isFlipped]);
 
   // Touch handlers
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -187,7 +226,7 @@ export function Flashcard({
         onMouseLeave={handleMouseUp}
       >
         {/* Front of Card */}
-        <div className="card-front">
+        <div ref={frontRef} className="card-front">
           {frontContent}
         </div>
 
