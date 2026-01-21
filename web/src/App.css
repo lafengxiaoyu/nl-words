@@ -905,6 +905,26 @@ body {
   transition: opacity 0.15s ease-out, visibility 0.15s ease-out;
 }
 
+/* 翻转时立即隐藏正面的元素（难度标签、收藏按钮、音量按钮），防止在翻转动画过程中显示 */
+.flashcard-wrapper .word-card.flipped .card-front .card-difficulty,
+.flashcard-wrapper .word-card.flipped .card-front .card-front-meta,
+.flashcard-wrapper .word-card.flipped .card-front .speak-btn {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transition: visibility 0s, opacity 0s;
+}
+
+/* 未翻转时确保正面元素可见 */
+.flashcard-wrapper .word-card:not(.flipped) .card-front .card-difficulty,
+.flashcard-wrapper .word-card:not(.flipped) .card-front .card-front-meta,
+.flashcard-wrapper .word-card:not(.flipped) .card-front .speak-btn {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.15s ease-out, visibility 0.15s ease-out;
+}
+
 /* 滑动时如果卡片是翻转状态，需要在滑动的基础上加上翻转 */
 
 .flashcard-wrapper .card-front,
@@ -2885,6 +2905,27 @@ body {
   
   .word-card.flipped {
     will-change: auto;
+  }
+  
+  /* 移动端：翻转时立即隐藏正面元素，使用零延迟过渡 */
+  .flashcard-wrapper .word-card.flipped .card-front .card-difficulty,
+  .flashcard-wrapper .word-card.flipped .card-front .card-front-meta,
+  .flashcard-wrapper .word-card.flipped .card-front .speak-btn {
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    transition: visibility 0s linear 0s, opacity 0s linear 0s !important;
+    transform: translateZ(0); /* 硬件加速 */
+  }
+  
+  .flashcard-wrapper .word-card:not(.flipped) .card-front .card-difficulty,
+  .flashcard-wrapper .word-card:not(.flipped) .card-front .card-front-meta,
+  .flashcard-wrapper .word-card:not(.flipped) .card-front .speak-btn {
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transition: opacity 0.2s ease-out, visibility 0.2s ease-out !important;
+    transform: translateZ(0); /* 硬件加速 */
   }
   
   /* 优化面板动画 */
