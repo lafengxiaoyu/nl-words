@@ -516,7 +516,7 @@ function MainApp() {
       showDetailsButton: (show: boolean) => show ? '隐藏详情' : '显示详情',
       prevButton: '←',
       nextButton: '→',
-      flipCardHint: '双击卡片翻转 · 左滑未掌握 · 右滑已掌握',
+      flipCardHint: '点击卡片翻转 · 左滑未掌握 · 右滑已掌握',
       speakButton: '🔊 发音',
       speakExampleButton: '🔊 例句发音',
       familiarityLabels: {
@@ -596,7 +596,7 @@ function MainApp() {
       showDetailsButton: (show: boolean) => show ? 'Hide Details' : 'Show Details',
       prevButton: '←',
       nextButton: '→',
-      flipCardHint: 'Double-tap to flip · Swipe left: Unmastered · Swipe right: Mastered',
+      flipCardHint: 'Tap to flip · Swipe left: Unmastered · Swipe right: Mastered',
       speakButton: '🔊 Pronounce',
       speakExampleButton: '🔊 Example Pronounce',
       familiarityLabels: {
