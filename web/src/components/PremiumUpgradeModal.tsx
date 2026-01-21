@@ -29,7 +29,7 @@ export default function PremiumUpgradeModal({
       price: '一次性付费 ¥66',
       upgradeButton: '查看支付方式',
       closeButton: '暂时不需要',
-      note: '💡 提示：支付后备注您的邮箱或用户名，管理员将手动为您解锁',
+      note: '💡 提示：支付后备注您的邮箱或用户名，管理员将手动为您解锁。如果觉得这个应用对你有帮助，也可以请我喝杯咖啡 ☕',
       qrCodeNote: '📱 支付说明',
       qrCodeSteps: [
         '使用支付宝扫描上方二维码',
@@ -52,7 +52,7 @@ export default function PremiumUpgradeModal({
       price: 'One-time payment ¥66',
       upgradeButton: 'View Payment Options',
       closeButton: 'Not Now',
-      note: '💡 Note: Include your email or username in payment note, admin will unlock for you manually',
+      note: '💡 Note: Include your email or username in payment note, admin will unlock for you manually. If you find this app helpful, feel free to buy me a coffee ☕',
       qrCodeNote: '📱 Payment Instructions',
       qrCodeSteps: [
         'Scan the QR code above with Alipay',
