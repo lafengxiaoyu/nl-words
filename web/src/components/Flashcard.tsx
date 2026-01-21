@@ -40,8 +40,15 @@ export function Flashcard({
     const deltaY = touchY - startY.current;
     
     // Determine if it's a horizontal swipe
-    if (!isHorizontalSwipe.current && Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 10) {
-      isHorizontalSwipe.current = true;
+    if (!isHorizontalSwipe.current) {
+      // First, check if horizontal movement is greater than vertical
+      if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 10) {
+        isHorizontalSwipe.current = true;
+        // Set CSS to prevent scrolling on the document body
+        if (typeof document !== 'undefined') {
+          document.body.style.overflow = 'hidden';
+        }
+      }
     }
     
     currentX.current = touchX;
@@ -56,6 +63,11 @@ export function Flashcard({
     if (!isDragging.current) return;
     isDragging.current = false;
     isHorizontalSwipe.current = false;
+    
+    // Restore scrolling
+    if (typeof document !== 'undefined') {
+      document.body.style.overflow = '';
+    }
     
     const diff = currentX.current - startX.current;
     const threshold = 80;
@@ -136,6 +148,28 @@ export function Flashcard({
     setIsFlipped(!isFlipped);
   };
 
+  const handleTouchCancel = () => {
+    // Clean up when touch is cancelled (e.g., by system)
+    if (isDragging.current) {
+      isDragging.current = false;
+      isHorizontalSwipe.current = false;
+      
+      // Restore scrolling
+      if (typeof document !== 'undefined') {
+        document.body.style.overflow = '';
+      }
+      
+      if (cardRef.current) {
+        cardRef.current.style.transition = 'transform 0.3s ease';
+        cardRef.current.style.transform = '';
+      }
+      
+      startX.current = 0;
+      startY.current = 0;
+      currentX.current = 0;
+    }
+  };
+
   return (
     <div className="flashcard-wrapper">
       <div
@@ -145,6 +179,7 @@ export function Flashcard({
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
+        onTouchCancel={handleTouchCancel}
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
