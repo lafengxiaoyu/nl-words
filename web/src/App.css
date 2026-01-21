@@ -907,8 +907,7 @@ body {
 
 /* 翻转时立即隐藏正面的元素（难度标签、收藏按钮、音量按钮），防止在翻转动画过程中显示 */
 .flashcard-wrapper .word-card.flipped .card-front .card-difficulty,
-.flashcard-wrapper .word-card.flipped .card-front .card-front-meta,
-.flashcard-wrapper .word-card.flipped .card-front .speak-btn {
+.flashcard-wrapper .word-card.flipped .card-front .card-front-meta {
   clip-path: inset(100% 100% 100% 100%) !important;
   visibility: hidden !important;
   opacity: 0 !important;
@@ -919,10 +918,23 @@ body {
   z-index: -1 !important;
 }
 
+/* 翻转时隐藏发音按钮，但不改变其position，保持布局 */
+.flashcard-wrapper .word-card.flipped .card-front .speak-btn {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transform: scale(0) !important;
+  transition: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+}
+
 /* 未翻转时确保正面元素可见 */
 .flashcard-wrapper .word-card:not(.flipped) .card-front .card-difficulty,
-.flashcard-wrapper .word-card:not(.flipped) .card-front .card-front-meta,
-.flashcard-wrapper .word-card:not(.flipped) .card-front .speak-btn {
+.flashcard-wrapper .word-card:not(.flipped) .card-front .card-front-meta {
   clip-path: inset(0% 0% 0% 0%) !important;
   visibility: visible !important;
   opacity: 1 !important;
@@ -931,6 +943,20 @@ body {
   transition: opacity 0.15s ease-out, visibility 0.15s ease-out, transform 0.15s ease-out, clip-path 0s !important;
   position: absolute !important;
   z-index: 10 !important;
+}
+
+/* 未翻转时恢复发音按钮的正常显示和布局 */
+.flashcard-wrapper .word-card:not(.flipped) .card-front .speak-btn {
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  transform: scale(1) !important;
+  transition: opacity 0.15s ease-out, visibility 0.15s ease-out, transform 0.15s ease-out !important;
+  width: auto !important;
+  height: auto !important;
+  padding: 6px 8px !important;
+  margin: 0 !important;
+  overflow: visible !important;
 }
 
 /* 滑动时如果卡片是翻转状态，需要在滑动的基础上加上翻转 */
@@ -998,7 +1024,8 @@ body {
   gap: 12px;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 90%;
+  max-width: 95%;
+  box-sizing: border-box;
 }
 
 /* 当换行时，确保按钮保持紧凑 */
@@ -1009,6 +1036,7 @@ body {
   align-items: center;
   min-width: auto;
   margin-top: 10px;
+  flex-shrink: 0;
 }
 
 /* 卡片上的难度标签 */
@@ -1265,6 +1293,10 @@ body {
   font-size: 2.8rem;
   font-weight: 800;
   margin: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
   line-height: 1.2;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
   background: linear-gradient(45deg, #1e293b, #475569);
@@ -2917,8 +2949,7 @@ body {
   
   /* 移动端：翻转时立即隐藏正面元素，使用clip-path和transform确保完全隐藏 */
   .flashcard-wrapper .word-card.flipped .card-front .card-difficulty,
-  .flashcard-wrapper .word-card.flipped .card-front .card-front-meta,
-  .flashcard-wrapper .word-card.flipped .card-front .speak-btn {
+  .flashcard-wrapper .word-card.flipped .card-front .card-front-meta {
     clip-path: inset(100% 100% 100% 100%) !important;
     visibility: hidden !important;
     opacity: 0 !important;
@@ -2929,9 +2960,22 @@ body {
     z-index: -1 !important;
   }
   
+  /* 移动端：翻转时隐藏发音按钮，但不改变其position，保持布局 */
+  .flashcard-wrapper .word-card.flipped .card-front .speak-btn {
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    transform: scale(0) !important;
+    transition: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+  }
+  
   .flashcard-wrapper .word-card:not(.flipped) .card-front .card-difficulty,
-  .flashcard-wrapper .word-card:not(.flipped) .card-front .card-front-meta,
-  .flashcard-wrapper .word-card:not(.flipped) .card-front .speak-btn {
+  .flashcard-wrapper .word-card:not(.flipped) .card-front .card-front-meta {
     clip-path: inset(0% 0% 0% 0%) !important;
     visibility: visible !important;
     opacity: 1 !important;
@@ -2940,6 +2984,20 @@ body {
     transition: opacity 0.2s ease-out, visibility 0.2s ease-out, transform 0.2s ease-out, clip-path 0s !important;
     position: absolute !important;
     z-index: 10 !important;
+  }
+  
+  /* 移动端：未翻转时恢复发音按钮的正常显示和布局 */
+  .flashcard-wrapper .word-card:not(.flipped) .card-front .speak-btn {
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transform: scale(1) !important;
+    transition: opacity 0.2s ease-out, visibility 0.2s ease-out, transform 0.2s ease-out !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 6px 8px !important;
+    margin: 0 !important;
+    overflow: visible !important;
   }
   
   /* 优化面板动画 */
