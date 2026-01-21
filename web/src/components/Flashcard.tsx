@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 interface FlashcardProps {
   frontContent: React.ReactNode;
@@ -14,13 +14,25 @@ export function Flashcard({
   onSwipeLeft 
 }: FlashcardProps) {
   const [isFlipped, setIsFlipped] = useState(false);
+  const [isHorizontalSwipe, setIsHorizontalSwipeState] = useState(false);
   
   const cardRef = useRef<HTMLDivElement>(null);
   const startX = useRef(0);
   const startY = useRef(0);
   const currentX = useRef(0);
   const isDragging = useRef(false);
-  const isHorizontalSwipe = useRef(false);
+  const isHorizontalSwipeRef = useRef(false);
+
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      document.body.style.overflow = isHorizontalSwipe ? 'hidden' : '';
+    }
+    return () => {
+      if (typeof document !== 'undefined') {
+        document.body.style.overflow = '';
+      }
+    };
+  }, [isHorizontalSwipe]);
 
   // Touch handlers
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -28,7 +40,7 @@ export function Flashcard({
     startY.current = e.touches[0].clientY;
     currentX.current = e.touches[0].clientX;
     isDragging.current = true;
-    isHorizontalSwipe.current = false;
+    isHorizontalSwipeRef.current = false;
   };
 
   const handleTouchMove = (e: React.TouchEvent) => {
@@ -40,20 +52,17 @@ export function Flashcard({
     const deltaY = touchY - startY.current;
     
     // Determine if it's a horizontal swipe
-    if (!isHorizontalSwipe.current) {
+    if (!isHorizontalSwipeRef.current) {
       // First, check if horizontal movement is greater than vertical
       if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 10) {
-        isHorizontalSwipe.current = true;
-        // Set CSS to prevent scrolling on the document body
-        if (typeof document !== 'undefined') {
-          document.body.style.overflow = 'hidden';
-        }
+        isHorizontalSwipeRef.current = true;
+        setIsHorizontalSwipeState(true);
       }
     }
     
     currentX.current = touchX;
     
-    if (cardRef.current && isHorizontalSwipe.current) {
+    if (cardRef.current && isHorizontalSwipeRef.current) {
       cardRef.current.style.transform = `translateX(${deltaX}px) rotate(${deltaX * 0.05}deg)${isFlipped ? ' rotateY(180deg)' : ''}`;
       cardRef.current.style.transition = 'none';
     }
@@ -62,12 +71,8 @@ export function Flashcard({
   const handleTouchEnd = () => {
     if (!isDragging.current) return;
     isDragging.current = false;
-    isHorizontalSwipe.current = false;
-    
-    // Restore scrolling
-    if (typeof document !== 'undefined') {
-      document.body.style.overflow = '';
-    }
+    isHorizontalSwipeRef.current = false;
+    setIsHorizontalSwipeState(false);
     
     const diff = currentX.current - startX.current;
     const threshold = 80;
@@ -152,12 +157,8 @@ export function Flashcard({
     // Clean up when touch is cancelled (e.g., by system)
     if (isDragging.current) {
       isDragging.current = false;
-      isHorizontalSwipe.current = false;
-      
-      // Restore scrolling
-      if (typeof document !== 'undefined') {
-        document.body.style.overflow = '';
-      }
+      isHorizontalSwipeRef.current = false;
+      setIsHorizontalSwipeState(false);
       
       if (cardRef.current) {
         cardRef.current.style.transition = 'transform 0.3s ease';
