@@ -878,6 +878,7 @@ body {
 
 /* 翻转时隐藏正面的元素 */
 .flashcard-wrapper .word-card.flipped .card-front {
+  backface-visibility: hidden;
   visibility: hidden;
   pointer-events: none;
 }
@@ -901,7 +902,7 @@ body {
 .flashcard-wrapper .word-card.flipped .card-back .card-difficulty {
   visibility: visible !important;
   opacity: 1 !important;
-  transition: opacity 0.2s ease 0.5s, visibility 0.2s ease 0.5s;
+  transition: opacity 0.15s ease-out, visibility 0.15s ease-out;
 }
 
 /* 滑动时如果卡片是翻转状态，需要在滑动的基础上加上翻转 */
@@ -924,7 +925,7 @@ body {
     0 20px 60px rgba(0, 0, 0, 0.15),
     0 8px 24px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
+  transition: box-shadow 0.3s ease, border 0.3s ease;
 }
 
 .flashcard-wrapper .card-front {
