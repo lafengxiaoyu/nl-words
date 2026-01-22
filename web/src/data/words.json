@@ -16687,7 +16687,7 @@
       "verb": {
         "pastParticiple": "voorkomen",
         "pastParticipleAuxiliary": "hebben",
-        "isSeparable": false,
+        "isSeparable": true,
         "present": {
           "ik": "voorkom",
           "jij": "voorkomt",
@@ -38837,7 +38837,7 @@
           "plural": "gaven uit"
         },
         "participle": "uitgegeven",
-        "isSeparable": false,
+        "isSeparable": true,
         "pastParticiple": "uitgegeven"
       }
     },
@@ -42402,7 +42402,7 @@
           "plural": "bereidde ... voor"
         },
         "participle": "voorbereid",
-        "isSeparable": false,
+        "isSeparable": true,
         "pastParticiple": "voorbereid"
       }
     },

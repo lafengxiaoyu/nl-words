@@ -60,15 +60,15 @@
           "I have a gray jacket."
         ]
       },
-      "notes": "形容词变位：grijze",
+      "notes": "形容词变位：grijze，比较级和最高级不常用",
       "difficulty": "A1",
       "forms": {
         "adjective": {
           "base": "grijs",
-          "withDe": "grijse",
+          "withDe": "grijze",
           "withHet": "grijs",
-          "comparative": "grijser",
-          "superlative": "grijsst"
+          "comparative": "-",
+          "superlative": "-"
         }
       }
     },
@@ -198,7 +198,7 @@
         "noun": {
           "article": "het",
           "singular": "sok",
-          "plural": "soken"
+          "plural": "sokken"
         }
       }
     },
@@ -1343,13 +1343,12 @@
           "She replies to the email."
         ]
       },
-      "notes": "不规则动词，现在时：antwoord/antwoordt/antwoordt/antwoorden",
+      "notes": "规则动词，需要介词 op",
       "difficulty": "A1",
       "forms": {
         "verb": {
           "infinitive": "antwoorden",
-          "isSeparable": true,
-          "prefix": "ant",
+          "isSeparable": false,
           "present": {
             "ik": "antwoord",
             "jij": "antwoordt",

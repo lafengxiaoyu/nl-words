@@ -1619,7 +1619,7 @@
         "verb": {
           "pastParticiple": "voorkomen",
           "pastParticipleAuxiliary": "hebben",
-          "isSeparable": false,
+          "isSeparable": true,
           "present": {
             "ik": "voorkom",
             "jij": "voorkomt",
