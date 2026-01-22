@@ -48,9 +48,9 @@ export function Flashcard({
     
     if (isFlipped) {
       // 立即隐藏，不使用requestAnimationFrame以确保零延迟
+      // 注意：不使用 display: 'none' 以避免布局抖动导致的闪烁
       elements.forEach((el) => {
         if (el) {
-          el.style.display = 'none';
           el.style.visibility = 'hidden';
           el.style.opacity = '0';
           el.style.pointerEvents = 'none';
@@ -62,7 +62,6 @@ export function Flashcard({
       // 恢复显示
       elements.forEach((el) => {
         if (el) {
-          el.style.display = '';
           el.style.visibility = '';
           el.style.opacity = '';
           el.style.pointerEvents = '';

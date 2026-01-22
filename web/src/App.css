@@ -876,12 +876,9 @@ body {
   transform: rotateY(180deg);
 }
 
-/* 翻转时隐藏正面的元素 */
-.flashcard-wrapper .word-card.flipped .card-front {
-  backface-visibility: hidden;
-  visibility: hidden;
-  pointer-events: none;
-}
+/* 翻转时隐藏正面的元素 - 只使用 backface-visibility，避免闪烁 */
+/* 注意：.card-front 和 .card-back 已经在全局设置了 backface-visibility: hidden，
+   这里不需要额外设置，让 CSS 的 3D 变换机制自然处理翻转 */
 
 /* 隐藏元素的类 - 用于在翻转动画前隐藏背面元素 */
 .hidden-element {
@@ -895,13 +892,12 @@ body {
 .flashcard-wrapper .word-card:not(.flipped) .card-back .card-difficulty {
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0s;
 }
 
 .flashcard-wrapper .word-card.flipped .card-back .speak-btn-example,
 .flashcard-wrapper .word-card.flipped .card-back .card-difficulty {
-  visibility: visible !important;
-  opacity: 1 !important;
+  visibility: visible;
+  opacity: 1;
   transition: opacity 0.15s ease-out, visibility 0.15s ease-out;
 }
 
