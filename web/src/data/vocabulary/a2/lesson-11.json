@@ -1080,7 +1080,8 @@
             "plural": "gaven uit"
           },
           "participle": "uitgegeven",
-          "isSeparable": false,
+          "isSeparable": true,
+          "prefix": "uit",
           "pastParticiple": "uitgegeven"
         }
       },
