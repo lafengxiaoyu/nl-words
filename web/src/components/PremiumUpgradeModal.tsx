@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import alipayQRCode from '/alipay-qrcode.png'
 import './PremiumUpgradeModal.css'
 
 interface PremiumUpgradeModalProps {
@@ -95,7 +96,7 @@ export default function PremiumUpgradeModal({
               <div className="qrcode-wrapper">
                 {/* 请将您的支付宝收款码图片放在 public 目录下，例如 public/alipay-qrcode.png */}
                 <img
-                  src="/alipay-qrcode.png"
+                  src={alipayQRCode}
                   alt="支付宝收款码 / Alipay QR Code"
                   className="alipay-qrcode"
                   onError={(e) => {
