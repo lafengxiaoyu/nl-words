@@ -1,8 +1,8 @@
 // This file is auto-generated. Do not edit manually.
 export const VERSION = {
-  version: '1.0.1',
-  buildDate: '2026-01-10T10:29:42.688Z',
-  gitCommit: '03279ba',
+  version: '1.0.2',
+  buildDate: '2026-01-22T19:20:22.667Z',
+  gitCommit: '7182a7f',
   gitBranch: 'main'
 } as const;
 
