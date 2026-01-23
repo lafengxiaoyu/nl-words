@@ -24642,7 +24642,8 @@
         },
         "pastParticiple": "eruitgezien",
         "pastParticipleAuxiliary": "hebben",
-        "isSeparable": false
+        "isSeparable": true,
+        "prefix": "eruit"
       }
     },
     "examples": [
@@ -41500,7 +41501,7 @@
         },
         "past": {
           "singular": "verving",
-          "plural": "verving"
+          "plural": "vervingen"
         },
         "participle": "vervangen",
         "isSeparable": false,
@@ -41738,7 +41739,7 @@
         },
         "past": {
           "singular": "verwees",
-          "plural": "verwees"
+          "plural": "verwezen"
         },
         "participle": "verwezen",
         "isSeparable": false,
@@ -42793,7 +42794,7 @@
         },
         "past": {
           "singular": "woog",
-          "plural": "woog"
+          "plural": "wogen"
         },
         "participle": "gewogen",
         "isSeparable": false,
@@ -55283,7 +55284,7 @@
           "zij": "dwingen"
         },
         "past": {
-          "singular": "dwing",
+          "singular": "dwong",
           "plural": "dwongen"
         },
         "pastParticiple": "gedwongen",

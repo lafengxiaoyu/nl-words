@@ -513,7 +513,8 @@
           },
           "pastParticiple": "eruitgezien",
           "pastParticipleAuxiliary": "hebben",
-          "isSeparable": false
+          "isSeparable": true,
+          "prefix": "eruit"
         }
       },
       "examples": [
