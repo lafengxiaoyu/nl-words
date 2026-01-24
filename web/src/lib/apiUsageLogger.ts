@@ -14,9 +14,9 @@ interface LogApiUsageParams {
   error?: string
 }
 
-// 从环境变量获取采样率，默认 1%（大幅降低日志量）
+// 从环境变量获取采样率，默认 5%（降低 95% 日志量）
 const API_LOG_SAMPLING_RATE = parseFloat(
-  import.meta.env.VITE_API_LOG_SAMPLING_RATE || '0.01'
+  import.meta.env.VITE_API_LOG_SAMPLING_RATE || '0.05'
 )
 
 /**
