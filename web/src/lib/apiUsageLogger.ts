@@ -14,12 +14,29 @@ interface LogApiUsageParams {
   error?: string
 }
 
+// 从环境变量获取采样率，默认 1%（大幅降低日志量）
+const API_LOG_SAMPLING_RATE = parseFloat(
+  import.meta.env.VITE_API_LOG_SAMPLING_RATE || '0.01'
+)
+
 /**
- * 记录 API 使用情况
+ * 判断是否应该记录这次 API 调用（基于采样率）
+ */
+function shouldLog(): boolean {
+  return Math.random() < API_LOG_SAMPLING_RATE
+}
+
+/**
+ * 记录 API 使用情况（基于采样率）
  * @param params API 调用参数
  */
 export async function logApiUsage(params: LogApiUsageParams): Promise<void> {
   const { userId, operationType, tableName, recordCount = 1, success, error } = params
+
+  // 基于采样率决定是否记录
+  if (!shouldLog()) {
+    return
+  }
 
   try {
     // 异步记录，不阻塞主流程
