@@ -233,7 +233,7 @@ ORDER BY failure_rate DESC;
 
 ### 3. 设置清理任务
 
-定期清理 90 天前的日志（已在 SQL 脚本中提供函数）：
+定期清理 30 天前的日志（已在 SQL 脚本中提供函数）：
 
 ```sql
 SELECT cleanup_old_api_logs();

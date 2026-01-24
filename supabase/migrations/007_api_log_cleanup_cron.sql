@@ -24,7 +24,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 -- 3. 设置定时任务：每月 1 号凌晨 2 点执行
--- 删除 90 天前的日志
+-- 删除 30 天前的日志
 SELECT cron.schedule(
   'cleanup-api-logs-monthly',
   '0 2 1 * *',  -- Cron 表达式：每月 1 号凌晨 2 点

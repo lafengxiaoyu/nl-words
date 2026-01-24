@@ -58,9 +58,9 @@ CREATE POLICY "Admins can view all api usage"
 CREATE OR REPLACE FUNCTION cleanup_old_api_logs()
 RETURNS void AS $$
 BEGIN
-  -- 删除 90 天前的日志
+  -- 删除 30 天前的日志（平衡存储与数据分析）
   DELETE FROM api_usage_log
-  WHERE created_at < NOW() - INTERVAL '90 days';
+  WHERE created_at < NOW() - INTERVAL '30 days';
 END;
 $$ LANGUAGE plpgsql;
 
