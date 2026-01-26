@@ -199,7 +199,8 @@
       "forms": {
         "noun": {
           "singular": "tegendeel",
-          "article": "het"
+          "article": "het",
+          "plural": "tegendeelen"
         }
       },
       "examples": [
@@ -268,9 +269,10 @@
             "singular": "viel tegen",
             "plural": "vielen tegen"
           },
-        "participle": "tegengevallen",
-        "isSeparable": true,
-        "pastParticiple": "tegengevallen"
+          "participle": "tegengevallen",
+          "isSeparable": true,
+          "pastParticiple": "tegengevallen",
+          "prefix": "tegen"
         }
       },
       "examples": [
@@ -700,7 +702,8 @@
       "forms": {
         "noun": {
           "singular": "toerisme",
-          "article": "het"
+          "article": "het",
+          "plural": "-"
         }
       },
       "examples": [
@@ -763,7 +766,8 @@
       "forms": {
         "noun": {
           "singular": "toeval",
-          "article": "het"
+          "article": "het",
+          "plural": "toevallen"
         }
       },
       "examples": [
@@ -906,7 +910,8 @@
           },
           "participle": "uitgebreid",
           "isSeparable": true,
-          "pastParticiple": "uitgebreid"
+          "pastParticiple": "uitgebreid",
+          "prefix": "uit"
         }
       },
       "examples": [
@@ -1145,7 +1150,8 @@
       "forms": {
         "noun": {
           "singular": "uitleg",
-          "article": "de"
+          "article": "de",
+          "plural": "uitleggen"
         }
       },
       "examples": [
@@ -1222,7 +1228,8 @@
           },
           "participle": "uitgerust",
           "isSeparable": true,
-          "pastParticiple": "uitgerust"
+          "pastParticiple": "uitgerust",
+          "prefix": "uit"
         }
       },
       "examples": [
@@ -1299,7 +1306,8 @@
           },
           "participle": "uitgestapt",
           "isSeparable": true,
-          "pastParticiple": "uitgestapt"
+          "pastParticiple": "uitgestapt",
+          "prefix": "uit"
         }
       },
       "examples": [
@@ -1344,7 +1352,8 @@
           },
           "participle": "uitgevoerd",
           "isSeparable": true,
-          "pastParticiple": "uitgevoerd"
+          "pastParticiple": "uitgevoerd",
+          "prefix": "uit"
         }
       },
       "examples": [
@@ -1389,7 +1398,8 @@
           },
           "participle": "uitgezocht",
           "isSeparable": true,
-          "pastParticiple": "uitgezocht"
+          "pastParticiple": "uitgezocht",
+          "prefix": "uit"
         }
       },
       "examples": [

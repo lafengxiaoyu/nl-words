@@ -418,8 +418,8 @@
           "base": "meertalig",
           "withDe": "meertalige",
           "withHet": "meertalige",
-          "comparative": null,
-          "superlative": null
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [
@@ -593,9 +593,9 @@
             "singular": "voelde mee",
             "plural": "voelden mee"
           },
-        "pastParticiple": "meegevoeld",
-        "pastParticipleAuxiliary": "hebben",
-        "prefix": "mee"
+          "pastParticiple": "meegevoeld",
+          "pastParticipleAuxiliary": "hebben",
+          "prefix": "mee"
         }
       },
       "examples": [
