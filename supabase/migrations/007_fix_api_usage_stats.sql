@@ -65,10 +65,17 @@ SELECT
   -- 失败调用次数（采样数，无需估算）
   COUNT(*) FILTER (WHERE al.success = false) as failed_calls,
   -- 最后一次调用时间
-  MAX(al.created_at) as last_call_at
+  MAX(al.created_at) as last_call_at,
+  -- 学习记录统计
+  COALESCE(progress.total_records, 0) as progress_records
 FROM user_profiles up
 LEFT JOIN api_usage_log al ON up.user_id = al.user_id
-GROUP BY up.user_id, up.username, up.email, up.subscription_tier, up.subscription_status;
+LEFT JOIN (
+  SELECT user_id, COUNT(*) as total_records
+  FROM user_progress
+  GROUP BY user_id
+) progress ON up.user_id = progress.user_id
+GROUP BY up.user_id, up.username, up.email, up.subscription_tier, up.subscription_status, progress.total_records;
 
 -- ============================================
 -- 使用说明：
