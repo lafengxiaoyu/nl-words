@@ -185,32 +185,6 @@
       "notes": "复数形式为 tieners"
     },
     {
-      "id": 3457,
-      "word": "tijdens",
-      "translation": {
-        "chinese": "在...期间",
-        "english": "during, while"
-      },
-      "partOfSpeech": "preposition",
-      "forms": {},
-      "examples": [
-        "Tijdens de les leerde hij veel.",
-        "Tijdens de vakantie gingen wij naar het strand."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "上课期间他学到了很多。",
-          "假期里我们去了海滩。"
-        ],
-        "english": [
-          "During the lesson he learned a lot.",
-          "During the vacation we went to the beach."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "介词，表示时间"
-    },
-    {
       "id": 3458,
       "word": "tijdig",
       "translation": {
@@ -275,51 +249,6 @@
       },
       "difficulty": "B1",
       "notes": "复数形式为 tijgers"
-    },
-    {
-      "id": 3460,
-      "word": "tikken",
-      "translation": {
-        "chinese": "敲击,轻拍",
-        "english": "to tap, to click"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "tikken",
-          "isSeparable": false,
-          "present": {
-            "ik": "tik",
-            "jij": "tikt",
-            "hij": "tikt",
-            "wij": "tikken",
-            "jullie": "tikken",
-            "zij": "tikken"
-          },
-          "past": {
-            "singular": "tikte",
-            "plural": "tikten"
-          },
-          "pastParticiple": "getikt",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Tik op het scherm om te beginnen.",
-        "Hij tikt zachtjes op haar schouder."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "点击屏幕开始。",
-          "他轻拍她的肩膀。"
-        ],
-        "english": [
-          "Tap on the screen to start.",
-          "He taps gently on her shoulder."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "规则动词"
     },
     {
       "id": 3461,
@@ -431,38 +360,6 @@
       "notes": "复数形式为 toegiften"
     },
     {
-      "id": 3464,
-      "word": "toerist",
-      "translation": {
-        "chinese": "游客",
-        "english": "tourist"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "toerist",
-          "plural": "toeristen",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Veel toeristen bezoeken de stad.",
-        "De toerist kijkt naar de kaart."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "很多游客参观这座城市。",
-          "游客在看地图。"
-        ],
-        "english": [
-          "Many tourists visit the city.",
-          "The tourist looks at the map."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 toeristen"
-    },
-    {
       "id": 3465,
       "word": "toerit",
       "translation": {
@@ -559,38 +456,6 @@
       "notes": "复数形式为 toestellen"
     },
     {
-      "id": 3468,
-      "word": "toetje",
-      "translation": {
-        "chinese": "甜点",
-        "english": "dessert"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "toetje",
-          "plural": "toetjes",
-          "article": "het"
-        }
-      },
-      "examples": [
-        "Het toetje smaakte heerlijk.",
-        "Ik wil graag een toetje na het diner."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "甜点味道很棒。",
-          "晚餐后我想吃甜点。"
-        ],
-        "english": [
-          "The dessert tasted delicious.",
-          "I would like a dessert after dinner."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "小称形式，复数为 toetjes"
-    },
-    {
       "id": 3469,
       "word": "toetsen",
       "translation": {
@@ -679,38 +544,6 @@
       },
       "difficulty": "B1",
       "notes": "可分动词"
-    },
-    {
-      "id": 3471,
-      "word": "toneel",
-      "translation": {
-        "chinese": "舞台,戏剧",
-        "english": "stage, theater"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "toneel",
-          "plural": "toneels",
-          "article": "het"
-        }
-      },
-      "examples": [
-        "De acteurs staan op het toneel.",
-        "Het toneel is slecht verlicht."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "演员在舞台上。",
-          "舞台照明很差。"
-        ],
-        "english": [
-          "The actors stand on the stage.",
-          "The stage is poorly lit."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 toneels"
     },
     {
       "id": 3472,

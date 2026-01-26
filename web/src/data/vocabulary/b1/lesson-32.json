@@ -427,74 +427,6 @@
       "notes": "既可作副词也可作形容词"
     },
     {
-      "id": 3232,
-      "word": "angstig",
-      "translation": {
-        "chinese": "害怕的",
-        "english": "afraid, fearful"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "angstig",
-          "withDe": "angstige",
-          "withHet": "angstig",
-          "comparative": "angstiger",
-          "superlative": "angstigst"
-        }
-      },
-      "examples": [
-        "Hij is angstig.",
-        "Een angstige hond."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他很害怕。",
-          "一只害怕的狗。"
-        ],
-        "english": [
-          "He is afraid.",
-          "A fearful dog."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "比较级和最高级规则：angstig - angstiger - angstigst"
-    },
-    {
-      "id": 3233,
-      "word": "anoniem",
-      "translation": {
-        "chinese": "匿名的",
-        "english": "anonymous"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "anoniem",
-          "withDe": "anonieme",
-          "withHet": "anoniem",
-          "comparative": "anoniemer",
-          "superlative": "anoniemst"
-        }
-      },
-      "examples": [
-        "De brieven zijn anoniem.",
-        "Hij blijft anoniem."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这些信件是匿名的。",
-          "他保持匿名。"
-        ],
-        "english": [
-          "The letters are anonymous.",
-          "He remains anonymous."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "比较级和最高级规则：anoniem - anoniemer - anoniemst"
-    },
-    {
       "id": 3234,
       "word": "apparat",
       "translation": {
@@ -589,37 +521,6 @@
       },
       "difficulty": "B1",
       "notes": "来自动词 argwanen（怀疑），复数形式为 argwanen"
-    },
-    {
-      "id": 3237,
-      "word": "armoede",
-      "translation": {
-        "chinese": "贫困",
-        "english": "poverty"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "armoede",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Armoede is een groot probleem.",
-        "Zij leeft in armoede."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "贫困是个大问题。",
-          "她生活在贫困中。"
-        ],
-        "english": [
-          "Poverty is a big problem.",
-          "She lives in poverty."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "不可数名词"
     },
     {
       "id": 3238,
@@ -777,38 +678,6 @@
       },
       "difficulty": "B1",
       "notes": "复数形式为 ateliers"
-    },
-    {
-      "id": 3243,
-      "word": "atleet",
-      "translation": {
-        "chinese": "运动员",
-        "english": "athlete"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "atleet",
-          "plural": "atleten",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Hij is een professionele atleet.",
-        "De atleet traint hard."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他是专业运动员。",
-          "运动员训练刻苦。"
-        ],
-        "english": [
-          "He is a professional athlete.",
-          "The athlete trains hard."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 atleten"
     },
     {
       "id": 3244,

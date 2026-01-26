@@ -97,38 +97,6 @@
       "difficulty": "B1"
     },
     {
-      "id": 3918,
-      "word": "mensheid",
-      "translation": {
-        "chinese": "人类",
-        "english": "humankind, humanity"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "mensheid",
-          "plural": "-"
-        }
-      },
-      "examples": [
-        "De mensheid heeft veel bereikt.",
-        "Het belang voor de mensheid is groot."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "人类取得了很多成就。",
-          "对人类的意义重大。"
-        ],
-        "english": [
-          "Humankind has achieved much.",
-          "The importance for humanity is great."
-        ]
-      },
-      "notes": "抽象名词，不可数",
-      "difficulty": "B1"
-    },
-    {
       "id": 3919,
       "word": "meteoriet",
       "translation": {
@@ -412,40 +380,6 @@
         ]
       },
       "notes": "规则动词",
-      "difficulty": "B1"
-    },
-    {
-      "id": 3927,
-      "word": "moeizaam",
-      "translation": {
-        "chinese": "困难的,费力的",
-        "english": "difficult, laborious"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "moeizaam",
-          "withDe": "moeizame",
-          "withHet": "moeizame",
-          "comparative": "moeizamer",
-          "superlative": "het moeizaamst"
-        }
-      },
-      "examples": [
-        "Het gesprek verliep moeizaam.",
-        "Een moeizame start van het project."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "谈话进展困难。",
-          "项目开局艰难。"
-        ],
-        "english": [
-          "The conversation proceeded laboriously.",
-          "A difficult start of the project."
-        ]
-      },
-      "notes": "形容词",
       "difficulty": "B1"
     },
     {
@@ -1035,40 +969,6 @@
         ]
       },
       "notes": "专业形容词",
-      "difficulty": "B1"
-    },
-    {
-      "id": 3945,
-      "word": "nauwgezet",
-      "translation": {
-        "chinese": "精心制作的,精细的",
-        "english": "carefully executed, precise"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "nauwgezet",
-          "withDe": "nauwgezette",
-          "withHet": "nauwgezette",
-          "comparative": "nauwgezetter",
-          "superlative": "het nauwgezetst"
-        }
-      },
-      "examples": [
-        "Het rapport was nauwgezet opgesteld.",
-        "Een nauwgezet onderzoek is noodzakelijk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "报告是精心撰写的。",
-          "精确的研究是必要的。"
-        ],
-        "english": [
-          "The report was carefully compiled.",
-          "A precise investigation is necessary."
-        ]
-      },
-      "notes": "分词作形容词",
       "difficulty": "B1"
     },
     {

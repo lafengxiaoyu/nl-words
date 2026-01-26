@@ -535,96 +535,6 @@
       "notes": "复数形式为 bewakers"
     },
     {
-      "id": 3315,
-      "word": "bewaren",
-      "translation": {
-        "chinese": "保存",
-        "english": "to keep, to store"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "bewaren",
-          "isSeparable": false,
-          "present": {
-            "ik": "bewaar",
-            "jij": "bewaart",
-            "hij": "bewaart",
-            "wij": "bewaren",
-            "jullie": "bewaren",
-            "zij": "bewaren"
-          },
-          "past": {
-            "singular": "bewaarde",
-            "plural": "bewaarden"
-          },
-          "pastParticiple": "bewaard",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Bewaar het voedsel koel.",
-        "Zij bewaart haar sieraden."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "把食物冷藏保存。",
-          "她保存她的首饰。"
-        ],
-        "english": [
-          "Keep the food cool.",
-          "She stores her jewelry."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "规则动词"
-    },
-    {
-      "id": 3316,
-      "word": "bewegen",
-      "translation": {
-        "chinese": "移动",
-        "english": "to move, to exercise"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "bewegen",
-          "isSeparable": false,
-          "present": {
-            "ik": "beweeg",
-            "jij": "beweegt",
-            "hij": "beweegt",
-            "wij": "bewegen",
-            "jullie": "bewegen",
-            "zij": "bewegen"
-          },
-          "past": {
-            "singular": "bewoog",
-            "plural": "bewogen"
-          },
-          "pastParticiple": "bewogen",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij beweegt zich veel.",
-        "Beweeg de stoel."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他经常活动。",
-          "移动椅子。"
-        ],
-        "english": [
-          "He exercises a lot.",
-          "Move the chair."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "不规则动词"
-    },
-    {
       "id": 3317,
       "word": "beweren",
       "translation": {
@@ -668,38 +578,6 @@
       },
       "difficulty": "B1",
       "notes": "规则动词"
-    },
-    {
-      "id": 3318,
-      "word": "bewijs",
-      "translation": {
-        "chinese": "证据",
-        "english": "proof, evidence"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "bewijs",
-          "plural": "bewijzen",
-          "article": "het"
-        }
-      },
-      "examples": [
-        "Geef me bewijs.",
-        "Er is geen bewijs."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "给我证据。",
-          "没有证据。"
-        ],
-        "english": [
-          "Give me proof.",
-          "There is no evidence."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 bewijzen"
     },
     {
       "id": 3319,
@@ -913,40 +791,6 @@
       "notes": "不规则动词"
     },
     {
-      "id": 3325,
-      "word": "bezorgd",
-      "translation": {
-        "chinese": "担心的",
-        "english": "worried, concerned"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "bezorgd",
-          "withDe": "bezorgde",
-          "withHet": "bezorgd",
-          "comparative": "bezorgder",
-          "superlative": "bezorgdst"
-        }
-      },
-      "examples": [
-        "Ik ben bezorgd.",
-        "Zij is bezorgd om hem."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我很担心。",
-          "她担心他。"
-        ],
-        "english": [
-          "I am worried.",
-          "She is concerned about him."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "来自动词 bezorgen（投递/使担忧），比较级和最高级规则：bezorgd - bezorgder - bezorgdst"
-    },
-    {
       "id": 3326,
       "word": "bezwaar",
       "translation": {
@@ -1022,83 +866,6 @@
       },
       "difficulty": "B1",
       "notes": "不规则动词"
-    },
-    {
-      "id": 3328,
-      "word": "bieden",
-      "translation": {
-        "chinese": "提供,出价",
-        "english": "to offer, to bid"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "bieden",
-          "isSeparable": false,
-          "present": {
-            "ik": "bied",
-            "jij": "biedt",
-            "hij": "biedt",
-            "wij": "bieden",
-            "jullie": "bieden",
-            "zij": "bieden"
-          },
-          "past": {
-            "singular": "bood",
-            "plural": "boden"
-          },
-          "pastParticiple": "geboden",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij biedt hulp.",
-        "Zij bieden een goede prijs."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他提供帮助。",
-          "她们出个好价钱。"
-        ],
-        "english": [
-          "He offers help.",
-          "They bid a good price."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "不规则动词"
-    },
-    {
-      "id": 3329,
-      "word": "bijlage",
-      "translation": {
-        "chinese": "附件",
-        "english": "attachment, enclosure"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "bijlage",
-          "plural": "bijlagen",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Kijk de bijlage.",
-        "Voeg een bijlage toe."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "查看附件。",
-          "添加附件。"
-        ],
-        "english": [
-          "Check the attachment.",
-          "Add an attachment."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 bijlagen"
     },
     {
       "id": 3330,

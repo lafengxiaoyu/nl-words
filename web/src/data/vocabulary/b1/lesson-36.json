@@ -623,40 +623,6 @@
       "notes": "规则动词，双义"
     },
     {
-      "id": 3347,
-      "word": "boeiend",
-      "translation": {
-        "chinese": "引人入胜的",
-        "english": "fascinating, interesting"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "boeiend",
-          "withDe": "boeiende",
-          "withHet": "boeiend",
-          "comparative": "boeiender",
-          "superlative": "boeiendst"
-        }
-      },
-      "examples": [
-        "Het boek is boeiend.",
-        "Een boeiend verhaal."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这本书很引人入胜。",
-          "一个有趣的故事。"
-        ],
-        "english": [
-          "The book is fascinating.",
-          "An interesting story."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "现在分词作形容词，比较级和最高级规则：boeiend - boeiender - boeiendst"
-    },
-    {
       "id": 3348,
       "word": "boeken",
       "translation": {
@@ -965,51 +931,6 @@
       "notes": "规则动词"
     },
     {
-      "id": 3356,
-      "word": "botsen",
-      "translation": {
-        "chinese": "碰撞",
-        "english": "to collide, to crash"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "botsen",
-          "isSeparable": false,
-          "present": {
-            "ik": "bots",
-            "jij": "botst",
-            "hij": "botst",
-            "wij": "botsen",
-            "jullie": "botsen",
-            "zij": "botsen"
-          },
-          "past": {
-            "singular": "botste",
-            "plural": "botsten"
-          },
-          "pastParticiple": "gebotst",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "De auto's botsen.",
-        "Hij botst tegen de tafel."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "汽车相撞。",
-          "他撞到桌子。"
-        ],
-        "english": [
-          "The cars collide.",
-          "He crashes into the table."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "规则动词"
-    },
-    {
       "id": 3357,
       "word": "bovenal",
       "translation": {
@@ -1111,38 +1032,6 @@
       },
       "difficulty": "B1",
       "notes": "外来词，复数形式为 branches"
-    },
-    {
-      "id": 3360,
-      "word": "breedte",
-      "translation": {
-        "chinese": "宽度",
-        "english": "width, breadth"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "breedte",
-          "plural": "breedtes",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "De breedte is twee meter.",
-        "Meet de breedte."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "宽度是两米。",
-          "测量宽度。"
-        ],
-        "english": [
-          "The width is two meters.",
-          "Measure the width."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 breedtes"
     }
   ]
 }

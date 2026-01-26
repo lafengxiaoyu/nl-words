@@ -1315,51 +1315,6 @@
       "difficulty": "B1"
     },
     {
-      "id": 1767,
-      "word": "scheiden",
-      "translation": {
-        "chinese": "分离",
-        "english": "to separate"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "scheiden",
-          "isSeparable": false,
-          "present": {
-            "ik": "scheid",
-            "jij": "scheidt",
-            "hij": "scheidt",
-            "wij": "scheiden",
-            "jullie": "scheiden",
-            "zij": "scheiden"
-          },
-          "past": {
-            "singular": "scheidde",
-            "plural": "scheidden"
-          },
-          "pastParticiple": "gescheiden",
-          "pastParticipleAuxiliary": "zijn"
-        }
-      },
-      "examples": [
-        "Ik scheid de eieren met zorg zodat de dooiers gescheiden blijven voor het maken van een luchtig beslag.",
-        "Hij scheidt zich emotioneel van de moeilijke situatie om een objectieve beslissing te kunnen nemen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我小心地分离鸡蛋,以便蛋黄保持分离,用于制作轻盈的蛋糕糊。",
-          "他将自己从困难情况中情感分离出来,以便能够做出客观决定。"
-        ],
-        "english": [
-          "I separate the eggs with care so that the yolks remain separated for making a airy batter.",
-          "He separates himself emotionally from the difficult situation to be able to make an objective decision."
-        ]
-      },
-      "notes": "不可分动词，过去分词: gescheiden（不规则，用zijn）",
-      "difficulty": "B1"
-    },
-    {
       "id": 1768,
       "word": "geschenk",
       "translation": {

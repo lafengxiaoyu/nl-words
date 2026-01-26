@@ -36,70 +36,6 @@
       "notes": "不可数名词，医学术语"
     },
     {
-      "id": 3247,
-      "word": "bakker",
-      "translation": {
-        "chinese": "面包师",
-        "english": "baker"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "bakker",
-          "plural": "bakkers",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "De bakker bakt brood.",
-        "Ik ga naar de bakker."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "面包师烤面包。",
-          "我去面包店。"
-        ],
-        "english": [
-          "The baker bakes bread.",
-          "I go to the baker."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 bakkers"
-    },
-    {
-      "id": 3248,
-      "word": "balans",
-      "translation": {
-        "chinese": "平衡",
-        "english": "balance"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "balans",
-          "plural": "balansen",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Houd een goede balans tussen werk en privé.",
-        "De balans tussen werk en ontspanning is belangrijk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "在工作与私人生活之间保持良好平衡。",
-          "工作与休闲的平衡很重要。"
-        ],
-        "english": [
-          "Keep a good balance between work and private life.",
-          "The balance between work and relaxation is important."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 balansen"
-    },
-    {
       "id": 3249,
       "word": "balkon",
       "translation": {
@@ -162,38 +98,6 @@
       },
       "difficulty": "B1",
       "notes": "复数形式为 banketten"
-    },
-    {
-      "id": 3251,
-      "word": "bankpas",
-      "translation": {
-        "chinese": "银行卡",
-        "english": "bank card"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "bankpas",
-          "plural": "bankpassen",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Gebruik je bankpas.",
-        "Ik ben mijn bankpas kwijt."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "使用你的银行卡。",
-          "我把银行卡丢了。"
-        ],
-        "english": [
-          "Use your bank card.",
-          "I lost my bank card."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 bankpassen"
     },
     {
       "id": 3252,
@@ -521,38 +425,6 @@
       "notes": "来自动词 bedelen（分配），比较级和最高级规则：bedeeld - bedeelder - bedeeldst"
     },
     {
-      "id": 3260,
-      "word": "bedrag",
-      "translation": {
-        "chinese": "金额",
-        "english": "amount, sum"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "bedrag",
-          "plural": "bedragen",
-          "article": "het"
-        }
-      },
-      "examples": [
-        "Het bedrag is groot.",
-        "Betaal het bedrag."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "金额很大。",
-          "支付这笔金额。"
-        ],
-        "english": [
-          "The amount is large.",
-          "Pay the sum."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 bedragen，财经词汇"
-    },
-    {
       "id": 3261,
       "word": "bedrog",
       "translation": {
@@ -775,38 +647,6 @@
       "notes": "规则动词，正式用语"
     },
     {
-      "id": 3267,
-      "word": "begrip",
-      "translation": {
-        "chinese": "理解,概念",
-        "english": "understanding, concept"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "begrip",
-          "plural": "begrippen",
-          "article": "het"
-        }
-      },
-      "examples": [
-        "Ik heb begrip.",
-        "Het begrip is moeilijk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我理解。",
-          "这个概念很难。"
-        ],
-        "english": [
-          "I have understanding.",
-          "The concept is difficult."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 begrippen"
-    },
-    {
       "id": 3268,
       "word": "behagen",
       "translation": {
@@ -895,32 +735,6 @@
       },
       "difficulty": "B1",
       "notes": "规则动词"
-    },
-    {
-      "id": 3270,
-      "word": "behalve",
-      "translation": {
-        "chinese": "除...之外",
-        "english": "except for, besides"
-      },
-      "partOfSpeech": "preposition",
-      "forms": {},
-      "examples": [
-        "Behalve ik, iedereen is er.",
-        "Het werkt behalve op zondag."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "除了我，大家都在。",
-          "除了周日，它都工作。"
-        ],
-        "english": [
-          "Except me, everyone is there.",
-          "It works except on Sunday."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "介词，表示例外"
     }
   ]
 }

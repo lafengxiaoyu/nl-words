@@ -1735,51 +1735,6 @@
       "difficulty": "B1"
     },
     {
-      "id": 4258,
-      "word": "verlengen",
-      "translation": {
-        "chinese": "延长",
-        "english": "to prolong"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "verlengen",
-          "isSeparable": false,
-          "present": {
-            "ik": "verleng",
-            "jij": "verlengt",
-            "hij": "verlengt",
-            "wij": "verlengen",
-            "jullie": "verlengen",
-            "zij": "verlengen"
-          },
-          "past": {
-            "singular": "verlengde",
-            "plural": "verlengden"
-          },
-          "pastParticiple": "verlengd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij verlengde de vergadering.",
-        "Wij verlengen de termijn."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他延长了会议。",
-          "我们延长了期限。"
-        ],
-        "english": [
-          "He prolonged the meeting.",
-          "We extend the term."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B1"
-    },
-    {
       "id": 4259,
       "word": "verliezer",
       "translation": {

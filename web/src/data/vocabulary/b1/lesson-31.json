@@ -806,52 +806,6 @@
       "notes": "可分动词，不规则动词：meten - meet - mat - maten - heeft - gemeten"
     },
     {
-      "id": 3203,
-      "word": "afnemen",
-      "translation": {
-        "chinese": "减少,购买",
-        "english": "to decrease, to buy"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "afnemen",
-          "isSeparable": true,
-          "prefix": "af",
-          "present": {
-            "ik": "neem af",
-            "jij": "neemt af",
-            "hij": "neemt af",
-            "wij": "nemen af",
-            "jullie": "nemen af",
-            "zij": "nemen af"
-          },
-          "past": {
-            "singular": "nam af",
-            "plural": "namen af"
-          },
-          "pastParticiple": "afgenomen",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Het aantal neemt af.",
-        "Ik neem een abonnement af."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "数量在减少。",
-          "我订阅一份。"
-        ],
-        "english": [
-          "The number decreases.",
-          "I take a subscription."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "可分动词，不规则动词：nemen - neemt - nam - namen - heeft - genomen，固定搭配：afnemen（减少/购买）"
-    },
-    {
       "id": 3204,
       "word": "afnemer",
       "translation": {

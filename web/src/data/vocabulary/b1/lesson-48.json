@@ -852,51 +852,6 @@
       "difficulty": "B1"
     },
     {
-      "id": 4287,
-      "word": "verdwijnen",
-      "translation": {
-        "chinese": "消失",
-        "english": "to disappear"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "verdwijnen",
-          "isSeparable": false,
-          "present": {
-            "ik": "verdwijn",
-            "jij": "verdijnt",
-            "hij": "verdijnt",
-            "wij": "verdwijnen",
-            "jullie": "verdwijnen",
-            "zij": "verdwijnen"
-          },
-          "past": {
-            "singular": "verdween",
-            "plural": "verdwenen"
-          },
-          "pastParticiple": "verdwenen",
-          "pastParticipleAuxiliary": "zijn"
-        }
-      },
-      "examples": [
-        "De zon verdwijnt achter de bergen.",
-        "Het probleem is verdwenen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "太阳消失在山后。",
-          "问题已经消失了。"
-        ],
-        "english": [
-          "The sun disappears behind the mountains.",
-          "The problem has disappeared."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B1"
-    },
-    {
       "id": 4288,
       "word": "vergeefs",
       "translation": {
@@ -997,83 +952,6 @@
         ]
       },
       "notes": "名词",
-      "difficulty": "B1"
-    },
-    {
-      "id": 4291,
-      "word": "verlies",
-      "translation": {
-        "chinese": "损失, 输",
-        "english": "loss, defeat"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "verlies",
-          "plural": "verliezen"
-        }
-      },
-      "examples": [
-        "Het bedrijf heeft verlies geleden.",
-        "Een groot verlies."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "公司遭受了损失。",
-          "一个巨大的损失。"
-        ],
-        "english": [
-          "The company incurred a loss.",
-          "A big loss."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B1"
-    },
-    {
-      "id": 4292,
-      "word": "verlies",
-      "translation": {
-        "chinese": "输掉",
-        "english": "to lose"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "verliezen",
-          "isSeparable": false,
-          "present": {
-            "ik": "verlies",
-            "jij": "verliest",
-            "hij": "verliest",
-            "wij": "verliezen",
-            "jullie": "verliezen",
-            "zij": "verliezen"
-          },
-          "past": {
-            "singular": "verloor",
-            "plural": "verloren"
-          },
-          "pastParticiple": "verloren",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Wij verliezen de wedstrijd.",
-        "Hij verloor zijn sleutel."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我们输了比赛。",
-          "他丢了钥匙。"
-        ],
-        "english": [
-          "We lose the match.",
-          "He lost his key."
-        ]
-      },
-      "notes": "动词",
       "difficulty": "B1"
     },
     {
@@ -1536,51 +1414,6 @@
       "difficulty": "B1"
     },
     {
-      "id": 4304,
-      "word": "verwarmen",
-      "translation": {
-        "chinese": "加热",
-        "english": "to heat"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "verwarmen",
-          "isSeparable": false,
-          "present": {
-            "ik": "verwarm",
-            "jij": "verwarmt",
-            "hij": "verwarmt",
-            "wij": "verwarmen",
-            "jullie": "verwarmen",
-            "zij": "verwarmen"
-          },
-          "past": {
-            "singular": "verwarmde",
-            "plural": "verwarmden"
-          },
-          "pastParticiple": "verwarmd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Ik verwarm het eten.",
-        "De oven warmt op."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我加热食物。",
-          "烤箱热起来了。"
-        ],
-        "english": [
-          "I heat the food.",
-          "The oven heats up."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B1"
-    },
-    {
       "id": 4305,
       "word": "verweven",
       "translation": {
@@ -1733,85 +1566,6 @@
         "english": [
           "An acquired right.",
           "She has earned achievements."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B1"
-    },
-    {
-      "id": 4309,
-      "word": "verworven",
-      "translation": {
-        "chinese": "获得, 赢得",
-        "english": "to acquire"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "verwerven",
-          "isSeparable": false,
-          "present": {
-            "ik": "verwerf",
-            "jij": "verwerft",
-            "hij": "verwerft",
-            "wij": "verwerven",
-            "jullie": "verwerven",
-            "zij": "verwerven"
-          },
-          "past": {
-            "singular": "verwierf",
-            "plural": "verwerven"
-          },
-          "pastParticiple": "verworven",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij verwierf grote bekendheid.",
-        "Zij verwerfde het vermogen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他获得了巨大的名声。",
-          "她获得了财富。"
-        ],
-        "english": [
-          "He acquired great fame.",
-          "She acquired the fortune."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B1"
-    },
-    {
-      "id": 4310,
-      "word": "vies",
-      "translation": {
-        "chinese": "脏的",
-        "english": "dirty"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "vies",
-          "withDe": "vieze",
-          "withHet": "vieze",
-          "comparative": "viezer",
-          "superlative": "het viest"
-        }
-      },
-      "examples": [
-        "Het water is vies.",
-        "Vies schoeisel."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "水是脏的。",
-          "脏鞋子。"
-        ],
-        "english": [
-          "The water is dirty.",
-          "Dirty footwear."
         ]
       },
       "notes": "形容词",

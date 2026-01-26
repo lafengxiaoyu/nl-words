@@ -159,51 +159,6 @@
       "notes": "小称形式，复数为 kuipjes"
     },
     {
-      "id": 3425,
-      "word": "kunnen",
-      "translation": {
-        "chinese": "能够",
-        "english": "can, to be able to"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "kunnen",
-          "isSeparable": false,
-          "present": {
-            "ik": "kan",
-            "jij": "kunt",
-            "hij": "kan",
-            "wij": "kunnen",
-            "jullie": "kunnen",
-            "zij": "kunnen"
-          },
-          "past": {
-            "singular": "kon",
-            "plural": "konden"
-          },
-          "pastParticiple": "gekund",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Ik kan het.",
-        "Kun jij komen?"
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我能做到。",
-          "你能来吗？"
-        ],
-        "english": [
-          "I can do it.",
-          "Can you come?"
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "不规则动词，最常用的情态动词"
-    },
-    {
       "id": 3426,
       "word": "kussen",
       "translation": {
@@ -624,38 +579,6 @@
       "notes": "介词，较正式用法"
     },
     {
-      "id": 3437,
-      "word": "omvang",
-      "translation": {
-        "chinese": "范围,规模",
-        "english": "scope, size, scale"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "omvang",
-          "plural": "omvangen",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "De omvang is groot.",
-        "Meet de omvang."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "规模很大。",
-          "测量范围。"
-        ],
-        "english": [
-          "The scope is big.",
-          "Measure the size."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 omvangen"
-    },
-    {
       "id": 3438,
       "word": "omzagen",
       "translation": {
@@ -699,32 +622,6 @@
       },
       "difficulty": "B1",
       "notes": "可分动词"
-    },
-    {
-      "id": 3439,
-      "word": "ondanks",
-      "translation": {
-        "chinese": "尽管",
-        "english": "despite, in spite of"
-      },
-      "partOfSpeech": "preposition",
-      "forms": {},
-      "examples": [
-        "Ondanks het regen.",
-        "Ondanks alles."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "尽管下雨。",
-          "尽管一切。"
-        ],
-        "english": [
-          "Despite the rain.",
-          "In spite of everything."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "介词，表示让步"
     },
     {
       "id": 3440,
@@ -899,32 +796,6 @@
       },
       "difficulty": "B1",
       "notes": "连词，表示条件"
-    },
-    {
-      "id": 3446,
-      "word": "terecht",
-      "translation": {
-        "chinese": "正确的,公正地",
-        "english": "rightly, justified"
-      },
-      "partOfSpeech": "adverb",
-      "forms": {},
-      "examples": [
-        "Hij komt terecht.",
-        "Terecht klagen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他到对了地方。",
-          "合理投诉。"
-        ],
-        "english": [
-          "He arrives at the right place.",
-          "Rightly complain."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "副词，表示公正或正确"
     },
     {
       "id": 3447,

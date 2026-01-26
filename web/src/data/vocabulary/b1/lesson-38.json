@@ -95,38 +95,6 @@
       "notes": "固定短语，表示即将上任的"
     },
     {
-      "id": 3394,
-      "word": "inbraak",
-      "translation": {
-        "chinese": "入室盗窃",
-        "english": "burglary, break-in"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "inbraak",
-          "plural": "inbraken",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Er was een inbraak.",
-        "De inbraak is gemeld."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "发生了一起盗窃。",
-          "盗窃已被报案。"
-        ],
-        "english": [
-          "There was a burglary.",
-          "The break-in is reported."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 inbraken"
-    },
-    {
       "id": 3395,
       "word": "inbreng",
       "translation": {
@@ -157,38 +125,6 @@
       },
       "difficulty": "B1",
       "notes": "不可数名词，复数形式相同"
-    },
-    {
-      "id": 3396,
-      "word": "inbreuk",
-      "translation": {
-        "chinese": "侵犯",
-        "english": "infringement, violation"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "inbreuk",
-          "plural": "inbreuken",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Een inbreuk op de regels.",
-        "De inbreuk is groot."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "违反规则。",
-          "侵犯很严重。"
-        ],
-        "english": [
-          "A violation of the rules.",
-          "The infringement is big."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 inbreuken"
     },
     {
       "id": 3397,
@@ -392,64 +328,6 @@
       "notes": "复数形式为 korrels"
     },
     {
-      "id": 3403,
-      "word": "korting",
-      "translation": {
-        "chinese": "折扣",
-        "english": "discount"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "korting",
-          "plural": "kortingen",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Ik heb korting op de zomerkleding.",
-        "Alle artikelen hebben korting deze week."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "夏季商品有折扣。",
-          "这周所有商品都打折。"
-        ],
-        "english": [
-          "I have a discount on the summer collection.",
-          "All items have a discount this week."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 kortingen"
-    },
-    {
-      "id": 3404,
-      "word": "kortom",
-      "translation": {
-        "chinese": "简而言之",
-        "english": "in short, briefly"
-      },
-      "partOfSpeech": "adverb",
-      "forms": {},
-      "examples": [
-        "Kortom, het is goed.",
-        "Kortom, wij winnen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "简而言之，这很好。",
-          "简而言之，我们赢了。"
-        ],
-        "english": [
-          "In short, it is good.",
-          "Briefly, we win."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "副词，用于总结"
-    },
-    {
       "id": 3405,
       "word": "kotsen",
       "translation": {
@@ -617,38 +495,6 @@
       "notes": "规则动词"
     },
     {
-      "id": 3409,
-      "word": "kracht",
-      "translation": {
-        "chinese": "力量",
-        "english": "strength, power"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "kracht",
-          "plural": "krachten",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Hij heeft veel kracht.",
-        "Verlies kracht niet."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他很有力气。",
-          "不要失去力量。"
-        ],
-        "english": [
-          "He has much strength.",
-          "Do not lose power."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 krachten"
-    },
-    {
       "id": 3410,
       "word": "kraken",
       "translation": {
@@ -724,38 +570,6 @@
       },
       "difficulty": "B1",
       "notes": "复数形式为 kraptes"
-    },
-    {
-      "id": 3412,
-      "word": "krediet",
-      "translation": {
-        "chinese": "信用",
-        "english": "credit"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "krediet",
-          "plural": "kredieten",
-          "article": "het"
-        }
-      },
-      "examples": [
-        "Hij heeft krediet.",
-        "Krediet checken."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他有信用。",
-          "检查信用。"
-        ],
-        "english": [
-          "He has credit.",
-          "Check credit."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 kredieten"
     },
     {
       "id": 3413,
@@ -901,51 +715,6 @@
       "notes": "复数形式为 kriebels"
     },
     {
-      "id": 3417,
-      "word": "krijgen",
-      "translation": {
-        "chinese": "获得",
-        "english": "to get, to receive"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "krijgen",
-          "isSeparable": false,
-          "present": {
-            "ik": "krijg",
-            "jij": "krijgt",
-            "hij": "krijgt",
-            "wij": "krijgen",
-            "jullie": "krijgen",
-            "zij": "krijgen"
-          },
-          "past": {
-            "singular": "kreeg",
-            "plural": "kregen"
-          },
-          "pastParticiple": "gekregen",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Ik krijg een cadeau.",
-        "Krijg je hulp?"
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我收到礼物。",
-          "你得到帮助了吗？"
-        ],
-        "english": [
-          "I get a gift.",
-          "Do you get help?"
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "不规则动词，非常常用的动词"
-    },
-    {
       "id": 3418,
       "word": "krimpen",
       "translation": {
@@ -989,38 +758,6 @@
       },
       "difficulty": "B1",
       "notes": "不规则动词"
-    },
-    {
-      "id": 3419,
-      "word": "kritiek",
-      "translation": {
-        "chinese": "批评",
-        "english": "criticism"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "kritiek",
-          "plural": "kritieken",
-          "article": "de"
-        }
-      },
-      "examples": [
-        "Ik heb kritiek.",
-        "Kritiek op het plan."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我有批评意见。",
-          "对计划的批评。"
-        ],
-        "english": [
-          "I have criticism.",
-          "Criticism of the plan."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "复数形式为 kritieken"
     },
     {
       "id": 3420,

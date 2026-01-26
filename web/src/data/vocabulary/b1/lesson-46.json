@@ -454,77 +454,6 @@
       "difficulty": "B1"
     },
     {
-      "id": 4178,
-      "word": "te",
-      "translation": {
-        "chinese": "太（副词）",
-        "english": "too"
-      },
-      "partOfSpeech": "adverb",
-      "forms": {},
-      "examples": [
-        "Het is te duur.",
-        "Het gaat te snel."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "太贵了。",
-          "太快了。"
-        ],
-        "english": [
-          "It is too expensive.",
-          "It goes too fast."
-        ]
-      },
-      "notes": "副词",
-      "difficulty": "B1"
-    },
-    {
-      "id": 4179,
-      "word": "weten",
-      "translation": {
-        "chinese": "知道",
-        "english": "to know"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "weten",
-          "isSeparable": false,
-          "present": {
-            "ik": "weet",
-            "jij": "weet",
-            "hij": "weet",
-            "wij": "weten",
-            "jullie": "weten",
-            "zij": "weten"
-          },
-          "past": {
-            "singular": "wist",
-            "plural": "wisten"
-          },
-          "pastParticiple": "geweten",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Ik weet het antwoord.",
-        "Weet jij de weg?"
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我知道答案。",
-          "你知道路吗？"
-        ],
-        "english": [
-          "I know the answer.",
-          "Do you know the way?"
-        ]
-      },
-      "notes": "不规则动词",
-      "difficulty": "B1"
-    },
-    {
       "id": 4180,
       "word": "teamgeest",
       "translation": {
@@ -583,38 +512,6 @@
         "english": [
           "There was little opposition.",
           "The plan met with resistance."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B1"
-    },
-    {
-      "id": 4182,
-      "word": "televisie",
-      "translation": {
-        "chinese": "电视",
-        "english": "television"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "televisie",
-          "plural": "-"
-        }
-      },
-      "examples": [
-        "We kijken televisie.",
-        "De televisie staat in de woonkamer."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我们看电视。",
-          "电视在客厅里。"
-        ],
-        "english": [
-          "We watch television.",
-          "The television is in the living room."
         ]
       },
       "notes": "名词",
@@ -710,32 +607,6 @@
         ]
       },
       "notes": "形容词，医学用语",
-      "difficulty": "B1"
-    },
-    {
-      "id": 4186,
-      "word": "terwijl",
-      "translation": {
-        "chinese": "当...时候",
-        "english": "while"
-      },
-      "partOfSpeech": "conjunction",
-      "forms": {},
-      "examples": [
-        "Hij zong, terwijl hij liep.",
-        "Terwijl het regende, gingen we buiten."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他边走边唱。",
-          "下雨时，我们出去了。"
-        ],
-        "english": [
-          "He sang while he walked.",
-          "While it rained, we went outside."
-        ]
-      },
-      "notes": "连词",
       "difficulty": "B1"
     },
     {
@@ -1194,38 +1065,6 @@
         ]
       },
       "notes": "介词",
-      "difficulty": "B1"
-    },
-    {
-      "id": 4200,
-      "word": "slot",
-      "translation": {
-        "chinese": "最后",
-        "english": "conclusion, end"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "slot",
-          "plural": "sloten"
-        }
-      },
-      "examples": [
-        "Het slot van de avond was prachtig.",
-        "Bij het slot van het gesprek."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "晚会结束时很精彩。",
-          "在谈话结束时。"
-        ],
-        "english": [
-          "The end of the evening was beautiful.",
-          "At the conclusion of the conversation."
-        ]
-      },
-      "notes": "名词，常与tot连用",
       "difficulty": "B1"
     },
     {
