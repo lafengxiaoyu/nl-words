@@ -1,0 +1,1714 @@
+{
+  "id": "lB144",
+  "level": "B1",
+  "lessonNumber": 44,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 4065,
+      "word": "postbode",
+      "translation": {
+        "chinese": "邮递员",
+        "english": "mail carrier, postman"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "postbode",
+          "plural": "postbodes"
+        }
+      },
+      "examples": [
+        "De postbode brengt de post.",
+        "De postbode kwam laat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "邮递员送来邮件。",
+          "邮递员来晚了。"
+        ],
+        "english": [
+          "The mail carrier brings the mail.",
+          "The postman came late."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4066,
+      "word": "potdicht",
+      "translation": {
+        "chinese": "紧闭的, 密封的",
+        "english": "tightly closed, sealed"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "potdicht",
+          "withDe": "potdichte",
+          "withHet": "potdichte",
+          "comparative": "potdichter",
+          "superlative": "het potdichtst"
+        }
+      },
+      "examples": [
+        "De deur staat potdicht.",
+        "Het pakje was potdicht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "门紧闭着。",
+          "包装袋密封着。"
+        ],
+        "english": [
+          "The door is tightly closed.",
+          "The package is sealed."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4067,
+      "word": "poëtisch",
+      "translation": {
+        "chinese": "诗意的",
+        "english": "poetic"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "poëtisch",
+          "withDe": "poëtische",
+          "withHet": "poëtische",
+          "comparative": "poëtischer",
+          "superlative": "het poëtischst"
+        }
+      },
+      "examples": [
+        "Zijn schrijfstijl is heel poëtisch.",
+        "Het landschap is poëtisch mooi."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的文笔非常诗意。",
+          "风景如诗般美丽。"
+        ],
+        "english": [
+          "His writing style is very poetic.",
+          "The landscape is poetically beautiful."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4068,
+      "word": "prangend",
+      "translation": {
+        "chinese": "迫切的, 紧迫的",
+        "english": "pressing, urgent"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "prangend",
+          "withDe": "prangende",
+          "withHet": "prangende",
+          "comparative": "prangender",
+          "superlative": "het prangendst"
+        }
+      },
+      "examples": [
+        "Er is een prangende kwestie om op te lossen.",
+        "De situatie is prangend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "有一个迫切的问题需要解决。",
+          "情况紧迫。"
+        ],
+        "english": [
+          "There is a pressing issue to solve.",
+          "The situation is urgent."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4069,
+      "word": "prediken",
+      "translation": {
+        "chinese": "布道, 说教",
+        "english": "to preach"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "prediken",
+          "isSeparable": false,
+          "present": {
+            "ik": "predik",
+            "jij": "predikt",
+            "hij": "predikt",
+            "wij": "prediken",
+            "jullie": "prediken",
+            "zij": "prediken"
+          },
+          "past": {
+            "singular": "predikte",
+            "plural": "predikten"
+          },
+          "pastParticiple": "gepredikt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De dominee preekt op zondag.",
+        "Hij preekt zijn meningen aan anderen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "牧师在周日布道。",
+          "他对别人说教。"
+        ],
+        "english": [
+          "The minister preaches on Sunday.",
+          "He preaches his views to others."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4070,
+      "word": "prenataal",
+      "translation": {
+        "chinese": "产前的",
+        "english": "prenatal"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "prenataal",
+          "withDe": "prenatale",
+          "withHet": "prenatale",
+          "comparative": "prenataal",
+          "superlative": "het prenataalst"
+        }
+      },
+      "examples": [
+        "Prenatale zorg is belangrijk.",
+        "Zij kreeg prenataal onderzoek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "产前护理很重要。",
+          "她接受了产前检查。"
+        ],
+        "english": [
+          "Prenatal care is important.",
+          "She received prenatal testing."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4071,
+      "word": "preparaat",
+      "translation": {
+        "chinese": "标本, 制剂",
+        "english": "specimen, preparation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "preparaat",
+          "plural": "preparaten"
+        }
+      },
+      "examples": [
+        "Het preparaat wordt in het lab bewaard.",
+        "De preparaten werden onderzocht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "标本保存在实验室。",
+          "这些标本被检查了。"
+        ],
+        "english": [
+          "The specimen is stored in the lab.",
+          "The preparations were examined."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4072,
+      "word": "prestige",
+      "translation": {
+        "chinese": "声望, 威望",
+        "english": "prestige"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "prestige",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het bedrijf heeft veel prestige.",
+        "De universiteit geniet internationaal prestige."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这家公司声望很高。",
+          "这所大学享有国际声望。"
+        ],
+        "english": [
+          "The company has much prestige.",
+          "The university enjoys international prestige."
+        ]
+      },
+      "notes": "名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4073,
+      "word": "primeren",
+      "translation": {
+        "chinese": "打底, 做准备",
+        "english": "to prime"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "primeren",
+          "isSeparable": false,
+          "present": {
+            "ik": "primeer",
+            "jij": "primeert",
+            "hij": "primeert",
+            "wij": "primeren",
+            "jullie": "primeren",
+            "zij": "primeren"
+          },
+          "past": {
+            "singular": "primeerde",
+            "plural": "primeerden"
+          },
+          "pastParticiple": "geprimeerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Eerst de muur primen.",
+        "Hij primeerde de ondergrond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "先给墙壁打底。",
+          "他给地面做了准备。"
+        ],
+        "english": [
+          "First prime the wall.",
+          "He primed the surface."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4074,
+      "word": "processie",
+      "translation": {
+        "chinese": "游行队伍",
+        "english": "procession"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "processie",
+          "plural": "processies"
+        }
+      },
+      "examples": [
+        "De processie loopt door de straat.",
+        "Wij sloten ons aan de processie aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "游行队伍在街上走。",
+          "我们参加了游行。"
+        ],
+        "english": [
+          "The procession walks through the street.",
+          "We joined the procession."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4075,
+      "word": "proefrit",
+      "translation": {
+        "chinese": "试驾",
+        "english": "test drive"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "proefrit",
+          "plural": "proefritten"
+        }
+      },
+      "examples": [
+        "Ik wil graag een proefrit maken.",
+        "De proefrit was geslaagd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我想试驾一下。",
+          "试驾很成功。"
+        ],
+        "english": [
+          "I would like to take a test drive.",
+          "The test drive was successful."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4076,
+      "word": "prognose",
+      "translation": {
+        "chinese": "预后, 预测",
+        "english": "prognosis, forecast"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "prognose",
+          "plural": "prognoses"
+        }
+      },
+      "examples": [
+        "De prognose is gunstig.",
+        "De weerprognose is goed voor het weekend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "预后良好。",
+          "周末天气预报很好。"
+        ],
+        "english": [
+          "The prognosis is favorable.",
+          "The weather forecast is good for the weekend."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4077,
+      "word": "pronkstuk",
+      "translation": {
+        "chinese": "精品, 珍品",
+        "english": "showpiece, masterpiece"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "pronkstuk",
+          "plural": "pronkstukken"
+        }
+      },
+      "examples": [
+        "Dit museum pronkstuk is eeuwenoud.",
+        "Het pronkstuk trok veel bezoekers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个博物馆珍品是几个世纪的古董。",
+          "这件精品吸引了许多游客。"
+        ],
+        "english": [
+          "This museum showpiece is centuries old.",
+          "The masterpiece attracted many visitors."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4078,
+      "word": "prostaat",
+      "translation": {
+        "chinese": "前列腺",
+        "english": "prostate"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "prostaat",
+          "plural": "prostaten"
+        }
+      },
+      "examples": [
+        "De prostaat is een orgaan bij mannen.",
+        "Hij heeft prostaatproblemen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "前列腺是男性的一个器官。",
+          "他有前列腺问题。"
+        ],
+        "english": [
+          "The prostate is an organ in men.",
+          "He has prostate problems."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4079,
+      "word": "psychose",
+      "translation": {
+        "chinese": "精神错乱, 精神病",
+        "english": "psychosis"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "psychose",
+          "plural": "psychoses"
+        }
+      },
+      "examples": [
+        "Hij heeft een psychose gehad.",
+        "De patiënt lijdt aan een psychose."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他曾经患过精神病。",
+          "患者患有精神病。"
+        ],
+        "english": [
+          "He had a psychosis.",
+          "The patient suffers from a psychosis."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4080,
+      "word": "raadgever",
+      "translation": {
+        "chinese": "顾问, 参赞",
+        "english": "adviser, councilor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "raadgever",
+          "plural": "raadgevers"
+        }
+      },
+      "examples": [
+        "De raadgever gaf goed advies.",
+        "Zij raadpleegde de raadgever."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "顾问给出了很好的建议。",
+          "她咨询了顾问。"
+        ],
+        "english": [
+          "The adviser gave good advice.",
+          "She consulted the adviser."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4081,
+      "word": "raadslid",
+      "translation": {
+        "chinese": "议员",
+        "english": "council member, councilor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "raadslid",
+          "plural": "raadsleden"
+        }
+      },
+      "examples": [
+        "Het raadslid sprak in de gemeenteraad.",
+        "Zij is gekozen als raadslid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "议员在市议会上发言。",
+          "她被选为议员。"
+        ],
+        "english": [
+          "The council member spoke in the city council.",
+          "She was elected as a councilor."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4082,
+      "word": "raakvlak",
+      "translation": {
+        "chinese": "接触点, 交集",
+        "english": "interface, contact point"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "raakvlak",
+          "plural": "raakvlakken"
+        }
+      },
+      "examples": [
+        "Er zijn verschillende raakvlakken tussen de projecten.",
+        "Het raakvlak tussen kunst en wetenschap is interessant."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "项目之间有多个接触点。",
+          "艺术与科学的交集很有趣。"
+        ],
+        "english": [
+          "There are various interfaces between the projects.",
+          "The interface between art and science is interesting."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4083,
+      "word": "rammelen",
+      "translation": {
+        "chinese": "撞击, 碰撞",
+        "english": "to ram, to collide"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "rammelen",
+          "isSeparable": true,
+          "prefix": "ram",
+          "present": {
+            "ik": "ram aan",
+            "jij": "ramt aan",
+            "hij": "ramt aan",
+            "wij": "rammen aan",
+            "jullie": "rammen aan",
+            "zij": "rammen aan"
+          },
+          "past": {
+            "singular": "ramde aan",
+            "plural": "ramden aan"
+          },
+          "pastParticiple": "aangeramd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij ramde aan de deur.",
+        "De boot ramde aan de pier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他撞了门。",
+          "船撞上了码头。"
+        ],
+        "english": [
+          "He rammed the door.",
+          "The boat collided with the pier."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4084,
+      "word": "rampzalig",
+      "translation": {
+        "chinese": "灾难性的",
+        "english": "disastrous, disastrous"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "rampzalig",
+          "withDe": "rampzalige",
+          "withHet": "rampzalige",
+          "comparative": "rampzaliger",
+          "superlative": "het rampzaligst"
+        }
+      },
+      "examples": [
+        "Het was een rampzalige beslissing.",
+        "De rampzalige gevolgen waren enorm."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个灾难性的决定。",
+          "灾难性后果巨大。"
+        ],
+        "english": [
+          "It was a disastrous decision.",
+          "The disastrous consequences were enormous."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4085,
+      "word": "ranglijst",
+      "translation": {
+        "chinese": "排名表, 榜单",
+        "english": "ranking list, scoreboard"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ranglijst",
+          "plural": "ranglijsten"
+        }
+      },
+      "examples": [
+        "Hij staat hoog op de ranglijst.",
+        "De ranglijst is gisteren gepubliceerd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在排名表上名列前茅。",
+          "排名表昨天公布了。"
+        ],
+        "english": [
+          "He ranks high on the list.",
+          "The ranking list was published yesterday."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4086,
+      "word": "rangorde",
+      "translation": {
+        "chinese": "等级制度, 级别",
+        "english": "hierarchy, ranking"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rangorde",
+          "plural": "rangordes"
+        }
+      },
+      "examples": [
+        "Respecteer de rangorde binnen het leger.",
+        "De rangorde bepaalt wie er aan de beurt is."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "尊重军队内的等级制度。",
+          "级别决定轮到谁。"
+        ],
+        "english": [
+          "Respect the hierarchy within the army.",
+          "The ranking determines who is next."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4087,
+      "word": "rauwkost",
+      "translation": {
+        "chinese": "生菜, 生食",
+        "english": "raw vegetables, raw food"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rauwkost",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Ik lust graag rauwkost.",
+        "Er wordt rauwkost bij de maaltijd geserveerd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喜欢吃生菜。",
+          "正餐时提供生菜。"
+        ],
+        "english": [
+          "I like raw vegetables.",
+          "Raw vegetables are served with the meal."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4088,
+      "word": "receptuur",
+      "translation": {
+        "chinese": "配方, 处方",
+        "english": "recipe, formula"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "receptuur",
+          "plural": "recepturen"
+        }
+      },
+      "examples": [
+        "De receptuur van dit medicijn is geheim.",
+        "Ze volgde de receptuur nauwgezet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这种药物的配方是保密的。",
+          "她仔细遵循配方。"
+        ],
+        "english": [
+          "The formula of this medicine is secret.",
+          "She followed the recipe carefully."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4089,
+      "word": "recreëren",
+      "translation": {
+        "chinese": "休闲, 娱乐",
+        "english": "to relax, to recreate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "recreëren",
+          "isSeparable": false,
+          "present": {
+            "ik": "creëer",
+            "jij": "creëert",
+            "hij": "creëert",
+            "wij": "creëren",
+            "jullie": "creëren",
+            "zij": "creëren"
+          },
+          "past": {
+            "singular": "creëerde",
+            "plural": "creëerden"
+          },
+          "pastParticiple": "gerecreëerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Mensen recreëren graag in het park.",
+        "De regio is ideaal om te recreëren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "人们喜欢在公园里休闲。",
+          "这个地区适合休闲。"
+        ],
+        "english": [
+          "People like to recreate in the park.",
+          "The region is ideal for leisure."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4090,
+      "word": "redmiddel",
+      "translation": {
+        "chinese": "补救方法, 解救之道",
+        "english": "remedy, solution"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "redmiddel",
+          "plural": "redmiddelen"
+        }
+      },
+      "examples": [
+        "Er is geen redmiddel voor dit probleem.",
+        "Ze zocht een redmiddel voor haar situatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个问题没有补救方法。",
+          "她为自己处境寻找解决办法。"
+        ],
+        "english": [
+          "There is no remedy for this problem.",
+          "She looked for a solution to her situation."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4091,
+      "word": "referent",
+      "translation": {
+        "chinese": "推荐人, 介绍人",
+        "english": "referee, reference"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "referent",
+          "plural": "referenten"
+        }
+      },
+      "examples": [
+        "De referent bevestigde haar ervaring.",
+        "Heb je referenten voor deze functie?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "推荐人确认了她的经验。",
+          "你有这个职位的推荐人吗？"
+        ],
+        "english": [
+          "The reference confirmed her experience.",
+          "Do you have referees for this position?"
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4092,
+      "word": "regisseur",
+      "translation": {
+        "chinese": "导演",
+        "english": "director"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "regisseur",
+          "plural": "regisseurs"
+        }
+      },
+      "examples": [
+        "De regisseur won een prijs.",
+        "Hij is regisseur van deze film."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "导演获奖了。",
+          "他是这部电影的导演。"
+        ],
+        "english": [
+          "The director won an award.",
+          "He is the director of this film."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4093,
+      "word": "reglement",
+      "translation": {
+        "chinese": "规章, 规则",
+        "english": "regulation, rules"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "reglement",
+          "plural": "reglementen"
+        }
+      },
+      "examples": [
+        "Het reglement wordt strikt nageleefd.",
+        "Lees het reglement voordat je begint."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "规章被严格遵守。",
+          "开始前请阅读规则。"
+        ],
+        "english": [
+          "The regulations are strictly followed.",
+          "Read the rules before you start."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4094,
+      "word": "rekensom",
+      "translation": {
+        "chinese": "算术题, 计算",
+        "english": "calculation, arithmetic problem"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rekensom",
+          "plural": "rekensommen"
+        }
+      },
+      "examples": [
+        "De kinderen maken een rekensom.",
+        "De rekensom was moeilijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "孩子们在做算术题。",
+          "这道算术题很难。"
+        ],
+        "english": [
+          "The children are doing arithmetic.",
+          "The calculation was difficult."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4095,
+      "word": "reuzenrad",
+      "translation": {
+        "chinese": "摩天轮",
+        "english": "ferris wheel"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "reuzenrad",
+          "plural": "reuzenrads"
+        }
+      },
+      "examples": [
+        "We gingen in het reuzenrad.",
+        "Het reuzenrad is het hoogste attractie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们坐了摩天轮。",
+          "摩天轮是最高的游乐设施。"
+        ],
+        "english": [
+          "We went on the ferris wheel.",
+          "The ferris wheel is the highest attraction."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4096,
+      "word": "riolering",
+      "translation": {
+        "chinese": "下水道系统",
+        "english": "sewer system, sewage"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "riolering",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De riolering is verstopt.",
+        "Er wordt gewerkt aan de riolering."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "下水道堵塞了。",
+          "正在修下水道系统。"
+        ],
+        "english": [
+          "The sewer system is blocked.",
+          "Work is being done on the sewage system."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4097,
+      "word": "roeispaan",
+      "translation": {
+        "chinese": "船桨",
+        "english": "oar"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "roeispaan",
+          "plural": "roeispanen"
+        }
+      },
+      "examples": [
+        "Hij greep de roeispaan vast.",
+        "De roeispaan brak tijdens het roeien."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他握紧了船桨。",
+          "划船时船桨断了。"
+        ],
+        "english": [
+          "He grabbed the oar firmly.",
+          "The oar broke during rowing."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4098,
+      "word": "roemrucht",
+      "translation": {
+        "chinese": "名声, 声誉",
+        "english": "fame, reputation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "roemrucht",
+          "plural": "roemruuchten"
+        }
+      },
+      "examples": [
+        "Hij geniet grote roemrucht.",
+        "De roemrucht van de stad nam toe."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他享有很高的声誉。",
+          "城市的名声增长了。"
+        ],
+        "english": [
+          "He enjoys great reputation.",
+          "The fame of the city grew."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4099,
+      "word": "rommelhok",
+      "translation": {
+        "chinese": "杂物间",
+        "english": "junk room, storage room"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "rommelhok",
+          "plural": "rommelhokken"
+        }
+      },
+      "examples": [
+        "Er staat veel in het rommelhok.",
+        "Ze ruimde het rommelhok op."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "杂物间里有很多东西。",
+          "她清理了杂物间。"
+        ],
+        "english": [
+          "There is a lot in the junk room.",
+          "She cleaned up the storage room."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4100,
+      "word": "roofvogel",
+      "translation": {
+        "chinese": "猛禽",
+        "english": "bird of prey, raptor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "roofvogel",
+          "plural": "roofvogels"
+        }
+      },
+      "examples": [
+        "De roofvogel cirkelde boven zijn prooi.",
+        "De roofvogel jaagt op zijn prooi."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "猛禽在猎物上方盘旋。",
+          "猛禽追逐猎物。"
+        ],
+        "english": [
+          "The bird of prey circled above its prey.",
+          "The raptor hunts its prey."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4101,
+      "word": "rookworst",
+      "translation": {
+        "chinese": "熏香肠",
+        "english": "smoked sausage"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rookworst",
+          "plural": "rookworsten"
+        }
+      },
+      "examples": [
+        "Ik lust graag rookworst bij mijn stamppot.",
+        "De rookworst wordt in de winkel verkocht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喜欢配熏香肠的土豆泥。",
+          "商店卖熏香肠。"
+        ],
+        "english": [
+          "I like smoked sausage with my mash.",
+          "The smoked sausage is sold in the store."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4102,
+      "word": "routineus",
+      "translation": {
+        "chinese": "常规的, 例行公事的",
+        "english": "routine, conventional"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "routineus",
+          "withDe": "routineuse",
+          "withHet": "routineuse",
+          "comparative": "routineuser",
+          "superlative": "het routineust"
+        }
+      },
+      "examples": [
+        "Het werk is best routineus.",
+        "De routineuse handelingen werden uitgevoerd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "工作大多是例行公事。",
+          "例行操作被执行了。"
+        ],
+        "english": [
+          "The work is mostly routine.",
+          "The routine operations were carried out."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4103,
+      "word": "rouwboek",
+      "translation": {
+        "chinese": "悼词集",
+        "english": "book of condolences"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rouwboek",
+          "plural": "rouwboeken"
+        }
+      },
+      "examples": [
+        "De familie bracht een rouwboek uit.",
+        "In het rouwboek worden herinneringen opgeschreven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "家人出版了悼词集。",
+          "悼词集中记录了回忆。"
+        ],
+        "english": [
+          "The family published a book of condolences.",
+          "Memories are written in the condolence book."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4104,
+      "word": "samenspel",
+      "translation": {
+        "chinese": "配合, 协作",
+        "english": "cooperation, collaboration"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "samenspel",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het samenspel tussen de collega's was uitstekend.",
+        "Goed samenspel is belangrijk voor succes."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "同事之间的配合很出色。",
+          "良好的协作对成功很重要。"
+        ],
+        "english": [
+          "The cooperation between colleagues was excellent.",
+          "Good collaboration is important for success."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4105,
+      "word": "satirisch",
+      "translation": {
+        "chinese": "讽刺的",
+        "english": "satirical"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "satirisch",
+          "withDe": "satirische",
+          "withHet": "satirische",
+          "comparative": "satirischer",
+          "superlative": "het satirischst"
+        }
+      },
+      "examples": [
+        "Het programma is satirisch van aard.",
+        "Hij maakte een satirische tekening."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个节目具有讽刺性质。",
+          "他画了一幅讽刺画。"
+        ],
+        "english": [
+          "The program is satirical in nature.",
+          "He made a satirical drawing."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4106,
+      "word": "scharnier",
+      "translation": {
+        "chinese": "铰链, 合页",
+        "english": "hinge"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "scharnier",
+          "plural": "scharnieren"
+        }
+      },
+      "examples": [
+        "De scharnier is kapot.",
+        "De deur knipt aan het scharnier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "铰链坏了。",
+          "门在铰链处吱吱作响。"
+        ],
+        "english": [
+          "The hinge is broken.",
+          "The door squeaks at the hinge."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4107,
+      "word": "schimmen",
+      "translation": {
+        "chinese": "影子, 幽灵",
+        "english": "shadows, ghosts"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "schim",
+          "plural": "schimmen"
+        }
+      },
+      "examples": [
+        "De schimmen dansen aan de muur.",
+        "Hij zag schimmen in het donker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "影子在墙上舞动。",
+          "他在黑暗中看到了影子。"
+        ],
+        "english": [
+          "Shadows dance on the wall.",
+          "He saw shadows in the dark."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4108,
+      "word": "schikking",
+      "translation": {
+        "chinese": "调解, 和解",
+        "english": "settlement, arrangement"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "schikking",
+          "plural": "schikkingen"
+        }
+      },
+      "examples": [
+        "De partijen kwamen tot een schikking.",
+        "Een schikking voorkomt een rechtszaak."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "各方达成了和解。",
+          "和解避免了诉讼。"
+        ],
+        "english": [
+          "The parties reached a settlement.",
+          "A settlement avoids a lawsuit."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4109,
+      "word": "schminken",
+      "translation": {
+        "chinese": "化妆",
+        "english": "to make up, to paint"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "schminken",
+          "isSeparable": false,
+          "present": {
+            "ik": "schmink",
+            "jij": "schminkt",
+            "hij": "schminkt",
+            "wij": "schminken",
+            "jullie": "schminken",
+            "zij": "schminken"
+          },
+          "past": {
+            "singular": "schminkte",
+            "plural": "schminkten"
+          },
+          "pastParticiple": "geschminkt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De kinderen werden geschminkt.",
+        "Zij schminkt zich voor het toneelstuk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "孩子们化了妆。",
+          "她为戏剧表演化妆。"
+        ],
+        "english": [
+          "The children were made up.",
+          "She makes herself up for the play."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4110,
+      "word": "schommel",
+      "translation": {
+        "chinese": "秋千, 摇摆",
+        "english": "swing, rocking"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "schommel",
+          "plural": "schommels"
+        }
+      },
+      "examples": [
+        "De kinderen spelen op de schommel.",
+        "De prijzen schommelen voortdurend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "孩子们在玩秋千。",
+          "价格不断波动。"
+        ],
+        "english": [
+          "The children play on the swing.",
+          "Prices fluctuate continuously."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4111,
+      "word": "schoonzus",
+      "translation": {
+        "chinese": "嫂子, 弟媳",
+        "english": "sister-in-law"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "schoonzus",
+          "plural": "schoonzussen"
+        }
+      },
+      "examples": [
+        "Mijn schoonzus komt vandaag langs.",
+        "Zij is de schoonzus van mijn vrouw."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我嫂子今天要来。",
+          "她是我妻子的嫂子。"
+        ],
+        "english": [
+          "My sister-in-law is coming today.",
+          "She is my wife's sister-in-law."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4112,
+      "word": "schorsing",
+      "translation": {
+        "chinese": "停职, 停学",
+        "english": "suspension"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "schorsing",
+          "plural": "schorsingen"
+        }
+      },
+      "examples": [
+        "De speler kreeg een schorsing.",
+        "De schorsing geldt voor twee weken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "球员被停赛了。",
+          "停职期为期两周。"
+        ],
+        "english": [
+          "The player received a suspension.",
+          "The suspension applies for two weeks."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4113,
+      "word": "schorten",
+      "translation": {
+        "chinese": "暂停, 中止",
+        "english": "to suspend, to interrupt"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "schorten",
+          "isSeparable": false,
+          "present": {
+            "ik": "schort",
+            "jij": "schortt",
+            "hij": "schortt",
+            "wij": "schorten",
+            "jullie": "schorten",
+            "zij": "schorten"
+          },
+          "past": {
+            "singular": "schortte",
+            "plural": "schortten"
+          },
+          "pastParticiple": "geschort",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zij schortte het werk op.",
+        "De vergadering werd geschort."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她暂停了工作。",
+          "会议被中止了。"
+        ],
+        "english": [
+          "She suspended the work.",
+          "The meeting was interrupted."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4114,
+      "word": "schrijden",
+      "translation": {
+        "chinese": "大步走, 前行",
+        "english": "to stride, to walk"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "schrijden",
+          "isSeparable": false,
+          "present": {
+            "ik": "schrijd",
+            "jij": "schrijdt",
+            "hij": "schrijdt",
+            "wij": "schrijden",
+            "jullie": "schrijden",
+            "zij": "schrijden"
+          },
+          "past": {
+            "singular": "schreed",
+            "plural": "schreden"
+          },
+          "pastParticiple": "geschreden",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Hij schreed voortvarend door de gang.",
+        "De bruid schrijdt naar het altaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他大步穿过走廊。",
+          "新娘走向圣坛。"
+        ],
+        "english": [
+          "He strode rapidly through the hallway.",
+          "The bride walks toward the altar."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    }
+  ]
+}

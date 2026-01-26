@@ -1,0 +1,170 @@
+{
+  "id": "lB150",
+  "level": "B1",
+  "lessonNumber": 50,
+  "totalWords": 5,
+  "words": [
+    {
+      "id": 4365,
+      "word": "zuurstof",
+      "translation": {
+        "chinese": "氧气",
+        "english": "oxygen"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zuurstof",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Mensen hebben zuurstof nodig.",
+        "De zuurstof in de lucht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "人需要氧气。",
+          "空气中的氧气。"
+        ],
+        "english": [
+          "Humans need oxygen.",
+          "The oxygen in the air."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4366,
+      "word": "zwerfkat",
+      "translation": {
+        "chinese": "流浪猫",
+        "english": "stray cat"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zwerfkat",
+          "plural": "zwerfkatten"
+        }
+      },
+      "examples": [
+        "De zwerfkat zoekt eten.",
+        "Zij vangt zwerfkatten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "流浪猫在找食物。",
+          "她收养流浪猫。"
+        ],
+        "english": [
+          "The stray cat looks for food.",
+          "She catches stray cats."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4367,
+      "word": "zweterig",
+      "translation": {
+        "chinese": "多汗的",
+        "english": "sweaty"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "zweterig",
+          "withDe": "zweterige",
+          "withHet": "zweterige",
+          "comparative": "zweteriger",
+          "superlative": "het zweterigst"
+        }
+      },
+      "examples": [
+        "Na het sporten voel ik me zweterig.",
+        "Een zweterige dag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "运动后我感觉很热。",
+          "一个出汗的一天。"
+        ],
+        "english": [
+          "After sports I feel sweaty.",
+          "A sweaty day."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4368,
+      "word": "zweed",
+      "translation": {
+        "chinese": "瑞典人",
+        "english": "Swede"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "Zweed",
+          "plural": "Zweden"
+        }
+      },
+      "examples": [
+        "De Zweed spreekt Nederlands.",
+        "Een vriendelijke Zweed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个瑞典人说荷兰语。",
+          "一个友好的瑞典人。"
+        ],
+        "english": [
+          "The Swede speaks Dutch.",
+          "A friendly Swede."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4369,
+      "word": "zweden",
+      "translation": {
+        "chinese": "瑞典",
+        "english": "Sweden"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "Zweden",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Zweden ligt in Europa.",
+        "Wij bezoeken Zweden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "瑞典在欧洲。",
+          "我们访问瑞典。"
+        ],
+        "english": [
+          "Sweden is in Europe.",
+          "We visit Sweden."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    }
+  ]
+}

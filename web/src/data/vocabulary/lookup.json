@@ -13087,7 +13087,10 @@
     "id": 1341,
     "word": "akkoord",
     "level": "B1",
-    "partOfSpeech": "noun",
+    "partOfSpeech": [
+      "noun",
+      "adjective"
+    ],
     "translation": {
       "chinese": "同意、一致",
       "english": "agreement, consent"
@@ -26003,6 +26006,26 @@
       "english": "novel"
     }
   },
+  "2868": {
+    "id": 2868,
+    "word": "spijt",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "遗憾、后悔",
+      "english": "regret, remorse"
+    }
+  },
+  "2869": {
+    "id": 2869,
+    "word": "stadion",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "体育场、运动场",
+      "english": "stadium"
+    }
+  },
   "2918": {
     "id": 2918,
     "word": "uitdaging",
@@ -27063,6 +27086,16 @@
       "english": "offer, special"
     }
   },
+  "3168": {
+    "id": 3168,
+    "word": "bagage",
+    "level": "A2",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "行李",
+      "english": "luggage, baggage"
+    }
+  },
   "3169": {
     "id": 3169,
     "word": "huisarts",
@@ -27071,6 +27104,26 @@
     "translation": {
       "chinese": "家庭医生",
       "english": "GP, family doctor"
+    }
+  },
+  "3170": {
+    "id": 3170,
+    "word": "kassa",
+    "level": "A2",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "收银台",
+      "english": "cash register, checkout"
+    }
+  },
+  "3171": {
+    "id": 3171,
+    "word": "verdieping",
+    "level": "A2",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "楼层",
+      "english": "floor"
     }
   },
   "3172": {
@@ -27083,6 +27136,16 @@
       "english": "potato"
     }
   },
+  "3173": {
+    "id": 3173,
+    "word": "beleefd",
+    "level": "A2",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "礼貌的",
+      "english": "polite"
+    }
+  },
   "3174": {
     "id": 3174,
     "word": "goedkoop",
@@ -27091,6 +27154,26 @@
     "translation": {
       "chinese": "便宜的",
       "english": "cheap, inexpensive"
+    }
+  },
+  "3175": {
+    "id": 3175,
+    "word": "handig",
+    "level": "A2",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "好用的,方便的",
+      "english": "handy, convenient"
+    }
+  },
+  "3176": {
+    "id": 3176,
+    "word": "lelijk",
+    "level": "A2",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "丑陋的",
+      "english": "ugly"
     }
   },
   "3177": {
@@ -27351,6 +27434,16 @@
     "translation": {
       "chinese": "测量",
       "english": "to measure"
+    }
+  },
+  "3203": {
+    "id": 3203,
+    "word": "afnemen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "减少,购买",
+      "english": "to decrease, to buy"
     }
   },
   "3204": {
@@ -27623,6 +27716,26 @@
       "english": "otherwise, differently"
     }
   },
+  "3232": {
+    "id": 3232,
+    "word": "angstig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "害怕的",
+      "english": "afraid, fearful"
+    }
+  },
+  "3233": {
+    "id": 3233,
+    "word": "anoniem",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "匿名的",
+      "english": "anonymous"
+    }
+  },
   "3234": {
     "id": 3234,
     "word": "apparat",
@@ -27651,6 +27764,16 @@
     "translation": {
       "chinese": "怀疑",
       "english": "suspicion, doubt"
+    }
+  },
+  "3237": {
+    "id": 3237,
+    "word": "armoede",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "贫困",
+      "english": "poverty"
     }
   },
   "3238": {
@@ -27703,6 +27826,16 @@
       "english": "studio, workshop"
     }
   },
+  "3243": {
+    "id": 3243,
+    "word": "atleet",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "运动员",
+      "english": "athlete"
+    }
+  },
   "3244": {
     "id": 3244,
     "word": "attent",
@@ -27733,6 +27866,26 @@
       "english": "autism"
     }
   },
+  "3247": {
+    "id": 3247,
+    "word": "bakker",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "面包师",
+      "english": "baker"
+    }
+  },
+  "3248": {
+    "id": 3248,
+    "word": "balans",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "平衡",
+      "english": "balance"
+    }
+  },
   "3249": {
     "id": 3249,
     "word": "balkon",
@@ -27751,6 +27904,16 @@
     "translation": {
       "chinese": "宴会,糕点",
       "english": "banquet, pastry"
+    }
+  },
+  "3251": {
+    "id": 3251,
+    "word": "bankpas",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "银行卡",
+      "english": "bank card"
     }
   },
   "3252": {
@@ -27833,6 +27996,16 @@
       "english": "gifted, bestowed"
     }
   },
+  "3260": {
+    "id": 3260,
+    "word": "bedrag",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "金额",
+      "english": "amount, sum"
+    }
+  },
   "3261": {
     "id": 3261,
     "word": "bedrog",
@@ -27893,6 +28066,16 @@
       "english": "to desire, to crave"
     }
   },
+  "3267": {
+    "id": 3267,
+    "word": "begrip",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "理解,概念",
+      "english": "understanding, concept"
+    }
+  },
   "3268": {
     "id": 3268,
     "word": "behagen",
@@ -27911,6 +28094,16 @@
     "translation": {
       "chinese": "获得",
       "english": "to achieve, to obtain"
+    }
+  },
+  "3270": {
+    "id": 3270,
+    "word": "behalve",
+    "level": "B1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "除...之外",
+      "english": "except for, besides"
     }
   },
   "3271": {
@@ -27963,6 +28156,16 @@
       "english": "to hunt"
     }
   },
+  "3276": {
+    "id": 3276,
+    "word": "bekend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "著名的",
+      "english": "famous, known"
+    }
+  },
   "3277": {
     "id": 3277,
     "word": "bekende",
@@ -27993,6 +28196,16 @@
       "english": "concise, brief"
     }
   },
+  "3280": {
+    "id": 3280,
+    "word": "bekwaam",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "称职的",
+      "english": "competent, qualified"
+    }
+  },
   "3281": {
     "id": 3281,
     "word": "belagen",
@@ -28003,6 +28216,66 @@
       "english": "to harass, to annoy"
     }
   },
+  "3282": {
+    "id": 3282,
+    "word": "belang",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "利益,重要性",
+      "english": "interest, importance"
+    }
+  },
+  "3283": {
+    "id": 3283,
+    "word": "beleid",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "政策",
+      "english": "policy"
+    }
+  },
+  "3284": {
+    "id": 3284,
+    "word": "beleven",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "体验",
+      "english": "to experience"
+    }
+  },
+  "3285": {
+    "id": 3285,
+    "word": "belofte",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "诺言",
+      "english": "promise"
+    }
+  },
+  "3286": {
+    "id": 3286,
+    "word": "belonen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "奖励",
+      "english": "to reward"
+    }
+  },
+  "3287": {
+    "id": 3287,
+    "word": "beloven",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "承诺",
+      "english": "to promise"
+    }
+  },
   "3288": {
     "id": 3288,
     "word": "benauwd",
@@ -28011,6 +28284,16 @@
     "translation": {
       "chinese": "闷热的,焦虑的",
       "english": "stuffy, anxious"
+    }
+  },
+  "3289": {
+    "id": 3289,
+    "word": "beneden",
+    "level": "B1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在下面",
+      "english": "below, downstairs"
     }
   },
   "3290": {
@@ -28031,6 +28314,26 @@
     "translation": {
       "chinese": "预期的",
       "english": "intended, aimed"
+    }
+  },
+  "3292": {
+    "id": 3292,
+    "word": "bepaald",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "特定的",
+      "english": "specific, certain"
+    }
+  },
+  "3293": {
+    "id": 3293,
+    "word": "bepalen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "决定",
+      "english": "to determine, to decide"
     }
   },
   "3294": {
@@ -28061,6 +28364,16 @@
     "translation": {
       "chinese": "商议",
       "english": "to consult, to deliberate"
+    }
+  },
+  "3297": {
+    "id": 3297,
+    "word": "bericht",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "消息",
+      "english": "message, news"
     }
   },
   "3298": {
@@ -28233,6 +28546,26 @@
       "english": "guard, watchman"
     }
   },
+  "3315": {
+    "id": 3315,
+    "word": "bewaren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "保存",
+      "english": "to keep, to store"
+    }
+  },
+  "3316": {
+    "id": 3316,
+    "word": "bewegen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "移动",
+      "english": "to move, to exercise"
+    }
+  },
   "3317": {
     "id": 3317,
     "word": "beweren",
@@ -28241,6 +28574,16 @@
     "translation": {
       "chinese": "声称",
       "english": "to claim, to assert"
+    }
+  },
+  "3318": {
+    "id": 3318,
+    "word": "bewijs",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "证据",
+      "english": "proof, evidence"
     }
   },
   "3319": {
@@ -28303,6 +28646,16 @@
       "english": "to view, to examine"
     }
   },
+  "3325": {
+    "id": 3325,
+    "word": "bezorgd",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "担心的",
+      "english": "worried, concerned"
+    }
+  },
   "3326": {
     "id": 3326,
     "word": "bezwaar",
@@ -28321,6 +28674,26 @@
     "translation": {
       "chinese": "祈祷",
       "english": "to pray"
+    }
+  },
+  "3328": {
+    "id": 3328,
+    "word": "bieden",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "提供,出价",
+      "english": "to offer, to bid"
+    }
+  },
+  "3329": {
+    "id": 3329,
+    "word": "bijlage",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "附件",
+      "english": "attachment, enclosure"
     }
   },
   "3330": {
@@ -28493,6 +28866,16 @@
       "english": "to fascinate, to handcuff"
     }
   },
+  "3347": {
+    "id": 3347,
+    "word": "boeiend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "引人入胜的",
+      "english": "fascinating, interesting"
+    }
+  },
   "3348": {
     "id": 3348,
     "word": "boeken",
@@ -28573,6 +28956,16 @@
       "english": "to guarantee, to deposit"
     }
   },
+  "3356": {
+    "id": 3356,
+    "word": "botsen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "碰撞",
+      "english": "to collide, to crash"
+    }
+  },
   "3357": {
     "id": 3357,
     "word": "bovenal",
@@ -28601,6 +28994,36 @@
     "translation": {
       "chinese": "行业",
       "english": "sector, branch"
+    }
+  },
+  "3360": {
+    "id": 3360,
+    "word": "breedte",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "宽度",
+      "english": "width, breadth"
+    }
+  },
+  "3361": {
+    "id": 3361,
+    "word": "breien",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "编织",
+      "english": "to knit"
+    }
+  },
+  "3362": {
+    "id": 3362,
+    "word": "brengen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "带来",
+      "english": "to bring"
     }
   },
   "3363": {
@@ -28683,6 +29106,26 @@
       "english": "to roar, to shout"
     }
   },
+  "3371": {
+    "id": 3371,
+    "word": "brutaal",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "粗鲁的,大胆的",
+      "english": "rude, bold"
+    }
+  },
+  "3372": {
+    "id": 3372,
+    "word": "buigen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "弯曲",
+      "english": "to bend"
+    }
+  },
   "3373": {
     "id": 3373,
     "word": "bunker",
@@ -28703,6 +29146,36 @@
       "english": "castle, fortress"
     }
   },
+  "3375": {
+    "id": 3375,
+    "word": "bureau",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "书桌,办公室",
+      "english": "desk, office"
+    }
+  },
+  "3376": {
+    "id": 3376,
+    "word": "burger",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "公民,汉堡",
+      "english": "citizen, burger"
+    }
+  },
+  "3377": {
+    "id": 3377,
+    "word": "buurman",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "邻居-男",
+      "english": "neighbor (male)"
+    }
+  },
   "3378": {
     "id": 3378,
     "word": "cabaret",
@@ -28711,6 +29184,16 @@
     "translation": {
       "chinese": "卡巴莱",
       "english": "cabaret"
+    }
+  },
+  "3379": {
+    "id": 3379,
+    "word": "cadeau",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "礼物",
+      "english": "gift, present"
     }
   },
   "3380": {
@@ -28753,6 +29236,46 @@
       "english": "chlorine"
     }
   },
+  "3384": {
+    "id": 3384,
+    "word": "cijfer",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "数字,分数",
+      "english": "digit, number, grade"
+    }
+  },
+  "3385": {
+    "id": 3385,
+    "word": "cirkel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "圆圈",
+      "english": "circle"
+    }
+  },
+  "3386": {
+    "id": 3386,
+    "word": "citaat",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "引文",
+      "english": "quote, citation"
+    }
+  },
+  "3387": {
+    "id": 3387,
+    "word": "citeren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "引用",
+      "english": "to quote, to cite"
+    }
+  },
   "3388": {
     "id": 3388,
     "word": "cockpit",
@@ -28771,6 +29294,16 @@
     "translation": {
       "chinese": "西装外套",
       "english": "jacket, blazer"
+    }
+  },
+  "3390": {
+    "id": 3390,
+    "word": "collega",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "同事",
+      "english": "colleague"
     }
   },
   "3391": {
@@ -28803,6 +29336,16 @@
       "english": "future, prospective"
     }
   },
+  "3394": {
+    "id": 3394,
+    "word": "inbraak",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "入室盗窃",
+      "english": "burglary, break-in"
+    }
+  },
   "3395": {
     "id": 3395,
     "word": "inbreng",
@@ -28811,6 +29354,16 @@
     "translation": {
       "chinese": "贡献,投入",
       "english": "contribution, input"
+    }
+  },
+  "3396": {
+    "id": 3396,
+    "word": "inbreuk",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "侵犯",
+      "english": "infringement, violation"
     }
   },
   "3397": {
@@ -28873,6 +29426,26 @@
       "english": "grain, particle"
     }
   },
+  "3403": {
+    "id": 3403,
+    "word": "korting",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "折扣",
+      "english": "discount"
+    }
+  },
+  "3404": {
+    "id": 3404,
+    "word": "kortom",
+    "level": "B1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "简而言之",
+      "english": "in short, briefly"
+    }
+  },
   "3405": {
     "id": 3405,
     "word": "kotsen",
@@ -28913,6 +29486,16 @@
       "english": "to scratch"
     }
   },
+  "3409": {
+    "id": 3409,
+    "word": "kracht",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "力量",
+      "english": "strength, power"
+    }
+  },
   "3410": {
     "id": 3410,
     "word": "kraken",
@@ -28931,6 +29514,16 @@
     "translation": {
       "chinese": "紧缺",
       "english": "shortage, scarcity"
+    }
+  },
+  "3412": {
+    "id": 3412,
+    "word": "krediet",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "信用",
+      "english": "credit"
     }
   },
   "3413": {
@@ -28973,6 +29566,16 @@
       "english": "itch, tickle"
     }
   },
+  "3417": {
+    "id": 3417,
+    "word": "krijgen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "获得",
+      "english": "to get, to receive"
+    }
+  },
   "3418": {
     "id": 3418,
     "word": "krimpen",
@@ -28981,6 +29584,16 @@
     "translation": {
       "chinese": "收缩",
       "english": "to shrink, to contract"
+    }
+  },
+  "3419": {
+    "id": 3419,
+    "word": "kritiek",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "批评",
+      "english": "criticism"
     }
   },
   "3420": {
@@ -29031,6 +29644,16 @@
     "translation": {
       "chinese": "小盒,小桶",
       "english": "small tub, small container"
+    }
+  },
+  "3425": {
+    "id": 3425,
+    "word": "kunnen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "能够",
+      "english": "can, to be able to"
     }
   },
   "3426": {
@@ -29143,6 +29766,16 @@
       "english": "about, concerning"
     }
   },
+  "3437": {
+    "id": 3437,
+    "word": "omvang",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "范围,规模",
+      "english": "scope, size, scale"
+    }
+  },
   "3438": {
     "id": 3438,
     "word": "omzagen",
@@ -29151,6 +29784,16 @@
     "translation": {
       "chinese": "锯掉",
       "english": "to saw off"
+    }
+  },
+  "3439": {
+    "id": 3439,
+    "word": "ondanks",
+    "level": "B1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "尽管",
+      "english": "despite, in spite of"
     }
   },
   "3440": {
@@ -29211,6 +29854,16 @@
     "translation": {
       "chinese": "除非",
       "english": "unless"
+    }
+  },
+  "3446": {
+    "id": 3446,
+    "word": "terecht",
+    "level": "B1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "正确的,公正地",
+      "english": "rightly, justified"
     }
   },
   "3447": {
@@ -29313,6 +29966,16 @@
       "english": "teenager"
     }
   },
+  "3457": {
+    "id": 3457,
+    "word": "tijdens",
+    "level": "B1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "在...期间",
+      "english": "during, while"
+    }
+  },
   "3458": {
     "id": 3458,
     "word": "tijdig",
@@ -29331,6 +29994,16 @@
     "translation": {
       "chinese": "老虎",
       "english": "tiger"
+    }
+  },
+  "3460": {
+    "id": 3460,
+    "word": "tikken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "敲击,轻拍",
+      "english": "to tap, to click"
     }
   },
   "3461": {
@@ -29363,6 +30036,16 @@
       "english": "encore, extra"
     }
   },
+  "3464": {
+    "id": 3464,
+    "word": "toerist",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "游客",
+      "english": "tourist"
+    }
+  },
   "3465": {
     "id": 3465,
     "word": "toerit",
@@ -29393,6 +30076,16 @@
       "english": "device, apparatus"
     }
   },
+  "3468": {
+    "id": 3468,
+    "word": "toetje",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "甜点",
+      "english": "dessert"
+    }
+  },
   "3469": {
     "id": 3469,
     "word": "toetsen",
@@ -29411,6 +30104,16 @@
     "translation": {
       "chinese": "监督",
       "english": "to supervise, to watch"
+    }
+  },
+  "3471": {
+    "id": 3471,
+    "word": "toneel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "舞台,戏剧",
+      "english": "stage, theater"
     }
   },
   "3472": {
@@ -29501,156 +30204,6 @@
     "translation": {
       "chinese": "踏板",
       "english": "pedal"
-    }
-  },
-  "3481": {
-    "id": 3481,
-    "word": "trauma",
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "创伤",
-      "english": "trauma"
-    }
-  },
-  "3482": {
-    "id": 3482,
-    "word": "treffen",
-    "level": "B1",
-    "partOfSpeech": "verb",
-    "translation": {
-      "chinese": "击中,遇见",
-      "english": "to hit, to meet"
-    }
-  },
-  "3484": {
-    "id": 3484,
-    "word": "trekker",
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "拖拉机,触发器",
-      "english": "tractor, trigger"
-    }
-  },
-  "3485": {
-    "id": 3485,
-    "word": "treurig",
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "translation": {
-      "chinese": "悲伤的",
-      "english": "sad, sorrowful"
-    }
-  },
-  "3486": {
-    "id": 3486,
-    "word": "tribune",
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "看台",
-      "english": "tribune, stand"
-    }
-  },
-  "3487": {
-    "id": 3487,
-    "word": "triest",
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "translation": {
-      "chinese": "悲惨的",
-      "english": "miserable, pathetic"
-    }
-  },
-  "3488": {
-    "id": 3488,
-    "word": "trillen",
-    "level": "B1",
-    "partOfSpeech": "verb",
-    "translation": {
-      "chinese": "发抖",
-      "english": "to tremble, to shake"
-    }
-  },
-  "3489": {
-    "id": 3489,
-    "word": "trimmen",
-    "level": "B1",
-    "partOfSpeech": "verb",
-    "translation": {
-      "chinese": "修剪,慢跑",
-      "english": "to trim, to jog"
-    }
-  },
-  "3490": {
-    "id": 3490,
-    "word": "troffel",
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "镘刀",
-      "english": "trowel"
-    }
-  },
-  "3491": {
-    "id": 3491,
-    "word": "trommel",
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "鼓,盒子",
-      "english": "drum, box"
-    }
-  },
-  "3493": {
-    "id": 3493,
-    "word": "tsunami",
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "海啸",
-      "english": "tsunami"
-    }
-  },
-  "3494": {
-    "id": 3494,
-    "word": "turnen",
-    "level": "B1",
-    "partOfSpeech": "verb",
-    "translation": {
-      "chinese": "体操",
-      "english": "to do gymnastics"
-    }
-  },
-  "3498": {
-    "id": 3498,
-    "word": "tweetal",
-    "level": "B1",
-    "partOfSpeech": "noun",
-    "translation": {
-      "chinese": "一对,两个",
-      "english": "pair, duo"
-    }
-  },
-  "3501": {
-    "id": 3501,
-    "word": "uitdoen",
-    "level": "B1",
-    "partOfSpeech": "verb",
-    "translation": {
-      "chinese": "熄灭,脱掉",
-      "english": "to turn off, to take off"
-    }
-  },
-  "3502": {
-    "id": 3502,
-    "word": "uiteen",
-    "level": "B1",
-    "partOfSpeech": "adverb",
-    "translation": {
-      "chinese": "分开",
-      "english": "apart, separate"
     }
   },
   "3522": {
@@ -30242,5 +30795,5905 @@
       "english": "to throw, to cast"
     },
     "level": "A1"
+  },
+  "3915": {
+    "id": 3915,
+    "word": "meeloper",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "从众者,随大流者",
+      "english": "follower, conformist"
+    }
+  },
+  "3916": {
+    "id": 3916,
+    "word": "meewarig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "同情的,怜悯的",
+      "english": "sympathetic, compassionate"
+    }
+  },
+  "3917": {
+    "id": 3917,
+    "word": "menigeen",
+    "level": "B1",
+    "partOfSpeech": "pronoun",
+    "translation": {
+      "chinese": "许多人",
+      "english": "many a, many people"
+    }
+  },
+  "3918": {
+    "id": 3918,
+    "word": "mensheid",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "人类",
+      "english": "humankind, humanity"
+    }
+  },
+  "3919": {
+    "id": 3919,
+    "word": "meteoriet",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "陨石",
+      "english": "meteorite"
+    }
+  },
+  "3920": {
+    "id": 3920,
+    "word": "metselaar",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "泥瓦匠,砌砖工",
+      "english": "bricklayer, mason"
+    }
+  },
+  "3921": {
+    "id": 3921,
+    "word": "mijlenver",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "极远的,遥远的",
+      "english": "far off, miles away"
+    }
+  },
+  "3922": {
+    "id": 3922,
+    "word": "mijmeren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "沉思,冥想",
+      "english": "to muse, to ponder"
+    }
+  },
+  "3923": {
+    "id": 3923,
+    "word": "minnares",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "情妇",
+      "english": "mistress, lover"
+    }
+  },
+  "3924": {
+    "id": 3924,
+    "word": "minutieus",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "细致的,一丝不苟的",
+      "english": "meticulous, thorough"
+    }
+  },
+  "3925": {
+    "id": 3925,
+    "word": "misstand",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "不当行为,违规",
+      "english": "misconduct, abuse"
+    }
+  },
+  "3926": {
+    "id": 3926,
+    "word": "modderen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "泥泞中挣扎,迟缓进展",
+      "english": "to wade, to struggle"
+    }
+  },
+  "3927": {
+    "id": 3927,
+    "word": "moeizaam",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "困难的,费力的",
+      "english": "difficult, laborious"
+    }
+  },
+  "3928": {
+    "id": 3928,
+    "word": "monarchie",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "君主制",
+      "english": "monarchy"
+    }
+  },
+  "3929": {
+    "id": 3929,
+    "word": "monoloog",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "独白",
+      "english": "monologue"
+    }
+  },
+  "3930": {
+    "id": 3930,
+    "word": "morrelen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "扭动,摆弄",
+      "english": "to fiddle with, to wiggle"
+    }
+  },
+  "3931": {
+    "id": 3931,
+    "word": "motoriek",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "运动能力,动作",
+      "english": "motor skills, movement"
+    }
+  },
+  "3932": {
+    "id": 3932,
+    "word": "motregen",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "毛毛雨",
+      "english": "drizzle, light rain"
+    }
+  },
+  "3933": {
+    "id": 3933,
+    "word": "muilkorf",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "口套,口罩",
+      "english": "muzzle"
+    }
+  },
+  "3934": {
+    "id": 3934,
+    "word": "na afloop",
+    "level": "B1",
+    "partOfSpeech": "phrase",
+    "translation": {
+      "chinese": "在...之后",
+      "english": "after the end, upon completion"
+    }
+  },
+  "3935": {
+    "id": 3935,
+    "word": "na elkaar",
+    "level": "B1",
+    "partOfSpeech": "phrase",
+    "translation": {
+      "chinese": "依次,接连",
+      "english": "one after another, in succession"
+    }
+  },
+  "3936": {
+    "id": 3936,
+    "word": "naarmate",
+    "level": "B1",
+    "partOfSpeech": "phrase",
+    "translation": {
+      "chinese": "随着,依照",
+      "english": "as, in proportion to"
+    }
+  },
+  "3937": {
+    "id": 3937,
+    "word": "naarstig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "急切的,勤勉的",
+      "english": "eager, diligent"
+    }
+  },
+  "3938": {
+    "id": 3938,
+    "word": "nachthemd",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "睡衣,睡袍",
+      "english": "nightshirt, pajamas"
+    }
+  },
+  "3939": {
+    "id": 3939,
+    "word": "naderend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "临近的,接近的",
+      "english": "approaching, nearing"
+    }
+  },
+  "3940": {
+    "id": 3940,
+    "word": "nagemaakt",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "伪造的,假的",
+      "english": "fake, forged, counterfeit"
+    }
+  },
+  "3941": {
+    "id": 3941,
+    "word": "naroepen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "呼喊,号召",
+      "english": "to call upon, to summon"
+    }
+  },
+  "3942": {
+    "id": 3942,
+    "word": "nastreven",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "追求,努力达到",
+      "english": "to pursue, to strive for"
+    }
+  },
+  "3943": {
+    "id": 3943,
+    "word": "natrekken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "拉伸,延续",
+      "english": "to stretch out, to prolong"
+    }
+  },
+  "3944": {
+    "id": 3944,
+    "word": "nautisch",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "航海的,航海的",
+      "english": "nautical, maritime"
+    }
+  },
+  "3945": {
+    "id": 3945,
+    "word": "nauwgezet",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "精心制作的,精细的",
+      "english": "carefully executed, precise"
+    }
+  },
+  "3946": {
+    "id": 3946,
+    "word": "nazeggen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "鹦鹉学舌,重复",
+      "english": "to parrot, to repeat"
+    }
+  },
+  "3947": {
+    "id": 3947,
+    "word": "niet echt",
+    "level": "B1",
+    "partOfSpeech": "phrase",
+    "translation": {
+      "chinese": "不真实的,假的",
+      "english": "not real, fake, not genuine"
+    }
+  },
+  "3948": {
+    "id": 3948,
+    "word": "nietsnut",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "无用的人,废物",
+      "english": "good-for-nothing, useless person"
+    }
+  },
+  "3949": {
+    "id": 3949,
+    "word": "nochtans",
+    "level": "B1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "然而,不过",
+      "english": "nevertheless, however"
+    }
+  },
+  "3950": {
+    "id": 3950,
+    "word": "nog eens",
+    "level": "B1",
+    "partOfSpeech": "phrase",
+    "translation": {
+      "chinese": "再一次,再次",
+      "english": "once more, again"
+    }
+  },
+  "3951": {
+    "id": 3951,
+    "word": "normering",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "标准化,规范",
+      "english": "standardization, regulation"
+    }
+  },
+  "3952": {
+    "id": 3952,
+    "word": "obesitas",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "肥胖症",
+      "english": "obesity"
+    }
+  },
+  "3953": {
+    "id": 3953,
+    "word": "oerlelijk",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "极其丑陋的",
+      "english": "hideously ugly"
+    }
+  },
+  "3954": {
+    "id": 3954,
+    "word": "om en om",
+    "level": "B1",
+    "partOfSpeech": "phrase",
+    "translation": {
+      "chinese": "转来转去,来回",
+      "english": "round and round, back and forth"
+    }
+  },
+  "3955": {
+    "id": 3955,
+    "word": "ombuigen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "弯曲,扭转",
+      "english": "to bend, to twist"
+    }
+  },
+  "3956": {
+    "id": 3956,
+    "word": "omgooien",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "推翻,打翻",
+      "english": "to overturn, to throw over"
+    }
+  },
+  "3957": {
+    "id": 3957,
+    "word": "omheining",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "围栏,围墙",
+      "english": "enclosure, fence"
+    }
+  },
+  "3958": {
+    "id": 3958,
+    "word": "omliggend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "周围的,邻近的",
+      "english": "surrounding, neighboring"
+    }
+  },
+  "3959": {
+    "id": 3959,
+    "word": "omlijnen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "勾勒轮廓,描边",
+      "english": "to outline, to frame"
+    }
+  },
+  "3960": {
+    "id": 3960,
+    "word": "omscholen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "重新培训,转行",
+      "english": "to retrain, to retrain"
+    }
+  },
+  "3961": {
+    "id": 3961,
+    "word": "omsmelten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "融化,熔化",
+      "english": "to melt down, to fuse"
+    }
+  },
+  "3962": {
+    "id": 3962,
+    "word": "omspitten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "翻动,挖掘",
+      "english": "to dig up, to turn over"
+    }
+  },
+  "3963": {
+    "id": 3963,
+    "word": "omspoelen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "搅动,弄乱",
+      "english": "to stir up, to muddy"
+    }
+  },
+  "3964": {
+    "id": 3964,
+    "word": "omzeilen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "绕开,避开",
+      "english": "to circumvent, to avoid"
+    }
+  },
+  "3965": {
+    "id": 3965,
+    "word": "onbedoeld",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "无意的,偶然的",
+      "english": "unintentional, accidental"
+    }
+  },
+  "3966": {
+    "id": 3966,
+    "word": "onbetwist",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "无可争议的",
+      "english": "undisputed, unquestioned"
+    }
+  },
+  "3967": {
+    "id": 3967,
+    "word": "onderdaan",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "臣民,下属",
+      "english": "subject, subordinate"
+    }
+  },
+  "3968": {
+    "id": 3968,
+    "word": "onderdoen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "受苦于,屈服于",
+      "english": "to undergo, to submit to"
+    }
+  },
+  "3969": {
+    "id": 3969,
+    "word": "onderuit",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "受挫,被击败",
+      "english": "to be defeated, to go under"
+    }
+  },
+  "3970": {
+    "id": 3970,
+    "word": "ondervoed",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "营养不良的",
+      "english": "malnourished, underfed"
+    }
+  },
+  "3971": {
+    "id": 3971,
+    "word": "ondeugend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "不守规矩的,淘气的",
+      "english": "naughty, mischievous"
+    }
+  },
+  "3972": {
+    "id": 3972,
+    "word": "ongedaan",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "被取消的,无效的",
+      "english": "undone, cancelled, void"
+    }
+  },
+  "3973": {
+    "id": 3973,
+    "word": "ongeluk",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "事故",
+      "english": "accident"
+    }
+  },
+  "3974": {
+    "id": 3974,
+    "word": "ongerief",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "不适,不便",
+      "english": "discomfort, inconvenience"
+    }
+  },
+  "3975": {
+    "id": 3975,
+    "word": "onstuimig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "躁动的,动荡的",
+      "english": "turbulent, restless"
+    }
+  },
+  "3976": {
+    "id": 3976,
+    "word": "ontdooien",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "解冻,融化",
+      "english": "to thaw, to defrost"
+    }
+  },
+  "3977": {
+    "id": 3977,
+    "word": "ontduiken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "逃避,躲避",
+      "english": "to dodge, to avoid"
+    }
+  },
+  "3978": {
+    "id": 3978,
+    "word": "onthutsen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "使震惊,惊醒",
+      "english": "to shock, to alarm"
+    }
+  },
+  "3979": {
+    "id": 3979,
+    "word": "ontknopen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "解开,释放",
+      "english": "to undo, to untie"
+    }
+  },
+  "3980": {
+    "id": 3980,
+    "word": "ontlasten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "减轻负担",
+      "english": "to relieve, to ease"
+    }
+  },
+  "3981": {
+    "id": 3981,
+    "word": "kies",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "选择,选票,臼齿",
+      "english": "choice, vote, molar"
+    }
+  },
+  "3982": {
+    "id": 3982,
+    "word": "kiezer",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "选民",
+      "english": "voter"
+    }
+  },
+  "3983": {
+    "id": 3983,
+    "word": "kijker",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "观众,观察者",
+      "english": "viewer, observer"
+    }
+  },
+  "3984": {
+    "id": 3984,
+    "word": "kilogram",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "千克,公斤",
+      "english": "kilogram, kg"
+    }
+  },
+  "3985": {
+    "id": 3985,
+    "word": "kilometer",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "千米,公里",
+      "english": "kilometer, km"
+    }
+  },
+  "3986": {
+    "id": 3986,
+    "word": "kindertijd",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "童年",
+      "english": "childhood"
+    }
+  },
+  "3987": {
+    "id": 3987,
+    "word": "kindvriendelijk",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "适合儿童的,儿童友好的",
+      "english": "child-friendly, kid-friendly"
+    }
+  },
+  "3988": {
+    "id": 3988,
+    "word": "kin",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "下巴",
+      "english": "chin"
+    }
+  },
+  "3989": {
+    "id": 3989,
+    "word": "kist",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "箱子,棺材",
+      "english": "box, chest, coffin"
+    }
+  },
+  "3990": {
+    "id": 3990,
+    "word": "klaagmuur",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "抱怨墙,投诉板",
+      "english": "complaint wall, grievance board"
+    }
+  },
+  "3991": {
+    "id": 3991,
+    "word": "klank",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "声音,音调",
+      "english": "sound, tone"
+    }
+  },
+  "3992": {
+    "id": 3992,
+    "word": "klarigheid",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "清晰,明确",
+      "english": "clarity"
+    }
+  },
+  "3993": {
+    "id": 3993,
+    "word": "klasse",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "班级,阶层,等级",
+      "english": "class, grade, level"
+    }
+  },
+  "3994": {
+    "id": 3994,
+    "word": "klassiek",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "经典的,古典的",
+      "english": "classic, classical"
+    }
+  },
+  "3995": {
+    "id": 3995,
+    "word": "klei",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "粘土",
+      "english": "clay"
+    }
+  },
+  "3996": {
+    "id": 3996,
+    "word": "kleurrijk",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "多彩的,色彩丰富的",
+      "english": "colorful, multicolored"
+    }
+  },
+  "3997": {
+    "id": 3997,
+    "word": "klimaat",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "气候",
+      "english": "climate"
+    }
+  },
+  "3998": {
+    "id": 3998,
+    "word": "kliniek",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "诊所,医院",
+      "english": "clinic"
+    }
+  },
+  "3999": {
+    "id": 3999,
+    "word": "klinisch",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "临床的",
+      "english": "clinical"
+    }
+  },
+  "4000": {
+    "id": 4000,
+    "word": "kloof",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "峡谷,差距,分歧",
+      "english": "gorge, gap, rift"
+    }
+  },
+  "4001": {
+    "id": 4001,
+    "word": "knopen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "系,扣,打结",
+      "english": "to button, to tie, to knot"
+    }
+  },
+  "4002": {
+    "id": 4002,
+    "word": "koers",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "航向,方向,课程",
+      "english": "course, direction, heading"
+    }
+  },
+  "4003": {
+    "id": 4003,
+    "word": "kok",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "厨师",
+      "english": "chef, cook"
+    }
+  },
+  "4004": {
+    "id": 4004,
+    "word": "kolom",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "列,柱子",
+      "english": "column, pillar"
+    }
+  },
+  "4005": {
+    "id": 4005,
+    "word": "kolonie",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "殖民地,殖民地",
+      "english": "colony"
+    }
+  },
+  "4006": {
+    "id": 4006,
+    "word": "koopkracht",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "购买力",
+      "english": "purchasing power"
+    }
+  },
+  "4007": {
+    "id": 4007,
+    "word": "koorts",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "发烧,狂热",
+      "english": "fever, high temperature"
+    }
+  },
+  "4008": {
+    "id": 4008,
+    "word": "koppel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "一对,夫妇,连接",
+      "english": "pair, couple, to connect"
+    }
+  },
+  "4009": {
+    "id": 4009,
+    "word": "koppelen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "连接,配对",
+      "english": "to connect, to pair"
+    }
+  },
+  "4010": {
+    "id": 4010,
+    "word": "kopzorgen",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "头痛,烦恼",
+      "english": "headache, worries"
+    }
+  },
+  "4011": {
+    "id": 4011,
+    "word": "kortademig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "气短的,喘不过气的",
+      "english": "short of breath"
+    }
+  },
+  "4012": {
+    "id": 4012,
+    "word": "kortom",
+    "level": "B1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "简而言之",
+      "english": "in short, in brief"
+    }
+  },
+  "4013": {
+    "id": 4013,
+    "word": "kost",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "费用,成本",
+      "english": "cost, expense"
+    }
+  },
+  "4014": {
+    "id": 4014,
+    "word": "kostbaar",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "珍贵的,昂贵的",
+      "english": "precious, valuable, expensive"
+    }
+  },
+  "4015": {
+    "id": 4015,
+    "word": "kosten",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "费用,开支",
+      "english": "expenses, costs"
+    }
+  },
+  "4016": {
+    "id": 4016,
+    "word": "krachtig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "强有力的,强壮的",
+      "english": "powerful, strong"
+    }
+  },
+  "4017": {
+    "id": 4017,
+    "word": "krantenwijk",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "报纸派送区",
+      "english": "newspaper delivery area"
+    }
+  },
+  "4018": {
+    "id": 4018,
+    "word": "krediet",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "信用,信誉,学分",
+      "english": "credit"
+    }
+  },
+  "4019": {
+    "id": 4019,
+    "word": "kring",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "圈,圈子,环",
+      "english": "circle, ring"
+    }
+  },
+  "4020": {
+    "id": 4020,
+    "word": "kritiek",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "批评,评论",
+      "english": "criticism"
+    }
+  },
+  "4021": {
+    "id": 4021,
+    "word": "kruis",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "十字,十字架",
+      "english": "cross"
+    }
+  },
+  "4022": {
+    "id": 4022,
+    "word": "kruispunt",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "交叉路口",
+      "english": "intersection, crossroads"
+    }
+  },
+  "4023": {
+    "id": 4023,
+    "word": "kunstig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "艺术的,精巧的",
+      "english": "artistic, artful"
+    }
+  },
+  "4024": {
+    "id": 4024,
+    "word": "kunstmatig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "人工的,人造的",
+      "english": "artificial"
+    }
+  },
+  "4025": {
+    "id": 4025,
+    "word": "kunstwerk",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "艺术品",
+      "english": "work of art"
+    }
+  },
+  "4026": {
+    "id": 4026,
+    "word": "kust",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "海岸,海滨",
+      "english": "coast, shore"
+    }
+  },
+  "4027": {
+    "id": 4027,
+    "word": "kwalificatie",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "资格,学历",
+      "english": "qualification"
+    }
+  },
+  "4028": {
+    "id": 4028,
+    "word": "kwalitatief",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "定性的,质量上的",
+      "english": "qualitative"
+    }
+  },
+  "4029": {
+    "id": 4029,
+    "word": "kwetsbaar",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "脆弱的,易受伤的",
+      "english": "vulnerable, fragile"
+    }
+  },
+  "4030": {
+    "id": 4030,
+    "word": "kwetsbaarheid",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "脆弱性",
+      "english": "vulnerability"
+    }
+  },
+  "4031": {
+    "id": 4031,
+    "word": "opstoken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "煽动, 点燃",
+      "english": "to incite, to stoke up"
+    }
+  },
+  "4032": {
+    "id": 4032,
+    "word": "opstoppen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "塞进, 填充",
+      "english": "to stuff, to plug in"
+    }
+  },
+  "4033": {
+    "id": 4033,
+    "word": "opstuwen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "推高, 推向前",
+      "english": "to push up, to drive forward"
+    }
+  },
+  "4034": {
+    "id": 4034,
+    "word": "optelsom",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "加法, 总和",
+      "english": "addition, sum"
+    }
+  },
+  "4035": {
+    "id": 4035,
+    "word": "optuigen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "装备, 装饰",
+      "english": "to rig up, to deck out"
+    }
+  },
+  "4036": {
+    "id": 4036,
+    "word": "opvallend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "引人注目的",
+      "english": "conspicuous, striking"
+    }
+  },
+  "4037": {
+    "id": 4037,
+    "word": "opvoeding",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "教育, 抚养",
+      "english": "upbringing, education"
+    }
+  },
+  "4038": {
+    "id": 4038,
+    "word": "opvouwen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "折叠",
+      "english": "to fold"
+    }
+  },
+  "4039": {
+    "id": 4039,
+    "word": "opvreten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "吃光, 消耗",
+      "english": "to eat up, to devour"
+    }
+  },
+  "4040": {
+    "id": 4040,
+    "word": "opwaaien",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "吹起, 翻起",
+      "english": "to blow up, to flutter"
+    }
+  },
+  "4041": {
+    "id": 4041,
+    "word": "opwaarts",
+    "level": "B1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "向上, 朝上",
+      "english": "upward, upwards"
+    }
+  },
+  "4042": {
+    "id": 4042,
+    "word": "opwekken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "唤起, 激发, 发电",
+      "english": "to evoke, to generate"
+    }
+  },
+  "4043": {
+    "id": 4043,
+    "word": "opwindend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "令人兴奋的",
+      "english": "exciting, thrilling"
+    }
+  },
+  "4044": {
+    "id": 4044,
+    "word": "opzichtig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "炫耀的, 显眼的",
+      "english": "ostentatious, showy"
+    }
+  },
+  "4045": {
+    "id": 4045,
+    "word": "opzwepen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "煽动, 激励",
+      "english": "to whip up, to incite"
+    }
+  },
+  "4046": {
+    "id": 4046,
+    "word": "ordening",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "秩序, 排列",
+      "english": "ordering, arrangement"
+    }
+  },
+  "4047": {
+    "id": 4047,
+    "word": "ornament",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "装饰品, 装饰",
+      "english": "ornament, decoration"
+    }
+  },
+  "4048": {
+    "id": 4048,
+    "word": "oubollig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "过时的, 老派的",
+      "english": "old-fashioned, outdated"
+    }
+  },
+  "4049": {
+    "id": 4049,
+    "word": "paartijd",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "繁殖期, 交配期",
+      "english": "mating season"
+    }
+  },
+  "4050": {
+    "id": 4050,
+    "word": "pendelbus",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "班车, 穿梭巴士",
+      "english": "shuttle bus"
+    }
+  },
+  "4051": {
+    "id": 4051,
+    "word": "peperduur",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "非常贵",
+      "english": "very expensive, pricey"
+    }
+  },
+  "4052": {
+    "id": 4052,
+    "word": "peuteren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "挖, 摆弄",
+      "english": "to poke around, to fiddle"
+    }
+  },
+  "4053": {
+    "id": 4053,
+    "word": "pindakaas",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "花生酱",
+      "english": "peanut butter"
+    }
+  },
+  "4054": {
+    "id": 4054,
+    "word": "piraterij",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "海盗行为, 盗版",
+      "english": "piracy"
+    }
+  },
+  "4055": {
+    "id": 4055,
+    "word": "placenta",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "胎盘",
+      "english": "placenta"
+    }
+  },
+  "4056": {
+    "id": 4056,
+    "word": "plagiëren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "剽窃, 抄袭",
+      "english": "to plagiarize"
+    }
+  },
+  "4057": {
+    "id": 4057,
+    "word": "planmatig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "有计划的, 系统的",
+      "english": "systematic, planned"
+    }
+  },
+  "4058": {
+    "id": 4058,
+    "word": "plantgoed",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "种苗, 幼苗",
+      "english": "planting material, seedlings"
+    }
+  },
+  "4059": {
+    "id": 4059,
+    "word": "plaveisel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "铺面, 铺砌",
+      "english": "paving, pavement"
+    }
+  },
+  "4060": {
+    "id": 4060,
+    "word": "pleegkind",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "养子, 养女",
+      "english": "foster child"
+    }
+  },
+  "4061": {
+    "id": 4061,
+    "word": "pleidooi",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "辩护, 呼吁",
+      "english": "plea, advocacy"
+    }
+  },
+  "4062": {
+    "id": 4062,
+    "word": "ploeteren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "苦苦挣扎, 辛勤工作",
+      "english": "to toil, to struggle"
+    }
+  },
+  "4063": {
+    "id": 4063,
+    "word": "pluspunt",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "优点, 长处",
+      "english": "plus point, advantage"
+    }
+  },
+  "4064": {
+    "id": 4064,
+    "word": "portfolio",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "作品集, 投资组合",
+      "english": "portfolio"
+    }
+  },
+  "4065": {
+    "id": 4065,
+    "word": "postbode",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "邮递员",
+      "english": "mail carrier, postman"
+    }
+  },
+  "4066": {
+    "id": 4066,
+    "word": "potdicht",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "紧闭的, 密封的",
+      "english": "tightly closed, sealed"
+    }
+  },
+  "4067": {
+    "id": 4067,
+    "word": "poëtisch",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "诗意的",
+      "english": "poetic"
+    }
+  },
+  "4068": {
+    "id": 4068,
+    "word": "prangend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "迫切的, 紧迫的",
+      "english": "pressing, urgent"
+    }
+  },
+  "4069": {
+    "id": 4069,
+    "word": "prediken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "布道, 说教",
+      "english": "to preach"
+    }
+  },
+  "4070": {
+    "id": 4070,
+    "word": "prenataal",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "产前的",
+      "english": "prenatal"
+    }
+  },
+  "4071": {
+    "id": 4071,
+    "word": "preparaat",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "标本, 制剂",
+      "english": "specimen, preparation"
+    }
+  },
+  "4072": {
+    "id": 4072,
+    "word": "prestige",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "声望, 威望",
+      "english": "prestige"
+    }
+  },
+  "4073": {
+    "id": 4073,
+    "word": "primeren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "打底, 做准备",
+      "english": "to prime"
+    }
+  },
+  "4074": {
+    "id": 4074,
+    "word": "processie",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "游行队伍",
+      "english": "procession"
+    }
+  },
+  "4075": {
+    "id": 4075,
+    "word": "proefrit",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "试驾",
+      "english": "test drive"
+    }
+  },
+  "4076": {
+    "id": 4076,
+    "word": "prognose",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "预后, 预测",
+      "english": "prognosis, forecast"
+    }
+  },
+  "4077": {
+    "id": 4077,
+    "word": "pronkstuk",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "精品, 珍品",
+      "english": "showpiece, masterpiece"
+    }
+  },
+  "4078": {
+    "id": 4078,
+    "word": "prostaat",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "前列腺",
+      "english": "prostate"
+    }
+  },
+  "4079": {
+    "id": 4079,
+    "word": "psychose",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "精神错乱, 精神病",
+      "english": "psychosis"
+    }
+  },
+  "4080": {
+    "id": 4080,
+    "word": "raadgever",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "顾问, 参赞",
+      "english": "adviser, councilor"
+    }
+  },
+  "4081": {
+    "id": 4081,
+    "word": "raadslid",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "议员",
+      "english": "council member, councilor"
+    }
+  },
+  "4082": {
+    "id": 4082,
+    "word": "raakvlak",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "接触点, 交集",
+      "english": "interface, contact point"
+    }
+  },
+  "4083": {
+    "id": 4083,
+    "word": "rammelen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "撞击, 碰撞",
+      "english": "to ram, to collide"
+    }
+  },
+  "4084": {
+    "id": 4084,
+    "word": "rampzalig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "灾难性的",
+      "english": "disastrous, disastrous"
+    }
+  },
+  "4085": {
+    "id": 4085,
+    "word": "ranglijst",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "排名表, 榜单",
+      "english": "ranking list, scoreboard"
+    }
+  },
+  "4086": {
+    "id": 4086,
+    "word": "rangorde",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "等级制度, 级别",
+      "english": "hierarchy, ranking"
+    }
+  },
+  "4087": {
+    "id": 4087,
+    "word": "rauwkost",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "生菜, 生食",
+      "english": "raw vegetables, raw food"
+    }
+  },
+  "4088": {
+    "id": 4088,
+    "word": "receptuur",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "配方, 处方",
+      "english": "recipe, formula"
+    }
+  },
+  "4089": {
+    "id": 4089,
+    "word": "recreëren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "休闲, 娱乐",
+      "english": "to relax, to recreate"
+    }
+  },
+  "4090": {
+    "id": 4090,
+    "word": "redmiddel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "补救方法, 解救之道",
+      "english": "remedy, solution"
+    }
+  },
+  "4091": {
+    "id": 4091,
+    "word": "referent",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "推荐人, 介绍人",
+      "english": "referee, reference"
+    }
+  },
+  "4092": {
+    "id": 4092,
+    "word": "regisseur",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "导演",
+      "english": "director"
+    }
+  },
+  "4093": {
+    "id": 4093,
+    "word": "reglement",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "规章, 规则",
+      "english": "regulation, rules"
+    }
+  },
+  "4094": {
+    "id": 4094,
+    "word": "rekensom",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "算术题, 计算",
+      "english": "calculation, arithmetic problem"
+    }
+  },
+  "4095": {
+    "id": 4095,
+    "word": "reuzenrad",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "摩天轮",
+      "english": "ferris wheel"
+    }
+  },
+  "4096": {
+    "id": 4096,
+    "word": "riolering",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "下水道系统",
+      "english": "sewer system, sewage"
+    }
+  },
+  "4097": {
+    "id": 4097,
+    "word": "roeispaan",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "船桨",
+      "english": "oar"
+    }
+  },
+  "4098": {
+    "id": 4098,
+    "word": "roemrucht",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "名声, 声誉",
+      "english": "fame, reputation"
+    }
+  },
+  "4099": {
+    "id": 4099,
+    "word": "rommelhok",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "杂物间",
+      "english": "junk room, storage room"
+    }
+  },
+  "4100": {
+    "id": 4100,
+    "word": "roofvogel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "猛禽",
+      "english": "bird of prey, raptor"
+    }
+  },
+  "4101": {
+    "id": 4101,
+    "word": "rookworst",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "熏香肠",
+      "english": "smoked sausage"
+    }
+  },
+  "4102": {
+    "id": 4102,
+    "word": "routineus",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "常规的, 例行公事的",
+      "english": "routine, conventional"
+    }
+  },
+  "4103": {
+    "id": 4103,
+    "word": "rouwboek",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "悼词集",
+      "english": "book of condolences"
+    }
+  },
+  "4104": {
+    "id": 4104,
+    "word": "samenspel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "配合, 协作",
+      "english": "cooperation, collaboration"
+    }
+  },
+  "4105": {
+    "id": 4105,
+    "word": "satirisch",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "讽刺的",
+      "english": "satirical"
+    }
+  },
+  "4106": {
+    "id": 4106,
+    "word": "scharnier",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "铰链, 合页",
+      "english": "hinge"
+    }
+  },
+  "4107": {
+    "id": 4107,
+    "word": "schimmen",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "影子, 幽灵",
+      "english": "shadows, ghosts"
+    }
+  },
+  "4108": {
+    "id": 4108,
+    "word": "schikking",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "调解, 和解",
+      "english": "settlement, arrangement"
+    }
+  },
+  "4109": {
+    "id": 4109,
+    "word": "schminken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "化妆",
+      "english": "to make up, to paint"
+    }
+  },
+  "4110": {
+    "id": 4110,
+    "word": "schommel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "秋千, 摇摆",
+      "english": "swing, rocking"
+    }
+  },
+  "4111": {
+    "id": 4111,
+    "word": "schoonzus",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "嫂子, 弟媳",
+      "english": "sister-in-law"
+    }
+  },
+  "4112": {
+    "id": 4112,
+    "word": "schorsing",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "停职, 停学",
+      "english": "suspension"
+    }
+  },
+  "4113": {
+    "id": 4113,
+    "word": "schorten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "暂停, 中止",
+      "english": "to suspend, to interrupt"
+    }
+  },
+  "4114": {
+    "id": 4114,
+    "word": "schrijden",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "大步走, 前行",
+      "english": "to stride, to walk"
+    }
+  },
+  "4115": {
+    "id": 4115,
+    "word": "schromen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "犹豫, 畏缩",
+      "english": "to hesitate, to shrink back"
+    }
+  },
+  "4116": {
+    "id": 4116,
+    "word": "schuchter",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "害羞的, 胆怯的",
+      "english": "shy, timid"
+    }
+  },
+  "4117": {
+    "id": 4117,
+    "word": "schutter",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "射手",
+      "english": "shooter, marksman"
+    }
+  },
+  "4118": {
+    "id": 4118,
+    "word": "screenen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "筛查, 筛选",
+      "english": "to screen, to filter"
+    }
+  },
+  "4119": {
+    "id": 4119,
+    "word": "sculptuur",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "雕塑",
+      "english": "sculpture"
+    }
+  },
+  "4120": {
+    "id": 4120,
+    "word": "selderij",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "芹菜",
+      "english": "celery"
+    }
+  },
+  "4121": {
+    "id": 4121,
+    "word": "sfeervol",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "有氛围的",
+      "english": "atmospheric, cozy"
+    }
+  },
+  "4122": {
+    "id": 4122,
+    "word": "simpelweg",
+    "level": "B1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "简单地",
+      "english": "simply"
+    }
+  },
+  "4123": {
+    "id": 4123,
+    "word": "slagader",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "动脉",
+      "english": "artery"
+    }
+  },
+  "4124": {
+    "id": 4124,
+    "word": "slagboom",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "横杆, 道闸",
+      "english": "barrier, boom gate"
+    }
+  },
+  "4125": {
+    "id": 4125,
+    "word": "slavernij",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "奴隶制",
+      "english": "slavery"
+    }
+  },
+  "4126": {
+    "id": 4126,
+    "word": "sluipend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "悄悄的, 潜行的",
+      "english": "stealthy, sneaking"
+    }
+  },
+  "4127": {
+    "id": 4127,
+    "word": "smachtend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "渴望的, 痛苦的",
+      "english": "longing, suffering"
+    }
+  },
+  "4128": {
+    "id": 4128,
+    "word": "smetvrees",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "洁癖",
+      "english": "mysophobia, fear of germs"
+    }
+  },
+  "4129": {
+    "id": 4129,
+    "word": "sneeuwpop",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "雪人",
+      "english": "snowman"
+    }
+  },
+  "4130": {
+    "id": 4130,
+    "word": "snelrecht",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "速裁程序",
+      "english": "summary proceedings, fast-track"
+    }
+  },
+  "4131": {
+    "id": 4131,
+    "word": "snijplank",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "切菜板",
+      "english": "cutting board"
+    }
+  },
+  "4132": {
+    "id": 4132,
+    "word": "snijvlak",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "切面",
+      "english": "cut surface"
+    }
+  },
+  "4133": {
+    "id": 4133,
+    "word": "snipperen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "切碎",
+      "english": "to chop into pieces"
+    }
+  },
+  "4134": {
+    "id": 4134,
+    "word": "snotteren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "流鼻涕",
+      "english": "to have a runny nose"
+    }
+  },
+  "4135": {
+    "id": 4135,
+    "word": "souffleur",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "提词员",
+      "english": "prompter"
+    }
+  },
+  "4136": {
+    "id": 4136,
+    "word": "spastisch",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "痉挛的",
+      "english": "spasmodic"
+    }
+  },
+  "4137": {
+    "id": 4137,
+    "word": "speerpunt",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "重点",
+      "english": "key point, spearhead"
+    }
+  },
+  "4138": {
+    "id": 4138,
+    "word": "speurhond",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "搜查犬",
+      "english": "tracking dog, sniffer dog"
+    }
+  },
+  "4139": {
+    "id": 4139,
+    "word": "spionage",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "间谍活动",
+      "english": "espionage, spying"
+    }
+  },
+  "4140": {
+    "id": 4140,
+    "word": "spookhuis",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "鬼屋",
+      "english": "haunted house"
+    }
+  },
+  "4141": {
+    "id": 4141,
+    "word": "spoorboom",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "铁路横杆",
+      "english": "railway barrier"
+    }
+  },
+  "4142": {
+    "id": 4142,
+    "word": "spoorloos",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "无影无踪的",
+      "english": "without a trace"
+    }
+  },
+  "4143": {
+    "id": 4143,
+    "word": "spouwmuur",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "空心墙",
+      "english": "cavity wall"
+    }
+  },
+  "4144": {
+    "id": 4144,
+    "word": "stadsblok",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "城市街区",
+      "english": "city block"
+    }
+  },
+  "4145": {
+    "id": 4145,
+    "word": "stadsdeel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "城区",
+      "english": "district, borough"
+    }
+  },
+  "4146": {
+    "id": 4146,
+    "word": "stagiair",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "实习生",
+      "english": "intern, trainee"
+    }
+  },
+  "4147": {
+    "id": 4147,
+    "word": "stamboom",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "家谱",
+      "english": "family tree"
+    }
+  },
+  "4148": {
+    "id": 4148,
+    "word": "stamppot",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "土豆泥配蔬菜",
+      "english": "mash, hotchpotch"
+    }
+  },
+  "4149": {
+    "id": 4149,
+    "word": "stampvol",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "挤满的",
+      "english": "packed, full"
+    }
+  },
+  "4150": {
+    "id": 4150,
+    "word": "steggelen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "争论",
+      "english": "to argue, to bicker"
+    }
+  },
+  "4151": {
+    "id": 4151,
+    "word": "stiefkind",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "继子, 继女",
+      "english": "stepchild"
+    }
+  },
+  "4152": {
+    "id": 4152,
+    "word": "stijgend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "上升的",
+      "english": "rising, increasing"
+    }
+  },
+  "4153": {
+    "id": 4153,
+    "word": "stikstof",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "氮气",
+      "english": "nitrogen"
+    }
+  },
+  "4154": {
+    "id": 4154,
+    "word": "stimulans",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "刺激, 激励",
+      "english": "stimulus, incentive"
+    }
+  },
+  "4155": {
+    "id": 4155,
+    "word": "stoplicht",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "红绿灯",
+      "english": "traffic light"
+    }
+  },
+  "4156": {
+    "id": 4156,
+    "word": "stormloop",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "蜂拥, 抢购",
+      "english": "rush, stampede"
+    }
+  },
+  "4157": {
+    "id": 4157,
+    "word": "strafblad",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "犯罪记录",
+      "english": "criminal record"
+    }
+  },
+  "4158": {
+    "id": 4158,
+    "word": "strateeg",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "战略家",
+      "english": "strategist"
+    }
+  },
+  "4159": {
+    "id": 4159,
+    "word": "strekking",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "方向, 含义",
+      "english": "meaning, scope"
+    }
+  },
+  "4160": {
+    "id": 4160,
+    "word": "strijder",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "战士, 斗士",
+      "english": "fighter, warrior"
+    }
+  },
+  "4161": {
+    "id": 4161,
+    "word": "stripboek",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "漫画书",
+      "english": "comic book"
+    }
+  },
+  "4162": {
+    "id": 4162,
+    "word": "struinen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "漫游, 搜寻",
+      "english": "to wander, to search"
+    }
+  },
+  "4163": {
+    "id": 4163,
+    "word": "stuifmeel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "花粉",
+      "english": "pollen"
+    }
+  },
+  "4164": {
+    "id": 4164,
+    "word": "stuifzand",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "流沙",
+      "english": "quicksand"
+    }
+  },
+  "4165": {
+    "id": 4165,
+    "word": "stuklopen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "失败, 受阻",
+      "english": "to fail, to fall apart"
+    }
+  },
+  "4166": {
+    "id": 4166,
+    "word": "stuntelig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "笨拙的",
+      "english": "clumsy, awkward"
+    }
+  },
+  "4167": {
+    "id": 4167,
+    "word": "stuwmeer",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "水库",
+      "english": "reservoir"
+    }
+  },
+  "4168": {
+    "id": 4168,
+    "word": "sudderen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "煨, 慢炖",
+      "english": "to simmer"
+    }
+  },
+  "4169": {
+    "id": 4169,
+    "word": "superieur",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "优越的",
+      "english": "superior"
+    }
+  },
+  "4170": {
+    "id": 4170,
+    "word": "suïcidaal",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "有自杀倾向的",
+      "english": "suicidal"
+    }
+  },
+  "4171": {
+    "id": 4171,
+    "word": "symboliek",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "象征意义",
+      "english": "symbolism"
+    }
+  },
+  "4172": {
+    "id": 4172,
+    "word": "taakbalk",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "任务栏",
+      "english": "taskbar"
+    }
+  },
+  "4173": {
+    "id": 4173,
+    "word": "taakstraf",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "社会服务令",
+      "english": "community service"
+    }
+  },
+  "4174": {
+    "id": 4174,
+    "word": "tafellamp",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "台灯",
+      "english": "table lamp"
+    }
+  },
+  "4175": {
+    "id": 4175,
+    "word": "tandpasta",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "牙膏",
+      "english": "toothpaste"
+    }
+  },
+  "4176": {
+    "id": 4176,
+    "word": "tandvlees",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "牙龈",
+      "english": "gums"
+    }
+  },
+  "4177": {
+    "id": 4177,
+    "word": "tatoeage",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "纹身",
+      "english": "tattoo"
+    }
+  },
+  "4178": {
+    "id": 4178,
+    "word": "te",
+    "level": "B1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "太（副词）",
+      "english": "too"
+    }
+  },
+  "4179": {
+    "id": 4179,
+    "word": "weten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "知道",
+      "english": "to know"
+    }
+  },
+  "4180": {
+    "id": 4180,
+    "word": "teamgeest",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "团队精神",
+      "english": "team spirit"
+    }
+  },
+  "4181": {
+    "id": 4181,
+    "word": "tegenkant",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "阻力, 反对",
+      "english": "resistance, opposition"
+    }
+  },
+  "4182": {
+    "id": 4182,
+    "word": "televisie",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "电视",
+      "english": "television"
+    }
+  },
+  "4183": {
+    "id": 4183,
+    "word": "teneinde",
+    "level": "B1",
+    "partOfSpeech": "conjunction",
+    "translation": {
+      "chinese": "为了",
+      "english": "in order to"
+    }
+  },
+  "4184": {
+    "id": 4184,
+    "word": "tentakel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "触须",
+      "english": "tentacle"
+    }
+  },
+  "4185": {
+    "id": 4185,
+    "word": "terminaal",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "终末的",
+      "english": "terminal"
+    }
+  },
+  "4186": {
+    "id": 4186,
+    "word": "terwijl",
+    "level": "B1",
+    "partOfSpeech": "conjunction",
+    "translation": {
+      "chinese": "当...时候",
+      "english": "while"
+    }
+  },
+  "4187": {
+    "id": 4187,
+    "word": "theologie",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "神学",
+      "english": "theology"
+    }
+  },
+  "4188": {
+    "id": 4188,
+    "word": "theoloog",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "神学家",
+      "english": "theologian"
+    }
+  },
+  "4189": {
+    "id": 4189,
+    "word": "tijdlijn",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "时间线",
+      "english": "timeline"
+    }
+  },
+  "4190": {
+    "id": 4190,
+    "word": "tikkertje",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "抓人游戏",
+      "english": "tag (game)"
+    }
+  },
+  "4191": {
+    "id": 4191,
+    "word": "toegewijd",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "专注的",
+      "english": "dedicated, committed"
+    }
+  },
+  "4192": {
+    "id": 4192,
+    "word": "toelating",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "录取, 许可",
+      "english": "admission, permission"
+    }
+  },
+  "4193": {
+    "id": 4193,
+    "word": "toenmalig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "当时的",
+      "english": "former, of that time"
+    }
+  },
+  "4194": {
+    "id": 4194,
+    "word": "toerusten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "准备",
+      "english": "to prepare, to equip"
+    }
+  },
+  "4195": {
+    "id": 4195,
+    "word": "toespelen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "演奏",
+      "english": "to play (an instrument)"
+    }
+  },
+  "4196": {
+    "id": 4196,
+    "word": "toeteren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "喂",
+      "english": "to feed"
+    }
+  },
+  "4197": {
+    "id": 4197,
+    "word": "tompouce",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "拇指",
+      "english": "thumb"
+    }
+  },
+  "4198": {
+    "id": 4198,
+    "word": "torenhoog",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "塔高",
+      "english": "tower high"
+    }
+  },
+  "4199": {
+    "id": 4199,
+    "word": "tot",
+    "level": "B1",
+    "partOfSpeech": "preposition",
+    "translation": {
+      "chinese": "直到, 到",
+      "english": "until, to"
+    }
+  },
+  "4200": {
+    "id": 4200,
+    "word": "slot",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "最后",
+      "english": "conclusion, end"
+    }
+  },
+  "4201": {
+    "id": 4201,
+    "word": "traangas",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "泪腺",
+      "english": "tear gland"
+    }
+  },
+  "4202": {
+    "id": 4202,
+    "word": "traphekje",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "楼梯门",
+      "english": "stair gate"
+    }
+  },
+  "4203": {
+    "id": 4203,
+    "word": "trappelen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "挣扎, 费力",
+      "english": "to struggle, to climb with difficulty"
+    }
+  },
+  "4204": {
+    "id": 4204,
+    "word": "tredmolen",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "踏轮机",
+      "english": "treadmill"
+    }
+  },
+  "4205": {
+    "id": 4205,
+    "word": "treffend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "动人的",
+      "english": "striking, impressive"
+    }
+  },
+  "4206": {
+    "id": 4206,
+    "word": "trekvogel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "候鸟",
+      "english": "migratory bird"
+    }
+  },
+  "4207": {
+    "id": 4207,
+    "word": "trouwjurk",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "婚纱",
+      "english": "wedding dress"
+    }
+  },
+  "4208": {
+    "id": 4208,
+    "word": "tutoyeren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "做作业",
+      "english": "to tutor"
+    }
+  },
+  "4209": {
+    "id": 4209,
+    "word": "uitbater",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "剥削",
+      "english": "to exploit"
+    }
+  },
+  "4210": {
+    "id": 4210,
+    "word": "uitbouwen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "扩建",
+      "english": "to extend"
+    }
+  },
+  "4211": {
+    "id": 4211,
+    "word": "uitdiepen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "加深",
+      "english": "to deepen"
+    }
+  },
+  "4212": {
+    "id": 4212,
+    "word": "uitdijen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "肿胀",
+      "english": "to swell up"
+    }
+  },
+  "4213": {
+    "id": 4213,
+    "word": "uitdoven",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "熄灭",
+      "english": "to extinguish"
+    }
+  },
+  "4214": {
+    "id": 4214,
+    "word": "uitdragen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "抬出, 运出",
+      "english": "to carry out"
+    }
+  },
+  "4215": {
+    "id": 4215,
+    "word": "uithoren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "听厌了",
+      "english": "to be fed up with"
+    }
+  },
+  "4216": {
+    "id": 4216,
+    "word": "uitkammen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "梳开",
+      "english": "to comb out"
+    }
+  },
+  "4217": {
+    "id": 4217,
+    "word": "uitlekken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "滴完",
+      "english": "to drip out"
+    }
+  },
+  "4218": {
+    "id": 4218,
+    "word": "uitmonden",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "涌出",
+      "english": "to flow out"
+    }
+  },
+  "4219": {
+    "id": 4219,
+    "word": "uitraken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "用完",
+      "english": "to run out"
+    }
+  },
+  "4220": {
+    "id": 4220,
+    "word": "uitreems",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "伸展",
+      "english": "to stretch out"
+    }
+  },
+  "4221": {
+    "id": 4221,
+    "word": "uitrollen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "展开, 铺开",
+      "english": "to roll out"
+    }
+  },
+  "4222": {
+    "id": 4222,
+    "word": "uitrukken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "冲出",
+      "english": "to rush out"
+    }
+  },
+  "4223": {
+    "id": 4223,
+    "word": "uitsmeren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "擦净",
+      "english": "to wipe clean"
+    }
+  },
+  "4224": {
+    "id": 4224,
+    "word": "uitsnede",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "剪下",
+      "english": "cut out"
+    }
+  },
+  "4225": {
+    "id": 4225,
+    "word": "uitspugen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "吐出",
+      "english": "to spit out"
+    }
+  },
+  "4226": {
+    "id": 4226,
+    "word": "uitstoot",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "排放",
+      "english": "emission"
+    }
+  },
+  "4227": {
+    "id": 4227,
+    "word": "uitvaart",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "运出",
+      "english": "to sail out"
+    }
+  },
+  "4228": {
+    "id": 4228,
+    "word": "uitvissen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "钓出",
+      "english": "to fish out"
+    }
+  },
+  "4229": {
+    "id": 4229,
+    "word": "uitvoerig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "详细的",
+      "english": "detailed"
+    }
+  },
+  "4230": {
+    "id": 4230,
+    "word": "uitwaaien",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "吹出",
+      "english": "to blow out"
+    }
+  },
+  "4231": {
+    "id": 4231,
+    "word": "uitweiden",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "散开, 扩散",
+      "english": "to spread out, to widen"
+    }
+  },
+  "4232": {
+    "id": 4232,
+    "word": "uitzakken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "掉落",
+      "english": "to fall out"
+    }
+  },
+  "4233": {
+    "id": 4233,
+    "word": "vakbeurs",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "博览会",
+      "english": "trade fair"
+    }
+  },
+  "4234": {
+    "id": 4234,
+    "word": "vakgenoot",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "同事",
+      "english": "colleague"
+    }
+  },
+  "4235": {
+    "id": 4235,
+    "word": "vangrail",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "拦网",
+      "english": "safety net"
+    }
+  },
+  "4236": {
+    "id": 4236,
+    "word": "variabel",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "可变的",
+      "english": "variable"
+    }
+  },
+  "4237": {
+    "id": 4237,
+    "word": "vastland",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "本土的",
+      "english": "domestic, native"
+    }
+  },
+  "4238": {
+    "id": 4238,
+    "word": "veehouder",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "牧民",
+      "english": "livestock farmer"
+    }
+  },
+  "4239": {
+    "id": 4239,
+    "word": "veeltalig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "多彩的",
+      "english": "colorful"
+    }
+  },
+  "4240": {
+    "id": 4240,
+    "word": "veerboot",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "渡轮",
+      "english": "ferry"
+    }
+  },
+  "4241": {
+    "id": 4241,
+    "word": "verankerd",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "已下锚的",
+      "english": "anchored"
+    }
+  },
+  "4242": {
+    "id": 4242,
+    "word": "verbreding",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "动词化",
+      "english": "verbification"
+    }
+  },
+  "4243": {
+    "id": 4243,
+    "word": "verdamper",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "减震器",
+      "english": "damper"
+    }
+  },
+  "4244": {
+    "id": 4244,
+    "word": "verfijnd",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "已精炼的",
+      "english": "refined"
+    }
+  },
+  "4245": {
+    "id": 4245,
+    "word": "verfijnen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "精炼",
+      "english": "to refine"
+    }
+  },
+  "4246": {
+    "id": 4246,
+    "word": "vergaand",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "即将过去的",
+      "english": "passing"
+    }
+  },
+  "4247": {
+    "id": 4247,
+    "word": "vergrijp",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "暮色",
+      "english": "twilight"
+    }
+  },
+  "4248": {
+    "id": 4248,
+    "word": "verharden",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "硬化",
+      "english": "to harden"
+    }
+  },
+  "4249": {
+    "id": 4249,
+    "word": "verhelpen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "补救",
+      "english": "to remedy"
+    }
+  },
+  "4250": {
+    "id": 4250,
+    "word": "verheven",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "升高",
+      "english": "to rise"
+    }
+  },
+  "4251": {
+    "id": 4251,
+    "word": "verhitten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "加热",
+      "english": "to heat up"
+    }
+  },
+  "4252": {
+    "id": 4252,
+    "word": "verhullen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "覆盖",
+      "english": "to cover"
+    }
+  },
+  "4253": {
+    "id": 4253,
+    "word": "verkassen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "错过",
+      "english": "to miss"
+    }
+  },
+  "4254": {
+    "id": 4254,
+    "word": "verkenner",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "探险者",
+      "english": "explorer"
+    }
+  },
+  "4255": {
+    "id": 4255,
+    "word": "verkleed",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "使尴尬",
+      "english": "to embarrass"
+    }
+  },
+  "4256": {
+    "id": 4256,
+    "word": "verknocht",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "纠缠",
+      "english": "to tangle"
+    }
+  },
+  "4257": {
+    "id": 4257,
+    "word": "verleiden",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "误导",
+      "english": "to mislead"
+    }
+  },
+  "4258": {
+    "id": 4258,
+    "word": "verlengen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "延长",
+      "english": "to prolong"
+    }
+  },
+  "4259": {
+    "id": 4259,
+    "word": "verliezer",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "阅读器",
+      "english": "reader"
+    }
+  },
+  "4260": {
+    "id": 4260,
+    "word": "verlofdag",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "周末",
+      "english": "weekend"
+    }
+  },
+  "4261": {
+    "id": 4261,
+    "word": "verloofde",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "已吹嘘的",
+      "english": "whistled"
+    }
+  },
+  "4262": {
+    "id": 4262,
+    "word": "vermeende",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "走向",
+      "english": "trend"
+    }
+  },
+  "4263": {
+    "id": 4263,
+    "word": "vermengen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "混合",
+      "english": "to mix"
+    }
+  },
+  "4264": {
+    "id": 4264,
+    "word": "vermogend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "可能的",
+      "english": "enabling"
+    }
+  },
+  "4265": {
+    "id": 4265,
+    "word": "vernoemen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "注意到",
+      "english": "to notice"
+    }
+  },
+  "4266": {
+    "id": 4266,
+    "word": "vernuftig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "精致的",
+      "english": "sophisticated"
+    }
+  },
+  "4267": {
+    "id": 4267,
+    "word": "verouderd",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "陈旧的",
+      "english": "outdated"
+    }
+  },
+  "4268": {
+    "id": 4268,
+    "word": "verpesten",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "僵硬",
+      "english": "stiff"
+    }
+  },
+  "4269": {
+    "id": 4269,
+    "word": "verreweg",
+    "level": "B1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "毫无疑问",
+      "english": "far and away"
+    }
+  },
+  "4270": {
+    "id": 4270,
+    "word": "verruilen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "交换",
+      "english": "to exchange"
+    }
+  },
+  "4271": {
+    "id": 4271,
+    "word": "verruken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "毁坏",
+      "english": "to destroy"
+    }
+  },
+  "4272": {
+    "id": 4272,
+    "word": "verschiet",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "射偏",
+      "english": "to shoot astray"
+    }
+  },
+  "4273": {
+    "id": 4273,
+    "word": "verslapen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "变软",
+      "english": "to soften"
+    }
+  },
+  "4274": {
+    "id": 4274,
+    "word": "verslaven",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "变轻",
+      "english": "to lighten"
+    }
+  },
+  "4275": {
+    "id": 4275,
+    "word": "versleten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "磨损",
+      "english": "to wear out"
+    }
+  },
+  "4276": {
+    "id": 4276,
+    "word": "verstopt",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "堵塞",
+      "english": "blocked, clogged"
+    }
+  },
+  "4277": {
+    "id": 4277,
+    "word": "vertolken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "诠释",
+      "english": "to interpret"
+    }
+  },
+  "4278": {
+    "id": 4278,
+    "word": "vervaging",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "老化",
+      "english": "aging"
+    }
+  },
+  "4279": {
+    "id": 4279,
+    "word": "vervalsen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "伪造",
+      "english": "to forge"
+    }
+  },
+  "4280": {
+    "id": 4280,
+    "word": "vervatten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "包含",
+      "english": "to comprehend"
+    }
+  },
+  "4281": {
+    "id": 4281,
+    "word": "uitvoerbaar",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "可执行的, 可实施的",
+      "english": "executable, feasible"
+    }
+  },
+  "4282": {
+    "id": 4282,
+    "word": "uitzendbureau",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "劳务派遣公司",
+      "english": "employment agency"
+    }
+  },
+  "4283": {
+    "id": 4283,
+    "word": "vaardig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "熟练的, 有技巧的",
+      "english": "skilled, skillful"
+    }
+  },
+  "4284": {
+    "id": 4284,
+    "word": "vaartuig",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "船只, 航行器",
+      "english": "vessel, craft"
+    }
+  },
+  "4285": {
+    "id": 4285,
+    "word": "verdorie",
+    "level": "B1",
+    "partOfSpeech": "interjection",
+    "translation": {
+      "chinese": "见鬼, 该死",
+      "english": "darn, confound it"
+    }
+  },
+  "4286": {
+    "id": 4286,
+    "word": "verduisteren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "遮蔽, 变暗",
+      "english": "to darken, to eclipse"
+    }
+  },
+  "4287": {
+    "id": 4287,
+    "word": "verdwijnen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "消失",
+      "english": "to disappear"
+    }
+  },
+  "4288": {
+    "id": 4288,
+    "word": "vergeefs",
+    "level": "B1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "徒劳地",
+      "english": "in vain"
+    }
+  },
+  "4289": {
+    "id": 4289,
+    "word": "verhoren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "审问",
+      "english": "to interrogate"
+    }
+  },
+  "4290": {
+    "id": 4290,
+    "word": "verkeersregelaar",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "交通指挥员",
+      "english": "traffic controller"
+    }
+  },
+  "4291": {
+    "id": 4291,
+    "word": "verlies",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "损失, 输",
+      "english": "loss, defeat"
+    }
+  },
+  "4292": {
+    "id": 4292,
+    "word": "verlies",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "输掉",
+      "english": "to lose"
+    }
+  },
+  "4293": {
+    "id": 4293,
+    "word": "verlovingsring",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "订婚戒指",
+      "english": "engagement ring"
+    }
+  },
+  "4294": {
+    "id": 4294,
+    "word": "veroveren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "征服, 夺取",
+      "english": "to conquer"
+    }
+  },
+  "4295": {
+    "id": 4295,
+    "word": "verrichten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "执行, 进行",
+      "english": "to perform, to carry out"
+    }
+  },
+  "4296": {
+    "id": 4296,
+    "word": "verschuilen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "躲藏, 隐藏",
+      "english": "to hide away"
+    }
+  },
+  "4297": {
+    "id": 4297,
+    "word": "versmelten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "融合, 合并",
+      "english": "to merge, to fuse"
+    }
+  },
+  "4298": {
+    "id": 4298,
+    "word": "verspreiden",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "传播, 分散",
+      "english": "to spread, to distribute"
+    }
+  },
+  "4299": {
+    "id": 4299,
+    "word": "verstikken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "窒息",
+      "english": "to suffocate"
+    }
+  },
+  "4300": {
+    "id": 4300,
+    "word": "verstrekken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "提供, 供应",
+      "english": "to provide, to supply"
+    }
+  },
+  "4301": {
+    "id": 4301,
+    "word": "verstrooid",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "分散的, 走神的",
+      "english": "distracted, absent-minded"
+    }
+  },
+  "4302": {
+    "id": 4302,
+    "word": "vertraging",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "延迟, 耽误",
+      "english": "delay"
+    }
+  },
+  "4303": {
+    "id": 4303,
+    "word": "verwaarlozen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "忽视, 忽略",
+      "english": "to neglect"
+    }
+  },
+  "4304": {
+    "id": 4304,
+    "word": "verwarmen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "加热",
+      "english": "to heat"
+    }
+  },
+  "4305": {
+    "id": 4305,
+    "word": "verweven",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "交织, 编织",
+      "english": "to interweave"
+    }
+  },
+  "4306": {
+    "id": 4306,
+    "word": "verwond",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "受伤的",
+      "english": "injured"
+    }
+  },
+  "4307": {
+    "id": 4307,
+    "word": "verwonden",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "使受伤",
+      "english": "to wound"
+    }
+  },
+  "4308": {
+    "id": 4308,
+    "word": "verworven",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "获得的, 赢得的",
+      "english": "acquired, earned"
+    }
+  },
+  "4309": {
+    "id": 4309,
+    "word": "verworven",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "获得, 赢得",
+      "english": "to acquire"
+    }
+  },
+  "4310": {
+    "id": 4310,
+    "word": "vies",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "脏的",
+      "english": "dirty"
+    }
+  },
+  "4311": {
+    "id": 4311,
+    "word": "vierslag",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "四拍",
+      "english": "four-beat"
+    }
+  },
+  "4312": {
+    "id": 4312,
+    "word": "vijver",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "池塘",
+      "english": "pond"
+    }
+  },
+  "4313": {
+    "id": 4313,
+    "word": "vindbaar",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "可找到的",
+      "english": "findable, locatable"
+    }
+  },
+  "4314": {
+    "id": 4314,
+    "word": "vissen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "钓鱼",
+      "english": "to fish"
+    }
+  },
+  "4315": {
+    "id": 4315,
+    "word": "vlaams",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "弗拉芒的",
+      "english": "Flemish"
+    }
+  },
+  "4316": {
+    "id": 4316,
+    "word": "vlam",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "火焰",
+      "english": "flame"
+    }
+  },
+  "4317": {
+    "id": 4317,
+    "word": "vlammen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "火焰, 燃烧",
+      "english": "to flame"
+    }
+  },
+  "4318": {
+    "id": 4318,
+    "word": "vlucht",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "航班, 逃跑",
+      "english": "flight, escape"
+    }
+  },
+  "4319": {
+    "id": 4319,
+    "word": "vluchten",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "逃跑, 逃离",
+      "english": "to flee, to escape"
+    }
+  },
+  "4320": {
+    "id": 4320,
+    "word": "vlug",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "快的",
+      "english": "quick, fast"
+    }
+  },
+  "4321": {
+    "id": 4321,
+    "word": "voedzaam",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "有营养的",
+      "english": "nutritious"
+    }
+  },
+  "4322": {
+    "id": 4322,
+    "word": "voelbaar",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "可感觉的",
+      "english": "noticeable, palpable"
+    }
+  },
+  "4323": {
+    "id": 4323,
+    "word": "voeren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "喂养, 进行",
+      "english": "to feed, to carry out"
+    }
+  },
+  "4324": {
+    "id": 4324,
+    "word": "voetbal",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "足球",
+      "english": "football, soccer"
+    }
+  },
+  "4325": {
+    "id": 4325,
+    "word": "voetbal",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "踢足球",
+      "english": "to play football"
+    }
+  },
+  "4326": {
+    "id": 4326,
+    "word": "voetganger",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "行人",
+      "english": "pedestrian"
+    }
+  },
+  "4327": {
+    "id": 4327,
+    "word": "voetstap",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "脚步, 足迹",
+      "english": "footstep"
+    }
+  },
+  "4328": {
+    "id": 4328,
+    "word": "voicemail",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "语音信箱",
+      "english": "voice mail"
+    }
+  },
+  "4329": {
+    "id": 4329,
+    "word": "voorkomen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "防止, 预防",
+      "english": "to prevent"
+    }
+  },
+  "4330": {
+    "id": 4330,
+    "word": "voorspellen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "预测",
+      "english": "to predict"
+    }
+  },
+  "4331": {
+    "id": 4331,
+    "word": "weerbaar",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "有抵抗力的, 坚韧的",
+      "english": "resilient, tough"
+    }
+  },
+  "4332": {
+    "id": 4332,
+    "word": "weerwoord",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "反驳, 回应",
+      "english": "answer, reply"
+    }
+  },
+  "4333": {
+    "id": 4333,
+    "word": "wegslepen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "拖走, 移走",
+      "english": "to drag away"
+    }
+  },
+  "4334": {
+    "id": 4334,
+    "word": "wegvagen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "擦去, 消除",
+      "english": "to wipe away"
+    }
+  },
+  "4335": {
+    "id": 4335,
+    "word": "welgeteld",
+    "level": "B1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "整数的, 恰好",
+      "english": "precisely, exactly"
+    }
+  },
+  "4336": {
+    "id": 4336,
+    "word": "welvarend",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "繁荣的, 富裕的",
+      "english": "prosperous, affluent"
+    }
+  },
+  "4337": {
+    "id": 4337,
+    "word": "wenkbrauw",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "眉毛",
+      "english": "eyebrow"
+    }
+  },
+  "4338": {
+    "id": 4338,
+    "word": "werkdruk",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "工作压力",
+      "english": "work pressure"
+    }
+  },
+  "4339": {
+    "id": 4339,
+    "word": "werkvloer",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "工作现场, 车间",
+      "english": "workplace"
+    }
+  },
+  "4340": {
+    "id": 4340,
+    "word": "wervelen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "旋转, 转动",
+      "english": "to spin"
+    }
+  },
+  "4341": {
+    "id": 4341,
+    "word": "wiebelen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "摇晃, 摆动",
+      "english": "to wobble"
+    }
+  },
+  "4342": {
+    "id": 4342,
+    "word": "wijsgeer",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "哲学家",
+      "english": "philosopher"
+    }
+  },
+  "4343": {
+    "id": 4343,
+    "word": "windmolen",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "风车",
+      "english": "windmill"
+    }
+  },
+  "4344": {
+    "id": 4344,
+    "word": "windstoot",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "阵风",
+      "english": "gust of wind"
+    }
+  },
+  "4345": {
+    "id": 4345,
+    "word": "windvlaag",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "阵风",
+      "english": "gust"
+    }
+  },
+  "4346": {
+    "id": 4346,
+    "word": "witwassen",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "洗钱",
+      "english": "to launder money"
+    }
+  },
+  "4347": {
+    "id": 4347,
+    "word": "woestijn",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "沙漠",
+      "english": "desert"
+    }
+  },
+  "4348": {
+    "id": 4348,
+    "word": "zakelijk",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "商业的, 务实的",
+      "english": "business-like"
+    }
+  },
+  "4349": {
+    "id": 4349,
+    "word": "zakenman",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "商人",
+      "english": "businessman"
+    }
+  },
+  "4350": {
+    "id": 4350,
+    "word": "zedeloos",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "无道德的, 淫荡的",
+      "english": "immoral"
+    }
+  },
+  "4351": {
+    "id": 4351,
+    "word": "zee-egel",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "海胆",
+      "english": "sea urchin"
+    }
+  },
+  "4352": {
+    "id": 4352,
+    "word": "zeebodem",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "海床, 海底",
+      "english": "seabed"
+    }
+  },
+  "4353": {
+    "id": 4353,
+    "word": "zeg maar",
+    "level": "B1",
+    "partOfSpeech": "phrase",
+    "translation": {
+      "chinese": "比如说, 你可以这么说",
+      "english": "let's say"
+    }
+  },
+  "4354": {
+    "id": 4354,
+    "word": "zeiltocht",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "帆船旅行",
+      "english": "sailing trip"
+    }
+  },
+  "4355": {
+    "id": 4355,
+    "word": "zendmast",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "发射塔, 天线塔",
+      "english": "transmission mast"
+    }
+  },
+  "4356": {
+    "id": 4356,
+    "word": "zoekraken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "迷失, 丢失",
+      "english": "to get lost"
+    }
+  },
+  "4357": {
+    "id": 4357,
+    "word": "zogenoemd",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "所谓的",
+      "english": "so-called"
+    }
+  },
+  "4358": {
+    "id": 4358,
+    "word": "zogezegd",
+    "level": "B1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "所谓, 据说",
+      "english": "so to speak"
+    }
+  },
+  "4359": {
+    "id": 4359,
+    "word": "zometeen",
+    "level": "B1",
+    "partOfSpeech": "adverb",
+    "translation": {
+      "chinese": "一会儿, 稍后",
+      "english": "in a moment"
+    }
+  },
+  "4360": {
+    "id": 4360,
+    "word": "zoogdier",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "哺乳动物",
+      "english": "mammal"
+    }
+  },
+  "4361": {
+    "id": 4361,
+    "word": "zorgelijk",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "令人担忧的",
+      "english": "worrying"
+    }
+  },
+  "4362": {
+    "id": 4362,
+    "word": "zowel...als",
+    "level": "B1",
+    "partOfSpeech": "conjunction",
+    "translation": {
+      "chinese": "既...又...",
+      "english": "both...and..."
+    }
+  },
+  "4363": {
+    "id": 4363,
+    "word": "zuigeling",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "婴儿",
+      "english": "infant"
+    }
+  },
+  "4364": {
+    "id": 4364,
+    "word": "zuiveren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "净化, 提纯",
+      "english": "to purify"
+    }
+  },
+  "4365": {
+    "id": 4365,
+    "word": "zuurstof",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "氧气",
+      "english": "oxygen"
+    }
+  },
+  "4366": {
+    "id": 4366,
+    "word": "zwerfkat",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "流浪猫",
+      "english": "stray cat"
+    }
+  },
+  "4367": {
+    "id": 4367,
+    "word": "zweterig",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "多汗的",
+      "english": "sweaty"
+    }
+  },
+  "4368": {
+    "id": 4368,
+    "word": "zweed",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "瑞典人",
+      "english": "Swede"
+    }
+  },
+  "4369": {
+    "id": 4369,
+    "word": "zweden",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "瑞典",
+      "english": "Sweden"
+    }
+  },
+  "4418": {
+    "id": 4418,
+    "word": "aandoen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "感觉、经历",
+      "english": "to feel, to experience"
+    }
+  },
+  "4419": {
+    "id": 4419,
+    "word": "aankijken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "看着",
+      "english": "to look at, to watch"
+    }
+  },
+  "4420": {
+    "id": 4420,
+    "word": "aankleden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "穿衣服",
+      "english": "to get dressed, to dress"
+    }
+  },
+  "4421": {
+    "id": 4421,
+    "word": "aankondigen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "宣布、通知",
+      "english": "to announce, to notify"
+    }
+  },
+  "4422": {
+    "id": 4422,
+    "word": "aantrekken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "穿上、吸引",
+      "english": "to put on, to attract"
+    }
+  },
+  "4423": {
+    "id": 4423,
+    "word": "aanvaarden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "接受、承认",
+      "english": "to accept, to acknowledge"
+    }
+  },
+  "4424": {
+    "id": 4424,
+    "word": "aanvragen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "申请、请求",
+      "english": "to apply for, to request"
+    }
+  },
+  "4425": {
+    "id": 4425,
+    "word": "aanwijzen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "指出、指示",
+      "english": "to point out, to indicate"
+    }
+  },
+  "4426": {
+    "id": 4426,
+    "word": "aanzien",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "看见、察觉",
+      "english": "to see, to notice"
+    }
+  },
+  "4427": {
+    "id": 4427,
+    "word": "aangaan",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "涉及,建立",
+      "english": "to concern, to establish"
+    }
+  },
+  "4428": {
+    "id": 4428,
+    "word": "aanleg",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "天赋,建造",
+      "english": "aptitude, construction"
+    }
+  },
+  "4429": {
+    "id": 4429,
+    "word": "aannames",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "假设,接收",
+      "english": "assumptions, reception"
+    }
+  },
+  "4430": {
+    "id": 4430,
+    "word": "abortus",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "流产",
+      "english": "abortion"
+    }
+  },
+  "4431": {
+    "id": 4431,
+    "word": "abrupt",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "突然的",
+      "english": "abrupt, sudden"
+    }
+  },
+  "4432": {
+    "id": 4432,
+    "word": "accijns",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "消费税",
+      "english": "excise duty"
+    }
+  },
+  "4433": {
+    "id": 4433,
+    "word": "adagium",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "格言",
+      "english": "adage, motto"
+    }
+  },
+  "4434": {
+    "id": 4434,
+    "word": "affiche",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "海报",
+      "english": "poster"
+    }
+  },
+  "4435": {
+    "id": 4435,
+    "word": "afgaan",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "响起,失败",
+      "english": "to go off, to fail"
+    }
+  },
+  "4436": {
+    "id": 4436,
+    "word": "afgang",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "丢脸,下台",
+      "english": "disgrace, departure"
+    }
+  },
+  "4437": {
+    "id": 4437,
+    "word": "afgeven",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "交付,掉色",
+      "english": "to hand over, to fade"
+    }
+  },
+  "4438": {
+    "id": 4438,
+    "word": "afgunst",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "嫉妒",
+      "english": "envy, jealousy"
+    }
+  },
+  "4439": {
+    "id": 4439,
+    "word": "afhaken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "退出,放弃",
+      "english": "to drop out, to quit"
+    }
+  },
+  "4440": {
+    "id": 4440,
+    "word": "afkeren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "转开",
+      "english": "to turn away, to reject"
+    }
+  },
+  "4441": {
+    "id": 4441,
+    "word": "afkeur",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "反对",
+      "english": "disapproval, rejection"
+    }
+  },
+  "4442": {
+    "id": 4442,
+    "word": "saai",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "无聊的",
+      "english": "boring"
+    }
+  },
+  "4443": {
+    "id": 4443,
+    "word": "grijs",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "灰色的",
+      "english": "gray"
+    }
+  },
+  "4444": {
+    "id": 4444,
+    "word": "groen",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "绿色的",
+      "english": "green"
+    }
+  },
+  "4445": {
+    "id": 4445,
+    "word": "sla",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "生菜",
+      "english": "lettuce"
+    }
+  },
+  "4446": {
+    "id": 4446,
+    "word": "grot",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "洞穴",
+      "english": "cave"
+    }
+  },
+  "4447": {
+    "id": 4447,
+    "word": "sok",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "袜子",
+      "english": "sock"
+    }
+  },
+  "4448": {
+    "id": 4448,
+    "word": "haai",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "鲨鱼",
+      "english": "shark"
+    }
+  },
+  "4449": {
+    "id": 4449,
+    "word": "sop",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "肥皂水",
+      "english": "soapy water"
+    }
+  },
+  "4450": {
+    "id": 4450,
+    "word": "haak",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "钩子",
+      "english": "hook"
+    }
+  },
+  "4451": {
+    "id": 4451,
+    "word": "thee",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "茶",
+      "english": "tea"
+    }
+  },
+  "4452": {
+    "id": 4452,
+    "word": "haan",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "公鸡",
+      "english": "rooster"
+    }
+  },
+  "4453": {
+    "id": 4453,
+    "word": "uien",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "洋葱（单数 ui）",
+      "english": "onions"
+    }
+  },
+  "4454": {
+    "id": 4454,
+    "word": "haas",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "野兔",
+      "english": "hare"
+    }
+  },
+  "4455": {
+    "id": 4455,
+    "word": "uil",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "猫头鹰",
+      "english": "owl"
+    }
+  },
+  "4456": {
+    "id": 4456,
+    "word": "hak",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "鞋跟/砍",
+      "english": "heel/chop"
+    }
+  },
+  "4457": {
+    "id": 4457,
+    "word": "vacht",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "皮毛",
+      "english": "fur"
+    }
+  },
+  "4458": {
+    "id": 4458,
+    "word": "hals",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "颈部",
+      "english": "neck/throat"
+    }
+  },
+  "4459": {
+    "id": 4459,
+    "word": "wc",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "厕所",
+      "english": "toilet"
+    }
+  },
+  "4460": {
+    "id": 4460,
+    "word": "aandoen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "感觉、经历",
+      "english": "to feel, to experience"
+    }
+  },
+  "4461": {
+    "id": 4461,
+    "word": "aankijken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "看着",
+      "english": "to look at, to watch"
+    }
+  },
+  "4462": {
+    "id": 4462,
+    "word": "aankleden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "穿衣服",
+      "english": "to get dressed, to dress"
+    }
+  },
+  "4463": {
+    "id": 4463,
+    "word": "aankondigen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "宣布、通知",
+      "english": "to announce, to notify"
+    }
+  },
+  "4464": {
+    "id": 4464,
+    "word": "aantrekken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "穿上、吸引",
+      "english": "to put on, to attract"
+    }
+  },
+  "4465": {
+    "id": 4465,
+    "word": "aanvaarden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "接受、承认",
+      "english": "to accept, to acknowledge"
+    }
+  },
+  "4466": {
+    "id": 4466,
+    "word": "aanvragen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "申请、请求",
+      "english": "to apply for, to request"
+    }
+  },
+  "4467": {
+    "id": 4467,
+    "word": "aanwijzen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "指出、指示",
+      "english": "to point out, to indicate"
+    }
+  },
+  "4468": {
+    "id": 4468,
+    "word": "aanzien",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "看见、察觉",
+      "english": "to see, to notice"
+    }
+  },
+  "4469": {
+    "id": 4469,
+    "word": "aangaan",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "涉及,建立",
+      "english": "to concern, to establish"
+    }
+  },
+  "4470": {
+    "id": 4470,
+    "word": "aanleg",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "天赋,建造",
+      "english": "aptitude, construction"
+    }
+  },
+  "4471": {
+    "id": 4471,
+    "word": "aannames",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "假设,接收",
+      "english": "assumptions, reception"
+    }
+  },
+  "4472": {
+    "id": 4472,
+    "word": "abortus",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "流产",
+      "english": "abortion"
+    }
+  },
+  "4473": {
+    "id": 4473,
+    "word": "abrupt",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "突然的",
+      "english": "abrupt, sudden"
+    }
+  },
+  "4474": {
+    "id": 4474,
+    "word": "accijns",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "消费税",
+      "english": "excise duty"
+    }
+  },
+  "4475": {
+    "id": 4475,
+    "word": "adagium",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "格言",
+      "english": "adage, motto"
+    }
+  },
+  "4476": {
+    "id": 4476,
+    "word": "affiche",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "海报",
+      "english": "poster"
+    }
+  },
+  "4477": {
+    "id": 4477,
+    "word": "afgaan",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "响起,失败",
+      "english": "to go off, to fail"
+    }
+  },
+  "4478": {
+    "id": 4478,
+    "word": "afgang",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "丢脸,下台",
+      "english": "disgrace, departure"
+    }
+  },
+  "4479": {
+    "id": 4479,
+    "word": "afgeven",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "交付,掉色",
+      "english": "to hand over, to fade"
+    }
+  },
+  "4480": {
+    "id": 4480,
+    "word": "afgunst",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "嫉妒",
+      "english": "envy, jealousy"
+    }
+  },
+  "4481": {
+    "id": 4481,
+    "word": "afhaken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "退出,放弃",
+      "english": "to drop out, to quit"
+    }
+  },
+  "4482": {
+    "id": 4482,
+    "word": "afkeren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "转开",
+      "english": "to turn away, to reject"
+    }
+  },
+  "4483": {
+    "id": 4483,
+    "word": "afkeur",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "反对",
+      "english": "disapproval, rejection"
+    }
+  },
+  "4484": {
+    "id": 4484,
+    "word": "saai",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "无聊的",
+      "english": "boring"
+    }
+  },
+  "4485": {
+    "id": 4485,
+    "word": "grijs",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "灰色的",
+      "english": "gray"
+    }
+  },
+  "4486": {
+    "id": 4486,
+    "word": "groen",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "绿色的",
+      "english": "green"
+    }
+  },
+  "4487": {
+    "id": 4487,
+    "word": "sla",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "生菜",
+      "english": "lettuce"
+    }
+  },
+  "4488": {
+    "id": 4488,
+    "word": "grot",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "洞穴",
+      "english": "cave"
+    }
+  },
+  "4489": {
+    "id": 4489,
+    "word": "sok",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "袜子",
+      "english": "sock"
+    }
+  },
+  "4490": {
+    "id": 4490,
+    "word": "haai",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "鲨鱼",
+      "english": "shark"
+    }
+  },
+  "4491": {
+    "id": 4491,
+    "word": "sop",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "肥皂水",
+      "english": "soapy water"
+    }
+  },
+  "4492": {
+    "id": 4492,
+    "word": "haak",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "钩子",
+      "english": "hook"
+    }
+  },
+  "4493": {
+    "id": 4493,
+    "word": "thee",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "茶",
+      "english": "tea"
+    }
+  },
+  "4494": {
+    "id": 4494,
+    "word": "haan",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "公鸡",
+      "english": "rooster"
+    }
+  },
+  "4495": {
+    "id": 4495,
+    "word": "uien",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "洋葱（单数 ui）",
+      "english": "onions"
+    }
+  },
+  "4496": {
+    "id": 4496,
+    "word": "haas",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "野兔",
+      "english": "hare"
+    }
+  },
+  "4497": {
+    "id": 4497,
+    "word": "uil",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "猫头鹰",
+      "english": "owl"
+    }
+  },
+  "4498": {
+    "id": 4498,
+    "word": "hak",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "鞋跟/砍",
+      "english": "heel/chop"
+    }
+  },
+  "4499": {
+    "id": 4499,
+    "word": "vacht",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "皮毛",
+      "english": "fur"
+    }
+  },
+  "4500": {
+    "id": 4500,
+    "word": "hals",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "颈部",
+      "english": "neck/throat"
+    }
+  },
+  "4501": {
+    "id": 4501,
+    "word": "wc",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "厕所",
+      "english": "toilet"
+    }
+  },
+  "4502": {
+    "id": 4502,
+    "word": "aandoen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "感觉、经历",
+      "english": "to feel, to experience"
+    }
+  },
+  "4503": {
+    "id": 4503,
+    "word": "aankijken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "看着",
+      "english": "to look at, to watch"
+    }
+  },
+  "4504": {
+    "id": 4504,
+    "word": "aankleden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "穿衣服",
+      "english": "to get dressed, to dress"
+    }
+  },
+  "4505": {
+    "id": 4505,
+    "word": "aankondigen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "宣布、通知",
+      "english": "to announce, to notify"
+    }
+  },
+  "4506": {
+    "id": 4506,
+    "word": "aantrekken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "穿上、吸引",
+      "english": "to put on, to attract"
+    }
+  },
+  "4507": {
+    "id": 4507,
+    "word": "aanvaarden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "接受、承认",
+      "english": "to accept, to acknowledge"
+    }
+  },
+  "4508": {
+    "id": 4508,
+    "word": "aanvragen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "申请、请求",
+      "english": "to apply for, to request"
+    }
+  },
+  "4509": {
+    "id": 4509,
+    "word": "aanwijzen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "指出、指示",
+      "english": "to point out, to indicate"
+    }
+  },
+  "4510": {
+    "id": 4510,
+    "word": "aanzien",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "看见、察觉",
+      "english": "to see, to notice"
+    }
+  },
+  "4511": {
+    "id": 4511,
+    "word": "aangaan",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "涉及,建立",
+      "english": "to concern, to establish"
+    }
+  },
+  "4512": {
+    "id": 4512,
+    "word": "aanleg",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "天赋,建造",
+      "english": "aptitude, construction"
+    }
+  },
+  "4513": {
+    "id": 4513,
+    "word": "aannames",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "假设,接收",
+      "english": "assumptions, reception"
+    }
+  },
+  "4514": {
+    "id": 4514,
+    "word": "abortus",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "流产",
+      "english": "abortion"
+    }
+  },
+  "4515": {
+    "id": 4515,
+    "word": "abrupt",
+    "level": "B1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "突然的",
+      "english": "abrupt, sudden"
+    }
+  },
+  "4516": {
+    "id": 4516,
+    "word": "accijns",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "消费税",
+      "english": "excise duty"
+    }
+  },
+  "4517": {
+    "id": 4517,
+    "word": "adagium",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "格言",
+      "english": "adage, motto"
+    }
+  },
+  "4518": {
+    "id": 4518,
+    "word": "affiche",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "海报",
+      "english": "poster"
+    }
+  },
+  "4519": {
+    "id": 4519,
+    "word": "afgaan",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "响起,失败",
+      "english": "to go off, to fail"
+    }
+  },
+  "4520": {
+    "id": 4520,
+    "word": "afgang",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "丢脸,下台",
+      "english": "disgrace, departure"
+    }
+  },
+  "4521": {
+    "id": 4521,
+    "word": "afgeven",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "交付,掉色",
+      "english": "to hand over, to fade"
+    }
+  },
+  "4522": {
+    "id": 4522,
+    "word": "afgunst",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "嫉妒",
+      "english": "envy, jealousy"
+    }
+  },
+  "4523": {
+    "id": 4523,
+    "word": "afhaken",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "退出,放弃",
+      "english": "to drop out, to quit"
+    }
+  },
+  "4524": {
+    "id": 4524,
+    "word": "afkeren",
+    "level": "B1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "转开",
+      "english": "to turn away, to reject"
+    }
+  },
+  "4525": {
+    "id": 4525,
+    "word": "afkeur",
+    "level": "B1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "反对",
+      "english": "disapproval, rejection"
+    }
+  },
+  "4526": {
+    "id": 4526,
+    "word": "saai",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "无聊的",
+      "english": "boring"
+    }
+  },
+  "4527": {
+    "id": 4527,
+    "word": "grijs",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "灰色的",
+      "english": "gray"
+    }
+  },
+  "4528": {
+    "id": 4528,
+    "word": "groen",
+    "level": "A1",
+    "partOfSpeech": "adjective",
+    "translation": {
+      "chinese": "绿色的",
+      "english": "green"
+    }
+  },
+  "4529": {
+    "id": 4529,
+    "word": "sla",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "生菜",
+      "english": "lettuce"
+    }
+  },
+  "4530": {
+    "id": 4530,
+    "word": "grot",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "洞穴",
+      "english": "cave"
+    }
+  },
+  "4531": {
+    "id": 4531,
+    "word": "sok",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "袜子",
+      "english": "sock"
+    }
+  },
+  "4532": {
+    "id": 4532,
+    "word": "haai",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "鲨鱼",
+      "english": "shark"
+    }
+  },
+  "4533": {
+    "id": 4533,
+    "word": "sop",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "肥皂水",
+      "english": "soapy water"
+    }
+  },
+  "4534": {
+    "id": 4534,
+    "word": "haak",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "钩子",
+      "english": "hook"
+    }
+  },
+  "4535": {
+    "id": 4535,
+    "word": "thee",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "茶",
+      "english": "tea"
+    }
+  },
+  "4536": {
+    "id": 4536,
+    "word": "haan",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "公鸡",
+      "english": "rooster"
+    }
+  },
+  "4537": {
+    "id": 4537,
+    "word": "uien",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "洋葱（单数 ui）",
+      "english": "onions"
+    }
+  },
+  "4538": {
+    "id": 4538,
+    "word": "haas",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "野兔",
+      "english": "hare"
+    }
+  },
+  "4539": {
+    "id": 4539,
+    "word": "uil",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "猫头鹰",
+      "english": "owl"
+    }
+  },
+  "4540": {
+    "id": 4540,
+    "word": "hak",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "鞋跟/砍",
+      "english": "heel/chop"
+    }
+  },
+  "4541": {
+    "id": 4541,
+    "word": "vacht",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "皮毛",
+      "english": "fur"
+    }
+  },
+  "4542": {
+    "id": 4542,
+    "word": "hals",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "颈部",
+      "english": "neck/throat"
+    }
+  },
+  "4543": {
+    "id": 4543,
+    "word": "wc",
+    "level": "A1",
+    "partOfSpeech": "noun",
+    "translation": {
+      "chinese": "厕所",
+      "english": "toilet"
+    }
+  },
+  "4544": {
+    "id": 4544,
+    "word": "aandoen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "感觉、经历",
+      "english": "to feel, to experience"
+    }
+  },
+  "4545": {
+    "id": 4545,
+    "word": "aankijken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "看着",
+      "english": "to look at, to watch"
+    }
+  },
+  "4546": {
+    "id": 4546,
+    "word": "aankleden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "穿衣服",
+      "english": "to get dressed, to dress"
+    }
+  },
+  "4547": {
+    "id": 4547,
+    "word": "aankondigen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "宣布、通知",
+      "english": "to announce, to notify"
+    }
+  },
+  "4548": {
+    "id": 4548,
+    "word": "aantrekken",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "穿上、吸引",
+      "english": "to put on, to attract"
+    }
+  },
+  "4549": {
+    "id": 4549,
+    "word": "aanvaarden",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "接受、承认",
+      "english": "to accept, to acknowledge"
+    }
+  },
+  "4550": {
+    "id": 4550,
+    "word": "aanvragen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "申请、请求",
+      "english": "to apply for, to request"
+    }
+  },
+  "4551": {
+    "id": 4551,
+    "word": "aanwijzen",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "指出、指示",
+      "english": "to point out, to indicate"
+    }
+  },
+  "4552": {
+    "id": 4552,
+    "word": "aanzien",
+    "level": "A1",
+    "partOfSpeech": "verb",
+    "translation": {
+      "chinese": "看见、察觉",
+      "english": "to see, to notice"
+    }
   }
 }

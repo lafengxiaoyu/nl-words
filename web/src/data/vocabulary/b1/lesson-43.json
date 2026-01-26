@@ -1,0 +1,1789 @@
+{
+  "id": "lB143",
+  "level": "B1",
+  "lessonNumber": 43,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 4015,
+      "word": "kosten",
+      "translation": {
+        "chinese": "费用,开支",
+        "english": "expenses, costs"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kosten",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De kosten stijgen.",
+        "Hij betaalt alle kosten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "费用在上涨。",
+          "他支付所有费用。"
+        ],
+        "english": [
+          "The costs are rising.",
+          "He pays all expenses."
+        ]
+      },
+      "notes": "经济名词，通常用复数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4016,
+      "word": "krachtig",
+      "translation": {
+        "chinese": "强有力的,强壮的",
+        "english": "powerful, strong"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "krachtig",
+          "withDe": "krachtige",
+          "withHet": "krachtige",
+          "comparative": "krachtiger",
+          "superlative": "het krachtigst"
+        }
+      },
+      "examples": [
+        "Een krachtige storm.",
+        "Hij is een krachtige spreker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一场强烈的暴风雨。",
+          "他是一个强有力的演讲者。"
+        ],
+        "english": [
+          "A powerful storm.",
+          "He is a strong speaker."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4017,
+      "word": "krantenwijk",
+      "translation": {
+        "chinese": "报纸派送区",
+        "english": "newspaper delivery area"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "krantenwijk",
+          "plural": "krantenwijken"
+        }
+      },
+      "examples": [
+        "Hij werkt in zijn krantenwijk.",
+        "De krantenwijk is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在他的派送区工作。",
+          "报纸派送区很大。"
+        ],
+        "english": [
+          "He works in his newspaper delivery area.",
+          "The newspaper delivery area is large."
+        ]
+      },
+      "notes": "复合名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4018,
+      "word": "krediet",
+      "translation": {
+        "chinese": "信用,信誉,学分",
+        "english": "credit"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "krediet",
+          "plural": "kredieten"
+        }
+      },
+      "examples": [
+        "Hij krijgt geen krediet.",
+        "Het krediet is op."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他得不到信用。",
+          "学分用完了。"
+        ],
+        "english": [
+          "He gets no credit.",
+          "The credit is finished."
+        ]
+      },
+      "notes": "多义名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4019,
+      "word": "kring",
+      "translation": {
+        "chinese": "圈,圈子,环",
+        "english": "circle, ring"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kring",
+          "plural": "kringen"
+        }
+      },
+      "examples": [
+        "Een kring van vrienden.",
+        "De maan kringt de aarde."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "朋友圈子。",
+          "月亮绕着地球转。"
+        ],
+        "english": [
+          "A circle of friends.",
+          "The moon circles the earth."
+        ]
+      },
+      "notes": "几何名词，比喻用法",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4020,
+      "word": "kritiek",
+      "translation": {
+        "chinese": "批评,评论",
+        "english": "criticism"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kritiek",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Zij gaf kritiek op het plan.",
+        "De kritiek was terecht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她对这个计划提出了批评。",
+          "批评是合理的。"
+        ],
+        "english": [
+          "She gave criticism on the plan.",
+          "The criticism was justified."
+        ]
+      },
+      "notes": "抽象名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4021,
+      "word": "kruis",
+      "translation": {
+        "chinese": "十字,十字架",
+        "english": "cross"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kruis",
+          "plural": "kruisen"
+        }
+      },
+      "examples": [
+        "Een kruis op de berg.",
+        "Zij maakte een kruis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "山上的十字架。",
+          "她画了一个十字。"
+        ],
+        "english": [
+          "A cross on the mountain.",
+          "She made a cross."
+        ]
+      },
+      "notes": "符号名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4022,
+      "word": "kruispunt",
+      "translation": {
+        "chinese": "交叉路口",
+        "english": "intersection, crossroads"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "kruispunt",
+          "plural": "kruispunten"
+        }
+      },
+      "examples": [
+        "Het kruispunt was druk.",
+        "Blijf staan bij het kruispunt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "交叉路口很忙。",
+          "在交叉路口停下。"
+        ],
+        "english": [
+          "The intersection was busy.",
+          "Stop at the crossroads."
+        ]
+      },
+      "notes": "交通名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4023,
+      "word": "kunstig",
+      "translation": {
+        "chinese": "艺术的,精巧的",
+        "english": "artistic, artful"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "kunstig",
+          "withDe": "kunstige",
+          "withHet": "kunstige",
+          "comparative": "kunstiger",
+          "superlative": "het kunstigst"
+        }
+      },
+      "examples": [
+        "Een kunstig ontwerp.",
+        "Het werk is kunstig gemaakt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个艺术设计。",
+          "这件作品制作精巧。"
+        ],
+        "english": [
+          "An artistic design.",
+          "The work is artfully made."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4024,
+      "word": "kunstmatig",
+      "translation": {
+        "chinese": "人工的,人造的",
+        "english": "artificial"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "kunstmatig",
+          "withDe": "kunstmatige",
+          "withHet": "kunstmatige",
+          "comparative": "kunstmatiger",
+          "superlative": "het kunstmatigst"
+        }
+      },
+      "examples": [
+        "Een kunstmatige bloem.",
+        "Kunstmatige intelligentie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一朵人造花。",
+          "人工智能。"
+        ],
+        "english": [
+          "An artificial flower.",
+          "Artificial intelligence."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4025,
+      "word": "kunstwerk",
+      "translation": {
+        "chinese": "艺术品",
+        "english": "work of art"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "kunstwerk",
+          "plural": "kunstwerken"
+        }
+      },
+      "examples": [
+        "Het museum heeft veel kunstwerken.",
+        "Dit is een mooi kunstwerk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "博物馆有很多艺术品。",
+          "这是一个漂亮的艺术品。"
+        ],
+        "english": [
+          "The museum has many works of art.",
+          "This is a beautiful work of art."
+        ]
+      },
+      "notes": "艺术名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4026,
+      "word": "kust",
+      "translation": {
+        "chinese": "海岸,海滨",
+        "english": "coast, shore"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kust",
+          "plural": "kusten"
+        }
+      },
+      "examples": [
+        "Wij wonen aan de kust.",
+        "De kust is prachtig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们住在海边。",
+          "海岸很美。"
+        ],
+        "english": [
+          "We live near the coast.",
+          "The coast is beautiful."
+        ]
+      },
+      "notes": "地理名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4027,
+      "word": "kwalificatie",
+      "translation": {
+        "chinese": "资格,学历",
+        "english": "qualification"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kwalificatie",
+          "plural": "kwalificaties"
+        }
+      },
+      "examples": [
+        "Zij heeft de juiste kwalificatie.",
+        "De kwalificatie is vereist."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她有正确的资格。",
+          "需要这个资格。"
+        ],
+        "english": [
+          "She has the right qualification.",
+          "The qualification is required."
+        ]
+      },
+      "notes": "教育名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4028,
+      "word": "kwalitatief",
+      "translation": {
+        "chinese": "定性的,质量上的",
+        "english": "qualitative"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "kwalitatief",
+          "withDe": "kwalitatieve",
+          "withHet": "kwalitatieve",
+          "comparative": "kwalitatiever",
+          "superlative": "het kwalitatiefst"
+        }
+      },
+      "examples": [
+        "Een kwalitatief onderzoek.",
+        "Kwalitatief goed werk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "定性研究。",
+          "质量好的工作。"
+        ],
+        "english": [
+          "A qualitative research.",
+          "Qualitatively good work."
+        ]
+      },
+      "notes": "学术形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4029,
+      "word": "kwetsbaar",
+      "translation": {
+        "chinese": "脆弱的,易受伤的",
+        "english": "vulnerable, fragile"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "kwetsbaar",
+          "withDe": "kwetsbare",
+          "withHet": "kwetsbare",
+          "comparative": "kwetsbaarder",
+          "superlative": "het kwetsbaarst"
+        }
+      },
+      "examples": [
+        "De kinderen zijn kwetsbaar.",
+        "Een kwetsbare situatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "孩子们很脆弱。",
+          "一个脆弱的局面。"
+        ],
+        "english": [
+          "The children are vulnerable.",
+          "A fragile situation."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4030,
+      "word": "kwetsbaarheid",
+      "translation": {
+        "chinese": "脆弱性",
+        "english": "vulnerability"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kwetsbaarheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De kwetsbaarheid van het systeem.",
+        "Hij erkende zijn kwetsbaarheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "系统的脆弱性。",
+          "他承认自己的脆弱。"
+        ],
+        "english": [
+          "The vulnerability of the system.",
+          "He recognized his vulnerability."
+        ]
+      },
+      "notes": "抽象名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4031,
+      "word": "opstoken",
+      "translation": {
+        "chinese": "煽动, 点燃",
+        "english": "to incite, to stoke up"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "opstoken",
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "stook op",
+            "jij": "steekt op",
+            "hij": "steekt op",
+            "wij": "stoken op",
+            "jullie": "stoken op",
+            "zij": "stoken op"
+          },
+          "past": {
+            "singular": "stookte op",
+            "plural": "stookten op"
+          },
+          "pastParticiple": "opgestookt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het nieuws stookte de discussie op.",
+        "Zij probeerde het conflict op te stoken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "新闻煽动了讨论。",
+          "她试图煽动冲突。"
+        ],
+        "english": [
+          "The news stirred up the discussion.",
+          "She tried to stoke up the conflict."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4032,
+      "word": "opstoppen",
+      "translation": {
+        "chinese": "塞进, 填充",
+        "english": "to stuff, to plug in"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "opstoppen",
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "stop op",
+            "jij": "stopt op",
+            "hij": "stopt op",
+            "wij": "stoppen op",
+            "jullie": "stoppen op",
+            "zij": "stoppen op"
+          },
+          "past": {
+            "singular": "stopte op",
+            "plural": "stopten op"
+          },
+          "pastParticiple": "opgestopt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij stopte het papier in zijn zak.",
+        "Zij stopte de stekker in het stopcontact."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他把纸塞进口袋。",
+          "她把插头插进插座。"
+        ],
+        "english": [
+          "He stuffed the paper in his pocket.",
+          "She plugged the plug into the socket."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4033,
+      "word": "opstuwen",
+      "translation": {
+        "chinese": "推高, 推向前",
+        "english": "to push up, to drive forward"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "opstuwen",
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "duw op",
+            "jij": "duwt op",
+            "hij": "duwt op",
+            "wij": "duwen op",
+            "jullie": "duwen op",
+            "zij": "duwen op"
+          },
+          "past": {
+            "singular": "duwde op",
+            "plural": "duwden op"
+          },
+          "pastParticiple": "opgeduwd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De wind duwde de golven op.",
+        "De prijzen werden opgeduwd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "风把浪推高了。",
+          "价格被推高了。"
+        ],
+        "english": [
+          "The wind pushed up the waves.",
+          "The prices were pushed up."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4034,
+      "word": "optelsom",
+      "translation": {
+        "chinese": "加法, 总和",
+        "english": "addition, sum"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "optelsom",
+          "plural": "optelsommen"
+        }
+      },
+      "examples": [
+        "De optelsom is niet correct.",
+        "De kinderen maakten een optelsom."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "加法结果不正确。",
+          "孩子们做了一个加法题。"
+        ],
+        "english": [
+          "The addition result is not correct.",
+          "The children did an addition problem."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4035,
+      "word": "optuigen",
+      "translation": {
+        "chinese": "装备, 装饰",
+        "english": "to rig up, to deck out"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "optuigen",
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "tuig op",
+            "jij": "tuigt op",
+            "hij": "tuigt op",
+            "wij": "tuigen op",
+            "jullie": "tuigen op",
+            "zij": "tuigen op"
+          },
+          "past": {
+            "singular": "tuigde op",
+            "plural": "tuigden op"
+          },
+          "pastParticiple": "opgetuigd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zei tuigde de zaal op voor het feest.",
+        "De tent werd opgetuigd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她为聚会装饰了大厅。",
+          "帐篷被装备好了。"
+        ],
+        "english": [
+          "She decorated the hall for the party.",
+          "The tent was rigged up."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4036,
+      "word": "opvallend",
+      "translation": {
+        "chinese": "引人注目的",
+        "english": "conspicuous, striking"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "opvallend",
+          "withDe": "opvallende",
+          "withHet": "opvallende",
+          "comparative": "opvallender",
+          "superlative": "het opvallendst"
+        }
+      },
+      "examples": [
+        "Zij heeft een opvallende persoonlijkheid.",
+        "Het gebouw is erg opvallend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她有着引人注目的个性。",
+          "这栋建筑非常显眼。"
+        ],
+        "english": [
+          "She has a striking personality.",
+          "The building is very conspicuous."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4037,
+      "word": "opvoeding",
+      "translation": {
+        "chinese": "教育, 抚养",
+        "english": "upbringing, education"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "opvoeding",
+          "plural": "opvoedingen"
+        }
+      },
+      "examples": [
+        "Hij had een goede opvoeding.",
+        "De opvoeding van de kinderen is belangrijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他受过良好的教育。",
+          "孩子的教育很重要。"
+        ],
+        "english": [
+          "He had a good upbringing.",
+          "The upbringing of children is important."
+        ]
+      },
+      "notes": "名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4038,
+      "word": "opvouwen",
+      "translation": {
+        "chinese": "折叠",
+        "english": "to fold"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "opvouwen",
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "vouw op",
+            "jij": "vouwt op",
+            "hij": "vouwt op",
+            "wij": "vouwen op",
+            "jullie": "vouwen op",
+            "zij": "vouwen op"
+          },
+          "past": {
+            "singular": "vouwde op",
+            "plural": "vouwden op"
+          },
+          "pastParticiple": "opgevouwen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Vouw de handdoek op.",
+        "Zij vouwde de stoel op."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "把毛巾折叠起来。",
+          "她把椅子折叠起来。"
+        ],
+        "english": [
+          "Fold the towel.",
+          "She folded up the chair."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4039,
+      "word": "opvreten",
+      "translation": {
+        "chinese": "吃光, 消耗",
+        "english": "to eat up, to devour"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "opvreten",
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "vreet op",
+            "jij": "vreet op",
+            "hij": "vreet op",
+            "wij": "vreten op",
+            "jullie": "vreten op",
+            "zij": "vreten op"
+          },
+          "past": {
+            "singular": "vrat op",
+            "plural": "vraten op"
+          },
+          "pastParticiple": "opgevreten",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het kind vreet alles op.",
+        "De hond vrat het eten op."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "孩子把所有东西都吃光了。",
+          "狗把食物吃光了。"
+        ],
+        "english": [
+          "The child eats everything up.",
+          "The dog devoured the food."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4040,
+      "word": "opwaaien",
+      "translation": {
+        "chinese": "吹起, 翻起",
+        "english": "to blow up, to flutter"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "opwaaien",
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "wai op",
+            "jij": "waait op",
+            "hij": "waait op",
+            "wij": "waaien op",
+            "jullie": "waaien op",
+            "zij": "waaien op"
+          },
+          "past": {
+            "singular": "waaide op",
+            "plural": "waaiden op"
+          },
+          "pastParticiple": "opgewaaid",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De bladeren waaien op.",
+        "De vlag waaide op."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "树叶被吹起来了。",
+          "旗帜飘起来了。"
+        ],
+        "english": [
+          "The leaves blow up.",
+          "The flag fluttered up."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4041,
+      "word": "opwaarts",
+      "translation": {
+        "chinese": "向上, 朝上",
+        "english": "upward, upwards"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "De prijzen gaan opwaarts.",
+        "Hij keek opwaarts naar de lucht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "价格在上涨。",
+          "他抬头望向天空。"
+        ],
+        "english": [
+          "The prices are going upward.",
+          "He looked upward at the sky."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4042,
+      "word": "opwekken",
+      "translation": {
+        "chinese": "唤起, 激发, 发电",
+        "english": "to evoke, to generate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "opwekken",
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "wek op",
+            "jij": "wekt op",
+            "hij": "wekt op",
+            "wij": "wekken op",
+            "jullie": "wekken op",
+            "zij": "wekken op"
+          },
+          "past": {
+            "singular": "wekte op",
+            "plural": "wekten op"
+          },
+          "pastParticiple": "opgewekt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij wekte veel discussie op.",
+        "De centrale wekt elektriciteit op."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他激发了很多讨论。",
+          "发电厂发电。"
+        ],
+        "english": [
+          "He evoked much discussion.",
+          "The power plant generates electricity."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4043,
+      "word": "opwindend",
+      "translation": {
+        "chinese": "令人兴奋的",
+        "english": "exciting, thrilling"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "opwindend",
+          "withDe": "opwindende",
+          "withHet": "opwindende",
+          "comparative": "opwindender",
+          "superlative": "het opwindendst"
+        }
+      },
+      "examples": [
+        "Dat was een opwindend avontuur.",
+        "De film is erg opwindend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那是一次令人兴奋的冒险。",
+          "这部电影很刺激。"
+        ],
+        "english": [
+          "That was an exciting adventure.",
+          "The movie is very thrilling."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4044,
+      "word": "opzichtig",
+      "translation": {
+        "chinese": "炫耀的, 显眼的",
+        "english": "ostentatious, showy"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "opzichtig",
+          "withDe": "opzichtige",
+          "withHet": "opzichtige",
+          "comparative": "opzichtiger",
+          "superlative": "het opzichtigst"
+        }
+      },
+      "examples": [
+        "Hij draagt opzichtige kleding.",
+        "De auto is heel opzichtig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他穿得非常招摇。",
+          "这辆车非常显眼。"
+        ],
+        "english": [
+          "He wears showy clothing.",
+          "The car is very ostentatious."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4045,
+      "word": "opzwepen",
+      "translation": {
+        "chinese": "煽动, 激励",
+        "english": "to whip up, to incite"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "opzwepen",
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "zweep op",
+            "jij": "zweept op",
+            "hij": "zweept op",
+            "wij": "zwepen op",
+            "jullie": "zwepen op",
+            "zij": "zwepen op"
+          },
+          "past": {
+            "singular": "zweepde op",
+            "plural": "zweepden op"
+          },
+          "pastParticiple": "opgezweept",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De toespraak zweepte het publiek op.",
+        "Zij probeerde de menigte op te zwepen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "演讲激励了观众。",
+          "她试图煽动人群。"
+        ],
+        "english": [
+          "The speech whipped up the audience.",
+          "She tried to incite the crowd."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4046,
+      "word": "ordening",
+      "translation": {
+        "chinese": "秩序, 排列",
+        "english": "ordering, arrangement"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ordening",
+          "plural": "ordeningen"
+        }
+      },
+      "examples": [
+        "De ordening van de zalen is logisch.",
+        "Er is een duidelijke ordening."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "大厅的排列很合理。",
+          "有着清晰的秩序。"
+        ],
+        "english": [
+          "The arrangement of the rooms is logical.",
+          "There is a clear ordering."
+        ]
+      },
+      "notes": "名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4047,
+      "word": "ornament",
+      "translation": {
+        "chinese": "装饰品, 装饰",
+        "english": "ornament, decoration"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "ornament",
+          "plural": "ornamenten"
+        }
+      },
+      "examples": [
+        "Het kerstornament hangt in de boom.",
+        "Zij verzamelt antieke ornamenten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "圣诞装饰品挂在树上。",
+          "她收藏古董装饰品。"
+        ],
+        "english": [
+          "The Christmas ornament hangs on the tree.",
+          "She collects antique decorations."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4048,
+      "word": "oubollig",
+      "translation": {
+        "chinese": "过时的, 老派的",
+        "english": "old-fashioned, outdated"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "oubollig",
+          "withDe": "oubollige",
+          "withHet": "oubollige",
+          "comparative": "oubolliger",
+          "superlative": "het oubolligst"
+        }
+      },
+      "examples": [
+        "Zijn kleding is heel oubollig.",
+        "Het idee is een beetje oubollig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的衣服很过时。",
+          "这个想法有点老派。"
+        ],
+        "english": [
+          "His clothing is very old-fashioned.",
+          "The idea is a bit outdated."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4049,
+      "word": "paartijd",
+      "translation": {
+        "chinese": "繁殖期, 交配期",
+        "english": "mating season"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "paartijd",
+          "plural": "paartijden"
+        }
+      },
+      "examples": [
+        "Het is paartijd voor de vogels.",
+        "Dieren zoeken elkaar op tijdens de paartijd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "现在是鸟类的繁殖期。",
+          "动物在繁殖期寻找彼此。"
+        ],
+        "english": [
+          "It is mating season for the birds.",
+          "Animals seek each other during mating season."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4050,
+      "word": "pendelbus",
+      "translation": {
+        "chinese": "班车, 穿梭巴士",
+        "english": "shuttle bus"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "pendelbus",
+          "plural": "pendelbussen"
+        }
+      },
+      "examples": [
+        "De pendelbus rijdt elk uur.",
+        "Wij nemen de pendelbus naar het vliegveld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "班车每小时一班。",
+          "我们坐班车去机场。"
+        ],
+        "english": [
+          "The shuttle bus runs every hour.",
+          "We take the shuttle bus to the airport."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4051,
+      "word": "peperduur",
+      "translation": {
+        "chinese": "非常贵",
+        "english": "very expensive, pricey"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "peperduur",
+          "withDe": "peperdure",
+          "withHet": "peperdure",
+          "comparative": "peperdurer",
+          "superlative": "het peperduurst"
+        }
+      },
+      "examples": [
+        "Dat restaurant is peperduur.",
+        "Het appartement is peperduur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那家餐厅非常贵。",
+          "这套公寓价格很高。"
+        ],
+        "english": [
+          "That restaurant is very expensive.",
+          "The apartment is pricey."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4052,
+      "word": "peuteren",
+      "translation": {
+        "chinese": "挖, 摆弄",
+        "english": "to poke around, to fiddle"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "peuteren",
+          "isSeparable": false,
+          "present": {
+            "ik": "peuter",
+            "jij": "peutert",
+            "hij": "peutert",
+            "wij": "peuteren",
+            "jullie": "peuteren",
+            "zij": "peuteren"
+          },
+          "past": {
+            "singular": "peuterde",
+            "plural": "peuterden"
+          },
+          "pastParticiple": "gepeuterd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij peuterde in zijn oor.",
+        "Zij peuterde aan de schakelaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他抠耳朵。",
+          "她摆弄开关。"
+        ],
+        "english": [
+          "He poked around in his ear.",
+          "She fiddled with the switch."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4053,
+      "word": "pindakaas",
+      "translation": {
+        "chinese": "花生酱",
+        "english": "peanut butter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "pindakaas",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Ik eet brood met pindakaas.",
+        "Pindakaas is populair in Nederland."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我吃配花生酱的面包。",
+          "花生酱在荷兰很受欢迎。"
+        ],
+        "english": [
+          "I eat bread with peanut butter.",
+          "Peanut butter is popular in the Netherlands."
+        ]
+      },
+      "notes": "名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4054,
+      "word": "piraterij",
+      "translation": {
+        "chinese": "海盗行为, 盗版",
+        "english": "piracy"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "piraterij",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De softwarepiraterij is een groot probleem.",
+        "Zij werden aangeklaagd voor piraterij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "软件盗版是个大问题。",
+          "他们因盗版被起诉。"
+        ],
+        "english": [
+          "Software piracy is a big problem.",
+          "They were sued for piracy."
+        ]
+      },
+      "notes": "名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4055,
+      "word": "placenta",
+      "translation": {
+        "chinese": "胎盘",
+        "english": "placenta"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "placenta",
+          "plural": "placenta's"
+        }
+      },
+      "examples": [
+        "De placenta voedt de baby.",
+        "De dokter onderzocht de placenta."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "胎盘滋养婴儿。",
+          "医生检查了胎盘。"
+        ],
+        "english": [
+          "The placenta feeds the baby.",
+          "The doctor examined the placenta."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4056,
+      "word": "plagiëren",
+      "translation": {
+        "chinese": "剽窃, 抄袭",
+        "english": "to plagiarize"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "plagiëren",
+          "isSeparable": false,
+          "present": {
+            "ik": "plagiër",
+            "jij": "plagiëert",
+            "hij": "plagiëert",
+            "wij": "plagiëren",
+            "jullie": "plagiëren",
+            "zij": "plagiëren"
+          },
+          "past": {
+            "singular": "plagiëerde",
+            "plural": "plagiëerden"
+          },
+          "pastParticiple": "geplagiëerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Plagiaat is niet toegestaan.",
+        "De student werd betrapt op plagiëren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "抄袭是不允许的。",
+          "学生因抄袭被抓。"
+        ],
+        "english": [
+          "Plagiarism is not allowed.",
+          "The student was caught plagiarizing."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4057,
+      "word": "planmatig",
+      "translation": {
+        "chinese": "有计划的, 系统的",
+        "english": "systematic, planned"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "planmatig",
+          "withDe": "planmatige",
+          "withHet": "planmatige",
+          "comparative": "planmatiger",
+          "superlative": "het planmatigst"
+        }
+      },
+      "examples": [
+        "Wij werken planmatig aan het project.",
+        "Een planmatige aanpak is nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们有计划地推进项目。",
+          "需要有系统的方法。"
+        ],
+        "english": [
+          "We work systematically on the project.",
+          "A planned approach is needed."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4058,
+      "word": "plantgoed",
+      "translation": {
+        "chinese": "种苗, 幼苗",
+        "english": "planting material, seedlings"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "plantgoed",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het plantgoed wordt volgende week geleverd.",
+        "De tuinier kocht nieuw plantgoed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "种苗下周交货。",
+          "园丁买了新的幼苗。"
+        ],
+        "english": [
+          "The seedlings will be delivered next week.",
+          "The gardener bought new planting material."
+        ]
+      },
+      "notes": "名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4059,
+      "word": "plaveisel",
+      "translation": {
+        "chinese": "铺面, 铺砌",
+        "english": "paving, pavement"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "plaveisel",
+          "plural": "plaveisels"
+        }
+      },
+      "examples": [
+        "Het plaveisel van de straat is beschadigd.",
+        "Het nieuwe plaveisel wordt gelegd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "街道的铺面受损了。",
+          "正在铺设新的路面。"
+        ],
+        "english": [
+          "The pavement of the street is damaged.",
+          "The new paving is being laid."
+        ]
+      },
+      "notes": "名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4060,
+      "word": "pleegkind",
+      "translation": {
+        "chinese": "养子, 养女",
+        "english": "foster child"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "pleegkind",
+          "plural": "pleegkinderen"
+        }
+      },
+      "examples": [
+        "Zij heeft twee pleegkinderen.",
+        "Het pleegkind woont nu bij hen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她有两个养子。",
+          "养子现在和他们住在一起。"
+        ],
+        "english": [
+          "She has two foster children.",
+          "The foster child now lives with them."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4061,
+      "word": "pleidooi",
+      "translation": {
+        "chinese": "辩护, 呼吁",
+        "english": "plea, advocacy"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "pleidooi",
+          "plural": "pleidooien"
+        }
+      },
+      "examples": [
+        "Hij hield een pleidooi voor meer natuur.",
+        "Het pleidooi werd verworpen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他呼吁保护自然。",
+          "请求被驳回。"
+        ],
+        "english": [
+          "He made a plea for more nature.",
+          "The plea was rejected."
+        ]
+      },
+      "notes": "名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4062,
+      "word": "ploeteren",
+      "translation": {
+        "chinese": "苦苦挣扎, 辛勤工作",
+        "english": "to toil, to struggle"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ploeteren",
+          "isSeparable": false,
+          "present": {
+            "ik": "ploeter",
+            "jij": "ploetert",
+            "hij": "ploetert",
+            "wij": "ploeteren",
+            "jullie": "ploeteren",
+            "zij": "ploeteren"
+          },
+          "past": {
+            "singular": "ploeterde",
+            "plural": "ploeterden"
+          },
+          "pastParticiple": "geploeterd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zij ploeteren om de eindjes aan elkaar te knopen.",
+        "Hij ploeterde door de modder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他们为了糊口而辛勤劳作。",
+          "他在泥泞中艰难前行。"
+        ],
+        "english": [
+          "They struggle to make ends meet.",
+          "He toiled through the mud."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4063,
+      "word": "pluspunt",
+      "translation": {
+        "chinese": "优点, 长处",
+        "english": "plus point, advantage"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "pluspunt",
+          "plural": "pluspunten"
+        }
+      },
+      "examples": [
+        "Een groot pluspunt is de locatie.",
+        "Er zijn veel pluspunten aan dit plan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一大优点是地理位置。",
+          "这个计划有很多优点。"
+        ],
+        "english": [
+          "A big plus point is the location.",
+          "There are many advantages to this plan."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4064,
+      "word": "portfolio",
+      "translation": {
+        "chinese": "作品集, 投资组合",
+        "english": "portfolio"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "portfolio",
+          "plural": "portfolio's"
+        }
+      },
+      "examples": [
+        "Zij presenteerde haar portfolio.",
+        "Hij investeert in een groot portfolio."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她展示了作品集。",
+          "他投资于一个大型投资组合。"
+        ],
+        "english": [
+          "She presented her portfolio.",
+          "He invests in a large portfolio."
+        ]
+      },
+      "notes": "名词，可数",
+      "difficulty": "B1"
+    }
+  ]
+}

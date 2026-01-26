@@ -550,19 +550,19 @@
         }
       },
       "examples": [
-          "Ze heeft een academische achtergrond in de economie en werkt nu bij een bank.",
-          "De achtergrondinformatie over de kandidaat is grondig onderzocht."
+        "Ze heeft een academische achtergrond in de economie en werkt nu bij een bank.",
+        "De achtergrondinformatie over de kandidaat is grondig onderzocht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她有经济学学术背景，现在在一家银行工作。",
+          "候选人的背景信息已经过彻底调查。"
         ],
-        "exampleTranslations": {
-          "chinese": [
-            "她有经济学学术背景，现在在一家银行工作。",
-            "候选人的背景信息已经过彻底调查。"
-          ],
-          "english": [
-            "She has an academic background in economics and now works at a bank.",
-            "The background information about the candidate has been thoroughly investigated."
-          ]
-        },
+        "english": [
+          "She has an academic background in economics and now works at a bank.",
+          "The background information about the candidate has been thoroughly investigated."
+        ]
+      },
       "notes": "复合词，由achter(后面)和grond(地面)组成",
       "difficulty": "B1"
     },
@@ -1439,12 +1439,20 @@
         "chinese": "同意、一致",
         "english": "agreement, consent"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": [
+        "noun",
+        "adjective"
+      ],
       "forms": {
         "noun": {
           "article": "het",
           "singular": "akkoord",
           "plural": "akkoorden"
+        },
+        "adjective": {
+          "positive": "akkoord",
+          "comparative": "akkoorder",
+          "superlative": "meest akkoord"
         }
       },
       "examples": [

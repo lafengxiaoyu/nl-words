@@ -30,6 +30,10 @@ for (const level of index.levels) {
   const levelPath = path.join(vocabDir, level.level.toLowerCase());
 
   for (const lesson of level.lessons) {
+    if (lesson.totalWords === 0) {
+      console.log(`⚠️ 跳过空lesson: ${lesson.id}`);
+      continue;
+    }
     const lessonPath = path.join(levelPath, lesson.file.split('/')[1]);
     const lessonData = JSON.parse(fs.readFileSync(lessonPath, 'utf-8'));
 
@@ -109,9 +113,17 @@ for (const [id, originalWord] of originalMap) {
   }
 
   // 检查关键字段
+  // 对于 partOfSpeech，如果是数组，使用 JSON.stringify 比较
+  const origPos = Array.isArray(originalWord.partOfSpeech) 
+    ? JSON.stringify(originalWord.partOfSpeech) 
+    : originalWord.partOfSpeech;
+  const splitPos = Array.isArray(splitWord.partOfSpeech) 
+    ? JSON.stringify(splitWord.partOfSpeech) 
+    : splitWord.partOfSpeech;
+  
   if (originalWord.id !== splitWord.id ||
       originalWord.word !== splitWord.word ||
-      originalWord.partOfSpeech !== splitWord.partOfSpeech ||
+      origPos !== splitPos ||
       originalWord.difficulty !== splitWord.difficulty) {
     console.error(`❌ 单词ID ${id} 的基本信息不匹配`);
     contentErrors++;

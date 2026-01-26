@@ -1,0 +1,1750 @@
+{
+  "id": "lB142",
+  "level": "B1",
+  "lessonNumber": 42,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 3965,
+      "word": "onbedoeld",
+      "translation": {
+        "chinese": "无意的,偶然的",
+        "english": "unintentional, accidental"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onbedoeld",
+          "withDe": "onbedoelde",
+          "withHet": "onbedoelde",
+          "comparative": "onbedoelder",
+          "superlative": "het onbedoeldst"
+        }
+      },
+      "examples": [
+        "Het was een onbedoelde fout.",
+        "Een onbedoelde opmerking."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个无意的错误。",
+          "无意的评论。"
+        ],
+        "english": [
+          "It was an unintentional mistake.",
+          "An accidental remark."
+        ]
+      },
+      "notes": "分词作形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3966,
+      "word": "onbetwist",
+      "translation": {
+        "chinese": "无可争议的",
+        "english": "undisputed, unquestioned"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onbetwist",
+          "withDe": "onbetwiste",
+          "withHet": "onbetwiste",
+          "comparative": "onbetwister",
+          "superlative": "het onbetwistst"
+        }
+      },
+      "examples": [
+        "Het feit is onbetwist.",
+        "Een onbetwiste leider."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个事实无可争议。",
+          "无可争议的领袖。"
+        ],
+        "english": [
+          "The fact is undisputed.",
+          "An unquestioned leader."
+        ]
+      },
+      "notes": "分词作形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3967,
+      "word": "onderdaan",
+      "translation": {
+        "chinese": "臣民,下属",
+        "english": "subject, subordinate"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "onderdaan",
+          "plural": "onderdanen"
+        }
+      },
+      "examples": [
+        "De onderdanen trouwen aan de koning.",
+        "Onderdanen moeten wetten volgen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "臣民效忠于国王。",
+          "臣民必须遵守法律。"
+        ],
+        "english": [
+          "The subjects pledged allegiance to the king.",
+          "Subordinates must follow the laws."
+        ]
+      },
+      "notes": "政治名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3968,
+      "word": "onderdoen",
+      "translation": {
+        "chinese": "受苦于,屈服于",
+        "english": "to undergo, to submit to"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onderdoen",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "doe onder",
+            "jij": "doet onder",
+            "hij": "doet onder",
+            "wij": "doen onder",
+            "jullie": "doen onder",
+            "zij": "doen onder"
+          },
+          "past": {
+            "singular": "deed onder",
+            "plural": "deden onder"
+          },
+          "pastParticiple": "ondergaan",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij deed zich onder aan pest.",
+        "Zij deden zich onder aan de regels."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他屈服于欺凌。",
+          "她们屈服于规则。"
+        ],
+        "english": [
+          "He underwent bullying.",
+          "They submitted to the rules."
+        ]
+      },
+      "notes": "可分动词，不规则变位",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3969,
+      "word": "onderuit",
+      "translation": {
+        "chinese": "受挫,被击败",
+        "english": "to be defeated, to go under"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onderuit",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "ga onder",
+            "jij": "gaat onder",
+            "hij": "gaat onder",
+            "wij": "gaan onder",
+            "jullie": "gaan onder",
+            "zij": "gaan onder"
+          },
+          "past": {
+            "singular": "ging onder",
+            "plural": "gingen onder"
+          },
+          "pastParticiple": "ondergegaan",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Het team ging onder.",
+        "Zij gingen onder in de wedstrijd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "团队被击败了。",
+          "她们在比赛中受挫。"
+        ],
+        "english": [
+          "The team was defeated.",
+          "They went under in the match."
+        ]
+      },
+      "notes": "可分动词，用zijn作助动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3970,
+      "word": "ondervoed",
+      "translation": {
+        "chinese": "营养不良的",
+        "english": "malnourished, underfed"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ondervoed",
+          "withDe": "ondervoede",
+          "withHet": "ondervoede",
+          "comparative": "ondervoeder",
+          "superlative": "het ondervoedst"
+        }
+      },
+      "examples": [
+        "Het kind is ondervoed.",
+        "Ondervoede dieren in de regio."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个孩子营养不良。",
+          "该地区的动物营养不良。"
+        ],
+        "english": [
+          "The child is malnourished.",
+          "Malnourished animals in the region."
+        ]
+      },
+      "notes": "分词作形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3971,
+      "word": "ondeugend",
+      "translation": {
+        "chinese": "不守规矩的,淘气的",
+        "english": "naughty, mischievous"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ondeugend",
+          "withDe": "ondeugende",
+          "withHet": "ondeugende",
+          "comparative": "ondeugender",
+          "superlative": "het ondeugendst"
+        }
+      },
+      "examples": [
+        "Hij was een ondeugende jongen.",
+        "Ondeugend gedrag wordt niet getolereerd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是个淘气的男孩。",
+          "不守规矩的行为不被容忍。"
+        ],
+        "english": [
+          "He was a naughty boy.",
+          "Mischievous behavior is not tolerated."
+        ]
+      },
+      "notes": "分词作形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3972,
+      "word": "ongedaan",
+      "translation": {
+        "chinese": "被取消的,无效的",
+        "english": "undone, cancelled, void"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ongedaan",
+          "withDe": "ongedaan",
+          "withHet": "ongedaan",
+          "comparative": "ongedaaner",
+          "superlative": "het ongedaanst"
+        }
+      },
+      "examples": [
+        "Het contract is ongedaan.",
+        "De afspraak is ongedaan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "合同无效了。",
+          "预约被取消了。"
+        ],
+        "english": [
+          "The contract is void.",
+          "The appointment is cancelled."
+        ]
+      },
+      "notes": "分词作形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3973,
+      "word": "ongeluk",
+      "translation": {
+        "chinese": "事故",
+        "english": "accident"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "ongeluk",
+          "plural": "ongelukken"
+        }
+      },
+      "examples": [
+        "Het ongeluk gebeurde op de snelweg.",
+        "Veel mensen gewonden bij het ongeluk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "事故发生在高速公路上。",
+          "许多人在事故中受伤。"
+        ],
+        "english": [
+          "The accident happened on the highway.",
+          "Many people were injured in the accident."
+        ]
+      },
+      "notes": "事件名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3974,
+      "word": "ongerief",
+      "translation": {
+        "chinese": "不适,不便",
+        "english": "discomfort, inconvenience"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "ongerief",
+          "plural": "ongerieven"
+        }
+      },
+      "examples": [
+        "Het veroorzaakt veel ongerief.",
+        "Excuses voor het ongerief."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这造成了很多不便。",
+          "为不便道歉。"
+        ],
+        "english": [
+          "It causes much inconvenience.",
+          "Apologies for the inconvenience."
+        ]
+      },
+      "notes": "抽象名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3975,
+      "word": "onstuimig",
+      "translation": {
+        "chinese": "躁动的,动荡的",
+        "english": "turbulent, restless"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onstuimig",
+          "withDe": "onstuimige",
+          "withHet": "onstuimige",
+          "comparative": "onstuimiger",
+          "superlative": "het onstuimigst"
+        }
+      },
+      "examples": [
+        "Een onstuimige periode in haar leven.",
+        "Het onstuimige weer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她生活中躁动的时期。",
+          "动荡的天气。"
+        ],
+        "english": [
+          "A turbulent period in her life.",
+          "The restless weather."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3976,
+      "word": "ontdooien",
+      "translation": {
+        "chinese": "解冻,融化",
+        "english": "to thaw, to defrost"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontdooien",
+          "isSeparable": true,
+          "prefix": "ont",
+          "present": {
+            "ik": "dooi ont",
+            "jij": "dooit ont",
+            "hij": "dooit ont",
+            "wij": "dooien ont",
+            "jullie": "dooien ont",
+            "zij": "dooien ont"
+          },
+          "past": {
+            "singular": "dooide ont",
+            "plural": "dooieden ont"
+          },
+          "pastParticiple": "ontdooied",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Het ijs dooide langzaam ont.",
+        "De grond ontdooide in de lente."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "冰慢慢解冻了。",
+          "地面在春天解冻。"
+        ],
+        "english": [
+          "The ice thawed slowly.",
+          "The ground thaws in spring."
+        ]
+      },
+      "notes": "可分动词，用zijn作助动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3977,
+      "word": "ontduiken",
+      "translation": {
+        "chinese": "逃避,躲避",
+        "english": "to dodge, to avoid"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontduiken",
+          "isSeparable": true,
+          "prefix": "ont",
+          "present": {
+            "ik": "duik ont",
+            "jij": "duikt ont",
+            "hij": "duikt ont",
+            "wij": "duiken ont",
+            "jullie": "duiken ont",
+            "zij": "duiken ont"
+          },
+          "past": {
+            "singular": "dook ont",
+            "plural": "doken ont"
+          },
+          "pastParticiple": "ontduikt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij dook de vraag ont.",
+        "Zij dook het onderwerp ont."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他回避了这个问题。",
+          "她们避开了这个话题。"
+        ],
+        "english": [
+          "He dodged the question.",
+          "They avoided the topic."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3978,
+      "word": "onthutsen",
+      "translation": {
+        "chinese": "使震惊,惊醒",
+        "english": "to shock, to alarm"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onthutsen",
+          "isSeparable": true,
+          "prefix": "ont",
+          "present": {
+            "ik": "huts ont",
+            "jij": "hutst ont",
+            "hij": "hutst ont",
+            "wij": "hutsen ont",
+            "jullie": "hutsen ont",
+            "zij": "hutsen ont"
+          },
+          "past": {
+            "singular": "hutste ont",
+            "plural": "hutsten ont"
+          },
+          "pastParticiple": "onthutst",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het nieuws hutste hem ont.",
+        "Zij hutsten het publiek ont."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "新闻让他震惊。",
+          "她们让公众震惊。"
+        ],
+        "english": [
+          "The news shocked him.",
+          "They alarmed the public."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3979,
+      "word": "ontknopen",
+      "translation": {
+        "chinese": "解开,释放",
+        "english": "to undo, to untie"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontknopen",
+          "isSeparable": true,
+          "prefix": "ont",
+          "present": {
+            "ik": "knoop ont",
+            "jij": "knoopt ont",
+            "hij": "knoopt ont",
+            "wij": "knoopen ont",
+            "jullie": "knoopen ont",
+            "zij": "knoopen ont"
+          },
+          "past": {
+            "singular": "knoopte ont",
+            "plural": "knoopten ont"
+          },
+          "pastParticiple": "ontknoopt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij knoopte het pakket ont.",
+        "Zij knoopten de gevangenen ont."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他解开了包裹。",
+          "她们释放了囚犯。"
+        ],
+        "english": [
+          "He undid the package.",
+          "They released the prisoners."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3980,
+      "word": "ontlasten",
+      "translation": {
+        "chinese": "减轻负担",
+        "english": "to relieve, to ease"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontlasten",
+          "isSeparable": true,
+          "prefix": "ont",
+          "present": {
+            "ik": "last ont",
+            "jij": "last ont",
+            "hij": "last ont",
+            "wij": "lasten ont",
+            "jullie": "lasten ont",
+            "zij": "lasten ont"
+          },
+          "past": {
+            "singular": "lastte ont",
+            "plural": "lasten ont"
+          },
+          "pastParticiple": "ontlast",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zij lastte hem ont.",
+        "Het medicijn last de pijn ont."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她减轻了他的负担。",
+          "药物缓解了疼痛。"
+        ],
+        "english": [
+          "She relieved him of the burden.",
+          "The medication eased the pain."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3981,
+      "word": "kies",
+      "translation": {
+        "chinese": "选择,选票,臼齿",
+        "english": "choice, vote, molar"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kies",
+          "plural": "kiezen"
+        }
+      },
+      "examples": [
+        "De kiezen trekken pijn.",
+        "Hij maakte een goede kies."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "牙齿在疼痛。",
+          "他做出了一个很好的选择。"
+        ],
+        "english": [
+          "The molars cause pain.",
+          "He made a good choice."
+        ]
+      },
+      "notes": "名词，多义词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3982,
+      "word": "kiezer",
+      "translation": {
+        "chinese": "选民",
+        "english": "voter"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kiezer",
+          "plural": "kiezers"
+        }
+      },
+      "examples": [
+        "De kiezer ging naar het stemlokaal.",
+        "Veel kiezers stemden op hem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "选民去了投票站。",
+          "许多选民投了他的票。"
+        ],
+        "english": [
+          "The voter went to the polling station.",
+          "Many voters voted for him."
+        ]
+      },
+      "notes": "政治名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3983,
+      "word": "kijker",
+      "translation": {
+        "chinese": "观众,观察者",
+        "english": "viewer, observer"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kijker",
+          "plural": "kijkers"
+        }
+      },
+      "examples": [
+        "De kijker keek naar de film.",
+        "Veel kijkers kijken de show."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "观众看着电影。",
+          "许多观众观看这个节目。"
+        ],
+        "english": [
+          "The viewer watched the movie.",
+          "Many viewers watch the show."
+        ]
+      },
+      "notes": "人物名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3984,
+      "word": "kilogram",
+      "translation": {
+        "chinese": "千克,公斤",
+        "english": "kilogram, kg"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "kilogram",
+          "plural": "kilogram"
+        }
+      },
+      "examples": [
+        "Een kilogram appels.",
+        "Hij weegt 70 kilogram."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一千克苹果。",
+          "他重70公斤。"
+        ],
+        "english": [
+          "A kilogram of apples.",
+          "He weighs 70 kilograms."
+        ]
+      },
+      "notes": "计量单位，复数不变",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3985,
+      "word": "kilometer",
+      "translation": {
+        "chinese": "千米,公里",
+        "english": "kilometer, km"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kilometer",
+          "plural": "kilometer"
+        }
+      },
+      "examples": [
+        "De stad is 10 kilometer verder.",
+        "Hij liep 5 kilometer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "城市在10公里外。",
+          "他走了5公里。"
+        ],
+        "english": [
+          "The city is 10 kilometers away.",
+          "He walked 5 kilometers."
+        ]
+      },
+      "notes": "计量单位，复数不变",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3986,
+      "word": "kindertijd",
+      "translation": {
+        "chinese": "童年",
+        "english": "childhood"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kindertijd",
+          "plural": "kindertijden"
+        }
+      },
+      "examples": [
+        "Zij herinnert zich haar kindertijd.",
+        "Een gelukkige kindertijd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她回忆起她的童年。",
+          "幸福的童年。"
+        ],
+        "english": [
+          "She remembers her childhood.",
+          "A happy childhood."
+        ]
+      },
+      "notes": "时间名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3987,
+      "word": "kindvriendelijk",
+      "translation": {
+        "chinese": "适合儿童的,儿童友好的",
+        "english": "child-friendly, kid-friendly"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "kindvriendelijk",
+          "withDe": "kindvriendelijke",
+          "withHet": "kindvriendelijke",
+          "comparative": "kindvriendelijker",
+          "superlative": "het kindvriendelijkst"
+        }
+      },
+      "examples": [
+        "Het park is kindvriendelijk.",
+        "Een kindvriendelijke omgeving."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个公园适合儿童。",
+          "儿童友好的环境。"
+        ],
+        "english": [
+          "The park is child-friendly.",
+          "A kid-friendly environment."
+        ]
+      },
+      "notes": "复合形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3988,
+      "word": "kin",
+      "translation": {
+        "chinese": "下巴",
+        "english": "chin"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kin",
+          "plural": "kinnen"
+        }
+      },
+      "examples": [
+        "Hij wreef over zijn kin.",
+        "Zij had een mooie kin."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他摸了摸下巴。",
+          "她有一个漂亮的下巴。"
+        ],
+        "english": [
+          "He rubbed his chin.",
+          "She had a beautiful chin."
+        ]
+      },
+      "notes": "身体部位名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3989,
+      "word": "kist",
+      "translation": {
+        "chinese": "箱子,棺材",
+        "english": "box, chest, coffin"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kist",
+          "plural": "kisten"
+        }
+      },
+      "examples": [
+        "Hij opende de kist.",
+        "De kist was zwaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他打开了箱子。",
+          "箱子很重。"
+        ],
+        "english": [
+          "He opened the box.",
+          "The chest was heavy."
+        ]
+      },
+      "notes": "名词，多义词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3990,
+      "word": "klaagmuur",
+      "translation": {
+        "chinese": "抱怨墙,投诉板",
+        "english": "complaint wall, grievance board"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "klaagmuur",
+          "plural": "klaagmuren"
+        }
+      },
+      "examples": [
+        "Zij schreef op de klaagmuur.",
+        "De klaagmuur was vol."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她在投诉板上写了。",
+          "投诉板满了。"
+        ],
+        "english": [
+          "She wrote on the complaint wall.",
+          "The grievance board was full."
+        ]
+      },
+      "notes": "复合名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3991,
+      "word": "klank",
+      "translation": {
+        "chinese": "声音,音调",
+        "english": "sound, tone"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "klank",
+          "plural": "klanken"
+        }
+      },
+      "examples": [
+        "De klank was mooi.",
+        "Hij hoorde een vreemde klank."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "声音很好听。",
+          "他听到了奇怪的声音。"
+        ],
+        "english": [
+          "The sound was beautiful.",
+          "He heard a strange sound."
+        ]
+      },
+      "notes": "声音名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3992,
+      "word": "klarigheid",
+      "translation": {
+        "chinese": "清晰,明确",
+        "english": "clarity"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "klarigheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De klarigheid van het water.",
+        "Er is weinig klarigheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "水的清晰度。",
+          "缺乏清晰度。"
+        ],
+        "english": [
+          "The clarity of the water.",
+          "There is little clarity."
+        ]
+      },
+      "notes": "抽象名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3993,
+      "word": "klasse",
+      "translation": {
+        "chinese": "班级,阶层,等级",
+        "english": "class, grade, level"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "klasse",
+          "plural": "klassen"
+        }
+      },
+      "examples": [
+        "De klas had 30 leerlingen.",
+        "Hij zit in de hoogste klasse."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "班级有30名学生。",
+          "他在最高等级。"
+        ],
+        "english": [
+          "The class had 30 students.",
+          "He is in the highest level."
+        ]
+      },
+      "notes": "多义名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3994,
+      "word": "klassiek",
+      "translation": {
+        "chinese": "经典的,古典的",
+        "english": "classic, classical"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "klassiek",
+          "withDe": "klassieke",
+          "withHet": "klassieke",
+          "comparative": "klassieker",
+          "superlative": "het klassiekst"
+        }
+      },
+      "examples": [
+        "Een klassieke muziekstuk.",
+        "Het is een klassiek werk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一首古典音乐作品。",
+          "这是一个经典作品。"
+        ],
+        "english": [
+          "A classical music piece.",
+          "It is a classic work."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3995,
+      "word": "klei",
+      "translation": {
+        "chinese": "粘土",
+        "english": "clay"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "klei",
+          "plural": "klei"
+        }
+      },
+      "examples": [
+        "De klei was zacht.",
+        "Hij maakte een pot van klei."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "粘土很软。",
+          "他用粘土做了一个罐子。"
+        ],
+        "english": [
+          "The clay was soft.",
+          "He made a pot from clay."
+        ]
+      },
+      "notes": "物质名词，复数不变",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3996,
+      "word": "kleurrijk",
+      "translation": {
+        "chinese": "多彩的,色彩丰富的",
+        "english": "colorful, multicolored"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "kleurrijk",
+          "withDe": "kleurrijke",
+          "withHet": "kleurrijke",
+          "comparative": "kleurrijker",
+          "superlative": "het kleurrijkst"
+        }
+      },
+      "examples": [
+        "Een kleurrijke bloementuin.",
+        "De schilderij is kleurrijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个多彩的花园。",
+          "这幅画色彩丰富。"
+        ],
+        "english": [
+          "A colorful flower garden.",
+          "The painting is colorful."
+        ]
+      },
+      "notes": "复合形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3997,
+      "word": "klimaat",
+      "translation": {
+        "chinese": "气候",
+        "english": "climate"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "klimaat",
+          "plural": "klimaten"
+        }
+      },
+      "examples": [
+        "Het klimaat verandert.",
+        "Nederland heeft een gematigd klimaat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "气候在变化。",
+          "荷兰有温和的气候。"
+        ],
+        "english": [
+          "The climate is changing.",
+          "Netherlands has a moderate climate."
+        ]
+      },
+      "notes": "自然名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3998,
+      "word": "kliniek",
+      "translation": {
+        "chinese": "诊所,医院",
+        "english": "clinic"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kliniek",
+          "plural": "klinieken"
+        }
+      },
+      "examples": [
+        "Zij werkt in een kliniek.",
+        "De kliniek is open."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她在诊所工作。",
+          "诊所开门了。"
+        ],
+        "english": [
+          "She works in a clinic.",
+          "The clinic is open."
+        ]
+      },
+      "notes": "医疗名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 3999,
+      "word": "klinisch",
+      "translation": {
+        "chinese": "临床的",
+        "english": "clinical"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "klinisch",
+          "withDe": "klinische",
+          "withHet": "klinische",
+          "comparative": "klinischer",
+          "superlative": "het klinischst"
+        }
+      },
+      "examples": [
+        "Een klinische proef.",
+        "Het symptoom was klinisch."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一次临床试验。",
+          "症状是临床的。"
+        ],
+        "english": [
+          "A clinical trial.",
+          "The symptom was clinical."
+        ]
+      },
+      "notes": "医疗形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4000,
+      "word": "kloof",
+      "translation": {
+        "chinese": "峡谷,差距,分歧",
+        "english": "gorge, gap, rift"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kloof",
+          "plural": "kloven"
+        }
+      },
+      "examples": [
+        "De kloof tussen arm en rijk.",
+        "Een diepe kloof in het landschap."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "贫富差距。",
+          "风景中的深谷。"
+        ],
+        "english": [
+          "The gap between rich and poor.",
+          "A deep gorge in the landscape."
+        ]
+      },
+      "notes": "多义名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4001,
+      "word": "knopen",
+      "translation": {
+        "chinese": "系,扣,打结",
+        "english": "to button, to tie, to knot"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "knopen",
+          "isSeparable": false,
+          "present": {
+            "ik": "knoop",
+            "jij": "knoopt",
+            "hij": "knoopt",
+            "wij": "knopen",
+            "jullie": "knopen",
+            "zij": "knopen"
+          },
+          "past": {
+            "singular": "knoopte",
+            "plural": "knoopten"
+          },
+          "pastParticiple": "geknoopt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zij knopte haar jas dicht.",
+        "Hij knoopte een stropdas."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她扣上了外套。",
+          "他打了一条领带。"
+        ],
+        "english": [
+          "She buttoned her coat.",
+          "He tied a necktie."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4002,
+      "word": "koers",
+      "translation": {
+        "chinese": "航向,方向,课程",
+        "english": "course, direction, heading"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "koers",
+          "plural": "koersen"
+        }
+      },
+      "examples": [
+        "Het schip veranderde van koers.",
+        "Zij volgde haar eigen koers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "船改变了航向。",
+          "她走自己的路。"
+        ],
+        "english": [
+          "The ship changed its course.",
+          "She followed her own course."
+        ]
+      },
+      "notes": "多义名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4003,
+      "word": "kok",
+      "translation": {
+        "chinese": "厨师",
+        "english": "chef, cook"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kok",
+          "plural": "koks"
+        }
+      },
+      "examples": [
+        "De kok maakte een heerlijk gerecht.",
+        "Hij is een beroemde kok."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "厨师做了一道美味的菜。",
+          "他是一位著名的厨师。"
+        ],
+        "english": [
+          "The chef made a delicious dish.",
+          "He is a famous chef."
+        ]
+      },
+      "notes": "职业名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4004,
+      "word": "kolom",
+      "translation": {
+        "chinese": "列,柱子",
+        "english": "column, pillar"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kolom",
+          "plural": "kolommen"
+        }
+      },
+      "examples": [
+        "De kolom was hoog.",
+        "Een kolom in de krant."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "柱子很高。",
+          "报纸的一栏。"
+        ],
+        "english": [
+          "The pillar was high.",
+          "A column in the newspaper."
+        ]
+      },
+      "notes": "多义名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4005,
+      "word": "kolonie",
+      "translation": {
+        "chinese": "殖民地,殖民地",
+        "english": "colony"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kolonie",
+          "plural": "koloniën"
+        }
+      },
+      "examples": [
+        "Het land was een kolonie.",
+        "Een bijenkolonie in de tuin."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个国家曾是殖民地。",
+          "花园里的蜜蜂群。"
+        ],
+        "english": [
+          "The country was a colony.",
+          "A bee colony in the garden."
+        ]
+      },
+      "notes": "地理名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4006,
+      "word": "koopkracht",
+      "translation": {
+        "chinese": "购买力",
+        "english": "purchasing power"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "koopkracht",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De koopkracht is gestegen.",
+        "Veel mensen hebben geen koopkracht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "购买力上升了。",
+          "许多人没有购买力。"
+        ],
+        "english": [
+          "Purchasing power has risen.",
+          "Many people have no purchasing power."
+        ]
+      },
+      "notes": "经济名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4007,
+      "word": "koorts",
+      "translation": {
+        "chinese": "发烧,狂热",
+        "english": "fever, high temperature"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "koorts",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Zij had koorts.",
+        "De koorts ging weg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她发烧了。",
+          "发烧退了。"
+        ],
+        "english": [
+          "She had fever.",
+          "The fever went away."
+        ]
+      },
+      "notes": "医疗名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4008,
+      "word": "koppel",
+      "translation": {
+        "chinese": "一对,夫妇,连接",
+        "english": "pair, couple, to connect"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "koppel",
+          "plural": "koppels"
+        }
+      },
+      "examples": [
+        "Een koppel vogels.",
+        "Het koppel ging weg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一对鸟。",
+          "这对夫妇走了。"
+        ],
+        "english": [
+          "A pair of birds.",
+          "The couple left."
+        ]
+      },
+      "notes": "多义名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4009,
+      "word": "koppelen",
+      "translation": {
+        "chinese": "连接,配对",
+        "english": "to connect, to pair"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "koppelen",
+          "isSeparable": false,
+          "present": {
+            "ik": "koppel",
+            "jij": "koppelt",
+            "hij": "koppelt",
+            "wij": "koppelen",
+            "jullie": "koppelen",
+            "zij": "koppelen"
+          },
+          "past": {
+            "singular": "koppelde",
+            "plural": "koppelden"
+          },
+          "pastParticiple": "gekoppeld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zij koppelde de kabel.",
+        "Hij koppelde de twee personen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她连接了电缆。",
+          "他让两个人配对。"
+        ],
+        "english": [
+          "She connected the cable.",
+          "He paired the two people."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4010,
+      "word": "kopzorgen",
+      "translation": {
+        "chinese": "头痛,烦恼",
+        "english": "headache, worries"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kopzorgen",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Dit project geeft kopzorgen.",
+        "Veel kopzorgen over de toekomst."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个项目让人头痛。",
+          "对未来有很多担忧。"
+        ],
+        "english": [
+          "This project gives headaches.",
+          "Many worries about the future."
+        ]
+      },
+      "notes": "复合名词，不可数",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4011,
+      "word": "kortademig",
+      "translation": {
+        "chinese": "气短的,喘不过气的",
+        "english": "short of breath"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "kortademig",
+          "withDe": "kortademige",
+          "withHet": "kortademige",
+          "comparative": "kortademiger",
+          "superlative": "het kortademigst"
+        }
+      },
+      "examples": [
+        "Hij was kortademig na de wedstrijd.",
+        "Een kortademige patiënt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "比赛后他气短。",
+          "一个气短的病人。"
+        ],
+        "english": [
+          "He was short of breath after the match.",
+          "A short-of-breath patient."
+        ]
+      },
+      "notes": "医疗形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4012,
+      "word": "kortom",
+      "translation": {
+        "chinese": "简而言之",
+        "english": "in short, in brief"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Kortom, het is klaar.",
+        "Kortom, wij gaan door."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "简而言之，完成了。",
+          "简而言之，我们继续。"
+        ],
+        "english": [
+          "In short, it is done.",
+          "In brief, we continue."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4013,
+      "word": "kost",
+      "translation": {
+        "chinese": "费用,成本",
+        "english": "cost, expense"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "kost",
+          "plural": "kosten"
+        }
+      },
+      "examples": [
+        "De kosten waren hoog.",
+        "Wat kost het?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "费用很高。",
+          "这要多少钱？"
+        ],
+        "english": [
+          "The costs were high.",
+          "What does it cost?"
+        ]
+      },
+      "notes": "经济名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4014,
+      "word": "kostbaar",
+      "translation": {
+        "chinese": "珍贵的,昂贵的",
+        "english": "precious, valuable, expensive"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "kostbaar",
+          "withDe": "kostbare",
+          "withHet": "kostbare",
+          "comparative": "kostbaarder",
+          "superlative": "het kostbaarst"
+        }
+      },
+      "examples": [
+        "Een kostbaar sieraad.",
+        "De tijd is kostbaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一件珍贵的首饰。",
+          "时间是宝贵的。"
+        ],
+        "english": [
+          "A precious jewel.",
+          "Time is valuable."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    }
+  ]
+}

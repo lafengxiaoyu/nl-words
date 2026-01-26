@@ -1,0 +1,1964 @@
+{
+  "id": "lB148",
+  "level": "B1",
+  "lessonNumber": 48,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 4265,
+      "word": "vernoemen",
+      "translation": {
+        "chinese": "注意到",
+        "english": "to notice"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vernoemen",
+          "isSeparable": false,
+          "present": {
+            "ik": "neem",
+            "jij": "neemt",
+            "hij": "neemt",
+            "wij": "nemen",
+            "jullie": "nemen",
+            "zij": "nemen"
+          },
+          "past": {
+            "singular": "nam",
+            "plural": "namen"
+          },
+          "pastParticiple": "genomen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik nam hem op.",
+        "Ze nam het waar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我注意到了他。",
+          "她注意到了价值。"
+        ],
+        "english": [
+          "I noticed him.",
+          "She noticed the value."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4266,
+      "word": "vernuftig",
+      "translation": {
+        "chinese": "精致的",
+        "english": "sophisticated"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "vernuftig",
+          "withDe": "vernuftige",
+          "withHet": "vernuftige",
+          "comparative": "vernuftiger",
+          "superlative": "het vernuftigst"
+        }
+      },
+      "examples": [
+        "Een vernuftige oplossing.",
+        "Zij is erg vernuftig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个精致的解决方案。",
+          "她非常精明。"
+        ],
+        "english": [
+          "A sophisticated solution.",
+          "She is very sophisticated."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4267,
+      "word": "verouderd",
+      "translation": {
+        "chinese": "陈旧的",
+        "english": "outdated"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "verouderd",
+          "withDe": "verouderde",
+          "withHet": "verouderde",
+          "comparative": "-",
+          "superlative": "-"
+        }
+      },
+      "examples": [
+        "Het systeem is verouderd.",
+        "Verouderde technologie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "系统陈旧了。",
+          "陈旧的技术。"
+        ],
+        "english": [
+          "The system is outdated.",
+          "Outdated technology."
+        ]
+      },
+      "notes": "形容词，分词形式",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4268,
+      "word": "verpesten",
+      "translation": {
+        "chinese": "僵硬",
+        "english": "stiff"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "verpesten",
+          "withDe": "verpestende",
+          "withHet": "verpestende",
+          "comparative": "-",
+          "superlative": "-"
+        }
+      },
+      "examples": [
+        "Hij is verpesten.",
+        "De verpestende spieren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很僵硬。",
+          "僵硬的肌肉。"
+        ],
+        "english": [
+          "He is stiff.",
+          "The stiff muscles."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4269,
+      "word": "verreweg",
+      "translation": {
+        "chinese": "毫无疑问",
+        "english": "far and away"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Dit is verreweg het beste.",
+        "Verreweg de meeste mensen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这绝对是最好的。",
+          "绝对大多数人。"
+        ],
+        "english": [
+          "This is far and away the best.",
+          "Far and away most people."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4270,
+      "word": "verruilen",
+      "translation": {
+        "chinese": "交换",
+        "english": "to exchange"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verruilen",
+          "isSeparable": false,
+          "present": {
+            "ik": "ruil",
+            "jij": "ruilt",
+            "hij": "ruilt",
+            "wij": "ruilen",
+            "jullie": "ruilen",
+            "zij": "ruilen"
+          },
+          "past": {
+            "singular": "ruilde",
+            "plural": "ruilden"
+          },
+          "pastParticiple": "verruild",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij ruilde zijn auto.",
+        "Zij verruilen kleding."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他换了车。",
+          "她们交换衣服。"
+        ],
+        "english": [
+          "He exchanged his car.",
+          "They exchange clothes."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4271,
+      "word": "verruken",
+      "translation": {
+        "chinese": "毁坏",
+        "english": "to destroy"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verruken",
+          "isSeparable": false,
+          "present": {
+            "ik": "ruk",
+            "jij": "rukt",
+            "hij": "rukt",
+            "wij": "ruken",
+            "jullie": "ruken",
+            "zij": "ruken"
+          },
+          "past": {
+            "singular": "rukte",
+            "plural": "rukten"
+          },
+          "pastParticiple": "verrukt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De brand verrukte het huis.",
+        "Het virus verrukte alles."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "火灾毁坏了房屋。",
+          "病毒毁了一切。"
+        ],
+        "english": [
+          "The fire destroyed the house.",
+          "The virus destroyed everything."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4272,
+      "word": "verschiet",
+      "translation": {
+        "chinese": "射偏",
+        "english": "to shoot astray"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verschiet",
+          "isSeparable": false,
+          "present": {
+            "ik": "schiets",
+            "jij": "schiets",
+            "hij": "schiets",
+            "wij": "schiets",
+            "jullie": "schiets",
+            "zij": "schiets"
+          },
+          "past": {
+            "singular": "schoot",
+            "plural": "schoten"
+          },
+          "pastParticiple": "verschoten",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De kogel verschoot.",
+        "Hij verschoot zijn doel niet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "子弹射偏了。",
+          "他没射中目标。"
+        ],
+        "english": [
+          "The bullet shot astray.",
+          "He didn't hit his target."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4273,
+      "word": "verslapen",
+      "translation": {
+        "chinese": "变软",
+        "english": "to soften"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verslapen",
+          "isSeparable": false,
+          "present": {
+            "ik": "slap",
+            "jij": "slapt",
+            "hij": "slapt",
+            "wij": "slapen",
+            "jullie": "slapen",
+            "zij": "slapen"
+          },
+          "past": {
+            "singular": "slapte",
+            "plural": "lapten"
+          },
+          "pastParticiple": "verslap",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De boter verslapte.",
+        "De spieren verslapen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "黄油变软了。",
+          "肌肉变软了。"
+        ],
+        "english": [
+          "The butter softened.",
+          "The muscles soften."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4274,
+      "word": "verslaven",
+      "translation": {
+        "chinese": "变轻",
+        "english": "to lighten"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verslaven",
+          "isSeparable": false,
+          "present": {
+            "ik": "slaaf",
+            "jij": "slaaf",
+            "hij": "slaaf",
+            "wij": "slaaven",
+            "jullie": "slaaven",
+            "zij": "slaaven"
+          },
+          "past": {
+            "singular": "slaafde",
+            "plural": "slaafden"
+          },
+          "pastParticiple": "verslaafd",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De lucht verslaafde.",
+        "De kleuren verslaaven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "空气变轻了。",
+          "颜色变浅了。"
+        ],
+        "english": [
+          "The air lightened.",
+          "The colors lightened."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4275,
+      "word": "versleten",
+      "translation": {
+        "chinese": "磨损",
+        "english": "to wear out"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "versleten",
+          "isSeparable": false,
+          "present": {
+            "ik": "sleet",
+            "jij": "sleet",
+            "hij": "sleet",
+            "wij": "sleten",
+            "jullie": "sleten",
+            "zij": "sleten"
+          },
+          "past": {
+            "singular": "sleet",
+            "plural": "sleten"
+          },
+          "pastParticiple": "versleten",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De schoenen zijn versleten.",
+        "Het materiaal sleet op."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "鞋子磨破了。",
+          "材料磨损了。"
+        ],
+        "english": [
+          "The shoes are worn out.",
+          "The material wore out."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4276,
+      "word": "verstopt",
+      "translation": {
+        "chinese": "堵塞",
+        "english": "blocked, clogged"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "verstopt",
+          "withDe": "verstopte",
+          "withHet": "verstopte",
+          "comparative": "-",
+          "superlative": "-"
+        }
+      },
+      "examples": [
+        "De gootsteen is verstopt.",
+        "De neus is verstopt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "排水管堵塞了。",
+          "鼻子堵住了。"
+        ],
+        "english": [
+          "The drain is blocked.",
+          "The nose is clogged."
+        ]
+      },
+      "notes": "形容词，分词形式",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4277,
+      "word": "vertolken",
+      "translation": {
+        "chinese": "诠释",
+        "english": "to interpret"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vertolken",
+          "isSeparable": false,
+          "present": {
+            "ik": "tolk",
+            "jij": "tolkt",
+            "hij": "tolkt",
+            "wij": "tolken",
+            "jullie": "tolken",
+            "zij": "tolken"
+          },
+          "past": {
+            "singular": "tolkde",
+            "plural": "tolkden"
+          },
+          "pastParticiple": "vertolkt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij tolkte het lied.",
+        "De acteur tolkt de rol."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他诠释了这首歌。",
+          "演员诠释了角色。"
+        ],
+        "english": [
+          "He interpreted the song.",
+          "The actor interpreted the role."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4278,
+      "word": "vervaging",
+      "translation": {
+        "chinese": "老化",
+        "english": "aging"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "vervaging",
+          "plural": "vervagingen"
+        }
+      },
+      "examples": [
+        "De vervaging van de bevolking.",
+        "Vervaging veroorzaakt problemen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "人口老龄化。",
+          "老龄化引起问题。"
+        ],
+        "english": [
+          "The aging of the population.",
+          "Aging causes problems."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4279,
+      "word": "vervalsen",
+      "translation": {
+        "chinese": "伪造",
+        "english": "to forge"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vervalsen",
+          "isSeparable": false,
+          "present": {
+            "ik": "vals",
+            "jij": "valst",
+            "hij": "valst",
+            "wij": "valsen",
+            "jullie": "valsen",
+            "zij": "valsen"
+          },
+          "past": {
+            "singular": "valste",
+            "plural": "valsten"
+          },
+          "pastParticiple": "vervalst",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij vervalste het document.",
+        "Valsen is strafbaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他伪造了文件。",
+          "伪造是犯罪。"
+        ],
+        "english": [
+          "He forged the document.",
+          "Forging is punishable."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4280,
+      "word": "vervatten",
+      "translation": {
+        "chinese": "包含",
+        "english": "to comprehend"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vervatten",
+          "isSeparable": false,
+          "present": {
+            "ik": "vat",
+            "jij": "vat",
+            "hij": "vat",
+            "wij": "vatten",
+            "jullie": "vatten",
+            "zij": "vatten"
+          },
+          "past": {
+            "singular": "vatte",
+            "plural": "vatten"
+          },
+          "pastParticiple": "vervat",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik vat het niet.",
+        "Hij vat de situatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我不理解。",
+          "他理解情况。"
+        ],
+        "english": [
+          "I don't comprehend it.",
+          "He comprehends the situation."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4281,
+      "word": "uitvoerbaar",
+      "translation": {
+        "chinese": "可执行的, 可实施的",
+        "english": "executable, feasible"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "uitvoerbaar",
+          "withDe": "uitvoerbare",
+          "withHet": "uitvoerbare",
+          "comparative": "uitvoerbaarder",
+          "superlative": "het uitvoerbaarst"
+        }
+      },
+      "examples": [
+        "Het plan is uitvoerbaar.",
+        "Is dit project uitvoerbaar?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个计划是可执行的。",
+          "这个项目可行吗？"
+        ],
+        "english": [
+          "The plan is feasible.",
+          "Is this project executable?"
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4282,
+      "word": "uitzendbureau",
+      "translation": {
+        "chinese": "劳务派遣公司",
+        "english": "employment agency"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "uitzendbureau",
+          "plural": "uitzendbureaus"
+        }
+      },
+      "examples": [
+        "Ik werk via een uitzendbureau.",
+        "Het uitzendbureau heeft vacatures."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我通过劳务派遣公司工作。",
+          "劳务派遣公司有职位空缺。"
+        ],
+        "english": [
+          "I work through an employment agency.",
+          "The employment agency has vacancies."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4283,
+      "word": "vaardig",
+      "translation": {
+        "chinese": "熟练的, 有技巧的",
+        "english": "skilled, skillful"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "vaardig",
+          "withDe": "vaardige",
+          "withHet": "vaardige",
+          "comparative": "vaardiger",
+          "superlative": "het vaardigst"
+        }
+      },
+      "examples": [
+        "Zij is vaardig in schilderen.",
+        "Een vaardige werknemer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她擅长绘画。",
+          "一个熟练的员工。"
+        ],
+        "english": [
+          "She is skilled in painting.",
+          "A skilled employee."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4284,
+      "word": "vaartuig",
+      "translation": {
+        "chinese": "船只, 航行器",
+        "english": "vessel, craft"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "vaartuig",
+          "plural": "vaartuigen"
+        }
+      },
+      "examples": [
+        "Het vaartuig ligt in de haven.",
+        "De vaartuigen varen uit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "船只停在港口。",
+          "船只出航。"
+        ],
+        "english": [
+          "The vessel is in the harbor.",
+          "The vessels set sail."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4285,
+      "word": "verdorie",
+      "translation": {
+        "chinese": "见鬼, 该死",
+        "english": "darn, confound it"
+      },
+      "partOfSpeech": "interjection",
+      "forms": {},
+      "examples": [
+        "Verdorie, ik ben mijn sleutel kwijt.",
+        "Wat verdorie nu weer?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "见鬼，我把钥匙弄丢了。",
+          "现在又怎么了？"
+        ],
+        "english": [
+          "Darn, I lost my key.",
+          "What on earth now?"
+        ]
+      },
+      "notes": "感叹词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4286,
+      "word": "verduisteren",
+      "translation": {
+        "chinese": "遮蔽, 变暗",
+        "english": "to darken, to eclipse"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verduisteren",
+          "isSeparable": false,
+          "present": {
+            "ik": "verduister",
+            "jij": "verduistert",
+            "hij": "verduistert",
+            "wij": "verduisteren",
+            "jullie": "verduisteren",
+            "zij": "verduisteren"
+          },
+          "past": {
+            "singular": "verduisterde",
+            "plural": "verduisterden"
+          },
+          "pastParticiple": "verduisterd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De maan verduistert de zon.",
+        "Wolken verduisterden de lucht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "月球遮蔽了太阳。",
+          "云层使天空变暗。"
+        ],
+        "english": [
+          "The moon eclipses the sun.",
+          "Clouds darkened the sky."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4287,
+      "word": "verdwijnen",
+      "translation": {
+        "chinese": "消失",
+        "english": "to disappear"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verdwijnen",
+          "isSeparable": false,
+          "present": {
+            "ik": "verdwijn",
+            "jij": "verdijnt",
+            "hij": "verdijnt",
+            "wij": "verdwijnen",
+            "jullie": "verdwijnen",
+            "zij": "verdwijnen"
+          },
+          "past": {
+            "singular": "verdween",
+            "plural": "verdwenen"
+          },
+          "pastParticiple": "verdwenen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De zon verdwijnt achter de bergen.",
+        "Het probleem is verdwenen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "太阳消失在山后。",
+          "问题已经消失了。"
+        ],
+        "english": [
+          "The sun disappears behind the mountains.",
+          "The problem has disappeared."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4288,
+      "word": "vergeefs",
+      "translation": {
+        "chinese": "徒劳地",
+        "english": "in vain"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Ik heb vergeefs gezocht.",
+        "Hij probeerde het vergeefs."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我白找了。",
+          "他徒劳地尝试了。"
+        ],
+        "english": [
+          "I searched in vain.",
+          "He tried in vain."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4289,
+      "word": "verhoren",
+      "translation": {
+        "chinese": "审问",
+        "english": "to interrogate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verhoren",
+          "isSeparable": false,
+          "present": {
+            "ik": "verhoor",
+            "jij": "verhoort",
+            "hij": "verhoort",
+            "wij": "verhoren",
+            "jullie": "verhoren",
+            "zij": "verhoren"
+          },
+          "past": {
+            "singular": "verhoorde",
+            "plural": "verhoorden"
+          },
+          "pastParticiple": "verhoord",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De politie verhoort de verdachte.",
+        "Hij werd verhoord door de rechter."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "警察审问嫌疑人。",
+          "他被法官审问。"
+        ],
+        "english": [
+          "The police interrogates the suspect.",
+          "He was questioned by the judge."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4290,
+      "word": "verkeersregelaar",
+      "translation": {
+        "chinese": "交通指挥员",
+        "english": "traffic controller"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "verkeersregelaar",
+          "plural": "verkeersregelaars"
+        }
+      },
+      "examples": [
+        "De verkeersregelaar wijst de weg.",
+        "De verkeersregelaar staat op het kruispunt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "交通指挥员指路。",
+          "交通指挥员站在十字路口。"
+        ],
+        "english": [
+          "The traffic controller directs the way.",
+          "The traffic controller stands at the intersection."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4291,
+      "word": "verlies",
+      "translation": {
+        "chinese": "损失, 输",
+        "english": "loss, defeat"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "verlies",
+          "plural": "verliezen"
+        }
+      },
+      "examples": [
+        "Het bedrijf heeft verlies geleden.",
+        "Een groot verlies."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司遭受了损失。",
+          "一个巨大的损失。"
+        ],
+        "english": [
+          "The company incurred a loss.",
+          "A big loss."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4292,
+      "word": "verlies",
+      "translation": {
+        "chinese": "输掉",
+        "english": "to lose"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verliezen",
+          "isSeparable": false,
+          "present": {
+            "ik": "verlies",
+            "jij": "verliest",
+            "hij": "verliest",
+            "wij": "verliezen",
+            "jullie": "verliezen",
+            "zij": "verliezen"
+          },
+          "past": {
+            "singular": "verloor",
+            "plural": "verloren"
+          },
+          "pastParticiple": "verloren",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Wij verliezen de wedstrijd.",
+        "Hij verloor zijn sleutel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们输了比赛。",
+          "他丢了钥匙。"
+        ],
+        "english": [
+          "We lose the match.",
+          "He lost his key."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4293,
+      "word": "verlovingsring",
+      "translation": {
+        "chinese": "订婚戒指",
+        "english": "engagement ring"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "verlovingsring",
+          "plural": "verlovingsringen"
+        }
+      },
+      "examples": [
+        "Zij draagt een verlovingsring.",
+        "De verlovingsring is goud."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她戴着订婚戒指。",
+          "订婚戒指是金的。"
+        ],
+        "english": [
+          "She wears an engagement ring.",
+          "The engagement ring is gold."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4294,
+      "word": "veroveren",
+      "translation": {
+        "chinese": "征服, 夺取",
+        "english": "to conquer"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "veroveren",
+          "isSeparable": false,
+          "present": {
+            "ik": "verover",
+            "jij": "verovert",
+            "hij": "verovert",
+            "wij": "veroveren",
+            "jullie": "veroveren",
+            "zij": "veroveren"
+          },
+          "past": {
+            "singular": "veroverde",
+            "plural": "veroverden"
+          },
+          "pastParticiple": "veroverd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De legers veroverden de stad.",
+        "Zij veroverde zijn hart."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "军队征服了这座城市。",
+          "她赢得了他的心。"
+        ],
+        "english": [
+          "The armies conquered the city.",
+          "She conquered his heart."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4295,
+      "word": "verrichten",
+      "translation": {
+        "chinese": "执行, 进行",
+        "english": "to perform, to carry out"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verrichten",
+          "isSeparable": false,
+          "present": {
+            "ik": "verricht",
+            "jij": "verricht",
+            "hij": "verricht",
+            "wij": "verrichten",
+            "jullie": "verrichten",
+            "zij": "verrichten"
+          },
+          "past": {
+            "singular": "verrichtte",
+            "plural": "verrichtten"
+          },
+          "pastParticiple": "verricht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Wij verrichten het onderzoek.",
+        "Hij verrichtte zijn werk goed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们进行研究。",
+          "他工作做得很好。"
+        ],
+        "english": [
+          "We conduct the research.",
+          "He performed his work well."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4296,
+      "word": "verschuilen",
+      "translation": {
+        "chinese": "躲藏, 隐藏",
+        "english": "to hide away"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verschuilen",
+          "isSeparable": true,
+          "prefix": "schuil",
+          "present": {
+            "ik": "schuil",
+            "jij": "schuilt",
+            "hij": "schuilt",
+            "wij": "schuilen",
+            "jullie": "schuilen",
+            "zij": "schuilen"
+          },
+          "past": {
+            "singular": "schuilde",
+            "plural": "schuilden"
+          },
+          "pastParticiple": "verschuild",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Hij verschuilde zich achter de stoel.",
+        "Zij verschuilde haar emoties."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他躲在椅子后面。",
+          "她隐藏了自己的情绪。"
+        ],
+        "english": [
+          "He hid behind the chair.",
+          "She hid her emotions."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4297,
+      "word": "versmelten",
+      "translation": {
+        "chinese": "融合, 合并",
+        "english": "to merge, to fuse"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "versmelten",
+          "isSeparable": false,
+          "present": {
+            "ik": "versmelt",
+            "jij": "versmelt",
+            "hij": "versmelt",
+            "wij": "versmelten",
+            "jullie": "versmelten",
+            "zij": "versmelten"
+          },
+          "past": {
+            "singular": "versmolt",
+            "plural": "versmolten"
+          },
+          "pastParticiple": "versmolten",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De bedrijven versmolten.",
+        "IJs versmelt in de zon."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司合并了。",
+          "冰在阳光下融化。"
+        ],
+        "english": [
+          "The companies merged.",
+          "Ice melts in the sun."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4298,
+      "word": "verspreiden",
+      "translation": {
+        "chinese": "传播, 分散",
+        "english": "to spread, to distribute"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verspreiden",
+          "isSeparable": false,
+          "present": {
+            "ik": "verspreid",
+            "jij": "verspreidt",
+            "hij": "verspreidt",
+            "wij": "verspreiden",
+            "jullie": "verspreiden",
+            "zij": "verspreiden"
+          },
+          "past": {
+            "singular": "verspreidde",
+            "plural": "verspreidden"
+          },
+          "pastParticiple": "verspreid",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij verspreidde het nieuws.",
+        "De zaden verspreiden zich."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他传播了新闻。",
+          "种子传播开来。"
+        ],
+        "english": [
+          "He spread the news.",
+          "The seeds spread."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4299,
+      "word": "verstikken",
+      "translation": {
+        "chinese": "窒息",
+        "english": "to suffocate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verstikken",
+          "isSeparable": false,
+          "present": {
+            "ik": "verstik",
+            "jij": "verstikt",
+            "hij": "verstikt",
+            "wij": "verstikken",
+            "jullie": "verstikken",
+            "zij": "verstikken"
+          },
+          "past": {
+            "singular": "stikte",
+            "plural": "stikten"
+          },
+          "pastParticiple": "verstikt",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Het kind verstikte bijna.",
+        "De rook verstikt hem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "孩子差点窒息。",
+          "烟让他窒息。"
+        ],
+        "english": [
+          "The child almost suffocated.",
+          "The smoke suffocates him."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4300,
+      "word": "verstrekken",
+      "translation": {
+        "chinese": "提供, 供应",
+        "english": "to provide, to supply"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verstrekken",
+          "isSeparable": false,
+          "present": {
+            "ik": "verstrek",
+            "jij": "verstrekt",
+            "hij": "verstrekt",
+            "wij": "verstrekken",
+            "jullie": "verstrekken",
+            "zij": "verstrekken"
+          },
+          "past": {
+            "singular": "verstreekte",
+            "plural": "verstrekten"
+          },
+          "pastParticiple": "verstrekt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het bedrijf verstrekt krediet.",
+        "Wij verstrekken informatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司提供信贷。",
+          "我们提供信息。"
+        ],
+        "english": [
+          "The company provides credit.",
+          "We provide information."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4301,
+      "word": "verstrooid",
+      "translation": {
+        "chinese": "分散的, 走神的",
+        "english": "distracted, absent-minded"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "verstrooid",
+          "withDe": "verstrooide",
+          "withHet": "verstrooide",
+          "comparative": "verstrooider",
+          "superlative": "het verstrooidst"
+        }
+      },
+      "examples": [
+        "Hij was verstrooid.",
+        "Een verstrooid persoon."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他心不在焉。",
+          "一个走神的人。"
+        ],
+        "english": [
+          "He was absent-minded.",
+          "A distracted person."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4302,
+      "word": "vertraging",
+      "translation": {
+        "chinese": "延迟, 耽误",
+        "english": "delay"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "vertraging",
+          "plural": "vertragingen"
+        }
+      },
+      "examples": [
+        "De trein heeft vertraging.",
+        "Door de vertraging komen we te laat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "火车晚点。",
+          "因为耽误，我们迟到了。"
+        ],
+        "english": [
+          "The train is delayed.",
+          "Because of the delay, we are late."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4303,
+      "word": "verwaarlozen",
+      "translation": {
+        "chinese": "忽视, 忽略",
+        "english": "to neglect"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verwaarlozen",
+          "isSeparable": false,
+          "present": {
+            "ik": "verwaarloos",
+            "jij": "verwaarloost",
+            "hij": "verwaarloost",
+            "wij": "verwaarlozen",
+            "jullie": "verwaarlozen",
+            "zij": "verwaarlozen"
+          },
+          "past": {
+            "singular": "verwaarloosde",
+            "plural": "verwaarloosden"
+          },
+          "pastParticiple": "verwaarloosd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij verwaarloosde zijn huiswerk.",
+        "De planten worden verwaarloosd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他忽视了他的作业。",
+          "植物被忽视了。"
+        ],
+        "english": [
+          "He neglected his homework.",
+          "The plants are neglected."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4304,
+      "word": "verwarmen",
+      "translation": {
+        "chinese": "加热",
+        "english": "to heat"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verwarmen",
+          "isSeparable": false,
+          "present": {
+            "ik": "verwarm",
+            "jij": "verwarmt",
+            "hij": "verwarmt",
+            "wij": "verwarmen",
+            "jullie": "verwarmen",
+            "zij": "verwarmen"
+          },
+          "past": {
+            "singular": "verwarmde",
+            "plural": "verwarmden"
+          },
+          "pastParticiple": "verwarmd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik verwarm het eten.",
+        "De oven warmt op."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我加热食物。",
+          "烤箱热起来了。"
+        ],
+        "english": [
+          "I heat the food.",
+          "The oven heats up."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4305,
+      "word": "verweven",
+      "translation": {
+        "chinese": "交织, 编织",
+        "english": "to interweave"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verweven",
+          "isSeparable": false,
+          "present": {
+            "ik": "verweef",
+            "jij": "verweeft",
+            "hij": "verweeft",
+            "wij": "verweven",
+            "jullie": "verweven",
+            "zij": "verweven"
+          },
+          "past": {
+            "singular": "verweefde",
+            "plural": "verweven"
+          },
+          "pastParticiple": "verweven",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De verhalen zijn verweven.",
+        "De draden zijn verweven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "故事交织在一起。",
+          "线编织在一起。"
+        ],
+        "english": [
+          "The stories are interwoven.",
+          "The threads are woven together."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4306,
+      "word": "verwond",
+      "translation": {
+        "chinese": "受伤的",
+        "english": "injured"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "verwond",
+          "withDe": "verwonde",
+          "withHet": "verwonde",
+          "comparative": "verwonder",
+          "superlative": "het verwondst"
+        }
+      },
+      "examples": [
+        "Hij is verwond.",
+        "Een verwond dier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他受伤了。",
+          "一只受伤的动物。"
+        ],
+        "english": [
+          "He is injured.",
+          "An injured animal."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4307,
+      "word": "verwonden",
+      "translation": {
+        "chinese": "使受伤",
+        "english": "to wound"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verwonden",
+          "isSeparable": false,
+          "present": {
+            "ik": "verwond",
+            "jij": "verwondt",
+            "hij": "verwondt",
+            "wij": "verwonden",
+            "jullie": "verwonden",
+            "zij": "verwonden"
+          },
+          "past": {
+            "singular": "verwondde",
+            "plural": "verwondden"
+          },
+          "pastParticiple": "verwond",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij verwondde de man.",
+        "Zij werd verwond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他伤害了那个人。",
+          "她受伤了。"
+        ],
+        "english": [
+          "He wounded the man.",
+          "She was wounded."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4308,
+      "word": "verworven",
+      "translation": {
+        "chinese": "获得的, 赢得的",
+        "english": "acquired, earned"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "verworven",
+          "withDe": "verworven",
+          "withHet": "verworven",
+          "comparative": "verworfener",
+          "superlative": "het verworvenst"
+        }
+      },
+      "examples": [
+        "Een verworven recht.",
+        "Zij heeft verworven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "既得权利。",
+          "她获得了成就。"
+        ],
+        "english": [
+          "An acquired right.",
+          "She has earned achievements."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4309,
+      "word": "verworven",
+      "translation": {
+        "chinese": "获得, 赢得",
+        "english": "to acquire"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "verwerven",
+          "isSeparable": false,
+          "present": {
+            "ik": "verwerf",
+            "jij": "verwerft",
+            "hij": "verwerft",
+            "wij": "verwerven",
+            "jullie": "verwerven",
+            "zij": "verwerven"
+          },
+          "past": {
+            "singular": "verwierf",
+            "plural": "verwerven"
+          },
+          "pastParticiple": "verworven",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij verwierf grote bekendheid.",
+        "Zij verwerfde het vermogen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他获得了巨大的名声。",
+          "她获得了财富。"
+        ],
+        "english": [
+          "He acquired great fame.",
+          "She acquired the fortune."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4310,
+      "word": "vies",
+      "translation": {
+        "chinese": "脏的",
+        "english": "dirty"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "vies",
+          "withDe": "vieze",
+          "withHet": "vieze",
+          "comparative": "viezer",
+          "superlative": "het viest"
+        }
+      },
+      "examples": [
+        "Het water is vies.",
+        "Vies schoeisel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "水是脏的。",
+          "脏鞋子。"
+        ],
+        "english": [
+          "The water is dirty.",
+          "Dirty footwear."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4311,
+      "word": "vierslag",
+      "translation": {
+        "chinese": "四拍",
+        "english": "four-beat"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "vierslag",
+          "plural": "vierslagen"
+        }
+      },
+      "examples": [
+        "Het liedje is in vierslag.",
+        "De vierslag van het paard."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这首歌是四拍子的。",
+          "马的步态。"
+        ],
+        "english": [
+          "The song is in four-beat.",
+          "The gait of the horse."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4312,
+      "word": "vijver",
+      "translation": {
+        "chinese": "池塘",
+        "english": "pond"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "vijver",
+          "plural": "vijvers"
+        }
+      },
+      "examples": [
+        "Er zit een vis in de vijver.",
+        "De vijver is bevroren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "池塘里有一条鱼。",
+          "池塘结冰了。"
+        ],
+        "english": [
+          "There is a fish in the pond.",
+          "The pond is frozen."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4313,
+      "word": "vindbaar",
+      "translation": {
+        "chinese": "可找到的",
+        "english": "findable, locatable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "vindbaar",
+          "withDe": "vindbare",
+          "withHet": "vindbare",
+          "comparative": "vindbaarder",
+          "superlative": "het vindbaarst"
+        }
+      },
+      "examples": [
+        "Het document is vindbaar.",
+        "De informatie is niet vindbaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "文档可以找到。",
+          "信息找不到。"
+        ],
+        "english": [
+          "The document is findable.",
+          "The information is not findable."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B1"
+    },
+    {
+      "id": 4314,
+      "word": "vissen",
+      "translation": {
+        "chinese": "钓鱼",
+        "english": "to fish"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "vissen",
+          "isSeparable": false,
+          "present": {
+            "ik": "vis",
+            "jij": "vist",
+            "hij": "vist",
+            "wij": "vissen",
+            "jullie": "vissen",
+            "zij": "vissen"
+          },
+          "past": {
+            "singular": "viste",
+            "plural": "visten"
+          },
+          "pastParticiple": "gevist",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Wij vissen in de zee.",
+        "Hij vist een forel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们在海里钓鱼。",
+          "他钓了一条鳟鱼。"
+        ],
+        "english": [
+          "We fish in the sea.",
+          "He catches a trout."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B1"
+    }
+  ]
+}
