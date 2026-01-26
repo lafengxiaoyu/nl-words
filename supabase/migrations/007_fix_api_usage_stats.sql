@@ -18,8 +18,11 @@ INSERT INTO api_usage_settings (key, value)
 VALUES ('sampling_rate', 0.05)
 ON CONFLICT (key) DO UPDATE SET value = 0.05, updated_at = NOW();
 
--- 3. 重建 user_api_usage_stats 视图，使用估算值
-CREATE OR REPLACE VIEW user_api_usage_stats AS
+-- 3. 删除旧视图
+DROP VIEW IF EXISTS user_api_usage_stats;
+
+-- 4. 创建新视图，使用估算值
+CREATE VIEW user_api_usage_stats AS
 SELECT
   up.user_id,
   up.username,
