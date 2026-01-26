@@ -8958,21 +8958,12 @@
   },
   "511": {
     "id": 511,
-    "word": "volgende",
+    "word": "volgend",
     "level": "A1",
     "partOfSpeech": "adjective",
     "translation": {
       "chinese": "下一个",
       "english": "next"
-    },
-    "forms": {
-      "adjective": {
-        "comparative": "-",
-        "superlative": "-",
-        "withDe": "volgende",
-        "withHet": "volgende",
-        "base": "volgende"
-      }
     }
   },
   "512": {
@@ -9367,25 +9358,6 @@
         "article": "de",
         "singular": "voorzitter",
         "plural": "voorzitters"
-      }
-    }
-  },
-  "533": {
-    "id": 533,
-    "word": "vorige",
-    "level": "A1",
-    "partOfSpeech": "adjective",
-    "translation": {
-      "chinese": "上一个",
-      "english": "previous, last"
-    },
-    "forms": {
-      "adjective": {
-        "comparative": "-",
-        "superlative": "-",
-        "withDe": "vorige",
-        "withHet": "vorige",
-        "base": "vorige"
       }
     }
   },
@@ -13110,25 +13082,6 @@
           "plural": "dachten"
         },
         "pastParticiple": "gedacht"
-      }
-    }
-  },
-  "730": {
-    "id": 730,
-    "word": "dergelijke",
-    "level": "A2",
-    "partOfSpeech": "adjective",
-    "translation": {
-      "chinese": "类似的",
-      "english": "such, similar"
-    },
-    "forms": {
-      "adjective": {
-        "base": "dergelijke",
-        "withDe": "dergelijke",
-        "withHet": "dergelijk",
-        "comparative": "-",
-        "superlative": "-"
       }
     }
   },
@@ -35068,7 +35021,7 @@
   },
   "1845": {
     "id": 1845,
-    "word": "hechte",
+    "word": "hecht",
     "level": "B1",
     "partOfSpeech": "adjective",
     "translation": {
@@ -35727,7 +35680,7 @@
   },
   "1884": {
     "id": 1884,
-    "word": "hoge",
+    "word": "hoog",
     "level": "B1",
     "partOfSpeech": "adjective",
     "translation": {
@@ -35741,25 +35694,6 @@
         "withHet": "hoge",
         "comparative": "hoger",
         "superlative": "het hoogst"
-      }
-    }
-  },
-  "1885": {
-    "id": 1885,
-    "word": "hoger",
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "translation": {
-      "chinese": "更高的",
-      "english": "higher"
-    },
-    "forms": {
-      "adjective": {
-        "base": "hoger",
-        "withDe": "hogere",
-        "withHet": "hogere",
-        "comparative": "-",
-        "superlative": "-"
       }
     }
   },
@@ -36903,7 +36837,7 @@
   },
   "1948": {
     "id": 1948,
-    "word": "juiste",
+    "word": "juist",
     "level": "B1",
     "partOfSpeech": "adjective",
     "translation": {
@@ -41380,7 +41314,7 @@
   },
   "2200": {
     "id": 2200,
-    "word": "maandelijkse",
+    "word": "maandelijks",
     "level": "B1",
     "partOfSpeech": "adjective",
     "translation": {
@@ -47102,25 +47036,6 @@
         "article": "de",
         "singular": "oudheid",
         "plural": "oudheden"
-      }
-    }
-  },
-  "2550": {
-    "id": 2550,
-    "word": "oudste",
-    "level": "B1",
-    "partOfSpeech": "adjective",
-    "translation": {
-      "chinese": "最年长的、最早的",
-      "english": "oldest, eldest"
-    },
-    "forms": {
-      "adjective": {
-        "base": "oudste",
-        "withDe": "oudste",
-        "withHet": "oudste",
-        "comparative": "-",
-        "superlative": "-"
       }
     }
   },
@@ -53486,7 +53401,7 @@
   },
   "3230": {
     "id": 3230,
-    "word": "andere",
+    "word": "ander",
     "level": "B1",
     "partOfSpeech": "adjective",
     "translation": {

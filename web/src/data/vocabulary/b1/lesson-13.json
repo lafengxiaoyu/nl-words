@@ -2,7 +2,7 @@
   "id": "lB113",
   "level": "B1",
   "lessonNumber": 13,
-  "totalWords": 48,
+  "totalWords": 47,
   "words": [
     {
       "id": 1878,
@@ -200,7 +200,7 @@
     },
     {
       "id": 1884,
-      "word": "hoge",
+      "word": "hoog",
       "translation": {
         "chinese": "高的",
         "english": "high"
@@ -230,40 +230,6 @@
         ]
       },
       "notes": "比较级和最高级规则：hoog - hoger - hoogst",
-      "difficulty": "B1"
-    },
-    {
-      "id": 1885,
-      "word": "hoger",
-      "translation": {
-        "chinese": "更高的",
-        "english": "higher"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "hoger",
-          "withDe": "hogere",
-          "withHet": "hogere",
-          "comparative": "-",
-          "superlative": "-"
-        }
-      },
-      "examples": [
-        "De inflatie heeft geleid tot hogere prijzen in de winkels.",
-        "Zijn opleidingsniveau is hoger dan dat van zijn collega's."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "通货膨胀导致商店里价格更高。",
-          "他的教育水平比同事们更高。"
-        ],
-        "english": [
-          "Inflation has led to higher prices in stores.",
-          "His educational level is higher than that of his colleagues."
-        ]
-      },
-      "notes": "hoog 的比较级形式",
       "difficulty": "B1"
     },
     {

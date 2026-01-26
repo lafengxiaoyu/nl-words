@@ -16323,7 +16323,7 @@
   },
   {
     "id": 511,
-    "word": "volgende",
+    "word": "volgend",
     "translation": {
       "chinese": "下一个",
       "english": "next"
@@ -16331,28 +16331,28 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "comparative": "-",
-        "superlative": "-",
+        "base": "volgend",
         "withDe": "volgende",
-        "withHet": "volgende",
-        "base": "volgende"
+        "withHet": "volgend",
+        "comparative": "-",
+        "superlative": "-"
       }
     },
     "examples": [
-      "Volgende week ga ik.",
-      "De volgende pagina is leeg."
+      "De volgende dag is het feest.",
+      "Wat is het volgende onderwerp?"
     ],
     "exampleTranslations": {
       "chinese": [
-        "我下周去。",
-        "下一页是空的。"
+        "下一天是聚会。",
+        "下一个主题是什么？"
       ],
       "english": [
-        "I go next week.",
-        "The next page is empty."
+        "The next day is the party.",
+        "What is the next topic?"
       ]
     },
-    "notes": "分词形容词，无比较级",
+    "notes": "分词形式，通常不可比较",
     "difficulty": "A1"
   },
   {
@@ -17063,40 +17063,6 @@
       ]
     },
     "notes": "复数形式：voorzitters",
-    "difficulty": "A1"
-  },
-  {
-    "id": 533,
-    "word": "vorige",
-    "translation": {
-      "chinese": "上一个",
-      "english": "previous, last"
-    },
-    "partOfSpeech": "adjective",
-    "forms": {
-      "adjective": {
-        "comparative": "-",
-        "superlative": "-",
-        "withDe": "vorige",
-        "withHet": "vorige",
-        "base": "vorige"
-      }
-    },
-    "examples": [
-      "Vorige week was ik ziek.",
-      "De vorige pagina is leeg."
-    ],
-    "exampleTranslations": {
-      "chinese": [
-        "上周我病了。",
-        "上一页是空的。"
-      ],
-      "english": [
-        "Last week I was sick.",
-        "The previous page is empty."
-      ]
-    },
-    "notes": "分词形容词，无比较级",
     "difficulty": "A1"
   },
   {
@@ -23613,40 +23579,6 @@
       "english": [
         "I think that it is true.",
         "What do you think about this?"
-      ]
-    },
-    "difficulty": "A2"
-  },
-  {
-    "id": 730,
-    "word": "dergelijke",
-    "translation": {
-      "chinese": "类似的",
-      "english": "such, similar"
-    },
-    "partOfSpeech": "adjective",
-    "forms": {
-      "adjective": {
-        "base": "dergelijke",
-        "withDe": "dergelijke",
-        "withHet": "dergelijk",
-        "comparative": "-",
-        "superlative": "-"
-      }
-    },
-    "notes": "一般不使用比较级和最高级",
-    "examples": [
-      "Ik heb nooit zoiets gezien.",
-      "Dergelijke problemen zijn normaal."
-    ],
-    "exampleTranslations": {
-      "chinese": [
-        "我从没见过这样的东西。",
-        "类似的问题很正常。"
-      ],
-      "english": [
-        "I have never seen such a thing.",
-        "Such problems are normal."
       ]
     },
     "difficulty": "A2"
@@ -61551,7 +61483,7 @@
   },
   {
     "id": 1845,
-    "word": "hechte",
+    "word": "hecht",
     "translation": {
       "chinese": "紧密的",
       "english": "close, tight"
@@ -62780,7 +62712,7 @@
   },
   {
     "id": 1884,
-    "word": "hoge",
+    "word": "hoog",
     "translation": {
       "chinese": "高的",
       "english": "high"
@@ -62810,40 +62742,6 @@
       ]
     },
     "notes": "比较级和最高级规则：hoog - hoger - hoogst",
-    "difficulty": "B1"
-  },
-  {
-    "id": 1885,
-    "word": "hoger",
-    "translation": {
-      "chinese": "更高的",
-      "english": "higher"
-    },
-    "partOfSpeech": "adjective",
-    "forms": {
-      "adjective": {
-        "base": "hoger",
-        "withDe": "hogere",
-        "withHet": "hogere",
-        "comparative": "-",
-        "superlative": "-"
-      }
-    },
-    "examples": [
-      "De inflatie heeft geleid tot hogere prijzen in de winkels.",
-      "Zijn opleidingsniveau is hoger dan dat van zijn collega's."
-    ],
-    "exampleTranslations": {
-      "chinese": [
-        "通货膨胀导致商店里价格更高。",
-        "他的教育水平比同事们更高。"
-      ],
-      "english": [
-        "Inflation has led to higher prices in stores.",
-        "His educational level is higher than that of his colleagues."
-      ]
-    },
-    "notes": "hoog 的比较级形式",
     "difficulty": "B1"
   },
   {
@@ -64886,7 +64784,7 @@
   },
   {
     "id": 1948,
-    "word": "juiste",
+    "word": "juist",
     "translation": {
       "chinese": "正确的",
       "english": "correct"
@@ -72978,7 +72876,7 @@
   },
   {
     "id": 2200,
-    "word": "maandelijkse",
+    "word": "maandelijks",
     "translation": {
       "chinese": "每月的",
       "english": "monthly"
@@ -83024,40 +82922,6 @@
       ]
     },
     "notes": "常用于描述古代文明或历史",
-    "difficulty": "B1"
-  },
-  {
-    "id": 2550,
-    "word": "oudste",
-    "translation": {
-      "chinese": "最年长的、最早的",
-      "english": "oldest, eldest"
-    },
-    "partOfSpeech": "adjective",
-    "forms": {
-      "adjective": {
-        "base": "oudste",
-        "withDe": "oudste",
-        "withHet": "oudste",
-        "comparative": "-",
-        "superlative": "-"
-      }
-    },
-    "examples": [
-      "Hij is de oudste van het gezin en draagt als zodanig een grote verantwoordelijkheid voor het welzijn van zijn jongere broers en zusters, vooral na het overlijden van hun ouders.",
-      "In veel traditionele culturen krijgt de oudste zoon automatisch de erfenis en het familiebezit, wat leidt tot discussies over eerlijkheid en modernisatie van erfregels."
-    ],
-    "exampleTranslations": {
-      "chinese": [
-        "他是家里最年长的，因此对弟弟妹妹的福祉负有重大责任，尤其是在父母去世之后。",
-        "在许多传统文化中，长子自动获得遗产和家族财产，这引发了对公平性和继承规则现代化的讨论。"
-      ],
-      "english": [
-        "He is the eldest of the family and as such bears a great responsibility for the well-being of his younger brothers and sisters, especially after the death of their parents.",
-        "In many traditional cultures the eldest son automatically receives the inheritance and family property, which leads to discussions about fairness and modernization of inheritance rules."
-      ]
-    },
-    "notes": "形容词 oud 的最高级形式",
     "difficulty": "B1"
   },
   {
@@ -94414,7 +94278,7 @@
   },
   {
     "id": 3230,
-    "word": "andere",
+    "word": "ander",
     "translation": {
       "chinese": "其他的",
       "english": "other, different"

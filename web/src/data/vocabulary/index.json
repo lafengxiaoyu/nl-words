@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
   "lastUpdated": "2026-01-25T09:25:30.589Z",
-  "totalWords": 3385,
+  "totalWords": 3382,
   "levels": [
     {
       "level": "A1",
-      "totalWords": 759,
+      "totalWords": 758,
       "totalLessons": 16,
       "lessons": [
         {
@@ -592,7 +592,7 @@
           "id": "lA111",
           "lessonNumber": 11,
           "file": "a1/lesson-11.json",
-          "totalWords": 50,
+          "totalWords": 49,
           "wordIds": [
             526,
             527,
@@ -601,7 +601,7 @@
             530,
             531,
             532,
-            533,
+            536,
             534,
             535,
             536,
@@ -898,7 +898,7 @@
     },
     {
       "level": "A2",
-      "totalWords": 666,
+      "totalWords": 665,
       "totalLessons": 14,
       "lessons": [
         {
@@ -963,7 +963,7 @@
           "id": "lA202",
           "lessonNumber": 2,
           "file": "a2/lesson-02.json",
-          "totalWords": 50,
+          "totalWords": 49,
           "wordIds": [
             694,
             695,
@@ -1001,7 +1001,6 @@
             727,
             728,
             729,
-            730,
             731,
             732,
             733,
@@ -1683,7 +1682,7 @@
     },
     {
       "level": "B1",
-      "totalWords": 1960,
+      "totalWords": 1959,
       "totalLessons": 50,
       "lessons": [
         {
@@ -2348,7 +2347,7 @@
           "id": "lB113",
           "lessonNumber": 13,
           "file": "b1/lesson-13.json",
-          "totalWords": 48,
+          "totalWords": 47,
           "wordIds": [
             1878,
             1879,
@@ -2357,7 +2356,6 @@
             1882,
             1883,
             1884,
-            1885,
             1886,
             1887,
             1888,
@@ -3029,7 +3027,7 @@
           "id": "lB126",
           "lessonNumber": 26,
           "file": "b1/lesson-26.json",
-          "totalWords": 46,
+          "totalWords": 45,
           "wordIds": [
             2528,
             2529,
@@ -3050,7 +3048,7 @@
             2547,
             2548,
             2549,
-            2550,
+            301,
             2551,
             2552,
             2553,

@@ -1255,7 +1255,7 @@
     },
     {
       "id": 511,
-      "word": "volgende",
+      "word": "volgend",
       "translation": {
         "chinese": "下一个",
         "english": "next"
@@ -1263,28 +1263,28 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "comparative": "-",
-          "superlative": "-",
+          "base": "volgend",
           "withDe": "volgende",
-          "withHet": "volgende",
-          "base": "volgende"
+          "withHet": "volgend",
+          "comparative": "-",
+          "superlative": "-"
         }
       },
       "examples": [
-        "Volgende week ga ik.",
-        "De volgende pagina is leeg."
+        "De volgende dag is het feest.",
+        "Wat is het volgende onderwerp?"
       ],
       "exampleTranslations": {
         "chinese": [
-          "我下周去。",
-          "下一页是空的。"
+          "下一天是聚会。",
+          "下一个主题是什么？"
         ],
         "english": [
-          "I go next week.",
-          "The next page is empty."
+          "The next day is the party.",
+          "What is the next topic?"
         ]
       },
-      "notes": "分词形容词，无比较级",
+      "notes": "分词形式，通常不可比较",
       "difficulty": "A1"
     },
     {

@@ -243,40 +243,6 @@
       "difficulty": "A1"
     },
     {
-      "id": 533,
-      "word": "vorige",
-      "translation": {
-        "chinese": "上一个",
-        "english": "previous, last"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "comparative": "-",
-          "superlative": "-",
-          "withDe": "vorige",
-          "withHet": "vorige",
-          "base": "vorige"
-        }
-      },
-      "examples": [
-        "Vorige week was ik ziek.",
-        "De vorige pagina is leeg."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "上周我病了。",
-          "上一页是空的。"
-        ],
-        "english": [
-          "Last week I was sick.",
-          "The previous page is empty."
-        ]
-      },
-      "notes": "分词形容词，无比较级",
-      "difficulty": "A1"
-    },
-    {
       "id": 534,
       "word": "vork",
       "translation": {
