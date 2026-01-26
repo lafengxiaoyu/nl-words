@@ -74,8 +74,8 @@ SELECT
   MAX(al.created_at) as last_call_at
 FROM user_profiles up
 CROSS JOIN api_usage_settings s
-WHERE s.key = 'sampling_rate'
 LEFT JOIN api_usage_log al ON up.user_id = al.user_id
+WHERE s.key = 'sampling_rate'
 GROUP BY up.user_id, up.username, up.email, up.subscription_tier, up.subscription_status, s.value;
 
 -- ============================================
