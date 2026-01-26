@@ -24,6 +24,7 @@ interface AdminUser {
   totalApiCalls?: number
   callsToday?: number
   callsThisMonth?: number
+  progressRecords?: number
 }
 
 interface AdminStats {
@@ -76,6 +77,7 @@ export default function AdminDashboard() {
   const [apiDetailsUserId, setApiDetailsUserId] = useState<string | null>(null)
   const [apiDetailsLoading, setApiDetailsLoading] = useState(false)
   const [apiUsageLogs, setApiUsageLogs] = useState<ApiUsageLog[]>([])
+  const [showFullUserId, setShowFullUserId] = useState<string | null>(null)
   const chartRef = useRef<Chart | null>(null)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
 
@@ -158,12 +160,13 @@ export default function AdminDashboard() {
         .select('*')
 
       // 创建用户API统计的映射
-      const apiUsageMap = new Map<string, { total: number; today: number; month: number }>()
+      const apiUsageMap = new Map<string, { total: number; today: number; month: number; progress: number }>()
       apiUsageStats?.forEach(stat => {
         apiUsageMap.set(stat.user_id, {
           total: stat.total_calls || 0,
           today: stat.calls_today || 0,
-          month: stat.calls_month || 0
+          month: stat.calls_month || 0,
+          progress: stat.progress_records || 0
         })
       })
 
@@ -175,7 +178,7 @@ export default function AdminDashboard() {
           .sort((a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime())[0]
 
         // 获取API统计
-        const apiStats = apiUsageMap.get(profile.user_id) || { total: 0, today: 0, month: 0 }
+        const apiStats = apiUsageMap.get(profile.user_id) || { total: 0, today: 0, month: 0, progress: 0 }
 
         return {
           id: profile.user_id,
@@ -188,7 +191,8 @@ export default function AdminDashboard() {
           subscription_status: profile.subscription_status,
           totalApiCalls: apiStats.total,
           callsToday: apiStats.today,
-          callsThisMonth: apiStats.month
+          callsThisMonth: apiStats.month,
+          progressRecords: apiStats.progress
         }
       })
 
@@ -657,6 +661,7 @@ export default function AdminDashboard() {
                   <th>邮箱</th>
                   <th>创建时间</th>
                   <th>最后活跃</th>
+                  <th>学习记录</th>
                   <th>API调用</th>
                   <th>订阅</th>
                   <th>状态</th>
@@ -682,7 +687,14 @@ export default function AdminDashboard() {
                           />
                         </td>
                       )}
-                      <td className="user-id">{user.id.substring(0, 8)}...</td>
+                      <td className="user-id">
+                        <span
+                          onClick={() => setShowFullUserId(showFullUserId === user.id ? null : user.id)}
+                          style={{ cursor: 'pointer' }}
+                        >
+                          {showFullUserId === user.id ? user.id : user.id.substring(0, 8) + '...'}
+                        </span>
+                      </td>
                       <td>{user.username || '-'}</td>
                       <td>{user.email || '-'}</td>
                       <td className="datetime-field">{formatDate(user.created_at)}</td>
@@ -691,6 +703,9 @@ export default function AdminDashboard() {
                         {getInactiveStatus(user) && (
                           <span className="inactive-badge">3个月未活跃</span>
                         )}
+                      </td>
+                      <td className="progress-records-cell">
+                        {user.progressRecords || 0}
                       </td>
                       <td className="api-calls-cell">
                         <div
