@@ -2,7 +2,7 @@
   "id": "lB132",
   "level": "B1",
   "lessonNumber": 32,
-  "totalWords": 30,
+  "totalWords": 24,
   "words": [
     {
       "id": 3217,
@@ -365,40 +365,6 @@
       },
       "difficulty": "B1",
       "notes": "复数形式为 anatomen，医学术语"
-    },
-    {
-      "id": 3230,
-      "word": "ander",
-      "translation": {
-        "chinese": "其他的",
-        "english": "other, different"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "ander",
-          "withDe": "andere",
-          "withHet": "ander",
-          "comparative": "ander",
-          "superlative": "anderst"
-        }
-      },
-      "examples": [
-        "Ik wil een andere auto.",
-        "Een andere keer."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我想要另一辆车。",
-          "另一次。"
-        ],
-        "english": [
-          "I want another car.",
-          "Another time."
-        ]
-      },
-      "difficulty": "B1",
-      "notes": "不规则形容词，比较级和最高级形式特殊"
     },
     {
       "id": 3231,

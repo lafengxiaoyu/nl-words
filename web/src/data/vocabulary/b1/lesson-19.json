@@ -2,7 +2,7 @@
   "id": "lB119",
   "level": "B1",
   "lessonNumber": 19,
-  "totalWords": 44,
+  "totalWords": 43,
   "words": [
     {
       "id": 2178,
@@ -614,40 +614,6 @@
         ]
       },
       "notes": "复数形式为 make-ups（外来词加 -s）",
-      "difficulty": "B1"
-    },
-    {
-      "id": 2200,
-      "word": "maandelijks",
-      "translation": {
-        "chinese": "每月的",
-        "english": "monthly"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "maandelijks",
-          "withDe": "maandelijkse",
-          "withHet": "maandelijkse",
-          "comparative": "maandelijker",
-          "superlative": "het maandelijkst"
-        }
-      },
-      "examples": [
-        "De maandelijkse lasten zijn gestegen door de inflatie.",
-        "Ik ontvang mijn maandelijkse salaris op de 25e."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "由于通货膨胀，每月的开销增加了。",
-          "我在25号收到月薪。"
-        ],
-        "english": [
-          "The monthly expenses have increased due to inflation.",
-          "I receive my monthly salary on the 25th."
-        ]
-      },
-      "notes": "形容词形式，用于修饰名词",
       "difficulty": "B1"
     },
     {

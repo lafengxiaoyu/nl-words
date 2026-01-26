@@ -2,7 +2,7 @@
   "id": "lB114",
   "level": "B1",
   "lessonNumber": 14,
-  "totalWords": 48,
+  "totalWords": 47,
   "words": [
     {
       "id": 1928,
@@ -714,40 +714,6 @@
         ]
       },
       "notes": "分词形容词",
-      "difficulty": "B1"
-    },
-    {
-      "id": 1948,
-      "word": "juist",
-      "translation": {
-        "chinese": "正确的",
-        "english": "correct"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "juist",
-          "withDe": "juiste",
-          "withHet": "juiste",
-          "comparative": "juister",
-          "superlative": "het juistst"
-        }
-      },
-      "examples": [
-        "Het is juist dat de economie aan het herstellen is.",
-        "Ze heeft een juiste keuze gemaakt door te stoppen met roken."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "经济正在复苏是正确的。",
-          "她戒烟是正确的选择。"
-        ],
-        "english": [
-          "It is correct that the economy is recovering.",
-          "She made a correct choice by stopping smoking."
-        ]
-      },
-      "notes": "比较级和最高级规则：juist - juister - juistst",
       "difficulty": "B1"
     },
     {

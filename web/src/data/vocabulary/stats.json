@@ -1,16 +1,16 @@
 {
-  "totalWords": 3381,
+  "totalWords": 3378,
   "byDifficulty": {
     "A1": 758,
     "A2": 665,
-    "B1": 1958
+    "B1": 1956
   },
   "byPartOfSpeech": {
     "interjection": 15,
     "phrase": 12,
     "noun": 1777,
     "verb": 728,
-    "adjective": 608,
+    "adjective": 605,
     "preposition": 39,
     "adverb": 148,
     "pronoun": 31,
@@ -41,7 +41,7 @@
     "A2-interjection": 1,
     "A2-pronoun": 2,
     "A2-numeral": 1,
-    "B1-adjective": 408,
+    "B1-adjective": 405,
     "B1-interjection": 2,
     "B1-adverb": 51,
     "B1-preposition": 11,
@@ -63,7 +63,7 @@
     },
     {
       "level": "B1",
-      "totalWords": 1959,
+      "totalWords": 1956,
       "totalLessons": 50
     }
   ]

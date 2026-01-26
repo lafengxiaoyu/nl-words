@@ -64783,40 +64783,6 @@
     "difficulty": "B1"
   },
   {
-    "id": 1948,
-    "word": "juist",
-    "translation": {
-      "chinese": "正确的",
-      "english": "correct"
-    },
-    "partOfSpeech": "adjective",
-    "forms": {
-      "adjective": {
-        "base": "juist",
-        "withDe": "juiste",
-        "withHet": "juiste",
-        "comparative": "juister",
-        "superlative": "het juistst"
-      }
-    },
-    "examples": [
-      "Het is juist dat de economie aan het herstellen is.",
-      "Ze heeft een juiste keuze gemaakt door te stoppen met roken."
-    ],
-    "exampleTranslations": {
-      "chinese": [
-        "经济正在复苏是正确的。",
-        "她戒烟是正确的选择。"
-      ],
-      "english": [
-        "It is correct that the economy is recovering.",
-        "She made a correct choice by stopping smoking."
-      ]
-    },
-    "notes": "比较级和最高级规则：juist - juister - juistst",
-    "difficulty": "B1"
-  },
-  {
     "id": 1949,
     "word": "juridisch",
     "translation": {
@@ -72872,40 +72838,6 @@
       ]
     },
     "notes": "复数形式为 make-ups（外来词加 -s）",
-    "difficulty": "B1"
-  },
-  {
-    "id": 2200,
-    "word": "maandelijks",
-    "translation": {
-      "chinese": "每月的",
-      "english": "monthly"
-    },
-    "partOfSpeech": "adjective",
-    "forms": {
-      "adjective": {
-        "base": "maandelijks",
-        "withDe": "maandelijkse",
-        "withHet": "maandelijkse",
-        "comparative": "maandelijker",
-        "superlative": "het maandelijkst"
-      }
-    },
-    "examples": [
-      "De maandelijkse lasten zijn gestegen door de inflatie.",
-      "Ik ontvang mijn maandelijkse salaris op de 25e."
-    ],
-    "exampleTranslations": {
-      "chinese": [
-        "由于通货膨胀，每月的开销增加了。",
-        "我在25号收到月薪。"
-      ],
-      "english": [
-        "The monthly expenses have increased due to inflation.",
-        "I receive my monthly salary on the 25th."
-      ]
-    },
-    "notes": "形容词形式，用于修饰名词",
     "difficulty": "B1"
   },
   {
@@ -94275,40 +94207,6 @@
     },
     "difficulty": "B1",
     "notes": "复数形式为 anatomen，医学术语"
-  },
-  {
-    "id": 3230,
-    "word": "ander",
-    "translation": {
-      "chinese": "其他的",
-      "english": "other, different"
-    },
-    "partOfSpeech": "adjective",
-    "forms": {
-      "adjective": {
-        "base": "ander",
-        "withDe": "andere",
-        "withHet": "ander",
-        "comparative": "ander",
-        "superlative": "anderst"
-      }
-    },
-    "examples": [
-      "Ik wil een andere auto.",
-      "Een andere keer."
-    ],
-    "exampleTranslations": {
-      "chinese": [
-        "我想要另一辆车。",
-        "另一次。"
-      ],
-      "english": [
-        "I want another car.",
-        "Another time."
-      ]
-    },
-    "difficulty": "B1",
-    "notes": "不规则形容词，比较级和最高级形式特殊"
   },
   {
     "id": 3231,
