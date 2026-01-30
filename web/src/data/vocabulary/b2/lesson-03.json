@@ -1,0 +1,741 @@
+{
+  "id": "lB203",
+  "level": "B2",
+  "lessonNumber": 3,
+  "totalWords": 22,
+  "words": [
+    {
+      "id": 4470,
+      "word": "allitereren",
+      "translation": {
+        "chinese": "押头韵",
+        "english": "to alliterate"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "allitereren",
+          "isSeparable": false,
+          "present": {
+            "ik": "allitereer",
+            "jij": "allitereert",
+            "hij": "allitereert",
+            "wij": "allitereren",
+            "jullie": "allitereren",
+            "zij": "allitereren"
+          },
+          "past": {
+            "singular": "allitereerde",
+            "plural": "allitereerden"
+          },
+          "pastParticiple": "geallitereerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De woorden allitereren.",
+        "Hij laat de woorden allitereren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这些词押头韵。",
+          "他让词押头韵。"
+        ],
+        "english": [
+          "The words alliterate.",
+          "He makes the words alliterate."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4471,
+      "word": "allochtoon",
+      "translation": {
+        "chinese": "移民, 外来者",
+        "english": "immigrant, allochtoon"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "allochtoon",
+          "plural": "allochtonen"
+        }
+      },
+      "examples": [
+        "Hij is een allochtoon.",
+        "De allochtonen in Nederland."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是移民。",
+          "荷兰的移民。"
+        ],
+        "english": [
+          "He is an immigrant.",
+          "The immigrants in the Netherlands."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4472,
+      "word": "als zodanig",
+      "translation": {
+        "chinese": "作为这样的, 就其本身而言",
+        "english": "as such"
+      },
+      "partOfSpeech": "phrase",
+      "forms": {},
+      "examples": [
+        "Als zodanig is het probleem niet groot.",
+        "Hij is als zodanig verantwoordelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "作为这样的，问题不大。",
+          "他作为对此负责人。"
+        ],
+        "english": [
+          "As such the problem is not big.",
+          "He is responsible as such."
+        ]
+      },
+      "notes": "短语",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4473,
+      "word": "alternatief",
+      "translation": {
+        "chinese": "替代的, 供选择的",
+        "english": "alternative"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "alternatief",
+          "withDe": "alternatieve",
+          "withHet": "alternatieve",
+          "comparative": "alternatiever",
+          "superlative": "het alternatiefst"
+        }
+      },
+      "examples": [
+        "Een alternatieve oplossing.",
+        "Zij kiest een alternatief."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个替代方案。",
+          "她选择替代品。"
+        ],
+        "english": [
+          "An alternative solution.",
+          "She chooses an alternative."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4474,
+      "word": "ambivalent",
+      "translation": {
+        "chinese": "矛盾的, 矛盾心理的",
+        "english": "ambivalent"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ambivalent",
+          "withDe": "ambivalente",
+          "withHet": "ambivalente",
+          "comparative": "-",
+          "superlative": "-"
+        }
+      },
+      "examples": [
+        "Hij voelt zich ambivalent.",
+        "Een ambivalente houding."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他感到矛盾。",
+          "矛盾的态度。"
+        ],
+        "english": [
+          "He feels ambivalent.",
+          "An ambivalent attitude."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4475,
+      "word": "analfabeet",
+      "translation": {
+        "chinese": "文盲",
+        "english": "illiterate person"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "analfabeet",
+          "plural": "analfabeten"
+        }
+      },
+      "examples": [
+        "Hij is een analfabeet.",
+        "Veel analfabeten in het land."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是文盲。",
+          "该国很多文盲。"
+        ],
+        "english": [
+          "He is an illiterate.",
+          "Many illiterates in the country."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4476,
+      "word": "analyseren",
+      "translation": {
+        "chinese": "分析",
+        "english": "to analyze"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "analyseren",
+          "isSeparable": false,
+          "present": {
+            "ik": "analyseer",
+            "jij": "analyseert",
+            "hij": "analyseert",
+            "wij": "analyseren",
+            "jullie": "analyseren",
+            "zij": "analyseren"
+          },
+          "past": {
+            "singular": "analyseerde",
+            "plural": "analyseerden"
+          },
+          "pastParticiple": "geanalyseerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij analyseert de situatie.",
+        "Wij analyseren het probleem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他分析情况。",
+          "我们分析问题。"
+        ],
+        "english": [
+          "He analyzes the situation.",
+          "We analyze the problem."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4477,
+      "word": "anderszins",
+      "translation": {
+        "chinese": "否则, 另外的方式",
+        "english": "otherwise, in other ways"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Anderszins hebben we tijd.",
+        "Anderszins is het mogelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "否则我们有时间。",
+          "另外的方式是可能的。"
+        ],
+        "english": [
+          "Otherwise we have time.",
+          "In other ways it's possible."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4478,
+      "word": "anderzijds",
+      "translation": {
+        "chinese": "另一方面",
+        "english": "on the other hand"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Anderzijds is hij gelukkig.",
+        "Aan de ene kant... anderzijds..."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "另一方面他很快乐。",
+          "一方面...另一方面..."
+        ],
+        "english": [
+          "On the other hand he is happy.",
+          "On one hand... on the other hand..."
+        ]
+      },
+      "notes": "副词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4479,
+      "word": "anekdotisch",
+      "translation": {
+        "chinese": "轶事般的, 传闻的",
+        "english": "anecdotal"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "anekdotisch",
+          "withDe": "anekdotische",
+          "withHet": "anekdotische",
+          "comparative": "-",
+          "superlative": "-"
+        }
+      },
+      "examples": [
+        "Een anekdotisch verhaal.",
+        "Het bewijs is anekdotisch."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个轶事般的故事。",
+          "证据是传闻的。"
+        ],
+        "english": [
+          "An anecdotal story.",
+          "The evidence is anecdotal."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4480,
+      "word": "antibiotica",
+      "translation": {
+        "chinese": "抗生素",
+        "english": "antibiotics"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "antibiotica",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De arts schrijft antibiotica voor.",
+        "Antibiotica doden bacteriën."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "医生开抗生素。",
+          "抗生素杀死细菌。"
+        ],
+        "english": [
+          "The doctor prescribes antibiotics.",
+          "Antibiotics kill bacteria."
+        ]
+      },
+      "notes": "名词，不可数，复数形式",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4481,
+      "word": "antipathie",
+      "translation": {
+        "chinese": "反感, 厌恶",
+        "english": "antipathy, dislike"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "antipathie",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Hij heeft antipathie tegen haar.",
+        "Er is een duidelijke antipathie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他对她有反感。",
+          "有明显的厌恶。"
+        ],
+        "english": [
+          "He has antipathy towards her.",
+          "There is a clear dislike."
+        ]
+      },
+      "notes": "名词，搭配介词 tegen，不可数",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4482,
+      "word": "antropoloog",
+      "translation": {
+        "chinese": "人类学家",
+        "english": "anthropologist"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "antropoloog",
+          "plural": "antropologen"
+        }
+      },
+      "examples": [
+        "De antropoloog doet onderzoek.",
+        "Een bekende antropoloog."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "人类学家做研究。",
+          "一位著名的人类学家。"
+        ],
+        "english": [
+          "The anthropologist conducts research.",
+          "A famous anthropologist."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4483,
+      "word": "appartement",
+      "translation": {
+        "chinese": "公寓",
+        "english": "apartment"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "appartement",
+          "plural": "appartementen"
+        }
+      },
+      "examples": [
+        "Wij wonen in een appartement.",
+        "Het appartement is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们住在公寓里。",
+          "公寓很大。"
+        ],
+        "english": [
+          "We live in an apartment.",
+          "The apartment is large."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4484,
+      "word": "appellatief",
+      "translation": {
+        "chinese": "称呼的, 呼格的",
+        "english": "vocative, appellative"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "appellatief",
+          "plural": "appellatieven"
+        }
+      },
+      "examples": [
+        "Het woord in de appellatief.",
+        "Een appellatief naamwoord."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个词用于称呼。",
+          "呼格名词。"
+        ],
+        "english": [
+          "The word in the vocative.",
+          "An appellative noun."
+        ]
+      },
+      "notes": "名词（语法术语）",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4485,
+      "word": "arbodienst",
+      "translation": {
+        "chinese": "职业健康服务",
+        "english": "occupational health service"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "arbodienst",
+          "plural": "arbodiensten"
+        }
+      },
+      "examples": [
+        "Wij nemen contact op met de arbodienst.",
+        "De arbodienst doet onderzoek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们联系职业健康服务。",
+          "职业健康服务进行调查。"
+        ],
+        "english": [
+          "We contact the occupational health service.",
+          "The occupational health service investigates."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4486,
+      "word": "aromatisch",
+      "translation": {
+        "chinese": "芳香的, 香的",
+        "english": "aromatic"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "aromatisch",
+          "withDe": "aromatische",
+          "withHet": "aromatische",
+          "comparative": "aromatischer",
+          "superlative": "het aromatischst"
+        }
+      },
+      "examples": [
+        "Een aromatische plant.",
+        "De wijn is aromatisch."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一种芳香植物。",
+          "酒很香。"
+        ],
+        "english": [
+          "An aromatic plant.",
+          "The wine is aromatic."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4487,
+      "word": "arresteren",
+      "translation": {
+        "chinese": "逮捕",
+        "english": "to arrest"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "arresteren",
+          "isSeparable": false,
+          "present": {
+            "ik": "arresteer",
+            "jij": "arresteert",
+            "hij": "arresteert",
+            "wij": "arresteren",
+            "jullie": "arresteren",
+            "zij": "arresteren"
+          },
+          "past": {
+            "singular": "arresterede",
+            "plural": "arresterden"
+          },
+          "pastParticiple": "gearresteerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De politie arresteert hem.",
+        "Wij arresteren de verdachte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "警察逮捕了他。",
+          "我们逮捕嫌疑人。"
+        ],
+        "english": [
+          "The police arrests him.",
+          "We arrest the suspect."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4488,
+      "word": "artillerie",
+      "translation": {
+        "chinese": "炮兵, 火炮",
+        "english": "artillery"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "artillerie",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het leger gebruikt artillerie.",
+        "De artillerie ondersteunt de aanval."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "军队使用火炮。",
+          "炮兵支援攻击。"
+        ],
+        "english": [
+          "The army uses artillery.",
+          "The artillery supports the attack."
+        ]
+      },
+      "notes": "名词，不可数",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4489,
+      "word": "asielzoeker",
+      "translation": {
+        "chinese": "寻求庇护者",
+        "english": "asylum seeker"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "asielzoeker",
+          "plural": "asielzoekers"
+        }
+      },
+      "examples": [
+        "De asielzoeker komt uit Syrië.",
+        "Wij helpen asielzoekers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "寻求庇护者来自叙利亚。",
+          "我们帮助寻求庇护者。"
+        ],
+        "english": [
+          "The asylum seeker comes from Syria.",
+          "We help asylum seekers."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4490,
+      "word": "assortiment",
+      "translation": {
+        "chinese": " assortment, 花色品种",
+        "english": "assortment"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "assortiment",
+          "plural": "assortimenten"
+        }
+      },
+      "examples": [
+        "Het assortiment is groot.",
+        "Wij hebben een ruim assortiment."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "花色品种很多。",
+          "我们有丰富的品种。"
+        ],
+        "english": [
+          "The assortment is large.",
+          "We have a wide assortment."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4491,
+      "word": "autoriteit",
+      "translation": {
+        "chinese": "权威, 权威人士",
+        "english": "authority"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "autoriteit",
+          "plural": "autoriteiten"
+        }
+      },
+      "examples": [
+        "Hij heeft autoriteit.",
+        "De autoriteit beslist."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他有权威。",
+          "权威做出决定。"
+        ],
+        "english": [
+          "He has authority.",
+          "The authority decides."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    }
+  ]
+}

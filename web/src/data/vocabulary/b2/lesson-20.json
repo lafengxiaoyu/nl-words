@@ -1,0 +1,582 @@
+{
+  "words": [
+    {
+      "id": 5192,
+      "word": "paardenstal",
+      "pos": "noun",
+      "meaning": "马厩",
+      "word_forms": {
+        "singular": "paardenstal",
+        "plural": "paardenstallen"
+      },
+      "example": "De paarden in de paardenstal zijn gezond.",
+      "example_translation": "马厩里的马很健康。"
+    },
+    {
+      "id": 5193,
+      "word": "pannenkoek",
+      "pos": "noun",
+      "meaning": "薄饼,煎饼",
+      "word_forms": {
+        "singular": "pannenkoek",
+        "plural": "pannenkoeken"
+      },
+      "example": "Ik bak pannenkoeken voor het ontbijt.",
+      "example_translation": "我早餐做煎饼。"
+    },
+    {
+      "id": 5194,
+      "word": "papegaaien",
+      "pos": "noun",
+      "meaning": "鹦鹉",
+      "word_forms": {
+        "singular": "papegaai",
+        "plural": "papegaaien"
+      },
+      "example": "De papegaaien in de kooi maken veel geluid.",
+      "example_translation": "笼子里的鹦鹉很吵。"
+    },
+    {
+      "id": 5195,
+      "word": "parkeerplek",
+      "pos": "noun",
+      "meaning": "停车位",
+      "word_forms": {
+        "singular": "parkeerplek",
+        "plural": "parkeerplekken"
+      },
+      "example": "Het is moeilijk om een parkeerplek te vinden.",
+      "example_translation": "很难找到停车位。"
+    },
+    {
+      "id": 5196,
+      "word": "particulier",
+      "pos": "adjective",
+      "meaning": "私人的,个人的",
+      "word_forms": {
+        "positive": "particulier",
+        "comparative": "particuliere"
+      },
+      "example": "Dit is een particulier huis.",
+      "example_translation": "这是一所私人住宅。"
+    },
+    {
+      "id": 5197,
+      "word": "pasgeboren",
+      "pos": "adjective",
+      "meaning": "新生的,刚出生的",
+      "word_forms": {
+        "positive": "pasgeboren",
+        "comparative": "pasgeborener"
+      },
+      "example": "De pasgeboren baby slaapt rustig.",
+      "example_translation": "新生儿睡得很安稳。"
+    },
+    {
+      "id": 5198,
+      "word": "passen bij",
+      "pos": "phrasal verb",
+      "meaning": "适合,搭配",
+      "word_forms": {
+        "infinitive": "passen bij",
+        "present": "past bij",
+        "past": "paste bij",
+        "participle": "bijgepast"
+      },
+      "example": "De schoen past bij mijn jurk.",
+      "example_translation": "这双鞋和我的裙子很搭。"
+    },
+    {
+      "id": 5199,
+      "word": "patriarchaat",
+      "pos": "noun",
+      "meaning": "父权制",
+      "word_forms": {
+        "singular": "patriarchaat",
+        "plural": "patriarchaten"
+      },
+      "example": "De samenleving leeft in een patriarchaat.",
+      "example_translation": "这个社会生活在父权制下。"
+    },
+    {
+      "id": 5200,
+      "word": "per direct",
+      "pos": "adverbial phrase",
+      "meaning": "立即,马上",
+      "word_forms": {},
+      "example": "Je moet per direct vertrekken.",
+      "example_translation": "你必须立即出发。"
+    },
+    {
+      "id": 5201,
+      "word": "persbureau",
+      "pos": "noun",
+      "meaning": "新闻社,新闻机构",
+      "word_forms": {
+        "singular": "persbureau",
+        "plural": "persbureaus"
+      },
+      "example": "Het persbureau brengt het nieuws.",
+      "example_translation": "新闻机构发布新闻。"
+    },
+    {
+      "id": 5202,
+      "word": "persoonlijk",
+      "pos": "adjective",
+      "meaning": "个人的,私人的",
+      "word_forms": {
+        "positive": "persoonlijk",
+        "comparative": "persoonlijker"
+      },
+      "example": "Dit is mijn persoonlijke mening.",
+      "example_translation": "这是我个人的看法。"
+    },
+    {
+      "id": 5203,
+      "word": "persuasief",
+      "pos": "adjective",
+      "meaning": "有说服力的",
+      "word_forms": {
+        "positive": "persuasief",
+        "comparative": "persuasiever"
+      },
+      "example": "Zijn argument was erg persuasief.",
+      "example_translation": "他的论点非常有说服力。"
+    },
+    {
+      "id": 5204,
+      "word": "pestgedrag",
+      "pos": "noun",
+      "meaning": "霸凌行为",
+      "word_forms": {
+        "singular": "pestgedrag",
+        "plural": "pestgedrag"
+      },
+      "example": "Het pestgedrag werd door de school aangepakt.",
+      "example_translation": "学校处理了霸凌行为。"
+    },
+    {
+      "id": 5205,
+      "word": "pietluttig",
+      "pos": "adjective",
+      "meaning": "挑剔的,吹毛求疵的",
+      "word_forms": {
+        "positive": "pietluttig",
+        "comparative": "pietluttiger"
+      },
+      "example": "Ze is erg pietluttig over kleine details.",
+      "example_translation": "她对细节非常挑剔。"
+    },
+    {
+      "id": 5206,
+      "word": "pijnstiller",
+      "pos": "noun",
+      "meaning": "止痛药",
+      "word_forms": {
+        "singular": "pijnstiller",
+        "plural": "pijnstillers"
+      },
+      "example": "De dokter gaf haar een pijnstiller.",
+      "example_translation": "医生给了她止痛药。"
+    },
+    {
+      "id": 5207,
+      "word": "plaatselijk",
+      "pos": "adjective",
+      "meaning": "当地的,局部的",
+      "word_forms": {
+        "positive": "plaatselijk",
+        "comparative": "plaatselijker"
+      },
+      "example": "De overlast is plaatselijk beperkt.",
+      "example_translation": "干扰局限在当地。"
+    },
+    {
+      "id": 5208,
+      "word": "plaatsmaken",
+      "pos": "verb",
+      "meaning": "腾出位置,让座",
+      "word_forms": {
+        "infinitive": "plaatsmaken",
+        "present": "maakt plaats",
+        "past": "maakte plaats",
+        "participle": "plaatsgemaakt"
+      },
+      "example": "Wil je voor de oude man plaatsmaken?",
+      "example_translation": "你愿意为这位老人让座吗?"
+    },
+    {
+      "id": 5209,
+      "word": "plantaardig",
+      "pos": "adjective",
+      "meaning": "植物的,植物性的",
+      "word_forms": {
+        "positive": "plantaardig",
+        "comparative": "plantaardiger"
+      },
+      "example": "We eten plantaardig voedsel.",
+      "example_translation": "我们吃植物性食物。"
+    },
+    {
+      "id": 5210,
+      "word": "plat liggen",
+      "pos": "phrasal verb",
+      "meaning": "平躺,躺平",
+      "word_forms": {
+        "infinitive": "plat liggen",
+        "present": "ligt plat",
+        "past": "lag plat",
+        "participle": "platgelegen"
+      },
+      "example": "Na het werk ging ik plat liggen.",
+      "example_translation": "工作后我躺平休息了。"
+    },
+    {
+      "id": 5211,
+      "word": "platgooien",
+      "pos": "verb",
+      "meaning": "摧毁,打倒",
+      "word_forms": {
+        "infinitive": "platgooien",
+        "present": "gooit plat",
+        "past": "gooide plat",
+        "participle": "platgegooid"
+      },
+      "example": "De storm gooide de bomen plat.",
+      "example_translation": "暴风雨把树都摧毁了。"
+    },
+    {
+      "id": 5212,
+      "word": "platleggen",
+      "pos": "verb",
+      "meaning": "摧毁,瘫痪",
+      "word_forms": {
+        "infinitive": "platleggen",
+        "present": "legt plat",
+        "past": "legde plat",
+        "participle": "platgelegd"
+      },
+      "example": "Het virus legde het bedrijf plat.",
+      "example_translation": "病毒使公司瘫痪了。"
+    },
+    {
+      "id": 5213,
+      "word": "plattegrond",
+      "pos": "noun",
+      "meaning": "平面图,地图",
+      "word_forms": {
+        "singular": "plattegrond",
+        "plural": "plattegronden"
+      },
+      "example": "Kijk even op de plattegrond.",
+      "example_translation": "看一下地图吧。"
+    },
+    {
+      "id": 5214,
+      "word": "platteland",
+      "pos": "noun",
+      "meaning": "乡村,农村",
+      "word_forms": {
+        "singular": "platteland",
+        "plural": "plattelanden"
+      },
+      "example": "Ze groeide op het platteland op.",
+      "example_translation": "她在乡村长大。"
+    },
+    {
+      "id": 5215,
+      "word": "pleeggezin",
+      "pos": "noun",
+      "meaning": "寄养家庭",
+      "word_forms": {
+        "singular": "pleeggezin",
+        "plural": "pleeggezinnen"
+      },
+      "example": "Het kind werd in een pleeggezin geplaatst.",
+      "example_translation": "孩子被安置在寄养家庭。"
+    },
+    {
+      "id": 5216,
+      "word": "pleegmoeder",
+      "pos": "noun",
+      "meaning": "养母",
+      "word_forms": {
+        "singular": "pleegmoeder",
+        "plural": "pleegmoeders"
+      },
+      "example": "De pleegmoeder geeft veel liefde.",
+      "example_translation": "养母给了很多爱。"
+    },
+    {
+      "id": 5217,
+      "word": "pleegouders",
+      "pos": "noun",
+      "meaning": "养父母",
+      "word_forms": {
+        "singular": "pleegouders",
+        "plural": "pleegouders"
+      },
+      "example": "De pleegouders zijn geweldig.",
+      "example_translation": "养父母非常棒。"
+    },
+    {
+      "id": 5218,
+      "word": "plotseling",
+      "pos": "adverb",
+      "meaning": "突然地",
+      "word_forms": {},
+      "example": "Hij kwam plotseling binnen.",
+      "example_translation": "他突然进来了。"
+    },
+    {
+      "id": 5219,
+      "word": "politieman",
+      "pos": "noun",
+      "meaning": "男警察",
+      "word_forms": {
+        "singular": "politieman",
+        "plural": "politieagenten"
+      },
+      "example": "De politieman hielp ons.",
+      "example_translation": "男警察帮助了我们。"
+    },
+    {
+      "id": 5220,
+      "word": "portemonnee",
+      "pos": "noun",
+      "meaning": "钱包",
+      "word_forms": {
+        "singular": "portemonnee",
+        "plural": "portemonnees"
+      },
+      "example": "Ik heb mijn portemonnee verloren.",
+      "example_translation": "我把钱包弄丢了。"
+    },
+    {
+      "id": 5221,
+      "word": "pragmatisch",
+      "pos": "adjective",
+      "meaning": "实用的,务实的",
+      "word_forms": {
+        "positive": "pragmatisch",
+        "comparative": "pragmatischer"
+      },
+      "example": "Zijn aanpak is pragmatisch.",
+      "example_translation": "他的方法很务实。"
+    },
+    {
+      "id": 5222,
+      "word": "presentator",
+      "pos": "noun",
+      "meaning": "主持人",
+      "word_forms": {
+        "singular": "presentator",
+        "plural": "presentators"
+      },
+      "example": "De presentator leidt het programma.",
+      "example_translation": "主持人主持节目。"
+    },
+    {
+      "id": 5223,
+      "word": "prijsgeven",
+      "pos": "verb",
+      "meaning": "泄露,暴露",
+      "word_forms": {
+        "infinitive": "prijsgeven",
+        "present": "geeft prijs",
+        "past": "gaf prijs",
+        "participle": "prijsgegeven"
+      },
+      "example": "Geef niet je geheim prijs.",
+      "example_translation": "不要泄露你的秘密。"
+    },
+    {
+      "id": 5224,
+      "word": "prijsvraag",
+      "pos": "noun",
+      "meaning": "有奖问题,猜谜",
+      "word_forms": {
+        "singular": "prijsvraag",
+        "plural": "prijsvragen"
+      },
+      "example": "De prijsvraag werd gewonnen.",
+      "example_translation": "猜谜被解出来了。"
+    },
+    {
+      "id": 5225,
+      "word": "prikkelbaar",
+      "pos": "adjective",
+      "meaning": "易受刺激的,敏感的",
+      "word_forms": {
+        "positive": "prikkelbaar",
+        "comparative": "prikkelbaarder"
+      },
+      "example": "Hij is erg prikkelbaar door stress.",
+      "example_translation": "压力使他非常易怒。"
+    },
+    {
+      "id": 5226,
+      "word": "prikkelend",
+      "pos": "adjective",
+      "meaning": "刺激的,引人注目的",
+      "word_forms": {
+        "positive": "prikkelend",
+        "comparative": "prikkelender"
+      },
+      "example": "Het boek is prikkelend geschreven.",
+      "example_translation": "这本书写得很引人入胜。"
+    },
+    {
+      "id": 5227,
+      "word": "principieel",
+      "pos": "adjective",
+      "meaning": "原则上的",
+      "word_forms": {
+        "positive": "principieel",
+        "comparative": "principieler"
+      },
+      "example": "Hij is principieel tegen het plan.",
+      "example_translation": "他原则上反对这个计划。"
+    },
+    {
+      "id": 5228,
+      "word": "prioriteit",
+      "pos": "noun",
+      "meaning": "优先权,优先事项",
+      "word_forms": {
+        "singular": "prioriteit",
+        "plural": "prioriteiten"
+      },
+      "example": "De gezondheid is mijn prioriteit.",
+      "example_translation": "健康是我的优先事项。"
+    },
+    {
+      "id": 5229,
+      "word": "probiotica",
+      "pos": "noun",
+      "meaning": "益生菌",
+      "word_forms": {
+        "singular": "probiotica",
+        "plural": "probiotica"
+      },
+      "example": "Probiotica zijn goed voor de darmen.",
+      "example_translation": "益生菌对肠道有益。"
+    },
+    {
+      "id": 5230,
+      "word": "profileren",
+      "pos": "verb",
+      "meaning": "树立形象,展示",
+      "word_forms": {
+        "infinitive": "profileren",
+        "present": "profileert",
+        "past": "profileerde",
+        "participle": "geprofileerd"
+      },
+      "example": "Hij profileert zich als expert.",
+      "example_translation": "他树立了自己作为专家的形象。"
+    },
+    {
+      "id": 5231,
+      "word": "projecteren",
+      "pos": "verb",
+      "meaning": "投射,放映",
+      "word_forms": {
+        "infinitive": "projecteren",
+        "present": "projecteert",
+        "past": "projecteerde",
+        "participle": "geprojecteerd"
+      },
+      "example": "De film wordt op het scherm geprojecteerd.",
+      "example_translation": "电影被投射到屏幕上。"
+    },
+    {
+      "id": 5232,
+      "word": "promillage",
+      "pos": "noun",
+      "meaning": "千分率,酒精浓度",
+      "word_forms": {
+        "singular": "promillage",
+        "plural": "promillages"
+      },
+      "example": "Het promillage in zijn bloed was te hoog.",
+      "example_translation": "他血液中的酒精含量过高。"
+    },
+    {
+      "id": 5233,
+      "word": "propaganda",
+      "pos": "noun",
+      "meaning": "宣传,政治宣传",
+      "word_forms": {
+        "singular": "propaganda",
+        "plural": "propaganda"
+      },
+      "example": "Het nieuws is pure propaganda.",
+      "example_translation": "这新闻纯粹是宣传。"
+    },
+    {
+      "id": 5234,
+      "word": "propageren",
+      "pos": "verb",
+      "meaning": "宣传,推广",
+      "word_forms": {
+        "infinitive": "propageren",
+        "present": "propageert",
+        "past": "propageerde",
+        "participle": "gepropageerd"
+      },
+      "example": "Ze propageren gezonde voeding.",
+      "example_translation": "他们推广健康饮食。"
+    },
+    {
+      "id": 5235,
+      "word": "provocerend",
+      "pos": "adjective",
+      "meaning": "挑衅的,刺激的",
+      "word_forms": {
+        "positive": "provocerend",
+        "comparative": "provocerender"
+      },
+      "example": "Zijn opmerking was provocerend.",
+      "example_translation": "他的言论很挑衅。"
+    },
+    {
+      "id": 5236,
+      "word": "prullenbak",
+      "pos": "noun",
+      "meaning": "垃圾桶",
+      "word_forms": {
+        "singular": "prullenbak",
+        "plural": "prullenbakken"
+      },
+      "example": "Gooi het vuil in de prullenbak.",
+      "example_translation": "把垃圾扔进垃圾桶。"
+    },
+    {
+      "id": 5237,
+      "word": "psychiater",
+      "pos": "noun",
+      "meaning": "精神科医生",
+      "word_forms": {
+        "singular": "psychiater",
+        "plural": "psychiaters"
+      },
+      "example": "De patiënt ging naar de psychiater.",
+      "example_translation": "患者去看精神科医生。"
+    },
+    {
+      "id": 5238,
+      "word": "publiceren",
+      "pos": "verb",
+      "meaning": "发表,出版",
+      "word_forms": {
+        "infinitive": "publiceren",
+        "present": "publiceert",
+        "past": "publiceerde",
+        "participle": "gepubliceerd"
+      },
+      "example": "Hij publiceerde zijn boek vorig jaar.",
+      "example_translation": "他去年出版了这本书。"
+    }
+  ]
+}

@@ -1,0 +1,839 @@
+{
+  "words": [
+    {
+      "id": 5604,
+      "word": "verwondering",
+      "pos": "noun",
+      "meaning": "惊奇,惊叹",
+      "word_forms": {
+        "singular": "verwondering",
+        "plural": "verwonderingen"
+      },
+      "example": "Met verwondering keek ze.",
+      "example_translation": "她惊奇地看着。"
+    },
+    {
+      "id": 5605,
+      "word": "verwonding",
+      "pos": "noun",
+      "meaning": "受伤,伤害",
+      "word_forms": {
+        "singular": "verwonding",
+        "plural": "verwondingen"
+      },
+      "example": "Hij liep een verwonding op.",
+      "example_translation": "他受了伤。"
+    },
+    {
+      "id": 5606,
+      "word": "verwoorden",
+      "pos": "verb",
+      "meaning": "表达,表述",
+      "word_forms": {
+        "infinitive": "verwoorden",
+        "present": "woordt",
+        "past": "woorde",
+        "participle": "verwoord"
+      },
+      "example": "Kan je het verwoorden?",
+      "example_translation": "你能表达一下吗?"
+    },
+    {
+      "id": 5607,
+      "word": "verzachten",
+      "pos": "verb",
+      "meaning": "软化,减轻",
+      "word_forms": {
+        "infinitive": "verzachten",
+        "present": "zacht",
+        "past": "zachte",
+        "participle": "verzacht"
+      },
+      "example": "De regen verzachtte de hitte.",
+      "example_translation": "雨缓解了炎热。"
+    },
+    {
+      "id": 5608,
+      "word": "verzadigen",
+      "pos": "verb",
+      "meaning": "使饱和,使满足",
+      "word_forms": {
+        "infinitive": "verzadigen",
+        "present": "zadigt",
+        "past": "zadigde",
+        "participle": "verzadigd"
+      },
+      "example": "De markt verzadigt.",
+      "example_translation": "市场饱和了。"
+    },
+    {
+      "id": 5609,
+      "word": "verzamelen",
+      "pos": "verb",
+      "meaning": "收集,聚集",
+      "word_forms": {
+        "infinitive": "verzamelen",
+        "present": "zamelt",
+        "past": "zamelde",
+        "participle": "verzameld"
+      },
+      "example": "Ik verzamel munten.",
+      "example_translation": "我收集硬币。"
+    },
+    {
+      "id": 5610,
+      "word": "verzegelen",
+      "pos": "verb",
+      "meaning": "密封,封存",
+      "word_forms": {
+        "infinitive": "verzegelen",
+        "present": "zegelt",
+        "past": "zegelde",
+        "participle": "verzegeld"
+      },
+      "example": "Verzegel de doos.",
+      "example_translation": "密封这个盒子。"
+    },
+    {
+      "id": 5611,
+      "word": "verzekering",
+      "pos": "noun",
+      "meaning": "保险",
+      "word_forms": {
+        "singular": "verzekering",
+        "plural": "verzekeringen"
+      },
+      "example": "De verzekering dekt de kosten.",
+      "example_translation": "保险覆盖了费用。"
+    },
+    {
+      "id": 5612,
+      "word": "verzorging",
+      "pos": "noun",
+      "meaning": "照顾,护理",
+      "word_forms": {
+        "singular": "verzorging",
+        "plural": "verzorgingen"
+      },
+      "example": "Zij kreeg goede verzorging.",
+      "example_translation": "她得到了很好的照顾。"
+    },
+    {
+      "id": 5613,
+      "word": "verzwijgen",
+      "pos": "verb",
+      "meaning": "保持沉默,隐瞒",
+      "word_forms": {
+        "infinitive": "verzwijgen",
+        "present": "zwijgt",
+        "past": "zwijgde",
+        "participle": "verzwegen"
+      },
+      "example": "Hij zwijgt over het incident.",
+      "example_translation": "他对这个事件保持沉默。"
+    },
+    {
+      "id": 5614,
+      "word": "viezigheid",
+      "pos": "noun",
+      "meaning": "污垢,肮脏",
+      "word_forms": {
+        "singular": "viezigheid",
+        "plural": "viezigheden"
+      },
+      "example": "Er was viezigheid op de vloer.",
+      "example_translation": "地上有污垢。"
+    },
+    {
+      "id": 5615,
+      "word": "vindingrijk",
+      "pos": "adjective",
+      "meaning": "富有创造力的,有发明天赋的",
+      "word_forms": {
+        "positive": "vindingrijk",
+        "comparative": "vindingrijker"
+      },
+      "example": "Hij is een vindingrijk uitvinder.",
+      "example_translation": "他是一位富有创造力的发明家。"
+    },
+    {
+      "id": 5616,
+      "word": "vingernagel",
+      "pos": "noun",
+      "meaning": "指甲",
+      "word_forms": {
+        "singular": "vingernagel",
+        "plural": "vingernagels"
+      },
+      "example": "Ik lak mijn vingernagels.",
+      "example_translation": "我涂指甲。"
+    },
+    {
+      "id": 5617,
+      "word": "visitekaart",
+      "pos": "noun",
+      "meaning": "名片",
+      "word_forms": {
+        "singular": "visitekaart",
+        "plural": "visitekaarten"
+      },
+      "example": "Ruil visitekaarten uit.",
+      "example_translation": "交换名片吧。"
+    },
+    {
+      "id": 5618,
+      "word": "vitaliteit",
+      "pos": "noun",
+      "meaning": "活力,生命力",
+      "word_forms": {
+        "singular": "vitaliteit",
+        "plural": "vitaliteiten"
+      },
+      "example": "Zij heeft veel vitaliteit.",
+      "example_translation": "她很有活力。"
+    },
+    {
+      "id": 5619,
+      "word": "vlamvatten",
+      "pos": "verb",
+      "meaning": "突然爆发,突然发火",
+      "word_forms": {
+        "infinitive": "vlamvatten",
+        "present": "vat vlam",
+        "past": "vatte vlam",
+        "participle": "vlamvatte"
+      },
+      "example": "Hij vatte vlam van woede.",
+      "example_translation": "他突然发火了。"
+    },
+    {
+      "id": 5620,
+      "word": "vlekkeloos",
+      "pos": "adjective",
+      "meaning": "无瑕疵的,完美的",
+      "word_forms": {
+        "positive": "vlekkeloos",
+        "comparative": "vlekkelozer"
+      },
+      "example": "De prestatie was vlekkeloos.",
+      "example_translation": "表现完美无瑕。"
+    },
+    {
+      "id": 5621,
+      "word": "vluchteling",
+      "pos": "noun",
+      "meaning": "难民",
+      "word_forms": {
+        "singular": "vluchteling",
+        "plural": "vluchtelingen"
+      },
+      "example": "De vluchtelingen kwamen aan.",
+      "example_translation": "难民们到了。"
+    },
+    {
+      "id": 5622,
+      "word": "vochtinname",
+      "pos": "noun",
+      "meaning": "水分摄入",
+      "word_forms": {
+        "singular": "vochtinname",
+        "plural": "vochtinnames"
+      },
+      "example": "Zorg voor genoeg vochtinname.",
+      "example_translation": "确保足够的水分摄入。"
+    },
+    {
+      "id": 5623,
+      "word": "voetafdruk",
+      "pos": "noun",
+      "meaning": "足迹,脚印",
+      "word_forms": {
+        "singular": "voetafdruk",
+        "plural": "voetafdrukken"
+      },
+      "example": "Er waren voetafdrukken in het zand.",
+      "example_translation": "沙地里有脚印。"
+    },
+    {
+      "id": 5624,
+      "word": "vol zitten",
+      "pos": "phrasal verb",
+      "meaning": "坐满,拥挤",
+      "word_forms": {
+        "infinitive": "vol zitten",
+        "present": "zit vol",
+        "past": "zat vol",
+        "participle": "volgezeten"
+      },
+      "example": "De bus zit vol.",
+      "example_translation": "公交车坐满了。"
+    },
+    {
+      "id": 5625,
+      "word": "volbrengen",
+      "pos": "verb",
+      "meaning": "完成,履行",
+      "word_forms": {
+        "infinitive": "volbrengen",
+        "present": "brengt vol",
+        "past": "bracht vol",
+        "participle": "volbracht"
+      },
+      "example": "Hij volbracht zijn taken.",
+      "example_translation": "他完成了任务。"
+    },
+    {
+      "id": 5626,
+      "word": "voldoen aan",
+      "pos": "phrasal verb",
+      "meaning": "符合,满足",
+      "word_forms": {
+        "infinitive": "voldoen aan",
+        "present": "voldoet aan",
+        "past": "voldeed aan",
+        "participle": "volgedaan aan"
+      },
+      "example": "Het product voldoet aan de eisen.",
+      "example_translation": "产品符合要求。"
+    },
+    {
+      "id": 5627,
+      "word": "voldoening",
+      "pos": "noun",
+      "meaning": "满足,满意",
+      "word_forms": {
+        "singular": "voldoening",
+        "plural": "voldoeningen"
+      },
+      "example": "Hij kreeg voldoening.",
+      "example_translation": "他得到了满足。"
+    },
+    {
+      "id": 5628,
+      "word": "volgens mij",
+      "pos": "adverbial phrase",
+      "meaning": "在我看来",
+      "word_forms": {},
+      "example": "Volgens mij is het juist.",
+      "example_translation": "在我看来这是对的。"
+    },
+    {
+      "id": 5629,
+      "word": "volhardend",
+      "pos": "adjective",
+      "meaning": "坚持不懈的",
+      "word_forms": {
+        "positive": "volhardend",
+        "comparative": "volhardender"
+      },
+      "example": "Zij is volhardend.",
+      "example_translation": "她很坚持不懈。"
+    },
+    {
+      "id": 5630,
+      "word": "volkenmoord",
+      "pos": "noun",
+      "meaning": "种族灭绝",
+      "word_forms": {
+        "singular": "volkenmoord",
+        "plural": "volkenmoorden"
+      },
+      "example": "De volkenmoord werd veroordeeld.",
+      "example_translation": "种族灭绝被谴责了。"
+    },
+    {
+      "id": 5631,
+      "word": "volkenrecht",
+      "pos": "noun",
+      "meaning": "民族权利,族群权利",
+      "word_forms": {
+        "singular": "volkenrecht",
+        "plural": "volkenrechten"
+      },
+      "example": "De volkenrechten worden beschermd.",
+      "example_translation": "民族权利受到保护。"
+    },
+    {
+      "id": 5632,
+      "word": "voltooien",
+      "pos": "verb",
+      "meaning": "完成,结束",
+      "word_forms": {
+        "infinitive": "voltooien",
+        "present": "tooid",
+        "past": "toode",
+        "participle": "voltooid"
+      },
+      "example": "Het project is voltooid.",
+      "example_translation": "项目已经完成了。"
+    },
+    {
+      "id": 5633,
+      "word": "volwaardig",
+      "pos": "adjective",
+      "meaning": "值得的,有价值的",
+      "word_forms": {
+        "positive": "volwaardig",
+        "comparative": "volwaardiger"
+      },
+      "example": "Het is een volwaardig artikel.",
+      "example_translation": "这是一篇有价值的文章。"
+    },
+    {
+      "id": 5634,
+      "word": "volwassene",
+      "pos": "noun",
+      "meaning": "成年人",
+      "word_forms": {
+        "singular": "volwassene",
+        "plural": "volwassenen"
+      },
+      "example": "Hij is nu een volwassene.",
+      "example_translation": "他现在是成年人了。"
+    },
+    {
+      "id": 5635,
+      "word": "voor zover",
+      "pos": "adverbial phrase",
+      "meaning": "就...而言,到目前为止",
+      "word_forms": {},
+      "example": "Voor zover ik weet.",
+      "example_translation": "据我所知。"
+    },
+    {
+      "id": 5636,
+      "word": "voorafgaand",
+      "pos": "adjective",
+      "meaning": "在先的,之前的",
+      "word_forms": {
+        "positive": "voorafgaand",
+        "comparative": "voorafgaander"
+      },
+      "example": "Het was een voorafgaande beslissing.",
+      "example_translation": "这是一个先前的决定。"
+    },
+    {
+      "id": 5637,
+      "word": "vooralsnog",
+      "pos": "adverb",
+      "meaning": "目前,暂时",
+      "word_forms": {},
+      "example": "Vooralsnog is alles goed.",
+      "example_translation": "目前一切都好。"
+    },
+    {
+      "id": 5638,
+      "word": "voorbehoud",
+      "pos": "noun",
+      "meaning": "保留,限制条件",
+      "word_forms": {
+        "singular": "voorbehoud",
+        "plural": "voorbehouden"
+      },
+      "example": "Met voorbehoud ga ik akkoord.",
+      "example_translation": "我保留条件地同意。"
+    },
+    {
+      "id": 5639,
+      "word": "voordragen",
+      "pos": "verb",
+      "meaning": "提出,提名",
+      "word_forms": {
+        "infinitive": "voordragen",
+        "present": "draagt voor",
+        "past": "droeg voor",
+        "participle": "voorgedragen"
+      },
+      "example": "Hij droeg het voorstel voor.",
+      "example_translation": "他提出了这个建议。"
+    },
+    {
+      "id": 5640,
+      "word": "voorganger",
+      "pos": "noun",
+      "meaning": "前任,先驱",
+      "word_forms": {
+        "singular": "voorganger",
+        "plural": "voorgangers"
+      },
+      "example": "Mijn voorganger deed goed werk.",
+      "example_translation": "我的前任做得很好。"
+    },
+    {
+      "id": 5641,
+      "word": "voorgerecht",
+      "pos": "noun",
+      "meaning": "前菜",
+      "word_forms": {
+        "singular": "voorgerecht",
+        "plural": "voorgerechten"
+      },
+      "example": "Ik neem een voorgerecht.",
+      "example_translation": "我点前菜。"
+    },
+    {
+      "id": 5642,
+      "word": "voorgevoel",
+      "pos": "noun",
+      "meaning": "预感",
+      "word_forms": {
+        "singular": "voorgevoel",
+        "plural": "voorgevoelens"
+      },
+      "example": "Ik had een slecht voorgevoel.",
+      "example_translation": "我有不好的预感。"
+    },
+    {
+      "id": 5643,
+      "word": "voorhanden",
+      "pos": "adjective",
+      "meaning": "可用的,现有的",
+      "word_forms": {
+        "positive": "voorhanden",
+        "comparative": "voorhandener"
+      },
+      "example": "Is het geld voorhanden?",
+      "example_translation": "钱准备好了吗?"
+    },
+    {
+      "id": 5644,
+      "word": "voorlichten",
+      "pos": "verb",
+      "meaning": "启蒙,宣传",
+      "word_forms": {
+        "infinitive": "voorlichten",
+        "present": "licht voor",
+        "past": "lichtte voor",
+        "participle": "voorlicht"
+      },
+      "example": "De organisatie licht voor.",
+      "example_translation": "组织进行宣传。"
+    },
+    {
+      "id": 5645,
+      "word": "vooroordel",
+      "pos": "noun",
+      "meaning": "偏见,成见",
+      "word_forms": {
+        "singular": "vooroordel",
+        "plural": "vooroordelen"
+      },
+      "example": "Hij heeft een vooroordel.",
+      "example_translation": "他有偏见。"
+    },
+    {
+      "id": 5646,
+      "word": "voorschrift",
+      "pos": "noun",
+      "meaning": "规定,规章",
+      "word_forms": {
+        "singular": "voorschrift",
+        "plural": "voorschriften"
+      },
+      "example": "Volg het voorschrift.",
+      "example_translation": "遵守规定。"
+    },
+    {
+      "id": 5647,
+      "word": "voorspellen",
+      "pos": "verb",
+      "meaning": "预测",
+      "word_forms": {
+        "infinitive": "voorspellen",
+        "present": "spelt voor",
+        "past": "speelde voor",
+        "participle": "voorspeld"
+      },
+      "example": "Het weer wordt voorspeld.",
+      "example_translation": "天气被预测了。"
+    },
+    {
+      "id": 5648,
+      "word": "voorsprong",
+      "pos": "noun",
+      "meaning": "优势,领先",
+      "word_forms": {
+        "singular": "voorsprong",
+        "plural": "voorsprongen"
+      },
+      "example": "Zij hebben een voorsprong.",
+      "example_translation": "他们有优势。"
+    },
+    {
+      "id": 5649,
+      "word": "voorstellen",
+      "pos": "verb",
+      "meaning": "提议,介绍",
+      "word_forms": {
+        "infinitive": "voorstellen",
+        "present": "stelt voor",
+        "past": "stelde voor",
+        "participle": "voorgesteld"
+      },
+      "example": "Ik stel voor om morgen te gaan.",
+      "example_translation": "我提议明天去。"
+    },
+    {
+      "id": 5650,
+      "word": "voortdurend",
+      "pos": "adjective",
+      "meaning": "持续的,不断的",
+      "word_forms": {
+        "positive": "voortdurend",
+        "comparative": "voortdurender"
+      },
+      "example": "De voortdurende regen hinderde.",
+      "example_translation": "持续的雨造成了干扰。"
+    },
+    {
+      "id": 5651,
+      "word": "voortgezet",
+      "pos": "adjective",
+      "meaning": "持续的,延续的",
+      "word_forms": {
+        "positive": "voortgezet",
+        "comparative": "voortgezetter"
+      },
+      "example": "Het voortgezet beleid.",
+      "example_translation": "持续的政策。"
+    },
+    {
+      "id": 5652,
+      "word": "voortijdig",
+      "pos": "adjective",
+      "meaning": "过早的,提早的",
+      "word_forms": {
+        "positive": "voortijdig",
+        "comparative": "voortijdiger"
+      },
+      "example": "Hij stierf voortijdig.",
+      "example_translation": "他过早去世了。"
+    },
+    {
+      "id": 5653,
+      "word": "voortkomen",
+      "pos": "verb",
+      "meaning": "产生,出现",
+      "word_forms": {
+        "infinitive": "voortkomen",
+        "present": "komt voort",
+        "past": "kwam voort",
+        "participle": "voortgekomen"
+      },
+      "example": "Het probleem kwam voort uit onzorgvuldigheid.",
+      "example_translation": "这个问题是由粗心产生的。"
+    },
+    {
+      "id": 5654,
+      "word": "voortzetten",
+      "pos": "verb",
+      "meaning": "继续,延长",
+      "word_forms": {
+        "infinitive": "voortzetten",
+        "present": "zet voort",
+        "past": "zette voort",
+        "participle": "voortgezet"
+      },
+      "example": "We zetten het gesprek voort.",
+      "example_translation": "我们继续对话。"
+    },
+    {
+      "id": 5655,
+      "word": "voorwaarde",
+      "pos": "noun",
+      "meaning": "条件",
+      "word_forms": {
+        "singular": "voorwaarde",
+        "plural": "voorwaarden"
+      },
+      "example": "Er is een voorwaarde.",
+      "example_translation": "有一个条件。"
+    },
+    {
+      "id": 5656,
+      "word": "voorzaat",
+      "pos": "noun",
+      "meaning": "前提,假设",
+      "word_forms": {
+        "singular": "voorzaat",
+        "plural": "voorzaatsen"
+      },
+      "example": "Het is een onjuiste voorzaat.",
+      "example_translation": "这是一个错误的前提。"
+    },
+    {
+      "id": 5657,
+      "word": "voorzichtig",
+      "pos": "adjective",
+      "meaning": "小心的,谨慎的",
+      "word_forms": {
+        "positive": "voorzichtig",
+        "comparative": "voorzichtiger"
+      },
+      "example": "Wees voorzichtig.",
+      "example_translation": "要小心。"
+    },
+    {
+      "id": 5658,
+      "word": "voorziening",
+      "pos": "noun",
+      "meaning": "设施,供给",
+      "word_forms": {
+        "singular": "voorziening",
+        "plural": "voorzieningen"
+      },
+      "example": "De voorzieningen zijn goed.",
+      "example_translation": "设施很好。"
+    },
+    {
+      "id": 5659,
+      "word": "voorzitter",
+      "pos": "noun",
+      "meaning": "主席,主持人",
+      "word_forms": {
+        "singular": "voorzitter",
+        "plural": "voorzitters"
+      },
+      "example": "De voorzitter leidt de vergadering.",
+      "example_translation": "主席主持了会议。"
+    },
+    {
+      "id": 5660,
+      "word": "vormgeving",
+      "pos": "noun",
+      "meaning": "设计,造型",
+      "word_forms": {
+        "singular": "vormgeving",
+        "plural": "vormgevingen"
+      },
+      "example": "De vormgeving is modern.",
+      "example_translation": "设计很现代。"
+    },
+    {
+      "id": 5661,
+      "word": "vrachtwagen",
+      "pos": "noun",
+      "meaning": "货车",
+      "word_forms": {
+        "singular": "vrachtwagen",
+        "plural": "vrachtwagens"
+      },
+      "example": "De vrachtwagen levert goederen.",
+      "example_translation": "货车运送货物。"
+    },
+    {
+      "id": 5662,
+      "word": "vreemdeling",
+      "pos": "noun",
+      "meaning": "外国人",
+      "word_forms": {
+        "singular": "vreemdeling",
+        "plural": "vreemdelingen"
+      },
+      "example": "De vreemdeling kwam aan.",
+      "example_translation": "外国人到了。"
+    },
+    {
+      "id": 5663,
+      "word": "vreemdgaan",
+      "pos": "verb",
+      "meaning": "出轨,外遇",
+      "word_forms": {
+        "infinitive": "vreemdgaan",
+        "present": "gaat vreemd",
+        "past": "ging vreemd",
+        "participle": "vreemdgegaan"
+      },
+      "example": "Hij ging vreemd.",
+      "example_translation": "他出轨了。"
+    },
+    {
+      "id": 5664,
+      "word": "vreugdevuur",
+      "pos": "noun",
+      "meaning": "篝火",
+      "word_forms": {
+        "singular": "vreugdevuur",
+        "plural": "vreugdevuren"
+      },
+      "example": "Zij stoken het vreugdevuur.",
+      "example_translation": "他们点篝火。"
+    },
+    {
+      "id": 5665,
+      "word": "vriendschap",
+      "pos": "noun",
+      "meaning": "友谊",
+      "word_forms": {
+        "singular": "vriendschap",
+        "plural": "vriendschappen"
+      },
+      "example": "De vriendschap is belangrijk.",
+      "example_translation": "友谊很重要。"
+    },
+    {
+      "id": 5666,
+      "word": "vrijpraten",
+      "pos": "verb",
+      "meaning": "为...辩解,为...开脱",
+      "word_forms": {
+        "infinitive": "vrijpraten",
+        "present": "praat vrij",
+        "past": "praatte vrij",
+        "participle": "vrijgepraat"
+      },
+      "example": "Hij praat zich vrij.",
+      "example_translation": "他为自己辩解。"
+    },
+    {
+      "id": 5667,
+      "word": "vrijstellen",
+      "pos": "verb",
+      "meaning": "免除,释放",
+      "word_forms": {
+        "infinitive": "vrijstellen",
+        "present": "stelt vrij",
+        "past": "stelde vrij",
+        "participle": "vrijgesteld"
+      },
+      "example": "Hij werd vrijgesteld.",
+      "example_translation": "他被释放了。"
+    },
+    {
+      "id": 5668,
+      "word": "vrouwelijk",
+      "pos": "adjective",
+      "meaning": "女性的,女性化的",
+      "word_forms": {
+        "positive": "vrouwelijk",
+        "comparative": "vrouwelijker"
+      },
+      "example": "Zij heeft een vrouwelijke stem.",
+      "example_translation": "她的声音很女性化。"
+    },
+    {
+      "id": 5669,
+      "word": "vruchtbaar",
+      "pos": "adjective",
+      "meaning": "肥沃的,多产的",
+      "word_forms": {
+        "positive": "vruchtbaar",
+        "comparative": "vruchtbaarder"
+      },
+      "example": "De grond is vruchtbaar.",
+      "example_translation": "土地很肥沃。"
+    },
+    {
+      "id": 5670,
+      "word": "vuilnisman",
+      "pos": "noun",
+      "meaning": "垃圾收集员",
+      "word_forms": {
+        "singular": "vuilnisman",
+        "plural": "vuilnismannen"
+      },
+      "example": "De vuilnisman komt morgen.",
+      "example_translation": "垃圾收集员明天来。"
+    }
+  ]
+}

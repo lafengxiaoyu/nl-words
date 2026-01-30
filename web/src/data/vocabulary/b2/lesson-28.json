@@ -1,0 +1,522 @@
+{
+  "words": [
+    {
+      "id": 5527,
+      "word": "vergezellen",
+      "pos": "verb",
+      "meaning": "陪伴",
+      "word_forms": {
+        "infinitive": "vergezellen",
+        "present": "gezelt",
+        "past": "gezelde",
+        "participle": "gezeleld"
+      },
+      "example": "Ik gezel je graag.",
+      "example_translation": "我喜欢陪伴你。"
+    },
+    {
+      "id": 5528,
+      "word": "vergezicht",
+      "pos": "noun",
+      "meaning": "视野",
+      "word_forms": {
+        "singular": "vergezicht",
+        "plural": "vergezichten"
+      },
+      "example": "Het vergezicht is prachtig.",
+      "example_translation": "视野很美。"
+    },
+    {
+      "id": 5529,
+      "word": "vergezocht",
+      "pos": "adjective",
+      "meaning": "牵强的,不自然的",
+      "word_forms": {
+        "positive": "vergezocht",
+        "comparative": "vergezochter"
+      },
+      "example": "Zijn uitleg was vergezocht.",
+      "example_translation": "他的解释很牵强。"
+    },
+    {
+      "id": 5530,
+      "word": "vergiftigen",
+      "pos": "verb",
+      "meaning": "下毒,污染",
+      "word_forms": {
+        "infinitive": "vergiftigen",
+        "present": "vergiftigt",
+        "past": "vergiftigde",
+        "participle": "vergiftigd"
+      },
+      "example": "Het gif vergiftigde het water.",
+      "example_translation": "毒药污染了水源。"
+    },
+    {
+      "id": 5531,
+      "word": "vergissing",
+      "pos": "noun",
+      "meaning": "错误",
+      "word_forms": {
+        "singular": "vergissing",
+        "plural": "vergissingen"
+      },
+      "example": "Het was een kleine vergissing.",
+      "example_translation": "这是一个小错误。"
+    },
+    {
+      "id": 5532,
+      "word": "vergoeding",
+      "pos": "noun",
+      "meaning": "补偿,赔偿",
+      "word_forms": {
+        "singular": "vergoeding",
+        "plural": "vergoedingen"
+      },
+      "example": "Hij kreeg een vergoeding.",
+      "example_translation": "他得到了赔偿。"
+    },
+    {
+      "id": 5533,
+      "word": "vergrijzing",
+      "pos": "noun",
+      "meaning": "老龄化",
+      "word_forms": {
+        "singular": "vergrijzing",
+        "plural": "vergrijzingen"
+      },
+      "example": "De vergrijzing is een probleem.",
+      "example_translation": "老龄化是一个问题。"
+    },
+    {
+      "id": 5534,
+      "word": "verhandelen",
+      "pos": "verb",
+      "meaning": "讨论,交易",
+      "word_forms": {
+        "infinitive": "verhandelen",
+        "present": "handelt",
+        "past": "handelde",
+        "participle": "gehandeld"
+      },
+      "example": "Ze verhandelden over de zaak.",
+      "example_translation": "他们讨论了这个事情。"
+    },
+    {
+      "id": 5535,
+      "word": "verhinderen",
+      "pos": "verb",
+      "meaning": "阻碍,妨碍",
+      "word_forms": {
+        "infinitive": "verhinderen",
+        "present": "verhindert",
+        "past": "verhinderde",
+        "participle": "verhinderd"
+      },
+      "example": "De storm verhindert het verkeer.",
+      "example_translation": "暴风雨阻碍了交通。"
+    },
+    {
+      "id": 5536,
+      "word": "verhouding",
+      "pos": "noun",
+      "meaning": "关系,比例",
+      "word_forms": {
+        "singular": "verhouding",
+        "plural": "verhoudingen"
+      },
+      "example": "De verhouding was twee op drie.",
+      "example_translation": "比例是二比三。"
+    },
+    {
+      "id": 5537,
+      "word": "verhuurder",
+      "pos": "noun",
+      "meaning": "房东",
+      "word_forms": {
+        "singular": "verhuurder",
+        "plural": "verhuurders"
+      },
+      "example": "De verhuurder komt morgen.",
+      "example_translation": "房东明天来。"
+    },
+    {
+      "id": 5538,
+      "word": "verifiëren",
+      "pos": "verb",
+      "meaning": "核实,验证",
+      "word_forms": {
+        "infinitive": "verifiëren",
+        "present": "verifiërt",
+        "past": "verifieerde",
+        "participle": "verifieerd"
+      },
+      "example": "Verifieer uw identiteit.",
+      "example_translation": "请核实您的身份。"
+    },
+    {
+      "id": 5539,
+      "word": "verjaardag",
+      "pos": "noun",
+      "meaning": "生日",
+      "word_forms": {
+        "singular": "verjaardag",
+        "plural": "verjaardagen"
+      },
+      "example": "Vandaag is mijn verjaardag.",
+      "example_translation": "今天是我的生日。"
+    },
+    {
+      "id": 5540,
+      "word": "verkenning",
+      "pos": "noun",
+      "meaning": "探索,侦察",
+      "word_forms": {
+        "singular": "verkenning",
+        "plural": "verkenningen"
+      },
+      "example": "De verkenning was succesvol.",
+      "example_translation": "探索很成功。"
+    },
+    {
+      "id": 5541,
+      "word": "verkiezing",
+      "pos": "noun",
+      "meaning": "选举",
+      "word_forms": {
+        "singular": "verkiezing",
+        "plural": "verkiezingen"
+      },
+      "example": "De verkiezing is over twee weken.",
+      "example_translation": "选举在两周后。"
+    },
+    {
+      "id": 5542,
+      "word": "verkleinen",
+      "pos": "verb",
+      "meaning": "缩小",
+      "word_forms": {
+        "infinitive": "verkleinen",
+        "present": "verkleint",
+        "past": "verkleinde",
+        "participle": "verkleind"
+      },
+      "example": "Het scherm verkleint niet.",
+      "example_translation": "屏幕不能缩小。"
+    },
+    {
+      "id": 5543,
+      "word": "verkleuren",
+      "pos": "verb",
+      "meaning": "变色",
+      "word_forms": {
+        "infinitive": "verkleuren",
+        "present": "verkleurt",
+        "past": "verkleurde",
+        "participle": "verkleurd"
+      },
+      "example": "De bladeren verkleuren in herfst.",
+      "example_translation": "秋天叶子变色。"
+    },
+    {
+      "id": 5544,
+      "word": "verknogen",
+      "pos": "verb",
+      "meaning": "搞砸,弄糟",
+      "word_forms": {
+        "infinitive": "verknogen",
+        "present": "verknoeit",
+        "past": "verknoeide",
+        "participle": "verknogen"
+      },
+      "example": "Hij verknoeide de zaak.",
+      "example_translation": "他把事情搞砸了。"
+    },
+    {
+      "id": 5545,
+      "word": "verkrachten",
+      "pos": "verb",
+      "meaning": "粉碎,破坏",
+      "word_forms": {
+        "infinitive": "verkrachten",
+        "present": "kracht",
+        "past": "krachte",
+        "participle": "gekracht"
+      },
+      "example": "De storm krachte het huis.",
+      "example_translation": "暴风雨摧毁了房屋。"
+    },
+    {
+      "id": 5546,
+      "word": "verkrijgen",
+      "pos": "verb",
+      "meaning": "获得",
+      "word_forms": {
+        "infinitive": "verkrijgen",
+        "present": "verkrijgt",
+        "past": "verkreeg",
+        "participle": "verkregen"
+      },
+      "example": "Hij verkreeg een beurs.",
+      "example_translation": "他获得了奖学金。"
+    },
+    {
+      "id": 5547,
+      "word": "verkwikkend",
+      "pos": "adjective",
+      "meaning": "令人振奋的,鼓舞人心的",
+      "word_forms": {
+        "positive": "verkwikkend",
+        "comparative": "verkwikkender"
+      },
+      "example": "Het nieuws was verkwikkend.",
+      "example_translation": "这个消息令人振奋。"
+    },
+    {
+      "id": 5548,
+      "word": "verlammend",
+      "pos": "adjective",
+      "meaning": "使人瘫痪的",
+      "word_forms": {
+        "positive": "verlammend",
+        "comparative": "verlammender"
+      },
+      "example": "De kou was verlammend.",
+      "example_translation": "寒冷让人瘫痪。"
+    },
+    {
+      "id": 5549,
+      "word": "verleiding",
+      "pos": "noun",
+      "meaning": "诱惑",
+      "word_forms": {
+        "singular": "verleiding",
+        "plural": "verleidingen"
+      },
+      "example": "Hij kon de verleiding weerstaan.",
+      "example_translation": "他能抵挡诱惑。"
+    },
+    {
+      "id": 5550,
+      "word": "verlichten",
+      "pos": "verb",
+      "meaning": "减轻,照亮",
+      "word_forms": {
+        "infinitive": "verlichten",
+        "present": "verlicht",
+        "past": "verlichte",
+        "participle": "verlicht"
+      },
+      "example": "De lantaarn verlicht de straat.",
+      "example_translation": "路灯照亮了街道。"
+    },
+    {
+      "id": 5551,
+      "word": "verloederen",
+      "pos": "verb",
+      "meaning": "衰败,荒废",
+      "word_forms": {
+        "infinitive": "verloederen",
+        "present": "loedert",
+        "past": "loederde",
+        "participle": "verloederd"
+      },
+      "example": "Het gebouw is verloederd.",
+      "example_translation": "建筑已经荒废了。"
+    },
+    {
+      "id": 5552,
+      "word": "vermakelijk",
+      "pos": "adjective",
+      "meaning": "有趣的,好笑的",
+      "word_forms": {
+        "positive": "vermakelijk",
+        "comparative": "vermakelijker"
+      },
+      "example": "De film was vermkelijk.",
+      "example_translation": "电影很有趣。"
+    },
+    {
+      "id": 5553,
+      "word": "verminderen",
+      "pos": "verb",
+      "meaning": "减少",
+      "word_forms": {
+        "infinitive": "verminderen",
+        "present": "vermindert",
+        "past": "vermindert",
+        "participle": "vermindert"
+      },
+      "example": "De pijn vermindert.",
+      "example_translation": "疼痛减轻了。"
+    },
+    {
+      "id": 5554,
+      "word": "vermoeiend",
+      "pos": "adjective",
+      "meaning": "令人疲惫的",
+      "word_forms": {
+        "positive": "vermoeiend",
+        "comparative": "vermoeiender"
+      },
+      "example": "De reis was vermoeiend.",
+      "example_translation": "旅途很疲惫。"
+    },
+    {
+      "id": 5555,
+      "word": "vermoorden",
+      "pos": "verb",
+      "meaning": "谋杀",
+      "word_forms": {
+        "infinitive": "vermoorden",
+        "present": "moordt",
+        "past": "moordde",
+        "participle": "vermoord"
+      },
+      "example": "Hij werd vermoord.",
+      "example_translation": "他被谋杀了。"
+    },
+    {
+      "id": 5556,
+      "word": "vernieling",
+      "pos": "noun",
+      "meaning": "破坏,损坏",
+      "word_forms": {
+        "singular": "vernieling",
+        "plural": "vernielingen"
+      },
+      "example": "De vernieling was ernstig.",
+      "example_translation": "破坏很严重。"
+    },
+    {
+      "id": 5557,
+      "word": "vernietigen",
+      "pos": "verb",
+      "meaning": "毁灭,摧毁",
+      "word_forms": {
+        "infinitive": "vernietigen",
+        "present": "vernietigt",
+        "past": "vernietigde",
+        "participle": "vernietigd"
+      },
+      "example": "Het bombardement vernietigde de stad.",
+      "example_translation": "轰炸摧毁了城市。"
+    },
+    {
+      "id": 5558,
+      "word": "vernieuwend",
+      "pos": "adjective",
+      "meaning": "创新的,更新的",
+      "word_forms": {
+        "positive": "vernieuwend",
+        "comparative": "vernieuwender"
+      },
+      "example": "Het concept is vernieuwend.",
+      "example_translation": "这个概念很创新。"
+    },
+    {
+      "id": 5559,
+      "word": "veroordelen",
+      "pos": "verb",
+      "meaning": "谴责,定罪",
+      "word_forms": {
+        "infinitive": "veroordelen",
+        "present": "oordeelt",
+        "past": "oordeelde",
+        "participle": "veroordeeld"
+      },
+      "example": "De rechter veroordeelde hem.",
+      "example_translation": "法官宣判了他有罪。"
+    },
+    {
+      "id": 5560,
+      "word": "verordening",
+      "pos": "noun",
+      "meaning": "条例,规定",
+      "word_forms": {
+        "singular": "verordening",
+        "plural": "verordeningen"
+      },
+      "example": "De verordening is van kracht.",
+      "example_translation": "条例生效了。"
+    },
+    {
+      "id": 5561,
+      "word": "verpakking",
+      "pos": "noun",
+      "meaning": "包装",
+      "word_forms": {
+        "singular": "verpakking",
+        "plural": "verpakkingen"
+      },
+      "example": "De verpakking is herbruikbaar.",
+      "example_translation": "包装是可重复使用的。"
+    },
+    {
+      "id": 5562,
+      "word": "verprutsen",
+      "pos": "verb",
+      "meaning": "搞坏,弄糟",
+      "word_forms": {
+        "infinitive": "verprutsen",
+        "present": "prutst",
+        "past": "prutste",
+        "participle": "geprutst"
+      },
+      "example": "Ik heb de klok verprutst.",
+      "example_translation": "我把时钟弄坏了。"
+    },
+    {
+      "id": 5563,
+      "word": "verregaand",
+      "pos": "adjective",
+      "meaning": "深远的,极度的",
+      "word_forms": {
+        "positive": "verregaand",
+        "comparative": "verregaander"
+      },
+      "example": "Het was een verregaande fout.",
+      "example_translation": "这是一个深远的错误。"
+    },
+    {
+      "id": 5564,
+      "word": "verrekijker",
+      "pos": "noun",
+      "meaning": "双筒望远镜",
+      "word_forms": {
+        "singular": "verrekijker",
+        "plural": "verrekijkers"
+      },
+      "example": "De vogelaar gebruikte zijn verrekijker.",
+      "example_translation": "观鸟者使用了双筒望远镜。"
+    },
+    {
+      "id": 5565,
+      "word": "verrichten",
+      "pos": "verb",
+      "meaning": "进行,实施",
+      "word_forms": {
+        "infinitive": "verrichten",
+        "present": "richt",
+        "past": "richtte",
+        "participle": "gericht"
+      },
+      "example": "Het onderzoek wordt verricht.",
+      "example_translation": "调查正在进行。"
+    },
+    {
+      "id": 5566,
+      "word": "verroesten",
+      "pos": "verb",
+      "meaning": "生锈",
+      "word_forms": {
+        "infinitive": "verroesten",
+        "present": "roest",
+        "past": "roeste",
+        "participle": "geroest"
+      },
+      "example": "De hek is geroest.",
+      "example_translation": "门生锈了。"
+    }
+  ]
+}

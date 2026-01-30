@@ -2,6 +2,1272 @@
   "id": "lB201",
   "level": "B2",
   "lessonNumber": 1,
-  "totalWords": 0,
-  "words": []
+  "totalWords": 32,
+  "words": [
+    {
+      "id": 4370,
+      "word": "aanbelanden",
+      "translation": {
+        "chinese": "到达, 抵达",
+        "english": "to arrive, to land"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanbelanden",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "beland aan",
+            "jij": "belandt aan",
+            "hij": "belandt aan",
+            "wij": "belanden aan",
+            "jullie": "belanden aan",
+            "zij": "belanden aan"
+          },
+          "past": {
+            "singular": "belandde aan",
+            "plural": "belandden aan"
+          },
+          "pastParticiple": "aangebeland",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Wij belanden aan de overkant.",
+        "Het vliegtuig belandt aan op de baan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们到达对岸。",
+          "飞机降落在跑道上。"
+        ],
+        "english": [
+          "We land on the other side.",
+          "The airplane lands on the runway."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4371,
+      "word": "aanbetaling",
+      "translation": {
+        "chinese": "定金, 预付款",
+        "english": "down payment, deposit"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "aanbetaling",
+          "plural": "aanbetalingen"
+        }
+      },
+      "examples": [
+        "Hij doet een aanbetaling.",
+        "De aanbetaling is 20%."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他付了定金。",
+          "定金是20%。"
+        ],
+        "english": [
+          "He makes a down payment.",
+          "The deposit is 20%."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4372,
+      "word": "aanbevelen",
+      "translation": {
+        "chinese": "推荐",
+        "english": "to recommend"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanbevelen",
+          "isSeparable": false,
+          "present": {
+            "ik": "beveel aan",
+            "jij": "beveelt aan",
+            "hij": "beveelt aan",
+            "wij": "bevelen aan",
+            "jullie": "bevelen aan",
+            "zij": "bevelen aan"
+          },
+          "past": {
+            "singular": "beval aan",
+            "plural": "bevallen aan"
+          },
+          "pastParticiple": "aanbevolen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik beveel dit restaurant aan.",
+        "De arts beveelt rust aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我推荐这家餐厅。",
+          "医生建议休息。"
+        ],
+        "english": [
+          "I recommend this restaurant.",
+          "The doctor advises rest."
+        ]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4373,
+      "word": "aanbieding",
+      "translation": {
+        "chinese": "提议, 优惠",
+        "english": "offer, special offer"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "aanbieding",
+          "plural": "aanbiedingen"
+        }
+      },
+      "examples": [
+        "Dit is een goede aanbieding.",
+        "De aanbieding geldt alleen vandaag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是个不错的提议。",
+          "优惠仅限今天。"
+        ],
+        "english": [
+          "This is a good offer.",
+          "The offer is valid only today."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4374,
+      "word": "aanblijven",
+      "translation": {
+        "chinese": "留下来, 继续待",
+        "english": "to stay on, to remain"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanblijven",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "blijf aan",
+            "jij": "blijft aan",
+            "hij": "blijft aan",
+            "wij": "blijven aan",
+            "jullie": "blijven aan",
+            "zij": "blijven aan"
+          },
+          "past": {
+            "singular": "bleef aan",
+            "plural": "bleven aan"
+          },
+          "pastParticiple": "aangebleven",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Hij blijft aan als trainer.",
+        "Wij blijven aan tot morgen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他继续担任教练。",
+          "我们待到明天。"
+        ],
+        "english": [
+          "He stays on as a coach.",
+          "We remain until tomorrow."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4375,
+      "word": "aanbrengen",
+      "translation": {
+        "chinese": "带来, 应用, 涂抹",
+        "english": "to bring, to apply, to put on"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanbrengen",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "breng aan",
+            "jij": "brengt aan",
+            "hij": "brengt aan",
+            "wij": "brengen aan",
+            "jullie": "brengen aan",
+            "zij": "brengen aan"
+          },
+          "past": {
+            "singular": "bracht aan",
+            "plural": "brachten aan"
+          },
+          "pastParticiple": "aangebracht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Breng zonnebrandcrème aan.",
+        "Hij brengt nieuwe ideeën aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "涂防晒霜。",
+          "他带来了新想法。"
+        ],
+        "english": [
+          "Apply sunscreen.",
+          "He brings up new ideas."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4376,
+      "word": "aandoening",
+      "translation": {
+        "chinese": "疾病, 状况",
+        "english": "condition, ailment"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "aandoening",
+          "plural": "aandoeningen"
+        }
+      },
+      "examples": [
+        "Hij heeft een ernstige aandoening.",
+        "De aandoening is te behandelen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他有严重的疾病。",
+          "这个病可以治疗。"
+        ],
+        "english": [
+          "He has a serious condition.",
+          "The condition is treatable."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4377,
+      "word": "aandoenlijk",
+      "translation": {
+        "chinese": "令人感动的, 可爱的",
+        "english": "touching, endearing"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "aandoenlijk",
+          "withDe": "aandoenlijke",
+          "withHet": "aandoenlijke",
+          "comparative": "aandoenlijker",
+          "superlative": "het aandoenlijkst"
+        }
+      },
+      "examples": [
+        "Een aandoenlijk kind.",
+        "Het was een aandoenlijk moment."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个可爱的孩子。",
+          "那是一个感人的时刻。"
+        ],
+        "english": [
+          "An endearing child.",
+          "It was a touching moment."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4378,
+      "word": "aandraaien",
+      "translation": {
+        "chinese": "拧紧, 转动",
+        "english": "to turn on, to tighten"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aandraaien",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "draai aan",
+            "jij": "draait aan",
+            "hij": "draait aan",
+            "wij": "draaien aan",
+            "jullie": "draaien aan",
+            "zij": "draaien aan"
+          },
+          "past": {
+            "singular": "draaide aan",
+            "plural": "draaiden aan"
+          },
+          "pastParticiple": "aangedraaid",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Draai het licht aan.",
+        "Ik draai de kraan aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "打开灯。",
+          "我打开水龙头。"
+        ],
+        "english": [
+          "Turn on the light.",
+          "I turn on the tap."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4379,
+      "word": "aandrijven",
+      "translation": {
+        "chinese": "驱动, 推动",
+        "english": "to drive, to power"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aandrijven",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "drijf aan",
+            "jij": "drijft aan",
+            "hij": "drijft aan",
+            "wij": "drijven aan",
+            "jullie": "drijven aan",
+            "zij": "drijven aan"
+          },
+          "past": {
+            "singular": "dreef aan",
+            "plural": "dreven aan"
+          },
+          "pastParticiple": "aangedreven",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De motor drijft de auto aan.",
+        "Ambitie drijft hem aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "引擎驱动汽车。",
+          "野心推动着他。"
+        ],
+        "english": [
+          "The engine powers the car.",
+          "Ambition drives him."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4380,
+      "word": "aandringen",
+      "translation": {
+        "chinese": "坚持, 强求",
+        "english": "to insist, to press"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aandringen",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "dring aan",
+            "jij": "dringt aan",
+            "hij": "dringt aan",
+            "wij": "dringen aan",
+            "jullie": "dringen aan",
+            "zij": "dringen aan"
+          },
+          "past": {
+            "singular": "drong aan",
+            "plural": "drongen aan"
+          },
+          "pastParticiple": "aangedrongen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij dringt aan op antwoord.",
+        "Wij dringen aan op hervorming."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他坚持要回答。",
+          "我们坚持改革。"
+        ],
+        "english": [
+          "He insists on an answer.",
+          "We press for reform."
+        ]
+      },
+      "notes": "可分动词，搭配介词 op",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4381,
+      "word": "aangeboren",
+      "translation": {
+        "chinese": "天生的, 先天的",
+        "english": "innate, inborn"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "aangeboren",
+          "withDe": "aangeboren",
+          "withHet": "aangeboren",
+          "comparative": "-",
+          "superlative": "-"
+        }
+      },
+      "examples": [
+        "Een aangeboren talent.",
+        "Zij heeft een aangeboren gevoeligheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "天生的才华。",
+          "她有先天的敏感性。"
+        ],
+        "english": [
+          "An innate talent.",
+          "She has an innate sensitivity."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4382,
+      "word": "aangeslagen",
+      "translation": {
+        "chinese": "受打击的, 震惊的",
+        "english": "shocked, affected"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "aangeslagen",
+          "withDe": "aangeslagen",
+          "withHet": "aangeslagen",
+          "comparative": "-",
+          "superlative": "-"
+        }
+      },
+      "examples": [
+        "Ik ben aangeslagen door het nieuws.",
+        "Hij ziet er aangeslagen uit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我被新闻震惊了。",
+          "他看起来很受打击。"
+        ],
+        "english": [
+          "I'm shocked by the news.",
+          "He looks affected."
+        ]
+      },
+      "notes": "形容词（过去分词形式）",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4383,
+      "word": "aanklooien",
+      "translation": {
+        "chinese": "四处闲逛, 游荡",
+        "english": "to wander, to loiter"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanklooien",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "klooi aan",
+            "jij": "klooit aan",
+            "hij": "klooit aan",
+            "wij": "klooien aan",
+            "jullie": "klooien aan",
+            "zij": "klooien aan"
+          },
+          "past": {
+            "singular": "klooide aan",
+            "plural": "klooiden aan"
+          },
+          "pastParticiple": "aangeklooit",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij klooit er maar aan.",
+        "Klop niet aan op straat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他只是在四处闲逛。",
+          "不要在街头游荡。"
+        ],
+        "english": [
+          "He's just wandering around.",
+          "Don't loiter on the street."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4384,
+      "word": "aankomsthal",
+      "translation": {
+        "chinese": "到达大厅",
+        "english": "arrival hall"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "aankomsthal",
+          "plural": "aankomsthallen"
+        }
+      },
+      "examples": [
+        "Wij wachten in de aankomsthal.",
+        "De aankomsthal is vol."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们在到达大厅等待。",
+          "到达大厅挤满了人。"
+        ],
+        "english": [
+          "We wait in the arrival hall.",
+          "The arrival hall is full."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4385,
+      "word": "aankondigen",
+      "translation": {
+        "chinese": "宣布, 宣告",
+        "english": "to announce"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aankondigen",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "kondig aan",
+            "jij": "kondigt aan",
+            "hij": "kondigt aan",
+            "wij": "kondigen aan",
+            "jullie": "kondigen aan",
+            "zij": "kondigen aan"
+          },
+          "past": {
+            "singular": "kondigde aan",
+            "plural": "kondigden aan"
+          },
+          "pastParticiple": "aangekondigd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij kondigt zijn vertrek aan.",
+        "De regering kondigt nieuwe maatregelen aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他宣布离开。",
+          "政府宣布新措施。"
+        ],
+        "english": [
+          "He announces his departure.",
+          "The government announces new measures."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4386,
+      "word": "aanleiding",
+      "translation": {
+        "chinese": "理由, 原因",
+        "english": "reason, cause"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "aanleiding",
+          "plural": "aanleidingen"
+        }
+      },
+      "examples": [
+        "Dit was aanleiding tot het onderzoek.",
+        "Er is geen aanleiding tot paniek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是调查的原因。",
+          "没有理由恐慌。"
+        ],
+        "english": [
+          "This was the reason for the investigation.",
+          "There's no reason to panic."
+        ]
+      },
+      "notes": "名词，搭配介词 tot",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4387,
+      "word": "aanleveren",
+      "translation": {
+        "chinese": "提交, 提供",
+        "english": "to submit, to deliver"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanleveren",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "lever aan",
+            "jij": "levert aan",
+            "hij": "levert aan",
+            "wij": "leveren aan",
+            "jullie": "leveren aan",
+            "zij": "leveren aan"
+          },
+          "past": {
+            "singular": "leverde aan",
+            "plural": "leverden aan"
+          },
+          "pastParticiple": "aangeleverd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Lever de documenten op tijd aan.",
+        "Hij levert de resultaten aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "准时提交文件。",
+          "他提交结果。"
+        ],
+        "english": [
+          "Submit the documents on time.",
+          "He delivers results."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4388,
+      "word": "aanmerking",
+      "translation": {
+        "chinese": "评论, 意见",
+        "english": "remark, comment"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "aanmerking",
+          "plural": "aanmerkingen"
+        }
+      },
+      "examples": [
+        "Ik heb een aanmerking op dit plan.",
+        "Zij maakt een aanmerking."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我对这个计划有意见。",
+          "她提出评论。"
+        ],
+        "english": [
+          "I have a comment on this plan.",
+          "She makes a remark."
+        ]
+      },
+      "notes": "名词，搭配介词 op",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4389,
+      "word": "aanmoedigen",
+      "translation": {
+        "chinese": "鼓励",
+        "english": "to encourage"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanmoedigen",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "moedig aan",
+            "jij": "moedigt aan",
+            "hij": "moedigt aan",
+            "wij": "moedigen aan",
+            "jullie": "moedigen aan",
+            "zij": "moedigen aan"
+          },
+          "past": {
+            "singular": "moedigde aan",
+            "plural": "moedigden aan"
+          },
+          "pastParticiple": "aanmoedigd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Wij moedigen haar aan.",
+        "De coach moedigt het team aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们鼓励她。",
+          "教练鼓励团队。"
+        ],
+        "english": [
+          "We encourage her.",
+          "The coach encourages the team."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4390,
+      "word": "aannemelijk",
+      "translation": {
+        "chinese": "合理的, 可能的",
+        "english": "plausible, reasonable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "aannemelijk",
+          "withDe": "aannemelijke",
+          "withHet": "aannemelijke",
+          "comparative": "aannemelijker",
+          "superlative": "het aannemelijkst"
+        }
+      },
+      "examples": [
+        "Dat is een aannemelijk verhaal.",
+        "Het is aannemelijk dat hij gelijk heeft."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个合理的故事。",
+          "他可能是对的。"
+        ],
+        "english": [
+          "That's a plausible story.",
+          "It's plausible that he's right."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4391,
+      "word": "aanplakbord",
+      "translation": {
+        "chinese": "告示板, 公告板",
+        "english": "bulletin board, notice board"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "aanplakbord",
+          "plural": "aanplakborden"
+        }
+      },
+      "examples": [
+        "Plak het bericht op het aanplakbord.",
+        "Het aanplakbord hangt in de hal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "把消息贴在公告板上。",
+          "公告板在大厅里。"
+        ],
+        "english": [
+          "Put the message on the bulletin board.",
+          "The notice board is in the hall."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4392,
+      "word": "aanplakken",
+      "translation": {
+        "chinese": "张贴",
+        "english": "to paste, to post"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanplakken",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "plak aan",
+            "jij": "plakt aan",
+            "hij": "plakt aan",
+            "wij": "plakken aan",
+            "jullie": "plakken aan",
+            "zij": "plakken aan"
+          },
+          "past": {
+            "singular": "plakte aan",
+            "plural": "plakten aan"
+          },
+          "pastParticiple": "aangeplakt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Plak de poster aan.",
+        "Zij plakt een brief op de deur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "贴上海报。",
+          "她把信贴在门上。"
+        ],
+        "english": [
+          "Paste the poster.",
+          "She pastes a letter on the door."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4393,
+      "word": "aanplanten",
+      "translation": {
+        "chinese": "种植, 栽培",
+        "english": "to plant"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanplanten",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "plant aan",
+            "jij": "plant aan",
+            "hij": "plant aan",
+            "wij": "planten aan",
+            "jullie": "planten aan",
+            "zij": "planten aan"
+          },
+          "past": {
+            "singular": "plante aan",
+            "plural": "plantten aan"
+          },
+          "pastParticiple": "aangeplant",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Wij planten bomen aan.",
+        "Hij plant de tuin aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们种植树木。",
+          "他布置花园。"
+        ],
+        "english": [
+          "We plant trees.",
+          "He plants the garden."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4394,
+      "word": "aanprijzen",
+      "translation": {
+        "chinese": "推荐, 赞扬",
+        "english": "to praise, to recommend highly"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanprijzen",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "prijs aan",
+            "jij": "prijs aan",
+            "hij": "prijs aan",
+            "wij": "prijzen aan",
+            "jullie": "prijzen aan",
+            "zij": "prijzen aan"
+          },
+          "past": {
+            "singular": "prees aan",
+            "plural": "prezen aan"
+          },
+          "pastParticiple": "aan geprezen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij prijs het boek aan.",
+        "Zij prijst het product aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他推荐这本书。",
+          "她赞扬这个产品。"
+        ],
+        "english": [
+          "He praises the book.",
+          "She recommends the product."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4395,
+      "word": "aanrekenen",
+      "translation": {
+        "chinese": "归咎于, 责怪",
+        "english": "to blame, to charge"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanrekenen",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "reken aan",
+            "jij": "rekent aan",
+            "hij": "rekent aan",
+            "wij": "rekenen aan",
+            "jullie": "rekenen aan",
+            "zij": "rekenen aan"
+          },
+          "past": {
+            "singular": "rekende aan",
+            "plural": "rekenden aan"
+          },
+          "pastParticiple": "aangerekend",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Reken het hem niet aan.",
+        "Ik reken het haar aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "不要怪他。",
+          "我怪她。"
+        ],
+        "english": [
+          "Don't blame him.",
+          "I blame her."
+        ]
+      },
+      "notes": "可分动词，搭配介词 aan",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4396,
+      "word": "aanrichten",
+      "translation": {
+        "chinese": "造成, 引起",
+        "english": "to cause, to arrange"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanrichten",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "richt aan",
+            "jij": "richt aan",
+            "hij": "richt aan",
+            "wij": "richten aan",
+            "jullie": "richten aan",
+            "zij": "richten aan"
+          },
+          "past": {
+            "singular": "richtte aan",
+            "plural": "richtten aan"
+          },
+          "pastParticiple": "aangericht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij richt veel schade aan.",
+        "Zij richt het diner aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他造成了很多损害。",
+          "她安排晚餐。"
+        ],
+        "english": [
+          "He causes a lot of damage.",
+          "She arranges the dinner."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4397,
+      "word": "aanrijding",
+      "translation": {
+        "chinese": "碰撞, 交通事故",
+        "english": "collision, traffic accident"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "aanrijding",
+          "plural": "aanrijdingen"
+        }
+      },
+      "examples": [
+        "Er was een aanrijding.",
+        "Hij was betrokken bij een aanrijding."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "发生了一起交通事故。",
+          "他卷入了一起碰撞。"
+        ],
+        "english": [
+          "There was a traffic accident.",
+          "He was involved in a collision."
+        ]
+      },
+      "notes": "名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4398,
+      "word": "aanschaffen",
+      "translation": {
+        "chinese": "购买, 添置",
+        "english": "to purchase, to acquire"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanschaffen",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "schaf aan",
+            "jij": "schaft aan",
+            "hij": "schaft aan",
+            "wij": "schaffen aan",
+            "jullie": "schaffen aan",
+            "zij": "schaffen aan"
+          },
+          "past": {
+            "singular": "schoof aan",
+            "plural": "schoven aan"
+          },
+          "pastParticiple": "aangeschaft",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Wij schaffen een nieuwe auto aan.",
+        "Hij schaft meubels aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们买了一辆新车。",
+          "他添置了家具。"
+        ],
+        "english": [
+          "We purchase a new car.",
+          "He acquires furniture."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4399,
+      "word": "aanschärpen",
+      "translation": {
+        "chinese": "磨尖, 加剧",
+        "english": "to sharpen, to intensify"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanschärpen",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "scherp aan",
+            "jij": "scherpt aan",
+            "hij": "scherpt aan",
+            "wij": "scherpen aan",
+            "jullie": "scherpen aan",
+            "zij": "scherpen aan"
+          },
+          "past": {
+            "singular": "scherpte aan",
+            "plural": "scherpten aan"
+          },
+          "pastParticiple": "aangescherpt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Scherp het mes aan.",
+        "De regering scherpt de regels aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "磨尖刀子。",
+          "政府加紧规则。"
+        ],
+        "english": [
+          "Sharpen the knife.",
+          "The government intensifies the rules."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4400,
+      "word": "aanschrijven",
+      "translation": {
+        "chinese": "写下, 写信给",
+        "english": "to write down, to write to"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "aanschrijven",
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "schrijf aan",
+            "jij": "schrijft aan",
+            "hij": "schrijft aan",
+            "wij": "schrijven aan",
+            "jullie": "schrijven aan",
+            "zij": "schrijven aan"
+          },
+          "past": {
+            "singular": "schreef aan",
+            "plural": "schreven aan"
+          },
+          "pastParticiple": "aangeschreven",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Schrijf het adres aan.",
+        "Hij schrijft haar aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "写下地址。",
+          "他写信给她。"
+        ],
+        "english": [
+          "Write down the address.",
+          "He writes to her."
+        ]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
+    }
+  ]
 }

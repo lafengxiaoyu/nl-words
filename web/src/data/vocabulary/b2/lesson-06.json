@@ -1,0 +1,766 @@
+{
+  "lessonNumber": 6,
+  "totalWords": 27,
+  "words": [
+    {
+      "id": 4552,
+      "word": "cabaretier",
+      "translation": {
+        "chinese": "喜剧演员, 卡巴莱演员",
+        "english": "cabaret artist, comedian"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "cabaretier",
+          "plural": "cabaretiers"
+        }
+      },
+      "examples": [
+        "De cabaretier maakte veel grapjes.",
+        "Hij is een beroemde cabaretier in Nederland."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "喜剧演员讲了很多笑话。",
+          "他是荷兰著名的喜剧演员。"
+        ],
+        "english": [
+          "The comedian made many jokes.",
+          "He is a famous cabaret artist in the Netherlands."
+        ]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4553,
+      "word": "calamiteit",
+      "translation": {
+        "chinese": "灾难, 事故, 意外事件",
+        "english": "calamity, disaster, emergency"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "calamiteit",
+          "plural": "calamiteiten"
+        }
+      },
+      "examples": [
+        "Er is een grote calamiteit gebeurd.",
+        "De hulpdiensten reageerden snel op de calamiteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "发生了一起重大灾难。",
+          "救援部门对事故反应迅速。"
+        ],
+        "english": [
+          "A major disaster occurred.",
+          "The emergency services responded quickly to the calamity."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4554,
+      "word": "carcinogeen",
+      "translation": {
+        "chinese": "致癌物质",
+        "english": "carcinogenic substance, carcinogen"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "carcinogeen",
+          "plural": "carcinogenen"
+        }
+      },
+      "examples": [
+        "Tabaksrook bevat carcinogenen.",
+        "Sommige chemicaliën zijn carcinogeen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "烟草烟雾含有致癌物质。",
+          "有些化学品是致癌的。"
+        ],
+        "english": [
+          "Tobacco smoke contains carcinogens.",
+          "Some chemicals are carcinogenic."
+        ]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4555,
+      "word": "chagrijnig",
+      "translation": {
+        "chinese": "脾气暴躁的, 不高兴的",
+        "english": "grumpy, irritable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "chagrijnig",
+          "comparative": "chagrijniger",
+          "superlative": "chagrijnigst"
+        }
+      },
+      "examples": [
+        "Hij is erg chagrijnig vanochtend.",
+        "Wees niet zo chagrijnig!"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他今天早上很暴躁。",
+          "别那么不高兴!"
+        ]
+      },
+      "english": [
+        "He is very grumpy this morning.",
+        "Don't be so grumpy!"
+      ],
+      "notes": "形容词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4556,
+      "word": "champignon",
+      "translation": {
+        "chinese": "蘑菇",
+        "english": "mushroom"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "champignon",
+          "plural": "champignons"
+        }
+      },
+      "examples": [
+        "Ik houd van champignons.",
+        "De champignons groeien in het bos."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喜欢蘑菇。",
+          "蘑菇生长在森林里。"
+        ],
+        "english": [
+          "I like mushrooms.",
+          "The mushrooms grow in the forest."
+        ]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4557,
+      "word": "chemicalie",
+      "translation": {
+        "chinese": "化学品",
+        "english": "chemical"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "chemicalie",
+          "plural": "chemicaliën"
+        }
+      },
+      "examples": [
+        "Gevaarlijke chemicaliën moeten veilig worden opgeslagen.",
+        "De fabriek gebruikt veel chemicaliën."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "危险化学品必须安全存放。",
+          "这家工厂使用很多化学品。"
+        ],
+        "english": [
+          "Dangerous chemicals must be stored safely.",
+          "The factory uses many chemicals."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4558,
+      "word": "clichébeeld",
+      "translation": {
+        "chinese": "刻板印象, 陈词滥调的形象",
+        "english": "stereotypical image, cliché"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "clichébeeld",
+          "plural": "clichébeelden"
+        }
+      },
+      "examples": [
+        "Hij probeert het clichébeeld te doorbreken.",
+        "Dit is een typisch clichébeeld van ouderen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他试图打破这种刻板印象。",
+          "这是对老年人的典型刻板印象。"
+        ],
+        "english": [
+          "He is trying to break the stereotypical image.",
+          "This is a typical cliché image of the elderly."
+        ]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4559,
+      "word": "combineren",
+      "translation": {
+        "chinese": "结合, 组合",
+        "english": "to combine, to mix"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "combineren",
+          "present": "combineert",
+          "past": "combineerde",
+          "participle": "gecombineerd"
+        }
+      },
+      "examples": [
+        "Je kunt dit met dat combineren.",
+        "We moeten verschillende ideeën combineren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你可以把这个和那个结合起来。",
+          "我们需要把不同的想法结合起来。"
+        ],
+        "english": [
+          "You can combine this with that.",
+          "We need to combine different ideas."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4560,
+      "word": "comfortabel",
+      "translation": {
+        "chinese": "舒适的",
+        "english": "comfortable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "comfortabel",
+          "comparative": "comfortabeler",
+          "superlative": "comfortabelst"
+        }
+      },
+      "examples": [
+        "De stoel is erg comfortabel.",
+        "Ik voel me comfortabel in dit huis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这把椅子非常舒适。",
+          "我在这个房子里感到很舒服。"
+        ],
+        "english": [
+          "The chair is very comfortable.",
+          "I feel comfortable in this house."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4561,
+      "word": "commandant",
+      "translation": {
+        "chinese": "指挥官",
+        "english": "commander"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "commandant",
+          "plural": "commandanten"
+        }
+      },
+      "examples": [
+        "De commandant gaf het bevel.",
+        "Hij is commandant van het regiment."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "指挥官下达了命令。",
+          "他是这个团的指挥官。"
+        ],
+        "english": [
+          "The commander gave the order.",
+          "He is the commander of the regiment."
+        ]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4562,
+      "word": "commanderen",
+      "translation": {
+        "chinese": "指挥, 命令",
+        "english": "to command, to order"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "commanderen",
+          "present": "commandeert",
+          "past": "commandeerde",
+          "participle": "gecommandeerd"
+        }
+      },
+      "examples": [
+        "De generaal commandeert het leger.",
+        "Hij commandeert een groot schip."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "将军指挥军队。",
+          "他指挥一艘大船。"
+        ],
+        "english": [
+          "The general commands the army.",
+          "He commands a large ship."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4563,
+      "word": "commentaar",
+      "translation": {
+        "chinese": "评论, 意见",
+        "english": "comment, remark"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "commentaar",
+          "plural": "commentaren"
+        }
+      },
+      "examples": [
+        "Mag ik een commentaar geven?",
+        "Zijn commentaar was erg kritisch."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我可以发表一下评论吗?",
+          "他的评论非常批判性。"
+        ],
+        "english": [
+          "May I give a comment?",
+          "His comment was very critical."
+        ]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4564,
+      "word": "commercieel",
+      "translation": {
+        "chinese": "商业的, 商业的",
+        "english": "commercial"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "commercieel",
+          "comparative": "commercieeler",
+          "superlative": "commercieelst"
+        }
+      },
+      "examples": [
+        "Het is een commercieel succes.",
+        "Dit is puur commercieel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个商业上的成功。",
+          "这纯粹是商业性的。"
+        ],
+        "english": [
+          "It is a commercial success.",
+          "This is purely commercial."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4565,
+      "word": "commissaris",
+      "translation": {
+        "chinese": "委员, 专员, 董事",
+        "english": "commissioner, director"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "commissaris",
+          "plural": "commissarissen"
+        }
+      },
+      "examples": [
+        "De commissaris heeft besloten.",
+        "Zij is commissaris van de politie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "委员已经做出了决定。",
+          "她是警务专员。"
+        ],
+        "english": [
+          "The commissioner has decided.",
+          "She is the police commissioner."
+        ]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4566,
+      "word": "compensatie",
+      "translation": {
+        "chinese": "补偿, 赔偿",
+        "english": "compensation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "compensatie",
+          "plural": "compensaties"
+        }
+      },
+      "examples": [
+        "Ze eist compensatie voor de schade.",
+        "De compensatie was ruimhartig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她要求对损害进行赔偿。",
+          "赔偿很慷慨。"
+        ],
+        "english": [
+          "She demands compensation for the damage.",
+          "The compensation was generous."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4567,
+      "word": "compliment",
+      "translation": {
+        "chinese": "赞美, 恭维",
+        "english": "compliment"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "compliment",
+          "plural": "complimenten"
+        }
+      },
+      "examples": [
+        "Dank je voor het compliment.",
+        "Ze gaf hem een compliment."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "谢谢你的赞美。",
+          "她赞美了他。"
+        ],
+        "english": [
+          "Thank you for the compliment.",
+          "She gave him a compliment."
+        ]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4568,
+      "word": "concluderen",
+      "translation": {
+        "chinese": "得出结论, 总结",
+        "english": "to conclude, to deduce"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "concluderen",
+          "present": "concludeert",
+          "past": "concludeerde",
+          "participle": "geconcludeerd"
+        }
+      },
+      "examples": [
+        "Uit dit onderzoek kunnen we concluderen dat...",
+        "We concluderen dat het project geslaagd is."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "从这项研究中我们可以得出结论...",
+          "我们总结出项目已经成功。"
+        ],
+        "english": [
+          "From this research we can conclude that...",
+          "We conclude that the project has succeeded."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4569,
+      "word": "connotatie",
+      "translation": {
+        "chinese": "内涵, 言外之意",
+        "english": "connotation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "connotatie",
+          "plural": "connotaties"
+        }
+      },
+      "examples": [
+        "Dit woord heeft een negatieve connotatie.",
+        "De connotatie van het beeld is duidelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个词有负面含义。",
+          "这个画面的内涵很清楚。"
+        ],
+        "english": [
+          "This word has a negative connotation.",
+          "The connotation of the image is clear."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4570,
+      "word": "constateren",
+      "translation": {
+        "chinese": "观察到, 查明, 确认",
+        "english": "to observe, to ascertain, to establish"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "constateren",
+          "present": "constateert",
+          "past": "constateerde",
+          "participle": "geconstateerd"
+        }
+      },
+      "examples": [
+        "We kunnen constateren dat het werkt.",
+        "De arts constateerde geen ernstige problemen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们可以观察到它有效。",
+          "医生没有发现严重的问题。"
+        ],
+        "english": [
+          "We can observe that it works.",
+          "The doctor observed no serious problems."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4571,
+      "word": "contrastief",
+      "translation": {
+        "chinese": "对比性的, 对照的",
+        "english": "contrastive"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "contrastief",
+          "comparative": "contrastiever",
+          "superlative": "contrastiefst"
+        }
+      },
+      "examples": [
+        "Dit is een contrastief onderzoek.",
+        "De analyse is contrastief van aard."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一项对比性研究。",
+          "这个分析具有对比性质。"
+        ],
+        "english": [
+          "This is a contrastive study.",
+          "The analysis is contrastive in nature."
+        ]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4572,
+      "word": "conversatie",
+      "translation": {
+        "chinese": "谈话, 对话",
+        "english": "conversation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "conversatie",
+          "plural": "conversaties"
+        }
+      },
+      "examples": [
+        "Ze hadden een interessante conversatie.",
+        "De conversatie verliep goed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他们进行了一次有趣的谈话。",
+          "对话进行得很顺利。"
+        ],
+        "english": [
+          "They had an interesting conversation.",
+          "The conversation went well."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4573,
+      "word": "corrigeren",
+      "translation": {
+        "chinese": "纠正, 改正",
+        "english": "to correct, to amend"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "corrigeren",
+          "present": "corrigeert",
+          "past": "corrigeerde",
+          "participle": "gecorrigeerd"
+        }
+      },
+      "examples": [
+        "De leraar corrigeert de toetsen.",
+        "Moet ik dit corrigeren?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "老师正在批改试卷。",
+          "我需要纠正这个吗?"
+        ],
+        "english": [
+          "The teacher is correcting the tests.",
+          "Should I correct this?"
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4574,
+      "word": "corrumperen",
+      "translation": {
+        "chinese": "腐蚀, 败坏",
+        "english": "to corrupt, to deprave"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "corrumperen",
+          "present": "corrumpeert",
+          "past": "corrumpeerde",
+          "participle": "gecorrumpeerd"
+        }
+      },
+      "examples": [
+        "Macht kan mensen corrumperen.",
+        "Het virus heeft het bestand gecorrumpeerd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "权力会使人腐败。",
+          "病毒损坏了文件。"
+        ],
+        "english": [
+          "Power can corrupt people.",
+          "The virus corrupted the file."
+        ]
+      },
+      "notes": "动词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4575,
+      "word": "criticaster",
+      "translation": {
+        "chinese": "批评家, 吹毛求疵者",
+        "english": "fault-finder, carping critic"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "criticaster",
+          "plural": "criticasters"
+        }
+      },
+      "examples": [
+        "Hij is een beroemde criticaster.",
+        "De criticaster vond alles fout."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是一位著名的批评家。",
+          "这个挑剔的批评家觉得一切都不对。"
+        ],
+        "english": [
+          "He is a famous critic.",
+          "The fault-finder found fault with everything."
+        ]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
+    }
+  ]
+}

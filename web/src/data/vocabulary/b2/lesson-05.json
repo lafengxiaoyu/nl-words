@@ -1,0 +1,316 @@
+{
+  "lessonNumber": 5,
+  "totalWords": 10,
+  "words": [
+    {
+      "id": 4542,
+      "word": "boosdoener",
+      "translation": {
+        "chinese": "罪魁祸首, 作恶者",
+        "english": "culprit, perpetrator"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "boosdoener",
+          "plural": "boosdoeners"
+        }
+      },
+      "examples": [
+        "De boosdoener is gepakt.",
+        "Wie is de boosdoener van dit probleem?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "罪魁祸首已被抓获。",
+          "这个问题的罪魁祸首是谁?"
+        ],
+        "english": [
+          "The culprit has been caught.",
+          "Who is the culprit of this problem?"
+        ]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4543,
+      "word": "borduurwerk",
+      "translation": {
+        "chinese": "刺绣, 刺绣品",
+        "english": "embroidery"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "borduurwerk",
+          "plural": "borduurwerken"
+        }
+      },
+      "examples": [
+        "Dit is prachtig borduurwerk.",
+        "Ze maakt borduurwerk voor een hobby."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是精美的刺绣。",
+          "她把刺绣作为爱好。"
+        ],
+        "english": [
+          "This is beautiful embroidery.",
+          "She does embroidery as a hobby."
+        ]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4544,
+      "word": "bouwvakker",
+      "translation": {
+        "chinese": "建筑工人",
+        "english": "construction worker"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bouwvakker",
+          "plural": "bouwvakkers"
+        }
+      },
+      "examples": [
+        "De bouwvakkers werken hard.",
+        "Hij is bouwvakker van beroep."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "建筑工人们工作很努力。",
+          "他的职业是建筑工人。"
+        ],
+        "english": [
+          "The construction workers work hard.",
+          "He is a construction worker by profession."
+        ]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4545,
+      "word": "brandnetel",
+      "translation": {
+        "chinese": "荨麻",
+        "english": "stinging nettle"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "brandnetel",
+          "plural": "brandnetels"
+        }
+      },
+      "examples": [
+        "Pas op voor de brandnetels.",
+        "Brandnetels kunnen jeuk veroorzaken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "小心荨麻。",
+          "荨麻会引起瘙痒。"
+        ],
+        "english": [
+          "Watch out for the stinging nettles.",
+          "Stinging nettles can cause itching."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4546,
+      "word": "brandslang",
+      "translation": {
+        "chinese": "消防水龙带",
+        "english": "fire hose"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "brandslang",
+          "plural": "brandslangen"
+        }
+      },
+      "examples": [
+        "De brandweer rolde de brandslang uit.",
+        "Ze gebruikten de brandslang om het vuur te blussen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "消防员展开消防水龙带。",
+          "他们用消防水龙带灭火。"
+        ],
+        "english": [
+          "The firemen unrolled the fire hose.",
+          "They used the fire hose to extinguish fire."
+        ]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4547,
+      "word": "brievenbus",
+      "translation": {
+        "chinese": "信箱, 邮箱",
+        "english": "mailbox"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "brievenbus",
+          "plural": "brievenbussen"
+        }
+      },
+      "examples": [
+        "Ik heb brieven in de brievenbus gedaan.",
+        "De postbezorger levert de post in de brievenbus."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我把信放进信箱了。",
+          "邮递员把邮件投到信箱里。"
+        ],
+        "english": [
+          "I put letters in the mailbox.",
+          "The postman delivers mail to the mailbox."
+        ]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4548,
+      "word": "broeikasgas",
+      "translation": {
+        "chinese": "温室气体",
+        "english": "greenhouse gas"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "broeikasgas",
+          "plural": "broeikasgassen"
+        }
+      },
+      "examples": [
+        "CO₂ is een broeikasgas.",
+        "We moeten de uitstoot van broeikasgassen verminderen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "二氧化碳是一种温室气体。",
+          "我们必须减少温室气体的排放。"
+        ],
+        "english": [
+          "CO₂ is a greenhouse gas.",
+          "We must reduce greenhouse gas emissions."
+        ]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4549,
+      "word": "brommobiel",
+      "translation": {
+        "chinese": "轻便摩托车",
+        "english": "moped"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "brommobiel",
+          "plural": "brommobielen"
+        }
+      },
+      "examples": [
+        "Hij rijdt op een brommobiel.",
+        "Je hebt een rijbewijs nodig voor een brommobiel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他骑轻便摩托车。",
+          "驾驶轻便摩托车需要驾照。"
+        ],
+        "english": [
+          "He drives a moped.",
+          "You need a driver's license for a moped."
+        ]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4550,
+      "word": "bruidsschat",
+      "translation": {
+        "chinese": "嫁妆",
+        "english": "dowry"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "bruidsschat",
+          "plural": "bruidsschatten"
+        }
+      },
+      "examples": [
+        "De bruidsschat was zeer waardevol.",
+        "In sommige culturen wordt nog steeds een bruidsschat gegeven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "嫁妆非常珍贵。",
+          "在一些文化中仍然给予嫁妆。"
+        ],
+        "english": [
+          "The dowry was very valuable.",
+          "In some cultures a dowry is still given."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
+    },
+    {
+      "id": 4551,
+      "word": "buitenwijk",
+      "translation": {
+        "chinese": "郊区, 外城区",
+        "english": "suburb, outskirt"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "buitenwijk",
+          "plural": "buitenwijken"
+        }
+      },
+      "examples": [
+        "Ze wonen in een buitenwijk van de stad.",
+        "De buitenwijken zijn rustiger dan het centrum."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他们住在城市的郊区。",
+          "郊区比市中心更安静。"
+        ],
+        "english": [
+          "They live in a suburb of the city.",
+          "The suburbs are quieter than the center."
+        ]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
+    }
+  ]
+}

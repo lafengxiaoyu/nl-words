@@ -1,0 +1,623 @@
+{
+  "words": [
+    {
+      "id": 5028,
+      "word": "om en nabij",
+      "pos": "adverbial phrase",
+      "meaning": "大约,大约在",
+      "word_forms": {},
+      "example": "Het is om en nabij twintig jaar geleden.",
+      "example_translation": "大约是二十年前的事了。"
+    },
+    {
+      "id": 5029,
+      "word": "omschrijven",
+      "pos": "verb",
+      "meaning": "描述,重新描述",
+      "word_forms": {
+        "infinitive": "omschrijven",
+        "present": "schrijft om",
+        "past": "schreef om",
+        "participle": "omgeschreven"
+      },
+      "example": "Kun je de situatie omschrijven?",
+      "example_translation": "你能描述一下这个情况吗?"
+    },
+    {
+      "id": 5030,
+      "word": "omsingelen",
+      "pos": "verb",
+      "meaning": "包围",
+      "word_forms": {
+        "infinitive": "omsingelen",
+        "present": "omringt",
+        "past": "omringde",
+        "participle": "omringd"
+      },
+      "example": "Het leger omsingelde de stad.",
+      "example_translation": "军队包围了这座城市。"
+    },
+    {
+      "id": 5031,
+      "word": "omstebeurt",
+      "pos": "adverb",
+      "meaning": "轮流",
+      "word_forms": {},
+      "example": "We doen het omstebeurt.",
+      "example_translation": "我们轮流做。"
+    },
+    {
+      "id": 5032,
+      "word": "omvangrijk",
+      "pos": "adjective",
+      "meaning": "巨大的,规模大的",
+      "word_forms": {
+        "positive": "omvangrijk",
+        "comparative": "omvangrijker"
+      },
+      "example": "Het is een omvangrijk project.",
+      "example_translation": "这是一个规模宏大的项目。"
+    },
+    {
+      "id": 5033,
+      "word": "omverblazen",
+      "pos": "verb",
+      "meaning": "吹倒,推翻",
+      "word_forms": {
+        "infinitive": "omverblazen",
+        "present": "blaast omver",
+        "past": "blies omver",
+        "participle": "omvergeblazen"
+      },
+      "example": "De storm blies de bomen omver.",
+      "example_translation": "暴风雨把树木吹倒了。"
+    },
+    {
+      "id": 5034,
+      "word": "omwille van",
+      "pos": "prepositional phrase",
+      "meaning": "为了,由于",
+      "word_forms": {},
+      "example": "We doen het omwille van het milieu.",
+      "example_translation": "为了环境我们这样做。"
+    },
+    {
+      "id": 5035,
+      "word": "omwonenden",
+      "pos": "noun",
+      "meaning": "邻居,周边居民",
+      "word_forms": {
+        "singular": "omwonende",
+        "plural": "omwonenden"
+      },
+      "example": "De omwonenden klaagden over de herrie.",
+      "example_translation": "邻居们抱怨噪音。"
+    },
+    {
+      "id": 5036,
+      "word": "onbenullig",
+      "pos": "adjective",
+      "meaning": "微不足道的,愚蠢的",
+      "word_forms": {
+        "positive": "onbenullig",
+        "comparative": "onbenulliger"
+      },
+      "example": "Het was een onbenullige fout.",
+      "example_translation": "这是一个微不足道的错误。"
+    },
+    {
+      "id": 5037,
+      "word": "onbeschoft",
+      "pos": "adjective",
+      "meaning": "粗鲁的,无礼的",
+      "word_forms": {
+        "positive": "onbeschoft",
+        "comparative": "onbeschofter"
+      },
+      "example": "Zijn gedrag was erg onbeschoft.",
+      "example_translation": "他的行为非常粗鲁。"
+    },
+    {
+      "id": 5038,
+      "word": "onbruikbaar",
+      "pos": "adjective",
+      "meaning": "不可用的",
+      "word_forms": {
+        "positive": "onbruikbaar",
+        "comparative": "onbruikbaarder"
+      },
+      "example": "De machine is onbruikbaar geworden.",
+      "example_translation": "这台机器已经无法使用了。"
+    },
+    {
+      "id": 5039,
+      "word": "ondenkbaar",
+      "pos": "adjective",
+      "meaning": "难以想象的,不可思议的",
+      "word_forms": {
+        "positive": "ondenkbaar",
+        "comparative": "ondenkbaarder"
+      },
+      "example": "Het is ondenkbaar dat dit gebeurt.",
+      "example_translation": "这是难以想象的。"
+    },
+    {
+      "id": 5040,
+      "word": "onderbewust",
+      "pos": "adjective",
+      "meaning": "下意识的,潜意识的",
+      "word_forms": {
+        "positive": "onderbewust",
+        "comparative": "onderbewuster"
+      },
+      "example": "Zij deed het onderbewust.",
+      "example_translation": "她下意识地这样做。"
+    },
+    {
+      "id": 5041,
+      "word": "onderbezet",
+      "pos": "adjective",
+      "meaning": "人员不足的",
+      "word_forms": {
+        "positive": "onderbezet",
+        "comparative": "onderbezeter"
+      },
+      "example": "Het ziekenhuis is onderbezet.",
+      "example_translation": "医院人员不足。"
+    },
+    {
+      "id": 5042,
+      "word": "onderbouwen",
+      "pos": "verb",
+      "meaning": "支撑,支持,论证",
+      "word_forms": {
+        "infinitive": "onderbouwen",
+        "present": "bouwt onder",
+        "past": "bouwde onder",
+        "participle": "onderbouwd"
+      },
+      "example": "Hij onderbouwt zijn mening met feiten.",
+      "example_translation": "他用事实支持自己的观点。"
+    },
+    {
+      "id": 5043,
+      "word": "onderbreken",
+      "pos": "verb",
+      "meaning": "打断,中断",
+      "word_forms": {
+        "infinitive": "onderbreken",
+        "present": "breekt onder",
+        "past": "brak onder",
+        "participle": "onderbroken"
+      },
+      "example": "Mag ik u even onderbreken?",
+      "example_translation": "我可以打扰您一下吗?"
+    },
+    {
+      "id": 5044,
+      "word": "onderbroek",
+      "pos": "noun",
+      "meaning": "内裤",
+      "word_forms": {
+        "singular": "onderbroek",
+        "plural": "onderbroeken"
+      },
+      "example": "Hij droeg een schone onderbroek.",
+      "example_translation": "他穿着干净的内裤。"
+    },
+    {
+      "id": 5045,
+      "word": "onderdrukken",
+      "pos": "verb",
+      "meaning": "压制,抑制",
+      "word_forms": {
+        "infinitive": "onderdrukken",
+        "present": "drukt onder",
+        "past": "drukte onder",
+        "participle": "onderdrukt"
+      },
+      "example": "De regering onderdrukte de protesten.",
+      "example_translation": "政府镇压了抗议活动。"
+    },
+    {
+      "id": 5046,
+      "word": "onderduiken",
+      "pos": "verb",
+      "meaning": "躲避,藏匿",
+      "word_forms": {
+        "infinitive": "onderduiken",
+        "present": "duikt onder",
+        "past": "dook onder",
+        "participle": "ondergedoken"
+      },
+      "example": "Hij moest onderduiken tijdens de oorlog.",
+      "example_translation": "战争期间他不得不躲避起来。"
+    },
+    {
+      "id": 5047,
+      "word": "ondergroei",
+      "pos": "noun",
+      "meaning": "下层植被,灌木层",
+      "word_forms": {
+        "singular": "ondergroei",
+        "plural": "ondergroei"
+      },
+      "example": "De ondergroei van het bos was dik.",
+      "example_translation": "森林的下层植被很茂密。"
+    },
+    {
+      "id": 5048,
+      "word": "onderhands",
+      "pos": "adverb",
+      "meaning": "私下地,非正式地",
+      "word_forms": {},
+      "example": "Ze hebben het onderhands geregeld.",
+      "example_translation": "他们私下解决了这件事。"
+    },
+    {
+      "id": 5049,
+      "word": "onderhavig",
+      "pos": "adjective",
+      "meaning": "相关的,涉及的",
+      "word_forms": {
+        "positive": "onderhavig",
+        "comparative": "onderhaviger"
+      },
+      "example": "De onderhavige zaak is complex.",
+      "example_translation": "相关案件很复杂。"
+    },
+    {
+      "id": 5050,
+      "word": "onderhouden",
+      "pos": "verb",
+      "meaning": "维持,保养",
+      "word_forms": {
+        "infinitive": "onderhouden",
+        "present": "houdt onder",
+        "past": "hield onder",
+        "participle": "onderhouden"
+      },
+      "example": "We onderhouden de auto goed.",
+      "example_translation": "我们很好地保养这辆车。"
+    },
+    {
+      "id": 5051,
+      "word": "onderkennen",
+      "pos": "verb",
+      "meaning": "忽视,忽略",
+      "word_forms": {
+        "infinitive": "onderkennen",
+        "present": "kent onder",
+        "past": "kende onder",
+        "participle": "onderkend"
+      },
+      "example": "Je mag het belang niet onderkennen.",
+      "example_translation": "你不能忽视其重要性。"
+    },
+    {
+      "id": 5052,
+      "word": "onderkomen",
+      "pos": "verb",
+      "meaning": "得到住所,安置",
+      "word_forms": {
+        "infinitive": "onderkomen",
+        "present": "komt onder",
+        "past": "kwam onder",
+        "participle": "ondergekomen"
+      },
+      "example": "De vluchtelingen konden onderkomen in een hotel.",
+      "example_translation": "难民们可以在酒店里得到安置。"
+    },
+    {
+      "id": 5053,
+      "word": "onderlopen",
+      "pos": "verb",
+      "meaning": "遭遇,承受",
+      "word_forms": {
+        "infinitive": "onderlopen",
+        "present": "loopt onder",
+        "past": "liep onder",
+        "participle": "ondergelopen"
+      },
+      "example": "Hij liep onder een straf.",
+      "example_translation": "他受到了处罚。"
+    },
+    {
+      "id": 5054,
+      "word": "ondermaats",
+      "pos": "adjective",
+      "meaning": "低于标准的,劣质的",
+      "word_forms": {
+        "positive": "ondermaats",
+        "comparative": "ondermatser"
+      },
+      "example": "Het werk is ondermaats uitgevoerd.",
+      "example_translation": "工作完成得低于标准。"
+    },
+    {
+      "id": 5055,
+      "word": "ondermijnen",
+      "pos": "verb",
+      "meaning": "削弱,破坏",
+      "word_forms": {
+        "infinitive": "ondermijnen",
+        "present": "mijnt onder",
+        "past": "mijnde onder",
+        "participle": "ondermijnd"
+      },
+      "example": "Het ontslag verzwakte het teamvertrouwen.",
+      "example_translation": "解雇削弱了团队信任。"
+    },
+    {
+      "id": 5056,
+      "word": "ondernemend",
+      "pos": "adjective",
+      "meaning": "有创业精神的,积极的",
+      "word_forms": {
+        "positive": "ondernemend",
+        "comparative": "ondernemender"
+      },
+      "example": "Zij is een ondernemende vrouw.",
+      "example_translation": "她是一位有创业精神的女企业家。"
+    },
+    {
+      "id": 5057,
+      "word": "ondernemer",
+      "pos": "noun",
+      "meaning": "企业家",
+      "word_forms": {
+        "singular": "ondernemer",
+        "plural": "ondernemers"
+      },
+      "example": "Hij is een succesvolle ondernemer.",
+      "example_translation": "他是一位成功的企业家。"
+    },
+    {
+      "id": 5058,
+      "word": "onderscheid",
+      "pos": "noun",
+      "meaning": "区别,区别",
+      "word_forms": {
+        "singular": "onderscheid",
+        "plural": "onderscheiden"
+      },
+      "example": "Er is een duidelijk onderscheid tussen beide.",
+      "example_translation": "两者之间有明显的区别。"
+    },
+    {
+      "id": 5059,
+      "word": "onderstaand",
+      "pos": "adjective",
+      "meaning": "以下的,下述的",
+      "word_forms": {
+        "positive": "onderstaand",
+        "comparative": "onderstaander"
+      },
+      "example": "Zie de onderstaande lijst.",
+      "example_translation": "请见以下列表。"
+    },
+    {
+      "id": 5060,
+      "word": "ondertussen",
+      "pos": "adverb",
+      "meaning": "在此期间,同时",
+      "word_forms": {},
+      "example": "Ondertussen kunnen we nog koffie drinken.",
+      "example_translation": "在此期间我们还可以喝咖啡。"
+    },
+    {
+      "id": 5061,
+      "word": "ondervangen",
+      "pos": "verb",
+      "meaning": "接住,接收",
+      "word_forms": {
+        "infinitive": "ondervangen",
+        "present": "vangt onder",
+        "past": "ving onder",
+        "participle": "ondervangen"
+      },
+      "example": "Het project ondervangt de behoeften van ouderen.",
+      "example_translation": "这个项目满足了老年人的需求。"
+    },
+    {
+      "id": 5062,
+      "word": "ondervinden",
+      "pos": "verb",
+      "meaning": "经历,体验到",
+      "word_forms": {
+        "infinitive": "ondervinden",
+        "present": "vindt onder",
+        "past": "vond onder",
+        "participle": "ondervonden"
+      },
+      "example": "Zij ondervindt veel steun van vrienden.",
+      "example_translation": "她从朋友那里得到很多支持。"
+    },
+    {
+      "id": 5063,
+      "word": "ondervragen",
+      "pos": "verb",
+      "meaning": "审问,质询",
+      "word_forms": {
+        "infinitive": "ondervragen",
+        "present": "vraagt onder",
+        "past": "vroeg onder",
+        "participle": "ondervraagd"
+      },
+      "example": "De politie ondervroeg de getuige.",
+      "example_translation": "警方审问了证人。"
+    },
+    {
+      "id": 5064,
+      "word": "onderwereld",
+      "pos": "noun",
+      "meaning": "地下世界,黑社会",
+      "word_forms": {
+        "singular": "onderwereld",
+        "plural": "onderwerelden"
+      },
+      "example": "Hij werd in de onderwereld gedreven.",
+      "example_translation": "他被迫进入了黑社会。"
+    },
+    {
+      "id": 5065,
+      "word": "onderwijzen",
+      "pos": "verb",
+      "meaning": "教导,教育",
+      "word_forms": {
+        "infinitive": "onderwijzen",
+        "present": "wijst onder",
+        "past": "wees onder",
+        "participle": "onderwezen"
+      },
+      "example": "De leraar onderwees de studenten.",
+      "example_translation": "老师教导学生。"
+    },
+    {
+      "id": 5066,
+      "word": "ondraaglijk",
+      "pos": "adjective",
+      "meaning": "难以忍受的",
+      "word_forms": {
+        "positive": "ondraaglijk",
+        "comparative": "ondraaglijker"
+      },
+      "example": "De pijn is ondraaglijk.",
+      "example_translation": "疼痛难以忍受。"
+    },
+    {
+      "id": 5067,
+      "word": "oneigenlijk",
+      "pos": "adjective",
+      "meaning": "不恰当的,不合时宜的",
+      "word_forms": {
+        "positive": "oneigenlijk",
+        "comparative": "oneigenlijker"
+      },
+      "example": "Dit is een oneigenlijke reden.",
+      "example_translation": "这是一个不恰当的理由。"
+    },
+    {
+      "id": 5068,
+      "word": "onevenredig",
+      "pos": "adjective",
+      "meaning": "不成比例的",
+      "word_forms": {
+        "positive": "onevenredig",
+        "comparative": "onevenrediger"
+      },
+      "example": "De straffen waren onevenredig hard.",
+      "example_translation": "惩罚过于严厉,不成比例。"
+    },
+    {
+      "id": 5069,
+      "word": "ongedierte",
+      "pos": "noun",
+      "meaning": "害虫",
+      "word_forms": {
+        "singular": "ongedierte",
+        "plural": "ongediertes"
+      },
+      "example": "De tuin had last van ongedierte.",
+      "example_translation": "花园遭受害虫侵扰。"
+    },
+    {
+      "id": 5070,
+      "word": "ongelukkig",
+      "pos": "adjective",
+      "meaning": "不幸的,悲伤的",
+      "word_forms": {
+        "positive": "ongelukkig",
+        "comparative": "ongelukkiger"
+      },
+      "example": "Ze voelde zich erg ongelukkig.",
+      "example_translation": "她感到非常悲伤。"
+    },
+    {
+      "id": 5071,
+      "word": "ongestoord",
+      "pos": "adjective",
+      "meaning": "不受打扰的",
+      "word_forms": {
+        "positive": "ongestoord",
+        "comparative": "ongestorder"
+      },
+      "example": "Ik wil ongestoord kunnen werken.",
+      "example_translation": "我希望能够不受打扰地工作。"
+    },
+    {
+      "id": 5072,
+      "word": "ongevraagd",
+      "pos": "adjective",
+      "meaning": "未经请求的,自发的",
+      "word_forms": {
+        "positive": "ongevraagd",
+        "comparative": "ongevraagder"
+      },
+      "example": "Zij gaf ongevraagd haar mening.",
+      "example_translation": "她主动给出了自己的看法。"
+    },
+    {
+      "id": 5073,
+      "word": "onmeetbaar",
+      "pos": "adjective",
+      "meaning": "无法测量的",
+      "word_forms": {
+        "positive": "onmeetbaar",
+        "comparative": "onmeetbaarder"
+      },
+      "example": "Het succes is onmeetbaar.",
+      "example_translation": "成功无法衡量。"
+    },
+    {
+      "id": 5074,
+      "word": "onmenselijk",
+      "pos": "adjective",
+      "meaning": "残忍的,非人的",
+      "word_forms": {
+        "positive": "onmenselijk",
+        "comparative": "onmenselijker"
+      },
+      "example": "De behandeling was onmenselijk.",
+      "example_translation": "这种对待是残忍的。"
+    },
+    {
+      "id": 5075,
+      "word": "onschuldig",
+      "pos": "adjective",
+      "meaning": "无辜的",
+      "word_forms": {
+        "positive": "onschuldig",
+        "comparative": "onschuldiger"
+      },
+      "example": "Hij bleek onschuldig te zijn.",
+      "example_translation": "原来他是无辜的。"
+    },
+    {
+      "id": 5076,
+      "word": "ontcijferen",
+      "pos": "verb",
+      "meaning": "破译,解读",
+      "word_forms": {
+        "infinitive": "ontcijferen",
+        "present": "cijfert ont",
+        "past": "cijferde ont",
+        "participle": "ontcijferd"
+      },
+      "example": "De code was moeilijk te ontcijferen.",
+      "example_translation": "密码很难破译。"
+    },
+    {
+      "id": 5077,
+      "word": "ontevreden",
+      "pos": "adjective",
+      "meaning": "不满意的",
+      "word_forms": {
+        "positive": "ontevreden",
+        "comparative": "ontevredener"
+      },
+      "example": "De klant was ontevreden over het product.",
+      "example_translation": "顾客对产品不满意。"
+    }
+  ]
+}

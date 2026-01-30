@@ -1,70 +1,60 @@
 {
-  "totalWords": 3378,
-  "byDifficulty": {
-    "A1": 758,
-    "A2": 665,
-    "B1": 1956
-  },
-  "byPartOfSpeech": {
-    "interjection": 15,
-    "phrase": 12,
-    "noun": 1777,
-    "verb": 728,
-    "adjective": 605,
-    "preposition": 39,
-    "adverb": 148,
-    "pronoun": 31,
-    "conjunction": 19,
-    "determiner": 4,
-    "numeral": 19
-  },
-  "byLevelAndPos": {
-    "A1-interjection": 12,
-    "A1-phrase": 4,
-    "A1-noun": 362,
-    "A2-verb": 171,
-    "A2-adjective": 107,
-    "A1-verb": 142,
-    "A1-adjective": 93,
-    "B1-noun": 1055,
-    "B1-verb": 415,
-    "A1-preposition": 23,
-    "A1-adverb": 63,
-    "A1-pronoun": 28,
-    "A1-conjunction": 10,
-    "A1-determiner": 4,
-    "A1-numeral": 17,
-    "A2-noun": 360,
-    "A2-adverb": 34,
-    "A2-preposition": 5,
-    "A2-conjunction": 2,
-    "A2-interjection": 1,
-    "A2-pronoun": 2,
-    "A2-numeral": 1,
-    "B1-adjective": 405,
-    "B1-interjection": 2,
-    "B1-adverb": 51,
-    "B1-preposition": 11,
-    "B1-numeral": 1,
-    "B1-conjunction": 7,
-    "B1-phrase": 8,
-    "B1-pronoun": 1
-  },
-  "levels": [
-    {
+  "totalWords": 4291,
+  "totalLessons": 102,
+  "levels": {
+    "A1": {
       "level": "A1",
       "totalWords": 758,
-      "totalLessons": 16
+      "totalLessons": 15,
+      "wordsPerLesson": "50.5"
     },
-    {
+    "A2": {
       "level": "A2",
-      "totalWords": 665,
-      "totalLessons": 14
+      "totalWords": 666,
+      "totalLessons": 14,
+      "wordsPerLesson": "47.6"
     },
-    {
+    "B1": {
       "level": "B1",
-      "totalWords": 1955,
-      "totalLessons": 50
+      "totalWords": 1638,
+      "totalLessons": 42,
+      "wordsPerLesson": "39.0"
+    },
+    "B2": {
+      "level": "B2",
+      "totalWords": 1229,
+      "totalLessons": 31,
+      "wordsPerLesson": "39.6"
     }
-  ]
+  },
+  "partOfSpeech": {
+    "interjection": 14,
+    "phrase": 13,
+    "noun": 2085,
+    "verb": 1040,
+    "adjective": 792,
+    "preposition": 38,
+    "adverb": 175,
+    "pronoun": 31,
+    "conjunction": 17,
+    "determiner": 4,
+    "numeral": 19,
+    "adjective,noun": 5,
+    "verb,noun": 1,
+    "adjective,adverb": 3,
+    "noun,verb": 4,
+    "verb,adjective": 1,
+    "noun,adjective": 5,
+    "noun phrase": 3,
+    "adverb phrase": 2,
+    "adjective phrase": 1,
+    "phrasal verb": 19,
+    "adverbial phrase": 18,
+    "prepositional phrase": 1
+  },
+  "wordLength": {
+    "min": 1,
+    "max": 20,
+    "average": "8.17"
+  }
 }

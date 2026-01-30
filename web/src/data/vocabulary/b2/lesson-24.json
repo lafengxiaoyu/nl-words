@@ -1,0 +1,530 @@
+{
+  "words": [
+    {
+      "id": 5372,
+      "word": "talenkennis",
+      "pos": "noun",
+      "meaning": "语言知识,语言能力",
+      "word_forms": {
+        "singular": "talenkennis",
+        "plural": "talenkennis"
+      },
+      "example": "Zijn talenkennis is uitstekend.",
+      "example_translation": "他的语言能力很优秀。"
+    },
+    {
+      "id": 5373,
+      "word": "tankstation",
+      "pos": "noun",
+      "meaning": "加油站",
+      "word_forms": {
+        "singular": "tankstation",
+        "plural": "tankstations"
+      },
+      "example": "Ik moet naar het tankstation.",
+      "example_translation": "我得去加油站。"
+    },
+    {
+      "id": 5374,
+      "word": "tegendraads",
+      "pos": "adjective",
+      "meaning": "叛逆的,不随大流的",
+      "word_forms": {
+        "positive": "tegendraads",
+        "comparative": "tegendraadser"
+      },
+      "example": "Ze is een tegendraadse persoon.",
+      "example_translation": "她是一个叛逆的人。"
+    },
+    {
+      "id": 5375,
+      "word": "tegengeluid",
+      "pos": "noun",
+      "meaning": "反对声音,异议",
+      "word_forms": {
+        "singular": "tegengeluid",
+        "plural": "tegengeluiden"
+      },
+      "example": "Er klonk een sterk tegengeluid.",
+      "example_translation": "传来了强烈的反对声音。"
+    },
+    {
+      "id": 5376,
+      "word": "tegenhouden",
+      "pos": "verb",
+      "meaning": "阻止,阻挡",
+      "word_forms": {
+        "infinitive": "tegenhouden",
+        "present": "houdt tegen",
+        "past": "hield tegen",
+        "participle": "tegengehouden"
+      },
+      "example": "Niemand kon hem tegenhouden.",
+      "example_translation": "没有人能阻止他。"
+    },
+    {
+      "id": 5377,
+      "word": "tegenkomen",
+      "pos": "verb",
+      "meaning": "遇到,碰到",
+      "word_forms": {
+        "infinitive": "tegenkomen",
+        "present": "komt tegen",
+        "past": "kwam tegen",
+        "participle": "tegengekomen"
+      },
+      "example": "Ik kwam hem toevallig tegen.",
+      "example_translation": "我偶然遇到了他。"
+    },
+    {
+      "id": 5378,
+      "word": "tegenspeler",
+      "pos": "noun",
+      "meaning": "对手,对手方",
+      "word_forms": {
+        "singular": "tegenspeler",
+        "plural": "tegenspelers"
+      },
+      "example": "De tegenspeler was sterk.",
+      "example_translation": "对手很强。"
+    },
+    {
+      "id": 5379,
+      "word": "tegenstand",
+      "pos": "noun",
+      "meaning": "反对,阻力",
+      "word_forms": {
+        "singular": "tegenstand",
+        "plural": "tegenstanden"
+      },
+      "example": "Er was veel tegenstand tegen het plan.",
+      "example_translation": "对这个计划有很多反对意见。"
+    },
+    {
+      "id": 5380,
+      "word": "tegenvaller",
+      "pos": "noun",
+      "meaning": "挫折,不如意的事",
+      "word_forms": {
+        "singular": "tegenvaller",
+        "plural": "tegenvallers"
+      },
+      "example": "Het was een grote tegenvaller.",
+      "example_translation": "这是一个大挫折。"
+    },
+    {
+      "id": 5381,
+      "word": "tekeer gaan",
+      "pos": "phrasal verb",
+      "meaning": "猛烈攻击,冲向",
+      "word_forms": {
+        "infinitive": "tekeer gaan",
+        "present": "gaat tekeer",
+        "past": "ging tekeer",
+        "participle": "tekeergegaan"
+      },
+      "example": "De storm ging tekeer.",
+      "example_translation": "暴风雨猛烈袭来。"
+    },
+    {
+      "id": 5382,
+      "word": "tekortkomen",
+      "pos": "verb",
+      "meaning": "短缺,不足",
+      "word_forms": {
+        "infinitive": "tekortkomen",
+        "present": "komt tekort",
+        "past": "kwam tekort",
+        "participle": "tekortgekomen"
+      },
+      "example": "Het water komt tekort.",
+      "example_translation": "水资源短缺。"
+    },
+    {
+      "id": 5383,
+      "word": "temperatuur",
+      "pos": "noun",
+      "meaning": "温度",
+      "word_forms": {
+        "singular": "temperatuur",
+        "plural": "temperaturen"
+      },
+      "example": "De temperatuur stijgt.",
+      "example_translation": "温度在上升。"
+    },
+    {
+      "id": 5384,
+      "word": "ten hoogste",
+      "pos": "adverbial phrase",
+      "meaning": "至多,最多",
+      "word_forms": {},
+      "example": "Het duurt ten hoogste twee uur.",
+      "example_translation": "这至多需要两个小时。"
+    },
+    {
+      "id": 5385,
+      "word": "ten minste",
+      "pos": "adverbial phrase",
+      "meaning": "至少",
+      "word_forms": {},
+      "example": "Ik heb ten minste vijf euro nodig.",
+      "example_translation": "我至少需要五欧元。"
+    },
+    {
+      "id": 5386,
+      "word": "ten slotte",
+      "pos": "adverbial phrase",
+      "meaning": "最后,终于",
+      "word_forms": {},
+      "example": "Ten slotte hebben we gewonnen.",
+      "example_translation": "最后我们赢了。"
+    },
+    {
+      "id": 5387,
+      "word": "ter plekke",
+      "pos": "adverbial phrase",
+      "meaning": "当场,就地",
+      "word_forms": {},
+      "example": "We konden het ter plekke oplossen.",
+      "example_translation": "我们可以当场解决问题。"
+    },
+    {
+      "id": 5388,
+      "word": "terugkeren",
+      "pos": "verb",
+      "meaning": "返回,回归",
+      "word_forms": {
+        "infinitive": "terugkeren",
+        "present": "keert terug",
+        "past": "keerde terug",
+        "participle": "teruggekeerd"
+      },
+      "example": "Hij keerde terug naar huis.",
+      "example_translation": "他回家了。"
+    },
+    {
+      "id": 5389,
+      "word": "terugkomen",
+      "pos": "verb",
+      "meaning": "回来,重返",
+      "word_forms": {
+        "infinitive": "terugkomen",
+        "present": "komt terug",
+        "past": "kwam terug",
+        "participle": "teruggekomen"
+      },
+      "example": "Wanneer kom je terug?",
+      "example_translation": "你什么时候回来?"
+    },
+    {
+      "id": 5390,
+      "word": "terugnemen",
+      "pos": "verb",
+      "meaning": "收回,撤销",
+      "word_forms": {
+        "infinitive": "terugnemen",
+        "present": "neemt terug",
+        "past": "nam terug",
+        "participle": "teruggenomen"
+      },
+      "example": "De directeur nam zijn besluit terug.",
+      "example_translation": "主任撤销了他的决定。"
+    },
+    {
+      "id": 5391,
+      "word": "terugpakken",
+      "pos": "verb",
+      "meaning": "夺回,收回",
+      "word_forms": {
+        "infinitive": "terugpakken",
+        "present": "pakt terug",
+        "past": "pakte terug",
+        "participle": "teruggepakt"
+      },
+      "example": "Ik wil mijn terugpakken.",
+      "example_translation": "我想把东西收回。"
+    },
+    {
+      "id": 5392,
+      "word": "terugslaan",
+      "pos": "verb",
+      "meaning": "反击,回击",
+      "word_forms": {
+        "infinitive": "terugslaan",
+        "present": "slaat terug",
+        "past": "sloeg terug",
+        "participle": "teruggeslagen"
+      },
+      "example": "Hij sloeg terug tegen de aanval.",
+      "example_translation": "他反击了这次攻击。"
+    },
+    {
+      "id": 5393,
+      "word": "terugzetten",
+      "pos": "verb",
+      "meaning": "放回,复位",
+      "word_forms": {
+        "infinitive": "terugzetten",
+        "present": "zet terug",
+        "past": "zette terug",
+        "participle": "teruggezet"
+      },
+      "example": "Zet het boek terug op de plank.",
+      "example_translation": "把书放回书架上。"
+    },
+    {
+      "id": 5394,
+      "word": "thermometer",
+      "pos": "noun",
+      "meaning": "温度计",
+      "word_forms": {
+        "singular": "thermometer",
+        "plural": "thermometers"
+      },
+      "example": "De thermometer geeft 38 graden aan.",
+      "example_translation": "温度计显示38度。"
+    },
+    {
+      "id": 5395,
+      "word": "thuis geven",
+      "pos": "phrasal verb",
+      "meaning": "打发回家",
+      "word_forms": {
+        "infinitive": "thuis geven",
+        "present": "geeft thuis",
+        "past": "gaf thuis",
+        "participle": "thuis gegeven"
+      },
+      "example": "De docent gaf de leerlingen thuis.",
+      "example_translation": "老师让学生们回家了。"
+    },
+    {
+      "id": 5396,
+      "word": "thuishoren",
+      "pos": "verb",
+      "meaning": "属于,适合",
+      "word_forms": {
+        "infinitive": "thuishoren",
+        "present": "hoort thuis",
+        "past": "hoorde thuis",
+        "participle": "thuisgehoord"
+      },
+      "example": "Ik voel dat ik hier thuishoor.",
+      "example_translation": "我感觉我属于这里。"
+    },
+    {
+      "id": 5397,
+      "word": "tijdsbestek",
+      "pos": "noun",
+      "meaning": "时间框架,时限",
+      "word_forms": {
+        "singular": "tijdsbestek",
+        "plural": "tijdsbesteken"
+      },
+      "example": "Het project werd binnen het tijdsbestek afgerond.",
+      "example_translation": "项目在时限内完成了。"
+    },
+    {
+      "id": 5398,
+      "word": "tijdschrift",
+      "pos": "noun",
+      "meaning": "杂志",
+      "word_forms": {
+        "singular": "tijdschrift",
+        "plural": "tijdschriften"
+      },
+      "example": "Ik lees dit tijdschrift graag.",
+      "example_translation": "我喜欢读这本杂志。"
+    },
+    {
+      "id": 5399,
+      "word": "toebdedelen",
+      "pos": "verb",
+      "meaning": "分配,授予",
+      "word_forms": {
+        "infinitive": "toebdedelen",
+        "present": "deelt toe",
+        "past": "deelde toe",
+        "participle": "toegedeeld"
+      },
+      "example": "De regering deelde de subsidies toe.",
+      "example_translation": "政府分配了补贴。"
+    },
+    {
+      "id": 5400,
+      "word": "toegangspas",
+      "pos": "noun",
+      "meaning": "通行证,门禁卡",
+      "word_forms": {
+        "singular": "toegangspas",
+        "plural": "toegangspassen"
+      },
+      "example": "Ik heb mijn toegangspas vergeten.",
+      "example_translation": "我忘了带通行证。"
+    },
+    {
+      "id": 5401,
+      "word": "toehoorder",
+      "pos": "noun",
+      "meaning": "听众,倾听者",
+      "word_forms": {
+        "singular": "toehoorder",
+        "plural": "toehoorders"
+      },
+      "example": "De toehoorders luisterden aandachtig.",
+      "example_translation": "听众们认真倾听。"
+    },
+    {
+      "id": 5402,
+      "word": "toejuichen",
+      "pos": "verb",
+      "meaning": "欢呼,喝彩",
+      "word_forms": {
+        "infinitive": "toejuichen",
+        "present": "juicht toe",
+        "past": "juichte toe",
+        "participle": "toegejuicht"
+      },
+      "example": "Het publiek juichte de overwinning toe.",
+      "example_translation": "观众为胜利欢呼。"
+    },
+    {
+      "id": 5403,
+      "word": "toelichting",
+      "pos": "noun",
+      "meaning": "说明,解释",
+      "word_forms": {
+        "singular": "toelichting",
+        "plural": "toelichtingen"
+      },
+      "example": "Kunt u een toelichting geven?",
+      "example_translation": "你能给个解释吗?"
+    },
+    {
+      "id": 5404,
+      "word": "toenadering",
+      "pos": "noun",
+      "meaning": "接近,接触",
+      "word_forms": {
+        "singular": "toenadering",
+        "plural": "toenaderingen"
+      },
+      "example": "Er was een toenadering tussen de partijen.",
+      "example_translation": "双方之间有接触。"
+    },
+    {
+      "id": 5405,
+      "word": "toepasbaar",
+      "pos": "adjective",
+      "meaning": "可适用的",
+      "word_forms": {
+        "positive": "toepasbaar",
+        "comparative": "toepasbaarder"
+      },
+      "example": "De methode is toepasbaar.",
+      "example_translation": "这个方法是可适用的。"
+    },
+    {
+      "id": 5406,
+      "word": "toereikend",
+      "pos": "adjective",
+      "meaning": "足够的,充分的",
+      "word_forms": {
+        "positive": "toereikend",
+        "comparative": "toereikender"
+      },
+      "example": "Het bewijs was toereikend.",
+      "example_translation": "证据是充分的。"
+    },
+    {
+      "id": 5407,
+      "word": "toeschouwer",
+      "pos": "noun",
+      "meaning": "观众,旁观者",
+      "word_forms": {
+        "singular": "toeschouwer",
+        "plural": "toeschouwers"
+      },
+      "example": "De toeschouwers keken naar het spel.",
+      "example_translation": "观众们观看比赛。"
+    },
+    {
+      "id": 5408,
+      "word": "toesnijden",
+      "pos": "verb",
+      "meaning": "修剪,裁剪",
+      "word_forms": {
+        "infinitive": "toesnijden",
+        "present": "snijdt toe",
+        "past": "sneed toe",
+        "participle": "toegesneden"
+      },
+      "example": "De tuinman sneed de struiken toe.",
+      "example_translation": "园丁修剪了灌木。"
+    },
+    {
+      "id": 5409,
+      "word": "toespreken",
+      "pos": "verb",
+      "meaning": "向...讲话,致辞",
+      "word_forms": {
+        "infinitive": "toespreken",
+        "present": "spreekt toe",
+        "past": "sprak toe",
+        "participle": "toegesproken"
+      },
+      "example": "De burgemeester sprak de mensen toe.",
+      "example_translation": "市长向人们致辞。"
+    },
+    {
+      "id": 5410,
+      "word": "toestemming",
+      "pos": "noun",
+      "meaning": "同意,许可",
+      "word_forms": {
+        "singular": "toestemming",
+        "plural": "toestemmingen"
+      },
+      "example": "Ik heb toestemming nodig.",
+      "example_translation": "我需要许可。"
+    },
+    {
+      "id": 5411,
+      "word": "toetsenbord",
+      "pos": "noun",
+      "meaning": "键盘",
+      "word_forms": {
+        "singular": "toetsenbord",
+        "plural": "toetsenborden"
+      },
+      "example": "Het toetsenbord werkt niet goed.",
+      "example_translation": "键盘工作不正常。"
+    },
+    {
+      "id": 5412,
+      "word": "toezien op",
+      "pos": "phrasal verb",
+      "meaning": "监督,监管",
+      "word_forms": {
+        "infinitive": "toezien op",
+        "present": "ziet toe op",
+        "past": "zag toe op",
+        "participle": "toegezien op"
+      },
+      "example": "De manager ziet toe op het project.",
+      "example_translation": "经理监督这个项目。"
+    },
+    {
+      "id": 5413,
+      "word": "ton-sur-ton",
+      "pos": "adjective",
+      "meaning": "同色系的,色调统一的",
+      "word_forms": {
+        "positive": "ton-sur-ton",
+        "comparative": "ton-sur-ton"
+      },
+      "example": "Zij draagt een ton-sur-ton outfit.",
+      "example_translation": "她穿着同色系的服装。"
+    }
+  ]
+}

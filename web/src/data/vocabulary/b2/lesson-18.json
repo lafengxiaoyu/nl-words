@@ -1,0 +1,657 @@
+{
+  "words": [
+    {
+      "id": 5128,
+      "word": "opgeschort",
+      "pos": "adjective",
+      "meaning": "暂停的,中止的",
+      "word_forms": {
+        "positive": "opgeschort",
+        "comparative": "opgeschorter"
+      },
+      "example": "De rechtszaak is opgeschort.",
+      "example_translation": "诉讼已经暂停。"
+    },
+    {
+      "id": 5129,
+      "word": "opgeschrikt",
+      "pos": "adjective",
+      "meaning": "被惊吓的,被惊动的",
+      "word_forms": {
+        "positive": "opgeschrikt",
+        "comparative": "opgeschrikter"
+      },
+      "example": "Hij was opgeschrikt door het nieuws.",
+      "example_translation": "他被这个消息惊到了。"
+    },
+    {
+      "id": 5130,
+      "word": "opgewonden",
+      "pos": "adjective",
+      "meaning": "兴奋的,激动的",
+      "word_forms": {
+        "positive": "opgewonden",
+        "comparative": "opgewondener"
+      },
+      "example": "De kinderen waren erg opgewonden.",
+      "example_translation": "孩子们非常兴奋。"
+    },
+    {
+      "id": 5131,
+      "word": "opgezwollen",
+      "pos": "adjective",
+      "meaning": "肿胀的",
+      "word_forms": {
+        "positive": "opgezwollen",
+        "comparative": "opgezwollener"
+      },
+      "example": "Enkel is opgezwollen.",
+      "example_translation": "脚踝肿胀了。"
+    },
+    {
+      "id": 5132,
+      "word": "ophelderen",
+      "pos": "verb",
+      "meaning": "澄清,使清晰",
+      "word_forms": {
+        "infinitive": "ophelderen",
+        "present": "heldert op",
+        "past": "helderde op",
+        "participle": "opgehelderd"
+      },
+      "example": "Kan je de situatie ophelderen?",
+      "example_translation": "你能澄清一下这个情况吗?"
+    },
+    {
+      "id": 5133,
+      "word": "opluchting",
+      "pos": "noun",
+      "meaning": "宽慰,解脱",
+      "word_forms": {
+        "singular": "opluchting",
+        "plural": "opluchtingen"
+      },
+      "example": "Het was een opluchting dat het voorbij was.",
+      "example_translation": "事情结束了,这真是一种解脱。"
+    },
+    {
+      "id": 5134,
+      "word": "opmerkelijk",
+      "pos": "adjective",
+      "meaning": "显著的,值得注意的",
+      "word_forms": {
+        "positive": "opmerkelijk",
+        "comparative": "opmerkelijker"
+      },
+      "example": "Het was een opmerkelijke prestatie.",
+      "example_translation": "这是一个显著的成就。"
+    },
+    {
+      "id": 5135,
+      "word": "opperhoofd",
+      "pos": "noun",
+      "meaning": "首领,酋长",
+      "word_forms": {
+        "singular": "opperhoofd",
+        "plural": "opperhoofden"
+      },
+      "example": "Het opperhoofd sprak met de kolonisten.",
+      "example_translation": "首领与殖民者进行了交谈。"
+    },
+    {
+      "id": 5136,
+      "word": "oppervlakte",
+      "pos": "noun",
+      "meaning": "表面积",
+      "word_forms": {
+        "singular": "oppervlakte",
+        "plural": "oppervlakten"
+      },
+      "example": "De oppervlakte van het land is groot.",
+      "example_translation": "这个国家的面积很大。"
+    },
+    {
+      "id": 5137,
+      "word": "oprechtheid",
+      "pos": "noun",
+      "meaning": "真诚,正直",
+      "word_forms": {
+        "singular": "oprechtheid",
+        "plural": "oprechtheden"
+      },
+      "example": "Zijn oprechtheid wordt gewaardeerd.",
+      "example_translation": "他的真诚受到赞赏。"
+    },
+    {
+      "id": 5138,
+      "word": "opschatten",
+      "pos": "verb",
+      "meaning": "估算,评估",
+      "word_forms": {
+        "infinitive": "opschatten",
+        "present": "schat op",
+        "past": "schatte op",
+        "participle": "opgeschat"
+      },
+      "example": "Kan je de kosten opschatten?",
+      "example_translation": "你能估算一下费用吗?"
+    },
+    {
+      "id": 5139,
+      "word": "opscheppen",
+      "pos": "verb",
+      "meaning": "吹嘘,自夸",
+      "word_forms": {
+        "infinitive": "opscheppen",
+        "present": "schept op",
+        "past": "schepte op",
+        "participle": "opgeschept"
+      },
+      "example": "Hij schept altijd op over zijn successen.",
+      "example_translation": "他总是吹嘘自己的成功。"
+    },
+    {
+      "id": 5140,
+      "word": "opschieten",
+      "pos": "verb",
+      "meaning": "赶快,进展",
+      "word_forms": {
+        "infinitive": "opschieten",
+        "present": "schiet op",
+        "past": "schoot op",
+        "participle": "opgeschoten"
+      },
+      "example": "Schiet op, we gaan straks weg!",
+      "example_translation": "快点,我们马上要走了!"
+    },
+    {
+      "id": 5141,
+      "word": "opschorten",
+      "pos": "verb",
+      "meaning": "暂停,中止",
+      "word_forms": {
+        "infinitive": "opschorten",
+        "present": "schort op",
+        "past": "schortte op",
+        "participle": "opgeschort"
+      },
+      "example": "Het project is opgeschort.",
+      "example_translation": "项目已经暂停。"
+    },
+    {
+      "id": 5142,
+      "word": "opschrijven",
+      "pos": "verb",
+      "meaning": "写下来,记录",
+      "word_forms": {
+        "infinitive": "opschrijven",
+        "present": "schrijft op",
+        "past": "schreef op",
+        "participle": "opgeschreven"
+      },
+      "example": "Schrijf het op voordat je het vergeet.",
+      "example_translation": "在忘记之前把它写下来。"
+    },
+    {
+      "id": 5143,
+      "word": "opschrikken",
+      "pos": "verb",
+      "meaning": "惊跳,受惊",
+      "word_forms": {
+        "infinitive": "opschrikken",
+        "present": "schrikt op",
+        "past": "schrok op",
+        "participle": "opgeschrokken"
+      },
+      "example": "Hij schrok op van het harde geluid.",
+      "example_translation": "他听到巨响吓了一跳。"
+    },
+    {
+      "id": 5144,
+      "word": "opschroeven",
+      "pos": "verb",
+      "meaning": "拧紧,上调",
+      "word_forms": {
+        "infinitive": "opschroeven",
+        "present": "schroeft op",
+        "past": "schroefde op",
+        "participle": "opgeschroefd"
+      },
+      "example": "Schroef de moer op.",
+      "example_translation": "把螺母拧紧。"
+    },
+    {
+      "id": 5145,
+      "word": "opschuiven",
+      "pos": "verb",
+      "meaning": "推迟,移动",
+      "word_forms": {
+        "infinitive": "opschuiven",
+        "present": "schuift op",
+        "past": "schoof op",
+        "participle": "opgeschoven"
+      },
+      "example": "De vergadering is opgeschoven naar volgende week.",
+      "example_translation": "会议已经推迟到下周。"
+    },
+    {
+      "id": 5146,
+      "word": "opsplitsen",
+      "pos": "verb",
+      "meaning": "分裂,拆分",
+      "word_forms": {
+        "infinitive": "opsplitsen",
+        "present": "splits op",
+        "past": "splitste op",
+        "participle": "opgesplitst"
+      },
+      "example": "Het bedrijf is opgesplitst in twee delen.",
+      "example_translation": "公司被拆分成了两个部分。"
+    },
+    {
+      "id": 5147,
+      "word": "opstanding",
+      "pos": "noun",
+      "meaning": "复活,起义",
+      "word_forms": {
+        "singular": "opstanding",
+        "plural": "opstandingen"
+      },
+      "example": "De opstanding van Christus wordt herdacht.",
+      "example_translation": "人们纪念基督的复活。"
+    },
+    {
+      "id": 5148,
+      "word": "opvliegend",
+      "pos": "adjective",
+      "meaning": "易怒的,急躁的",
+      "word_forms": {
+        "positive": "opvliegend",
+        "comparative": "opvliegender"
+      },
+      "example": "Hij is een opvliegend karakter.",
+      "example_translation": "他是一个性格急躁的人。"
+    },
+    {
+      "id": 5149,
+      "word": "opzettelijk",
+      "pos": "adverb",
+      "meaning": "故意地,有意的",
+      "word_forms": {},
+      "example": "Hij heeft het opzettelijk gedaan.",
+      "example_translation": "他是故意这么做的。"
+    },
+    {
+      "id": 5150,
+      "word": "opzijzetten",
+      "pos": "verb",
+      "meaning": "放在一边,搁置",
+      "word_forms": {
+        "infinitive": "opzijzetten",
+        "present": "zet opzij",
+        "past": "zette opzij",
+        "participle": "opzijgezet"
+      },
+      "example": "Zet het boek opzij en luister.",
+      "example_translation": "把书放一边,听我说。"
+    },
+    {
+      "id": 5151,
+      "word": "ouderschap",
+      "pos": "noun",
+      "meaning": "父母身份,为人父母",
+      "word_forms": {
+        "singular": "ouderschap",
+        "plural": "ouderschappen"
+      },
+      "example": "Het ouderschap is een grote verantwoordelijkheid.",
+      "example_translation": "为人父母是重大的责任。"
+    },
+    {
+      "id": 5152,
+      "word": "overbeladen",
+      "pos": "adjective",
+      "meaning": "超负荷的,负担过重的",
+      "word_forms": {
+        "positive": "overbeladen",
+        "comparative": "overbeladener"
+      },
+      "example": "De wagen is overbeladen.",
+      "example_translation": "车超载了。"
+    },
+    {
+      "id": 5153,
+      "word": "overbelast",
+      "pos": "adjective",
+      "meaning": "超负荷的,过载的",
+      "word_forms": {
+        "positive": "overbelast",
+        "comparative": "overbelaster"
+      },
+      "example": "Het systeem is overbelast.",
+      "example_translation": "系统过载了。"
+    },
+    {
+      "id": 5154,
+      "word": "overbieden",
+      "pos": "verb",
+      "meaning": "出价更高,竞价",
+      "word_forms": {
+        "infinitive": "overbieden",
+        "present": "biedt over",
+        "past": "bood over",
+        "participle": "overboden"
+      },
+      "example": "Hij bood meer over dan de ander.",
+      "example_translation": "他出价比对方高。"
+    },
+    {
+      "id": 5155,
+      "word": "overboeken",
+      "pos": "verb",
+      "meaning": "转账",
+      "word_forms": {
+        "infinitive": "overboeken",
+        "present": "boekt over",
+        "past": "boekte over",
+        "participle": "overgeboekt"
+      },
+      "example": "Ik ga het geld overboeken.",
+      "example_translation": "我要转账这笔钱。"
+    },
+    {
+      "id": 5156,
+      "word": "overbrengen",
+      "pos": "verb",
+      "meaning": "传送,传染",
+      "word_forms": {
+        "infinitive": "overbrengen",
+        "present": "brengt over",
+        "past": "bracht over",
+        "participle": "overgebracht"
+      },
+      "example": "Het virus wordt overgebracht door contact.",
+      "example_translation": "病毒通过接触传播。"
+    },
+    {
+      "id": 5157,
+      "word": "overbruggen",
+      "pos": "verb",
+      "meaning": "跨越,弥合",
+      "word_forms": {
+        "infinitive": "overbruggen",
+        "present": "brugt over",
+        "past": "brugte over",
+        "participle": "overgebrugd"
+      },
+      "example": "We moeten de kloof overbruggen.",
+      "example_translation": "我们必须弥合这个差距。"
+    },
+    {
+      "id": 5158,
+      "word": "overdekken",
+      "pos": "verb",
+      "meaning": "覆盖",
+      "word_forms": {
+        "infinitive": "overdekken",
+        "present": "dekt over",
+        "past": "dekte over",
+        "participle": "overgedekt"
+      },
+      "example": "Het dak dekt het hele gebouw over.",
+      "example_translation": "屋顶覆盖了整个建筑。"
+    },
+    {
+      "id": 5159,
+      "word": "overdracht",
+      "pos": "noun",
+      "meaning": "移交,转让",
+      "word_forms": {
+        "singular": "overdracht",
+        "plural": "overdrachten"
+      },
+      "example": "De overdracht vindt volgende week plaats.",
+      "example_translation": "移交将于下周进行。"
+    },
+    {
+      "id": 5160,
+      "word": "overdragen",
+      "pos": "verb",
+      "meaning": "移交,传授",
+      "word_forms": {
+        "infinitive": "overdragen",
+        "present": "draagt over",
+        "past": "droeg over",
+        "participle": "overgedragen"
+      },
+      "example": "De kennis wordt overgedragen aan de studenten.",
+      "example_translation": "知识传授给了学生。"
+    },
+    {
+      "id": 5161,
+      "word": "overdreven",
+      "pos": "adjective",
+      "meaning": "夸张的",
+      "word_forms": {
+        "positive": "overdreven",
+        "comparative": "overdrevenener"
+      },
+      "example": "Zijn reactie was overdreven.",
+      "example_translation": "他的反应夸张了。"
+    },
+    {
+      "id": 5162,
+      "word": "overdrijven",
+      "pos": "verb",
+      "meaning": "夸张",
+      "word_forms": {
+        "infinitive": "overdrijven",
+        "present": "drijft over",
+        "past": "dreef over",
+        "participle": "overdreven"
+      },
+      "example": "Je overdrijft het probleem.",
+      "example_translation": "你夸张了这个问题的严重性。"
+    },
+    {
+      "id": 5163,
+      "word": "overgewicht",
+      "pos": "noun",
+      "meaning": "超重",
+      "word_forms": {
+        "singular": "overgewicht",
+        "plural": "overgewichten"
+      },
+      "example": "Heeft u last van overgewicht?",
+      "example_translation": "你有超重问题吗?"
+    },
+    {
+      "id": 5164,
+      "word": "overgieten",
+      "pos": "verb",
+      "meaning": "浇注,泼洒",
+      "word_forms": {
+        "infinitive": "overgieten",
+        "present": "giet over",
+        "past": "goot over",
+        "participle": "overgegoten"
+      },
+      "example": "Giet de soep over de groenten.",
+      "example_translation": "把汤浇在蔬菜上。"
+    },
+    {
+      "id": 5165,
+      "word": "overheersen",
+      "pos": "verb",
+      "meaning": "主导,统治",
+      "word_forms": {
+        "infinitive": "overheersen",
+        "present": "heerst over",
+        "past": "heerste over",
+        "participle": "overheerst"
+      },
+      "example": "De rust overheerst in de ruimte.",
+      "example_translation": "宁静主导了这个空间。"
+    },
+    {
+      "id": 5166,
+      "word": "overhevelen",
+      "pos": "verb",
+      "meaning": "转移,调配",
+      "word_forms": {
+        "infinitive": "overhevelen",
+        "present": "hevelt over",
+        "past": "hevelde over",
+        "participle": "overgeheveld"
+      },
+      "example": "De taken zijn overgeheveld naar een andere afdeling.",
+      "example_translation": "任务已经转移到另一个部门。"
+    },
+    {
+      "id": 5167,
+      "word": "overhoring",
+      "pos": "noun",
+      "meaning": "测验,考试",
+      "word_forms": {
+        "singular": "overhoring",
+        "plural": "overhoringen"
+      },
+      "example": "De leerlingen hebben een overhoring.",
+      "example_translation": "学生们有一场测验。"
+    },
+    {
+      "id": 5168,
+      "word": "overhouden",
+      "pos": "verb",
+      "meaning": "保留,剩下",
+      "word_forms": {
+        "infinitive": "overhouden",
+        "present": "houdt over",
+        "past": "hield over",
+        "participle": "overgehouden"
+      },
+      "example": "Ik houd er weinig van over.",
+      "example_translation": "我剩下不了多少。"
+    },
+    {
+      "id": 5169,
+      "word": "overleggen",
+      "pos": "verb",
+      "meaning": "协商,商量",
+      "word_forms": {
+        "infinitive": "overleggen",
+        "present": "legt over",
+        "past": "legde over",
+        "participle": "overlegd"
+      },
+      "example": "We moeten overleggen over het plan.",
+      "example_translation": "我们需要商量一下这个计划。"
+    },
+    {
+      "id": 5170,
+      "word": "overlevende",
+      "pos": "noun",
+      "meaning": "幸存者",
+      "word_forms": {
+        "singular": "overlevende",
+        "plural": "overlevenden"
+      },
+      "example": "De overlevenden werden gered.",
+      "example_translation": "幸存者获救了。"
+    },
+    {
+      "id": 5171,
+      "word": "overleveren",
+      "pos": "verb",
+      "meaning": "交付,流传",
+      "word_forms": {
+        "infinitive": "overleveren",
+        "present": "levert over",
+        "past": "leverde over",
+        "participle": "overgeleverd"
+      },
+      "example": "De mondelinge traditie is overgeleverd.",
+      "example_translation": "口头传统流传了下来。"
+    },
+    {
+      "id": 5172,
+      "word": "overlijden",
+      "pos": "verb",
+      "meaning": "去世",
+      "word_forms": {
+        "infinitive": "overlijden",
+        "present": "lijdt over",
+        "past": "leed over",
+        "participle": "overleden"
+      },
+      "example": "Zij is overleden op hoge leeftijd.",
+      "example_translation": "她在高龄时去世了。"
+    },
+    {
+      "id": 5173,
+      "word": "overmoedig",
+      "pos": "adjective",
+      "meaning": "鲁莽的,傲慢的",
+      "word_forms": {
+        "positive": "overmoedig",
+        "comparative": "overmoediger"
+      },
+      "example": "Zijn overmoedige houding bracht problemen.",
+      "example_translation": "他鲁莽的态度带来了问题。"
+    },
+    {
+      "id": 5174,
+      "word": "overspannen",
+      "pos": "adjective",
+      "meaning": "过度紧张的",
+      "word_forms": {
+        "positive": "overspannen",
+        "comparative": "overspannenener"
+      },
+      "example": "Hij was overspannen door het werk.",
+      "example_translation": "他因工作而过度紧张。"
+    },
+    {
+      "id": 5175,
+      "word": "overspoelen",
+      "pos": "verb",
+      "meaning": "淹没,侵袭",
+      "word_forms": {
+        "infinitive": "overspoelen",
+        "present": "spoelt over",
+        "past": "spoolte over",
+        "participle": "overgespoeld"
+      },
+      "example": "De golf overspoelde het strand.",
+      "example_translation": "海浪淹没了沙滩。"
+    },
+    {
+      "id": 5176,
+      "word": "overstappen",
+      "pos": "verb",
+      "meaning": "转换,换乘",
+      "word_forms": {
+        "infinitive": "overstappen",
+        "present": "stapt over",
+        "past": "stapte over",
+        "participle": "overgestapt"
+      },
+      "example": "Ik stap over op de trein.",
+      "example_translation": "我换乘火车。"
+    },
+    {
+      "id": 5177,
+      "word": "oversteken",
+      "pos": "verb",
+      "meaning": "穿过,横过",
+      "word_forms": {
+        "infinitive": "oversteken",
+        "present": "steekt over",
+        "past": "stak over",
+        "participle": "overgestoken"
+      },
+      "example": "Steek de straat over bij het zebrapad.",
+      "example_translation": "在斑马线过马路。"
+    }
+  ]
+}

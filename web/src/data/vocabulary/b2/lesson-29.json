@@ -1,0 +1,497 @@
+{
+  "words": [
+    {
+      "id": 5567,
+      "word": "verschaffen",
+      "pos": "verb",
+      "meaning": "提供,供给",
+      "word_forms": {
+        "infinitive": "verschaffen",
+        "present": "verschaft",
+        "past": "verschafte",
+        "participle": "verschafft"
+      },
+      "example": "De bibliotheek verschaft boeken.",
+      "example_translation": "图书馆提供书籍。"
+    },
+    {
+      "id": 5568,
+      "word": "verscheiden",
+      "pos": "verb",
+      "meaning": "分开,去世",
+      "word_forms": {
+        "infinitive": "verscheiden",
+        "present": "scheidt",
+        "past": "scheidde",
+        "participle": "gescheiden"
+      },
+      "example": "Hij scheidde zich van haar.",
+      "example_translation": "他离开了她。"
+    },
+    {
+      "id": 5569,
+      "word": "verschepen",
+      "pos": "verb",
+      "meaning": "装船,运输",
+      "word_forms": {
+        "infinitive": "verschepen",
+        "present": "scheept",
+        "past": "scheepte",
+        "participle": "verscheept"
+      },
+      "example": "De goederen werden verscheept.",
+      "example_translation": "货物被装船运输了。"
+    },
+    {
+      "id": 5570,
+      "word": "verscheuren",
+      "pos": "verb",
+      "meaning": "撕破,撕裂",
+      "word_forms": {
+        "infinitive": "verscheuren",
+        "present": "scheurt",
+        "past": "scheurde",
+        "participle": "verscheurd"
+      },
+      "example": "Hij scheurde zijn broek.",
+      "example_translation": "他撕破了裤子。"
+    },
+    {
+      "id": 5571,
+      "word": "verschijnen",
+      "pos": "verb",
+      "meaning": "出现",
+      "word_forms": {
+        "infinitive": "verschijnen",
+        "present": "verschijnt",
+        "past": "verscheen",
+        "participle": "verschenen"
+      },
+      "example": "De zon verschijnt aan de horizon.",
+      "example_translation": "太阳出现在地平线上。"
+    },
+    {
+      "id": 5572,
+      "word": "verschonen",
+      "pos": "verb",
+      "meaning": "赦免,宽恕",
+      "word_forms": {
+        "infinitive": "verschonen",
+        "present": "schoont",
+        "past": "schoonde",
+        "participle": "geschoond"
+      },
+      "example": "De rechter schoonde hem.",
+      "example_translation": "法官宽恕了他。"
+    },
+    {
+      "id": 5573,
+      "word": "verschuiven",
+      "pos": "verb",
+      "meaning": "移动,转移",
+      "word_forms": {
+        "infinitive": "verschuiven",
+        "present": "schuift",
+        "past": "schoof",
+        "participle": "verschoven"
+      },
+      "example": "De datum is verschoven.",
+      "example_translation": "日期已经更改了。"
+    },
+    {
+      "id": 5574,
+      "word": "versiering",
+      "pos": "noun",
+      "meaning": "装饰,装饰品",
+      "word_forms": {
+        "singular": "versiering",
+        "plural": "versieringen"
+      },
+      "example": "De versiering is mooi.",
+      "example_translation": "装饰很漂亮。"
+    },
+    {
+      "id": 5575,
+      "word": "verslaving",
+      "pos": "noun",
+      "meaning": "成瘾",
+      "word_forms": {
+        "singular": "verslaving",
+        "plural": "verslavingen"
+      },
+      "example": "Hij heeft een verslaving.",
+      "example_translation": "他有成瘾问题。"
+    },
+    {
+      "id": 5576,
+      "word": "verslijten",
+      "pos": "verb",
+      "meaning": "磨损",
+      "word_forms": {
+        "infinitive": "verslijten",
+        "present": "slijt",
+        "past": "sleet",
+        "participle": "gesleten"
+      },
+      "example": "De schoenen slijten snel.",
+      "example_translation": "鞋子磨损得很快。"
+    },
+    {
+      "id": 5577,
+      "word": "versnelling",
+      "pos": "noun",
+      "meaning": "加速,变速器",
+      "word_forms": {
+        "singular": "versnelling",
+        "plural": "versnellingen"
+      },
+      "example": "De versnelling werkt goed.",
+      "example_translation": "变速器工作正常。"
+    },
+    {
+      "id": 5578,
+      "word": "versperren",
+      "pos": "verb",
+      "meaning": "阻挡,封锁",
+      "word_forms": {
+        "infinitive": "versperren",
+        "present": "spert",
+        "past": "sperte",
+        "participle": "verspert"
+      },
+      "example": "De weg werd verspert.",
+      "example_translation": "道路被封锁了。"
+    },
+    {
+      "id": 5579,
+      "word": "verspillen",
+      "pos": "verb",
+      "meaning": "浪费",
+      "word_forms": {
+        "infinitive": "verspillen",
+        "present": "spilt",
+        "past": "spilde",
+        "participle": "verspild"
+      },
+      "example": "Vergoeding voedsel niet.",
+      "example_translation": "不要浪费食物。"
+    },
+    {
+      "id": 5580,
+      "word": "verstandig",
+      "pos": "adjective",
+      "meaning": "明智的",
+      "word_forms": {
+        "positive": "verstandig",
+        "comparative": "verstandiger"
+      },
+      "example": "Het was een verstandige keuze.",
+      "example_translation": "这是一个明智的选择。"
+    },
+    {
+      "id": 5581,
+      "word": "verstellen",
+      "pos": "verb",
+      "meaning": "调整,修理",
+      "word_forms": {
+        "infinitive": "verstellen",
+        "present": "stelt",
+        "past": "stelde",
+        "participle": "gesteld"
+      },
+      "example": "Ik stel de radio af.",
+      "example_translation": "我调整收音机。"
+    },
+    {
+      "id": 5582,
+      "word": "versterken",
+      "pos": "verb",
+      "meaning": "加强",
+      "word_forms": {
+        "infinitive": "versterken",
+        "present": "sterkt",
+        "past": "sterkte",
+        "participle": "versterkt"
+      },
+      "example": "We moeten de positie versterken.",
+      "example_translation": "我们必须加强这个位置。"
+    },
+    {
+      "id": 5583,
+      "word": "verstijven",
+      "pos": "verb",
+      "meaning": "僵硬,冻僵",
+      "word_forms": {
+        "infinitive": "verstijven",
+        "present": "stijft",
+        "past": "stiefde",
+        "participle": "gestijfd"
+      },
+      "example": "Mijn handen zijn gestijfd.",
+      "example_translation": "我的手僵硬了。"
+    },
+    {
+      "id": 5584,
+      "word": "verstommen",
+      "pos": "verb",
+      "meaning": "沉默,停止说话",
+      "word_forms": {
+        "infinitive": "verstommen",
+        "present": "stomt",
+        "past": "stomde",
+        "participle": "gestomd"
+      },
+      "example": "Het geluid verstomde.",
+      "example_translation": "声音停止了。"
+    },
+    {
+      "id": 5585,
+      "word": "verstoppen",
+      "pos": "verb",
+      "meaning": "隐藏,躲藏",
+      "word_forms": {
+        "infinitive": "verstoppen",
+        "present": "stopt",
+        "past": "stopte",
+        "participle": "gestopt"
+      },
+      "example": "Hij verstopte het cadeau.",
+      "example_translation": "他藏起了礼物。"
+    },
+    {
+      "id": 5586,
+      "word": "verstrekken",
+      "pos": "verb",
+      "meaning": "提供,发放",
+      "word_forms": {
+        "infinitive": "verstrekken",
+        "present": "strekt",
+        "past": "strekte",
+        "participle": "verstrekt"
+      },
+      "example": "De bank verstrekt leningen.",
+      "example_translation": "银行提供贷款。"
+    },
+    {
+      "id": 5587,
+      "word": "verstrijken",
+      "pos": "verb",
+      "meaning": "流逝,过去",
+      "word_forms": {
+        "infinitive": "verstrijken",
+        "present": "strijkt",
+        "past": "streek",
+        "participle": "verstreken"
+      },
+      "example": "De tijd verstreek snel.",
+      "example_translation": "时间流逝很快。"
+    },
+    {
+      "id": 5588,
+      "word": "verstuiken",
+      "pos": "verb",
+      "meaning": "窒息,噎住",
+      "word_forms": {
+        "infinitive": "verstuiken",
+        "present": "stuikt",
+        "past": "stikte",
+        "participle": "gestikt"
+      },
+      "example": "Hij stikte bijna.",
+      "example_translation": "他差点窒息。"
+    },
+    {
+      "id": 5589,
+      "word": "verstuiven",
+      "pos": "verb",
+      "meaning": "散开,飞散",
+      "word_forms": {
+        "infinitive": "verstuiven",
+        "present": "stuift",
+        "past": "stuw",
+        "participle": "verstuift"
+      },
+      "example": "Het stof stuift weg.",
+      "example_translation": "灰尘散开了。"
+    },
+    {
+      "id": 5590,
+      "word": "vertraging",
+      "pos": "noun",
+      "meaning": "延误,延迟",
+      "word_forms": {
+        "singular": "vertraging",
+        "plural": "vertragingen"
+      },
+      "example": "Er is een vertraging.",
+      "example_translation": "有延误。"
+    },
+    {
+      "id": 5591,
+      "word": "vertrekken",
+      "pos": "verb",
+      "meaning": "出发",
+      "word_forms": {
+        "infinitive": "vertrekken",
+        "present": "vertrekt",
+        "past": "vertrok",
+        "participle": "vertrokken"
+      },
+      "example": "De trein vertrekt om negen uur.",
+      "example_translation": "火车九点出发。"
+    },
+    {
+      "id": 5592,
+      "word": "vervolgens",
+      "pos": "adverb",
+      "meaning": "随后,然后",
+      "word_forms": {},
+      "example": "Hij at, vervolgens dronk hij.",
+      "example_translation": "他先吃,然后喝。"
+    },
+    {
+      "id": 5593,
+      "word": "vervolging",
+      "pos": "noun",
+      "meaning": "迫害,追击",
+      "word_forms": {
+        "singular": "vervolging",
+        "plural": "vervolgingen"
+      },
+      "example": "De vervolging stopte.",
+      "example_translation": "迫害停止了。"
+    },
+    {
+      "id": 5594,
+      "word": "vervuiling",
+      "pos": "noun",
+      "meaning": "污染",
+      "word_forms": {
+        "singular": "vervuiling",
+        "plural": "vervuilingen"
+      },
+      "example": "De vervuiling is een probleem.",
+      "example_translation": "污染是一个问题。"
+    },
+    {
+      "id": 5595,
+      "word": "verwachten",
+      "pos": "verb",
+      "meaning": "期待,预料",
+      "word_forms": {
+        "infinitive": "verwachten",
+        "present": "verwacht",
+        "past": "verwachtte",
+        "participle": "verwacht"
+      },
+      "example": "Ik verwacht je volgende week.",
+      "example_translation": "我期待下周见到你。"
+    },
+    {
+      "id": 5596,
+      "word": "verwant aan",
+      "pos": "phrasal verb",
+      "meaning": "与...相关",
+      "word_forms": {
+        "infinitive": "verwant aan",
+        "present": "is verwant aan",
+        "past": "was verwant aan",
+        "participle": "verwant aan"
+      },
+      "example": "Het probleem is verwant aan het vorige.",
+      "example_translation": "这个问题与前一个问题相关。"
+    },
+    {
+      "id": 5597,
+      "word": "verwarming",
+      "pos": "noun",
+      "meaning": "暖气,加热",
+      "word_forms": {
+        "singular": "verwarming",
+        "plural": "verwarmingen"
+      },
+      "example": "De verwarming werkt goed.",
+      "example_translation": "暖气工作正常。"
+    },
+    {
+      "id": 5598,
+      "word": "verwarrend",
+      "pos": "adjective",
+      "meaning": "令人困惑的",
+      "word_forms": {
+        "positive": "verwarrend",
+        "comparative": "verwarrender"
+      },
+      "example": "De situatie is verwarrend.",
+      "example_translation": "情况令人困惑。"
+    },
+    {
+      "id": 5599,
+      "word": "verwarring",
+      "pos": "noun",
+      "meaning": "混乱,困惑",
+      "word_forms": {
+        "singular": "verwarring",
+        "plural": "verwarringen"
+      },
+      "example": "Er ontstond verwarring.",
+      "example_translation": "出现了混乱。"
+    },
+    {
+      "id": 5600,
+      "word": "verwelkomen",
+      "pos": "verb",
+      "meaning": "欢迎",
+      "word_forms": {
+        "infinitive": "verwelkomen",
+        "present": "verwelkomt",
+        "past": "verwelkomde",
+        "participle": "verwelkomd"
+      },
+      "example": "Ik verwelkom je bij ons.",
+      "example_translation": "我欢迎你来到这里。"
+    },
+    {
+      "id": 5601,
+      "word": "verwijderen",
+      "pos": "verb",
+      "meaning": "删除,移除",
+      "word_forms": {
+        "infinitive": "verwijderen",
+        "present": "verwijdert",
+        "past": "verwijderte",
+        "participle": "verwijderd"
+      },
+      "example": "Verwijder het bestand.",
+      "example_translation": "删除这个文件。"
+    },
+    {
+      "id": 5602,
+      "word": "verwikkelen",
+      "pos": "verb",
+      "meaning": "缠绕,卷绕",
+      "word_forms": {
+        "infinitive": "verwikkelen",
+        "present": "wikkelt",
+        "past": "wikkelde",
+        "participle": "verwikkeld"
+      },
+      "example": "Wikkel het cadeau in papier.",
+      "example_translation": "把礼物用纸包起来。"
+    },
+    {
+      "id": 5603,
+      "word": "verwoesten",
+      "pos": "verb",
+      "meaning": "毁灭,破坏",
+      "word_forms": {
+        "infinitive": "verwoesten",
+        "present": "woest",
+        "past": "woeste",
+        "participle": "verwoest"
+      },
+      "example": "De oorlog woeste de stad.",
+      "example_translation": "战争毁灭了城市。"
+    }
+  ]
+}
