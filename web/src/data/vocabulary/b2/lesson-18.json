@@ -2,7 +2,7 @@
   "id": "b2-lesson-18",
   "level": "B2",
   "lessonNumber": 18,
-  "totalWords": 39,
+  "totalWords": 38,
   "words": [
     {
       "id": 5128,
@@ -1536,54 +1536,6 @@
         ]
       },
       "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5177,
-      "word": "oversteken",
-      "translation": {
-        "chinese": "穿过,横过",
-        "english": "to cross, to cross over"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "oversteken",
-          "present": [
-            "ik steek over",
-            "jij steekt over",
-            "hij/zij/het steekt over",
-            "wii steken over",
-            "jullie steken over",
-            "zij steken over"
-          ],
-          "past": [
-            "ik stak over",
-            "jij stak over",
-            "hij/zij/het stak over",
-            "wi staken over",
-            "jullie staken over",
-            "zij staken over"
-          ],
-          "perfect": "ik ben overgestoken",
-          "participle": "overgestoken"
-        }
-      },
-      "examples": [
-        "Steek de straat over bij het zebrapad.",
-        "Hij stak de brug over."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "在斑马线过马路。",
-          "他过了桥。"
-        ],
-        "english": [
-          "Cross the street at the zebra crossing.",
-          "He crossed the bridge."
-        ]
-      },
-      "notes": "可分动词,不规则变化",
       "difficulty": "B2"
     }
   ]

@@ -2,7 +2,7 @@
   "id": "lB231",
   "level": "B2",
   "lessonNumber": 31,
-  "totalWords": 50,
+  "totalWords": 58,
   "words": [
     {
       "id": 5671,
@@ -12,7 +12,10 @@
         "english": "crazy, insane"
       },
       "partOfSpeech": "adjective",
-      "forms": ["waanzinniger", "waanzinnigst"],
+      "forms": [
+        "waanzinniger",
+        "waanzinnigst"
+      ],
       "level": "B2",
       "examples": [
         "Het is een waanzinnig idee om naar de maan te reizen.",
@@ -39,15 +42,58 @@
         "english": "to guarantee, to ensure"
       },
       "partOfSpeech": "verb",
-      "forms": ["waarborgde", "gewaarborgd", "waarborgt"],
+      "forms": [
+        "waarborgde",
+        "gewaarborgd",
+        "waarborgt"
+      ],
       "level": "B2",
       "conjugations": {
-        "present": ["waarborg", "waarborgt", "waarborgt", "waarborgen", "waarborgen", "waarborgen"],
-        "past": ["waarborgde", "waarborgde", "waarborgde", "waarborgden", "waarborgden", "waarborgden"],
-        "perfect": ["heb gewaarborgd", "hebt gewaarborgd", "heeft gewaarborgd", "hebben gewaarborgd", "hebben gewaarborgd", "hebben gewaarborgd"],
-        "future": ["zal waarborgen", "zult waarborgen", "zult waarborgen", "zullen waarborgen", "zullen waarborgen", "zullen waarborgen"],
-        "conditional": ["zou waarborgen", "zou waarborgen", "zou waarborgen", "zouden waarborgen", "zouden waarborgen", "zouden waarborgen"],
-        "imperative": ["waarborg", "waarborgt", "waarborgen"]
+        "present": [
+          "waarborg",
+          "waarborgt",
+          "waarborgt",
+          "waarborgen",
+          "waarborgen",
+          "waarborgen"
+        ],
+        "past": [
+          "waarborgde",
+          "waarborgde",
+          "waarborgde",
+          "waarborgden",
+          "waarborgden",
+          "waarborgden"
+        ],
+        "perfect": [
+          "heb gewaarborgd",
+          "hebt gewaarborgd",
+          "heeft gewaarborgd",
+          "hebben gewaarborgd",
+          "hebben gewaarborgd",
+          "hebben gewaarborgd"
+        ],
+        "future": [
+          "zal waarborgen",
+          "zult waarborgen",
+          "zult waarborgen",
+          "zullen waarborgen",
+          "zullen waarborgen",
+          "zullen waarborgen"
+        ],
+        "conditional": [
+          "zou waarborgen",
+          "zou waarborgen",
+          "zou waarborgen",
+          "zouden waarborgen",
+          "zouden waarborgen",
+          "zouden waarborgen"
+        ],
+        "imperative": [
+          "waarborg",
+          "waarborgt",
+          "waarborgen"
+        ]
       },
       "examples": [
         "De wet waarborgt gelijke rechten voor alle burgers.",
@@ -74,7 +120,9 @@
         "english": "password"
       },
       "partOfSpeech": "noun",
-      "forms": ["wachtwoorden"],
+      "forms": [
+        "wachtwoorden"
+      ],
       "level": "B2",
       "examples": [
         "Vergeet je wachtwoord niet als je inlogt.",
@@ -101,7 +149,9 @@
         "english": "stroller, baby carriage"
       },
       "partOfSpeech": "noun",
-      "forms": ["wandelwagens"],
+      "forms": [
+        "wandelwagens"
+      ],
       "level": "B2",
       "examples": [
         "Ze duwde de wandelwagen door het park.",
@@ -128,7 +178,10 @@
         "english": "suspicious, distrustful"
       },
       "partOfSpeech": "adjective",
-      "forms": ["wantrouwiger", "wantrouwigst"],
+      "forms": [
+        "wantrouwiger",
+        "wantrouwigst"
+      ],
       "level": "B2",
       "examples": [
         "Hij keek me wantrouwig aan toen ik hem vroeg om geld.",
@@ -155,7 +208,9 @@
         "english": "washing machine"
       },
       "partOfSpeech": "noun",
-      "forms": ["wasmachines"],
+      "forms": [
+        "wasmachines"
+      ],
       "level": "B2",
       "examples": [
         "De wasmachine is stuk en moet gerepareerd worden.",
@@ -182,7 +237,10 @@
         "english": "waterproof"
       },
       "partOfSpeech": "adjective",
-      "forms": ["waterdichter", "waterdichtst"],
+      "forms": [
+        "waterdichter",
+        "waterdichtst"
+      ],
       "level": "B2",
       "examples": [
         "Ik heb een waterdichte jas gekocht voor de regen.",
@@ -209,7 +267,9 @@
         "english": "water bike, pedal boat"
       },
       "partOfSpeech": "noun",
-      "forms": ["waterfietsen"],
+      "forms": [
+        "waterfietsen"
+      ],
       "level": "B2",
       "examples": [
         "We gingen waterfietsen op het meer.",
@@ -236,7 +296,9 @@
         "english": "dam, flood barrier"
       },
       "partOfSpeech": "noun",
-      "forms": ["waterkeringen"],
+      "forms": [
+        "waterkeringen"
+      ],
       "level": "B2",
       "examples": [
         "De waterkering beschermt het land tegen overstromingen.",
@@ -290,7 +352,9 @@
         "english": "water level"
       },
       "partOfSpeech": "noun",
-      "forms": ["waterstanden"],
+      "forms": [
+        "waterstanden"
+      ],
       "level": "B2",
       "examples": [
         "De waterstand van de rivier is gestegen door de regen.",
@@ -317,7 +381,9 @@
         "english": "bet, wager"
       },
       "partOfSpeech": "noun",
-      "forms": ["wederschappen"],
+      "forms": [
+        "wederschappen"
+      ],
       "level": "B2",
       "examples": [
         "We hebben een weddenschap gemaakt over wie het spel zou winnen.",
@@ -398,15 +464,58 @@
         "english": "to compete, to vie"
       },
       "partOfSpeech": "verb",
-      "forms": ["wedijverde", "gewedijverd", "wedijvert"],
+      "forms": [
+        "wedijverde",
+        "gewedijverd",
+        "wedijvert"
+      ],
       "level": "B2",
       "conjugations": {
-        "present": ["wedijver", "wedijvert", "wedijvert", "wedijveren", "wedijveren", "wedijveren"],
-        "past": ["wedijverde", "wedijverde", "wedijverde", "wedijverden", "wedijverden", "wedijverden"],
-        "perfect": ["heb gewedijverd", "hebt gewedijverd", "heeft gewedijverd", "hebben gewedijverd", "hebben gewedijverd", "hebben gewedijverd"],
-        "future": ["zal wedijveren", "zult wedijveren", "zult wedijveren", "zullen wedijveren", "zullen wedijveren", "zullen wedijveren"],
-        "conditional": ["zou wedijveren", "zou wedijveren", "zou wedijveren", "zouden wedijveren", "zouden wedijveren", "zouden wedijveren"],
-        "imperative": ["wedijver", "wedijvert", "wedijveren"]
+        "present": [
+          "wedijver",
+          "wedijvert",
+          "wedijvert",
+          "wedijveren",
+          "wedijveren",
+          "wedijveren"
+        ],
+        "past": [
+          "wedijverde",
+          "wedijverde",
+          "wedijverde",
+          "wedijverden",
+          "wedijverden",
+          "wedijverden"
+        ],
+        "perfect": [
+          "heb gewedijverd",
+          "hebt gewedijverd",
+          "heeft gewedijverd",
+          "hebben gewedijverd",
+          "hebben gewedijverd",
+          "hebben gewedijverd"
+        ],
+        "future": [
+          "zal wedijveren",
+          "zult wedijveren",
+          "zult wedijveren",
+          "zullen wedijveren",
+          "zullen wedijveren",
+          "zullen wedijveren"
+        ],
+        "conditional": [
+          "zou wedijveren",
+          "zou wedijveren",
+          "zou wedijveren",
+          "zouden wedijveren",
+          "zouden wedijveren",
+          "zouden wedijveren"
+        ],
+        "imperative": [
+          "wedijver",
+          "wedijvert",
+          "wedijveren"
+        ]
       },
       "examples": [
         "De bedrijven wedijveren om de beste werknemers.",
@@ -433,7 +542,10 @@
         "english": "stubborn, recalcitrant"
       },
       "partOfSpeech": "adjective",
-      "forms": ["weerbarstiger", "weerbarstigst"],
+      "forms": [
+        "weerbarstiger",
+        "weerbarstigst"
+      ],
       "level": "B2",
       "examples": [
         "Het was een weerbarstig probleem om op te lossen.",
@@ -460,7 +572,9 @@
         "english": "weather report, weather forecast"
       },
       "partOfSpeech": "noun",
-      "forms": ["weerberichten"],
+      "forms": [
+        "weerberichten"
+      ],
       "level": "B2",
       "examples": [
         "Ik check het weerbericht voordat ik naar buiten ga.",
@@ -487,15 +601,58 @@
         "english": "to prevent, to stop"
       },
       "partOfSpeech": "verb",
-      "forms": ["weerhield", "weerhouden", "weerhoudt"],
+      "forms": [
+        "weerhield",
+        "weerhouden",
+        "weerhoudt"
+      ],
       "level": "B2",
       "conjugations": {
-        "present": ["weerhoud", "weerhoudt", "weerhoudt", "weerhouden", "weerhouden", "weerhouden"],
-        "past": ["weerhield", "weerhield", "weerhield", "weerhielden", "weerhielden", "weerhielden"],
-        "perfect": ["heb weerhouden", "hebt weerhouden", "heeft weerhouden", "hebben weerhouden", "hebben weerhouden", "hebben weerhouden"],
-        "future": ["zal weerhouden", "zult weerhouden", "zult weerhouden", "zullen weerhouden", "zullen weerhouden", "zullen weerhouden"],
-        "conditional": ["zou weerhouden", "zou weerhouden", "zou weerhouden", "zouden weerhouden", "zouden weerhouden", "zouden weerhouden"],
-        "imperative": ["weerhoud", "weerhoudt", "weerhouden"]
+        "present": [
+          "weerhoud",
+          "weerhoudt",
+          "weerhoudt",
+          "weerhouden",
+          "weerhouden",
+          "weerhouden"
+        ],
+        "past": [
+          "weerhield",
+          "weerhield",
+          "weerhield",
+          "weerhielden",
+          "weerhielden",
+          "weerhielden"
+        ],
+        "perfect": [
+          "heb weerhouden",
+          "hebt weerhouden",
+          "heeft weerhouden",
+          "hebben weerhouden",
+          "hebben weerhouden",
+          "hebben weerhouden"
+        ],
+        "future": [
+          "zal weerhouden",
+          "zult weerhouden",
+          "zult weerhouden",
+          "zullen weerhouden",
+          "zullen weerhouden",
+          "zullen weerhouden"
+        ],
+        "conditional": [
+          "zou weerhouden",
+          "zou weerhouden",
+          "zou weerhouden",
+          "zouden weerhouden",
+          "zouden weerhouden",
+          "zouden weerhouden"
+        ],
+        "imperative": [
+          "weerhoud",
+          "weerhoudt",
+          "weerhouden"
+        ]
       },
       "examples": [
         "Niets kon hem weerhouden om zijn droom na te jagen.",
@@ -522,15 +679,58 @@
         "english": "to refute, to rebut"
       },
       "partOfSpeech": "verb",
-      "forms": ["weerlegde", "weerlegd", "weerlegt"],
+      "forms": [
+        "weerlegde",
+        "weerlegd",
+        "weerlegt"
+      ],
       "level": "B2",
       "conjugations": {
-        "present": ["weerleg", "weerlegt", "weerlegt", "weerleggen", "weerleggen", "weerleggen"],
-        "past": ["weerlegde", "weerlegde", "weerlegde", "weerlegden", "weerlegden", "weerlegden"],
-        "perfect": ["heb weerlegd", "hebt weerlegd", "heeft weerlegd", "hebben weerlegd", "hebben weerlegd", "hebben weerlegd"],
-        "future": ["zal weerleggen", "zult weerleggen", "zult weerleggen", "zullen weerleggen", "zullen weerleggen", "zullen weerleggen"],
-        "conditional": ["zou weerleggen", "zou weerleggen", "zou weerleggen", "zouden weerleggen", "zouden weerleggen", "zouden weerleggen"],
-        "imperative": ["weerleg", "weerlegt", "weerleggen"]
+        "present": [
+          "weerleg",
+          "weerlegt",
+          "weerlegt",
+          "weerleggen",
+          "weerleggen",
+          "weerleggen"
+        ],
+        "past": [
+          "weerlegde",
+          "weerlegde",
+          "weerlegde",
+          "weerlegden",
+          "weerlegden",
+          "weerlegden"
+        ],
+        "perfect": [
+          "heb weerlegd",
+          "hebt weerlegd",
+          "heeft weerlegd",
+          "hebben weerlegd",
+          "hebben weerlegd",
+          "hebben weerlegd"
+        ],
+        "future": [
+          "zal weerleggen",
+          "zult weerleggen",
+          "zult weerleggen",
+          "zullen weerleggen",
+          "zullen weerleggen",
+          "zullen weerleggen"
+        ],
+        "conditional": [
+          "zou weerleggen",
+          "zou weerleggen",
+          "zou weerleggen",
+          "zouden weerleggen",
+          "zouden weerleggen",
+          "zouden weerleggen"
+        ],
+        "imperative": [
+          "weerleg",
+          "weerlegt",
+          "weerleggen"
+        ]
       },
       "examples": [
         "De advocaat weerlegde alle aanklachten van de aanklager.",
@@ -557,15 +757,58 @@
         "english": "to flow away, to drain"
       },
       "partOfSpeech": "verb",
-      "forms": ["stroomde weg", "weggestroomd", "stroomt weg"],
+      "forms": [
+        "stroomde weg",
+        "weggestroomd",
+        "stroomt weg"
+      ],
       "level": "B2",
       "conjugations": {
-        "present": ["stroom weg", "stroomt weg", "stroomt weg", "stromen weg", "stromen weg", "stromen weg"],
-        "past": ["stroomde weg", "stroomde weg", "stroomde weg", "stroomden weg", "stroomden weg", "stroomden weg"],
-        "perfect": ["ben weggestroomd", "bent weggestroomd", "is weggestroomd", "zijn weggestroomd", "zijn weggestroomd", "zijn weggestroomd"],
-        "future": ["zal wegstromen", "zult wegstromen", "zult wegstromen", "zullen wegstromen", "zullen wegstromen", "zullen wegstromen"],
-        "conditional": ["zou wegstromen", "zou wegstromen", "zou wegstromen", "zouden wegstromen", "zouden wegstromen", "zouden wegstromen"],
-        "imperative": ["stroom weg", "stroomt weg", "stromen weg"]
+        "present": [
+          "stroom weg",
+          "stroomt weg",
+          "stroomt weg",
+          "stromen weg",
+          "stromen weg",
+          "stromen weg"
+        ],
+        "past": [
+          "stroomde weg",
+          "stroomde weg",
+          "stroomde weg",
+          "stroomden weg",
+          "stroomden weg",
+          "stroomden weg"
+        ],
+        "perfect": [
+          "ben weggestroomd",
+          "bent weggestroomd",
+          "is weggestroomd",
+          "zijn weggestroomd",
+          "zijn weggestroomd",
+          "zijn weggestroomd"
+        ],
+        "future": [
+          "zal wegstromen",
+          "zult wegstromen",
+          "zult wegstromen",
+          "zullen wegstromen",
+          "zullen wegstromen",
+          "zullen wegstromen"
+        ],
+        "conditional": [
+          "zou wegstromen",
+          "zou wegstromen",
+          "zou wegstromen",
+          "zouden wegstromen",
+          "zouden wegstromen",
+          "zouden wegstromen"
+        ],
+        "imperative": [
+          "stroom weg",
+          "stroomt weg",
+          "stromen weg"
+        ]
       },
       "examples": [
         "Het water stroomde weg via de put.",
@@ -646,7 +889,9 @@
         "english": "continent"
       },
       "partOfSpeech": "noun",
-      "forms": ["werelddelen"],
+      "forms": [
+        "werelddelen"
+      ],
       "level": "B2",
       "examples": [
         "Afrika is een werelddeel met veel verschillende culturen.",
@@ -700,15 +945,57 @@
         "english": "to dedicate to, to devote to"
       },
       "partOfSpeech": "phrasal verb",
-      "forms": ["wijdde aan", "wijd"],
+      "forms": [
+        "wijdde aan",
+        "wijd"
+      ],
       "level": "B2",
       "conjugations": {
-        "present": ["wijd aan", "wijd aan", "wijd aan", "wijd aan", "wijd aan", "wijd aan"],
-        "past": ["wijdde aan", "wijdde aan", "wijdde aan", "wijdde aan", "wijdde aan", "wijdde aan"],
-        "perfect": ["heb gewijd", "hebt gewijd", "heeft gewijd", "hebben gewijd", "hebben gewijd", "hebben gewijd"],
-        "future": ["zal wijden aan", "zult wijden aan", "zult wijden aan", "zullen wijden aan", "zullen wijden aan", "zullen wijden aan"],
-        "conditional": ["zou wijden aan", "zou wijden aan", "zou wijden aan", "zouden wijden aan", "zouden wijden aan", "zouden wijden aan"],
-        "imperative": ["wijd aan", "wijd aan", "wijd aan"]
+        "present": [
+          "wijd aan",
+          "wijd aan",
+          "wijd aan",
+          "wijd aan",
+          "wijd aan",
+          "wijd aan"
+        ],
+        "past": [
+          "wijdde aan",
+          "wijdde aan",
+          "wijdde aan",
+          "wijdde aan",
+          "wijdde aan",
+          "wijdde aan"
+        ],
+        "perfect": [
+          "heb gewijd",
+          "hebt gewijd",
+          "heeft gewijd",
+          "hebben gewijd",
+          "hebben gewijd",
+          "hebben gewijd"
+        ],
+        "future": [
+          "zal wijden aan",
+          "zult wijden aan",
+          "zult wijden aan",
+          "zullen wijden aan",
+          "zullen wijden aan",
+          "zullen wijden aan"
+        ],
+        "conditional": [
+          "zou wijden aan",
+          "zou wijden aan",
+          "zou wijden aan",
+          "zouden wijden aan",
+          "zouden wijden aan",
+          "zouden wijden aan"
+        ],
+        "imperative": [
+          "wijd aan",
+          "wijd aan",
+          "wijd aan"
+        ]
       },
       "examples": [
         "Ze wijdde haar leven aan het helpen van anderen.",
@@ -735,7 +1022,9 @@
         "english": "index finger"
       },
       "partOfSpeech": "noun",
-      "forms": ["wijsvingers"],
+      "forms": [
+        "wijsvingers"
+      ],
       "level": "B2",
       "examples": [
         "Ze wees met haar wijsvinger naar de kaart.",
@@ -762,7 +1051,9 @@
         "english": "complete stranger"
       },
       "partOfSpeech": "noun/adjective",
-      "forms": ["wildvreemden"],
+      "forms": [
+        "wildvreemden"
+      ],
       "level": "B2",
       "examples": [
         "Een wildvreemde bood me aan om me te helpen.",
@@ -789,7 +1080,10 @@
         "english": "random, arbitrary"
       },
       "partOfSpeech": "adjective",
-      "forms": ["willekeuriger", "willekeurigst"],
+      "forms": [
+        "willekeuriger",
+        "willekeurigst"
+      ],
       "level": "B2",
       "examples": [
         "We hebben een willekeurige steekproef genomen van de bevolking.",
@@ -816,7 +1110,9 @@
         "english": "wind direction, wind region"
       },
       "partOfSpeech": "noun",
-      "forms": ["windstreken"],
+      "forms": [
+        "windstreken"
+      ],
       "level": "B2",
       "examples": [
         "De windstreek is noordwest vandaag.",
@@ -843,7 +1139,10 @@
         "english": "profitable"
       },
       "partOfSpeech": "adjective",
-      "forms": ["winstgevender", "winstgevendst"],
+      "forms": [
+        "winstgevender",
+        "winstgevendst"
+      ],
       "level": "B2",
       "examples": [
         "Het bedrijf is winstgevend ondanks de economische crisis.",
@@ -870,7 +1169,10 @@
         "english": "wonderful, strange"
       },
       "partOfSpeech": "adjective",
-      "forms": ["wonderlijker", "wonderlijkst"],
+      "forms": [
+        "wonderlijker",
+        "wonderlijkst"
+      ],
       "level": "B2",
       "examples": [
         "Het is wonderlijk hoe snel de technologie verandert.",
@@ -897,7 +1199,9 @@
         "english": "living space, housing"
       },
       "partOfSpeech": "noun",
-      "forms": ["woonruimtes"],
+      "forms": [
+        "woonruimtes"
+      ],
       "level": "B2",
       "examples": [
         "Er is een tekort aan woonruimte in de grote steden.",
@@ -924,7 +1228,9 @@
         "english": "dictionary"
       },
       "partOfSpeech": "noun",
-      "forms": ["woordenboeken"],
+      "forms": [
+        "woordenboeken"
+      ],
       "level": "B2",
       "examples": [
         "Ik gebruik het woordenboek om nieuwe woorden op te zoeken.",
@@ -951,7 +1257,10 @@
         "english": "gentle, mild"
       },
       "partOfSpeech": "adjective",
-      "forms": ["zachtaardiger", "zachtaardigst"],
+      "forms": [
+        "zachtaardiger",
+        "zachtaardigst"
+      ],
       "level": "B2",
       "examples": [
         "Hij is een zachtaardig mens die nooit boos wordt.",
@@ -978,7 +1287,9 @@
         "english": "grain of sand"
       },
       "partOfSpeech": "noun",
-      "forms": ["zandkorrels"],
+      "forms": [
+        "zandkorrels"
+      ],
       "level": "B2",
       "examples": [
         "Een enkele zandkorrel kan de hele sfeer bederven.",
@@ -1005,7 +1316,9 @@
         "english": "mermaid"
       },
       "partOfSpeech": "noun",
-      "forms": ["zeemeerminnen"],
+      "forms": [
+        "zeemeerminnen"
+      ],
       "level": "B2",
       "examples": [
         "Kinderen houden van verhalen over zeemeerminnen.",
@@ -1113,7 +1426,10 @@
         "english": "self-conscious, confident"
       },
       "partOfSpeech": "adjective",
-      "forms": ["zelfbewuster", "zelfbewustst"],
+      "forms": [
+        "zelfbewuster",
+        "zelfbewustst"
+      ],
       "level": "B2",
       "examples": [
         "Ze is een zelfbewuste vrouw die weet wat ze wil.",
@@ -1194,7 +1510,10 @@
         "english": "selfish"
       },
       "partOfSpeech": "adjective",
-      "forms": ["zelfzuchtiger", "zelfzuchtigst"],
+      "forms": [
+        "zelfzuchtiger",
+        "zelfzuchtigst"
+      ],
       "level": "B2",
       "examples": [
         "Het is zelfzuchtig om alleen aan jezelf te denken.",
@@ -1214,33 +1533,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 5715,
-      "word": "zenuwachtig",
-      "translation": {
-        "chinese": "紧张的",
-        "english": "nervous"
-      },
-      "partOfSpeech": "adjective",
-      "forms": ["zenuwachtiger", "zenuwachtigst"],
-      "level": "B2",
-      "examples": [
-        "Ik was erg zenuwachtig voor het sollicitatiegesprek.",
-        "Ze wordt zenuwachtig voor grote bijeenkomsten."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "面试前我非常紧张。",
-          "她在大型聚会前会紧张。"
-        ],
-        "english": [
-          "I was very nervous before the job interview.",
-          "She gets nervous before big gatherings."
-        ]
-      },
-      "notes": "形容词，表示紧张或不安的状态",
-      "difficulty": "B1"
-    },
-    {
       "id": 5716,
       "word": "zich uiten",
       "translation": {
@@ -1248,15 +1540,58 @@
         "english": "to express oneself"
       },
       "partOfSpeech": "reflexive verb",
-      "forms": ["uitte zich uit", "uit zich uit", "uit zich uit"],
+      "forms": [
+        "uitte zich uit",
+        "uit zich uit",
+        "uit zich uit"
+      ],
       "level": "B2",
       "conjugations": {
-        "present": ["uit me uit", "uit je uit", "uit zich uit", "uiten ons uit", "uiten jullie uit", "uiten zich uit"],
-        "past": ["uitte me uit", "uitte je uit", "uitte zich uit", "uitten ons uit", "uitten jullie uit", "uitten zich uit"],
-        "perfect": ["heb me uitgedrukt", "hebt je uitgedrukt", "heeft zich uitgedrukt", "hebben ons uitgedrukt", "hebben jullie uitgedrukt", "hebben zich uitgedrukt"],
-        "future": ["zal me uitdrukken", "zult je uitdrukken", "zult zich uitdrukken", "zullen ons uitdrukken", "zullen jullie uitdrukken", "zullen zich uitdrukken"],
-        "conditional": ["zou me uitdrukken", "zou je uitdrukken", "zou zich uitdrukken", "zouden ons uitdrukken", "zouden jullie uitdrukken", "zouden zich uitdrukken"],
-        "imperative": ["uit je uit", "uit zich uit", "uiten zich uit"]
+        "present": [
+          "uit me uit",
+          "uit je uit",
+          "uit zich uit",
+          "uiten ons uit",
+          "uiten jullie uit",
+          "uiten zich uit"
+        ],
+        "past": [
+          "uitte me uit",
+          "uitte je uit",
+          "uitte zich uit",
+          "uitten ons uit",
+          "uitten jullie uit",
+          "uitten zich uit"
+        ],
+        "perfect": [
+          "heb me uitgedrukt",
+          "hebt je uitgedrukt",
+          "heeft zich uitgedrukt",
+          "hebben ons uitgedrukt",
+          "hebben jullie uitgedrukt",
+          "hebben zich uitgedrukt"
+        ],
+        "future": [
+          "zal me uitdrukken",
+          "zult je uitdrukken",
+          "zult zich uitdrukken",
+          "zullen ons uitdrukken",
+          "zullen jullie uitdrukken",
+          "zullen zich uitdrukken"
+        ],
+        "conditional": [
+          "zou me uitdrukken",
+          "zou je uitdrukken",
+          "zou zich uitdrukken",
+          "zouden ons uitdrukken",
+          "zouden jullie uitdrukken",
+          "zouden zich uitdrukken"
+        ],
+        "imperative": [
+          "uit je uit",
+          "uit zich uit",
+          "uiten zich uit"
+        ]
       },
       "examples": [
         "Het is belangrijk om je gevoelens te leren uiten.",
@@ -1283,15 +1618,58 @@
         "english": "to dedicate oneself, to devote oneself"
       },
       "partOfSpeech": "reflexive verb",
-      "forms": ["wijdde zich aan", "zich gewijd", "zich gewijd"],
+      "forms": [
+        "wijdde zich aan",
+        "zich gewijd",
+        "zich gewijd"
+      ],
       "level": "B2",
       "conjugations": {
-        "present": ["wijd me", "wijd je", "wijd zich", "widden ons", "widden jullie", "widden zich"],
-        "past": ["wijdde me", "wijdde je", "wijdde zich", "wijdde ons", "wijdde jullie", "wijdde zich"],
-        "perfect": ["heb me gewijd", "hebt je gewijd", "heeft zich gewijd", "hebben ons gewijd", "hebben jullie gewijd", "hebben zich gewijd"],
-        "future": ["zal me wijden", "zult je wijden", "zult zich wijden", "zullen ons wijden", "zullen jullie wijden", "zullen zich wijden"],
-        "conditional": ["zou me wijden", "zou je wijden", "zou zich wijden", "zouden ons wijden", "zouden jullie wijden", "zouden zich wijden"],
-        "imperative": ["wijd je", "wijd zich", "widden zich"]
+        "present": [
+          "wijd me",
+          "wijd je",
+          "wijd zich",
+          "widden ons",
+          "widden jullie",
+          "widden zich"
+        ],
+        "past": [
+          "wijdde me",
+          "wijdde je",
+          "wijdde zich",
+          "wijdde ons",
+          "wijdde jullie",
+          "wijdde zich"
+        ],
+        "perfect": [
+          "heb me gewijd",
+          "hebt je gewijd",
+          "heeft zich gewijd",
+          "hebben ons gewijd",
+          "hebben jullie gewijd",
+          "hebben zich gewijd"
+        ],
+        "future": [
+          "zal me wijden",
+          "zult je wijden",
+          "zult zich wijden",
+          "zullen ons wijden",
+          "zullen jullie wijden",
+          "zullen zich wijden"
+        ],
+        "conditional": [
+          "zou me wijden",
+          "zou je wijden",
+          "zou zich wijden",
+          "zouden ons wijden",
+          "zouden jullie wijden",
+          "zouden zich wijden"
+        ],
+        "imperative": [
+          "wijd je",
+          "wijd zich",
+          "widden zich"
+        ]
       },
       "examples": [
         "Hij wijdde zich aan het schrijven van romans.",
@@ -1318,7 +1696,9 @@
         "english": "sick leave report, sick note"
       },
       "partOfSpeech": "noun",
-      "forms": ["ziekmeldingen"],
+      "forms": [
+        "ziekmeldingen"
+      ],
       "level": "B2",
       "examples": [
         "De manager ontving drie ziekmeldingen vandaag.",
@@ -1345,7 +1725,9 @@
         "english": "germ, pathogen"
       },
       "partOfSpeech": "noun",
-      "forms": ["ziektekiemen"],
+      "forms": [
+        "ziektekiemen"
+      ],
       "level": "B2",
       "examples": [
         "De dokter heeft de ziektekiem in het bloed gevonden.",
@@ -1372,7 +1754,9 @@
         "english": "viewpoint, perspective"
       },
       "partOfSpeech": "noun",
-      "forms": ["zienswijzen"],
+      "forms": [
+        "zienswijzen"
+      ],
       "level": "B2",
       "examples": [
         "Iedereen heeft een eigen zienswijze over dit probleem.",
@@ -1399,7 +1783,10 @@
         "english": "sensory, sensual"
       },
       "partOfSpeech": "adjective",
-      "forms": ["zintuiglijker", "zintuiglijkst"],
+      "forms": [
+        "zintuiglijker",
+        "zintuiglijkst"
+      ],
       "level": "B2",
       "examples": [
         "De kunstwerk is een zintuiglijke ervaring.",
@@ -1426,7 +1813,9 @@
         "english": "court day, session day"
       },
       "partOfSpeech": "noun",
-      "forms": ["zittingsdagen"],
+      "forms": [
+        "zittingsdagen"
+      ],
       "level": "B2",
       "examples": [
         "De rechtbank heeft volgende week drie zittingsdagen.",
@@ -1453,7 +1842,9 @@
         "english": "search engine"
       },
       "partOfSpeech": "noun",
-      "forms": ["zoekmachines"],
+      "forms": [
+        "zoekmachines"
+      ],
       "level": "B2",
       "examples": [
         "Google is de populairste zoekmachine ter wereld.",
@@ -1480,7 +1871,9 @@
         "english": "freckle"
       },
       "partOfSpeech": "noun",
-      "forms": ["zomersproeten"],
+      "forms": [
+        "zomersproeten"
+      ],
       "level": "B2",
       "examples": [
         "Zij heeft veel zomersproeten in haar gezicht.",
@@ -1507,7 +1900,9 @@
         "english": "solar panel"
       },
       "partOfSpeech": "noun",
-      "forms": ["zonnepanelen"],
+      "forms": [
+        "zonnepanelen"
+      ],
       "level": "B2",
       "examples": [
         "Wij hebben zonnepanelen op ons dak laten installeren.",
@@ -1561,15 +1956,58 @@
         "english": "to care for, to take care of"
       },
       "partOfSpeech": "phrasal verb",
-      "forms": ["zorgde voor", "zorgd", "zorgt"],
+      "forms": [
+        "zorgde voor",
+        "zorgd",
+        "zorgt"
+      ],
       "level": "B2",
       "conjugations": {
-        "present": ["zorg voor", "zorgt voor", "zorgt voor", "zorgen voor", "zorgen voor", "zorgen voor"],
-        "past": ["zorgde voor", "zorgde voor", "zorgde voor", "zorgden voor", "zorgden voor", "zorgden voor"],
-        "perfect": ["heb gezorgd voor", "hebt gezorgd voor", "heeft gezorgd voor", "hebben gezorgd voor", "hebben gezorgd voor", "hebben gezorgd voor"],
-        "future": ["zal zorgen voor", "zult zorgen voor", "zult zorgen voor", "zullen zorgen voor", "zullen zorgen voor", "zullen zorgen voor"],
-        "conditional": ["zou zorgen voor", "zou zorgen voor", "zou zorgen voor", "zouden zorgen voor", "zouden zorgen voor", "zouden zorgen voor"],
-        "imperative": ["zorg voor", "zorgt voor", "zorgen voor"]
+        "present": [
+          "zorg voor",
+          "zorgt voor",
+          "zorgt voor",
+          "zorgen voor",
+          "zorgen voor",
+          "zorgen voor"
+        ],
+        "past": [
+          "zorgde voor",
+          "zorgde voor",
+          "zorgde voor",
+          "zorgden voor",
+          "zorgden voor",
+          "zorgden voor"
+        ],
+        "perfect": [
+          "heb gezorgd voor",
+          "hebt gezorgd voor",
+          "heeft gezorgd voor",
+          "hebben gezorgd voor",
+          "hebben gezorgd voor",
+          "hebben gezorgd voor"
+        ],
+        "future": [
+          "zal zorgen voor",
+          "zult zorgen voor",
+          "zult zorgen voor",
+          "zullen zorgen voor",
+          "zullen zorgen voor",
+          "zullen zorgen voor"
+        ],
+        "conditional": [
+          "zou zorgen voor",
+          "zou zorgen voor",
+          "zou zorgen voor",
+          "zouden zorgen voor",
+          "zouden zorgen voor",
+          "zouden zorgen voor"
+        ],
+        "imperative": [
+          "zorg voor",
+          "zorgt voor",
+          "zorgen voor"
+        ]
       },
       "examples": [
         "Hij zorgt goed voor zijn oude moeder.",
@@ -1596,7 +2034,10 @@
         "english": "careful, meticulous"
       },
       "partOfSpeech": "adjective",
-      "forms": ["zorgvuldiger", "zorgvuldigst"],
+      "forms": [
+        "zorgvuldiger",
+        "zorgvuldigst"
+      ],
       "level": "B2",
       "examples": [
         "Het werk moet zorgvuldig worden uitgevoerd.",
