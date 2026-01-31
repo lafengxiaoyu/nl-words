@@ -325,7 +325,14 @@
         "english": "chickenpox"
       },
       "partOfSpeech": "noun",
-      "forms": [],
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "-",
+          "plural": "waterpokken",
+          "pluralOnly": true
+        }
+      },
       "level": "B2",
       "examples": [
         "Mijn zoon had waterpokken toen hij zes jaar oud was.",
@@ -410,7 +417,15 @@
         "english": "mutual, reciprocal"
       },
       "partOfSpeech": "adjective",
-      "forms": [],
+      "forms": {
+        "adjective": {
+          "base": "wederkerig",
+          "withDe": "wederkerige",
+          "withHet": "wederkerig",
+          "comparative": "wederkeriger",
+          "superlative": "het wederkerigst"
+        }
+      },
       "level": "B2",
       "examples": [
         "Het wederkerig vertrouwen is belangrijk voor een goede relatie.",
@@ -437,7 +452,15 @@
         "english": "mutual, mutual to each other"
       },
       "partOfSpeech": "adjective",
-      "forms": [],
+      "forms": {
+        "adjective": {
+          "base": "wederzijds",
+          "withDe": "wederzijdse",
+          "withHet": "wederzijds",
+          "comparative": "wederzijdser",
+          "superlative": "het wederzijds"
+        }
+      },
       "level": "B2",
       "examples": [
         "Er is wederzijds respect tussen de twee landen.",
@@ -835,7 +858,15 @@
         "english": "sincere, well-meant"
       },
       "partOfSpeech": "adjective",
-      "forms": [],
+      "forms": {
+        "adjective": {
+          "base": "welgemeend",
+          "withDe": "welgemeende",
+          "withHet": "welgemeend",
+          "comparative": "-",
+          "superlative": "-"
+        }
+      },
       "level": "B2",
       "examples": [
         "Ik hoop dat mijn advies welgemeend is genomen.",
@@ -1345,7 +1376,13 @@
         "english": "sea level"
       },
       "partOfSpeech": "noun",
-      "forms": [],
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zeespiegel",
+          "plural": "zeespiegels"
+        }
+      },
       "level": "B2",
       "examples": [
         "De zeespiegel stijgt door klimaatverandering.",
@@ -1372,7 +1409,13 @@
         "english": "control, influence, say"
       },
       "partOfSpeech": "noun",
-      "forms": [],
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zeggenschap",
+          "plural": "zeggenschappen"
+        }
+      },
       "level": "B2",
       "examples": [
         "De werknemers willen meer zeggenschap in het bedrijf.",
@@ -1456,7 +1499,13 @@
         "english": "suicide"
       },
       "partOfSpeech": "noun",
-      "forms": [],
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zelfdoding",
+          "plural": "zelfdodingen"
+        }
+      },
       "level": "B2",
       "examples": [
         "Hulp bij zelfdoding is een complex ethisch onderwerp.",
@@ -1483,7 +1532,15 @@
         "english": "self-driving, autonomous"
       },
       "partOfSpeech": "adjective",
-      "forms": [],
+      "forms": {
+        "adjective": {
+          "base": "zelfrijdend",
+          "withDe": "zelfrijdende",
+          "withHet": "zelfrijdend",
+          "comparative": "-",
+          "superlative": "-"
+        }
+      },
       "level": "B2",
       "examples": [
         "De toekomst ligt in zelfrijdende auto's.",
@@ -1929,7 +1986,13 @@
         "english": "sunrise"
       },
       "partOfSpeech": "noun",
-      "forms": [],
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "zonsopkomst",
+          "plural": "zonsopkomsten"
+        }
+      },
       "level": "B2",
       "examples": [
         "We stonden vroeg op om de zonsopkomst te zien.",
@@ -2064,7 +2127,15 @@
         "english": "worrying, concerning"
       },
       "partOfSpeech": "adjective",
-      "forms": [],
+      "forms": {
+        "adjective": {
+          "base": "zorgwekkend",
+          "withDe": "zorgwekkende",
+          "withHet": "zorgwekkend",
+          "comparative": "meer zorgwekkend",
+          "superlative": "meest zorgwekkend"
+        }
+      },
       "level": "B2",
       "examples": [
         "De stijgende criminaliteit is zorgwekkend.",
@@ -2091,7 +2162,15 @@
         "english": "weighty, significant"
       },
       "partOfSpeech": "adjective",
-      "forms": [],
+      "forms": {
+        "adjective": {
+          "base": "zwaarwegend",
+          "withDe": "zwaarwegende",
+          "withHet": "zwaarwegend",
+          "comparative": "meer zwaarwegend",
+          "superlative": "meest zwaarwegend"
+        }
+      },
       "level": "B2",
       "examples": [
         "Er zijn zwaarwegende redenen om de beslissing te heroverwegen.",
