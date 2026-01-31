@@ -1,6 +1,6 @@
 {
   "lessonNumber": 8,
-  "totalWords": 48,
+  "totalWords": 30,
   "words": [
     {
       "id": 4632,
@@ -288,37 +288,6 @@
     },
     {
       "id": 4641,
-      "word": "eindigheid",
-      "translation": {
-        "chinese": "有限性, 终结",
-        "english": "finitude, finiteness"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "eindigheid",
-          "plural": "eindigheden"
-        }
-      },
-      "examples": [
-        "De eindigheid van het leven.",
-        "Hij realiseerde zich de eindigheid van alles."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "生命的有限性。",
-          "他意识到万物的有限。"
-        ],
-        "english": [
-          "The finiteness of life.",
-          "He realized the finiteness of everything."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4642,
       "word": "eindstreep",
       "translation": {
         "chinese": "终点线",
@@ -349,7 +318,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4643,
+      "id": 4642,
       "word": "elementair",
       "translation": {
         "chinese": "基本的, 基础的",
@@ -381,7 +350,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4644,
+      "id": 4643,
       "word": "emancipatie",
       "translation": {
         "chinese": "解放, 解放运动",
@@ -412,40 +381,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4645,
-      "word": "emotioneren",
-      "translation": {
-        "chinese": "激动, 情绪化",
-        "english": "to become emotional, to be moved"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "emotioneren",
-          "present": "emotioneert",
-          "past": "emotioneerde",
-          "participle": "geëmotioneerd"
-        }
-      },
-      "examples": [
-        "Het verhaal maakte me emotioneren.",
-        "Ze emotioneerde bij het nieuws."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这个故事让我很激动。",
-          "听到这个消息她情绪激动。"
-        ],
-        "english": [
-          "The story made me emotional.",
-          "She became emotional at the news."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4646,
+      "id": 4644,
       "word": "enigerwijze",
       "translation": {
         "chinese": "以某种方式",
@@ -475,7 +411,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4647,
+      "id": 4645,
       "word": "enthousiast",
       "translation": {
         "chinese": "热情的, 热心的",
@@ -507,7 +443,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4648,
+      "id": 4646,
       "word": "epicentrum",
       "translation": {
         "chinese": "震中, 中心",
@@ -538,7 +474,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4649,
+      "id": 4647,
       "word": "equivalent",
       "translation": {
         "chinese": "相当的, 等价的",
@@ -570,7 +506,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4650,
+      "id": 4648,
       "word": "erkentelijk",
       "translation": {
         "chinese": "感激的, 感谢的",
@@ -602,7 +538,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4651,
+      "id": 4649,
       "word": "ertussenuit",
       "translation": {
         "chinese": "退出, 撤退",
@@ -632,7 +568,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4652,
+      "id": 4650,
       "word": "esthetisch",
       "translation": {
         "chinese": "美学的, 审美的",
@@ -664,7 +600,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4653,
+      "id": 4651,
       "word": "etensresten",
       "translation": {
         "chinese": "食物残渣, 剩菜",
@@ -695,73 +631,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4654,
-      "word": "excelleren",
-      "translation": {
-        "chinese": "卓越, 超群",
-        "english": "to excel, to stand out"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "excelleren",
-          "present": "excelleert",
-          "past": "exceleerde",
-          "participle": "geëxceleerd"
-        }
-      },
-      "examples": [
-        "Hij excelleert in wiskunde.",
-        "Ze excelleert in haar werk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他在数学方面卓越。",
-          "她在工作中超群。"
-        ],
-        "english": [
-          "He excels in mathematics.",
-          "She excels in her work."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4655,
-      "word": "exploderen",
-      "translation": {
-        "chinese": "爆炸",
-        "english": "to explode"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "exploderen",
-          "present": "expodeert",
-          "past": "expodeerde",
-          "participle": "geexplodeerd"
-        }
-      },
-      "examples": [
-        "De bom explodeerde.",
-        "De discussie explodeerde."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "炸弹爆炸了。",
-          "争论爆发了。"
-        ],
-        "english": [
-          "The bomb exploded.",
-          "The discussion exploded."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4656,
+      "id": 4652,
       "word": "factureren",
       "translation": {
         "chinese": "开账单, 开发票",
@@ -794,103 +664,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4657,
-      "word": "familieboek",
-      "translation": {
-        "chinese": "家谱, 家庭簿",
-        "english": "family book, genealogy book"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "familieboek",
-          "plural": "familieboeken"
-        }
-      },
-      "examples": [
-        "In het familieboek staat onze geschiedenis.",
-        "Ze schrijft een familieboek."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "家谱里记载着我们的历史。",
-          "她在写一本家谱书。"
-        ],
-        "english": [
-          "Our history is in the family book.",
-          "She is writing a family book."
-        ]
-      },
-      "notes": "中性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4658,
-      "word": "fantaseren",
-      "translation": {
-        "chinese": "幻想, 想象",
-        "english": "to fantasize, to daydream"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "fantaseren",
-          "present": "fantaseert",
-          "past": "fantaseerde",
-          "participle": "gefantaseerd"
-        }
-      },
-      "examples": [
-        "Hij fantaseert over reizen.",
-        "Ze fantaseert vaak."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他幻想旅行。",
-          "她经常幻想。"
-        ],
-        "english": [
-          "He fantasizes about traveling.",
-          "She fantasizes often."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4659,
-      "word": "fantastisch",
-      "translation": {
-        "chinese": "极好的, 奇妙的",
-        "english": "fantastic, wonderful"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "fantastisch",
-          "comparative": "fantastischer",
-          "superlative": "fantastischst"
-        }
-      },
-      "examples": [
-        "Dit is een fantastisch idee.",
-        "Ze heeft een fantastisch uitzicht."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是一个极好的主意。",
-          "她有一个奇妙的景色。"
-        ],
-        "english": [
-          "This is a fantastic idea.",
-          "She has a fantastic view."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4660,
+      "id": 4653,
       "word": "fascinerend",
       "translation": {
         "chinese": "迷人的, 引人入胜的",
@@ -922,7 +696,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4661,
+      "id": 4654,
       "word": "fatsoenlijk",
       "translation": {
         "chinese": "得体的, 体面的",
@@ -954,7 +728,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4662,
+      "id": 4655,
       "word": "feeksachtig",
       "translation": {
         "chinese": "像女巫的, 丑陋的",
@@ -986,7 +760,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4663,
+      "id": 4656,
       "word": "felbegeerd",
       "translation": {
         "chinese": "非常渴望的, 热切追求的",
@@ -1018,39 +792,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4664,
-      "word": "filosofisch",
-      "translation": {
-        "chinese": "哲学的",
-        "english": "philosophical"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "filosofisch",
-          "comparative": "filosofischer",
-          "superlative": "filosofischst"
-        }
-      },
-      "examples": [
-        "Hij heeft een filosofische kijk.",
-        "Het probleem is filosofisch van aard."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他有一种哲学观。",
-          "这个问题具有哲学性质。"
-        ],
-        "english": [
-          "He has a philosophical view.",
-          "The problem is philosophical in nature."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4665,
+      "id": 4657,
       "word": "flauwvallen",
       "translation": {
         "chinese": "昏倒, 晕厥",
@@ -1083,105 +825,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4666,
-      "word": "flinterdun",
-      "translation": {
-        "chinese": "极薄的, 薄如蝉翼的",
-        "english": "paper-thin, very thin"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "flinterdun",
-          "comparative": "flinterdunner",
-          "superlative": "flinterdunst"
-        }
-      },
-      "examples": [
-        "Het papier is flinterdun.",
-        "Ze draagt een flinterdunne jurk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "纸张极薄。",
-          "她穿着一件极薄的裙子。"
-        ],
-        "english": [
-          "The paper is paper-thin.",
-          "She wears a very thin dress."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4667,
-      "word": "fluisteren",
-      "translation": {
-        "chinese": "耳语, 低语",
-        "english": "to whisper"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "fluisteren",
-          "present": "fluistert",
-          "past": "fluisterde",
-          "participle": "gefluisterd"
-        }
-      },
-      "examples": [
-        "Ze fluisterde iets in mijn oor.",
-        "Fluister niet zo hard."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "她在我耳边低语。",
-          "不要这么大声耳语。"
-        ],
-        "english": [
-          "She whispered something in my ear.",
-          "Don't whisper so loudly."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4668,
-      "word": "formuleren",
-      "translation": {
-        "chinese": "表述, 表达",
-        "english": "to formulate, to express"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "formuleren",
-          "present": "formuleert",
-          "past": "formuleerde",
-          "participle": "geformuleerd"
-        }
-      },
-      "examples": [
-        "Formuleer je vraag duidelijk.",
-        "Ze formuleerde haar mening."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "清楚地表述你的问题。",
-          "她表达了她的观点。"
-        ],
-        "english": [
-          "Formulate your question clearly.",
-          "She expressed her opinion."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4669,
+      "id": 4658,
       "word": "fouilleren",
       "translation": {
         "chinese": "搜查, 搜身",
@@ -1214,7 +858,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4670,
+      "id": 4659,
       "word": "frauduleus",
       "translation": {
         "chinese": "欺诈的, 骗局的",
@@ -1246,7 +890,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4671,
+      "id": 4660,
       "word": "frivoliteit",
       "translation": {
         "chinese": "轻浮, 奢侈",
@@ -1277,7 +921,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4672,
+      "id": 4661,
       "word": "fruitteler",
       "translation": {
         "chinese": "果农",

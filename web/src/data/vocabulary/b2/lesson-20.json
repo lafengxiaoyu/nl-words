@@ -2,7 +2,7 @@
   "id": "b2-lesson-20",
   "level": "B2",
   "lessonNumber": 20,
-  "totalWords": 47,
+  "totalWords": 41,
   "words": [
     {
       "id": 5192,
@@ -24,8 +24,14 @@
         "De boer reinigt de paardenstal elke dag."
       ],
       "exampleTranslations": {
-        "chinese": ["马厩里的马很健康。", "农夫每天清洁马厩。"],
-        "english": ["The horses in the stable are healthy.", "The farmer cleans the stable every day."]
+        "chinese": [
+          "马厩里的马很健康。",
+          "农夫每天清洁马厩。"
+        ],
+        "english": [
+          "The horses in the stable are healthy.",
+          "The farmer cleans the stable every day."
+        ]
       },
       "notes": "复合名词,由paarden(马)+stal(厩)组成",
       "difficulty": "B2"
@@ -50,8 +56,14 @@
         "De kinderen eten pannenkoeken met stroop."
       ],
       "exampleTranslations": {
-        "chinese": ["我早餐做煎饼。", "孩子们吃糖浆煎饼。"],
-        "english": ["I make pancakes for breakfast.", "The children eat pancakes with syrup."]
+        "chinese": [
+          "我早餐做煎饼。",
+          "孩子们吃糖浆煎饼。"
+        ],
+        "english": [
+          "I make pancakes for breakfast.",
+          "The children eat pancakes with syrup."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -76,8 +88,14 @@
         "Mijn papegaai kan praten."
       ],
       "exampleTranslations": {
-        "chinese": ["笼子里的鹦鹉很吵。", "我的鹦鹉会说话。"],
-        "english": ["The parrots in the cage make a lot of noise.", "My parrot can talk."]
+        "chinese": [
+          "笼子里的鹦鹉很吵。",
+          "我的鹦鹉会说话。"
+        ],
+        "english": [
+          "The parrots in the cage make a lot of noise.",
+          "My parrot can talk."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -102,36 +120,16 @@
         "Ik heb een goede parkeerplek gevonden."
       ],
       "exampleTranslations": {
-        "chinese": ["很难找到停车位。", "我找到了一个很好的停车位。"],
-        "english": ["It's difficult to find a parking space.", "I found a good parking spot."]
+        "chinese": [
+          "很难找到停车位。",
+          "我找到了一个很好的停车位。"
+        ],
+        "english": [
+          "It's difficult to find a parking space.",
+          "I found a good parking spot."
+        ]
       },
       "notes": "复合名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5196,
-      "word": "particulier",
-      "translation": {
-        "chinese": "私人的,个人的",
-        "english": "private, personal"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "particulier",
-          "comparative": "particulierder",
-          "superlative": "particulierst"
-        }
-      },
-      "examples": [
-        "Dit is een particulier huis.",
-        "Het is een particulier initiatief."
-      ],
-      "exampleTranslations": {
-        "chinese": ["这是一所私人住宅。", "这是一个私人倡议。"],
-        "english": ["This is a private house.", "It's a private initiative."]
-      },
-      "notes": "形容词",
       "difficulty": "B2"
     },
     {
@@ -154,8 +152,14 @@
         "De pasgeboren puppy is klein en zwak."
       ],
       "exampleTranslations": {
-        "chinese": ["新生儿睡得很安稳。", "刚出生的小狗又小又弱。"],
-        "english": ["The newborn baby sleeps peacefully.", "The newborn puppy is small and weak."]
+        "chinese": [
+          "新生儿睡得很安稳。",
+          "刚出生的小狗又小又弱。"
+        ],
+        "english": [
+          "The newborn baby sleeps peacefully.",
+          "The newborn puppy is small and weak."
+        ]
       },
       "notes": "过去分词形容词形式",
       "difficulty": "B2"
@@ -196,8 +200,14 @@
         "Dit past bij mijn stijl."
       ],
       "exampleTranslations": {
-        "chinese": ["这双鞋和我的裙子很搭。", "这符合我的风格。"],
-        "english": ["The shoes match my dress.", "This suits my style."]
+        "chinese": [
+          "这双鞋和我的裙子很搭。",
+          "这符合我的风格。"
+        ],
+        "english": [
+          "The shoes match my dress.",
+          "This suits my style."
+        ]
       },
       "notes": "短语动词,不可分",
       "difficulty": "B2"
@@ -222,8 +232,14 @@
         "Vrouwen vechten tegen het patriarchaat."
       ],
       "exampleTranslations": {
-        "chinese": ["这个社会生活在父权制下。", "女性反抗父权制。"],
-        "english": ["The society lives under patriarchy.", "Women fight against patriarchy."]
+        "chinese": [
+          "这个社会生活在父权制下。",
+          "女性反抗父权制。"
+        ],
+        "english": [
+          "The society lives under patriarchy.",
+          "Women fight against patriarchy."
+        ]
       },
       "notes": "中性名词",
       "difficulty": "B2"
@@ -246,8 +262,14 @@
         "Het project wordt per direct gestopt."
       ],
       "exampleTranslations": {
-        "chinese": ["你必须立即出发。", "项目立即停止。"],
-        "english": ["You must leave immediately.", "The project is stopped immediately."]
+        "chinese": [
+          "你必须立即出发。",
+          "项目立即停止。"
+        ],
+        "english": [
+          "You must leave immediately.",
+          "The project is stopped immediately."
+        ]
       },
       "notes": "副词短语",
       "difficulty": "B2"
@@ -272,36 +294,16 @@
         "Het persbureau heeft het artikel gepubliceerd."
       ],
       "exampleTranslations": {
-        "chinese": ["新闻机构发布新闻。", "新闻机构发布了这篇文章。"],
-        "english": ["The press agency brings the news.", "The press agency published the article."]
+        "chinese": [
+          "新闻机构发布新闻。",
+          "新闻机构发布了这篇文章。"
+        ],
+        "english": [
+          "The press agency brings the news.",
+          "The press agency published the article."
+        ]
       },
       "notes": "复合名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5202,
-      "word": "persoonlijk",
-      "translation": {
-        "chinese": "个人的,私人的",
-        "english": "personal, private"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "persoonlijk",
-          "comparative": "persoonlijker",
-          "superlative": "persoonlijkst"
-        }
-      },
-      "examples": [
-        "Dit is mijn persoonlijke mening.",
-        "Het is een persoonlijke aangelegenheid."
-      ],
-      "exampleTranslations": {
-        "chinese": ["这是我个人的看法。", "这是个人事务。"],
-        "english": ["This is my personal opinion.", "It's a personal matter."]
-      },
-      "notes": "形容词",
       "difficulty": "B2"
     },
     {
@@ -324,8 +326,14 @@
         "Ze heeft een persuasieve manier van spreken."
       ],
       "exampleTranslations": {
-        "chinese": ["他的论点非常有说服力。", "她说话的方式很有说服力。"],
-        "english": ["His argument was very persuasive.", "She has a persuasive way of speaking."]
+        "chinese": [
+          "他的论点非常有说服力。",
+          "她说话的方式很有说服力。"
+        ],
+        "english": [
+          "His argument was very persuasive.",
+          "She has a persuasive way of speaking."
+        ]
       },
       "notes": "外来形容词,源自拉丁语",
       "difficulty": "B2"
@@ -350,8 +358,14 @@
         "Er is geen plek voor pestgedrag."
       ],
       "exampleTranslations": {
-        "chinese": ["学校处理了霸凌行为。", "没有霸凌行为的容身之地。"],
-        "english": ["The bullying behavior was addressed by the school.", "There is no place for bullying."]
+        "chinese": [
+          "学校处理了霸凌行为。",
+          "没有霸凌行为的容身之地。"
+        ],
+        "english": [
+          "The bullying behavior was addressed by the school.",
+          "There is no place for bullying."
+        ]
       },
       "notes": "中性名词,无复数变化",
       "difficulty": "B2"
@@ -376,8 +390,14 @@
         "Hij is te pietluttig."
       ],
       "exampleTranslations": {
-        "chinese": ["她对细节非常挑剔。", "他太挑剔了。"],
-        "english": ["She is very fussy about small details.", "He is too picky."]
+        "chinese": [
+          "她对细节非常挑剔。",
+          "他太挑剔了。"
+        ],
+        "english": [
+          "She is very fussy about small details.",
+          "He is too picky."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -402,8 +422,14 @@
         "Ik heb een pijnstiller nodig."
       ],
       "exampleTranslations": {
-        "chinese": ["医生给了她止痛药。", "我需要止痛药。"],
-        "english": ["The doctor gave her a painkiller.", "I need a painkiller."]
+        "chinese": [
+          "医生给了她止痛药。",
+          "我需要止痛药。"
+        ],
+        "english": [
+          "The doctor gave her a painkiller.",
+          "I need a painkiller."
+        ]
       },
       "notes": "复合名词",
       "difficulty": "B2"
@@ -428,8 +454,14 @@
         "Het is een plaatselijk probleem."
       ],
       "exampleTranslations": {
-        "chinese": ["干扰局限在当地。", "这是一个局部问题。"],
-        "english": ["The nuisance is locally limited.", "It's a local problem."]
+        "chinese": [
+          "干扰局限在当地。",
+          "这是一个局部问题。"
+        ],
+        "english": [
+          "The nuisance is locally limited.",
+          "It's a local problem."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -470,8 +502,14 @@
         "We moeten plaatsmaken voor nieuwe meubels."
       ],
       "exampleTranslations": {
-        "chinese": ["你愿意为这位老人让座吗?", "我们需要为新家具腾出空间。"],
-        "english": ["Will you give up your seat for the old man?", "We need to make room for new furniture."]
+        "chinese": [
+          "你愿意为这位老人让座吗?",
+          "我们需要为新家具腾出空间。"
+        ],
+        "english": [
+          "Will you give up your seat for the old man?",
+          "We need to make room for new furniture."
+        ]
       },
       "notes": "复合动词,可分",
       "difficulty": "B2"
@@ -496,8 +534,14 @@
         "Dit is een plantaardig dieet."
       ],
       "exampleTranslations": {
-        "chinese": ["我们吃植物性食物。", "这是一个植物性饮食。"],
-        "english": ["We eat plant-based food.", "This is a plant-based diet."]
+        "chinese": [
+          "我们吃植物性食物。",
+          "这是一个植物性饮食。"
+        ],
+        "english": [
+          "We eat plant-based food.",
+          "This is a plant-based diet."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -538,8 +582,14 @@
         "Het boek ligt plat op de tafel."
       ],
       "exampleTranslations": {
-        "chinese": ["工作后我躺平休息了。", "书平放在桌子上。"],
-        "english": ["After work I lay down.", "The book lies flat on the table."]
+        "chinese": [
+          "工作后我躺平休息了。",
+          "书平放在桌子上。"
+        ],
+        "english": [
+          "After work I lay down.",
+          "The book lies flat on the table."
+        ]
       },
       "notes": "短语动词",
       "difficulty": "B2"
@@ -580,8 +630,14 @@
         "Hij gooide zijn tegenstander plat."
       ],
       "exampleTranslations": {
-        "chinese": ["暴风雨把树都摧毁了。", "他打倒了对手。"],
-        "english": ["The storm knocked down the trees.", "He knocked down his opponent."]
+        "chinese": [
+          "暴风雨把树都摧毁了。",
+          "他打倒了对手。"
+        ],
+        "english": [
+          "The storm knocked down the trees.",
+          "He knocked down his opponent."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -622,36 +678,16 @@
         "De staking legde het openbaar vervoer plat."
       ],
       "exampleTranslations": {
-        "chinese": ["病毒使公司瘫痪了。", "罢工使公共交通瘫痪了。"],
-        "english": ["The virus paralyzed the company.", "The strike paralyzed public transport."]
+        "chinese": [
+          "病毒使公司瘫痪了。",
+          "罢工使公共交通瘫痪了。"
+        ],
+        "english": [
+          "The virus paralyzed the company.",
+          "The strike paralyzed public transport."
+        ]
       },
       "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5213,
-      "word": "plattegrond",
-      "translation": {
-        "chinese": "平面图,地图",
-        "english": "map, floor plan"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "plattegrond",
-          "plural": "plattegronden"
-        }
-      },
-      "examples": [
-        "Kijk even op de plattegrond.",
-        "De plattegrond laat de indeling zien."
-      ],
-      "exampleTranslations": {
-        "chinese": ["看一下地图吧。", "平面图展示了布局。"],
-        "english": ["Look at the map.", "The floor plan shows the layout."]
-      },
-      "notes": "阳性名词",
       "difficulty": "B2"
     },
     {
@@ -674,8 +710,14 @@
         "Het platteland is rustig en vredig."
       ],
       "exampleTranslations": {
-        "chinese": ["她在乡村长大。", "乡村宁静祥和。"],
-        "english": ["She grew up in the countryside.", "The countryside is peaceful and quiet."]
+        "chinese": [
+          "她在乡村长大。",
+          "乡村宁静祥和。"
+        ],
+        "english": [
+          "She grew up in the countryside.",
+          "The countryside is peaceful and quiet."
+        ]
       },
       "notes": "中性名词",
       "difficulty": "B2"
@@ -700,8 +742,14 @@
         "De pleeggezin neemt goed voor het kind."
       ],
       "exampleTranslations": {
-        "chinese": ["孩子被安置在寄养家庭。", "寄养家庭很好地照顾孩子。"],
-        "english": ["The child was placed in a foster family.", "The foster family takes good care of the child."]
+        "chinese": [
+          "孩子被安置在寄养家庭。",
+          "寄养家庭很好地照顾孩子。"
+        ],
+        "english": [
+          "The child was placed in a foster family.",
+          "The foster family takes good care of the child."
+        ]
       },
       "notes": "复合名词",
       "difficulty": "B2"
@@ -726,8 +774,14 @@
         "Zijn pleegmoeder is erg aardig."
       ],
       "exampleTranslations": {
-        "chinese": ["养母给了很多爱。", "他的养母非常善良。"],
-        "english": ["The foster mother gives much love.", "His foster mother is very kind."]
+        "chinese": [
+          "养母给了很多爱。",
+          "他的养母非常善良。"
+        ],
+        "english": [
+          "The foster mother gives much love.",
+          "His foster mother is very kind."
+        ]
       },
       "notes": "复合名词",
       "difficulty": "B2"
@@ -752,8 +806,14 @@
         "De pleegouders hebben drie pleegkinderen."
       ],
       "exampleTranslations": {
-        "chinese": ["养父母非常棒。", "养父母有三个寄养孩子。"],
-        "english": ["The foster parents are wonderful.", "The foster parents have three foster children."]
+        "chinese": [
+          "养父母非常棒。",
+          "养父母有三个寄养孩子。"
+        ],
+        "english": [
+          "The foster parents are wonderful.",
+          "The foster parents have three foster children."
+        ]
       },
       "notes": "复合名词,仅复数形式",
       "difficulty": "B2"
@@ -776,8 +836,14 @@
         "Het begon plotseling te regenen."
       ],
       "exampleTranslations": {
-        "chinese": ["他突然进来了。", "突然开始下雨了。"],
-        "english": ["He came in suddenly.", "It suddenly started raining."]
+        "chinese": [
+          "他突然进来了。",
+          "突然开始下雨了。"
+        ],
+        "english": [
+          "He came in suddenly.",
+          "It suddenly started raining."
+        ]
       },
       "notes": "副词",
       "difficulty": "B2"
@@ -802,8 +868,14 @@
         "De politiemannen patrouilleren in de straat."
       ],
       "exampleTranslations": {
-        "chinese": ["男警察帮助了我们。", "警察在街上巡逻。"],
-        "english": ["The policeman helped us.", "The police officers patrol the street."]
+        "chinese": [
+          "男警察帮助了我们。",
+          "警察在街上巡逻。"
+        ],
+        "english": [
+          "The policeman helped us.",
+          "The police officers patrol the street."
+        ]
       },
       "notes": "阳性名词,复数形式不规则",
       "difficulty": "B2"
@@ -828,8 +900,14 @@
         "Haar portemonnee zit vol met geld."
       ],
       "exampleTranslations": {
-        "chinese": ["我把钱包弄丢了。", "她的钱包装满了钱。"],
-        "english": ["I lost my wallet.", "Her wallet is full of money."]
+        "chinese": [
+          "我把钱包弄丢了。",
+          "她的钱包装满了钱。"
+        ],
+        "english": [
+          "I lost my wallet.",
+          "Her wallet is full of money."
+        ]
       },
       "notes": "阳性名词,法语外来词",
       "difficulty": "B2"
@@ -854,8 +932,14 @@
         "We moeten pragmatisch zijn."
       ],
       "exampleTranslations": {
-        "chinese": ["他的方法很务实。", "我们要务实。"],
-        "english": ["His approach is pragmatic.", "We must be pragmatic."]
+        "chinese": [
+          "他的方法很务实。",
+          "我们要务实。"
+        ],
+        "english": [
+          "His approach is pragmatic.",
+          "We must be pragmatic."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -880,8 +964,14 @@
         "De presentator is erg populair."
       ],
       "exampleTranslations": {
-        "chinese": ["主持人主持节目。", "主持人很受欢迎。"],
-        "english": ["The presenter hosts the program.", "The presenter is very popular."]
+        "chinese": [
+          "主持人主持节目。",
+          "主持人很受欢迎。"
+        ],
+        "english": [
+          "The presenter hosts the program.",
+          "The presenter is very popular."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -922,8 +1012,14 @@
         "Hij gaf zijn positie prijs."
       ],
       "exampleTranslations": {
-        "chinese": ["不要泄露你的秘密。", "他暴露了自己的位置。"],
-        "english": ["Don't reveal your secret.", "He gave away his position."]
+        "chinese": [
+          "不要泄露你的秘密。",
+          "他暴露了自己的位置。"
+        ],
+        "english": [
+          "Don't reveal your secret.",
+          "He gave away his position."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -948,8 +1044,14 @@
         "Ik won de prijsvraag."
       ],
       "exampleTranslations": {
-        "chinese": ["猜谜被解出来了。", "我赢了猜谜游戏。"],
-        "english": ["The prize question was solved.", "I won the quiz."]
+        "chinese": [
+          "猜谜被解出来了。",
+          "我赢了猜谜游戏。"
+        ],
+        "english": [
+          "The prize question was solved.",
+          "I won the quiz."
+        ]
       },
       "notes": "复合名词",
       "difficulty": "B2"
@@ -974,8 +1076,14 @@
         "Ze is prikkelbaar sinds ze ziek is."
       ],
       "exampleTranslations": {
-        "chinese": ["压力使他非常易怒。", "她生病后变得很敏感。"],
-        "english": ["He is very irritable due to stress.", "She is sensitive since she got sick."]
+        "chinese": [
+          "压力使他非常易怒。",
+          "她生病后变得很敏感。"
+        ],
+        "english": [
+          "He is very irritable due to stress.",
+          "She is sensitive since she got sick."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -1000,8 +1108,14 @@
         "Het was een prikkelende discussie."
       ],
       "exampleTranslations": {
-        "chinese": ["这本书写得很引人入胜。", "这是一个引人入胜的讨论。"],
-        "english": ["The book is written in a stimulating way.", "It was an intriguing discussion."]
+        "chinese": [
+          "这本书写得很引人入胜。",
+          "这是一个引人入胜的讨论。"
+        ],
+        "english": [
+          "The book is written in a stimulating way.",
+          "It was an intriguing discussion."
+        ]
       },
       "notes": "现在分词形容词形式",
       "difficulty": "B2"
@@ -1026,36 +1140,16 @@
         "Ik ben principieel voor gelijke rechten."
       ],
       "exampleTranslations": {
-        "chinese": ["他原则上反对这个计划。", "我原则上支持平等权利。"],
-        "english": ["He is against the plan in principle.", "I am for equal rights in principle."]
+        "chinese": [
+          "他原则上反对这个计划。",
+          "我原则上支持平等权利。"
+        ],
+        "english": [
+          "He is against the plan in principle.",
+          "I am for equal rights in principle."
+        ]
       },
       "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5228,
-      "word": "prioriteit",
-      "translation": {
-        "chinese": "优先权,优先事项",
-        "english": "priority"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "prioriteit",
-          "plural": "prioriteiten"
-        }
-      },
-      "examples": [
-        "De gezondheid is mijn prioriteit.",
-        "We moeten de prioriteiten bepalen."
-      ],
-      "exampleTranslations": {
-        "chinese": ["健康是我的优先事项。", "我们需要确定优先事项。"],
-        "english": ["Health is my priority.", "We must determine priorities."]
-      },
-      "notes": "阴性名词",
       "difficulty": "B2"
     },
     {
@@ -1078,8 +1172,14 @@
         "Ik neem dagelijks probiotica."
       ],
       "exampleTranslations": {
-        "chinese": ["益生菌对肠道有益。", "我每天服用益生菌。"],
-        "english": ["Probiotics are good for the intestines.", "I take probiotics daily."]
+        "chinese": [
+          "益生菌对肠道有益。",
+          "我每天服用益生菌。"
+        ],
+        "english": [
+          "Probiotics are good for the intestines.",
+          "I take probiotics daily."
+        ]
       },
       "notes": "复数名词,单复数同形",
       "difficulty": "B2"
@@ -1120,8 +1220,14 @@
         "Het bedrijf profileert zich als innovatief."
       ],
       "exampleTranslations": {
-        "chinese": ["他树立了自己作为专家的形象。", "公司树立了创新形象。"],
-        "english": ["He profiles himself as an expert.", "The company profiles itself as innovative."]
+        "chinese": [
+          "他树立了自己作为专家的形象。",
+          "公司树立了创新形象。"
+        ],
+        "english": [
+          "He profiles himself as an expert.",
+          "The company profiles itself as innovative."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -1162,8 +1268,14 @@
         "Hij projecteert zijn angsten op anderen."
       ],
       "exampleTranslations": {
-        "chinese": ["电影被投射到屏幕上。", "他把自己的恐惧投射到别人身上。"],
-        "english": ["The film is projected onto the screen.", "He projects his fears onto others."]
+        "chinese": [
+          "电影被投射到屏幕上。",
+          "他把自己的恐惧投射到别人身上。"
+        ],
+        "english": [
+          "The film is projected onto the screen.",
+          "He projects his fears onto others."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -1188,36 +1300,16 @@
         "Het promillage is gemeten."
       ],
       "exampleTranslations": {
-        "chinese": ["他血液中的酒精含量过高。", "酒精含量已被测量。"],
-        "english": ["The promille in his blood was too high.", "The blood alcohol level was measured."]
+        "chinese": [
+          "他血液中的酒精含量过高。",
+          "酒精含量已被测量。"
+        ],
+        "english": [
+          "The promille in his blood was too high.",
+          "The blood alcohol level was measured."
+        ]
       },
       "notes": "中性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5233,
-      "word": "propaganda",
-      "translation": {
-        "chinese": "宣传,政治宣传",
-        "english": "propaganda"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "propaganda",
-          "plural": "propaganda"
-        }
-      },
-      "examples": [
-        "Het nieuws is pure propaganda.",
-        "De regering gebruikt propaganda."
-      ],
-      "exampleTranslations": {
-        "chinese": ["这新闻纯粹是宣传。", "政府使用宣传手段。"],
-        "english": ["The news is pure propaganda.", "The government uses propaganda."]
-      },
-      "notes": "阴性名词,单复数同形",
       "difficulty": "B2"
     },
     {
@@ -1256,8 +1348,14 @@
         "Het merk propageert zijn nieuwe product."
       ],
       "exampleTranslations": {
-        "chinese": ["他们推广健康饮食。", "品牌推广新产品。"],
-        "english": ["They promote healthy eating.", "The brand promotes its new product."]
+        "chinese": [
+          "他们推广健康饮食。",
+          "品牌推广新产品。"
+        ],
+        "english": [
+          "They promote healthy eating.",
+          "The brand promotes its new product."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -1282,8 +1380,14 @@
         "Het is een provocerende act."
       ],
       "exampleTranslations": {
-        "chinese": ["他的言论很挑衅。", "这是一个挑衅的行为。"],
-        "english": ["His remark was provocative.", "It's a provocative act."]
+        "chinese": [
+          "他的言论很挑衅。",
+          "这是一个挑衅的行为。"
+        ],
+        "english": [
+          "His remark was provocative.",
+          "It's a provocative act."
+        ]
       },
       "notes": "现在分词形容词形式",
       "difficulty": "B2"
@@ -1308,8 +1412,14 @@
         "De prullenbak is vol."
       ],
       "exampleTranslations": {
-        "chinese": ["把垃圾扔进垃圾桶。", "垃圾桶满了。"],
-        "english": ["Throw the trash in the waste bin.", "The trash can is full."]
+        "chinese": [
+          "把垃圾扔进垃圾桶。",
+          "垃圾桶满了。"
+        ],
+        "english": [
+          "Throw the trash in the waste bin.",
+          "The trash can is full."
+        ]
       },
       "notes": "复合名词",
       "difficulty": "B2"
@@ -1334,52 +1444,16 @@
         "De psychiater heeft hem behandeld."
       ],
       "exampleTranslations": {
-        "chinese": ["患者去看精神科医生。", "精神科医生治疗了他。"],
-        "english": ["The patient went to the psychiatrist.", "The psychiatrist treated him."]
+        "chinese": [
+          "患者去看精神科医生。",
+          "精神科医生治疗了他。"
+        ],
+        "english": [
+          "The patient went to the psychiatrist.",
+          "The psychiatrist treated him."
+        ]
       },
       "notes": "阳性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5238,
-      "word": "publiceren",
-      "translation": {
-        "chinese": "发表,出版",
-        "english": "to publish, to release"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "publiceren",
-          "present": [
-            "ik publiceer",
-            "jij publiceert",
-            "hij/zij/het publiceert",
-            "wij publiceren",
-            "jullie publiceren",
-            "zij publiceren"
-          ],
-          "past": [
-            "ik publiceerde",
-            "jij publiceerde",
-            "hij/zij/het publiceerde",
-            "wij publiceerden",
-            "jullie publiceerden",
-            "zij publiceerden"
-          ],
-          "perfect": "ik heb gepubliceerd",
-          "participle": "gepubliceerd"
-        }
-      },
-      "examples": [
-        "Hij publiceerde zijn boek vorig jaar.",
-        "Het artikel wordt volgende week gepubliceerd."
-      ],
-      "exampleTranslations": {
-        "chinese": ["他去年出版了这本书。", "文章将于下周发表。"],
-        "english": ["He published his book last year.", "The article will be published next week."]
-      },
-      "notes": "不可分动词",
       "difficulty": "B2"
     }
   ]

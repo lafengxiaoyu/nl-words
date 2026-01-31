@@ -1,44 +1,44 @@
 {
-  "totalWords": 5005,
+  "totalWords": 3839,
   "totalLessons": 117,
   "levels": {
     "A1": {
       "level": "A1",
-      "totalWords": 758,
+      "totalWords": 615,
       "totalLessons": 15,
-      "wordsPerLesson": "50.5"
+      "wordsPerLesson": "41.0"
     },
     "A2": {
       "level": "A2",
-      "totalWords": 666,
+      "totalWords": 649,
       "totalLessons": 14,
-      "wordsPerLesson": "47.6"
+      "wordsPerLesson": "46.4"
     },
     "B1": {
       "level": "B1",
-      "totalWords": 2294,
+      "totalWords": 1552,
       "totalLessons": 57,
-      "wordsPerLesson": "40.2"
+      "wordsPerLesson": "27.2"
     },
     "B2": {
       "level": "B2",
-      "totalWords": 1287,
+      "totalWords": 1023,
       "totalLessons": 31,
-      "wordsPerLesson": "41.5"
+      "wordsPerLesson": "33.0"
     }
   },
   "partOfSpeech": {
-    "interjection": 17,
-    "phrase": 19,
-    "noun": 2425,
-    "verb": 1247,
-    "adjective": 927,
-    "preposition": 40,
-    "adverb": 189,
-    "pronoun": 31,
-    "conjunction": 22,
+    "interjection": 14,
+    "phrase": 8,
+    "noun": 1896,
+    "verb": 871,
+    "adjective": 735,
+    "preposition": 36,
+    "adverb": 151,
+    "pronoun": 30,
+    "conjunction": 13,
     "determiner": 4,
-    "numeral": 19,
+    "numeral": 17,
     "adjective,noun": 5,
     "verb,noun": 1,
     "adjective,adverb": 3,
@@ -46,7 +46,7 @@
     "verb,adjective": 1,
     "noun,adjective": 5,
     "noun phrase": 2,
-    "adverb phrase": 2,
+    "adverb phrase": 1,
     "adjective phrase": 1,
     "adverbial phrase": 18,
     "prepositional phrase": 1,
@@ -58,6 +58,6 @@
   "wordLength": {
     "min": 1,
     "max": 20,
-    "average": "8.25"
+    "average": "8.29"
   }
 }

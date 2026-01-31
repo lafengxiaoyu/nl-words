@@ -2,7 +2,7 @@
   "id": "lB217",
   "level": "B2",
   "lessonNumber": 17,
-  "totalWords": 30,
+  "totalWords": 45,
   "words": [
     {
       "id": 5078,
@@ -790,51 +790,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 5097,
-      "word": "ontsnappen",
-      "translation": {
-        "chinese": "逃脱",
-        "english": "to escape, to break away"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "ontsnappen",
-          "isSeparable": false,
-          "present": {
-            "ik": "snap ont",
-            "jij": "snapt ont",
-            "hij": "snapt ont",
-            "wij": "snappen ont",
-            "jullie": "snappen ont",
-            "zij": "snappen ont"
-          },
-          "past": {
-            "singular": "snapte ont",
-            "plural": "snapten ont"
-          },
-          "pastParticiple": "ontsnapt",
-          "pastParticipleAuxiliary": "zijn"
-        }
-      },
-      "examples": [
-        "De gevangenen wisten te ontsnappen.",
-        "Hij ontsnapte uit de benarde situatie."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "囚犯设法逃脱了。",
-          "他逃脱了糟糕的境地。"
-        ],
-        "english": [
-          "The prisoners managed to escape.",
-          "He escaped from the desperate situation."
-        ]
-      },
-      "notes": "不可分动词，snappen意为猛然折断",
-      "difficulty": "B2"
-    },
-    {
       "id": 5098,
       "word": "ontspringen",
       "translation": {
@@ -1047,51 +1002,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 5103,
-      "word": "ontwikkelen",
-      "translation": {
-        "chinese": "发展,展开",
-        "english": "to develop, to unfold"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "ontwikkelen",
-          "isSeparable": false,
-          "present": {
-            "ik": "wikkel ont",
-            "jij": "wikkelt ont",
-            "hij": "wikkelt ont",
-            "wij": "wikkelen ont",
-            "jullie": "wikkelen ont",
-            "zij": "wikkelen ont"
-          },
-          "past": {
-            "singular": "wikkelde ont",
-            "plural": "wikkelden ont"
-          },
-          "pastParticiple": "ontwikkeld",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Het bedrijf ontwikkelt nieuwe producten.",
-        "De situatie ontwikkelt zich snel."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "公司正在开发新产品。",
-          "局势发展得很快。"
-        ],
-        "english": [
-          "The company is developing new products.",
-          "The situation is developing quickly."
-        ]
-      },
-      "notes": "不可分动词，wikkelen意为缠绕",
-      "difficulty": "B2"
-    },
-    {
       "id": 5104,
       "word": "ontwortelen",
       "translation": {
@@ -1204,74 +1114,6 @@
         ]
       },
       "notes": "副词，增强词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5107,
-      "word": "onverwacht",
-      "translation": {
-        "chinese": "未预期的,意外",
-        "english": "unexpected, surprising"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "onverwacht",
-          "withDe": "onverwachte",
-          "withHet": "onverwachte",
-          "comparative": "onverwachter",
-          "superlative": "onverwachtst"
-        }
-      },
-      "examples": [
-        "Het is een onverwacht voorval.",
-        "Het was een onverwachte ontdekking."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是一个意外事件。",
-          "这是一个意外的发现。"
-        ],
-        "english": [
-          "It is an unexpected incident.",
-          "It was an unexpected discovery."
-        ]
-      },
-      "notes": "形容词，verwachten意为期待",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5108,
-      "word": "onverwacht",
-      "translation": {
-        "chinese": "意想不到的",
-        "english": "surprising, unforeseen"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "onverwacht",
-          "withDe": "onverwachte",
-          "withHet": "onverwachte",
-          "comparative": "onverwachter",
-          "superlative": "onverwachtst"
-        }
-      },
-      "examples": [
-        "Het nieuws kwam onverwacht.",
-        "Een onverwachte wending in het verhaal."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这个消息出乎意料。",
-          "故事出现了意想不到的转折。"
-        ],
-        "english": [
-          "The news came unexpectedly.",
-          "An unexpected twist in the story."
-        ]
-      },
-      "notes": "形容词，wachten意为等待",
       "difficulty": "B2"
     },
     {

@@ -2,7 +2,7 @@
   "id": "lB202",
   "level": "B2",
   "lessonNumber": 2,
-  "totalWords": 50,
+  "totalWords": 28,
   "words": [
     {
       "id": 4420,
@@ -311,38 +311,6 @@
     },
     {
       "id": 4429,
-      "word": "achtergrond",
-      "translation": {
-        "chinese": "背景",
-        "english": "background"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "achtergrond",
-          "plural": "achtergronden"
-        }
-      },
-      "examples": [
-        "Wat is zijn achtergrond?",
-        "De achtergrond is belangrijk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他的背景是什么？",
-          "背景很重要。"
-        ],
-        "english": [
-          "What is his background?",
-          "The background is important."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4430,
       "word": "achterhaald",
       "translation": {
         "chinese": "过时的, 落后的",
@@ -376,7 +344,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4431,
+      "id": 4430,
       "word": "achterhalen",
       "translation": {
         "chinese": "查明, 追查",
@@ -422,7 +390,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4432,
+      "id": 4431,
       "word": "achterkant",
       "translation": {
         "chinese": "背面, 后面",
@@ -454,53 +422,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4433,
-      "word": "achterlaten",
-      "translation": {
-        "chinese": "留下, 遗留",
-        "english": "to leave behind"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "achterlaten",
-          "isSeparable": true,
-          "prefix": "achter",
-          "present": {
-            "ik": "laat achter",
-            "jij": "laat achter",
-            "hij": "laat achter",
-            "wij": "laten achter",
-            "jullie": "laten achter",
-            "zij": "laten achter"
-          },
-          "past": {
-            "singular": "liet achter",
-            "plural": "lieten achter"
-          },
-          "pastParticiple": "achtergelaten",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Laat niets achter.",
-        "Hij laat een brief achter."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "不要留下任何东西。",
-          "他留下了一封信。"
-        ],
-        "english": [
-          "Leave nothing behind.",
-          "He leaves a letter behind."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4434,
+      "id": 4432,
       "word": "achterlijk",
       "translation": {
         "chinese": "落后的, 迟缓的",
@@ -534,33 +456,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4435,
-      "word": "achterover",
-      "translation": {
-        "chinese": "向后",
-        "english": "backward, back"
-      },
-      "partOfSpeech": "adverb",
-      "forms": {},
-      "examples": [
-        "Hij leunt achterover.",
-        "Ga achterover zitten."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他向后靠。",
-          "往后坐。"
-        ],
-        "english": [
-          "He leans back.",
-          "Sit back."
-        ]
-      },
-      "notes": "副词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4436,
+      "id": 4433,
       "word": "achterstand",
       "translation": {
         "chinese": "劣势, 落后",
@@ -592,7 +488,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4437,
+      "id": 4434,
       "word": "acquireren",
       "translation": {
         "chinese": "获得, 招揽",
@@ -637,39 +533,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4438,
-      "word": "actieradius",
-      "translation": {
-        "chinese": "行动半径, 范围",
-        "english": "range of action, range"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "actieradius",
-          "plural": "actieradii"
-        }
-      },
-      "examples": [
-        "De actieradius is groot.",
-        "Buiten de actieradius."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "行动范围很大。",
-          "超出范围。"
-        ],
-        "english": [
-          "The range is large.",
-          "Out of range."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4439,
+      "id": 4435,
       "word": "ademhalend",
       "translation": {
         "chinese": "呼吸的",
@@ -703,7 +567,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4440,
+      "id": 4436,
       "word": "advertentie",
       "translation": {
         "chinese": "广告",
@@ -735,39 +599,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4441,
-      "word": "afbeelding",
-      "translation": {
-        "chinese": "图像, 图片",
-        "english": "image, picture"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "afbeelding",
-          "plural": "afbeeldingen"
-        }
-      },
-      "examples": [
-        "Bekijk de afbeelding.",
-        "De afbeelding is duidelijk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "查看图片。",
-          "图片很清晰。"
-        ],
-        "english": [
-          "View the image.",
-          "The picture is clear."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4442,
+      "id": 4437,
       "word": "afbetaling",
       "translation": {
         "chinese": "分期付款",
@@ -799,7 +631,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4443,
+      "id": 4438,
       "word": "afdingen op",
       "translation": {
         "chinese": "讨价还价",
@@ -845,85 +677,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4444,
-      "word": "affiniteit",
-      "translation": {
-        "chinese": "亲和力, 兴趣",
-        "english": "affinity, interest"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "affiniteit",
-          "plural": "-"
-        }
-      },
-      "examples": [
-        "Zij heeft affiniteit met kunst.",
-        "Zijn affiniteit is groot."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "她对艺术有亲和力。",
-          "他的亲和力很大。"
-        ],
-        "english": [
-          "She has an affinity for art.",
-          "His affinity is great."
-        ]
-      },
-      "notes": "名词，搭配介词 met，不可数",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4445,
-      "word": "afgelasten",
-      "translation": {
-        "chinese": "取消",
-        "english": "to cancel"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "afgelasten",
-          "isSeparable": true,
-          "prefix": "af",
-          "present": {
-            "ik": "las af",
-            "jij": "last af",
-            "hij": "last af",
-            "wij": "lasten af",
-            "jullie": "lasten af",
-            "zij": "lasten af"
-          },
-          "past": {
-            "singular": "laste af",
-            "plural": "lasten af"
-          },
-          "pastParticiple": "afgelast",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij last de vergadering af.",
-        "Wij lasten het evenement af."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他取消了会议。",
-          "我们取消了这个活动。"
-        ],
-        "english": [
-          "He cancels the meeting.",
-          "We cancel the event."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4446,
+      "id": 4439,
       "word": "afgezonderd",
       "translation": {
         "chinese": "隔离的, 独立的",
@@ -957,133 +711,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4447,
-      "word": "afhandelen",
-      "translation": {
-        "chinese": "处理, 完成",
-        "english": "to handle, to complete"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "afhandelen",
-          "isSeparable": true,
-          "prefix": "af",
-          "present": {
-            "ik": "handel af",
-            "jij": "handelt af",
-            "hij": "handelt af",
-            "wij": "handelen af",
-            "jullie": "handelen af",
-            "zij": "handelen af"
-          },
-          "past": {
-            "singular": "handelde af",
-            "plural": "handelden af"
-          },
-          "pastParticiple": "afgehandeld",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij handelt de klacht af.",
-        "Wij handelen het af."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他处理投诉。",
-          "我们完成这件事。"
-        ],
-        "english": [
-          "He handles the complaint.",
-          "We complete this."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4448,
-      "word": "afhankelijk",
-      "translation": {
-        "chinese": "依赖的",
-        "english": "dependent"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "afhankelijk",
-          "withDe": "afhankelijke",
-          "withHet": "afhankelijke",
-          "comparative": "afhankelijker",
-          "superlative": "het afhankelijkst"
-        }
-      },
-      "examples": [
-        "Zij is afhankelijk van haar ouders.",
-        "Het resultaat is afhankelijk van het weer."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "她依赖父母。",
-          "结果取决于天气。"
-        ],
-        "english": [
-          "She is dependent on her parents.",
-          "The result is dependent on the weather."
-        ]
-      },
-      "notes": "形容词，搭配介词 van",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4449,
-      "word": "afknabbelen",
-      "translation": {
-        "chinese": "一点一点吃, 啃咬",
-        "english": "to nibble away"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "afknabbelen",
-          "isSeparable": true,
-          "prefix": "af",
-          "present": {
-            "ik": "nabbel af",
-            "jij": "nabbelt af",
-            "hij": "nabbelt af",
-            "wij": "nabbelen af",
-            "jullie": "nabbelen af",
-            "zij": "nabbelen af"
-          },
-          "past": {
-            "singular": "nabbelde af",
-            "plural": "nabbelden af"
-          },
-          "pastParticiple": "afgenabbeld",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Het kind nabbelt het brood af.",
-        "De muis nabbelt de kaas af."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "孩子一点一点吃面包。",
-          "老鼠啃咬奶酪。"
-        ],
-        "english": [
-          "The child nibbles the bread.",
-          "The mouse nibbles the cheese."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4450,
+      "id": 4440,
       "word": "afkondigen",
       "translation": {
         "chinese": "宣布, 公告",
@@ -1129,177 +757,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4451,
-      "word": "aflevering",
-      "translation": {
-        "chinese": "交货, 交付",
-        "english": "delivery"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "aflevering",
-          "plural": "afleveringen"
-        }
-      },
-      "examples": [
-        "De aflevering is op tijd.",
-        "Wij wachten op de aflevering."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "交货准时。",
-          "我们在等交货。"
-        ],
-        "english": [
-          "The delivery is on time.",
-          "We wait for the delivery."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4452,
-      "word": "afluisteren",
-      "translation": {
-        "chinese": "窃听, 偷听",
-        "english": "to tap, to eavesdrop"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "afluisteren",
-          "isSeparable": true,
-          "prefix": "af",
-          "present": {
-            "ik": "luister af",
-            "jij": "luistert af",
-            "hij": "luistert af",
-            "wij": "luisteren af",
-            "jullie": "luisteren af",
-            "zij": "luisteren af"
-          },
-          "past": {
-            "singular": "luisterde af",
-            "plural": "luisterden af"
-          },
-          "pastParticiple": "afgeluisterd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij luistert haar telefoon af.",
-        "Zij luistert het gesprek af."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他窃听她的电话。",
-          "她偷听对话。"
-        ],
-        "english": [
-          "He taps her phone.",
-          "She eavesdrops on the conversation."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4453,
-      "word": "afschaffen",
-      "translation": {
-        "chinese": "废除, 取消",
-        "english": "to abolish, to eliminate"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "afschaffen",
-          "isSeparable": true,
-          "prefix": "af",
-          "present": {
-            "ik": "schaf af",
-            "jij": "chaft af",
-            "hij": "chaft af",
-            "wij": "schaffen af",
-            "jullie": "schaffen af",
-            "zij": "schaffen af"
-          },
-          "past": {
-            "singular": "schoof af",
-            "plural": "schoven af"
-          },
-          "pastParticiple": "afgeschaft",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "De regering schaft de wet af.",
-        "Wij schaffen de belasting af."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "政府废除了法律。",
-          "我们取消税收。"
-        ],
-        "english": [
-          "The government abolishes the law.",
-          "We eliminate the tax."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4454,
-      "word": "afschermen",
-      "translation": {
-        "chinese": "屏蔽, 保护",
-        "english": "to shield, to screen off"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "afschermen",
-          "isSeparable": true,
-          "prefix": "af",
-          "present": {
-            "ik": "scherm af",
-            "jij": "schermt af",
-            "hij": "schermt af",
-            "wij": "schermen af",
-            "jullie": "schermen af",
-            "zij": "schermen af"
-          },
-          "past": {
-            "singular": "schermtte af",
-            "plural": "schermten af"
-          },
-          "pastParticiple": "afgeschermd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij schermt zijn plan af.",
-        "Zij schermt de afbeelding af."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他保护他的计划。",
-          "她屏蔽图片。"
-        ],
-        "english": [
-          "He shields his plan.",
-          "She screens off the image."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4455,
+      "id": 4441,
       "word": "afschieten",
       "translation": {
         "chinese": "射中, 射击",
@@ -1345,7 +803,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4456,
+      "id": 4442,
       "word": "afschrijven",
       "translation": {
         "chinese": "注销, 写下",
@@ -1391,7 +849,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4457,
+      "id": 4443,
       "word": "afschrikken",
       "translation": {
         "chinese": "吓退, 威慑",
@@ -1437,7 +895,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4458,
+      "id": 4444,
       "word": "afschudden",
       "translation": {
         "chinese": "抖掉, 摆脱",
@@ -1483,53 +941,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4459,
-      "word": "afschuiven",
-      "translation": {
-        "chinese": "推卸, 搪塞",
-        "english": "to shift, to push aside"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "afschuiven",
-          "isSeparable": true,
-          "prefix": "af",
-          "present": {
-            "ik": "schuif af",
-            "jij": "schuift af",
-            "hij": "schuift af",
-            "wij": "schuiven af",
-            "jullie": "schuiven af",
-            "zij": "schuiven af"
-          },
-          "past": {
-            "singular": "schoof af",
-            "plural": "schoven af"
-          },
-          "pastParticiple": "afgeschoven",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij schuift de schuld af.",
-        "Zij schuift het werk af."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他推卸责任。",
-          "她推脱工作。"
-        ],
-        "english": [
-          "He shifts the blame.",
-          "She pushes aside the work."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4460,
+      "id": 4445,
       "word": "afstraffen",
       "translation": {
         "chinese": "惩罚, 处罚",
@@ -1575,283 +987,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4461,
-      "word": "afstuderen",
-      "translation": {
-        "chinese": "毕业",
-        "english": "to graduate"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "afstuderen",
-          "isSeparable": true,
-          "prefix": "af",
-          "present": {
-            "ik": "studeer af",
-            "jij": "studeert af",
-            "hij": "studeert af",
-            "wij": "studeren af",
-            "jullie": "studeren af",
-            "zij": "studeren af"
-          },
-          "past": {
-            "singular": "studeerde af",
-            "plural": "studeerden af"
-          },
-          "pastParticiple": "afgestudeerd",
-          "pastParticipleAuxiliary": "zijn"
-        }
-      },
-      "examples": [
-        "Ik studeer volgende week af.",
-        "Hij studeerde af als arts."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我下周毕业。",
-          "他毕业当医生。"
-        ],
-        "english": [
-          "I graduate next week.",
-          "He graduated as a doctor."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4462,
-      "word": "afwentelen",
-      "translation": {
-        "chinese": "转嫁, 推卸",
-        "english": "to shift, to pass on"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "afwentelen",
-          "isSeparable": true,
-          "prefix": "af",
-          "present": {
-            "ik": "wandel af",
-            "jij": "wende af",
-            "hij": "wende af",
-            "wij": "wenden af",
-            "jullie": "wenden af",
-            "zij": "wenden af"
-          },
-          "past": {
-            "singular": "wendde af",
-            "plural": "wenden af"
-          },
-          "pastParticiple": "afgewendeld",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij wentelt de kosten af.",
-        "Zij wentelt de schuld af."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他转嫁费用。",
-          "她推卸责任。"
-        ],
-        "english": [
-          "He passes on the costs.",
-          "She shifts the blame."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4463,
-      "word": "afwisselen",
-      "translation": {
-        "chinese": "交替, 变化",
-        "english": "to alternate, to vary"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "afwisselen",
-          "isSeparable": true,
-          "prefix": "af",
-          "present": {
-            "ik": "wissel af",
-            "jij": "wisselt af",
-            "hij": "wisselt af",
-            "wij": "wisselen af",
-            "jullie": "wisselen af",
-            "zij": "wisselen af"
-          },
-          "past": {
-            "singular": "wisselde af",
-            "plural": "wisselden af"
-          },
-          "pastParticiple": "afgewisseld",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Wij wisselen werk en rust af.",
-        "Hij wisselt de taken af."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我们交替工作和休息。",
-          "他交替任务。"
-        ],
-        "english": [
-          "We alternate work and rest.",
-          "He varies the tasks."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4464,
-      "word": "afzonderen",
-      "translation": {
-        "chinese": "隔离, 分开",
-        "english": "to isolate, to separate"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "afzonderen",
-          "isSeparable": true,
-          "prefix": "af",
-          "present": {
-            "ik": "zonder af",
-            "jij": "zondert af",
-            "hij": "zondert af",
-            "wij": "zonderen af",
-            "jullie": "zonderen af",
-            "zij": "zonderen af"
-          },
-          "past": {
-            "singular": "zondertte af",
-            "plural": "zondertten af"
-          },
-          "pastParticiple": "afgezonderd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij zondert zich af.",
-        "Zij zonderde de patiënt af."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他把自己隔离起来。",
-          "她隔离了病人。"
-        ],
-        "english": [
-          "He isolates himself.",
-          "She isolates the patient."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4465,
-      "word": "al dan niet",
-      "translation": {
-        "chinese": "不管是否, 是否",
-        "english": "whether or not"
-      },
-      "partOfSpeech": "phrase",
-      "forms": {},
-      "examples": [
-        "Al dan niet aanwezig.",
-        "Al dan niet succesvol."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "无论是否出席。",
-          "无论是否成功。"
-        ],
-        "english": [
-          "Whether or not present.",
-          "Whether or not successful."
-        ]
-      },
-      "notes": "短语",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4466,
-      "word": "alarmerend",
-      "translation": {
-        "chinese": "令人担忧的, 警报的",
-        "english": "alarming"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "alarmerend",
-          "withDe": "alarmerende",
-          "withHet": "alarmerende",
-          "comparative": "-",
-          "superlative": "-"
-        }
-      },
-      "examples": [
-        "Een alarmerende stijging.",
-        "De situatie is alarmerend."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "令人担忧的上升。",
-          "情况令人担忧。"
-        ],
-        "english": [
-          "An alarming increase.",
-          "The situation is alarming."
-        ]
-      },
-      "notes": "形容词（分词形式）",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4467,
-      "word": "alarmnummer",
-      "translation": {
-        "chinese": "紧急电话, 报警电话",
-        "english": "emergency number"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "alarmnummer",
-          "plural": "alarmnummers"
-        }
-      },
-      "examples": [
-        "Bel het alarmnummer.",
-        "Het alarmnummer is 112."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "拨打紧急电话。",
-          "紧急电话是112。"
-        ],
-        "english": [
-          "Call the emergency number.",
-          "The emergency number is 112."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4468,
+      "id": 4446,
       "word": "allergisch",
       "translation": {
         "chinese": "过敏的",
@@ -1885,7 +1021,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4469,
+      "id": 4447,
       "word": "allerminst",
       "translation": {
         "chinese": "一点也不, 最不",

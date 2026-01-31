@@ -1,6 +1,6 @@
 {
   "lessonNumber": 9,
-  "totalWords": 76,
+  "totalWords": 53,
   "words": [
     {
       "id": 4680,
@@ -31,39 +31,6 @@
         ]
       },
       "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4681,
-      "word": "garanderen",
-      "translation": {
-        "chinese": "保证, 担保",
-        "english": "to guarantee, to assure"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "garanderen",
-          "present": "garandeert",
-          "past": "garandeerde",
-          "participle": "gegaraandeerd"
-        }
-      },
-      "examples": [
-        "Ik garandeer dat het werkt.",
-        "We kunnen kwaliteit garanderen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我保证这有效。",
-          "我们可以保证质量。"
-        ],
-        "english": [
-          "I guarantee that it works.",
-          "We can guarantee quality."
-        ]
-      },
-      "notes": "动词",
       "difficulty": "B2"
     },
     {
@@ -129,37 +96,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 4684,
-      "word": "geaardheid",
-      "translation": {
-        "chinese": "性格, 本性, 倾向",
-        "english": "nature, orientation, disposition"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "geaardheid",
-          "plural": "geaardheden"
-        }
-      },
-      "examples": [
-        "Zijn geaardheid is zacht.",
-        "Hij accepteert mijn geaardheid."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他的性格温和。",
-          "他接受我的本性。"
-        ],
-        "english": [
-          "His nature is gentle.",
-          "He accepts my orientation."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
       "id": 4685,
       "word": "geavanceerd",
       "translation": {
@@ -193,37 +129,6 @@
     },
     {
       "id": 4686,
-      "word": "gebarentaal",
-      "translation": {
-        "chinese": "手语",
-        "english": "sign language"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "gebarentaal",
-          "plural": "gebarentalen"
-        }
-      },
-      "examples": [
-        "Ze spreekt gebarentaal.",
-        "Ik leer gebarentaal."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "她讲手语。",
-          "我在学手语。"
-        ],
-        "english": [
-          "She speaks sign language.",
-          "I am learning sign language."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4687,
       "word": "gebeurtenis",
       "translation": {
         "chinese": "事件, 发生的事",
@@ -254,7 +159,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4688,
+      "id": 4687,
       "word": "geblesseerd",
       "translation": {
         "chinese": "受伤的",
@@ -286,7 +191,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4689,
+      "id": 4688,
       "word": "gedupeerde",
       "translation": {
         "chinese": "受害者, 受损者",
@@ -317,7 +222,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4690,
+      "id": 4689,
       "word": "gefluister",
       "translation": {
         "chinese": "耳语声, 低语",
@@ -348,7 +253,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4691,
+      "id": 4690,
       "word": "gefundeerd",
       "translation": {
         "chinese": "有根据的, 基础扎实的",
@@ -380,71 +285,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4692,
-      "word": "gehandicapt",
-      "translation": {
-        "chinese": "残疾的",
-        "english": "disabled, handicapped"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "gehandicapt",
-          "comparative": "gehandicapter",
-          "superlative": "gehandicaptst"
-        }
-      },
-      "examples": [
-        "Hij is gehandicapt.",
-        "De faciliteit is toegankelijk voor gehandicapten."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他残疾了。",
-          "这个设施对残疾人无障碍。"
-        ],
-        "english": [
-          "He is disabled.",
-          "The facility is accessible for disabled people."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
       "id": 4693,
-      "word": "gehoorzaam",
-      "translation": {
-        "chinese": "听话的, 顺从的",
-        "english": "obedient"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "gehoorzaam",
-          "comparative": "gehoorzamer",
-          "superlative": "gehoorzaamst"
-        }
-      },
-      "examples": [
-        "Het kind is gehoorzaam.",
-        "Wees gehoorzaam aan je ouders."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这个孩子很听话。",
-          "要听父母的话。"
-        ],
-        "english": [
-          "The child is obedient.",
-          "Be obedient to your parents."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4694,
       "word": "gekkigheid",
       "translation": {
         "chinese": "疯狂, 荒谬",
@@ -475,7 +316,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4695,
+      "id": 4694,
       "word": "gelden voor",
       "translation": {
         "chinese": "适用于, 对...有效",
@@ -508,68 +349,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4696,
-      "word": "gelegenheid",
-      "translation": {
-        "chinese": "机会, 场合",
-        "english": "opportunity, occasion"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "gelegenheid",
-          "plural": "gelegenheden"
-        }
-      },
-      "examples": [
-        "Ik heb gelegenheid om te spreken.",
-        "Het was een speciale gelegenheid."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我有机会发言。",
-          "这是一个特殊场合。"
-        ],
-        "english": [
-          "I have opportunity to speak.",
-          "It was a special occasion."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
       "id": 4697,
-      "word": "geleidelijk",
-      "translation": {
-        "chinese": "逐渐地",
-        "english": "gradually"
-      },
-      "partOfSpeech": "adverb",
-      "forms": {
-        "adverb": {
-          "base": "geleidelijk"
-        }
-      },
-      "examples": [
-        "Het weer verbeterde geleidelijk.",
-        "Ze geleidelijk aan begreep het."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "天气逐渐好转。",
-          "她逐渐理解了。"
-        ],
-        "english": [
-          "The weather improved gradually.",
-          "She gradually understood it."
-        ]
-      },
-      "notes": "副词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4698,
       "word": "gelijkmatig",
       "translation": {
         "chinese": "均匀的, 平稳的",
@@ -601,7 +381,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4699,
+      "id": 4698,
       "word": "geluiddicht",
       "translation": {
         "chinese": "隔音的",
@@ -633,7 +413,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4700,
+      "id": 4699,
       "word": "geluidsbox",
       "translation": {
         "chinese": "扬声器, 音箱",
@@ -664,7 +444,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4701,
+      "id": 4700,
       "word": "gemachtigde",
       "translation": {
         "chinese": "代理人, 授权人",
@@ -695,7 +475,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4702,
+      "id": 4701,
       "word": "gemakzucht",
       "translation": {
         "chinese": "懒惰, 图省事",
@@ -726,7 +506,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4703,
+      "id": 4702,
       "word": "gemeenschap",
       "translation": {
         "chinese": "社区, 共同体",
@@ -757,7 +537,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4704,
+      "id": 4703,
       "word": "gemoedelijk",
       "translation": {
         "chinese": "舒适的, 愉快的",
@@ -789,7 +569,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4705,
+      "id": 4704,
       "word": "geneeskunde",
       "translation": {
         "chinese": "医学",
@@ -820,7 +600,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4706,
+      "id": 4705,
       "word": "genegenheid",
       "translation": {
         "chinese": "喜爱, 深情",
@@ -851,7 +631,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4707,
+      "id": 4706,
       "word": "genoodzaakt",
       "translation": {
         "chinese": "被迫的, 不得不的",
@@ -883,7 +663,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4708,
+      "id": 4707,
       "word": "genootschap",
       "translation": {
         "chinese": "社团, 协会, 伙伴关系",
@@ -914,7 +694,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4709,
+      "id": 4708,
       "word": "genuanceerd",
       "translation": {
         "chinese": "细致的, 微妙的",
@@ -946,7 +726,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4710,
+      "id": 4709,
       "word": "geoorloofd",
       "translation": {
         "chinese": "允许的, 被许可的",
@@ -978,7 +758,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4711,
+      "id": 4710,
       "word": "geopolitiek",
       "translation": {
         "chinese": "地缘政治",
@@ -1010,68 +790,6 @@
     },
     {
       "id": 4712,
-      "word": "gerechtshof",
-      "translation": {
-        "chinese": "上诉法院",
-        "english": "court of appeal"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "gerechtshof",
-          "plural": "gerechtshoven"
-        }
-      },
-      "examples": [
-        "Het gerechtshof gaf gelijk.",
-        "De zaak ging naar het gerechtshof."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "上诉法院判他胜诉。",
-          "案件上诉到上诉法院。"
-        ],
-        "english": [
-          "The court of appeal ruled in his favor.",
-          "The case went to the court of appeal."
-        ]
-      },
-      "notes": "阳性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4713,
-      "word": "gereedschap",
-      "translation": {
-        "chinese": "工具",
-        "english": "tools, equipment"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "gereedschap",
-          "plural": "gereedschappen"
-        }
-      },
-      "examples": [
-        "Ik heb gereedschap nodig.",
-        "Het gereedschap ligt in de schuur."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我需要工具。",
-          "工具在棚子里。"
-        ],
-        "english": [
-          "I need tools.",
-          "The tools are in the shed."
-        ]
-      },
-      "notes": "中性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4714,
       "word": "gescheiden",
       "translation": {
         "chinese": "分开的, 分离的, 离异的",
@@ -1103,7 +821,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4715,
+      "id": 4713,
       "word": "geschieden",
       "translation": {
         "chinese": "发生, 成为历史",
@@ -1136,7 +854,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4716,
+      "id": 4714,
       "word": "geschreeuw",
       "translation": {
         "chinese": "叫喊, 喧哗",
@@ -1167,7 +885,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4717,
+      "id": 4715,
       "word": "getrouwheid",
       "translation": {
         "chinese": "忠诚",
@@ -1198,39 +916,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4718,
-      "word": "gevaarlijk",
-      "translation": {
-        "chinese": "危险的",
-        "english": "dangerous"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "gevaarlijk",
-          "comparative": "gevaarlijker",
-          "superlative": "gevaarlijkst"
-        }
-      },
-      "examples": [
-        "Dit is gevaarlijk werk.",
-        "De situatie is gevaarlijk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是危险的工作。",
-          "情况很危险。"
-        ],
-        "english": [
-          "This is dangerous work.",
-          "The situation is dangerous."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4719,
+      "id": 4717,
       "word": "gevallenen",
       "translation": {
         "chinese": "牺牲者, 死者",
@@ -1261,7 +947,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4720,
+      "id": 4718,
       "word": "gevangenis",
       "translation": {
         "chinese": "监狱",
@@ -1292,7 +978,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4721,
+      "id": 4719,
       "word": "gevarieerd",
       "translation": {
         "chinese": "多样的, 变化的",
@@ -1324,7 +1010,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4722,
+      "id": 4720,
       "word": "gewelddadig",
       "translation": {
         "chinese": "暴力的",
@@ -1356,39 +1042,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4723,
-      "word": "gewetenloos",
-      "translation": {
-        "chinese": "无良的, 无情的",
-        "english": "conscienceless, ruthless"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "gewetenloos",
-          "comparative": "gewetenlozer",
-          "superlative": "gewetenloosst"
-        }
-      },
-      "examples": [
-        "De dief was gewetenloos.",
-        "Hij voelde zich gewetenloos."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "小偷很无情。",
-          "他觉得自己无良。"
-        ],
-        "english": [
-          "The thief was ruthless.",
-          "He felt conscienceless."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4724,
+      "id": 4721,
       "word": "gewetensvol",
       "translation": {
         "chinese": "有良心的, 认真的",
@@ -1421,100 +1075,6 @@
     },
     {
       "id": 4725,
-      "word": "gezamenlijk",
-      "translation": {
-        "chinese": "共同的, 联合的",
-        "english": "joint, collective, together"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "gezamenlijk",
-          "comparative": "gezamenlijker",
-          "superlative": "gezamenlijkst"
-        }
-      },
-      "examples": [
-        "Het was een gezamenlijk project.",
-        "We beslisten gezamenlijk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是一个联合项目。",
-          "我们共同决定。"
-        ],
-        "english": [
-          "It was a joint project.",
-          "We decided together."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4726,
-      "word": "gezelschap",
-      "translation": {
-        "chinese": "陪伴, 陪伴者",
-        "english": "company, companionship"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "gezelschap",
-          "plural": "gezelschappen"
-        }
-      },
-      "examples": [
-        "Ik geniet van je gezelschap.",
-        "Zij zoekt gezelschap."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我喜欢你的陪伴。",
-          "她在找陪伴。"
-        ],
-        "english": [
-          "I enjoy your company.",
-          "She seeks companionship."
-        ]
-      },
-      "notes": "中性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4727,
-      "word": "gezondheid",
-      "translation": {
-        "chinese": "健康",
-        "english": "health"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "gezondheid",
-          "plural": "gezondheden"
-        }
-      },
-      "examples": [
-        "Gezondheid is belangrijk.",
-        "Ze heeft een goede gezondheid."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "健康很重要。",
-          "她身体健康。"
-        ],
-        "english": [
-          "Health is important.",
-          "She has good health."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4728,
       "word": "gigantisch",
       "translation": {
         "chinese": "巨大的, 庞大的",
@@ -1546,7 +1106,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4729,
+      "id": 4726,
       "word": "gironummer",
       "translation": {
         "chinese": "银行账号",
@@ -1577,7 +1137,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4730,
+      "id": 4727,
       "word": "glimlachen",
       "translation": {
         "chinese": "微笑",
@@ -1610,7 +1170,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4731,
+      "id": 4728,
       "word": "glinstering",
       "translation": {
         "chinese": "闪光, 闪烁",
@@ -1641,7 +1201,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4732,
+      "id": 4729,
       "word": "gloednieuw",
       "translation": {
         "chinese": "崭新的, 全新的",
@@ -1673,7 +1233,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4733,
+      "id": 4730,
       "word": "goeddunken",
       "translation": {
         "chinese": "认为适合, 随意",
@@ -1706,7 +1266,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4734,
+      "id": 4731,
       "word": "goedhartig",
       "translation": {
         "chinese": "好心的, 善良的",
@@ -1738,40 +1298,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4735,
-      "word": "goedkeuren",
-      "translation": {
-        "chinese": "批准, 认可",
-        "english": "to approve, to approve of"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "goedkeuren",
-          "present": "keurt goed",
-          "past": "keurde goed",
-          "participle": "goedgekeurd"
-        }
-      },
-      "examples": [
-        "De manager keurde het plan goed.",
-        "Ik keur dit goed."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "经理批准了这个计划。",
-          "我认可这个。"
-        ],
-        "english": [
-          "The manager approved the plan.",
-          "I approve of this."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4736,
+      "id": 4733,
       "word": "goedpraten",
       "translation": {
         "chinese": "为...辩护, 美化",
@@ -1804,7 +1331,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4737,
+      "id": 4734,
       "word": "goochelaar",
       "translation": {
         "chinese": "魔术师",
@@ -1835,7 +1362,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4738,
+      "id": 4735,
       "word": "gordelroos",
       "translation": {
         "chinese": "没有安全带的, 未系安全带的",
@@ -1867,7 +1394,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4739,
+      "id": 4736,
       "word": "gouverneur",
       "translation": {
         "chinese": "州长, 总督",
@@ -1898,7 +1425,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4740,
+      "id": 4737,
       "word": "grammofoon",
       "translation": {
         "chinese": "留声机",
@@ -1929,7 +1456,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4741,
+      "id": 4738,
       "word": "grenenhout",
       "translation": {
         "chinese": "松木",
@@ -1960,39 +1487,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4742,
-      "word": "grenzenloos",
-      "translation": {
-        "chinese": "无限的, 无边无际的",
-        "english": "limitless, boundless"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "grenzenloos",
-          "comparative": "grenzenlozer",
-          "superlative": "grenzenloosst"
-        }
-      },
-      "examples": [
-        "Haar liefde is grenzenloos.",
-        "De mogelijkheden zijn grenzenloos."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "她的爱是无限的。",
-          "可能性是无边的。"
-        ],
-        "english": [
-          "Her love is limitless.",
-          "The possibilities are boundless."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4743,
+      "id": 4739,
       "word": "grondgebied",
       "translation": {
         "chinese": "领土, 区域",
@@ -2023,7 +1518,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4744,
+      "id": 4740,
       "word": "grondlegger",
       "translation": {
         "chinese": "奠基人, 创始人",
@@ -2054,38 +1549,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4745,
-      "word": "groothandel",
-      "translation": {
-        "chinese": "批发",
-        "english": "wholesale"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "groothandel",
-          "plural": "groothandels"
-        }
-      },
-      "examples": [
-        "Hij werkt in de groothandel.",
-        "De groothandel verkoopt in bulk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他在批发行业工作。",
-          "批发商批量销售。"
-        ],
-        "english": [
-          "He works in wholesale.",
-          "The wholesale sells in bulk."
-        ]
-      },
-      "notes": "阳性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4746,
+      "id": 4742,
       "word": "grootmoeder",
       "translation": {
         "chinese": "祖母, 外婆",
@@ -2116,7 +1580,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4747,
+      "id": 4743,
       "word": "grootvader",
       "translation": {
         "chinese": "祖父, 外公",
@@ -2147,7 +1611,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4748,
+      "id": 4744,
       "word": "grotendeels",
       "translation": {
         "chinese": "大部分, 主要地",
@@ -2177,7 +1641,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4749,
+      "id": 4745,
       "word": "gulzigheid",
       "translation": {
         "chinese": "贪婪, 暴食",

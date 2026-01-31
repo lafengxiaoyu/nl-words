@@ -2,7 +2,7 @@
   "id": "b2-lesson-22",
   "level": "B2",
   "lessonNumber": 22,
-  "totalWords": 50,
+  "totalWords": 46,
   "words": [
     {
       "id": 5289,
@@ -24,34 +24,14 @@
         "De samenkomst was succesvol."
       ],
       "exampleTranslations": {
-        "chinese": ["聚会从十二点开始。", "聚会很成功。"],
-        "english": ["The meeting began at twelve.", "The gathering was successful."]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5290,
-      "word": "samenleving",
-      "translation": {
-        "chinese": "社会",
-        "english": "society, community"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "samenleving",
-          "plural": "samenlevingen"
-        }
-      },
-      "examples": [
-        "De samenleving verandert snel.",
-        "We leven in een samenleving."
-      ],
-      "exampleTranslations": {
-        "chinese": ["社会变化很快。", "我们生活在一个社会中。"],
-        "english": ["Society changes quickly.", "We live in a society."]
+        "chinese": [
+          "聚会从十二点开始。",
+          "聚会很成功。"
+        ],
+        "english": [
+          "The meeting began at twelve.",
+          "The gathering was successful."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -92,8 +72,14 @@
         "Hij vatte het verhaal samen."
       ],
       "exampleTranslations": {
-        "chinese": ["我会总结这篇文章。", "他概括了这个故事。"],
-        "english": ["I will summarize the article.", "He summarized the story."]
+        "chinese": [
+          "我会总结这篇文章。",
+          "他概括了这个故事。"
+        ],
+        "english": [
+          "I will summarize the article.",
+          "He summarized the story."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -134,8 +120,14 @@
         "We moeten de bestanden samenvoegen."
       ],
       "exampleTranslations": {
-        "chinese": ["这些公司已经合并了。", "我们需要合并这些文件。"],
-        "english": ["The companies have merged.", "We need to combine the files."]
+        "chinese": [
+          "这些公司已经合并了。",
+          "我们需要合并这些文件。"
+        ],
+        "english": [
+          "The companies have merged.",
+          "We need to combine the files."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -176,8 +168,14 @@
         "Zij en hij samenwonen."
       ],
       "exampleTranslations": {
-        "chinese": ["他们已经同居多年了。", "她和他同居。"],
-        "english": ["They have been living together for years.", "She and he cohabit."]
+        "chinese": [
+          "他们已经同居多年了。",
+          "她和他同居。"
+        ],
+        "english": [
+          "They have been living together for years.",
+          "She and he cohabit."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -202,8 +200,14 @@
         "Ze zei het met een sarcastische glimlach."
       ],
       "exampleTranslations": {
-        "chinese": ["他的评论很讽刺。", "她讽刺地笑着说这话。"],
-        "english": ["His remark was sarcastic.", "She said it with a sarcastic smile."]
+        "chinese": [
+          "他的评论很讽刺。",
+          "她讽刺地笑着说这话。"
+        ],
+        "english": [
+          "His remark was sarcastic.",
+          "She said it with a sarcastic smile."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -228,8 +232,14 @@
         "Het water is niet schadelijk."
       ],
       "exampleTranslations": {
-        "chinese": ["吸烟对健康有害。", "这水没有危害。"],
-        "english": ["Smoking is harmful to health.", "The water is not harmful."]
+        "chinese": [
+          "吸烟对健康有害。",
+          "这水没有危害。"
+        ],
+        "english": [
+          "Smoking is harmful to health.",
+          "The water is not harmful."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -254,8 +264,14 @@
         "De schadepost is groot."
       ],
       "exampleTranslations": {
-        "chinese": ["损失额已经计算好了。", "损失很大。"],
-        "english": ["The damage was calculated.", "The damage is significant."]
+        "chinese": [
+          "损失额已经计算好了。",
+          "损失很大。"
+        ],
+        "english": [
+          "The damage was calculated.",
+          "The damage is significant."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -280,8 +296,14 @@
         "De schakelaar werkt niet."
       ],
       "exampleTranslations": {
-        "chinese": ["按下开关。", "开关不工作。"],
-        "english": ["Press the switch.", "The switch doesn't work."]
+        "chinese": [
+          "按下开关。",
+          "开关不工作。"
+        ],
+        "english": [
+          "Press the switch.",
+          "The switch doesn't work."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -306,8 +328,14 @@
         "Het is schandelijk wat hij deed."
       ],
       "exampleTranslations": {
-        "chinese": ["这是一个可耻的行为。", "他的所作所为很可耻。"],
-        "english": ["It was a shameful act.", "What he did is shameful."]
+        "chinese": [
+          "这是一个可耻的行为。",
+          "他的所作所为很可耻。"
+        ],
+        "english": [
+          "It was a shameful act.",
+          "What he did is shameful."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -332,8 +360,14 @@
         "Zij is schappelijk betrokken."
       ],
       "exampleTranslations": {
-        "chinese": ["这是一个社会问题。", "她积极参与社会活动。"],
-        "english": ["This is a social issue.", "She is socially involved."]
+        "chinese": [
+          "这是一个社会问题。",
+          "她积极参与社会活动。"
+        ],
+        "english": [
+          "This is a social issue.",
+          "She is socially involved."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -374,8 +408,14 @@
         "De hond scharrelt aan de grond."
       ],
       "exampleTranslations": {
-        "chinese": ["鸡在院子里觅食。", "狗在抓地面。"],
-        "english": ["The chickens forage in the garden.", "The dog scratches the ground."]
+        "chinese": [
+          "鸡在院子里觅食。",
+          "狗在抓地面。"
+        ],
+        "english": [
+          "The chickens forage in the garden.",
+          "The dog scratches the ground."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -400,52 +440,16 @@
         "Scheikunde is een belangrijk vak."
       ],
       "exampleTranslations": {
-        "chinese": ["她学习化学。", "化学是一门重要的科目。"],
-        "english": ["She studies chemistry.", "Chemistry is an important subject."]
+        "chinese": [
+          "她学习化学。",
+          "化学是一门重要的科目。"
+        ],
+        "english": [
+          "She studies chemistry.",
+          "Chemistry is an important subject."
+        ]
       },
       "notes": "阴性名词,以-kunde结尾的学科名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5302,
-      "word": "schilderen",
-      "translation": {
-        "chinese": "绘画,作画",
-        "english": "to paint"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "schilderen",
-          "present": [
-            "ik schilder",
-            "jij schildert",
-            "hij/zij/het schildert",
-            "wii schilderen",
-            "jullie schilderen",
-            "zij schilderen"
-          ],
-          "past": [
-            "ik schilderde",
-            "jij schilderde",
-            "hij/zij/het schilderde",
-            "wii schilderden",
-            "jullie schilderden",
-            "zij schilderden"
-          ],
-          "perfect": "ik heb geschilderd",
-          "participle": "geschilderd"
-        }
-      },
-      "examples": [
-        "Hij schildert graag landschappen.",
-        "Zij schilderde een portret."
-      ],
-      "exampleTranslations": {
-        "chinese": ["他喜欢画风景画。", "她画了一幅肖像。"],
-        "english": ["He likes to paint landscapes.", "She painted a portrait."]
-      },
-      "notes": "不可分动词",
       "difficulty": "B2"
     },
     {
@@ -468,8 +472,14 @@
         "De schilderij is van de 17e eeuw."
       ],
       "exampleTranslations": {
-        "chinese": ["画作挂在墙上。", "这幅画来自17世纪。"],
-        "english": ["The painting hangs on the wall.", "The painting is from the 17th century."]
+        "chinese": [
+          "画作挂在墙上。",
+          "这幅画来自17世纪。"
+        ],
+        "english": [
+          "The painting hangs on the wall.",
+          "The painting is from the 17th century."
+        ]
       },
       "notes": "中性名词",
       "difficulty": "B2"
@@ -494,8 +504,14 @@
         "Het is een schitterende dag."
       ],
       "exampleTranslations": {
-        "chinese": ["太阳在天空中闪耀。", "这是灿烂的一天。"],
-        "english": ["The sun shone in the sky.", "It's a brilliant day."]
+        "chinese": [
+          "太阳在天空中闪耀。",
+          "这是灿烂的一天。"
+        ],
+        "english": [
+          "The sun shone in the sky.",
+          "It's a brilliant day."
+        ]
       },
       "notes": "现在分词形容词形式",
       "difficulty": "B2"
@@ -520,8 +536,14 @@
         "De schokdempers versleten snel."
       ],
       "exampleTranslations": {
-        "chinese": ["这辆车需要新的减震器。", "减震器磨损很快。"],
-        "english": ["The car needs new shock absorbers.", "Shock absorbers wear out quickly."]
+        "chinese": [
+          "这辆车需要新的减震器。",
+          "减震器磨损很快。"
+        ],
+        "english": [
+          "The car needs new shock absorbers.",
+          "Shock absorbers wear out quickly."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -562,8 +584,14 @@
         "De temperatuur schommelt."
       ],
       "exampleTranslations": {
-        "chinese": ["价格波动很大。", "温度波动。"],
-        "english": ["Prices fluctuate a lot.", "The temperature fluctuates."]
+        "chinese": [
+          "价格波动很大。",
+          "温度波动。"
+        ],
+        "english": [
+          "Prices fluctuate a lot.",
+          "The temperature fluctuates."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -588,8 +616,14 @@
         "De schoonheid van het schilderij."
       ],
       "exampleTranslations": {
-        "chinese": ["自然之美令人惊叹。", "画作的美丽。"],
-        "english": ["The beauty of nature is stunning.", "The beauty of the painting."]
+        "chinese": [
+          "自然之美令人惊叹。",
+          "画作的美丽。"
+        ],
+        "english": [
+          "The beauty of nature is stunning.",
+          "The beauty of the painting."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -614,8 +648,14 @@
         "Zijn schoonvader is overleden."
       ],
       "exampleTranslations": {
-        "chinese": ["我的岳父住在阿姆斯特丹。", "他的岳父已经去世了。"],
-        "english": ["My father-in-law lives in Amsterdam.", "His father-in-law has passed away."]
+        "chinese": [
+          "我的岳父住在阿姆斯特丹。",
+          "他的岳父已经去世了。"
+        ],
+        "english": [
+          "My father-in-law lives in Amsterdam.",
+          "His father-in-law has passed away."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -656,8 +696,14 @@
         "Ze veegt het bureau schoon."
       ],
       "exampleTranslations": {
-        "chinese": ["我把地板扫干净。", "她把桌子扫干净。"],
-        "english": ["I sweep the floor clean.", "She sweeps the desk clean."]
+        "chinese": [
+          "我把地板扫干净。",
+          "她把桌子扫干净。"
+        ],
+        "english": [
+          "I sweep the floor clean.",
+          "She sweeps the desk clean."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -682,52 +728,16 @@
         "Het huis heeft een nieuwe schoorsteen."
       ],
       "exampleTranslations": {
-        "chinese": ["烟囱在冒烟。", "房子有新烟囱。"],
-        "english": ["The chimney is smoking.", "The house has a new chimney."]
+        "chinese": [
+          "烟囱在冒烟。",
+          "房子有新烟囱。"
+        ],
+        "english": [
+          "The chimney is smoking.",
+          "The house has a new chimney."
+        ]
       },
       "notes": "阳性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5311,
-      "word": "schreeuwen",
-      "translation": {
-        "chinese": "叫喊,吼叫",
-        "english": "to shout, to scream"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "schreeuwen",
-          "present": [
-            "ik schreeuw",
-            "jij schreeuwt",
-            "hij/zij/het schreeuwt",
-            "wii schreeuwen",
-            "jullie schreeuwen",
-            "zij schreeuwen"
-          ],
-          "past": [
-            "ik schreeuwde",
-            "jij schreeuwde",
-            "hij/zij/het schreeuwde",
-            "wii schreeuwden",
-            "jullie schreeuwden",
-            "zij schreeuwden"
-          ],
-          "perfect": "ik heb geschreeuwd",
-          "participle": "geschreeuwd"
-        }
-      },
-      "examples": [
-        "De kinderen schreeuwden van plezier.",
-        "Hij schreeuwde van angst."
-      ],
-      "exampleTranslations": {
-        "chinese": ["孩子们开心地叫喊。", "他因恐惧而尖叫。"],
-        "english": ["The children shouted with joy.", "He screamed with fear."]
-      },
-      "notes": "不可分动词",
       "difficulty": "B2"
     },
     {
@@ -750,8 +760,14 @@
         "Het is een schrnende beslissing."
       ],
       "exampleTranslations": {
-        "chinese": ["这个差距令人痛苦。", "这是一个令人痛苦的决定。"],
-        "english": ["The difference is painful.", "It's a painful decision."]
+        "chinese": [
+          "这个差距令人痛苦。",
+          "这是一个令人痛苦的决定。"
+        ],
+        "english": [
+          "The difference is painful.",
+          "It's a painful decision."
+        ]
       },
       "notes": "现在分词形容词形式",
       "difficulty": "B2"
@@ -776,8 +792,14 @@
         "Er is een schromelijke kloof."
       ],
       "exampleTranslations": {
-        "chinese": ["这是一个严重的错误。", "有巨大的差距。"],
-        "english": ["It was a tremendous mistake.", "There is a tremendous gap."]
+        "chinese": [
+          "这是一个严重的错误。",
+          "有巨大的差距。"
+        ],
+        "english": [
+          "It was a tremendous mistake.",
+          "There is a tremendous gap."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -802,8 +824,14 @@
         "Zij is de secretaris van de vereniging."
       ],
       "exampleTranslations": {
-        "chinese": ["秘书做了笔记。", "她是协会的秘书。"],
-        "english": ["The secretary took the notes.", "She is the secretary of the association."]
+        "chinese": [
+          "秘书做了笔记。",
+          "她是协会的秘书。"
+        ],
+        "english": [
+          "The secretary took the notes.",
+          "She is the secretary of the association."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -844,8 +872,14 @@
         "Het rapport is gesegmenteerd in delen."
       ],
       "exampleTranslations": {
-        "chinese": ["我们可以对市场进行细分。", "报告分成了几个部分。"],
-        "english": ["We can segment the market.", "The report is segmented into parts."]
+        "chinese": [
+          "我们可以对市场进行细分。",
+          "报告分成了几个部分。"
+        ],
+        "english": [
+          "We can segment the market.",
+          "The report is segmented into parts."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -870,8 +904,14 @@
         "Zij noemt het seksistisch."
       ],
       "exampleTranslations": {
-        "chinese": ["这篇文章有性别歧视。", "她称这有性别歧视。"],
-        "english": ["The article was sexist.", "She calls it sexist."]
+        "chinese": [
+          "这篇文章有性别歧视。",
+          "她称这有性别歧视。"
+        ],
+        "english": [
+          "The article was sexist.",
+          "She calls it sexist."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -896,8 +936,14 @@
         "Het huis heeft een septictank."
       ],
       "exampleTranslations": {
-        "chinese": ["化粪池需要清理。", "房子有化粪池。"],
-        "english": ["The septic tank needs to be emptied.", "The house has a septic tank."]
+        "chinese": [
+          "化粪池需要清理。",
+          "房子有化粪池。"
+        ],
+        "english": [
+          "The septic tank needs to be emptied.",
+          "The house has a septic tank."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -922,8 +968,14 @@
         "De serveersters zijn vriendelijk."
       ],
       "exampleTranslations": {
-        "chinese": ["女服务员端来了食物。", "女服务员们很友好。"],
-        "english": ["The waitress brought the food.", "The waitresses are friendly."]
+        "chinese": [
+          "女服务员端来了食物。",
+          "女服务员们很友好。"
+        ],
+        "english": [
+          "The waitress brought the food.",
+          "The waitresses are friendly."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -948,8 +1000,14 @@
         "De setdresser werkt aan het toneelstuk."
       ],
       "exampleTranslations": {
-        "chinese": ["场景布置师装饰了电影场景。", "场景布置师正在制作戏剧。"],
-        "english": ["The set designer decorated the film set.", "The set designer works on the play."]
+        "chinese": [
+          "场景布置师装饰了电影场景。",
+          "场景布置师正在制作戏剧。"
+        ],
+        "english": [
+          "The set designer decorated the film set.",
+          "The set designer works on the play."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -990,8 +1048,14 @@
         "Het systeem signaleert de fout."
       ],
       "exampleTranslations": {
-        "chinese": ["医生检测出了这种疾病。", "系统检测出错误。"],
-        "english": ["The doctor detected the disease.", "The system signals the error."]
+        "chinese": [
+          "医生检测出了这种疾病。",
+          "系统检测出错误。"
+        ],
+        "english": [
+          "The doctor detected the disease.",
+          "The system signals the error."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -1016,36 +1080,16 @@
         "Ik zag de silhouette van een vogel."
       ],
       "exampleTranslations": {
-        "chinese": ["山的剪影很美。", "我看到一只鸟的剪影。"],
-        "english": ["The silhouette of the mountain was beautiful.", "I saw the silhouette of a bird."]
+        "chinese": [
+          "山的剪影很美。",
+          "我看到一只鸟的剪影。"
+        ],
+        "english": [
+          "The silhouette of the mountain was beautiful.",
+          "I saw the silhouette of a bird."
+        ]
       },
       "notes": "阴性名词,法语外来词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5322,
-      "word": "sinaasappel",
-      "translation": {
-        "chinese": "橙子",
-        "english": "orange"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "sinaasappel",
-          "plural": "sinaasappels"
-        }
-      },
-      "examples": [
-        "Ik eet graag sinaasappels.",
-        "De sinaasappels zijn zoet."
-      ],
-      "exampleTranslations": {
-        "chinese": ["我喜欢吃橙子。", "橙子很甜。"],
-        "english": ["I like to eat oranges.", "The oranges are sweet."]
-      },
-      "notes": "阳性名词",
       "difficulty": "B2"
     },
     {
@@ -1068,8 +1112,14 @@
         "Het huis heeft drie slaapkamers."
       ],
       "exampleTranslations": {
-        "chinese": ["我的卧室很舒适。", "房子有三个卧室。"],
-        "english": ["My bedroom is comfortable.", "The house has three bedrooms."]
+        "chinese": [
+          "我的卧室很舒适。",
+          "房子有三个卧室。"
+        ],
+        "english": [
+          "My bedroom is comfortable.",
+          "The house has three bedrooms."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -1094,8 +1144,14 @@
         "Het slachthuis wordt gesloten."
       ],
       "exampleTranslations": {
-        "chinese": ["屠宰场在城外。", "屠宰场关闭了。"],
-        "english": ["The slaughterhouse is outside the city.", "The slaughterhouse is closed."]
+        "chinese": [
+          "屠宰场在城外。",
+          "屠宰场关闭了。"
+        ],
+        "english": [
+          "The slaughterhouse is outside the city.",
+          "The slaughterhouse is closed."
+        ]
       },
       "notes": "中性名词",
       "difficulty": "B2"
@@ -1120,8 +1176,14 @@
         "Er waren veel slachtoffers."
       ],
       "exampleTranslations": {
-        "chinese": ["受害者们得到了帮助。", "有很多受害者。"],
-        "english": ["The victims were helped.", "There were many victims."]
+        "chinese": [
+          "受害者们得到了帮助。",
+          "有很多受害者。"
+        ],
+        "english": [
+          "The victims were helped.",
+          "There were many victims."
+        ]
       },
       "notes": "中性名词",
       "difficulty": "B2"
@@ -1162,8 +1224,14 @@
         "Hij snuffelt in mijn spullen."
       ],
       "exampleTranslations": {
-        "chinese": ["狗在嗅地面。", "他在我东西里乱翻。"],
-        "english": ["The dog sniffs the ground.", "He snoops around in my stuff."]
+        "chinese": [
+          "狗在嗅地面。",
+          "他在我东西里乱翻。"
+        ],
+        "english": [
+          "The dog sniffs the ground.",
+          "He snoops around in my stuff."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -1188,8 +1256,14 @@
         "Sollicitanten mogen solliciteren."
       ],
       "exampleTranslations": {
-        "chinese": ["这位求职者有很多经验。", "求职者可以申请。"],
-        "english": ["The applicant had much experience.", "Applicants can apply."]
+        "chinese": [
+          "这位求职者有很多经验。",
+          "求职者可以申请。"
+        ],
+        "english": [
+          "The applicant had much experience.",
+          "Applicants can apply."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -1214,8 +1288,14 @@
         "Er zijn soortgelijke gevallen."
       ],
       "exampleTranslations": {
-        "chinese": ["我有类似的问题。", "有类似的案例。"],
-        "english": ["I have similar problems.", "There are similar cases."]
+        "chinese": [
+          "我有类似的问题。",
+          "有类似的案例。"
+        ],
+        "english": [
+          "I have similar problems.",
+          "There are similar cases."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -1240,8 +1320,14 @@
         "De speculatie is ongegrond."
       ],
       "exampleTranslations": {
-        "chinese": ["关于未来有很多推测。", "推测没有根据。"],
-        "english": ["There's much speculation about the future.", "The speculation is unfounded."]
+        "chinese": [
+          "关于未来有很多推测。",
+          "推测没有根据。"
+        ],
+        "english": [
+          "There's much speculation about the future.",
+          "The speculation is unfounded."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -1266,8 +1352,14 @@
         "De speelplaats is groot."
       ],
       "exampleTranslations": {
-        "chinese": ["孩子们在操场上玩耍。", "操场很大。"],
-        "english": ["The children play on the playground.", "The playground is large."]
+        "chinese": [
+          "孩子们在操场上玩耍。",
+          "操场很大。"
+        ],
+        "english": [
+          "The children play on the playground.",
+          "The playground is large."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -1308,8 +1400,14 @@
         "Speel nooit vals!"
       ],
       "exampleTranslations": {
-        "chinese": ["他在游戏中作弊了。", "永远不要作弊!"],
-        "english": ["He cheated during the game.", "Never cheat!"]
+        "chinese": [
+          "他在游戏中作弊了。",
+          "永远不要作弊!"
+        ],
+        "english": [
+          "He cheated during the game.",
+          "Never cheat!"
+        ]
       },
       "notes": "短语动词",
       "difficulty": "B2"
@@ -1334,8 +1432,14 @@
         "De speurtocht was spannend."
       ],
       "exampleTranslations": {
-        "chinese": ["孩子们去寻宝了。", "寻宝游戏很刺激。"],
-        "english": ["The children went on a treasure hunt.", "The treasure hunt was exciting."]
+        "chinese": [
+          "孩子们去寻宝了。",
+          "寻宝游戏很刺激。"
+        ],
+        "english": [
+          "The children went on a treasure hunt.",
+          "The treasure hunt was exciting."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -1360,8 +1464,14 @@
         "De sportschool zit vol."
       ],
       "exampleTranslations": {
-        "chinese": ["我每周去三次健身房。", "健身房满了。"],
-        "english": ["I go to the gym three times a week.", "The gym is full."]
+        "chinese": [
+          "我每周去三次健身房。",
+          "健身房满了。"
+        ],
+        "english": [
+          "I go to the gym three times a week.",
+          "The gym is full."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -1402,8 +1512,14 @@
         "De kerstverlichting sprankelt."
       ],
       "exampleTranslations": {
-        "chinese": ["钻石在光线下闪耀。", "圣诞灯在闪烁。"],
-        "english": ["The diamonds sparkle in the light.", "The Christmas lights glitter."]
+        "chinese": [
+          "钻石在光线下闪耀。",
+          "圣诞灯在闪烁。"
+        ],
+        "english": [
+          "The diamonds sparkle in the light.",
+          "The Christmas lights glitter."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -1428,8 +1544,14 @@
         "Iedereen krijgt een spreekbeurt."
       ],
       "exampleTranslations": {
-        "chinese": ["我能发言吗?", "每个人都能发言。"],
-        "english": ["Can I have a speaking turn?", "Everyone gets a speaking turn."]
+        "chinese": [
+          "我能发言吗?",
+          "每个人都能发言。"
+        ],
+        "english": [
+          "Can I have a speaking turn?",
+          "Everyone gets a speaking turn."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -1454,8 +1576,14 @@
         "Hij spreekt vloeiend de spreektaal."
       ],
       "exampleTranslations": {
-        "chinese": ["口语与书面语不同。", "他口语流利。"],
-        "english": ["Spoken language differs from written language.", "He speaks the spoken language fluently."]
+        "chinese": [
+          "口语与书面语不同。",
+          "他口语流利。"
+        ],
+        "english": [
+          "Spoken language differs from written language.",
+          "He speaks the spoken language fluently."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -1480,8 +1608,14 @@
         "Mijn oma gebruikt veel spreekwoorden."
       ],
       "exampleTranslations": {
-        "chinese": ["这是一个著名的谚语。", "我祖母经常使用谚语。"],
-        "english": ["That is a well-known proverb.", "My grandmother uses many proverbs."]
+        "chinese": [
+          "这是一个著名的谚语。",
+          "我祖母经常使用谚语。"
+        ],
+        "english": [
+          "That is a well-known proverb.",
+          "My grandmother uses many proverbs."
+        ]
       },
       "notes": "中性名词",
       "difficulty": "B2"
@@ -1506,8 +1640,14 @@
         "De politie vond springstof."
       ],
       "exampleTranslations": {
-        "chinese": ["炸药已经被排除危险。", "警方发现了炸药。"],
-        "english": ["The explosive was safely disposed.", "The police found explosives."]
+        "chinese": [
+          "炸药已经被排除危险。",
+          "警方发现了炸药。"
+        ],
+        "english": [
+          "The explosive was safely disposed.",
+          "The police found explosives."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"

@@ -2,7 +2,7 @@
   "id": "b2-lesson-28",
   "level": "B2",
   "lessonNumber": 28,
-  "totalWords": 40,
+  "totalWords": 37,
   "words": [
     {
       "id": 5527,
@@ -17,9 +17,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "vergezellen",
-          "present": ["ik gezel", "jij gezelt", "hij/zij gezelt", "wij gezellen", "jullie gezellen", "zij gezellen"],
-          "past": ["ik gezelde", "jij gezelde", "hij/zij gezelde", "wij gezelden", "jullie gezelden", "zij gezelden"],
-          "perfect": ["heb gezeleld", "hebt gezeleld", "heeft gezeleld", "hebben gezeleld", "hebben gezeleld", "hebben gezeleld"]
+          "present": [
+            "ik gezel",
+            "jij gezelt",
+            "hij/zij gezelt",
+            "wij gezellen",
+            "jullie gezellen",
+            "zij gezellen"
+          ],
+          "past": [
+            "ik gezelde",
+            "jij gezelde",
+            "hij/zij gezelde",
+            "wij gezelden",
+            "jullie gezelden",
+            "zij gezelden"
+          ],
+          "perfect": [
+            "heb gezeleld",
+            "hebt gezeleld",
+            "heeft gezeleld",
+            "hebben gezeleld",
+            "hebben gezeleld",
+            "hebben gezeleld"
+          ]
         }
       },
       "examples": [
@@ -27,8 +48,14 @@
         "Hij gezelde haar naar huis."
       ],
       "exampleTranslations": {
-        "chinese": ["我喜欢陪伴你。", "他陪她回家。"],
-        "english": ["I like to accompany you.", "He escorted her home."]
+        "chinese": [
+          "我喜欢陪伴你。",
+          "他陪她回家。"
+        ],
+        "english": [
+          "I like to accompany you.",
+          "He escorted her home."
+        ]
       },
       "notes": "规则动词",
       "difficulty": "B2"
@@ -53,8 +80,14 @@
         "Vanaf de heuvel heb je een prachtig vergezicht."
       ],
       "exampleTranslations": {
-        "chinese": ["视野很美。", "从山上你可以看到美丽的风景。"],
-        "english": ["The view is beautiful.", "From the hill you have a beautiful panorama."]
+        "chinese": [
+          "视野很美。",
+          "从山上你可以看到美丽的风景。"
+        ],
+        "english": [
+          "The view is beautiful.",
+          "From the hill you have a beautiful panorama."
+        ]
       },
       "notes": "复合词，由 ver(远)+gezicht(景象)组成",
       "difficulty": "B2"
@@ -79,8 +112,14 @@
         "Dat is een heel vergezocht argument."
       ],
       "exampleTranslations": {
-        "chinese": ["他的解释很牵强。", "这是一个非常牵强的论点。"],
-        "english": ["His explanation was far-fetched.", "That is a very strained argument."]
+        "chinese": [
+          "他的解释很牵强。",
+          "这是一个非常牵强的论点。"
+        ],
+        "english": [
+          "His explanation was far-fetched.",
+          "That is a very strained argument."
+        ]
       },
       "notes": "由 vergezoeken(强求)的过去分词转化而来",
       "difficulty": "B2"
@@ -98,9 +137,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "vergiftigen",
-          "present": ["ik vergiftig", "jij vergiftigt", "hij/zij vergiftigt", "wij vergiftigen", "jullie vergiftigen", "zij vergiftigen"],
-          "past": ["ik vergiftigde", "jij vergiftigde", "hij/zij vergiftigde", "wij vergiftigden", "jullie vergiftigden", "zij vergiftigden"],
-          "perfect": ["heb vergiftigd", "hebt vergiftigd", "heeft vergiftigd", "hebben vergiftigd", "hebben vergiftigd", "hebben vergiftigd"]
+          "present": [
+            "ik vergiftig",
+            "jij vergiftigt",
+            "hij/zij vergiftigt",
+            "wij vergiftigen",
+            "jullie vergiftigen",
+            "zij vergiftigen"
+          ],
+          "past": [
+            "ik vergiftigde",
+            "jij vergiftigde",
+            "hij/zij vergiftigde",
+            "wij vergiftigden",
+            "jullie vergiftigden",
+            "zij vergiftigden"
+          ],
+          "perfect": [
+            "heb vergiftigd",
+            "hebt vergiftigd",
+            "heeft vergiftigd",
+            "hebben vergiftigd",
+            "hebben vergiftigd",
+            "hebben vergiftigd"
+          ]
         }
       },
       "examples": [
@@ -108,8 +168,14 @@
         "De industriële afval vergiftigt de rivier."
       ],
       "exampleTranslations": {
-        "chinese": ["毒药污染了水源。", "工业废料污染了河流。"],
-        "english": ["The poison contaminated the water.", "Industrial waste pollutes the river."]
+        "chinese": [
+          "毒药污染了水源。",
+          "工业废料污染了河流。"
+        ],
+        "english": [
+          "The poison contaminated the water.",
+          "Industrial waste pollutes the river."
+        ]
       },
       "notes": "规则动词",
       "difficulty": "B2"
@@ -134,8 +200,14 @@
         "Het begon met een vergissing."
       ],
       "exampleTranslations": {
-        "chinese": ["这是一个小错误。", "事情以一个错误开始。"],
-        "english": ["It was a small mistake.", "It started with a mistake."]
+        "chinese": [
+          "这是一个小错误。",
+          "事情以一个错误开始。"
+        ],
+        "english": [
+          "It was a small mistake.",
+          "It started with a mistake."
+        ]
       },
       "notes": "由 vergissen(弄错)的名词形式",
       "difficulty": "B2"
@@ -160,8 +232,14 @@
         "De vergoeding is twee weken."
       ],
       "exampleTranslations": {
-        "chinese": ["他得到了赔偿。", "赔偿两周内到账。"],
-        "english": ["He received compensation.", "The reimbursement is in two weeks."]
+        "chinese": [
+          "他得到了赔偿。",
+          "赔偿两周内到账。"
+        ],
+        "english": [
+          "He received compensation.",
+          "The reimbursement is in two weeks."
+        ]
       },
       "notes": "由 vergoeden(补偿)的名词形式",
       "difficulty": "B2"
@@ -186,8 +264,14 @@
         "De vergrijzing neemt toe."
       ],
       "exampleTranslations": {
-        "chinese": ["老龄化是一个问题。", "人口老龄化在增加。"],
-        "english": ["Aging is a problem.", "Population aging is increasing."]
+        "chinese": [
+          "老龄化是一个问题。",
+          "人口老龄化在增加。"
+        ],
+        "english": [
+          "Aging is a problem.",
+          "Population aging is increasing."
+        ]
       },
       "notes": "由 vergrijzen(变老)的名词形式",
       "difficulty": "B2"
@@ -205,9 +289,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verhandelen",
-          "present": ["ik verhandel", "jij verhandelt", "hij/zij verhandelt", "wij verhandelen", "jullie verhandelen", "zij verhandelen"],
-          "past": ["ik verhandelde", "jij verhandelde", "hij/zij verhandelde", "wij verhandelden", "jullie verhandelden", "zij verhandelden"],
-          "perfect": ["heb verhandeld", "hebt verhandeld", "heeft verhandeld", "hebben verhandeld", "hebben verhandeld", "hebben verhandeld"]
+          "present": [
+            "ik verhandel",
+            "jij verhandelt",
+            "hij/zij verhandelt",
+            "wij verhandelen",
+            "jullie verhandelen",
+            "zij verhandelen"
+          ],
+          "past": [
+            "ik verhandelde",
+            "jij verhandelde",
+            "hij/zij verhandelde",
+            "wij verhandelden",
+            "jullie verhandelden",
+            "zij verhandelden"
+          ],
+          "perfect": [
+            "heb verhandeld",
+            "hebt verhandeld",
+            "heeft verhandeld",
+            "hebben verhandeld",
+            "hebben verhandeld",
+            "hebben verhandeld"
+          ]
         }
       },
       "examples": [
@@ -215,8 +320,14 @@
         "Hij verhandelt in aandelen."
       ],
       "exampleTranslations": {
-        "chinese": ["他们讨论了这个事情。", "他从事股票交易。"],
-        "english": ["They discussed the matter.", "He deals in stocks."]
+        "chinese": [
+          "他们讨论了这个事情。",
+          "他从事股票交易。"
+        ],
+        "english": [
+          "They discussed the matter.",
+          "He deals in stocks."
+        ]
       },
       "notes": "规则动词",
       "difficulty": "B2"
@@ -234,9 +345,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verhinderen",
-          "present": ["ik verhinder", "jij verhindert", "hij/zij verhindert", "wij verhinderen", "jullie verhinderen", "zij verhinderen"],
-          "past": ["ik verhinderde", "jij verhinderde", "hij/zij verhinderde", "wij verhinderden", "jullie verhinderden", "zij verhinderden"],
-          "perfect": ["heb verhinderd", "hebt verhinderd", "heeft verhinderd", "hebben verhinderd", "hebben verhinderd", "hebben verhinderd"]
+          "present": [
+            "ik verhinder",
+            "jij verhindert",
+            "hij/zij verhindert",
+            "wij verhinderen",
+            "jullie verhinderen",
+            "zij verhinderen"
+          ],
+          "past": [
+            "ik verhinderde",
+            "jij verhinderde",
+            "hij/zij verhinderde",
+            "wij verhinderden",
+            "jullie verhinderden",
+            "zij verhinderden"
+          ],
+          "perfect": [
+            "heb verhinderd",
+            "hebt verhinderd",
+            "heeft verhinderd",
+            "hebben verhinderd",
+            "hebben verhinderd",
+            "hebben verhinderd"
+          ]
         }
       },
       "examples": [
@@ -244,8 +376,14 @@
         "Niets verhindert hem."
       ],
       "exampleTranslations": {
-        "chinese": ["暴风雨阻碍了交通。", "没有什么能阻止他。"],
-        "english": ["The storm hindered traffic.", "Nothing prevents him."]
+        "chinese": [
+          "暴风雨阻碍了交通。",
+          "没有什么能阻止他。"
+        ],
+        "english": [
+          "The storm hindered traffic.",
+          "Nothing prevents him."
+        ]
       },
       "notes": "规则动词",
       "difficulty": "B2"
@@ -270,8 +408,14 @@
         "De verhouding tussen mannen en vrouwen."
       ],
       "exampleTranslations": {
-        "chinese": ["比例是二比三。", "男女之间的比例。"],
-        "english": ["The ratio was two to three.", "The relationship between men and women."]
+        "chinese": [
+          "比例是二比三。",
+          "男女之间的比例。"
+        ],
+        "english": [
+          "The ratio was two to three.",
+          "The relationship between men and women."
+        ]
       },
       "notes": "由 verhouden(有关系)的名词形式",
       "difficulty": "B2"
@@ -296,8 +440,14 @@
         "Mijn verhuurder is heel aardig."
       ],
       "exampleTranslations": {
-        "chinese": ["房东明天来。", "我的房东很友善。"],
-        "english": ["The landlord is coming tomorrow.", "My landlord is very kind."]
+        "chinese": [
+          "房东明天来。",
+          "我的房东很友善。"
+        ],
+        "english": [
+          "The landlord is coming tomorrow.",
+          "My landlord is very kind."
+        ]
       },
       "notes": "由 verhuren(出租)的施事名词",
       "difficulty": "B2"
@@ -315,9 +465,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verifiëren",
-          "present": ["ik verifieer", "jij verifieert", "hij/zij verifieert", "wij verifiëren", "jullie verifiëren", "zij verifiëren"],
-          "past": ["ik verifieerde", "jij verifieerde", "hij/zij verifieerde", "wij verifieerden", "jullie verifieerden", "zij verifieerden"],
-          "perfect": ["heb verifieerd", "hebt verifieerd", "heeft verifieerd", "hebben verifieerd", "hebben verifieerd", "hebben verifieerd"]
+          "present": [
+            "ik verifieer",
+            "jij verifieert",
+            "hij/zij verifieert",
+            "wij verifiëren",
+            "jullie verifiëren",
+            "zij verifiëren"
+          ],
+          "past": [
+            "ik verifieerde",
+            "jij verifieerde",
+            "hij/zij verifieerde",
+            "wij verifieerden",
+            "jullie verifieerden",
+            "zij verifieerden"
+          ],
+          "perfect": [
+            "heb verifieerd",
+            "hebt verifieerd",
+            "heeft verifieerd",
+            "hebben verifieerd",
+            "hebben verifieerd",
+            "hebben verifieerd"
+          ]
         }
       },
       "examples": [
@@ -325,36 +496,16 @@
         "We moeten de gegevens verifiëren."
       ],
       "exampleTranslations": {
-        "chinese": ["请核实您的身份。", "我们需要核实数据。"],
-        "english": ["Verify your identity.", "We need to verify the data."]
+        "chinese": [
+          "请核实您的身份。",
+          "我们需要核实数据。"
+        ],
+        "english": [
+          "Verify your identity.",
+          "We need to verify the data."
+        ]
       },
       "notes": "外来词，来自法语",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5539,
-      "word": "verjaardag",
-      "translation": {
-        "chinese": "生日",
-        "english": "birthday"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "verjaardag",
-          "plural": "verjaardagen"
-        }
-      },
-      "examples": [
-        "Vandaag is mijn verjaardag.",
-        "Ze viert haar verjaardag volgende week."
-      ],
-      "exampleTranslations": {
-        "chinese": ["今天是我的生日。", "她下周庆祝生日。"],
-        "english": ["Today is my birthday.", "She celebrates her birthday next week."]
-      },
-      "notes": "复合词，由 verjaar(年龄年)+dag(日子)组成，更常用的是 verjaardag",
       "difficulty": "B2"
     },
     {
@@ -377,8 +528,14 @@
         "Het leger voerde verkenningen uit."
       ],
       "exampleTranslations": {
-        "chinese": ["探索很成功。", "军队进行了侦察。"],
-        "english": ["The exploration was successful.", "The army conducted reconnaissance."]
+        "chinese": [
+          "探索很成功。",
+          "军队进行了侦察。"
+        ],
+        "english": [
+          "The exploration was successful.",
+          "The army conducted reconnaissance."
+        ]
       },
       "notes": "由 verkennen(探索)的名词形式",
       "difficulty": "B2"
@@ -403,8 +560,14 @@
         "Er zijn verkiezingen in Nederland."
       ],
       "exampleTranslations": {
-        "chinese": ["选举在两周后。", "荷兰有选举。"],
-        "english": ["The election is in two weeks.", "There are elections in the Netherlands."]
+        "chinese": [
+          "选举在两周后。",
+          "荷兰有选举。"
+        ],
+        "english": [
+          "The election is in two weeks.",
+          "There are elections in the Netherlands."
+        ]
       },
       "notes": "由 verkiezen(选举)的名词形式",
       "difficulty": "B2"
@@ -422,9 +585,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verkleinen",
-          "present": ["ik verklein", "jij verkleint", "hij/zij verkleint", "wij verkleinen", "jullie verkleinen", "zij verkleinen"],
-          "past": ["ik verkleinde", "jij verkleinde", "hij/zij verkleinde", "wij verkleinden", "jullie verkleinden", "zij verkleinden"],
-          "perfect": ["ben verkleind", "bent verkleind", "is verkleind", "zijn verkleind", "zijn verkleind", "zijn verkleind"]
+          "present": [
+            "ik verklein",
+            "jij verkleint",
+            "hij/zij verkleint",
+            "wij verkleinen",
+            "jullie verkleinen",
+            "zij verkleinen"
+          ],
+          "past": [
+            "ik verkleinde",
+            "jij verkleinde",
+            "hij/zij verkleinde",
+            "wij verkleinden",
+            "jullie verkleinden",
+            "zij verkleinden"
+          ],
+          "perfect": [
+            "ben verkleind",
+            "bent verkleind",
+            "is verkleind",
+            "zijn verkleind",
+            "zijn verkleind",
+            "zijn verkleind"
+          ]
         }
       },
       "examples": [
@@ -432,8 +616,14 @@
         "Het bedrijf verkleint de kosten."
       ],
       "exampleTranslations": {
-        "chinese": ["屏幕不能缩小。", "公司正在缩减成本。"],
-        "english": ["The screen doesn't reduce.", "The company is reducing costs."]
+        "chinese": [
+          "屏幕不能缩小。",
+          "公司正在缩减成本。"
+        ],
+        "english": [
+          "The screen doesn't reduce.",
+          "The company is reducing costs."
+        ]
       },
       "notes": "规则动词，用 zijn 作为助动词",
       "difficulty": "B2"
@@ -451,9 +641,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verkleuren",
-          "present": ["ik verkleur", "jij verkleurt", "hij/zij verkleurt", "wij verkleuren", "jullie verkleuren", "zij verkleuren"],
-          "past": ["ik verkleurde", "jij verkleurde", "hij/zij verkleurde", "wij verkleurden", "jullie verkleurden", "zij verkleurden"],
-          "perfect": ["ben verkleurd", "bent verkleurd", "is verkleurd", "zijn verkleurd", "zijn verkleurd", "zijn verkleurd"]
+          "present": [
+            "ik verkleur",
+            "jij verkleurt",
+            "hij/zij verkleurt",
+            "wij verkleuren",
+            "jullie verkleuren",
+            "zij verkleuren"
+          ],
+          "past": [
+            "ik verkleurde",
+            "jij verkleurde",
+            "hij/zij verkleurde",
+            "wij verkleurden",
+            "jullie verkleurden",
+            "zij verkleurden"
+          ],
+          "perfect": [
+            "ben verkleurd",
+            "bent verkleurd",
+            "is verkleurd",
+            "zijn verkleurd",
+            "zijn verkleurd",
+            "zijn verkleurd"
+          ]
         }
       },
       "examples": [
@@ -461,8 +672,14 @@
         "De verf verkleurde snel."
       ],
       "exampleTranslations": {
-        "chinese": ["秋天叶子变色。", "油漆变色很快。"],
-        "english": ["The leaves change color in autumn.", "The paint discolored quickly."]
+        "chinese": [
+          "秋天叶子变色。",
+          "油漆变色很快。"
+        ],
+        "english": [
+          "The leaves change color in autumn.",
+          "The paint discolored quickly."
+        ]
       },
       "notes": "规则动词，用 zijn 作为助动词",
       "difficulty": "B2"
@@ -480,9 +697,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verknopen",
-          "present": ["ik verknoop", "jij verknoopt", "hij/zij verknoopt", "wij verknopen", "jullie verknopen", "zij verknopen"],
-          "past": ["ik verknoeide", "jij verknoeide", "hij/zij verknoeide", "wij verknoeiden", "jullie verknoeiden", "zij verknoeiden"],
-          "perfect": ["heb verknopen", "hebt verknopen", "heeft verknopen", "hebben verknopen", "hebben verknopen", "hebben verknopen"]
+          "present": [
+            "ik verknoop",
+            "jij verknoopt",
+            "hij/zij verknoopt",
+            "wij verknopen",
+            "jullie verknopen",
+            "zij verknopen"
+          ],
+          "past": [
+            "ik verknoeide",
+            "jij verknoeide",
+            "hij/zij verknoeide",
+            "wij verknoeiden",
+            "jullie verknoeiden",
+            "zij verknoeiden"
+          ],
+          "perfect": [
+            "heb verknopen",
+            "hebt verknopen",
+            "heeft verknopen",
+            "hebben verknopen",
+            "hebben verknopen",
+            "hebben verknopen"
+          ]
         }
       },
       "examples": [
@@ -490,8 +728,14 @@
         "Vergeet niet te verknopen."
       ],
       "exampleTranslations": {
-        "chinese": ["他把事情搞砸了。", "不要搞砸。"],
-        "english": ["He messed up the matter.", "Don't mess up."]
+        "chinese": [
+          "他把事情搞砸了。",
+          "不要搞砸。"
+        ],
+        "english": [
+          "He messed up the matter.",
+          "Don't mess up."
+        ]
       },
       "notes": "规则动词",
       "difficulty": "B2"
@@ -509,9 +753,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verkrachten",
-          "present": ["ik verkacht", "jij verkacht", "hij/zij verkacht", "wij verkachten", "jullie verkachten", "zij verkachten"],
-          "past": ["ik verkachte", "jij verkachte", "hij/zij verkachte", "wij verkachten", "jullie verkachten", "zij verkachten"],
-          "perfect": ["heb verkacht", "hebt verkacht", "heeft verkacht", "hebben verkacht", "hebben verkacht", "hebben verkacht"]
+          "present": [
+            "ik verkacht",
+            "jij verkacht",
+            "hij/zij verkacht",
+            "wij verkachten",
+            "jullie verkachten",
+            "zij verkachten"
+          ],
+          "past": [
+            "ik verkachte",
+            "jij verkachte",
+            "hij/zij verkachte",
+            "wij verkachten",
+            "jullie verkachten",
+            "zij verkachten"
+          ],
+          "perfect": [
+            "heb verkacht",
+            "hebt verkacht",
+            "heeft verkacht",
+            "hebben verkacht",
+            "hebben verkacht",
+            "hebben verkacht"
+          ]
         }
       },
       "examples": [
@@ -519,8 +784,14 @@
         "De bom verkachte het gebouw."
       ],
       "exampleTranslations": {
-        "chinese": ["暴风雨摧毁了房屋。", "炸弹摧毁了建筑物。"],
-        "english": ["The storm crushed the house.", "The bomb shattered the building."]
+        "chinese": [
+          "暴风雨摧毁了房屋。",
+          "炸弹摧毁了建筑物。"
+        ],
+        "english": [
+          "The storm crushed the house.",
+          "The bomb shattered the building."
+        ]
       },
       "notes": "规则动词",
       "difficulty": "B2"
@@ -538,9 +809,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verkrijgen",
-          "present": ["ik verkrijg", "jij verkrijgt", "hij/zij verkijgt", "wij verkrijgen", "jullie verkijgen", "zij verkijgen"],
-          "past": ["ik verkreeg", "jij verkreeg", "hij/zij verkreeg", "wij verkregen", "jullie verkregen", "zij verkregen"],
-          "perfect": ["heb verkregen", "hebt verkregen", "heeft verkregen", "hebben verkregen", "hebben verkregen", "hebben verkregen"]
+          "present": [
+            "ik verkrijg",
+            "jij verkrijgt",
+            "hij/zij verkijgt",
+            "wij verkrijgen",
+            "jullie verkijgen",
+            "zij verkijgen"
+          ],
+          "past": [
+            "ik verkreeg",
+            "jij verkreeg",
+            "hij/zij verkreeg",
+            "wij verkregen",
+            "jullie verkregen",
+            "zij verkregen"
+          ],
+          "perfect": [
+            "heb verkregen",
+            "hebt verkregen",
+            "heeft verkregen",
+            "hebben verkregen",
+            "hebben verkregen",
+            "hebben verkregen"
+          ]
         }
       },
       "examples": [
@@ -548,8 +840,14 @@
         "Zij verkreeg de toestemming."
       ],
       "exampleTranslations": {
-        "chinese": ["他获得了奖学金。", "她获得了许可。"],
-        "english": ["He obtained a scholarship.", "She acquired permission."]
+        "chinese": [
+          "他获得了奖学金。",
+          "她获得了许可。"
+        ],
+        "english": [
+          "He obtained a scholarship.",
+          "She acquired permission."
+        ]
       },
       "notes": "不规则动词",
       "difficulty": "B2"
@@ -574,8 +872,14 @@
         "Zijn woorden waren verkwikkend."
       ],
       "exampleTranslations": {
-        "chinese": ["这个消息令人振奋。", "他的话令人鼓舞。"],
-        "english": ["The news was encouraging.", "His words were inspiring."]
+        "chinese": [
+          "这个消息令人振奋。",
+          "他的话令人鼓舞。"
+        ],
+        "english": [
+          "The news was encouraging.",
+          "His words were inspiring."
+        ]
       },
       "notes": "由 verkwekken(引起)转化而来",
       "difficulty": "B2"
@@ -600,8 +904,14 @@
         "De angst was verlammend."
       ],
       "exampleTranslations": {
-        "chinese": ["寒冷让人瘫痪。", "恐惧让人瘫痪。"],
-        "english": ["The cold was paralyzing.", "The fear was crippling."]
+        "chinese": [
+          "寒冷让人瘫痪。",
+          "恐惧让人瘫痪。"
+        ],
+        "english": [
+          "The cold was paralyzing.",
+          "The fear was crippling."
+        ]
       },
       "notes": "由 verlammen(使瘫痪)转化而来",
       "difficulty": "B2"
@@ -626,8 +936,14 @@
         "De verleiding was te groot."
       ],
       "exampleTranslations": {
-        "chinese": ["他能抵挡诱惑。", "诱惑太大了。"],
-        "english": ["He could resist the temptation.", "The temptation was too great."]
+        "chinese": [
+          "他能抵挡诱惑。",
+          "诱惑太大了。"
+        ],
+        "english": [
+          "He could resist the temptation.",
+          "The temptation was too great."
+        ]
       },
       "notes": "由 verleiden(诱惑)的名词形式",
       "difficulty": "B2"
@@ -645,9 +961,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verlichten",
-          "present": ["ik verlicht", "jij verlicht", "hij/zij verlicht", "wij verlichten", "jullie verlichten", "zij verlichten"],
-          "past": ["ik verlichte", "jij verlichte", "hij/zij verlichte", "wij verlichtten", "jullie verlichtten", "zij verlichtten"],
-          "perfect": ["heb verlicht", "hebt verlicht", "heeft verlicht", "hebben verlicht", "hebben verlicht", "hebben verlicht"]
+          "present": [
+            "ik verlicht",
+            "jij verlicht",
+            "hij/zij verlicht",
+            "wij verlichten",
+            "jullie verlichten",
+            "zij verlichten"
+          ],
+          "past": [
+            "ik verlichte",
+            "jij verlichte",
+            "hij/zij verlichte",
+            "wij verlichtten",
+            "jullie verlichtten",
+            "zij verlichtten"
+          ],
+          "perfect": [
+            "heb verlicht",
+            "hebt verlicht",
+            "heeft verlicht",
+            "hebben verlicht",
+            "hebben verlicht",
+            "hebben verlicht"
+          ]
         }
       },
       "examples": [
@@ -655,8 +992,14 @@
         "De medicatie verlicht de pijn."
       ],
       "exampleTranslations": {
-        "chinese": ["路灯照亮了街道。", "药物减轻了疼痛。"],
-        "english": ["The streetlight illuminates the street.", "The medication alleviates the pain."]
+        "chinese": [
+          "路灯照亮了街道。",
+          "药物减轻了疼痛。"
+        ],
+        "english": [
+          "The streetlight illuminates the street.",
+          "The medication alleviates the pain."
+        ]
       },
       "notes": "规则动词",
       "difficulty": "B2"
@@ -674,9 +1017,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verloederen",
-          "present": ["ik loeder", "jij loedert", "hij/zij loedert", "wij loederen", "jullie loederen", "zij loederen"],
-          "past": ["ik loederde", "jij loederde", "hij/zij loederde", "wij loederden", "jullie loederden", "zij loederden"],
-          "perfect": ["ben verloederd", "bent verloederd", "is verloederd", "zijn verloederd", "zijn verloederd", "zijn verloederd"]
+          "present": [
+            "ik loeder",
+            "jij loedert",
+            "hij/zij loedert",
+            "wij loederen",
+            "jullie loederen",
+            "zij loederen"
+          ],
+          "past": [
+            "ik loederde",
+            "jij loederde",
+            "hij/zij loederde",
+            "wij loederden",
+            "jullie loederden",
+            "zij loederden"
+          ],
+          "perfect": [
+            "ben verloederd",
+            "bent verloederd",
+            "is verloederd",
+            "zijn verloederd",
+            "zijn verloederd",
+            "zijn verloederd"
+          ]
         }
       },
       "examples": [
@@ -684,8 +1048,14 @@
         "De wijk verloedert snel."
       ],
       "exampleTranslations": {
-        "chinese": ["建筑已经荒废了。", "这个街区衰败得很快。"],
-        "english": ["The building has deteriorated.", "The neighborhood is decaying quickly."]
+        "chinese": [
+          "建筑已经荒废了。",
+          "这个街区衰败得很快。"
+        ],
+        "english": [
+          "The building has deteriorated.",
+          "The neighborhood is decaying quickly."
+        ]
       },
       "notes": "规则动词，用 zijn 作为助动词",
       "difficulty": "B2"
@@ -710,8 +1080,14 @@
         "Zij is een vermkelijk persoon."
       ],
       "exampleTranslations": {
-        "chinese": ["电影很有趣。", "她是一个有趣的人。"],
-        "english": ["The movie was entertaining.", "She is an entertaining person."]
+        "chinese": [
+          "电影很有趣。",
+          "她是一个有趣的人。"
+        ],
+        "english": [
+          "The movie was entertaining.",
+          "She is an entertaining person."
+        ]
       },
       "notes": "由 vermaken(娱乐)转化而来",
       "difficulty": "B2"
@@ -729,9 +1105,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verminderen",
-          "present": ["ik verminder", "jij vermindert", "hij/zij vermindert", "wij verminderen", "jullie verminderen", "zij verminderen"],
-          "past": ["ik verminderde", "jij verminderde", "hij/zij verminderde", "wij verminderden", "jullie verminderden", "zij verminderden"],
-          "perfect": ["ben verminderd", "bent verminderd", "is verminderd", "zijn verminderd", "zijn verminderd", "zijn verminderd"]
+          "present": [
+            "ik verminder",
+            "jij vermindert",
+            "hij/zij vermindert",
+            "wij verminderen",
+            "jullie verminderen",
+            "zij verminderen"
+          ],
+          "past": [
+            "ik verminderde",
+            "jij verminderde",
+            "hij/zij verminderde",
+            "wij verminderden",
+            "jullie verminderden",
+            "zij verminderden"
+          ],
+          "perfect": [
+            "ben verminderd",
+            "bent verminderd",
+            "is verminderd",
+            "zijn verminderd",
+            "zijn verminderd",
+            "zijn verminderd"
+          ]
         }
       },
       "examples": [
@@ -739,8 +1136,14 @@
         "Het aantal studenten verminderde."
       ],
       "exampleTranslations": {
-        "chinese": ["疼痛减轻了。", "学生数量减少了。"],
-        "english": ["The pain decreases.", "The number of students decreased."]
+        "chinese": [
+          "疼痛减轻了。",
+          "学生数量减少了。"
+        ],
+        "english": [
+          "The pain decreases.",
+          "The number of students decreased."
+        ]
       },
       "notes": "规则动词，用 zijn 或 hebben 作为助动词",
       "difficulty": "B2"
@@ -765,8 +1168,14 @@
         "Het werk was vermoeiend."
       ],
       "exampleTranslations": {
-        "chinese": ["旅途很疲惫。", "工作很累人。"],
-        "english": ["The journey was tiring.", "The work was exhausting."]
+        "chinese": [
+          "旅途很疲惫。",
+          "工作很累人。"
+        ],
+        "english": [
+          "The journey was tiring.",
+          "The work was exhausting."
+        ]
       },
       "notes": "由 vermoeien(使疲惫)转化而来",
       "difficulty": "B2"
@@ -784,9 +1193,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "vermoorden",
-          "present": ["ik vermoord", "jij vermoordt", "hij/zij vermoordt", "wij vermoorden", "jullie vermoorden", "zij vermoorden"],
-          "past": ["ik vermoordde", "jij vermoordde", "hij/zij vermoordde", "wij vermoordden", "jullie vermoordden", "zij vermoordden"],
-          "perfect": ["ben vermoord", "bent vermoord", "is vermoord", "zijn vermoord", "zijn vermoord", "zijn vermoord"]
+          "present": [
+            "ik vermoord",
+            "jij vermoordt",
+            "hij/zij vermoordt",
+            "wij vermoorden",
+            "jullie vermoorden",
+            "zij vermoorden"
+          ],
+          "past": [
+            "ik vermoordde",
+            "jij vermoordde",
+            "hij/zij vermoordde",
+            "wij vermoordden",
+            "jullie vermoordden",
+            "zij vermoordden"
+          ],
+          "perfect": [
+            "ben vermoord",
+            "bent vermoord",
+            "is vermoord",
+            "zijn vermoord",
+            "zijn vermoord",
+            "zijn vermoord"
+          ]
         }
       },
       "examples": [
@@ -794,8 +1224,14 @@
         "De president werd vermoord."
       ],
       "exampleTranslations": {
-        "chinese": ["他被谋杀了。", "总统被暗杀了。"],
-        "english": ["He was murdered.", "The president was assassinated."]
+        "chinese": [
+          "他被谋杀了。",
+          "总统被暗杀了。"
+        ],
+        "english": [
+          "He was murdered.",
+          "The president was assassinated."
+        ]
       },
       "notes": "规则动词，用 zijn 作为助动词",
       "difficulty": "B2"
@@ -820,8 +1256,14 @@
         "Er was veel vernieling aan het gebouw."
       ],
       "exampleTranslations": {
-        "chinese": ["破坏很严重。", "建筑物损坏严重。"],
-        "english": ["The destruction was severe.", "There was much damage to the building."]
+        "chinese": [
+          "破坏很严重。",
+          "建筑物损坏严重。"
+        ],
+        "english": [
+          "The destruction was severe.",
+          "There was much damage to the building."
+        ]
       },
       "notes": "由 vernielen(破坏)的名词形式",
       "difficulty": "B2"
@@ -839,9 +1281,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "vernietigen",
-          "present": ["ik vernietig", "jij vernietigt", "hij/zij vernietigt", "wij vernietigen", "jullie vernietigen", "zij vernietigen"],
-          "past": ["ik vernietigde", "jij vernietigde", "hij/zij vernietigde", "wij vernietigden", "jullie vernietigden", "zij vernietigden"],
-          "perfect": ["heb vernietigd", "hebt vernietigd", "heeft vernietigd", "hebben vernietigd", "hebben vernietigd", "hebben vernietigd"]
+          "present": [
+            "ik vernietig",
+            "jij vernietigt",
+            "hij/zij vernietigt",
+            "wij vernietigen",
+            "jullie vernietigen",
+            "zij vernietigen"
+          ],
+          "past": [
+            "ik vernietigde",
+            "jij vernietigde",
+            "hij/zij vernietigde",
+            "wij vernietigden",
+            "jullie vernietigden",
+            "zij vernietigden"
+          ],
+          "perfect": [
+            "heb vernietigd",
+            "hebt vernietigd",
+            "heeft vernietigd",
+            "hebben vernietigd",
+            "hebben vernietigd",
+            "hebben vernietigd"
+          ]
         }
       },
       "examples": [
@@ -849,8 +1312,14 @@
         "Het virus vernietigt de bestanden."
       ],
       "exampleTranslations": {
-        "chinese": ["轰炸摧毁了城市。", "病毒摧毁了文件。"],
-        "english": ["The bombing destroyed the city.", "The virus destroys the files."]
+        "chinese": [
+          "轰炸摧毁了城市。",
+          "病毒摧毁了文件。"
+        ],
+        "english": [
+          "The bombing destroyed the city.",
+          "The virus destroys the files."
+        ]
       },
       "notes": "规则动词",
       "difficulty": "B2"
@@ -875,8 +1344,14 @@
         "Dit is een vernieuwende methode."
       ],
       "exampleTranslations": {
-        "chinese": ["这个概念很创新。", "这是一个创新的方法。"],
-        "english": ["The concept is innovative.", "This is a renewing method."]
+        "chinese": [
+          "这个概念很创新。",
+          "这是一个创新的方法。"
+        ],
+        "english": [
+          "The concept is innovative.",
+          "This is a renewing method."
+        ]
       },
       "notes": "由 vernieuwen(更新)转化而来",
       "difficulty": "B2"
@@ -894,9 +1369,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "veroordelen",
-          "present": ["ik veroordeel", "jij veroordeelt", "hij/zij veroordeelt", "wij veroordelen", "jullie veroordelen", "zij veroordelen"],
-          "past": ["ik veroordeelde", "jij veroordeelde", "hij/zij veroordeelde", "wij veroordeelden", "jullie veroordeelden", "zij veroordeelden"],
-          "perfect": ["heb veroordeeld", "hebt veroordeeld", "heeft veroordeeld", "hebben veroordeeld", "hebben veroordeeld", "hebben veroordeeld"]
+          "present": [
+            "ik veroordeel",
+            "jij veroordeelt",
+            "hij/zij veroordeelt",
+            "wij veroordelen",
+            "jullie veroordelen",
+            "zij veroordelen"
+          ],
+          "past": [
+            "ik veroordeelde",
+            "jij veroordeelde",
+            "hij/zij veroordeelde",
+            "wij veroordeelden",
+            "jullie veroordeelden",
+            "zij veroordeelden"
+          ],
+          "perfect": [
+            "heb veroordeeld",
+            "hebt veroordeeld",
+            "heeft veroordeeld",
+            "hebben veroordeeld",
+            "hebben veroordeeld",
+            "hebben veroordeeld"
+          ]
         }
       },
       "examples": [
@@ -904,8 +1400,14 @@
         "Hij werd veroordeeld tot gevangenis."
       ],
       "exampleTranslations": {
-        "chinese": ["法官宣判了他有罪。", "他被判入狱。"],
-        "english": ["The judge convicted him.", "He was sentenced to prison."]
+        "chinese": [
+          "法官宣判了他有罪。",
+          "他被判入狱。"
+        ],
+        "english": [
+          "The judge convicted him.",
+          "He was sentenced to prison."
+        ]
       },
       "notes": "规则动词，法律用语",
       "difficulty": "B2"
@@ -930,36 +1432,16 @@
         "De gemeente stelde nieuwe verordeningen in."
       ],
       "exampleTranslations": {
-        "chinese": ["条例生效了。", "市政府制定了新条例。"],
-        "english": ["The regulation is in effect.", "The municipality introduced new regulations."]
+        "chinese": [
+          "条例生效了。",
+          "市政府制定了新条例。"
+        ],
+        "english": [
+          "The regulation is in effect.",
+          "The municipality introduced new regulations."
+        ]
       },
       "notes": "由 verordenen(规定)的名词形式，法律用语",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5561,
-      "word": "verpakking",
-      "translation": {
-        "chinese": "包装",
-        "english": "packaging, wrapping"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "verpakking",
-          "plural": "verpakkingen"
-        }
-      },
-      "examples": [
-        "De verpakking is herbruikbaar.",
-        "De verpakking is milieuvriendelijk."
-      ],
-      "exampleTranslations": {
-        "chinese": ["包装是可重复使用的。", "包装是环保的。"],
-        "english": ["The packaging is reusable.", "The packaging is environmentally friendly."]
-      },
-      "notes": "由 verpakken(包装)的名词形式",
       "difficulty": "B2"
     },
     {
@@ -975,9 +1457,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verprutsen",
-          "present": ["ik verpruts", "jij verprutst", "hij/zij verprutst", "wij verprutsen", "jullie verprutsen", "zij verprutsen"],
-          "past": ["ik verprutste", "jij verprutste", "hij/zij verprutste", "wij verprutsten", "jullie verprutsten", "zij verprutsten"],
-          "perfect": ["heb geprutst", "hebt geprutst", "heeft geprutst", "hebben geprutst", "hebben geprutst", "hebben geprutst"]
+          "present": [
+            "ik verpruts",
+            "jij verprutst",
+            "hij/zij verprutst",
+            "wij verprutsen",
+            "jullie verprutsen",
+            "zij verprutsen"
+          ],
+          "past": [
+            "ik verprutste",
+            "jij verprutste",
+            "hij/zij verprutste",
+            "wij verprutsten",
+            "jullie verprutsten",
+            "zij verprutsten"
+          ],
+          "perfect": [
+            "heb geprutst",
+            "hebt geprutst",
+            "heeft geprutst",
+            "hebben geprutst",
+            "hebben geprutst",
+            "hebben geprutst"
+          ]
         }
       },
       "examples": [
@@ -985,8 +1488,14 @@
         "Vergeet het niet te verprutsen."
       ],
       "exampleTranslations": {
-        "chinese": ["我把时钟弄坏了。", "不要把它弄坏。"],
-        "english": ["I messed up the clock.", "Don't mess it up."]
+        "chinese": [
+          "我把时钟弄坏了。",
+          "不要把它弄坏。"
+        ],
+        "english": [
+          "I messed up the clock.",
+          "Don't mess it up."
+        ]
       },
       "notes": "口语化表达",
       "difficulty": "B2"
@@ -1011,8 +1520,14 @@
         "De gevolgen waren verregaand."
       ],
       "exampleTranslations": {
-        "chinese": ["这是一个深远的错误。", "后果很深远。"],
-        "english": ["It was a far-reaching mistake.", "The consequences were profound."]
+        "chinese": [
+          "这是一个深远的错误。",
+          "后果很深远。"
+        ],
+        "english": [
+          "It was a far-reaching mistake.",
+          "The consequences were profound."
+        ]
       },
       "notes": "由 ver(进一步)+gaan(去)组成",
       "difficulty": "B2"
@@ -1037,39 +1552,16 @@
         "Ik kocht een nieuwe verrekijker."
       ],
       "exampleTranslations": {
-        "chinese": ["观鸟者使用了双筒望远镜。", "我买了一架新的双筒望远镜。"],
-        "english": ["The birdwatcher used his binoculars.", "I bought a new pair of binoculars."]
+        "chinese": [
+          "观鸟者使用了双筒望远镜。",
+          "我买了一架新的双筒望远镜。"
+        ],
+        "english": [
+          "The birdwatcher used his binoculars.",
+          "I bought a new pair of binoculars."
+        ]
       },
       "notes": "复合词，由 ver(远)+kijker(观察器)组成",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5565,
-      "word": "verrichten",
-      "translation": {
-        "chinese": "进行,实施",
-        "english": "to perform, to carry out, to execute"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "isSeparable": false,
-          "prefix": "",
-          "infinitive": "verrichten",
-          "present": ["ik verricht", "jij verricht", "hij/zij verricht", "wij verrichten", "jullie verrichten", "zij verrichten"],
-          "past": ["ik verrichtte", "jij verrichtte", "hij/zij verrichtte", "wij verrichtten", "jullie verrichtten", "zij verrichtten"],
-          "perfect": ["heb verricht", "hebt verricht", "heeft verricht", "hebben verricht", "hebben verricht", "hebben verricht"]
-        }
-      },
-      "examples": [
-        "Het onderzoek wordt verricht.",
-        "Hij verrichte zijn plicht."
-      ],
-      "exampleTranslations": {
-        "chinese": ["调查正在进行。", "他履行了他的职责。"],
-        "english": ["The investigation is being conducted.", "He performed his duty."]
-      },
-      "notes": "规则动词，正式用语",
       "difficulty": "B2"
     },
     {
@@ -1085,9 +1577,30 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verroesten",
-          "present": ["ik verroest", "jij verroest", "hij/zij verroest", "wij verroesten", "jullie verroesten", "zij verroesten"],
-          "past": ["ik verroeste", "jij verroeste", "hij/zij verroeste", "wij verroestden", "jullie verroestden", "zij verroestden"],
-          "perfect": ["ben geroest", "bent geroest", "is geroest", "zijn geroest", "zijn geroest", "zijn geroest"]
+          "present": [
+            "ik verroest",
+            "jij verroest",
+            "hij/zij verroest",
+            "wij verroesten",
+            "jullie verroesten",
+            "zij verroesten"
+          ],
+          "past": [
+            "ik verroeste",
+            "jij verroeste",
+            "hij/zij verroeste",
+            "wij verroestden",
+            "jullie verroestden",
+            "zij verroestden"
+          ],
+          "perfect": [
+            "ben geroest",
+            "bent geroest",
+            "is geroest",
+            "zijn geroest",
+            "zijn geroest",
+            "zijn geroest"
+          ]
         }
       },
       "examples": [
@@ -1095,8 +1608,14 @@
         "Het metaal verroest snel."
       ],
       "exampleTranslations": {
-        "chinese": ["门生锈了。", "金属生锈很快。"],
-        "english": ["The gate has rusted.", "The metal corrodes quickly."]
+        "chinese": [
+          "门生锈了。",
+          "金属生锈很快。"
+        ],
+        "english": [
+          "The gate has rusted.",
+          "The metal corrodes quickly."
+        ]
       },
       "notes": "规则动词，用 zijn 作为助动词",
       "difficulty": "B2"

@@ -1,6 +1,6 @@
 {
   "lessonNumber": 5,
-  "totalWords": 10,
+  "totalWords": 9,
   "words": [
     {
       "id": 4542,
@@ -128,37 +128,6 @@
     },
     {
       "id": 4546,
-      "word": "brandslang",
-      "translation": {
-        "chinese": "消防水龙带",
-        "english": "fire hose"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "brandslang",
-          "plural": "brandslangen"
-        }
-      },
-      "examples": [
-        "De brandweer rolde de brandslang uit.",
-        "Ze gebruikten de brandslang om het vuur te blussen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "消防员展开消防水龙带。",
-          "他们用消防水龙带灭火。"
-        ],
-        "english": [
-          "The firemen unrolled the fire hose.",
-          "They used the fire hose to extinguish fire."
-        ]
-      },
-      "notes": "阳性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4547,
       "word": "brievenbus",
       "translation": {
         "chinese": "信箱, 邮箱",
@@ -189,7 +158,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4548,
+      "id": 4547,
       "word": "broeikasgas",
       "translation": {
         "chinese": "温室气体",
@@ -220,7 +189,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4549,
+      "id": 4548,
       "word": "brommobiel",
       "translation": {
         "chinese": "轻便摩托车",
@@ -251,7 +220,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4550,
+      "id": 4549,
       "word": "bruidsschat",
       "translation": {
         "chinese": "嫁妆",
@@ -282,7 +251,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4551,
+      "id": 4550,
       "word": "buitenwijk",
       "translation": {
         "chinese": "郊区, 外城区",

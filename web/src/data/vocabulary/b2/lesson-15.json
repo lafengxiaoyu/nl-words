@@ -2,7 +2,7 @@
   "id": "lB215",
   "level": "B2",
   "lessonNumber": 15,
-  "totalWords": 36,
+  "totalWords": 31,
   "words": [
     {
       "id": 4992,
@@ -130,38 +130,6 @@
         ]
       },
       "notes": "中性名词，由nacht(夜)+kast(柜)+后缀-je(小)组成",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4996,
-      "word": "nachtmerrie",
-      "translation": {
-        "chinese": "噩梦",
-        "english": "nightmare"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "nachtmerrie",
-          "plural": "nachtmerries"
-        }
-      },
-      "examples": [
-        "Ik had een enge nachtmerrie gisteravond.",
-        "Het was een echte nachtmerrie waar ik doorheen moest."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我昨晚做了一个可怕的噩梦。",
-          "我必须经历那真是一场噩梦。"
-        ],
-        "english": [
-          "I had a scary nightmare last night.",
-          "It was a real nightmare I had to go through."
-        ]
-      },
-      "notes": "阴性名词，由nacht(夜)+merrie(噩梦)组成",
       "difficulty": "B2"
     },
     {
@@ -400,99 +368,6 @@
         ]
       },
       "notes": "阴性名词，由natuur(自然)+kunde(知识)组成",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5004,
-      "word": "natuurlijk",
-      "translation": {
-        "chinese": "自然的",
-        "english": "natural, natural"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "natuurlijk",
-          "withDe": "natuurlijke",
-          "withHet": "natuurlijke",
-          "comparative": "natuurlijker",
-          "superlative": "natuurlijkst"
-        }
-      },
-      "examples": [
-        "Het is een natuurlijk proces van het leven.",
-        "Het is maar natuurlijk dat hij boos is."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是生活中的自然过程。",
-          "他生气是自然的。"
-        ],
-        "english": [
-          "It's a natural process of life.",
-          "It's only natural that he's angry."
-        ]
-      },
-      "notes": "形容词，来自natuur(自然)",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5005,
-      "word": "nauwelijks",
-      "translation": {
-        "chinese": "勉强,几乎不",
-        "english": "barely, hardly"
-      },
-      "partOfSpeech": "adverb",
-      "examples": [
-        "Ik heb nauwelijks tijd om te eten.",
-        "Zij is nauwelijks zichtbaar in de menigte."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我几乎没有时间吃饭。",
-          "她在人群中几乎看不清。"
-        ],
-        "english": [
-          "I have barely time to eat.",
-          "She is barely visible in the crowd."
-        ]
-      },
-      "notes": "副词，nauw意为窄/紧",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5006,
-      "word": "nauwkeurig",
-      "translation": {
-        "chinese": "精确的,仔细的",
-        "english": "precise, meticulous, accurate"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "nauwkeurig",
-          "withDe": "nauwkeurige",
-          "withHet": "nauwkeurige",
-          "comparative": "nauwkeuriger",
-          "superlative": "nauwkeurigst"
-        }
-      },
-      "examples": [
-        "De analyse werd nauwkeurig uitgevoerd.",
-        "Hij werkt nauwkeurig en nauwlettend."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "分析工作做得非常精确。",
-          "他工作仔细又认真。"
-        ],
-        "english": [
-          "The analysis was carried out precisely.",
-          "He works meticulously and diligently."
-        ]
-      },
-      "notes": "形容词，由nauw(紧)+keurig(有序)组成",
       "difficulty": "B2"
     },
     {
@@ -1003,38 +878,6 @@
         ]
       },
       "notes": "阳性名词，后缀-ling表示人",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5020,
-      "word": "nieuwsbrief",
-      "translation": {
-        "chinese": "新闻简报",
-        "english": "newsletter"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "nieuwsbrief",
-          "plural": "nieuwsbrieven"
-        }
-      },
-      "examples": [
-        "Ik heb me ingeschreven voor de nieuwsbrief.",
-        "De nieuwsbrief verschijnt wekelijks."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我订阅了新闻简报。",
-          "新闻简报每周发布。"
-        ],
-        "english": [
-          "I subscribed to the newsletter.",
-          "The newsletter is published weekly."
-        ]
-      },
-      "notes": "阴性名词，由nieuws(新闻)+brief(信)组成",
       "difficulty": "B2"
     },
     {

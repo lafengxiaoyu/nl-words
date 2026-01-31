@@ -1,6 +1,6 @@
 {
   "lessonNumber": 12,
-  "totalWords": 52,
+  "totalWords": 29,
   "words": [
     {
       "id": 4865,
@@ -36,133 +36,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4866,
-      "word": "kaartenbak",
-      "translation": {
-        "chinese": "卡片盒",
-        "english": "card box, card holder"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "kaartenbak",
-          "plural": "kaartenbakken"
-        }
-      },
-      "examples": [
-        "Ik heb een kaartenbak.",
-        "De kaartenbak zit vol."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我有一个卡片盒。",
-          "卡片盒满了。"
-        ],
-        "english": [
-          "I have a card box.",
-          "The card box is full."
-        ]
-      },
-      "notes": "阳性名词",
-      "difficulty": "B2"
-    },
-    {
       "id": 4867,
-      "word": "kantelpunt",
-      "translation": {
-        "chinese": "转折点",
-        "english": "turning point"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "kantelpunt",
-          "plural": "kantelpunten"
-        }
-      },
-      "examples": [
-        "Dit is een kantelpunt.",
-        "Het kantelpunt kwam verrassend."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是一个转折点。",
-          "转折点来得意外。"
-        ],
-        "english": [
-          "This is a turning point.",
-          "The turning point came surprisingly."
-        ]
-      },
-      "notes": "中性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4868,
-      "word": "kapotmaken",
-      "translation": {
-        "chinese": "弄坏, 摧毁",
-        "english": "to break, to destroy"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "kapotmaken",
-          "present": "maakt kapot",
-          "past": "maakte kapot",
-          "participle": "kapotgemaakt"
-        }
-      },
-      "examples": [
-        "Hij maakte het kapot.",
-        "Probeer het niet kapot te maken."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他把它弄坏了。",
-          "别试图弄坏它。"
-        ],
-        "english": [
-          "He broke it.",
-          "Try not to break it."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4869,
-      "word": "katalysator",
-      "translation": {
-        "chinese": "催化剂",
-        "english": "catalyst"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "katalysator",
-          "plural": "katalysatoren"
-        }
-      },
-      "examples": [
-        "Dit was de katalysator voor verandering.",
-        "Katalysator versnelt de reactie."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是变化的催化剂。",
-          "催化剂加速反应。"
-        ],
-        "english": [
-          "This was the catalyst for change.",
-          "Catalyst speeds up reaction."
-        ]
-      },
-      "notes": "阳性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4870,
       "word": "keizersnede",
       "translation": {
         "chinese": "剖腹产",
@@ -193,39 +67,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4871,
-      "word": "kenmerkend",
-      "translation": {
-        "chinese": "典型的, 特有的",
-        "english": "characteristic, typical"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "kenmerkend",
-          "comparative": "kenmerkender",
-          "superlative": "kenmerkendst"
-        }
-      },
-      "examples": [
-        "Dit is een kenmerkend kenmerk.",
-        "Het is kenmerkend voor hem."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是典型特征。",
-          "这对他是特有的。"
-        ],
-        "english": [
-          "This is a characteristic feature.",
-          "It is characteristic of him."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4872,
+      "id": 4868,
       "word": "kieskeurig",
       "translation": {
         "chinese": "挑剔的, 仔细选择的",
@@ -257,38 +99,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4873,
-      "word": "kijkcijfers",
-      "translation": {
-        "chinese": "收视率, 观看数据",
-        "english": "viewing figures, ratings"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "kijkcijfers",
-          "plural": "kijkcijfers"
-        }
-      },
-      "examples": [
-        "De kijkcijfers zijn gestegen.",
-        "Het programma heeft goede kijkcijfers."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "收视率上升了。",
-          "节目有好的收视率。"
-        ],
-        "english": [
-          "The viewing figures have risen.",
-          "The program has good ratings."
-        ]
-      },
-      "notes": "复数名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4874,
+      "id": 4869,
       "word": "kinderlijk",
       "translation": {
         "chinese": "孩子气的, 天真的",
@@ -320,7 +131,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4875,
+      "id": 4870,
       "word": "kinderwagen",
       "translation": {
         "chinese": "婴儿车",
@@ -351,7 +162,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4876,
+      "id": 4871,
       "word": "klaarmaken",
       "translation": {
         "chinese": "准备, 做饭",
@@ -384,40 +195,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4877,
-      "word": "klaarstaan",
-      "translation": {
-        "chinese": "准备好, 就绪",
-        "english": "to be ready, to stand ready"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "klaarstaan",
-          "present": "staat klaar",
-          "past": "stond klaar",
-          "participle": "klaargestaan"
-        }
-      },
-      "examples": [
-        "Ik sta klaar om te gaan.",
-        "Hij staat klaar met eten."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我准备好要走了。",
-          "他准备好食物了。"
-        ],
-        "english": [
-          "I am ready to go.",
-          "He stands ready with food."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4878,
+      "id": 4872,
       "word": "klaarzetten",
       "translation": {
         "chinese": "准备, 整理",
@@ -450,7 +228,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4879,
+      "id": 4873,
       "word": "klamvochtig",
       "translation": {
         "chinese": "潮湿的, 阴湿的",
@@ -482,7 +260,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4880,
+      "id": 4874,
       "word": "kledingzaak",
       "translation": {
         "chinese": "服装店",
@@ -513,7 +291,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4881,
+      "id": 4875,
       "word": "kleermaker",
       "translation": {
         "chinese": "裁缝",
@@ -544,7 +322,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4882,
+      "id": 4876,
       "word": "kleinhandel",
       "translation": {
         "chinese": "零售",
@@ -575,7 +353,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4883,
+      "id": 4877,
       "word": "kleinigheid",
       "translation": {
         "chinese": "小气, 琐碎",
@@ -606,7 +384,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4884,
+      "id": 4878,
       "word": "kleven aan",
       "translation": {
         "chinese": "粘附, 残留",
@@ -639,38 +417,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4885,
-      "word": "klusjesman",
-      "translation": {
-        "chinese": "杂工, 小工",
-        "english": "handyman, odd-job man"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "klusjesman",
-          "plural": "klusjesmannen"
-        }
-      },
-      "examples": [
-        "De klusjesman repareerde het.",
-        "Hij werkt als klusjesman."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "杂工修好了它。",
-          "他作为杂工工作。"
-        ],
-        "english": [
-          "The handyman repaired it.",
-          "He works as a handyman."
-        ]
-      },
-      "notes": "阳性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4886,
+      "id": 4879,
       "word": "knettergek",
       "translation": {
         "chinese": "疯狂迷恋的, 着迷的",
@@ -702,70 +449,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4887,
-      "word": "koelekikker",
-      "translation": {
-        "chinese": "萤火虫",
-        "english": "firefly"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "koelekikker",
-          "plural": "koelekikkers"
-        }
-      },
-      "examples": [
-        "Ik zie een koelekikker.",
-        "De koelekikkers verlichten de nacht."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我看到一只萤火虫。",
-          "萤火虫照亮夜晚。"
-        ],
-        "english": [
-          "I see a firefly.",
-          "The fireflies light up the night."
-        ]
-      },
-      "notes": "阳性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4888,
-      "word": "kogelwerend",
-      "translation": {
-        "chinese": "防弹的",
-        "english": "bulletproof"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "kogelwerend",
-          "comparative": "kogelwerender",
-          "superlative": "kogelwerendst"
-        }
-      },
-      "examples": [
-        "Het glas is kogelwerend.",
-        "Een kogelwerende vest."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "玻璃是防弹的。",
-          "防弹背心。"
-        ],
-        "english": [
-          "The glass is bulletproof.",
-          "A bulletproof vest."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4889,
+      "id": 4880,
       "word": "koolhydraat",
       "translation": {
         "chinese": "碳水化合物",
@@ -796,7 +480,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4890,
+      "id": 4881,
       "word": "koopvaardig",
       "translation": {
         "chinese": "会说话的, 说话流利的",
@@ -828,7 +512,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4891,
+      "id": 4882,
       "word": "koptelefoon",
       "translation": {
         "chinese": "耳机, 头戴式耳机",
@@ -859,7 +543,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4892,
+      "id": 4883,
       "word": "korstgebak",
       "translation": {
         "chinese": "硬皮面包",
@@ -890,7 +574,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4893,
+      "id": 4884,
       "word": "kortzichtig",
       "translation": {
         "chinese": "目光短浅的, 狭隘的",
@@ -922,7 +606,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4894,
+      "id": 4885,
       "word": "kostschool",
       "translation": {
         "chinese": "寄宿学校",
@@ -953,7 +637,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4895,
+      "id": 4886,
       "word": "krankzinnig",
       "translation": {
         "chinese": "疯狂的, 精神错乱的",
@@ -985,7 +669,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4896,
+      "id": 4887,
       "word": "kroonprins",
       "translation": {
         "chinese": "王储",
@@ -1016,7 +700,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4897,
+      "id": 4888,
       "word": "kunstenaar",
       "translation": {
         "chinese": "艺术家",
@@ -1047,7 +731,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4898,
+      "id": 4889,
       "word": "kunstgebit",
       "translation": {
         "chinese": "假牙, 义齿",
@@ -1078,39 +762,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4899,
-      "word": "kunstmatig",
-      "translation": {
-        "chinese": "人工的, 人造的",
-        "english": "artificial"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "kunstmatig",
-          "comparative": "kunstmatiger",
-          "superlative": "kunstmatigst"
-        }
-      },
-      "examples": [
-        "Het licht is kunstmatig.",
-        "Kunstmatige smaakstoffen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "光线是人工的。",
-          "人工调味剂。"
-        ],
-        "english": [
-          "The light is artificial.",
-          "Artificial flavorings."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4900,
+      "id": 4891,
       "word": "kunstschat",
       "translation": {
         "chinese": "艺术珍品",
@@ -1141,7 +793,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4901,
+      "id": 4892,
       "word": "kwaad maken",
       "translation": {
         "chinese": "伤害, 使坏",
@@ -1174,7 +826,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4902,
+      "id": 4893,
       "word": "kwaadaardig",
       "translation": {
         "chinese": "恶意的, 邪恶的",
@@ -1206,7 +858,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4903,
+      "id": 4894,
       "word": "kwakkelend",
       "translation": {
         "chinese": "摇摇欲坠的, 不稳的",
@@ -1238,7 +890,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4904,
+      "id": 4895,
       "word": "kwijt zijn",
       "translation": {
         "chinese": "丢失, 用光",
@@ -1265,39 +917,6 @@
         "english": [
           "My phone is lost.",
           "The money is out of."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4905,
-      "word": "kwijtraken",
-      "translation": {
-        "chinese": "丢失, 走失",
-        "english": "to lose, to go missing"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "kwijtraken",
-          "present": "raakt kwijt",
-          "past": "raakte kwijt",
-          "participle": "kwijt geraakt"
-        }
-      },
-      "examples": [
-        "Ik raakte mijn sleutel kwijt.",
-        "Hij raakte zijn baan kwijt."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我丢了钥匙。",
-          "他失业了。"
-        ],
-        "english": [
-          "I lost my key.",
-          "He lost his job."
         ]
       },
       "notes": "动词",

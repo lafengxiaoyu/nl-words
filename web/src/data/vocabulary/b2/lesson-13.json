@@ -2,7 +2,7 @@
   "id": "lB213",
   "level": "B2",
   "lessonNumber": 13,
-  "totalWords": 37,
+  "totalWords": 22,
   "words": [
     {
       "id": 4917,
@@ -33,37 +33,6 @@
         ]
       },
       "notes": "复合名词，由laag(低)+seizoen(季节)组成",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4918,
-      "word": "landgenoot",
-      "translation": {
-        "chinese": "同胞,同乡",
-        "english": "compatriot, fellow countryman"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "landgenoot",
-          "plural": "landgenoten"
-        }
-      },
-      "examples": [
-        "Ik sprak met een landgenoot in de trein.",
-        "De Nederlanders in het buitenland steunen elkaar als landgenoten."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我在火车上和一个同乡交谈。",
-          "国外的荷兰人作为同胞互相支持。"
-        ],
-        "english": [
-          "I spoke with a compatriot on the train.",
-          "Dutch people abroad support each other as compatriots."
-        ]
-      },
-      "notes": "阳性名词，复数形式特殊",
       "difficulty": "B2"
     },
     {
@@ -204,164 +173,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4922,
-      "word": "leegstaand",
-      "translation": {
-        "chinese": "空置的,空着的",
-        "english": "vacant, unoccupied"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "leegstaand",
-          "withDe": "leegstaande",
-          "withHet": "leegstaande",
-          "comparative": "leegstaander",
-          "superlative": "leegstaandst"
-        }
-      },
-      "examples": [
-        "Het pand staat al jaren leeg.",
-        "Er zijn veel leegstaande woningen in deze wijk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这座建筑物已经空置多年。",
-          "这个社区有很多空置房屋。"
-        ],
-        "english": [
-          "The building has been vacant for years.",
-          "There are many vacant houses in this neighborhood."
-        ]
-      },
-      "notes": "形容词，由leeg(空)+staan(站立)的现在分词构成",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4923,
-      "word": "leergierig",
-      "translation": {
-        "chinese": "勤奋的,好学的",
-        "english": "eager to learn, studious"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "leergierig",
-          "withDe": "leergierige",
-          "withHet": "leergierige",
-          "comparative": "leergieriger",
-          "superlative": "leergierigst"
-        }
-      },
-      "examples": [
-        "Ze is een heel leergierige student.",
-        "Leergierige kinderen maken vaak snel vorderingen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "她是一个非常好学的学生。",
-          "好学的孩子通常进步很快。"
-        ],
-        "english": [
-          "She is a very studious student.",
-          "Eager children often make quick progress."
-        ]
-      },
-      "notes": "形容词，由leren(学)+gierig(贪婪的)组成",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4925,
-      "word": "legitimatie",
-      "translation": {
-        "chinese": "身份证件",
-        "english": "identification, ID"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "legitimatie",
-          "plural": "legitimaties"
-        }
-      },
-      "examples": [
-        "Kunt u uw legitimatie laten zien, alstublieft?",
-        "Je hebt geldige legitimatie nodig om dit te kopen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "请您出示一下身份证件好吗?",
-          "购买这个需要有效的身份证件。"
-        ],
-        "english": [
-          "Could you please show your identification?",
-          "You need valid identification to purchase this."
-        ]
-      },
-      "notes": "阴性名词，常简称为ID",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4926,
-      "word": "leraarschap",
-      "translation": {
-        "chinese": "教师职业,执教生涯",
-        "english": "teaching profession, teaching career"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "leraarschap",
-          "plural": "leraarschappen"
-        }
-      },
-      "examples": [
-        "Hij heeft het leraarschap voor het leven opgegeven.",
-        "Zij koos voor het leraarschap na haar studie."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他放弃了教师的职业生涯。",
-          "毕业后她选择了教师职业。"
-        ],
-        "english": [
-          "He gave up the teaching profession for good.",
-          "She chose the teaching profession after her studies."
-        ]
-      },
-      "notes": "中性名词，后缀-schap表示状态或职业",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4927,
-      "word": "letterlijk",
-      "translation": {
-        "chinese": "字面意义上,确实",
-        "english": "literally, literally speaking"
-      },
-      "partOfSpeech": "adverb",
-      "examples": [
-        "Het was letterlijk onmogelijk om op tijd te komen.",
-        "Ik heb letterlijk niets gezegd."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "按时到达确实是不可能的。",
-          "我确实什么都没说。"
-        ],
-        "english": [
-          "It was literally impossible to arrive on time.",
-          "I literally said nothing."
-        ]
-      },
-      "notes": "副词，用于强调字面意义",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4928,
+      "id": 4924,
       "word": "leuk vinden",
       "translation": {
         "chinese": "喜欢",
@@ -406,7 +218,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4929,
+      "id": 4925,
       "word": "levensecht",
       "translation": {
         "chinese": "栩栩如生的,逼真的",
@@ -440,7 +252,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4930,
+      "id": 4926,
       "word": "levensgeluk",
       "translation": {
         "chinese": "人生幸福",
@@ -472,135 +284,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4931,
-      "word": "levenslust",
-      "translation": {
-        "chinese": "生活热情,活力",
-        "english": "zest for life, vitality"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "levenslust",
-          "plural": "levenslusten"
-        }
-      },
-      "examples": [
-        "Zijn levenslust is aanstekelijk voor iedereen.",
-        "Ondanks zijn leeftijd heeft hij nog steeds veel levenslust."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他的生活热情感染了所有人。",
-          "尽管年事已高，他依然充满生活热情。"
-        ],
-        "english": [
-          "His zest for life is infectious to everyone.",
-          "Despite his age, he still has great vitality."
-        ]
-      },
-      "notes": "阴性名词，由leven(生命)+lust(渴望)组成",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4932,
-      "word": "levensstijl",
-      "translation": {
-        "chinese": "生活方式",
-        "english": "lifestyle"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "levensstijl",
-          "plural": "levensstijlen"
-        }
-      },
-      "examples": [
-        "Een gezonde levensstijl is belangrijk voor je gezondheid.",
-        "Mijn levensstijl is veranderd sinds ik naar de stad verhuisde."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "健康的生活方式对你的健康很重要。",
-          "自从搬到城市后，我的生活方式改变了。"
-        ],
-        "english": [
-          "A healthy lifestyle is important for your health.",
-          "My lifestyle has changed since I moved to the city."
-        ]
-      },
-      "notes": "阴性名词，由leven(生命)+stijl(风格)组成",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4933,
-      "word": "levenswijze",
-      "translation": {
-        "chinese": "生活方式,生活态度",
-        "english": "way of life, lifestyle"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "levenswijze",
-          "plural": "levenswijzen"
-        }
-      },
-      "examples": [
-        "Hij heeft een heel eenvoudige levenswijze.",
-        "De monniken volgen een ascetische levenswijze."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他有一种非常简单的生活方式。",
-          "僧侣们过着苦行的生活方式。"
-        ],
-        "english": [
-          "He has a very simple way of life.",
-          "The monks follow an ascetic way of life."
-        ]
-      },
-      "notes": "阴性名词，由leven(生命)+wijze(方式)组成",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4934,
-      "word": "leverancier",
-      "translation": {
-        "chinese": "供应商",
-        "english": "supplier, vendor"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "leverancier",
-          "plural": "leveranciers"
-        }
-      },
-      "examples": [
-        "Het bedrijf heeft een nieuwe leverancier gevonden.",
-        "Onze leverancier levert altijd op tijd."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "公司找到了一个新的供应商。",
-          "我们的供应商总是准时交货。"
-        ],
-        "english": [
-          "The company found a new supplier.",
-          "Our supplier always delivers on time."
-        ]
-      },
-      "notes": "阳性名词，由leveren(供应)+cier(后缀)组成",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4936,
+      "id": 4929,
       "word": "liefhebber",
       "translation": {
         "chinese": "爱好者,爱好者",
@@ -632,7 +316,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4937,
+      "id": 4930,
       "word": "lijfspreuk",
       "translation": {
         "chinese": "座右铭,人生格言",
@@ -664,7 +348,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4938,
+      "id": 4931,
       "word": "liquideren",
       "translation": {
         "chinese": "清除,消灭",
@@ -709,7 +393,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4939,
+      "id": 4932,
       "word": "lofprijzen",
       "translation": {
         "chinese": "称赞,赞扬",
@@ -755,7 +439,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4940,
+      "id": 4933,
       "word": "lofprijzing",
       "translation": {
         "chinese": "称赞,赞扬",
@@ -787,7 +471,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4941,
+      "id": 4934,
       "word": "loodgieter",
       "translation": {
         "chinese": "水管工",
@@ -819,7 +503,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4942,
+      "id": 4935,
       "word": "los daarvan",
       "translation": {
         "chinese": "除此之外,另外",
@@ -844,7 +528,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4943,
+      "id": 4936,
       "word": "los kaartje",
       "translation": {
         "chinese": "单独票,散票",
@@ -876,7 +560,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4944,
+      "id": 4937,
       "word": "losbarsten",
       "translation": {
         "chinese": "爆发,迸发",
@@ -922,53 +606,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4945,
-      "word": "loskoppelen",
-      "translation": {
-        "chinese": "断开连接,分离",
-        "english": "to disconnect, to detach"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "loskoppelen",
-          "isSeparable": true,
-          "prefix": "los",
-          "present": {
-            "ik": "koppel los",
-            "jij": "koppelt los",
-            "hij": "koppelt los",
-            "wij": "koppelen los",
-            "jullie": "koppelen los",
-            "zij": "koppelen los"
-          },
-          "past": {
-            "singular": "koppelde los",
-            "plural": "koppelden los"
-          },
-          "pastParticiple": "losgekoppeld",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Je moet het apparaat loskoppelen voordat je het opent.",
-        "De loper werd losgekoppeld van het station."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "打开设备前你必须断开连接。",
-          "跑步机与基站断开了连接。"
-        ],
-        "english": [
-          "You must disconnect the device before opening it.",
-          "The treadmill was disconnected from the base station."
-        ]
-      },
-      "notes": "可分动词，koppelen表示连接",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4946,
+      "id": 4939,
       "word": "luchtalarm",
       "translation": {
         "chinese": "空袭警报",
@@ -1000,7 +638,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4947,
+      "id": 4940,
       "word": "luchtballon",
       "translation": {
         "chinese": "热气球",
@@ -1032,7 +670,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4948,
+      "id": 4941,
       "word": "luchthaven",
       "translation": {
         "chinese": "机场",
@@ -1064,7 +702,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4949,
+      "id": 4942,
       "word": "luchtmacht",
       "translation": {
         "chinese": "空军",
@@ -1096,7 +734,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4950,
+      "id": 4943,
       "word": "luchtvaart",
       "translation": {
         "chinese": "航空,航空业",
@@ -1128,41 +766,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4951,
-      "word": "luidruchtig",
-      "translation": {
-        "chinese": "喧闹的,吵闹的",
-        "english": "noisy, loud"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "luidruchtig",
-          "withDe": "luidruchtige",
-          "withHet": "luidruchtige",
-          "comparative": "luidruchtiger",
-          "superlative": "luidruchtigst"
-        }
-      },
-      "examples": [
-        "De kinderen waren erg luidruchtig in de tuin.",
-        "De buren klaagden over het luidruchtige feest."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "孩子们在花园里非常吵闹。",
-          "邻居们抱怨喧闹的派对。"
-        ],
-        "english": [
-          "The children were very noisy in the garden.",
-          "The neighbors complained about the noisy party."
-        ]
-      },
-      "notes": "形容词，由luid(大声)+ruchtig(发出声音的)组成",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4952,
+      "id": 4945,
       "word": "luisteraar",
       "translation": {
         "chinese": "听众,听者",

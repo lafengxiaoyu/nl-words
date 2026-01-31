@@ -2,7 +2,7 @@
   "id": "lB201",
   "level": "B2",
   "lessonNumber": 1,
-  "totalWords": 32,
+  "totalWords": 19,
   "words": [
     {
       "id": 4370,
@@ -161,52 +161,6 @@
     },
     {
       "id": 4374,
-      "word": "aanblijven",
-      "translation": {
-        "chinese": "留下来, 继续待",
-        "english": "to stay on, to remain"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "aanblijven",
-          "isSeparable": true,
-          "prefix": "aan",
-          "present": {
-            "ik": "blijf aan",
-            "jij": "blijft aan",
-            "hij": "blijft aan",
-            "wij": "blijven aan",
-            "jullie": "blijven aan",
-            "zij": "blijven aan"
-          },
-          "past": {
-            "singular": "bleef aan",
-            "plural": "bleven aan"
-          },
-          "pastParticiple": "aangebleven",
-          "pastParticipleAuxiliary": "zijn"
-        }
-      },
-      "examples": [
-        "Hij blijft aan als trainer.",
-        "Wij blijven aan tot morgen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他继续担任教练。",
-          "我们待到明天。"
-        ],
-        "english": [
-          "He stays on as a coach.",
-          "We remain until tomorrow."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4375,
       "word": "aanbrengen",
       "translation": {
         "chinese": "带来, 应用, 涂抹",
@@ -252,7 +206,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4376,
+      "id": 4375,
       "word": "aandoening",
       "translation": {
         "chinese": "疾病, 状况",
@@ -284,41 +238,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4377,
-      "word": "aandoenlijk",
-      "translation": {
-        "chinese": "令人感动的, 可爱的",
-        "english": "touching, endearing"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "aandoenlijk",
-          "withDe": "aandoenlijke",
-          "withHet": "aandoenlijke",
-          "comparative": "aandoenlijker",
-          "superlative": "het aandoenlijkst"
-        }
-      },
-      "examples": [
-        "Een aandoenlijk kind.",
-        "Het was een aandoenlijk moment."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "一个可爱的孩子。",
-          "那是一个感人的时刻。"
-        ],
-        "english": [
-          "An endearing child.",
-          "It was a touching moment."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4378,
+      "id": 4376,
       "word": "aandraaien",
       "translation": {
         "chinese": "拧紧, 转动",
@@ -364,7 +284,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4379,
+      "id": 4377,
       "word": "aandrijven",
       "translation": {
         "chinese": "驱动, 推动",
@@ -410,53 +330,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4380,
-      "word": "aandringen",
-      "translation": {
-        "chinese": "坚持, 强求",
-        "english": "to insist, to press"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "aandringen",
-          "isSeparable": true,
-          "prefix": "aan",
-          "present": {
-            "ik": "dring aan",
-            "jij": "dringt aan",
-            "hij": "dringt aan",
-            "wij": "dringen aan",
-            "jullie": "dringen aan",
-            "zij": "dringen aan"
-          },
-          "past": {
-            "singular": "drong aan",
-            "plural": "drongen aan"
-          },
-          "pastParticiple": "aangedrongen",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij dringt aan op antwoord.",
-        "Wij dringen aan op hervorming."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他坚持要回答。",
-          "我们坚持改革。"
-        ],
-        "english": [
-          "He insists on an answer.",
-          "We press for reform."
-        ]
-      },
-      "notes": "可分动词，搭配介词 op",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4381,
+      "id": 4378,
       "word": "aangeboren",
       "translation": {
         "chinese": "天生的, 先天的",
@@ -490,7 +364,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4382,
+      "id": 4379,
       "word": "aangeslagen",
       "translation": {
         "chinese": "受打击的, 震惊的",
@@ -524,7 +398,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4383,
+      "id": 4380,
       "word": "aanklooien",
       "translation": {
         "chinese": "四处闲逛, 游荡",
@@ -570,117 +444,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4384,
-      "word": "aankomsthal",
-      "translation": {
-        "chinese": "到达大厅",
-        "english": "arrival hall"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "aankomsthal",
-          "plural": "aankomsthallen"
-        }
-      },
-      "examples": [
-        "Wij wachten in de aankomsthal.",
-        "De aankomsthal is vol."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我们在到达大厅等待。",
-          "到达大厅挤满了人。"
-        ],
-        "english": [
-          "We wait in the arrival hall.",
-          "The arrival hall is full."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4385,
-      "word": "aankondigen",
-      "translation": {
-        "chinese": "宣布, 宣告",
-        "english": "to announce"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "aankondigen",
-          "isSeparable": true,
-          "prefix": "aan",
-          "present": {
-            "ik": "kondig aan",
-            "jij": "kondigt aan",
-            "hij": "kondigt aan",
-            "wij": "kondigen aan",
-            "jullie": "kondigen aan",
-            "zij": "kondigen aan"
-          },
-          "past": {
-            "singular": "kondigde aan",
-            "plural": "kondigden aan"
-          },
-          "pastParticiple": "aangekondigd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij kondigt zijn vertrek aan.",
-        "De regering kondigt nieuwe maatregelen aan."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他宣布离开。",
-          "政府宣布新措施。"
-        ],
-        "english": [
-          "He announces his departure.",
-          "The government announces new measures."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4386,
-      "word": "aanleiding",
-      "translation": {
-        "chinese": "理由, 原因",
-        "english": "reason, cause"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "aanleiding",
-          "plural": "aanleidingen"
-        }
-      },
-      "examples": [
-        "Dit was aanleiding tot het onderzoek.",
-        "Er is geen aanleiding tot paniek."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是调查的原因。",
-          "没有理由恐慌。"
-        ],
-        "english": [
-          "This was the reason for the investigation.",
-          "There's no reason to panic."
-        ]
-      },
-      "notes": "名词，搭配介词 tot",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4387,
+      "id": 4381,
       "word": "aanleveren",
       "translation": {
         "chinese": "提交, 提供",
@@ -726,7 +490,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4388,
+      "id": 4382,
       "word": "aanmerking",
       "translation": {
         "chinese": "评论, 意见",
@@ -758,7 +522,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4389,
+      "id": 4383,
       "word": "aanmoedigen",
       "translation": {
         "chinese": "鼓励",
@@ -804,119 +568,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4390,
-      "word": "aannemelijk",
-      "translation": {
-        "chinese": "合理的, 可能的",
-        "english": "plausible, reasonable"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "aannemelijk",
-          "withDe": "aannemelijke",
-          "withHet": "aannemelijke",
-          "comparative": "aannemelijker",
-          "superlative": "het aannemelijkst"
-        }
-      },
-      "examples": [
-        "Dat is een aannemelijk verhaal.",
-        "Het is aannemelijk dat hij gelijk heeft."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是一个合理的故事。",
-          "他可能是对的。"
-        ],
-        "english": [
-          "That's a plausible story.",
-          "It's plausible that he's right."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4391,
-      "word": "aanplakbord",
-      "translation": {
-        "chinese": "告示板, 公告板",
-        "english": "bulletin board, notice board"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "aanplakbord",
-          "plural": "aanplakborden"
-        }
-      },
-      "examples": [
-        "Plak het bericht op het aanplakbord.",
-        "Het aanplakbord hangt in de hal."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "把消息贴在公告板上。",
-          "公告板在大厅里。"
-        ],
-        "english": [
-          "Put the message on the bulletin board.",
-          "The notice board is in the hall."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4392,
-      "word": "aanplakken",
-      "translation": {
-        "chinese": "张贴",
-        "english": "to paste, to post"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "aanplakken",
-          "isSeparable": true,
-          "prefix": "aan",
-          "present": {
-            "ik": "plak aan",
-            "jij": "plakt aan",
-            "hij": "plakt aan",
-            "wij": "plakken aan",
-            "jullie": "plakken aan",
-            "zij": "plakken aan"
-          },
-          "past": {
-            "singular": "plakte aan",
-            "plural": "plakten aan"
-          },
-          "pastParticiple": "aangeplakt",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Plak de poster aan.",
-        "Zij plakt een brief op de deur."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "贴上海报。",
-          "她把信贴在门上。"
-        ],
-        "english": [
-          "Paste the poster.",
-          "She pastes a letter on the door."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4393,
+      "id": 4384,
       "word": "aanplanten",
       "translation": {
         "chinese": "种植, 栽培",
@@ -962,53 +614,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4394,
-      "word": "aanprijzen",
-      "translation": {
-        "chinese": "推荐, 赞扬",
-        "english": "to praise, to recommend highly"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "aanprijzen",
-          "isSeparable": true,
-          "prefix": "aan",
-          "present": {
-            "ik": "prijs aan",
-            "jij": "prijs aan",
-            "hij": "prijs aan",
-            "wij": "prijzen aan",
-            "jullie": "prijzen aan",
-            "zij": "prijzen aan"
-          },
-          "past": {
-            "singular": "prees aan",
-            "plural": "prezen aan"
-          },
-          "pastParticiple": "aan geprezen",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij prijs het boek aan.",
-        "Zij prijst het product aan."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他推荐这本书。",
-          "她赞扬这个产品。"
-        ],
-        "english": [
-          "He praises the book.",
-          "She recommends the product."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4395,
+      "id": 4385,
       "word": "aanrekenen",
       "translation": {
         "chinese": "归咎于, 责怪",
@@ -1054,53 +660,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4396,
-      "word": "aanrichten",
-      "translation": {
-        "chinese": "造成, 引起",
-        "english": "to cause, to arrange"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "aanrichten",
-          "isSeparable": true,
-          "prefix": "aan",
-          "present": {
-            "ik": "richt aan",
-            "jij": "richt aan",
-            "hij": "richt aan",
-            "wij": "richten aan",
-            "jullie": "richten aan",
-            "zij": "richten aan"
-          },
-          "past": {
-            "singular": "richtte aan",
-            "plural": "richtten aan"
-          },
-          "pastParticiple": "aangericht",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij richt veel schade aan.",
-        "Zij richt het diner aan."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他造成了很多损害。",
-          "她安排晚餐。"
-        ],
-        "english": [
-          "He causes a lot of damage.",
-          "She arranges the dinner."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4397,
+      "id": 4386,
       "word": "aanrijding",
       "translation": {
         "chinese": "碰撞, 交通事故",
@@ -1132,53 +692,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4398,
-      "word": "aanschaffen",
-      "translation": {
-        "chinese": "购买, 添置",
-        "english": "to purchase, to acquire"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "aanschaffen",
-          "isSeparable": true,
-          "prefix": "aan",
-          "present": {
-            "ik": "schaf aan",
-            "jij": "schaft aan",
-            "hij": "schaft aan",
-            "wij": "schaffen aan",
-            "jullie": "schaffen aan",
-            "zij": "schaffen aan"
-          },
-          "past": {
-            "singular": "schoof aan",
-            "plural": "schoven aan"
-          },
-          "pastParticiple": "aangeschaft",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Wij schaffen een nieuwe auto aan.",
-        "Hij schaft meubels aan."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我们买了一辆新车。",
-          "他添置了家具。"
-        ],
-        "english": [
-          "We purchase a new car.",
-          "He acquires furniture."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4399,
+      "id": 4387,
       "word": "aanschärpen",
       "translation": {
         "chinese": "磨尖, 加剧",
@@ -1224,7 +738,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4400,
+      "id": 4388,
       "word": "aanschrijven",
       "translation": {
         "chinese": "写下, 写信给",

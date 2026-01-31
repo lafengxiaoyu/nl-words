@@ -2,7 +2,7 @@
   "id": "b2-lesson-21",
   "level": "B2",
   "lessonNumber": 21,
-  "totalWords": 50,
+  "totalWords": 42,
   "words": [
     {
       "id": 5239,
@@ -24,52 +24,16 @@
         "De reizigers gingen in quarantaine."
       ],
       "exampleTranslations": {
-        "chinese": ["因为病毒,他必须隔离。", "旅行者必须隔离。"],
-        "english": ["He had to quarantine due to the virus.", "The travelers went into quarantine."]
+        "chinese": [
+          "因为病毒,他必须隔离。",
+          "旅行者必须隔离。"
+        ],
+        "english": [
+          "He had to quarantine due to the virus.",
+          "The travelers went into quarantine."
+        ]
       },
       "notes": "阴性名词,法语外来词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5240,
-      "word": "raadplegen",
-      "translation": {
-        "chinese": "咨询,查阅",
-        "english": "to consult, to refer to"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "raadplegen",
-          "present": [
-            "ik raadpleeg",
-            "jij raadpleegt",
-            "hij/zij/het raadpleegt",
-            "wij raadplegen",
-            "jullie raadplegen",
-            "zij raadplegen"
-          ],
-          "past": [
-            "ik raadpleegde",
-            "jij raadpleegde",
-            "hij/zij/het raadpleegde",
-            "wij raadpleegden",
-            "jullie raadpleegden",
-            "zij raadpleegden"
-          ],
-          "perfect": "ik heb geraadpleegd",
-          "participle": "geraadpleegd"
-        }
-      },
-      "examples": [
-        "Ik moet de dokter raadplegen.",
-        "Hij raadpleegde de handleiding."
-      ],
-      "exampleTranslations": {
-        "chinese": ["我必须咨询医生。", "他查阅了手册。"],
-        "english": ["I must consult the doctor.", "He consulted the manual."]
-      },
-      "notes": "不可分动词",
       "difficulty": "B2"
     },
     {
@@ -92,8 +56,14 @@
         "Ik luister naar deze radiozender."
       ],
       "exampleTranslations": {
-        "chinese": ["这个广播电台播放好听的音乐。", "我听这个广播电台。"],
-        "english": ["The radio station plays good music.", "I listen to this radio station."]
+        "chinese": [
+          "这个广播电台播放好听的音乐。",
+          "我听这个广播电台。"
+        ],
+        "english": [
+          "The radio station plays good music.",
+          "I listen to this radio station."
+        ]
       },
       "notes": "复合名词",
       "difficulty": "B2"
@@ -118,76 +88,14 @@
         "De auto ging razendsnel."
       ],
       "exampleTranslations": {
-        "chinese": ["他迅速地跑开了。", "汽车飞驰而过。"],
-        "english": ["He ran away extremely fast.", "The car went extremely fast."]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5243,
-      "word": "realiseren",
-      "translation": {
-        "chinese": "实现,意识到",
-        "english": "to realize, to make happen, to become aware"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "realiseren",
-          "present": [
-            "ik realiseer",
-            "jij realiseert",
-            "hij/zij/het realiseert",
-            "wij realiseren",
-            "jullie realiseren",
-            "zij realiseren"
-          ],
-          "past": [
-            "ik realiseerde",
-            "jij realiseerde",
-            "hij/zij/het realiseerde",
-            "wij realiseerden",
-            "jullie realiseerden",
-            "zij realiseerden"
-          ],
-          "perfect": "ik heb gerealiseerd",
-          "participle": "gerealiseerd"
-        }
-      },
-      "examples": [
-        "We moeten het doel realiseren.",
-        "Hij realiseerde zich de fout."
-      ],
-      "exampleTranslations": {
-        "chinese": ["我们必须实现这个目标。", "他意识到了错误。"],
-        "english": ["We must achieve the goal.", "He realized the mistake."]
-      },
-      "notes": "不可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5244,
-      "word": "realistisch",
-      "translation": {
-        "chinese": "现实的,现实的",
-        "english": "realistic"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "realistisch",
-          "comparative": "realistischer",
-          "superlative": "realistischst"
-        }
-      },
-      "examples": [
-        "Het is een realistische verwachting.",
-        "We moeten realistisch zijn."
-      ],
-      "exampleTranslations": {
-        "chinese": ["这是一个现实的期望。", "我们要现实一点。"],
-        "english": ["This is a realistic expectation.", "We must be realistic."]
+        "chinese": [
+          "他迅速地跑开了。",
+          "汽车飞驰而过。"
+        ],
+        "english": [
+          "He ran away extremely fast.",
+          "The car went extremely fast."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -228,8 +136,14 @@
         "Het team probeerde hem te reanimeren."
       ],
       "exampleTranslations": {
-        "chinese": ["救护车对受害者进行了急救。", "团队尝试对他进行复苏。"],
-        "english": ["The ambulance resuscitated the victim.", "The team tried to resuscitate him."]
+        "chinese": [
+          "救护车对受害者进行了急救。",
+          "团队尝试对他进行复苏。"
+        ],
+        "english": [
+          "The ambulance resuscitated the victim.",
+          "The team tried to resuscitate him."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -254,8 +168,14 @@
         "Rechercheurs zoeken naar de dader."
       ],
       "exampleTranslations": {
-        "chinese": ["侦探调查了犯罪。", "侦探们寻找肇事者。"],
-        "english": ["The detective investigated the crime.", "Detectives search for the perpetrator."]
+        "chinese": [
+          "侦探调查了犯罪。",
+          "侦探们寻找肇事者。"
+        ],
+        "english": [
+          "The detective investigated the crime.",
+          "Detectives search for the perpetrator."
+        ]
       },
       "notes": "阳性名词,法语外来词",
       "difficulty": "B2"
@@ -280,8 +200,14 @@
         "De rechtspraak werkt onafhankelijk."
       ],
       "exampleTranslations": {
-        "chinese": ["司法对民主很重要。", "司法独立运作。"],
-        "english": ["The judiciary is important for democracy.", "The judiciary operates independently."]
+        "chinese": [
+          "司法对民主很重要。",
+          "司法独立运作。"
+        ],
+        "english": [
+          "The judiciary is important for democracy.",
+          "The judiciary operates independently."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -306,8 +232,14 @@
         "We leven in een rechtsstaat."
       ],
       "exampleTranslations": {
-        "chinese": ["荷兰是一个法治国家。", "我们生活在一个法治国家。"],
-        "english": ["Netherlands is a rule-of-law state.", "We live in a constitutional state."]
+        "chinese": [
+          "荷兰是一个法治国家。",
+          "我们生活在一个法治国家。"
+        ],
+        "english": [
+          "Netherlands is a rule-of-law state.",
+          "We live in a constitutional state."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -332,8 +264,14 @@
         "Hij begon een rechtszaak tegen het bedrijf."
       ],
       "exampleTranslations": {
-        "chinese": ["这个案件持续了多年。", "他对公司提起了诉讼。"],
-        "english": ["The lawsuit lasted for years.", "He filed a lawsuit against the company."]
+        "chinese": [
+          "这个案件持续了多年。",
+          "他对公司提起了诉讼。"
+        ],
+        "english": [
+          "The lawsuit lasted for years.",
+          "He filed a lawsuit against the company."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -358,8 +296,14 @@
         "Het park heeft recreatieve doeleinden."
       ],
       "exampleTranslations": {
-        "chinese": ["这是一个娱乐活动。", "这个公园有休闲用途。"],
-        "english": ["This is a recreational activity.", "The park has recreational purposes."]
+        "chinese": [
+          "这是一个娱乐活动。",
+          "这个公园有休闲用途。"
+        ],
+        "english": [
+          "This is a recreational activity.",
+          "The park has recreational purposes."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -384,34 +328,14 @@
         "Deze verpakking is niet recyclebaar."
       ],
       "exampleTranslations": {
-        "chinese": ["这种材料可以回收。", "这种包装不可回收。"],
-        "english": ["This material is recyclable.", "This packaging is not recyclable."]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5252,
-      "word": "regelmatig",
-      "translation": {
-        "chinese": "定期的,规律的",
-        "english": "regular, periodic"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "regelmatig",
-          "comparative": "regelmatiger",
-          "superlative": "regelmatigst"
-        }
-      },
-      "examples": [
-        "Ik ga regelmatig naar de sportschool.",
-        "Hij bezoekt zijn ouders regelmatig."
-      ],
-      "exampleTranslations": {
-        "chinese": ["我定期去健身房。", "他定期拜访父母。"],
-        "english": ["I go to the gym regularly.", "He visits his parents regularly."]
+        "chinese": [
+          "这种材料可以回收。",
+          "这种包装不可回收。"
+        ],
+        "english": [
+          "This material is recyclable.",
+          "This packaging is not recyclable."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -436,8 +360,14 @@
         "Ze keek me regelrecht in de ogen."
       ],
       "exampleTranslations": {
-        "chinese": ["他直接回家。", "她直视我的眼睛。"],
-        "english": ["He went straight home.", "She looked me straight in the eyes."]
+        "chinese": [
+          "他直接回家。",
+          "她直视我的眼睛。"
+        ],
+        "english": [
+          "He went straight home.",
+          "She looked me straight in the eyes."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -462,8 +392,14 @@
         "Het wordt een regenachtige week."
       ],
       "exampleTranslations": {
-        "chinese": ["这是多雨的一天。", "这将是一个多雨的一周。"],
-        "english": ["It was a rainy day.", "It will be a rainy week."]
+        "chinese": [
+          "这是多雨的一天。",
+          "这将是一个多雨的一周。"
+        ],
+        "english": [
+          "It was a rainy day.",
+          "It will be a rainy week."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -504,8 +440,14 @@
         "Wie neemt de regie over dit proces?"
       ],
       "exampleTranslations": {
-        "chinese": ["她掌控了这个项目。", "谁掌控这个流程?"],
-        "english": ["She took control of the project.", "Who takes control of this process?"]
+        "chinese": [
+          "她掌控了这个项目。",
+          "谁掌控这个流程?"
+        ],
+        "english": [
+          "She took control of the project.",
+          "Who takes control of this process?"
+        ]
       },
       "notes": "短语动词",
       "difficulty": "B2"
@@ -530,8 +472,14 @@
         "Zij neemt haar reiskoffer mee."
       ],
       "exampleTranslations": {
-        "chinese": ["我打包旅行箱。", "她带上旅行箱。"],
-        "english": ["I pack my suitcase.", "She takes her suitcase with her."]
+        "chinese": [
+          "我打包旅行箱。",
+          "她带上旅行箱。"
+        ],
+        "english": [
+          "I pack my suitcase.",
+          "She takes her suitcase with her."
+        ]
       },
       "notes": "复合名词",
       "difficulty": "B2"
@@ -572,8 +520,14 @@
         "We kunnen op hem rekenen."
       ],
       "exampleTranslations": {
-        "chinese": ["我可以指望你的帮助。", "我们可以依靠他。"],
-        "english": ["I can count on your help.", "We can rely on him."]
+        "chinese": [
+          "我可以指望你的帮助。",
+          "我们可以依靠他。"
+        ],
+        "english": [
+          "I can count on your help.",
+          "We can rely on him."
+        ]
       },
       "notes": "短语动词",
       "difficulty": "B2"
@@ -598,52 +552,16 @@
         "De toneelgroep koopt nieuwe rekwisitoirs."
       ],
       "exampleTranslations": {
-        "chinese": ["这部话剧使用了很多道具。", "剧团购买了新道具。"],
-        "english": ["The play uses many props.", "The theater group buys new props."]
+        "chinese": [
+          "这部话剧使用了很多道具。",
+          "剧团购买了新道具。"
+        ],
+        "english": [
+          "The play uses many props.",
+          "The theater group buys new props."
+        ]
       },
       "notes": "中性名词,法语外来词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5259,
-      "word": "relativeren",
-      "translation": {
-        "chinese": "相对化,淡化",
-        "english": "to relativize, to put in perspective"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "relativeren",
-          "present": [
-            "ik relativeer",
-            "jij relativeert",
-            "hij/zij/het relativeert",
-            "wij relativeren",
-            "jullie relativeren",
-            "zij relativeren"
-          ],
-          "past": [
-            "ik relativeerde",
-            "jij relativeerde",
-            "hij/zij/het relativeerde",
-            "wij relativeerden",
-            "jullie relativeerden",
-            "zij relativeerden"
-          ],
-          "perfect": "ik heb gerelativeerd",
-          "participle": "gerelativeerd"
-        }
-      },
-      "examples": [
-        "Probeer het probleem te relativeren.",
-        "Ze weet hoe ze problemen moet relativeren."
-      ],
-      "exampleTranslations": {
-        "chinese": ["尝试淡化这个问题。", "她知道如何将问题相对化。"],
-        "english": ["Try to put the problem in perspective.", "She knows how to relativize problems."]
-      },
-      "notes": "不可分动词",
       "difficulty": "B2"
     },
     {
@@ -666,8 +584,14 @@
         "Relschoppers gooiden stenen."
       ],
       "exampleTranslations": {
-        "chinese": ["警方逮捕了骚乱者。", "骚乱者投掷石块。"],
-        "english": ["The police arrested the rioters.", "Rioters threw stones."]
+        "chinese": [
+          "警方逮捕了骚乱者。",
+          "骚乱者投掷石块。"
+        ],
+        "english": [
+          "The police arrested the rioters.",
+          "Rioters threw stones."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -692,36 +616,16 @@
         "Er waren onverwachte repercussies."
       ],
       "exampleTranslations": {
-        "chinese": ["这个决定有重大的影响。", "有意想不到的后果。"],
-        "english": ["The decision had major repercussions.", "There were unexpected repercussions."]
+        "chinese": [
+          "这个决定有重大的影响。",
+          "有意想不到的后果。"
+        ],
+        "english": [
+          "The decision had major repercussions.",
+          "There were unexpected repercussions."
+        ]
       },
       "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5262,
-      "word": "repertoire",
-      "translation": {
-        "chinese": "曲目,节目单",
-        "english": "repertoire"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "repertoire",
-          "plural": "repertoires"
-        }
-      },
-      "examples": [
-        "Het orkest heeft een breed repertoire.",
-        "Ze voegde nieuwe nummers aan haar repertoire toe."
-      ],
-      "exampleTranslations": {
-        "chinese": ["这个管弦乐团有丰富的曲目。", "她在曲目中添加了新曲目。"],
-        "english": ["The orchestra has a wide repertoire.", "She added new songs to her repertoire."]
-      },
-      "notes": "中性名词",
       "difficulty": "B2"
     },
     {
@@ -744,76 +648,16 @@
         "De bewegingen zijn repetitief."
       ],
       "exampleTranslations": {
-        "chinese": ["这项工作很重复。", "这些动作很重复。"],
-        "english": ["The work is repetitive.", "The movements are repetitive."]
+        "chinese": [
+          "这项工作很重复。",
+          "这些动作很重复。"
+        ],
+        "english": [
+          "The work is repetitive.",
+          "The movements are repetitive."
+        ]
       },
       "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5264,
-      "word": "reserveren",
-      "translation": {
-        "chinese": "预订,保留",
-        "english": "to reserve, to book"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "reserveren",
-          "present": [
-            "ik reserveer",
-            "jij reserveert",
-            "hij/zij/het reserveert",
-            "wij reserveren",
-            "jullie reserveren",
-            "zij reserveren"
-          ],
-          "past": [
-            "ik reserveerde",
-            "jij reserveerde",
-            "hij/zij/het reserveerde",
-            "wij reserveerden",
-            "jullie reserveerden",
-            "zij reserveerden"
-          ],
-          "perfect": "ik heb gereserveerd",
-          "participle": "gereserveerd"
-        }
-      },
-      "examples": [
-        "Ik heb een tafel gereserveerd.",
-        "Zij reserveerde een hotelkamer."
-      ],
-      "exampleTranslations": {
-        "chinese": ["我预订了一张桌子。", "她预订了酒店房间。"],
-        "english": ["I reserved a table.", "She booked a hotel room."]
-      },
-      "notes": "不可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5265,
-      "word": "respectievelijk",
-      "translation": {
-        "chinese": "分别,各自",
-        "english": "respectively"
-      },
-      "partOfSpeech": "adverb",
-      "forms": {
-        "adverb": {
-          "base": "respectievelijk"
-        }
-      },
-      "examples": [
-        "Jan en Piet, respectievelijk 25 en 28 jaar oud.",
-        "Anna en Marie, respectievelijk 1.70 en 1.65 meter lang."
-      ],
-      "exampleTranslations": {
-        "chinese": ["Jan和Piet,分别是25岁和28岁。", "Anna和Marie,分别是1.70米和1.65米。"],
-        "english": ["Jan and Piet, respectively 25 and 28 years old.", "Anna and Marie, respectively 1.70 and 1.65 meters tall."]
-      },
-      "notes": "副词",
       "difficulty": "B2"
     },
     {
@@ -836,8 +680,14 @@
         "Ze sprak respectloos over haar ouders."
       ],
       "exampleTranslations": {
-        "chinese": ["他的行为很无礼。", "她无礼地谈论她的父母。"],
-        "english": ["His behavior was disrespectful.", "She spoke disrespectfully about her parents."]
+        "chinese": [
+          "他的行为很无礼。",
+          "她无礼地谈论她的父母。"
+        ],
+        "english": [
+          "His behavior was disrespectful.",
+          "She spoke disrespectfully about her parents."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -878,8 +728,14 @@
         "We gaan het gebouw restaureren."
       ],
       "exampleTranslations": {
-        "chinese": ["博物馆修复了这幅画。", "我们要翻新这座建筑。"],
-        "english": ["The museum restored the painting.", "We are going to renovate the building."]
+        "chinese": [
+          "博物馆修复了这幅画。",
+          "我们要翻新这座建筑。"
+        ],
+        "english": [
+          "The museum restored the painting.",
+          "We are going to renovate the building."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -920,8 +776,14 @@
         "De winkel restitueerde de aankoop."
       ],
       "exampleTranslations": {
-        "chinese": ["公司退还了这笔钱。", "商店退还了购买款项。"],
-        "english": ["The company reimbursed the money.", "The store refunded the purchase."]
+        "chinese": [
+          "公司退还了这笔钱。",
+          "商店退还了购买款项。"
+        ],
+        "english": [
+          "The company reimbursed the money.",
+          "The store refunded the purchase."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -946,8 +808,14 @@
         "De restitutie werd snel verwerkt."
       ],
       "exampleTranslations": {
-        "chinese": ["客户可以申请退款。", "退款很快处理完毕。"],
-        "english": ["Customers can request a refund.", "The refund was processed quickly."]
+        "chinese": [
+          "客户可以申请退款。",
+          "退款很快处理完毕。"
+        ],
+        "english": [
+          "Customers can request a refund.",
+          "The refund was processed quickly."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -972,8 +840,14 @@
         "Revalidatie duurt lang."
       ],
       "exampleTranslations": {
-        "chinese": ["术后她正在接受康复训练。", "康复需要很长时间。"],
-        "english": ["She undergoes rehabilitation after surgery.", "Rehabilitation takes a long time."]
+        "chinese": [
+          "术后她正在接受康复训练。",
+          "康复需要很长时间。"
+        ],
+        "english": [
+          "She undergoes rehabilitation after surgery.",
+          "Rehabilitation takes a long time."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -1014,8 +888,14 @@
         "Hij moet revalideren na het ongeluk."
       ],
       "exampleTranslations": {
-        "chinese": ["康复需要很长时间。", "事故后他需要康复。"],
-        "english": ["It takes long to rehabilitate.", "He needs to rehabilitate after the accident."]
+        "chinese": [
+          "康复需要很长时间。",
+          "事故后他需要康复。"
+        ],
+        "english": [
+          "It takes long to rehabilitate.",
+          "He needs to rehabilitate after the accident."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -1056,8 +936,14 @@
         "Je kunt je met vragen aan ons richten."
       ],
       "exampleTranslations": {
-        "chinese": ["他向警方求助。", "你可以向我们提出问题。"],
-        "english": ["He turned to the police.", "You can direct your questions to us."]
+        "chinese": [
+          "他向警方求助。",
+          "你可以向我们提出问题。"
+        ],
+        "english": [
+          "He turned to the police.",
+          "You can direct your questions to us."
+        ]
       },
       "notes": "短语动词",
       "difficulty": "B2"
@@ -1098,8 +984,14 @@
         "Kat rijmt met dat."
       ],
       "exampleTranslations": {
-        "chinese": ["这与现实不符。", "Kat和dat押韵。"],
-        "english": ["It doesn't match reality.", "Cat rhymes with that."]
+        "chinese": [
+          "这与现实不符。",
+          "Kat和dat押韵。"
+        ],
+        "english": [
+          "It doesn't match reality.",
+          "Cat rhymes with that."
+        ]
       },
       "notes": "短语动词",
       "difficulty": "B2"
@@ -1124,8 +1016,14 @@
         "De rijstkoker is klaar."
       ],
       "exampleTranslations": {
-        "chinese": ["我用电饭煲煮饭。", "电饭煲煮好了。"],
-        "english": ["I use the rice cooker to cook rice.", "The rice cooker is ready."]
+        "chinese": [
+          "我用电饭煲煮饭。",
+          "电饭煲煮好了。"
+        ],
+        "english": [
+          "I use the rice cooker to cook rice.",
+          "The rice cooker is ready."
+        ]
       },
       "notes": "复合名词",
       "difficulty": "B2"
@@ -1166,8 +1064,14 @@
         "Teams rivaliseren om de titel."
       ],
       "exampleTranslations": {
-        "chinese": ["这些公司争夺客户。", "队伍争夺冠军。"],
-        "english": ["The companies compete for customers.", "Teams compete for the title."]
+        "chinese": [
+          "这些公司争夺客户。",
+          "队伍争夺冠军。"
+        ],
+        "english": [
+          "The companies compete for customers.",
+          "Teams compete for the title."
+        ]
       },
       "notes": "不可分动词",
       "difficulty": "B2"
@@ -1192,8 +1096,14 @@
         "Ze houdt van romantische films."
       ],
       "exampleTranslations": {
-        "chinese": ["这是一场浪漫的晚餐。", "她喜欢浪漫电影。"],
-        "english": ["It was a romantic dinner.", "She loves romantic movies."]
+        "chinese": [
+          "这是一场浪漫的晚餐。",
+          "她喜欢浪漫电影。"
+        ],
+        "english": [
+          "It was a romantic dinner.",
+          "She loves romantic movies."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -1234,8 +1144,14 @@
         "Niet rondhangen in de buurt!"
       ],
       "exampleTranslations": {
-        "chinese": ["年轻人经常在街上闲逛。", "不要在附近闲逛!"],
-        "english": ["Young people often hang around on the street.", "Don't hang around in the area!"]
+        "chinese": [
+          "年轻人经常在街上闲逛。",
+          "不要在附近闲逛!"
+        ],
+        "english": [
+          "Young people often hang around on the street.",
+          "Don't hang around in the area!"
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -1276,8 +1192,14 @@
         "Stop met rondneuzen in mijn spullen."
       ],
       "exampleTranslations": {
-        "chinese": ["他四处打听新闻。", "别在我的东西里乱翻!"],
-        "english": ["He is snooping around for news.", "Stop snooping around in my stuff!"]
+        "chinese": [
+          "他四处打听新闻。",
+          "别在我的东西里乱翻!"
+        ],
+        "english": [
+          "He is snooping around for news.",
+          "Stop snooping around in my stuff!"
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -1318,8 +1240,14 @@
         "De munt tolt rond."
       ],
       "exampleTranslations": {
-        "chinese": ["轮子在转动。", "硬币在旋转。"],
-        "english": ["The wheel was spinning around.", "The coin is spinning around."]
+        "chinese": [
+          "轮子在转动。",
+          "硬币在旋转。"
+        ],
+        "english": [
+          "The wheel was spinning around.",
+          "The coin is spinning around."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -1344,8 +1272,14 @@
         "Er was een roofoverval op straat."
       ],
       "exampleTranslations": {
-        "chinese": ["警方调查了这起抢劫案。", "街上发生了抢劫。"],
-        "english": ["The police investigates the robbery.", "There was a robbery on the street."]
+        "chinese": [
+          "警方调查了这起抢劫案。",
+          "街上发生了抢劫。"
+        ],
+        "english": [
+          "The police investigates the robbery.",
+          "There was a robbery on the street."
+        ]
       },
       "notes": "复合名词",
       "difficulty": "B2"
@@ -1370,8 +1304,14 @@
         "We hebben nieuwe rookmelders geïnstalleerd."
       ],
       "exampleTranslations": {
-        "chinese": ["烟雾报警器响了。", "我们安装了新的烟雾报警器。"],
-        "english": ["The smoke detector went off.", "We installed new smoke detectors."]
+        "chinese": [
+          "烟雾报警器响了。",
+          "我们安装了新的烟雾报警器。"
+        ],
+        "english": [
+          "The smoke detector went off.",
+          "We installed new smoke detectors."
+        ]
       },
       "notes": "复合名词",
       "difficulty": "B2"
@@ -1396,8 +1336,14 @@
         "De rouwdienst was waardig."
       ],
       "exampleTranslations": {
-        "chinese": ["葬礼服务已经组织好了。", "葬礼服务很庄重。"],
-        "english": ["The funeral service was organized.", "The funeral service was dignified."]
+        "chinese": [
+          "葬礼服务已经组织好了。",
+          "葬礼服务很庄重。"
+        ],
+        "english": [
+          "The funeral service was organized.",
+          "The funeral service was dignified."
+        ]
       },
       "notes": "复合名词",
       "difficulty": "B2"
@@ -1422,8 +1368,14 @@
         "Hij heeft pijn in zijn ruggengraat."
       ],
       "exampleTranslations": {
-        "chinese": ["脊柱对身体姿态很重要。", "他脊柱疼痛。"],
-        "english": ["The spine is important for posture.", "He has pain in his spine."]
+        "chinese": [
+          "脊柱对身体姿态很重要。",
+          "他脊柱疼痛。"
+        ],
+        "english": [
+          "The spine is important for posture.",
+          "He has pain in his spine."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -1448,8 +1400,14 @@
         "We moeten ruimdenkend zijn."
       ],
       "exampleTranslations": {
-        "chinese": ["他是一个开明的人。", "我们要开明一些。"],
-        "english": ["He is an open-minded person.", "We must be open-minded."]
+        "chinese": [
+          "他是一个开明的人。",
+          "我们要开明一些。"
+        ],
+        "english": [
+          "He is an open-minded person.",
+          "We must be open-minded."
+        ]
       },
       "notes": "形容词,由ruim(宽广)+denken(思考)组成",
       "difficulty": "B2"
@@ -1474,8 +1432,14 @@
         "Hij is een ruimhartig man."
       ],
       "exampleTranslations": {
-        "chinese": ["她在金钱上很慷慨。", "他是一个慷慨的人。"],
-        "english": ["She is generous with her money.", "He is a generous man."]
+        "chinese": [
+          "她在金钱上很慷慨。",
+          "他是一个慷慨的人。"
+        ],
+        "english": [
+          "She is generous with her money.",
+          "He is a generous man."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -1498,8 +1462,14 @@
         "Er zijn ruimschoots mogelijkheden."
       ],
       "exampleTranslations": {
-        "chinese": ["时间绰绰有余。", "机会绰绰有余。"],
-        "english": ["There's more than enough time.", "There are abundant opportunities."]
+        "chinese": [
+          "时间绰绰有余。",
+          "机会绰绰有余。"
+        ],
+        "english": [
+          "There's more than enough time.",
+          "There are abundant opportunities."
+        ]
       },
       "notes": "副词",
       "difficulty": "B2"
@@ -1524,8 +1494,14 @@
         "De ruimtelijke ordening is belangrijk."
       ],
       "exampleTranslations": {
-        "chinese": ["这是一件立体艺术品。", "空间布局很重要。"],
-        "english": ["This is a spatial artwork.", "Spatial organization is important."]
+        "chinese": [
+          "这是一件立体艺术品。",
+          "空间布局很重要。"
+        ],
+        "english": [
+          "This is a spatial artwork.",
+          "Spatial organization is important."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -1550,8 +1526,14 @@
         "De röntgenfoto toont geen breuk."
       ],
       "exampleTranslations": {
-        "chinese": ["医生拍了我腿部的X光照片。", "X光照片显示没有骨折。"],
-        "english": ["The doctor took an X-ray of my leg.", "The X-ray shows no fracture."]
+        "chinese": [
+          "医生拍了我腿部的X光照片。",
+          "X光照片显示没有骨折。"
+        ],
+        "english": [
+          "The doctor took an X-ray of my leg.",
+          "The X-ray shows no fracture."
+        ]
       },
       "notes": "阳性名词,复数加's",
       "difficulty": "B2"

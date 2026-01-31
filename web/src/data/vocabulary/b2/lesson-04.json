@@ -2,7 +2,7 @@
   "id": "lB204",
   "level": "B2",
   "lessonNumber": 4,
-  "totalWords": 50,
+  "totalWords": 27,
   "words": [
     {
       "id": 4492,
@@ -70,51 +70,6 @@
     },
     {
       "id": 4494,
-      "word": "baseren op",
-      "translation": {
-        "chinese": "基于, 建立在...上",
-        "english": "to base on"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "baseren",
-          "isSeparable": false,
-          "present": {
-            "ik": "baseer op",
-            "jij": "baseert op",
-            "hij": "baseert op",
-            "wij": "baseren op",
-            "jullie": "baseren op",
-            "zij": "baseren op"
-          },
-          "past": {
-            "singular": "baseerde op",
-            "plural": "baseerden op"
-          },
-          "pastParticiple": "gebaseerd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij baseert zijn theorie op feiten.",
-        "Wij baseren ons op de resultaten."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他的理论基于事实。",
-          "我们建立在结果之上。"
-        ],
-        "english": [
-          "He bases his theory on facts.",
-          "We base ourselves on the results."
-        ]
-      },
-      "notes": "不可分动词，搭配介词 op",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4495,
       "word": "beangstigen",
       "translation": {
         "chinese": "使害怕, 恐吓",
@@ -160,7 +115,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4496,
+      "id": 4495,
       "word": "becijferen",
       "translation": {
         "chinese": "计算, 估算",
@@ -205,7 +160,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4497,
+      "id": 4496,
       "word": "beddengoed",
       "translation": {
         "chinese": "床上用品",
@@ -237,52 +192,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4498,
-      "word": "beeldhouwen",
-      "translation": {
-        "chinese": "雕刻",
-        "english": "to sculpt"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "beeldhouwen",
-          "isSeparable": false,
-          "present": {
-            "ik": "beeldhouw",
-            "jij": "beeldhouwt",
-            "hij": "beeldhouwt",
-            "wij": "beeldhouwen",
-            "jullie": "beeldhouwen",
-            "zij": "beeldhouwen"
-          },
-          "past": {
-            "singular": "beeldhouwde",
-            "plural": "beeldhouwden"
-          },
-          "pastParticiple": "gebeeldhouwd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij beeldhouwt een standbeeld.",
-        "Zij beeldhouwt in hout."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他雕刻雕像。",
-          "她在木头上雕刻。"
-        ],
-        "english": [
-          "He sculpts a statue.",
-          "She sculpts in wood."
-        ]
-      },
-      "notes": "不可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4499,
+      "id": 4497,
       "word": "beeldschoon",
       "translation": {
         "chinese": "无云的, 晴朗的",
@@ -316,7 +226,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4500,
+      "id": 4498,
       "word": "beeldspraak",
       "translation": {
         "chinese": "肢体语言",
@@ -348,7 +258,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4501,
+      "id": 4499,
       "word": "beetpakken",
       "translation": {
         "chinese": "咬",
@@ -394,52 +304,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4502,
-      "word": "begeleiden",
-      "translation": {
-        "chinese": "陪同, 护送",
-        "english": "to accompany, to escort"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "begeleiden",
-          "isSeparable": false,
-          "present": {
-            "ik": "beleid",
-            "jij": "beleidt",
-            "hij": "beleidt",
-            "wij": "begeleiden",
-            "jullie": "begeleiden",
-            "zij": "begeleiden"
-          },
-          "past": {
-            "singular": "beleidde",
-            "plural": "begeleidden"
-          },
-          "pastParticiple": "begeleid",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij beleidt de gasten.",
-        "Zij begeleidt hem naar huis."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他陪同客人。",
-          "她护送他回家。"
-        ],
-        "english": [
-          "He accompanies the guests.",
-          "She escorts him home."
-        ]
-      },
-      "notes": "不可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4503,
+      "id": 4501,
       "word": "beginadigen",
       "translation": {
         "chinese": "初步批准, 初步同意",
@@ -485,39 +350,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4504,
-      "word": "begrafenis",
-      "translation": {
-        "chinese": "葬礼",
-        "english": "funeral"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "begrafenis",
-          "plural": "begrafenissen"
-        }
-      },
-      "examples": [
-        "Wij gaan naar de begrafenis.",
-        "De begrafenis was emotioneel."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我们去参加葬礼。",
-          "葬礼很感人。"
-        ],
-        "english": [
-          "We go to the funeral.",
-          "The funeral was emotional."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4505,
+      "id": 4502,
       "word": "behaglijk",
       "translation": {
         "chinese": "令人愉快的",
@@ -551,7 +384,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4506,
+      "id": 4503,
       "word": "behandelaar",
       "translation": {
         "chinese": "治疗者, 处理者",
@@ -583,130 +416,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4507,
-      "word": "behandelen",
-      "translation": {
-        "chinese": "处理, 治疗",
-        "english": "to handle, to treat"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "behandelen",
-          "isSeparable": false,
-          "present": {
-            "ik": "behandel",
-            "jij": "behandelt",
-            "hij": "behandelt",
-            "wij": "behandelen",
-            "jullie": "behandelen",
-            "zij": "behandelen"
-          },
-          "past": {
-            "singular": "behandelde",
-            "plural": "behandelden"
-          },
-          "pastParticiple": "behandeld",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij behandelt de patiënt.",
-        "Wij behandelen het verzoek."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他治疗病人。",
-          "我们处理请求。"
-        ],
-        "english": [
-          "He treats the patient.",
-          "We handle the request."
-        ]
-      },
-      "notes": "不可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4508,
-      "word": "behandeling",
-      "translation": {
-        "chinese": "治疗, 处理",
-        "english": "treatment, handling"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "behandeling",
-          "plural": "behandelingen"
-        }
-      },
-      "examples": [
-        "De behandeling duurt lang.",
-        "Wij beginnen met de behandeling."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "治疗时间很长。",
-          "我们开始治疗。"
-        ],
-        "english": [
-          "The treatment takes long.",
-          "We start with the treatment."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4509,
-      "word": "behartigen",
-      "translation": {
-        "chinese": "珍视, 照顾",
-        "english": "to cherish, to care for"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "behartigen",
-          "isSeparable": true,
-          "prefix": "be",
-          "present": {
-            "ik": "hartig",
-            "jij": "hartigt",
-            "hij": "hartigt",
-            "wij": "hartigen",
-            "jullie": "hartigen",
-            "zij": "hartigen"
-          },
-          "past": {
-            "singular": "hartigde",
-            "plural": "hartigden"
-          },
-          "pastParticiple": "behartigd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij hartigt zijn gezin.",
-        "Zij hartigt de herinnering."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他珍视家庭。",
-          "她珍视回忆。"
-        ],
-        "english": [
-          "He cherishes his family.",
-          "She cherishes the memory."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4510,
+      "id": 4505,
       "word": "behoorlijk",
       "translation": {
         "chinese": "适当的, 合理的",
@@ -740,7 +450,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4511,
+      "id": 4506,
       "word": "behoren tot",
       "translation": {
         "chinese": "属于",
@@ -785,7 +495,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4512,
+      "id": 4507,
       "word": "behulpzaam",
       "translation": {
         "chinese": "乐于助人的, 乐于助人的",
@@ -819,85 +529,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4513,
-      "word": "bekendheid",
-      "translation": {
-        "chinese": "知名度",
-        "english": "fame, notoriety"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "bekendheid",
-          "plural": "-"
-        }
-      },
-      "examples": [
-        "Zijn bekendheid is groot.",
-        "De product geniet bekendheid."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他的知名度很高。",
-          "产品享有知名度。"
-        ],
-        "english": [
-          "His fame is great.",
-          "The product enjoys fame."
-        ]
-      },
-      "notes": "名词，不可数",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4514,
-      "word": "bekendmaken",
-      "translation": {
-        "chinese": "公布, 公开",
-        "english": "to announce, to make known"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "bekendmaken",
-          "isSeparable": true,
-          "prefix": "bekend",
-          "present": {
-            "ik": "maak bekend",
-            "jij": "maakt bekend",
-            "hij": "maakt bekend",
-            "wij": "maken bekend",
-            "jullie": "maken bekend",
-            "zij": "maken bekend"
-          },
-          "past": {
-            "singular": "maakte bekend",
-            "plural": "maakten bekend"
-          },
-          "pastParticiple": "bekendgemaakt",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij maakt het nieuws bekend.",
-        "Wij maken het plan bekend."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他公布新闻。",
-          "我们公开计划。"
-        ],
-        "english": [
-          "He announces the news.",
-          "We make the plan known."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4515,
+      "id": 4508,
       "word": "beklemmend",
       "translation": {
         "chinese": "令人窒息的, 压抑的",
@@ -931,98 +563,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4516,
-      "word": "beklemtonen",
-      "translation": {
-        "chinese": "强调, 突出",
-        "english": "to emphasize, to stress"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "beklemtonen",
-          "isSeparable": false,
-          "present": {
-            "ik": "klemtoon",
-            "jij": "klemtoont",
-            "hij": "klemtoont",
-            "wij": "klemtonen",
-            "jullie": "klemtonen",
-            "zij": "klemtonen"
-          },
-          "past": {
-            "singular": "klemtoonde",
-            "plural": "klemtoonden"
-          },
-          "pastParticiple": "beklemtoond",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij klemtoont het belang.",
-        "Zij klemtoont haar punt."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他强调重要性。",
-          "她突出她的观点。"
-        ],
-        "english": [
-          "He emphasizes the importance.",
-          "She stresses her point."
-        ]
-      },
-      "notes": "不可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4517,
-      "word": "bekokstoven",
-      "translation": {
-        "chinese": "烤, 烘焙",
-        "english": "to bake"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "bekokstoven",
-          "isSeparable": true,
-          "prefix": "be",
-          "present": {
-            "ik": "kookstoof",
-            "jij": "kookstoof",
-            "hij": "kookstoof",
-            "wij": "kokstoven",
-            "jullie": "kokstoven",
-            "zij": "kokstoven"
-          },
-          "past": {
-            "singular": "kookstoofde",
-            "plural": "kokstoofden"
-          },
-          "pastParticiple": "bekookstoofd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Zij kokstoof het brood.",
-        "Hij kokstoof de aardappelen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "她烤面包。",
-          "他烤土豆。"
-        ],
-        "english": [
-          "She bakes the bread.",
-          "He bakes the potatoes."
-        ]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4518,
+      "id": 4509,
       "word": "bekostigen",
       "translation": {
         "chinese": "负担得起, 支付",
@@ -1068,120 +609,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4519,
-      "word": "belachelijk",
-      "translation": {
-        "chinese": "可笑的, 荒谬的",
-        "english": "ridiculous, absurd"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "belachelijk",
-          "withDe": "belachelijke",
-          "withHet": "belachelijke",
-          "comparative": "belachelijker",
-          "superlative": "het belachelijkst"
-        }
-      },
-      "examples": [
-        "Een belachelijke opmerking.",
-        "De situatie is belachelijk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "可笑的评论。",
-          "情况荒谬。"
-        ],
-        "english": [
-          "A ridiculous remark.",
-          "The situation is absurd."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4520,
-      "word": "beledigend",
-      "translation": {
-        "chinese": "侮辱的, 冒犯的",
-        "english": "insulting, offensive"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "beledigend",
-          "withDe": "beledigende",
-          "withHet": "beledigende",
-          "comparative": "beledigender",
-          "superlative": "het beledigendst"
-        }
-      },
-      "examples": [
-        "Een beledigende opmerking.",
-        "Zijn taal is beledigend."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "侮辱性的评论。",
-          "他的语言冒犯人。"
-        ],
-        "english": [
-          "An insulting remark.",
-          "His language is offensive."
-        ]
-      },
-      "notes": "形容词（分词形式）",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4521,
-      "word": "belemmeren",
-      "translation": {
-        "chinese": "阻碍, 限制",
-        "english": "to hinder, to restrict"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "belemmeren",
-          "isSeparable": false,
-          "present": {
-            "ik": "belemmer",
-            "jij": "belemmert",
-            "hij": "belemmert",
-            "wij": "belemmeren",
-            "jullie": "belemmeren",
-            "zij": "belemmeren"
-          },
-          "past": {
-            "singular": "belemmerde",
-            "plural": "belemmerden"
-          },
-          "pastParticiple": "belemmerd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Het belemmert het werk.",
-        "De regels belemmeren ons."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "那阻碍工作。",
-          "规则限制我们。"
-        ],
-        "english": [
-          "It hinders the work.",
-          "The rules restrict us."
-        ]
-      },
-      "notes": "不可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4522,
+      "id": 4510,
       "word": "belichamen",
       "translation": {
         "chinese": "体现, 具体化",
@@ -1226,7 +654,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4523,
+      "id": 4511,
       "word": "bemachtigen",
       "translation": {
         "chinese": "获得, 取得",
@@ -1272,7 +700,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4524,
+      "id": 4512,
       "word": "bemiddelaar",
       "translation": {
         "chinese": "调解人, 中间人",
@@ -1304,52 +732,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4525,
-      "word": "bemiddelen",
-      "translation": {
-        "chinese": "调解, 斡旋",
-        "english": "to mediate"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "bemiddelen",
-          "isSeparable": false,
-          "present": {
-            "ik": "middel",
-            "jij": "middelt",
-            "hij": "middelt",
-            "wij": "bemiddelen",
-            "jullie": "bemiddelen",
-            "zij": "bemiddelen"
-          },
-          "past": {
-            "singular": "middelde",
-            "plural": "middelden"
-          },
-          "pastParticiple": "bemiddeld",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij middelt het conflict.",
-        "Zij bemiddelen het geschil."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他调解冲突。",
-          "她斡旋争端。"
-        ],
-        "english": [
-          "He mediates the conflict.",
-          "She mediates the dispute."
-        ]
-      },
-      "notes": "不可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4526,
+      "id": 4514,
       "word": "bemoedigen",
       "translation": {
         "chinese": "使沮丧, 打击士气",
@@ -1395,84 +778,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4527,
-      "word": "benadering",
-      "translation": {
-        "chinese": "接近, 处理方法",
-        "english": "approach, method"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "benadering",
-          "plural": "benaderingen"
-        }
-      },
-      "examples": [
-        "Een nieuwe benadering.",
-        "De benadering is creatief."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "新的方法。",
-          "方法很创新。"
-        ],
-        "english": [
-          "A new approach.",
-          "The approach is creative."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4528,
-      "word": "benadrukken",
-      "translation": {
-        "chinese": "压制, 使...黯淡",
-        "english": "to suppress, to overshadow"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "benadrukken",
-          "isSeparable": false,
-          "present": {
-            "ik": "nadruk",
-            "jij": "nadrukt",
-            "hij": "nadrukt",
-            "wij": "nadrukken",
-            "jullie": "nadrukken",
-            "zij": "nadrukken"
-          },
-          "past": {
-            "singular": "nadrukte",
-            "plural": "nadrukten"
-          },
-          "pastParticiple": "benadrukt",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij nadrukt zijn verdriet.",
-        "De zomer nadrukt de herinnering."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他压抑悲伤。",
-          "夏天使回忆黯淡。"
-        ],
-        "english": [
-          "He suppresses his sadness.",
-          "The summer overshadows the memory."
-        ]
-      },
-      "notes": "不可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4529,
+      "id": 4516,
       "word": "benauwdheid",
       "translation": {
         "chinese": "令人窒息, 闷热",
@@ -1504,7 +810,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4530,
+      "id": 4517,
       "word": "benzinepomp",
       "translation": {
         "chinese": "汽油泵",
@@ -1536,39 +842,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4531,
-      "word": "beoordelaar",
-      "translation": {
-        "chinese": "评估者, 评判者",
-        "english": "assessor, evaluator"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "beoordelaar",
-          "plural": "beoordelaars"
-        }
-      },
-      "examples": [
-        "De beoordelaar beslist.",
-        "Een ervaren beoordelaar."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "评估者做决定。",
-          "有经验的评估者。"
-        ],
-        "english": [
-          "The assessor decides.",
-          "An experienced assessor."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4532,
+      "id": 4518,
       "word": "beoordelen",
       "translation": {
         "chinese": "评估, 评判",
@@ -1613,7 +887,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4533,
+      "id": 4519,
       "word": "beredeneren",
       "translation": {
         "chinese": "使冷静, 镇静",
@@ -1658,7 +932,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4534,
+      "id": 4520,
       "word": "bereidheid",
       "translation": {
         "chinese": "准备, 愿意",
@@ -1690,41 +964,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4535,
-      "word": "bereikbaar",
-      "translation": {
-        "chinese": "可到达的, 可联系的",
-        "english": "accessible, reachable"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "bereikbaar",
-          "withDe": "bereikbare",
-          "withHet": "bereikbare",
-          "comparative": "bereikbaarder",
-          "superlative": "het bereikbaarst"
-        }
-      },
-      "examples": [
-        "Hij is bereikbaar.",
-        "Het park is bereikbaar."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他可联系。",
-          "公园可达。"
-        ],
-        "english": [
-          "He is reachable.",
-          "The park is accessible."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4536,
+      "id": 4521,
       "word": "bergachtig",
       "translation": {
         "chinese": "多山的, 山区的",
@@ -1758,7 +998,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4537,
+      "id": 4522,
       "word": "beroemdheid",
       "translation": {
         "chinese": "名声, 声誉",
@@ -1787,175 +1027,6 @@
         ]
       },
       "notes": "名词，不可数",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4538,
-      "word": "beschadigen",
-      "translation": {
-        "chinese": "损害, 伤害",
-        "english": "to damage, to harm"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "beschadigen",
-          "isSeparable": false,
-          "present": {
-            "ik": "schadig",
-            "jij": "schadigt",
-            "hij": "schadigt",
-            "wij": "schadigen",
-            "jullie": "schadigen",
-            "zij": "schadigen"
-          },
-          "past": {
-            "singular": "schadigde",
-            "plural": "schadigden"
-          },
-          "pastParticiple": "beschadigd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij schadigt het imago.",
-        "Zij schadigt de auto."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他损害形象。",
-          "她伤害汽车。"
-        ],
-        "english": [
-          "He damages the image.",
-          "She harms the car."
-        ]
-      },
-      "notes": "不可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4539,
-      "word": "bescheiden",
-      "translation": {
-        "chinese": "谦虚的, 朴素的",
-        "english": "modest, simple"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "bescheiden",
-          "withDe": "bescheiden",
-          "withHet": "bescheiden",
-          "comparative": "bescheidener",
-          "superlative": "het bescheidenst"
-        }
-      },
-      "examples": [
-        "Een bescheiden huis.",
-        "Zij is bescheiden."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "朴素的房子。",
-          "她很谦虚。"
-        ],
-        "english": [
-          "A modest house.",
-          "She is modest."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4540,
-      "word": "beschieten",
-      "translation": {
-        "chinese": "误射, 射击错误",
-        "english": "to shoot past, to overshoot"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "beschieten",
-          "isSeparable": false,
-          "present": {
-            "ik": "schiet",
-            "jij": "schiet",
-            "hij": "schiet",
-            "wij": "schieten",
-            "jullie": "schieten",
-            "zij": "schieten"
-          },
-          "past": {
-            "singular": "schoot",
-            "plural": "schoten"
-          },
-          "pastParticiple": "beschoten",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij schoot het doel mist.",
-        "Wij schieten het doel mis."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他射偏了目标。",
-          "我们射错目标。"
-        ],
-        "english": [
-          "He missed the target.",
-          "We overshoot the target."
-        ]
-      },
-      "notes": "不可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4541,
-      "word": "beschikken",
-      "translation": {
-        "chinese": "分配, 决定",
-        "english": "to dispose of, to decide"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "beschikken",
-          "isSeparable": false,
-          "present": {
-            "ik": "schik",
-            "jij": "schikt",
-            "hij": "schikt",
-            "wij": "schikken",
-            "jullie": "schikken",
-            "zij": "schikken"
-          },
-          "past": {
-            "singular": "schikte",
-            "plural": "schikten"
-          },
-          "pastParticiple": "beschikt",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij schikt de kwestie.",
-        "Wij schikken de zaak."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他解决这个问题。",
-          "我们处理事务。"
-        ],
-        "english": [
-          "He settles the matter.",
-          "We decide on the case."
-        ]
-      },
-      "notes": "不可分动词",
       "difficulty": "B2"
     }
   ]

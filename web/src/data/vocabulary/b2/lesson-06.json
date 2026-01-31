@@ -1,6 +1,6 @@
 {
   "lessonNumber": 6,
-  "totalWords": 27,
+  "totalWords": 15,
   "words": [
     {
       "id": 4552,
@@ -221,71 +221,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 4559,
-      "word": "combineren",
-      "translation": {
-        "chinese": "结合, 组合",
-        "english": "to combine, to mix"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "combineren",
-          "present": "combineert",
-          "past": "combineerde",
-          "participle": "gecombineerd"
-        }
-      },
-      "examples": [
-        "Je kunt dit met dat combineren.",
-        "We moeten verschillende ideeën combineren."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "你可以把这个和那个结合起来。",
-          "我们需要把不同的想法结合起来。"
-        ],
-        "english": [
-          "You can combine this with that.",
-          "We need to combine different ideas."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4560,
-      "word": "comfortabel",
-      "translation": {
-        "chinese": "舒适的",
-        "english": "comfortable"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "comfortabel",
-          "comparative": "comfortabeler",
-          "superlative": "comfortabelst"
-        }
-      },
-      "examples": [
-        "De stoel is erg comfortabel.",
-        "Ik voel me comfortabel in dit huis."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这把椅子非常舒适。",
-          "我在这个房子里感到很舒服。"
-        ],
-        "english": [
-          "The chair is very comfortable.",
-          "I feel comfortable in this house."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
       "id": 4561,
       "word": "commandant",
       "translation": {
@@ -350,69 +285,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 4563,
-      "word": "commentaar",
-      "translation": {
-        "chinese": "评论, 意见",
-        "english": "comment, remark"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "commentaar",
-          "plural": "commentaren"
-        }
-      },
-      "examples": [
-        "Mag ik een commentaar geven?",
-        "Zijn commentaar was erg kritisch."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我可以发表一下评论吗?",
-          "他的评论非常批判性。"
-        ],
-        "english": [
-          "May I give a comment?",
-          "His comment was very critical."
-        ]
-      },
-      "notes": "中性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4564,
-      "word": "commercieel",
-      "translation": {
-        "chinese": "商业的, 商业的",
-        "english": "commercial"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "commercieel",
-          "comparative": "commercieeler",
-          "superlative": "commercieelst"
-        }
-      },
-      "examples": [
-        "Het is een commercieel succes.",
-        "Dit is puur commercieel."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是一个商业上的成功。",
-          "这纯粹是商业性的。"
-        ],
-        "english": [
-          "It is a commercial success.",
-          "This is purely commercial."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
       "id": 4565,
       "word": "commissaris",
       "translation": {
@@ -445,37 +317,6 @@
     },
     {
       "id": 4566,
-      "word": "compensatie",
-      "translation": {
-        "chinese": "补偿, 赔偿",
-        "english": "compensation"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "compensatie",
-          "plural": "compensaties"
-        }
-      },
-      "examples": [
-        "Ze eist compensatie voor de schade.",
-        "De compensatie was ruimhartig."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "她要求对损害进行赔偿。",
-          "赔偿很慷慨。"
-        ],
-        "english": [
-          "She demands compensation for the damage.",
-          "The compensation was generous."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4567,
       "word": "compliment",
       "translation": {
         "chinese": "赞美, 恭维",
@@ -506,7 +347,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4568,
+      "id": 4567,
       "word": "concluderen",
       "translation": {
         "chinese": "得出结论, 总结",
@@ -540,70 +381,6 @@
     },
     {
       "id": 4569,
-      "word": "connotatie",
-      "translation": {
-        "chinese": "内涵, 言外之意",
-        "english": "connotation"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "connotatie",
-          "plural": "connotaties"
-        }
-      },
-      "examples": [
-        "Dit woord heeft een negatieve connotatie.",
-        "De connotatie van het beeld is duidelijk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这个词有负面含义。",
-          "这个画面的内涵很清楚。"
-        ],
-        "english": [
-          "This word has a negative connotation.",
-          "The connotation of the image is clear."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4570,
-      "word": "constateren",
-      "translation": {
-        "chinese": "观察到, 查明, 确认",
-        "english": "to observe, to ascertain, to establish"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "constateren",
-          "present": "constateert",
-          "past": "constateerde",
-          "participle": "geconstateerd"
-        }
-      },
-      "examples": [
-        "We kunnen constateren dat het werkt.",
-        "De arts constateerde geen ernstige problemen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我们可以观察到它有效。",
-          "医生没有发现严重的问题。"
-        ],
-        "english": [
-          "We can observe that it works.",
-          "The doctor observed no serious problems."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4571,
       "word": "contrastief",
       "translation": {
         "chinese": "对比性的, 对照的",
@@ -635,71 +412,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4572,
-      "word": "conversatie",
-      "translation": {
-        "chinese": "谈话, 对话",
-        "english": "conversation"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "conversatie",
-          "plural": "conversaties"
-        }
-      },
-      "examples": [
-        "Ze hadden een interessante conversatie.",
-        "De conversatie verliep goed."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他们进行了一次有趣的谈话。",
-          "对话进行得很顺利。"
-        ],
-        "english": [
-          "They had an interesting conversation.",
-          "The conversation went well."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4573,
-      "word": "corrigeren",
-      "translation": {
-        "chinese": "纠正, 改正",
-        "english": "to correct, to amend"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "corrigeren",
-          "present": "corrigeert",
-          "past": "corrigeerde",
-          "participle": "gecorrigeerd"
-        }
-      },
-      "examples": [
-        "De leraar corrigeert de toetsen.",
-        "Moet ik dit corrigeren?"
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "老师正在批改试卷。",
-          "我需要纠正这个吗?"
-        ],
-        "english": [
-          "The teacher is correcting the tests.",
-          "Should I correct this?"
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4574,
+      "id": 4571,
       "word": "corrumperen",
       "translation": {
         "chinese": "腐蚀, 败坏",
@@ -732,7 +445,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4575,
+      "id": 4572,
       "word": "criticaster",
       "translation": {
         "chinese": "批评家, 吹毛求疵者",

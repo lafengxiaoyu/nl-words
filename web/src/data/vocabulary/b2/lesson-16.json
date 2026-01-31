@@ -2,7 +2,7 @@
   "id": "lB216",
   "level": "B2",
   "lessonNumber": 16,
-  "totalWords": 50,
+  "totalWords": 43,
   "words": [
     {
       "id": 5028,
@@ -144,40 +144,6 @@
         ]
       },
       "notes": "副词，表示交替进行",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5032,
-      "word": "omvangrijk",
-      "translation": {
-        "chinese": "巨大的,规模大的",
-        "english": "large-scale, extensive, vast"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "omvangrijk",
-          "withDe": "omvangrijke",
-          "withHet": "omvangrijke",
-          "comparative": "omvangrijker",
-          "superlative": "omvangrijkst"
-        }
-      },
-      "examples": [
-        "Het is een omvangrijk project.",
-        "Er vond een omvangrijke brand plaats."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是一个规模宏大的项目。",
-          "发生了一场大规模火灾。"
-        ],
-        "english": [
-          "This is a large-scale project.",
-          "A large-scale fire occurred."
-        ]
-      },
-      "notes": "形容词，由omvang(规模)+rijk(富有)组成",
       "difficulty": "B2"
     },
     {
@@ -534,52 +500,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 5043,
-      "word": "onderbreken",
-      "translation": {
-        "chinese": "打断,中断",
-        "english": "to interrupt, to break off"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "onderbreken",
-          "isSeparable": true,
-          "prefix": "onder",
-          "present": {
-            "ik": "breek onder",
-            "jij": "breekt onder",
-            "hij": "breekt onder",
-            "wij": "breken onder",
-            "jullie": "breken onder",
-            "zij": "breken onder"
-          },
-          "past": {
-            "singular": "brak onder",
-            "plural": "braken onder"
-          },
-          "pastParticiple": "onderbroken",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Mag ik u even onderbreken?",
-        "Het gesprek werd onderbroken door de telefoon."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我可以打扰您一下吗?",
-          "谈话被电话打断了。"
-        ],
-        "english": [
-          "May I interrupt you briefly?",
-          "The conversation was interrupted by the phone."
-        ]
-      },
-      "notes": "可分动词，breken意为打破",
-      "difficulty": "B2"
-    },
-    {
       "id": 5044,
       "word": "onderbroek",
       "translation": {
@@ -792,52 +712,6 @@
         ]
       },
       "notes": "形容词，havig意为涉及/影响",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5050,
-      "word": "onderhouden",
-      "translation": {
-        "chinese": "维持,保养",
-        "english": "to maintain, to keep in good condition"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "onderhouden",
-          "isSeparable": true,
-          "prefix": "onder",
-          "present": {
-            "ik": "houd onder",
-            "jij": "houdt onder",
-            "hij": "houdt onder",
-            "wij": "houden onder",
-            "jullie": "houden onder",
-            "zij": "houden onder"
-          },
-          "past": {
-            "singular": "hield onder",
-            "plural": "hielden onder"
-          },
-          "pastParticiple": "onderhouden",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "We onderhouden de auto goed.",
-        "Het park wordt goed onderhouden."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我们很好地保养这辆车。",
-          "公园维护得很好。"
-        ],
-        "english": [
-          "We maintain the car well.",
-          "The park is well maintained."
-        ]
-      },
-      "notes": "可分动词，houden意为保持/持有",
       "difficulty": "B2"
     },
     {
@@ -1093,70 +967,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 5057,
-      "word": "ondernemer",
-      "translation": {
-        "chinese": "企业家",
-        "english": "entrepreneur, business owner"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ondernemer",
-          "plural": "ondernemers"
-        }
-      },
-      "examples": [
-        "Hij is een succesvolle ondernemer.",
-        "Zij startte haar eigen bedrijf als ondernemer."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他是一位成功的企业家。",
-          "作为企业家她开始了自己的生意。"
-        ],
-        "english": [
-          "He is a successful entrepreneur.",
-          "She started her own business as an entrepreneur."
-        ]
-      },
-      "notes": "阳性名词，ondernemen的派生词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5058,
-      "word": "onderscheid",
-      "translation": {
-        "chinese": "区别,区别",
-        "english": "distinction, difference"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "onderscheid",
-          "plural": "onderscheiden"
-        }
-      },
-      "examples": [
-        "Er is een duidelijk onderscheid tussen beide.",
-        "Het is moeilijk om onderscheid te maken."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "两者之间有明显的区别。",
-          "很难做出区分。"
-        ],
-        "english": [
-          "There is a clear distinction between both.",
-          "It's difficult to make a distinction."
-        ]
-      },
-      "notes": "阴性名词，onderscheiden意为区分",
-      "difficulty": "B2"
-    },
-    {
       "id": 5059,
       "word": "onderstaand",
       "translation": {
@@ -1383,52 +1193,6 @@
         ]
       },
       "notes": "阴性名词，指犯罪活动领域",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5065,
-      "word": "onderwijzen",
-      "translation": {
-        "chinese": "教导,教育",
-        "english": "to teach, to educate"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "onderwijzen",
-          "isSeparable": true,
-          "prefix": "onder",
-          "present": {
-            "ik": "wijs onder",
-            "jij": "wijst onder",
-            "hij": "wijst onder",
-            "wij": "wijzen onder",
-            "jullie": "wijzen onder",
-            "zij": "wijzen onder"
-          },
-          "past": {
-            "singular": "wees onder",
-            "plural": "wezen onder"
-          },
-          "pastParticiple": "onderwezen",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "De leraar onderwees de studenten.",
-        "De ouders onderwijzen hun kinderen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "老师教导学生。",
-          "父母教育孩子。"
-        ],
-        "english": [
-          "The teacher educates the students.",
-          "The parents teach their children."
-        ]
-      },
-      "notes": "可分动词，wijzen意为指点/教导",
       "difficulty": "B2"
     },
     {
@@ -1733,40 +1497,6 @@
         ]
       },
       "notes": "形容词，menselijk意为人的/人道的",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5075,
-      "word": "onschuldig",
-      "translation": {
-        "chinese": "无辜的",
-        "english": "innocent, guiltless"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "onschuldig",
-          "withDe": "onschuldige",
-          "withHet": "onschuldige",
-          "comparative": "onschuldiger",
-          "superlative": "onschuldigst"
-        }
-      },
-      "examples": [
-        "Hij bleek onschuldig te zijn.",
-        "De onschuldige werd vrijgelaten."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "原来他是无辜的。",
-          "无辜者被释放了。"
-        ],
-        "english": [
-          "He turned out to be innocent.",
-          "The innocent person was released."
-        ]
-      },
-      "notes": "形容词，schuldig意为有罪的",
       "difficulty": "B2"
     },
     {

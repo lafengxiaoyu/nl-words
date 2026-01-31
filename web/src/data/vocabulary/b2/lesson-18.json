@@ -2,7 +2,7 @@
   "id": "b2-lesson-18",
   "level": "B2",
   "lessonNumber": 18,
-  "totalWords": 50,
+  "totalWords": 39,
   "words": [
     {
       "id": 5128,
@@ -24,8 +24,14 @@
         "De licentie is opgeschort door de overheid."
       ],
       "exampleTranslations": {
-        "chinese": ["诉讼已经暂停。", "许可证被政府暂停了。"],
-        "english": ["The lawsuit has been suspended.", "The license has been suspended by the government."]
+        "chinese": [
+          "诉讼已经暂停。",
+          "许可证被政府暂停了。"
+        ],
+        "english": [
+          "The lawsuit has been suspended.",
+          "The license has been suspended by the government."
+        ]
       },
       "notes": "过去分词形容词形式",
       "difficulty": "B2"
@@ -50,8 +56,14 @@
         "De kat was opgeschrikt door het geluid."
       ],
       "exampleTranslations": {
-        "chinese": ["他被这个消息惊到了。", "猫被声音吓了一跳。"],
-        "english": ["He was startled by the news.", "The cat was startled by the sound."]
+        "chinese": [
+          "他被这个消息惊到了。",
+          "猫被声音吓了一跳。"
+        ],
+        "english": [
+          "He was startled by the news.",
+          "The cat was startled by the sound."
+        ]
       },
       "notes": "过去分词形容词形式",
       "difficulty": "B2"
@@ -76,8 +88,14 @@
         "Ze is erg opgewonden over het bezoek."
       ],
       "exampleTranslations": {
-        "chinese": ["孩子们非常兴奋。", "她对这次访问非常兴奋。"],
-        "english": ["The children were very excited.", "She is very excited about the visit."]
+        "chinese": [
+          "孩子们非常兴奋。",
+          "她对这次访问非常兴奋。"
+        ],
+        "english": [
+          "The children were very excited.",
+          "She is very excited about the visit."
+        ]
       },
       "notes": "过去分词形容词形式",
       "difficulty": "B2"
@@ -102,8 +120,14 @@
         "Zijn oog was opgezwollen na de botsing."
       ],
       "exampleTranslations": {
-        "chinese": ["我的脚踝肿胀了。", "碰撞后他的眼睛肿了。"],
-        "english": ["My ankle is swollen.", "His eye was swollen after the collision."]
+        "chinese": [
+          "我的脚踝肿胀了。",
+          "碰撞后他的眼睛肿了。"
+        ],
+        "english": [
+          "My ankle is swollen.",
+          "His eye was swollen after the collision."
+        ]
       },
       "notes": "过去分词形容词形式",
       "difficulty": "B2"
@@ -144,8 +168,14 @@
         "Het weer heldert langzaam op."
       ],
       "exampleTranslations": {
-        "chinese": ["你能澄清一下这个情况吗?", "天气逐渐转晴了。"],
-        "english": ["Can you clarify the situation?", "The weather is gradually clearing up."]
+        "chinese": [
+          "你能澄清一下这个情况吗?",
+          "天气逐渐转晴了。"
+        ],
+        "english": [
+          "Can you clarify the situation?",
+          "The weather is gradually clearing up."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -170,88 +200,16 @@
         "Ze zuchtte van opluchting toen ze het nieuws hoorde."
       ],
       "exampleTranslations": {
-        "chinese": ["事情结束了,这真是一种解脱。", "听到这个消息时,她如释重负地叹了口气。"],
-        "english": ["It was a relief that it was over.", "She sighed with relief when she heard the news."]
+        "chinese": [
+          "事情结束了,这真是一种解脱。",
+          "听到这个消息时,她如释重负地叹了口气。"
+        ],
+        "english": [
+          "It was a relief that it was over.",
+          "She sighed with relief when she heard the news."
+        ]
       },
       "notes": "阳性名词,复数以-en结尾",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5134,
-      "word": "opmerkelijk",
-      "translation": {
-        "chinese": "显著的,值得注意的",
-        "english": "remarkable, noteworthy"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "opmerkelijk",
-          "comparative": "opmerkelijker",
-          "superlative": "opmerkelijkst"
-        }
-      },
-      "examples": [
-        "Het was een opmerkelijke prestatie.",
-        "Er zijn opmerkelijke veranderingen in het beleid."
-      ],
-      "exampleTranslations": {
-        "chinese": ["这是一个显著的成就。", "政策中有显著的变化。"],
-        "english": ["It was a remarkable achievement.", "There are remarkable changes in the policy."]
-      },
-      "notes": "以-lijk结尾的形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5135,
-      "word": "opperhoofd",
-      "translation": {
-        "chinese": "首领,酋长",
-        "english": "chief, chieftain"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "opperhoofd",
-          "plural": "opperhoofden"
-        }
-      },
-      "examples": [
-        "Het opperhoofd sprak met de kolonisten.",
-        "De stam kiest een nieuw opperhoofd."
-      ],
-      "exampleTranslations": {
-        "chinese": ["首领与殖民者进行了交谈。", "部落选出了一位新首领。"],
-        "english": ["The chief spoke with the colonists.", "The tribe elects a new chief."]
-      },
-      "notes": "中性名词,复数不规则变化",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5136,
-      "word": "oppervlakte",
-      "translation": {
-        "chinese": "表面积",
-        "english": "surface area, area"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "oppervlakte",
-          "plural": "oppervlakten"
-        }
-      },
-      "examples": [
-        "De oppervlakte van het land is groot.",
-        "We moeten de oppervlakte berekenen."
-      ],
-      "exampleTranslations": {
-        "chinese": ["这个国家的面积很大。", "我们需要计算表面积。"],
-        "english": ["The area of the country is large.", "We need to calculate the surface area."]
-      },
-      "notes": "阳性名词,复数不规则变化",
       "difficulty": "B2"
     },
     {
@@ -274,8 +232,14 @@
         "Ik waardeer haar oprechtheid en integriteit."
       ],
       "exampleTranslations": {
-        "chinese": ["他的真诚受到赞赏。", "我欣赏她的真诚和正直。"],
-        "english": ["His honesty is appreciated.", "I appreciate her sincerity and integrity."]
+        "chinese": [
+          "他的真诚受到赞赏。",
+          "我欣赏她的真诚和正直。"
+        ],
+        "english": [
+          "His honesty is appreciated.",
+          "I appreciate her sincerity and integrity."
+        ]
       },
       "notes": "抽象名词,由形容词oprecht(真诚)派生",
       "difficulty": "B2"
@@ -316,8 +280,14 @@
         "De deskundige schat de waarde van het huis op."
       ],
       "exampleTranslations": {
-        "chinese": ["你能估算一下费用吗?", "专家估算房子的价值。"],
-        "english": ["Can you estimate the costs?", "The expert estimates the value of the house."]
+        "chinese": [
+          "你能估算一下费用吗?",
+          "专家估算房子的价值。"
+        ],
+        "english": [
+          "Can you estimate the costs?",
+          "The expert estimates the value of the house."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -358,8 +328,14 @@
         "Ze schept op over haar nieuwe auto."
       ],
       "exampleTranslations": {
-        "chinese": ["他总是吹嘘自己的成功。", "她吹嘘她的新车。"],
-        "english": ["He always brags about his successes.", "She boasts about her new car."]
+        "chinese": [
+          "他总是吹嘘自己的成功。",
+          "她吹嘘她的新车。"
+        ],
+        "english": [
+          "He always brags about his successes.",
+          "She boasts about her new car."
+        ]
       },
       "notes": "可分动词,过去时有不规则变化",
       "difficulty": "B2"
@@ -400,52 +376,16 @@
         "Het werk schiet goed op."
       ],
       "exampleTranslations": {
-        "chinese": ["快点,我们马上要走了!", "工作进展顺利。"],
-        "english": ["Hurry up, we're leaving soon!", "The work is making good progress."]
+        "chinese": [
+          "快点,我们马上要走了!",
+          "工作进展顺利。"
+        ],
+        "english": [
+          "Hurry up, we're leaving soon!",
+          "The work is making good progress."
+        ]
       },
       "notes": "可分动词,过去时词干元音变化",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5141,
-      "word": "opschorten",
-      "translation": {
-        "chinese": "暂停,中止",
-        "english": "to suspend, to discontinue"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "opschorten",
-          "present": [
-            "ik schort op",
-            "jij schort op",
-            "hij/zij/het schort op",
-            "wij schorten op",
-            "jullie schorten op",
-            "zij schorten op"
-          ],
-          "past": [
-            "ik schortte op",
-            "jij schortte op",
-            "hij/zij/het schortte op",
-            "wij schortten op",
-            "jullie schortten op",
-            "zij schortten op"
-          ],
-          "perfect": "ik heb opgeschort",
-          "participle": "opgeschort"
-        }
-      },
-      "examples": [
-        "Het project is opgeschort.",
-        "De school schort de lessen op."
-      ],
-      "exampleTranslations": {
-        "chinese": ["项目已经暂停。", "学校暂停了课程。"],
-        "english": ["The project has been suspended.", "The school suspends the lessons."]
-      },
-      "notes": "可分动词",
       "difficulty": "B2"
     },
     {
@@ -484,8 +424,14 @@
         "De student schrijft de notities op."
       ],
       "exampleTranslations": {
-        "chinese": ["在忘记之前把它写下来。", "学生记录笔记。"],
-        "english": ["Write it down before you forget.", "The student writes down the notes."]
+        "chinese": [
+          "在忘记之前把它写下来。",
+          "学生记录笔记。"
+        ],
+        "english": [
+          "Write it down before you forget.",
+          "The student writes down the notes."
+        ]
       },
       "notes": "可分动词,过去时元音变化",
       "difficulty": "B2"
@@ -526,8 +472,14 @@
         "Ik schrok op toen de telefoon ging."
       ],
       "exampleTranslations": {
-        "chinese": ["他听到巨响吓了一跳。", "电话响时我吓了一跳。"],
-        "english": ["He was startled by the loud noise.", "I was startled when the phone rang."]
+        "chinese": [
+          "他听到巨响吓了一跳。",
+          "电话响时我吓了一跳。"
+        ],
+        "english": [
+          "He was startled by the loud noise.",
+          "I was startled when the phone rang."
+        ]
       },
       "notes": "可分动词,不规则变化动词",
       "difficulty": "B2"
@@ -568,8 +520,14 @@
         "Schroef het volume op."
       ],
       "exampleTranslations": {
-        "chinese": ["把螺母拧紧。", "把音量调高。"],
-        "english": ["Tighten the nut.", "Turn up the volume."]
+        "chinese": [
+          "把螺母拧紧。",
+          "把音量调高。"
+        ],
+        "english": [
+          "Tighten the nut.",
+          "Turn up the volume."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -610,8 +568,14 @@
         "Schuif de afspraak op."
       ],
       "exampleTranslations": {
-        "chinese": ["会议已经推迟到下周。", "把预约推迟。"],
-        "english": ["The meeting has been postponed to next week.", "Postpone the appointment."]
+        "chinese": [
+          "会议已经推迟到下周。",
+          "把预约推迟。"
+        ],
+        "english": [
+          "The meeting has been postponed to next week.",
+          "Postpone the appointment."
+        ]
       },
       "notes": "可分动词,过去时元音变化",
       "difficulty": "B2"
@@ -652,8 +616,14 @@
         "Splitst de taak op in kleine stappen."
       ],
       "exampleTranslations": {
-        "chinese": ["公司被拆分成了两个部分。", "把任务分解成小步骤。"],
-        "english": ["The company has been split into two parts.", "Split the task into small steps."]
+        "chinese": [
+          "公司被拆分成了两个部分。",
+          "把任务分解成小步骤。"
+        ],
+        "english": [
+          "The company has been split into two parts.",
+          "Split the task into small steps."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -678,8 +648,14 @@
         "De opstanding van het volk was onverwacht."
       ],
       "exampleTranslations": {
-        "chinese": ["人们纪念基督的复活。", "人民的起义出乎意料。"],
-        "english": ["The resurrection of Christ is commemorated.", "The uprising of the people was unexpected."]
+        "chinese": [
+          "人们纪念基督的复活。",
+          "人民的起义出乎意料。"
+        ],
+        "english": [
+          "The resurrection of Christ is commemorated.",
+          "The uprising of the people was unexpected."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -704,8 +680,14 @@
         "Ze kan erg opvliegend zijn als ze moe is."
       ],
       "exampleTranslations": {
-        "chinese": ["他是一个性格急躁的人。", "她累的时候可能很急躁。"],
-        "english": ["He has a quick-tempered character.", "She can be quite irritable when she's tired."]
+        "chinese": [
+          "他是一个性格急躁的人。",
+          "她累的时候可能很急躁。"
+        ],
+        "english": [
+          "He has a quick-tempered character.",
+          "She can be quite irritable when she's tired."
+        ]
       },
       "notes": "现在分词形容词形式",
       "difficulty": "B2"
@@ -728,8 +710,14 @@
         "Het was een opzettelijke fout."
       ],
       "exampleTranslations": {
-        "chinese": ["他是故意这么做的。", "这是一个故意犯的错误。"],
-        "english": ["He did it deliberately.", "It was an intentional mistake."]
+        "chinese": [
+          "他是故意这么做的。",
+          "这是一个故意犯的错误。"
+        ],
+        "english": [
+          "He did it deliberately.",
+          "It was an intentional mistake."
+        ]
       },
       "notes": "副词形式,由opzet(意图)派生",
       "difficulty": "B2"
@@ -770,8 +758,14 @@
         "Zetten we het plan opzij voor nu?"
       ],
       "exampleTranslations": {
-        "chinese": ["把书放一边,听我说。", "我们现在把这个计划搁置一下吧?"],
-        "english": ["Set the book aside and listen.", "Shall we set the plan aside for now?"]
+        "chinese": [
+          "把书放一边,听我说。",
+          "我们现在把这个计划搁置一下吧?"
+        ],
+        "english": [
+          "Set the book aside and listen.",
+          "Shall we set the plan aside for now?"
+        ]
       },
       "notes": "可分复合动词",
       "difficulty": "B2"
@@ -796,8 +790,14 @@
         "Ouderschap brengt veel vreugde met zich mee."
       ],
       "exampleTranslations": {
-        "chinese": ["为人父母是重大的责任。", "为人父母带来很多快乐。"],
-        "english": ["Parenthood is a great responsibility.", "Parenthood brings much joy."]
+        "chinese": [
+          "为人父母是重大的责任。",
+          "为人父母带来很多快乐。"
+        ],
+        "english": [
+          "Parenthood is a great responsibility.",
+          "Parenthood brings much joy."
+        ]
       },
       "notes": "抽象名词,以-schap后缀结尾",
       "difficulty": "B2"
@@ -822,8 +822,14 @@
         "Hij is overbeladen met werk."
       ],
       "exampleTranslations": {
-        "chinese": ["车超载了。", "他工作超负荷。"],
-        "english": ["The truck is overloaded.", "He is overloaded with work."]
+        "chinese": [
+          "车超载了。",
+          "他工作超负荷。"
+        ],
+        "english": [
+          "The truck is overloaded.",
+          "He is overloaded with work."
+        ]
       },
       "notes": "过去分词形容词形式",
       "difficulty": "B2"
@@ -848,8 +854,14 @@
         "Het elektriciteitsnet is overbelast."
       ],
       "exampleTranslations": {
-        "chinese": ["系统过载了。", "电网过载了。"],
-        "english": ["The system is overloaded.", "The electricity grid is overloaded."]
+        "chinese": [
+          "系统过载了。",
+          "电网过载了。"
+        ],
+        "english": [
+          "The system is overloaded.",
+          "The electricity grid is overloaded."
+        ]
       },
       "notes": "过去分词形容词形式",
       "difficulty": "B2"
@@ -890,8 +902,14 @@
         "Ze hebben elkaar overboden."
       ],
       "exampleTranslations": {
-        "chinese": ["他出价比对方高。", "他们互相竞价。"],
-        "english": ["He bid more than the other person.", "They outbid each other."]
+        "chinese": [
+          "他出价比对方高。",
+          "他们互相竞价。"
+        ],
+        "english": [
+          "He bid more than the other person.",
+          "They outbid each other."
+        ]
       },
       "notes": "可分动词,不规则变化",
       "difficulty": "B2"
@@ -932,8 +950,14 @@
         "Boek het bedrag over naar mijn rekening."
       ],
       "exampleTranslations": {
-        "chinese": ["我要转账这笔钱。", "把这笔钱转到我的账户。"],
-        "english": ["I'm going to transfer the money.", "Transfer the amount to my account."]
+        "chinese": [
+          "我要转账这笔钱。",
+          "把这笔钱转到我的账户。"
+        ],
+        "english": [
+          "I'm going to transfer the money.",
+          "Transfer the amount to my account."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -974,52 +998,16 @@
         "Hij brengt zijn kennis over aan de studenten."
       ],
       "exampleTranslations": {
-        "chinese": ["病毒通过接触传播。", "他把知识传授给学生。"],
-        "english": ["The virus is transmitted through contact.", "He conveys his knowledge to the students."]
+        "chinese": [
+          "病毒通过接触传播。",
+          "他把知识传授给学生。"
+        ],
+        "english": [
+          "The virus is transmitted through contact.",
+          "He conveys his knowledge to the students."
+        ]
       },
       "notes": "可分动词,不规则变化",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5157,
-      "word": "overbruggen",
-      "translation": {
-        "chinese": "跨越,弥合",
-        "english": "to bridge, to span"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "overbruggen",
-          "present": [
-            "ik brug over",
-            "jij brugt over",
-            "hij/zij/het brugt over",
-            "wij bruggen over",
-            "jullie bruggen over",
-            "zij bruggen over"
-          ],
-          "past": [
-            "ik brugte over",
-            "jij brugte over",
-            "hij/zij/het brugte over",
-            "wij brugten over",
-            "jullie brugten over",
-            "zij brugten over"
-          ],
-          "perfect": "ik heb overgebrugd",
-          "participle": "overgebrugd"
-        }
-      },
-      "examples": [
-        "We moeten de kloof overbruggen.",
-        "De brug overbrugt de rivier."
-      ],
-      "exampleTranslations": {
-        "chinese": ["我们必须弥合这个差距。", "桥横跨河流。"],
-        "english": ["We must bridge the gap.", "The bridge spans the river."]
-      },
-      "notes": "可分动词",
       "difficulty": "B2"
     },
     {
@@ -1058,36 +1046,16 @@
         "De sneeuw dek het landschap over."
       ],
       "exampleTranslations": {
-        "chinese": ["屋顶覆盖了整个建筑。", "雪覆盖了景观。"],
-        "english": ["The roof covers the entire building.", "The snow covers the landscape."]
+        "chinese": [
+          "屋顶覆盖了整个建筑。",
+          "雪覆盖了景观。"
+        ],
+        "english": [
+          "The roof covers the entire building.",
+          "The snow covers the landscape."
+        ]
       },
       "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5159,
-      "word": "overdracht",
-      "translation": {
-        "chinese": "移交,转让",
-        "english": "transfer, handover"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "overdracht",
-          "plural": "overdrachten"
-        }
-      },
-      "examples": [
-        "De overdracht vindt volgende week plaats.",
-        "De overdracht van het huis is geregeld."
-      ],
-      "exampleTranslations": {
-        "chinese": ["移交将于下周进行。", "房子的移交已安排。"],
-        "english": ["The transfer will take place next week.", "The house transfer is arranged."]
-      },
-      "notes": "阳性名词",
       "difficulty": "B2"
     },
     {
@@ -1126,8 +1094,14 @@
         "Hij draagt zijn bedrijf over aan zijn zoon."
       ],
       "exampleTranslations": {
-        "chinese": ["知识传授给了学生。", "他把公司移交给他的儿子。"],
-        "english": ["The knowledge is passed on to the students.", "He transfers his company to his son."]
+        "chinese": [
+          "知识传授给了学生。",
+          "他把公司移交给他的儿子。"
+        ],
+        "english": [
+          "The knowledge is passed on to the students.",
+          "He transfers his company to his son."
+        ]
       },
       "notes": "可分动词,不规则变化",
       "difficulty": "B2"
@@ -1152,52 +1126,16 @@
         "Het verhaal is overdreven."
       ],
       "exampleTranslations": {
-        "chinese": ["他的反应夸张了。", "这个故事夸张了。"],
-        "english": ["His reaction was exaggerated.", "The story is exaggerated."]
+        "chinese": [
+          "他的反应夸张了。",
+          "这个故事夸张了。"
+        ],
+        "english": [
+          "His reaction was exaggerated.",
+          "The story is exaggerated."
+        ]
       },
       "notes": "过去分词形容词形式",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5162,
-      "word": "overdrijven",
-      "translation": {
-        "chinese": "夸张",
-        "english": "to exaggerate"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "overdrijven",
-          "present": [
-            "ik drijf over",
-            "jij drijft over",
-            "hij/zij/het drijft over",
-            "wij drijven over",
-            "jullie drijven over",
-            "zij drijven over"
-          ],
-          "past": [
-            "ik dreef over",
-            "jij dreef over",
-            "hij/zij/het dreef over",
-            "wie dreven over",
-            "jullie dreven over",
-            "zij dreven over"
-          ],
-          "perfect": "ik heb overdreven",
-          "participle": "overdreven"
-        }
-      },
-      "examples": [
-        "Je overdrijft het probleem.",
-        "Hij overdrijft vaak."
-      ],
-      "exampleTranslations": {
-        "chinese": ["你夸张了这个问题的严重性。", "他经常夸张。"],
-        "english": ["You're exaggerating the problem.", "He often exaggerates."]
-      },
-      "notes": "可分动词,不规则变化",
       "difficulty": "B2"
     },
     {
@@ -1220,8 +1158,14 @@
         "Overgewicht kan leiden tot gezondheidsproblemen."
       ],
       "exampleTranslations": {
-        "chinese": ["你有超重问题吗?", "超重可能导致健康问题。"],
-        "english": ["Do you have problems with being overweight?", "Being overweight can lead to health problems."]
+        "chinese": [
+          "你有超重问题吗?",
+          "超重可能导致健康问题。"
+        ],
+        "english": [
+          "Do you have problems with being overweight?",
+          "Being overweight can lead to health problems."
+        ]
       },
       "notes": "中性名词",
       "difficulty": "B2"
@@ -1262,52 +1206,16 @@
         "Giet warme saus over het gerecht."
       ],
       "exampleTranslations": {
-        "chinese": ["把汤浇在蔬菜上。", "把热酱汁浇在菜肴上。"],
-        "english": ["Pour the soup over the vegetables.", "Pour warm sauce over the dish."]
+        "chinese": [
+          "把汤浇在蔬菜上。",
+          "把热酱汁浇在菜肴上。"
+        ],
+        "english": [
+          "Pour the soup over the vegetables.",
+          "Pour warm sauce over the dish."
+        ]
       },
       "notes": "可分动词,不规则变化",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5165,
-      "word": "overheersen",
-      "translation": {
-        "chinese": "主导,统治",
-        "english": "to dominate, to prevail"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "overheersen",
-          "present": [
-            "ik heers over",
-            "jij heerst over",
-            "hij/zij/het heerst over",
-            "wij heersen over",
-            "jullie heersen over",
-            "zij heersen over"
-          ],
-          "past": [
-            "ik heerste over",
-            "jij heerste over",
-            "hij/zij/het heerste over",
-            "wij heersten over",
-            "jullie heersten over",
-            "zij heersten over"
-          ],
-          "perfect": "ik heb overheerst",
-          "participle": "overheerst"
-        }
-      },
-      "examples": [
-        "De rust overheerst in de ruimte.",
-        "Het team overheerst de competitie."
-      ],
-      "exampleTranslations": {
-        "chinese": ["宁静主导了这个空间。", "这个团队主导了比赛。"],
-        "english": ["Peace prevails in the space.", "The team dominates the competition."]
-      },
-      "notes": "可分动词",
       "difficulty": "B2"
     },
     {
@@ -1346,8 +1254,14 @@
         "Het budget wordt overgeheveld naar volgend jaar."
       ],
       "exampleTranslations": {
-        "chinese": ["任务已经转移到另一个部门。", "预算转移到明年。"],
-        "english": ["The tasks have been transferred to another department.", "The budget is transferred to next year."]
+        "chinese": [
+          "任务已经转移到另一个部门。",
+          "预算转移到明年。"
+        ],
+        "english": [
+          "The tasks have been transferred to another department.",
+          "The budget is transferred to next year."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -1372,94 +1286,16 @@
         "Ze stelde een overhoring voor morgen in."
       ],
       "exampleTranslations": {
-        "chinese": ["学生们有一场测验。", "她安排明天进行测验。"],
-        "english": ["The students have a test.", "She scheduled a test for tomorrow."]
+        "chinese": [
+          "学生们有一场测验。",
+          "她安排明天进行测验。"
+        ],
+        "english": [
+          "The students have a test.",
+          "She scheduled a test for tomorrow."
+        ]
       },
       "notes": "阳性名词,由overhoren(测试)派生",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5168,
-      "word": "overhouden",
-      "translation": {
-        "chinese": "保留,剩下",
-        "english": "to keep, to have left"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "overhouden",
-          "present": [
-            "ik houd over",
-            "jij houdt over",
-            "hij/zij/het houdt over",
-            "wij houden over",
-            "jullie houden over",
-            "zij houden over"
-          ],
-          "past": [
-            "ik hield over",
-            "jij hield over",
-            "hij/zij/het hield over",
-            "wij hielden over",
-            "jullie hielden over",
-            "zij hielden over"
-          ],
-          "perfect": "ik heb overgehouden",
-          "participle": "overgehouden"
-        }
-      },
-      "examples": [
-        "Ik houd er weinig van over.",
-        "Wat houd je over van je salaris?"
-      ],
-      "exampleTranslations": {
-        "chinese": ["我剩下不了多少。", "你工资剩下多少?"],
-        "english": ["I have little left of it.", "How much do you have left of your salary?"]
-      },
-      "notes": "可分动词,不规则变化",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5169,
-      "word": "overleggen",
-      "translation": {
-        "chinese": "协商,商量",
-        "english": "to consult, to discuss"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "overleggen",
-          "present": [
-            "ik leg over",
-            "jij legt over",
-            "hij/zij/het legt over",
-            "wij leggen over",
-            "jullie leggen over",
-            "zij leggen over"
-          ],
-          "past": [
-            "ik legde over",
-            "jij legde over",
-            "hij/zij/het legde over",
-            "wij legden over",
-            "jullie legden over",
-            "zij legden over"
-          ],
-          "perfect": "ik heb overlegd",
-          "participle": "overlegd"
-        }
-      },
-      "examples": [
-        "We moeten overleggen over het plan.",
-        "Hij overlegt met zijn collega."
-      ],
-      "exampleTranslations": {
-        "chinese": ["我们需要商量一下这个计划。", "他和同事商量。"],
-        "english": ["We need to discuss the plan.", "He consults with his colleague."]
-      },
-      "notes": "可分动词",
       "difficulty": "B2"
     },
     {
@@ -1482,8 +1318,14 @@
         "Er waren slechts enkele overlevenden."
       ],
       "exampleTranslations": {
-        "chinese": ["幸存者获救了。", "只有少数幸存者。"],
-        "english": ["The survivors were rescued.", "There were only a few survivors."]
+        "chinese": [
+          "幸存者获救了。",
+          "只有少数幸存者。"
+        ],
+        "english": [
+          "The survivors were rescued.",
+          "There were only a few survivors."
+        ]
       },
       "notes": "阳性名词,分词形式",
       "difficulty": "B2"
@@ -1524,8 +1366,14 @@
         "Hij leverde de misdadigers over aan de politie."
       ],
       "exampleTranslations": {
-        "chinese": ["口头传统流传了下来。", "他把罪犯移交给警方。"],
-        "english": ["The oral tradition has been passed down.", "He handed over the criminals to the police."]
+        "chinese": [
+          "口头传统流传了下来。",
+          "他把罪犯移交给警方。"
+        ],
+        "english": [
+          "The oral tradition has been passed down.",
+          "He handed over the criminals to the police."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -1566,8 +1414,14 @@
         "Hij is plotseling overleden."
       ],
       "exampleTranslations": {
-        "chinese": ["她在高龄时去世了。", "他突然去世了。"],
-        "english": ["She passed away at an advanced age.", "He died suddenly."]
+        "chinese": [
+          "她在高龄时去世了。",
+          "他突然去世了。"
+        ],
+        "english": [
+          "She passed away at an advanced age.",
+          "He died suddenly."
+        ]
       },
       "notes": "可分动词,不规则变化",
       "difficulty": "B2"
@@ -1592,8 +1446,14 @@
         "Het was een overmoedige beslissing."
       ],
       "exampleTranslations": {
-        "chinese": ["他鲁莽的态度带来了问题。", "这是一个鲁莽的决定。"],
-        "english": ["His reckless attitude caused problems.", "It was a reckless decision."]
+        "chinese": [
+          "他鲁莽的态度带来了问题。",
+          "这是一个鲁莽的决定。"
+        ],
+        "english": [
+          "His reckless attitude caused problems.",
+          "It was a reckless decision."
+        ]
       },
       "notes": "形容词,由名词moed(勇气)和前缀over-组成",
       "difficulty": "B2"
@@ -1618,8 +1478,14 @@
         "Ze raakte overspannen na de stress."
       ],
       "exampleTranslations": {
-        "chinese": ["他因工作而过度紧张。", "压力之后她变得过度紧张。"],
-        "english": ["He was overstressed by the work.", "She became overstressed after the stress."]
+        "chinese": [
+          "他因工作而过度紧张。",
+          "压力之后她变得过度紧张。"
+        ],
+        "english": [
+          "He was overstressed by the work.",
+          "She became overstressed after the stress."
+        ]
       },
       "notes": "过去分词形容词形式",
       "difficulty": "B2"
@@ -1660,50 +1526,14 @@
         "Gedachten overspoelen haar."
       ],
       "exampleTranslations": {
-        "chinese": ["海浪淹没了沙滩。", "思绪侵袭着她。"],
-        "english": ["The wave flooded the beach.", "Thoughts overwhelm her."]
-      },
-      "notes": "可分动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5176,
-      "word": "overstappen",
-      "translation": {
-        "chinese": "转换,换乘",
-        "english": "to change, to transfer"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "overstappen",
-          "present": [
-            "ik stap over",
-            "jij stap over",
-            "hij/zij/het stap over",
-            "wij stappen over",
-            "jullie stappen over",
-            "zij stappen over"
-          ],
-          "past": [
-            "ik stapte over",
-            "jij stapte over",
-            "hij/zij/het stapte over",
-            "wi stapten over",
-            "jullie stapten over",
-            "zij stapten over"
-          ],
-          "perfect": "ik ben overgestapt",
-          "participle": "overgestapt"
-        }
-      },
-      "examples": [
-        "Ik stap over op de trein.",
-        "Ze stapte over naar een andere baan."
-      ],
-      "exampleTranslations": {
-        "chinese": ["我换乘火车。", "她换了工作。"],
-        "english": ["I transfer to the train.", "She switched to another job."]
+        "chinese": [
+          "海浪淹没了沙滩。",
+          "思绪侵袭着她。"
+        ],
+        "english": [
+          "The wave flooded the beach.",
+          "Thoughts overwhelm her."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -1744,8 +1574,14 @@
         "Hij stak de brug over."
       ],
       "exampleTranslations": {
-        "chinese": ["在斑马线过马路。", "他过了桥。"],
-        "english": ["Cross the street at the zebra crossing.", "He crossed the bridge."]
+        "chinese": [
+          "在斑马线过马路。",
+          "他过了桥。"
+        ],
+        "english": [
+          "Cross the street at the zebra crossing.",
+          "He crossed the bridge."
+        ]
       },
       "notes": "可分动词,不规则变化",
       "difficulty": "B2"

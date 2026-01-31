@@ -2,7 +2,7 @@
   "id": "b2-lesson-19",
   "level": "B2",
   "lessonNumber": 19,
-  "totalWords": 14,
+  "totalWords": 10,
   "words": [
     {
       "id": 5178,
@@ -40,8 +40,14 @@
         "De tegenpartij overstemde het amendement."
       ],
       "exampleTranslations": {
-        "chinese": ["这个提议被否决了。", "反对党否决了这项修正案。"],
-        "english": ["The proposal was voted down.", "The opposition outvoted the amendment."]
+        "chinese": [
+          "这个提议被否决了。",
+          "反对党否决了这项修正案。"
+        ],
+        "english": [
+          "The proposal was voted down.",
+          "The opposition outvoted the amendment."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -82,8 +88,14 @@
         "Het hele dorp overstroomde."
       ],
       "exampleTranslations": {
-        "chinese": ["雨后河流泛滥了。", "整个村庄被淹没了。"],
-        "english": ["The river flooded after the rain.", "The entire village was flooded."]
+        "chinese": [
+          "雨后河流泛滥了。",
+          "整个村庄被淹没了。"
+        ],
+        "english": [
+          "The river flooded after the rain.",
+          "The entire village was flooded."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"
@@ -108,8 +120,14 @@
         "Er zijn overtollige voorraden."
       ],
       "exampleTranslations": {
-        "chinese": ["这些货物变得多余了。", "有剩余的库存。"],
-        "english": ["The goods have become superfluous.", "There are surplus stocks."]
+        "chinese": [
+          "这些货物变得多余了。",
+          "有剩余的库存。"
+        ],
+        "english": [
+          "The goods have become superfluous.",
+          "There are surplus stocks."
+        ]
       },
       "notes": "形容词",
       "difficulty": "B2"
@@ -150,8 +168,14 @@
         "Ze werd betrapt op het overtreden van de wet."
       ],
       "exampleTranslations": {
-        "chinese": ["他违反了规则。", "她因违法被抓获。"],
-        "english": ["He violated the rules.", "She was caught breaking the law."]
+        "chinese": [
+          "他违反了规则。",
+          "她因违法被抓获。"
+        ],
+        "english": [
+          "He violated the rules.",
+          "She was caught breaking the law."
+        ]
       },
       "notes": "可分动词,不规则变化",
       "difficulty": "B2"
@@ -176,8 +200,14 @@
         "De politie pakte de overtreder op."
       ],
       "exampleTranslations": {
-        "chinese": ["违反者收到了罚款。", "警察逮捕了违反者。"],
-        "english": ["The offender received a fine.", "The police arrested the offender."]
+        "chinese": [
+          "违反者收到了罚款。",
+          "警察逮捕了违反者。"
+        ],
+        "english": [
+          "The offender received a fine.",
+          "The police arrested the offender."
+        ]
       },
       "notes": "阳性名词",
       "difficulty": "B2"
@@ -202,8 +232,14 @@
         "Het is een kleine overtreding van de regels."
       ],
       "exampleTranslations": {
-        "chinese": ["这次违规很严重。", "这是轻微的违规行为。"],
-        "english": ["The violation was serious.", "It's a minor violation of the rules."]
+        "chinese": [
+          "这次违规很严重。",
+          "这是轻微的违规行为。"
+        ],
+        "english": [
+          "The violation was serious.",
+          "It's a minor violation of the rules."
+        ]
       },
       "notes": "阴性名词",
       "difficulty": "B2"
@@ -244,52 +280,16 @@
         "Het resultaat overtreft onze verwachtingen."
       ],
       "exampleTranslations": {
-        "chinese": ["他在班级里超越所有人。", "结果超出了我们的预期。"],
-        "english": ["He surpasses everyone in his class.", "The result exceeds our expectations."]
+        "chinese": [
+          "他在班级里超越所有人。",
+          "结果超出了我们的预期。"
+        ],
+        "english": [
+          "He surpasses everyone in his class.",
+          "The result exceeds our expectations."
+        ]
       },
       "notes": "可分动词,不规则变化",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5185,
-      "word": "overtuigen",
-      "translation": {
-        "chinese": "说服,使相信",
-        "english": "to convince, to persuade"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "overtuigen",
-          "present": [
-            "ik overtuig",
-            "jij overtuigt",
-            "hij/zij/het overtuigt",
-            "wii overtuigen",
-            "jullie overtuigen",
-            "zij overtuigen"
-          ],
-          "past": [
-            "ik overtuigde",
-            "jij overtuigde",
-            "hij/zij/het overtuigde",
-            "wii overtuigden",
-            "jullie overtuigden",
-            "zij overtuigden"
-          ],
-          "perfect": "ik heb overtuigd",
-          "participle": "overtuigd"
-        }
-      },
-      "examples": [
-        "Hij overtuigde het team van zijn plan.",
-        "Ze probeert mij te overtuigen."
-      ],
-      "exampleTranslations": {
-        "chinese": ["他说服了团队接受他的计划。", "她试图说服我。"],
-        "english": ["He convinced the team of his plan.", "She is trying to convince me."]
-      },
-      "notes": "不可分动词",
       "difficulty": "B2"
     },
     {
@@ -312,52 +312,16 @@
         "Dit is een overtuigend argument."
       ],
       "exampleTranslations": {
-        "chinese": ["他的演示很有说服力。", "这是一个有说服力的论点。"],
-        "english": ["His presentation was convincing.", "This is a convincing argument."]
+        "chinese": [
+          "他的演示很有说服力。",
+          "这是一个有说服力的论点。"
+        ],
+        "english": [
+          "His presentation was convincing.",
+          "This is a convincing argument."
+        ]
       },
       "notes": "现在分词形容词形式",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5187,
-      "word": "overvallen",
-      "translation": {
-        "chinese": "袭击,抢劫",
-        "english": "to attack, to raid, to rob"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "overvallen",
-          "present": [
-            "ik val over",
-            "jij valt over",
-            "hij/zij/het valt over",
-            "wii vallen over",
-            "jullie vallen over",
-            "zij vallen over"
-          ],
-          "past": [
-            "ik viel over",
-            "jij viel over",
-            "hij/zij/het viel over",
-            "wii vielen over",
-            "jullie vielen over",
-            "zij vielen over"
-          ],
-          "perfect": "ik ben overvallen",
-          "participle": "overvallen"
-        }
-      },
-      "examples": [
-        "Het huis werd overvallen.",
-        "Struikrovers vielen de reizigers over."
-      ],
-      "exampleTranslations": {
-        "chinese": ["这所房子被抢劫了。", "强盗袭击了旅行者。"],
-        "english": ["The house was raided.", "Highwaymen attacked the travelers."]
-      },
-      "notes": "可分动词,不规则变化",
       "difficulty": "B2"
     },
     {
@@ -380,78 +344,16 @@
         "Het water is oververhit."
       ],
       "exampleTranslations": {
-        "chinese": ["引擎过热了。", "水过热了。"],
-        "english": ["The engine is overheated.", "The water is overheated."]
+        "chinese": [
+          "引擎过热了。",
+          "水过热了。"
+        ],
+        "english": [
+          "The engine is overheated.",
+          "The water is overheated."
+        ]
       },
       "notes": "过去分词形容词形式",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5189,
-      "word": "overwinnen",
-      "translation": {
-        "chinese": "克服,战胜",
-        "english": "to overcome, to conquer"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "overwinnen",
-          "present": [
-            "ik win over",
-            "jij wint over",
-            "hij/zij/het wint over",
-            "wii winnen over",
-            "jullie winnen over",
-            "zij winnen over"
-          ],
-          "past": [
-            "ik won over",
-            "jij won over",
-            "hij/zij/het won over",
-            "wii wonnen over",
-            "jullie wonnen over",
-            "zij wonnen over"
-          ],
-          "perfect": "ik heb overwonnen",
-          "participle": "overwonnen"
-        }
-      },
-      "examples": [
-        "Zij overwon haar angst.",
-        "Het team won de wedstrijd over."
-      ],
-      "exampleTranslations": {
-        "chinese": ["她克服了恐惧。", "团队赢得了比赛。"],
-        "english": ["She overcame her fear.", "The team won the match."]
-      },
-      "notes": "可分动词,不规则变化",
-      "difficulty": "B2"
-    },
-    {
-      "id": 5190,
-      "word": "overwinning",
-      "translation": {
-        "chinese": "胜利",
-        "english": "victory, triumph"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "overwinning",
-          "plural": "overwinningen"
-        }
-      },
-      "examples": [
-        "De overwinning werd gevierd.",
-        "Het was een grote overwinning voor het team."
-      ],
-      "exampleTranslations": {
-        "chinese": ["胜利被庆祝了。", "这对团队来说是一个巨大的胜利。"],
-        "english": ["The victory was celebrated.", "It was a great victory for the team."]
-      },
-      "notes": "阴性名词",
       "difficulty": "B2"
     },
     {
@@ -490,8 +392,14 @@
         "Ze zette de bestanden over naar de nieuwe computer."
       ],
       "exampleTranslations": {
-        "chinese": ["船把乘客运送过去了。", "她把文件转移到新电脑上。"],
-        "english": ["The boat ferried the passengers across.", "She transferred the files to the new computer."]
+        "chinese": [
+          "船把乘客运送过去了。",
+          "她把文件转移到新电脑上。"
+        ],
+        "english": [
+          "The boat ferried the passengers across.",
+          "She transferred the files to the new computer."
+        ]
       },
       "notes": "可分动词",
       "difficulty": "B2"

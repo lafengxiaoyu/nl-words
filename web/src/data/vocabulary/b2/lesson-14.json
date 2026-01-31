@@ -2,33 +2,8 @@
   "id": "lB214",
   "level": "B2",
   "lessonNumber": 14,
-  "totalWords": 38,
+  "totalWords": 30,
   "words": [
-    {
-      "id": 4953,
-      "word": "maandelijks",
-      "translation": {
-        "chinese": "每月,按月",
-        "english": "monthly, per month"
-      },
-      "partOfSpeech": "adverb",
-      "examples": [
-        "Ze ontvangt maandelijks een vergoeding.",
-        "Hij betaalt maandelijks de huur."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "她每月收到一笔报酬。",
-          "他每月支付房租。"
-        ],
-        "english": [
-          "She receives an allowance monthly.",
-          "He pays the rent monthly."
-        ]
-      },
-      "notes": "副词，表示按月计算",
-      "difficulty": "B2"
-    },
     {
       "id": 4954,
       "word": "maar liefst",
@@ -52,40 +27,6 @@
         ]
       },
       "notes": "固定短语，用于强调数量之多",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4955,
-      "word": "machteloos",
-      "translation": {
-        "chinese": "无力的,无能的",
-        "english": "powerless, helpless"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "machteloos",
-          "withDe": "machteloze",
-          "withHet": "machteloze",
-          "comparative": "machtelozer",
-          "superlative": "machteloost"
-        }
-      },
-      "examples": [
-        "Hij voelde zich machteloos tegen de situatie.",
-        "De regering stond machteloos tegenover de crisis."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "面对这种局面他感到无力。",
-          "政府面对危机显得无能为力。"
-        ],
-        "english": [
-          "He felt powerless facing the situation.",
-          "The government stood powerless against the crisis."
-        ]
-      },
-      "notes": "形容词，由macht(力量)+loos(没有)组成",
       "difficulty": "B2"
     },
     {
@@ -357,38 +298,6 @@
         ]
       },
       "notes": "阳性名词，由mede(共同)+cursist(课程学员)组成",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4964,
-      "word": "mededeling",
-      "translation": {
-        "chinese": "声明,公告,通知",
-        "english": "announcement, notice, statement"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "mededeling",
-          "plural": "mededelingen"
-        }
-      },
-      "examples": [
-        "De rector maakte een belangrijke mededeling.",
-        "Er hangt een mededeling op de deur."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "校长发表了一项重要声明。",
-          "门上贴着一份通知。"
-        ],
-        "english": [
-          "The principal made an important announcement.",
-          "There is a notice on the door."
-        ]
-      },
-      "notes": "阴性名词，来自mededelen(宣布)",
       "difficulty": "B2"
     },
     {
@@ -800,40 +709,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 4976,
-      "word": "merkwaardig",
-      "translation": {
-        "chinese": "奇特的,古怪的",
-        "english": "peculiar, odd, remarkable"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "merkwaardig",
-          "withDe": "merkwaardige",
-          "withHet": "merkwaardige",
-          "comparative": "merkwaardiger",
-          "superlative": "merkwaardigst"
-        }
-      },
-      "examples": [
-        "Het was een merkwaardige gebeurtenis.",
-        "Hij droeg een merkwaardige hoed."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "那是一件奇怪的事。",
-          "他戴着一顶古怪的帽子。"
-        ],
-        "english": [
-          "It was a peculiar occurrence.",
-          "He wore a peculiar hat."
-        ]
-      },
-      "notes": "形容词，由merken(注意)+waardig(值得的)组成",
-      "difficulty": "B2"
-    },
-    {
       "id": 4977,
       "word": "metamorfose",
       "translation": {
@@ -977,38 +852,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 4981,
-      "word": "minderheid",
-      "translation": {
-        "chinese": "少数",
-        "english": "minority"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "minderheid",
-          "plural": "minderheden"
-        }
-      },
-      "examples": [
-        "De minderheid stemde tegen het voorstel.",
-        "De rechten van minderheden moeten worden beschermd."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "少数人投了反对票。",
-          "少数群体的权利应得到保护。"
-        ],
-        "english": [
-          "The minority voted against the proposal.",
-          "The rights of minorities must be protected."
-        ]
-      },
-      "notes": "阴性名词，meerderheid(多数)的反义词",
-      "difficulty": "B2"
-    },
-    {
       "id": 4982,
       "word": "minderjarig",
       "translation": {
@@ -1107,51 +950,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 4985,
-      "word": "mishandelen",
-      "translation": {
-        "chinese": "虐待,虐待",
-        "english": "to abuse, to mistreat"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "mishandelen",
-          "isSeparable": false,
-          "present": {
-            "ik": "mishandel",
-            "jij": "mishandelt",
-            "hij": "mishandelt",
-            "wij": "mishandelen",
-            "jullie": "mishandelen",
-            "zij": "mishandelen"
-          },
-          "past": {
-            "singular": "mishandelde",
-            "plural": "mishandelden"
-          },
-          "pastParticiple": "gemishandeld",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij werd beschuldigd van het mishandelen van zijn vrouw.",
-        "Dieren mishandelen is strafbaar."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他被指控虐待妻子。",
-          "虐待动物是犯罪行为。"
-        ],
-        "english": [
-          "He was accused of abusing his wife.",
-          "Animal abuse is punishable."
-        ]
-      },
-      "notes": "不可分动词，严重的犯罪行为",
-      "difficulty": "B2"
-    },
-    {
       "id": 4986,
       "word": "misstappen",
       "translation": {
@@ -1216,38 +1014,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 4988,
-      "word": "misverstand",
-      "translation": {
-        "chinese": "误会,误解",
-        "english": "misunderstanding"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "misverstand",
-          "plural": "misverstanden"
-        }
-      },
-      "examples": [
-        "Het misverstand is opgehelderd na een gesprek.",
-        "Er ontstond een misverstand tussen de twee partijen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "经过谈话，误会消除了。",
-          "双方之间产生了误会。"
-        ],
-        "english": [
-          "The misunderstanding was cleared up after a talk.",
-          "A misunderstanding arose between the two parties."
-        ]
-      },
-      "notes": "阴性名词，与misvatting同义",
-      "difficulty": "B2"
-    },
-    {
       "id": 4989,
       "word": "mondjesmaat",
       "translation": {
@@ -1270,72 +1036,6 @@
         ]
       },
       "notes": "副词，口语化表达",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4990,
-      "word": "monumentaal",
-      "translation": {
-        "chinese": "宏伟的,宏大的",
-        "english": "monumental, massive"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "monumentaal",
-          "withDe": "monumentale",
-          "withHet": "monumentale",
-          "comparative": "monumentaler",
-          "superlative": "monumentaalst"
-        }
-      },
-      "examples": [
-        "Het gebouw heeft een monumentale uitstraling.",
-        "Dit is een monumentale prestatie."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这座建筑具有宏伟的外观。",
-          "这是一项宏大的成就。"
-        ],
-        "english": [
-          "The building has a monumental appearance.",
-          "This is a monumental achievement."
-        ]
-      },
-      "notes": "形容词，来自monument(纪念碑)",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4991,
-      "word": "moordenaar",
-      "translation": {
-        "chinese": "凶手,杀人犯",
-        "english": "murderer, killer"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "moordenaar",
-          "plural": "moordenaars"
-        }
-      },
-      "examples": [
-        "De politie vond de moordenaar na een lange zoektocht.",
-        "De moordenaar werd veroordeeld tot 20 jaar gevangenisstraf."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "经过长时间搜寻，警方找到了凶手。",
-          "凶手被判处20年监禁。"
-        ],
-        "english": [
-          "The police found the murderer after a long search.",
-          "The murderer was sentenced to 20 years in prison."
-        ]
-      },
-      "notes": "阳性名词，来自moord(谋杀)",
       "difficulty": "B2"
     }
   ]

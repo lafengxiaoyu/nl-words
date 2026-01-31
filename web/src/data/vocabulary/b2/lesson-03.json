@@ -2,7 +2,7 @@
   "id": "lB203",
   "level": "B2",
   "lessonNumber": 3,
-  "totalWords": 22,
+  "totalWords": 14,
   "words": [
     {
       "id": 4470,
@@ -82,101 +82,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4472,
-      "word": "als zodanig",
-      "translation": {
-        "chinese": "作为这样的, 就其本身而言",
-        "english": "as such"
-      },
-      "partOfSpeech": "phrase",
-      "forms": {},
-      "examples": [
-        "Als zodanig is het probleem niet groot.",
-        "Hij is als zodanig verantwoordelijk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "作为这样的，问题不大。",
-          "他作为对此负责人。"
-        ],
-        "english": [
-          "As such the problem is not big.",
-          "He is responsible as such."
-        ]
-      },
-      "notes": "短语",
-      "difficulty": "B2"
-    },
-    {
       "id": 4473,
-      "word": "alternatief",
-      "translation": {
-        "chinese": "替代的, 供选择的",
-        "english": "alternative"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "alternatief",
-          "withDe": "alternatieve",
-          "withHet": "alternatieve",
-          "comparative": "alternatiever",
-          "superlative": "het alternatiefst"
-        }
-      },
-      "examples": [
-        "Een alternatieve oplossing.",
-        "Zij kiest een alternatief."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "一个替代方案。",
-          "她选择替代品。"
-        ],
-        "english": [
-          "An alternative solution.",
-          "She chooses an alternative."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4474,
-      "word": "ambivalent",
-      "translation": {
-        "chinese": "矛盾的, 矛盾心理的",
-        "english": "ambivalent"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "ambivalent",
-          "withDe": "ambivalente",
-          "withHet": "ambivalente",
-          "comparative": "-",
-          "superlative": "-"
-        }
-      },
-      "examples": [
-        "Hij voelt zich ambivalent.",
-        "Een ambivalente houding."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他感到矛盾。",
-          "矛盾的态度。"
-        ],
-        "english": [
-          "He feels ambivalent.",
-          "An ambivalent attitude."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4475,
       "word": "analfabeet",
       "translation": {
         "chinese": "文盲",
@@ -208,52 +114,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4476,
-      "word": "analyseren",
-      "translation": {
-        "chinese": "分析",
-        "english": "to analyze"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "analyseren",
-          "isSeparable": false,
-          "present": {
-            "ik": "analyseer",
-            "jij": "analyseert",
-            "hij": "analyseert",
-            "wij": "analyseren",
-            "jullie": "analyseren",
-            "zij": "analyseren"
-          },
-          "past": {
-            "singular": "analyseerde",
-            "plural": "analyseerden"
-          },
-          "pastParticiple": "geanalyseerd",
-          "pastParticipleAuxiliary": "hebben"
-        }
-      },
-      "examples": [
-        "Hij analyseert de situatie.",
-        "Wij analyseren het probleem."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他分析情况。",
-          "我们分析问题。"
-        ],
-        "english": [
-          "He analyzes the situation.",
-          "We analyze the problem."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4477,
+      "id": 4475,
       "word": "anderszins",
       "translation": {
         "chinese": "否则, 另外的方式",
@@ -279,33 +140,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4478,
-      "word": "anderzijds",
-      "translation": {
-        "chinese": "另一方面",
-        "english": "on the other hand"
-      },
-      "partOfSpeech": "adverb",
-      "forms": {},
-      "examples": [
-        "Anderzijds is hij gelukkig.",
-        "Aan de ene kant... anderzijds..."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "另一方面他很快乐。",
-          "一方面...另一方面..."
-        ],
-        "english": [
-          "On the other hand he is happy.",
-          "On one hand... on the other hand..."
-        ]
-      },
-      "notes": "副词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4479,
+      "id": 4476,
       "word": "anekdotisch",
       "translation": {
         "chinese": "轶事般的, 传闻的",
@@ -339,7 +174,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4480,
+      "id": 4477,
       "word": "antibiotica",
       "translation": {
         "chinese": "抗生素",
@@ -371,7 +206,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4481,
+      "id": 4478,
       "word": "antipathie",
       "translation": {
         "chinese": "反感, 厌恶",
@@ -403,7 +238,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4482,
+      "id": 4479,
       "word": "antropoloog",
       "translation": {
         "chinese": "人类学家",
@@ -435,39 +270,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4483,
-      "word": "appartement",
-      "translation": {
-        "chinese": "公寓",
-        "english": "apartment"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "appartement",
-          "plural": "appartementen"
-        }
-      },
-      "examples": [
-        "Wij wonen in een appartement.",
-        "Het appartement is groot."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我们住在公寓里。",
-          "公寓很大。"
-        ],
-        "english": [
-          "We live in an apartment.",
-          "The apartment is large."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4484,
+      "id": 4481,
       "word": "appellatief",
       "translation": {
         "chinese": "称呼的, 呼格的",
@@ -499,7 +302,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4485,
+      "id": 4482,
       "word": "arbodienst",
       "translation": {
         "chinese": "职业健康服务",
@@ -531,7 +334,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4486,
+      "id": 4483,
       "word": "aromatisch",
       "translation": {
         "chinese": "芳香的, 香的",
@@ -565,7 +368,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4487,
+      "id": 4484,
       "word": "arresteren",
       "translation": {
         "chinese": "逮捕",
@@ -610,7 +413,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4488,
+      "id": 4485,
       "word": "artillerie",
       "translation": {
         "chinese": "炮兵, 火炮",
@@ -642,39 +445,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4489,
-      "word": "asielzoeker",
-      "translation": {
-        "chinese": "寻求庇护者",
-        "english": "asylum seeker"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "asielzoeker",
-          "plural": "asielzoekers"
-        }
-      },
-      "examples": [
-        "De asielzoeker komt uit Syrië.",
-        "Wij helpen asielzoekers."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "寻求庇护者来自叙利亚。",
-          "我们帮助寻求庇护者。"
-        ],
-        "english": [
-          "The asylum seeker comes from Syria.",
-          "We help asylum seekers."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4490,
+      "id": 4486,
       "word": "assortiment",
       "translation": {
         "chinese": " assortment, 花色品种",
@@ -700,38 +471,6 @@
         "english": [
           "The assortment is large.",
           "We have a wide assortment."
-        ]
-      },
-      "notes": "名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4491,
-      "word": "autoriteit",
-      "translation": {
-        "chinese": "权威, 权威人士",
-        "english": "authority"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "autoriteit",
-          "plural": "autoriteiten"
-        }
-      },
-      "examples": [
-        "Hij heeft autoriteit.",
-        "De autoriteit beslist."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他有权威。",
-          "权威做出决定。"
-        ],
-        "english": [
-          "He has authority.",
-          "The authority decides."
         ]
       },
       "notes": "名词",

@@ -1,6 +1,6 @@
 {
   "lessonNumber": 10,
-  "totalWords": 56,
+  "totalWords": 31,
   "words": [
     {
       "id": 4756,
@@ -159,37 +159,6 @@
       "difficulty": "B2"
     },
     {
-      "id": 4761,
-      "word": "handschoen",
-      "translation": {
-        "chinese": "手套",
-        "english": "glove"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "handschoen",
-          "plural": "handschoenen"
-        }
-      },
-      "examples": [
-        "Ik draag handschoenen.",
-        "Zij verloor een handschoen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我戴着手套。",
-          "她丢了一只手套。"
-        ],
-        "english": [
-          "I wear gloves.",
-          "She lost a glove."
-        ]
-      },
-      "notes": "阳性名词",
-      "difficulty": "B2"
-    },
-    {
       "id": 4762,
       "word": "handschrift",
       "translation": {
@@ -317,36 +286,6 @@
     },
     {
       "id": 4766,
-      "word": "hartstikke",
-      "translation": {
-        "chinese": "非常, 极其",
-        "english": "very, extremely"
-      },
-      "partOfSpeech": "adverb",
-      "forms": {
-        "adverb": {
-          "base": "hartstikke"
-        }
-      },
-      "examples": [
-        "Het is hartstikke mooi.",
-        "Ik vind het hartstikke leuk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这非常漂亮。",
-          "我觉得这非常有趣。"
-        ],
-        "english": [
-          "It is very beautiful.",
-          "I find it very nice."
-        ]
-      },
-      "notes": "副词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4767,
       "word": "hedendaags",
       "translation": {
         "chinese": "现代的, 当代的",
@@ -378,7 +317,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4768,
+      "id": 4767,
       "word": "heldendaad",
       "translation": {
         "chinese": "英雄事迹",
@@ -409,7 +348,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4769,
+      "id": 4768,
       "word": "herbruiken",
       "translation": {
         "chinese": "再利用, 重复使用",
@@ -442,71 +381,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4770,
-      "word": "herkansing",
-      "translation": {
-        "chinese": "补考, 第二次机会",
-        "english": "resit, second chance"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "herkansing",
-          "plural": "herkansingen"
-        }
-      },
-      "examples": [
-        "Ik heb een herkansing nodig.",
-        "De herkansing is volgende week."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我需要补考。",
-          "补考在下周。"
-        ],
-        "english": [
-          "I need a resit.",
-          "The resit is next week."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
       "id": 4771,
-      "word": "herstellen",
-      "translation": {
-        "chinese": "恢复, 修复",
-        "english": "to recover, to restore"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "herstellen",
-          "present": "herstelt",
-          "past": "herstelde",
-          "participle": "hersteld"
-        }
-      },
-      "examples": [
-        "Hij herstelt van ziekte.",
-        "We moeten de orde herstellen."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他从疾病中恢复。",
-          "我们需要恢复秩序。"
-        ],
-        "english": [
-          "He recovers from illness.",
-          "We must restore order."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4772,
       "word": "heterogeen",
       "translation": {
         "chinese": "异质的, 多样的",
@@ -539,38 +414,6 @@
     },
     {
       "id": 4773,
-      "word": "hinderlijk",
-      "translation": {
-        "chinese": "令人烦恼的, 妨碍的",
-        "english": "annoying, obstructive"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "hinderlijk",
-          "comparative": "hinderlijker",
-          "superlative": "hinderlijkst"
-        }
-      },
-      "examples": [
-        "Het geluid is hinderlijk.",
-        "Hij is hinderlijk in zijn gedrag."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "声音很烦人。",
-          "他的行为很妨碍。"
-        ],
-        "english": [
-          "The noise is annoying.",
-          "He is obstructive in his behavior."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4774,
       "word": "historicus",
       "translation": {
         "chinese": "历史学家",
@@ -601,38 +444,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4775,
-      "word": "hiërarchie",
-      "translation": {
-        "chinese": "等级制度, 阶层",
-        "english": "hierarchy"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "hiërarchie",
-          "plural": "hiërarchieën"
-        }
-      },
-      "examples": [
-        "Het bedrijf heeft een duidelijke hiërarchie.",
-        "De hiërarchie is strikt."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "公司有明确的等级制度。",
-          "等级制度很严格。"
-        ],
-        "english": [
-          "The company has a clear hierarchy.",
-          "The hierarchy is strict."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4776,
+      "id": 4774,
       "word": "hoe dan ook",
       "translation": {
         "chinese": "无论如何",
@@ -662,7 +474,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4777,
+      "id": 4775,
       "word": "hoge hakken",
       "translation": {
         "chinese": "高跟鞋",
@@ -693,7 +505,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4778,
+      "id": 4776,
       "word": "holistisch",
       "translation": {
         "chinese": "整体的, 全面的",
@@ -725,38 +537,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4779,
-      "word": "hongersnood",
-      "translation": {
-        "chinese": "饥荒",
-        "english": "famine"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "hongersnood",
-          "plural": "hongersnoden"
-        }
-      },
-      "examples": [
-        "Het land heeft hongersnood.",
-        "De hongersnood was ernstig."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这个国家有饥荒。",
-          "饥荒很严重。"
-        ],
-        "english": [
-          "The country has famine.",
-          "The famine was severe."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4780,
+      "id": 4777,
       "word": "hoofddeksel",
       "translation": {
         "chinese": "帽子, 头饰",
@@ -787,39 +568,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4781,
-      "word": "hoogachtend",
-      "translation": {
-        "chinese": "尊敬的, 充满敬意的",
-        "english": "respectful"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "hoogachtend",
-          "comparative": "hoogachtender",
-          "superlative": "hoogachtendst"
-        }
-      },
-      "examples": [
-        "Hij is hoogachtend.",
-        "Ze spreek op een hoogachtende manier."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他很尊敬。",
-          "她以尊敬的方式说话。"
-        ],
-        "english": [
-          "He is respectful.",
-          "She speaks in a respectful way."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4782,
+      "id": 4779,
       "word": "hoogbejaard",
       "translation": {
         "chinese": "高龄的, 耄耋的",
@@ -851,38 +600,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4783,
-      "word": "hooglelaar",
-      "translation": {
-        "chinese": "教师, 讲师",
-        "english": "lecturer, teacher"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "hooglelaar",
-          "plural": "hoogleeraren"
-        }
-      },
-      "examples": [
-        "De hooglelaar geeft les.",
-        "Hij is hooglelaar wiskunde."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "讲师在讲课。",
-          "他是数学讲师。"
-        ],
-        "english": [
-          "The lecturer is teaching.",
-          "He is mathematics lecturer."
-        ]
-      },
-      "notes": "阳性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4784,
+      "id": 4780,
       "word": "hoogseizoen",
       "translation": {
         "chinese": "旺季",
@@ -913,7 +631,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4785,
+      "id": 4781,
       "word": "hoogtepunt",
       "translation": {
         "chinese": "高潮, 顶点",
@@ -944,7 +662,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4786,
+      "id": 4782,
       "word": "hoogtevrees",
       "translation": {
         "chinese": "恐高症",
@@ -975,7 +693,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4787,
+      "id": 4783,
       "word": "hoogvaardig",
       "translation": {
         "chinese": "高技能的, 高水平的",
@@ -1007,7 +725,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4788,
+      "id": 4784,
       "word": "hooikoorts",
       "translation": {
         "chinese": "花粉症, 枯草热",
@@ -1038,7 +756,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4789,
+      "id": 4785,
       "word": "hoorcollege",
       "translation": {
         "chinese": "讲座",
@@ -1069,7 +787,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4790,
+      "id": 4786,
       "word": "horizontaal",
       "translation": {
         "chinese": "水平的",
@@ -1101,7 +819,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4791,
+      "id": 4787,
       "word": "houden van",
       "translation": {
         "chinese": "喜欢, 爱",
@@ -1134,38 +852,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4792,
-      "word": "huiduitslag",
-      "translation": {
-        "chinese": "皮疹",
-        "english": "skin rash"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "huiduitslag",
-          "plural": "huiduitslagen"
-        }
-      },
-      "examples": [
-        "Ik heb een huiduitslag.",
-        "De huiduitslag jeukt."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我有皮疹。",
-          "皮疹很痒。"
-        ],
-        "english": [
-          "I have a skin rash.",
-          "The rash itches."
-        ]
-      },
-      "notes": "阳性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4793,
+      "id": 4788,
       "word": "huisgenoot",
       "translation": {
         "chinese": "室友, 房友",
@@ -1196,38 +883,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4794,
-      "word": "huishouden",
-      "translation": {
-        "chinese": "家务, 家庭",
-        "english": "household, housekeeping"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "huishouden",
-          "plural": "huishoudens"
-        }
-      },
-      "examples": [
-        "Het huishouden is werk.",
-        "Zij doet het huishouden."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "家务是工作。",
-          "她做家务。"
-        ],
-        "english": [
-          "Household is work.",
-          "She does the housekeeping."
-        ]
-      },
-      "notes": "中性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4795,
+      "id": 4790,
       "word": "huisvesten",
       "translation": {
         "chinese": "安置, 提供住房",
@@ -1260,7 +916,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4796,
+      "id": 4791,
       "word": "huisvesting",
       "translation": {
         "chinese": "住房, 住宿",
@@ -1291,7 +947,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4797,
+      "id": 4792,
       "word": "hulptroepen",
       "translation": {
         "chinese": "援军, 救援部队",
@@ -1319,38 +975,6 @@
         ]
       },
       "notes": "复数名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4798,
-      "word": "hysterisch",
-      "translation": {
-        "chinese": "歇斯底里的, 癔症的",
-        "english": "hysterical"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "hysterisch",
-          "comparative": "hysterischer",
-          "superlative": "hysterischst"
-        }
-      },
-      "examples": [
-        "Ze werd hysterisch.",
-        "Hij lachte hysterisch."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "她变得歇斯底里。",
-          "他歇斯底里地笑。"
-        ],
-        "english": [
-          "She became hysterical.",
-          "He laughed hysterically."
-        ]
-      },
-      "notes": "形容词",
       "difficulty": "B2"
     }
   ]

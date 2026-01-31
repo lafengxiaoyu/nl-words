@@ -1,6 +1,6 @@
 {
   "lessonNumber": 7,
-  "totalWords": 52,
+  "totalWords": 38,
   "words": [
     {
       "id": 4579,
@@ -258,38 +258,6 @@
     },
     {
       "id": 4587,
-      "word": "denkbeeldig",
-      "translation": {
-        "chinese": "想象的, 虚构的",
-        "english": "imaginary, fanciful"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "denkbeeldig",
-          "comparative": "denkbeeldiger",
-          "superlative": "denkbeeldigst"
-        }
-      },
-      "examples": [
-        "Dit is een denkbeeldig vriend.",
-        "Het probleem is denkbeeldig."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这是一个想象中的朋友。",
-          "这个问题是虚构的。"
-        ],
-        "english": [
-          "This is an imaginary friend.",
-          "The problem is imaginary."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4588,
       "word": "depressief",
       "translation": {
         "chinese": "抑郁的, 消沉的",
@@ -321,7 +289,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4589,
+      "id": 4588,
       "word": "deprimerend",
       "translation": {
         "chinese": "令人沮丧的, 压抑的",
@@ -353,7 +321,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4590,
+      "id": 4589,
       "word": "desgewenst",
       "translation": {
         "chinese": "如果需要, 如有需要",
@@ -383,7 +351,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4591,
+      "id": 4590,
       "word": "deskundige",
       "translation": {
         "chinese": "专家, 专业人士",
@@ -414,7 +382,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4592,
+      "id": 4591,
       "word": "desondanks",
       "translation": {
         "chinese": "尽管如此",
@@ -444,7 +412,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4593,
+      "id": 4592,
       "word": "devalueren",
       "translation": {
         "chinese": "贬值",
@@ -478,70 +446,6 @@
     },
     {
       "id": 4594,
-      "word": "didactisch",
-      "translation": {
-        "chinese": "教学法的, 教育的",
-        "english": "didactic, educational"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "didactisch",
-          "comparative": "didactischer",
-          "superlative": "didactischst"
-        }
-      },
-      "examples": [
-        "Het boek heeft een didactisch doel.",
-        "De didactische aanpak werkt goed."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "这本书有教育目的。",
-          "这种方法很有效。"
-        ],
-        "english": [
-          "The book has a didactic purpose.",
-          "The didactic approach works well."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4595,
-      "word": "dienstbaar",
-      "translation": {
-        "chinese": "服务的, 服务的",
-        "english": "subservient, serviceable"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "dienstbaar",
-          "comparative": "dienstbaarder",
-          "superlative": "dienstbaarst"
-        }
-      },
-      "examples": [
-        "Hij is dienstbaar aan de klant.",
-        "De overheid moet dienstbaar zijn aan het volk."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他为客户服务。",
-          "政府应该为人民服务。"
-        ],
-        "english": [
-          "He is servicable to the customer.",
-          "The government should serve the people."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4596,
       "word": "dieptepunt",
       "translation": {
         "chinese": "最低点, 低谷",
@@ -572,7 +476,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4597,
+      "id": 4595,
       "word": "disclaimer",
       "translation": {
         "chinese": "免责声明",
@@ -603,136 +507,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4598,
-      "word": "diversiteit",
-      "translation": {
-        "chinese": "多样性, 差异",
-        "english": "diversity"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "diversiteit",
-          "plural": "diversiteiten"
-        }
-      },
-      "examples": [
-        "We waarderen diversiteit.",
-        "De diversiteit in dit team is groot."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我们重视多样性。",
-          "这个团队的多样性很大。"
-        ],
-        "english": [
-          "We value diversity.",
-          "The diversity in this team is great."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4599,
-      "word": "doelgericht",
-      "translation": {
-        "chinese": "有目标的, 目标导向的",
-        "english": "goal-oriented, targeted"
-      },
-      "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "positive": "doelgericht",
-          "comparative": "doelgerichter",
-          "superlative": "doelgerichtst"
-        }
-      },
-      "examples": [
-        "Ze werkt doelgericht.",
-        "Dit is een doelgerichte aanpak."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "她以目标为导向工作。",
-          "这是一种有目标的方法。"
-        ],
-        "english": [
-          "She works in a goal-oriented way.",
-          "This is a goal-oriented approach."
-        ]
-      },
-      "notes": "形容词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4600,
-      "word": "doodsteken",
-      "translation": {
-        "chinese": "刺死",
-        "english": "to stab to death"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "doodsteken",
-          "present": "steekt dood",
-          "past": "stak dood",
-          "participle": "doodgestoken"
-        }
-      },
-      "examples": [
-        "Hij is doodgestoken.",
-        "De dader doodstekende het slachtoffer."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "他被刺死了。",
-          "凶手刺死了受害者。"
-        ],
-        "english": [
-          "He was stabbed to death.",
-          "The perpetrator stabbed the victim to death."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4601,
-      "word": "doorbreken",
-      "translation": {
-        "chinese": "打破, 突破",
-        "english": "to break through, to break"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "doorbreken",
-          "present": "breekt door",
-          "past": "brak door",
-          "participle": "doorbroken"
-        }
-      },
-      "examples": [
-        "We moeten de traditie doorbreken.",
-        "Het zonlicht brak door de wolken."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我们需要打破传统。",
-          "阳光穿透了云层。"
-        ],
-        "english": [
-          "We need to break the tradition.",
-          "The sunlight broke through the clouds."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4602,
+      "id": 4596,
       "word": "doorbrengen",
       "translation": {
         "chinese": "度过, 花费(时间)",
@@ -765,7 +540,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4603,
+      "id": 4597,
       "word": "doordenken",
       "translation": {
         "chinese": "深思, 深入思考",
@@ -798,37 +573,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4604,
-      "word": "doordeweeks",
-      "translation": {
-        "chinese": "工作日的, 非周末的",
-        "english": "on weekdays"
-      },
-      "partOfSpeech": "adverb",
-      "forms": {
-        "adverb": {
-          "base": "doordeweeks"
-        }
-      },
-      "examples": [
-        "Ik werk doordeweeks.",
-        "Doordeweeks is het rustiger in het park."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我工作日工作。",
-          "工作日公园里比较安静。"
-        ],
-        "english": [
-          "I work on weekdays.",
-          "It is quieter in the park on weekdays."
-        ]
-      },
-      "notes": "副词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4605,
+      "id": 4598,
       "word": "doordraaien",
       "translation": {
         "chinese": "失控, 发疯",
@@ -861,73 +606,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4606,
-      "word": "doordrenken",
-      "translation": {
-        "chinese": "浸透, 饱含",
-        "english": "to soak, to saturate"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "doordrenken",
-          "present": "doordrenkt",
-          "past": "doordrenkte",
-          "participle": "doordrenkt"
-        }
-      },
-      "examples": [
-        "De regen doordrenkte de grond.",
-        "Het verhaal is doordrenkt van emotie."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "雨水浸透了地面。",
-          "这个故事饱含情感。"
-        ],
-        "english": [
-          "The rain soaked the ground.",
-          "The story is saturated with emotion."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4607,
-      "word": "doordringen",
-      "translation": {
-        "chinese": "渗透, 侵入",
-        "english": "to penetrate, to permeate"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "doordringen",
-          "present": "dringt door",
-          "past": "drong door",
-          "participle": "doorgedrongen"
-        }
-      },
-      "examples": [
-        "Het licht doordringt de kamer.",
-        "Het geluid doordringt de muren."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "光线照亮了房间。",
-          "声音穿透了墙壁。"
-        ],
-        "english": [
-          "The light penetrates the room.",
-          "The sound permeates the walls."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4608,
+      "id": 4600,
       "word": "doorgronden",
       "translation": {
         "chinese": "深入理解, 领悟",
@@ -960,7 +639,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4609,
+      "id": 4601,
       "word": "doorhebben",
       "translation": {
         "chinese": "察觉, 意识到",
@@ -993,38 +672,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4610,
-      "word": "doorkijkje",
-      "translation": {
-        "chinese": "一瞥, 透过...看",
-        "english": "a glimpse through"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "doorkijkje",
-          "plural": "doorkijkjes"
-        }
-      },
-      "examples": [
-        "Ik kreeg een doorkijkje in zijn leven.",
-        "Door het raam heb ik een doorkijkje op de tuin."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我得以一窥他的生活。",
-          "透过窗户我可以看到花园。"
-        ],
-        "english": [
-          "I got a glimpse into his life.",
-          "Through the window I have a view of the garden."
-        ]
-      },
-      "notes": "中性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4611,
+      "id": 4602,
       "word": "doorklinken",
       "translation": {
         "chinese": "回响, 响彻",
@@ -1057,7 +705,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4612,
+      "id": 4603,
       "word": "doorkruisen",
       "translation": {
         "chinese": "横穿, 穿越各地",
@@ -1090,7 +738,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4613,
+      "id": 4604,
       "word": "doorleiden",
       "translation": {
         "chinese": "转移, 引导",
@@ -1123,7 +771,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4614,
+      "id": 4605,
       "word": "doorpakken",
       "translation": {
         "chinese": "加把劲, 努力推进",
@@ -1156,7 +804,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4615,
+      "id": 4606,
       "word": "doorspelen",
       "translation": {
         "chinese": "玩到底, 继续",
@@ -1189,7 +837,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4616,
+      "id": 4607,
       "word": "doorspoelen",
       "translation": {
         "chinese": "冲刷, 冲走",
@@ -1222,7 +870,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4617,
+      "id": 4608,
       "word": "doorstampen",
       "translation": {
         "chinese": "踩实, 践踏",
@@ -1255,40 +903,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4618,
-      "word": "doorstrepen",
-      "translation": {
-        "chinese": "划掉, 删除",
-        "english": "to cross out, to delete"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "doorstrepen",
-          "present": "streept door",
-          "past": "streepte door",
-          "participle": "doorgestreept"
-        }
-      },
-      "examples": [
-        "Streep de fout door.",
-        "Ze doorstreepte de zin."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "划掉错误。",
-          "她划掉了这句话。"
-        ],
-        "english": [
-          "Cross out the mistake.",
-          "She crossed out the sentence."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4619,
+      "id": 4609,
       "word": "doorstromen",
       "translation": {
         "chinese": "流动, 流通",
@@ -1321,73 +936,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4620,
-      "word": "doortrekken",
-      "translation": {
-        "chinese": "冲洗(马桶), 拉动",
-        "english": "to flush, to pull through"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "doortrekken",
-          "present": "trekt door",
-          "past": "trok door",
-          "participle": "doorge trokken"
-        }
-      },
-      "examples": [
-        "Trek het toilet door.",
-        "Hij trok het touw door."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "冲马桶。",
-          "他拉动了绳子。"
-        ],
-        "english": [
-          "Flush the toilet.",
-          "He pulled the rope through."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4621,
-      "word": "doorvoeren",
-      "translation": {
-        "chinese": "实施, 贯彻",
-        "english": "to implement, to carry out"
-      },
-      "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "doorvoeren",
-          "present": "voert door",
-          "past": "voerde door",
-          "participle": "doorgevoerd"
-        }
-      },
-      "examples": [
-        "We moeten de veranderingen doorvoeren.",
-        "Het plan wordt doorgevoerd."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我们需要实施这些改变。",
-          "计划正在贯彻执行。"
-        ],
-        "english": [
-          "We need to implement the changes.",
-          "The plan is being carried out."
-        ]
-      },
-      "notes": "动词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4622,
+      "id": 4610,
       "word": "doorzakken",
       "translation": {
         "chinese": "下垂, 凹陷",
@@ -1420,7 +969,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4623,
+      "id": 4611,
       "word": "doorzetten",
       "translation": {
         "chinese": "坚持, 坚持下去",
@@ -1453,7 +1002,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4624,
+      "id": 4612,
       "word": "doorzoeken",
       "translation": {
         "chinese": "搜查, 翻找",
@@ -1486,7 +1035,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4625,
+      "id": 4613,
       "word": "draaien om",
       "translation": {
         "chinese": "围绕...旋转, 取决于",
@@ -1502,8 +1051,8 @@
         }
       },
       "examples": [
-          "De aarde draait om de zon.",
-          "Alles draait om geluk."
+        "De aarde draait om de zon.",
+        "Alles draait om geluk."
       ],
       "exampleTranslations": {
         "chinese": [
@@ -1519,7 +1068,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4626,
+      "id": 4614,
       "word": "draaimolen",
       "translation": {
         "chinese": "旋转木马",
@@ -1550,7 +1099,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4627,
+      "id": 4615,
       "word": "draconisch",
       "translation": {
         "chinese": "严酷的, 极其严厉的",
@@ -1582,7 +1131,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4628,
+      "id": 4616,
       "word": "dreigen te",
       "translation": {
         "chinese": "威胁要, 有...的危险",
@@ -1615,38 +1164,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4629,
-      "word": "drogisterij",
-      "translation": {
-        "chinese": "药房, 药店",
-        "english": "drugstore, pharmacy"
-      },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "singular": "drogisterij",
-          "plural": "drogisterijen"
-        }
-      },
-      "examples": [
-        "Ik ga naar de drogisterij.",
-        "De drogisterij is open."
-      ],
-      "exampleTranslations": {
-        "chinese": [
-          "我去药店。",
-          "药店营业中。"
-        ],
-        "english": [
-          "I go to the drugstore.",
-          "The drugstore is open."
-        ]
-      },
-      "notes": "阴性名词",
-      "difficulty": "B2"
-    },
-    {
-      "id": 4630,
+      "id": 4618,
       "word": "duisternis",
       "translation": {
         "chinese": "黑暗, 昏暗",
@@ -1677,7 +1195,7 @@
       "difficulty": "B2"
     },
     {
-      "id": 4631,
+      "id": 4619,
       "word": "dwarsfluit",
       "translation": {
         "chinese": "长笛",
