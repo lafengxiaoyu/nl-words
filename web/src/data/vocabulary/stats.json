@@ -1,6 +1,6 @@
 {
-  "totalWords": 4291,
-  "totalLessons": 102,
+  "totalWords": 5005,
+  "totalLessons": 117,
   "levels": {
     "A1": {
       "level": "A1",
@@ -16,27 +16,27 @@
     },
     "B1": {
       "level": "B1",
-      "totalWords": 1638,
-      "totalLessons": 42,
-      "wordsPerLesson": "39.0"
+      "totalWords": 2294,
+      "totalLessons": 57,
+      "wordsPerLesson": "40.2"
     },
     "B2": {
       "level": "B2",
-      "totalWords": 1229,
+      "totalWords": 1287,
       "totalLessons": 31,
-      "wordsPerLesson": "39.6"
+      "wordsPerLesson": "41.5"
     }
   },
   "partOfSpeech": {
-    "interjection": 14,
-    "phrase": 13,
-    "noun": 2085,
-    "verb": 1040,
-    "adjective": 792,
-    "preposition": 38,
-    "adverb": 175,
+    "interjection": 17,
+    "phrase": 19,
+    "noun": 2425,
+    "verb": 1247,
+    "adjective": 927,
+    "preposition": 40,
+    "adverb": 189,
     "pronoun": 31,
-    "conjunction": 17,
+    "conjunction": 22,
     "determiner": 4,
     "numeral": 19,
     "adjective,noun": 5,
@@ -45,16 +45,19 @@
     "noun,verb": 4,
     "verb,adjective": 1,
     "noun,adjective": 5,
-    "noun phrase": 3,
+    "noun phrase": 2,
     "adverb phrase": 2,
     "adjective phrase": 1,
-    "phrasal verb": 19,
     "adverbial phrase": 18,
-    "prepositional phrase": 1
+    "prepositional phrase": 1,
+    "phrasal verb": 18,
+    "adjective/adverb": 1,
+    "noun/adjective": 1,
+    "reflexive verb": 2
   },
   "wordLength": {
     "min": 1,
     "max": 20,
-    "average": "8.17"
+    "average": "8.25"
   }
 }

@@ -1,651 +1,1673 @@
-[
-  {
-    "id": 5671,
-    "word": "waanzinnig",
-    "translation": "疯狂的，疯狂的",
-    "partOfSpeech": "adjective",
-    "forms": ["waanzinniger", "waanzinnigst"],
-    "level": "B2",
-    "example": "Het is een waanzinnig idee om naar de maan te reizen.",
-    "exampleTranslation": "去月球旅行是一个疯狂的想法。",
-    "tags": ["W", "adjective"]
-  },
-  {
-    "id": 5672,
-    "word": "waarborgen",
-    "translation": "保证，确保，保障",
-    "partOfSpeech": "verb",
-    "forms": ["waarborgde", "gewaarborgd", "waarborgt"],
-    "level": "B2",
-    "example": "De wet waarborgt gelijke rechten voor alle burgers.",
-    "exampleTranslation": "法律保障所有公民的平等权利。",
-    "tags": ["W", "verb"]
-  },
-  {
-    "id": 5673,
-    "word": "wachtwoord",
-    "translation": "密码",
-    "partOfSpeech": "noun",
-    "forms": ["wachtwoorden"],
-    "level": "B2",
-    "example": "Vergeet je wachtwoord niet als je inlogt.",
-    "exampleTranslation": "登录时不要忘记你的密码。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5674,
-    "word": "wandelwagen",
-    "translation": "婴儿车，手推车",
-    "partOfSpeech": "noun",
-    "forms": ["wandelwagens"],
-    "level": "B2",
-    "example": "Ze duwde de wandelwagen door het park.",
-    "exampleTranslation": "她推着婴儿车穿过公园。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5675,
-    "word": "wantrouwig",
-    "translation": "怀疑的，不信任的",
-    "partOfSpeech": "adjective",
-    "forms": ["wantrouwiger", "wantrouwigst"],
-    "level": "B2",
-    "example": "Hij keek me wantrouwig aan toen ik hem vroeg om geld.",
-    "exampleTranslation": "当我向他要钱时，他怀疑地看着我。",
-    "tags": ["W", "adjective"]
-  },
-  {
-    "id": 5676,
-    "word": "wasmachine",
-    "translation": "洗衣机",
-    "partOfSpeech": "noun",
-    "forms": ["wasmachines"],
-    "level": "B2",
-    "example": "De wasmachine is stuk en moet gerepareerd worden.",
-    "exampleTranslation": "洗衣机坏了，需要修理。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5677,
-    "word": "waterdicht",
-    "translation": "防水的",
-    "partOfSpeech": "adjective",
-    "forms": ["waterdichter", "waterdichtst"],
-    "level": "B2",
-    "example": "Ik heb een waterdichte jas gekocht voor de regen.",
-    "exampleTranslation": "我买了一件防水的夹克来应对雨天。",
-    "tags": ["W", "adjective"]
-  },
-  {
-    "id": 5678,
-    "word": "waterfiets",
-    "translation": "水上自行车",
-    "partOfSpeech": "noun",
-    "forms": ["waterfietsen"],
-    "level": "B2",
-    "example": "We gingen waterfietsen op het meer.",
-    "exampleTranslation": "我们在湖上骑水上自行车。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5679,
-    "word": "waterkering",
-    "translation": "防洪堤，水坝",
-    "partOfSpeech": "noun",
-    "forms": ["waterkeringen"],
-    "level": "B2",
-    "example": "De waterkering beschermt het land tegen overstromingen.",
-    "exampleTranslation": "防洪堤保护土地免受洪水侵袭。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5680,
-    "word": "waterpokken",
-    "translation": "水痘",
-    "partOfSpeech": "noun",
-    "forms": [],
-    "level": "B2",
-    "example": "Mijn zoon had waterpokken toen hij zes jaar oud was.",
-    "exampleTranslation": "我儿子六岁时得了水痘。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5681,
-    "word": "waterstand",
-    "translation": "水位",
-    "partOfSpeech": "noun",
-    "forms": ["waterstanden"],
-    "level": "B2",
-    "example": "De waterstand van de rivier is gestegen door de regen.",
-    "exampleTranslation": "由于下雨，河水水位上涨了。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5682,
-    "word": "weddenschap",
-    "translation": "打赌，赌注",
-    "partOfSpeech": "noun",
-    "forms": ["wederschappen"],
-    "level": "B2",
-    "example": "We hebben een weddenschap gemaakt over wie het spel zou winnen.",
-    "exampleTranslation": "我们就谁会赢得这场比赛打了个赌。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5683,
-    "word": "wederkerig",
-    "translation": "相互的，互惠的",
-    "partOfSpeech": "adjective",
-    "forms": [],
-    "level": "B2",
-    "example": "Het wederkerig vertrouwen is belangrijk voor een goede relatie.",
-    "exampleTranslation": "相互信任对良好的关系很重要。",
-    "tags": ["W", "adjective"]
-  },
-  {
-    "id": 5684,
-    "word": "wederzijds",
-    "translation": "相互的，双方的",
-    "partOfSpeech": "adjective",
-    "forms": [],
-    "level": "B2",
-    "example": "Er is wederzijds respect tussen de twee landen.",
-    "exampleTranslation": "这两个国家之间有相互尊重。",
-    "tags": ["W", "adjective"]
-  },
-  {
-    "id": 5685,
-    "word": "wedijveren",
-    "translation": "竞争，争夺",
-    "partOfSpeech": "verb",
-    "forms": ["wedijverde", "gewedijverd", "wedijvert"],
-    "level": "B2",
-    "example": "De bedrijven wedijveren om de beste werknemers.",
-    "exampleTranslation": "这些公司争夺最好的员工。",
-    "tags": ["W", "verb"]
-  },
-  {
-    "id": 5686,
-    "word": "weerbarstig",
-    "translation": "顽固的，棘手的",
-    "partOfSpeech": "adjective",
-    "forms": ["weerbarstiger", "weerbarstigst"],
-    "level": "B2",
-    "example": "Het was een weerbarstig probleem om op te lossen.",
-    "exampleTranslation": "这是一个棘手的问题，很难解决。",
-    "tags": ["W", "adjective"]
-  },
-  {
-    "id": 5687,
-    "word": "weerbericht",
-    "translation": "天气预报",
-    "partOfSpeech": "noun",
-    "forms": ["weerberichten"],
-    "level": "B2",
-    "example": "Ik check het weerbericht voordat ik naar buiten ga.",
-    "exampleTranslation": "出门前我会查看天气预报。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5688,
-    "word": "weerhouden",
-    "translation": "阻止，阻碍",
-    "partOfSpeech": "verb",
-    "forms": ["weerhield", "weerhouden", "weerhoudt"],
-    "level": "B2",
-    "example": "Niets kon hem weerhouden om zijn droom na te jagen.",
-    "exampleTranslation": "没有什么能阻止他追逐自己的梦想。",
-    "tags": ["W", "verb"]
-  },
-  {
-    "id": 5689,
-    "word": "weerleggen",
-    "translation": "反驳，驳倒",
-    "partOfSpeech": "verb",
-    "forms": ["weerlegde", "weerlegd", "weerlegt"],
-    "level": "B2",
-    "example": "De advocaat weerlegde alle aanklachten van de aanklager.",
-    "exampleTranslation": "律师驳回了检察官的所有指控。",
-    "tags": ["W", "verb"]
-  },
-  {
-    "id": 5690,
-    "word": "wegstromen",
-    "translation": "流走，流走",
-    "partOfSpeech": "verb",
-    "forms": ["stroomde weg", "weggestroomd", "stroomt weg"],
-    "level": "B2",
-    "example": "Het water stroomde weg via de put.",
-    "exampleTranslation": "水通过水井流走了。",
-    "tags": ["W", "verb"]
-  },
-  {
-    "id": 5691,
-    "word": "welgemeend",
-    "translation": "真诚的，善意的",
-    "partOfSpeech": "adjective",
-    "forms": [],
-    "level": "B2",
-    "example": "Ik hoop dat mijn advies welgemeend is genomen.",
-    "exampleTranslation": "我希望我的建议是被真诚地接受的。",
-    "tags": ["W", "adjective"]
-  },
-  {
-    "id": 5692,
-    "word": "welterusten",
-    "translation": "晚安",
-    "partOfSpeech": "interjection",
-    "forms": [],
-    "level": "B2",
-    "example": "Welterusten en slaap lekker!",
-    "exampleTranslation": "晚安，睡个好觉！",
-    "tags": ["W", "interjection"]
-  },
-  {
-    "id": 5693,
-    "word": "werelddeel",
-    "translation": "大洲，洲",
-    "partOfSpeech": "noun",
-    "forms": ["werelddelen"],
-    "level": "B2",
-    "example": "Afrika is een werelddeel met veel verschillende culturen.",
-    "exampleTranslation": "非洲是一个拥有多种不同文化的大洲。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5694,
-    "word": "wereldwijd",
-    "translation": "世界范围的，全球的",
-    "partOfSpeech": "adjective/adverb",
-    "forms": [],
-    "level": "B2",
-    "example": "Het virus is wereldwijd een groot probleem geworden.",
-    "exampleTranslation": "这种病毒已成为全球性的大问题。",
-    "tags": ["W", "adjective"]
-  },
-  {
-    "id": 5696,
-    "word": "wijd aan",
-    "translation": "奉献给，致力于",
-    "partOfSpeech": "phrasal verb",
-    "forms": ["wijdde aan", "wijd"],
-    "level": "B2",
-    "example": "Ze wijdde haar leven aan het helpen van anderen.",
-    "exampleTranslation": "她把自己的一生奉献给了帮助他人。",
-    "tags": ["W", "verb"]
-  },
-  {
-    "id": 5697,
-    "word": "wijsvinger",
-    "translation": "食指",
-    "partOfSpeech": "noun",
-    "forms": ["wijsvingers"],
-    "level": "B2",
-    "example": "Ze wees met haar wijsvinger naar de kaart.",
-    "exampleTranslation": "她用食指指着地图。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5698,
-    "word": "wildvreemde",
-    "translation": "完全陌生的人",
-    "partOfSpeech": "noun/adjective",
-    "forms": ["wildvreemden"],
-    "level": "B2",
-    "example": "Een wildvreemde bood me aan om me te helpen.",
-    "exampleTranslation": "一个完全陌生的人主动提出帮助我。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5699,
-    "word": "willekeurig",
-    "translation": "随机的，任意的",
-    "partOfSpeech": "adjective",
-    "forms": ["willekeuriger", "willekeurigst"],
-    "level": "B2",
-    "example": "We hebben een willekeurige steekproef genomen van de bevolking.",
-    "exampleTranslation": "我们对人口进行了随机抽样。",
-    "tags": ["W", "adjective"]
-  },
-  {
-    "id": 5700,
-    "word": "windstreek",
-    "translation": "风向，风区",
-    "partOfSpeech": "noun",
-    "forms": ["windstreken"],
-    "level": "B2",
-    "example": "De windstreek is noordwest vandaag.",
-    "exampleTranslation": "今天的风向是西北风。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5701,
-    "word": "winstgevend",
-    "translation": "有利可图的，赚钱的",
-    "partOfSpeech": "adjective",
-    "forms": ["winstgevender", "winstgevendst"],
-    "level": "B2",
-    "example": "Het bedrijf is winstgevend ondanks de economische crisis.",
-    "exampleTranslation": "尽管经济危机，这家公司仍然有利可图。",
-    "tags": ["W", "adjective"]
-  },
-  {
-    "id": 5702,
-    "word": "wonderlijk",
-    "translation": "奇妙的，奇怪的",
-    "partOfSpeech": "adjective",
-    "forms": ["wonderlijker", "wonderlijkst"],
-    "level": "B2",
-    "example": "Het is wonderlijk hoe snel de technologie verandert.",
-    "exampleTranslation": "科技变化之快真是太奇妙了。",
-    "tags": ["W", "adjective"]
-  },
-  {
-    "id": 5703,
-    "word": "woonruimte",
-    "translation": "居住空间，住房",
-    "partOfSpeech": "noun",
-    "forms": ["woonruimtes"],
-    "level": "B2",
-    "example": "Er is een tekort aan woonruimte in de grote steden.",
-    "exampleTranslation": "大城市的住房短缺。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5704,
-    "word": "woordenboek",
-    "translation": "词典，字典",
-    "partOfSpeech": "noun",
-    "forms": ["woordenboeken"],
-    "level": "B2",
-    "example": "Ik gebruik het woordenboek om nieuwe woorden op te zoeken.",
-    "exampleTranslation": "我使用词典来查找新单词。",
-    "tags": ["W", "noun"]
-  },
-  {
-    "id": 5705,
-    "word": "zachtaardig",
-    "translation": "温和的，和蔼的",
-    "partOfSpeech": "adjective",
-    "forms": ["zachtaardiger", "zachtaardigst"],
-    "level": "B2",
-    "example": "Hij is een zachtaardig mens die nooit boos wordt.",
-    "exampleTranslation": "他是一个温和的人，从不生气。",
-    "tags": ["Z", "adjective"]
-  },
-  {
-    "id": 5706,
-    "word": "zandkorrel",
-    "translation": "沙粒",
-    "partOfSpeech": "noun",
-    "forms": ["zandkorrels"],
-    "level": "B2",
-    "example": "Een enkele zandkorrel kan de hele sfeer bederven.",
-    "exampleTranslation": "一粒沙子就可能破坏整个氛围。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5707,
-    "word": "zeemeermin",
-    "translation": "美人鱼",
-    "partOfSpeech": "noun",
-    "forms": ["zeemeerminnen"],
-    "level": "B2",
-    "example": "Kinderen houden van verhalen over zeemeerminnen.",
-    "exampleTranslation": "孩子们喜欢美人鱼的故事。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5708,
-    "word": "zeespiegel",
-    "translation": "海平面",
-    "partOfSpeech": "noun",
-    "forms": [],
-    "level": "B2",
-    "example": "De zeespiegel stijgt door klimaatverandering.",
-    "exampleTranslation": "由于气候变化，海平面正在上升。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5709,
-    "word": "zeggenschap",
-    "translation": "控制权，影响力",
-    "partOfSpeech": "noun",
-    "forms": [],
-    "level": "B2",
-    "example": "De werknemers willen meer zeggenschap in het bedrijf.",
-    "exampleTranslation": "员工希望在公司里拥有更多的发言权。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5710,
-    "word": "zeker weten",
-    "translation": "肯定，确定",
-    "partOfSpeech": "phrase",
-    "forms": [],
-    "level": "B2",
-    "example": "Zeker weten, ik kom morgen naar de vergadering.",
-    "exampleTranslation": "我确定，我明天会来开会。",
-    "tags": ["Z", "phrase"]
-  },
-  {
-    "id": 5711,
-    "word": "zelfbewust",
-    "translation": "自信的，有自我意识的",
-    "partOfSpeech": "adjective",
-    "forms": ["zelfbewuster", "zelfbewustst"],
-    "level": "B2",
-    "example": "Ze is een zelfbewuste vrouw die weet wat ze wil.",
-    "exampleTranslation": "她是一个自信的女性，知道自己想要什么。",
-    "tags": ["Z", "adjective"]
-  },
-  {
-    "id": 5712,
-    "word": "zelfdoding",
-    "translation": "自杀",
-    "partOfSpeech": "noun",
-    "forms": [],
-    "level": "B2",
-    "example": "Hulp bij zelfdoding is een complex ethisch onderwerp.",
-    "exampleTranslation": "协助自杀是一个复杂的伦理话题。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5713,
-    "word": "zelfrijdend",
-    "translation": "自动驾驶的",
-    "partOfSpeech": "adjective",
-    "forms": [],
-    "level": "B2",
-    "example": "De toekomst ligt in zelfrijdende auto's.",
-    "exampleTranslation": "未来在于自动驾驶汽车。",
-    "tags": ["Z", "adjective"]
-  },
-  {
-    "id": 5714,
-    "word": "zelfzuchtig",
-    "translation": "自私的",
-    "partOfSpeech": "adjective",
-    "forms": ["zelfzuchtiger", "zelfzuchtigst"],
-    "level": "B2",
-    "example": "Het is zelfzuchtig om alleen aan jezelf te denken.",
-    "exampleTranslation": "只想着自己是自私的。",
-    "tags": ["Z", "adjective"]
-  },
-  {
-    "id": 5715,
-    "word": "zenuwachtig",
-    "translation": "紧张的",
-    "partOfSpeech": "adjective",
-    "forms": ["zenuwachtiger", "zenuwachtigst"],
-    "level": "B2",
-    "example": "Ik was erg zenuwachtig voor het sollicitatiegesprek.",
-    "exampleTranslation": "面试前我非常紧张。",
-    "tags": ["Z", "adjective"]
-  },
-  {
-    "id": 5716,
-    "word": "zich uiten",
-    "translation": "表达自己",
-    "partOfSpeech": "reflexive verb",
-    "forms": ["uitte zich uit", "uit zich uit", "uit zich uit"],
-    "level": "B2",
-    "example": "Het is belangrijk om je gevoelens te leren uiten.",
-    "exampleTranslation": "学会表达自己的感情很重要。",
-    "tags": ["Z", "verb"]
-  },
-  {
-    "id": 5717,
-    "word": "zich wijden",
-    "translation": "致力于，献身于",
-    "partOfSpeech": "reflexive verb",
-    "forms": ["wijdde zich aan", "zich gewijd", "zich gewijd"],
-    "level": "B2",
-    "example": "Hij wijdde zich aan het schrijven van romans.",
-    "exampleTranslation": "他致力于写小说。",
-    "tags": ["Z", "verb"]
-  },
-  {
-    "id": 5719,
-    "word": "ziekmelding",
-    "translation": "病假报告",
-    "partOfSpeech": "noun",
-    "forms": ["ziekmeldingen"],
-    "level": "B2",
-    "example": "De manager ontving drie ziekmeldingen vandaag.",
-    "exampleTranslation": "经理今天收到了三份病假报告。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5720,
-    "word": "ziektekiem",
-    "translation": "病菌，病原体",
-    "partOfSpeech": "noun",
-    "forms": ["ziektekiemen"],
-    "level": "B2",
-    "example": "De dokter heeft de ziektekiem in het bloed gevonden.",
-    "exampleTranslation": "医生在血液中发现了病原体。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5721,
-    "word": "zienswijze",
-    "translation": "观点，看法",
-    "partOfSpeech": "noun",
-    "forms": ["zienswijzen"],
-    "level": "B2",
-    "example": "Iedereen heeft een eigen zienswijze over dit probleem.",
-    "exampleTranslation": "每个人对这个问题都有自己的看法。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5722,
-    "word": "zintuiglijk",
-    "translation": "感官的，感知的",
-    "partOfSpeech": "adjective",
-    "forms": ["zintuiglijker", "zintuiglijkst"],
-    "level": "B2",
-    "example": "De kunstwerk is een zintuiglijke ervaring.",
-    "exampleTranslation": "这件艺术品是一种感官体验。",
-    "tags": ["Z", "adjective"]
-  },
-  {
-    "id": 5723,
-    "word": "zittingsdag",
-    "translation": "开庭日",
-    "partOfSpeech": "noun",
-    "forms": ["zittingsdagen"],
-    "level": "B2",
-    "example": "De rechtbank heeft volgende week drie zittingsdagen.",
-    "exampleTranslation": "法院下周有三个开庭日。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5724,
-    "word": "zoekmachine",
-    "translation": "搜索引擎",
-    "partOfSpeech": "noun",
-    "forms": ["zoekmachines"],
-    "level": "B2",
-    "example": "Google is de populairste zoekmachine ter wereld.",
-    "exampleTranslation": "谷歌是世界上最受欢迎的搜索引擎。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5725,
-    "word": "zomersproet",
-    "translation": "雀斑",
-    "partOfSpeech": "noun",
-    "forms": ["zomersproeten"],
-    "level": "B2",
-    "example": "Zij heeft veel zomersproeten in haar gezicht.",
-    "exampleTranslation": "她脸上有很多雀斑。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5726,
-    "word": "zonnepaneel",
-    "translation": "太阳能电池板",
-    "partOfSpeech": "noun",
-    "forms": ["zonnepanelen"],
-    "level": "B2",
-    "example": "Wij hebben zonnepanelen op ons dak laten installeren.",
-    "exampleTranslation": "我们在屋顶上安装了太阳能电池板。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5727,
-    "word": "zonsopkomst",
-    "translation": "日出",
-    "partOfSpeech": "noun",
-    "forms": [],
-    "level": "B2",
-    "example": "We stonden vroeg op om de zonsopkomst te zien.",
-    "exampleTranslation": "我们很早就起来看日出。",
-    "tags": ["Z", "noun"]
-  },
-  {
-    "id": 5728,
-    "word": "zorgen voor",
-    "translation": "照顾，照料",
-    "partOfSpeech": "phrasal verb",
-    "forms": ["zorgde voor", "zorgd", "zorgt"],
-    "level": "B2",
-    "example": "Hij zorgt goed voor zijn oude moeder.",
-    "exampleTranslation": "他很好地照顾他年迈的母亲。",
-    "tags": ["Z", "verb"]
-  },
-  {
-    "id": 5729,
-    "word": "zorgvuldig",
-    "translation": "细心的，谨慎的",
-    "partOfSpeech": "adjective",
-    "forms": ["zorgvuldiger", "zorgvuldigst"],
-    "level": "B2",
-    "example": "Het werk moet zorgvuldig worden uitgevoerd.",
-    "exampleTranslation": "这项工作必须谨慎执行。",
-    "tags": ["Z", "adjective"]
-  },
-  {
-    "id": 5730,
-    "word": "zorgwekkend",
-    "translation": "令人担忧的",
-    "partOfSpeech": "adjective",
-    "forms": [],
-    "level": "B2",
-    "example": "De stijgende criminaliteit is zorgwekkend.",
-    "exampleTranslation": "犯罪率的上升令人担忧。",
-    "tags": ["Z", "adjective"]
-  },
-  {
-    "id": 5731,
-    "word": "zwaarwegend",
-    "translation": "重要的，有分量的",
-    "partOfSpeech": "adjective",
-    "forms": [],
-    "level": "B2",
-    "example": "Er zijn zwaarwegende redenen om de beslissing te heroverwegen.",
-    "exampleTranslation": "有重要的理由需要重新考虑这个决定。",
-    "tags": ["Z", "adjective"]
-  }
-]
+{
+  "id": "lB231",
+  "level": "B2",
+  "lessonNumber": 31,
+  "totalWords": 50,
+  "words": [
+    {
+      "id": 5671,
+      "word": "waanzinnig",
+      "translation": {
+        "chinese": "疯狂的，疯狂的",
+        "english": "crazy, insane"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["waanzinniger", "waanzinnigst"],
+      "level": "B2",
+      "examples": [
+        "Het is een waanzinnig idee om naar de maan te reizen.",
+        "Dat was een waanzinnige prestatie van het team."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "去月球旅行是一个疯狂的想法。",
+          "那是团队疯狂的表现。"
+        ],
+        "english": [
+          "It's a crazy idea to travel to the moon.",
+          "That was an insane performance by the team."
+        ]
+      },
+      "notes": "形容词，表示极其疯狂或离谱",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5672,
+      "word": "waarborgen",
+      "translation": {
+        "chinese": "保证，确保，保障",
+        "english": "to guarantee, to ensure"
+      },
+      "partOfSpeech": "verb",
+      "forms": ["waarborgde", "gewaarborgd", "waarborgt"],
+      "level": "B2",
+      "conjugations": {
+        "present": ["waarborg", "waarborgt", "waarborgt", "waarborgen", "waarborgen", "waarborgen"],
+        "past": ["waarborgde", "waarborgde", "waarborgde", "waarborgden", "waarborgden", "waarborgden"],
+        "perfect": ["heb gewaarborgd", "hebt gewaarborgd", "heeft gewaarborgd", "hebben gewaarborgd", "hebben gewaarborgd", "hebben gewaarborgd"],
+        "future": ["zal waarborgen", "zult waarborgen", "zult waarborgen", "zullen waarborgen", "zullen waarborgen", "zullen waarborgen"],
+        "conditional": ["zou waarborgen", "zou waarborgen", "zou waarborgen", "zouden waarborgen", "zouden waarborgen", "zouden waarborgen"],
+        "imperative": ["waarborg", "waarborgt", "waarborgen"]
+      },
+      "examples": [
+        "De wet waarborgt gelijke rechten voor alle burgers.",
+        "Het contract waarborgt onze veiligheid en kwaliteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "法律保障所有公民的平等权利。",
+          "合同保证了我们的安全和质量。"
+        ],
+        "english": [
+          "The law guarantees equal rights for all citizens.",
+          "The contract guarantees our safety and quality."
+        ]
+      },
+      "notes": "及物动词，常用于法律、合同等正式场合",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5673,
+      "word": "wachtwoord",
+      "translation": {
+        "chinese": "密码",
+        "english": "password"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["wachtwoorden"],
+      "level": "B2",
+      "examples": [
+        "Vergeet je wachtwoord niet als je inlogt.",
+        "Je moet een sterk wachtwoord kiezen voor je account."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "登录时不要忘记你的密码。",
+          "你需要为你的账户选择一个强密码。"
+        ],
+        "english": [
+          "Don't forget your password when logging in.",
+          "You need to choose a strong password for your account."
+        ]
+      },
+      "notes": "中性名词，复数形式为 wachtwoorden",
+      "difficulty": "A2"
+    },
+    {
+      "id": 5674,
+      "word": "wandelwagen",
+      "translation": {
+        "chinese": "婴儿车，手推车",
+        "english": "stroller, baby carriage"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["wandelwagens"],
+      "level": "B2",
+      "examples": [
+        "Ze duwde de wandelwagen door het park.",
+        "De baby sliep rustig in de wandelwagen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她推着婴儿车穿过公园。",
+          "婴儿在婴儿车里安静地睡着了。"
+        ],
+        "english": [
+          "She pushed the stroller through the park.",
+          "The baby slept peacefully in the stroller."
+        ]
+      },
+      "notes": "阳性名词，用于推婴儿的手推车",
+      "difficulty": "A2"
+    },
+    {
+      "id": 5675,
+      "word": "wantrouwig",
+      "translation": {
+        "chinese": "怀疑的，不信任的",
+        "english": "suspicious, distrustful"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["wantrouwiger", "wantrouwigst"],
+      "level": "B2",
+      "examples": [
+        "Hij keek me wantrouwig aan toen ik hem vroeg om geld.",
+        "Ze reageerde wantrouwig op zijn aanbod."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "当我向他要钱时，他怀疑地看着我。",
+          "她对他的提议反应怀疑。"
+        ],
+        "english": [
+          "He looked at me suspiciously when I asked him for money.",
+          "She reacted suspiciously to his offer."
+        ]
+      },
+      "notes": "形容词，表示不信任或怀疑的态度",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5676,
+      "word": "wasmachine",
+      "translation": {
+        "chinese": "洗衣机",
+        "english": "washing machine"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["wasmachines"],
+      "level": "B2",
+      "examples": [
+        "De wasmachine is stuk en moet gerepareerd worden.",
+        "Ik heb mijn kleren in de wasmachine gestopt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "洗衣机坏了，需要修理。",
+          "我把衣服放进洗衣机里了。"
+        ],
+        "english": [
+          "The washing machine is broken and needs to be repaired.",
+          "I put my clothes in the washing machine."
+        ]
+      },
+      "notes": "阴性名词，家用电器",
+      "difficulty": "A2"
+    },
+    {
+      "id": 5677,
+      "word": "waterdicht",
+      "translation": {
+        "chinese": "防水的",
+        "english": "waterproof"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["waterdichter", "waterdichtst"],
+      "level": "B2",
+      "examples": [
+        "Ik heb een waterdichte jas gekocht voor de regen.",
+        "Deze telefoon is waterdicht tot 30 meter diepte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我买了一件防水的夹克来应对雨天。",
+          "这部手机防水深度可达30米。"
+        ],
+        "english": [
+          "I bought a waterproof jacket for the rain.",
+          "This phone is waterproof up to 30 meters deep."
+        ]
+      },
+      "notes": "形容词，表示能防水",
+      "difficulty": "B1"
+    },
+    {
+      "id": 5678,
+      "word": "waterfiets",
+      "translation": {
+        "chinese": "水上自行车",
+        "english": "water bike, pedal boat"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["waterfietsen"],
+      "level": "B2",
+      "examples": [
+        "We gingen waterfietsen op het meer.",
+        "De kinderen vonden waterfietsen erg leuk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们在湖上骑水上自行车。",
+          "孩子们觉得水上自行车很有趣。"
+        ],
+        "english": [
+          "We went water biking on the lake.",
+          "The children found water biking very fun."
+        ]
+      },
+      "notes": "阳性名词，水上娱乐工具",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5679,
+      "word": "waterkering",
+      "translation": {
+        "chinese": "防洪堤，水坝",
+        "english": "dam, flood barrier"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["waterkeringen"],
+      "level": "B2",
+      "examples": [
+        "De waterkering beschermt het land tegen overstromingen.",
+        "Er wordt een nieuwe waterkering gebouwd langs de kust."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "防洪堤保护土地免受洪水侵袭。",
+          "正在沿海建造新的防洪堤。"
+        ],
+        "english": [
+          "The flood barrier protects the land from flooding.",
+          "A new flood barrier is being built along the coast."
+        ]
+      },
+      "notes": "阴性名词，荷兰重要基础设施",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5680,
+      "word": "waterpokken",
+      "translation": {
+        "chinese": "水痘",
+        "english": "chickenpox"
+      },
+      "partOfSpeech": "noun",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "Mijn zoon had waterpokken toen hij zes jaar oud was.",
+        "De meeste kinderen krijgen waterpokken op jonge leeftijd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我儿子六岁时得了水痘。",
+          "大多数孩子在很小的时候就会得水痘。"
+        ],
+        "english": [
+          "My son had chickenpox when he was six years old.",
+          "Most children get chickenpox at a young age."
+        ]
+      },
+      "notes": "复数名词（仅用于复数形式），常见儿童疾病",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5681,
+      "word": "waterstand",
+      "translation": {
+        "chinese": "水位",
+        "english": "water level"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["waterstanden"],
+      "level": "B2",
+      "examples": [
+        "De waterstand van de rivier is gestegen door de regen.",
+        "We moeten de waterstand in het meer in de gaten houden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "由于下雨，河水水位上涨了。",
+          "我们需要监测湖水位。"
+        ],
+        "english": [
+          "The water level of the river rose due to the rain.",
+          "We need to monitor the water level in the lake."
+        ]
+      },
+      "notes": "阳性名词，表示水位的高低",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5682,
+      "word": "weddenschap",
+      "translation": {
+        "chinese": "打赌，赌注",
+        "english": "bet, wager"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["wederschappen"],
+      "level": "B2",
+      "examples": [
+        "We hebben een weddenschap gemaakt over wie het spel zou winnen.",
+        "Hij verloor de weddenschap en moest het diner betalen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们就谁会赢得这场比赛打了个赌。",
+          "他输了赌注，必须付晚餐钱。"
+        ],
+        "english": [
+          "We made a bet about who would win the game.",
+          "He lost the bet and had to pay for dinner."
+        ]
+      },
+      "notes": "阴性名词，表示打赌或赌注",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5683,
+      "word": "wederkerig",
+      "translation": {
+        "chinese": "相互的，互惠的",
+        "english": "mutual, reciprocal"
+      },
+      "partOfSpeech": "adjective",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "Het wederkerig vertrouwen is belangrijk voor een goede relatie.",
+        "Er is wederkerig respect tussen de twee teams."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "相互信任对良好的关系很重要。",
+          "两个团队之间有相互尊重。"
+        ],
+        "english": [
+          "Mutual trust is important for a good relationship.",
+          "There is mutual respect between the two teams."
+        ]
+      },
+      "notes": "形容词，表示相互的或互惠的关系",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5684,
+      "word": "wederzijds",
+      "translation": {
+        "chinese": "相互的，双方的",
+        "english": "mutual, mutual to each other"
+      },
+      "partOfSpeech": "adjective",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "Er is wederzijds respect tussen de twee landen.",
+        "Ze hebben een wederzijds overeenkomst getekend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这两个国家之间有相互尊重。",
+          "他们签署了双方协议。"
+        ],
+        "english": [
+          "There is mutual respect between the two countries.",
+          "They signed a mutual agreement."
+        ]
+      },
+      "notes": "副词性形容词，强调双方的相互性",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5685,
+      "word": "wedijveren",
+      "translation": {
+        "chinese": "竞争，争夺",
+        "english": "to compete, to vie"
+      },
+      "partOfSpeech": "verb",
+      "forms": ["wedijverde", "gewedijverd", "wedijvert"],
+      "level": "B2",
+      "conjugations": {
+        "present": ["wedijver", "wedijvert", "wedijvert", "wedijveren", "wedijveren", "wedijveren"],
+        "past": ["wedijverde", "wedijverde", "wedijverde", "wedijverden", "wedijverden", "wedijverden"],
+        "perfect": ["heb gewedijverd", "hebt gewedijverd", "heeft gewedijverd", "hebben gewedijverd", "hebben gewedijverd", "hebben gewedijverd"],
+        "future": ["zal wedijveren", "zult wedijveren", "zult wedijveren", "zullen wedijveren", "zullen wedijveren", "zullen wedijveren"],
+        "conditional": ["zou wedijveren", "zou wedijveren", "zou wedijveren", "zouden wedijveren", "zouden wedijveren", "zouden wedijveren"],
+        "imperative": ["wedijver", "wedijvert", "wedijveren"]
+      },
+      "examples": [
+        "De bedrijven wedijveren om de beste werknemers.",
+        "Atleten wedijveren om de gouden medaille."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这些公司争夺最好的员工。",
+          "运动员们争夺金牌。"
+        ],
+        "english": [
+          "The companies compete for the best employees.",
+          "Athletes vie for the gold medal."
+        ]
+      },
+      "notes": "不及物动词，通常与 om 或 voor 连用",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5686,
+      "word": "weerbarstig",
+      "translation": {
+        "chinese": "顽固的，棘手的",
+        "english": "stubborn, recalcitrant"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["weerbarstiger", "weerbarstigst"],
+      "level": "B2",
+      "examples": [
+        "Het was een weerbarstig probleem om op te lossen.",
+        "De weerbarstige weigering van de regering zorgde voor protest."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个棘手的问题，很难解决。",
+          "政府顽固的拒绝导致了抗议。"
+        ],
+        "english": [
+          "It was a stubborn problem to solve.",
+          "The government's stubborn refusal caused protests."
+        ]
+      },
+      "notes": "形容词，表示难以处理或改变的事物",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5687,
+      "word": "weerbericht",
+      "translation": {
+        "chinese": "天气预报",
+        "english": "weather report, weather forecast"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["weerberichten"],
+      "level": "B2",
+      "examples": [
+        "Ik check het weerbericht voordat ik naar buiten ga.",
+        "Het weerbericht zegt dat het morgen gaat regenen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "出门前我会查看天气预报。",
+          "天气预报说明天会下雨。"
+        ],
+        "english": [
+          "I check the weather report before going outside.",
+          "The weather report says it will rain tomorrow."
+        ]
+      },
+      "notes": "中性名词，天气预报信息",
+      "difficulty": "B1"
+    },
+    {
+      "id": 5688,
+      "word": "weerhouden",
+      "translation": {
+        "chinese": "阻止，阻碍",
+        "english": "to prevent, to stop"
+      },
+      "partOfSpeech": "verb",
+      "forms": ["weerhield", "weerhouden", "weerhoudt"],
+      "level": "B2",
+      "conjugations": {
+        "present": ["weerhoud", "weerhoudt", "weerhoudt", "weerhouden", "weerhouden", "weerhouden"],
+        "past": ["weerhield", "weerhield", "weerhield", "weerhielden", "weerhielden", "weerhielden"],
+        "perfect": ["heb weerhouden", "hebt weerhouden", "heeft weerhouden", "hebben weerhouden", "hebben weerhouden", "hebben weerhouden"],
+        "future": ["zal weerhouden", "zult weerhouden", "zult weerhouden", "zullen weerhouden", "zullen weerhouden", "zullen weerhouden"],
+        "conditional": ["zou weerhouden", "zou weerhouden", "zou weerhouden", "zouden weerhouden", "zouden weerhouden", "zouden weerhouden"],
+        "imperative": ["weerhoud", "weerhoudt", "weerhouden"]
+      },
+      "examples": [
+        "Niets kon hem weerhouden om zijn droom na te jagen.",
+        "De regen weerhoudt ons niet van het feest."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "没有什么能阻止他追逐自己的梦想。",
+          "雨水不能阻止我们的聚会。"
+        ],
+        "english": [
+          "Nothing could prevent him from pursuing his dream.",
+          "The rain doesn't stop us from the party."
+        ]
+      },
+      "notes": "及物动词，常与 van 连用",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5689,
+      "word": "weerleggen",
+      "translation": {
+        "chinese": "反驳，驳倒",
+        "english": "to refute, to rebut"
+      },
+      "partOfSpeech": "verb",
+      "forms": ["weerlegde", "weerlegd", "weerlegt"],
+      "level": "B2",
+      "conjugations": {
+        "present": ["weerleg", "weerlegt", "weerlegt", "weerleggen", "weerleggen", "weerleggen"],
+        "past": ["weerlegde", "weerlegde", "weerlegde", "weerlegden", "weerlegden", "weerlegden"],
+        "perfect": ["heb weerlegd", "hebt weerlegd", "heeft weerlegd", "hebben weerlegd", "hebben weerlegd", "hebben weerlegd"],
+        "future": ["zal weerleggen", "zult weerleggen", "zult weerleggen", "zullen weerleggen", "zullen weerleggen", "zullen weerleggen"],
+        "conditional": ["zou weerleggen", "zou weerleggen", "zou weerleggen", "zouden weerleggen", "zouden weerleggen", "zouden weerleggen"],
+        "imperative": ["weerleg", "weerlegt", "weerleggen"]
+      },
+      "examples": [
+        "De advocaat weerlegde alle aanklachten van de aanklager.",
+        "Ze wist de argumenten van haar tegenstander te weerleggen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "律师驳回了检察官的所有指控。",
+          "她成功反驳了对手的论点。"
+        ],
+        "english": [
+          "The lawyer refuted all the prosecutor's charges.",
+          "She managed to refute her opponent's arguments."
+        ]
+      },
+      "notes": "及物动词，用于正式辩论或法律场合",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5690,
+      "word": "wegstromen",
+      "translation": {
+        "chinese": "流走，流走",
+        "english": "to flow away, to drain"
+      },
+      "partOfSpeech": "verb",
+      "forms": ["stroomde weg", "weggestroomd", "stroomt weg"],
+      "level": "B2",
+      "conjugations": {
+        "present": ["stroom weg", "stroomt weg", "stroomt weg", "stromen weg", "stromen weg", "stromen weg"],
+        "past": ["stroomde weg", "stroomde weg", "stroomde weg", "stroomden weg", "stroomden weg", "stroomden weg"],
+        "perfect": ["ben weggestroomd", "bent weggestroomd", "is weggestroomd", "zijn weggestroomd", "zijn weggestroomd", "zijn weggestroomd"],
+        "future": ["zal wegstromen", "zult wegstromen", "zult wegstromen", "zullen wegstromen", "zullen wegstromen", "zullen wegstromen"],
+        "conditional": ["zou wegstromen", "zou wegstromen", "zou wegstromen", "zouden wegstromen", "zouden wegstromen", "zouden wegstromen"],
+        "imperative": ["stroom weg", "stroomt weg", "stromen weg"]
+      },
+      "examples": [
+        "Het water stroomde weg via de put.",
+        "De tijd stroomde snel weg tijdens ons gesprek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "水通过水井流走了。",
+          "在我们的交谈中，时间飞快流逝。"
+        ],
+        "english": [
+          "The water flowed away through the well.",
+          "Time flowed quickly during our conversation."
+        ]
+      },
+      "notes": "不及物动词，表示液体或时间的流逝",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5691,
+      "word": "welgemeend",
+      "translation": {
+        "chinese": "真诚的，善意的",
+        "english": "sincere, well-meant"
+      },
+      "partOfSpeech": "adjective",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "Ik hoop dat mijn advies welgemeend is genomen.",
+        "Het was een welgemeend compliment van haar kant."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我希望我的建议是被真诚地接受的。",
+          "那是她发自内心的赞美。"
+        ],
+        "english": [
+          "I hope my advice was taken sincerely.",
+          "It was a sincere compliment from her side."
+        ]
+      },
+      "notes": "分词形容词，表示真诚的或善意的",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5692,
+      "word": "welterusten",
+      "translation": {
+        "chinese": "晚安",
+        "english": "good night"
+      },
+      "partOfSpeech": "interjection",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "Welterusten en slaap lekker!",
+        "Welterusten, ik zie je morgen weer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "晚安，睡个好觉！",
+          "晚安，明天见。"
+        ],
+        "english": [
+          "Good night and sleep well!",
+          "Good night, see you tomorrow."
+        ]
+      },
+      "notes": "晚间接头用语，正式且亲切",
+      "difficulty": "A1"
+    },
+    {
+      "id": 5693,
+      "word": "werelddeel",
+      "translation": {
+        "chinese": "大洲，洲",
+        "english": "continent"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["werelddelen"],
+      "level": "B2",
+      "examples": [
+        "Afrika is een werelddeel met veel verschillende culturen.",
+        "Europa is een klein werelddeel maar rijk aan geschiedenis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "非洲是一个拥有多种不同文化的大洲。",
+          "欧洲是一个小洲，但历史丰富。"
+        ],
+        "english": [
+          "Africa is a continent with many different cultures.",
+          "Europe is a small continent but rich in history."
+        ]
+      },
+      "notes": "中性名词，地理学术语",
+      "difficulty": "B1"
+    },
+    {
+      "id": 5694,
+      "word": "wereldwijd",
+      "translation": {
+        "chinese": "世界范围的，全球的",
+        "english": "worldwide, global"
+      },
+      "partOfSpeech": "adjective/adverb",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "Het virus is wereldwijd een groot probleem geworden.",
+        "Het bedrijf opereert wereldwijd in meer dan 50 landen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这种病毒已成为全球性的大问题。",
+          "该公司在50多个国家全球运营。"
+        ],
+        "english": [
+          "The virus has become a worldwide problem.",
+          "The company operates worldwide in more than 50 countries."
+        ]
+      },
+      "notes": "形容词/副词，表示全球范围",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5696,
+      "word": "wijd aan",
+      "translation": {
+        "chinese": "奉献给，致力于",
+        "english": "to dedicate to, to devote to"
+      },
+      "partOfSpeech": "phrasal verb",
+      "forms": ["wijdde aan", "wijd"],
+      "level": "B2",
+      "conjugations": {
+        "present": ["wijd aan", "wijd aan", "wijd aan", "wijd aan", "wijd aan", "wijd aan"],
+        "past": ["wijdde aan", "wijdde aan", "wijdde aan", "wijdde aan", "wijdde aan", "wijdde aan"],
+        "perfect": ["heb gewijd", "hebt gewijd", "heeft gewijd", "hebben gewijd", "hebben gewijd", "hebben gewijd"],
+        "future": ["zal wijden aan", "zult wijden aan", "zult wijden aan", "zullen wijden aan", "zullen wijden aan", "zullen wijden aan"],
+        "conditional": ["zou wijden aan", "zou wijden aan", "zou wijden aan", "zouden wijden aan", "zouden wijden aan", "zouden wijden aan"],
+        "imperative": ["wijd aan", "wijd aan", "wijd aan"]
+      },
+      "examples": [
+        "Ze wijdde haar leven aan het helpen van anderen.",
+        "Hij wijdde zijn carrière aan de wetenschap."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她把自己的一生奉献给了帮助他人。",
+          "他致力于科学事业。"
+        ],
+        "english": [
+          "She dedicated her life to helping others.",
+          "He devoted his career to science."
+        ]
+      },
+      "notes": "动词短语，表示将时间或精力奉献给某事",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5697,
+      "word": "wijsvinger",
+      "translation": {
+        "chinese": "食指",
+        "english": "index finger"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["wijsvingers"],
+      "level": "B2",
+      "examples": [
+        "Ze wees met haar wijsvinger naar de kaart.",
+        "Hij raakte zijn wijsvinger aan bij het snijden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她用食指指着地图。",
+          "他在切东西时伤到了食指。"
+        ],
+        "english": [
+          "She pointed at the map with her index finger.",
+          "He cut his index finger while cutting."
+        ]
+      },
+      "notes": "阳性名词，身体部位名称",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5698,
+      "word": "wildvreemde",
+      "translation": {
+        "chinese": "完全陌生的人",
+        "english": "complete stranger"
+      },
+      "partOfSpeech": "noun/adjective",
+      "forms": ["wildvreemden"],
+      "level": "B2",
+      "examples": [
+        "Een wildvreemde bood me aan om me te helpen.",
+        "Ik voel me ongemakkelijk met wildvreemde mensen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一个完全陌生的人主动提出帮助我。",
+          "我和完全陌生的人在一起感到不舒服。"
+        ],
+        "english": [
+          "A complete stranger offered to help me.",
+          "I feel uncomfortable with complete strangers."
+        ]
+      },
+      "notes": "形容词可用作名词，表示完全陌生的人",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5699,
+      "word": "willekeurig",
+      "translation": {
+        "chinese": "随机的，任意的",
+        "english": "random, arbitrary"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["willekeuriger", "willekeurigst"],
+      "level": "B2",
+      "examples": [
+        "We hebben een willekeurige steekproef genomen van de bevolking.",
+        "Het was een willekeurige beslissing zonder enige reden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们对人口进行了随机抽样。",
+          "这是一个没有任何理由的任意决定。"
+        ],
+        "english": [
+          "We took a random sample of the population.",
+          "It was an arbitrary decision without any reason."
+        ]
+      },
+      "notes": "形容词，表示随机或任意的选择",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5700,
+      "word": "windstreek",
+      "translation": {
+        "chinese": "风向，风区",
+        "english": "wind direction, wind region"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["windstreken"],
+      "level": "B2",
+      "examples": [
+        "De windstreek is noordwest vandaag.",
+        "De windstreek verandert van oost naar west."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "今天的风向是西北风。",
+          "风向从东风转为西风。"
+        ],
+        "english": [
+          "The wind direction is northwest today.",
+          "The wind direction changes from east to west."
+        ]
+      },
+      "notes": "阳性名词，气象术语",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5701,
+      "word": "winstgevend",
+      "translation": {
+        "chinese": "有利可图的，赚钱的",
+        "english": "profitable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["winstgevender", "winstgevendst"],
+      "level": "B2",
+      "examples": [
+        "Het bedrijf is winstgevend ondanks de economische crisis.",
+        "Investeren in vastgoed kan zeer winstgevend zijn."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "尽管经济危机，这家公司仍然有利可图。",
+          "投资房地产可能非常有利可图。"
+        ],
+        "english": [
+          "The company is profitable despite the economic crisis.",
+          "Investing in real estate can be very profitable."
+        ]
+      },
+      "notes": "形容词，商业用语",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5702,
+      "word": "wonderlijk",
+      "translation": {
+        "chinese": "奇妙的，奇怪的",
+        "english": "wonderful, strange"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["wonderlijker", "wonderlijkst"],
+      "level": "B2",
+      "examples": [
+        "Het is wonderlijk hoe snel de technologie verandert.",
+        "Ze had een wonderlijk lach op haar gezicht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "科技变化之快真是太奇妙了。",
+          "她脸上带着奇妙的笑容。"
+        ],
+        "english": [
+          "It's wonderful how quickly technology changes.",
+          "She had a wonderful smile on her face."
+        ]
+      },
+      "notes": "形容词，表示奇妙或奇怪的事物",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5703,
+      "word": "woonruimte",
+      "translation": {
+        "chinese": "居住空间，住房",
+        "english": "living space, housing"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["woonruimtes"],
+      "level": "B2",
+      "examples": [
+        "Er is een tekort aan woonruimte in de grote steden.",
+        "Het appartement heeft veel woonruimte voor een gezin."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "大城市的住房短缺。",
+          "这套公寓为一个家庭提供了很大的居住空间。"
+        ],
+        "english": [
+          "There is a shortage of housing in big cities.",
+          "The apartment has a lot of living space for a family."
+        ]
+      },
+      "notes": "阴性名词，房地产用语",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5704,
+      "word": "woordenboek",
+      "translation": {
+        "chinese": "词典，字典",
+        "english": "dictionary"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["woordenboeken"],
+      "level": "B2",
+      "examples": [
+        "Ik gebruik het woordenboek om nieuwe woorden op te zoeken.",
+        "Het woordenboek is een nuttig hulpmiddel voor taalstudenten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我使用词典来查找新单词。",
+          "词典是语言学习者的有用工具。"
+        ],
+        "english": [
+          "I use the dictionary to look up new words.",
+          "The dictionary is a useful tool for language students."
+        ]
+      },
+      "notes": "中性名词，语言学习工具",
+      "difficulty": "A2"
+    },
+    {
+      "id": 5705,
+      "word": "zachtaardig",
+      "translation": {
+        "chinese": "温和的，和蔼的",
+        "english": "gentle, mild"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["zachtaardiger", "zachtaardigst"],
+      "level": "B2",
+      "examples": [
+        "Hij is een zachtaardig mens die nooit boos wordt.",
+        "De zachtaardige wind voelde prettig op mijn gezicht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是一个温和的人，从不生气。",
+          "温和的风吹在脸上感觉很舒服。"
+        ],
+        "english": [
+          "He is a gentle person who never gets angry.",
+          "The gentle wind felt pleasant on my face."
+        ]
+      },
+      "notes": "形容词，表示温柔或温和的性质",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5706,
+      "word": "zandkorrel",
+      "translation": {
+        "chinese": "沙粒",
+        "english": "grain of sand"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["zandkorrels"],
+      "level": "B2",
+      "examples": [
+        "Een enkele zandkorrel kan de hele sfeer bederven.",
+        "Het strand bestaat uit miljoenen zandkorrels."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一粒沙子就可能破坏整个氛围。",
+          "海滩由数百万粒沙子组成。"
+        ],
+        "english": [
+          "A single grain of sand can ruin the whole atmosphere.",
+          "The beach consists of millions of grains of sand."
+        ]
+      },
+      "notes": "阳性名词，最小沙的计量单位",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5707,
+      "word": "zeemeermin",
+      "translation": {
+        "chinese": "美人鱼",
+        "english": "mermaid"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["zeemeerminnen"],
+      "level": "B2",
+      "examples": [
+        "Kinderen houden van verhalen over zeemeerminnen.",
+        "De film vertelt het verhaal van een zeemeermin."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "孩子们喜欢美人鱼的故事。",
+          "这部电影讲述了一个美人鱼的故事。"
+        ],
+        "english": [
+          "Children love stories about mermaids.",
+          "The movie tells the story of a mermaid."
+        ]
+      },
+      "notes": "阴性名词，神话生物",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5708,
+      "word": "zeespiegel",
+      "translation": {
+        "chinese": "海平面",
+        "english": "sea level"
+      },
+      "partOfSpeech": "noun",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "De zeespiegel stijgt door klimaatverandering.",
+        "De stad ligt twee meter boven de zeespiegel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "由于气候变化，海平面正在上升。",
+          "这座城市位于海平面以上两米处。"
+        ],
+        "english": [
+          "Sea level is rising due to climate change.",
+          "The city lies two meters above sea level."
+        ]
+      },
+      "notes": "阳性名词，地理学术语",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5709,
+      "word": "zeggenschap",
+      "translation": {
+        "chinese": "控制权，影响力",
+        "english": "control, influence, say"
+      },
+      "partOfSpeech": "noun",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "De werknemers willen meer zeggenschap in het bedrijf.",
+        "Ze heeft veel zeggenschap in de besluitvorming."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "员工希望在公司里拥有更多的发言权。",
+          "她在决策中有很多发言权。"
+        ],
+        "english": [
+          "Employees want more say in the company.",
+          "She has a lot of say in the decision-making."
+        ]
+      },
+      "notes": "阴性名词，表示影响力或控制权",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5710,
+      "word": "zeker weten",
+      "translation": {
+        "chinese": "肯定，确定",
+        "english": "certainly, for sure"
+      },
+      "partOfSpeech": "phrase",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "Zeker weten, ik kom morgen naar de vergadering.",
+        "Dat weet ik zeker weten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我确定，我明天会来开会。",
+          "这一点我可以肯定。"
+        ],
+        "english": [
+          "Certainly, I will come to the meeting tomorrow.",
+          "I know that for sure."
+        ]
+      },
+      "notes": "短语，用于表示肯定或确认",
+      "difficulty": "A2"
+    },
+    {
+      "id": 5711,
+      "word": "zelfbewust",
+      "translation": {
+        "chinese": "自信的，有自我意识的",
+        "english": "self-conscious, confident"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["zelfbewuster", "zelfbewustst"],
+      "level": "B2",
+      "examples": [
+        "Ze is een zelfbewuste vrouw die weet wat ze wil.",
+        "Hij sprak zelfbewust voor de grote groep."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她是一个自信的女性，知道自己想要什么。",
+          "他在大群体面前自信地发言。"
+        ],
+        "english": [
+          "She is a self-confident woman who knows what she wants.",
+          "He spoke confidently in front of the large group."
+        ]
+      },
+      "notes": "形容词，表示自信或有自我意识",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5712,
+      "word": "zelfdoding",
+      "translation": {
+        "chinese": "自杀",
+        "english": "suicide"
+      },
+      "partOfSpeech": "noun",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "Hulp bij zelfdoding is een complex ethisch onderwerp.",
+        "De wetgeving over zelfdoding verschilt per land."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "协助自杀是一个复杂的伦理话题。",
+          "关于自杀的立法各国不同。"
+        ],
+        "english": [
+          "Assisted suicide is a complex ethical topic.",
+          "Legislation on suicide differs by country."
+        ]
+      },
+      "notes": "阴性名词，严肃话题，谨慎使用",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5713,
+      "word": "zelfrijdend",
+      "translation": {
+        "chinese": "自动驾驶的",
+        "english": "self-driving, autonomous"
+      },
+      "partOfSpeech": "adjective",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "De toekomst ligt in zelfrijdende auto's.",
+        "Zelfrijdende voertuigen worden steeds populairder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "未来在于自动驾驶汽车。",
+          "自动驾驶车辆越来越受欢迎。"
+        ],
+        "english": [
+          "The future lies in self-driving cars.",
+          "Self-driving vehicles are becoming increasingly popular."
+        ]
+      },
+      "notes": "分词形容词，科技用语",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5714,
+      "word": "zelfzuchtig",
+      "translation": {
+        "chinese": "自私的",
+        "english": "selfish"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["zelfzuchtiger", "zelfzuchtigst"],
+      "level": "B2",
+      "examples": [
+        "Het is zelfzuchtig om alleen aan jezelf te denken.",
+        "Zelfzuchtige mensen hebben vaak minder vrienden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "只想着自己是自私的。",
+          "自私的人通常朋友较少。"
+        ],
+        "english": [
+          "It's selfish to only think about yourself.",
+          "Selfish people often have fewer friends."
+        ]
+      },
+      "notes": "形容词，表示自私的行为",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5715,
+      "word": "zenuwachtig",
+      "translation": {
+        "chinese": "紧张的",
+        "english": "nervous"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["zenuwachtiger", "zenuwachtigst"],
+      "level": "B2",
+      "examples": [
+        "Ik was erg zenuwachtig voor het sollicitatiegesprek.",
+        "Ze wordt zenuwachtig voor grote bijeenkomsten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "面试前我非常紧张。",
+          "她在大型聚会前会紧张。"
+        ],
+        "english": [
+          "I was very nervous before the job interview.",
+          "She gets nervous before big gatherings."
+        ]
+      },
+      "notes": "形容词，表示紧张或不安的状态",
+      "difficulty": "B1"
+    },
+    {
+      "id": 5716,
+      "word": "zich uiten",
+      "translation": {
+        "chinese": "表达自己",
+        "english": "to express oneself"
+      },
+      "partOfSpeech": "reflexive verb",
+      "forms": ["uitte zich uit", "uit zich uit", "uit zich uit"],
+      "level": "B2",
+      "conjugations": {
+        "present": ["uit me uit", "uit je uit", "uit zich uit", "uiten ons uit", "uiten jullie uit", "uiten zich uit"],
+        "past": ["uitte me uit", "uitte je uit", "uitte zich uit", "uitten ons uit", "uitten jullie uit", "uitten zich uit"],
+        "perfect": ["heb me uitgedrukt", "hebt je uitgedrukt", "heeft zich uitgedrukt", "hebben ons uitgedrukt", "hebben jullie uitgedrukt", "hebben zich uitgedrukt"],
+        "future": ["zal me uitdrukken", "zult je uitdrukken", "zult zich uitdrukken", "zullen ons uitdrukken", "zullen jullie uitdrukken", "zullen zich uitdrukken"],
+        "conditional": ["zou me uitdrukken", "zou je uitdrukken", "zou zich uitdrukken", "zouden ons uitdrukken", "zouden jullie uitdrukken", "zouden zich uitdrukken"],
+        "imperative": ["uit je uit", "uit zich uit", "uiten zich uit"]
+      },
+      "examples": [
+        "Het is belangrijk om je gevoelens te leren uiten.",
+        "Hij kan zich goed uiten in woorden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "学会表达自己的感情很重要。",
+          "他能用言语很好地表达自己。"
+        ],
+        "english": [
+          "It's important to learn to express your feelings.",
+          "He can express himself well in words."
+        ]
+      },
+      "notes": "反身动词，表示表达自己的想法或感情",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5717,
+      "word": "zich wijden",
+      "translation": {
+        "chinese": "致力于，献身于",
+        "english": "to dedicate oneself, to devote oneself"
+      },
+      "partOfSpeech": "reflexive verb",
+      "forms": ["wijdde zich aan", "zich gewijd", "zich gewijd"],
+      "level": "B2",
+      "conjugations": {
+        "present": ["wijd me", "wijd je", "wijd zich", "widden ons", "widden jullie", "widden zich"],
+        "past": ["wijdde me", "wijdde je", "wijdde zich", "wijdde ons", "wijdde jullie", "wijdde zich"],
+        "perfect": ["heb me gewijd", "hebt je gewijd", "heeft zich gewijd", "hebben ons gewijd", "hebben jullie gewijd", "hebben zich gewijd"],
+        "future": ["zal me wijden", "zult je wijden", "zult zich wijden", "zullen ons wijden", "zullen jullie wijden", "zullen zich wijden"],
+        "conditional": ["zou me wijden", "zou je wijden", "zou zich wijden", "zouden ons wijden", "zouden jullie wijden", "zouden zich wijden"],
+        "imperative": ["wijd je", "wijd zich", "widden zich"]
+      },
+      "examples": [
+        "Hij wijdde zich aan het schrijven van romans.",
+        "Ze wil zich wijden aan het lesgeven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他致力于写小说。",
+          "她想致力于教学。"
+        ],
+        "english": [
+          "He devoted himself to writing novels.",
+          "She wants to dedicate herself to teaching."
+        ]
+      },
+      "notes": "反身动词，通常与 aan 连用",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5719,
+      "word": "ziekmelding",
+      "translation": {
+        "chinese": "病假报告",
+        "english": "sick leave report, sick note"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["ziekmeldingen"],
+      "level": "B2",
+      "examples": [
+        "De manager ontving drie ziekmeldingen vandaag.",
+        "Ik moet een ziekmelding indienen voor mijn doktersafspraak."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "经理今天收到了三份病假报告。",
+          "我需要为医生的预约提交病假报告。"
+        ],
+        "english": [
+          "The manager received three sick leave reports today.",
+          "I need to submit a sick note for my doctor's appointment."
+        ]
+      },
+      "notes": "阴性名词，职场用语",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5720,
+      "word": "ziektekiem",
+      "translation": {
+        "chinese": "病菌，病原体",
+        "english": "germ, pathogen"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["ziektekiemen"],
+      "level": "B2",
+      "examples": [
+        "De dokter heeft de ziektekiem in het bloed gevonden.",
+        "Handen wassen helpt tegen de verspreiding van ziektekiemen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "医生在血液中发现了病原体。",
+          "洗手有助于防止病菌传播。"
+        ],
+        "english": [
+          "The doctor found the germ in the blood.",
+          "Washing hands helps prevent the spread of germs."
+        ]
+      },
+      "notes": "阳性名词，医学术语",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5721,
+      "word": "zienswijze",
+      "translation": {
+        "chinese": "观点，看法",
+        "english": "viewpoint, perspective"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["zienswijzen"],
+      "level": "B2",
+      "examples": [
+        "Iedereen heeft een eigen zienswijze over dit probleem.",
+        "Ik waardeer jouw zienswijze over dit onderwerp."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "每个人对这个问题都有自己的看法。",
+          "我欣赏你对这个问题的看法。"
+        ],
+        "english": [
+          "Everyone has their own viewpoint on this problem.",
+          "I appreciate your perspective on this subject."
+        ]
+      },
+      "notes": "阴性名词，正式用语",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5722,
+      "word": "zintuiglijk",
+      "translation": {
+        "chinese": "感官的，感知的",
+        "english": "sensory, sensual"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["zintuiglijker", "zintuiglijkst"],
+      "level": "B2",
+      "examples": [
+        "De kunstwerk is een zintuiglijke ervaring.",
+        "Zintuiglijke waarneming speelt een grote rol in ons leven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这件艺术品是一种感官体验。",
+          "感官感知在我们的生活中起着重要作用。"
+        ],
+        "english": [
+          "The artwork is a sensory experience.",
+          "Sensory perception plays a major role in our lives."
+        ]
+      },
+      "notes": "形容词，与感官或感知有关",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5723,
+      "word": "zittingsdag",
+      "translation": {
+        "chinese": "开庭日",
+        "english": "court day, session day"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["zittingsdagen"],
+      "level": "B2",
+      "examples": [
+        "De rechtbank heeft volgende week drie zittingsdagen.",
+        "Op de zittingsdag moet je op tijd aanwezig zijn."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "法院下周有三个开庭日。",
+          "开庭日你必须准时到达。"
+        ],
+        "english": [
+          "The court has three court days next week.",
+          "You must be on time on the court day."
+        ]
+      },
+      "notes": "阳性名词，法律术语",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5724,
+      "word": "zoekmachine",
+      "translation": {
+        "chinese": "搜索引擎",
+        "english": "search engine"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["zoekmachines"],
+      "level": "B2",
+      "examples": [
+        "Google is de populairste zoekmachine ter wereld.",
+        "Ik gebruik een zoekmachine om informatie te vinden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "谷歌是世界上最受欢迎的搜索引擎。",
+          "我使用搜索引擎来查找信息。"
+        ],
+        "english": [
+          "Google is the most popular search engine in the world.",
+          "I use a search engine to find information."
+        ]
+      },
+      "notes": "阴性名词，互联网术语",
+      "difficulty": "A2"
+    },
+    {
+      "id": 5725,
+      "word": "zomersproet",
+      "translation": {
+        "chinese": "雀斑",
+        "english": "freckle"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["zomersproeten"],
+      "level": "B2",
+      "examples": [
+        "Zij heeft veel zomersproeten in haar gezicht.",
+        "De zon kan zomersproeten veroorzaken bij mensen met een lichte huid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她脸上有很多雀斑。",
+          "阳光可能会让浅色皮肤的人长出雀斑。"
+        ],
+        "english": [
+          "She has many freckles on her face.",
+          "The sun can cause freckles in people with light skin."
+        ]
+      },
+      "notes": "阳性名词，皮肤特征",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5726,
+      "word": "zonnepaneel",
+      "translation": {
+        "chinese": "太阳能电池板",
+        "english": "solar panel"
+      },
+      "partOfSpeech": "noun",
+      "forms": ["zonnepanelen"],
+      "level": "B2",
+      "examples": [
+        "Wij hebben zonnepanelen op ons dak laten installeren.",
+        "Zonnepanelen produceren schone energie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们在屋顶上安装了太阳能电池板。",
+          "太阳能电池板产生清洁能源。"
+        ],
+        "english": [
+          "We had solar panels installed on our roof.",
+          "Solar panels produce clean energy."
+        ]
+      },
+      "notes": "中性名词，可再生能源设备",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5727,
+      "word": "zonsopkomst",
+      "translation": {
+        "chinese": "日出",
+        "english": "sunrise"
+      },
+      "partOfSpeech": "noun",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "We stonden vroeg op om de zonsopkomst te zien.",
+        "De zonsopkomst is erg mooi op het strand."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们很早就起来看日出。",
+          "海滩上的日出非常美丽。"
+        ],
+        "english": [
+          "We got up early to watch the sunrise.",
+          "The sunrise is very beautiful at the beach."
+        ]
+      },
+      "notes": "阳性名词，自然现象",
+      "difficulty": "B1"
+    },
+    {
+      "id": 5728,
+      "word": "zorgen voor",
+      "translation": {
+        "chinese": "照顾，照料",
+        "english": "to care for, to take care of"
+      },
+      "partOfSpeech": "phrasal verb",
+      "forms": ["zorgde voor", "zorgd", "zorgt"],
+      "level": "B2",
+      "conjugations": {
+        "present": ["zorg voor", "zorgt voor", "zorgt voor", "zorgen voor", "zorgen voor", "zorgen voor"],
+        "past": ["zorgde voor", "zorgde voor", "zorgde voor", "zorgden voor", "zorgden voor", "zorgden voor"],
+        "perfect": ["heb gezorgd voor", "hebt gezorgd voor", "heeft gezorgd voor", "hebben gezorgd voor", "hebben gezorgd voor", "hebben gezorgd voor"],
+        "future": ["zal zorgen voor", "zult zorgen voor", "zult zorgen voor", "zullen zorgen voor", "zullen zorgen voor", "zullen zorgen voor"],
+        "conditional": ["zou zorgen voor", "zou zorgen voor", "zou zorgen voor", "zouden zorgen voor", "zouden zorgen voor", "zouden zorgen voor"],
+        "imperative": ["zorg voor", "zorgt voor", "zorgen voor"]
+      },
+      "examples": [
+        "Hij zorgt goed voor zijn oude moeder.",
+        "We moeten goed voor het milieu zorgen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很好地照顾他年迈的母亲。",
+          "我们需要好好照顾环境。"
+        ],
+        "english": [
+          "He takes good care of his elderly mother.",
+          "We must take good care of the environment."
+        ]
+      },
+      "notes": "动词短语，表示照顾或负责",
+      "difficulty": "A2"
+    },
+    {
+      "id": 5729,
+      "word": "zorgvuldig",
+      "translation": {
+        "chinese": "细心的，谨慎的",
+        "english": "careful, meticulous"
+      },
+      "partOfSpeech": "adjective",
+      "forms": ["zorgvuldiger", "zorgvuldigst"],
+      "level": "B2",
+      "examples": [
+        "Het werk moet zorgvuldig worden uitgevoerd.",
+        "Ze deed een zorgvuldig onderzoek van het probleem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这项工作必须谨慎执行。",
+          "她对问题进行了仔细的研究。"
+        ],
+        "english": [
+          "The work must be done carefully.",
+          "She conducted a careful investigation of the problem."
+        ]
+      },
+      "notes": "形容词，表示谨慎或仔细",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5730,
+      "word": "zorgwekkend",
+      "translation": {
+        "chinese": "令人担忧的",
+        "english": "worrying, concerning"
+      },
+      "partOfSpeech": "adjective",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "De stijgende criminaliteit is zorgwekkend.",
+        "Het zorgwekkende bericht verspreidde zich snel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "犯罪率的上升令人担忧。",
+          "令人担忧的消息迅速传播。"
+        ],
+        "english": [
+          "The rising crime rate is worrying.",
+          "The worrying news spread quickly."
+        ]
+      },
+      "notes": "分词形容词，表示令人担忧的性质",
+      "difficulty": "B2"
+    },
+    {
+      "id": 5731,
+      "word": "zwaarwegend",
+      "translation": {
+        "chinese": "重要的，有分量的",
+        "english": "weighty, significant"
+      },
+      "partOfSpeech": "adjective",
+      "forms": [],
+      "level": "B2",
+      "examples": [
+        "Er zijn zwaarwegende redenen om de beslissing te heroverwegen.",
+        "Het was een zwaarwegend argument dat de uitspraak beïnvloedde."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "有重要的理由需要重新考虑这个决定。",
+          "这是一个影响判决的重要论点。"
+        ],
+        "english": [
+          "There are significant reasons to reconsider the decision.",
+          "It was a weighty argument that influenced the verdict."
+        ]
+      },
+      "notes": "分词形容词，表示重要的或有影响力的",
+      "difficulty": "B2"
+    }
+  ]
+}

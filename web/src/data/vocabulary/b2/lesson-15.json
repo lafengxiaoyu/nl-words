@@ -1,443 +1,1262 @@
 {
+  "id": "lB215",
+  "level": "B2",
+  "lessonNumber": 15,
+  "totalWords": 36,
   "words": [
     {
       "id": 4992,
       "word": "nabestaande",
-      "pos": "noun",
-      "meaning": "亲属,遗属",
-      "word_forms": {
-        "singular": "nabestaande",
-        "plural": "nabestaanden"
+      "translation": {
+        "chinese": "亲属,遗属",
+        "english": "relative, survivor, bereaved"
       },
-      "example": "De nabestaanden werden geïnformeerd over het overlijden.",
-      "example_translation": "亲属们被通知了去世的消息。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nabestaande",
+          "plural": "nabestaanden"
+        }
+      },
+      "examples": [
+        "De nabestaanden werden geïnformeerd over het overlijden.",
+        "De nabestaanden ontvangen een uitkering."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "亲属们被通知了去世的消息。",
+          "遗属收到了抚恤金。"
+        ],
+        "english": [
+          "The relatives were informed about the death.",
+          "The survivors receive a benefit."
+        ]
+      },
+      "notes": "阳性名词，指去世者的直系亲属",
+      "difficulty": "B2"
     },
     {
       "id": 4993,
       "word": "nachtdienst",
-      "pos": "noun",
-      "meaning": "夜班",
-      "word_forms": {
-        "singular": "nachtdienst",
-        "plural": "nachtdiensten"
+      "translation": {
+        "chinese": "夜班",
+        "english": "night shift"
       },
-      "example": "Hij werkt vandaag in de nachtdienst.",
-      "example_translation": "他今天值夜班。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nachtdienst",
+          "plural": "nachtdiensten"
+        }
+      },
+      "examples": [
+        "Hij werkt vandaag in de nachtdienst.",
+        "Zij heeft nachtdienst van 22:00 tot 6:00."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他今天值夜班。",
+          "她从晚上10点到早上6点值夜班。"
+        ],
+        "english": [
+          "He is working the night shift today.",
+          "She works the night shift from 10 PM to 6 AM."
+        ]
+      },
+      "notes": "阴性名词，由nacht(夜)+dienst(服务/班)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4994,
       "word": "nachtegaal",
-      "pos": "noun",
-      "meaning": "夜莺",
-      "word_forms": {
-        "singular": "nachtegaal",
-        "plural": "nachtegaals"
+      "translation": {
+        "chinese": "夜莺",
+        "english": "nightingale"
       },
-      "example": "De nachtegaal zingt prachtig in de zomer.",
-      "example_translation": "夏天夜莺唱得很美。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nachtegaal",
+          "plural": "nachtegaals"
+        }
+      },
+      "examples": [
+        "De nachtegaal zingt prachtig in de zomer.",
+        "De nachtegaal is bekend om zijn prachtige zang."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "夏天夜莺唱得很美。",
+          "夜莺以其优美的歌声而闻名。"
+        ],
+        "english": [
+          "The nightingale sings beautifully in the summer.",
+          "The nightingale is known for its beautiful song."
+        ]
+      },
+      "notes": "阳性名词，一种鸟类",
+      "difficulty": "B2"
     },
     {
       "id": 4995,
       "word": "nachtkastje",
-      "pos": "noun",
-      "meaning": "床头柜",
-      "word_forms": {
-        "singular": "nachtkastje",
-        "plural": "nachtkastjes"
+      "translation": {
+        "chinese": "床头柜",
+        "english": "bedside table, nightstand"
       },
-      "example": "Ik leg mijn bril op het nachtkastje.",
-      "example_translation": "我把眼镜放在床头柜上。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "nachtkastje",
+          "plural": "nachtkastjes"
+        }
+      },
+      "examples": [
+        "Ik leg mijn bril op het nachtkastje.",
+        "Het nachtkastje heeft een lade en een lamp."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我把眼镜放在床头柜上。",
+          "床头柜有一个抽屉和一盏灯。"
+        ],
+        "english": [
+          "I put my glasses on the bedside table.",
+          "The nightstand has a drawer and a lamp."
+        ]
+      },
+      "notes": "中性名词，由nacht(夜)+kast(柜)+后缀-je(小)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4996,
       "word": "nachtmerrie",
-      "pos": "noun",
-      "meaning": "噩梦",
-      "word_forms": {
-        "singular": "nachtmerrie",
-        "plural": "nachtmerries"
+      "translation": {
+        "chinese": "噩梦",
+        "english": "nightmare"
       },
-      "example": "Ik had een enge nachtmerrie gisteravond.",
-      "example_translation": "我昨晚做了一个可怕的噩梦。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nachtmerrie",
+          "plural": "nachtmerries"
+        }
+      },
+      "examples": [
+        "Ik had een enge nachtmerrie gisteravond.",
+        "Het was een echte nachtmerrie waar ik doorheen moest."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我昨晚做了一个可怕的噩梦。",
+          "我必须经历那真是一场噩梦。"
+        ],
+        "english": [
+          "I had a scary nightmare last night.",
+          "It was a real nightmare I had to go through."
+        ]
+      },
+      "notes": "阴性名词，由nacht(夜)+merrie(噩梦)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4997,
       "word": "nachtwaker",
-      "pos": "noun",
-      "meaning": "守夜人",
-      "word_forms": {
-        "singular": "nachtwaker",
-        "plural": "nachtwakers"
+      "translation": {
+        "chinese": "守夜人",
+        "english": "night watchman"
       },
-      "example": "De nachtwaker patrouilleerde door het park.",
-      "example_translation": "守夜人在公园里巡逻。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nachtwaker",
+          "plural": "nachtwakers"
+        }
+      },
+      "examples": [
+        "De nachtwaker patrouilleerde door het park.",
+        "De nachtwakers hielden de wacht bij de ingang."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "守夜人在公园里巡逻。",
+          "守夜人在门口守卫。"
+        ],
+        "english": [
+          "The night watchman patrolled through the park.",
+          "The night watchmen kept guard at the entrance."
+        ]
+      },
+      "notes": "阳性名词，由nacht(夜)+waker(看守者)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4998,
       "word": "nagenieten",
-      "pos": "verb",
-      "meaning": "回味,享受余韵",
-      "word_forms": {
-        "infinitive": "nagenieten",
-        "present": "geniet na",
-        "past": "genoot na",
-        "participle": "nagenoten"
+      "translation": {
+        "chinese": "回味,享受余韵",
+        "english": "to enjoy the aftertaste, to savor"
       },
-      "example": "Geniet na van het weekend voor het werk begint.",
-      "example_translation": "在工作开始之前,好好享受周末的余韵。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "nagenieten",
+          "isSeparable": true,
+          "prefix": "na",
+          "present": {
+            "ik": "geniet na",
+            "jij": "geniet na",
+            "hij": "geniet na",
+            "wij": "genieten na",
+            "jullie": "genieten na",
+            "zij": "genieten na"
+          },
+          "past": {
+            "singular": "genoot na",
+            "plural": "genoten na"
+          },
+          "pastParticiple": "nagenoten",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Geniet na van het weekend voor het werk begint.",
+        "Nageniet van het heerlijke diner."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在工作开始之前,好好享受周末的余韵。",
+          "回味这顿美妙的晚餐。"
+        ],
+        "english": [
+          "Enjoy the aftertaste of the weekend before work starts.",
+          "Savor the delicious dinner."
+        ]
+      },
+      "notes": "可分动词，na表示'之后/余韵'",
+      "difficulty": "B2"
     },
     {
       "id": 4999,
       "word": "nageslacht",
-      "pos": "noun",
-      "meaning": "后代,后裔",
-      "word_forms": {
-        "singular": "nageslacht",
-        "plural": "nageslachten"
+      "translation": {
+        "chinese": "后代,后裔",
+        "english": "descendants, posterity"
       },
-      "example": "Het nageslacht zal profiteren van zijn werk.",
-      "example_translation": "后代将从他的工作中受益。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "nageslacht",
+          "plural": "nageslachten"
+        }
+      },
+      "examples": [
+        "Het nageslacht zal profiteren van zijn werk.",
+        "Hij heeft geen nageslacht om zijn naam door te geven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "后代将从他的工作中受益。",
+          "他没有后代来传承他的名字。"
+        ],
+        "english": [
+          "Descendants will benefit from his work.",
+          "He has no descendants to pass his name to."
+        ]
+      },
+      "notes": "中性名词，常用于正式场合",
+      "difficulty": "B2"
     },
     {
       "id": 5000,
       "word": "nakomeling",
-      "pos": "noun",
-      "meaning": "后代,子孙",
-      "word_forms": {
-        "singular": "nakomeling",
-        "plural": "nakomelingen"
+      "translation": {
+        "chinese": "后代,子孙",
+        "english": "offspring, descendants"
       },
-      "example": "Zij hebben drie nakomelingen.",
-      "example_translation": "他们有三个后代。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nakomeling",
+          "plural": "nakomelingen"
+        }
+      },
+      "examples": [
+        "Zij hebben drie nakomelingen.",
+        "De nakomelingen voeren de tradities voort."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他们有三个后代。",
+          "后辈传承了传统。"
+        ],
+        "english": [
+          "They have three offspring.",
+          "The descendants carry on the traditions."
+        ]
+      },
+      "notes": "阳性名词，与nageslacht同义",
+      "difficulty": "B2"
     },
     {
       "id": 5001,
       "word": "nalatigheid",
-      "pos": "noun",
-      "meaning": "疏忽,忽视",
-      "word_forms": {
-        "singular": "nalatigheid",
-        "plural": "nalatigheden"
+      "translation": {
+        "chinese": "疏忽,忽视",
+        "english": "negligence, oversight"
       },
-      "example": "Het ongeval was het gevolg van nalatigheid.",
-      "example_translation": "事故是疏忽的结果。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nalatigheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het ongeval was het gevolg van nalatigheid.",
+        "Er is sprake van grove nalatigheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "事故是疏忽的结果。",
+          "存在严重的疏忽行为。"
+        ],
+        "english": [
+          "The accident was the result of negligence.",
+          "There is gross negligence involved."
+        ]
+      },
+      "notes": "阴性名词，通常不可数",
+      "difficulty": "B2"
     },
     {
       "id": 5002,
       "word": "naslagwerk",
-      "pos": "noun",
-      "meaning": "参考书,参考书",
-      "word_forms": {
-        "singular": "naslagwerk",
-        "plural": "naslagwerken"
+      "translation": {
+        "chinese": "参考书,参考书",
+        "english": "reference work, reference book"
       },
-      "example": "Dit boek is een belangrijk naslagwerk.",
-      "example_translation": "这是一本重要的参考书。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "naslagwerk",
+          "plural": "naslagwerken"
+        }
+      },
+      "examples": [
+        "Dit boek is een belangrijk naslagwerk.",
+        "De bibliotheek heeft veel naslagwerken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一本重要的参考书。",
+          "图书馆有很多参考书。"
+        ],
+        "english": [
+          "This book is an important reference work.",
+          "The library has many reference books."
+        ]
+      },
+      "notes": "中性名词，由na(后)+slaan(打)+werk(作品)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5003,
       "word": "natuurkunde",
-      "pos": "noun",
-      "meaning": "物理,物理学",
-      "word_forms": {
-        "singular": "natuurkunde",
-        "plural": "natuurkundes"
+      "translation": {
+        "chinese": "物理,物理学",
+        "english": "physics"
       },
-      "example": "Zij studeert natuurkunde aan de universiteit.",
-      "example_translation": "她在大学学习物理。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "natuurkunde",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Zij studeert natuurkunde aan de universiteit.",
+        "Natuurkunde is een verplicht vak op school."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她在大学学习物理。",
+          "物理是学校的必修课。"
+        ],
+        "english": [
+          "She studies physics at the university.",
+          "Physics is a compulsory subject at school."
+        ]
+      },
+      "notes": "阴性名词，由natuur(自然)+kunde(知识)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5004,
       "word": "natuurlijk",
-      "pos": "adjective",
-      "meaning": "自然的",
-      "word_forms": {
-        "positive": "natuurlijk",
-        "comparative": "natuurlijker"
+      "translation": {
+        "chinese": "自然的",
+        "english": "natural, natural"
       },
-      "example": "Het is een natuurlijk proces van het leven.",
-      "example_translation": "这是生活中的自然过程。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "natuurlijk",
+          "withDe": "natuurlijke",
+          "withHet": "natuurlijke",
+          "comparative": "natuurlijker",
+          "superlative": "natuurlijkst"
+        }
+      },
+      "examples": [
+        "Het is een natuurlijk proces van het leven.",
+        "Het is maar natuurlijk dat hij boos is."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是生活中的自然过程。",
+          "他生气是自然的。"
+        ],
+        "english": [
+          "It's a natural process of life.",
+          "It's only natural that he's angry."
+        ]
+      },
+      "notes": "形容词，来自natuur(自然)",
+      "difficulty": "B2"
     },
     {
       "id": 5005,
       "word": "nauwelijks",
-      "pos": "adverb",
-      "meaning": "勉强,几乎不",
-      "word_forms": {},
-      "example": "Ik heb nauwelijks tijd om te eten.",
-      "example_translation": "我几乎没有时间吃饭。"
+      "translation": {
+        "chinese": "勉强,几乎不",
+        "english": "barely, hardly"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "Ik heb nauwelijks tijd om te eten.",
+        "Zij is nauwelijks zichtbaar in de menigte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我几乎没有时间吃饭。",
+          "她在人群中几乎看不清。"
+        ],
+        "english": [
+          "I have barely time to eat.",
+          "She is barely visible in the crowd."
+        ]
+      },
+      "notes": "副词，nauw意为窄/紧",
+      "difficulty": "B2"
     },
     {
       "id": 5006,
       "word": "nauwkeurig",
-      "pos": "adjective",
-      "meaning": "精确的,仔细的",
-      "word_forms": {
-        "positive": "nauwkeurig",
-        "comparative": "nauwkeuriger"
+      "translation": {
+        "chinese": "精确的,仔细的",
+        "english": "precise, meticulous, accurate"
       },
-      "example": "De analyse werd nauwkeurig uitgevoerd.",
-      "example_translation": "分析工作做得非常精确。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nauwkeurig",
+          "withDe": "nauwkeurige",
+          "withHet": "nauwkeurige",
+          "comparative": "nauwkeuriger",
+          "superlative": "nauwkeurigst"
+        }
+      },
+      "examples": [
+        "De analyse werd nauwkeurig uitgevoerd.",
+        "Hij werkt nauwkeurig en nauwlettend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "分析工作做得非常精确。",
+          "他工作仔细又认真。"
+        ],
+        "english": [
+          "The analysis was carried out precisely.",
+          "He works meticulously and diligently."
+        ]
+      },
+      "notes": "形容词，由nauw(紧)+keurig(有序)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5007,
       "word": "nauwlettend",
-      "pos": "adjective",
-      "meaning": "密切的,关注的",
-      "word_forms": {
-        "positive": "nauwlettend",
-        "comparative": "nauwlettender"
+      "translation": {
+        "chinese": "密切的,关注的",
+        "english": "attentive, close, observant"
       },
-      "example": "De politie houdt de situatie nauwlettend in de gaten.",
-      "example_translation": "警方密切关注着局势。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nauwlettend",
+          "withDe": "nauwlettende",
+          "withHet": "nauwlettende",
+          "comparative": "nauwlettender",
+          "superlative": "nauwlettendst"
+        }
+      },
+      "examples": [
+        "De politie houdt de situatie nauwlettend in de gaten.",
+        "Hij is een nauwlettend student."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "警方密切关注着局势。",
+          "他是一个细心的学生。"
+        ],
+        "english": [
+          "The police closely monitor the situation.",
+          "He is an attentive student."
+        ]
+      },
+      "notes": "形容词，常与in de gaten连用",
+      "difficulty": "B2"
     },
     {
       "id": 5008,
       "word": "neerkijken",
-      "pos": "verb",
-      "meaning": "俯视,看不起",
-      "word_forms": {
-        "infinitive": "neerkijken",
-        "present": "kijkt neer",
-        "past": "keek neer",
-        "participle": "neergekeken"
+      "translation": {
+        "chinese": "俯视,看不起",
+        "english": "to look down on, to despise"
       },
-      "example": "Hij neerkijkt op mensen met minder opleiding.",
-      "example_translation": "他看不起受教育程度较低的人。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "neerkijken",
+          "isSeparable": true,
+          "prefix": "neer",
+          "present": {
+            "ik": "kijk neer",
+            "jij": "kijkt neer",
+            "hij": "kijkt neer",
+            "wij": "kijken neer",
+            "jullie": "kijken neer",
+            "zij": "kijken neer"
+          },
+          "past": {
+            "singular": "keek neer",
+            "plural": "keken neer"
+          },
+          "pastParticiple": "neergekeken",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij neerkijkt op mensen met minder opleiding.",
+        "Je mag niet op anderen neerkijken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他看不起受教育程度较低的人。",
+          "你不应该看不起别人。"
+        ],
+        "english": [
+          "He looks down on people with less education.",
+          "You shouldn't look down on others."
+        ]
+      },
+      "notes": "可分动词，neer表示'向下'",
+      "difficulty": "B2"
     },
     {
       "id": 5009,
       "word": "neerleggen",
-      "pos": "verb",
-      "meaning": "放下,辞职",
-      "word_forms": {
-        "infinitive": "neerleggen",
-        "present": "legt neer",
-        "past": "legde neer",
-        "participle": "neergelegd"
+      "translation": {
+        "chinese": "放下,辞职",
+        "english": "to lay down, to resign"
       },
-      "example": "Hij legde zijn functie neer na het schandaal.",
-      "example_translation": "丑闻之后他辞去了职务。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "neerleggen",
+          "isSeparable": true,
+          "prefix": "neer",
+          "present": {
+            "ik": "leg neer",
+            "jij": "legt neer",
+            "hij": "legt neer",
+            "wij": "leggen neer",
+            "jullie": "leggen neer",
+            "zij": "leggen neer"
+          },
+          "past": {
+            "singular": "legde neer",
+            "plural": "legden neer"
+          },
+          "pastParticiple": "neergelegd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij legde zijn functie neer na het schandaal.",
+        "Leg de baby even neer in het ledikantje."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "丑闻之后他辞去了职务。",
+          "把婴儿放在摇篮里。"
+        ],
+        "english": [
+          "He resigned from his position after the scandal.",
+          "Lay the baby down in the crib."
+        ]
+      },
+      "notes": "可分动词，也有\"躺下\"的意思",
+      "difficulty": "B2"
     },
     {
       "id": 5010,
       "word": "neersteken",
-      "pos": "verb",
-      "meaning": "刺,刺伤",
-      "word_forms": {
-        "infinitive": "neersteken",
-        "present": "steekt neer",
-        "past": "stak neer",
-        "participle": "neergestoken"
+      "translation": {
+        "chinese": "刺,刺伤",
+        "english": "to stab, to prick"
       },
-      "example": "De dader steek het slachtoffer neer.",
-      "example_translation": "袭击者刺伤了受害者。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "neersteken",
+          "isSeparable": true,
+          "prefix": "neer",
+          "present": {
+            "ik": "steek neer",
+            "jij": "steekt neer",
+            "hij": "steekt neer",
+            "wij": "steken neer",
+            "jullie": "steken neer",
+            "zij": "steken neer"
+          },
+          "past": {
+            "singular": "stak neer",
+            "plural": "staken neer"
+          },
+          "pastParticiple": "neergestoken",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De dader steek het slachtoffer neer.",
+        "Hij stak het mes neer in de tafel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "袭击者刺伤了受害者。",
+          "他把刀插在桌子上。"
+        ],
+        "english": [
+          "The attacker stabbed the victim.",
+          "He stuck the knife down into the table."
+        ]
+      },
+      "notes": "可分动词，指向下刺击",
+      "difficulty": "B2"
     },
     {
       "id": 5011,
       "word": "neerstorten",
-      "pos": "verb",
-      "meaning": "坠毁,倒塌",
-      "word_forms": {
-        "infinitive": "neerstorten",
-        "present": "stort neer",
-        "past": "stortte neer",
-        "participle": "neergestort"
+      "translation": {
+        "chinese": "坠毁,倒塌",
+        "english": "to crash, to collapse, to fall down"
       },
-      "example": "Het vliegtuig stortte neer in de zee.",
-      "example_translation": "飞机坠入海中。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "neerstorten",
+          "isSeparable": true,
+          "prefix": "neer",
+          "present": {
+            "ik": "stort neer",
+            "jij": "stort neer",
+            "hij": "stort neer",
+            "wij": "storten neer",
+            "jullie": "storten neer",
+            "zij": "storten neer"
+          },
+          "past": {
+            "singular": "stortte neer",
+            "plural": "stortten neer"
+          },
+          "pastParticiple": "neergestort",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Het vliegtuig stortte neer in de zee.",
+        "Het gebouw stortte neer tijdens de storm."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "飞机坠入海中。",
+          "建筑在风暴中倒塌。"
+        ],
+        "english": [
+          "The airplane crashed into the sea.",
+          "The building collapsed during the storm."
+        ]
+      },
+      "notes": "可分动词，常用于飞机、建筑等",
+      "difficulty": "B2"
     },
     {
       "id": 5012,
       "word": "neertellen",
-      "pos": "verb",
-      "meaning": "数清楚",
-      "word_forms": {
-        "infinitive": "neertellen",
-        "present": "telt neer",
-        "past": "telde neer",
-        "participle": "neergeteld"
+      "translation": {
+        "chinese": "数清楚",
+        "english": "to count, to tally"
       },
-      "example": "Tellen neer hoeveel mensen er aanwezig zijn.",
-      "example_translation": "数清楚有多少人到场。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "neertellen",
+          "isSeparable": true,
+          "prefix": "neer",
+          "present": {
+            "ik": "tel neer",
+            "jij": "telt neer",
+            "hij": "telt neer",
+            "wij": "tellen neer",
+            "jullie": "tellen neer",
+            "zij": "tellen neer"
+          },
+          "past": {
+            "singular": "telde neer",
+            "plural": "telden neer"
+          },
+          "pastParticiple": "neergeteld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Tellen neer hoeveel mensen er aanwezig zijn.",
+        "De stemmen worden neergeteld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "数清楚有多少人到场。",
+          "票数正在统计。"
+        ],
+        "english": [
+          "Count how many people are present.",
+          "The votes are being tallied."
+        ]
+      },
+      "notes": "可分动词，neer在此强调\"完整地\"",
+      "difficulty": "B2"
     },
     {
       "id": 5013,
       "word": "neerwaarts",
-      "pos": "adjective",
-      "meaning": "向下的,下降的",
-      "word_forms": {
-        "positive": "neerwaarts",
-        "comparative": "neerwaartser"
+      "translation": {
+        "chinese": "向下的,下降的",
+        "english": "downward, downward moving"
       },
-      "example": "De neerwaartse beweging van de aandelen is gestopt.",
-      "example_translation": "股票的下行趋势已经停止。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "neerwaarts",
+          "withDe": "neerwaartse",
+          "withHet": "neerwaartse",
+          "comparative": "neerwaartser",
+          "superlative": "neerwaartst"
+        }
+      },
+      "examples": [
+        "De neerwaartse beweging van de aandelen is gestopt.",
+        "Er is een neerwaartse trend in de prijzen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "股票的下行趋势已经停止。",
+          "价格有下行趋势。"
+        ],
+        "english": [
+          "The downward movement of the stocks has stopped.",
+          "There is a downward trend in the prices."
+        ]
+      },
+      "notes": "形容词，由neer(向下)+waarts(朝向)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5014,
       "word": "neerzetten",
-      "pos": "verb",
-      "meaning": "放下,建立,写下",
-      "word_forms": {
-        "infinitive": "neerzetten",
-        "present": "zet neer",
-        "past": "zette neer",
-        "participle": "neergezet"
+      "translation": {
+        "chinese": "放下,建立,写下",
+        "english": "to put down, to set down, to write down"
       },
-      "example": "Zij neerzette haar theorie in het artikel.",
-      "example_translation": "她在文章中阐述了自己的理论。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "neerzetten",
+          "isSeparable": true,
+          "prefix": "neer",
+          "present": {
+            "ik": "zet neer",
+            "jij": "zet neer",
+            "hij": "zet neer",
+            "wij": "zetten neer",
+            "jullie": "zetten neer",
+            "zij": "zetten neer"
+          },
+          "past": {
+            "singular": "zette neer",
+            "plural": "zetten neer"
+          },
+          "pastParticiple": "neergezet",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zij neerzette haar theorie in het artikel.",
+        "Zet de zware doos neer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她在文章中阐述了自己的理论。",
+          "放下这个沉重的箱子。"
+        ],
+        "english": [
+          "She set down her theory in the article.",
+          "Put down the heavy box."
+        ]
+      },
+      "notes": "可分动词，用法广泛",
+      "difficulty": "B2"
     },
     {
       "id": 5015,
       "word": "neigen naar",
-      "pos": "verb",
-      "meaning": "倾向于,偏向",
-      "word_forms": {
-        "infinitive": "neigen naar",
-        "present": "neigt naar",
-        "past": "neigde naar",
-        "participle": "geneigd naar"
+      "translation": {
+        "chinese": "倾向于,偏向",
+        "english": "to tend to, to be inclined to"
       },
-      "example": "Hij neigt naar een meer conservatieve mening.",
-      "example_translation": "他倾向于更保守的观点。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "neigen naar",
+          "isSeparable": false,
+          "present": {
+            "ik": "neig naar",
+            "jij": "neigt naar",
+            "hij": "neigt naar",
+            "wij": "neigen naar",
+            "jullie": "neigen naar",
+            "zij": "neigen naar"
+          },
+          "past": {
+            "singular": "neigde naar",
+            "plural": "neigden naar"
+          },
+          "pastParticiple": "geneigd naar",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Hij neigt naar een meer conservatieve mening.",
+        "Zij neigt naar pessimisme in moeilijke tijden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他倾向于更保守的观点。",
+          "她在困难时期倾向于悲观。"
+        ],
+        "english": [
+          "He tends to a more conservative opinion.",
+          "She tends toward pessimism in difficult times."
+        ]
+      },
+      "notes": "不可分动词，常与naar连用",
+      "difficulty": "B2"
     },
     {
       "id": 5016,
       "word": "neiging tot",
-      "pos": "noun",
-      "meaning": "倾向,癖好",
-      "word_forms": {
-        "singular": "neiging",
-        "plural": "neigingen"
+      "translation": {
+        "chinese": "倾向,癖好",
+        "english": "tendency, inclination"
       },
-      "example": "Ze heeft een neiging tot perfectionisme.",
-      "example_translation": "她有完美主义的倾向。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "neiging",
+          "plural": "neigingen"
+        }
+      },
+      "examples": [
+        "Ze heeft een neiging tot perfectionisme.",
+        "De neiging tot geweld moet worden bestreden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她有完美主义的倾向。",
+          "暴力的倾向必须被抵制。"
+        ],
+        "english": [
+          "She has a tendency toward perfectionism.",
+          "The tendency toward violence must be combated."
+        ]
+      },
+      "notes": "阴性名词，常与tot连用",
+      "difficulty": "B2"
     },
     {
       "id": 5017,
       "word": "net zo goed",
-      "pos": "adverbial phrase",
-      "meaning": "同样好,一样好",
-      "word_forms": {},
-      "example": "Je bent net zo goed als ik.",
-      "example_translation": "你和我一样优秀。"
+      "translation": {
+        "chinese": "同样好,一样好",
+        "english": "just as good, equally good"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "examples": [
+        "Je bent net zo goed als ik.",
+        "Dit restaurant is net zo goed als dat restaurant."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你和我一样优秀。",
+          "这家餐厅和那家一样好。"
+        ],
+        "english": [
+          "You're just as good as I am.",
+          "This restaurant is just as good as that restaurant."
+        ]
+      },
+      "notes": "固定短语，用于比较",
+      "difficulty": "B2"
     },
     {
       "id": 5018,
       "word": "nietmachine",
-      "pos": "noun",
-      "meaning": "订书机",
-      "word_forms": {
-        "singular": "nietmachine",
-        "plural": "nietmachines"
+      "translation": {
+        "chinese": "订书机",
+        "english": "stapler"
       },
-      "example": "Ik heb de nietmachine nodig voor de papieren.",
-      "example_translation": "我需要订书机来装订这些文件。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nietmachine",
+          "plural": "nietmachines"
+        }
+      },
+      "examples": [
+        "Ik heb de nietmachine nodig voor de papieren.",
+        "De nietmachine is stuk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我需要订书机来装订这些文件。",
+          "订书机坏了。"
+        ],
+        "english": [
+          "I need the stapler to bind these papers.",
+          "The stapler is broken."
+        ]
+      },
+      "notes": "阴性名词，由nieten(装订)+machine(机器)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5019,
       "word": "nieuweling",
-      "pos": "noun",
-      "meaning": "新手,新人",
-      "word_forms": {
-        "singular": "nieuweling",
-        "plural": "nieuwelingen"
+      "translation": {
+        "chinese": "新手,新人",
+        "english": "novice, newcomer, beginner"
       },
-      "example": "Als nieuweling moet je veel leren.",
-      "example_translation": "作为新手你需要学习很多东西。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nieuweling",
+          "plural": "nieuwelingen"
+        }
+      },
+      "examples": [
+        "Als nieuweling moet je veel leren.",
+        "De nieuwelingen krijgen extra begeleiding."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "作为新手你需要学习很多东西。",
+          "新手们得到额外的指导。"
+        ],
+        "english": [
+          "As a novice you need to learn a lot.",
+          "The newcomers receive extra guidance."
+        ]
+      },
+      "notes": "阳性名词，后缀-ling表示人",
+      "difficulty": "B2"
     },
     {
       "id": 5020,
       "word": "nieuwsbrief",
-      "pos": "noun",
-      "meaning": "新闻简报",
-      "word_forms": {
-        "singular": "nieuwsbrief",
-        "plural": "nieuwsbrieven"
+      "translation": {
+        "chinese": "新闻简报",
+        "english": "newsletter"
       },
-      "example": "Ik heb me ingeschreven voor de nieuwsbrief.",
-      "example_translation": "我订阅了新闻简报。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "nieuwsbrief",
+          "plural": "nieuwsbrieven"
+        }
+      },
+      "examples": [
+        "Ik heb me ingeschreven voor de nieuwsbrief.",
+        "De nieuwsbrief verschijnt wekelijks."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我订阅了新闻简报。",
+          "新闻简报每周发布。"
+        ],
+        "english": [
+          "I subscribed to the newsletter.",
+          "The newsletter is published weekly."
+        ]
+      },
+      "notes": "阴性名词，由nieuws(新闻)+brief(信)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5021,
       "word": "nonchalant",
-      "pos": "adjective",
-      "meaning": "随意的,漠不关心的",
-      "word_forms": {
-        "positive": "nonchalant",
-        "comparative": "nonchalanter"
+      "translation": {
+        "chinese": "随意的,漠不关心的",
+        "english": "nonchalant, casual, indifferent"
       },
-      "example": "Hij klonk nonchalant over het probleem.",
-      "example_translation": "他对这个问题显得漫不经心。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nonchalant",
+          "withDe": "nonchalante",
+          "withHet": "nonchalante",
+          "comparative": "nonchalanter",
+          "superlative": "nonchalantst"
+        }
+      },
+      "examples": [
+        "Hij klonk nonchalant over het probleem.",
+        "Zij antwoordde nonchalant op de vraag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他对这个问题显得漫不经心。",
+          "她随意地回答了问题。"
+        ],
+        "english": [
+          "He sounded nonchalant about the problem.",
+          "She answered the question casually."
+        ]
+      },
+      "notes": "形容词，来自法语",
+      "difficulty": "B2"
     },
     {
       "id": 5022,
       "word": "noodnummer",
-      "pos": "noun",
-      "meaning": "紧急电话",
-      "word_forms": {
-        "singular": "noodnummer",
-        "plural": "noodnummers"
+      "translation": {
+        "chinese": "紧急电话",
+        "english": "emergency number"
       },
-      "example": "Bel het noodnummer bij een noodgeval.",
-      "example_translation": "紧急情况下请拨打紧急电话。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "noodnummer",
+          "plural": "noodnummers"
+        }
+      },
+      "examples": [
+        "Bel het noodnummer bij een noodgeval.",
+        "Het Europees noodnummer is 112."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "紧急情况下请拨打紧急电话。",
+          "欧洲紧急电话是112。"
+        ],
+        "english": [
+          "Call the emergency number in an emergency.",
+          "The European emergency number is 112."
+        ]
+      },
+      "notes": "中性名词，由nood(紧急)+nummer(号码)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5023,
       "word": "noodopvang",
-      "pos": "noun",
-      "meaning": "紧急收容,应急安置",
-      "word_forms": {
-        "singular": "noodopvang",
-        "plural": "noodopvangen"
+      "translation": {
+        "chinese": "紧急收容,应急安置",
+        "english": "emergency shelter, emergency accommodation"
       },
-      "example": "De noodopvang is geopend voor daklozen.",
-      "example_translation": "紧急收容所已向无家可归者开放。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "noodopvang",
+          "plural": "noodopvangen"
+        }
+      },
+      "examples": [
+        "De noodopvang is geopend voor daklozen.",
+        "Tijdens de storm is er noodopvang ingericht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "紧急收容所已向无家可归者开放。",
+          "风暴期间设立了应急收容所。"
+        ],
+        "english": [
+          "The emergency shelter is open for the homeless.",
+          "Emergency accommodation has been set up during the storm."
+        ]
+      },
+      "notes": "阴性名词，由nood(紧急)+opvang(收容)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5024,
       "word": "nostalgisch",
-      "pos": "adjective",
-      "meaning": "怀旧的,念旧的",
-      "word_forms": {
-        "positive": "nostalgisch",
-        "comparative": "nostalgischer"
+      "translation": {
+        "chinese": "怀旧的,念旧的",
+        "english": "nostalgic"
       },
-      "example": "De foto roept nostalgische herinneringen op.",
-      "example_translation": "这张照片唤起了怀旧的回忆。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nostalgisch",
+          "withDe": "nostalgische",
+          "withHet": "nostalgische",
+          "comparative": "nostalgischer",
+          "superlative": "nostalgischst"
+        }
+      },
+      "examples": [
+        "De foto roept nostalgische herinneringen op.",
+        "Zij voelde zich nostalgisch over haar kindertijd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这张照片唤起了怀旧的回忆。",
+          "她怀念自己的童年时光。"
+        ],
+        "english": [
+          "The photo evokes nostalgic memories.",
+          "She felt nostalgic about her childhood."
+        ]
+      },
+      "notes": "形容词，来自希腊语nostos(回家)",
+      "difficulty": "B2"
     },
     {
       "id": 5025,
-      "word": "notariskost",
-      "pos": "noun",
-      "meaning": "公证费用",
-      "word_forms": {
-        "singular": "notariskost",
-        "plural": "notariskosten"
+      "word": "notariskosten",
+      "translation": {
+        "chinese": "公证费用",
+        "english": "notary fees, notary costs"
       },
-      "example": "De notariskosten zijn hoger dan verwacht.",
-      "example_translation": "公证费用比预期的要高。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "notariskosten",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De notariskosten zijn hoger dan verwacht.",
+        "De notariskosten worden door de koper betaald."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公证费用比预期的要高。",
+          "公证费用由买方支付。"
+        ],
+        "english": [
+          "The notary fees are higher than expected.",
+          "The notary fees are paid by the buyer."
+        ]
+      },
+      "notes": "阴性名词，复数形式通常用kosten",
+      "difficulty": "B2"
     },
     {
       "id": 5026,
       "word": "nou eenmaal",
-      "pos": "adverbial phrase",
-      "meaning": "毕竟,就是如此",
-      "word_forms": {},
-      "example": "Dat is nu eenmaal het leven.",
-      "example_translation": "生活就是如此。"
+      "translation": {
+        "chinese": "毕竟,就是如此",
+        "english": "after all, that's just how it is"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "examples": [
+        "Dat is nu eenmaal het leven.",
+        "Nou eenmaal, ik kan er niets aan doen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "生活就是如此。",
+          "毕竟，我对此无能为力。"
+        ],
+        "english": [
+          "That's just how life is.",
+          "After all, I can't do anything about it."
+        ]
+      },
+      "notes": "固定短语，用于强调事实",
+      "difficulty": "B2"
     },
     {
       "id": 5027,
       "word": "nummerbord",
-      "pos": "noun",
-      "meaning": "车牌",
-      "word_forms": {
-        "singular": "nummerbord",
-        "plural": "nummerborden"
+      "translation": {
+        "chinese": "车牌",
+        "english": "license plate, number plate"
       },
-      "example": "Het nummerbord van de auto is kapot.",
-      "example_translation": "这辆汽车的车牌坏了。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "nummerbord",
+          "plural": "nummerborden"
+        }
+      },
+      "examples": [
+        "Het nummerbord van de auto is kapot.",
+        "Politie controleerde het nummerbord van de verdachte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这辆汽车的车牌坏了。",
+          "警方检查了嫌疑人的车牌。"
+        ],
+        "english": [
+          "The license plate of the car is broken.",
+          "Police checked the suspect's license plate."
+        ]
+      },
+      "notes": "中性名词，由nummer(号码)+bord(板)组成",
+      "difficulty": "B2"
     }
   ]
 }

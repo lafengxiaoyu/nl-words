@@ -1,641 +1,1359 @@
 {
+  "id": "b2-lesson-27",
+  "level": "B2",
+  "lessonNumber": 27,
+  "totalWords": 50,
   "words": [
     {
       "id": 5477,
       "word": "vaardigheid",
-      "pos": "noun",
-      "meaning": "技能,能力",
-      "word_forms": {
-        "singular": "vaardigheid",
-        "plural": "vaardigheden"
+      "translation": {
+        "chinese": "技能,能力",
+        "english": "skill, ability, proficiency"
       },
-      "example": "Zij heeft veel vaardigheden.",
-      "example_translation": "她有很多技能。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "vaardigheid",
+          "plural": "vaardigheden"
+        }
+      },
+      "examples": [
+        "Zij heeft veel vaardigheden.",
+        "Taalvaardigheid is belangrijk voor je carrière."
+      ],
+      "exampleTranslations": {
+        "chinese": ["她有很多技能。", "语言能力对你的职业生涯很重要。"],
+        "english": ["She has many skills.", "Language proficiency is important for your career."]
+      },
+      "notes": "指个人掌握的技能或能力",
+      "difficulty": "B2"
     },
     {
       "id": 5478,
       "word": "vaatwasser",
-      "pos": "noun",
-      "meaning": "洗碗机",
-      "word_forms": {
-        "singular": "vaatwasser",
-        "plural": "vaatwassers"
+      "translation": {
+        "chinese": "洗碗机",
+        "english": "dishwasher"
       },
-      "example": "De vaatwasser is vol.",
-      "example_translation": "洗碗机满了。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "vaatwasser",
+          "plural": "vaatwassers"
+        }
+      },
+      "examples": [
+        "De vaatwasser is vol.",
+        "Ik laad de vaatwasser."
+      ],
+      "exampleTranslations": {
+        "chinese": ["洗碗机满了。", "我把碗装进洗碗机。"],
+        "english": ["The dishwasher is full.", "I load the dishwasher."]
+      },
+      "notes": "复合词，由 vaat(餐具)+wasser(洗涤器)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5479,
       "word": "vakmanschap",
-      "pos": "noun",
-      "meaning": "工艺,技术",
-      "word_forms": {
-        "singular": "vakmanschap",
-        "plural": "vakmanschappen"
+      "translation": {
+        "chinese": "工艺,技术",
+        "english": "craftsmanship, workmanship"
       },
-      "example": "Zijn vakmanschap is uitstekend.",
-      "example_translation": "他的工艺很优秀。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "vakmanschap",
+          "plural": "vakmanschappen"
+        }
+      },
+      "examples": [
+        "Zijn vakmanschap is uitstekend.",
+        "Het meubel toont prachtig vakmanschap."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他的工艺很优秀。", "这件家具展现了精湛的工艺。"],
+        "english": ["His craftsmanship is excellent.", "The furniture shows beautiful craftsmanship."]
+      },
+      "notes": "由 vak(职业/行业)+manschap(状态)组成，中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5480,
       "word": "van nature",
-      "pos": "adverbial phrase",
-      "meaning": "天生的,本质上",
-      "word_forms": {},
-      "example": "Hij is van nature optimistisch.",
-      "example_translation": "他天生乐观。"
+      "translation": {
+        "chinese": "天生的,本质上",
+        "english": "by nature, naturally"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "forms": {},
+      "examples": [
+        "Hij is van nature optimistisch.",
+        "Zij is van nature voorzichtig."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他天生乐观。", "她天生谨慎。"],
+        "english": ["He is naturally optimistic.", "She is cautious by nature."]
+      },
+      "notes": "常用短语，表示与生俱来的特质",
+      "difficulty": "B2"
     },
     {
       "id": 5481,
       "word": "van tevoren",
-      "pos": "adverbial phrase",
-      "meaning": "事先,提前",
-      "word_forms": {},
-      "example": "Ik wist het van tevoren.",
-      "example_translation": "我事先知道。"
+      "translation": {
+        "chinese": "事先,提前",
+        "english": "in advance, beforehand"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "forms": {},
+      "examples": [
+        "Ik wist het van tevoren.",
+        "Laat het van tevoren weten."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我事先知道。", "提前告知。"],
+        "english": ["I knew it in advance.", "Let know beforehand."]
+      },
+      "notes": "非常常用的时间状语短语",
+      "difficulty": "B2"
     },
     {
       "id": 5482,
       "word": "vandalisme",
-      "pos": "noun",
-      "meaning": "破坏行为",
-      "word_forms": {
-        "singular": "vandalisme",
-        "plural": "vandalismen"
+      "translation": {
+        "chinese": "破坏行为",
+        "english": "vandalism"
       },
-      "example": "De vandalisme veroorzaakte schade.",
-      "example_translation": "破坏行为造成了损害。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "vandalisme",
+          "plural": "vandalismen"
+        }
+      },
+      "examples": [
+        "De vandalisme veroorzaakte schade.",
+        "De politie onderzoekt de vandalisme."
+      ],
+      "exampleTranslations": {
+        "chinese": ["破坏行为造成了损害。", "警方正在调查破坏行为。"],
+        "english": ["The vandalism caused damage.", "The police are investigating the vandalism."]
+      },
+      "notes": "外来词，来自法语",
+      "difficulty": "B2"
     },
     {
       "id": 5483,
       "word": "vastberaden",
-      "pos": "adjective",
-      "meaning": "坚决的,坚定的",
-      "word_forms": {
-        "positive": "vastberaden",
-        "comparative": "vastberadener"
+      "translation": {
+        "chinese": "坚决的,坚定的",
+        "english": "determined, resolute, steadfast"
       },
-      "example": "Zij was vastberaden om te winnen.",
-      "example_translation": "她决心要赢。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "vastberaden",
+          "comparative": "vastberadener",
+          "superlative": "vastberadenst"
+        }
+      },
+      "examples": [
+        "Zij was vastberaden om te winnen.",
+        "Hij heeft een vastberaden karakter."
+      ],
+      "exampleTranslations": {
+        "chinese": ["她决心要赢。", "他有坚定的性格。"],
+        "english": ["She was determined to win.", "He has a resolute character."]
+      },
+      "notes": "由 vast(牢固的)+beraden(考虑的)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5484,
       "word": "vastdraaien",
-      "pos": "verb",
-      "meaning": "拧紧,旋紧",
-      "word_forms": {
-        "infinitive": "vastdraaien",
-        "present": "draait vast",
-        "past": "draaide vast",
-        "participle": "vastgedraaid"
+      "translation": {
+        "chinese": "拧紧,旋紧",
+        "english": "to tighten, to screw tight"
       },
-      "example": "Draai de moer vast.",
-      "example_translation": "把螺母拧紧。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": true,
+          "prefix": "vast",
+          "infinitive": "vastdraaien",
+          "present": ["ik draai vast", "jij draait vast", "hij/zij draait vast", "wij draaien vast", "jullie draaien vast", "zij draaien vast"],
+          "past": ["ik draaide vast", "jij draaide vast", "hij/zij draaide vast", "wij draaiden vast", "jullie draaiden vast", "zij draaiden vast"],
+          "perfect": ["heb vastgedraaid", "hebt vastgedraaid", "heeft vastgedraaid", "hebben vastgedraaid", "hebben vastgedraaid", "hebben vastgedraaid"]
+        }
+      },
+      "examples": [
+        "Draai de moer vast.",
+        "Ik draaide de schroef vast."
+      ],
+      "exampleTranslations": {
+        "chinese": ["把螺母拧紧。", "我把螺丝拧紧了。"],
+        "english": ["Tighten the nut.", "I tightened the screw."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5485,
       "word": "vasthouden",
-      "pos": "verb",
-      "meaning": "坚持,抓住",
-      "word_forms": {
-        "infinitive": "vasthouden",
-        "present": "houdt vast",
-        "past": "hield vast",
-        "participle": "vastgehouden"
+      "translation": {
+        "chinese": "坚持,抓住",
+        "english": "to hold on, to persist, to stick to"
       },
-      "example": "Hij houdt vast aan zijn mening.",
-      "example_translation": "他坚持自己的观点。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": true,
+          "prefix": "vast",
+          "infinitive": "vasthouden",
+          "present": ["ik houd vast", "jij houdt vast", "hij/zij houdt vast", "wij houden vast", "jullie houden vast", "zij houden vast"],
+          "past": ["ik hield vast", "jij hield vast", "hij/zij hield vast", "wij hielden vast", "jullie hielden vast", "zij hielden vast"],
+          "perfect": ["heb vastgehouden", "hebt vastgehouden", "heeft vastgehouden", "hebben vastgehouden", "hebben vastgehouden", "hebben vastgehouden"]
+        }
+      },
+      "examples": [
+        "Hij houdt vast aan zijn mening.",
+        "Houd vast aan het hek."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他坚持自己的观点。", "抓住栅栏。"],
+        "english": ["He sticks to his opinion.", "Hold on to the fence."]
+      },
+      "notes": "可分动词，不规则变位，常与 aan 连用",
+      "difficulty": "B2"
     },
     {
       "id": 5486,
       "word": "vastklampen",
-      "pos": "verb",
-      "meaning": "紧紧抓住,依附",
-      "word_forms": {
-        "infinitive": "vastklampen",
-        "present": "klampt vast",
-        "past": "klampte vast",
-        "participle": "vastgeklampt"
+      "translation": {
+        "chinese": "紧紧抓住,依附",
+        "english": "to cling to, to hold on tightly"
       },
-      "example": "Het kind klampte zich vast aan zijn moeder.",
-      "example_translation": "孩子紧紧抓住母亲。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": true,
+          "prefix": "vast",
+          "infinitive": "vastklampen",
+          "present": ["ik klem vast", "jij klemt vast", "hij/zij klemt vast", "wij klemmen vast", "jullie klemmen vast", "zij klemmen vast"],
+          "past": ["ik klemde vast", "jij klemde vast", "hij/zij klemde vast", "wij klemden vast", "jullie klemden vast", "zij klemden vast"],
+          "perfect": ["heb vastgeklampt", "hebt vastgeklampt", "heeft vastgeklampt", "hebben vastgeklampt", "hebben vastgeklampt", "hebben vastgeklampt"]
+        }
+      },
+      "examples": [
+        "Het kind klampte zich vast aan zijn moeder.",
+        "Hij klemde zich vast aan de ladder."
+      ],
+      "exampleTranslations": {
+        "chinese": ["孩子紧紧抓住母亲。", "他紧紧抓住梯子。"],
+        "english": ["The child clung to his mother.", "He clung to the ladder."]
+      },
+      "notes": "可分动词，常与 zich 连用表示反身用法",
+      "difficulty": "B2"
     },
     {
       "id": 5487,
       "word": "vastleggen",
-      "pos": "verb",
-      "meaning": "确定,固定",
-      "word_forms": {
-        "infinitive": "vastleggen",
-        "present": "legt vast",
-        "past": "legde vast",
-        "participle": "vastgelegd"
+      "translation": {
+        "chinese": "确定,固定",
+        "english": "to fix, to determine, to establish"
       },
-      "example": "We hebben de datum vastgelegd.",
-      "example_translation": "我们已经确定了日期。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": true,
+          "prefix": "vast",
+          "infinitive": "vastleggen",
+          "present": ["ik leg vast", "jij legt vast", "hij/zij legt vast", "wij leggen vast", "jullie leggen vast", "zij leggen vast"],
+          "past": ["ik legde vast", "jij legde vast", "hij/zij legde vast", "wij legden vast", "jullie legden vast", "zij legden vast"],
+          "perfect": ["heb vastgelegd", "hebt vastgelegd", "heeft vastgelegd", "hebben vastgelegd", "hebben vastgelegd", "hebben vastgelegd"]
+        }
+      },
+      "examples": [
+        "We hebben de datum vastgelegd.",
+        "De regels zijn vastgelegd in het contract."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我们已经确定了日期。", "规则已在合同中确定。"],
+        "english": ["We have fixed the date.", "The rules are established in the contract."]
+      },
+      "notes": "可分动词，常用于正式场合",
+      "difficulty": "B2"
     },
     {
       "id": 5488,
       "word": "vastomlijnd",
-      "pos": "adjective",
-      "meaning": "轮廓分明的,界限明确的",
-      "word_forms": {
-        "positive": "vastomlijnd",
-        "comparative": "vastomlijnder"
+      "translation": {
+        "chinese": "轮廓分明的,界限明确的",
+        "english": "clearly defined, well-outlined"
       },
-      "example": "Het plan is vastomlijnd.",
-      "example_translation": "计划很明确。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "vastomlijnd",
+          "comparative": "vastomlijnder",
+          "superlative": "vastomlijndst"
+        }
+      },
+      "examples": [
+        "Het plan is vastomlijnd.",
+        "De taken zijn vastomlijnd."
+      ],
+      "exampleTranslations": {
+        "chinese": ["计划很明确。", "任务界限分明。"],
+        "english": ["The plan is clearly defined.", "The tasks are well-outlined."]
+      },
+      "notes": "由 vast(牢固)+omlijnd(勾画轮廓)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5489,
       "word": "vastpakken",
-      "pos": "verb",
-      "meaning": "抓住,捉住",
-      "word_forms": {
-        "infinitive": "vastpakken",
-        "present": "pakt vast",
-        "past": "pakte vast",
-        "participle": "vastgepakt"
+      "translation": {
+        "chinese": "抓住,捉住",
+        "english": "to grab, to seize, to catch"
       },
-      "example": "De politie pakte de dief vast.",
-      "example_translation": "警察抓住了小偷。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": true,
+          "prefix": "vast",
+          "infinitive": "vastpakken",
+          "present": ["ik pak vast", "jij pakt vast", "hij/zij pakt vast", "wij pakken vast", "jullie pakken vast", "zij pakken vast"],
+          "past": ["ik pakte vast", "jij pakte vast", "hij/zij pakte vast", "wij pakten vast", "jullie pakten vast", "zij pakten vast"],
+          "perfect": ["heb vastgepakt", "hebt vastgepakt", "heeft vastgepakt", "hebben vastgepakt", "hebben vastgepakt", "hebben vastgepakt"]
+        }
+      },
+      "examples": [
+        "De politie pakte de dief vast.",
+        "Ik pakte hem vast bij zijn arm."
+      ],
+      "exampleTranslations": {
+        "chinese": ["警察抓住了小偷。", "我抓住他的手臂。"],
+        "english": ["The police caught the thief.", "I grabbed him by his arm."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5490,
       "word": "vaststellen",
-      "pos": "verb",
-      "meaning": "确定,查明",
-      "word_forms": {
-        "infinitive": "vaststellen",
-        "present": "stelt vast",
-        "past": "stelde vast",
-        "participle": "vastgesteld"
+      "translation": {
+        "chinese": "确定,查明",
+        "english": "to determine, to establish, to ascertain"
       },
-      "example": "De dokter stelde de diagnose vast.",
-      "example_translation": "医生确定了诊断。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": true,
+          "prefix": "vast",
+          "infinitive": "vaststellen",
+          "present": ["ik stel vast", "jij stelt vast", "hij/zij stelt vast", "wij stellen vast", "jullie stellen vast", "zij stellen vast"],
+          "past": ["ik stelde vast", "jij stelde vast", "hij/zij stelde vast", "wij stelden vast", "jullie stelden vast", "zij stelden vast"],
+          "perfect": ["heb vastgesteld", "hebt vastgesteld", "heeft vastgesteld", "hebben vastgesteld", "hebben vastgesteld", "hebben vastgesteld"]
+        }
+      },
+      "examples": [
+        "De dokter stelde de diagnose vast.",
+        "We moeten de oorzaak vaststellen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["医生确定了诊断。", "我们需要查明原因。"],
+        "english": ["The doctor determined the diagnosis.", "We need to establish the cause."]
+      },
+      "notes": "可分动词，常用于正式或科学语境",
+      "difficulty": "B2"
     },
     {
       "id": 5491,
       "word": "vastzetten",
-      "pos": "verb",
-      "meaning": "固定,确定",
-      "word_forms": {
-        "infinitive": "vastzetten",
-        "present": "zet vast",
-        "past": "zette vast",
-        "participle": "vastgezet"
+      "translation": {
+        "chinese": "固定,确定",
+        "english": "to fix, to secure, to fasten"
       },
-      "example": "Zet de boeken vast.",
-      "example_translation": "把书固定好。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": true,
+          "prefix": "vast",
+          "infinitive": "vastzetten",
+          "present": ["ik zet vast", "jij zet vast", "hij/zij zet vast", "wij zetten vast", "jullie zetten vast", "zij zetten vast"],
+          "past": ["ik zette vast", "jij zette vast", "hij/zij zette vast", "wij zetten vast", "jullie zetten vast", "zij zetten vast"],
+          "perfect": ["heb vastgezet", "hebt vastgezet", "heeft vastgezet", "hebben vastgezet", "hebben vastgezet", "hebben vastgezet"]
+        }
+      },
+      "examples": [
+        "Zet de boeken vast.",
+        "De tent is vastgezet."
+      ],
+      "exampleTranslations": {
+        "chinese": ["把书固定好。", "帐篷已经固定好了。"],
+        "english": ["Secure the books.", "The tent has been fixed."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5492,
       "word": "vastzitten",
-      "pos": "verb",
-      "meaning": "卡住,被困",
-      "word_forms": {
-        "infinitive": "vastzitten",
-        "present": "zit vast",
-        "past": "zat vast",
-        "participle": "vastgezeten"
+      "translation": {
+        "chinese": "卡住,被困",
+        "english": "to be stuck, to be trapped"
       },
-      "example": "Hij zat vast in de file.",
-      "example_translation": "他被堵在交通堵塞中。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": true,
+          "prefix": "vast",
+          "infinitive": "vastzitten",
+          "present": ["ik zit vast", "jij zit vast", "hij/zij zit vast", "wij zitten vast", "jullie zitten vast", "zij zitten vast"],
+          "past": ["ik zat vast", "jij zat vast", "hij/zij zat vast", "wij zaten vast", "jullie zaten vast", "zij zaten vast"],
+          "perfect": ["heb vastgezeten", "hebt vastgezeten", "heeft vastgezeten", "hebben vastgezeten", "hebben vastgezeten", "hebben vastgezeten"]
+        }
+      },
+      "examples": [
+        "Hij zat vast in de file.",
+        "De deur zit vast."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他被堵在交通堵塞中。", "门卡住了。"],
+        "english": ["He was stuck in traffic.", "The door is stuck."]
+      },
+      "notes": "可分动词，不规则变位，用 hebben 作为助动词",
+      "difficulty": "B2"
     },
     {
       "id": 5493,
       "word": "vechtpartij",
-      "pos": "noun",
-      "meaning": "斗殴",
-      "word_forms": {
-        "singular": "vechtpartij",
-        "plural": "vechtpartijen"
+      "translation": {
+        "chinese": "斗殴",
+        "english": "fight, brawl, fistfight"
       },
-      "example": "Er was een vechtpartij in de kroeg.",
-      "example_translation": "酒吧里发生了斗殴。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "vechtpartij",
+          "plural": "vechtpartijen"
+        }
+      },
+      "examples": [
+        "Er was een vechtpartij in de kroeg.",
+        "De vechtpartij eindigde in arrestaties."
+      ],
+      "exampleTranslations": {
+        "chinese": ["酒吧里发生了斗殴。", "斗殴以逮捕告终。"],
+        "english": ["There was a fight in the pub.", "The brawl ended in arrests."]
+      },
+      "notes": "复合词，由 vecht(打)+partij(对局/场次)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5494,
       "word": "vechtsport",
-      "pos": "noun",
-      "meaning": "武术,格斗术",
-      "word_forms": {
-        "singular": "vechtsport",
-        "plural": "vechtsporten"
+      "translation": {
+        "chinese": "武术,格斗术",
+        "english": "martial art, combat sport"
       },
-      "example": "Hij beoefent een vechtsport.",
-      "example_translation": "他练习武术。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "vechtsport",
+          "plural": "vechtsporten"
+        }
+      },
+      "examples": [
+        "Hij beoefent een vechtsport.",
+        "Judo is een bekende vechtsport."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他练习武术。", "柔道是一种著名的武术。"],
+        "english": ["He practices a martial art.", "Judo is a well-known martial art."]
+      },
+      "notes": "复合词，由 vecht(打)+sport(运动)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5495,
       "word": "veeleisend",
-      "pos": "adjective",
-      "meaning": "要求高的",
-      "word_forms": {
-        "positive": "veeleisend",
-        "comparative": "veeleisender"
+      "translation": {
+        "chinese": "要求高的",
+        "english": "demanding, exacting, challenging"
       },
-      "example": "De baan is veeleisend.",
-      "example_translation": "这份工作要求很高。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "veeleisend",
+          "comparative": "veeleisender",
+          "superlative": "veeleisendst"
+        }
+      },
+      "examples": [
+        "De baan is veeleisend.",
+        "Zij heeft een veeleisend karakter."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这份工作要求很高。", "她的性格很挑剔。"],
+        "english": ["The job is demanding.", "She has a demanding character."]
+      },
+      "notes": "由 veel(多)+eisend(要求的)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5496,
       "word": "veelvuldig",
-      "pos": "adverb",
-      "meaning": "频繁地,多次地",
-      "word_forms": {},
-      "example": "Hij bezoekt veelvuldig de club.",
-      "example_translation": "他频繁去俱乐部。"
+      "translation": {
+        "chinese": "频繁地,多次地",
+        "english": "frequently, repeatedly, often"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {},
+      "examples": [
+        "Hij bezoekt veelvuldig de club.",
+        "Veelvuldig oefenen is belangrijk."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他频繁去俱乐部。", "频繁练习很重要。"],
+        "english": ["He visits the club frequently.", "Frequent practice is important."]
+      },
+      "notes": "较正式的表达频率的方式",
+      "difficulty": "B2"
     },
     {
       "id": 5497,
       "word": "veelzijdig",
-      "pos": "adjective",
-      "meaning": "多方面的,多才多艺的",
-      "word_forms": {
-        "positive": "veelzijdig",
-        "comparative": "veelzijdiger"
+      "translation": {
+        "chinese": "多方面的,多才多艺的",
+        "english": "versatile, multifaceted, many-sided"
       },
-      "example": "Zij is een veelzijdig persoon.",
-      "example_translation": "她是一个多才多艺的人。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "veelzijdig",
+          "comparative": "veelzijdiger",
+          "superlative": "veelzijdigst"
+        }
+      },
+      "examples": [
+        "Zij is een veelzijdig persoon.",
+        "Dit apparaat is zeer veelzijdig."
+      ],
+      "exampleTranslations": {
+        "chinese": ["她是一个多才多艺的人。", "这个设备非常多才多艺。"],
+        "english": ["She is a versatile person.", "This device is very versatile."]
+      },
+      "notes": "由 veel(多)+zijdig(面的)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5498,
       "word": "vegetarisch",
-      "pos": "adjective",
-      "meaning": "素食的",
-      "word_forms": {
-        "positive": "vegetarisch",
-        "comparative": "vegetarischer"
+      "translation": {
+        "chinese": "素食的",
+        "english": "vegetarian"
       },
-      "example": "Ik eet vegetarisch.",
-      "example_translation": "我吃素食。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "vegetarisch",
+          "comparative": "vegetarischer",
+          "superlative": "vegetarischst"
+        }
+      },
+      "examples": [
+        "Ik eet vegetarisch.",
+        "Het restaurant heeft een vegetarisch menu."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我吃素食。", "餐厅有素食菜单。"],
+        "english": ["I eat vegetarian.", "The restaurant has a vegetarian menu."]
+      },
+      "notes": "用于描述不含肉类的饮食或食物",
+      "difficulty": "B2"
     },
     {
       "id": 5499,
       "word": "veiligheid",
-      "pos": "noun",
-      "meaning": "安全",
-      "word_forms": {
-        "singular": "veiligheid",
-        "plural": "veiligheden"
+      "translation": {
+        "chinese": "安全",
+        "english": "safety, security"
       },
-      "example": "De veiligheid staat voorop.",
-      "example_translation": "安全第一。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "veiligheid",
+          "plural": "veiligheden"
+        }
+      },
+      "examples": [
+        "De veiligheid staat voorop.",
+        "We zorgen voor de veiligheid."
+      ],
+      "exampleTranslations": {
+        "chinese": ["安全第一。", "我们确保安全。"],
+        "english": ["Safety comes first.", "We ensure safety."]
+      },
+      "notes": "由 veilig(安全的)+heid(名词后缀)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5500,
       "word": "vensterbank",
-      "pos": "noun",
-      "meaning": "窗台",
-      "word_forms": {
-        "singular": "vensterbank",
-        "plural": "vensterbanken"
+      "translation": {
+        "chinese": "窗台",
+        "english": "windowsill"
       },
-      "example": "De bloemen staan op de vensterbank.",
-      "example_translation": "花在窗台上。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "vensterbank",
+          "plural": "vensterbanken"
+        }
+      },
+      "examples": [
+        "De bloemen staan op de vensterbank.",
+        "De kat ligt op de vensterbank."
+      ],
+      "exampleTranslations": {
+        "chinese": ["花在窗台上。", "猫躺在窗台上。"],
+        "english": ["The flowers are on the windowsill.", "The cat lies on the windowsill."]
+      },
+      "notes": "复合词，由 venster(窗户)+bank(长凳/台)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5501,
       "word": "ventilator",
-      "pos": "noun",
-      "meaning": "风扇,通风设备",
-      "word_forms": {
-        "singular": "ventilator",
-        "plural": "ventilatoren"
+      "translation": {
+        "chinese": "风扇,通风设备",
+        "english": "fan, ventilator"
       },
-      "example": "De ventilator draait langzaam.",
-      "example_translation": "风扇转得很慢。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ventilator",
+          "plural": "ventilatoren"
+        }
+      },
+      "examples": [
+        "De ventilator draait langzaam.",
+        "Zet de ventilator aan."
+      ],
+      "exampleTranslations": {
+        "chinese": ["风扇转得很慢。", "打开风扇。"],
+        "english": ["The fan is running slowly.", "Turn on the fan."]
+      },
+      "notes": "外来词，来自拉丁语",
+      "difficulty": "B2"
     },
     {
       "id": 5502,
       "word": "ventileren",
-      "pos": "verb",
-      "meaning": "通风",
-      "word_forms": {
-        "infinitive": "ventileren",
-        "present": "ventileert",
-        "past": "ventileerde",
-        "participle": "gventileerd"
+      "translation": {
+        "chinese": "通风",
+        "english": "to ventilate, to air"
       },
-      "example": "De kamer wordt geventileerd.",
-      "example_translation": "房间在通风。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "ventileren",
+          "present": ["ik ventileer", "jij ventileert", "hij/zij ventileert", "wij ventileren", "jullie ventileren", "zij ventileren"],
+          "past": ["ik ventileerde", "jij ventileerde", "hij/zij ventileerde", "wij ventileerden", "jullie ventileerden", "zij ventileerden"],
+          "perfect": ["heb geventileerd", "hebt geventileerd", "heeft geventileerd", "hebben geventileerd", "hebben geventileerd", "hebben geventileerd"]
+        }
+      },
+      "examples": [
+        "De kamer wordt geventileerd.",
+        "Ventileer de ruimte goed."
+      ],
+      "exampleTranslations": {
+        "chinese": ["房间在通风。", "好好通风这个空间。"],
+        "english": ["The room is being ventilated.", "Ventilate the space well."]
+      },
+      "notes": "规则动词",
+      "difficulty": "B2"
     },
     {
       "id": 5503,
       "word": "veranderen",
-      "pos": "verb",
-      "meaning": "改变",
-      "word_forms": {
-        "infinitive": "veranderen",
-        "present": "verandert",
-        "past": "veranderde",
-        "participle": "veranderd"
+      "translation": {
+        "chinese": "改变",
+        "english": "to change, to alter"
       },
-      "example": "Het weer verandert snel.",
-      "example_translation": "天气变化很快。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "veranderen",
+          "present": ["ik verander", "jij verandert", "hij/zij verandert", "wij veranderen", "jullie veranderen", "zij veranderen"],
+          "past": ["ik veranderde", "jij veranderde", "hij/zij veranderde", "wij veranderden", "jullie veranderden", "zij veranderden"],
+          "perfect": ["ben veranderd", "bent veranderd", "is veranderd", "zijn veranderd", "zijn veranderd", "zijn veranderd"]
+        }
+      },
+      "examples": [
+        "Het weer verandert snel.",
+        "De wereld verandert constant."
+      ],
+      "exampleTranslations": {
+        "chinese": ["天气变化很快。", "世界在不断变化。"],
+        "english": ["The weather changes quickly.", "The world changes constantly."]
+      },
+      "notes": "规则动词，可用 zijn 或 hebben 作助动词",
+      "difficulty": "B2"
     },
     {
       "id": 5504,
       "word": "verankeren",
-      "pos": "verb",
-      "meaning": "固定,锚定",
-      "word_forms": {
-        "infinitive": "verankeren",
-        "present": "ankert",
-        "past": "ankerde",
-        "participle": "geankerd"
+      "translation": {
+        "chinese": "固定,锚定",
+        "english": "to anchor, to fix, to secure"
       },
-      "example": "De fundering is verankerd.",
-      "example_translation": "地基已经固定。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "verankeren",
+          "present": ["ik anker", "jij ankert", "hij/zij ankert", "wij ankeren", "jullie ankeren", "zij ankeren"],
+          "past": ["ik ankerde", "jij ankerde", "hij/zij ankerde", "wij ankerden", "jullie ankerden", "zij ankerden"],
+          "perfect": ["heb geankerd", "hebt geankerd", "heeft geankerd", "hebben geankerd", "hebben geankerd", "hebben geankerd"]
+        }
+      },
+      "examples": [
+        "De fundering is verankerd.",
+        "Het schip verankerde in de haven."
+      ],
+      "exampleTranslations": {
+        "chinese": ["地基已经固定。", "船在港口锚定。"],
+        "english": ["The foundation is anchored.", "The ship anchored in the harbor."]
+      },
+      "notes": "规则动词",
+      "difficulty": "B2"
     },
     {
       "id": 5505,
       "word": "verantwoord",
-      "pos": "adjective",
-      "meaning": "负责任的",
-      "word_forms": {
-        "positive": "verantwoord",
-        "comparative": "verantwoorder"
+      "translation": {
+        "chinese": "负责任的",
+        "english": "responsible, accountable"
       },
-      "example": "Hij is verantwoord voor het project.",
-      "example_translation": "他负责这个项目。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "verantwoord",
+          "comparative": "verantwoorder",
+          "superlative": "verantwoordst"
+        }
+      },
+      "examples": [
+        "Hij is verantwoord voor het project.",
+        "Zij is een verantwoord persoon."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他负责这个项目。", "她是一个负责任的人。"],
+        "english": ["He is responsible for the project.", "She is a responsible person."]
+      },
+      "notes": "常与 voor 连用",
+      "difficulty": "B2"
     },
     {
       "id": 5506,
       "word": "verbeelding",
-      "pos": "noun",
-      "meaning": "想象力",
-      "word_forms": {
-        "singular": "verbeelding",
-        "plural": "verbeeldingen"
+      "translation": {
+        "chinese": "想象力",
+        "english": "imagination"
       },
-      "example": "Zij heeft een levendige verbeelding.",
-      "example_translation": "她有生动的想象力。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "verbeelding",
+          "plural": "verbeeldingen"
+        }
+      },
+      "examples": [
+        "Zij heeft een levendige verbeelding.",
+        "Gebruik je verbeelding."
+      ],
+      "exampleTranslations": {
+        "chinese": ["她有生动的想象力。", "运用你的想象力。"],
+        "english": ["She has a vivid imagination.", "Use your imagination."]
+      },
+      "notes": "由 verbeelden(想象)的名词形式",
+      "difficulty": "B2"
     },
     {
       "id": 5507,
       "word": "verbeteren",
-      "pos": "verb",
-      "meaning": "改善,改进",
-      "word_forms": {
-        "infinitive": "verbeteren",
-        "present": "verbetert",
-        "past": "verbeterde",
-        "participle": "verbeterd"
+      "translation": {
+        "chinese": "改善,改进",
+        "english": "to improve, to better"
       },
-      "example": "We moeten de situatie verbeteren.",
-      "example_translation": "我们必须改善这种情况。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "verbeteren",
+          "present": ["ik verbeter", "jij verbetert", "hij/zij verbetert", "wij verbeteren", "jullie verbeteren", "zij verbeteren"],
+          "past": ["ik verbeterde", "jij verbeterde", "hij/zij verbeterde", "wij verbeterden", "jullie verbeterden", "zij verbeterden"],
+          "perfect": ["heb verbeterd", "hebt verbeterd", "heeft verbeterd", "hebben verbeterd", "hebben verbeterd", "hebben verbeterd"]
+        }
+      },
+      "examples": [
+        "We moeten de situatie verbeteren.",
+        "Hij wil zich verbeteren."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我们必须改善这种情况。", "他想改善自己。"],
+        "english": ["We must improve the situation.", "He wants to improve himself."]
+      },
+      "notes": "规则动词",
+      "difficulty": "B2"
     },
     {
       "id": 5508,
       "word": "verbintenis",
-      "pos": "noun",
-      "meaning": "承诺,约定",
-      "word_forms": {
-        "singular": "verbintenis",
-        "plural": "verbintenissen"
+      "translation": {
+        "chinese": "承诺,约定",
+        "english": "commitment, obligation, pledge"
       },
-      "example": "Hij brak zijn verbintenis.",
-      "example_translation": "他违背了承诺。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "verbintenis",
+          "plural": "verbintenissen"
+        }
+      },
+      "examples": [
+        "Hij brak zijn verbintenis.",
+        "Zij ging een verbintenis aan."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他违背了承诺。", "她做出了承诺。"],
+        "english": ["He broke his commitment.", "She entered into a commitment."]
+      },
+      "notes": "法律或正式语境用语",
+      "difficulty": "B2"
     },
     {
       "id": 5509,
       "word": "verbitterd",
-      "pos": "adjective",
-      "meaning": "愤世嫉俗的,怨恨的",
-      "word_forms": {
-        "positive": "verbitterd",
-        "comparative": "verbitterder"
+      "translation": {
+        "chinese": "愤世嫉俗的,怨恨的",
+        "english": "bitter, embittered, cynical"
       },
-      "example": "Hij werd verbitterd door de ervaring.",
-      "example_translation": "这次经历让他变得愤世嫉俗。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "verbitterd",
+          "comparative": "verbitterder",
+          "superlative": "verbitterdst"
+        }
+      },
+      "examples": [
+        "Hij werd verbitterd door de ervaring.",
+        "Zij had een verbitterde houding."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这次经历让他变得愤世嫉俗。", "她有一种怨恨的态度。"],
+        "english": ["He became bitter from the experience.", "She had a bitter attitude."]
+      },
+      "notes": "由 verbitteren(使痛苦)的分词转化而来",
+      "difficulty": "B2"
     },
     {
       "id": 5510,
       "word": "verblijven",
-      "pos": "verb",
-      "meaning": "停留,住宿",
-      "word_forms": {
-        "infinitive": "verblijven",
-        "present": "verblijft",
-        "past": "verbleef",
-        "participle": "verbleven"
+      "translation": {
+        "chinese": "停留,住宿",
+        "english": "to stay, to reside"
       },
-      "example": "Waar ga je verblijven?",
-      "example_translation": "你要住在哪里?"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "verblijven",
+          "present": ["ik verblijf", "jij verblijft", "hij/zij verblijft", "wij verblijven", "jullie verblijven", "zij verblijven"],
+          "past": ["ik verbleef", "jij verbleef", "hij/zij verbleef", "wij verbleven", "jullie verbleven", "zij verbleven"],
+          "perfect": ["ben verbleven", "bent verbleven", "is verbleven", "zijn verbleven", "zijn verbleven", "zijn verbleven"]
+        }
+      },
+      "examples": [
+        "Waar ga je verblijven?",
+        "Wij verblijven in een hotel."
+      ],
+      "exampleTranslations": {
+        "chinese": ["你要住在哪里?", "我们住在酒店。"],
+        "english": ["Where will you stay?", "We are staying in a hotel."]
+      },
+      "notes": "规则动词，用 zijn 作为助动词",
+      "difficulty": "B2"
     },
     {
       "id": 5511,
       "word": "verbloemen",
-      "pos": "verb",
-      "meaning": "模糊,遮掩",
-      "word_forms": {
-        "infinitive": "verbloemen",
-        "present": "bloemt",
-        "past": "bloemde",
-        "participle": "gebloemd"
+      "translation": {
+        "chinese": "模糊,遮掩",
+        "english": "to obscure, to veil, to soften"
       },
-      "example": "De wolken bloemen de zon.",
-      "example_translation": "云层遮住了太阳。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "verbloemen",
+          "present": ["ik bloem", "jij bloemt", "hij/zij bloemt", "wij bloemen", "jullie bloemen", "zij bloemen"],
+          "past": ["ik bloemde", "jij bloemde", "hij/zij bloemde", "wij bloemden", "jullie bloemden", "zij bloemden"],
+          "perfect": ["heb gebloemd", "hebt gebloemd", "heeft gebloemd", "hebben gebloemd", "hebben gebloemd", "hebben gebloemd"]
+        }
+      },
+      "examples": [
+        "De wolken bloemen de zon.",
+        "Hij probeerde zijn pijn te verbloemen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["云层遮住了太阳。", "他试图掩饰他的痛苦。"],
+        "english": ["The clouds veil the sun.", "He tried to obscure his pain."]
+      },
+      "notes": "规则动词",
+      "difficulty": "B2"
     },
     {
       "id": 5512,
       "word": "verbranden",
-      "pos": "verb",
-      "meaning": "燃烧",
-      "word_forms": {
-        "infinitive": "verbranden",
-        "present": "brandt",
-        "past": "brandde",
-        "participle": "gebrand"
+      "translation": {
+        "chinese": "燃烧",
+        "english": "to burn, to combust"
       },
-      "example": "Het hout verbrandt snel.",
-      "example_translation": "木材燃烧得很快。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "verbranden",
+          "present": ["ik brand", "jij brandt", "hij/zij brandt", "wij branden", "jullie branden", "zij branden"],
+          "past": ["ik brandde", "jij brandde", "hij/zij brandde", "wij brandden", "jullie brandden", "zij brandden"],
+          "perfect": ["heb gebrand", "hebt gebrand", "heeft gebrand", "hebben gebrand", "hebben gebrand", "hebben gebrand"]
+        }
+      },
+      "examples": [
+        "Het hout verbrandt snel.",
+        "De brandstof verbrandt in de motor."
+      ],
+      "exampleTranslations": {
+        "chinese": ["木材燃烧得很快。", "燃料在发动机中燃烧。"],
+        "english": ["The wood burns quickly.", "The fuel combusts in the engine."]
+      },
+      "notes": "规则动词",
+      "difficulty": "B2"
     },
     {
       "id": 5513,
       "word": "verbranding",
-      "pos": "noun",
-      "meaning": "燃烧",
-      "word_forms": {
-        "singular": "verbranding",
-        "plural": "verbrandingen"
+      "translation": {
+        "chinese": "燃烧",
+        "english": "combustion, burning"
       },
-      "example": "De verbranding was heftig.",
-      "example_translation": "燃烧很剧烈。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "verbranding",
+          "plural": "verbrandingen"
+        }
+      },
+      "examples": [
+        "De verbranding was heftig.",
+        "Verbranding produceert warmte."
+      ],
+      "exampleTranslations": {
+        "chinese": ["燃烧很剧烈。", "燃烧产生热量。"],
+        "english": ["The combustion was intense.", "Combustion produces heat."]
+      },
+      "notes": "由 verbranden 的名词形式",
+      "difficulty": "B2"
     },
     {
       "id": 5514,
       "word": "verbruiken",
-      "pos": "verb",
-      "meaning": "消耗",
-      "word_forms": {
-        "infinitive": "verbruiken",
-        "present": "bruikt",
-        "past": "gebruikte",
-        "participle": "gebruikt"
+      "translation": {
+        "chinese": "消耗",
+        "english": "to consume, to use up"
       },
-      "example": "We verbruiken veel energie.",
-      "example_translation": "我们消耗很多能源。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "verbruiken",
+          "present": ["ik verbruik", "jij verbruikt", "hij/zij verbruikt", "wij verbruiken", "jullie verbruiken", "zij verbruiken"],
+          "past": ["ik verbruikte", "jij verbruikte", "hij/zij verbruikte", "wij verbruikten", "jullie verbruikten", "zij verbruikten"],
+          "perfect": ["heb verbruikt", "hebt verbruikt", "heeft verbruikt", "hebben verbruikt", "hebben verbruikt", "hebben verbruikt"]
+        }
+      },
+      "examples": [
+        "We verbruiken veel energie.",
+        "De auto verbruikt veel benzine."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我们消耗很多能源。", "这辆车耗油量大。"],
+        "english": ["We consume a lot of energy.", "The car consumes a lot of gasoline."]
+      },
+      "notes": "规则动词",
+      "difficulty": "B2"
     },
     {
       "id": 5515,
       "word": "verdediging",
-      "pos": "noun",
-      "meaning": "辩护,防守",
-      "word_forms": {
-        "singular": "verdediging",
-        "plural": "verdedigingen"
+      "translation": {
+        "chinese": "辩护,防守",
+        "english": "defense, protection"
       },
-      "example": "De verdediging was sterk.",
-      "example_translation": "防守很强。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "verdediging",
+          "plural": "verdedigingen"
+        }
+      },
+      "examples": [
+        "De verdediging was sterk.",
+        "Hij voerde zijn verdediging."
+      ],
+      "exampleTranslations": {
+        "chinese": ["防守很强。", "他进行了辩护。"],
+        "english": ["The defense was strong.", "He conducted his defense."]
+      },
+      "notes": "既可用于体育比赛，也可用于法律辩护",
+      "difficulty": "B2"
     },
     {
       "id": 5516,
       "word": "verdieping",
-      "pos": "noun",
-      "meaning": "楼层",
-      "word_forms": {
-        "singular": "verdieping",
-        "plural": "verdiepingen"
+      "translation": {
+        "chinese": "楼层",
+        "english": "floor, story"
       },
-      "example": "We wonen op de tweede verdieping.",
-      "example_translation": "我们住在二楼。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "verdieping",
+          "plural": "verdiepingen"
+        }
+      },
+      "examples": [
+        "We wonen op de tweede verdieping.",
+        "Het gebouw heeft vijf verdiepingen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我们住在二楼。", "这栋楼有五层。"],
+        "english": ["We live on the second floor.", "The building has five floors."]
+      },
+      "notes": "荷兰语楼层从下往上计数，地面层是 begane grond",
+      "difficulty": "B2"
     },
     {
       "id": 5517,
       "word": "verdrietig",
-      "pos": "adjective",
-      "meaning": "悲伤的",
-      "word_forms": {
-        "positive": "verdrietig",
-        "comparative": "verdrietiger"
+      "translation": {
+        "chinese": "悲伤的",
+        "english": "sad, sorrowful"
       },
-      "example": "Ze voelde zich verdrietig.",
-      "example_translation": "她感到悲伤。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "verdrietig",
+          "comparative": "verdrietiger",
+          "superlative": "verdrietigst"
+        }
+      },
+      "examples": [
+        "Ze voelde zich verdrietig.",
+        "Het is een verdrietig verhaal."
+      ],
+      "exampleTranslations": {
+        "chinese": ["她感到悲伤。", "这是一个悲伤的故事。"],
+        "english": ["She felt sad.", "It is a sad story."]
+      },
+      "notes": "由 verdriet(悲伤)+ig(形容词后缀)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5518,
       "word": "verdrijven",
-      "pos": "verb",
-      "meaning": "驱散,驱逐",
-      "word_forms": {
-        "infinitive": "verdrijven",
-        "present": "drijft",
-        "past": "dreef",
-        "participle": "gedreven"
+      "translation": {
+        "chinese": "驱散,驱逐",
+        "english": "to drive away, to dispel, to chase"
       },
-      "example": "De politie dreef de demonstranten.",
-      "example_translation": "警察驱散了示威者。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "verdrijven",
+          "present": ["ik verdrijf", "jij verdrijft", "hij/zij verdrijft", "wij verdrijven", "jullie verdrijven", "zij verdrijven"],
+          "past": ["ik dreef", "jij dreef", "hij/zij dreef", "wij dreven", "jullie dreven", "zij dreven"],
+          "perfect": ["heb verdreven", "hebt verdreven", "heeft verdreven", "hebben verdreven", "hebben verdreven", "hebben verdreven"]
+        }
+      },
+      "examples": [
+        "De politie dreef de demonstranten.",
+        "Hij verdreef zijn angst."
+      ],
+      "exampleTranslations": {
+        "chinese": ["警察驱散了示威者。", "他驱散了恐惧。"],
+        "english": ["The police drove away the demonstrators.", "He dispelled his fear."]
+      },
+      "notes": "不规则动词",
+      "difficulty": "B2"
     },
     {
       "id": 5519,
       "word": "verdringen",
-      "pos": "verb",
-      "meaning": "挤开,推开",
-      "word_forms": {
-        "infinitive": "verdringen",
-        "present": "dringt",
-        "past": "drong",
-        "participle": "gedrongen"
+      "translation": {
+        "chinese": "挤开,推开",
+        "english": "to push aside, to shove, to elbow"
       },
-      "example": "Hij drong zich naar voren.",
-      "example_translation": "他挤到了前面。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "verdringen",
+          "present": ["ik verdwing", "jij verdwingt", "hij/zij verdwingt", "wij verdwingen", "jullie verdwingen", "zij verdwingen"],
+          "past": ["ik drong", "jij drong", "hij/zij drong", "wij drongen", "jullie drongen", "zij drongen"],
+          "perfect": ["ben verdrongen", "bent verdrongen", "is verdrongen", "zijn verdrongen", "zijn verdrongen", "zijn verdrongen"]
+        }
+      },
+      "examples": [
+        "Hij drong zich naar voren.",
+        "Verdring je niet."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他挤到了前面。", "不要推挤。"],
+        "english": ["He pushed his way forward.", "Don't push."]
+      },
+      "notes": "不规则动词，用 zijn 作为助动词",
+      "difficulty": "B2"
     },
     {
       "id": 5520,
       "word": "verdrinken",
-      "pos": "verb",
-      "meaning": "淹死",
-      "word_forms": {
-        "infinitive": "verdrinken",
-        "present": "drenkt",
-        "past": "dronk",
-        "participle": "gedronken"
+      "translation": {
+        "chinese": "淹死",
+        "english": "to drown"
       },
-      "example": "De hond dreigde te verdrinken.",
-      "example_translation": "狗有淹死的危险。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "verdrinken",
+          "present": ["ik verdwijn", "jij verdwijnt", "hij/zij verdwijnt", "wij verdwijnen", "jullie verdwijnen", "zij verdwijnen"],
+          "past": ["ik verdronk", "jij verdronk", "hij/zij verdronk", "wij verdronken", "jullie verdronken", "zij verdronken"],
+          "perfect": ["ben verdronken", "bent verdronken", "is verdronken", "zijn verdronken", "zijn verdronken", "zijn verdronken"]
+        }
+      },
+      "examples": [
+        "De hond dreigde te verdrinken.",
+        "Hij verdronk in het meer."
+      ],
+      "exampleTranslations": {
+        "chinese": ["狗有淹死的危险。", "他在湖里淹死了。"],
+        "english": ["The dog was in danger of drowning.", "He drowned in the lake."]
+      },
+      "notes": "不规则动词，用 zijn 作为助动词",
+      "difficulty": "B2"
     },
     {
       "id": 5521,
       "word": "verdubbelen",
-      "pos": "verb",
-      "meaning": "加倍,翻倍",
-      "word_forms": {
-        "infinitive": "verdubbelen",
-        "present": "verdubbelt",
-        "past": "verdubbelde",
-        "participle": "verdubbeld"
+      "translation": {
+        "chinese": "加倍,翻倍",
+        "english": "to double, to duplicate"
       },
-      "example": "De bevolking verdubbelde.",
-      "example_translation": "人口翻倍了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "verdubbelen",
+          "present": ["ik verdubbel", "jij verdubbelt", "hij/zij verdubbelt", "wij verdubbelen", "jullie verdubbelen", "zij verdubbelen"],
+          "past": ["ik verdubbelde", "jij verdubbelde", "hij/zij verdubbelde", "wij verdubbelden", "jullie verdubbelden", "zij verdubbelden"],
+          "perfect": ["heb verdubbeld", "hebt verdubbeld", "heeft verdubbeld", "hebben verdubbeld", "hebben verdubbeld", "hebben verdubbeld"]
+        }
+      },
+      "examples": [
+        "De bevolking verdubbelde.",
+        "De prijs verdubbelde in een jaar."
+      ],
+      "exampleTranslations": {
+        "chinese": ["人口翻倍了。", "价格在一年内翻倍了。"],
+        "english": ["The population doubled.", "The price doubled in a year."]
+      },
+      "notes": "规则动词",
+      "difficulty": "B2"
     },
     {
       "id": 5522,
       "word": "verdwijnen",
-      "pos": "verb",
-      "meaning": "消失",
-      "word_forms": {
-        "infinitive": "verdwijnen",
-        "present": "wijnt",
-        "past": "wijn",
-        "participle": "gewijnt"
+      "translation": {
+        "chinese": "消失",
+        "english": "to disappear, to vanish"
       },
-      "example": "De sterren verdwijnen.",
-      "example_translation": "星星消失了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "verdwijnen",
+          "present": ["ik verdwijn", "jij verdwijnt", "hij/zij verdwijnt", "wij verdwijnen", "jullie verdwijnen", "zij verdwijnen"],
+          "past": ["ik verdween", "jij verdween", "hij/zij verdween", "wij verdwenen", "jullie verdwenen", "zij verdwenen"],
+          "perfect": ["ben verdwenen", "bent verdwenen", "is verdwenen", "zijn verdwenen", "zijn verdwenen", "zijn verdwenen"]
+        }
+      },
+      "examples": [
+        "De sterren verdwijnen.",
+        "Hij verdween in de menigte."
+      ],
+      "exampleTranslations": {
+        "chinese": ["星星消失了。", "他消失在人群中。"],
+        "english": ["The stars disappear.", "He disappeared in the crowd."]
+      },
+      "notes": "不规则动词，用 zijn 作为助动词",
+      "difficulty": "B2"
     },
     {
       "id": 5523,
       "word": "vereniging",
-      "pos": "noun",
-      "meaning": "协会,社团",
-      "word_forms": {
-        "singular": "vereniging",
-        "plural": "verenigingen"
+      "translation": {
+        "chinese": "协会,社团",
+        "english": "association, club, society"
       },
-      "example": "De vereniging organiseert evenementen.",
-      "example_translation": "协会组织活动。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "vereniging",
+          "plural": "verenigingen"
+        }
+      },
+      "examples": [
+        "De vereniging organiseert evenementen.",
+        "Hij is lid van een vereniging."
+      ],
+      "exampleTranslations": {
+        "chinese": ["协会组织活动。", "他是协会的成员。"],
+        "english": ["The association organizes events.", "He is a member of an association."]
+      },
+      "notes": "由 verenigen(联合)的名词形式",
+      "difficulty": "B2"
     },
     {
       "id": 5524,
       "word": "verergeren",
-      "pos": "verb",
-      "meaning": "恶化",
-      "word_forms": {
-        "infinitive": "verergeren",
-        "present": "ergert",
-        "past": "ergere",
-        "participle": "gergereerd"
+      "translation": {
+        "chinese": "恶化",
+        "english": "to worsen, to aggravate"
       },
-      "example": "De situatie verergert.",
-      "example_translation": "情况正在恶化。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "verergeren",
+          "present": ["ik verger", "jij verergert", "hij/zij verergert", "wij vergeren", "jullie vergeren", "zij vergeren"],
+          "past": ["ik vergerde", "jij vergerde", "hij/zij vergerde", "wij vergerden", "jullie vergerden", "zij vergerden"],
+          "perfect": ["ben vergerd", "bent vergerd", "is vergerd", "zijn vergerd", "zijn vergerd", "zijn vergerd"]
+        }
+      },
+      "examples": [
+        "De situatie verergert.",
+        "Zijn toestand vergerde."
+      ],
+      "exampleTranslations": {
+        "chinese": ["情况正在恶化。", "他的状况恶化了。"],
+        "english": ["The situation is worsening.", "His condition worsened."]
+      },
+      "notes": "规则动词，可用 zijn 或 hebben 作助动词",
+      "difficulty": "B2"
     },
     {
       "id": 5525,
       "word": "verfrissend",
-      "pos": "adjective",
-      "meaning": "清爽的,令人耳目一新的",
-      "word_forms": {
-        "positive": "verfrissend",
-        "comparative": "verfrissender"
+      "translation": {
+        "chinese": "清爽的,令人耳目一新的",
+        "english": "refreshing, invigorating"
       },
-      "example": "De wind was verfrissend.",
-      "example_translation": "风很清爽。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "positive": "verfrissend",
+          "comparative": "verfrissender",
+          "superlative": "verfrissendst"
+        }
+      },
+      "examples": [
+        "De wind was verfrissend.",
+        "Een verfrissende douche."
+      ],
+      "exampleTranslations": {
+        "chinese": ["风很清爽。", "令人清爽的淋浴。"],
+        "english": ["The wind was refreshing.", "A refreshing shower."]
+      },
+      "notes": "由 verfrissen(使清爽)转化而来",
+      "difficulty": "B2"
     },
     {
       "id": 5526,
       "word": "vergelijken",
-      "pos": "verb",
-      "meaning": "比较",
-      "word_forms": {
-        "infinitive": "vergelijken",
-        "present": "vergelijkt",
-        "past": "vergeleek",
-        "participle": "vergeleken"
+      "translation": {
+        "chinese": "比较",
+        "english": "to compare"
       },
-      "example": "Vergelijk de twee producten.",
-      "example_translation": "比较这两个产品。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "isSeparable": false,
+          "prefix": "",
+          "infinitive": "vergelijken",
+          "present": ["ik vergelijk", "jij vergelijkt", "hij/zij vergelijkt", "wij vergelijken", "jullie vergelijken", "zij vergelijken"],
+          "past": ["ik vergeleek", "jij vergeleek", "hij/zij vergeleek", "wij vergeleken", "jullie vergeleken", "zij vergeleken"],
+          "perfect": ["heb vergeleken", "hebt vergeleken", "heeft vergeleken", "hebben vergeleken", "hebben vergeleken", "hebben vergeleken"]
+        }
+      },
+      "examples": [
+        "Vergelijk de twee producten.",
+        "Vergelijkbaar met andere landen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["比较这两个产品。", "与其他国家相比。"],
+        "english": ["Compare the two products.", "Comparable to other countries."]
+      },
+      "notes": "不规则动词",
+      "difficulty": "B2"
     }
   ]
 }

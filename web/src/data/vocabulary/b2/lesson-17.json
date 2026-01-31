@@ -1,634 +1,1868 @@
 {
+  "id": "lB217",
+  "level": "B2",
+  "lessonNumber": 17,
+  "totalWords": 30,
   "words": [
     {
       "id": 5078,
       "word": "ontfutselen",
-      "pos": "verb",
-      "meaning": "骗取,诱骗",
-      "word_forms": {
-        "infinitive": "ontfutselen",
-        "present": "futselt ont",
-        "past": "futselde ont",
-        "participle": "ontfutseld"
+      "translation": {
+        "chinese": "骗取,诱骗",
+        "english": "to lure away, to steal"
       },
-      "example": "Hij wist het geheim te ontfutselen.",
-      "example_translation": "他设法骗取了这个秘密。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontfutselen",
+          "isSeparable": false,
+          "present": {
+            "ik": "futsel ont",
+            "jij": "futselt ont",
+            "hij": "futselt ont",
+            "wij": "futselen ont",
+            "jullie": "futselen ont",
+            "zij": "futselen ont"
+          },
+          "past": {
+            "singular": "futselde ont",
+            "plural": "futselden ont"
+          },
+          "pastParticiple": "ontfutseld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij wist het geheim te ontfutselen.",
+        "De dieven probeerden de klant te ontfutselen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他设法骗取了这个秘密。",
+          "小偷们试图诱骗顾客。"
+        ],
+        "english": [
+          "He managed to steal the secret.",
+          "The thieves tried to lure the customer."
+        ]
+      },
+      "notes": "不可分动词，futselen意为取/抓",
+      "difficulty": "B2"
     },
     {
       "id": 5079,
       "word": "onthaasten",
-      "pos": "verb",
-      "meaning": "减压,放松",
-      "word_forms": {
-        "infinitive": "onthaasten",
-        "present": "thaast ont",
-        "past": "thaaste ont",
-        "participle": "onthaast"
+      "translation": {
+        "chinese": "减压,放松",
+        "english": "to relax, to unwind"
       },
-      "example": "Ik ga weekenden onthaasten.",
-      "example_translation": "我要周末放松一下。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onthaasten",
+          "isSeparable": false,
+          "present": {
+            "ik": "thaast ont",
+            "jij": "thaast ont",
+            "hij": "thaast ont",
+            "wij": "thaasten ont",
+            "jullie": "thaasten ont",
+            "zij": "thaasten ont"
+          },
+          "past": {
+            "singular": "thaaste ont",
+            "plural": "thaasten ont"
+          },
+          "pastParticiple": "onthaast",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik ga weekenden onthaasten.",
+        "Zij onthaastte na een lange werkdag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我要周末放松一下。",
+          "她在长工作日后放松了。"
+        ],
+        "english": [
+          "I want to relax on the weekend.",
+          "She relaxed after a long workday."
+        ]
+      },
+      "notes": "不可分动词，haasten意为匆忙",
+      "difficulty": "B2"
     },
     {
       "id": 5080,
       "word": "onthutsend",
-      "pos": "adjective",
-      "meaning": "令人震惊的,令人恐惧的",
-      "word_forms": {
-        "positive": "onthutsend",
-        "comparative": "onthutsender"
+      "translation": {
+        "chinese": "令人震惊的,令人恐惧的",
+        "english": "shocking, terrifying"
       },
-      "example": "Het nieuws was onthutsend.",
-      "example_translation": "这条新闻令人震惊。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onthutsend",
+          "withDe": "onthutsende",
+          "withHet": "onthutsende",
+          "comparative": "onthutsender",
+          "superlative": "onthutsendst"
+        }
+      },
+      "examples": [
+        "Het nieuws was onthutsend.",
+        "De onthutsende beelden gingen de wereld rond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这条新闻令人震惊。",
+          "震惊的图片传遍了全世界。"
+        ],
+        "english": [
+          "The news was shocking.",
+          "The shocking images went around the world."
+        ]
+      },
+      "notes": "形容词，hutsend意为震惊/惊恐",
+      "difficulty": "B2"
     },
     {
       "id": 5081,
       "word": "ontiegelijk",
-      "pos": "adjective",
-      "meaning": "极度的,过度的",
-      "word_forms": {
-        "positive": "ontiegelijk",
-        "comparative": "ontiegelijker"
+      "translation": {
+        "chinese": "极度的,过度的",
+        "english": "extreme, excessive"
       },
-      "example": "Het was ontielukkig gedrag.",
-      "example_translation": "这是一种极端的行为。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ontiegelijk",
+          "withDe": "ontiegelijke",
+          "withHet": "ontiegelijke",
+          "comparative": "ontiegelijker",
+          "superlative": "ontiegelijkst"
+        }
+      },
+      "examples": [
+        "Het was ontielukkig gedrag.",
+        "We moeten de ontielukkige hitte voorkomen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一种极端的行为。",
+          "我们必须防止这种过热。"
+        ],
+        "english": [
+          "This was extreme behavior.",
+          "We must prevent this excessive heat."
+        ]
+      },
+      "notes": "形容词，tielukkig意为不快乐的",
+      "difficulty": "B2"
     },
     {
       "id": 5082,
       "word": "ontkennend",
-      "pos": "adjective",
-      "meaning": "否认的",
-      "word_forms": {
-        "positive": "ontkennend",
-        "comparative": "ontkennender"
+      "translation": {
+        "chinese": "否认的",
+        "english": "denying, negative"
       },
-      "example": "Hij gaf een ontkennend antwoord.",
-      "example_translation": "他给出了否定的回答。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ontkennend",
+          "withDe": "ontkennende",
+          "withHet": "ontkennende",
+          "comparative": "ontkennender",
+          "superlative": "ontkennendst"
+        }
+      },
+      "examples": [
+        "Hij gaf een ontkennend antwoord.",
+        "De ontkennende verklaring werd verworpen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他给出了否定的回答。",
+          "否认的声明被驳回。"
+        ],
+        "english": [
+          "He gave a negative answer.",
+          "The denying statement was rejected."
+        ]
+      },
+      "notes": "形容词，kennen意为知道",
+      "difficulty": "B2"
     },
     {
       "id": 5083,
       "word": "ontketenen",
-      "pos": "verb",
-      "meaning": "引发,发动",
-      "word_forms": {
-        "infinitive": "ontketenen",
-        "present": "ketent ont",
-        "past": "ketende ont",
-        "participle": "ontketend"
+      "translation": {
+        "chinese": "引发,发动",
+        "english": "to trigger, to set in motion"
       },
-      "example": "De crisis ontkende een storm van kritiek.",
-      "example_translation": "危机引发了一场批评风暴。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontketenen",
+          "isSeparable": false,
+          "present": {
+            "ik": "ketent ont",
+            "jij": "ketent ont",
+            "hij": "ketent ont",
+            "wij": "ketenen ont",
+            "jullie": "ketenen ont",
+            "zij": "ketenen ont"
+          },
+          "past": {
+            "singular": "ketende ont",
+            "plural": "ketenden ont"
+          },
+          "pastParticiple": "ontketend",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De crisis ontkende een storm van kritiek.",
+        "Zijn woorden ontkenden een hevige discussie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "危机引发了一场批评风暴。",
+          "他的话语引发了激烈争论。"
+        ],
+        "english": [
+          "The crisis triggered a storm of criticism.",
+          "His words triggered a heated discussion."
+        ]
+      },
+      "notes": "不可分动词，ketenen意为连锁",
+      "difficulty": "B2"
     },
     {
       "id": 5084,
       "word": "ontknoping",
-      "pos": "noun",
-      "meaning": "结局,转折点",
-      "word_forms": {
-        "singular": "ontknoping",
-        "plural": "ontknopingen"
+      "translation": {
+        "chinese": "结局,转折点",
+        "english": "turning point, climax, ending"
       },
-      "example": "De ontknoping van het verhaal was verrassend.",
-      "example_translation": "故事的结局令人惊讶。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ontknoping",
+          "plural": "ontknopingen"
+        }
+      },
+      "examples": [
+        "De ontknoping van het verhaal was verrassend.",
+        "Het seizoen bereikte zijn ontknoping."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "故事的结局令人惊讶。",
+          "赛季达到了转折点。"
+        ],
+        "english": [
+          "The turning point of the story was surprising.",
+          "The season reached its climax."
+        ]
+      },
+      "notes": "阴性名词，由knoping(转折)+ont-前缀组成",
+      "difficulty": "B2"
     },
     {
       "id": 5085,
       "word": "ontkrachten",
-      "pos": "verb",
-      "meaning": "驳斥,削弱",
-      "word_forms": {
-        "infinitive": "ontkrachten",
-        "present": "kracht ont",
-        "past": "kachtte ont",
-        "participle": "ontkracht"
+      "translation": {
+        "chinese": "驳斥,削弱",
+        "english": "to undermine, to discredit"
       },
-      "example": "De feiten ontkrachten zijn bewering.",
-      "example_translation": "事实驳斥了他的断言。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontkrachten",
+          "isSeparable": false,
+          "present": {
+            "ik": "kracht ont",
+            "jij": "kracht ont",
+            "hij": "kracht ont",
+            "wij": "krachten ont",
+            "jullie": "krachten ont",
+            "zij": "krachten ont"
+          },
+          "past": {
+            "singular": "kachtte ont",
+            "plural": "kachtten ont"
+          },
+          "pastParticiple": "ontkracht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De feiten ontkrachten zijn bewering.",
+        "Zij ontkrachtte zijn autoriteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "事实驳斥了他的断言。",
+          "她削弱了他的权威。"
+        ],
+        "english": [
+          "The facts undermined his assertion.",
+          "She discredited his authority."
+        ]
+      },
+      "notes": "不可分动词，krachten意为力量",
+      "difficulty": "B2"
     },
     {
       "id": 5086,
       "word": "ontlasting",
-      "pos": "noun",
-      "meaning": "排便",
-      "word_forms": {
-        "singular": "ontlasting",
-        "plural": "ontlastingen"
+      "translation": {
+        "chinese": "排便",
+        "english": "bowel movement, defecation"
       },
-      "example": "De patiënt had last van ontlasting.",
-      "example_translation": "患者有排便问题。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ontlasting",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De patiënt had last van ontlasting.",
+        "Het is belangrijk om regelmatig te ontlasten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "患者有排便问题。",
+          "定期排便很重要。"
+        ],
+        "english": [
+          "The patient had trouble with bowel movements.",
+          "It's important to have regular bowel movements."
+        ]
+      },
+      "notes": "阴性名词，通常不可数",
+      "difficulty": "B2"
     },
     {
       "id": 5087,
       "word": "ontmantelen",
-      "pos": "verb",
-      "meaning": "拆除,拆解",
-      "word_forms": {
-        "infinitive": "ontmantelen",
-        "present": "mantelt ont",
-        "past": "mantelde ont",
-        "participle": "ontmanteld"
+      "translation": {
+        "chinese": "拆除,拆解",
+        "english": "to dismantle, to take apart"
       },
-      "example": "Het bedrijf gaat de fabriek ontmantelen.",
-      "example_translation": "公司将拆除这家工厂。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontmantelen",
+          "isSeparable": false,
+          "present": {
+            "ik": "mantel ont",
+            "jij": "mantelt ont",
+            "hij": "mantelt ont",
+            "wij": "mantelen ont",
+            "jullie": "mantelen ont",
+            "zij": "mantelen ont"
+          },
+          "past": {
+            "singular": "mantelde ont",
+            "plural": "mantelden ont"
+          },
+          "pastParticiple": "ontmanteld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het bedrijf gaat de fabriek ontmantelen.",
+        "De politie ontmantelde het wapen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司将拆除这家工厂。",
+          "警察拆除了武器。"
+        ],
+        "english": [
+          "The company will dismantle the factory.",
+          "The police dismantled the weapon."
+        ]
+      },
+      "notes": "不可分动词，mantelen意为包裹",
+      "difficulty": "B2"
     },
     {
       "id": 5088,
       "word": "ontmoedigen",
-      "pos": "verb",
-      "meaning": "使气馁,劝阻",
-      "word_forms": {
-        "infinitive": "ontmoedigen",
-        "present": "moedigt ont",
-        "past": "moedigde ont",
-        "participle": "ontmoedigd"
+      "translation": {
+        "chinese": "使气馁,劝阻",
+        "english": "to discourage, to deter"
       },
-      "example": "Niemand ontmoedigde hem om het te proberen.",
-      "example_translation": "没有人劝阻他尝试。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontmoedigen",
+          "isSeparable": false,
+          "present": {
+            "ik": "moedig ont",
+            "jij": "moedigt ont",
+            "hij": "moedigt ont",
+            "wij": "moedigen ont",
+            "jullie": "moedigen ont",
+            "zij": "moedigen ont"
+          },
+          "past": {
+            "singular": "moedigde ont",
+            "plural": "moedigden ont"
+          },
+          "pastParticiple": "ontmoedigd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Niemand ontmoeidgde hem om het te proberen.",
+        "De regering ontmoeidigde het plan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "没有人劝阻他尝试。",
+          "政府使这个计划气馁。"
+        ],
+        "english": [
+          "No one discouraged him from trying.",
+          "The government disheartened the plan."
+        ]
+      },
+      "notes": "不可分动词，moedigen意为使气馁",
+      "difficulty": "B2"
     },
     {
       "id": 5089,
       "word": "ontploffen",
-      "pos": "verb",
-      "meaning": "爆炸",
-      "word_forms": {
-        "infinitive": "ontploffen",
-        "present": "ploft ont",
-        "past": "plofte ont",
-        "participle": "ontploft"
+      "translation": {
+        "chinese": "爆炸",
+        "english": "to explode, to burst"
       },
-      "example": "De bom plofte ont bij de ingang.",
-      "example_translation": "炸弹在入口处爆炸了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontploffen",
+          "isSeparable": false,
+          "present": {
+            "ik": "plof ont",
+            "jij": "ploft ont",
+            "hij": "ploft ont",
+            "wij": "ploffen ont",
+            "jullie": "ploffen ont",
+            "zij": "ploffen ont"
+          },
+          "past": {
+            "singular": "plofte ont",
+            "plural": "ploften ont"
+          },
+          "pastParticiple": "ontploft",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De bom plofte ont bij de ingang.",
+        "Er ontplofte een gasleiding."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "炸弹在入口处爆炸了。",
+          "一条煤气管道爆炸了。"
+        ],
+        "english": [
+          "The bomb exploded at the entrance.",
+          "A gas pipeline exploded."
+        ]
+      },
+      "notes": "不可分动词，ploffen意为爆炸",
+      "difficulty": "B2"
     },
     {
       "id": 5090,
-      "word": "ontplooien",
-      "pos": "verb",
-      "meaning": "展开,展示",
-      "word_forms": {
-        "infinitive": "ontplooien",
-        "present": "plooit ont",
-        "past": "plooide ont",
-        "participle": "ontploid"
+      "word": "ontplooiën",
+      "translation": {
+        "chinese": "展开,展示",
+        "english": "to unfold, to display"
       },
-      "example": "Zij ontlooid haar plannen aan het team.",
-      "example_translation": "她向团队展示了自己的计划。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontplooien",
+          "isSeparable": false,
+          "present": {
+            "ik": "plooit ont",
+            "jij": "plooit ont",
+            "hij": "plooit ont",
+            "wij": "plooien ont",
+            "jullie": "plooien ont",
+            "zij": "plooien ont"
+          },
+          "past": {
+            "singular": "plooiden ont",
+            "plural": "plooiden ont"
+          },
+          "pastParticiple": "ontploid",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Zij ontplooid haar plannen aan het team.",
+        "Het landkaart ontplooid zich langzaam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她向团队展示了自己的计划。",
+          "地图缓慢展开了。"
+        ],
+        "english": [
+          "She unfolded her plans to the team.",
+          "The map unfolded slowly."
+        ]
+      },
+      "notes": "不可分动词，plooien意为折叠",
+      "difficulty": "B2"
     },
     {
       "id": 5091,
       "word": "ontpolderen",
-      "pos": "verb",
-      "meaning": "围垦,排干",
-      "word_forms": {
-        "infinitive": "ontpolderen",
-        "present": "polderd ont",
-        "past": "polderde ont",
-        "participle": "ontpolderd"
+      "translation": {
+        "chinese": "围垦,排干",
+        "english": "to reclaim, to drain"
       },
-      "example": "Het gebied is ontpolderd in de jaren zestig.",
-      "example_translation": "这片地区在六十年代被围垦了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontpolderen",
+          "isSeparable": false,
+          "present": {
+            "ik": "polder ont",
+            "jij": "polderd ont",
+            "hij": "polderd ont",
+            "wij": "polderen ont",
+            "jullie": "polderen ont",
+            "zij": "polderen ont"
+          },
+          "past": {
+            "singular": "polderde ont",
+            "plural": "polderden ont"
+          },
+          "pastParticiple": "ontpolderd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het gebied is ontpolderd in de jaren zestig.",
+        "De boeren ontpolderden het veen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这片地区在六十年代被围垦了。",
+          "农民们排干了沼泽地。"
+        ],
+        "english": [
+          "The area was reclaimed in the sixties.",
+          "The farmers drained the marshland."
+        ]
+      },
+      "notes": "不可分动词，polder意为圩田",
+      "difficulty": "B2"
     },
     {
       "id": 5092,
       "word": "ontrafelen",
-      "pos": "verb",
-      "meaning": "拆解,解开",
-      "word_forms": {
-        "infinitive": "ontrafelen",
-        "present": "rafelt ont",
-        "past": "rafelde ont",
-        "participle": "ontrafeld"
+      "translation": {
+        "chinese": "拆解,解开",
+        "english": "to unravel, to undo"
       },
-      "example": "De politie ontrafelde het complot.",
-      "example_translation": "警方拆解了这个阴谋。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontrafelen",
+          "isSeparable": false,
+          "present": {
+            "ik": "rafel ont",
+            "jij": "rafelt ont",
+            "hij": "rafelt ont",
+            "wij": "rafielen ont",
+            "jullie": "rafielen ont",
+            "zij": "rafielen ont"
+          },
+          "past": {
+            "singular": "rafielde ont",
+            "plural": "rafelden ont"
+          },
+          "pastParticiple": "ontrafeld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De politie ontrafelde het complot.",
+        "Het is moeilijk om de knoop ontrafelen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "警方拆解了这个阴谋。",
+          "很难解开这个结。"
+        ],
+        "english": [
+          "The police dismantled the conspiracy.",
+          "It's difficult to unravel this knot."
+        ]
+      },
+      "notes": "不可分动词，rafelen意为编织",
+      "difficulty": "B2"
     },
     {
       "id": 5093,
       "word": "ontregelen",
-      "pos": "verb",
-      "meaning": "扰乱,打乱",
-      "word_forms": {
-        "infinitive": "ontregelen",
-        "present": "regelt ont",
-        "past": "regelde ont",
-        "participle": "ontgeregeld"
+      "translation": {
+        "chinese": "扰乱,打乱",
+        "english": "to disrupt, to disturb"
       },
-      "example": "De staking ontregelt het treinverkeer.",
-      "example_translation": "罢工扰乱了铁路交通。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontregelen",
+          "isSeparable": false,
+          "present": {
+            "ik": "regel ont",
+            "jij": "regelt ont",
+            "hij": "regelt ont",
+            "wij": "regelen ont",
+            "jullie": "regelen ont",
+            "zij": "regelen ont"
+          },
+          "past": {
+            "singular": "regelde ont",
+            "plural": "regelden ont"
+          },
+          "pastParticiple": "ontgeregeld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De staking ontwrgelde het treinverkeer.",
+        "De chaos ontwrgelde de bijeenkomst."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "罢工扰乱了铁路交通。",
+          "混乱影响了聚会。"
+        ],
+        "english": [
+          "The strike disrupted the railway traffic.",
+          "The chaos disrupted the gathering."
+        ]
+      },
+      "notes": "不可分动词，regelen意为安排",
+      "difficulty": "B2"
     },
     {
       "id": 5094,
       "word": "ontroerend",
-      "pos": "adjective",
-      "meaning": "感人的,动人的",
-      "word_forms": {
-        "positive": "ontroerend",
-        "comparative": "ontroerender"
+      "translation": {
+        "chinese": "感人的,动人的",
+        "english": "touching, moving"
       },
-      "example": "Het verhaal was erg ontroerend.",
-      "example_translation": "这个故事非常感人。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ontroerend",
+          "withDe": "ontroerende",
+          "withHet": "ontroerende",
+          "comparative": "ontroerender",
+          "superlative": "ontroerendst"
+        }
+      },
+      "examples": [
+        "Het verhaal was erg ontroerend.",
+        "De ontroerende muziek bracht me tot tranen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个故事非常感人。",
+          "动人的音乐让我落泪。"
+        ],
+        "english": [
+          "The story was very touching.",
+          "The moving music brought me to tears."
+        ]
+      },
+      "notes": "形容词，roeren意为感动",
+      "difficulty": "B2"
     },
     {
       "id": 5095,
       "word": "ontsluiten",
-      "pos": "verb",
-      "meaning": "解锁,开放",
-      "word_forms": {
-        "infinitive": "ontsluiten",
-        "present": "sluit ont",
-        "past": "sloot ont",
-        "participle": "ontsluit"
+      "translation": {
+        "chinese": "解锁,开放",
+        "english": "to unlock, to open"
       },
-      "example": "Het nieuwe park ontsluit de wijk.",
-      "example_translation": "新公园开放了这个街区。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontsluiten",
+          "isSeparable": false,
+          "present": {
+            "ik": "sluit ont",
+            "jij": "sluit ont",
+            "hij": "sluit ont",
+            "wij": "sluiten ont",
+            "jullie": "sluiten ont",
+            "zij": "sluiten ont"
+          },
+          "past": {
+            "singular": "sloot ont",
+            "plural": "sloten ont"
+          },
+          "pastParticiple": "ontsloten",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Het nieuwe park ontsluit de wijk.",
+        "Deuren werden ontsloten voor het publiek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "新公园开放了这个街区。",
+          "大门向公众开放。"
+        ],
+        "english": [
+          "The new park opened the neighborhood.",
+          "The doors were unlocked for the public."
+        ]
+      },
+      "notes": "不可分动词，sluiten意为关闭",
+      "difficulty": "B2"
     },
     {
       "id": 5096,
       "word": "ontsmetten",
-      "pos": "verb",
-      "meaning": "消毒,杀菌",
-      "word_forms": {
-        "infinitive": "ontsmetten",
-        "present": "smett ont",
-        "past": "smette ont",
-        "participle": "ontsmet"
+      "translation": {
+        "chinese": "消毒,杀菌",
+        "english": "to disinfect, to sterilize"
       },
-      "example": "Het personeel moet de handen ontsmetten.",
-      "example_translation": "员工必须对手进行消毒。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontsmetten",
+          "isSeparable": false,
+          "present": {
+            "ik": "smett ont",
+            "jij": "smett ont",
+            "hij": "smett ont",
+            "wij": "smetten ont",
+            "jullie": "smetten ont",
+            "zij": "smetten ont"
+          },
+          "past": {
+            "singular": "smette ont",
+            "plural": "smetten ont"
+          },
+          "pastParticiple": "ontsmet",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het personeel moet de handen ontsmetten.",
+        "De operatiekamer wordt ontsmet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "员工必须对手进行消毒。",
+          "手术室被消毒了。"
+        ],
+        "english": [
+          "Staff must disinfect their hands.",
+          "The operating room was disinfected."
+        ]
+      },
+      "notes": "不可分动词，smetten意为消毒",
+      "difficulty": "B2"
     },
     {
       "id": 5097,
       "word": "ontsnappen",
-      "pos": "verb",
-      "meaning": "逃脱",
-      "word_forms": {
-        "infinitive": "ontsnappen",
-        "present": "snapt ont",
-        "past": "snapte ont",
-        "participle": "ontsnapt"
+      "translation": {
+        "chinese": "逃脱",
+        "english": "to escape, to break away"
       },
-      "example": "De gevangene wist te ontsnappen.",
-      "example_translation": "囚犯设法逃脱了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontsnappen",
+          "isSeparable": false,
+          "present": {
+            "ik": "snap ont",
+            "jij": "snapt ont",
+            "hij": "snapt ont",
+            "wij": "snappen ont",
+            "jullie": "snappen ont",
+            "zij": "snappen ont"
+          },
+          "past": {
+            "singular": "snapte ont",
+            "plural": "snapten ont"
+          },
+          "pastParticiple": "ontsnapt",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De gevangenen wisten te ontsnappen.",
+        "Hij ontsnapte uit de benarde situatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "囚犯设法逃脱了。",
+          "他逃脱了糟糕的境地。"
+        ],
+        "english": [
+          "The prisoners managed to escape.",
+          "He escaped from the desperate situation."
+        ]
+      },
+      "notes": "不可分动词，snappen意为猛然折断",
+      "difficulty": "B2"
     },
     {
       "id": 5098,
       "word": "ontspringen",
-      "pos": "verb",
-      "meaning": "爆炸,迸发",
-      "word_forms": {
-        "infinitive": "ontspringen",
-        "present": "springt ont",
-        "past": "sprong ont",
-        "participle": "ontspringen"
+      "translation": {
+        "chinese": "爆炸,迸发",
+        "english": "to burst out, to erupt"
       },
-      "example": "De fontein ontsteek op straat.",
-      "example_translation": "喷泉在街上迸发。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontspringen",
+          "isSeparable": false,
+          "present": {
+            "ik": "spring ont",
+            "jij": "springt ont",
+            "hij": "springt ont",
+            "wij": "springen ont",
+            "jullie": "springen ont",
+            "zij": "springen ont"
+          },
+          "past": {
+            "singular": "sprong ont",
+            "plural": "sprongen ont"
+          },
+          "pastParticiple": "ontsprongen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De fontein ontsprong op straat.",
+        "Discussies ontsprongen onverwacht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "喷泉在街上迸发。",
+          "讨论出乎意料地爆发了。"
+        ],
+        "english": [
+          "The fountains burst out on the street.",
+          "Discussions erupted unexpectedly."
+        ]
+      },
+      "notes": "不可分动词，springen意为跳跃/喷发",
+      "difficulty": "B2"
     },
     {
       "id": 5099,
-      "word": "ontsteking",
-      "pos": "noun",
-      "meaning": "发炎",
-      "word_forms": {
-        "singular": "ontsteking",
-        "plural": "ontstekingen"
+      "word": "ontsteken",
+      "translation": {
+        "chinese": "发炎,感染",
+        "english": "to inflame, to become infected"
       },
-      "example": "De wond veroorzaakt een ontsteking.",
-      "example_translation": "伤口引起了发炎。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ontsteken",
+          "plural": "ontstekingen"
+        }
+      },
+      "examples": [
+        "De wond veroorzaakte een ontsteken.",
+        "Het ontsteken verspreidde zich snel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "伤口引起了发炎。",
+          "感染迅速扩散了。"
+        ],
+        "english": [
+          "The wound caused an infection.",
+          "The infection spread quickly."
+        ]
+      },
+      "notes": "阴性名词，steken意为刺/扎",
+      "difficulty": "B2"
     },
     {
       "id": 5100,
       "word": "onttrekken",
-      "pos": "verb",
-      "meaning": "抽取,取消",
-      "word_forms": {
-        "infinitive": "onttrekken",
-        "present": "trekt ont",
-        "past": "trok ont",
-        "participle": "ontrokken"
+      "translation": {
+        "chinese": "抽取,取消",
+        "english": "to withdraw, to cancel"
       },
-      "example": "Hij trok zich de zaak terug.",
-      "example_translation": "他退出了这件事。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onttrekken",
+          "isSeparable": false,
+          "present": {
+            "ik": "trek ont",
+            "jij": "trekt ont",
+            "hij": "trekt ont",
+            "wij": "trekken ont",
+            "jullie": "trekken ont",
+            "zij": "trekken ont"
+          },
+          "past": {
+            "singular": "trok ont",
+            "plural": "trokken ont"
+          },
+          "pastParticiple": "ontrokken",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij trok zich de zaak terug.",
+        "De bank onttrok het geld van de rekening."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他退出了这件事。",
+          "银行从账户中取款。"
+        ],
+        "english": [
+          "He withdrew from the matter.",
+          "The bank withdrew the money from the account."
+        ]
+      },
+      "notes": "不可分动词，trekken意为拉/撤",
+      "difficulty": "B2"
     },
     {
       "id": 5101,
       "word": "ontvlammen",
-      "pos": "verb",
-      "meaning": "燃烧,激化",
-      "word_forms": {
-        "infinitive": "ontvlammen",
-        "present": "vlam ont",
-        "past": "vlaamde ont",
-        "participle": "ontvlamd"
+      "translation": {
+        "chinese": "燃烧,激化",
+        "english": "to burn, to ignite"
       },
-      "example": "De discussie ontvlamde onverwacht.",
-      "example_translation": "讨论出乎意料地激化了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontvlammen",
+          "isSeparable": false,
+          "present": {
+            "ik": "vlam ont",
+            "jij": "vlamt ont",
+            "hij": "vlamt ont",
+            "wij": "vlammen ont",
+            "jullie": "vlammen ont",
+            "zij": "vlammen ont"
+          },
+          "past": {
+            "singular": "vlaamde ont",
+            "plural": "vlaamden ont"
+          },
+          "pastParticiple": "ontvlamd",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De discussie ontvlamde onverwacht.",
+        "De vlammen ontvlamden het gebouw."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "讨论出乎意料地激化了。",
+          "火焰烧毁了建筑。"
+        ],
+        "english": [
+          "The discussion ignited unexpectedly.",
+          "The flames burned down the building."
+        ]
+      },
+      "notes": "不可分动词，vlammen意为燃烧",
+      "difficulty": "B2"
     },
     {
       "id": 5102,
       "word": "ontvluchten",
-      "pos": "verb",
-      "meaning": "逃离,逃避",
-      "word_forms": {
-        "infinitive": "ontvluchten",
-        "present": "vlucht ont",
-        "past": "vluchtte ont",
-        "participle": "ontvlucht"
+      "translation": {
+        "chinese": "逃离,逃避",
+        "english": "to flee, to escape"
       },
-      "example": "Hij wil ontvluchten aan de stress.",
-      "example_translation": "他想逃离压力。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontvluchten",
+          "isSeparable": false,
+          "present": {
+            "ik": "vlucht ont",
+            "jij": "vlucht ont",
+            "hij": "vlucht ont",
+            "wij": "vluchten ont",
+            "jullie": "vluchten ont",
+            "zij": "vluchten ont"
+          },
+          "past": {
+            "singular": "vluchtte ont",
+            "plural": "vluchten ont"
+          },
+          "pastParticiple": "ontvlucht",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Hij wil ontvluchten aan de stress.",
+        "De vogels ontvluchten de strenge winter."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他想逃离压力。",
+          "鸟儿们逃离了严冬。"
+        ],
+        "english": [
+          "He wants to escape from the stress.",
+          "The birds fled the harsh winter."
+        ]
+      },
+      "notes": "不可分动词，vluchten意为逃跑",
+      "difficulty": "B2"
     },
     {
       "id": 5103,
       "word": "ontwikkelen",
-      "pos": "verb",
-      "meaning": "发展,开发",
-      "word_forms": {
-        "infinitive": "ontwikkelen",
-        "present": "wikkelt ont",
-        "past": "wikkelde ont",
-        "participle": "ontwikkeld"
+      "translation": {
+        "chinese": "发展,展开",
+        "english": "to develop, to unfold"
       },
-      "example": "Het bedrijf ontwikkelt nieuwe producten.",
-      "example_translation": "公司正在开发新产品。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontwikkelen",
+          "isSeparable": false,
+          "present": {
+            "ik": "wikkel ont",
+            "jij": "wikkelt ont",
+            "hij": "wikkelt ont",
+            "wij": "wikkelen ont",
+            "jullie": "wikkelen ont",
+            "zij": "wikkelen ont"
+          },
+          "past": {
+            "singular": "wikkelde ont",
+            "plural": "wikkelden ont"
+          },
+          "pastParticiple": "ontwikkeld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het bedrijf ontwikkelt nieuwe producten.",
+        "De situatie ontwikkelt zich snel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司正在开发新产品。",
+          "局势发展得很快。"
+        ],
+        "english": [
+          "The company is developing new products.",
+          "The situation is developing quickly."
+        ]
+      },
+      "notes": "不可分动词，wikkelen意为缠绕",
+      "difficulty": "B2"
     },
     {
       "id": 5104,
       "word": "ontwortelen",
-      "pos": "verb",
-      "meaning": "拔起,使失去根基",
-      "word_forms": {
-        "infinitive": "ontwortelen",
-        "present": "wortelt ont",
-        "past": "wortelde ont",
-        "participle": "ontworteld"
+      "translation": {
+        "chinese": "拔起,使失去根基",
+        "english": "to uproot, to undermine"
       },
-      "example": "De storm wortelde de bomen ont.",
-      "example_translation": "暴风雨把树连根拔起。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontwortelen",
+          "isSeparable": false,
+          "present": {
+            "ik": "wortel ont",
+            "jij": "wortelt ont",
+            "hij": "wortelt ont",
+            "wij": "wortelen ont",
+            "jullie": "wortelen ont",
+            "zij": "wortelen ont"
+          },
+          "past": {
+            "singular": "wortelde ont",
+            "plural": "wortelden ont"
+          },
+          "pastParticiple": "ontworteld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De storm ontwortelde de bomen.",
+        "De crisis ontwortelde de economie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "暴风雨把树连根拔起。",
+          "危机使经济失去了根基。"
+        ],
+        "english": [
+          "The storm uprooted the trees.",
+          "The crisis undermined the economy."
+        ]
+      },
+      "notes": "不可分动词，wortel意为根",
+      "difficulty": "B2"
     },
     {
       "id": 5105,
       "word": "ontwrichten",
-      "pos": "verb",
-      "meaning": "破坏,扰乱",
-      "word_forms": {
-        "infinitive": "ontwrichten",
-        "present": "richt ont",
-        "past": "richtte ont",
-        "participle": "ontgericht"
+      "translation": {
+        "chinese": "破坏,扰乱",
+        "english": "to destroy, to disrupt"
       },
-      "example": "De oorlog ontwrichtte het hele land.",
-      "example_translation": "战争破坏了整个国家。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontwrichten",
+          "isSeparable": false,
+          "present": {
+            "ik": "richt ont",
+            "jij": "richt ont",
+            "hij": "richt ont",
+            "wij": "richten ont",
+            "jullie": "richten ont",
+            "zij": "richten ont"
+          },
+          "past": {
+            "singular": "richtte ont",
+            "plural": "richtten ont"
+          },
+          "pastParticiple": "ontgericht",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De oorlog ontwrichtte het hele land.",
+        "De chaos ontwrichtte de vergadering."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "战争破坏了整个国家。",
+          "混乱扰乱了会议。"
+        ],
+        "english": [
+          "The war destroyed the entire country.",
+          "The chaos disrupted the meeting."
+        ]
+      },
+      "notes": "不可分动词，richten意为瞄准/对准",
+      "difficulty": "B2"
     },
     {
       "id": 5106,
       "word": "ontzettend",
-      "pos": "adverb",
-      "meaning": "极其,非常",
-      "word_forms": {},
-      "example": "Het is ontzettend leuk.",
-      "example_translation": "这非常有趣。"
+      "translation": {
+        "chinese": "极其,非常",
+        "english": "extremely, very"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "Het is onzettend leuk.",
+        "Het weer is onzettend mooi."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这非常有趣。",
+          "今天非常美。"
+        ],
+        "english": [
+          "It is extremely interesting.",
+          "The weather is very beautiful today."
+        ]
+      },
+      "notes": "副词，增强词",
+      "difficulty": "B2"
     },
     {
       "id": 5107,
-      "word": "onverhoopt",
-      "pos": "adjective",
-      "meaning": "未预期的,意外",
-      "word_forms": {
-        "positive": "onverhoopt",
-        "comparative": "onverhoopter"
+      "word": "onverwacht",
+      "translation": {
+        "chinese": "未预期的,意外",
+        "english": "unexpected, surprising"
       },
-      "example": "Het is een onverhoopt voorval.",
-      "example_translation": "这是一个意外事件。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onverwacht",
+          "withDe": "onverwachte",
+          "withHet": "onverwachte",
+          "comparative": "onverwachter",
+          "superlative": "onverwachtst"
+        }
+      },
+      "examples": [
+        "Het is een onverwacht voorval.",
+        "Het was een onverwachte ontdekking."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个意外事件。",
+          "这是一个意外的发现。"
+        ],
+        "english": [
+          "It is an unexpected incident.",
+          "It was an unexpected discovery."
+        ]
+      },
+      "notes": "形容词，verwachten意为期待",
+      "difficulty": "B2"
     },
     {
       "id": 5108,
       "word": "onverwacht",
-      "pos": "adjective",
-      "meaning": "意想不到的",
-      "word_forms": {
-        "positive": "onverwacht",
-        "comparative": "onverwachter"
+      "translation": {
+        "chinese": "意想不到的",
+        "english": "surprising, unforeseen"
       },
-      "example": "Het nieuws kwam onverwacht.",
-      "example_translation": "这个消息出乎意料。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onverwacht",
+          "withDe": "onverwachte",
+          "withHet": "onverwachte",
+          "comparative": "onverwachter",
+          "superlative": "onverwachtst"
+        }
+      },
+      "examples": [
+        "Het nieuws kwam onverwacht.",
+        "Een onverwachte wending in het verhaal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个消息出乎意料。",
+          "故事出现了意想不到的转折。"
+        ],
+        "english": [
+          "The news came unexpectedly.",
+          "An unexpected twist in the story."
+        ]
+      },
+      "notes": "形容词，wachten意为等待",
+      "difficulty": "B2"
     },
     {
       "id": 5109,
-      "word": "onverwijld",
-      "pos": "adverb",
-      "meaning": "立即,毫不迟疑",
-      "word_forms": {},
-      "example": "We moesten onverwijld handelen.",
-      "example_translation": "我们必须立即行动。"
+      "word": "onverwijd",
+      "translation": {
+        "chinese": "立即,毫不迟疑",
+        "english": "immediately, without delay"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "We moesten onverwijd handelen.",
+        "Hij kwam onverwijd aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们必须立即行动。",
+          "他立即赶到了。"
+        ],
+        "english": [
+          "We had to act immediately.",
+          "He arrived immediately."
+        ]
+      },
+      "notes": "固定短语，wijd意为宽/远",
+      "difficulty": "B2"
     },
     {
       "id": 5110,
-      "word": "onvoorzien",
-      "pos": "adjective",
-      "meaning": "不可预见的,意想不到的",
-      "word_forms": {
-        "positive": "onvoorzien",
-        "comparative": "onvoorzener"
+      "word": "onvoorzichtig",
+      "translation": {
+        "chinese": "不可预见的,意想不到的",
+        "english": "unforeseeable, unexpected"
       },
-      "example": "De kosten zijn onvoorzien hoog.",
-      "example_translation": "费用出人意料地高。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onvoorzichtig",
+          "withDe": "onvoorzichtige",
+          "withHet": "onvoorzichtige",
+          "comparative": "onvoorzichtiger",
+          "superlative": "onvoorzichtigst"
+        }
+      },
+      "examples": [
+        "De kosten waren onvoorzichtig hoog.",
+        "Er waren onvoorzichtige complicaties."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "费用出乎意料地高。",
+          "出现了意想不到的复杂情况。"
+        ],
+        "english": [
+          "The costs were unexpectedly high.",
+          "There were unforeseeable complications."
+        ]
+      },
+      "notes": "形容词，voorzichtig意为谨慎",
+      "difficulty": "B2"
     },
     {
       "id": 5111,
       "word": "onweersbui",
-      "pos": "noun",
-      "meaning": "雷阵雨",
-      "word_forms": {
-        "singular": "onweersbui",
-        "plural": "onweersbuien"
+      "translation": {
+        "chinese": "雷阵雨",
+        "english": "rain shower, thunderstorm"
       },
-      "example": "Een onweersbui trok over het land.",
-      "example_translation": "一场雷阵雨席卷了这片土地。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "onweersbui",
+          "plural": "onweersbuien"
+        }
+      },
+      "examples": [
+        "Een onweersbui trok over het land.",
+        "De onweersbuien veroorzaken overlast."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "一场雷阵雨席卷了这片土地。",
+          "雷阵雨带来了不便。"
+        ],
+        "english": [
+          "A rain shower swept across the land.",
+          "The rain showers caused inconvenience."
+        ]
+      },
+      "notes": "阴性名词，weer意为天气",
+      "difficulty": "B2"
     },
     {
       "id": 5112,
       "word": "onwenselijk",
-      "pos": "adjective",
-      "meaning": "不可取的,不希望的",
-      "word_forms": {
-        "positive": "onwenselijk",
-        "comparative": "onwenselijker"
+      "translation": {
+        "chinese": "不可取的,不希望的",
+        "english": "undesirable, unwanted"
       },
-      "example": "Dit is een onwenselijke ontwikkeling.",
-      "example_translation": "这是一种不可取的发展。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onwenselijk",
+          "withDe": "onwenselijke",
+          "withHet": "onwenselijke",
+          "comparative": "onwenselijker",
+          "superlative": "onwenselijkst"
+        }
+      },
+      "examples": [
+        "Dit is een onwenselijke ontwikkeling.",
+        "De onwenselijke situatie moet worden opgelost."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一种不可取的发展。",
+          "这种不可取的局面必须解决。"
+        ],
+        "english": [
+          "This is an undesirable development.",
+          "The undesirable situation must be resolved."
+        ]
+      },
+      "notes": "形容词，wens意为希望",
+      "difficulty": "B2"
     },
     {
       "id": 5113,
       "word": "onwerkbaar",
-      "pos": "adjective",
-      "meaning": "不可操作的,无法实现的",
-      "word_forms": {
-        "positive": "onwerkbaar",
-        "comparative": "onwerkbaarder"
+      "translation": {
+        "chinese": "不可操作的,无法实现的",
+        "english": "unworkable, unfeasible"
       },
-      "example": "Het plan is onwerkbaar.",
-      "example_translation": "这个计划无法实现。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onwerkbaar",
+          "withDe": "onwerkbare",
+          "withHet": "onwerkbare",
+          "comparative": "onwerkbaarder",
+          "superlative": "onwerkbaarst"
+        }
+      },
+      "examples": [
+        "Het plan is onwerkbaar.",
+        "Dit is een onwerkbaar doel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个计划无法实现。",
+          "这是一个无法实现的目标。"
+        ],
+        "english": [
+          "This plan is unworkable.",
+          "This is an unworkable goal."
+        ]
+      },
+      "notes": "形容词，werken意为工作",
+      "difficulty": "B2"
     },
     {
       "id": 5114,
       "word": "onwerkelijk",
-      "pos": "adjective",
-      "meaning": "不真实的,虚幻的",
-      "word_forms": {
-        "positive": "onwerkelijk",
-        "comparative": "onwerkelijker"
+      "translation": {
+        "chinese": "不真实的,虚幻的",
+        "english": "unreal, illusory"
       },
-      "example": "Het voelde onwerkelijk aan.",
-      "example_translation": "这感觉不真实。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onwerkelijk",
+          "withDe": "onwerkelijke",
+          "withHet": "onwerkelijke",
+          "comparative": "onwerkelijker",
+          "superlative": "onwerkelijkst"
+        }
+      },
+      "examples": [
+        "Het voelde onwerkelijk aan.",
+        "De onwerkelijke angst nam langzaam toe."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这感觉不真实。",
+          "虚幻的恐惧慢慢消退了。"
+        ],
+        "english": [
+          "It felt unreal.",
+          "The illusory fear slowly faded."
+        ]
+      },
+      "notes": "形容词，werkelijk意为真实",
+      "difficulty": "B2"
     },
     {
       "id": 5115,
-      "word": "onzedelijk",
-      "pos": "adjective",
-      "meaning": "不道德的,下流的",
-      "word_forms": {
-        "positive": "onzedelijk",
-        "comparative": "onzedelijker"
+      "word": "onzichtbaar",
+      "translation": {
+        "chinese": "看不见的",
+        "english": "invisible, unseen"
       },
-      "example": "Zijn gedrag was onzedelijk.",
-      "example_translation": "他的行为不道德。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onzichtbaar",
+          "withDe": "onzichtbare",
+          "withHet": "onzichtbare",
+          "comparative": "onzichtbaarder",
+          "superlative": "onzichtbaarst"
+        }
+      },
+      "examples": [
+        "Het virus is onzichtbaar voor het oog.",
+        "De onzichtbare kosten werden vergeten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "病毒肉眼看不见。",
+          "看不见的费用被忽略了。"
+        ],
+        "english": [
+          "The virus is invisible to the eye.",
+          "The invisible costs were forgotten."
+        ]
+      },
+      "notes": "形容词，zichtbaar意为可见的",
+      "difficulty": "B2"
     },
     {
       "id": 5116,
-      "word": "onzichtbaar",
-      "pos": "adjective",
-      "meaning": "看不见的",
-      "word_forms": {
-        "positive": "onzichtbaar",
-        "comparative": "onzichtbaarder"
+      "word": "ooggetuige",
+      "translation": {
+        "chinese": "目击者",
+        "english": "eyewitness"
       },
-      "example": "Het virus is onzichtbaar voor het oog.",
-      "example_translation": "病毒肉眼看不见。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ooggetuige",
+          "plural": "ooggetuigen"
+        }
+      },
+      "examples": [
+        "De ooggetuige zag het ongelukkige gebeuren.",
+        "Meerdere ooggetuigen verklaarden hun naam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "目击者看到了不幸事故发生。",
+          "多名目击者报告了自己的名字。"
+        ],
+        "english": [
+          "The eyewitness saw the unfortunate accident.",
+          "Multiple eyewitnesses reported their name."
+        ]
+      },
+      "notes": "阳性名词，由oog(眼)+getuige(证人)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5117,
-      "word": "ooggetuige",
-      "pos": "noun",
-      "meaning": "目击者",
-      "word_forms": {
-        "singular": "ooggetuige",
-        "plural": "ooggetuigen"
+      "word": "oogschaduw",
+      "translation": {
+        "chinese": "眼影",
+        "english": "eye shadow"
       },
-      "example": "De ooggetuige zag het ongeluk gebeuren.",
-      "example_translation": "目击者看到了事故发生。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "oogschaduw",
+          "plural": "oogschaduwen"
+        }
+      },
+      "examples": [
+        "Zij droeg blauwe oogschaduw.",
+        "Hij kocht een oogschaduw in het winkelcentrum."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她戴着蓝色的眼影。",
+          "他在购物中心买了眼影。"
+        ],
+        "english": [
+          "She wore blue eyeshadow.",
+          "He bought eyeshadow at the shopping center."
+        ]
+      },
+      "notes": "阳性名词，由oog(眼)+schaduw(阴影)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5118,
-      "word": "oogschaduw",
-      "pos": "noun",
-      "meaning": "眼影",
-      "word_forms": {
-        "singular": "oogschaduw",
-        "plural": "oogschaduwen"
+      "word": "op den duur",
+      "translation": {
+        "chinese": "最终,终究",
+        "english": "in the end, ultimately"
       },
-      "example": "Zij droeg blauwe oogschaduw.",
-      "example_translation": "她戴着蓝色的眼影。"
+      "partOfSpeech": "adverbial phrase",
+      "examples": [
+        "Op den duur komt alles goed.",
+        "Op den duur wisten we het niet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "最终一切都会好的。",
+          "终究我们不知道真相。"
+        ],
+        "english": [
+          "In the end everything will be fine.",
+          "Ultimately we didn't know the truth."
+        ]
+      },
+      "notes": "固定短语，den duur意为时间长度",
+      "difficulty": "B2"
     },
     {
       "id": 5119,
-      "word": "op den duur",
-      "pos": "adverbial phrase",
-      "meaning": "最终,终究",
-      "word_forms": {},
-      "example": "Op den duur komt alles goed.",
-      "example_translation": "最终一切都会好的。"
+      "word": "op en neer",
+      "translation": {
+        "chinese": "上下,来回",
+        "english": "up and down, back and forth"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "examples": [
+        "Ze loopt op en neer in de kamer.",
+        "Het licht knippert op en neer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她在房间里走来走去。",
+          "灯光上下闪烁。"
+        ],
+        "english": [
+          "She walks up and down in the room.",
+          "The light flickers up and down."
+        ]
+      },
+      "notes": "固定短语，op表示向上，neer表示向下",
+      "difficulty": "B2"
     },
     {
       "id": 5120,
-      "word": "op en neer",
-      "pos": "adverbial phrase",
-      "meaning": "上下,来回",
-      "word_forms": {},
-      "example": "Ze loopt op en neer in de kamer.",
-      "example_translation": "她在房间里走来走去。"
+      "word": "op het oog",
+      "translation": {
+        "chinese": "看来,表面上",
+        "english": "at first glance, seemingly"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "examples": [
+        "Op het oog lijkt het goed.",
+        "Op het oog is hij aardig, maar hij is het niet."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "表面上看起来不错。",
+          "表面上看人很好，实际上不是。"
+        ],
+        "english": [
+          "At first glance it looks good.",
+          "At first glance he's nice, but he's not."
+        ]
+      },
+      "notes": "固定短语，het oog意为眼睛",
+      "difficulty": "B2"
     },
     {
       "id": 5121,
-      "word": "op het oog",
-      "pos": "adverbial phrase",
-      "meaning": "看来,表面上",
-      "word_forms": {},
-      "example": "Op het oog lijkt het goed.",
-      "example_translation": "表面上看起来不错。"
+      "word": "op tuk zijn",
+      "translation": {
+        "chinese": "渴望,希望得到",
+        "english": "to be eager for, to crave"
+      },
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "op tuk zijn",
+          "isSeparable": false,
+          "present": {
+            "ik": "ben op tuk",
+            "jij": "bent op tuk",
+            "hij": "is op tuk",
+            "wij": "zijn op tuk",
+            "jullie": "zijn op tuk",
+            "zij": "zijn op tuk"
+          },
+          "past": {
+            "singular": "was op tuk",
+            "plural": "waren op tuk"
+          },
+          "pastParticiple": "op tuk geweest",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Ik ben op tuk naar een vakantie.",
+        "De kinderen zijn op tuk naar ijs."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我渴望去度假。",
+          "孩子们渴望吃冰淇淋。"
+        ],
+        "english": [
+          "I am eager to go on vacation.",
+          "The children are craving ice cream."
+        ]
+      },
+      "notes": "固定短语，tuk意为渴望",
+      "difficulty": "B2"
     },
     {
       "id": 5122,
-      "word": "op tuk zijn",
-      "pos": "phrasal verb",
-      "meaning": "渴望,希望得到",
-      "word_forms": {
-        "infinitive": "op tuk zijn",
-        "present": "is op tuk",
-        "past": "was op tuk"
+      "word": "opbergkast",
+      "translation": {
+        "chinese": "储物柜,衣柜",
+        "english": "storage cabinet, cupboard"
       },
-      "example": "Ik ben op tuk naar een vakantie.",
-      "example_translation": "我渴望去度假。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "opbergkast",
+          "plural": "opbergkasten"
+        }
+      },
+      "examples": [
+        "De opbergkast staat vol met spullen.",
+        "Zij heeft een kleine opbergkast in de badkamer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "储物柜里装满了东西。",
+          "浴室里有一个小储物柜。"
+        ],
+        "english": [
+          "The storage cabinet is full of items.",
+          "She has a small storage cabinet in the bathroom."
+        ]
+      },
+      "notes": "阴性名词，由opbergen(储存)+kast(柜)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5123,
-      "word": "opbergkast",
-      "pos": "noun",
-      "meaning": "储物柜,衣柜",
-      "word_forms": {
-        "singular": "opbergkast",
-        "plural": "opbergkasten"
+      "word": "opbloeien",
+      "translation": {
+        "chinese": "正在繁荣的,蓬勃发展的",
+        "english": "flourishing, booming"
       },
-      "example": "De opbergkast staat vol met spullen.",
-      "example_translation": "储物柜里装满了东西。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "opbloeien",
+          "withDe": "opbloeinde",
+          "withHet": "opbloeinde",
+          "comparative": "opbloeider",
+          "superlative": "opbloeist"
+        }
+      },
+      "examples": [
+        "Het is een opbloeiende stad.",
+        "De economie is opbloeiend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一座正在繁荣发展的城市。",
+          "经济蓬勃发展。"
+        ],
+        "english": [
+          "This is a flourishing city.",
+          "The economy is booming."
+        ]
+      },
+      "notes": "形容词，bloeien意为开花/繁荣",
+      "difficulty": "B2"
     },
     {
       "id": 5124,
-      "word": "opbloeiend",
-      "pos": "adjective",
-      "meaning": "正在繁荣的,正在发展的",
-      "word_forms": {
-        "positive": "opbloeiend",
-        "comparative": "opbloeiender"
+      "word": "openhartig",
+      "translation": {
+        "chinese": "坦诚的,开放的",
+        "english": "openhearted, frank"
       },
-      "example": "Het is een opbloeiende stad.",
-      "example_translation": "这是一座正在繁荣发展的城市。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "openhartig",
+          "withDe": "openhartige",
+          "withHet": "openhartige",
+          "comparative": "openhartiger",
+          "superlative": "openhartigst"
+        }
+      },
+      "examples": [
+        "Zij is een openhartig persoon.",
+        "Hij sprak openhartig over het probleem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她是一个坦诚的人。",
+          "他坦诚地谈了这个问题。"
+        ],
+        "english": [
+          "She is an openhearted person.",
+          "He spoke frankly about the problem."
+        ]
+      },
+      "notes": "形容词，hartig意为心情的",
+      "difficulty": "B2"
     },
     {
       "id": 5125,
-      "word": "openhartig",
-      "pos": "adjective",
-      "meaning": "坦诚的,开放的",
-      "word_forms": {
-        "positive": "openhartig",
-        "comparative": "openhartiger"
+      "word": "openstaand",
+      "translation": {
+        "chinese": "开放的,敞开的",
+        "english": "open, accessible"
       },
-      "example": "Zij is een openhartig persoon.",
-      "example_translation": "她是一个坦诚的人。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "openstaand",
+          "withDe": "openstaande",
+          "withHet": "openstaande",
+          "comparative": "openstaander",
+          "superlative": "openstaandst"
+        }
+      },
+      "examples": [
+        "De vraag staat open voor iedereen.",
+        "De ramen zijn openstaand."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个问题对所有人开放。",
+          "窗户都是开着的。"
+        ],
+        "english": [
+          "The question is open to everyone.",
+          "The windows are open."
+        ]
+      },
+      "notes": "形容词，staan意为站立",
+      "difficulty": "B2"
     },
     {
       "id": 5126,
-      "word": "openstaand",
-      "pos": "adjective",
-      "meaning": "开放的,敞开的",
-      "word_forms": {
-        "positive": "openstaand",
-        "comparative": "openstaander"
-      },
-      "example": "De vraag staat open voor iedereen.",
-      "example_translation": "这个问题对所有人开放。"
-    },
-    {
-      "id": 5127,
       "word": "openzetten",
-      "pos": "verb",
-      "meaning": "打开,设立",
-      "word_forms": {
-        "infinitive": "openzetten",
-        "present": "zet open",
-        "past": "zette open",
-        "participle": "opengezet"
+      "translation": {
+        "chinese": "打开,设立",
+        "english": "to open, to establish"
       },
-      "example": "Zij zette de nieuwe zaak open.",
-      "example_translation": "她开设了这家新店。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "openzetten",
+          "isSeparable": false,
+          "present": {
+            "ik": "zet open",
+            "jij": "zet open",
+            "hij": "zet open",
+            "wij": "zetten open",
+            "jullie": "zetten open",
+            "zij": "zetten open"
+          },
+          "past": {
+            "singular": "zette open",
+            "plural": "zetten open"
+          },
+          "pastParticiple": "opengezet",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zij zette de nieuwe zaak open.",
+        "Ze openden de deuren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她开设了这家新店。",
+          "他们打开了大门。"
+        ],
+        "english": [
+          "She opened the new shop.",
+          "They opened the doors."
+        ]
+      },
+      "notes": "不可分动词，zetten意为放置",
+      "difficulty": "B2"
     }
   ]
 }

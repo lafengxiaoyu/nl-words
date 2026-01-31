@@ -1,630 +1,1560 @@
 {
+  "id": "b2-lesson-21",
+  "level": "B2",
+  "lessonNumber": 21,
+  "totalWords": 50,
   "words": [
     {
       "id": 5239,
       "word": "quarantaine",
-      "pos": "noun",
-      "meaning": "隔离,检疫",
-      "word_forms": {
-        "singular": "quarantaine",
-        "plural": "quarantaines"
+      "translation": {
+        "chinese": "隔离,检疫",
+        "english": "quarantine"
       },
-      "example": "Hij moest in quarantaine vanwege het virus.",
-      "example_translation": "因为病毒,他必须隔离。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "quarantaine",
+          "plural": "quarantaines"
+        }
+      },
+      "examples": [
+        "Hij moest in quarantaine vanwege het virus.",
+        "De reizigers gingen in quarantaine."
+      ],
+      "exampleTranslations": {
+        "chinese": ["因为病毒,他必须隔离。", "旅行者必须隔离。"],
+        "english": ["He had to quarantine due to the virus.", "The travelers went into quarantine."]
+      },
+      "notes": "阴性名词,法语外来词",
+      "difficulty": "B2"
     },
     {
       "id": 5240,
       "word": "raadplegen",
-      "pos": "verb",
-      "meaning": "咨询,查阅",
-      "word_forms": {
-        "infinitive": "raadplegen",
-        "present": "raadpleegt",
-        "past": "raadpleegde",
-        "participle": "geraadpleegd"
+      "translation": {
+        "chinese": "咨询,查阅",
+        "english": "to consult, to refer to"
       },
-      "example": "Ik moet de dokter raadplegen.",
-      "example_translation": "我必须咨询医生。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "raadplegen",
+          "present": [
+            "ik raadpleeg",
+            "jij raadpleegt",
+            "hij/zij/het raadpleegt",
+            "wij raadplegen",
+            "jullie raadplegen",
+            "zij raadplegen"
+          ],
+          "past": [
+            "ik raadpleegde",
+            "jij raadpleegde",
+            "hij/zij/het raadpleegde",
+            "wij raadpleegden",
+            "jullie raadpleegden",
+            "zij raadpleegden"
+          ],
+          "perfect": "ik heb geraadpleegd",
+          "participle": "geraadpleegd"
+        }
+      },
+      "examples": [
+        "Ik moet de dokter raadplegen.",
+        "Hij raadpleegde de handleiding."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我必须咨询医生。", "他查阅了手册。"],
+        "english": ["I must consult the doctor.", "He consulted the manual."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5241,
       "word": "radiozender",
-      "pos": "noun",
-      "meaning": "广播电台",
-      "word_forms": {
-        "singular": "radiozender",
-        "plural": "radiozenders"
+      "translation": {
+        "chinese": "广播电台",
+        "english": "radio station"
       },
-      "example": "De radiozender speelt goede muziek.",
-      "example_translation": "这个广播电台播放好听的音乐。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "radiozender",
+          "plural": "radiozenders"
+        }
+      },
+      "examples": [
+        "De radiozender speelt goede muziek.",
+        "Ik luister naar deze radiozender."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这个广播电台播放好听的音乐。", "我听这个广播电台。"],
+        "english": ["The radio station plays good music.", "I listen to this radio station."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5242,
       "word": "razendsnel",
-      "pos": "adjective",
-      "meaning": "极快的,迅速的",
-      "word_forms": {
-        "positive": "razendsnel",
-        "comparative": "razendsneller"
+      "translation": {
+        "chinese": "极快的,迅速的",
+        "english": "extremely fast, lightning fast"
       },
-      "example": "Hij rennen razendsnel weg.",
-      "example_translation": "他迅速地跑开了。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "razendsnel",
+          "comparative": "razendsneller",
+          "superlative": "razendsnelst"
+        }
+      },
+      "examples": [
+        "Hij rennen razendsnel weg.",
+        "De auto ging razendsnel."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他迅速地跑开了。", "汽车飞驰而过。"],
+        "english": ["He ran away extremely fast.", "The car went extremely fast."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5243,
       "word": "realiseren",
-      "pos": "verb",
-      "meaning": "实现,意识到",
-      "word_forms": {
-        "infinitive": "realiseren",
-        "present": "realiseert",
-        "past": "realiseerde",
-        "participle": "gerealiseerd"
+      "translation": {
+        "chinese": "实现,意识到",
+        "english": "to realize, to make happen, to become aware"
       },
-      "example": "We moeten het doel realiseren.",
-      "example_translation": "我们必须实现这个目标。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "realiseren",
+          "present": [
+            "ik realiseer",
+            "jij realiseert",
+            "hij/zij/het realiseert",
+            "wij realiseren",
+            "jullie realiseren",
+            "zij realiseren"
+          ],
+          "past": [
+            "ik realiseerde",
+            "jij realiseerde",
+            "hij/zij/het realiseerde",
+            "wij realiseerden",
+            "jullie realiseerden",
+            "zij realiseerden"
+          ],
+          "perfect": "ik heb gerealiseerd",
+          "participle": "gerealiseerd"
+        }
+      },
+      "examples": [
+        "We moeten het doel realiseren.",
+        "Hij realiseerde zich de fout."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我们必须实现这个目标。", "他意识到了错误。"],
+        "english": ["We must achieve the goal.", "He realized the mistake."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5244,
       "word": "realistisch",
-      "pos": "adjective",
-      "meaning": "现实的,现实的",
-      "word_forms": {
-        "positive": "realistisch",
-        "comparative": "realistischer"
+      "translation": {
+        "chinese": "现实的,现实的",
+        "english": "realistic"
       },
-      "example": "Het is een realistische verwachting.",
-      "example_translation": "这是一个现实的期望。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "realistisch",
+          "comparative": "realistischer",
+          "superlative": "realistischst"
+        }
+      },
+      "examples": [
+        "Het is een realistische verwachting.",
+        "We moeten realistisch zijn."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是一个现实的期望。", "我们要现实一点。"],
+        "english": ["This is a realistic expectation.", "We must be realistic."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5245,
       "word": "reanimeren",
-      "pos": "verb",
-      "meaning": "复苏,急救",
-      "word_forms": {
-        "infinitive": "reanimeren",
-        "present": "animeert",
-        "past": "animeerde",
-        "participle": "geanimeerd"
+      "translation": {
+        "chinese": "复苏,急救",
+        "english": "to resuscitate"
       },
-      "example": "De ambulance reanimeerde het slachtoffer.",
-      "example_translation": "救护车对受害者进行了急救。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "reanimeren",
+          "present": [
+            "ik animeer",
+            "jij animeert",
+            "hij/zij/het animeert",
+            "wij animeren",
+            "jullie animeren",
+            "zij animeren"
+          ],
+          "past": [
+            "ik animeerde",
+            "jij animeerde",
+            "hij/zij/het animeerde",
+            "wij animeerden",
+            "jullie animeerden",
+            "zij animeerden"
+          ],
+          "perfect": "ik heb geanimeerd",
+          "participle": "geanimeerd"
+        }
+      },
+      "examples": [
+        "De ambulance reanimeerde het slachtoffer.",
+        "Het team probeerde hem te reanimeren."
+      ],
+      "exampleTranslations": {
+        "chinese": ["救护车对受害者进行了急救。", "团队尝试对他进行复苏。"],
+        "english": ["The ambulance resuscitated the victim.", "The team tried to resuscitate him."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5246,
       "word": "rechercheur",
-      "pos": "noun",
-      "meaning": "侦探,刑警",
-      "word_forms": {
-        "singular": "rechercheur",
-        "plural": "rechercheurs"
+      "translation": {
+        "chinese": "侦探,刑警",
+        "english": "detective, investigator"
       },
-      "example": "De rechercheur onderzocht de misdaad.",
-      "example_translation": "侦探调查了犯罪。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rechercheur",
+          "plural": "rechercheurs"
+        }
+      },
+      "examples": [
+        "De rechercheur onderzocht de misdaad.",
+        "Rechercheurs zoeken naar de dader."
+      ],
+      "exampleTranslations": {
+        "chinese": ["侦探调查了犯罪。", "侦探们寻找肇事者。"],
+        "english": ["The detective investigated the crime.", "Detectives search for the perpetrator."]
+      },
+      "notes": "阳性名词,法语外来词",
+      "difficulty": "B2"
     },
     {
       "id": 5247,
       "word": "rechtspraak",
-      "pos": "noun",
-      "meaning": "司法,审判",
-      "word_forms": {
-        "singular": "rechtspraak",
-        "plural": "rechtspreken"
+      "translation": {
+        "chinese": "司法,审判",
+        "english": "judiciary, administration of justice"
       },
-      "example": "De rechtspraak is belangrijk voor de democratie.",
-      "example_translation": "司法对民主很重要。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rechtspraak",
+          "plural": "rechtspreken"
+        }
+      },
+      "examples": [
+        "De rechtspraak is belangrijk voor de democratie.",
+        "De rechtspraak werkt onafhankelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": ["司法对民主很重要。", "司法独立运作。"],
+        "english": ["The judiciary is important for democracy.", "The judiciary operates independently."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5248,
       "word": "rechtsstaat",
-      "pos": "noun",
-      "meaning": "法治国家",
-      "word_forms": {
-        "singular": "rechtsstaat",
-        "plural": "rechtsstaten"
+      "translation": {
+        "chinese": "法治国家",
+        "english": "rule of law, constitutional state"
       },
-      "example": "Nederland is een rechtsstaat.",
-      "example_translation": "荷兰是一个法治国家。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rechtsstaat",
+          "plural": "rechtsstaten"
+        }
+      },
+      "examples": [
+        "Nederland is een rechtsstaat.",
+        "We leven in een rechtsstaat."
+      ],
+      "exampleTranslations": {
+        "chinese": ["荷兰是一个法治国家。", "我们生活在一个法治国家。"],
+        "english": ["Netherlands is a rule-of-law state.", "We live in a constitutional state."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5249,
       "word": "rechtszaak",
-      "pos": "noun",
-      "meaning": "诉讼,案件",
-      "word_forms": {
-        "singular": "rechtszaak",
-        "plural": "rechtszaken"
+      "translation": {
+        "chinese": "诉讼,案件",
+        "english": "lawsuit, legal case"
       },
-      "example": "De rechtszaak duurde jaren.",
-      "example_translation": "这个案件持续了多年。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rechtszaak",
+          "plural": "rechtszaken"
+        }
+      },
+      "examples": [
+        "De rechtszaak duurde jaren.",
+        "Hij begon een rechtszaak tegen het bedrijf."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这个案件持续了多年。", "他对公司提起了诉讼。"],
+        "english": ["The lawsuit lasted for years.", "He filed a lawsuit against the company."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5250,
       "word": "recreatief",
-      "pos": "adjective",
-      "meaning": "娱乐的,休闲的",
-      "word_forms": {
-        "positive": "recreatief",
-        "comparative": "recreativer"
+      "translation": {
+        "chinese": "娱乐的,休闲的",
+        "english": "recreational"
       },
-      "example": "Het is een recreatieve activiteit.",
-      "example_translation": "这是一个娱乐活动。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "recreatief",
+          "comparative": "recreatiever",
+          "superlative": "recreatiefst"
+        }
+      },
+      "examples": [
+        "Het is een recreatieve activiteit.",
+        "Het park heeft recreatieve doeleinden."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是一个娱乐活动。", "这个公园有休闲用途。"],
+        "english": ["This is a recreational activity.", "The park has recreational purposes."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5251,
       "word": "recyclebaar",
-      "pos": "adjective",
-      "meaning": "可回收的",
-      "word_forms": {
-        "positive": "recyclebaar",
-        "comparative": "recyclebaarder"
+      "translation": {
+        "chinese": "可回收的",
+        "english": "recyclable"
       },
-      "example": "Het materiaal is recyclebaar.",
-      "example_translation": "这种材料可以回收。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "recyclebaar",
+          "comparative": "recyclebaarder",
+          "superlative": "recyclebaarst"
+        }
+      },
+      "examples": [
+        "Het materiaal is recyclebaar.",
+        "Deze verpakking is niet recyclebaar."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这种材料可以回收。", "这种包装不可回收。"],
+        "english": ["This material is recyclable.", "This packaging is not recyclable."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5252,
       "word": "regelmatig",
-      "pos": "adjective",
-      "meaning": "定期的,规律的",
-      "word_forms": {
-        "positive": "regelmatig",
-        "comparative": "regelmatiger"
+      "translation": {
+        "chinese": "定期的,规律的",
+        "english": "regular, periodic"
       },
-      "example": "Ik ga regelmatig naar de sportschool.",
-      "example_translation": "我定期去健身房。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "regelmatig",
+          "comparative": "regelmatiger",
+          "superlative": "regelmatigst"
+        }
+      },
+      "examples": [
+        "Ik ga regelmatig naar de sportschool.",
+        "Hij bezoekt zijn ouders regelmatig."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我定期去健身房。", "他定期拜访父母。"],
+        "english": ["I go to the gym regularly.", "He visits his parents regularly."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5253,
       "word": "regelrecht",
-      "pos": "adjective",
-      "meaning": "直截了当的,直接的",
-      "word_forms": {
-        "positive": "regelrecht",
-        "comparative": "regelrechter"
+      "translation": {
+        "chinese": "直截了当的,直接的",
+        "english": "straight, direct"
       },
-      "example": "Hij ging regelrecht naar huis.",
-      "example_translation": "他直接回家。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "regelrecht",
+          "comparative": "regelrechter",
+          "superlative": "regelrechtst"
+        }
+      },
+      "examples": [
+        "Hij ging regelrecht naar huis.",
+        "Ze keek me regelrecht in de ogen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他直接回家。", "她直视我的眼睛。"],
+        "english": ["He went straight home.", "She looked me straight in the eyes."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5254,
       "word": "regenachtig",
-      "pos": "adjective",
-      "meaning": "多雨的,雨天的",
-      "word_forms": {
-        "positive": "regenachtig",
-        "comparative": "regenachtiger"
+      "translation": {
+        "chinese": "多雨的,雨天的",
+        "english": "rainy"
       },
-      "example": "Het was een regenachtige dag.",
-      "example_translation": "这是多雨的一天。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "regenachtig",
+          "comparative": "regenachtiger",
+          "superlative": "regenachtigst"
+        }
+      },
+      "examples": [
+        "Het was een regenachtige dag.",
+        "Het wordt een regenachtige week."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是多雨的一天。", "这将是一个多雨的一周。"],
+        "english": ["It was a rainy day.", "It will be a rainy week."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5255,
       "word": "regie nemen",
-      "pos": "phrasal verb",
-      "meaning": "掌管,掌控",
-      "word_forms": {
-        "infinitive": "regie nemen",
-        "present": "neemt de regie",
-        "past": "nam de regie",
-        "participle": "de regie genomen"
+      "translation": {
+        "chinese": "掌管,掌控",
+        "english": "to take control, to direct"
       },
-      "example": "Zij nam de regie over het project.",
-      "example_translation": "她掌控了这个项目。"
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "regie nemen",
+          "present": [
+            "ik neem de regie",
+            "jij neemt de regie",
+            "hij/zij/het neemt de regie",
+            "wij nemen de regie",
+            "jullie nemen de regie",
+            "zij nemen de regie"
+          ],
+          "past": [
+            "ik nam de regie",
+            "jij nam de regie",
+            "hij/zij/het nam de regie",
+            "wij namen de regie",
+            "jullie namen de regie",
+            "zij namen de regie"
+          ],
+          "perfect": "ik heb de regie genomen",
+          "participle": "de regie genomen"
+        }
+      },
+      "examples": [
+        "Zij nam de regie over het project.",
+        "Wie neemt de regie over dit proces?"
+      ],
+      "exampleTranslations": {
+        "chinese": ["她掌控了这个项目。", "谁掌控这个流程?"],
+        "english": ["She took control of the project.", "Who takes control of this process?"]
+      },
+      "notes": "短语动词",
+      "difficulty": "B2"
     },
     {
       "id": 5256,
       "word": "reiskoffer",
-      "pos": "noun",
-      "meaning": "旅行箱",
-      "word_forms": {
-        "singular": "reiskoffer",
-        "plural": "reiskoffers"
+      "translation": {
+        "chinese": "旅行箱",
+        "english": "suitcase, travel bag"
       },
-      "example": "Ik pak mijn reiskoffer in.",
-      "example_translation": "我打包旅行箱。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "reiskoffer",
+          "plural": "reiskoffers"
+        }
+      },
+      "examples": [
+        "Ik pak mijn reiskoffer in.",
+        "Zij neemt haar reiskoffer mee."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我打包旅行箱。", "她带上旅行箱。"],
+        "english": ["I pack my suitcase.", "She takes her suitcase with her."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5257,
       "word": "rekenen op",
-      "pos": "phrasal verb",
-      "meaning": "依靠,指望",
-      "word_forms": {
-        "infinitive": "rekenen op",
-        "present": "rekent op",
-        "past": "rekende op",
-        "participle": "op gerekend"
+      "translation": {
+        "chinese": "依靠,指望",
+        "english": "to count on, to rely on"
       },
-      "example": "Ik kan op jouw hulp rekenen.",
-      "example_translation": "我可以指望你的帮助。"
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "rekenen op",
+          "present": [
+            "ik reken op",
+            "jij rekent op",
+            "hij/zij/het rekent op",
+            "wij rekenen op",
+            "jullie rekenen op",
+            "zij rekenen op"
+          ],
+          "past": [
+            "ik rekende op",
+            "jij rekende op",
+            "hij/zij/het rekende op",
+            "wii rekenden op",
+            "jullie rekenden op",
+            "zij rekenden op"
+          ],
+          "perfect": "ik heb op gerekend",
+          "participle": "op gerekend"
+        }
+      },
+      "examples": [
+        "Ik kan op jouw hulp rekenen.",
+        "We kunnen op hem rekenen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我可以指望你的帮助。", "我们可以依靠他。"],
+        "english": ["I can count on your help.", "We can rely on him."]
+      },
+      "notes": "短语动词",
+      "difficulty": "B2"
     },
     {
       "id": 5258,
       "word": "rekwisitoir",
-      "pos": "noun",
-      "meaning": "道具,用品",
-      "word_forms": {
-        "singular": "rekwisitoir",
-        "plural": "rekwisitoirs"
+      "translation": {
+        "chinese": "道具,用品",
+        "english": "prop, property"
       },
-      "example": "Het toneelstuk gebruikt veel rekwisitoirs.",
-      "example_translation": "这部话剧使用了很多道具。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "rekwisitoir",
+          "plural": "rekwisitoirs"
+        }
+      },
+      "examples": [
+        "Het toneelstuk gebruikt veel rekwisitoirs.",
+        "De toneelgroep koopt nieuwe rekwisitoirs."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这部话剧使用了很多道具。", "剧团购买了新道具。"],
+        "english": ["The play uses many props.", "The theater group buys new props."]
+      },
+      "notes": "中性名词,法语外来词",
+      "difficulty": "B2"
     },
     {
       "id": 5259,
       "word": "relativeren",
-      "pos": "verb",
-      "meaning": "相对化,淡化",
-      "word_forms": {
-        "infinitive": "relativeren",
-        "present": "relatieveert",
-        "past": "relatieveerde",
-        "participle": "gerelativeerd"
+      "translation": {
+        "chinese": "相对化,淡化",
+        "english": "to relativize, to put in perspective"
       },
-      "example": "Probeer het probleem te relativeren.",
-      "example_translation": "尝试淡化这个问题。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "relativeren",
+          "present": [
+            "ik relativeer",
+            "jij relativeert",
+            "hij/zij/het relativeert",
+            "wij relativeren",
+            "jullie relativeren",
+            "zij relativeren"
+          ],
+          "past": [
+            "ik relativeerde",
+            "jij relativeerde",
+            "hij/zij/het relativeerde",
+            "wij relativeerden",
+            "jullie relativeerden",
+            "zij relativeerden"
+          ],
+          "perfect": "ik heb gerelativeerd",
+          "participle": "gerelativeerd"
+        }
+      },
+      "examples": [
+        "Probeer het probleem te relativeren.",
+        "Ze weet hoe ze problemen moet relativeren."
+      ],
+      "exampleTranslations": {
+        "chinese": ["尝试淡化这个问题。", "她知道如何将问题相对化。"],
+        "english": ["Try to put the problem in perspective.", "She knows how to relativize problems."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5260,
       "word": "relschopper",
-      "pos": "noun",
-      "meaning": "骚乱者",
-      "word_forms": {
-        "singular": "relschopper",
-        "plural": "relschoppers"
+      "translation": {
+        "chinese": "骚乱者",
+        "english": "rioter"
       },
-      "example": "De politie arresteerde de relschoppers.",
-      "example_translation": "警方逮捕了骚乱者。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "relschopper",
+          "plural": "relschoppers"
+        }
+      },
+      "examples": [
+        "De politie arresteerde de relschoppers.",
+        "Relschoppers gooiden stenen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["警方逮捕了骚乱者。", "骚乱者投掷石块。"],
+        "english": ["The police arrested the rioters.", "Rioters threw stones."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5261,
       "word": "repercussie",
-      "pos": "noun",
-      "meaning": "后果,影响",
-      "word_forms": {
-        "singular": "repercussie",
-        "plural": "repercussies"
+      "translation": {
+        "chinese": "后果,影响",
+        "english": "repercussion, consequence"
       },
-      "example": "De beslissing had grote repercussies.",
-      "example_translation": "这个决定有重大的影响。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "repercussie",
+          "plural": "repercussies"
+        }
+      },
+      "examples": [
+        "De beslissing had grote repercussies.",
+        "Er waren onverwachte repercussies."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这个决定有重大的影响。", "有意想不到的后果。"],
+        "english": ["The decision had major repercussions.", "There were unexpected repercussions."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5262,
       "word": "repertoire",
-      "pos": "noun",
-      "meaning": "曲目,节目单",
-      "word_forms": {
-        "singular": "repertoire",
-        "plural": "repertoires"
+      "translation": {
+        "chinese": "曲目,节目单",
+        "english": "repertoire"
       },
-      "example": "Het orkest heeft een breed repertoire.",
-      "example_translation": "这个管弦乐团有丰富的曲目。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "repertoire",
+          "plural": "repertoires"
+        }
+      },
+      "examples": [
+        "Het orkest heeft een breed repertoire.",
+        "Ze voegde nieuwe nummers aan haar repertoire toe."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这个管弦乐团有丰富的曲目。", "她在曲目中添加了新曲目。"],
+        "english": ["The orchestra has a wide repertoire.", "She added new songs to her repertoire."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5263,
       "word": "repetitief",
-      "pos": "adjective",
-      "meaning": "重复的",
-      "word_forms": {
-        "positive": "repetitief",
-        "comparative": "repetitiever"
+      "translation": {
+        "chinese": "重复的",
+        "english": "repetitive"
       },
-      "example": "Het werk is repetitief.",
-      "example_translation": "这项工作很重复。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "repetitief",
+          "comparative": "repetitiever",
+          "superlative": "repetitiefst"
+        }
+      },
+      "examples": [
+        "Het werk is repetitief.",
+        "De bewegingen zijn repetitief."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这项工作很重复。", "这些动作很重复。"],
+        "english": ["The work is repetitive.", "The movements are repetitive."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5264,
       "word": "reserveren",
-      "pos": "verb",
-      "meaning": "预订,保留",
-      "word_forms": {
-        "infinitive": "reserveren",
-        "present": "reserveert",
-        "past": "reserveerde",
-        "participle": "gereserveerd"
+      "translation": {
+        "chinese": "预订,保留",
+        "english": "to reserve, to book"
       },
-      "example": "Ik heb een tafel gereserveerd.",
-      "example_translation": "我预订了一张桌子。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "reserveren",
+          "present": [
+            "ik reserveer",
+            "jij reserveert",
+            "hij/zij/het reserveert",
+            "wij reserveren",
+            "jullie reserveren",
+            "zij reserveren"
+          ],
+          "past": [
+            "ik reserveerde",
+            "jij reserveerde",
+            "hij/zij/het reserveerde",
+            "wij reserveerden",
+            "jullie reserveerden",
+            "zij reserveerden"
+          ],
+          "perfect": "ik heb gereserveerd",
+          "participle": "gereserveerd"
+        }
+      },
+      "examples": [
+        "Ik heb een tafel gereserveerd.",
+        "Zij reserveerde een hotelkamer."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我预订了一张桌子。", "她预订了酒店房间。"],
+        "english": ["I reserved a table.", "She booked a hotel room."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5265,
       "word": "respectievelijk",
-      "pos": "adverb",
-      "meaning": "分别,各自",
-      "word_forms": {},
-      "example": "Jan en Piet, respectievelijk 25 en 28 jaar oud.",
-      "example_translation": "Jan和Piet,分别是25岁和28岁。"
+      "translation": {
+        "chinese": "分别,各自",
+        "english": "respectively"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "respectievelijk"
+        }
+      },
+      "examples": [
+        "Jan en Piet, respectievelijk 25 en 28 jaar oud.",
+        "Anna en Marie, respectievelijk 1.70 en 1.65 meter lang."
+      ],
+      "exampleTranslations": {
+        "chinese": ["Jan和Piet,分别是25岁和28岁。", "Anna和Marie,分别是1.70米和1.65米。"],
+        "english": ["Jan and Piet, respectively 25 and 28 years old.", "Anna and Marie, respectively 1.70 and 1.65 meters tall."]
+      },
+      "notes": "副词",
+      "difficulty": "B2"
     },
     {
       "id": 5266,
       "word": "respectloos",
-      "pos": "adjective",
-      "meaning": "不尊重的,无礼的",
-      "word_forms": {
-        "positive": "respectloos",
-        "comparative": "respectlozer"
+      "translation": {
+        "chinese": "不尊重的,无礼的",
+        "english": "disrespectful"
       },
-      "example": "Zijn gedrag was respectloos.",
-      "example_translation": "他的行为很无礼。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "respectloos",
+          "comparative": "respectlozer",
+          "superlative": "respectloost"
+        }
+      },
+      "examples": [
+        "Zijn gedrag was respectloos.",
+        "Ze sprak respectloos over haar ouders."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他的行为很无礼。", "她无礼地谈论她的父母。"],
+        "english": ["His behavior was disrespectful.", "She spoke disrespectfully about her parents."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5267,
       "word": "restaureren",
-      "pos": "verb",
-      "meaning": "修复,翻新",
-      "word_forms": {
-        "infinitive": "restaureren",
-        "present": "restoreert",
-        "past": "restoreerde",
-        "participle": "gerestoreerd"
+      "translation": {
+        "chinese": "修复,翻新",
+        "english": "to restore, to renovate"
       },
-      "example": "Het museum restoreerde het schilderij.",
-      "example_translation": "博物馆修复了这幅画。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "restaureren",
+          "present": [
+            "ik restoreer",
+            "jij restoreert",
+            "hij/zij/het restoreert",
+            "wij restaureren",
+            "jullie restaureren",
+            "zij restaureren"
+          ],
+          "past": [
+            "ik restoreerde",
+            "jij restoreerde",
+            "hij/zij/het restoreerde",
+            "wij restoreerden",
+            "jullie restoreerden",
+            "zij restoreerden"
+          ],
+          "perfect": "ik heb gerestoreerd",
+          "participle": "gerestoreerd"
+        }
+      },
+      "examples": [
+        "Het museum restoreerde het schilderij.",
+        "We gaan het gebouw restaureren."
+      ],
+      "exampleTranslations": {
+        "chinese": ["博物馆修复了这幅画。", "我们要翻新这座建筑。"],
+        "english": ["The museum restored the painting.", "We are going to renovate the building."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5268,
       "word": "restitueren",
-      "pos": "verb",
-      "meaning": "归还,退还",
-      "word_forms": {
-        "infinitive": "restitueren",
-        "present": "restitueert",
-        "past": "restitueerde",
-        "participle": "gerestitueerd"
+      "translation": {
+        "chinese": "归还,退还",
+        "english": "to reimburse, to refund"
       },
-      "example": "Het bedrijf restitueert het geld.",
-      "example_translation": "公司退还了这笔钱。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "restitueren",
+          "present": [
+            "ik restitueer",
+            "jij restitueert",
+            "hij/zij/het restitueert",
+            "wij restitueren",
+            "jullie restitueren",
+            "zij restitueren"
+          ],
+          "past": [
+            "ik restitueerde",
+            "jij restitueerde",
+            "hij/zij/het restitueerde",
+            "wij restitueerden",
+            "jullie restitueerden",
+            "zij restitueerden"
+          ],
+          "perfect": "ik heb gerestitueerd",
+          "participle": "gerestitueerd"
+        }
+      },
+      "examples": [
+        "Het bedrijf restitueert het geld.",
+        "De winkel restitueerde de aankoop."
+      ],
+      "exampleTranslations": {
+        "chinese": ["公司退还了这笔钱。", "商店退还了购买款项。"],
+        "english": ["The company reimbursed the money.", "The store refunded the purchase."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5269,
       "word": "restitutie",
-      "pos": "noun",
-      "meaning": "退款,归还",
-      "word_forms": {
-        "singular": "restitutie",
-        "plural": "restituties"
+      "translation": {
+        "chinese": "退款,归还",
+        "english": "refund, reimbursement"
       },
-      "example": "Klanten kunnen restitutie aanvragen.",
-      "example_translation": "客户可以申请退款。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "restitutie",
+          "plural": "restituties"
+        }
+      },
+      "examples": [
+        "Klanten kunnen restitutie aanvragen.",
+        "De restitutie werd snel verwerkt."
+      ],
+      "exampleTranslations": {
+        "chinese": ["客户可以申请退款。", "退款很快处理完毕。"],
+        "english": ["Customers can request a refund.", "The refund was processed quickly."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5270,
       "word": "revalidatie",
-      "pos": "noun",
-      "meaning": "康复训练",
-      "word_forms": {
-        "singular": "revalidatie",
-        "plural": "revalidaties"
+      "translation": {
+        "chinese": "康复训练",
+        "english": "rehabilitation, rehab"
       },
-      "example": "Zij ondergaat revalidatie na de operatie.",
-      "example_translation": "术后她正在接受康复训练。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "revalidatie",
+          "plural": "revalidaties"
+        }
+      },
+      "examples": [
+        "Zij ondergaat revalidatie na de operatie.",
+        "Revalidatie duurt lang."
+      ],
+      "exampleTranslations": {
+        "chinese": ["术后她正在接受康复训练。", "康复需要很长时间。"],
+        "english": ["She undergoes rehabilitation after surgery.", "Rehabilitation takes a long time."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5271,
       "word": "revalideren",
-      "pos": "verb",
-      "meaning": "康复",
-      "word_forms": {
-        "infinitive": "revalideren",
-        "present": "valideert",
-        "past": "valideerde",
-        "participle": "gevalideerd"
+      "translation": {
+        "chinese": "康复",
+        "english": "to rehabilitate"
       },
-      "example": "Het duurt lang om te revalideren.",
-      "example_translation": "康复需要很长时间。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "revalideren",
+          "present": [
+            "ik valideer",
+            "jij valideert",
+            "hij/zij/het valideert",
+            "wij valideren",
+            "jullie valideren",
+            "zij valideren"
+          ],
+          "past": [
+            "ik valideerde",
+            "jij valideerde",
+            "hij/zij/het valideerde",
+            "wij valideerden",
+            "jullie valideerden",
+            "zij valideerden"
+          ],
+          "perfect": "ik heb gevalideerd",
+          "participle": "gevalideerd"
+        }
+      },
+      "examples": [
+        "Het duurt lang om te revalideren.",
+        "Hij moet revalideren na het ongeluk."
+      ],
+      "exampleTranslations": {
+        "chinese": ["康复需要很长时间。", "事故后他需要康复。"],
+        "english": ["It takes long to rehabilitate.", "He needs to rehabilitate after the accident."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5272,
       "word": "richten aan",
-      "pos": "phrasal verb",
-      "meaning": "针对,向...提出",
-      "word_forms": {
-        "infinitive": "richten aan",
-        "present": "richt aan",
-        "past": "richtte aan",
-        "participle": "aangericht"
+      "translation": {
+        "chinese": "针对,向...提出",
+        "english": "to address, to turn to"
       },
-      "example": "Hij richtte zich aan de politie.",
-      "example_translation": "他向警方求助。"
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "richten aan",
+          "present": [
+            "ik richt aan",
+            "jij richt aan",
+            "hij/zij/het richt aan",
+            "wij richten aan",
+            "jullie richten aan",
+            "zij richten aan"
+          ],
+          "past": [
+            "ik richtte aan",
+            "jij richtte aan",
+            "hij/zij/het richtte aan",
+            "wij richtten aan",
+            "jullie richtten aan",
+            "zij richtten aan"
+          ],
+          "perfect": "ik heb aangericht",
+          "participle": "aangericht"
+        }
+      },
+      "examples": [
+        "Hij richtte zich aan de politie.",
+        "Je kunt je met vragen aan ons richten."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他向警方求助。", "你可以向我们提出问题。"],
+        "english": ["He turned to the police.", "You can direct your questions to us."]
+      },
+      "notes": "短语动词",
+      "difficulty": "B2"
     },
     {
       "id": 5273,
       "word": "rijmen met",
-      "pos": "phrasal verb",
-      "meaning": "押韵,与...相配",
-      "word_forms": {
-        "infinitive": "rijmen met",
-        "present": "rijmt met",
-        "past": "reemde met",
-        "participle": "gerijmd met"
+      "translation": {
+        "chinese": "押韵,与...相配",
+        "english": "to rhyme with, to match"
       },
-      "example": "Het rijmt niet met de werkelijkheid.",
-      "example_translation": "这与现实不符。"
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "rijmen met",
+          "present": [
+            "ik rijm met",
+            "jij rijmt met",
+            "hij/zij/het rijmt met",
+            "wij rijmen met",
+            "jullie rijmen met",
+            "zij rijmen met"
+          ],
+          "past": [
+            "ik reemde met",
+            "jij reemde met",
+            "hij/zij/het reemde met",
+            "wii reemden met",
+            "jullie reemden met",
+            "zij reemden met"
+          ],
+          "perfect": "ik heb gerijmd met",
+          "participle": "gerijmd met"
+        }
+      },
+      "examples": [
+        "Het rijmt niet met de werkelijkheid.",
+        "Kat rijmt met dat."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这与现实不符。", "Kat和dat押韵。"],
+        "english": ["It doesn't match reality.", "Cat rhymes with that."]
+      },
+      "notes": "短语动词",
+      "difficulty": "B2"
     },
     {
       "id": 5274,
       "word": "rijstkoker",
-      "pos": "noun",
-      "meaning": "电饭煲",
-      "word_forms": {
-        "singular": "rijstkoker",
-        "plural": "rijstkokers"
+      "translation": {
+        "chinese": "电饭煲",
+        "english": "rice cooker"
       },
-      "example": "Ik gebruik de rijstkoker om rijst te koken.",
-      "example_translation": "我用电饭煲煮饭。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rijstkoker",
+          "plural": "rijstkokers"
+        }
+      },
+      "examples": [
+        "Ik gebruik de rijstkoker om rijst te koken.",
+        "De rijstkoker is klaar."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我用电饭煲煮饭。", "电饭煲煮好了。"],
+        "english": ["I use the rice cooker to cook rice.", "The rice cooker is ready."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5275,
       "word": "rivaliseren",
-      "pos": "verb",
-      "meaning": "竞争,对抗",
-      "word_forms": {
-        "infinitive": "rivaliseren",
-        "present": "rivaliseert",
-        "past": "rivaliseerde",
-        "participle": "gerivaliseerd"
+      "translation": {
+        "chinese": "竞争,对抗",
+        "english": "to rival, to compete"
       },
-      "example": "De bedrijven rivaliseren om klanten.",
-      "example_translation": "这些公司争夺客户。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "rivaliseren",
+          "present": [
+            "ik rivaliseer",
+            "jij rivaliseert",
+            "hij/zij/het rivaliseert",
+            "wij rivaliseren",
+            "jullie rivaliseren",
+            "zij rivaliseren"
+          ],
+          "past": [
+            "ik rivaliseerde",
+            "jij rivaliseerde",
+            "hij/zij/het rivaliseerde",
+            "wij rivaliseerden",
+            "jullie rivaliseerden",
+            "zij rivaliseerden"
+          ],
+          "perfect": "ik heb gerivaliseerd",
+          "participle": "gerivaliseerd"
+        }
+      },
+      "examples": [
+        "De bedrijven rivaliseren om klanten.",
+        "Teams rivaliseren om de titel."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这些公司争夺客户。", "队伍争夺冠军。"],
+        "english": ["The companies compete for customers.", "Teams compete for the title."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5276,
       "word": "romantisch",
-      "pos": "adjective",
-      "meaning": "浪漫的",
-      "word_forms": {
-        "positive": "romantisch",
-        "comparative": "romantischer"
+      "translation": {
+        "chinese": "浪漫的",
+        "english": "romantic"
       },
-      "example": "Het was een romantisch diner.",
-      "example_translation": "这是一场浪漫的晚餐。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "romantisch",
+          "comparative": "romantischer",
+          "superlative": "romantischst"
+        }
+      },
+      "examples": [
+        "Het was een romantisch diner.",
+        "Ze houdt van romantische films."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是一场浪漫的晚餐。", "她喜欢浪漫电影。"],
+        "english": ["It was a romantic dinner.", "She loves romantic movies."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5277,
       "word": "rondhangen",
-      "pos": "verb",
-      "meaning": "闲逛,逗留",
-      "word_forms": {
-        "infinitive": "rondhangen",
-        "present": "hangt rond",
-        "past": "hing rond",
-        "participle": "rondgehangen"
+      "translation": {
+        "chinese": "闲逛,逗留",
+        "english": "to hang around, to loiter"
       },
-      "example": "Jongeren hangen vaak rond op straat.",
-      "example_translation": "年轻人经常在街上闲逛。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "rondhangen",
+          "present": [
+            "ik hang rond",
+            "jij hangt rond",
+            "hij/zij/het hangt rond",
+            "wij hangen rond",
+            "jullie hangen rond",
+            "zij hangen rond"
+          ],
+          "past": [
+            "ik hing rond",
+            "jij hing rond",
+            "hij/zij/het hing rond",
+            "wii hingen rond",
+            "jullie hingen rond",
+            "zij hingen rond"
+          ],
+          "perfect": "ik heb rondgehangen",
+          "participle": "rondgehangen"
+        }
+      },
+      "examples": [
+        "Jongeren hangen vaak rond op straat.",
+        "Niet rondhangen in de buurt!"
+      ],
+      "exampleTranslations": {
+        "chinese": ["年轻人经常在街上闲逛。", "不要在附近闲逛!"],
+        "english": ["Young people often hang around on the street.", "Don't hang around in the area!"]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5278,
       "word": "rondneuzen",
-      "pos": "verb",
-      "meaning": "打听,探听",
-      "word_forms": {
-        "infinitive": "rondneuzen",
-        "present": "neust rond",
-        "past": "neuste rond",
-        "participle": "rondgeneusd"
+      "translation": {
+        "chinese": "打听,探听",
+        "english": "to nose around, to snoop"
       },
-      "example": "Hij neust rond naar het nieuws.",
-      "example_translation": "他四处打听新闻。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "rondneuzen",
+          "present": [
+            "ik neus rond",
+            "jij neust rond",
+            "hij/zij/het neust rond",
+            "wii neuzen rond",
+            "jullie neuzen rond",
+            "zij neuzen rond"
+          ],
+          "past": [
+            "ik neuste rond",
+            "jij neuste rond",
+            "hij/zij/het neuste rond",
+            "wii neusten rond",
+            "jullie neusten rond",
+            "zij neusten rond"
+          ],
+          "perfect": "ik heb rondgeneusd",
+          "participle": "rondgeneusd"
+        }
+      },
+      "examples": [
+        "Hij neust rond naar het nieuws.",
+        "Stop met rondneuzen in mijn spullen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他四处打听新闻。", "别在我的东西里乱翻!"],
+        "english": ["He is snooping around for news.", "Stop snooping around in my stuff!"]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5279,
       "word": "rondtollen",
-      "pos": "verb",
-      "meaning": "旋转,转动",
-      "word_forms": {
-        "infinitive": "rondtollen",
-        "present": "tolt rond",
-        "past": "tolde rond",
-        "participle": "rondgetold"
+      "translation": {
+        "chinese": "旋转,转动",
+        "english": "to spin around, to rotate"
       },
-      "example": "Het wiel tolde rond.",
-      "example_translation": "轮子在转动。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "rondtollen",
+          "present": [
+            "ik tol rond",
+            "jij tolt rond",
+            "hij/zij/het tolt rond",
+            "wii tollen rond",
+            "jullie tollen rond",
+            "zij tollen rond"
+          ],
+          "past": [
+            "ik tolt rond",
+            "jij tolt rond",
+            "hij/zij/het tolt rond",
+            "wii tolden rond",
+            "jullie tolden rond",
+            "zij tolden rond"
+          ],
+          "perfect": "ik heb rondgetold",
+          "participle": "rondgetold"
+        }
+      },
+      "examples": [
+        "Het wiel tolde rond.",
+        "De munt tolt rond."
+      ],
+      "exampleTranslations": {
+        "chinese": ["轮子在转动。", "硬币在旋转。"],
+        "english": ["The wheel was spinning around.", "The coin is spinning around."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5280,
       "word": "roofoverval",
-      "pos": "noun",
-      "meaning": "抢劫",
-      "word_forms": {
-        "singular": "roofoverval",
-        "plural": "roofovervallen"
+      "translation": {
+        "chinese": "抢劫",
+        "english": "robbery"
       },
-      "example": "De politie onderzoekt de roofoverval.",
-      "example_translation": "警方调查了这起抢劫案。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "roofoverval",
+          "plural": "roofovervallen"
+        }
+      },
+      "examples": [
+        "De politie onderzoekt de roofoverval.",
+        "Er was een roofoverval op straat."
+      ],
+      "exampleTranslations": {
+        "chinese": ["警方调查了这起抢劫案。", "街上发生了抢劫。"],
+        "english": ["The police investigates the robbery.", "There was a robbery on the street."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5281,
       "word": "rookmelder",
-      "pos": "noun",
-      "meaning": "烟雾报警器",
-      "word_forms": {
-        "singular": "rookmelder",
-        "plural": "rookmelders"
+      "translation": {
+        "chinese": "烟雾报警器",
+        "english": "smoke detector, smoke alarm"
       },
-      "example": "De rookmelder ging af.",
-      "example_translation": "烟雾报警器响了。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rookmelder",
+          "plural": "rookmelders"
+        }
+      },
+      "examples": [
+        "De rookmelder ging af.",
+        "We hebben nieuwe rookmelders geïnstalleerd."
+      ],
+      "exampleTranslations": {
+        "chinese": ["烟雾报警器响了。", "我们安装了新的烟雾报警器。"],
+        "english": ["The smoke detector went off.", "We installed new smoke detectors."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5282,
       "word": "rouwdienst",
-      "pos": "noun",
-      "meaning": "葬礼服务",
-      "word_forms": {
-        "singular": "rouwdienst",
-        "plural": "rouwdiensten"
+      "translation": {
+        "chinese": "葬礼服务",
+        "english": "funeral service"
       },
-      "example": "De rouwdienst werd georganiseerd.",
-      "example_translation": "葬礼服务已经组织好了。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "rouwdienst",
+          "plural": "rouwdiensten"
+        }
+      },
+      "examples": [
+        "De rouwdienst werd georganiseerd.",
+        "De rouwdienst was waardig."
+      ],
+      "exampleTranslations": {
+        "chinese": ["葬礼服务已经组织好了。", "葬礼服务很庄重。"],
+        "english": ["The funeral service was organized.", "The funeral service was dignified."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5283,
       "word": "ruggengraat",
-      "pos": "noun",
-      "meaning": "脊柱,脊椎",
-      "word_forms": {
-        "singular": "ruggengraat",
-        "plural": "ruggengraten"
+      "translation": {
+        "chinese": "脊柱,脊椎",
+        "english": "spine, backbone"
       },
-      "example": "De ruggengraat is belangrijk voor lichaamshouding.",
-      "example_translation": "脊柱对身体姿态很重要。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ruggengraat",
+          "plural": "ruggengraten"
+        }
+      },
+      "examples": [
+        "De ruggengraat is belangrijk voor lichaamshouding.",
+        "Hij heeft pijn in zijn ruggengraat."
+      ],
+      "exampleTranslations": {
+        "chinese": ["脊柱对身体姿态很重要。", "他脊柱疼痛。"],
+        "english": ["The spine is important for posture.", "He has pain in his spine."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5284,
       "word": "ruimdenkend",
-      "pos": "adjective",
-      "meaning": "开明的,宽容的",
-      "word_forms": {
-        "positive": "ruimdenkend",
-        "comparative": "ruimdenkender"
+      "translation": {
+        "chinese": "开明的,宽容的",
+        "english": "open-minded, broad-minded"
       },
-      "example": "Hij is een ruimdenkend mens.",
-      "example_translation": "他是一个开明的人。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ruimdenkend",
+          "comparative": "ruimdenkender",
+          "superlative": "ruimdenkendst"
+        }
+      },
+      "examples": [
+        "Hij is een ruimdenkend mens.",
+        "We moeten ruimdenkend zijn."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他是一个开明的人。", "我们要开明一些。"],
+        "english": ["He is an open-minded person.", "We must be open-minded."]
+      },
+      "notes": "形容词,由ruim(宽广)+denken(思考)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5285,
       "word": "ruimhartig",
-      "pos": "adjective",
-      "meaning": "慷慨的,宽宏大量的",
-      "word_forms": {
-        "positive": "ruimhartig",
-        "comparative": "ruimhartiger"
+      "translation": {
+        "chinese": "慷慨的,宽宏大量的",
+        "english": "generous"
       },
-      "example": "Zij is ruimhartig met haar geld.",
-      "example_translation": "她在金钱上很慷慨。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ruimhartig",
+          "comparative": "ruimhartiger",
+          "superlative": "ruimhartigst"
+        }
+      },
+      "examples": [
+        "Zij is ruimhartig met haar geld.",
+        "Hij is een ruimhartig man."
+      ],
+      "exampleTranslations": {
+        "chinese": ["她在金钱上很慷慨。", "他是一个慷慨的人。"],
+        "english": ["She is generous with her money.", "He is a generous man."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5286,
       "word": "ruimschoots",
-      "pos": "adverb",
-      "meaning": "绰绰有余,充足",
-      "word_forms": {},
-      "example": "Er is ruimschoots tijd.",
-      "example_translation": "时间绰绰有余。"
+      "translation": {
+        "chinese": "绰绰有余,充足",
+        "english": "abundantly, more than enough"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "ruimschoots"
+        }
+      },
+      "examples": [
+        "Er is ruimschoots tijd.",
+        "Er zijn ruimschoots mogelijkheden."
+      ],
+      "exampleTranslations": {
+        "chinese": ["时间绰绰有余。", "机会绰绰有余。"],
+        "english": ["There's more than enough time.", "There are abundant opportunities."]
+      },
+      "notes": "副词",
+      "difficulty": "B2"
     },
     {
       "id": 5287,
       "word": "ruimtelijk",
-      "pos": "adjective",
-      "meaning": "空间的,立体的",
-      "word_forms": {
-        "positive": "ruimtelijk",
-        "comparative": "ruimtelijker"
+      "translation": {
+        "chinese": "空间的,立体的",
+        "english": "spatial"
       },
-      "example": "Het is een ruimtelijk kunstwerk.",
-      "example_translation": "这是一件立体艺术品。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ruimtelijk",
+          "comparative": "ruimtelijker",
+          "superlative": "ruimtelijkst"
+        }
+      },
+      "examples": [
+        "Het is een ruimtelijk kunstwerk.",
+        "De ruimtelijke ordening is belangrijk."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是一件立体艺术品。", "空间布局很重要。"],
+        "english": ["This is a spatial artwork.", "Spatial organization is important."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5288,
       "word": "röntgenfoto",
-      "pos": "noun",
-      "meaning": "X光照片",
-      "word_forms": {
-        "singular": "röntgenfoto",
-        "plural": "röntgenfoto's"
+      "translation": {
+        "chinese": "X光照片",
+        "english": "X-ray"
       },
-      "example": "De dokter maakte een röntgenfoto van mijn been.",
-      "example_translation": "医生拍了我腿部的X光照片。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "röntgenfoto",
+          "plural": "röntgenfoto's"
+        }
+      },
+      "examples": [
+        "De dokter maakte een röntgenfoto van mijn been.",
+        "De röntgenfoto toont geen breuk."
+      ],
+      "exampleTranslations": {
+        "chinese": ["医生拍了我腿部的X光照片。", "X光照片显示没有骨折。"],
+        "english": ["The doctor took an X-ray of my leg.", "The X-ray shows no fracture."]
+      },
+      "notes": "阳性名词,复数加's",
+      "difficulty": "B2"
     }
   ]
 }

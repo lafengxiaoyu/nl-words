@@ -1,422 +1,1197 @@
 {
+  "id": "lB213",
+  "level": "B2",
+  "lessonNumber": 13,
+  "totalWords": 37,
   "words": [
     {
       "id": 4917,
       "word": "laagseizoen",
-      "pos": "noun",
-      "meaning": "淡季",
-      "word_forms": {
-        "singular": "laagseizoen",
-        "plural": "laagseizoenen"
+      "translation": {
+        "chinese": "淡季",
+        "english": "off-season, low season"
       },
-      "example": "In het laagseizoen zijn de hotelkamers veel goedkoper.",
-      "example_translation": "淡季时酒店房间便宜得多。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "laagseizoen",
+          "plural": "laagseizoenen"
+        }
+      },
+      "examples": [
+        "In het laagseizoen zijn de hotelkamers veel goedkoper.",
+        "We reizen graag in het laagseizoen om geld te besparen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "淡季时酒店房间便宜得多。",
+          "为了省钱我们喜欢在淡季旅行。"
+        ],
+        "english": [
+          "Hotel rooms are much cheaper in the off-season.",
+          "We like to travel in the off-season to save money."
+        ]
+      },
+      "notes": "复合名词，由laag(低)+seizoen(季节)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4918,
       "word": "landgenoot",
-      "pos": "noun",
-      "meaning": "同胞,同乡",
-      "word_forms": {
-        "singular": "landgenoot",
-        "plural": "landgenoten"
+      "translation": {
+        "chinese": "同胞,同乡",
+        "english": "compatriot, fellow countryman"
       },
-      "example": "Ik sprak met een landgenoot in de trein.",
-      "example_translation": "我在火车上和一个同乡交谈。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "singular": "landgenoot",
+          "plural": "landgenoten"
+        }
+      },
+      "examples": [
+        "Ik sprak met een landgenoot in de trein.",
+        "De Nederlanders in het buitenland steunen elkaar als landgenoten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在火车上和一个同乡交谈。",
+          "国外的荷兰人作为同胞互相支持。"
+        ],
+        "english": [
+          "I spoke with a compatriot on the train.",
+          "Dutch people abroad support each other as compatriots."
+        ]
+      },
+      "notes": "阳性名词，复数形式特殊",
+      "difficulty": "B2"
     },
     {
       "id": 4919,
       "word": "langskomen",
-      "pos": "verb",
-      "meaning": "路过,顺便拜访",
-      "word_forms": {
-        "infinitive": "langskomen",
-        "present": "komt langs",
-        "past": "kwam langs",
-        "participle": "langsgeweest"
+      "translation": {
+        "chinese": "路过,顺便拜访",
+        "english": "to drop by, to visit briefly"
       },
-      "example": "Ik kom graag langs bij mijn oma in het weekend.",
-      "example_translation": "我周末喜欢顺便去看望祖母。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "langskomen",
+          "isSeparable": true,
+          "prefix": "langs",
+          "present": {
+            "ik": "kom langs",
+            "jij": "komt langs",
+            "hij": "komt langs",
+            "wij": "komen langs",
+            "jullie": "komen langs",
+            "zij": "komen langs"
+          },
+          "past": {
+            "singular": "kwam langs",
+            "plural": "kwamen langs"
+          },
+          "pastParticiple": "langsgeweest",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Ik kom graag langs bij mijn oma in het weekend.",
+        "Kom je vanavond nog even langs?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我周末喜欢顺便去看望祖母。",
+          "你今晚还会顺便来一下吗？"
+        ],
+        "english": [
+          "I like to drop by my grandmother's on weekends.",
+          "Will you drop by briefly tonight?"
+        ]
+      },
+      "notes": "可分动词，前缀langs-表示附近/经过",
+      "difficulty": "B2"
     },
     {
       "id": 4920,
       "word": "laten zien",
-      "pos": "phrasal verb",
-      "meaning": "展示,给...看",
-      "word_forms": {
-        "infinitive": "laten zien",
-        "present": "laat zien",
-        "past": "liet zien",
-        "participle": " laten zien"
+      "translation": {
+        "chinese": "展示,给...看",
+        "english": "to show, to demonstrate"
       },
-      "example": "Laat me maar even je nieuwe telefoon zien.",
-      "example_translation": "让我看看你的新手机。"
+      "partOfSpeech": "phrase",
+      "forms": {
+        "verb": {
+          "infinitive": "laten zien",
+          "isSeparable": true,
+          "present": {
+            "ik": "laat zien",
+            "jij": "laat zien",
+            "hij": "laat zien",
+            "wij": "laten zien",
+            "jullie": "laten zien",
+            "zij": "laten zien"
+          },
+          "past": {
+            "singular": "liet zien",
+            "plural": "lieten zien"
+          },
+          "pastParticiple": "laten zien",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Laat me maar even je nieuwe telefoon zien.",
+        "Hij liet ons zijn nieuwe huis zien."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "让我看看你的新手机。",
+          "他向我们展示了他新房子。"
+        ],
+        "english": [
+          "Let me see your new phone.",
+          "He showed us his new house."
+        ]
+      },
+      "notes": "常用短语，由laten(让)+zien(看)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4921,
       "word": "leegplukken",
-      "pos": "verb",
-      "meaning": "采摘一空,掏空",
-      "word_forms": {
-        "infinitive": "leegplukken",
-        "present": "plukt leeg",
-        "past": "plukte leeg",
-        "participle": "leeggeplukt"
+      "translation": {
+        "chinese": "采摘一空,掏空",
+        "english": "to pick clean, to strip bare"
       },
-      "example": "De vogels hebben de hele bosbesstruik leeggeplukt.",
-      "example_translation": "鸟儿们把整个蓝莓灌木采摘一空。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "leegplukken",
+          "isSeparable": true,
+          "prefix": "leeg",
+          "present": {
+            "ik": "pluk leeg",
+            "jij": "plukt leeg",
+            "hij": "plukt leeg",
+            "wij": "plukken leeg",
+            "jullie": "plukken leeg",
+            "zij": "plukken leeg"
+          },
+          "past": {
+            "singular": "plukte leeg",
+            "plural": "plukten leeg"
+          },
+          "pastParticiple": "leeggeplukt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De vogels hebben de hele bosbesstruik leeggeplukt.",
+        "De kinderen plukten de bomen binnen een uur leeg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "鸟儿们把整个蓝莓灌木采摘一空。",
+          "孩子们在一小时内把树上的果子摘光了。"
+        ],
+        "english": [
+          "The birds picked the entire blueberry bush clean.",
+          "The children stripped the trees clean within an hour."
+        ]
+      },
+      "notes": "可分动词，leeg表示空的",
+      "difficulty": "B2"
     },
     {
       "id": 4922,
       "word": "leegstaand",
-      "pos": "adjective",
-      "meaning": "空置的,空着的",
-      "word_forms": {
-        "positive": "leegstaand",
-        "comparative": "leegstaander"
+      "translation": {
+        "chinese": "空置的,空着的",
+        "english": "vacant, unoccupied"
       },
-      "example": "Het pand staat al jaren leeg.",
-      "example_translation": "这座建筑物已经空置多年。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "leegstaand",
+          "withDe": "leegstaande",
+          "withHet": "leegstaande",
+          "comparative": "leegstaander",
+          "superlative": "leegstaandst"
+        }
+      },
+      "examples": [
+        "Het pand staat al jaren leeg.",
+        "Er zijn veel leegstaande woningen in deze wijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这座建筑物已经空置多年。",
+          "这个社区有很多空置房屋。"
+        ],
+        "english": [
+          "The building has been vacant for years.",
+          "There are many vacant houses in this neighborhood."
+        ]
+      },
+      "notes": "形容词，由leeg(空)+staan(站立)的现在分词构成",
+      "difficulty": "B2"
     },
     {
       "id": 4923,
       "word": "leergierig",
-      "pos": "adjective",
-      "meaning": "勤奋的,好学的",
-      "word_forms": {
-        "positive": "leergierig",
-        "comparative": "leergieriger"
+      "translation": {
+        "chinese": "勤奋的,好学的",
+        "english": "eager to learn, studious"
       },
-      "example": "Ze is een heel leergierige student.",
-      "example_translation": "她是一个非常好学的学生。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "leergierig",
+          "withDe": "leergierige",
+          "withHet": "leergierige",
+          "comparative": "leergieriger",
+          "superlative": "leergierigst"
+        }
+      },
+      "examples": [
+        "Ze is een heel leergierige student.",
+        "Leergierige kinderen maken vaak snel vorderingen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她是一个非常好学的学生。",
+          "好学的孩子通常进步很快。"
+        ],
+        "english": [
+          "She is a very studious student.",
+          "Eager children often make quick progress."
+        ]
+      },
+      "notes": "形容词，由leren(学)+gierig(贪婪的)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4925,
       "word": "legitimatie",
-      "pos": "noun",
-      "meaning": "身份证件",
-      "word_forms": {
-        "singular": "legitimatie",
-        "plural": "legitimaties"
+      "translation": {
+        "chinese": "身份证件",
+        "english": "identification, ID"
       },
-      "example": "Kunt u uw legitimatie laten zien, alstublieft?",
-      "example_translation": "请您出示一下身份证件好吗?"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "legitimatie",
+          "plural": "legitimaties"
+        }
+      },
+      "examples": [
+        "Kunt u uw legitimatie laten zien, alstublieft?",
+        "Je hebt geldige legitimatie nodig om dit te kopen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "请您出示一下身份证件好吗?",
+          "购买这个需要有效的身份证件。"
+        ],
+        "english": [
+          "Could you please show your identification?",
+          "You need valid identification to purchase this."
+        ]
+      },
+      "notes": "阴性名词，常简称为ID",
+      "difficulty": "B2"
     },
     {
       "id": 4926,
       "word": "leraarschap",
-      "pos": "noun",
-      "meaning": "教师职业,执教生涯",
-      "word_forms": {
-        "singular": "leraarschap",
-        "plural": "leraarschappen"
+      "translation": {
+        "chinese": "教师职业,执教生涯",
+        "english": "teaching profession, teaching career"
       },
-      "example": "Hij heeft het leraarschap voor het leven opgegeven.",
-      "example_translation": "他放弃了教师的职业生涯。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "leraarschap",
+          "plural": "leraarschappen"
+        }
+      },
+      "examples": [
+        "Hij heeft het leraarschap voor het leven opgegeven.",
+        "Zij koos voor het leraarschap na haar studie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他放弃了教师的职业生涯。",
+          "毕业后她选择了教师职业。"
+        ],
+        "english": [
+          "He gave up the teaching profession for good.",
+          "She chose the teaching profession after her studies."
+        ]
+      },
+      "notes": "中性名词，后缀-schap表示状态或职业",
+      "difficulty": "B2"
     },
     {
       "id": 4927,
       "word": "letterlijk",
-      "pos": "adverb",
-      "meaning": "字面意义上,确实",
-      "word_forms": {},
-      "example": "Het was letterlijk onmogelijk om op tijd te komen.",
-      "example_translation": "按时到达确实是不可能的。"
+      "translation": {
+        "chinese": "字面意义上,确实",
+        "english": "literally, literally speaking"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "Het was letterlijk onmogelijk om op tijd te komen.",
+        "Ik heb letterlijk niets gezegd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "按时到达确实是不可能的。",
+          "我确实什么都没说。"
+        ],
+        "english": [
+          "It was literally impossible to arrive on time.",
+          "I literally said nothing."
+        ]
+      },
+      "notes": "副词，用于强调字面意义",
+      "difficulty": "B2"
     },
     {
       "id": 4928,
       "word": "leuk vinden",
-      "pos": "phrasal verb",
-      "meaning": "喜欢",
-      "word_forms": {
-        "infinitive": "leuk vinden",
-        "present": "vindt leuk",
-        "past": "vond leuk",
-        "participle": "leuk gevonden"
+      "translation": {
+        "chinese": "喜欢",
+        "english": "to like, to enjoy"
       },
-      "example": "Ik vind het leuk om nieuwe mensen te ontmoeten.",
-      "example_translation": "我喜欢结识新朋友。"
+      "partOfSpeech": "phrase",
+      "forms": {
+        "verb": {
+          "infinitive": "leuk vinden",
+          "isSeparable": true,
+          "present": {
+            "ik": "vind leuk",
+            "jij": "vindt leuk",
+            "hij": "vindt leuk",
+            "wij": "vinden leuk",
+            "jullie": "vinden leuk",
+            "zij": "vinden leuk"
+          },
+          "past": {
+            "singular": "vond leuk",
+            "plural": "vonden leuk"
+          },
+          "pastParticiple": "leuk gevonden",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik vind het leuk om nieuwe mensen te ontmoeten.",
+        "Zij vindt het niet leuk om alleen te zijn."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喜欢结识新朋友。",
+          "她不喜欢独处。"
+        ],
+        "english": [
+          "I like to meet new people.",
+          "She doesn't like being alone."
+        ]
+      },
+      "notes": "常用短语，由leuk(喜欢)+vinden(觉得)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4929,
       "word": "levensecht",
-      "pos": "adjective",
-      "meaning": "栩栩如生的,逼真的",
-      "word_forms": {
-        "positive": "levensecht",
-        "comparative": "levensechter"
+      "translation": {
+        "chinese": "栩栩如生的,逼真的",
+        "english": "lifelike, realistic"
       },
-      "example": "De schilderijen zien er bijna levensecht uit.",
-      "example_translation": "这些画作看起来栩栩如生。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "levensecht",
+          "withDe": "levensechte",
+          "withHet": "levensechte",
+          "comparative": "levensechter",
+          "superlative": "levenechtst"
+        }
+      },
+      "examples": [
+        "De schilderijen zien er bijna levensecht uit.",
+        "Het model ziet er levensecht uit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这些画作看起来栩栩如生。",
+          "这个模型看起来非常逼真。"
+        ],
+        "english": [
+          "The paintings look almost lifelike.",
+          "The model looks very realistic."
+        ]
+      },
+      "notes": "形容词，由leven(生命)+echt(真的)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4930,
       "word": "levensgeluk",
-      "pos": "noun",
-      "meaning": "人生幸福",
-      "word_forms": {
-        "singular": "levensgeluk",
-        "plural": "levensgelukken"
+      "translation": {
+        "chinese": "人生幸福",
+        "english": "life happiness, life's joy"
       },
-      "example": "Zij vindt haar levensgeluk in het gezinsleven.",
-      "example_translation": "她在家庭生活中找到了人生幸福。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "levensgeluk",
+          "plural": "levensgelukken"
+        }
+      },
+      "examples": [
+        "Zij vindt haar levensgeluk in het gezinsleven.",
+        "Gezondheid is het grootste levensgeluk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她在家庭生活中找到了人生幸福。",
+          "健康是最大的人生幸福。"
+        ],
+        "english": [
+          "She finds her happiness in family life.",
+          "Health is the greatest happiness in life."
+        ]
+      },
+      "notes": "复合名词，由leven(生命)+geluk(幸福)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4931,
       "word": "levenslust",
-      "pos": "noun",
-      "meaning": "生活热情,活力",
-      "word_forms": {
-        "singular": "levenslust",
-        "plural": "levenslusten"
+      "translation": {
+        "chinese": "生活热情,活力",
+        "english": "zest for life, vitality"
       },
-      "example": "Zijn levenslust is aanstekelijk voor iedereen.",
-      "example_translation": "他的生活热情感染了所有人。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "levenslust",
+          "plural": "levenslusten"
+        }
+      },
+      "examples": [
+        "Zijn levenslust is aanstekelijk voor iedereen.",
+        "Ondanks zijn leeftijd heeft hij nog steeds veel levenslust."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的生活热情感染了所有人。",
+          "尽管年事已高，他依然充满生活热情。"
+        ],
+        "english": [
+          "His zest for life is infectious to everyone.",
+          "Despite his age, he still has great vitality."
+        ]
+      },
+      "notes": "阴性名词，由leven(生命)+lust(渴望)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4932,
       "word": "levensstijl",
-      "pos": "noun",
-      "meaning": "生活方式",
-      "word_forms": {
-        "singular": "levensstijl",
-        "plural": "levensstijlen"
+      "translation": {
+        "chinese": "生活方式",
+        "english": "lifestyle"
       },
-      "example": "Een gezonde levensstijl is belangrijk voor je gezondheid.",
-      "example_translation": "健康的生活方式对你的健康很重要。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "levensstijl",
+          "plural": "levensstijlen"
+        }
+      },
+      "examples": [
+        "Een gezonde levensstijl is belangrijk voor je gezondheid.",
+        "Mijn levensstijl is veranderd sinds ik naar de stad verhuisde."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "健康的生活方式对你的健康很重要。",
+          "自从搬到城市后，我的生活方式改变了。"
+        ],
+        "english": [
+          "A healthy lifestyle is important for your health.",
+          "My lifestyle has changed since I moved to the city."
+        ]
+      },
+      "notes": "阴性名词，由leven(生命)+stijl(风格)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4933,
       "word": "levenswijze",
-      "pos": "noun",
-      "meaning": "生活方式,生活态度",
-      "word_forms": {
-        "singular": "levenswijze",
-        "plural": "levenswijzen"
+      "translation": {
+        "chinese": "生活方式,生活态度",
+        "english": "way of life, lifestyle"
       },
-      "example": "Hij heeft een heel eenvoudige levenswijze.",
-      "example_translation": "他有一种非常简单的生活方式。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "levenswijze",
+          "plural": "levenswijzen"
+        }
+      },
+      "examples": [
+        "Hij heeft een heel eenvoudige levenswijze.",
+        "De monniken volgen een ascetische levenswijze."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他有一种非常简单的生活方式。",
+          "僧侣们过着苦行的生活方式。"
+        ],
+        "english": [
+          "He has a very simple way of life.",
+          "The monks follow an ascetic way of life."
+        ]
+      },
+      "notes": "阴性名词，由leven(生命)+wijze(方式)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4934,
       "word": "leverancier",
-      "pos": "noun",
-      "meaning": "供应商",
-      "word_forms": {
-        "singular": "leverancier",
-        "plural": "leveranciers"
+      "translation": {
+        "chinese": "供应商",
+        "english": "supplier, vendor"
       },
-      "example": "Het bedrijf heeft een nieuwe leverancier gevonden.",
-      "example_translation": "公司找到了一个新的供应商。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "leverancier",
+          "plural": "leveranciers"
+        }
+      },
+      "examples": [
+        "Het bedrijf heeft een nieuwe leverancier gevonden.",
+        "Onze leverancier levert altijd op tijd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司找到了一个新的供应商。",
+          "我们的供应商总是准时交货。"
+        ],
+        "english": [
+          "The company found a new supplier.",
+          "Our supplier always delivers on time."
+        ]
+      },
+      "notes": "阳性名词，由leveren(供应)+cier(后缀)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4936,
       "word": "liefhebber",
-      "pos": "noun",
-      "meaning": "爱好者,爱好者",
-      "word_forms": {
-        "singular": "liefhebber",
-        "plural": "liefhebbers"
+      "translation": {
+        "chinese": "爱好者,爱好者",
+        "english": "enthusiast, lover, fan"
       },
-      "example": "Hij is een grote liefhebber van klassieke muziek.",
-      "example_translation": "他是古典音乐的狂热爱好者。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "liefhebber",
+          "plural": "liefhebbers"
+        }
+      },
+      "examples": [
+        "Hij is een grote liefhebber van klassieke muziek.",
+        "Deze tentoonstelling is een must voor kunstliefhebbers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是古典音乐的狂热爱好者。",
+          "艺术爱好者绝对不能错过这个展览。"
+        ],
+        "english": [
+          "He is a great enthusiast of classical music.",
+          "This exhibition is a must for art lovers."
+        ]
+      },
+      "notes": "阳性名词，由lief(喜欢)+hebben(有)+er(人)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4937,
       "word": "lijfspreuk",
-      "pos": "noun",
-      "meaning": "座右铭,人生格言",
-      "word_forms": {
-        "singular": "lijfspreuk",
-        "plural": "lijfspreuken"
+      "translation": {
+        "chinese": "座右铭,人生格言",
+        "english": "motto, life motto"
       },
-      "example": "Zijn lijfspreuk is 'leef en laat leven'.",
-      "example_translation": "他的座右铭是\"自己活也让别人活\"。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lijfspreuk",
+          "plural": "lijfspreuken"
+        }
+      },
+      "examples": [
+        "Zijn lijfspreuk is 'leef en laat leven'.",
+        "Welke lijfspreuk inspireert jou?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的座右铭是\"自己活也让别人活\"。",
+          "哪句座右铭激励着你？"
+        ],
+        "english": [
+          "His motto is 'live and let live'.",
+          "Which motto inspires you?"
+        ]
+      },
+      "notes": "阴性名词，由lijf(身体)+spreuk(格言)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4938,
       "word": "liquideren",
-      "pos": "verb",
-      "meaning": "清除,消灭",
-      "word_forms": {
-        "infinitive": "liquideren",
-        "present": "liquideert",
-        "past": " liquideerde",
-        "participle": "geliquideerd"
+      "translation": {
+        "chinese": "清除,消灭",
+        "english": "to liquidate, to eliminate"
       },
-      "example": "De politie arresteerde de verdachte van de liquidatie.",
-      "example_translation": "警方逮捕了谋杀案的嫌疑人。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "liquideren",
+          "isSeparable": false,
+          "present": {
+            "ik": "liquideer",
+            "jij": "liquideert",
+            "hij": "liquideert",
+            "wij": "liquideren",
+            "jullie": "liquideren",
+            "zij": "liquideren"
+          },
+          "past": {
+            "singular": "liquideerde",
+            "plural": "liquideerden"
+          },
+          "pastParticiple": "geliquideerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De politie arresteerde de verdachte van de liquidatie.",
+        "Het bedrijf werd geliquideerd door de concurrentie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "警方逮捕了谋杀案的嫌疑人。",
+          "公司被竞争对手清除了。"
+        ],
+        "english": [
+          "The police arrested the suspect of the liquidation.",
+          "The company was liquidated by the competition."
+        ]
+      },
+      "notes": "不可分动词，也有清算(企业)的意思",
+      "difficulty": "B2"
     },
     {
       "id": 4939,
       "word": "lofprijzen",
-      "pos": "verb",
-      "meaning": "称赞,赞扬",
-      "word_forms": {
-        "infinitive": "lofprijzen",
-        "present": "lofpreist",
-        "past": "lofpreiste",
-        "participle": "gelofpreist"
+      "translation": {
+        "chinese": "称赞,赞扬",
+        "english": "to praise, to extol"
       },
-      "example": "De critici lofpreisten het nieuwe boek van de auteur.",
-      "example_translation": "评论家们称赞了这位作家的新书。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "lofprijzen",
+          "isSeparable": true,
+          "prefix": "lof",
+          "present": {
+            "ik": "preis lof",
+            "jij": "lofpreist",
+            "hij": "lofpreist",
+            "wij": "lofprijzen",
+            "jullie": "lofprijzen",
+            "zij": "lofprijzen"
+          },
+          "past": {
+            "singular": "lofpreiste",
+            "plural": "lofpreisten"
+          },
+          "pastParticiple": "gelofpreist",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De critici lofpreisten het nieuwe boek van de auteur.",
+        "Hij werd door iedereen geprezen om zijn moed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "评论家们称赞了这位作家的新书。",
+          "大家都称赞他的勇气。"
+        ],
+        "english": [
+          "The critics praised the author's new book.",
+          "He was praised by everyone for his courage."
+        ]
+      },
+      "notes": "可分动词，lof意为赞扬",
+      "difficulty": "B2"
     },
     {
       "id": 4940,
       "word": "lofprijzing",
-      "pos": "noun",
-      "meaning": "称赞,赞扬",
-      "word_forms": {
-        "singular": "lofprijzing",
-        "plural": "lofprijzingen"
+      "translation": {
+        "chinese": "称赞,赞扬",
+        "english": "praise, commendation"
       },
-      "example": "De lofprijzing voor het project was unaniem.",
-      "example_translation": "对这个项目的称赞是一致的。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "lofprijzing",
+          "plural": "lofprijzingen"
+        }
+      },
+      "examples": [
+        "De lofprijzing voor het project was unaniem.",
+        "Zij ontving veel lofprijzingen voor haar werk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "对这个项目的称赞是一致的。",
+          "她的工作受到了很多称赞。"
+        ],
+        "english": [
+          "The praise for the project was unanimous.",
+          "She received much praise for her work."
+        ]
+      },
+      "notes": "阴性名词，由lofprijzen演变而来",
+      "difficulty": "B2"
     },
     {
       "id": 4941,
       "word": "loodgieter",
-      "pos": "noun",
-      "meaning": "水管工",
-      "word_forms": {
-        "singular": "loodgieter",
-        "plural": "loodgieters"
+      "translation": {
+        "chinese": "水管工",
+        "english": "plumber"
       },
-      "example": "We moeten een loodgieter bellen voor de lekkage.",
-      "example_translation": "我们需要叫水管工来修理漏水。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "loodgieter",
+          "plural": "loodgieters"
+        }
+      },
+      "examples": [
+        "We moeten een loodgieter bellen voor de lekkage.",
+        "Mijn vader werkt als loodgieter."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们需要叫水管工来修理漏水。",
+          "我父亲是一名水管工。"
+        ],
+        "english": [
+          "We need to call a plumber for the leak.",
+          "My father works as a plumber."
+        ]
+      },
+      "notes": "阳性名词，复合词由lood(铅)+gieter(倾倒者)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4942,
       "word": "los daarvan",
-      "pos": "adverbial phrase",
-      "meaning": "除此之外,另外",
-      "word_forms": {},
-      "example": "Los daarvan is het ook nog erg duur.",
-      "example_translation": "除此之外,它还很贵。"
+      "translation": {
+        "chinese": "除此之外,另外",
+        "english": "apart from that, besides"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "examples": [
+        "Los daarvan is het ook nog erg duur.",
+        "Los daarvan heb ik geen andere opmerkingen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "除此之外,它还很贵。",
+          "除此之外我没有其他意见。"
+        ],
+        "english": [
+          "Apart from that, it's also very expensive.",
+          "Besides that, I have no other comments."
+        ]
+      },
+      "notes": "固定短语，表示补充说明",
+      "difficulty": "B2"
     },
     {
       "id": 4943,
       "word": "los kaartje",
-      "pos": "noun phrase",
-      "meaning": "单独票,散票",
-      "word_forms": {
-        "singular": "los kaartje",
-        "plural": "losse kaartjes"
+      "translation": {
+        "chinese": "单独票,散票",
+        "english": "single ticket, individual ticket"
       },
-      "example": "Ik heb twee losse kaartjes voor het concert.",
-      "example_translation": "我买了两张音乐会的单独票。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "los kaartje",
+          "plural": "losse kaartjes"
+        }
+      },
+      "examples": [
+        "Ik heb twee losse kaartjes voor het concert.",
+        "Losse kaartjes zijn duurder dan een kaartje voor 10 ritten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我买了两张音乐会的单独票。",
+          "散票比10次套票更贵。"
+        ],
+        "english": [
+          "I bought two single tickets for the concert.",
+          "Single tickets are more expensive than a 10-ride ticket."
+        ]
+      },
+      "notes": "中性名词短语，los表示单个的/散装的",
+      "difficulty": "B2"
     },
     {
       "id": 4944,
       "word": "losbarsten",
-      "pos": "verb",
-      "meaning": "爆发,迸发",
-      "word_forms": {
-        "infinitive": "losbarsten",
-        "present": "barst los",
-        "past": "barstte los",
-        "participle": "losgebarsten"
+      "translation": {
+        "chinese": "爆发,迸发",
+        "english": "to burst out, to break loose"
       },
-      "example": "De discussie barstte los tijdens de vergadering.",
-      "example_translation": "讨论在会议中爆发了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "losbarsten",
+          "isSeparable": true,
+          "prefix": "los",
+          "present": {
+            "ik": "barst los",
+            "jij": "barst los",
+            "hij": "barst los",
+            "wij": "barsten los",
+            "jullie": "barsten los",
+            "zij": "barsten los"
+          },
+          "past": {
+            "singular": "barstte los",
+            "plural": "barstten los"
+          },
+          "pastParticiple": "losgebarsten",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De discussie barstte los tijdens de vergadering.",
+        "In lachen barstte los toen hij het verhaal vertelde."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "讨论在会议中爆发了。",
+          "他讲故事时全场爆发出笑声。"
+        ],
+        "english": [
+          "The discussion broke loose during the meeting.",
+          "Bursts of laughter broke out when he told the story."
+        ]
+      },
+      "notes": "可分动词，los表示脱离/松开",
+      "difficulty": "B2"
     },
     {
       "id": 4945,
       "word": "loskoppelen",
-      "pos": "verb",
-      "meaning": "断开连接,分离",
-      "word_forms": {
-        "infinitive": "loskoppelen",
-        "present": "koppelt los",
-        "past": "koppelde los",
-        "participle": "losgekoppeld"
+      "translation": {
+        "chinese": "断开连接,分离",
+        "english": "to disconnect, to detach"
       },
-      "example": "Je moet het apparaat loskoppelen voordat je het opent.",
-      "example_translation": "打开设备前你必须断开连接。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "loskoppelen",
+          "isSeparable": true,
+          "prefix": "los",
+          "present": {
+            "ik": "koppel los",
+            "jij": "koppelt los",
+            "hij": "koppelt los",
+            "wij": "koppelen los",
+            "jullie": "koppelen los",
+            "zij": "koppelen los"
+          },
+          "past": {
+            "singular": "koppelde los",
+            "plural": "koppelden los"
+          },
+          "pastParticiple": "losgekoppeld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Je moet het apparaat loskoppelen voordat je het opent.",
+        "De loper werd losgekoppeld van het station."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "打开设备前你必须断开连接。",
+          "跑步机与基站断开了连接。"
+        ],
+        "english": [
+          "You must disconnect the device before opening it.",
+          "The treadmill was disconnected from the base station."
+        ]
+      },
+      "notes": "可分动词，koppelen表示连接",
+      "difficulty": "B2"
     },
     {
       "id": 4946,
       "word": "luchtalarm",
-      "pos": "noun",
-      "meaning": "空袭警报",
-      "word_forms": {
-        "singular": "luchtalarm",
-        "plural": "luchtalarmen"
+      "translation": {
+        "chinese": "空袭警报",
+        "english": "air raid siren, air raid alert"
       },
-      "example": "Het luchtalarm ging af om 23:00 uur.",
-      "example_translation": "空袭警报在晚上11点响起。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "luchtalarm",
+          "plural": "luchtalarmen"
+        }
+      },
+      "examples": [
+        "Het luchtalarm ging af om 23:00 uur.",
+        "Tijdens de oorlog was het luchtalarm vaak te horen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "空袭警报在晚上11点响起。",
+          "战争期间经常听到空袭警报。"
+        ],
+        "english": [
+          "The air raid siren went off at 11:00 PM.",
+          "During the war, the air raid alarm was often heard."
+        ]
+      },
+      "notes": "中性名词，由lucht(空气)+alarm(警报)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4947,
       "word": "luchtballon",
-      "pos": "noun",
-      "meaning": "热气球",
-      "word_forms": {
-        "singular": "luchtballon",
-        "plural": "luchtballonnen"
+      "translation": {
+        "chinese": "热气球",
+        "english": "hot air balloon"
       },
-      "example": "De toeristen maakten een tocht met een luchtballon.",
-      "example_translation": "游客们乘坐热气球旅行。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "luchtballon",
+          "plural": "luchtballonnen"
+        }
+      },
+      "examples": [
+        "De toeristen maakten een tocht met een luchtballon.",
+        "De luchtballon steeg langzaam de lucht in."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "游客们乘坐热气球旅行。",
+          "热气球缓缓升空。"
+        ],
+        "english": [
+          "The tourists took a trip in a hot air balloon.",
+          "The hot air balloon rose slowly into the sky."
+        ]
+      },
+      "notes": "阳性名词，由lucht(空气)+ballon(气球)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4948,
       "word": "luchthaven",
-      "pos": "noun",
-      "meaning": "机场",
-      "word_forms": {
-        "singular": "luchthaven",
-        "plural": "luchthavens"
+      "translation": {
+        "chinese": "机场",
+        "english": "airport"
       },
-      "example": "We moesten vroeg naar de luchthaven rijden.",
-      "example_translation": "我们必须早一点去机场。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "luchthaven",
+          "plural": "luchthavens"
+        }
+      },
+      "examples": [
+        "We moesten vroeg naar de luchthaven rijden.",
+        "De luchthaven is ongeveer 20 kilometer verderop."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们必须早一点去机场。",
+          "机场在大约20公里外。"
+        ],
+        "english": [
+          "We had to drive to the airport early.",
+          "The airport is about 20 kilometers away."
+        ]
+      },
+      "notes": "阳性名词，由lucht(空气)+haven(港口)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4949,
       "word": "luchtmacht",
-      "pos": "noun",
-      "meaning": "空军",
-      "word_forms": {
-        "singular": "luchtmacht",
-        "plural": "luchtmachten"
+      "translation": {
+        "chinese": "空军",
+        "english": "air force"
       },
-      "example": "Hij werkt bij de luchtmacht als piloot.",
-      "example_translation": "他在空军当飞行员。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "luchtmacht",
+          "plural": "luchtmachten"
+        }
+      },
+      "examples": [
+        "Hij werkt bij de luchtmacht als piloot.",
+        "De luchtmacht voerde een bombardement uit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在空军当飞行员。",
+          "空军实施了轰炸。"
+        ],
+        "english": [
+          "He works in the air force as a pilot.",
+          "The air force carried out a bombing."
+        ]
+      },
+      "notes": "阴性名词，由lucht(空气)+macht(力量)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4950,
       "word": "luchtvaart",
-      "pos": "noun",
-      "meaning": "航空,航空业",
-      "word_forms": {
-        "singular": "luchtvaart",
-        "plural": "luchtvaarten"
+      "translation": {
+        "chinese": "航空,航空业",
+        "english": "aviation, aviation industry"
       },
-      "example": "De luchtvaartsector heeft het moeilijk gehad.",
-      "example_translation": "航空业经历了困难时期。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "luchtvaart",
+          "plural": "luchtvaarten"
+        }
+      },
+      "examples": [
+        "De luchtvaartsector heeft het moeilijk gehad.",
+        "Hij werkt in de luchtvaartindustrie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "航空业经历了困难时期。",
+          "他在航空业工作。"
+        ],
+        "english": [
+          "The aviation sector has had a hard time.",
+          "He works in the aviation industry."
+        ]
+      },
+      "notes": "阴性名词，由lucht(空气)+vaart(航行)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4951,
       "word": "luidruchtig",
-      "pos": "adjective",
-      "meaning": "喧闹的,吵闹的",
-      "word_forms": {
-        "positive": "luidruchtig",
-        "comparative": "luidruchtiger"
+      "translation": {
+        "chinese": "喧闹的,吵闹的",
+        "english": "noisy, loud"
       },
-      "example": "De kinderen waren erg luidruchtig in de tuin.",
-      "example_translation": "孩子们在花园里非常吵闹。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "luidruchtig",
+          "withDe": "luidruchtige",
+          "withHet": "luidruchtige",
+          "comparative": "luidruchtiger",
+          "superlative": "luidruchtigst"
+        }
+      },
+      "examples": [
+        "De kinderen waren erg luidruchtig in de tuin.",
+        "De buren klaagden over het luidruchtige feest."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "孩子们在花园里非常吵闹。",
+          "邻居们抱怨喧闹的派对。"
+        ],
+        "english": [
+          "The children were very noisy in the garden.",
+          "The neighbors complained about the noisy party."
+        ]
+      },
+      "notes": "形容词，由luid(大声)+ruchtig(发出声音的)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4952,
       "word": "luisteraar",
-      "pos": "noun",
-      "meaning": "听众,听者",
-      "word_forms": {
-        "singular": "luisteraar",
-        "plural": "luisteraars"
+      "translation": {
+        "chinese": "听众,听者",
+        "english": "listener, audience member"
       },
-      "example": "De spreker hield de luisteraars geboeid.",
-      "example_translation": "演讲者让听众们着迷。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "luisteraar",
+          "plural": "luisteraars"
+        }
+      },
+      "examples": [
+        "De spreker hield de luisteraars geboeid.",
+        "Het radioprogramma heeft miljoenen luisteraars."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "演讲者让听众们着迷。",
+          "这个广播节目有数百万听众。"
+        ],
+        "english": [
+          "The speaker captivated the audience.",
+          "The radio program has millions of listeners."
+        ]
+      },
+      "notes": "阳性名词，由luisteren(听)+aar(人)组成",
+      "difficulty": "B2"
     }
   ]
 }

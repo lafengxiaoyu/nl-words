@@ -1,623 +1,1853 @@
 {
+  "id": "lB216",
+  "level": "B2",
+  "lessonNumber": 16,
+  "totalWords": 50,
   "words": [
     {
       "id": 5028,
       "word": "om en nabij",
-      "pos": "adverbial phrase",
-      "meaning": "大约,大约在",
-      "word_forms": {},
-      "example": "Het is om en nabij twintig jaar geleden.",
-      "example_translation": "大约是二十年前的事了。"
+      "translation": {
+        "chinese": "大约,大约在",
+        "english": "about, around, approximately"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "examples": [
+        "Het is om en nabij twintig jaar geleden.",
+        "Het station ligt om en nabij het hotel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "大约是二十年前的事了。",
+          "车站就在酒店附近。"
+        ],
+        "english": [
+          "It happened about twenty years ago.",
+          "The station is located around the hotel."
+        ]
+      },
+      "notes": "固定短语，om表示'大约'",
+      "difficulty": "B2"
     },
     {
       "id": 5029,
       "word": "omschrijven",
-      "pos": "verb",
-      "meaning": "描述,重新描述",
-      "word_forms": {
-        "infinitive": "omschrijven",
-        "present": "schrijft om",
-        "past": "schreef om",
-        "participle": "omgeschreven"
+      "translation": {
+        "chinese": "描述,重新描述",
+        "english": "to describe, to paraphrase"
       },
-      "example": "Kun je de situatie omschrijven?",
-      "example_translation": "你能描述一下这个情况吗?"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "omschrijven",
+          "isSeparable": true,
+          "prefix": "om",
+          "present": {
+            "ik": "schrijf om",
+            "jij": "schrijft om",
+            "hij": "schrijft om",
+            "wij": "schrijven om",
+            "jullie": "schrijven om",
+            "zij": "schrijven om"
+          },
+          "past": {
+            "singular": "schreef om",
+            "plural": "schreven om"
+          },
+          "pastParticiple": "omgeschreven",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Kun je de situatie omschrijven?",
+        "Zij schreef het probleem om in andere woorden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你能描述一下这个情况吗?",
+          "她用不同的词重新描述了这个问题。"
+        ],
+        "english": [
+          "Can you describe the situation?",
+          "She paraphrased the problem in different words."
+        ]
+      },
+      "notes": "可分动词，由schrijven(写)加前缀om-组成",
+      "difficulty": "B2"
     },
     {
       "id": 5030,
       "word": "omsingelen",
-      "pos": "verb",
-      "meaning": "包围",
-      "word_forms": {
-        "infinitive": "omsingelen",
-        "present": "omringt",
-        "past": "omringde",
-        "participle": "omringd"
+      "translation": {
+        "chinese": "包围",
+        "english": "to surround, to encircle"
       },
-      "example": "Het leger omsingelde de stad.",
-      "example_translation": "军队包围了这座城市。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "omsingelen",
+          "isSeparable": true,
+          "prefix": "om",
+          "present": {
+            "ik": "omring",
+            "jij": "omringt",
+            "hij": "omringt",
+            "wij": "omringen",
+            "jullie": "omringen",
+            "zij": "omringen"
+          },
+          "past": {
+            "singular": "omringde",
+            "plural": "omringden"
+          },
+          "pastParticiple": "omringd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het leger omsingelde de stad.",
+        "De politie omsingelde de verdachte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "军队包围了这座城市。",
+          "警方包围了嫌疑人。"
+        ],
+        "english": [
+          "The army surrounded the city.",
+          "The police encircled the suspect."
+        ]
+      },
+      "notes": "可分动词，ringen意为环绕",
+      "difficulty": "B2"
     },
     {
       "id": 5031,
       "word": "omstebeurt",
-      "pos": "adverb",
-      "meaning": "轮流",
-      "word_forms": {},
-      "example": "We doen het omstebeurt.",
-      "example_translation": "我们轮流做。"
+      "translation": {
+        "chinese": "轮流",
+        "english": "in turn, alternatively"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "We doen het omstebeurt.",
+        "De kinderen spelen omstebeurt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们轮流做。",
+          "孩子们轮流玩耍。"
+        ],
+        "english": [
+          "We do it in turn.",
+          "The children play in turn."
+        ]
+      },
+      "notes": "副词，表示交替进行",
+      "difficulty": "B2"
     },
     {
       "id": 5032,
       "word": "omvangrijk",
-      "pos": "adjective",
-      "meaning": "巨大的,规模大的",
-      "word_forms": {
-        "positive": "omvangrijk",
-        "comparative": "omvangrijker"
+      "translation": {
+        "chinese": "巨大的,规模大的",
+        "english": "large-scale, extensive, vast"
       },
-      "example": "Het is een omvangrijk project.",
-      "example_translation": "这是一个规模宏大的项目。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "omvangrijk",
+          "withDe": "omvangrijke",
+          "withHet": "omvangrijke",
+          "comparative": "omvangrijker",
+          "superlative": "omvangrijkst"
+        }
+      },
+      "examples": [
+        "Het is een omvangrijk project.",
+        "Er vond een omvangrijke brand plaats."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个规模宏大的项目。",
+          "发生了一场大规模火灾。"
+        ],
+        "english": [
+          "This is a large-scale project.",
+          "A large-scale fire occurred."
+        ]
+      },
+      "notes": "形容词，由omvang(规模)+rijk(富有)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5033,
       "word": "omverblazen",
-      "pos": "verb",
-      "meaning": "吹倒,推翻",
-      "word_forms": {
-        "infinitive": "omverblazen",
-        "present": "blaast omver",
-        "past": "blies omver",
-        "participle": "omvergeblazen"
+      "translation": {
+        "chinese": "吹倒,推翻",
+        "english": "to blow over, to knock down"
       },
-      "example": "De storm blies de bomen omver.",
-      "example_translation": "暴风雨把树木吹倒了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "omverblazen",
+          "isSeparable": true,
+          "prefix": "om",
+          "present": {
+            "ik": "blaas omver",
+            "jij": "blaast omver",
+            "hij": "blaast omver",
+            "wij": "blazen omver",
+            "jullie": "blazen omver",
+            "zij": "blazen omver"
+          },
+          "past": {
+            "singular": "blies omver",
+            "plural": "bliezen omver"
+          },
+          "pastParticiple": "omvergeblazen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De storm blies de bomen omver.",
+        "De wind blaast omver wat niet verankerd is."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "暴风雨把树木吹倒了。",
+          "风把没固定好的东西都吹倒了。"
+        ],
+        "english": [
+          "The storm blew the trees down.",
+          "The wind blows down whatever isn't anchored."
+        ]
+      },
+      "notes": "可分动词，blazen意为吹",
+      "difficulty": "B2"
     },
     {
       "id": 5034,
       "word": "omwille van",
-      "pos": "prepositional phrase",
-      "meaning": "为了,由于",
-      "word_forms": {},
-      "example": "We doen het omwille van het milieu.",
-      "example_translation": "为了环境我们这样做。"
+      "translation": {
+        "chinese": "为了,由于",
+        "english": "because of, for the sake of"
+      },
+      "partOfSpeech": "prepositional phrase",
+      "examples": [
+        "We doen het omwille van het milieu.",
+        "Hij vertrok omwille van zakelijke redenen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "为了环境我们这样做。",
+          "由于商务原因他离开了。"
+        ],
+        "english": [
+          "We do it for the sake of environment.",
+          "He left due to business reasons."
+        ]
+      },
+      "notes": "固定短语，常用于正式场合",
+      "difficulty": "B2"
     },
     {
       "id": 5035,
       "word": "omwonenden",
-      "pos": "noun",
-      "meaning": "邻居,周边居民",
-      "word_forms": {
-        "singular": "omwonende",
-        "plural": "omwonenden"
+      "translation": {
+        "chinese": "邻居,周边居民",
+        "english": "neighbors, residents"
       },
-      "example": "De omwonenden klaagden over de herrie.",
-      "example_translation": "邻居们抱怨噪音。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "omwonende",
+          "plural": "omwonenden"
+        }
+      },
+      "examples": [
+        "De omwonenden klaagden over de herrie.",
+        "De omwonenden hielpen elkaar na de storm."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "邻居们抱怨噪音。",
+          "风暴后邻居们互相帮助。"
+        ],
+        "english": [
+          "The neighbors complained about the noise.",
+          "The neighbors helped each other after the storm."
+        ]
+      },
+      "notes": "阳性名词，由om(周围)+wonen(居住)+enden(人)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5036,
       "word": "onbenullig",
-      "pos": "adjective",
-      "meaning": "微不足道的,愚蠢的",
-      "word_forms": {
-        "positive": "onbenullig",
-        "comparative": "onbenulliger"
+      "translation": {
+        "chinese": "微不足道的,愚蠢的",
+        "english": "negligible, insignificant"
       },
-      "example": "Het was een onbenullige fout.",
-      "example_translation": "这是一个微不足道的错误。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onbenullig",
+          "withDe": "onbenullige",
+          "withHet": "onbenullige",
+          "comparative": "onbenulliger",
+          "superlative": "onbenulligst"
+        }
+      },
+      "examples": [
+        "Het was een onbenullige fout.",
+        "Het verschil is onbenullig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个微不足道的错误。",
+          "差别可以忽略不计。"
+        ],
+        "english": [
+          "It was a negligible mistake.",
+          "The difference is insignificant."
+        ]
+      },
+      "notes": "形容词，由on(否定)+benul(有意义的)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5037,
       "word": "onbeschoft",
-      "pos": "adjective",
-      "meaning": "粗鲁的,无礼的",
-      "word_forms": {
-        "positive": "onbeschoft",
-        "comparative": "onbeschofter"
+      "translation": {
+        "chinese": "粗鲁的,无礼的",
+        "english": "rude, ill-mannered, disrespectful"
       },
-      "example": "Zijn gedrag was erg onbeschoft.",
-      "example_translation": "他的行为非常粗鲁。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onbeschoft",
+          "withDe": "onbeschofte",
+          "withHet": "onbeschofte",
+          "comparative": "onbeschofter",
+          "superlative": "onbeschoftst"
+        }
+      },
+      "examples": [
+        "Zijn gedrag was erg onbeschoft.",
+        "Ze sprak onbeschoft tegen de ober."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的行为非常粗鲁。",
+          "她对服务员说话很无礼。"
+        ],
+        "english": [
+          "His behavior was very rude.",
+          "She spoke disrespectfully to the waiter."
+        ]
+      },
+      "notes": "形容词，beschoft意为有礼貌",
+      "difficulty": "B2"
     },
     {
       "id": 5038,
       "word": "onbruikbaar",
-      "pos": "adjective",
-      "meaning": "不可用的",
-      "word_forms": {
-        "positive": "onbruikbaar",
-        "comparative": "onbruikbaarder"
+      "translation": {
+        "chinese": "不可用的",
+        "english": "unusable, unusable"
       },
-      "example": "De machine is onbruikbaar geworden.",
-      "example_translation": "这台机器已经无法使用了。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onbruikbaar",
+          "withDe": "onbruikbare",
+          "withHet": "onbruikbare",
+          "comparative": "onbruikbaarder",
+          "superlative": "onbruikbaarst"
+        }
+      },
+      "examples": [
+        "De machine is onbruikbaar geworden.",
+        "De brug is onbruikbaar door de schade."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这台机器已经无法使用了。",
+          "由于损坏，桥梁无法使用。"
+        ],
+        "english": [
+          "The machine has become unusable.",
+          "The bridge is unusable due to the damage."
+        ]
+      },
+      "notes": "形容词，bruikbaar意为可用的",
+      "difficulty": "B2"
     },
     {
       "id": 5039,
       "word": "ondenkbaar",
-      "pos": "adjective",
-      "meaning": "难以想象的,不可思议的",
-      "word_forms": {
-        "positive": "ondenkbaar",
-        "comparative": "ondenkbaarder"
+      "translation": {
+        "chinese": "难以想象的,不可思议的",
+        "english": "inconceivable, unimaginable"
       },
-      "example": "Het is ondenkbaar dat dit gebeurt.",
-      "example_translation": "这是难以想象的。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ondenkbaar",
+          "withDe": "ondenkbare",
+          "withHet": "ondenkbare",
+          "comparative": "ondenkbaarder",
+          "superlative": "ondenkbaarst"
+        }
+      },
+      "examples": [
+        "Het is ondenkbaar dat dit gebeurt.",
+        "Een succes van die omvang is ondenkbaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是难以想象的。",
+          "这种规模的成功令人难以置信。"
+        ],
+        "english": [
+          "It's inconceivable that this happens.",
+          "A success of that magnitude is unimaginable."
+        ]
+      },
+      "notes": "形容词，denkbaar意为可想象的",
+      "difficulty": "B2"
     },
     {
       "id": 5040,
       "word": "onderbewust",
-      "pos": "adjective",
-      "meaning": "下意识的,潜意识的",
-      "word_forms": {
-        "positive": "onderbewust",
-        "comparative": "onderbewuster"
+      "translation": {
+        "chinese": "下意识的,潜意识的",
+        "english": "subconscious, unaware"
       },
-      "example": "Zij deed het onderbewust.",
-      "example_translation": "她下意识地这样做。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onderbewust",
+          "withDe": "onderbewuste",
+          "withHet": "onderbewuste",
+          "comparative": "onderbewuster",
+          "superlative": "onderbewustst"
+        }
+      },
+      "examples": [
+        "Zij deed het onderbewust.",
+        "Ik was me niet bewust van het onderbewuste gedrag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她下意识地这样做。",
+          "我没有意识到自己的潜意识行为。"
+        ],
+        "english": [
+          "She did it subconsciously.",
+          "I wasn't aware of my subconscious behavior."
+        ]
+      },
+      "notes": "形容词，bewust意为有意识的",
+      "difficulty": "B2"
     },
     {
       "id": 5041,
       "word": "onderbezet",
-      "pos": "adjective",
-      "meaning": "人员不足的",
-      "word_forms": {
-        "positive": "onderbezet",
-        "comparative": "onderbezeter"
+      "translation": {
+        "chinese": "人员不足的",
+        "english": "understaffed"
       },
-      "example": "Het ziekenhuis is onderbezet.",
-      "example_translation": "医院人员不足。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onderbezet",
+          "withDe": "onderbezette",
+          "withHet": "onderbezette",
+          "comparative": "onderbezetter",
+          "superlative": "onderbezetst"
+        }
+      },
+      "examples": [
+        "Het ziekenhuis is onderbezet.",
+        "Het bedrijf is onderbezet door personeelsgebrek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "医院人员不足。",
+          "由于人员短缺，公司人手不足。"
+        ],
+        "english": [
+          "The hospital is understaffed.",
+          "The company is understaffed due to personnel shortage."
+        ]
+      },
+      "notes": "形容词，bezet意为被占有的/有人的",
+      "difficulty": "B2"
     },
     {
       "id": 5042,
       "word": "onderbouwen",
-      "pos": "verb",
-      "meaning": "支撑,支持,论证",
-      "word_forms": {
-        "infinitive": "onderbouwen",
-        "present": "bouwt onder",
-        "past": "bouwde onder",
-        "participle": "onderbouwd"
+      "translation": {
+        "chinese": "支撑,支持,论证",
+        "english": "to substantiate, to support"
       },
-      "example": "Hij onderbouwt zijn mening met feiten.",
-      "example_translation": "他用事实支持自己的观点。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onderbouwen",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "bouw onder",
+            "jij": "bouwt onder",
+            "hij": "bouwt onder",
+            "wij": "bouwen onder",
+            "jullie": "bouwen onder",
+            "zij": "bouwen onder"
+          },
+          "past": {
+            "singular": "bouwde onder",
+            "plural": "bouwden onder"
+          },
+          "pastParticiple": "onderbouwd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij onderbouwt zijn mening met feiten.",
+        "De advocaat onderbouwde haar verdediging."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他用事实支持自己的观点。",
+          "律师论证了她的辩护。"
+        ],
+        "english": [
+          "He substantiates his opinion with facts.",
+          "The lawyer supported her defense."
+        ]
+      },
+      "notes": "可分动词，bouwen意为建造/建设",
+      "difficulty": "B2"
     },
     {
       "id": 5043,
       "word": "onderbreken",
-      "pos": "verb",
-      "meaning": "打断,中断",
-      "word_forms": {
-        "infinitive": "onderbreken",
-        "present": "breekt onder",
-        "past": "brak onder",
-        "participle": "onderbroken"
+      "translation": {
+        "chinese": "打断,中断",
+        "english": "to interrupt, to break off"
       },
-      "example": "Mag ik u even onderbreken?",
-      "example_translation": "我可以打扰您一下吗?"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onderbreken",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "breek onder",
+            "jij": "breekt onder",
+            "hij": "breekt onder",
+            "wij": "breken onder",
+            "jullie": "breken onder",
+            "zij": "breken onder"
+          },
+          "past": {
+            "singular": "brak onder",
+            "plural": "braken onder"
+          },
+          "pastParticiple": "onderbroken",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Mag ik u even onderbreken?",
+        "Het gesprek werd onderbroken door de telefoon."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我可以打扰您一下吗?",
+          "谈话被电话打断了。"
+        ],
+        "english": [
+          "May I interrupt you briefly?",
+          "The conversation was interrupted by the phone."
+        ]
+      },
+      "notes": "可分动词，breken意为打破",
+      "difficulty": "B2"
     },
     {
       "id": 5044,
       "word": "onderbroek",
-      "pos": "noun",
-      "meaning": "内裤",
-      "word_forms": {
-        "singular": "onderbroek",
-        "plural": "onderbroeken"
+      "translation": {
+        "chinese": "内裤",
+        "english": "underpants, long johns"
       },
-      "example": "Hij droeg een schone onderbroek.",
-      "example_translation": "他穿着干净的内裤。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "onderbroek",
+          "plural": "onderbroeken"
+        }
+      },
+      "examples": [
+        "Hij droeg een schone onderbroek.",
+        "Zij kocht nieuwe onderbroeken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他穿着干净的内裤。",
+          "她买了新的内裤。"
+        ],
+        "english": [
+          "He wore clean underpants.",
+          "She bought new underpants."
+        ]
+      },
+      "notes": "阳性名词，由onder(下面)+broek(裤子)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5045,
       "word": "onderdrukken",
-      "pos": "verb",
-      "meaning": "压制,抑制",
-      "word_forms": {
-        "infinitive": "onderdrukken",
-        "present": "drukt onder",
-        "past": "drukte onder",
-        "participle": "onderdrukt"
+      "translation": {
+        "chinese": "压制,抑制",
+        "english": "to suppress, to keep under control"
       },
-      "example": "De regering onderdrukte de protesten.",
-      "example_translation": "政府镇压了抗议活动。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onderdrukken",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "druk onder",
+            "jij": "drukt onder",
+            "hij": "drukt onder",
+            "wij": "drukken onder",
+            "jullie": "drukken onder",
+            "zij": "drukken onder"
+          },
+          "past": {
+            "singular": "drukte onder",
+            "plural": "dukten onder"
+          },
+          "pastParticiple": "onderdrukt",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De regering onderdrukte de protesten.",
+        "Hij onderdrukte zijn gevoelens."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "政府镇压了抗议活动。",
+          "他压抑了自己的感情。"
+        ],
+        "english": [
+          "The government suppressed the protests.",
+          "He suppressed his emotions."
+        ]
+      },
+      "notes": "可分动词，drukken意为按压",
+      "difficulty": "B2"
     },
     {
       "id": 5046,
       "word": "onderduiken",
-      "pos": "verb",
-      "meaning": "躲避,藏匿",
-      "word_forms": {
-        "infinitive": "onderduiken",
-        "present": "duikt onder",
-        "past": "dook onder",
-        "participle": "ondergedoken"
+      "translation": {
+        "chinese": "躲避,藏匿",
+        "english": "to go into hiding, to conceal"
       },
-      "example": "Hij moest onderduiken tijdens de oorlog.",
-      "example_translation": "战争期间他不得不躲避起来。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onderduiken",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "duik onder",
+            "jij": "duikt onder",
+            "hij": "duikt onder",
+            "wij": "duiken onder",
+            "jullie": "duiken onder",
+            "zij": "duiken onder"
+          },
+          "past": {
+            "singular": "dook onder",
+            "plural": "doken onder"
+          },
+          "pastParticiple": "ondergedoken",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Hij moest onderduiken tijdens de oorlog.",
+        "De misdadigers duikten onder in de bossen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "战争期间他不得不躲避起来。",
+          "罪犯们藏匿在森林中。"
+        ],
+        "english": [
+          "He had to go into hiding during the war.",
+          "The criminals hid in the forests."
+        ]
+      },
+      "notes": "可分动词，duiken意为潜水",
+      "difficulty": "B2"
     },
     {
       "id": 5047,
       "word": "ondergroei",
-      "pos": "noun",
-      "meaning": "下层植被,灌木层",
-      "word_forms": {
-        "singular": "ondergroei",
-        "plural": "ondergroei"
+      "translation": {
+        "chinese": "下层植被,灌木层",
+        "english": "undergrowth, underbrush"
       },
-      "example": "De ondergroei van het bos was dik.",
-      "example_translation": "森林的下层植被很茂密。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ondergroei",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De ondergroei van het bos was dik.",
+        "Het pad was bijna onzichtbaar door de ondergroei."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "森林的下层植被很茂密。",
+          "由于灌木丛生，小路几乎看不见。"
+        ],
+        "english": [
+          "The undergrowth of the forest was thick.",
+          "The path was almost invisible due to underbrush."
+        ]
+      },
+      "notes": "阴性名词，通常不可数",
+      "difficulty": "B2"
     },
     {
       "id": 5048,
       "word": "onderhands",
-      "pos": "adverb",
-      "meaning": "私下地,非正式地",
-      "word_forms": {},
-      "example": "Ze hebben het onderhands geregeld.",
-      "example_translation": "他们私下解决了这件事。"
+      "translation": {
+        "chinese": "私下地,非正式地",
+        "english": "privately, informally, unofficially"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "Ze hebben het onderhands geregeld.",
+        "Het probleem werd onderhands opgelost."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他们私下解决了这件事。",
+          "这个问题被私下解决了。"
+        ],
+        "english": [
+          "They settled it privately.",
+          "The problem was settled informally."
+        ]
+      },
+      "notes": "副词，hands意为手/私下",
+      "difficulty": "B2"
     },
     {
       "id": 5049,
       "word": "onderhavig",
-      "pos": "adjective",
-      "meaning": "相关的,涉及的",
-      "word_forms": {
-        "positive": "onderhavig",
-        "comparative": "onderhaviger"
+      "translation": {
+        "chinese": "相关的,涉及的",
+        "english": "concerned, involved, related"
       },
-      "example": "De onderhavige zaak is complex.",
-      "example_translation": "相关案件很复杂。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onderhavig",
+          "withDe": "onderhavige",
+          "withHet": "onderhavige",
+          "comparative": "onderhaviger",
+          "superlative": "onderhavigst"
+        }
+      },
+      "examples": [
+        "De onderhavige zaak is complex.",
+        "Alle betrokken partijen werden onderhavige."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "相关案件很复杂。",
+          "所有相关方都被涉及。"
+        ],
+        "english": [
+          "The concerned case is complex.",
+          "All involved parties were affected."
+        ]
+      },
+      "notes": "形容词，havig意为涉及/影响",
+      "difficulty": "B2"
     },
     {
       "id": 5050,
       "word": "onderhouden",
-      "pos": "verb",
-      "meaning": "维持,保养",
-      "word_forms": {
-        "infinitive": "onderhouden",
-        "present": "houdt onder",
-        "past": "hield onder",
-        "participle": "onderhouden"
+      "translation": {
+        "chinese": "维持,保养",
+        "english": "to maintain, to keep in good condition"
       },
-      "example": "We onderhouden de auto goed.",
-      "example_translation": "我们很好地保养这辆车。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onderhouden",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "houd onder",
+            "jij": "houdt onder",
+            "hij": "houdt onder",
+            "wij": "houden onder",
+            "jullie": "houden onder",
+            "zij": "houden onder"
+          },
+          "past": {
+            "singular": "hield onder",
+            "plural": "hielden onder"
+          },
+          "pastParticiple": "onderhouden",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "We onderhouden de auto goed.",
+        "Het park wordt goed onderhouden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们很好地保养这辆车。",
+          "公园维护得很好。"
+        ],
+        "english": [
+          "We maintain the car well.",
+          "The park is well maintained."
+        ]
+      },
+      "notes": "可分动词，houden意为保持/持有",
+      "difficulty": "B2"
     },
     {
       "id": 5051,
       "word": "onderkennen",
-      "pos": "verb",
-      "meaning": "忽视,忽略",
-      "word_forms": {
-        "infinitive": "onderkennen",
-        "present": "kent onder",
-        "past": "kende onder",
-        "participle": "onderkend"
+      "translation": {
+        "chinese": "忽视,忽略",
+        "english": "to ignore, to overlook"
       },
-      "example": "Je mag het belang niet onderkennen.",
-      "example_translation": "你不能忽视其重要性。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onderkennen",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "ken onder",
+            "jij": "kent onder",
+            "hij": "kent onder",
+            "wij": "kennen onder",
+            "jullie": "kennen onder",
+            "zij": "kennen onder"
+          },
+          "past": {
+            "singular": "kende onder",
+            "plural": "kenden onder"
+          },
+          "pastParticiple": "onderkend",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Je mag het belang niet onderkennen.",
+        "Zij kende het probleem onder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你不能忽视其重要性。",
+          "她忽略了这个问题。"
+        ],
+        "english": [
+          "You may not ignore its importance.",
+          "She overlooked the problem."
+        ]
+      },
+      "notes": "可分动词，kennen意为认识/知道",
+      "difficulty": "B2"
     },
     {
       "id": 5052,
       "word": "onderkomen",
-      "pos": "verb",
-      "meaning": "得到住所,安置",
-      "word_forms": {
-        "infinitive": "onderkomen",
-        "present": "komt onder",
-        "past": "kwam onder",
-        "participle": "ondergekomen"
+      "translation": {
+        "chinese": "得到住所,安置",
+        "english": "to be accommodated, to settle down"
       },
-      "example": "De vluchtelingen konden onderkomen in een hotel.",
-      "example_translation": "难民们可以在酒店里得到安置。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onderkomen",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "kom onder",
+            "jij": "komt onder",
+            "hij": "komt onder",
+            "wij": "komen onder",
+            "jullie": "komen onder",
+            "zij": "komen onder"
+          },
+          "past": {
+            "singular": "kwam onder",
+            "plural": "kwamen onder"
+          },
+          "pastParticiple": "ondergekomen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De vluchtelingen konden onderkomen in een hotel.",
+        "Nieuwe inwoners konden onderkomen in de stad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "难民们可以在酒店里得到安置。",
+          "新居民可以在城里安顿下来。"
+        ],
+        "english": [
+          "The refugees could be accommodated in a hotel.",
+          "New residents could settle in the city."
+        ]
+      },
+      "notes": "可分动词，komen意为来/到达",
+      "difficulty": "B2"
     },
     {
       "id": 5053,
       "word": "onderlopen",
-      "pos": "verb",
-      "meaning": "遭遇,承受",
-      "word_forms": {
-        "infinitive": "onderlopen",
-        "present": "loopt onder",
-        "past": "liep onder",
-        "participle": "ondergelopen"
+      "translation": {
+        "chinese": "遭遇,承受",
+        "english": "to suffer, to undergo"
       },
-      "example": "Hij liep onder een straf.",
-      "example_translation": "他受到了处罚。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onderlopen",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "loop onder",
+            "jij": "loopt onder",
+            "hij": "loopt onder",
+            "wij": "lopen onder",
+            "jullie": "lopen onder",
+            "zij": "lopen onder"
+          },
+          "past": {
+            "singular": "liep onder",
+            "plural": "liepen onder"
+          },
+          "pastParticiple": "onderlopen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij liep onder een straf.",
+        "De bevolking liep onder een ziekte epidemie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他受到了处罚。",
+          "人口遭受了瘟疫。"
+        ],
+        "english": [
+          "He suffered a punishment.",
+          "The population suffered from a disease epidemic."
+        ]
+      },
+      "notes": "可分动词，lopen意为走/经历",
+      "difficulty": "B2"
     },
     {
       "id": 5054,
       "word": "ondermaats",
-      "pos": "adjective",
-      "meaning": "低于标准的,劣质的",
-      "word_forms": {
-        "positive": "ondermaats",
-        "comparative": "ondermatser"
+      "translation": {
+        "chinese": "低于标准的,劣质的",
+        "english": "substandard, inferior"
       },
-      "example": "Het werk is ondermaats uitgevoerd.",
-      "example_translation": "工作完成得低于标准。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ondermaats",
+          "withDe": "ondermatige",
+          "withHet": "ondermatige",
+          "comparative": "ondermatser",
+          "superlative": "ondermaatst"
+        }
+      },
+      "examples": [
+        "Het werk is ondermaats uitgevoerd.",
+        "De kwaliteit is ondermaats."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "工作完成得低于标准。",
+          "质量低于标准。"
+        ],
+        "english": [
+          "The work was performed substandard.",
+          "The quality is inferior."
+        ]
+      },
+      "notes": "形容词，maats意为标准的/衡量",
+      "difficulty": "B2"
     },
     {
       "id": 5055,
       "word": "ondermijnen",
-      "pos": "verb",
-      "meaning": "削弱,破坏",
-      "word_forms": {
-        "infinitive": "ondermijnen",
-        "present": "mijnt onder",
-        "past": "mijnde onder",
-        "participle": "ondermijnd"
+      "translation": {
+        "chinese": "削弱,破坏",
+        "english": "to undermine, to weaken"
       },
-      "example": "Het ontslag verzwakte het teamvertrouwen.",
-      "example_translation": "解雇削弱了团队信任。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ondermijnen",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "mijn onder",
+            "jij": "mijnt onder",
+            "hij": "mijnt onder",
+            "wij": "mijnen onder",
+            "jullie": "mijnen onder",
+            "zij": "mijnen onder"
+          },
+          "past": {
+            "singular": "mijnde onder",
+            "plural": "mijnden onder"
+          },
+          "pastParticiple": "ondermijnd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het ontslag verzwakte het teamvertrouwen.",
+        "De kritiek ondermijnde zijn autoriteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "解雇削弱了团队信任。",
+          "批评削弱了他的权威。"
+        ],
+        "english": [
+          "The dismissal undermined the team trust.",
+          "The criticism undermined his authority."
+        ]
+      },
+      "notes": "可分动词，mijnen意为挖掘",
+      "difficulty": "B2"
     },
     {
       "id": 5056,
       "word": "ondernemend",
-      "pos": "adjective",
-      "meaning": "有创业精神的,积极的",
-      "word_forms": {
-        "positive": "ondernemend",
-        "comparative": "ondernemender"
+      "translation": {
+        "chinese": "有创业精神的,积极的",
+        "english": "enterprising, proactive"
       },
-      "example": "Zij is een ondernemende vrouw.",
-      "example_translation": "她是一位有创业精神的女企业家。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ondernemend",
+          "withDe": "ondernemende",
+          "withHet": "ondernemende",
+          "comparative": "ondernemender",
+          "superlative": "ondernemendst"
+        }
+      },
+      "examples": [
+        "Zij is een ondernemende vrouw.",
+        "Hij is een ondernemende jongeman."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她是一位有创业精神的女企业家。",
+          "他是一位积极进取的年轻人。"
+        ],
+        "english": [
+          "She is an enterprising woman.",
+          "He is an enterprising young man."
+        ]
+      },
+      "notes": "形容词，ondernemen意为从事/承担",
+      "difficulty": "B2"
     },
     {
       "id": 5057,
       "word": "ondernemer",
-      "pos": "noun",
-      "meaning": "企业家",
-      "word_forms": {
-        "singular": "ondernemer",
-        "plural": "ondernemers"
+      "translation": {
+        "chinese": "企业家",
+        "english": "entrepreneur, business owner"
       },
-      "example": "Hij is een succesvolle ondernemer.",
-      "example_translation": "他是一位成功的企业家。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ondernemer",
+          "plural": "ondernemers"
+        }
+      },
+      "examples": [
+        "Hij is een succesvolle ondernemer.",
+        "Zij startte haar eigen bedrijf als ondernemer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是一位成功的企业家。",
+          "作为企业家她开始了自己的生意。"
+        ],
+        "english": [
+          "He is a successful entrepreneur.",
+          "She started her own business as an entrepreneur."
+        ]
+      },
+      "notes": "阳性名词，ondernemen的派生词",
+      "difficulty": "B2"
     },
     {
       "id": 5058,
       "word": "onderscheid",
-      "pos": "noun",
-      "meaning": "区别,区别",
-      "word_forms": {
-        "singular": "onderscheid",
-        "plural": "onderscheiden"
+      "translation": {
+        "chinese": "区别,区别",
+        "english": "distinction, difference"
       },
-      "example": "Er is een duidelijk onderscheid tussen beide.",
-      "example_translation": "两者之间有明显的区别。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "onderscheid",
+          "plural": "onderscheiden"
+        }
+      },
+      "examples": [
+        "Er is een duidelijk onderscheid tussen beide.",
+        "Het is moeilijk om onderscheid te maken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "两者之间有明显的区别。",
+          "很难做出区分。"
+        ],
+        "english": [
+          "There is a clear distinction between both.",
+          "It's difficult to make a distinction."
+        ]
+      },
+      "notes": "阴性名词，onderscheiden意为区分",
+      "difficulty": "B2"
     },
     {
       "id": 5059,
       "word": "onderstaand",
-      "pos": "adjective",
-      "meaning": "以下的,下述的",
-      "word_forms": {
-        "positive": "onderstaand",
-        "comparative": "onderstaander"
+      "translation": {
+        "chinese": "以下的,下述的",
+        "english": "following, below"
       },
-      "example": "Zie de onderstaande lijst.",
-      "example_translation": "请见以下列表。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onderstaand",
+          "withDe": "onderstaande",
+          "withHet": "onderstaande",
+          "comparative": "onderstaander",
+          "superlative": "onderstaandst"
+        }
+      },
+      "examples": [
+        "Zie de onderstaande lijst.",
+        "De onderstaande regels zijn van toepassing."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "请见以下列表。",
+          "以下规则适用。"
+        ],
+        "english": [
+          "See the following list.",
+          "The following rules are applicable."
+        ]
+      },
+      "notes": "形容词，常用于正式文件",
+      "difficulty": "B2"
     },
     {
       "id": 5060,
       "word": "ondertussen",
-      "pos": "adverb",
-      "meaning": "在此期间,同时",
-      "word_forms": {},
-      "example": "Ondertussen kunnen we nog koffie drinken.",
-      "example_translation": "在此期间我们还可以喝咖啡。"
+      "translation": {
+        "chinese": "在此期间,同时",
+        "english": "meanwhile, in the meantime"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "Ondertussen kunnen we nog koffie drinken.",
+        "Ondertussen regende het."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在此期间我们还可以喝咖啡。",
+          "在此期间下雨了。"
+        ],
+        "english": [
+          "Meanwhile we can still drink coffee.",
+          "Meanwhile it rained."
+        ]
+      },
+      "notes": "副词，tussen意为'之间'",
+      "difficulty": "B2"
     },
     {
       "id": 5061,
       "word": "ondervangen",
-      "pos": "verb",
-      "meaning": "接住,接收",
-      "word_forms": {
-        "infinitive": "ondervangen",
-        "present": "vangt onder",
-        "past": "ving onder",
-        "participle": "ondervangen"
+      "translation": {
+        "chinese": "接住,接收",
+        "english": "to take in, to accommodate"
       },
-      "example": "Het project ondervangt de behoeften van ouderen.",
-      "example_translation": "这个项目满足了老年人的需求。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ondervangen",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "vang onder",
+            "jij": "vangt onder",
+            "hij": "vangt onder",
+            "wij": "vangen onder",
+            "jullie": "vangen onder",
+            "zij": "vangen onder"
+          },
+          "past": {
+            "singular": "ving onder",
+            "plural": "vingen onder"
+          },
+          "pastParticiple": "ondervangen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het project ondervangt de behoeften van ouderen.",
+        "Het hotel kan vijftig gasten ondervangen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个项目满足了老年人的需求。",
+          "这家酒店可以接待五十位客人。"
+        ],
+        "english": [
+          "The project accommodates the needs of the elderly.",
+          "The hotel can accommodate fifty guests."
+        ]
+      },
+      "notes": "可分动词，vangen意为捕捉/接收",
+      "difficulty": "B2"
     },
     {
       "id": 5062,
       "word": "ondervinden",
-      "pos": "verb",
-      "meaning": "经历,体验到",
-      "word_forms": {
-        "infinitive": "ondervinden",
-        "present": "vindt onder",
-        "past": "vond onder",
-        "participle": "ondervonden"
+      "translation": {
+        "chinese": "经历,体验到",
+        "english": "to experience, to undergo"
       },
-      "example": "Zij ondervindt veel steun van vrienden.",
-      "example_translation": "她从朋友那里得到很多支持。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ondervinden",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "vind onder",
+            "jij": "vindt onder",
+            "hij": "vindt onder",
+            "wij": "vinden onder",
+            "jullie": "vinden onder",
+            "zij": "vinden onder"
+          },
+          "past": {
+            "singular": "vond onder",
+            "plural": "vonden onder"
+          },
+          "pastParticiple": "ondervonden",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Zij ondervindt veel steun van vrienden.",
+        "We ondervonden veel problemen met de software."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她从朋友那里得到很多支持。",
+          "我们在软件方面遇到很多问题。"
+        ],
+        "english": [
+          "She experiences much support from friends.",
+          "We experienced many problems with the software."
+        ]
+      },
+      "notes": "可分动词，vinden意为找到",
+      "difficulty": "B2"
     },
     {
       "id": 5063,
       "word": "ondervragen",
-      "pos": "verb",
-      "meaning": "审问,质询",
-      "word_forms": {
-        "infinitive": "ondervragen",
-        "present": "vraagt onder",
-        "past": "vroeg onder",
-        "participle": "ondervraagd"
+      "translation": {
+        "chinese": "审问,质询",
+        "english": "to question, to interrogate"
       },
-      "example": "De politie ondervroeg de getuige.",
-      "example_translation": "警方审问了证人。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ondervragen",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "vraag onder",
+            "jij": "vraagt onder",
+            "hij": "vraagt onder",
+            "wij": "vragen onder",
+            "jullie": "vragen onder",
+            "zij": "vragen onder"
+          },
+          "past": {
+            "singular": "vroeg onder",
+            "plural": "vroegen onder"
+          },
+          "pastParticiple": "ondervraagd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De politie ondervroeg de getuige.",
+        "De rechter ondervroeg de verdachte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "警方审问了证人。",
+          "法官质询了嫌疑人。"
+        ],
+        "english": [
+          "The police questioned the witness.",
+          "The judge interrogated the suspect."
+        ]
+      },
+      "notes": "可分动词，vragen意为询问",
+      "difficulty": "B2"
     },
     {
       "id": 5064,
       "word": "onderwereld",
-      "pos": "noun",
-      "meaning": "地下世界,黑社会",
-      "word_forms": {
-        "singular": "onderwereld",
-        "plural": "onderwerelden"
+      "translation": {
+        "chinese": "地下世界,黑社会",
+        "english": "underworld, criminal underworld"
       },
-      "example": "Hij werd in de onderwereld gedreven.",
-      "example_translation": "他被迫进入了黑社会。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "onderwereld",
+          "plural": "onderwerelden"
+        }
+      },
+      "examples": [
+        "Hij werd in de onderwereld gedreven.",
+        "De politie vecht tegen de onderwereld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他被迫进入了黑社会。",
+          "警方与黑社会斗争。"
+        ],
+        "english": [
+          "He was driven into the underworld.",
+          "The police fight against the underworld."
+        ]
+      },
+      "notes": "阴性名词，指犯罪活动领域",
+      "difficulty": "B2"
     },
     {
       "id": 5065,
       "word": "onderwijzen",
-      "pos": "verb",
-      "meaning": "教导,教育",
-      "word_forms": {
-        "infinitive": "onderwijzen",
-        "present": "wijst onder",
-        "past": "wees onder",
-        "participle": "onderwezen"
+      "translation": {
+        "chinese": "教导,教育",
+        "english": "to teach, to educate"
       },
-      "example": "De leraar onderwees de studenten.",
-      "example_translation": "老师教导学生。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "onderwijzen",
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "wijs onder",
+            "jij": "wijst onder",
+            "hij": "wijst onder",
+            "wij": "wijzen onder",
+            "jullie": "wijzen onder",
+            "zij": "wijzen onder"
+          },
+          "past": {
+            "singular": "wees onder",
+            "plural": "wezen onder"
+          },
+          "pastParticiple": "onderwezen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De leraar onderwees de studenten.",
+        "De ouders onderwijzen hun kinderen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "老师教导学生。",
+          "父母教育孩子。"
+        ],
+        "english": [
+          "The teacher educates the students.",
+          "The parents teach their children."
+        ]
+      },
+      "notes": "可分动词，wijzen意为指点/教导",
+      "difficulty": "B2"
     },
     {
       "id": 5066,
       "word": "ondraaglijk",
-      "pos": "adjective",
-      "meaning": "难以忍受的",
-      "word_forms": {
-        "positive": "ondraaglijk",
-        "comparative": "ondraaglijker"
+      "translation": {
+        "chinese": "难以忍受的",
+        "english": "unbearable, intolerable"
       },
-      "example": "De pijn is ondraaglijk.",
-      "example_translation": "疼痛难以忍受。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ondraaglijk",
+          "withDe": "ondraaglijke",
+          "withHet": "ondraaglijke",
+          "comparative": "ondraaglijker",
+          "superlative": "ondraaglijkst"
+        }
+      },
+      "examples": [
+        "De pijn is ondraaglijk.",
+        "De hitte was bijna ondraaglijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "疼痛难以忍受。",
+          "炎热几乎让人受不了。"
+        ],
+        "english": [
+          "The pain is unbearable.",
+          "The heat was almost unbearable."
+        ]
+      },
+      "notes": "形容词，draaglijk意为可忍受的",
+      "difficulty": "B2"
     },
     {
       "id": 5067,
       "word": "oneigenlijk",
-      "pos": "adjective",
-      "meaning": "不恰当的,不合时宜的",
-      "word_forms": {
-        "positive": "oneigenlijk",
-        "comparative": "oneigenlijker"
+      "translation": {
+        "chinese": "不恰当的,不合时宜的",
+        "english": "inappropriate, improper"
       },
-      "example": "Dit is een oneigenlijke reden.",
-      "example_translation": "这是一个不恰当的理由。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "oneigenlijk",
+          "withDe": "oneigenlijke",
+          "withHet": "oneigenlijke",
+          "comparative": "oneigenlijker",
+          "superlative": "oneigenlijkst"
+        }
+      },
+      "examples": [
+        "Dit is een oneigenlijke reden.",
+        "Het was oneigenlijk om dat te vragen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个不恰当的理由。",
+          "问这个问题是不合时宜的。"
+        ],
+        "english": [
+          "This is an inappropriate reason.",
+          "It was inappropriate to ask that."
+        ]
+      },
+      "notes": "形容词，eigenlijk意为本来的/适当的",
+      "difficulty": "B2"
     },
     {
       "id": 5068,
       "word": "onevenredig",
-      "pos": "adjective",
-      "meaning": "不成比例的",
-      "word_forms": {
-        "positive": "onevenredig",
-        "comparative": "onevenrediger"
+      "translation": {
+        "chinese": "不成比例的",
+        "english": "disproportionate, excessive"
       },
-      "example": "De straffen waren onevenredig hard.",
-      "example_translation": "惩罚过于严厉,不成比例。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onevenredig",
+          "withDe": "onevenredige",
+          "withHet": "onevenredige",
+          "comparative": "onevenrediger",
+          "superlative": "onevenredigst"
+        }
+      },
+      "examples": [
+        "De straffen waren onevenredig hard.",
+        "De reactie was onevenredig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "惩罚过于严厉，不成比例。",
+          "反应过于激烈。"
+        ],
+        "english": [
+          "The punishments were disproportionately harsh.",
+          "The reaction was disproportionate."
+        ]
+      },
+      "notes": "形容词，evenredig意为成比例的",
+      "difficulty": "B2"
     },
     {
       "id": 5069,
       "word": "ongedierte",
-      "pos": "noun",
-      "meaning": "害虫",
-      "word_forms": {
-        "singular": "ongedierte",
-        "plural": "ongediertes"
+      "translation": {
+        "chinese": "害虫",
+        "english": "pest, vermin"
       },
-      "example": "De tuin had last van ongedierte.",
-      "example_translation": "花园遭受害虫侵扰。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "ongedierte",
+          "plural": "ongedierten"
+        }
+      },
+      "examples": [
+        "De tuin had last van ongedierte.",
+        "Er zijn methoden om ongedierte te bestrijden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "花园遭受害虫侵扰。",
+          "有办法防治害虫。"
+        ],
+        "english": [
+          "The garden suffered from pests.",
+          "There are methods to combat pests."
+        ]
+      },
+      "notes": "阴性名词，gedierte意为害虫",
+      "difficulty": "B2"
     },
     {
       "id": 5070,
       "word": "ongelukkig",
-      "pos": "adjective",
-      "meaning": "不幸的,悲伤的",
-      "word_forms": {
-        "positive": "ongelukkig",
-        "comparative": "ongelukkiger"
+      "translation": {
+        "chinese": "不幸的,悲伤的",
+        "english": "unhappy, unfortunate, sad"
       },
-      "example": "Ze voelde zich erg ongelukkig.",
-      "example_translation": "她感到非常悲伤。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ongelukkig",
+          "withDe": "ongelukkige",
+          "withHet": "ongelukkige",
+          "comparative": "ongelukkiger",
+          "superlative": "ongelukkigst"
+        }
+      },
+      "examples": [
+        "Ze voelde zich erg ongelukkig.",
+        "Het was een ongelukkige gebeurtenis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她感到非常悲伤。",
+          "这是一起不幸的事件。"
+        ],
+        "english": [
+          "She felt very sad.",
+          "It was an unfortunate incident."
+        ]
+      },
+      "notes": "形容词，gelukkig意为幸运的",
+      "difficulty": "B2"
     },
     {
       "id": 5071,
       "word": "ongestoord",
-      "pos": "adjective",
-      "meaning": "不受打扰的",
-      "word_forms": {
-        "positive": "ongestoord",
-        "comparative": "ongestorder"
+      "translation": {
+        "chinese": "不受打扰的",
+        "english": "undisturbed, uninterrupted"
       },
-      "example": "Ik wil ongestoord kunnen werken.",
-      "example_translation": "我希望能够不受打扰地工作。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ongestoord",
+          "withDe": "ongestoorde",
+          "withHet": "ongestoorde",
+          "comparative": "ongestorder",
+          "superlative": "ongestoordst"
+        }
+      },
+      "examples": [
+        "Ik wil ongestoord kunnen werken.",
+        "De kinderen werden ongestoord achtergelaten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我希望能够不受打扰地工作。",
+          "孩子们被留在一旁不受打扰。"
+        ],
+        "english": [
+          "I want to work undisturbed.",
+          "The children were left undisturbed."
+        ]
+      },
+      "notes": "形容词，gestoord意为被打扰的",
+      "difficulty": "B2"
     },
     {
       "id": 5072,
       "word": "ongevraagd",
-      "pos": "adjective",
-      "meaning": "未经请求的,自发的",
-      "word_forms": {
-        "positive": "ongevraagd",
-        "comparative": "ongevraagder"
+      "translation": {
+        "chinese": "未经请求的,自发的",
+        "english": "unsolicited, spontaneous"
       },
-      "example": "Zij gaf ongevraagd haar mening.",
-      "example_translation": "她主动给出了自己的看法。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ongevraagd",
+          "withDe": "ongevraagde",
+          "withHet": "ongevraagde",
+          "comparative": "ongevraagder",
+          "superlative": "ongevraagdst"
+        }
+      },
+      "examples": [
+        "Zij gaf ongevraagd haar mening.",
+        "Hij kreeg ongevraagd advies."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她主动给出了自己的看法。",
+          "他收到了未经请求的建议。"
+        ],
+        "english": [
+          "She gave her opinion spontaneously.",
+          "He received unsolicited advice."
+        ]
+      },
+      "notes": "形容词，gevraagd意为被请求的",
+      "difficulty": "B2"
     },
     {
       "id": 5073,
       "word": "onmeetbaar",
-      "pos": "adjective",
-      "meaning": "无法测量的",
-      "word_forms": {
-        "positive": "onmeetbaar",
-        "comparative": "onmeetbaarder"
+      "translation": {
+        "chinese": "无法测量的",
+        "english": "immeasurable, unmeasurable"
       },
-      "example": "Het succes is onmeetbaar.",
-      "example_translation": "成功无法衡量。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onmeetbaar",
+          "withDe": "onmeetbare",
+          "withHet": "onmeetbare",
+          "comparative": "onmeetbaarder",
+          "superlative": "onmeetbaarst"
+        }
+      },
+      "examples": [
+        "Het succes is onmeetbaar.",
+        "De liefde is onmeetbaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "成功无法衡量。",
+          "爱是无法衡量的。"
+        ],
+        "english": [
+          "Success is immeasurable.",
+          "Love is unmeasurable."
+        ]
+      },
+      "notes": "形容词，meetbaar意为可测量的",
+      "difficulty": "B2"
     },
     {
       "id": 5074,
       "word": "onmenselijk",
-      "pos": "adjective",
-      "meaning": "残忍的,非人的",
-      "word_forms": {
-        "positive": "onmenselijk",
-        "comparative": "onmenselijker"
+      "translation": {
+        "chinese": "残忍的,非人的",
+        "english": "inhumane, cruel"
       },
-      "example": "De behandeling was onmenselijk.",
-      "example_translation": "这种对待是残忍的。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onmenselijk",
+          "withDe": "onmenselijke",
+          "withHet": "onmenselijke",
+          "comparative": "onmenselijker",
+          "superlative": "onmenselijkst"
+        }
+      },
+      "examples": [
+        "De behandeling was onmenselijk.",
+        "Oorlog is onmenselijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这种对待是残忍的。",
+          "战争是非人的。"
+        ],
+        "english": [
+          "The treatment was inhumane.",
+          "War is inhumane."
+        ]
+      },
+      "notes": "形容词，menselijk意为人的/人道的",
+      "difficulty": "B2"
     },
     {
       "id": 5075,
       "word": "onschuldig",
-      "pos": "adjective",
-      "meaning": "无辜的",
-      "word_forms": {
-        "positive": "onschuldig",
-        "comparative": "onschuldiger"
+      "translation": {
+        "chinese": "无辜的",
+        "english": "innocent, guiltless"
       },
-      "example": "Hij bleek onschuldig te zijn.",
-      "example_translation": "原来他是无辜的。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "onschuldig",
+          "withDe": "onschuldige",
+          "withHet": "onschuldige",
+          "comparative": "onschuldiger",
+          "superlative": "onschuldigst"
+        }
+      },
+      "examples": [
+        "Hij bleek onschuldig te zijn.",
+        "De onschuldige werd vrijgelaten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "原来他是无辜的。",
+          "无辜者被释放了。"
+        ],
+        "english": [
+          "He turned out to be innocent.",
+          "The innocent person was released."
+        ]
+      },
+      "notes": "形容词，schuldig意为有罪的",
+      "difficulty": "B2"
     },
     {
       "id": 5076,
       "word": "ontcijferen",
-      "pos": "verb",
-      "meaning": "破译,解读",
-      "word_forms": {
-        "infinitive": "ontcijferen",
-        "present": "cijfert ont",
-        "past": "cijferde ont",
-        "participle": "ontcijferd"
+      "translation": {
+        "chinese": "破译,解读",
+        "english": "to decipher, to decode"
       },
-      "example": "De code was moeilijk te ontcijferen.",
-      "example_translation": "密码很难破译。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "ontcijferen",
+          "isSeparable": true,
+          "prefix": "ont",
+          "present": {
+            "ik": "cijfer ont",
+            "jij": "cijfert ont",
+            "hij": "cijfert ont",
+            "wij": "cijferen ont",
+            "jullie": "cijferen ont",
+            "zij": "cijferen ont"
+          },
+          "past": {
+            "singular": "cijferde ont",
+            "plural": "cijferden ont"
+          },
+          "pastParticiple": "ontcijferd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De code was moeilijk te ontcijferen.",
+        "De detective ontcijferde het bericht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "密码很难破译。",
+          "侦探破译了消息。"
+        ],
+        "english": [
+          "The code was difficult to decipher.",
+          "The detective decoded the message."
+        ]
+      },
+      "notes": "可分动词，cijferen意为编码",
+      "difficulty": "B2"
     },
     {
       "id": 5077,
       "word": "ontevreden",
-      "pos": "adjective",
-      "meaning": "不满意的",
-      "word_forms": {
-        "positive": "ontevreden",
-        "comparative": "ontevredener"
+      "translation": {
+        "chinese": "不满意的",
+        "english": "dissatisfied, unsatisfied"
       },
-      "example": "De klant was ontevreden over het product.",
-      "example_translation": "顾客对产品不满意。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ontevreden",
+          "withDe": "ontevredene",
+          "withHet": "ontevredene",
+          "comparative": "ontevredener",
+          "superlative": "ontevredenst"
+        }
+      },
+      "examples": [
+        "De klant was ontevreden over het product.",
+        "Zij is ontevreden met haar salaris."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "顾客对产品不满意。",
+          "她对薪水不满意。"
+        ],
+        "english": [
+          "The customer was dissatisfied with the product.",
+          "She is unsatisfied with her salary."
+        ]
+      },
+      "notes": "形容词，tevreden意为满意的",
+      "difficulty": "B2"
     }
   ]
 }

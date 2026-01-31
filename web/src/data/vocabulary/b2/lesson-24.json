@@ -1,530 +1,1364 @@
 {
+  "id": "b2-lesson-24",
+  "level": "B2",
+  "lessonNumber": 24,
+  "totalWords": 30,
   "words": [
     {
       "id": 5372,
       "word": "talenkennis",
-      "pos": "noun",
-      "meaning": "语言知识,语言能力",
-      "word_forms": {
-        "singular": "talenkennis",
-        "plural": "talenkennis"
+      "translation": {
+        "chinese": "语言知识,语言能力",
+        "english": "language knowledge, linguistic ability"
       },
-      "example": "Zijn talenkennis is uitstekend.",
-      "example_translation": "他的语言能力很优秀。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "talenkennis",
+          "plural": "talenkennis"
+        }
+      },
+      "examples": [
+        "Zijn talenkennis is uitstekend.",
+        "Talenkennis is belangrijk voor communicatie."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他的语言能力很优秀。", "语言知识对交流很重要。"],
+        "english": ["His language knowledge is outstanding.", "Language knowledge is important for communication."]
+      },
+      "notes": "阴性名词,无复数变化",
+      "difficulty": "B2"
     },
     {
       "id": 5373,
       "word": "tankstation",
-      "pos": "noun",
-      "meaning": "加油站",
-      "word_forms": {
-        "singular": "tankstation",
-        "plural": "tankstations"
+      "translation": {
+        "chinese": "加油站",
+        "english": "gas station, petrol station"
       },
-      "example": "Ik moet naar het tankstation.",
-      "example_translation": "我得去加油站。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "tankstation",
+          "plural": "tankstations"
+        }
+      },
+      "examples": [
+        "Ik moet naar het tankstation.",
+        "Het tankstation zit aan de snelweg."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我得去加油站。", "加油站就在高速公路上。"],
+        "english": ["I must go to the gas station.", "The gas station is on the highway."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5374,
       "word": "tegendraads",
-      "pos": "adjective",
-      "meaning": "叛逆的,不随大流的",
-      "word_forms": {
-        "positive": "tegendraads",
-        "comparative": "tegendraadser"
+      "translation": {
+        "chinese": "叛逆的,不随大流的",
+        "english": "rebellious, nonconformist"
       },
-      "example": "Ze is een tegendraadse persoon.",
-      "example_translation": "她是一个叛逆的人。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "tegendraads",
+          "comparative": "tegendraadser",
+          "superlative": "tegendraadst"
+        }
+      },
+      "examples": [
+        "Ze is een tegendraadse persoon.",
+        "De tegendraadse jongeren waren opstandig."
+      ],
+      "exampleTranslations": {
+        "chinese": ["她是一个叛逆的人。", "叛逆的年轻人很固执。"],
+        "english": ["She is a rebellious person.", "The rebellious young people were stubborn."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5375,
-      "word": "tegengeluid",
-      "pos": "noun",
-      "meaning": "反对声音,异议",
-      "word_forms": {
-        "singular": "tegengeluid",
-        "plural": "tegengeluiden"
+      "word": "tegenstem",
+      "translation": {
+        "chinese": "反对声音,异议",
+        "english": "opposing voice, objection"
       },
-      "example": "Er klonk een sterk tegengeluid.",
-      "example_translation": "传来了强烈的反对声音。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tegenstem",
+          "plural": "tegenstemmen"
+        }
+      },
+      "examples": [
+        "Er klonk een sterke tegenstem.",
+        "De tegenstem was duidelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": ["传来了强烈的反对声音。", "反对意见很明确。"],
+        "english": ["There was a strong opposing voice.", "The objection was clear."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5376,
       "word": "tegenhouden",
-      "pos": "verb",
-      "meaning": "阻止,阻挡",
-      "word_forms": {
-        "infinitive": "tegenhouden",
-        "present": "houdt tegen",
-        "past": "hield tegen",
-        "participle": "tegengehouden"
+      "translation": {
+        "chinese": "阻止,阻挡",
+        "english": "to hold back, to restrain"
       },
-      "example": "Niemand kon hem tegenhouden.",
-      "example_translation": "没有人能阻止他。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "tegenhouden",
+          "present": [
+            "ik houd tegen",
+            "jij houdt tegen",
+            "hij/zij/het houdt tegen",
+            "wij houden tegen",
+            "jullie houden tegen",
+            "zij houden tegen"
+          ],
+          "past": [
+            "ik hield tegen",
+            "jij hield tegen",
+            "hij/zij/het hield tegen",
+            "wij hielden tegen",
+            "jullie hielden tegen",
+            "zij hielden tegen"
+          ],
+          "perfect": "ik heb tegenhouden",
+          "participle": "tegenhouden"
+        }
+      },
+      "examples": [
+        "Niemand kon hem tegenhouden.",
+        "Ze kon zich niet tegenhouden."
+      ],
+      "exampleTranslations": {
+        "chinese": ["没有人能阻止他。", "她无法克制自己。"],
+        "english": ["No one could hold him back.", "She could not restrain herself."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5377,
       "word": "tegenkomen",
-      "pos": "verb",
-      "meaning": "遇到,碰到",
-      "word_forms": {
-        "infinitive": "tegenkomen",
-        "present": "komt tegen",
-        "past": "kwam tegen",
-        "participle": "tegengekomen"
+      "translation": {
+        "chinese": "遇到,碰到",
+        "english": "to run into, to come across"
       },
-      "example": "Ik kwam hem toevallig tegen.",
-      "example_translation": "我偶然遇到了他。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "tegenkomen",
+          "present": [
+            "ik kom tegen",
+            "jij komt tegen",
+            "hij/zij/het komt tegen",
+            "wii komen tegen",
+            "jullie komen tegen",
+            "zij komen tegen"
+          ],
+          "past": [
+            "ik kwam tegen",
+            "jij kwam tegen",
+            "hij/zij/het kwam tegen",
+            "wii kwamen tegen",
+            "jullie kwamen tegen",
+            "zij kwamen tegen"
+          ],
+          "perfect": "ik ben tegenkomen",
+          "participle": "tegengekomen"
+        }
+      },
+      "examples": [
+        "Ik kwam hem toevallig tegen.",
+        "Ze kwamen elkaar tegen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我偶然遇到了他。", "他们相遇了。"],
+        "english": ["I ran into him unexpectedly.", "They met each other."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5378,
-      "word": "tegenspeler",
-      "pos": "noun",
-      "meaning": "对手,对手方",
-      "word_forms": {
-        "singular": "tegenspeler",
-        "plural": "tegenspelers"
+      "word": "tegenstander",
+      "translation": {
+        "chinese": "对手,对手方",
+        "english": "opponent, adversary"
       },
-      "example": "De tegenspeler was sterk.",
-      "example_translation": "对手很强。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tegenstander",
+          "plural": "tegenstanders"
+        }
+      },
+      "examples": [
+        "De tegenstander was sterk.",
+        "De tegenstanders speelden goed."
+      ],
+      "exampleTranslations": {
+        "chinese": ["对手很强。", "对手们踢得很好。"],
+        "english": ["The opponent was strong.", "The opponents played well."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5379,
       "word": "tegenstand",
-      "pos": "noun",
-      "meaning": "反对,阻力",
-      "word_forms": {
-        "singular": "tegenstand",
-        "plural": "tegenstanden"
+      "translation": {
+        "chinese": "反对,阻力",
+        "english": "opposition, resistance"
       },
-      "example": "Er was veel tegenstand tegen het plan.",
-      "example_translation": "对这个计划有很多反对意见。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tegenstand",
+          "plural": "tegenstanden"
+        }
+      },
+      "examples": [
+        "Er was veel tegenstand tegen het plan.",
+        "De tegenstand werd overwonnen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["对这个计划有很多反对意见。", "阻力被克服了。"],
+        "english": ["There was much opposition to the plan.", "The resistance was overcome."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5380,
       "word": "tegenvaller",
-      "pos": "noun",
-      "meaning": "挫折,不如意的事",
-      "word_forms": {
-        "singular": "tegenvaller",
-        "plural": "tegenvallers"
+      "translation": {
+        "chinese": "挫折,不如意的事",
+        "english": "setback, disappointment"
       },
-      "example": "Het was een grote tegenvaller.",
-      "example_translation": "这是一个大挫折。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tegenvaller",
+          "plural": "tegenvallers"
+        }
+      },
+      "examples": [
+        "Het was een grote tegenvaller.",
+        "De tegenvaller was tijdelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是一个大挫折。", "挫折是暂时的。"],
+        "english": ["It was a major setback.", "The setback was temporary."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5381,
-      "word": "tekeer gaan",
-      "pos": "phrasal verb",
-      "meaning": "猛烈攻击,冲向",
-      "word_forms": {
-        "infinitive": "tekeer gaan",
-        "present": "gaat tekeer",
-        "past": "ging tekeer",
-        "participle": "tekeergegaan"
+      "word": "tekeren gaan",
+      "translation": {
+        "chinese": "猛烈攻击,冲向",
+        "english": "to rush towards, to charge at"
       },
-      "example": "De storm ging tekeer.",
-      "example_translation": "暴风雨猛烈袭来。"
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "tekeren gaan",
+          "present": [
+            "ik ga tekeer",
+            "jij gaat tekeer",
+            "hij/zij/het gaat tekeer",
+            "wii gaan tekeer",
+            "jullie gaan tekeer",
+            "zij gaan tekeer"
+          ],
+          "past": [
+            "ik ging tekeer",
+            "jij ging tekeer",
+            "hij/zij/het ging tekeer",
+            "wii gingen tekeer",
+            "jullie gingen tekeer",
+            "zij gingen tekeer"
+          ],
+          "perfect": "ik ben tekeergegaan",
+          "participle": "tekeergegaan"
+        }
+      },
+      "examples": [
+        "De storm ging tekeer.",
+        "Het leger ging tekeer op de vijand."
+      ],
+      "exampleTranslations": {
+        "chinese": ["暴风雨猛烈袭来。", "军队猛烈攻击敌人。"],
+        "english": ["The storm struck violently.", "The army charged at the enemy."]
+      },
+      "notes": "短语动词",
+      "difficulty": "B2"
     },
     {
       "id": 5382,
       "word": "tekortkomen",
-      "pos": "verb",
-      "meaning": "短缺,不足",
-      "word_forms": {
-        "infinitive": "tekortkomen",
-        "present": "komt tekort",
-        "past": "kwam tekort",
-        "participle": "tekortgekomen"
+      "translation": {
+        "chinese": "短缺,不足",
+        "english": "to run short, to be insufficient"
       },
-      "example": "Het water komt tekort.",
-      "example_translation": "水资源短缺。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "tekortkomen",
+          "present": [
+            "ik kom tekort",
+            "jij komt tekort",
+            "hij/zij/het komt tekort",
+            "wii komen tekort",
+            "jullie komen tekort",
+            "zij komen tekort"
+          ],
+          "past": [
+            "ik kwam tekort",
+            "jij kwam tekort",
+            "hij/zij/het kwam tekort",
+            "wii kwamen tekort",
+            "jullie kwamen tekort",
+            "zij kwamen tekort"
+          ],
+          "perfect": "ik ben tekortgekomen",
+          "participle": "tekortgekomen"
+        }
+      },
+      "examples": [
+        "Het water komt tekort.",
+        "Er kwam geld tekort."
+      ],
+      "exampleTranslations": {
+        "chinese": ["水资源短缺。", "资金不足了。"],
+        "english": ["The water is in short supply.", "Money ran short."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5383,
       "word": "temperatuur",
-      "pos": "noun",
-      "meaning": "温度",
-      "word_forms": {
-        "singular": "temperatuur",
-        "plural": "temperaturen"
+      "translation": {
+        "chinese": "温度",
+        "english": "temperature"
       },
-      "example": "De temperatuur stijgt.",
-      "example_translation": "温度在上升。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "temperatuur",
+          "plural": "temperaturen"
+        }
+      },
+      "examples": [
+        "De temperatuur stijgt.",
+        "De temperatuur is comfortabel."
+      ],
+      "exampleTranslations": {
+        "chinese": ["温度在上升。", "温度很舒适。"],
+        "english": ["The temperature is rising.", "The temperature is comfortable."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5384,
       "word": "ten hoogste",
-      "pos": "adverbial phrase",
-      "meaning": "至多,最多",
-      "word_forms": {},
-      "example": "Het duurt ten hoogste twee uur.",
-      "example_translation": "这至多需要两个小时。"
+      "translation": {
+        "chinese": "至多,最多",
+        "english": "at most, at maximum"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "forms": {
+        "adverb": {
+          "base": "ten hoogste"
+        }
+      },
+      "examples": [
+        "Het duurt ten hoogste twee uur.",
+        "Er kunnen ten hoogste vijf mensen komen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这至多需要两个小时。", "最多五个人能来。"],
+        "english": ["It takes at most two hours.", "At most five people can come."]
+      },
+      "notes": "副词短语",
+      "difficulty": "B2"
     },
     {
       "id": 5385,
       "word": "ten minste",
-      "pos": "adverbial phrase",
-      "meaning": "至少",
-      "word_forms": {},
-      "example": "Ik heb ten minste vijf euro nodig.",
-      "example_translation": "我至少需要五欧元。"
+      "translation": {
+        "chinese": "至少",
+        "english": "at least"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "forms": {
+        "adverb": {
+          "base": "ten minste"
+        }
+      },
+      "examples": [
+        "Ik heb ten minste vijf euro nodig.",
+        "Er zijn ten minste drie kandidaten."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我至少需要五欧元。", "至少有三名候选人。"],
+        "english": ["I need at least five euros.", "There are at least three candidates."]
+      },
+      "notes": "副词短语",
+      "difficulty": "B2"
     },
     {
       "id": 5386,
       "word": "ten slotte",
-      "pos": "adverbial phrase",
-      "meaning": "最后,终于",
-      "word_forms": {},
-      "example": "Ten slotte hebben we gewonnen.",
-      "example_translation": "最后我们赢了。"
+      "translation": {
+        "chinese": "最后,终于",
+        "english": "finally, at last"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "forms": {
+        "adverb": {
+          "base": "ten slotte"
+        }
+      },
+      "examples": [
+        "Ten slotte hebben we gewonnen.",
+        "Het kwam ten slotte goed."
+      ],
+      "exampleTranslations": {
+        "chinese": ["最后我们赢了。", "结果还不错。"],
+        "english": ["Finally we won.", "It turned out well in the end."]
+      },
+      "notes": "副词短语",
+      "difficulty": "B2"
     },
     {
       "id": 5387,
-      "word": "ter plekke",
-      "pos": "adverbial phrase",
-      "meaning": "当场,就地",
-      "word_forms": {},
-      "example": "We konden het ter plekke oplossen.",
-      "example_translation": "我们可以当场解决问题。"
+      "word": "ter plaatse",
+      "translation": {
+        "chinese": "当场,就地",
+        "english": "on the spot, immediately"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "forms": {
+        "adverb": {
+          "base": "ter plaatse"
+        }
+      },
+      "examples": [
+        "We konden het probleem ter plaatse oplossen.",
+        "De politie arriveerde ter plaatse."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我们可以当场解决问题。", "警方立即到达。"],
+        "english": ["We could solve the problem on the spot.", "The police arrived immediately."]
+      },
+      "notes": "副词短语",
+      "difficulty": "B2"
     },
     {
       "id": 5388,
       "word": "terugkeren",
-      "pos": "verb",
-      "meaning": "返回,回归",
-      "word_forms": {
-        "infinitive": "terugkeren",
-        "present": "keert terug",
-        "past": "keerde terug",
-        "participle": "teruggekeerd"
+      "translation": {
+        "chinese": "返回,回归",
+        "english": "to return, to go back"
       },
-      "example": "Hij keerde terug naar huis.",
-      "example_translation": "他回家了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "terugkeren",
+          "present": [
+            "ik keer terug",
+            "jij keert terug",
+            "hij/zij/het keert terug",
+            "wij keren terug",
+            "jullie keren terug",
+            "zij keren terug"
+          ],
+          "past": [
+            "ik keerde terug",
+            "jij keerde terug",
+            "hij/zij/het keerde terug",
+            "wij keerden terug",
+            "jullie keerden terug",
+            "zij keerden terug"
+          ],
+          "perfect": "ik ben teruggekeerd",
+          "participle": "teruggekeerd"
+        }
+      },
+      "examples": [
+        "Hij keerde terug naar huis.",
+        "Zij keerden terug naar hun land."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他回家了。", "他们回到了自己的国家。"],
+        "english": ["He returned home.", "They returned to their country."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5389,
       "word": "terugkomen",
-      "pos": "verb",
-      "meaning": "回来,重返",
-      "word_forms": {
-        "infinitive": "terugkomen",
-        "present": "komt terug",
-        "past": "kwam terug",
-        "participle": "teruggekomen"
+      "translation": {
+        "chinese": "回来,重返",
+        "english": "to come back, to return"
       },
-      "example": "Wanneer kom je terug?",
-      "example_translation": "你什么时候回来?"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "terugkomen",
+          "present": [
+            "ik kom terug",
+            "jij komt terug",
+            "hij/zij/het komt terug",
+            "wii komen terug",
+            "jullie komen terug",
+            "zij komen terug"
+          ],
+          "past": [
+            "ik kwam terug",
+            "jij kwam terug",
+            "hij/zij/het kwam terug",
+            "wii kwamen terug",
+            "jullie kwamen terug",
+            "zij kwamen terug"
+          ],
+          "perfect": "ik ben teruggekomen",
+          "participle": "teruggekomen"
+        }
+      },
+      "examples": [
+        "Wanneer kom je terug?",
+        "Ik kom morgen terug."
+      ],
+      "exampleTranslations": {
+        "chinese": ["你什么时候回来?", "我明天回来。"],
+        "english": ["When will you come back?", "I will come back tomorrow."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5390,
       "word": "terugnemen",
-      "pos": "verb",
-      "meaning": "收回,撤销",
-      "word_forms": {
-        "infinitive": "terugnemen",
-        "present": "neemt terug",
-        "past": "nam terug",
-        "participle": "teruggenomen"
+      "translation": {
+        "chinese": "收回,撤销",
+        "english": "to take back, to retract"
       },
-      "example": "De directeur nam zijn besluit terug.",
-      "example_translation": "主任撤销了他的决定。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "terugnemen",
+          "present": [
+            "ik neem terug",
+            "jij neemt terug",
+            "hij/zij/het neemt terug",
+            "wii nemen terug",
+            "jullie nemen terug",
+            "zij nemen terug"
+          ],
+          "past": [
+            "ik nam terug",
+            "jij nam terug",
+            "hij/zij/het nam terug",
+            "wii namen terug",
+            "jullie namen terug",
+            "zij namen terug"
+          ],
+          "perfect": "ik heb teruggenomen",
+          "participle": "teruggenomen"
+        }
+      },
+      "examples": [
+        "De directeur nam zijn besluit terug.",
+        "Ze nam haar woorden terug."
+      ],
+      "exampleTranslations": {
+        "chinese": ["主任撤销了他的决定。", "她收回了自己的话。"],
+        "english": ["The director retracted his decision.", "She took back her words."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5391,
       "word": "terugpakken",
-      "pos": "verb",
-      "meaning": "夺回,收回",
-      "word_forms": {
-        "infinitive": "terugpakken",
-        "present": "pakt terug",
-        "past": "pakte terug",
-        "participle": "teruggepakt"
+      "translation": {
+        "chinese": "夺回,收回",
+        "english": "to take back, to recapture"
       },
-      "example": "Ik wil mijn terugpakken.",
-      "example_translation": "我想把东西收回。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "terugpakken",
+          "present": [
+            "ik pak terug",
+            "jij pakt terug",
+            "hij/zij/het pakt terug",
+            "wii pakken terug",
+            "jullie pakken terug",
+            "zij pakken terug"
+          ],
+          "past": [
+            "ik pakte terug",
+            "jij pakte terug",
+            "hij/zij/het pakte terug",
+            "wii pakten terug",
+            "jullie pakten terug",
+            "zij pakten terug"
+          ],
+          "perfect": "ik heb teruggemaakt",
+          "participle": "teruggemaakt"
+        }
+      },
+      "examples": [
+        "Ik wil mijn spullen terugpakken.",
+        "Het bedrijf pakte de markt terug."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我想把东西收回。", "公司夺回了市场份额。"],
+        "english": ["I want to take back my stuff.", "The company recaptured the market."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5392,
-      "word": "terugslaan",
-      "pos": "verb",
-      "meaning": "反击,回击",
-      "word_forms": {
-        "infinitive": "terugslaan",
-        "present": "slaat terug",
-        "past": "sloeg terug",
-        "participle": "teruggeslagen"
+      "word": "terugschieten",
+      "translation": {
+        "chinese": "反击,回击",
+        "english": "to shoot back, to fire back"
       },
-      "example": "Hij sloeg terug tegen de aanval.",
-      "example_translation": "他反击了这次攻击。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "terugschieten",
+          "present": [
+            "ik schiet terug",
+            "jij schiet terug",
+            "hij/zij/het schiet terug",
+            "wii schieten terug",
+            "jullie schieten terug",
+            "zij schieten terug"
+          ],
+          "past": [
+            "ik schoot terug",
+            "jij schoot terug",
+            "hij/zij/het schoot terug",
+            "wii schoten terug",
+            "jullie schoten terug",
+            "zij schoten terug"
+          ],
+          "perfect": "ik heb teruggeschoten",
+          "participle": "teruggeschoten"
+        }
+      },
+      "examples": [
+        "Hij schoot terug tegen de aanval.",
+        "Het leger schoot terug."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他反击了这次攻击。", "军队进行了还击。"],
+        "english": ["He fired back at the attack.", "The army fired back."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5393,
       "word": "terugzetten",
-      "pos": "verb",
-      "meaning": "放回,复位",
-      "word_forms": {
-        "infinitive": "terugzetten",
-        "present": "zet terug",
-        "past": "zette terug",
-        "participle": "teruggezet"
+      "translation": {
+        "chinese": "放回,复位",
+        "english": "to put back, to restore"
       },
-      "example": "Zet het boek terug op de plank.",
-      "example_translation": "把书放回书架上。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "terugzetten",
+          "present": [
+            "ik zet terug",
+            "jij zet terug",
+            "hij/zij/het zet terug",
+            "wii zetten terug",
+            "jullie zetten terug",
+            "zij zetten terug"
+          ],
+          "past": [
+            "ik zette terug",
+            "jij zette terug",
+            "hij/zij/het zette terug",
+            "wii zetten terug",
+            "jullie zetten terug",
+            "zij zetten terug"
+          ],
+          "perfect": "ik heb teruggezet",
+          "participle": "teruggezet"
+        }
+      },
+      "examples": [
+        "Zet het boek terug op de plank.",
+        "De klok werd teruggezet."
+      ],
+      "exampleTranslations": {
+        "chinese": ["把书放回书架上。", "时钟被重置了。"],
+        "english": ["Put the book back on the shelf.", "The clock was reset."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5394,
       "word": "thermometer",
-      "pos": "noun",
-      "meaning": "温度计",
-      "word_forms": {
-        "singular": "thermometer",
-        "plural": "thermometers"
+      "translation": {
+        "chinese": "温度计",
+        "english": "thermometer"
       },
-      "example": "De thermometer geeft 38 graden aan.",
-      "example_translation": "温度计显示38度。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "thermometer",
+          "plural": "thermometers"
+        }
+      },
+      "examples": [
+        "De thermometer geeft 38 graden aan.",
+        "Ik meet de temperatuur met een thermometer."
+      ],
+      "exampleTranslations": {
+        "chinese": ["温度计显示38度。", "我用温度计测量温度。"],
+        "english": ["The thermometer shows 38 degrees.", "I measure the temperature with a thermometer."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5395,
-      "word": "thuis geven",
-      "pos": "phrasal verb",
-      "meaning": "打发回家",
-      "word_forms": {
-        "infinitive": "thuis geven",
-        "present": "geeft thuis",
-        "past": "gaf thuis",
-        "participle": "thuis gegeven"
+      "word": "thuis sturen",
+      "translation": {
+        "chinese": "打发回家",
+        "english": "to send home"
       },
-      "example": "De docent gaf de leerlingen thuis.",
-      "example_translation": "老师让学生们回家了。"
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "thuis sturen",
+          "present": [
+            "ik stuur thuis",
+            "jij stuurt thuis",
+            "hij/zij/het stuurt thuis",
+            "wii sturen thuis",
+            "jullie sturen thuis",
+            "zij sturen thuis"
+          ],
+          "past": [
+            "ik stuurde thuis",
+            "jij stuurde thuis",
+            "hij/zij/het stuurde thuis",
+            "wii stuurden thuis",
+            "jullie stuurden thuis",
+            "zij stuurden thuis"
+          ],
+          "perfect": "ik heb thuisgestuurd",
+          "participle": "thuisgestuurd"
+        }
+      },
+      "examples": [
+        "De docent stuurde de leerlingen thuis.",
+        "Hij stuurde zijn kinderen thuis."
+      ],
+      "exampleTranslations": {
+        "chinese": ["老师让学生们回家了。", "他把孩子送回家了。"],
+        "english": ["The teacher sent the students home.", "He sent his children home."]
+      },
+      "notes": "短语动词",
+      "difficulty": "B2"
     },
     {
       "id": 5396,
       "word": "thuishoren",
-      "pos": "verb",
-      "meaning": "属于,适合",
-      "word_forms": {
-        "infinitive": "thuishoren",
-        "present": "hoort thuis",
-        "past": "hoorde thuis",
-        "participle": "thuisgehoord"
+      "translation": {
+        "chinese": "属于,适合",
+        "english": "to belong, to fit in"
       },
-      "example": "Ik voel dat ik hier thuishoor.",
-      "example_translation": "我感觉我属于这里。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "thuishoren",
+          "present": [
+            "ik hoor thuis",
+            "jij hoort thuis",
+            "hij/zij/het hoort thuis",
+            "wii horen thuis",
+            "jullie horen thuis",
+            "zij horen thuis"
+          ],
+          "past": [
+            "ik hoorde thuis",
+            "jij hoorde thuis",
+            "hij/zij/het hoorde thuis",
+            "wii hoorden thuis",
+            "jullie hoorden thuis",
+            "zij hoorden thuis"
+          ],
+          "perfect": "ik heb thuisgehoord",
+          "participle": "thuisgehoord"
+        }
+      },
+      "examples": [
+        "Ik voel dat ik hier thuishoor.",
+        "Hij hoort in deze buurt thuis."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我感觉我属于这里。", "他属于这个社区。"],
+        "english": ["I feel that I belong here.", "He belongs in this neighborhood."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5397,
       "word": "tijdsbestek",
-      "pos": "noun",
-      "meaning": "时间框架,时限",
-      "word_forms": {
-        "singular": "tijdsbestek",
-        "plural": "tijdsbesteken"
+      "translation": {
+        "chinese": "时间框架,时限",
+        "english": "timeframe, deadline"
       },
-      "example": "Het project werd binnen het tijdsbestek afgerond.",
-      "example_translation": "项目在时限内完成了。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tijdsbestek",
+          "plural": "tijdsbesteken"
+        }
+      },
+      "examples": [
+        "Het project werd binnen het tijdsbestek afgerond.",
+        "De tijdsbestek is verlengd."
+      ],
+      "exampleTranslations": {
+        "chinese": ["项目在时限内完成了。", "时间框架被延长了。"],
+        "english": ["The project was completed within the timeframe.", "The deadline has been extended."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5398,
       "word": "tijdschrift",
-      "pos": "noun",
-      "meaning": "杂志",
-      "word_forms": {
-        "singular": "tijdschrift",
-        "plural": "tijdschriften"
+      "translation": {
+        "chinese": "杂志",
+        "english": "magazine"
       },
-      "example": "Ik lees dit tijdschrift graag.",
-      "example_translation": "我喜欢读这本杂志。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "tijdschrift",
+          "plural": "tijdschriften"
+        }
+      },
+      "examples": [
+        "Ik lees dit tijdschrift graag.",
+        "Het tijdschrift is populair."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我喜欢读这本杂志。", "这本杂志很受欢迎。"],
+        "english": ["I like to read this magazine.", "This magazine is popular."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5399,
-      "word": "toebdedelen",
-      "pos": "verb",
-      "meaning": "分配,授予",
-      "word_forms": {
-        "infinitive": "toebdedelen",
-        "present": "deelt toe",
-        "past": "deelde toe",
-        "participle": "toegedeeld"
+      "word": "toedelen",
+      "translation": {
+        "chinese": "分配,授予",
+        "english": "to allocate, to award"
       },
-      "example": "De regering deelde de subsidies toe.",
-      "example_translation": "政府分配了补贴。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "toedelen",
+          "present": [
+            "ik deel toe",
+            "jij deelt toe",
+            "hij/zij/het deelt toe",
+            "wii delen toe",
+            "jullie delen toe",
+            "zij delen toe"
+          ],
+          "past": [
+            "ik deelde toe",
+            "jij deelde toe",
+            "hij/zij/het deelde toe",
+            "wii deelden toe",
+            "jullie deelden toe",
+            "zij deelden toe"
+          ],
+          "perfect": "ik heb toegedeeld",
+          "participle": "toegedeeld"
+        }
+      },
+      "examples": [
+        "De regering deelde de subsidies toe.",
+        "De rechten werden toegedeeld."
+      ],
+      "exampleTranslations": {
+        "chinese": ["政府分配了补贴。", "权利被分配了。"],
+        "english": ["The government allocated the subsidies.", "The rights were allocated."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5400,
       "word": "toegangspas",
-      "pos": "noun",
-      "meaning": "通行证,门禁卡",
-      "word_forms": {
-        "singular": "toegangspas",
-        "plural": "toegangspassen"
+      "translation": {
+        "chinese": "通行证,门禁卡",
+        "english": "access pass, badge"
       },
-      "example": "Ik heb mijn toegangspas vergeten.",
-      "example_translation": "我忘了带通行证。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "toegangspas",
+          "plural": "toegangspassen"
+        }
+      },
+      "examples": [
+        "Ik heb mijn toegangspas vergeten.",
+        "De toegangspas is verlopen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我忘了带通行证。", "通行证过期了。"],
+        "english": ["I forgot my access pass.", "The access pass has expired."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5401,
       "word": "toehoorder",
-      "pos": "noun",
-      "meaning": "听众,倾听者",
-      "word_forms": {
-        "singular": "toehoorder",
-        "plural": "toehoorders"
+      "translation": {
+        "chinese": "听众,倾听者",
+        "english": "listener, audience"
       },
-      "example": "De toehoorders luisterden aandachtig.",
-      "example_translation": "听众们认真倾听。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "toehoorder",
+          "plural": "toehoorders"
+        }
+      },
+      "examples": [
+        "De toehoorders luisterden aandachtig.",
+        "Er waren veel toehoorders."
+      ],
+      "exampleTranslations": {
+        "chinese": ["听众们认真倾听。", "有很多听众。"],
+        "english": ["The listeners listened attentively.", "There were many listeners."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5402,
       "word": "toejuichen",
-      "pos": "verb",
-      "meaning": "欢呼,喝彩",
-      "word_forms": {
-        "infinitive": "toejuichen",
-        "present": "juicht toe",
-        "past": "juichte toe",
-        "participle": "toegejuicht"
+      "translation": {
+        "chinese": "欢呼,喝彩",
+        "english": "to cheer, to applaud"
       },
-      "example": "Het publiek juichte de overwinning toe.",
-      "example_translation": "观众为胜利欢呼。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "toejuichen",
+          "present": [
+            "ik juich toe",
+            "jij juicht toe",
+            "hij/zij/het juicht toe",
+            "wii juichen toe",
+            "jullie juichen toe",
+            "zij juichen toe"
+          ],
+          "past": [
+            "ik juichte toe",
+            "jij juichte toe",
+            "hij/zij/het juichte toe",
+            "wii juichten toe",
+            "jullie juichten toe",
+            "zij juichten toe"
+          ],
+          "perfect": "ik heb toegejuicht",
+          "participle": "toegejuicht"
+        }
+      },
+      "examples": [
+        "Het publiek juichte de overwinning toe.",
+        "Ze juichten de artiest toe."
+      ],
+      "exampleTranslations": {
+        "chinese": ["观众为胜利欢呼。", "他们为艺术家喝彩。"],
+        "english": ["The audience cheered for the victory.", "They applauded the artist."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5403,
       "word": "toelichting",
-      "pos": "noun",
-      "meaning": "说明,解释",
-      "word_forms": {
-        "singular": "toelichting",
-        "plural": "toelichtingen"
+      "translation": {
+        "chinese": "说明,解释",
+        "english": "explanation, clarification"
       },
-      "example": "Kunt u een toelichting geven?",
-      "example_translation": "你能给个解释吗?"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "toelichting",
+          "plural": "toelichtingen"
+        }
+      },
+      "examples": [
+        "Kunt u een toelichting geven?",
+        "De toelichting was duidelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": ["你能给个解释吗?", "解释很清楚。"],
+        "english": ["Can you give an explanation?", "The explanation was clear."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5404,
       "word": "toenadering",
-      "pos": "noun",
-      "meaning": "接近,接触",
-      "word_forms": {
-        "singular": "toenadering",
-        "plural": "toenaderingen"
+      "translation": {
+        "chinese": "接近,接触",
+        "english": "approach, contact"
       },
-      "example": "Er was een toenadering tussen de partijen.",
-      "example_translation": "双方之间有接触。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "toenadering",
+          "plural": "toenaderingen"
+        }
+      },
+      "examples": [
+        "Er was een toenadering tussen de partijen.",
+        "De toenadering is nodig voor overleg."
+      ],
+      "exampleTranslations": {
+        "chinese": ["双方之间有接触。", "需要接触进行协商。"],
+        "english": ["There was contact between the parties.", "Contact is needed for consultation."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5405,
       "word": "toepasbaar",
-      "pos": "adjective",
-      "meaning": "可适用的",
-      "word_forms": {
-        "positive": "toepasbaar",
-        "comparative": "toepasbaarder"
+      "translation": {
+        "chinese": "可适用的",
+        "english": "applicable, suitable"
       },
-      "example": "De methode is toepasbaar.",
-      "example_translation": "这个方法是可适用的。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "toepasbaar",
+          "comparative": "toepasbaarder",
+          "superlative": "toepasbaarst"
+        }
+      },
+      "examples": [
+        "De methode is toepasbaar.",
+        "Dit is een toepasbare regel."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这个方法是可适用的。", "这是一条适用的规则。"],
+        "english": ["The method is applicable.", "This is an applicable rule."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5406,
       "word": "toereikend",
-      "pos": "adjective",
-      "meaning": "足够的,充分的",
-      "word_forms": {
-        "positive": "toereikend",
-        "comparative": "toereikender"
+      "translation": {
+        "chinese": "足够的,充分的",
+        "english": "sufficient, adequate"
       },
-      "example": "Het bewijs was toereikend.",
-      "example_translation": "证据是充分的。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "toereikend",
+          "comparative": "toereikender",
+          "superlative": "toereikendst"
+        }
+      },
+      "examples": [
+        "Het bewijs was toereikend.",
+        "Er is toereikende tijd."
+      ],
+      "exampleTranslations": {
+        "chinese": ["证据是充分的。", "有充足的时间。"],
+        "english": ["The evidence was sufficient.", "There is sufficient time."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5407,
       "word": "toeschouwer",
-      "pos": "noun",
-      "meaning": "观众,旁观者",
-      "word_forms": {
-        "singular": "toeschouwer",
-        "plural": "toeschouwers"
+      "translation": {
+        "chinese": "观众,旁观者",
+        "english": "spectator, onlooker"
       },
-      "example": "De toeschouwers keken naar het spel.",
-      "example_translation": "观众们观看比赛。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "toeschouwer",
+          "plural": "toeschouwers"
+        }
+      },
+      "examples": [
+        "De toeschouwers keken naar het spel.",
+        "Er waren veel toeschouwers."
+      ],
+      "exampleTranslations": {
+        "chinese": ["观众们观看比赛。", "有很多旁观者。"],
+        "english": ["The spectators watched the match.", "There were many spectators."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5408,
       "word": "toesnijden",
-      "pos": "verb",
-      "meaning": "修剪,裁剪",
-      "word_forms": {
-        "infinitive": "toesnijden",
-        "present": "snijdt toe",
-        "past": "sneed toe",
-        "participle": "toegesneden"
+      "translation": {
+        "chinese": "修剪,裁剪",
+        "english": "to trim, to cut back"
       },
-      "example": "De tuinman sneed de struiken toe.",
-      "example_translation": "园丁修剪了灌木。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "toesnijden",
+          "present": [
+            "ik snijd toe",
+            "jij snijdt toe",
+            "hij/zij/het snijdt toe",
+            "wii snijden toe",
+            "jullie snijden toe",
+            "zij snijden toe"
+          ],
+          "past": [
+            "ik sneed toe",
+            "jij sneed toe",
+            "hij/zij/het sneed toe",
+            "wii sneden toe",
+            "jullie sneden toe",
+            "zij sneden toe"
+          ],
+          "perfect": "ik heb toegesneden",
+          "participle": "toegesneden"
+        }
+      },
+      "examples": [
+        "De tuinman sneed de struiken toe.",
+        "Ze sneed de kosten toe."
+      ],
+      "exampleTranslations": {
+        "chinese": ["园丁修剪了灌木。", "她削减了成本。"],
+        "english": ["The gardener trimmed the shrubs.", "She cut back the costs."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5409,
       "word": "toespreken",
-      "pos": "verb",
-      "meaning": "向...讲话,致辞",
-      "word_forms": {
-        "infinitive": "toespreken",
-        "present": "spreekt toe",
-        "past": "sprak toe",
-        "participle": "toegesproken"
+      "translation": {
+        "chinese": "向...讲话,致辞",
+        "english": "to address, to speak to"
       },
-      "example": "De burgemeester sprak de mensen toe.",
-      "example_translation": "市长向人们致辞。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "toespreken",
+          "present": [
+            "ik spreek toe",
+            "jij spreekt toe",
+            "hij/zij/het spreekt toe",
+            "wii spreken toe",
+            "jullie spreken toe",
+            "zij spreken toe"
+          ],
+          "past": [
+            "ik sprak toe",
+            "jij sprak toe",
+            "hij/zij/het sprak toe",
+            "wii spraken toe",
+            "jullie spraken toe",
+            "zij spraken toe"
+          ],
+          "perfect": "ik heb toegesproken",
+          "participle": "toegesproken"
+        }
+      },
+      "examples": [
+        "De burgemeester sprak de mensen toe.",
+        "De minister sprak het volk toe."
+      ],
+      "exampleTranslations": {
+        "chinese": ["市长向人们致辞。", "部长向人民讲话。"],
+        "english": ["The mayor addressed the people.", "The minister spoke to the nation."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5410,
       "word": "toestemming",
-      "pos": "noun",
-      "meaning": "同意,许可",
-      "word_forms": {
-        "singular": "toestemming",
-        "plural": "toestemmingen"
+      "translation": {
+        "chinese": "同意,许可",
+        "english": "consent, permission"
       },
-      "example": "Ik heb toestemming nodig.",
-      "example_translation": "我需要许可。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "toestemming",
+          "plural": "toestemmingen"
+        }
+      },
+      "examples": [
+        "Ik heb toestemming nodig.",
+        "De toestemming is verleend."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我需要许可。", "许可已经给予。"],
+        "english": ["I need consent.", "The permission has been granted."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5411,
       "word": "toetsenbord",
-      "pos": "noun",
-      "meaning": "键盘",
-      "word_forms": {
-        "singular": "toetsenbord",
-        "plural": "toetsenborden"
+      "translation": {
+        "chinese": "键盘",
+        "english": "keyboard"
       },
-      "example": "Het toetsenbord werkt niet goed.",
-      "example_translation": "键盘工作不正常。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "toetsenbord",
+          "plural": "toetsenborden"
+        }
+      },
+      "examples": [
+        "Het toetsenbord werkt niet goed.",
+        "Ik type op het toetsenbord."
+      ],
+      "exampleTranslations": {
+        "chinese": ["键盘工作不正常。", "我在键盘上打字。"],
+        "english": ["The keyboard is not working properly.", "I type on the keyboard."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5412,
       "word": "toezien op",
-      "pos": "phrasal verb",
-      "meaning": "监督,监管",
-      "word_forms": {
-        "infinitive": "toezien op",
-        "present": "ziet toe op",
-        "past": "zag toe op",
-        "participle": "toegezien op"
+      "translation": {
+        "chinese": "监督,监管",
+        "english": "to supervise, to oversee"
       },
-      "example": "De manager ziet toe op het project.",
-      "example_translation": "经理监督这个项目。"
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "toezien op",
+          "present": [
+            "ik zie toe op",
+            "jij ziet toe op",
+            "hij/zij/het ziet toe op",
+            "wii zien toe op",
+            "jullie zien toe op",
+            "zij zien toe op"
+          ],
+          "past": [
+            "ik zag toe op",
+            "jij zag toe op",
+            "hij/zij/het zag toe op",
+            "wii zagen toe op",
+            "jullie zagen toe op",
+            "zij zagen toe op"
+          ],
+          "perfect": "ik heb toegezien op",
+          "participle": "toegezien op"
+        }
+      },
+      "examples": [
+        "De manager ziet toe op het project.",
+        "De overheid ziet toe op de veiligheid."
+      ],
+      "exampleTranslations": {
+        "chinese": ["经理监督这个项目。", "政府监管安全。"],
+        "english": ["The manager oversees the project.", "The government supervises safety."]
+      },
+      "notes": "短语动词",
+      "difficulty": "B2"
     },
     {
       "id": 5413,
-      "word": "ton-sur-ton",
-      "pos": "adjective",
-      "meaning": "同色系的,色调统一的",
-      "word_forms": {
-        "positive": "ton-sur-ton",
-        "comparative": "ton-sur-ton"
+      "word": "ton-sur-toon",
+      "translation": {
+        "chinese": "同色系的,色调统一的",
+        "english": "monochromatic, uniform color"
       },
-      "example": "Zij draagt een ton-sur-ton outfit.",
-      "example_translation": "她穿着同色系的服装。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "ton-sur-toon",
+          "comparative": "ton-sur-toon",
+          "superlative": "ton-sur-toon"
+        }
+      },
+      "examples": [
+        "Zij draagt een ton-sur-toon outfit.",
+        "Het interieur is ton-sur-toon."
+      ],
+      "exampleTranslations": {
+        "chinese": ["她穿着同色系的服装。", "内饰是统一色调的。"],
+        "english": ["She wears a monochromatic outfit.", "The interior is uniform in color."]
+      },
+      "notes": "形容词,指色调统一",
+      "difficulty": "B2"
     }
   ]
 }

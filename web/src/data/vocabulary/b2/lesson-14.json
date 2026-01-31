@@ -1,477 +1,1342 @@
 {
+  "id": "lB214",
+  "level": "B2",
+  "lessonNumber": 14,
+  "totalWords": 38,
   "words": [
     {
       "id": 4953,
       "word": "maandelijks",
-      "pos": "adverb",
-      "meaning": "每月,按月",
-      "word_forms": {},
-      "example": "Ze ontvangt maandelijks een vergoeding.",
-      "example_translation": "她每月收到一笔报酬。"
+      "translation": {
+        "chinese": "每月,按月",
+        "english": "monthly, per month"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "Ze ontvangt maandelijks een vergoeding.",
+        "Hij betaalt maandelijks de huur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她每月收到一笔报酬。",
+          "他每月支付房租。"
+        ],
+        "english": [
+          "She receives an allowance monthly.",
+          "He pays the rent monthly."
+        ]
+      },
+      "notes": "副词，表示按月计算",
+      "difficulty": "B2"
     },
     {
       "id": 4954,
       "word": "maar liefst",
-      "pos": "adverbial phrase",
-      "meaning": "足足,高达,多达",
-      "word_forms": {},
-      "example": "Het concert bezocht maar liefst vijftigduizend mensen.",
-      "example_translation": "这场音乐会足足有五万人参加。"
+      "translation": {
+        "chinese": "足足,高达,多达",
+        "english": "as many as, as much as"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "examples": [
+        "Het concert bezocht maar liefst vijftigduizend mensen.",
+        "De auto kost maar liefst 50.000 euro."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这场音乐会足足有五万人参加。",
+          "这辆汽车竟然高达5万欧元。"
+        ],
+        "english": [
+          "The concert was attended by as many as 50,000 people.",
+          "The car costs as much as 50,000 euros."
+        ]
+      },
+      "notes": "固定短语，用于强调数量之多",
+      "difficulty": "B2"
     },
     {
       "id": 4955,
       "word": "machteloos",
-      "pos": "adjective",
-      "meaning": "无力的,无能的",
-      "word_forms": {
-        "positive": "machteloos",
-        "comparative": "machtelozer"
+      "translation": {
+        "chinese": "无力的,无能的",
+        "english": "powerless, helpless"
       },
-      "example": "Hij voelde zich machteloos tegen de situatie.",
-      "example_translation": "面对这种局面他感到无力。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "machteloos",
+          "withDe": "machteloze",
+          "withHet": "machteloze",
+          "comparative": "machtelozer",
+          "superlative": "machteloost"
+        }
+      },
+      "examples": [
+        "Hij voelde zich machteloos tegen de situatie.",
+        "De regering stond machteloos tegenover de crisis."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "面对这种局面他感到无力。",
+          "政府面对危机显得无能为力。"
+        ],
+        "english": [
+          "He felt powerless facing the situation.",
+          "The government stood powerless against the crisis."
+        ]
+      },
+      "notes": "形容词，由macht(力量)+loos(没有)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4956,
       "word": "majestueus",
-      "pos": "adjective",
-      "meaning": "宏伟的,壮观的",
-      "word_forms": {
-        "positive": "majestueus",
-        "comparative": "majestueuzer"
+      "translation": {
+        "chinese": "宏伟的,壮观的",
+        "english": "majestic, magnificent"
       },
-      "example": "Het kasteel was een majestueus gezicht.",
-      "example_translation": "城堡是一幅宏伟的景象。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "majestueus",
+          "withDe": "majestueze",
+          "withHet": "majestueze",
+          "comparative": "majestueuzer",
+          "superlative": "majestueust"
+        }
+      },
+      "examples": [
+        "Het kasteel was een majestueus gezicht.",
+        "De berg heeft een majestueze uitstraling."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "城堡是一幅宏伟的景象。",
+          "这座山有着宏伟的气势。"
+        ],
+        "english": [
+          "The castle was a magnificent sight.",
+          "The mountain has a majestic appearance."
+        ]
+      },
+      "notes": "形容词，来自法语majestueux",
+      "difficulty": "B2"
     },
     {
       "id": 4957,
       "word": "malversatie",
-      "pos": "noun",
-      "meaning": "舞弊,贪污",
-      "word_forms": {
-        "singular": "malversatie",
-        "plural": "malversaties"
+      "translation": {
+        "chinese": "舞弊,贪污",
+        "english": "malversation, fraud, corruption"
       },
-      "example": "De burgemeester werd beschuldigd van malversatie.",
-      "example_translation": "市长被指控舞弊。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "malversatie",
+          "plural": "malversaties"
+        }
+      },
+      "examples": [
+        "De burgemeester werd beschuldigd van malversatie.",
+        "Er werd een onderzoek ingesteld naar malversaties."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "市长被指控舞弊。",
+          "针对舞弊行为展开调查。"
+        ],
+        "english": [
+          "The mayor was accused of malversation.",
+          "An investigation was launched into corruption."
+        ]
+      },
+      "notes": "阴性名词，指职务犯罪或贪污",
+      "difficulty": "B2"
     },
     {
       "id": 4958,
       "word": "mannenbaan",
-      "pos": "noun",
-      "meaning": "男性主导的职业",
-      "word_forms": {
-        "singular": "mannenbaan",
-        "plural": "mannenbanen"
+      "translation": {
+        "chinese": "男性主导的职业",
+        "english": "male-dominated profession"
       },
-      "example": "De bouwsector wordt vaak gezien als een mannenbaan.",
-      "example_translation": "建筑行业通常被视为男性主导的职业。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "mannenbaan",
+          "plural": "mannenbanen"
+        }
+      },
+      "examples": [
+        "De bouwsector wordt vaak gezien als een mannenbaan.",
+        "Meer vrouwen moeten worden aangemoedigd om een mannenbaan te kiezen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "建筑行业通常被视为男性主导的职业。",
+          "应该鼓励更多女性选择男性主导的职业。"
+        ],
+        "english": [
+          "The construction sector is often seen as a male-dominated profession.",
+          "More women should be encouraged to choose male-dominated professions."
+        ]
+      },
+      "notes": "阴性名词，由mannen(男人)+baan(职业)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4959,
       "word": "marineschip",
-      "pos": "noun",
-      "meaning": "海军舰艇",
-      "word_forms": {
-        "singular": "marineschip",
-        "plural": "marineschepen"
+      "translation": {
+        "chinese": "海军舰艇",
+        "english": "naval vessel, warship"
       },
-      "example": "Het marineschip voer uit naar zee.",
-      "example_translation": "海军舰艇驶向大海。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "marineschip",
+          "plural": "marineschepen"
+        }
+      },
+      "examples": [
+        "Het marineschip voer uit naar zee.",
+        "De marine kocht drie nieuwe marineschepen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "海军舰艇驶向大海。",
+          "海军购买了三艘新舰艇。"
+        ],
+        "english": [
+          "The naval vessel sailed out to sea.",
+          "The navy bought three new warships."
+        ]
+      },
+      "notes": "中性名词，由marine(海军)+schip(船)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4960,
       "word": "massamoord",
-      "pos": "noun",
-      "meaning": "大屠杀",
-      "word_forms": {
-        "singular": "massamoord",
-        "plural": "massamoorden"
+      "translation": {
+        "chinese": "大屠杀",
+        "english": "massacre, mass murder"
       },
-      "example": "De historische massamoord wordt herdacht met een monument.",
-      "example_translation": "历史上的大屠杀通过纪念碑来纪念。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "massamoord",
+          "plural": "massamoorden"
+        }
+      },
+      "examples": [
+        "De historische massamoord wordt herdacht met een monument.",
+        "De massamoord schokte de hele wereld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "历史上的大屠杀通过纪念碑来纪念。",
+          "这场大屠杀震惊了全世界。"
+        ],
+        "english": [
+          "The historical massacre is commemorated with a monument.",
+          "The massacre shocked the entire world."
+        ]
+      },
+      "notes": "阴性名词，由massa(大量)+moord(谋杀)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4961,
       "word": "masturberen",
-      "pos": "verb",
-      "meaning": "手淫",
-      "word_forms": {
-        "infinitive": "masturberen",
-        "present": "masturbeert",
-        "past": "masturbeerde",
-        "participle": "gemasturbeerd"
+      "translation": {
+        "chinese": "手淫",
+        "english": "to masturbate"
       },
-      "example": "Het onderwerp werd besproken in de seksuele voorlichting.",
-      "example_translation": "这个话题在性教育中进行了讨论。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "masturberen",
+          "isSeparable": false,
+          "present": {
+            "ik": "masturbeer",
+            "jij": "masturbeert",
+            "hij": "masturbeert",
+            "wij": "masturberen",
+            "jullie": "masturberen",
+            "zij": "masturberen"
+          },
+          "past": {
+            "singular": "masturbeerde",
+            "plural": "masturbeerden"
+          },
+          "pastParticiple": "gemasturbeerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het onderwerp werd besproken in de seksuele voorlichting.",
+        "Masturberen is een normaal biologisch proces."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个话题在性教育中进行了讨论。",
+          "手淫是正常的生理过程。"
+        ],
+        "english": [
+          "The topic was discussed in sex education.",
+          "Masturbation is a normal biological process."
+        ]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 4962,
       "word": "matriarchaat",
-      "pos": "noun",
-      "meaning": "母系社会",
-      "word_forms": {
-        "singular": "matriarchaat",
-        "plural": "matriarchaten"
+      "translation": {
+        "chinese": "母系社会",
+        "english": "matriarchy"
       },
-      "example": "In dit volk leefde men in een matriarchaat.",
-      "example_translation": "在这个民族中,人们生活在母系社会里。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "matriarchaat",
+          "plural": "matriarchaten"
+        }
+      },
+      "examples": [
+        "In dit volk leefde men in een matriarchaat.",
+        "Sommige culturen worden gekenmerkt door een matriarchaat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在这个民族中,人们生活在母系社会里。",
+          "有些文化以母系社会为特征。"
+        ],
+        "english": [
+          "In this people, they lived in a matriarchy.",
+          "Some cultures are characterized by a matriarchy."
+        ]
+      },
+      "notes": "中性名词，指以女性为家长的制度",
+      "difficulty": "B2"
     },
     {
       "id": 4963,
       "word": "medecursist",
-      "pos": "noun",
-      "meaning": "同学,同班同学",
-      "word_forms": {
-        "singular": "medecursist",
-        "plural": "medecursisten"
+      "translation": {
+        "chinese": "同学,同班同学",
+        "english": "fellow student, classmate"
       },
-      "example": "Ik leerde mijn medecursisten kennen tijdens de eerste les.",
-      "example_translation": "在第一堂课上我认识了同学们。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "medecursist",
+          "plural": "medecursisten"
+        }
+      },
+      "examples": [
+        "Ik leerde mijn medecursisten kennen tijdens de eerste les.",
+        "De medecursisten hielpen elkaar met de opdrachten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "在第一堂课上我认识了同学们。",
+          "同学们互相帮助完成作业。"
+        ],
+        "english": [
+          "I got to know my fellow students during the first lesson.",
+          "The fellow students helped each other with the assignments."
+        ]
+      },
+      "notes": "阳性名词，由mede(共同)+cursist(课程学员)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4964,
       "word": "mededeling",
-      "pos": "noun",
-      "meaning": "声明,公告,通知",
-      "word_forms": {
-        "singular": "mededeling",
-        "plural": "mededelingen"
+      "translation": {
+        "chinese": "声明,公告,通知",
+        "english": "announcement, notice, statement"
       },
-      "example": "De rector maakte een belangrijke mededeling.",
-      "example_translation": "校长发表了一项重要声明。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "mededeling",
+          "plural": "mededelingen"
+        }
+      },
+      "examples": [
+        "De rector maakte een belangrijke mededeling.",
+        "Er hangt een mededeling op de deur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "校长发表了一项重要声明。",
+          "门上贴着一份通知。"
+        ],
+        "english": [
+          "The principal made an important announcement.",
+          "There is a notice on the door."
+        ]
+      },
+      "notes": "阴性名词，来自mededelen(宣布)",
+      "difficulty": "B2"
     },
     {
       "id": 4965,
       "word": "medelijden",
-      "pos": "noun",
-      "meaning": "同情,怜悯",
-      "word_forms": {
-        "singular": "medelijden",
-        "plural": "medelijden"
+      "translation": {
+        "chinese": "同情,怜悯",
+        "english": "compassion, pity, sympathy"
       },
-      "example": "Ik heb veel medelijden met haar situatie.",
-      "example_translation": "我对她的处境深表同情。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "medelijden",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Ik heb veel medelijden met haar situatie.",
+        "Hij voelde medelijden met de daklozen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我对她的处境深表同情。",
+          "他对流浪者深表同情。"
+        ],
+        "english": [
+          "I have great compassion for her situation.",
+          "He felt compassion for the homeless people."
+        ]
+      },
+      "notes": "中性名词，通常不可数，常与hebben连用",
+      "difficulty": "B2"
     },
     {
       "id": 4966,
       "word": "medestander",
-      "pos": "noun",
-      "meaning": "支持者,盟友",
-      "word_forms": {
-        "singular": "medestander",
-        "plural": "medestanders"
+      "translation": {
+        "chinese": "支持者,盟友",
+        "english": "supporter, ally"
       },
-      "example": "Hij had veel medestanders tijdens het debat.",
-      "example_translation": "他在辩论中有很多支持者。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "medestander",
+          "plural": "medestanders"
+        }
+      },
+      "examples": [
+        "Hij had veel medestanders tijdens het debat.",
+        "Zij kreeg steun van haar medestanders."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在辩论中有很多支持者。",
+          "她得到了盟友的支持。"
+        ],
+        "english": [
+          "He had many supporters during the debate.",
+          "She received support from her allies."
+        ]
+      },
+      "notes": "阳性名词，由mede(共同)+stander(站立者)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4967,
       "word": "medewerker",
-      "pos": "noun",
-      "meaning": "员工,同事",
-      "word_forms": {
-        "singular": "medewerker",
-        "plural": "medewerkers"
+      "translation": {
+        "chinese": "员工,同事",
+        "english": "employee, co-worker, staff member"
       },
-      "example": "Het bedrijf heeft honderd medewerkers.",
-      "example_translation": "公司有一百名员工。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "medewerker",
+          "plural": "medewerkers"
+        }
+      },
+      "examples": [
+        "Het bedrijf heeft honderd medewerkers.",
+        "Alle medewerkers krijgen een kerstbonus."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司有一百名员工。",
+          "所有员工都获得圣诞奖金。"
+        ],
+        "english": [
+          "The company has a hundred employees.",
+          "All employees receive a Christmas bonus."
+        ]
+      },
+      "notes": "阳性名词，由mede(共同)+werker(工作者)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4968,
       "word": "mee zitten",
-      "pos": "phrasal verb",
-      "meaning": "陷入困境,有麻烦",
-      "word_forms": {
-        "infinitive": "mee zitten",
-        "present": "zit mee",
-        "past": "zat mee",
-        "participle": "meegezeten"
+      "translation": {
+        "chinese": "陷入困境,有麻烦",
+        "english": "to be in trouble, to be stuck"
       },
-      "example": "Hij zit mee met de schulden.",
-      "example_translation": "他陷入债务困境。"
+      "partOfSpeech": "phrase",
+      "forms": {
+        "verb": {
+          "infinitive": "mee zitten",
+          "isSeparable": true,
+          "present": {
+            "ik": "zit mee",
+            "jij": "zit mee",
+            "hij": "zit mee",
+            "wij": "zitten mee",
+            "jullie": "zitten mee",
+            "zij": "zitten mee"
+          },
+          "past": {
+            "singular": "zat mee",
+            "plural": "zaten mee"
+          },
+          "pastParticiple": "meegezeten",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Hij zit mee met de schulden.",
+        "We zitten mee met de planning."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他陷入债务困境。",
+          "我们在计划上遇到了麻烦。"
+        ],
+        "english": [
+          "He is in trouble with the debts.",
+          "We are stuck with the planning."
+        ]
+      },
+      "notes": "常用短语，mee表示'一同/陷入'的意思",
+      "difficulty": "B2"
     },
     {
       "id": 4969,
       "word": "meedraaien",
-      "pos": "verb",
-      "meaning": "随大流,参与其中",
-      "word_forms": {
-        "infinitive": "meedraaien",
-        "present": "draait mee",
-        "past": "draaide mee",
-        "participle": "meege draaid"
+      "translation": {
+        "chinese": "随大流,参与其中",
+        "english": "to go along with, to join in"
       },
-      "example": "Het is makkelijker om mee te draaien met de groep.",
-      "example_translation": "随大流更容易一些。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "meedraaien",
+          "isSeparable": true,
+          "prefix": "mee",
+          "present": {
+            "ik": "draai mee",
+            "jij": "draait mee",
+            "hij": "draait mee",
+            "wij": "draaien mee",
+            "jullie": "draaien mee",
+            "zij": "draaien mee"
+          },
+          "past": {
+            "singular": "draaide mee",
+            "plural": "draaiden mee"
+          },
+          "pastParticiple": "meege draaid",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "Het is makkelijker om mee te draaien met de groep.",
+        "Je moet niet altijd alles zomaar meedraaien."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "随大流更容易一些。",
+          "你不应该总是盲目随大流。"
+        ],
+        "english": [
+          "It's easier to go along with the group.",
+          "You shouldn't just go along with everything."
+        ]
+      },
+      "notes": "可分动词，draaien意为旋转/转动",
+      "difficulty": "B2"
     },
     {
       "id": 4970,
       "word": "meekrijgen",
-      "pos": "verb",
-      "meaning": "带上,带去",
-      "word_forms": {
-        "infinitive": "meekrijgen",
-        "present": "krijgt mee",
-        "past": "kreeg mee",
-        "participle": "meegekregen"
+      "translation": {
+        "chinese": "带上,带去",
+        "english": "to take along, to bring along"
       },
-      "example": "Ik meekrijg mijn kinderen na school.",
-      "example_translation": "放学后我接上孩子们。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "meekrijgen",
+          "isSeparable": true,
+          "prefix": "mee",
+          "present": {
+            "ik": "krijg mee",
+            "jij": "krijgt mee",
+            "hij": "krijgt mee",
+            "wij": "krijgen mee",
+            "jullie": "krijgen mee",
+            "zij": "krijgen mee"
+          },
+          "past": {
+            "singular": "kreeg mee",
+            "plural": "kregen mee"
+          },
+          "pastParticiple": "meegekregen",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ik meekrijg mijn kinderen na school.",
+        "Mag ik mijn hond meekrijgen naar de reis?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "放学后我接上孩子们。",
+          "我可以带上我的狗去旅行吗？"
+        ],
+        "english": [
+          "I pick up my children after school.",
+          "May I take my dog along on the trip?"
+        ]
+      },
+      "notes": "可分动词，由krijgen(得到)+mee表示'一同'组成",
+      "difficulty": "B2"
     },
     {
       "id": 4971,
       "word": "meerdaagse",
-      "pos": "adjective",
-      "meaning": "多日的,持续数天的",
-      "word_forms": {
-        "positive": "meerdaagse",
-        "comparative": "meerdaagser"
+      "translation": {
+        "chinese": "多日的,持续数天的",
+        "english": "multi-day, several-day"
       },
-      "example": "We gingen op een meerdaagse tocht door de bergen.",
-      "example_translation": "我们去山区进行了多日徒步旅行。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "meerdaagse",
+          "withDe": "meerdaagse",
+          "withHet": "meerdaagse",
+          "comparative": "meerdaagser",
+          "superlative": "meerdaagst"
+        }
+      },
+      "examples": [
+        "We gingen op een meerdaagse tocht door de bergen.",
+        "De conferentie is een meerdaagse evenement."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们去山区进行了多日徒步旅行。",
+          "这个会议是一个持续数天的活动。"
+        ],
+        "english": [
+          "We went on a multi-day hike through the mountains.",
+          "The conference is a multi-day event."
+        ]
+      },
+      "notes": "形容词，由meer(更多)+dag(天)+后缀-se组成",
+      "difficulty": "B2"
     },
     {
       "id": 4972,
       "word": "meerderheid",
-      "pos": "noun",
-      "meaning": "大多数",
-      "word_forms": {
-        "singular": "meerderheid",
-        "plural": "meerderheden"
+      "translation": {
+        "chinese": "大多数",
+        "english": "majority"
       },
-      "example": "De meerderheid van de mensen stemde voor.",
-      "example_translation": "大多数人投了赞成票。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "meerderheid",
+          "plural": "meerderheden"
+        }
+      },
+      "examples": [
+        "De meerderheid van de mensen stemde voor.",
+        "Een grote meerderheid steunde het plan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "大多数人投了赞成票。",
+          "绝大多数人支持这个计划。"
+        ],
+        "english": [
+          "The majority of people voted in favor.",
+          "A large majority supported the plan."
+        ]
+      },
+      "notes": "阴性名词，常与van连用",
+      "difficulty": "B2"
     },
     {
       "id": 4973,
       "word": "meerwaarde",
-      "pos": "noun",
-      "meaning": "附加值,增值",
-      "word_forms": {
-        "singular": "meerwaarde",
-        "plural": "meerwaarden"
+      "translation": {
+        "chinese": "附加值,增值",
+        "english": "value added, surplus value"
       },
-      "example": "Het huis heeft veel meerwaarde gekregen.",
-      "example_translation": "这所房子增值了很多。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "meerwaarde",
+          "plural": "meerwaarden"
+        }
+      },
+      "examples": [
+        "Het huis heeft veel meerwaarde gekregen.",
+        "Het bedrijf draait goed dankzij de meerwaarde van hun product."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这所房子增值了很多。",
+          "由于产品的附加值，公司经营良好。"
+        ],
+        "english": [
+          "The house has gained a lot of value.",
+          "The company does well thanks to the added value of their product."
+        ]
+      },
+      "notes": "阴性名词，由meer(更多)+waarde(价值)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4974,
       "word": "melatonine",
-      "pos": "noun",
-      "meaning": "褪黑素",
-      "word_forms": {
-        "singular": "melatonine",
-        "plural": "melatonines"
+      "translation": {
+        "chinese": "褪黑素",
+        "english": "melatonin"
       },
-      "example": "Melatonine helpt bij het in slaap komen.",
-      "example_translation": "褪黑素有助于入睡。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "melatonine",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Melatonine helpt bij het in slaap komen.",
+        "Het lichaam produceert melatonine in het donker."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "褪黑素有助于入睡。",
+          "身体在黑暗中产生褪黑素。"
+        ],
+        "english": [
+          "Melatonin helps with falling asleep.",
+          "The body produces melatonin in the dark."
+        ]
+      },
+      "notes": "阴性名词，调节睡眠的激素",
+      "difficulty": "B2"
     },
     {
       "id": 4975,
       "word": "menstrueren",
-      "pos": "verb",
-      "meaning": "月经",
-      "word_forms": {
-        "infinitive": "menstrueren",
-        "present": "menstrueert",
-        "past": "menstrueerde",
-        "participle": "gemens trueerd"
+      "translation": {
+        "chinese": "月经",
+        "english": "to menstruate"
       },
-      "example": "Vrouwen menstrueren gemiddeld eens per maand.",
-      "example_translation": "女性平均每月来一次月经。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "menstrueren",
+          "isSeparable": false,
+          "present": {
+            "ik": "menstrueer",
+            "jij": "menstrueert",
+            "hij": "menstrueert",
+            "wij": "menstrueren",
+            "jullie": "menstrueren",
+            "zij": "menstrueren"
+          },
+          "past": {
+            "singular": "menstrueerde",
+            "plural": "menstrueerden"
+          },
+          "pastParticiple": "gemens trueerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Vrouwen menstrueren gemiddeld eens per maand.",
+        "Menstruatieproblemen kunnen medische hulp vereisen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "女性平均每月来一次月经。",
+          "月经问题可能需要医疗帮助。"
+        ],
+        "english": [
+          "Women menstruate on average once a month.",
+          "Menstrual problems may require medical help."
+        ]
+      },
+      "notes": "不可分动词，描述女性生理周期",
+      "difficulty": "B2"
     },
     {
       "id": 4976,
       "word": "merkwaardig",
-      "pos": "adjective",
-      "meaning": "奇特的,古怪的",
-      "word_forms": {
-        "positive": "merkwaardig",
-        "comparative": "merkwaardiger"
+      "translation": {
+        "chinese": "奇特的,古怪的",
+        "english": "peculiar, odd, remarkable"
       },
-      "example": "Het was een merkwaardige gebeurtenis.",
-      "example_translation": "那是一件奇怪的事。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "merkwaardig",
+          "withDe": "merkwaardige",
+          "withHet": "merkwaardige",
+          "comparative": "merkwaardiger",
+          "superlative": "merkwaardigst"
+        }
+      },
+      "examples": [
+        "Het was een merkwaardige gebeurtenis.",
+        "Hij droeg een merkwaardige hoed."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那是一件奇怪的事。",
+          "他戴着一顶古怪的帽子。"
+        ],
+        "english": [
+          "It was a peculiar occurrence.",
+          "He wore a peculiar hat."
+        ]
+      },
+      "notes": "形容词，由merken(注意)+waardig(值得的)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4977,
       "word": "metamorfose",
-      "pos": "noun",
-      "meaning": "蜕变,变形",
-      "word_forms": {
-        "singular": "metamorfose",
-        "plural": "metamorfsen"
+      "translation": {
+        "chinese": "蜕变,变形",
+        "english": "metamorphosis, transformation"
       },
-      "example": "De rups ondergaat een metamorfose tot vlinder.",
-      "example_translation": "毛毛虫经历蜕变变成蝴蝶。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "metamorfose",
+          "plural": "metamorfosen"
+        }
+      },
+      "examples": [
+        "De rups ondergaat een metamorfose tot vlinder.",
+        "De stad onderging een complete metamorfose."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "毛毛虫经历蜕变变成蝴蝶。",
+          "这座城市经历了彻底的蜕变。"
+        ],
+        "english": [
+          "The caterpillar undergoes a metamorphosis into a butterfly.",
+          "The city underwent a complete transformation."
+        ]
+      },
+      "notes": "阴性名词，来自希腊语",
+      "difficulty": "B2"
     },
     {
       "id": 4978,
       "word": "meubileren",
-      "pos": "verb",
-      "meaning": "布置家具,装修",
-      "word_forms": {
-        "infinitive": "meubileren",
-        "present": "meubeleert",
-        "past": "meubeleerde",
-        "participle": "gemeubeleerd"
+      "translation": {
+        "chinese": "布置家具,装修",
+        "english": "to furnish, to fit out"
       },
-      "example": "Wij gaan het nieuwe huis meubileren.",
-      "example_translation": "我们打算布置新家的家具。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "meubileren",
+          "isSeparable": false,
+          "present": {
+            "ik": "meubeleer",
+            "jij": "meubeleert",
+            "hij": "meubeleert",
+            "wij": "meubileren",
+            "jullie": "meubileren",
+            "zij": "meubileren"
+          },
+          "past": {
+            "singular": "meubeleerde",
+            "plural": "meubeleerden"
+          },
+          "pastParticiple": "gemeubeleerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Wij gaan het nieuwe huis meubileren.",
+        "De kamer is al volledig gemeubeleerd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们打算布置新家的家具。",
+          "这个房间已经完全装修好了。"
+        ],
+        "english": [
+          "We are going to furnish the new house.",
+          "The room is already fully furnished."
+        ]
+      },
+      "notes": "不可分动词，来自meubel(家具)",
+      "difficulty": "B2"
     },
     {
       "id": 4979,
       "word": "middelmatig",
-      "pos": "adjective",
-      "meaning": "平庸的,一般的",
-      "word_forms": {
-        "positive": "middelmatig",
-        "comparative": "middelmatiger"
+      "translation": {
+        "chinese": "平庸的,一般的",
+        "english": "mediocre, average, middling"
       },
-      "example": "Het was een middelmatige prestatie.",
-      "example_translation": "这是一个平庸的表现。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "middelmatig",
+          "withDe": "middelmatige",
+          "withHet": "middelmatige",
+          "comparative": "middelmatiger",
+          "superlative": "middelmatigst"
+        }
+      },
+      "examples": [
+        "Het was een middelmatige prestatie.",
+        "Zijn behalen op school zijn middelmatig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个平庸的表现。",
+          "他在学校的表现一般。"
+        ],
+        "english": [
+          "It was a mediocre performance.",
+          "His achievements at school are average."
+        ]
+      },
+      "notes": "形容词，来自middel(中间)",
+      "difficulty": "B2"
     },
     {
       "id": 4980,
       "word": "millimeter",
-      "pos": "noun",
-      "meaning": "毫米",
-      "word_forms": {
-        "singular": "millimeter",
-        "plural": "millimeters"
+      "translation": {
+        "chinese": "毫米",
+        "english": "millimeter"
       },
-      "example": "De afmeting is precies twee millimeter.",
-      "example_translation": "尺寸正好是两毫米。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "millimeter",
+          "plural": "millimeters"
+        }
+      },
+      "examples": [
+        "De afmeting is precies twee millimeter.",
+        "De regenval was slechts een paar millimeter."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "尺寸正好是两毫米。",
+          "降雨量只有几毫米。"
+        ],
+        "english": [
+          "The dimension is exactly two millimeters.",
+          "The rainfall was only a few millimeters."
+        ]
+      },
+      "notes": "阳性名词，长度单位",
+      "difficulty": "B2"
     },
     {
       "id": 4981,
       "word": "minderheid",
-      "pos": "noun",
-      "meaning": "少数",
-      "word_forms": {
-        "singular": "minderheid",
-        "plural": "minderheden"
+      "translation": {
+        "chinese": "少数",
+        "english": "minority"
       },
-      "example": "De minderheid stemde tegen het voorstel.",
-      "example_translation": "少数人投了反对票。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "minderheid",
+          "plural": "minderheden"
+        }
+      },
+      "examples": [
+        "De minderheid stemde tegen het voorstel.",
+        "De rechten van minderheden moeten worden beschermd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "少数人投了反对票。",
+          "少数群体的权利应得到保护。"
+        ],
+        "english": [
+          "The minority voted against the proposal.",
+          "The rights of minorities must be protected."
+        ]
+      },
+      "notes": "阴性名词，meerderheid(多数)的反义词",
+      "difficulty": "B2"
     },
     {
       "id": 4982,
       "word": "minderjarig",
-      "pos": "adjective",
-      "meaning": "未成年",
-      "word_forms": {
-        "positive": "minderjarig",
-        "comparative": "minderjariger"
+      "translation": {
+        "chinese": "未成年",
+        "english": "underage, minor"
       },
-      "example": "Minderjarigen mogen geen alcohol kopen.",
-      "example_translation": "未成年人不能购买酒精。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "minderjarig",
+          "withDe": "minderjarige",
+          "withHet": "minderjarige",
+          "comparative": "minderjariger",
+          "superlative": "minderjarigst"
+        }
+      },
+      "examples": [
+        "Minderjarigen mogen geen alcohol kopen.",
+        "Hij is nog minderjarig en woont bij zijn ouders."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "未成年人不能购买酒精。",
+          "他还未成年，和父母住在一起。"
+        ],
+        "english": [
+          "Minors cannot purchase alcohol.",
+          "He is still underage and lives with his parents."
+        ]
+      },
+      "notes": "形容词，指未达到法定成年年龄的人",
+      "difficulty": "B2"
     },
     {
       "id": 4983,
       "word": "minimalisme",
-      "pos": "noun",
-      "meaning": "极简主义",
-      "word_forms": {
-        "singular": "minimalisme",
-        "plural": "minimalismen"
+      "translation": {
+        "chinese": "极简主义",
+        "english": "minimalism"
       },
-      "example": "Zij leeft volgens het principe van minimalisme.",
-      "example_translation": "她按照极简主义的原则生活。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "minimalisme",
+          "plural": "minimalismen"
+        }
+      },
+      "examples": [
+        "Zij leeft volgens het principe van minimalisme.",
+        "Minimalisme is een populaire interieurstijl."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她按照极简主义的原则生活。",
+          "极简主义是一种流行的室内设计风格。"
+        ],
+        "english": [
+          "She lives according to the principle of minimalism.",
+          "Minimalism is a popular interior design style."
+        ]
+      },
+      "notes": "中性名词，艺术和生活方式理念",
+      "difficulty": "B2"
     },
     {
       "id": 4984,
       "word": "misdadiger",
-      "pos": "noun",
-      "meaning": "罪犯",
-      "word_forms": {
-        "singular": "misdadiger",
-        "plural": "misdadigers"
+      "translation": {
+        "chinese": "罪犯",
+        "english": "criminal, offender"
       },
-      "example": "De politie arresteerde de misdadiger.",
-      "example_translation": "警方逮捕了罪犯。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "misdadiger",
+          "plural": "misdadigers"
+        }
+      },
+      "examples": [
+        "De politie arresteerde de misdadiger.",
+        "De misdadiger werd veroordeeld tot levenslang."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "警方逮捕了罪犯。",
+          "罪犯被判处无期徒刑。"
+        ],
+        "english": [
+          "The police arrested the criminal.",
+          "The offender was sentenced to life imprisonment."
+        ]
+      },
+      "notes": "阳性名词，由mis(坏)+daad(行为)+ger(人)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4985,
       "word": "mishandelen",
-      "pos": "verb",
-      "meaning": "虐待,虐待",
-      "word_forms": {
-        "infinitive": "mishandelen",
-        "present": "mishandelt",
-        "past": "mishandelde",
-        "participle": "gemishandeld"
+      "translation": {
+        "chinese": "虐待,虐待",
+        "english": "to abuse, to mistreat"
       },
-      "example": "Hij werd beschuldigd van het mishandelen van zijn vrouw.",
-      "example_translation": "他被指控虐待妻子。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "mishandelen",
+          "isSeparable": false,
+          "present": {
+            "ik": "mishandel",
+            "jij": "mishandelt",
+            "hij": "mishandelt",
+            "wij": "mishandelen",
+            "jullie": "mishandelen",
+            "zij": "mishandelen"
+          },
+          "past": {
+            "singular": "mishandelde",
+            "plural": "mishandelden"
+          },
+          "pastParticiple": "gemishandeld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij werd beschuldigd van het mishandelen van zijn vrouw.",
+        "Dieren mishandelen is strafbaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他被指控虐待妻子。",
+          "虐待动物是犯罪行为。"
+        ],
+        "english": [
+          "He was accused of abusing his wife.",
+          "Animal abuse is punishable."
+        ]
+      },
+      "notes": "不可分动词，严重的犯罪行为",
+      "difficulty": "B2"
     },
     {
       "id": 4986,
       "word": "misstappen",
-      "pos": "noun",
-      "meaning": "错误,过失",
-      "word_forms": {
-        "singular": "misstap",
-        "plural": "misstappen"
+      "translation": {
+        "chinese": "错误,过失",
+        "english": "mistake, misstep, error"
       },
-      "example": "De politicus nam verantwoordelijkheid voor zijn misstappen.",
-      "example_translation": "这位政治家对他的错误承担责任。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "misstap",
+          "plural": "misstappen"
+        }
+      },
+      "examples": [
+        "De politicus nam verantwoordelijkheid voor zijn misstappen.",
+        "Een kleine misstap kan grote gevolgen hebben."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这位政治家对他的错误承担责任。",
+          "一个小错误可能带来严重后果。"
+        ],
+        "english": [
+          "The politician took responsibility for his mistakes.",
+          "A small misstep can have serious consequences."
+        ]
+      },
+      "notes": "阴性名词，由mis(错误)+stap(步骤)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4987,
       "word": "misvatting",
-      "pos": "noun",
-      "meaning": "误解,误会",
-      "word_forms": {
-        "singular": "misvatting",
-        "plural": "misvattingen"
+      "translation": {
+        "chinese": "误解,误会",
+        "english": "misunderstanding"
       },
-      "example": "Het was een ernstige misvatting van het probleem.",
-      "example_translation": "这是对问题的严重误解。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "misvatting",
+          "plural": "misvattingen"
+        }
+      },
+      "examples": [
+        "Het was een ernstige misvatting van het probleem.",
+        "De misvatting is opgehelderd na een gesprek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是对问题的严重误解。",
+          "经过谈话，误会消除了。"
+        ],
+        "english": [
+          "It was a serious misunderstanding of the problem.",
+          "The misunderstanding was cleared up after a conversation."
+        ]
+      },
+      "notes": "阴性名词，由mis(错误)+vatting(理解)组成",
+      "difficulty": "B2"
     },
     {
       "id": 4988,
       "word": "misverstand",
-      "pos": "noun",
-      "meaning": "误会,误解",
-      "word_forms": {
-        "singular": "misverstand",
-        "plural": "misverstanden"
+      "translation": {
+        "chinese": "误会,误解",
+        "english": "misunderstanding"
       },
-      "example": "Het misverstand is opgehelderd na een gesprek.",
-      "example_translation": "经过谈话,误会消除了。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "misverstand",
+          "plural": "misverstanden"
+        }
+      },
+      "examples": [
+        "Het misverstand is opgehelderd na een gesprek.",
+        "Er ontstond een misverstand tussen de twee partijen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "经过谈话，误会消除了。",
+          "双方之间产生了误会。"
+        ],
+        "english": [
+          "The misunderstanding was cleared up after a talk.",
+          "A misunderstanding arose between the two parties."
+        ]
+      },
+      "notes": "阴性名词，与misvatting同义",
+      "difficulty": "B2"
     },
     {
       "id": 4989,
       "word": "mondjesmaat",
-      "pos": "adverb",
-      "meaning": "少量地,一点点地",
-      "word_forms": {},
-      "example": "Hij drinkt alleen mondjesmaat alcohol.",
-      "example_translation": "他只少量饮酒。"
+      "translation": {
+        "chinese": "少量地,一点点地",
+        "english": "moderately, a little bit"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "Hij drinkt alleen mondjesmaat alcohol.",
+        "Zij eet mondjesmaat vlees."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他只少量饮酒。",
+          "她只吃一点点肉。"
+        ],
+        "english": [
+          "He only drinks alcohol moderately.",
+          "She eats meat moderately."
+        ]
+      },
+      "notes": "副词，口语化表达",
+      "difficulty": "B2"
     },
     {
       "id": 4990,
       "word": "monumentaal",
-      "pos": "adjective",
-      "meaning": "宏伟的,宏大的",
-      "word_forms": {
-        "positive": "monumentaal",
-        "comparative": "monumentaler"
+      "translation": {
+        "chinese": "宏伟的,宏大的",
+        "english": "monumental, massive"
       },
-      "example": "Het gebouw heeft een monumentale uitstraling.",
-      "example_translation": "这座建筑具有宏伟的外观。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "monumentaal",
+          "withDe": "monumentale",
+          "withHet": "monumentale",
+          "comparative": "monumentaler",
+          "superlative": "monumentaalst"
+        }
+      },
+      "examples": [
+        "Het gebouw heeft een monumentale uitstraling.",
+        "Dit is een monumentale prestatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这座建筑具有宏伟的外观。",
+          "这是一项宏大的成就。"
+        ],
+        "english": [
+          "The building has a monumental appearance.",
+          "This is a monumental achievement."
+        ]
+      },
+      "notes": "形容词，来自monument(纪念碑)",
+      "difficulty": "B2"
     },
     {
       "id": 4991,
       "word": "moordenaar",
-      "pos": "noun",
-      "meaning": "凶手,杀人犯",
-      "word_forms": {
-        "singular": "moordenaar",
-        "plural": "moordenaars"
+      "translation": {
+        "chinese": "凶手,杀人犯",
+        "english": "murderer, killer"
       },
-      "example": "De politie vond de moordenaar na een lange zoektocht.",
-      "example_translation": "经过长时间搜寻,警方找到了凶手。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "moordenaar",
+          "plural": "moordenaars"
+        }
+      },
+      "examples": [
+        "De politie vond de moordenaar na een lange zoektocht.",
+        "De moordenaar werd veroordeeld tot 20 jaar gevangenisstraf."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "经过长时间搜寻，警方找到了凶手。",
+          "凶手被判处20年监禁。"
+        ],
+        "english": [
+          "The police found the murderer after a long search.",
+          "The murderer was sentenced to 20 years in prison."
+        ]
+      },
+      "notes": "阳性名词，来自moord(谋杀)",
+      "difficulty": "B2"
     }
   ]
 }

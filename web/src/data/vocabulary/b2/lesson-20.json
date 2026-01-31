@@ -1,582 +1,1386 @@
 {
+  "id": "b2-lesson-20",
+  "level": "B2",
+  "lessonNumber": 20,
+  "totalWords": 47,
   "words": [
     {
       "id": 5192,
       "word": "paardenstal",
-      "pos": "noun",
-      "meaning": "马厩",
-      "word_forms": {
-        "singular": "paardenstal",
-        "plural": "paardenstallen"
+      "translation": {
+        "chinese": "马厩",
+        "english": "stable, horse stable"
       },
-      "example": "De paarden in de paardenstal zijn gezond.",
-      "example_translation": "马厩里的马很健康。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "paardenstal",
+          "plural": "paardenstallen"
+        }
+      },
+      "examples": [
+        "De paarden in de paardenstal zijn gezond.",
+        "De boer reinigt de paardenstal elke dag."
+      ],
+      "exampleTranslations": {
+        "chinese": ["马厩里的马很健康。", "农夫每天清洁马厩。"],
+        "english": ["The horses in the stable are healthy.", "The farmer cleans the stable every day."]
+      },
+      "notes": "复合名词,由paarden(马)+stal(厩)组成",
+      "difficulty": "B2"
     },
     {
       "id": 5193,
       "word": "pannenkoek",
-      "pos": "noun",
-      "meaning": "薄饼,煎饼",
-      "word_forms": {
-        "singular": "pannenkoek",
-        "plural": "pannenkoeken"
+      "translation": {
+        "chinese": "薄饼,煎饼",
+        "english": "pancake"
       },
-      "example": "Ik bak pannenkoeken voor het ontbijt.",
-      "example_translation": "我早餐做煎饼。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "pannenkoek",
+          "plural": "pannenkoeken"
+        }
+      },
+      "examples": [
+        "Ik bak pannenkoeken voor het ontbijt.",
+        "De kinderen eten pannenkoeken met stroop."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我早餐做煎饼。", "孩子们吃糖浆煎饼。"],
+        "english": ["I make pancakes for breakfast.", "The children eat pancakes with syrup."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5194,
-      "word": "papegaaien",
-      "pos": "noun",
-      "meaning": "鹦鹉",
-      "word_forms": {
-        "singular": "papegaai",
-        "plural": "papegaaien"
+      "word": "papegaai",
+      "translation": {
+        "chinese": "鹦鹉",
+        "english": "parrot"
       },
-      "example": "De papegaaien in de kooi maken veel geluid.",
-      "example_translation": "笼子里的鹦鹉很吵。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "papegaai",
+          "plural": "papegaaien"
+        }
+      },
+      "examples": [
+        "De papegaaien in de kooi maken veel geluid.",
+        "Mijn papegaai kan praten."
+      ],
+      "exampleTranslations": {
+        "chinese": ["笼子里的鹦鹉很吵。", "我的鹦鹉会说话。"],
+        "english": ["The parrots in the cage make a lot of noise.", "My parrot can talk."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5195,
       "word": "parkeerplek",
-      "pos": "noun",
-      "meaning": "停车位",
-      "word_forms": {
-        "singular": "parkeerplek",
-        "plural": "parkeerplekken"
+      "translation": {
+        "chinese": "停车位",
+        "english": "parking space, parking spot"
       },
-      "example": "Het is moeilijk om een parkeerplek te vinden.",
-      "example_translation": "很难找到停车位。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "parkeerplek",
+          "plural": "parkeerplekken"
+        }
+      },
+      "examples": [
+        "Het is moeilijk om een parkeerplek te vinden.",
+        "Ik heb een goede parkeerplek gevonden."
+      ],
+      "exampleTranslations": {
+        "chinese": ["很难找到停车位。", "我找到了一个很好的停车位。"],
+        "english": ["It's difficult to find a parking space.", "I found a good parking spot."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5196,
       "word": "particulier",
-      "pos": "adjective",
-      "meaning": "私人的,个人的",
-      "word_forms": {
-        "positive": "particulier",
-        "comparative": "particuliere"
+      "translation": {
+        "chinese": "私人的,个人的",
+        "english": "private, personal"
       },
-      "example": "Dit is een particulier huis.",
-      "example_translation": "这是一所私人住宅。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "particulier",
+          "comparative": "particulierder",
+          "superlative": "particulierst"
+        }
+      },
+      "examples": [
+        "Dit is een particulier huis.",
+        "Het is een particulier initiatief."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是一所私人住宅。", "这是一个私人倡议。"],
+        "english": ["This is a private house.", "It's a private initiative."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5197,
       "word": "pasgeboren",
-      "pos": "adjective",
-      "meaning": "新生的,刚出生的",
-      "word_forms": {
-        "positive": "pasgeboren",
-        "comparative": "pasgeborener"
+      "translation": {
+        "chinese": "新生的,刚出生的",
+        "english": "newborn"
       },
-      "example": "De pasgeboren baby slaapt rustig.",
-      "example_translation": "新生儿睡得很安稳。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "pasgeboren",
+          "comparative": "pasgeborener",
+          "superlative": "pasgeborenst"
+        }
+      },
+      "examples": [
+        "De pasgeboren baby slaapt rustig.",
+        "De pasgeboren puppy is klein en zwak."
+      ],
+      "exampleTranslations": {
+        "chinese": ["新生儿睡得很安稳。", "刚出生的小狗又小又弱。"],
+        "english": ["The newborn baby sleeps peacefully.", "The newborn puppy is small and weak."]
+      },
+      "notes": "过去分词形容词形式",
+      "difficulty": "B2"
     },
     {
       "id": 5198,
       "word": "passen bij",
-      "pos": "phrasal verb",
-      "meaning": "适合,搭配",
-      "word_forms": {
-        "infinitive": "passen bij",
-        "present": "past bij",
-        "past": "paste bij",
-        "participle": "bijgepast"
+      "translation": {
+        "chinese": "适合,搭配",
+        "english": "to suit, to match, to fit"
       },
-      "example": "De schoen past bij mijn jurk.",
-      "example_translation": "这双鞋和我的裙子很搭。"
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "passen bij",
+          "present": [
+            "ik pas bij",
+            "jij past bij",
+            "hij/zij/het past bij",
+            "wij passen bij",
+            "jullie passen bij",
+            "zij passen bij"
+          ],
+          "past": [
+            "ik paste bij",
+            "jij paste bij",
+            "hij/zij/het paste bij",
+            "wii pasten bij",
+            "jullie pasten bij",
+            "zij pasten bij"
+          ],
+          "perfect": "ik heb bijgepast",
+          "participle": "bijgepast"
+        }
+      },
+      "examples": [
+        "De schoen past bij mijn jurk.",
+        "Dit past bij mijn stijl."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这双鞋和我的裙子很搭。", "这符合我的风格。"],
+        "english": ["The shoes match my dress.", "This suits my style."]
+      },
+      "notes": "短语动词,不可分",
+      "difficulty": "B2"
     },
     {
       "id": 5199,
       "word": "patriarchaat",
-      "pos": "noun",
-      "meaning": "父权制",
-      "word_forms": {
-        "singular": "patriarchaat",
-        "plural": "patriarchaten"
+      "translation": {
+        "chinese": "父权制",
+        "english": "patriarchy"
       },
-      "example": "De samenleving leeft in een patriarchaat.",
-      "example_translation": "这个社会生活在父权制下。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "patriarchaat",
+          "plural": "patriarchaten"
+        }
+      },
+      "examples": [
+        "De samenleving leeft in een patriarchaat.",
+        "Vrouwen vechten tegen het patriarchaat."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这个社会生活在父权制下。", "女性反抗父权制。"],
+        "english": ["The society lives under patriarchy.", "Women fight against patriarchy."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5200,
       "word": "per direct",
-      "pos": "adverbial phrase",
-      "meaning": "立即,马上",
-      "word_forms": {},
-      "example": "Je moet per direct vertrekken.",
-      "example_translation": "你必须立即出发。"
+      "translation": {
+        "chinese": "立即,马上",
+        "english": "immediately, right away"
+      },
+      "partOfSpeech": "adverbial phrase",
+      "forms": {
+        "adverb": {
+          "base": "per direct"
+        }
+      },
+      "examples": [
+        "Je moet per direct vertrekken.",
+        "Het project wordt per direct gestopt."
+      ],
+      "exampleTranslations": {
+        "chinese": ["你必须立即出发。", "项目立即停止。"],
+        "english": ["You must leave immediately.", "The project is stopped immediately."]
+      },
+      "notes": "副词短语",
+      "difficulty": "B2"
     },
     {
       "id": 5201,
       "word": "persbureau",
-      "pos": "noun",
-      "meaning": "新闻社,新闻机构",
-      "word_forms": {
-        "singular": "persbureau",
-        "plural": "persbureaus"
+      "translation": {
+        "chinese": "新闻社,新闻机构",
+        "english": "press agency, news agency"
       },
-      "example": "Het persbureau brengt het nieuws.",
-      "example_translation": "新闻机构发布新闻。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "persbureau",
+          "plural": "persbureaus"
+        }
+      },
+      "examples": [
+        "Het persbureau brengt het nieuws.",
+        "Het persbureau heeft het artikel gepubliceerd."
+      ],
+      "exampleTranslations": {
+        "chinese": ["新闻机构发布新闻。", "新闻机构发布了这篇文章。"],
+        "english": ["The press agency brings the news.", "The press agency published the article."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5202,
       "word": "persoonlijk",
-      "pos": "adjective",
-      "meaning": "个人的,私人的",
-      "word_forms": {
-        "positive": "persoonlijk",
-        "comparative": "persoonlijker"
+      "translation": {
+        "chinese": "个人的,私人的",
+        "english": "personal, private"
       },
-      "example": "Dit is mijn persoonlijke mening.",
-      "example_translation": "这是我个人的看法。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "persoonlijk",
+          "comparative": "persoonlijker",
+          "superlative": "persoonlijkst"
+        }
+      },
+      "examples": [
+        "Dit is mijn persoonlijke mening.",
+        "Het is een persoonlijke aangelegenheid."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是我个人的看法。", "这是个人事务。"],
+        "english": ["This is my personal opinion.", "It's a personal matter."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5203,
       "word": "persuasief",
-      "pos": "adjective",
-      "meaning": "有说服力的",
-      "word_forms": {
-        "positive": "persuasief",
-        "comparative": "persuasiever"
+      "translation": {
+        "chinese": "有说服力的",
+        "english": "persuasive, convincing"
       },
-      "example": "Zijn argument was erg persuasief.",
-      "example_translation": "他的论点非常有说服力。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "persuasief",
+          "comparative": "persuasiever",
+          "superlative": "persuasiefst"
+        }
+      },
+      "examples": [
+        "Zijn argument was erg persuasief.",
+        "Ze heeft een persuasieve manier van spreken."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他的论点非常有说服力。", "她说话的方式很有说服力。"],
+        "english": ["His argument was very persuasive.", "She has a persuasive way of speaking."]
+      },
+      "notes": "外来形容词,源自拉丁语",
+      "difficulty": "B2"
     },
     {
       "id": 5204,
       "word": "pestgedrag",
-      "pos": "noun",
-      "meaning": "霸凌行为",
-      "word_forms": {
-        "singular": "pestgedrag",
-        "plural": "pestgedrag"
+      "translation": {
+        "chinese": "霸凌行为",
+        "english": "bullying behavior"
       },
-      "example": "Het pestgedrag werd door de school aangepakt.",
-      "example_translation": "学校处理了霸凌行为。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "pestgedrag",
+          "plural": "pestgedrag"
+        }
+      },
+      "examples": [
+        "Het pestgedrag werd door de school aangepakt.",
+        "Er is geen plek voor pestgedrag."
+      ],
+      "exampleTranslations": {
+        "chinese": ["学校处理了霸凌行为。", "没有霸凌行为的容身之地。"],
+        "english": ["The bullying behavior was addressed by the school.", "There is no place for bullying."]
+      },
+      "notes": "中性名词,无复数变化",
+      "difficulty": "B2"
     },
     {
       "id": 5205,
       "word": "pietluttig",
-      "pos": "adjective",
-      "meaning": "挑剔的,吹毛求疵的",
-      "word_forms": {
-        "positive": "pietluttig",
-        "comparative": "pietluttiger"
+      "translation": {
+        "chinese": "挑剔的,吹毛求疵的",
+        "english": "fussy, picky, nitpicky"
       },
-      "example": "Ze is erg pietluttig over kleine details.",
-      "example_translation": "她对细节非常挑剔。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "pietluttig",
+          "comparative": "pietluttiger",
+          "superlative": "pietluttigst"
+        }
+      },
+      "examples": [
+        "Ze is erg pietluttig over kleine details.",
+        "Hij is te pietluttig."
+      ],
+      "exampleTranslations": {
+        "chinese": ["她对细节非常挑剔。", "他太挑剔了。"],
+        "english": ["She is very fussy about small details.", "He is too picky."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5206,
       "word": "pijnstiller",
-      "pos": "noun",
-      "meaning": "止痛药",
-      "word_forms": {
-        "singular": "pijnstiller",
-        "plural": "pijnstillers"
+      "translation": {
+        "chinese": "止痛药",
+        "english": "painkiller, pain reliever"
       },
-      "example": "De dokter gaf haar een pijnstiller.",
-      "example_translation": "医生给了她止痛药。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "pijnstiller",
+          "plural": "pijnstillers"
+        }
+      },
+      "examples": [
+        "De dokter gaf haar een pijnstiller.",
+        "Ik heb een pijnstiller nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": ["医生给了她止痛药。", "我需要止痛药。"],
+        "english": ["The doctor gave her a painkiller.", "I need a painkiller."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5207,
       "word": "plaatselijk",
-      "pos": "adjective",
-      "meaning": "当地的,局部的",
-      "word_forms": {
-        "positive": "plaatselijk",
-        "comparative": "plaatselijker"
+      "translation": {
+        "chinese": "当地的,局部的",
+        "english": "local, localised"
       },
-      "example": "De overlast is plaatselijk beperkt.",
-      "example_translation": "干扰局限在当地。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "plaatselijk",
+          "comparative": "plaatselijker",
+          "superlative": "plaatselijkst"
+        }
+      },
+      "examples": [
+        "De overlast is plaatselijk beperkt.",
+        "Het is een plaatselijk probleem."
+      ],
+      "exampleTranslations": {
+        "chinese": ["干扰局限在当地。", "这是一个局部问题。"],
+        "english": ["The nuisance is locally limited.", "It's a local problem."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5208,
       "word": "plaatsmaken",
-      "pos": "verb",
-      "meaning": "腾出位置,让座",
-      "word_forms": {
-        "infinitive": "plaatsmaken",
-        "present": "maakt plaats",
-        "past": "maakte plaats",
-        "participle": "plaatsgemaakt"
+      "translation": {
+        "chinese": "腾出位置,让座",
+        "english": "to make room, to give up one's seat"
       },
-      "example": "Wil je voor de oude man plaatsmaken?",
-      "example_translation": "你愿意为这位老人让座吗?"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "plaatsmaken",
+          "present": [
+            "ik maak plaats",
+            "jij maakt plaats",
+            "hij/zij/het maakt plaats",
+            "wij maken plaats",
+            "jullie maken plaats",
+            "zij maken plaats"
+          ],
+          "past": [
+            "ik maakte plaats",
+            "jij maakte plaats",
+            "hij/zij/het maakte plaats",
+            "wij maakten plaats",
+            "jullie maakten plaats",
+            "zij maakten plaats"
+          ],
+          "perfect": "ik heb plaatsgemaakt",
+          "participle": "plaatsgemaakt"
+        }
+      },
+      "examples": [
+        "Wil je voor de oude man plaatsmaken?",
+        "We moeten plaatsmaken voor nieuwe meubels."
+      ],
+      "exampleTranslations": {
+        "chinese": ["你愿意为这位老人让座吗?", "我们需要为新家具腾出空间。"],
+        "english": ["Will you give up your seat for the old man?", "We need to make room for new furniture."]
+      },
+      "notes": "复合动词,可分",
+      "difficulty": "B2"
     },
     {
       "id": 5209,
       "word": "plantaardig",
-      "pos": "adjective",
-      "meaning": "植物的,植物性的",
-      "word_forms": {
-        "positive": "plantaardig",
-        "comparative": "plantaardiger"
+      "translation": {
+        "chinese": "植物的,植物性的",
+        "english": "plant-based, vegetable"
       },
-      "example": "We eten plantaardig voedsel.",
-      "example_translation": "我们吃植物性食物。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "plantaardig",
+          "comparative": "plantaardiger",
+          "superlative": "plantaardigst"
+        }
+      },
+      "examples": [
+        "We eten plantaardig voedsel.",
+        "Dit is een plantaardig dieet."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我们吃植物性食物。", "这是一个植物性饮食。"],
+        "english": ["We eat plant-based food.", "This is a plant-based diet."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5210,
       "word": "plat liggen",
-      "pos": "phrasal verb",
-      "meaning": "平躺,躺平",
-      "word_forms": {
-        "infinitive": "plat liggen",
-        "present": "ligt plat",
-        "past": "lag plat",
-        "participle": "platgelegen"
+      "translation": {
+        "chinese": "平躺,躺平",
+        "english": "to lie flat, to lie down"
       },
-      "example": "Na het werk ging ik plat liggen.",
-      "example_translation": "工作后我躺平休息了。"
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "plat liggen",
+          "present": [
+            "ik lig plat",
+            "jij ligt plat",
+            "hij/zij/het ligt plat",
+            "wij liggen plat",
+            "jullie liggen plat",
+            "zij liggen plat"
+          ],
+          "past": [
+            "ik lag plat",
+            "jij lag plat",
+            "hij/zij/het lag plat",
+            "wi lagen plat",
+            "jullie lagen plat",
+            "zij lagen plat"
+          ],
+          "perfect": "ik heb platgelegen",
+          "participle": "platgelegen"
+        }
+      },
+      "examples": [
+        "Na het werk ging ik plat liggen.",
+        "Het boek ligt plat op de tafel."
+      ],
+      "exampleTranslations": {
+        "chinese": ["工作后我躺平休息了。", "书平放在桌子上。"],
+        "english": ["After work I lay down.", "The book lies flat on the table."]
+      },
+      "notes": "短语动词",
+      "difficulty": "B2"
     },
     {
       "id": 5211,
       "word": "platgooien",
-      "pos": "verb",
-      "meaning": "摧毁,打倒",
-      "word_forms": {
-        "infinitive": "platgooien",
-        "present": "gooit plat",
-        "past": "gooide plat",
-        "participle": "platgegooid"
+      "translation": {
+        "chinese": "摧毁,打倒",
+        "english": "to knock down, to destroy"
       },
-      "example": "De storm gooide de bomen plat.",
-      "example_translation": "暴风雨把树都摧毁了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "platgooien",
+          "present": [
+            "ik gooi plat",
+            "jij gooit plat",
+            "hij/zij/het gooit plat",
+            "wij gooien plat",
+            "jullie gooien plat",
+            "zij gooien plat"
+          ],
+          "past": [
+            "ik gooide plat",
+            "jij gooide plat",
+            "hij/zij/het gooide plat",
+            "wi gooiden plat",
+            "jullie gooiden plat",
+            "zij gooiden plat"
+          ],
+          "perfect": "ik heb platgegooid",
+          "participle": "platgegooid"
+        }
+      },
+      "examples": [
+        "De storm gooide de bomen plat.",
+        "Hij gooide zijn tegenstander plat."
+      ],
+      "exampleTranslations": {
+        "chinese": ["暴风雨把树都摧毁了。", "他打倒了对手。"],
+        "english": ["The storm knocked down the trees.", "He knocked down his opponent."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5212,
       "word": "platleggen",
-      "pos": "verb",
-      "meaning": "摧毁,瘫痪",
-      "word_forms": {
-        "infinitive": "platleggen",
-        "present": "legt plat",
-        "past": "legde plat",
-        "participle": "platgelegd"
+      "translation": {
+        "chinese": "摧毁,瘫痪",
+        "english": "to paralyze, to shut down"
       },
-      "example": "Het virus legde het bedrijf plat.",
-      "example_translation": "病毒使公司瘫痪了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "platleggen",
+          "present": [
+            "ik leg plat",
+            "jij legt plat",
+            "hij/zij/het legt plat",
+            "wij leggen plat",
+            "jullie leggen plat",
+            "zij leggen plat"
+          ],
+          "past": [
+            "ik legde plat",
+            "jij legde plat",
+            "hij/zij/het legde plat",
+            "wij legden plat",
+            "jullie legden plat",
+            "zij legden plat"
+          ],
+          "perfect": "ik heb platgelegd",
+          "participle": "platgelegd"
+        }
+      },
+      "examples": [
+        "Het virus legde het bedrijf plat.",
+        "De staking legde het openbaar vervoer plat."
+      ],
+      "exampleTranslations": {
+        "chinese": ["病毒使公司瘫痪了。", "罢工使公共交通瘫痪了。"],
+        "english": ["The virus paralyzed the company.", "The strike paralyzed public transport."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5213,
       "word": "plattegrond",
-      "pos": "noun",
-      "meaning": "平面图,地图",
-      "word_forms": {
-        "singular": "plattegrond",
-        "plural": "plattegronden"
+      "translation": {
+        "chinese": "平面图,地图",
+        "english": "map, floor plan"
       },
-      "example": "Kijk even op de plattegrond.",
-      "example_translation": "看一下地图吧。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "plattegrond",
+          "plural": "plattegronden"
+        }
+      },
+      "examples": [
+        "Kijk even op de plattegrond.",
+        "De plattegrond laat de indeling zien."
+      ],
+      "exampleTranslations": {
+        "chinese": ["看一下地图吧。", "平面图展示了布局。"],
+        "english": ["Look at the map.", "The floor plan shows the layout."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5214,
       "word": "platteland",
-      "pos": "noun",
-      "meaning": "乡村,农村",
-      "word_forms": {
-        "singular": "platteland",
-        "plural": "plattelanden"
+      "translation": {
+        "chinese": "乡村,农村",
+        "english": "countryside, rural area"
       },
-      "example": "Ze groeide op het platteland op.",
-      "example_translation": "她在乡村长大。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "platteland",
+          "plural": "plattelanden"
+        }
+      },
+      "examples": [
+        "Ze groeide op het platteland op.",
+        "Het platteland is rustig en vredig."
+      ],
+      "exampleTranslations": {
+        "chinese": ["她在乡村长大。", "乡村宁静祥和。"],
+        "english": ["She grew up in the countryside.", "The countryside is peaceful and quiet."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5215,
       "word": "pleeggezin",
-      "pos": "noun",
-      "meaning": "寄养家庭",
-      "word_forms": {
-        "singular": "pleeggezin",
-        "plural": "pleeggezinnen"
+      "translation": {
+        "chinese": "寄养家庭",
+        "english": "foster family"
       },
-      "example": "Het kind werd in een pleeggezin geplaatst.",
-      "example_translation": "孩子被安置在寄养家庭。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "pleeggezin",
+          "plural": "pleeggezinnen"
+        }
+      },
+      "examples": [
+        "Het kind werd in een pleeggezin geplaatst.",
+        "De pleeggezin neemt goed voor het kind."
+      ],
+      "exampleTranslations": {
+        "chinese": ["孩子被安置在寄养家庭。", "寄养家庭很好地照顾孩子。"],
+        "english": ["The child was placed in a foster family.", "The foster family takes good care of the child."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5216,
       "word": "pleegmoeder",
-      "pos": "noun",
-      "meaning": "养母",
-      "word_forms": {
-        "singular": "pleegmoeder",
-        "plural": "pleegmoeders"
+      "translation": {
+        "chinese": "养母",
+        "english": "foster mother"
       },
-      "example": "De pleegmoeder geeft veel liefde.",
-      "example_translation": "养母给了很多爱。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "pleegmoeder",
+          "plural": "pleegmoeders"
+        }
+      },
+      "examples": [
+        "De pleegmoeder geeft veel liefde.",
+        "Zijn pleegmoeder is erg aardig."
+      ],
+      "exampleTranslations": {
+        "chinese": ["养母给了很多爱。", "他的养母非常善良。"],
+        "english": ["The foster mother gives much love.", "His foster mother is very kind."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5217,
       "word": "pleegouders",
-      "pos": "noun",
-      "meaning": "养父母",
-      "word_forms": {
-        "singular": "pleegouders",
-        "plural": "pleegouders"
+      "translation": {
+        "chinese": "养父母",
+        "english": "foster parents"
       },
-      "example": "De pleegouders zijn geweldig.",
-      "example_translation": "养父母非常棒。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "pleegouders",
+          "plural": "pleegouders"
+        }
+      },
+      "examples": [
+        "De pleegouders zijn geweldig.",
+        "De pleegouders hebben drie pleegkinderen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["养父母非常棒。", "养父母有三个寄养孩子。"],
+        "english": ["The foster parents are wonderful.", "The foster parents have three foster children."]
+      },
+      "notes": "复合名词,仅复数形式",
+      "difficulty": "B2"
     },
     {
       "id": 5218,
       "word": "plotseling",
-      "pos": "adverb",
-      "meaning": "突然地",
-      "word_forms": {},
-      "example": "Hij kwam plotseling binnen.",
-      "example_translation": "他突然进来了。"
+      "translation": {
+        "chinese": "突然地",
+        "english": "suddenly, unexpectedly"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "plotseling"
+        }
+      },
+      "examples": [
+        "Hij kwam plotseling binnen.",
+        "Het begon plotseling te regenen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他突然进来了。", "突然开始下雨了。"],
+        "english": ["He came in suddenly.", "It suddenly started raining."]
+      },
+      "notes": "副词",
+      "difficulty": "B2"
     },
     {
       "id": 5219,
       "word": "politieman",
-      "pos": "noun",
-      "meaning": "男警察",
-      "word_forms": {
-        "singular": "politieman",
-        "plural": "politieagenten"
+      "translation": {
+        "chinese": "男警察",
+        "english": "policeman, male police officer"
       },
-      "example": "De politieman hielp ons.",
-      "example_translation": "男警察帮助了我们。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "politieman",
+          "plural": "politieagenten"
+        }
+      },
+      "examples": [
+        "De politieman hielp ons.",
+        "De politiemannen patrouilleren in de straat."
+      ],
+      "exampleTranslations": {
+        "chinese": ["男警察帮助了我们。", "警察在街上巡逻。"],
+        "english": ["The policeman helped us.", "The police officers patrol the street."]
+      },
+      "notes": "阳性名词,复数形式不规则",
+      "difficulty": "B2"
     },
     {
       "id": 5220,
       "word": "portemonnee",
-      "pos": "noun",
-      "meaning": "钱包",
-      "word_forms": {
-        "singular": "portemonnee",
-        "plural": "portemonnees"
+      "translation": {
+        "chinese": "钱包",
+        "english": "wallet, purse"
       },
-      "example": "Ik heb mijn portemonnee verloren.",
-      "example_translation": "我把钱包弄丢了。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "portemonnee",
+          "plural": "portemonnees"
+        }
+      },
+      "examples": [
+        "Ik heb mijn portemonnee verloren.",
+        "Haar portemonnee zit vol met geld."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我把钱包弄丢了。", "她的钱包装满了钱。"],
+        "english": ["I lost my wallet.", "Her wallet is full of money."]
+      },
+      "notes": "阳性名词,法语外来词",
+      "difficulty": "B2"
     },
     {
       "id": 5221,
       "word": "pragmatisch",
-      "pos": "adjective",
-      "meaning": "实用的,务实的",
-      "word_forms": {
-        "positive": "pragmatisch",
-        "comparative": "pragmatischer"
+      "translation": {
+        "chinese": "实用的,务实的",
+        "english": "pragmatic, practical"
       },
-      "example": "Zijn aanpak is pragmatisch.",
-      "example_translation": "他的方法很务实。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "pragmatisch",
+          "comparative": "pragmatischer",
+          "superlative": "pragmatischst"
+        }
+      },
+      "examples": [
+        "Zijn aanpak is pragmatisch.",
+        "We moeten pragmatisch zijn."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他的方法很务实。", "我们要务实。"],
+        "english": ["His approach is pragmatic.", "We must be pragmatic."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5222,
       "word": "presentator",
-      "pos": "noun",
-      "meaning": "主持人",
-      "word_forms": {
-        "singular": "presentator",
-        "plural": "presentators"
+      "translation": {
+        "chinese": "主持人",
+        "english": "presenter, host"
       },
-      "example": "De presentator leidt het programma.",
-      "example_translation": "主持人主持节目。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "presentator",
+          "plural": "presentators"
+        }
+      },
+      "examples": [
+        "De presentator leidt het programma.",
+        "De presentator is erg populair."
+      ],
+      "exampleTranslations": {
+        "chinese": ["主持人主持节目。", "主持人很受欢迎。"],
+        "english": ["The presenter hosts the program.", "The presenter is very popular."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5223,
       "word": "prijsgeven",
-      "pos": "verb",
-      "meaning": "泄露,暴露",
-      "word_forms": {
-        "infinitive": "prijsgeven",
-        "present": "geeft prijs",
-        "past": "gaf prijs",
-        "participle": "prijsgegeven"
+      "translation": {
+        "chinese": "泄露,暴露",
+        "english": "to reveal, to give away, to betray"
       },
-      "example": "Geef niet je geheim prijs.",
-      "example_translation": "不要泄露你的秘密。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "prijsgeven",
+          "present": [
+            "ik geef prijs",
+            "jij geeft prijs",
+            "hij/zij/het geeft prijs",
+            "wij geven prijs",
+            "jullie geven prijs",
+            "zij geven prijs"
+          ],
+          "past": [
+            "ik gaf prijs",
+            "jij gaf prijs",
+            "hij/zij/het gaf prijs",
+            "wi gaven prijs",
+            "jullie gaven prijs",
+            "zij gaven prijs"
+          ],
+          "perfect": "ik heb prijsgegeven",
+          "participle": "prijsgegeven"
+        }
+      },
+      "examples": [
+        "Geef niet je geheim prijs.",
+        "Hij gaf zijn positie prijs."
+      ],
+      "exampleTranslations": {
+        "chinese": ["不要泄露你的秘密。", "他暴露了自己的位置。"],
+        "english": ["Don't reveal your secret.", "He gave away his position."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5224,
       "word": "prijsvraag",
-      "pos": "noun",
-      "meaning": "有奖问题,猜谜",
-      "word_forms": {
-        "singular": "prijsvraag",
-        "plural": "prijsvragen"
+      "translation": {
+        "chinese": "有奖问题,猜谜",
+        "english": "quiz, prize question"
       },
-      "example": "De prijsvraag werd gewonnen.",
-      "example_translation": "猜谜被解出来了。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "prijsvraag",
+          "plural": "prijsvragen"
+        }
+      },
+      "examples": [
+        "De prijsvraag werd gewonnen.",
+        "Ik won de prijsvraag."
+      ],
+      "exampleTranslations": {
+        "chinese": ["猜谜被解出来了。", "我赢了猜谜游戏。"],
+        "english": ["The prize question was solved.", "I won the quiz."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5225,
       "word": "prikkelbaar",
-      "pos": "adjective",
-      "meaning": "易受刺激的,敏感的",
-      "word_forms": {
-        "positive": "prikkelbaar",
-        "comparative": "prikkelbaarder"
+      "translation": {
+        "chinese": "易受刺激的,敏感的",
+        "english": "irritable, sensitive"
       },
-      "example": "Hij is erg prikkelbaar door stress.",
-      "example_translation": "压力使他非常易怒。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "prikkelbaar",
+          "comparative": "prikkelbaarder",
+          "superlative": "prikkelbaarst"
+        }
+      },
+      "examples": [
+        "Hij is erg prikkelbaar door stress.",
+        "Ze is prikkelbaar sinds ze ziek is."
+      ],
+      "exampleTranslations": {
+        "chinese": ["压力使他非常易怒。", "她生病后变得很敏感。"],
+        "english": ["He is very irritable due to stress.", "She is sensitive since she got sick."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5226,
       "word": "prikkelend",
-      "pos": "adjective",
-      "meaning": "刺激的,引人注目的",
-      "word_forms": {
-        "positive": "prikkelend",
-        "comparative": "prikkelender"
+      "translation": {
+        "chinese": "刺激的,引人注目的",
+        "english": "stimulating, intriguing"
       },
-      "example": "Het boek is prikkelend geschreven.",
-      "example_translation": "这本书写得很引人入胜。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "prikkelend",
+          "comparative": "prikkelender",
+          "superlative": "prikkelendst"
+        }
+      },
+      "examples": [
+        "Het boek is prikkelend geschreven.",
+        "Het was een prikkelende discussie."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这本书写得很引人入胜。", "这是一个引人入胜的讨论。"],
+        "english": ["The book is written in a stimulating way.", "It was an intriguing discussion."]
+      },
+      "notes": "现在分词形容词形式",
+      "difficulty": "B2"
     },
     {
       "id": 5227,
       "word": "principieel",
-      "pos": "adjective",
-      "meaning": "原则上的",
-      "word_forms": {
-        "positive": "principieel",
-        "comparative": "principieler"
+      "translation": {
+        "chinese": "原则上的",
+        "english": "principled, in principle"
       },
-      "example": "Hij is principieel tegen het plan.",
-      "example_translation": "他原则上反对这个计划。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "principieel",
+          "comparative": "principieler",
+          "superlative": "principieelst"
+        }
+      },
+      "examples": [
+        "Hij is principieel tegen het plan.",
+        "Ik ben principieel voor gelijke rechten."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他原则上反对这个计划。", "我原则上支持平等权利。"],
+        "english": ["He is against the plan in principle.", "I am for equal rights in principle."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5228,
       "word": "prioriteit",
-      "pos": "noun",
-      "meaning": "优先权,优先事项",
-      "word_forms": {
-        "singular": "prioriteit",
-        "plural": "prioriteiten"
+      "translation": {
+        "chinese": "优先权,优先事项",
+        "english": "priority"
       },
-      "example": "De gezondheid is mijn prioriteit.",
-      "example_translation": "健康是我的优先事项。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "prioriteit",
+          "plural": "prioriteiten"
+        }
+      },
+      "examples": [
+        "De gezondheid is mijn prioriteit.",
+        "We moeten de prioriteiten bepalen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["健康是我的优先事项。", "我们需要确定优先事项。"],
+        "english": ["Health is my priority.", "We must determine priorities."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5229,
       "word": "probiotica",
-      "pos": "noun",
-      "meaning": "益生菌",
-      "word_forms": {
-        "singular": "probiotica",
-        "plural": "probiotica"
+      "translation": {
+        "chinese": "益生菌",
+        "english": "probiotics"
       },
-      "example": "Probiotica zijn goed voor de darmen.",
-      "example_translation": "益生菌对肠道有益。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "probiotica",
+          "plural": "probiotica"
+        }
+      },
+      "examples": [
+        "Probiotica zijn goed voor de darmen.",
+        "Ik neem dagelijks probiotica."
+      ],
+      "exampleTranslations": {
+        "chinese": ["益生菌对肠道有益。", "我每天服用益生菌。"],
+        "english": ["Probiotics are good for the intestines.", "I take probiotics daily."]
+      },
+      "notes": "复数名词,单复数同形",
+      "difficulty": "B2"
     },
     {
       "id": 5230,
       "word": "profileren",
-      "pos": "verb",
-      "meaning": "树立形象,展示",
-      "word_forms": {
-        "infinitive": "profileren",
-        "present": "profileert",
-        "past": "profileerde",
-        "participle": "geprofileerd"
+      "translation": {
+        "chinese": "树立形象,展示",
+        "english": "to profile, to promote oneself"
       },
-      "example": "Hij profileert zich als expert.",
-      "example_translation": "他树立了自己作为专家的形象。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "profileren",
+          "present": [
+            "ik profileer",
+            "jij profileert",
+            "hij/zij/het profileert",
+            "wij profileren",
+            "jullie profileren",
+            "zij profileren"
+          ],
+          "past": [
+            "ik profileerde",
+            "jij profileerde",
+            "hij/zij/het profileerde",
+            "wij profileerden",
+            "jullie profileerden",
+            "zij profileerden"
+          ],
+          "perfect": "ik heb geprofileerd",
+          "participle": "geprofileerd"
+        }
+      },
+      "examples": [
+        "Hij profileert zich als expert.",
+        "Het bedrijf profileert zich als innovatief."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他树立了自己作为专家的形象。", "公司树立了创新形象。"],
+        "english": ["He profiles himself as an expert.", "The company profiles itself as innovative."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5231,
       "word": "projecteren",
-      "pos": "verb",
-      "meaning": "投射,放映",
-      "word_forms": {
-        "infinitive": "projecteren",
-        "present": "projecteert",
-        "past": "projecteerde",
-        "participle": "geprojecteerd"
+      "translation": {
+        "chinese": "投射,放映",
+        "english": "to project, to display"
       },
-      "example": "De film wordt op het scherm geprojecteerd.",
-      "example_translation": "电影被投射到屏幕上。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "projecteren",
+          "present": [
+            "ik projecteer",
+            "jij projecteert",
+            "hij/zij/het projecteert",
+            "wij projecteren",
+            "jullie projecteren",
+            "zij projecteren"
+          ],
+          "past": [
+            "ik projecteerde",
+            "jij projecteerde",
+            "hij/zij/het projecteerde",
+            "wij projecteerden",
+            "jullie projecteerden",
+            "zij projecteerden"
+          ],
+          "perfect": "ik heb geprojecteerd",
+          "participle": "geprojecteerd"
+        }
+      },
+      "examples": [
+        "De film wordt op het scherm geprojecteerd.",
+        "Hij projecteert zijn angsten op anderen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["电影被投射到屏幕上。", "他把自己的恐惧投射到别人身上。"],
+        "english": ["The film is projected onto the screen.", "He projects his fears onto others."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5232,
       "word": "promillage",
-      "pos": "noun",
-      "meaning": "千分率,酒精浓度",
-      "word_forms": {
-        "singular": "promillage",
-        "plural": "promillages"
+      "translation": {
+        "chinese": "千分率,酒精浓度",
+        "english": "promille, blood alcohol level"
       },
-      "example": "Het promillage in zijn bloed was te hoog.",
-      "example_translation": "他血液中的酒精含量过高。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "promillage",
+          "plural": "promillages"
+        }
+      },
+      "examples": [
+        "Het promillage in zijn bloed was te hoog.",
+        "Het promillage is gemeten."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他血液中的酒精含量过高。", "酒精含量已被测量。"],
+        "english": ["The promille in his blood was too high.", "The blood alcohol level was measured."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5233,
       "word": "propaganda",
-      "pos": "noun",
-      "meaning": "宣传,政治宣传",
-      "word_forms": {
-        "singular": "propaganda",
-        "plural": "propaganda"
+      "translation": {
+        "chinese": "宣传,政治宣传",
+        "english": "propaganda"
       },
-      "example": "Het nieuws is pure propaganda.",
-      "example_translation": "这新闻纯粹是宣传。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "propaganda",
+          "plural": "propaganda"
+        }
+      },
+      "examples": [
+        "Het nieuws is pure propaganda.",
+        "De regering gebruikt propaganda."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这新闻纯粹是宣传。", "政府使用宣传手段。"],
+        "english": ["The news is pure propaganda.", "The government uses propaganda."]
+      },
+      "notes": "阴性名词,单复数同形",
+      "difficulty": "B2"
     },
     {
       "id": 5234,
       "word": "propageren",
-      "pos": "verb",
-      "meaning": "宣传,推广",
-      "word_forms": {
-        "infinitive": "propageren",
-        "present": "propageert",
-        "past": "propageerde",
-        "participle": "gepropageerd"
+      "translation": {
+        "chinese": "宣传,推广",
+        "english": "to promote, to propagate"
       },
-      "example": "Ze propageren gezonde voeding.",
-      "example_translation": "他们推广健康饮食。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "propageren",
+          "present": [
+            "ik propageer",
+            "jij propageert",
+            "hij/zij/het propageert",
+            "wij propageren",
+            "jullie propageren",
+            "zij propageren"
+          ],
+          "past": [
+            "ik propageerde",
+            "jij propageerde",
+            "hij/zij/het propageerde",
+            "wij propageerden",
+            "jullie propageerden",
+            "zij propageerden"
+          ],
+          "perfect": "ik heb gepropageerd",
+          "participle": "gepropageerd"
+        }
+      },
+      "examples": [
+        "Ze propageren gezonde voeding.",
+        "Het merk propageert zijn nieuwe product."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他们推广健康饮食。", "品牌推广新产品。"],
+        "english": ["They promote healthy eating.", "The brand promotes its new product."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5235,
       "word": "provocerend",
-      "pos": "adjective",
-      "meaning": "挑衅的,刺激的",
-      "word_forms": {
-        "positive": "provocerend",
-        "comparative": "provocerender"
+      "translation": {
+        "chinese": "挑衅的,刺激的",
+        "english": "provocative, provoking"
       },
-      "example": "Zijn opmerking was provocerend.",
-      "example_translation": "他的言论很挑衅。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "provocerend",
+          "comparative": "provocerender",
+          "superlative": "provocerendst"
+        }
+      },
+      "examples": [
+        "Zijn opmerking was provocerend.",
+        "Het is een provocerende act."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他的言论很挑衅。", "这是一个挑衅的行为。"],
+        "english": ["His remark was provocative.", "It's a provocative act."]
+      },
+      "notes": "现在分词形容词形式",
+      "difficulty": "B2"
     },
     {
       "id": 5236,
       "word": "prullenbak",
-      "pos": "noun",
-      "meaning": "垃圾桶",
-      "word_forms": {
-        "singular": "prullenbak",
-        "plural": "prullenbakken"
+      "translation": {
+        "chinese": "垃圾桶",
+        "english": "trash can, waste bin"
       },
-      "example": "Gooi het vuil in de prullenbak.",
-      "example_translation": "把垃圾扔进垃圾桶。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "prullenbak",
+          "plural": "prullenbakken"
+        }
+      },
+      "examples": [
+        "Gooi het vuil in de prullenbak.",
+        "De prullenbak is vol."
+      ],
+      "exampleTranslations": {
+        "chinese": ["把垃圾扔进垃圾桶。", "垃圾桶满了。"],
+        "english": ["Throw the trash in the waste bin.", "The trash can is full."]
+      },
+      "notes": "复合名词",
+      "difficulty": "B2"
     },
     {
       "id": 5237,
       "word": "psychiater",
-      "pos": "noun",
-      "meaning": "精神科医生",
-      "word_forms": {
-        "singular": "psychiater",
-        "plural": "psychiaters"
+      "translation": {
+        "chinese": "精神科医生",
+        "english": "psychiatrist"
       },
-      "example": "De patiënt ging naar de psychiater.",
-      "example_translation": "患者去看精神科医生。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "psychiater",
+          "plural": "psychiaters"
+        }
+      },
+      "examples": [
+        "De patiënt ging naar de psychiater.",
+        "De psychiater heeft hem behandeld."
+      ],
+      "exampleTranslations": {
+        "chinese": ["患者去看精神科医生。", "精神科医生治疗了他。"],
+        "english": ["The patient went to the psychiatrist.", "The psychiatrist treated him."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5238,
       "word": "publiceren",
-      "pos": "verb",
-      "meaning": "发表,出版",
-      "word_forms": {
-        "infinitive": "publiceren",
-        "present": "publiceert",
-        "past": "publiceerde",
-        "participle": "gepubliceerd"
+      "translation": {
+        "chinese": "发表,出版",
+        "english": "to publish, to release"
       },
-      "example": "Hij publiceerde zijn boek vorig jaar.",
-      "example_translation": "他去年出版了这本书。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "publiceren",
+          "present": [
+            "ik publiceer",
+            "jij publiceert",
+            "hij/zij/het publiceert",
+            "wij publiceren",
+            "jullie publiceren",
+            "zij publiceren"
+          ],
+          "past": [
+            "ik publiceerde",
+            "jij publiceerde",
+            "hij/zij/het publiceerde",
+            "wij publiceerden",
+            "jullie publiceerden",
+            "zij publiceerden"
+          ],
+          "perfect": "ik heb gepubliceerd",
+          "participle": "gepubliceerd"
+        }
+      },
+      "examples": [
+        "Hij publiceerde zijn boek vorig jaar.",
+        "Het artikel wordt volgende week gepubliceerd."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他去年出版了这本书。", "文章将于下周发表。"],
+        "english": ["He published his book last year.", "The article will be published next week."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     }
   ]
 }

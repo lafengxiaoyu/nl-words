@@ -1,411 +1,976 @@
 {
+  "id": "b2-lesson-23",
+  "level": "B2",
+  "lessonNumber": 23,
+  "totalWords": 33,
   "words": [
     {
       "id": 5339,
       "word": "sprokkelen",
-      "pos": "verb",
-      "meaning": "搜集,收集",
-      "word_forms": {
-        "infinitive": "sprokkelen",
-        "present": "sprokkelt",
-        "past": "sprokkelde",
-        "participle": "gesprokkeld"
+      "translation": {
+        "chinese": "搜集,收集",
+        "english": "to collect, to gather"
       },
-      "example": "Ik sprokkel oude munten.",
-      "example_translation": "我收集旧硬币。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "sprokkelen",
+          "present": [
+            "ik sprokkel",
+            "jij sprokkelt",
+            "hij/zij/het sprokkelt",
+            "wii sprokkelen",
+            "jullie sprokkelen",
+            "zij sprokkelen"
+          ],
+          "past": [
+            "ik sprokkelde",
+            "jij sprokkelde",
+            "hij/zij/het sprokkelde",
+            "wii sprokkelden",
+            "jullie sprokkelden",
+            "zij sprokkelden"
+          ],
+          "perfect": "ik heb gesprokkeld",
+          "participle": "gesprokkeld"
+        }
+      },
+      "examples": [
+        "Ik sprokkel oude munten.",
+        "Hij sprokkelde interessante informatie."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我收集旧硬币。", "他搜集了有趣的信息。"],
+        "english": ["I collect old coins.", "He gathered interesting information."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5340,
       "word": "staatsgreep",
-      "pos": "noun",
-      "meaning": "政变",
-      "word_forms": {
-        "singular": "staatsgreep",
-        "plural": "staatsgrepen"
+      "translation": {
+        "chinese": "政变",
+        "english": "coup d'état, government takeover"
       },
-      "example": "De staatsgreep mislukte.",
-      "example_translation": "政变失败了。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "staatsgreep",
+          "plural": "staatsgrepen"
+        }
+      },
+      "examples": [
+        "De staatsgreep mislukte.",
+        "Er was een staatsgreep in het land."
+      ],
+      "exampleTranslations": {
+        "chinese": ["政变失败了。", "这个国家发生了政变。"],
+        "english": ["The coup failed.", "There was a coup in the country."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5341,
       "word": "staan voor",
-      "pos": "phrasal verb",
-      "meaning": "代表,主张",
-      "word_forms": {
-        "infinitive": "staan voor",
-        "present": "staat voor",
-        "past": "stond voor",
-        "participle": "voor gestaan"
+      "translation": {
+        "chinese": "代表,主张",
+        "english": "to stand for, to represent"
       },
-      "example": "Wat sta je voor?",
-      "example_translation": "你代表什么?"
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "staan voor",
+          "present": [
+            "ik sta voor",
+            "jij staat voor",
+            "hij/zij/het staat voor",
+            "wii staan voor",
+            "jullie staan voor",
+            "zij staan voor"
+          ],
+          "past": [
+            "ik stond voor",
+            "jij stond voor",
+            "hij/zij/het stond voor",
+            "wii stonden voor",
+            "jullie stonden voor",
+            "zij stonden voor"
+          ],
+          "perfect": "ik heb voor gestaan",
+          "participle": "voor gestaan"
+        }
+      },
+      "examples": [
+        "Wat sta je voor?",
+        "Hij staat voor gerechtigheid."
+      ],
+      "exampleTranslations": {
+        "chinese": ["你代表什么?", "他代表正义。"],
+        "english": ["What do you stand for?", "He stands for justice."]
+      },
+      "notes": "短语动词",
+      "difficulty": "B2"
     },
     {
       "id": 5342,
       "word": "standbeeld",
-      "pos": "noun",
-      "meaning": "雕像",
-      "word_forms": {
-        "singular": "standbeeld",
-        "plural": "standbeelden"
+      "translation": {
+        "chinese": "雕像",
+        "english": "statue"
       },
-      "example": "Het standbeeld staat op het plein.",
-      "example_translation": "雕像在广场上。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "standbeeld",
+          "plural": "standbeelden"
+        }
+      },
+      "examples": [
+        "Het standbeeld staat op het plein.",
+        "De standbeelden zijn historisch."
+      ],
+      "exampleTranslations": {
+        "chinese": ["雕像在广场上。", "这些雕像有历史意义。"],
+        "english": ["The statue stands on the square.", "The statues are historical."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5343,
       "word": "stapsgewijs",
-      "pos": "adverb",
-      "meaning": "逐步地,循序渐进地",
-      "word_forms": {},
-      "example": "We werken stapsgewijs.",
-      "example_translation": "我们循序渐进地工作。"
+      "translation": {
+        "chinese": "逐步地,循序渐进地",
+        "english": "step by step, gradually"
+      },
+      "partOfSpeech": "adverb",
+      "forms": {
+        "adverb": {
+          "base": "stapsgewijs"
+        }
+      },
+      "examples": [
+        "We werken stapsgewijs.",
+        "Het project stapsgewijs vooruit."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我们循序渐进地工作。", "项目逐步推进。"],
+        "english": ["We work step by step.", "The project progresses step by step."]
+      },
+      "notes": "副词",
+      "difficulty": "B2"
     },
     {
       "id": 5344,
       "word": "statiegeld",
-      "pos": "noun",
-      "meaning": "押金,瓶子押金",
-      "word_forms": {
-        "singular": "statiegeld",
-        "plural": "statiegelden"
+      "translation": {
+        "chinese": "押金,瓶子押金",
+        "english": "deposit, bottle deposit"
       },
-      "example": "Je krijgt statiegeld terug.",
-      "example_translation": "你能拿回押金。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "statiegeld",
+          "plural": "statiegelden"
+        }
+      },
+      "examples": [
+        "Je krijgt statiegeld terug.",
+        "Het statiegeld is twee euro."
+      ],
+      "exampleTranslations": {
+        "chinese": ["你能拿回押金。", "押金是两欧元。"],
+        "english": ["You get the deposit back.", "The deposit is two euros."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5345,
       "word": "stedenbouw",
-      "pos": "noun",
-      "meaning": "城市规划",
-      "word_forms": {
-        "singular": "stedenbouw",
-        "plural": "stedenbouwen"
+      "translation": {
+        "chinese": "城市规划",
+        "english": "urban planning"
       },
-      "example": "De stedenbouw is belangrijk voor een stad.",
-      "example_translation": "城市规划对城市很重要。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "stedenbouw",
+          "plural": "stedenbouwen"
+        }
+      },
+      "examples": [
+        "De stedenbouw is belangrijk voor een stad.",
+        "Hij werkt in de stedenbouw."
+      ],
+      "exampleTranslations": {
+        "chinese": ["城市规划对城市很重要。", "他在城市规划部门工作。"],
+        "english": ["Urban planning is important for a city.", "He works in urban planning."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5346,
       "word": "steekpartij",
-      "pos": "noun",
-      "meaning": "刺杀事件",
-      "word_forms": {
-        "singular": "steekpartij",
-        "plural": "steekpartijen"
+      "translation": {
+        "chinese": "刺杀事件",
+        "english": "stabbing, stabbing incident"
       },
-      "example": "Er was een steekpartij op straat.",
-      "example_translation": "街上发生了刺杀事件。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "steekpartij",
+          "plural": "steekpartijen"
+        }
+      },
+      "examples": [
+        "Er was een steekpartij op straat.",
+        "De steekpartij werd onderzocht."
+      ],
+      "exampleTranslations": {
+        "chinese": ["街上发生了刺杀事件。", "刺杀事件被调查。"],
+        "english": ["There was a stabbing incident on the street.", "The stabbing incident was investigated."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5347,
       "word": "steekproef",
-      "pos": "noun",
-      "meaning": "抽样,抽样检查",
-      "word_forms": {
-        "singular": "steekproef",
-        "plural": "steekproeven"
+      "translation": {
+        "chinese": "抽样,抽样检查",
+        "english": "spot check, sample test"
       },
-      "example": "De steekproef betrouwbaar.",
-      "example_translation": "抽样检查很可靠。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "steekproef",
+          "plural": "steekproeven"
+        }
+      },
+      "examples": [
+        "De steekproef betrouwbaar.",
+        "We doen een steekproef."
+      ],
+      "exampleTranslations": {
+        "chinese": ["抽样检查很可靠。", "我们进行抽样检查。"],
+        "english": ["The spot check is reliable.", "We do a spot check."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5348,
       "word": "stembiljet",
-      "pos": "noun",
-      "meaning": "选票",
-      "word_forms": {
-        "singular": "stembiljet",
-        "plural": "stembiljetten"
+      "translation": {
+        "chinese": "选票",
+        "english": "ballot paper"
       },
-      "example": "Ik leverde mijn stembiljet in.",
-      "example_translation": "我投了票。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "stembiljet",
+          "plural": "stembiljetten"
+        }
+      },
+      "examples": [
+        "Ik leverde mijn stembiljet in.",
+        "De stembiljetten worden geteld."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我投了票。", "选票被清点。"],
+        "english": ["I handed in my ballot.", "The ballots are counted."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5349,
       "word": "stiefvader",
-      "pos": "noun",
-      "meaning": "继父",
-      "word_forms": {
-        "singular": "stiefvader",
-        "plural": "stiefvaders"
+      "translation": {
+        "chinese": "继父",
+        "english": "stepfather"
       },
-      "example": "Mijn stiefvader is aardig.",
-      "example_translation": "我的继父很好。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "stiefvader",
+          "plural": "stiefvaders"
+        }
+      },
+      "examples": [
+        "Mijn stiefvader is aardig.",
+        "Zij heeft een stiefvader."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我的继父很好。", "她有一个继父。"],
+        "english": ["My stepfather is kind.", "She has a stepfather."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5350,
       "word": "stilleggen",
-      "pos": "verb",
-      "meaning": "停止,停产",
-      "word_forms": {
-        "infinitive": "stilleggen",
-        "present": "legt stil",
-        "past": "legde stil",
-        "participle": "stilgelegd"
+      "translation": {
+        "chinese": "停止,停产",
+        "english": "to shut down, to cease production"
       },
-      "example": "Het bedrijf wordt stilgelegd.",
-      "example_translation": "公司要停产了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "stilleggen",
+          "present": [
+            "ik leg stil",
+            "jij legt stil",
+            "hij/zij/het legt stil",
+            "wii leggen stil",
+            "jullie leggen stil",
+            "zij leggen stil"
+          ],
+          "past": [
+            "ik legde stil",
+            "jij legde stil",
+            "hij/zij/het legde stil",
+            "wii legden stil",
+            "jullie legden stil",
+            "zij legden stil"
+          ],
+          "perfect": "ik heb stilgelegd",
+          "participle": "stilgelegd"
+        }
+      },
+      "examples": [
+        "Het bedrijf wordt stilgelegd.",
+        "De fabriek werd stilgelegd."
+      ],
+      "exampleTranslations": {
+        "chinese": ["公司要停产了。", "工厂已经停产了。"],
+        "english": ["The company is being shut down.", "The factory was shut down."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5351,
-      "word": "stoelen op",
-      "pos": "phrasal verb",
-      "meaning": "坐下,就座",
-      "word_forms": {
-        "infinitive": "stoelen op",
-        "present": "stoelt op",
-        "past": "stoelde op",
-        "participle": "opgestoeld"
+      "word": "stellen op",
+      "translation": {
+        "chinese": "坐下,就座",
+        "english": "to sit down"
       },
-      "example": "Stoel op alsjeblieft.",
-      "example_translation": "请坐下。"
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "stellen op",
+          "present": [
+            "ik stel op",
+            "jij stelt op",
+            "hij/zij/het stelt op",
+            "wii stellen op",
+            "jullie stellen op",
+            "zij stellen op"
+          ],
+          "past": [
+            "ik stelde op",
+            "jij stelde op",
+            "hij/zij/het stelde op",
+            "wii stelden op",
+            "jullie stelden op",
+            "zij stelden op"
+          ],
+          "perfect": "ik heb opgesteld",
+          "participle": "opgesteld"
+        }
+      },
+      "examples": [
+        "Stel op alsjeblieft.",
+        "Zij stelde zich op de stoel."
+      ],
+      "exampleTranslations": {
+        "chinese": ["请坐下。", "她在椅子上坐下。"],
+        "english": ["Please sit down.", "She sat down on the chair."]
+      },
+      "notes": "短语动词",
+      "difficulty": "B2"
     },
     {
       "id": 5352,
       "word": "stofzuiger",
-      "pos": "noun",
-      "meaning": "吸尘器",
-      "word_forms": {
-        "singular": "stofzuiger",
-        "plural": "stofzuigers"
+      "translation": {
+        "chinese": "吸尘器",
+        "english": "vacuum cleaner"
       },
-      "example": "De stofzuiger is kapot.",
-      "example_translation": "吸尘器坏了。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "stofzuiger",
+          "plural": "stofzuigers"
+        }
+      },
+      "examples": [
+        "De stofzuiger is kapot.",
+        "Ik koop een nieuwe stofzuiger."
+      ],
+      "exampleTranslations": {
+        "chinese": ["吸尘器坏了。", "我要买一台新吸尘器。"],
+        "english": ["The vacuum cleaner is broken.", "I'm buying a new vacuum cleaner."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5353,
       "word": "stompzinnig",
-      "pos": "adjective",
-      "meaning": "愚蠢的,迟钝的",
-      "word_forms": {
-        "positive": "stompzinnig",
-        "comparative": "stompzinniger"
+      "translation": {
+        "chinese": "愚蠢的,迟钝的",
+        "english": "stupid, dull-witted"
       },
-      "example": "Zijn antwoord was stompzinnig.",
-      "example_translation": "他的回答很愚蠢。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "stompzinnig",
+          "comparative": "stompzinniger",
+          "superlative": "stompzinnigst"
+        }
+      },
+      "examples": [
+        "Zijn antwoord was stompzinnig.",
+        "Dat was een stompzinnige beslissing."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他的回答很愚蠢。", "这是一个愚蠢的决定。"],
+        "english": ["His answer was stupid.", "That was a stupid decision."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5354,
       "word": "stopcontact",
-      "pos": "noun",
-      "meaning": "插座",
-      "word_forms": {
-        "singular": "stopcontact",
-        "plural": "stopcontacten"
+      "translation": {
+        "chinese": "插座",
+        "english": "power outlet, socket"
       },
-      "example": "Het stopcontact zit aan de muur.",
-      "example_translation": "插座在墙上。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "stopcontact",
+          "plural": "stopcontacten"
+        }
+      },
+      "examples": [
+        "Het stopcontact zit aan de muur.",
+        "Er zijn meerdere stopcontacten."
+      ],
+      "exampleTranslations": {
+        "chinese": ["插座在墙上。", "有多个插座。"],
+        "english": ["The power outlet is on the wall.", "There are multiple power outlets."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5355,
       "word": "stopzetten",
-      "pos": "verb",
-      "meaning": "停止,终止",
-      "word_forms": {
-        "infinitive": "stopzetten",
-        "present": "zet stop",
-        "past": "zette stop",
-        "participle": "stopgezet"
+      "translation": {
+        "chinese": "停止,终止",
+        "english": "to stop, to discontinue"
       },
-      "example": "Het project werd stopgezet.",
-      "example_translation": "项目被停止了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "stopzetten",
+          "present": [
+            "ik zet stop",
+            "jij zet stop",
+            "hij/zij/het zet stop",
+            "wii zetten stop",
+            "jullie zetten stop",
+            "zij zetten stop"
+          ],
+          "past": [
+            "ik zette stop",
+            "jij zette stop",
+            "hij/zij/het zette stop",
+            "wii zetten stop",
+            "jullie zetten stop",
+            "zij zetten stop"
+          ],
+          "perfect": "ik heb stopgezet",
+          "participle": "stopgezet"
+        }
+      },
+      "examples": [
+        "Het project werd stopgezet.",
+        "Ze stopzetten de productie."
+      ],
+      "exampleTranslations": {
+        "chinese": ["项目被停止了。", "他们停止了生产。"],
+        "english": ["The project was discontinued.", "They stopped the production."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5356,
       "word": "stormachtig",
-      "pos": "adjective",
-      "meaning": "暴风雨的",
-      "word_forms": {
-        "positive": "stormachtig",
-        "comparative": "stormachtiger"
+      "translation": {
+        "chinese": "暴风雨的",
+        "english": "stormy"
       },
-      "example": "Het was een stormachtige nacht.",
-      "example_translation": "这是一个暴风雨之夜。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "stormachtig",
+          "comparative": "stormachtiger",
+          "superlative": "stormachtigst"
+        }
+      },
+      "examples": [
+        "Het was een stormachtige nacht.",
+        "Het weer is stormachtig."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是一个暴风雨之夜。", "天气有暴风雨。"],
+        "english": ["It was a stormy night.", "The weather is stormy."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5357,
       "word": "straaljager",
-      "pos": "noun",
-      "meaning": "喷气式战斗机",
-      "word_forms": {
-        "singular": "straaljager",
-        "plural": "straaljagers"
+      "translation": {
+        "chinese": "喷气式战斗机",
+        "english": "fighter jet"
       },
-      "example": "De straaljager vloog hoog.",
-      "example_translation": "喷气式战斗机飞得很高。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "straaljager",
+          "plural": "straaljagers"
+        }
+      },
+      "examples": [
+        "De straaljager vloog hoog.",
+        "De luchtmacht heeft straaljagers."
+      ],
+      "exampleTranslations": {
+        "chinese": ["喷气式战斗机飞得很高。", "空军有喷气式战斗机。"],
+        "english": ["The fighter jet flew high.", "The air force has fighter jets."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5358,
       "word": "strafproces",
-      "pos": "noun",
-      "meaning": "刑事诉讼",
-      "word_forms": {
-        "singular": "strafproces",
-        "plural": "strafprocessen"
+      "translation": {
+        "chinese": "刑事诉讼",
+        "english": "criminal trial, criminal proceedings"
       },
-      "example": "Het strafproces duurde lang.",
-      "example_translation": "刑事诉讼持续了很久。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "strafproces",
+          "plural": "strafprocessen"
+        }
+      },
+      "examples": [
+        "Het strafproces duurde lang.",
+        "De strafproces werd uitgesteld."
+      ],
+      "exampleTranslations": {
+        "chinese": ["刑事诉讼持续了很久。", "刑事诉讼被推迟了。"],
+        "english": ["The criminal trial lasted long.", "The criminal trial was postponed."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5359,
       "word": "strafrecht",
-      "pos": "noun",
-      "meaning": "刑法",
-      "word_forms": {
-        "singular": "strafrecht",
-        "plural": "strafrechten"
+      "translation": {
+        "chinese": "刑法",
+        "english": "criminal law"
       },
-      "example": "Hij studeert strafrecht.",
-      "example_translation": "他学习刑法。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "strafrecht",
+          "plural": "strafrechten"
+        }
+      },
+      "examples": [
+        "Hij studeert strafrecht.",
+        "Het strafrecht is complex."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他学习刑法。", "刑法很复杂。"],
+        "english": ["He studies criminal law.", "Criminal law is complex."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5360,
       "word": "stressloos",
-      "pos": "adjective",
-      "meaning": "无压力的,轻松的",
-      "word_forms": {
-        "positive": "stressloos",
-        "comparative": "stresslozer"
+      "translation": {
+        "chinese": "无压力的,轻松的",
+        "english": "stress-free, relaxed"
       },
-      "example": "De vakantie was stressloos.",
-      "example_translation": "假期很轻松。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "stressloos",
+          "comparative": "stresslozer",
+          "superlative": "stressloost"
+        }
+      },
+      "examples": [
+        "De vakantie was stressloos.",
+        "Het is een stressloze werkomgeving."
+      ],
+      "exampleTranslations": {
+        "chinese": ["假期很轻松。", "这是一个无压力的工作环境。"],
+        "english": ["The vacation was stress-free.", "It's a stress-free work environment."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5361,
       "word": "strijdbaar",
-      "pos": "adjective",
-      "meaning": "好斗的,可战斗的",
-      "word_forms": {
-        "positive": "strijdbaar",
-        "comparative": "strijdbaarbaar"
+      "translation": {
+        "chinese": "好斗的,可战斗的",
+        "english": "combative, feisty"
       },
-      "example": "Hij is een strijdbaar karakter.",
-      "example_translation": "他是个好斗的性格。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "strijdbaar",
+          "comparative": "strijdbaarbaarder",
+          "superlative": "strijdbaarbaarst"
+        }
+      },
+      "examples": [
+        "Hij is een strijdbaar karakter.",
+        "De strijdbaar debat ging door."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他是个好斗的性格。", "好斗的辩论继续了。"],
+        "english": ["He has a combative character.", "The combative debate continued."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5362,
       "word": "strijkplank",
-      "pos": "noun",
-      "meaning": "烫衣板",
-      "word_forms": {
-        "singular": "strijkplank",
-        "plural": "strijkplanken"
+      "translation": {
+        "chinese": "烫衣板",
+        "english": "ironing board"
       },
-      "example": "Ik strijk met de strijkplank.",
-      "example_translation": "我用烫衣板熨衣服。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "strijkplank",
+          "plural": "strijkplanken"
+        }
+      },
+      "examples": [
+        "Ik strijk met de strijkplank.",
+        "De strijkplank is te klein."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我用烫衣板熨衣服。", "烫衣板太小了。"],
+        "english": ["I iron with the ironing board.", "The ironing board is too small."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5363,
       "word": "strijkstok",
-      "pos": "noun",
-      "meaning": "熨斗手柄,熨烫工具",
-      "word_forms": {
-        "singular": "strijkstok",
-        "plural": "strijkstokken"
+      "translation": {
+        "chinese": "熨烫工具",
+        "english": "iron"
       },
-      "example": "De strijkstok is warm.",
-      "example_translation": "熨烫工具是热的。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "strijkstok",
+          "plural": "strijkstokken"
+        }
+      },
+      "examples": [
+        "De strijkstok is warm.",
+        "Gebruik de strijkstok voorzichtig."
+      ],
+      "exampleTranslations": {
+        "chinese": ["熨烫工具是热的。", "小心使用熨烫工具。"],
+        "english": ["The iron is hot.", "Use the iron carefully."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5364,
       "word": "stripfiguur",
-      "pos": "noun",
-      "meaning": "漫画人物",
-      "word_forms": {
-        "singular": "stripfiguur",
-        "plural": "stripfiguren"
+      "translation": {
+        "chinese": "漫画人物",
+        "english": "comic character"
       },
-      "example": "De stripfiguur is beroemd.",
-      "example_translation": "这个漫画人物很有名。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "stripfiguur",
+          "plural": "stripfiguren"
+        }
+      },
+      "examples": [
+        "De stripfiguur is beroemd.",
+        "Kinderen houden van stripfiguren."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这个漫画人物很有名。", "孩子们喜欢漫画人物。"],
+        "english": ["This comic character is famous.", "Children like comic characters."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5365,
       "word": "stroopwafel",
-      "pos": "noun",
-      "meaning": "荷兰松饼",
-      "word_forms": {
-        "singular": "stroopwafel",
-        "plural": "stroopwafels"
+      "translation": {
+        "chinese": "荷兰松饼",
+        "english": "Dutch waffle, stroopwafel"
       },
-      "example": "Ik eet graag stroopwafels.",
-      "example_translation": "我喜欢吃荷兰松饼。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "stroopwafel",
+          "plural": "stroopwafels"
+        }
+      },
+      "examples": [
+        "Ik eet graag stroopwafels.",
+        "De stroopwafel is warm."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我喜欢吃荷兰松饼。", "荷兰松饼是热的。"],
+        "english": ["I like to eat Dutch waffles.", "The Dutch waffle is warm."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5366,
       "word": "structureel",
-      "pos": "adjective",
-      "meaning": "结构的,系统的",
-      "word_forms": {
-        "positive": "structureel",
-        "comparative": "structureeler"
+      "translation": {
+        "chinese": "结构的,系统的",
+        "english": "structural, systematic"
       },
-      "example": "Het is een structureel probleem.",
-      "example_translation": "这是一个结构性问题。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "structureel",
+          "comparative": "structureler",
+          "superlative": "structureelst"
+        }
+      },
+      "examples": [
+        "Het is een structureel probleem.",
+        "We moeten structureel denken."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是一个结构性问题。", "我们需要系统性思考。"],
+        "english": ["This is a structural problem.", "We must think structurally."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5367,
       "word": "struikelen",
-      "pos": "verb",
-      "meaning": "绊倒,跌倒",
-      "word_forms": {
-        "infinitive": "struikelen",
-        "present": "struikelt",
-        "past": "struikelde",
-        "participle": "gestruikeld"
+      "translation": {
+        "chinese": "绊倒,跌倒",
+        "english": "to stumble, to trip"
       },
-      "example": "Ik struikelde over een steen.",
-      "example_translation": "我被石头绊倒了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "struikelen",
+          "present": [
+            "ik struikel",
+            "jij struikelt",
+            "hij/zij/het struikelt",
+            "wii struikelen",
+            "jullie struikelen",
+            "zij struikelen"
+          ],
+          "past": [
+            "ik struikelde",
+            "jij struikelde",
+            "hij/zij/het struikelde",
+            "wii struikelden",
+            "jullie struikelden",
+            "zij struikelden"
+          ],
+          "perfect": "ik heb gestruikeld",
+          "participle": "gestruikeld"
+        }
+      },
+      "examples": [
+        "Ik struikelde over een steen.",
+        "Zij struikelde bijna."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我被石头绊倒了。", "她差点绊倒。"],
+        "english": ["I stumbled over a stone.", "She almost stumbled."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5368,
       "word": "suggereren",
-      "pos": "verb",
-      "meaning": "暗示,建议",
-      "word_forms": {
-        "infinitive": "suggereren",
-        "present": "suggereert",
-        "past": "suggereerde",
-        "participle": "gesuggereerd"
+      "translation": {
+        "chinese": "暗示,建议",
+        "english": "to suggest, to imply"
       },
-      "example": "Hij suggereerde dat ik weg zou gaan.",
-      "example_translation": "他暗示我应该离开。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "suggereren",
+          "present": [
+            "ik suggeer",
+            "jij suggereert",
+            "hij/zij/het suggereert",
+            "wii suggereren",
+            "jullie suggereren",
+            "zij suggereren"
+          ],
+          "past": [
+            "ik suggeerde",
+            "jij suggereerde",
+            "hij/zij/het suggereerde",
+            "wii suggeerden",
+            "jullie suggeerden",
+            "zij suggeerden"
+          ],
+          "perfect": "ik heb gesuggereerd",
+          "participle": "gesuggereerd"
+        }
+      },
+      "examples": [
+        "Hij suggereerde dat ik weg zou gaan.",
+        "De resultaten suggereeren verbetering."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他暗示我应该离开。", "结果暗示有改进。"],
+        "english": ["He suggested that I should leave.", "The results suggest improvement."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5369,
       "word": "supermarkt",
-      "pos": "noun",
-      "meaning": "超市",
-      "word_forms": {
-        "singular": "supermarkt",
-        "plural": "supermarkten"
+      "translation": {
+        "chinese": "超市",
+        "english": "supermarket"
       },
-      "example": "Ik ga naar de supermarkt.",
-      "example_translation": "我去超市。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "supermarkt",
+          "plural": "supermarkten"
+        }
+      },
+      "examples": [
+        "Ik ga naar de supermarkt.",
+        "De supermarkt is gesloten."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我去超市。", "超市关门了。"],
+        "english": ["I go to the supermarket.", "The supermarket is closed."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5370,
       "word": "surveillant",
-      "pos": "noun",
-      "meaning": "监视员,保安",
-      "word_forms": {
-        "singular": "surveillant",
-        "plural": "surveillanten"
+      "translation": {
+        "chinese": "监视员,保安",
+        "english": "security guard, surveillance officer"
       },
-      "example": "De surveillant keek toe.",
-      "example_translation": "监视员在看守。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "surveillant",
+          "plural": "surveillanten"
+        }
+      },
+      "examples": [
+        "De surveillant kijkt toe.",
+        "Er zijn surveillanten bij de ingang."
+      ],
+      "exampleTranslations": {
+        "chinese": ["监视员在看守。", "入口有保安。"],
+        "english": ["The security guard keeps watch.", "There are security guards at the entrance."]
+      },
+      "notes": "阳性名词,法语外来词",
+      "difficulty": "B2"
     },
     {
       "id": 5371,
       "word": "sympathiek",
-      "pos": "adjective",
-      "meaning": "可亲的,令人愉快的",
-      "word_forms": {
-        "positive": "sympathiek",
-        "comparative": "sympathieker"
+      "translation": {
+        "chinese": "可亲的,令人愉快的",
+        "english": "sympathetic, agreeable"
       },
-      "example": "Hij is een sympathiek mens.",
-      "example_translation": "他是一个可亲的人。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "sympathiek",
+          "comparative": "sympathieker",
+          "superlative": "sympathiekst"
+        }
+      },
+      "examples": [
+        "Hij is een sympathiek mens.",
+        "Ze heeft een sympathieke glimlach."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他是一个可亲的人。", "她有讨人喜欢的笑容。"],
+        "english": ["He is a sympathetic person.", "She has a sympathetic smile."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     }
   ]
 }

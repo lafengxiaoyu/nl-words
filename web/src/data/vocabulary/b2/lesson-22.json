@@ -1,630 +1,1516 @@
 {
+  "id": "b2-lesson-22",
+  "level": "B2",
+  "lessonNumber": 22,
+  "totalWords": 50,
   "words": [
     {
       "id": 5289,
       "word": "samenkomst",
-      "pos": "noun",
-      "meaning": "聚会,集会",
-      "word_forms": {
-        "singular": "samenkomst",
-        "plural": "samenkomsten"
+      "translation": {
+        "chinese": "聚会,集会",
+        "english": "meeting, gathering"
       },
-      "example": "De samenkomst begon om twaalf uur.",
-      "example_translation": "聚会从十二点开始。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "samenkomst",
+          "plural": "samenkomsten"
+        }
+      },
+      "examples": [
+        "De samenkomst begon om twaalf uur.",
+        "De samenkomst was succesvol."
+      ],
+      "exampleTranslations": {
+        "chinese": ["聚会从十二点开始。", "聚会很成功。"],
+        "english": ["The meeting began at twelve.", "The gathering was successful."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5290,
       "word": "samenleving",
-      "pos": "noun",
-      "meaning": "社会",
-      "word_forms": {
-        "singular": "samenleving",
-        "plural": "samenlevingen"
+      "translation": {
+        "chinese": "社会",
+        "english": "society, community"
       },
-      "example": "De samenleving verandert snel.",
-      "example_translation": "社会变化很快。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "samenleving",
+          "plural": "samenlevingen"
+        }
+      },
+      "examples": [
+        "De samenleving verandert snel.",
+        "We leven in een samenleving."
+      ],
+      "exampleTranslations": {
+        "chinese": ["社会变化很快。", "我们生活在一个社会中。"],
+        "english": ["Society changes quickly.", "We live in a society."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5291,
       "word": "samenvatten",
-      "pos": "verb",
-      "meaning": "总结,概括",
-      "word_forms": {
-        "infinitive": "samenvatten",
-        "present": "vat samen",
-        "past": "vatte samen",
-        "participle": "samengevat"
+      "translation": {
+        "chinese": "总结,概括",
+        "english": "to summarize, to sum up"
       },
-      "example": "Ik zal het artikel samenvatten.",
-      "example_translation": "我会总结这篇文章。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "samenvatten",
+          "present": [
+            "ik vat samen",
+            "jij vat samen",
+            "hij/zij/het vat samen",
+            "wii vatten samen",
+            "jullie vatten samen",
+            "zij vatten samen"
+          ],
+          "past": [
+            "ik vatte samen",
+            "jij vatte samen",
+            "hij/zij/het vatte samen",
+            "wii vatten samen",
+            "jullie vatten samen",
+            "zij vatten samen"
+          ],
+          "perfect": "ik heb samengevat",
+          "participle": "samengevat"
+        }
+      },
+      "examples": [
+        "Ik zal het artikel samenvatten.",
+        "Hij vatte het verhaal samen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我会总结这篇文章。", "他概括了这个故事。"],
+        "english": ["I will summarize the article.", "He summarized the story."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5292,
       "word": "samenvoegen",
-      "pos": "verb",
-      "meaning": "合并,合并",
-      "word_forms": {
-        "infinitive": "samenvoegen",
-        "present": "voegt samen",
-        "past": "voegde samen",
-        "participle": "samengevoegd"
+      "translation": {
+        "chinese": "合并,合并",
+        "english": "to merge, to combine"
       },
-      "example": "De bedrijven zijn samengevoegd.",
-      "example_translation": "这些公司已经合并了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "samenvoegen",
+          "present": [
+            "ik voeg samen",
+            "jij voegt samen",
+            "hij/zij/het voegt samen",
+            "wii voegen samen",
+            "jullie voegen samen",
+            "zij voegen samen"
+          ],
+          "past": [
+            "ik voegde samen",
+            "jij voegde samen",
+            "hij/zij/het voegde samen",
+            "wii voegden samen",
+            "jullie voegden samen",
+            "zij voegden samen"
+          ],
+          "perfect": "ik heb samengevoegd",
+          "participle": "samengevoegd"
+        }
+      },
+      "examples": [
+        "De bedrijven zijn samengevoegd.",
+        "We moeten de bestanden samenvoegen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这些公司已经合并了。", "我们需要合并这些文件。"],
+        "english": ["The companies have merged.", "We need to combine the files."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5293,
       "word": "samenwonen",
-      "pos": "verb",
-      "meaning": "同居",
-      "word_forms": {
-        "infinitive": "samenwonen",
-        "present": "woont samen",
-        "past": "woonde samen",
-        "participle": "samengewoond"
+      "translation": {
+        "chinese": "同居",
+        "english": "to live together, to cohabit"
       },
-      "example": "Ze wonen al jaren samen.",
-      "example_translation": "他们已经同居多年了。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "samenwonen",
+          "present": [
+            "ik woon samen",
+            "jij woont samen",
+            "hij/zij/het woont samen",
+            "wii wonen samen",
+            "jullie wonen samen",
+            "zij wonen samen"
+          ],
+          "past": [
+            "ik woonde samen",
+            "jij woonde samen",
+            "hij/zij/het woonde samen",
+            "wii woonden samen",
+            "jullie woonden samen",
+            "zij woonden samen"
+          ],
+          "perfect": "ik heb samengewoond",
+          "participle": "samengewoond"
+        }
+      },
+      "examples": [
+        "Ze wonen al jaren samen.",
+        "Zij en hij samenwonen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他们已经同居多年了。", "她和他同居。"],
+        "english": ["They have been living together for years.", "She and he cohabit."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5294,
       "word": "sarcastisch",
-      "pos": "adjective",
-      "meaning": "讽刺的",
-      "word_forms": {
-        "positive": "sarcastisch",
-        "comparative": "sarcastischer"
+      "translation": {
+        "chinese": "讽刺的",
+        "english": "sarcastic"
       },
-      "example": "Zijn opmerking was sarcastisch.",
-      "example_translation": "他的评论很讽刺。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "sarcastisch",
+          "comparative": "sarcastischer",
+          "superlative": "sarcastischst"
+        }
+      },
+      "examples": [
+        "Zijn opmerking was sarcastisch.",
+        "Ze zei het met een sarcastische glimlach."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他的评论很讽刺。", "她讽刺地笑着说这话。"],
+        "english": ["His remark was sarcastic.", "She said it with a sarcastic smile."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5295,
       "word": "schadelijk",
-      "pos": "adjective",
-      "meaning": "有害的",
-      "word_forms": {
-        "positive": "schadelijk",
-        "comparative": "schadelijker"
+      "translation": {
+        "chinese": "有害的",
+        "english": "harmful, damaging"
       },
-      "example": "Roken is schadelijk voor de gezondheid.",
-      "example_translation": "吸烟对健康有害。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "schadelijk",
+          "comparative": "schadelijker",
+          "superlative": "schadelijkst"
+        }
+      },
+      "examples": [
+        "Roken is schadelijk voor de gezondheid.",
+        "Het water is niet schadelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": ["吸烟对健康有害。", "这水没有危害。"],
+        "english": ["Smoking is harmful to health.", "The water is not harmful."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5296,
       "word": "schadepost",
-      "pos": "noun",
-      "meaning": "损失项目,损失额",
-      "word_forms": {
-        "singular": "schadepost",
-        "plural": "schadeposten"
+      "translation": {
+        "chinese": "损失项目,损失额",
+        "english": "damage, loss"
       },
-      "example": "De schadepost werd berekend.",
-      "example_translation": "损失额已经计算好了。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "schadepost",
+          "plural": "schadeposten"
+        }
+      },
+      "examples": [
+        "De schadepost werd berekend.",
+        "De schadepost is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": ["损失额已经计算好了。", "损失很大。"],
+        "english": ["The damage was calculated.", "The damage is significant."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5297,
       "word": "schakelaar",
-      "pos": "noun",
-      "meaning": "开关",
-      "word_forms": {
-        "singular": "schakelaar",
-        "plural": "schakelaars"
+      "translation": {
+        "chinese": "开关",
+        "english": "switch"
       },
-      "example": "Druk op de schakelaar.",
-      "example_translation": "按下开关。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "schakelaar",
+          "plural": "schakelaars"
+        }
+      },
+      "examples": [
+        "Druk op de schakelaar.",
+        "De schakelaar werkt niet."
+      ],
+      "exampleTranslations": {
+        "chinese": ["按下开关。", "开关不工作。"],
+        "english": ["Press the switch.", "The switch doesn't work."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5298,
       "word": "schandelijk",
-      "pos": "adjective",
-      "meaning": "可耻的,无耻的",
-      "word_forms": {
-        "positive": "schandelijk",
-        "comparative": "schandelijker"
+      "translation": {
+        "chinese": "可耻的,无耻的",
+        "english": "shameful, disgraceful"
       },
-      "example": "Het was een schandelijke daad.",
-      "example_translation": "这是一个可耻的行为。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "schandelijk",
+          "comparative": "schandelijker",
+          "superlative": "schandelijkst"
+        }
+      },
+      "examples": [
+        "Het was een schandelijke daad.",
+        "Het is schandelijk wat hij deed."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是一个可耻的行为。", "他的所作所为很可耻。"],
+        "english": ["It was a shameful act.", "What he did is shameful."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5299,
       "word": "schappelijk",
-      "pos": "adjective",
-      "meaning": "社会的,社交的",
-      "word_forms": {
-        "positive": "schappelijk",
-        "comparative": "schappelijker"
+      "translation": {
+        "chinese": "社会的,社交的",
+        "english": "social"
       },
-      "example": "Het is een schappelijke kwestie.",
-      "example_translation": "这是一个社会问题。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "schappelijk",
+          "comparative": "schappelijker",
+          "superlative": "schappelijkst"
+        }
+      },
+      "examples": [
+        "Het is een schappelijke kwestie.",
+        "Zij is schappelijk betrokken."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是一个社会问题。", "她积极参与社会活动。"],
+        "english": ["This is a social issue.", "She is socially involved."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5300,
       "word": "scharrelen",
-      "pos": "verb",
-      "meaning": "摸索,觅食",
-      "word_forms": {
-        "infinitive": "scharrelen",
-        "present": "scharrelt",
-        "past": "scharrelde",
-        "participle": "gescharreld"
+      "translation": {
+        "chinese": "摸索,觅食",
+        "english": "to scratch, to forage"
       },
-      "example": "De kippen scharrelen in de tuin.",
-      "example_translation": "鸡在院子里觅食。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "scharrelen",
+          "present": [
+            "ik scharrel",
+            "jij scharrelt",
+            "hij/zij/het scharrelt",
+            "wii scharrelen",
+            "jullie scharrelen",
+            "zij scharrelen"
+          ],
+          "past": [
+            "ik scharrelde",
+            "jij scharrelde",
+            "hij/zij/het scharrelde",
+            "wii scharrelden",
+            "jullie scharrelden",
+            "zij scharrelden"
+          ],
+          "perfect": "ik heb gescharreld",
+          "participle": "gescharreld"
+        }
+      },
+      "examples": [
+        "De kippen scharrelen in de tuin.",
+        "De hond scharrelt aan de grond."
+      ],
+      "exampleTranslations": {
+        "chinese": ["鸡在院子里觅食。", "狗在抓地面。"],
+        "english": ["The chickens forage in the garden.", "The dog scratches the ground."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5301,
       "word": "scheikunde",
-      "pos": "noun",
-      "meaning": "化学",
-      "word_forms": {
-        "singular": "scheikunde",
-        "plural": "scheikundes"
+      "translation": {
+        "chinese": "化学",
+        "english": "chemistry"
       },
-      "example": "Zij studeert scheikunde.",
-      "example_translation": "她学习化学。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "scheikunde",
+          "plural": "scheikundes"
+        }
+      },
+      "examples": [
+        "Zij studeert scheikunde.",
+        "Scheikunde is een belangrijk vak."
+      ],
+      "exampleTranslations": {
+        "chinese": ["她学习化学。", "化学是一门重要的科目。"],
+        "english": ["She studies chemistry.", "Chemistry is an important subject."]
+      },
+      "notes": "阴性名词,以-kunde结尾的学科名词",
+      "difficulty": "B2"
     },
     {
       "id": 5302,
       "word": "schilderen",
-      "pos": "verb",
-      "meaning": "绘画,作画",
-      "word_forms": {
-        "infinitive": "schilderen",
-        "present": "schildert",
-        "past": "schilderde",
-        "participle": "geschilderd"
+      "translation": {
+        "chinese": "绘画,作画",
+        "english": "to paint"
       },
-      "example": "Hij schildert graag landschappen.",
-      "example_translation": "他喜欢画风景画。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "schilderen",
+          "present": [
+            "ik schilder",
+            "jij schildert",
+            "hij/zij/het schildert",
+            "wii schilderen",
+            "jullie schilderen",
+            "zij schilderen"
+          ],
+          "past": [
+            "ik schilderde",
+            "jij schilderde",
+            "hij/zij/het schilderde",
+            "wii schilderden",
+            "jullie schilderden",
+            "zij schilderden"
+          ],
+          "perfect": "ik heb geschilderd",
+          "participle": "geschilderd"
+        }
+      },
+      "examples": [
+        "Hij schildert graag landschappen.",
+        "Zij schilderde een portret."
+      ],
+      "exampleTranslations": {
+        "chinese": ["他喜欢画风景画。", "她画了一幅肖像。"],
+        "english": ["He likes to paint landscapes.", "She painted a portrait."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5303,
       "word": "schilderij",
-      "pos": "noun",
-      "meaning": "画作,画",
-      "word_forms": {
-        "singular": "schilderij",
-        "plural": "schilderijen"
+      "translation": {
+        "chinese": "画作,画",
+        "english": "painting, artwork"
       },
-      "example": "Het schilderij hangt aan de muur.",
-      "example_translation": "画作挂在墙上。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "schilderij",
+          "plural": "schilderijen"
+        }
+      },
+      "examples": [
+        "Het schilderij hangt aan de muur.",
+        "De schilderij is van de 17e eeuw."
+      ],
+      "exampleTranslations": {
+        "chinese": ["画作挂在墙上。", "这幅画来自17世纪。"],
+        "english": ["The painting hangs on the wall.", "The painting is from the 17th century."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5304,
       "word": "schitterend",
-      "pos": "adjective",
-      "meaning": "灿烂的,辉煌的",
-      "word_forms": {
-        "positive": "schitterend",
-        "comparative": "schitterender"
+      "translation": {
+        "chinese": "灿烂的,辉煌的",
+        "english": "shining, brilliant"
       },
-      "example": "De zon schitterde aan de hemel.",
-      "example_translation": "太阳在天空中闪耀。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "schitterend",
+          "comparative": "schitterender",
+          "superlative": "schitterendst"
+        }
+      },
+      "examples": [
+        "De zon schitterde aan de hemel.",
+        "Het is een schitterende dag."
+      ],
+      "exampleTranslations": {
+        "chinese": ["太阳在天空中闪耀。", "这是灿烂的一天。"],
+        "english": ["The sun shone in the sky.", "It's a brilliant day."]
+      },
+      "notes": "现在分词形容词形式",
+      "difficulty": "B2"
     },
     {
       "id": 5305,
       "word": "schokdemper",
-      "pos": "noun",
-      "meaning": "减震器",
-      "word_forms": {
-        "singular": "schokdemper",
-        "plural": "schokdempers"
+      "translation": {
+        "chinese": "减震器",
+        "english": "shock absorber"
       },
-      "example": "De auto heeft nieuwe schokdempers nodig.",
-      "example_translation": "这辆车需要新的减震器。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "schokdemper",
+          "plural": "schokdempers"
+        }
+      },
+      "examples": [
+        "De auto heeft nieuwe schokdempers nodig.",
+        "De schokdempers versleten snel."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这辆车需要新的减震器。", "减震器磨损很快。"],
+        "english": ["The car needs new shock absorbers.", "Shock absorbers wear out quickly."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5306,
       "word": "schommelen",
-      "pos": "verb",
-      "meaning": "波动,摇摆",
-      "word_forms": {
-        "infinitive": "schommelen",
-        "present": "schommelt",
-        "past": "schommelde",
-        "participle": "geschommeld"
+      "translation": {
+        "chinese": "波动,摇摆",
+        "english": "to fluctuate, to swing"
       },
-      "example": "De prijzen schommelen veel.",
-      "example_translation": "价格波动很大。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "schommelen",
+          "present": [
+            "ik schommel",
+            "jij schommelt",
+            "hij/zij/het schommelt",
+            "wii schommelen",
+            "jullie schommelen",
+            "zij schommelen"
+          ],
+          "past": [
+            "ik schommelde",
+            "jij schommelde",
+            "hij/zij/het schommelde",
+            "wii schommelden",
+            "jullie schommelden",
+            "zij schommelden"
+          ],
+          "perfect": "ik heb geschommeld",
+          "participle": "geschommeld"
+        }
+      },
+      "examples": [
+        "De prijzen schommelen veel.",
+        "De temperatuur schommelt."
+      ],
+      "exampleTranslations": {
+        "chinese": ["价格波动很大。", "温度波动。"],
+        "english": ["Prices fluctuate a lot.", "The temperature fluctuates."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5307,
       "word": "schoonheid",
-      "pos": "noun",
-      "meaning": "美丽,美",
-      "word_forms": {
-        "singular": "schoonheid",
-        "plural": "schoonheden"
+      "translation": {
+        "chinese": "美丽,美",
+        "english": "beauty, cleanliness"
       },
-      "example": "De schoonheid van de natuur is verbluffend.",
-      "example_translation": "自然之美令人惊叹。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "schoonheid",
+          "plural": "schoonheden"
+        }
+      },
+      "examples": [
+        "De schoonheid van de natuur is verbluffend.",
+        "De schoonheid van het schilderij."
+      ],
+      "exampleTranslations": {
+        "chinese": ["自然之美令人惊叹。", "画作的美丽。"],
+        "english": ["The beauty of nature is stunning.", "The beauty of the painting."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5308,
       "word": "schoonvader",
-      "pos": "noun",
-      "meaning": "岳父,公公",
-      "word_forms": {
-        "singular": "schoonvader",
-        "plural": "schoonvaders"
+      "translation": {
+        "chinese": "岳父,公公",
+        "english": "father-in-law"
       },
-      "example": "Mijn schoonvader woont in Amsterdam.",
-      "example_translation": "我的岳父住在阿姆斯特丹。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "schoonvader",
+          "plural": "schoonvaders"
+        }
+      },
+      "examples": [
+        "Mijn schoonvader woont in Amsterdam.",
+        "Zijn schoonvader is overleden."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我的岳父住在阿姆斯特丹。", "他的岳父已经去世了。"],
+        "english": ["My father-in-law lives in Amsterdam.", "His father-in-law has passed away."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5309,
       "word": "schoonvegen",
-      "pos": "verb",
-      "meaning": "扫干净",
-      "word_forms": {
-        "infinitive": "schoonvegen",
-        "present": "veegt schoon",
-        "past": "veegde schoon",
-        "participle": "schoongeveegd"
+      "translation": {
+        "chinese": "扫干净",
+        "english": "to sweep clean"
       },
-      "example": "Ik veeg de vloer schoon.",
-      "example_translation": "我把地板扫干净。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "schoonvegen",
+          "present": [
+            "ik veeg schoon",
+            "jij veegt schoon",
+            "hij/zij/het veegt schoon",
+            "wii vegen schoon",
+            "jullie vegen schoon",
+            "zij vegen schoon"
+          ],
+          "past": [
+            "ik veegde schoon",
+            "jij veegde schoon",
+            "hij/zij/het veegde schoon",
+            "wii veegden schoon",
+            "jullie veegden schoon",
+            "zij veegden schoon"
+          ],
+          "perfect": "ik heb schoongeveegd",
+          "participle": "schoongeveegd"
+        }
+      },
+      "examples": [
+        "Ik veeg de vloer schoon.",
+        "Ze veegt het bureau schoon."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我把地板扫干净。", "她把桌子扫干净。"],
+        "english": ["I sweep the floor clean.", "She sweeps the desk clean."]
+      },
+      "notes": "可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5310,
       "word": "schoorsteen",
-      "pos": "noun",
-      "meaning": "烟囱",
-      "word_forms": {
-        "singular": "schoorsteen",
-        "plural": "schoorstenen"
+      "translation": {
+        "chinese": "烟囱",
+        "english": "chimney"
       },
-      "example": "De schoorsteen rookt.",
-      "example_translation": "烟囱在冒烟。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "schoorsteen",
+          "plural": "schoorstenen"
+        }
+      },
+      "examples": [
+        "De schoorsteen rookt.",
+        "Het huis heeft een nieuwe schoorsteen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["烟囱在冒烟。", "房子有新烟囱。"],
+        "english": ["The chimney is smoking.", "The house has a new chimney."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5311,
       "word": "schreeuwen",
-      "pos": "verb",
-      "meaning": "叫喊,吼叫",
-      "word_forms": {
-        "infinitive": "schreeuwen",
-        "present": "schreeuwt",
-        "past": "schreeuwde",
-        "participle": "geschreeuwd"
+      "translation": {
+        "chinese": "叫喊,吼叫",
+        "english": "to shout, to scream"
       },
-      "example": "De kinderen schreeuwden van plezier.",
-      "example_translation": "孩子们开心地叫喊。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "schreeuwen",
+          "present": [
+            "ik schreeuw",
+            "jij schreeuwt",
+            "hij/zij/het schreeuwt",
+            "wii schreeuwen",
+            "jullie schreeuwen",
+            "zij schreeuwen"
+          ],
+          "past": [
+            "ik schreeuwde",
+            "jij schreeuwde",
+            "hij/zij/het schreeuwde",
+            "wii schreeuwden",
+            "jullie schreeuwden",
+            "zij schreeuwden"
+          ],
+          "perfect": "ik heb geschreeuwd",
+          "participle": "geschreeuwd"
+        }
+      },
+      "examples": [
+        "De kinderen schreeuwden van plezier.",
+        "Hij schreeuwde van angst."
+      ],
+      "exampleTranslations": {
+        "chinese": ["孩子们开心地叫喊。", "他因恐惧而尖叫。"],
+        "english": ["The children shouted with joy.", "He screamed with fear."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5312,
       "word": "schrnend",
-      "pos": "adjective",
-      "meaning": "刺眼的,令人痛苦的",
-      "word_forms": {
-        "positive": "schrnend",
-        "comparative": "schrnender"
+      "translation": {
+        "chinese": "刺眼的,令人痛苦的",
+        "english": "painful, hurting"
       },
-      "example": "Het verschil is schrnend.",
-      "example_translation": "这个差距令人痛苦。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "schrnend",
+          "comparative": "schrnender",
+          "superlative": "schrnendst"
+        }
+      },
+      "examples": [
+        "Het verschil is schrnend.",
+        "Het is een schrnende beslissing."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这个差距令人痛苦。", "这是一个令人痛苦的决定。"],
+        "english": ["The difference is painful.", "It's a painful decision."]
+      },
+      "notes": "现在分词形容词形式",
+      "difficulty": "B2"
     },
     {
       "id": 5313,
       "word": "schromelijk",
-      "pos": "adjective",
-      "meaning": "极大的,严重的",
-      "word_forms": {
-        "positive": "schromelijk",
-        "comparative": "schromelijker"
+      "translation": {
+        "chinese": "极大的,严重的",
+        "english": "tremendous, severe"
       },
-      "example": "Het was een schromelijke fout.",
-      "example_translation": "这是一个严重的错误。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "schromelijk",
+          "comparative": "schromelijker",
+          "superlative": "schromelijkst"
+        }
+      },
+      "examples": [
+        "Het was een schromelijke fout.",
+        "Er is een schromelijke kloof."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是一个严重的错误。", "有巨大的差距。"],
+        "english": ["It was a tremendous mistake.", "There is a tremendous gap."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5314,
       "word": "secretaris",
-      "pos": "noun",
-      "meaning": "秘书",
-      "word_forms": {
-        "singular": "secretaris",
-        "plural": "secretarissen"
+      "translation": {
+        "chinese": "秘书",
+        "english": "secretary"
       },
-      "example": "De secretaris maakte de notities.",
-      "example_translation": "秘书做了笔记。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "secretaris",
+          "plural": "secretarissen"
+        }
+      },
+      "examples": [
+        "De secretaris maakte de notities.",
+        "Zij is de secretaris van de vereniging."
+      ],
+      "exampleTranslations": {
+        "chinese": ["秘书做了笔记。", "她是协会的秘书。"],
+        "english": ["The secretary took the notes.", "She is the secretary of the association."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5315,
       "word": "segmenteren",
-      "pos": "verb",
-      "meaning": "分割,细分",
-      "word_forms": {
-        "infinitive": "segmenteren",
-        "present": "segmenteert",
-        "past": "segmenteerde",
-        "participle": "gesegmenteerd"
+      "translation": {
+        "chinese": "分割,细分",
+        "english": "to segment, to divide"
       },
-      "example": "We kunnen de markt segmenteren.",
-      "example_translation": "我们可以对市场进行细分。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "segmenteren",
+          "present": [
+            "ik segmenteer",
+            "jij segmenteert",
+            "hij/zij/het segmenteert",
+            "wii segmenteren",
+            "jullie segmenteren",
+            "zij segmenteren"
+          ],
+          "past": [
+            "ik segmenteerde",
+            "jij segmenteerde",
+            "hij/zij/het segmenteerde",
+            "wii segmenteerden",
+            "jullie segmenteerden",
+            "zij segmenteerden"
+          ],
+          "perfect": "ik heb gesegmenteerd",
+          "participle": "gesegmenteerd"
+        }
+      },
+      "examples": [
+        "We kunnen de markt segmenteren.",
+        "Het rapport is gesegmenteerd in delen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我们可以对市场进行细分。", "报告分成了几个部分。"],
+        "english": ["We can segment the market.", "The report is segmented into parts."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5316,
       "word": "seksistisch",
-      "pos": "adjective",
-      "meaning": "性别歧视的",
-      "word_forms": {
-        "positive": "seksistisch",
-        "comparative": "seksistischer"
+      "translation": {
+        "chinese": "性别歧视的",
+        "english": "sexist"
       },
-      "example": "Het artikel was seksistisch.",
-      "example_translation": "这篇文章有性别歧视。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "seksistisch",
+          "comparative": "seksistischer",
+          "superlative": "seksistischst"
+        }
+      },
+      "examples": [
+        "Het artikel was seksistisch.",
+        "Zij noemt het seksistisch."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这篇文章有性别歧视。", "她称这有性别歧视。"],
+        "english": ["The article was sexist.", "She calls it sexist."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5317,
       "word": "septictank",
-      "pos": "noun",
-      "meaning": "化粪池",
-      "word_forms": {
-        "singular": "septictank",
-        "plural": "septictanks"
+      "translation": {
+        "chinese": "化粪池",
+        "english": "septic tank"
       },
-      "example": "De septictank moet leeggemaakt worden.",
-      "example_translation": "化粪池需要清理。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "septictank",
+          "plural": "septictanks"
+        }
+      },
+      "examples": [
+        "De septictank moet leeggemaakt worden.",
+        "Het huis heeft een septictank."
+      ],
+      "exampleTranslations": {
+        "chinese": ["化粪池需要清理。", "房子有化粪池。"],
+        "english": ["The septic tank needs to be emptied.", "The house has a septic tank."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5318,
       "word": "serveerster",
-      "pos": "noun",
-      "meaning": "女服务员",
-      "word_forms": {
-        "singular": "serveerster",
-        "plural": "serveersters"
+      "translation": {
+        "chinese": "女服务员",
+        "english": "waitress"
       },
-      "example": "De serveerster bracht het eten.",
-      "example_translation": "女服务员端来了食物。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "serveerster",
+          "plural": "serveersters"
+        }
+      },
+      "examples": [
+        "De serveerster bracht het eten.",
+        "De serveersters zijn vriendelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": ["女服务员端来了食物。", "女服务员们很友好。"],
+        "english": ["The waitress brought the food.", "The waitresses are friendly."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5319,
       "word": "setdresser",
-      "pos": "noun",
-      "meaning": "场景布置师",
-      "word_forms": {
-        "singular": "setdresser",
-        "plural": "setdressers"
+      "translation": {
+        "chinese": "场景布置师",
+        "english": "set designer"
       },
-      "example": "De setdresser decoreerde de filmset.",
-      "example_translation": "场景布置师装饰了电影场景。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "setdresser",
+          "plural": "setdressers"
+        }
+      },
+      "examples": [
+        "De setdresser decoreerde de filmset.",
+        "De setdresser werkt aan het toneelstuk."
+      ],
+      "exampleTranslations": {
+        "chinese": ["场景布置师装饰了电影场景。", "场景布置师正在制作戏剧。"],
+        "english": ["The set designer decorated the film set.", "The set designer works on the play."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5320,
       "word": "signaleren",
-      "pos": "verb",
-      "meaning": "检测,发现",
-      "word_forms": {
-        "infinitive": "signaleren",
-        "present": "signaleert",
-        "past": "signaleerde",
-        "participle": "gesignaleerd"
+      "translation": {
+        "chinese": "检测,发现",
+        "english": "to detect, to signal"
       },
-      "example": "De dokter signaleerde de ziekte.",
-      "example_translation": "医生检测出了这种疾病。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "signaleren",
+          "present": [
+            "ik signaleer",
+            "jij signaleert",
+            "hij/zij/het signaleert",
+            "wii signaleren",
+            "jullie signaleren",
+            "zij signaleren"
+          ],
+          "past": [
+            "ik signaleerde",
+            "jij signaleerde",
+            "hij/zij/het signaleerde",
+            "wii signaleerden",
+            "jullie signaleerden",
+            "zij signaleerden"
+          ],
+          "perfect": "ik heb gesignaleerd",
+          "participle": "gesignaleerd"
+        }
+      },
+      "examples": [
+        "De dokter signaleerde de ziekte.",
+        "Het systeem signaleert de fout."
+      ],
+      "exampleTranslations": {
+        "chinese": ["医生检测出了这种疾病。", "系统检测出错误。"],
+        "english": ["The doctor detected the disease.", "The system signals the error."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5321,
       "word": "silhouette",
-      "pos": "noun",
-      "meaning": "剪影",
-      "word_forms": {
-        "singular": "silhouette",
-        "plural": "silhouetten"
+      "translation": {
+        "chinese": "剪影",
+        "english": "silhouette"
       },
-      "example": "De silhouette van de berg was mooi.",
-      "example_translation": "山的剪影很美。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "silhouette",
+          "plural": "silhouetten"
+        }
+      },
+      "examples": [
+        "De silhouette van de berg was mooi.",
+        "Ik zag de silhouette van een vogel."
+      ],
+      "exampleTranslations": {
+        "chinese": ["山的剪影很美。", "我看到一只鸟的剪影。"],
+        "english": ["The silhouette of the mountain was beautiful.", "I saw the silhouette of a bird."]
+      },
+      "notes": "阴性名词,法语外来词",
+      "difficulty": "B2"
     },
     {
       "id": 5322,
       "word": "sinaasappel",
-      "pos": "noun",
-      "meaning": "橙子",
-      "word_forms": {
-        "singular": "sinaasappel",
-        "plural": "sinaasappels"
+      "translation": {
+        "chinese": "橙子",
+        "english": "orange"
       },
-      "example": "Ik eet graag sinaasappels.",
-      "example_translation": "我喜欢吃橙子。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "sinaasappel",
+          "plural": "sinaasappels"
+        }
+      },
+      "examples": [
+        "Ik eet graag sinaasappels.",
+        "De sinaasappels zijn zoet."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我喜欢吃橙子。", "橙子很甜。"],
+        "english": ["I like to eat oranges.", "The oranges are sweet."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5323,
       "word": "slaapkamer",
-      "pos": "noun",
-      "meaning": "卧室",
-      "word_forms": {
-        "singular": "slaapkamer",
-        "plural": "slaapkamers"
+      "translation": {
+        "chinese": "卧室",
+        "english": "bedroom"
       },
-      "example": "Mijn slaapkamer is comfortabel.",
-      "example_translation": "我的卧室很舒适。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "slaapkamer",
+          "plural": "slaapkamers"
+        }
+      },
+      "examples": [
+        "Mijn slaapkamer is comfortabel.",
+        "Het huis heeft drie slaapkamers."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我的卧室很舒适。", "房子有三个卧室。"],
+        "english": ["My bedroom is comfortable.", "The house has three bedrooms."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5324,
       "word": "slachthuis",
-      "pos": "noun",
-      "meaning": "屠宰场",
-      "word_forms": {
-        "singular": "slachthuis",
-        "plural": "slachthuizen"
+      "translation": {
+        "chinese": "屠宰场",
+        "english": "slaughterhouse"
       },
-      "example": "Het slachthuis is buiten de stad.",
-      "example_translation": "屠宰场在城外。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "slachthuis",
+          "plural": "slachthuizen"
+        }
+      },
+      "examples": [
+        "Het slachthuis is buiten de stad.",
+        "Het slachthuis wordt gesloten."
+      ],
+      "exampleTranslations": {
+        "chinese": ["屠宰场在城外。", "屠宰场关闭了。"],
+        "english": ["The slaughterhouse is outside the city.", "The slaughterhouse is closed."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5325,
       "word": "slachtoffer",
-      "pos": "noun",
-      "meaning": "受害者",
-      "word_forms": {
-        "singular": "slachtoffer",
-        "plural": "slachtoffers"
+      "translation": {
+        "chinese": "受害者",
+        "english": "victim"
       },
-      "example": "De slachtoffers werden geholpen.",
-      "example_translation": "受害者们得到了帮助。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "slachtoffer",
+          "plural": "slachtoffers"
+        }
+      },
+      "examples": [
+        "De slachtoffers werden geholpen.",
+        "Er waren veel slachtoffers."
+      ],
+      "exampleTranslations": {
+        "chinese": ["受害者们得到了帮助。", "有很多受害者。"],
+        "english": ["The victims were helped.", "There were many victims."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5326,
       "word": "snuffelen",
-      "pos": "verb",
-      "meaning": "嗅闻,打听",
-      "word_forms": {
-        "infinitive": "snuffelen",
-        "present": "snuffelt",
-        "past": "snuffelde",
-        "participle": "gesnuffeld"
+      "translation": {
+        "chinese": "嗅闻,打听",
+        "english": "to sniff, to snoop"
       },
-      "example": "De hond snuffelt aan de grond.",
-      "example_translation": "狗在嗅地面。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "snuffelen",
+          "present": [
+            "ik snuffel",
+            "jij snuffelt",
+            "hij/zij/het snuffelt",
+            "wii snuffelen",
+            "jullie snuffelen",
+            "zij snuffelen"
+          ],
+          "past": [
+            "ik snuffelde",
+            "jij snuffelde",
+            "hij/zij/het snuffelde",
+            "wii snuffelden",
+            "jullie snuffelden",
+            "zij snuffelden"
+          ],
+          "perfect": "ik heb gesnuffeld",
+          "participle": "gesnuffeld"
+        }
+      },
+      "examples": [
+        "De hond snuffelt aan de grond.",
+        "Hij snuffelt in mijn spullen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["狗在嗅地面。", "他在我东西里乱翻。"],
+        "english": ["The dog sniffs the ground.", "He snoops around in my stuff."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5327,
       "word": "sollicitant",
-      "pos": "noun",
-      "meaning": "求职者,申请人",
-      "word_forms": {
-        "singular": "sollicitant",
-        "plural": "sollicitanten"
+      "translation": {
+        "chinese": "求职者,申请人",
+        "english": "applicant, job seeker"
       },
-      "example": "De sollicitant had veel ervaring.",
-      "example_translation": "这位求职者有很多经验。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "sollicitant",
+          "plural": "sollicitanten"
+        }
+      },
+      "examples": [
+        "De sollicitant had veel ervaring.",
+        "Sollicitanten mogen solliciteren."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这位求职者有很多经验。", "求职者可以申请。"],
+        "english": ["The applicant had much experience.", "Applicants can apply."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5328,
       "word": "soortgelijk",
-      "pos": "adjective",
-      "meaning": "类似的,相似的",
-      "word_forms": {
-        "positive": "soortgelijk",
-        "comparative": "soortgelijker"
+      "translation": {
+        "chinese": "类似的,相似的",
+        "english": "similar, of the same kind"
       },
-      "example": "Ik heb soortgelijke problemen.",
-      "example_translation": "我有类似的问题。"
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "soortgelijk",
+          "comparative": "soortgelijker",
+          "superlative": "soortgelijkst"
+        }
+      },
+      "examples": [
+        "Ik heb soortgelijke problemen.",
+        "Er zijn soortgelijke gevallen."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我有类似的问题。", "有类似的案例。"],
+        "english": ["I have similar problems.", "There are similar cases."]
+      },
+      "notes": "形容词",
+      "difficulty": "B2"
     },
     {
       "id": 5329,
       "word": "speculatie",
-      "pos": "noun",
-      "meaning": "推测,投机",
-      "word_forms": {
-        "singular": "speculatie",
-        "plural": "speculaties"
+      "translation": {
+        "chinese": "推测,投机",
+        "english": "speculation"
       },
-      "example": "Er is veel speculatie over de toekomst.",
-      "example_translation": "关于未来有很多推测。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "speculatie",
+          "plural": "speculaties"
+        }
+      },
+      "examples": [
+        "Er is veel speculatie over de toekomst.",
+        "De speculatie is ongegrond."
+      ],
+      "exampleTranslations": {
+        "chinese": ["关于未来有很多推测。", "推测没有根据。"],
+        "english": ["There's much speculation about the future.", "The speculation is unfounded."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5330,
       "word": "speelplaats",
-      "pos": "noun",
-      "meaning": "操场",
-      "word_forms": {
-        "singular": "speelplaats",
-        "plural": "speelplaatsen"
+      "translation": {
+        "chinese": "操场",
+        "english": "playground"
       },
-      "example": "De kinderen spelen op de speelplaats.",
-      "example_translation": "孩子们在操场上玩耍。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "speelplaats",
+          "plural": "speelplaatsen"
+        }
+      },
+      "examples": [
+        "De kinderen spelen op de speelplaats.",
+        "De speelplaats is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": ["孩子们在操场上玩耍。", "操场很大。"],
+        "english": ["The children play on the playground.", "The playground is large."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5331,
       "word": "spelen vals",
-      "pos": "phrasal verb",
-      "meaning": "作弊,作假",
-      "word_forms": {
-        "infinitive": "spelen vals",
-        "present": "speelt vals",
-        "past": "speelde vals",
-        "participle": "vals gespeeld"
+      "translation": {
+        "chinese": "作弊,作假",
+        "english": "to cheat, to play unfairly"
       },
-      "example": "Hij speelde vals tijdens het spel.",
-      "example_translation": "他在游戏中作弊了。"
+      "partOfSpeech": "phrasal verb",
+      "forms": {
+        "verb": {
+          "infinitive": "spelen vals",
+          "present": [
+            "ik speel vals",
+            "jij speelt vals",
+            "hij/zij/het speelt vals",
+            "wii spelen vals",
+            "jullie spelen vals",
+            "zij spelen vals"
+          ],
+          "past": [
+            "ik speelde vals",
+            "jij speelde vals",
+            "hij/zij/het speelde vals",
+            "wii speelden vals",
+            "jullie speelden vals",
+            "zij speelden vals"
+          ],
+          "perfect": "ik heb vals gespeeld",
+          "participle": "vals gespeeld"
+        }
+      },
+      "examples": [
+        "Hij speelde vals tijdens het spel.",
+        "Speel nooit vals!"
+      ],
+      "exampleTranslations": {
+        "chinese": ["他在游戏中作弊了。", "永远不要作弊!"],
+        "english": ["He cheated during the game.", "Never cheat!"]
+      },
+      "notes": "短语动词",
+      "difficulty": "B2"
     },
     {
       "id": 5332,
       "word": "speurtocht",
-      "pos": "noun",
-      "meaning": "搜索,寻宝游戏",
-      "word_forms": {
-        "singular": "speurtocht",
-        "plural": "speurtochten"
+      "translation": {
+        "chinese": "搜索,寻宝游戏",
+        "english": "treasure hunt, search"
       },
-      "example": "De kinderen gingen op speurtocht.",
-      "example_translation": "孩子们去寻宝了。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "speurtocht",
+          "plural": "speurtochten"
+        }
+      },
+      "examples": [
+        "De kinderen gingen op speurtocht.",
+        "De speurtocht was spannend."
+      ],
+      "exampleTranslations": {
+        "chinese": ["孩子们去寻宝了。", "寻宝游戏很刺激。"],
+        "english": ["The children went on a treasure hunt.", "The treasure hunt was exciting."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5333,
       "word": "sportschool",
-      "pos": "noun",
-      "meaning": "健身房,武术学校",
-      "word_forms": {
-        "singular": "sportschool",
-        "plural": "sportscholen"
+      "translation": {
+        "chinese": "健身房,武术学校",
+        "english": "gym, martial arts school"
       },
-      "example": "Ik ga drie keer per week naar de sportschool.",
-      "example_translation": "我每周去三次健身房。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "sportschool",
+          "plural": "sportscholen"
+        }
+      },
+      "examples": [
+        "Ik ga drie keer per week naar de sportschool.",
+        "De sportschool zit vol."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我每周去三次健身房。", "健身房满了。"],
+        "english": ["I go to the gym three times a week.", "The gym is full."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5334,
       "word": "sprankelen",
-      "pos": "verb",
-      "meaning": "闪耀,闪烁",
-      "word_forms": {
-        "infinitive": "sprankelen",
-        "present": "sprankelt",
-        "past": "sprankelde",
-        "participle": "gesprankeld"
+      "translation": {
+        "chinese": "闪耀,闪烁",
+        "english": "to glitter, to sparkle"
       },
-      "example": "De diamanten sprankelen in het licht.",
-      "example_translation": "钻石在光线下闪耀。"
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "sprankelen",
+          "present": [
+            "ik sprankel",
+            "jij sprankelt",
+            "hij/zij/het sprankelt",
+            "wii sprankelen",
+            "jullie sprankelen",
+            "zij sprankelen"
+          ],
+          "past": [
+            "ik sprankelde",
+            "jij sprankelde",
+            "hij/zij/het sprankelde",
+            "wii sprankelden",
+            "jullie sprankelden",
+            "zij sprankelden"
+          ],
+          "perfect": "ik heb gesprankeld",
+          "participle": "gesprankeld"
+        }
+      },
+      "examples": [
+        "De diamanten sprankelen in het licht.",
+        "De kerstverlichting sprankelt."
+      ],
+      "exampleTranslations": {
+        "chinese": ["钻石在光线下闪耀。", "圣诞灯在闪烁。"],
+        "english": ["The diamonds sparkle in the light.", "The Christmas lights glitter."]
+      },
+      "notes": "不可分动词",
+      "difficulty": "B2"
     },
     {
       "id": 5335,
       "word": "spreekbeurt",
-      "pos": "noun",
-      "meaning": "发言机会",
-      "word_forms": {
-        "singular": "spreekbeurt",
-        "plural": "spreekbeurten"
+      "translation": {
+        "chinese": "发言机会",
+        "english": "speaking turn"
       },
-      "example": "Krijg ik een spreekbeurt?",
-      "example_translation": "我能发言吗?"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "spreekbeurt",
+          "plural": "spreekbeurten"
+        }
+      },
+      "examples": [
+        "Krijg ik een spreekbeurt?",
+        "Iedereen krijgt een spreekbeurt."
+      ],
+      "exampleTranslations": {
+        "chinese": ["我能发言吗?", "每个人都能发言。"],
+        "english": ["Can I have a speaking turn?", "Everyone gets a speaking turn."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5336,
       "word": "spreektaal",
-      "pos": "noun",
-      "meaning": "口语",
-      "word_forms": {
-        "singular": "spreektaal",
-        "plural": "spreektalen"
+      "translation": {
+        "chinese": "口语",
+        "english": "spoken language"
       },
-      "example": "De spreektaal verschilt van de geschreven taal.",
-      "example_translation": "口语与书面语不同。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "spreektaal",
+          "plural": "spreektalen"
+        }
+      },
+      "examples": [
+        "De spreektaal verschilt van de geschreven taal.",
+        "Hij spreekt vloeiend de spreektaal."
+      ],
+      "exampleTranslations": {
+        "chinese": ["口语与书面语不同。", "他口语流利。"],
+        "english": ["Spoken language differs from written language.", "He speaks the spoken language fluently."]
+      },
+      "notes": "阴性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5337,
       "word": "spreekwoord",
-      "pos": "noun",
-      "meaning": "谚语",
-      "word_forms": {
-        "singular": "spreekwoord",
-        "plural": "spreekwoorden"
+      "translation": {
+        "chinese": "谚语",
+        "english": "proverb, saying"
       },
-      "example": "Dat is een bekend spreekwoord.",
-      "example_translation": "这是一个著名的谚语。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "spreekwoord",
+          "plural": "spreekwoorden"
+        }
+      },
+      "examples": [
+        "Dat is een bekend spreekwoord.",
+        "Mijn oma gebruikt veel spreekwoorden."
+      ],
+      "exampleTranslations": {
+        "chinese": ["这是一个著名的谚语。", "我祖母经常使用谚语。"],
+        "english": ["That is a well-known proverb.", "My grandmother uses many proverbs."]
+      },
+      "notes": "中性名词",
+      "difficulty": "B2"
     },
     {
       "id": 5338,
       "word": "springstof",
-      "pos": "noun",
-      "meaning": "炸药",
-      "word_forms": {
-        "singular": "springstof",
-        "plural": "springstoffen"
+      "translation": {
+        "chinese": "炸药",
+        "english": "explosive"
       },
-      "example": "Het springstof werd onschadelijk gemaakt.",
-      "example_translation": "炸药已经被排除危险。"
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "springstof",
+          "plural": "springstoffen"
+        }
+      },
+      "examples": [
+        "Het springstof werd onschadelijk gemaakt.",
+        "De politie vond springstof."
+      ],
+      "exampleTranslations": {
+        "chinese": ["炸药已经被排除危险。", "警方发现了炸药。"],
+        "english": ["The explosive was safely disposed.", "The police found explosives."]
+      },
+      "notes": "阳性名词",
+      "difficulty": "B2"
     }
   ]
 }

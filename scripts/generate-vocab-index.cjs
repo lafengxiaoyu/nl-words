@@ -49,7 +49,7 @@ function getWordInfo(word) {
   const translation = word.translation || {};
   return {
     word: word.word,
-    translation: translation.chinese || translation.english || '',
+    translation: translation,
     partOfSpeech: word.partOfSpeech || word.pos || 'unknown'
   };
 }
@@ -203,16 +203,40 @@ function generateWordsJson(lessons) {
     if (!data || !data.words) continue;
 
     for (const word of data.words) {
-      const wordInfo = getWordInfo(word);
+      // 处理两种不同的数据格式
+      const isOldFormat = word.meaning !== undefined || word.example !== undefined;
+      let translation, examples, exampleTranslations, partOfSpeech;
+
+      if (isOldFormat) {
+        // 旧格式（B2级别）
+        translation = {
+          chinese: word.meaning || '',
+          english: word.english || ''
+        };
+        examples = word.example ? [word.example] : [];
+        exampleTranslations = word.example_translation ? {
+          chinese: [word.example_translation],
+          english: []
+        } : {};
+        partOfSpeech = word.partOfSpeech || word.pos || 'other';
+      } else {
+        // 新格式（A1/B1级别）
+        const wordInfo = getWordInfo(word);
+        translation = typeof wordInfo.translation === 'object'
+          ? wordInfo.translation
+          : { chinese: wordInfo.translation, english: '' };
+        examples = word.examples || [];
+        exampleTranslations = word.exampleTranslations || {};
+        partOfSpeech = wordInfo.partOfSpeech;
+      }
+
       allWords.push({
         id: currentId++,
-        word: wordInfo.word,
-        translation: typeof wordInfo.translation === 'object'
-          ? wordInfo.translation
-          : { chinese: wordInfo.translation, english: '' },
-        partOfSpeech: wordInfo.partOfSpeech,
-        examples: word.examples || [],
-        exampleTranslations: word.exampleTranslations || {},
+        word: word.word,
+        translation: translation,
+        partOfSpeech: partOfSpeech,
+        examples: examples,
+        exampleTranslations: exampleTranslations,
         notes: word.notes || '',
         difficulty: lesson.level.toUpperCase()
       });
