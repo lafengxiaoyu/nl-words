@@ -107,7 +107,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "decentraal",
+          "base": "decentraal",
+          "withDe": "decentraale",
+          "withHet": "decentraal",
           "comparative": "decenter",
           "superlative": "decenst"
         }
@@ -269,7 +271,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "depressief",
+          "base": "depressief",
+          "withDe": "depressiefe",
+          "withHet": "depressief",
           "comparative": "depressiever",
           "superlative": "depressiefst"
         }
@@ -301,7 +305,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "deprimerend",
+          "base": "deprimerend",
+          "withDe": "deprimerende",
+          "withHet": "deprimerende",
           "comparative": "deprimerender",
           "superlative": "deprimerendst"
         }
@@ -1115,7 +1121,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "draconisch",
+          "base": "draconisch",
+          "withDe": "draconische",
+          "withHet": "draconisch",
           "comparative": "draconischer",
           "superlative": "draconischst"
         }

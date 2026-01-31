@@ -111,6 +111,8 @@
       "forms": {
         "adjective": {
           "base": "overtollig",
+          "withDe": "overtollige",
+          "withHet": "overtollig",
           "comparative": "overtolliger",
           "superlative": "overtolligst"
         }
@@ -303,6 +305,8 @@
       "forms": {
         "adjective": {
           "base": "overtuigend",
+          "withDe": "overtuigende",
+          "withHet": "overtuigende",
           "comparative": "overtuigender",
           "superlative": "overtuigendst"
         }
@@ -335,6 +339,8 @@
       "forms": {
         "adjective": {
           "base": "oververhit",
+          "withDe": "oververhite",
+          "withHet": "oververhite",
           "comparative": "oververheter",
           "superlative": "oververhitst"
         }

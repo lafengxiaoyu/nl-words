@@ -108,7 +108,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "geavanceerd",
+          "base": "geavanceerd",
+          "withDe": "geavanceerde",
+          "withHet": "geavanceerd",
           "comparative": "geavanceerder",
           "superlative": "geavanceerdst"
         }
@@ -172,7 +174,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "geblesseerd",
+          "base": "geblesseerd",
+          "withDe": "geblesseerde",
+          "withHet": "geblesseerd",
           "comparative": "geblesseerder",
           "superlative": "geblesseerdst"
         }
@@ -268,7 +272,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "gefundeerd",
+          "base": "gefundeerd",
+          "withDe": "gefundeerde",
+          "withHet": "gefundeerd",
           "comparative": "gefundeerder",
           "superlative": "gefundeerdst"
         }
@@ -365,7 +371,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "gelijkmatig",
+          "base": "gelijkmatig",
+          "withDe": "gelijkmatige",
+          "withHet": "gelijkmatig",
           "comparative": "gelijkmatiger",
           "superlative": "gelijkmatigst"
         }
@@ -397,7 +405,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "geluiddicht",
+          "base": "geluiddicht",
+          "withDe": "geluiddichte",
+          "withHet": "geluiddicht",
           "comparative": "geluiddichter",
           "superlative": "geluiddichtst"
         }
@@ -557,7 +567,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "gemoedelijk",
+          "base": "gemoedelijk",
+          "withDe": "gemoedelijke",
+          "withHet": "gemoedelijk",
           "comparative": "gemoedelijker",
           "superlative": "gemoedelijkst"
         }
@@ -653,7 +665,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "genoodzaakt",
+          "base": "genoodzaakt",
+          "withDe": "genoodzaakte",
+          "withHet": "genoodzaakte",
           "comparative": "genoodzaakter",
           "superlative": "genoodzaaktst"
         }
@@ -717,7 +731,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "genuanceerd",
+          "base": "genuanceerd",
+          "withDe": "genuanceerde",
+          "withHet": "genuanceerd",
           "comparative": "genuanceerder",
           "superlative": "genuanceerdst"
         }
@@ -749,7 +765,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "geoorloofd",
+          "base": "geoorloofd",
+          "withDe": "geoorloofde",
+          "withHet": "geoorloofde",
           "comparative": "geoorloorder",
           "superlative": "geoorloofdst"
         }
@@ -813,7 +831,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "gescheiden",
+          "base": "gescheiden",
+          "withDe": "gescheidene",
+          "withHet": "gescheidene",
           "comparative": "gescheidener",
           "superlative": "gescheidst"
         }
@@ -1006,7 +1026,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "gevarieerd",
+          "base": "gevarieerd",
+          "withDe": "gevarieerde",
+          "withHet": "gevarieerd",
           "comparative": "gevarieerder",
           "superlative": "gevarieerdst"
         }
@@ -1038,7 +1060,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "gewelddadig",
+          "base": "gewelddadig",
+          "withDe": "gewelddadige",
+          "withHet": "gewelddadig",
           "comparative": "gewelddadiger",
           "superlative": "gewelddadigst"
         }
@@ -1070,7 +1094,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "gewetensvol",
+          "base": "gewetensvol",
+          "withDe": "gewetensvole",
+          "withHet": "gewetensvol",
           "comparative": "gewetensvoller",
           "superlative": "gewetensvolst"
         }
@@ -1102,7 +1128,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "gigantisch",
+          "base": "gigantisch",
+          "withDe": "gigantische",
+          "withHet": "gigantisch",
           "comparative": "gigantischer",
           "superlative": "gigantischst"
         }
@@ -1198,7 +1226,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "gloednieuw",
+          "base": "gloednieuw",
+          "withDe": "gloednieuwe",
+          "withHet": "gloednieuw",
           "comparative": "gloednieuwer",
           "superlative": "gloednieuwst"
         }
@@ -1263,7 +1293,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "goedhartig",
+          "base": "goedhartig",
+          "withDe": "goedhartige",
+          "withHet": "goedhartig",
           "comparative": "goedhartiger",
           "superlative": "goedhartigst"
         }
@@ -1360,7 +1392,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "gordelroos",
+          "base": "gordelroos",
+          "withDe": "gordelroose",
+          "withHet": "gordelroos",
           "comparative": "gordelrooser",
           "superlative": "gordelroosst"
         }

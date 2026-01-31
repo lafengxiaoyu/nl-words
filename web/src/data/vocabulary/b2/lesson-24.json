@@ -79,6 +79,8 @@
       "forms": {
         "adjective": {
           "base": "tegendraads",
+          "withDe": "tegendraadse",
+          "withHet": "tegendraads",
           "comparative": "tegendraadser",
           "superlative": "tegendraadst"
         }
@@ -1255,6 +1257,8 @@
       "forms": {
         "adjective": {
           "base": "toepasbaar",
+          "withDe": "toepasbaare",
+          "withHet": "toepasbaar",
           "comparative": "toepasbaarder",
           "superlative": "toepasbaarst"
         }
@@ -1287,6 +1291,8 @@
       "forms": {
         "adjective": {
           "base": "toereikend",
+          "withDe": "toereikende",
+          "withHet": "toereikende",
           "comparative": "toereikender",
           "superlative": "toereikendst"
         }
@@ -1527,6 +1533,8 @@
       "forms": {
         "adjective": {
           "base": "ton-sur-toon",
+          "withDe": "ton-sur-toon",
+          "withHet": "ton-sur-toon",
           "comparative": "ton-sur-toon",
           "superlative": "ton-sur-toon"
         }

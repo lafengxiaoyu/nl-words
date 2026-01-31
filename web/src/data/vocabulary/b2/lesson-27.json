@@ -194,7 +194,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "vastberaden",
+          "base": "vastberaden",
+          "withDe": "vastberadene",
+          "withHet": "vastberadene",
           "comparative": "vastberadener",
           "superlative": "vastberadenst"
         }
@@ -450,7 +452,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "vastomlijnd",
+          "base": "vastomlijnd",
+          "withDe": "vastomlijnde",
+          "withHet": "vastomlijnd",
           "comparative": "vastomlijnder",
           "superlative": "vastomlijndst"
         }
@@ -714,7 +718,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "veeleisend",
+          "base": "veeleisend",
+          "withDe": "veeleisende",
+          "withHet": "veeleisende",
           "comparative": "veeleisender",
           "superlative": "veeleisendst"
         }
@@ -772,7 +778,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "veelzijdig",
+          "base": "veelzijdig",
+          "withDe": "veelzijdige",
+          "withHet": "veelzijdig",
           "comparative": "veelzijdiger",
           "superlative": "veelzijdigst"
         }
@@ -804,7 +812,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "vegetarisch",
+          "base": "vegetarisch",
+          "withDe": "vegetarische",
+          "withHet": "vegetarisch",
           "comparative": "vegetarischer",
           "superlative": "vegetarischst"
         }
@@ -1012,9 +1022,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "verantwoord",
-          "comparative": "verantwoorder",
-          "superlative": "verantwoordst"
+          "base": "verantwoord",
+          "withDe": "verantwoorde",
+          "withHet": "verantwoord",
+          "comparative": "verantwoordelijker",
+          "superlative": "verantwoordelijkst"
         }
       },
       "examples": [
@@ -1108,7 +1120,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "verbitterd",
+          "base": "verbitterd",
+          "withDe": "verbitterde",
+          "withHet": "verbitterd",
           "comparative": "verbitterder",
           "superlative": "verbitterdst"
         }
@@ -1428,7 +1442,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "verdrietig",
+          "base": "verdrietig",
+          "withDe": "verdrietige",
+          "withHet": "verdrietig",
           "comparative": "verdrietiger",
           "superlative": "verdrietigst"
         }
@@ -1772,7 +1788,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "verfrissend",
+          "base": "verfrissend",
+          "withDe": "verfrissende",
+          "withHet": "verfrissende",
           "comparative": "verfrissender",
           "superlative": "verfrissendst"
         }

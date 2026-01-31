@@ -862,7 +862,7 @@
         "adjective": {
           "base": "welgemeend",
           "withDe": "welgemeende",
-          "withHet": "welgemeend",
+          "withHet": "welgemeende",
           "comparative": "-",
           "superlative": "-"
         }
@@ -1536,7 +1536,7 @@
         "adjective": {
           "base": "zelfrijdend",
           "withDe": "zelfrijdende",
-          "withHet": "zelfrijdend",
+          "withHet": "zelfrijdende",
           "comparative": "-",
           "superlative": "-"
         }
@@ -2097,10 +2097,15 @@
         "english": "careful, meticulous"
       },
       "partOfSpeech": "adjective",
-      "forms": [
-        "zorgvuldiger",
-        "zorgvuldigst"
-      ],
+      "forms": {
+        "adjective": {
+          "base": "zorgvuldig",
+          "withDe": "zorgvuldige",
+          "withHet": "zorgvuldig",
+          "comparative": "zorgvuldiger",
+          "superlative": "zorgvuldigst"
+        }
+      },
       "level": "B2",
       "examples": [
         "Het werk moet zorgvuldig worden uitgevoerd.",
@@ -2131,7 +2136,7 @@
         "adjective": {
           "base": "zorgwekkend",
           "withDe": "zorgwekkende",
-          "withHet": "zorgwekkend",
+          "withHet": "zorgwekkende",
           "comparative": "meer zorgwekkend",
           "superlative": "meest zorgwekkend"
         }
@@ -2166,7 +2171,7 @@
         "adjective": {
           "base": "zwaarwegend",
           "withDe": "zwaarwegende",
-          "withHet": "zwaarwegend",
+          "withHet": "zwaarwegende",
           "comparative": "meer zwaarwegend",
           "superlative": "meest zwaarwegend"
         }

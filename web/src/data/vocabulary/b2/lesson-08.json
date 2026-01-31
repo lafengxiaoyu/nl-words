@@ -236,7 +236,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "eigentijds",
+          "base": "eigentijds",
+          "withDe": "eigentijdse",
+          "withHet": "eigentijds",
           "comparative": "eigentijdser",
           "superlative": "eigentijdst"
         }
@@ -268,7 +270,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "eigenzinnig",
+          "base": "eigenzinnig",
+          "withDe": "eigenzinnige",
+          "withHet": "eigenzinnig",
           "comparative": "eigenzinniger",
           "superlative": "eigenzinnigst"
         }
@@ -332,7 +336,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "elementair",
+          "base": "elementair",
+          "withDe": "elementaire",
+          "withHet": "elementair",
           "comparative": "elementairder",
           "superlative": "elementairst"
         }
@@ -426,7 +432,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "enthousiast",
+          "base": "enthousiast",
+          "withDe": "enthousiaste",
+          "withHet": "enthousiast",
           "comparative": "enthousiaster",
           "superlative": "enthousiastst"
         }
@@ -490,7 +498,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "equivalent",
+          "base": "equivalent",
+          "withDe": "equivalente",
+          "withHet": "equivalent",
           "comparative": "equivalenter",
           "superlative": "equivalentst"
         }
@@ -522,7 +532,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "erkentelijk",
+          "base": "erkentelijk",
+          "withDe": "erkentelijke",
+          "withHet": "erkentelijk",
           "comparative": "erkentelijker",
           "superlative": "erkentelijkst"
         }
@@ -584,7 +596,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "esthetisch",
+          "base": "esthetisch",
+          "withDe": "esthetische",
+          "withHet": "esthetisch",
           "comparative": "esthetischer",
           "superlative": "esthetischst"
         }
@@ -681,7 +695,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "fascinerend",
+          "base": "fascinerend",
+          "withDe": "fascinerende",
+          "withHet": "fascinerende",
           "comparative": "fascinerender",
           "superlative": "fascinerendst"
         }
@@ -713,7 +729,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "fatsoenlijk",
+          "base": "fatsoenlijk",
+          "withDe": "fatsoenlijke",
+          "withHet": "fatsoenlijk",
           "comparative": "fatsoenlijker",
           "superlative": "fatsoenlijkst"
         }
@@ -745,7 +763,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "feeksachtig",
+          "base": "feeksachtig",
+          "withDe": "feeksachtige",
+          "withHet": "feeksachtig",
           "comparative": "feeksachtiger",
           "superlative": "feeksachtigst"
         }
@@ -777,7 +797,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "felbegeerd",
+          "base": "felbegeerd",
+          "withDe": "felbegeerde",
+          "withHet": "felbegeerd",
           "comparative": "felbegeerder",
           "superlative": "felbegeerdst"
         }
@@ -875,7 +897,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "frauduleus",
+          "base": "frauduleus",
+          "withDe": "frauduleuse",
+          "withHet": "frauduleus",
           "comparative": "frauduleuzer",
           "superlative": "frauduleuzest"
         }

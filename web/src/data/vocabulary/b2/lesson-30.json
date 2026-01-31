@@ -489,10 +489,15 @@
         "english": "inventive, resourceful"
       },
       "partOfSpeech": "adjective",
-      "forms": [
-        "vindingrijker",
-        "vindingrijkst"
-      ],
+      "forms": {
+        "adjective": {
+          "base": "vindingrijk",
+          "withDe": "vindingrijke",
+          "withHet": "vindingrijk",
+          "comparative": "vindingrijker",
+          "superlative": "vindingrijkst"
+        }
+      },
       "level": "B2",
       "examples": [
         "Hij is een vindingrijk uitvinder.",
@@ -677,10 +682,15 @@
         "english": "flawless, perfect"
       },
       "partOfSpeech": "adjective",
-      "forms": [
-        "vlekkelozer",
-        "vlekkeloost"
-      ],
+      "forms": {
+        "adjective": {
+          "base": "vlekkeloos",
+          "withDe": "vlekkeloze",
+          "withHet": "vlekkeloos",
+          "comparative": "vlekkelozer",
+          "superlative": "vlekkeloost"
+        }
+      },
       "level": "B2",
       "examples": [
         "De prestatie was vlekkeloos.",
@@ -1084,10 +1094,15 @@
         "english": "persistent, persevering"
       },
       "partOfSpeech": "adjective",
-      "forms": [
-        "volhardender",
-        "volhardendst"
-      ],
+      "forms": {
+        "adjective": {
+          "base": "volhardend",
+          "withDe": "volhardende",
+          "withHet": "volhardende",
+          "comparative": "volhardender",
+          "superlative": "volhardendst"
+        }
+      },
       "level": "B2",
       "examples": [
         "Zij is volhardend.",
@@ -1250,10 +1265,15 @@
         "english": "full-fledged, proper"
       },
       "partOfSpeech": "adjective",
-      "forms": [
-        "volwaardiger",
-        "volwaardigst"
-      ],
+      "forms": {
+        "adjective": {
+          "base": "volwaardig",
+          "withDe": "volwaardige",
+          "withHet": "volwaardig",
+          "comparative": "volwaardiger",
+          "superlative": "volwaardigst"
+        }
+      },
       "level": "B2",
       "examples": [
         "Het is een volwaardig artikel.",
@@ -1307,10 +1327,15 @@
         "english": "preceding, prior"
       },
       "partOfSpeech": "adjective",
-      "forms": [
-        "voorafgaander",
-        "voorafgaandst"
-      ],
+      "forms": {
+        "adjective": {
+          "base": "voorafgaand",
+          "withDe": "voorafgaande",
+          "withHet": "voorafgaande",
+          "comparative": "voorafgaander",
+          "superlative": "voorafgaandst"
+        }
+      },
       "level": "B2",
       "examples": [
         "Het was een voorafgaande beslissing.",
@@ -1558,10 +1583,15 @@
         "english": "available, present"
       },
       "partOfSpeech": "adjective",
-      "forms": [
-        "voorhandener",
-        "voorhandenst"
-      ],
+      "forms": {
+        "adjective": {
+          "base": "voorhanden",
+          "withDe": "voorhandene",
+          "withHet": "voorhandene",
+          "comparative": "voorhandener",
+          "superlative": "voorhandenst"
+        }
+      },
       "level": "B2",
       "examples": [
         "Is het geld voorhanden?",

@@ -102,7 +102,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "vergezocht",
+          "base": "vergezocht",
+          "withDe": "vergezochte",
+          "withHet": "vergezochte",
           "comparative": "vergezochter",
           "superlative": "vergezochtst"
         }
@@ -862,7 +864,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "verkwikkend",
+          "base": "verkwikkend",
+          "withDe": "verkwikkende",
+          "withHet": "verkwikkende",
           "comparative": "verkwikkender",
           "superlative": "verkwikkendst"
         }
@@ -894,7 +898,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "verlammend",
+          "base": "verlammend",
+          "withDe": "verlammende",
+          "withHet": "verlammende",
           "comparative": "verlammender",
           "superlative": "verlammendst"
         }
@@ -1070,7 +1076,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "vermakelijk",
+          "base": "vermakelijk",
+          "withDe": "vermakelijke",
+          "withHet": "vermakelijk",
           "comparative": "vermakelijker",
           "superlative": "vermakelijkst"
         }
@@ -1158,7 +1166,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "vermoeiend",
+          "base": "vermoeiend",
+          "withDe": "vermoeiende",
+          "withHet": "vermoeiende",
           "comparative": "vermoeiender",
           "superlative": "vermoeiendst"
         }
@@ -1334,7 +1344,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "vernieuwend",
+          "base": "vernieuwend",
+          "withDe": "vernieuwende",
+          "withHet": "vernieuwende",
           "comparative": "vernieuwender",
           "superlative": "vernieuwendst"
         }
@@ -1510,7 +1522,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "verregaand",
+          "base": "verregaand",
+          "withDe": "verregaande",
+          "withHet": "verregaand",
           "comparative": "verregaander",
           "superlative": "verregaandst"
         }

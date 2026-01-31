@@ -117631,8 +117631,8 @@
     "forms": {
       "adjective": {
         "base": "aangeboren",
-        "withDe": "aangeboren",
-        "withHet": "aangeboren",
+        "withDe": "aangeborene",
+        "withHet": "aangeborene",
         "comparative": "-",
         "superlative": "-"
       }
@@ -117665,8 +117665,8 @@
     "forms": {
       "adjective": {
         "base": "aangeslagen",
-        "withDe": "aangeslagen",
-        "withHet": "aangeslagen",
+        "withDe": "aangeslagene",
+        "withHet": "aangeslagene",
         "comparative": "-",
         "superlative": "-"
       }
@@ -118152,7 +118152,7 @@
       "adjective": {
         "base": "aanzienlijk",
         "withDe": "aanzienlijke",
-        "withHet": "aanzienlijke",
+        "withHet": "aanzienlijk",
         "comparative": "aanzienlijker",
         "superlative": "het aanzienlijkst"
       }
@@ -118391,7 +118391,7 @@
       "adjective": {
         "base": "achterhaald",
         "withDe": "achterhaalde",
-        "withHet": "achterhaalde",
+        "withHet": "achterhaald",
         "comparative": "-",
         "superlative": "-"
       }
@@ -118503,7 +118503,7 @@
       "adjective": {
         "base": "achterlijk",
         "withDe": "achterlijke",
-        "withHet": "achterlijke",
+        "withHet": "achterlijk",
         "comparative": "achterlijker",
         "superlative": "het achterlijkst"
       }
@@ -118758,7 +118758,7 @@
       "adjective": {
         "base": "afgezonderd",
         "withDe": "afgezonderde",
-        "withHet": "afgezonderde",
+        "withHet": "afgezonderd",
         "comparative": "-",
         "superlative": "-"
       }
@@ -119068,7 +119068,7 @@
       "adjective": {
         "base": "allergisch",
         "withDe": "allergische",
-        "withHet": "allergische",
+        "withHet": "allergisch",
         "comparative": "allergischer",
         "superlative": "het allergischst"
       }
@@ -119263,7 +119263,7 @@
       "adjective": {
         "base": "anekdotisch",
         "withDe": "anekdotische",
-        "withHet": "anekdotische",
+        "withHet": "anekdotisch",
         "comparative": "-",
         "superlative": "-"
       }
@@ -119457,7 +119457,7 @@
       "adjective": {
         "base": "aromatisch",
         "withDe": "aromatische",
-        "withHet": "aromatische",
+        "withHet": "aromatisch",
         "comparative": "aromatischer",
         "superlative": "het aromatischst"
       }
@@ -119787,7 +119787,7 @@
       "adjective": {
         "base": "beeldschoon",
         "withDe": "beeldschoone",
-        "withHet": "beeldschoone",
+        "withHet": "beeldschoon",
         "comparative": "beeldsconer",
         "superlative": "het beeldschoonst"
       }
@@ -119945,7 +119945,7 @@
       "adjective": {
         "base": "behaglijk",
         "withDe": "behaglijke",
-        "withHet": "behaglijke",
+        "withHet": "behaglijk",
         "comparative": "behagelijker",
         "superlative": "het behaglijkst"
       }
@@ -120011,7 +120011,7 @@
       "adjective": {
         "base": "behoorlijk",
         "withDe": "behoorlijke",
-        "withHet": "behoorlijke",
+        "withHet": "behoorlijk",
         "comparative": "behoorlijker",
         "superlative": "het behoorlijkst"
       }
@@ -120089,8 +120089,8 @@
     "forms": {
       "adjective": {
         "base": "behulpzaam",
-        "withDe": "behulpzame",
-        "withHet": "behulpzame",
+        "withDe": "behulpzaame",
+        "withHet": "behulpzaam",
         "comparative": "behulpzamer",
         "superlative": "het behulpzaamst"
       }
@@ -120559,7 +120559,7 @@
       "adjective": {
         "base": "bergachtig",
         "withDe": "bergachtige",
-        "withHet": "bergachtige",
+        "withHet": "bergachtig",
         "comparative": "bergachtiger",
         "superlative": "het bergachtigst"
       }
@@ -121007,7 +121007,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "chagrijnig",
+        "base": "chagrijnig",
+        "withDe": "chagrijnige",
+        "withHet": "chagrijnig",
         "comparative": "chagrijniger",
         "superlative": "chagrijnigst"
       }
@@ -121297,7 +121299,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "contrastief",
+        "base": "contrastief",
+        "withDe": "contrastiefe",
+        "withHet": "contrastief",
         "comparative": "contrastiever",
         "superlative": "contrastiefst"
       }
@@ -121489,7 +121493,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "decentraal",
+        "base": "decentraal",
+        "withDe": "decentraale",
+        "withHet": "decentraal",
         "comparative": "decenter",
         "superlative": "decenst"
       }
@@ -121651,7 +121657,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "depressief",
+        "base": "depressief",
+        "withDe": "depressiefe",
+        "withHet": "depressief",
         "comparative": "depressiever",
         "superlative": "depressiefst"
       }
@@ -121683,7 +121691,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "deprimerend",
+        "base": "deprimerend",
+        "withDe": "deprimerende",
+        "withHet": "deprimerende",
         "comparative": "deprimerender",
         "superlative": "deprimerendst"
       }
@@ -122497,7 +122507,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "draconisch",
+        "base": "draconisch",
+        "withDe": "draconische",
+        "withHet": "draconisch",
         "comparative": "draconischer",
         "superlative": "draconischst"
       }
@@ -122850,7 +122862,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "eigentijds",
+        "base": "eigentijds",
+        "withDe": "eigentijdse",
+        "withHet": "eigentijds",
         "comparative": "eigentijdser",
         "superlative": "eigentijdst"
       }
@@ -122882,7 +122896,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "eigenzinnig",
+        "base": "eigenzinnig",
+        "withDe": "eigenzinnige",
+        "withHet": "eigenzinnig",
         "comparative": "eigenzinniger",
         "superlative": "eigenzinnigst"
       }
@@ -122946,7 +122962,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "elementair",
+        "base": "elementair",
+        "withDe": "elementaire",
+        "withHet": "elementair",
         "comparative": "elementairder",
         "superlative": "elementairst"
       }
@@ -123040,7 +123058,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "enthousiast",
+        "base": "enthousiast",
+        "withDe": "enthousiaste",
+        "withHet": "enthousiast",
         "comparative": "enthousiaster",
         "superlative": "enthousiastst"
       }
@@ -123104,7 +123124,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "equivalent",
+        "base": "equivalent",
+        "withDe": "equivalente",
+        "withHet": "equivalent",
         "comparative": "equivalenter",
         "superlative": "equivalentst"
       }
@@ -123136,7 +123158,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "erkentelijk",
+        "base": "erkentelijk",
+        "withDe": "erkentelijke",
+        "withHet": "erkentelijk",
         "comparative": "erkentelijker",
         "superlative": "erkentelijkst"
       }
@@ -123198,7 +123222,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "esthetisch",
+        "base": "esthetisch",
+        "withDe": "esthetische",
+        "withHet": "esthetisch",
         "comparative": "esthetischer",
         "superlative": "esthetischst"
       }
@@ -123295,7 +123321,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "fascinerend",
+        "base": "fascinerend",
+        "withDe": "fascinerende",
+        "withHet": "fascinerende",
         "comparative": "fascinerender",
         "superlative": "fascinerendst"
       }
@@ -123327,7 +123355,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "fatsoenlijk",
+        "base": "fatsoenlijk",
+        "withDe": "fatsoenlijke",
+        "withHet": "fatsoenlijk",
         "comparative": "fatsoenlijker",
         "superlative": "fatsoenlijkst"
       }
@@ -123359,7 +123389,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "feeksachtig",
+        "base": "feeksachtig",
+        "withDe": "feeksachtige",
+        "withHet": "feeksachtig",
         "comparative": "feeksachtiger",
         "superlative": "feeksachtigst"
       }
@@ -123391,7 +123423,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "felbegeerd",
+        "base": "felbegeerd",
+        "withDe": "felbegeerde",
+        "withHet": "felbegeerd",
         "comparative": "felbegeerder",
         "superlative": "felbegeerdst"
       }
@@ -123489,7 +123523,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "frauduleus",
+        "base": "frauduleus",
+        "withDe": "frauduleuse",
+        "withHet": "frauduleus",
         "comparative": "frauduleuzer",
         "superlative": "frauduleuzest"
       }
@@ -123681,7 +123717,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "geavanceerd",
+        "base": "geavanceerd",
+        "withDe": "geavanceerde",
+        "withHet": "geavanceerd",
         "comparative": "geavanceerder",
         "superlative": "geavanceerdst"
       }
@@ -123745,7 +123783,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "geblesseerd",
+        "base": "geblesseerd",
+        "withDe": "geblesseerde",
+        "withHet": "geblesseerd",
         "comparative": "geblesseerder",
         "superlative": "geblesseerdst"
       }
@@ -123841,7 +123881,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "gefundeerd",
+        "base": "gefundeerd",
+        "withDe": "gefundeerde",
+        "withHet": "gefundeerd",
         "comparative": "gefundeerder",
         "superlative": "gefundeerdst"
       }
@@ -123938,7 +123980,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "gelijkmatig",
+        "base": "gelijkmatig",
+        "withDe": "gelijkmatige",
+        "withHet": "gelijkmatig",
         "comparative": "gelijkmatiger",
         "superlative": "gelijkmatigst"
       }
@@ -123970,7 +124014,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "geluiddicht",
+        "base": "geluiddicht",
+        "withDe": "geluiddichte",
+        "withHet": "geluiddicht",
         "comparative": "geluiddichter",
         "superlative": "geluiddichtst"
       }
@@ -124130,7 +124176,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "gemoedelijk",
+        "base": "gemoedelijk",
+        "withDe": "gemoedelijke",
+        "withHet": "gemoedelijk",
         "comparative": "gemoedelijker",
         "superlative": "gemoedelijkst"
       }
@@ -124226,7 +124274,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "genoodzaakt",
+        "base": "genoodzaakt",
+        "withDe": "genoodzaakte",
+        "withHet": "genoodzaakte",
         "comparative": "genoodzaakter",
         "superlative": "genoodzaaktst"
       }
@@ -124290,7 +124340,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "genuanceerd",
+        "base": "genuanceerd",
+        "withDe": "genuanceerde",
+        "withHet": "genuanceerd",
         "comparative": "genuanceerder",
         "superlative": "genuanceerdst"
       }
@@ -124322,7 +124374,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "geoorloofd",
+        "base": "geoorloofd",
+        "withDe": "geoorloofde",
+        "withHet": "geoorloofde",
         "comparative": "geoorloorder",
         "superlative": "geoorloofdst"
       }
@@ -124386,7 +124440,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "gescheiden",
+        "base": "gescheiden",
+        "withDe": "gescheidene",
+        "withHet": "gescheidene",
         "comparative": "gescheidener",
         "superlative": "gescheidst"
       }
@@ -124579,7 +124635,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "gevarieerd",
+        "base": "gevarieerd",
+        "withDe": "gevarieerde",
+        "withHet": "gevarieerd",
         "comparative": "gevarieerder",
         "superlative": "gevarieerdst"
       }
@@ -124611,7 +124669,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "gewelddadig",
+        "base": "gewelddadig",
+        "withDe": "gewelddadige",
+        "withHet": "gewelddadig",
         "comparative": "gewelddadiger",
         "superlative": "gewelddadigst"
       }
@@ -124643,7 +124703,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "gewetensvol",
+        "base": "gewetensvol",
+        "withDe": "gewetensvole",
+        "withHet": "gewetensvol",
         "comparative": "gewetensvoller",
         "superlative": "gewetensvolst"
       }
@@ -124675,7 +124737,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "gigantisch",
+        "base": "gigantisch",
+        "withDe": "gigantische",
+        "withHet": "gigantisch",
         "comparative": "gigantischer",
         "superlative": "gigantischst"
       }
@@ -124771,7 +124835,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "gloednieuw",
+        "base": "gloednieuw",
+        "withDe": "gloednieuwe",
+        "withHet": "gloednieuw",
         "comparative": "gloednieuwer",
         "superlative": "gloednieuwst"
       }
@@ -124836,7 +124902,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "goedhartig",
+        "base": "goedhartig",
+        "withDe": "goedhartige",
+        "withHet": "goedhartig",
         "comparative": "goedhartiger",
         "superlative": "goedhartigst"
       }
@@ -124933,7 +125001,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "gordelroos",
+        "base": "gordelroos",
+        "withDe": "gordelroose",
+        "withHet": "gordelroos",
         "comparative": "gordelrooser",
         "superlative": "gordelroosst"
       }
@@ -125442,7 +125512,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "hardhoofdig",
+        "base": "hardhoofdig",
+        "withDe": "hardhoofdige",
+        "withHet": "hardhoofdig",
         "comparative": "hardhoofdiger",
         "superlative": "hardhoofdigst"
       }
@@ -125474,7 +125546,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "hardnekkig",
+        "base": "hardnekkig",
+        "withDe": "hardnekkige",
+        "withHet": "hardnekkig",
         "comparative": "hardnekkiger",
         "superlative": "hardnekkigst"
       }
@@ -125538,7 +125612,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "hedendaags",
+        "base": "hedendaags",
+        "withDe": "hedendaagse",
+        "withHet": "hedendaags",
         "comparative": "hedendaagser",
         "superlative": "hedendaagst"
       }
@@ -125635,7 +125711,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "heterogeen",
+        "base": "heterogeen",
+        "withDe": "heterogeene",
+        "withHet": "heterogeene",
         "comparative": "heterogener",
         "superlative": "heterogenst"
       }
@@ -125760,7 +125838,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "holistisch",
+        "base": "holistisch",
+        "withDe": "holistische",
+        "withHet": "holistisch",
         "comparative": "holistischer",
         "superlative": "holistischst"
       }
@@ -125824,7 +125904,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "hoogbejaard",
+        "base": "hoogbejaard",
+        "withDe": "hoogbejaarde",
+        "withHet": "hoogbejaard",
         "comparative": "hoogbejaarder",
         "superlative": "hoogbejaardst"
       }
@@ -125952,7 +126034,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "hoogvaardig",
+        "base": "hoogvaardig",
+        "withDe": "hoogvaardige",
+        "withHet": "hoogvaardig",
         "comparative": "hoogvaardiger",
         "superlative": "hoogvaardigst"
       }
@@ -126048,7 +126132,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "horizontaal",
+        "base": "horizontaal",
+        "withDe": "horizontaale",
+        "withHet": "horizontaal",
         "comparative": "horizontaaler",
         "superlative": "horizontaalst"
       }
@@ -126566,7 +126652,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "ingrijpend",
+        "base": "ingrijpend",
+        "withDe": "ingrijpende",
+        "withHet": "ingrijpende",
         "comparative": "ingrijpender",
         "superlative": "ingrijpendst"
       }
@@ -126598,7 +126686,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "inhoudelijk",
+        "base": "inhoudelijk",
+        "withDe": "inhoudelijke",
+        "withHet": "inhoudelijk",
         "comparative": "inhoudelijker",
         "superlative": "inhoudelijkst"
       }
@@ -126824,7 +126914,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "inspannend",
+        "base": "inspannend",
+        "withDe": "inspannende",
+        "withHet": "inspannende",
         "comparative": "inspannender",
         "superlative": "inspannendst"
       }
@@ -126986,7 +127078,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "intrinsiek",
+        "base": "intrinsiek",
+        "withDe": "intrinsieke",
+        "withHet": "intrinsiek",
         "comparative": "intrinsieker",
         "superlative": "intrinsiekst"
       }
@@ -127148,7 +127242,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "kieskeurig",
+        "base": "kieskeurig",
+        "withDe": "kieskeurige",
+        "withHet": "kieskeurig",
         "comparative": "kieskeuriger",
         "superlative": "kieskeurigst"
       }
@@ -127180,7 +127276,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "kinderlijk",
+        "base": "kinderlijk",
+        "withDe": "kinderlijke",
+        "withHet": "kinderlijk",
         "comparative": "kinderlijker",
         "superlative": "kinderlijkst"
       }
@@ -127310,7 +127408,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "klamvochtig",
+        "base": "klamvochtig",
+        "withDe": "klamvochtige",
+        "withHet": "klamvochtig",
         "comparative": "klamvochtiger",
         "superlative": "klamvochtigst"
       }
@@ -127503,7 +127603,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "knettergek",
+        "base": "knettergek",
+        "withDe": "knettergeke",
+        "withHet": "knettergek",
         "comparative": "knettergeker",
         "superlative": "knettergekst"
       }
@@ -127567,7 +127669,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "koopvaardig",
+        "base": "koopvaardig",
+        "withDe": "koopvaardige",
+        "withHet": "koopvaardig",
         "comparative": "koopvaardiger",
         "superlative": "koopvaardigst"
       }
@@ -127663,7 +127767,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "kortzichtig",
+        "base": "kortzichtig",
+        "withDe": "kortzichtige",
+        "withHet": "kortzichtig",
         "comparative": "kortzichter",
         "superlative": "kortzichtigst"
       }
@@ -127727,7 +127833,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "krankzinnig",
+        "base": "krankzinnig",
+        "withDe": "krankzinnige",
+        "withHet": "krankzinnig",
         "comparative": "krankzinniger",
         "superlative": "krankzinnigst"
       }
@@ -127920,7 +128028,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "kwaadaardig",
+        "base": "kwaadaardig",
+        "withDe": "kwaadaardige",
+        "withHet": "kwaadaardig",
         "comparative": "kwaadaardiger",
         "superlative": "kwaadaardigst"
       }
@@ -127952,7 +128062,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "kwakkelend",
+        "base": "kwakkelend",
+        "withDe": "kwakkelende",
+        "withHet": "kwakkelende",
         "comparative": "kwakkelender",
         "superlative": "kwakkelendst"
       }
@@ -128232,7 +128344,7 @@
       "adjective": {
         "base": "levensecht",
         "withDe": "levensechte",
-        "withHet": "levensechte",
+        "withHet": "levensecht",
         "comparative": "levensechter",
         "superlative": "levenechtst"
       }
@@ -128836,8 +128948,8 @@
     "forms": {
       "adjective": {
         "base": "majestueus",
-        "withDe": "majestueze",
-        "withHet": "majestueze",
+        "withDe": "majestueuse",
+        "withHet": "majestueus",
         "comparative": "majestueuzer",
         "superlative": "majestueust"
       }
@@ -129340,7 +129452,7 @@
     "forms": {
       "adjective": {
         "base": "meerdaagse",
-        "withDe": "meerdaagse",
+        "withDe": "meerdaagsee",
         "withHet": "meerdaagse",
         "comparative": "meerdaagser",
         "superlative": "meerdaagst"
@@ -129593,7 +129705,7 @@
       "adjective": {
         "base": "middelmatig",
         "withDe": "middelmatige",
-        "withHet": "middelmatige",
+        "withHet": "middelmatig",
         "comparative": "middelmatiger",
         "superlative": "middelmatigst"
       }
@@ -129659,7 +129771,7 @@
       "adjective": {
         "base": "minderjarig",
         "withDe": "minderjarige",
-        "withHet": "minderjarige",
+        "withHet": "minderjarig",
         "comparative": "minderjariger",
         "superlative": "minderjarigst"
       }
@@ -130476,7 +130588,7 @@
       "adjective": {
         "base": "neerwaarts",
         "withDe": "neerwaartse",
-        "withHet": "neerwaartse",
+        "withHet": "neerwaarts",
         "comparative": "neerwaartser",
         "superlative": "neerwaartst"
       }
@@ -130722,7 +130834,7 @@
       "adjective": {
         "base": "nonchalant",
         "withDe": "nonchalante",
-        "withHet": "nonchalante",
+        "withHet": "nonchalant",
         "comparative": "nonchalanter",
         "superlative": "nonchalantst"
       }
@@ -130820,7 +130932,7 @@
       "adjective": {
         "base": "nostalgisch",
         "withDe": "nostalgische",
-        "withHet": "nostalgische",
+        "withHet": "nostalgisch",
         "comparative": "nostalgischer",
         "superlative": "nostalgischst"
       }
@@ -131188,7 +131300,7 @@
       "adjective": {
         "base": "onbenullig",
         "withDe": "onbenullige",
-        "withHet": "onbenullige",
+        "withHet": "onbenullig",
         "comparative": "onbenulliger",
         "superlative": "onbenulligst"
       }
@@ -131222,7 +131334,7 @@
       "adjective": {
         "base": "onbeschoft",
         "withDe": "onbeschofte",
-        "withHet": "onbeschofte",
+        "withHet": "onbeschoft",
         "comparative": "onbeschofter",
         "superlative": "onbeschoftst"
       }
@@ -131255,8 +131367,8 @@
     "forms": {
       "adjective": {
         "base": "onbruikbaar",
-        "withDe": "onbruikbare",
-        "withHet": "onbruikbare",
+        "withDe": "onbruikbaare",
+        "withHet": "onbruikbaar",
         "comparative": "onbruikbaarder",
         "superlative": "onbruikbaarst"
       }
@@ -131289,8 +131401,8 @@
     "forms": {
       "adjective": {
         "base": "ondenkbaar",
-        "withDe": "ondenkbare",
-        "withHet": "ondenkbare",
+        "withDe": "ondenkbaare",
+        "withHet": "ondenkbaar",
         "comparative": "ondenkbaarder",
         "superlative": "ondenkbaarst"
       }
@@ -131324,7 +131436,7 @@
       "adjective": {
         "base": "onderbewust",
         "withDe": "onderbewuste",
-        "withHet": "onderbewuste",
+        "withHet": "onderbewust",
         "comparative": "onderbewuster",
         "superlative": "onderbewustst"
       }
@@ -131357,8 +131469,8 @@
     "forms": {
       "adjective": {
         "base": "onderbezet",
-        "withDe": "onderbezette",
-        "withHet": "onderbezette",
+        "withDe": "onderbezete",
+        "withHet": "onderbezete",
         "comparative": "onderbezetter",
         "superlative": "onderbezetst"
       }
@@ -131619,7 +131731,7 @@
       "adjective": {
         "base": "onderhavig",
         "withDe": "onderhavige",
-        "withHet": "onderhavige",
+        "withHet": "onderhavig",
         "comparative": "onderhaviger",
         "superlative": "onderhavigst"
       }
@@ -131790,8 +131902,8 @@
     "forms": {
       "adjective": {
         "base": "ondermaats",
-        "withDe": "ondermatige",
-        "withHet": "ondermatige",
+        "withDe": "ondermaatse",
+        "withHet": "ondermaats",
         "comparative": "ondermatser",
         "superlative": "ondermaatst"
       }
@@ -131905,7 +132017,7 @@
       "adjective": {
         "base": "onderstaand",
         "withDe": "onderstaande",
-        "withHet": "onderstaande",
+        "withHet": "onderstaand",
         "comparative": "onderstaander",
         "superlative": "onderstaandst"
       }
@@ -132134,7 +132246,7 @@
       "adjective": {
         "base": "ondraaglijk",
         "withDe": "ondraaglijke",
-        "withHet": "ondraaglijke",
+        "withHet": "ondraaglijk",
         "comparative": "ondraaglijker",
         "superlative": "ondraaglijkst"
       }
@@ -132168,7 +132280,7 @@
       "adjective": {
         "base": "oneigenlijk",
         "withDe": "oneigenlijke",
-        "withHet": "oneigenlijke",
+        "withHet": "oneigenlijk",
         "comparative": "oneigenlijker",
         "superlative": "oneigenlijkst"
       }
@@ -132202,7 +132314,7 @@
       "adjective": {
         "base": "onevenredig",
         "withDe": "onevenredige",
-        "withHet": "onevenredige",
+        "withHet": "onevenredig",
         "comparative": "onevenrediger",
         "superlative": "onevenredigst"
       }
@@ -132268,7 +132380,7 @@
       "adjective": {
         "base": "ongelukkig",
         "withDe": "ongelukkige",
-        "withHet": "ongelukkige",
+        "withHet": "ongelukkig",
         "comparative": "ongelukkiger",
         "superlative": "ongelukkigst"
       }
@@ -132302,7 +132414,7 @@
       "adjective": {
         "base": "ongestoord",
         "withDe": "ongestoorde",
-        "withHet": "ongestoorde",
+        "withHet": "ongestoord",
         "comparative": "ongestorder",
         "superlative": "ongestoordst"
       }
@@ -132369,8 +132481,8 @@
     "forms": {
       "adjective": {
         "base": "onmeetbaar",
-        "withDe": "onmeetbare",
-        "withHet": "onmeetbare",
+        "withDe": "onmeetbaare",
+        "withHet": "onmeetbaar",
         "comparative": "onmeetbaarder",
         "superlative": "onmeetbaarst"
       }
@@ -132404,7 +132516,7 @@
       "adjective": {
         "base": "onmenselijk",
         "withDe": "onmenselijke",
-        "withHet": "onmenselijke",
+        "withHet": "onmenselijk",
         "comparative": "onmenselijker",
         "superlative": "onmenselijkst"
       }
@@ -132642,7 +132754,7 @@
       "adjective": {
         "base": "ontiegelijk",
         "withDe": "ontiegelijke",
-        "withHet": "ontiegelijke",
+        "withHet": "ontiegelijk",
         "comparative": "ontiegelijker",
         "superlative": "ontiegelijkst"
       }
@@ -133655,7 +133767,7 @@
       "adjective": {
         "base": "onvoorzichtig",
         "withDe": "onvoorzichtige",
-        "withHet": "onvoorzichtige",
+        "withHet": "onvoorzichtig",
         "comparative": "onvoorzichtiger",
         "superlative": "onvoorzichtigst"
       }
@@ -133721,7 +133833,7 @@
       "adjective": {
         "base": "onwenselijk",
         "withDe": "onwenselijke",
-        "withHet": "onwenselijke",
+        "withHet": "onwenselijk",
         "comparative": "onwenselijker",
         "superlative": "onwenselijkst"
       }
@@ -133754,8 +133866,8 @@
     "forms": {
       "adjective": {
         "base": "onwerkbaar",
-        "withDe": "onwerkbare",
-        "withHet": "onwerkbare",
+        "withDe": "onwerkbaare",
+        "withHet": "onwerkbaar",
         "comparative": "onwerkbaarder",
         "superlative": "onwerkbaarst"
       }
@@ -133789,7 +133901,7 @@
       "adjective": {
         "base": "onwerkelijk",
         "withDe": "onwerkelijke",
-        "withHet": "onwerkelijke",
+        "withHet": "onwerkelijk",
         "comparative": "onwerkelijker",
         "superlative": "onwerkelijkst"
       }
@@ -133822,8 +133934,8 @@
     "forms": {
       "adjective": {
         "base": "onzichtbaar",
-        "withDe": "onzichtbare",
-        "withHet": "onzichtbare",
+        "withDe": "onzichtbaare",
+        "withHet": "onzichtbaar",
         "comparative": "onzichtbaarder",
         "superlative": "onzichtbaarst"
       }
@@ -134072,8 +134184,8 @@
     "forms": {
       "adjective": {
         "base": "opbloeien",
-        "withDe": "opbloeinde",
-        "withHet": "opbloeinde",
+        "withDe": "opbloeiene",
+        "withHet": "opbloeiene",
         "comparative": "opbloeider",
         "superlative": "opbloeist"
       }
@@ -134107,7 +134219,7 @@
       "adjective": {
         "base": "openhartig",
         "withDe": "openhartige",
-        "withHet": "openhartige",
+        "withHet": "openhartig",
         "comparative": "openhartiger",
         "superlative": "openhartigst"
       }
@@ -134141,7 +134253,7 @@
       "adjective": {
         "base": "openstaand",
         "withDe": "openstaande",
-        "withHet": "openstaande",
+        "withHet": "openstaand",
         "comparative": "openstaander",
         "superlative": "openstaandst"
       }
@@ -134219,6 +134331,8 @@
     "forms": {
       "adjective": {
         "base": "opgeschort",
+        "withDe": "opgeschorte",
+        "withHet": "opgeschorte",
         "comparative": "opgeschorter",
         "superlative": "opgeschortst"
       }
@@ -134251,6 +134365,8 @@
     "forms": {
       "adjective": {
         "base": "opgeschrikt",
+        "withDe": "opgeschrikte",
+        "withHet": "opgeschrikte",
         "comparative": "opgeschrikter",
         "superlative": "opgeschriktst"
       }
@@ -134283,6 +134399,8 @@
     "forms": {
       "adjective": {
         "base": "opgewonden",
+        "withDe": "opgewondene",
+        "withHet": "opgewondene",
         "comparative": "opgewondener",
         "superlative": "opgewondenst"
       }
@@ -134315,6 +134433,8 @@
     "forms": {
       "adjective": {
         "base": "opgezwollen",
+        "withDe": "opgezwollene",
+        "withHet": "opgezwollene",
         "comparative": "opgezwollener",
         "superlative": "opgezwollenst"
       }
@@ -134875,6 +134995,8 @@
     "forms": {
       "adjective": {
         "base": "opvliegend",
+        "withDe": "opvliegende",
+        "withHet": "opvliegende",
         "comparative": "opvliegender",
         "superlative": "opvliegendst"
       }
@@ -135017,6 +135139,8 @@
     "forms": {
       "adjective": {
         "base": "overbeladen",
+        "withDe": "overbeladene",
+        "withHet": "overbeladene",
         "comparative": "overbeladener",
         "superlative": "overbeladenst"
       }
@@ -135049,6 +135173,8 @@
     "forms": {
       "adjective": {
         "base": "overbelast",
+        "withDe": "overbelaste",
+        "withHet": "overbelast",
         "comparative": "overbelaster",
         "superlative": "overbelastst"
       }
@@ -135321,6 +135447,8 @@
     "forms": {
       "adjective": {
         "base": "overdreven",
+        "withDe": "overdrevene",
+        "withHet": "overdrevene",
         "comparative": "overdrevenener",
         "superlative": "overdrevenst"
       }
@@ -135641,6 +135769,8 @@
     "forms": {
       "adjective": {
         "base": "overmoedig",
+        "withDe": "overmoedige",
+        "withHet": "overmoedig",
         "comparative": "overmoediger",
         "superlative": "overmoedigst"
       }
@@ -135673,6 +135803,8 @@
     "forms": {
       "adjective": {
         "base": "overspannen",
+        "withDe": "overspannene",
+        "withHet": "overspannene",
         "comparative": "overspannenener",
         "superlative": "overspannenst"
       }
@@ -135849,6 +135981,8 @@
     "forms": {
       "adjective": {
         "base": "overtollig",
+        "withDe": "overtollige",
+        "withHet": "overtollig",
         "comparative": "overtolliger",
         "superlative": "overtolligst"
       }
@@ -136041,6 +136175,8 @@
     "forms": {
       "adjective": {
         "base": "overtuigend",
+        "withDe": "overtuigende",
+        "withHet": "overtuigende",
         "comparative": "overtuigender",
         "superlative": "overtuigendst"
       }
@@ -136073,6 +136209,8 @@
     "forms": {
       "adjective": {
         "base": "oververhit",
+        "withDe": "oververhite",
+        "withHet": "oververhite",
         "comparative": "oververheter",
         "superlative": "oververhitst"
       }
@@ -136281,6 +136419,8 @@
     "forms": {
       "adjective": {
         "base": "pasgeboren",
+        "withDe": "pasgeborene",
+        "withHet": "pasgeborene",
         "comparative": "pasgeborener",
         "superlative": "pasgeborenst"
       }
@@ -136455,6 +136595,8 @@
     "forms": {
       "adjective": {
         "base": "persuasief",
+        "withDe": "persuasiefe",
+        "withHet": "persuasief",
         "comparative": "persuasiever",
         "superlative": "persuasiefst"
       }
@@ -136519,6 +136661,8 @@
     "forms": {
       "adjective": {
         "base": "pietluttig",
+        "withDe": "pietluttige",
+        "withHet": "pietluttig",
         "comparative": "pietluttiger",
         "superlative": "pietluttigst"
       }
@@ -136583,6 +136727,8 @@
     "forms": {
       "adjective": {
         "base": "plaatselijk",
+        "withDe": "plaatselijke",
+        "withHet": "plaatselijk",
         "comparative": "plaatselijker",
         "superlative": "plaatselijkst"
       }
@@ -136663,6 +136809,8 @@
     "forms": {
       "adjective": {
         "base": "plantaardig",
+        "withDe": "plantaardige",
+        "withHet": "plantaardig",
         "comparative": "plantaardiger",
         "superlative": "plantaardigst"
       }
@@ -137031,6 +137179,8 @@
     "forms": {
       "adjective": {
         "base": "pragmatisch",
+        "withDe": "pragmatische",
+        "withHet": "pragmatisch",
         "comparative": "pragmatischer",
         "superlative": "pragmatischst"
       }
@@ -137175,6 +137325,8 @@
     "forms": {
       "adjective": {
         "base": "prikkelbaar",
+        "withDe": "prikkelbaare",
+        "withHet": "prikkelbaar",
         "comparative": "prikkelbaarder",
         "superlative": "prikkelbaarst"
       }
@@ -137207,6 +137359,8 @@
     "forms": {
       "adjective": {
         "base": "prikkelend",
+        "withDe": "prikkelende",
+        "withHet": "prikkelende",
         "comparative": "prikkelender",
         "superlative": "prikkelendst"
       }
@@ -137239,7 +137393,9 @@
     "forms": {
       "adjective": {
         "base": "principieel",
-        "comparative": "principieler",
+        "withDe": "principieele",
+        "withHet": "principieel",
+        "comparative": "principiëler",
         "superlative": "principieelst"
       }
     },
@@ -137479,6 +137635,8 @@
     "forms": {
       "adjective": {
         "base": "provocerend",
+        "withDe": "provocerende",
+        "withHet": "provocerende",
         "comparative": "provocerender",
         "superlative": "provocerendst"
       }
@@ -137639,6 +137797,8 @@
     "forms": {
       "adjective": {
         "base": "razendsnel",
+        "withDe": "razendsnele",
+        "withHet": "razendsnel",
         "comparative": "razendsneller",
         "superlative": "razendsnelst"
       }
@@ -137847,6 +138007,8 @@
     "forms": {
       "adjective": {
         "base": "recreatief",
+        "withDe": "recreatiefe",
+        "withHet": "recreatief",
         "comparative": "recreatiever",
         "superlative": "recreatiefst"
       }
@@ -137879,6 +138041,8 @@
     "forms": {
       "adjective": {
         "base": "recyclebaar",
+        "withDe": "recyclebaare",
+        "withHet": "recyclebaar",
         "comparative": "recyclebaarder",
         "superlative": "recyclebaarst"
       }
@@ -137911,6 +138075,8 @@
     "forms": {
       "adjective": {
         "base": "regelrecht",
+        "withDe": "regelrechte",
+        "withHet": "regelrecht",
         "comparative": "regelrechter",
         "superlative": "regelrechtst"
       }
@@ -137943,6 +138109,8 @@
     "forms": {
       "adjective": {
         "base": "regenachtig",
+        "withDe": "regenachtige",
+        "withHet": "regenachtig",
         "comparative": "regenachtiger",
         "superlative": "regenachtigst"
       }
@@ -138199,6 +138367,8 @@
     "forms": {
       "adjective": {
         "base": "repetitief",
+        "withDe": "repetitiefe",
+        "withHet": "repetitief",
         "comparative": "repetitiever",
         "superlative": "repetitiefst"
       }
@@ -138231,6 +138401,8 @@
     "forms": {
       "adjective": {
         "base": "respectloos",
+        "withDe": "respectloose",
+        "withHet": "respectloos",
         "comparative": "respectlozer",
         "superlative": "respectloost"
       }
@@ -138647,6 +138819,8 @@
     "forms": {
       "adjective": {
         "base": "romantisch",
+        "withDe": "romantische",
+        "withHet": "romantisch",
         "comparative": "romantischer",
         "superlative": "romantischst"
       }
@@ -138951,6 +139125,8 @@
     "forms": {
       "adjective": {
         "base": "ruimdenkend",
+        "withDe": "ruimdenkende",
+        "withHet": "ruimdenkende",
         "comparative": "ruimdenkender",
         "superlative": "ruimdenkendst"
       }
@@ -138983,6 +139159,8 @@
     "forms": {
       "adjective": {
         "base": "ruimhartig",
+        "withDe": "ruimhartige",
+        "withHet": "ruimhartig",
         "comparative": "ruimhartiger",
         "superlative": "ruimhartigst"
       }
@@ -139045,6 +139223,8 @@
     "forms": {
       "adjective": {
         "base": "ruimtelijk",
+        "withDe": "ruimtelijke",
+        "withHet": "ruimtelijk",
         "comparative": "ruimtelijker",
         "superlative": "ruimtelijkst"
       }
@@ -139285,6 +139465,8 @@
     "forms": {
       "adjective": {
         "base": "sarcastisch",
+        "withDe": "sarcastische",
+        "withHet": "sarcastisch",
         "comparative": "sarcastischer",
         "superlative": "sarcastischst"
       }
@@ -139317,6 +139499,8 @@
     "forms": {
       "adjective": {
         "base": "schadelijk",
+        "withDe": "schadelijke",
+        "withHet": "schadelijk",
         "comparative": "schadelijker",
         "superlative": "schadelijkst"
       }
@@ -139413,6 +139597,8 @@
     "forms": {
       "adjective": {
         "base": "schandelijk",
+        "withDe": "schandelijke",
+        "withHet": "schandelijk",
         "comparative": "schandelijker",
         "superlative": "schandelijkst"
       }
@@ -139445,6 +139631,8 @@
     "forms": {
       "adjective": {
         "base": "schappelijk",
+        "withDe": "schappelijke",
+        "withHet": "schappelijk",
         "comparative": "schappelijker",
         "superlative": "schappelijkst"
       }
@@ -139589,6 +139777,8 @@
     "forms": {
       "adjective": {
         "base": "schitterend",
+        "withDe": "schitterende",
+        "withHet": "schitterende",
         "comparative": "schitterender",
         "superlative": "schitterendst"
       }
@@ -139845,6 +140035,8 @@
     "forms": {
       "adjective": {
         "base": "schrnend",
+        "withDe": "schrnende",
+        "withHet": "schrnende",
         "comparative": "schrnender",
         "superlative": "schrnendst"
       }
@@ -139877,6 +140069,8 @@
     "forms": {
       "adjective": {
         "base": "schromelijk",
+        "withDe": "schromelijke",
+        "withHet": "schromelijk",
         "comparative": "schromelijker",
         "superlative": "schromelijkst"
       }
@@ -139989,6 +140183,8 @@
     "forms": {
       "adjective": {
         "base": "seksistisch",
+        "withDe": "seksistische",
+        "withHet": "seksistisch",
         "comparative": "seksistischer",
         "superlative": "seksistischst"
       }
@@ -140373,6 +140569,8 @@
     "forms": {
       "adjective": {
         "base": "soortgelijk",
+        "withDe": "soortgelijke",
+        "withHet": "soortgelijk",
         "comparative": "soortgelijker",
         "superlative": "soortgelijkst"
       }
@@ -141267,6 +141465,8 @@
     "forms": {
       "adjective": {
         "base": "stompzinnig",
+        "withDe": "stompzinnige",
+        "withHet": "stompzinnig",
         "comparative": "stompzinniger",
         "superlative": "stompzinnigst"
       }
@@ -141379,6 +141579,8 @@
     "forms": {
       "adjective": {
         "base": "stormachtig",
+        "withDe": "stormachtige",
+        "withHet": "stormachtig",
         "comparative": "stormachtiger",
         "superlative": "stormachtigst"
       }
@@ -141507,6 +141709,8 @@
     "forms": {
       "adjective": {
         "base": "stressloos",
+        "withDe": "stressloose",
+        "withHet": "stressloos",
         "comparative": "stresslozer",
         "superlative": "stressloost"
       }
@@ -141539,6 +141743,8 @@
     "forms": {
       "adjective": {
         "base": "strijdbaar",
+        "withDe": "strijdbaare",
+        "withHet": "strijdbaar",
         "comparative": "strijdbaarbaarder",
         "superlative": "strijdbaarbaarst"
       }
@@ -141699,6 +141905,8 @@
     "forms": {
       "adjective": {
         "base": "structureel",
+        "withDe": "structureele",
+        "withHet": "structureel",
         "comparative": "structureler",
         "superlative": "structureelst"
       }
@@ -141859,6 +142067,8 @@
     "forms": {
       "adjective": {
         "base": "sympathiek",
+        "withDe": "sympathieke",
+        "withHet": "sympathiek",
         "comparative": "sympathieker",
         "superlative": "sympathiekst"
       }
@@ -141955,6 +142165,8 @@
     "forms": {
       "adjective": {
         "base": "tegendraads",
+        "withDe": "tegendraadse",
+        "withHet": "tegendraads",
         "comparative": "tegendraadser",
         "superlative": "tegendraadst"
       }
@@ -143131,6 +143343,8 @@
     "forms": {
       "adjective": {
         "base": "toepasbaar",
+        "withDe": "toepasbaare",
+        "withHet": "toepasbaar",
         "comparative": "toepasbaarder",
         "superlative": "toepasbaarst"
       }
@@ -143163,6 +143377,8 @@
     "forms": {
       "adjective": {
         "base": "toereikend",
+        "withDe": "toereikende",
+        "withHet": "toereikende",
         "comparative": "toereikender",
         "superlative": "toereikendst"
       }
@@ -143403,6 +143619,8 @@
     "forms": {
       "adjective": {
         "base": "ton-sur-toon",
+        "withDe": "ton-sur-toon",
+        "withHet": "ton-sur-toon",
         "comparative": "ton-sur-toon",
         "superlative": "ton-sur-toon"
       }
@@ -143896,7 +144114,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "tweedeeerangs",
+        "base": "tweedeeerangs",
+        "withDe": "tweedeeerangse",
+        "withHet": "tweedeeerangs",
         "comparative": "tweedeeerangser",
         "superlative": "tweedeeerangst"
       }
@@ -144544,7 +144764,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "uitgebreid",
+        "base": "uitgebreid",
+        "withDe": "uitgebreide",
+        "withHet": "uitgebreide",
         "comparative": "uitgebreider",
         "superlative": "uitgebreidst"
       }
@@ -144576,7 +144798,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "uitgekiend",
+        "base": "uitgekiend",
+        "withDe": "uitgekiende",
+        "withHet": "uitgekiende",
         "comparative": "uitgekiender",
         "superlative": "uitgekiendst"
       }
@@ -144608,7 +144832,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "uitgestrekt",
+        "base": "uitgestrekt",
+        "withDe": "uitgestrekte",
+        "withHet": "uitgestrekte",
         "comparative": "uitgestrekter",
         "superlative": "uitgestrektst"
       }
@@ -145040,7 +145266,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "uitmuntend",
+        "base": "uitmuntend",
+        "withDe": "uitmuntende",
+        "withHet": "uitmuntende",
         "comparative": "uitmuntender",
         "superlative": "uitmuntendst"
       }
@@ -145072,7 +145300,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "uitnodigend",
+        "base": "uitnodigend",
+        "withDe": "uitnodigende",
+        "withHet": "uitnodigende",
         "comparative": "uitnodigender",
         "superlative": "uitnodigendst"
       }
@@ -146292,7 +146522,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "vastberaden",
+        "base": "vastberaden",
+        "withDe": "vastberadene",
+        "withHet": "vastberadene",
         "comparative": "vastberadener",
         "superlative": "vastberadenst"
       }
@@ -146548,7 +146780,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "vastomlijnd",
+        "base": "vastomlijnd",
+        "withDe": "vastomlijnde",
+        "withHet": "vastomlijnd",
         "comparative": "vastomlijnder",
         "superlative": "vastomlijndst"
       }
@@ -146812,7 +147046,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "veeleisend",
+        "base": "veeleisend",
+        "withDe": "veeleisende",
+        "withHet": "veeleisende",
         "comparative": "veeleisender",
         "superlative": "veeleisendst"
       }
@@ -146870,7 +147106,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "veelzijdig",
+        "base": "veelzijdig",
+        "withDe": "veelzijdige",
+        "withHet": "veelzijdig",
         "comparative": "veelzijdiger",
         "superlative": "veelzijdigst"
       }
@@ -146902,7 +147140,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "vegetarisch",
+        "base": "vegetarisch",
+        "withDe": "vegetarische",
+        "withHet": "vegetarisch",
         "comparative": "vegetarischer",
         "superlative": "vegetarischst"
       }
@@ -147110,9 +147350,11 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "verantwoord",
-        "comparative": "verantwoorder",
-        "superlative": "verantwoordst"
+        "base": "verantwoord",
+        "withDe": "verantwoorde",
+        "withHet": "verantwoord",
+        "comparative": "verantwoordelijker",
+        "superlative": "verantwoordelijkst"
       }
     },
     "examples": [
@@ -147206,7 +147448,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "verbitterd",
+        "base": "verbitterd",
+        "withDe": "verbitterde",
+        "withHet": "verbitterd",
         "comparative": "verbitterder",
         "superlative": "verbitterdst"
       }
@@ -147526,7 +147770,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "verdrietig",
+        "base": "verdrietig",
+        "withDe": "verdrietige",
+        "withHet": "verdrietig",
         "comparative": "verdrietiger",
         "superlative": "verdrietigst"
       }
@@ -147870,7 +148116,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "verfrissend",
+        "base": "verfrissend",
+        "withDe": "verfrissende",
+        "withHet": "verfrissende",
         "comparative": "verfrissender",
         "superlative": "verfrissendst"
       }
@@ -147990,7 +148238,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "vergezocht",
+        "base": "vergezocht",
+        "withDe": "vergezochte",
+        "withHet": "vergezochte",
         "comparative": "vergezochter",
         "superlative": "vergezochtst"
       }
@@ -148750,7 +149000,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "verkwikkend",
+        "base": "verkwikkend",
+        "withDe": "verkwikkende",
+        "withHet": "verkwikkende",
         "comparative": "verkwikkender",
         "superlative": "verkwikkendst"
       }
@@ -148782,7 +149034,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "verlammend",
+        "base": "verlammend",
+        "withDe": "verlammende",
+        "withHet": "verlammende",
         "comparative": "verlammender",
         "superlative": "verlammendst"
       }
@@ -148958,7 +149212,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "vermakelijk",
+        "base": "vermakelijk",
+        "withDe": "vermakelijke",
+        "withHet": "vermakelijk",
         "comparative": "vermakelijker",
         "superlative": "vermakelijkst"
       }
@@ -149046,7 +149302,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "vermoeiend",
+        "base": "vermoeiend",
+        "withDe": "vermoeiende",
+        "withHet": "vermoeiende",
         "comparative": "vermoeiender",
         "superlative": "vermoeiendst"
       }
@@ -149222,7 +149480,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "vernieuwend",
+        "base": "vernieuwend",
+        "withDe": "vernieuwende",
+        "withHet": "vernieuwende",
         "comparative": "vernieuwender",
         "superlative": "vernieuwendst"
       }
@@ -149398,7 +149658,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "verregaand",
+        "base": "verregaand",
+        "withDe": "verregaande",
+        "withHet": "verregaand",
         "comparative": "verregaander",
         "superlative": "verregaandst"
       }
@@ -150062,7 +150324,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "verstandig",
+        "base": "verstandig",
+        "withDe": "verstandige",
+        "withHet": "verstandig",
         "comparative": "verstandiger",
         "superlative": "verstandigst"
       }
@@ -150662,7 +150926,9 @@
     "partOfSpeech": "adjective",
     "forms": {
       "adjective": {
-        "positive": "verwarrend",
+        "base": "verwarrend",
+        "withDe": "verwarrende",
+        "withHet": "verwarrende",
         "comparative": "verwarrender",
         "superlative": "verwarrendst"
       }
@@ -151369,10 +151635,15 @@
       "english": "inventive, resourceful"
     },
     "partOfSpeech": "adjective",
-    "forms": [
-      "vindingrijker",
-      "vindingrijkst"
-    ],
+    "forms": {
+      "adjective": {
+        "base": "vindingrijk",
+        "withDe": "vindingrijke",
+        "withHet": "vindingrijk",
+        "comparative": "vindingrijker",
+        "superlative": "vindingrijkst"
+      }
+    },
     "level": "B2",
     "examples": [
       "Hij is een vindingrijk uitvinder.",
@@ -151557,10 +151828,15 @@
       "english": "flawless, perfect"
     },
     "partOfSpeech": "adjective",
-    "forms": [
-      "vlekkelozer",
-      "vlekkeloost"
-    ],
+    "forms": {
+      "adjective": {
+        "base": "vlekkeloos",
+        "withDe": "vlekkeloze",
+        "withHet": "vlekkeloos",
+        "comparative": "vlekkelozer",
+        "superlative": "vlekkeloost"
+      }
+    },
     "level": "B2",
     "examples": [
       "De prestatie was vlekkeloos.",
@@ -151964,10 +152240,15 @@
       "english": "persistent, persevering"
     },
     "partOfSpeech": "adjective",
-    "forms": [
-      "volhardender",
-      "volhardendst"
-    ],
+    "forms": {
+      "adjective": {
+        "base": "volhardend",
+        "withDe": "volhardende",
+        "withHet": "volhardende",
+        "comparative": "volhardender",
+        "superlative": "volhardendst"
+      }
+    },
     "level": "B2",
     "examples": [
       "Zij is volhardend.",
@@ -152130,10 +152411,15 @@
       "english": "full-fledged, proper"
     },
     "partOfSpeech": "adjective",
-    "forms": [
-      "volwaardiger",
-      "volwaardigst"
-    ],
+    "forms": {
+      "adjective": {
+        "base": "volwaardig",
+        "withDe": "volwaardige",
+        "withHet": "volwaardig",
+        "comparative": "volwaardiger",
+        "superlative": "volwaardigst"
+      }
+    },
     "level": "B2",
     "examples": [
       "Het is een volwaardig artikel.",
@@ -152187,10 +152473,15 @@
       "english": "preceding, prior"
     },
     "partOfSpeech": "adjective",
-    "forms": [
-      "voorafgaander",
-      "voorafgaandst"
-    ],
+    "forms": {
+      "adjective": {
+        "base": "voorafgaand",
+        "withDe": "voorafgaande",
+        "withHet": "voorafgaande",
+        "comparative": "voorafgaander",
+        "superlative": "voorafgaandst"
+      }
+    },
     "level": "B2",
     "examples": [
       "Het was een voorafgaande beslissing.",
@@ -152438,10 +152729,15 @@
       "english": "available, present"
     },
     "partOfSpeech": "adjective",
-    "forms": [
-      "voorhandener",
-      "voorhandenst"
-    ],
+    "forms": {
+      "adjective": {
+        "base": "voorhanden",
+        "withDe": "voorhandene",
+        "withHet": "voorhandene",
+        "comparative": "voorhandener",
+        "superlative": "voorhandenst"
+      }
+    },
     "level": "B2",
     "examples": [
       "Is het geld voorhanden?",
@@ -154167,7 +154463,7 @@
       "adjective": {
         "base": "welgemeend",
         "withDe": "welgemeende",
-        "withHet": "welgemeend",
+        "withHet": "welgemeende",
         "comparative": "-",
         "superlative": "-"
       }
@@ -154841,7 +155137,7 @@
       "adjective": {
         "base": "zelfrijdend",
         "withDe": "zelfrijdende",
-        "withHet": "zelfrijdend",
+        "withHet": "zelfrijdende",
         "comparative": "-",
         "superlative": "-"
       }
@@ -155402,10 +155698,15 @@
       "english": "careful, meticulous"
     },
     "partOfSpeech": "adjective",
-    "forms": [
-      "zorgvuldiger",
-      "zorgvuldigst"
-    ],
+    "forms": {
+      "adjective": {
+        "base": "zorgvuldig",
+        "withDe": "zorgvuldige",
+        "withHet": "zorgvuldig",
+        "comparative": "zorgvuldiger",
+        "superlative": "zorgvuldigst"
+      }
+    },
     "level": "B2",
     "examples": [
       "Het werk moet zorgvuldig worden uitgevoerd.",
@@ -155436,7 +155737,7 @@
       "adjective": {
         "base": "zorgwekkend",
         "withDe": "zorgwekkende",
-        "withHet": "zorgwekkend",
+        "withHet": "zorgwekkende",
         "comparative": "meer zorgwekkend",
         "superlative": "meest zorgwekkend"
       }
@@ -155471,7 +155772,7 @@
       "adjective": {
         "base": "zwaarwegend",
         "withDe": "zwaarwegende",
-        "withHet": "zwaarwegend",
+        "withHet": "zwaarwegende",
         "comparative": "meer zwaarwegend",
         "superlative": "meest zwaarwegend"
       }

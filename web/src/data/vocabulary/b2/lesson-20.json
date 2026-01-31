@@ -143,6 +143,8 @@
       "forms": {
         "adjective": {
           "base": "pasgeboren",
+          "withDe": "pasgeborene",
+          "withHet": "pasgeborene",
           "comparative": "pasgeborener",
           "superlative": "pasgeborenst"
         }
@@ -317,6 +319,8 @@
       "forms": {
         "adjective": {
           "base": "persuasief",
+          "withDe": "persuasiefe",
+          "withHet": "persuasief",
           "comparative": "persuasiever",
           "superlative": "persuasiefst"
         }
@@ -381,6 +385,8 @@
       "forms": {
         "adjective": {
           "base": "pietluttig",
+          "withDe": "pietluttige",
+          "withHet": "pietluttig",
           "comparative": "pietluttiger",
           "superlative": "pietluttigst"
         }
@@ -445,6 +451,8 @@
       "forms": {
         "adjective": {
           "base": "plaatselijk",
+          "withDe": "plaatselijke",
+          "withHet": "plaatselijk",
           "comparative": "plaatselijker",
           "superlative": "plaatselijkst"
         }
@@ -525,6 +533,8 @@
       "forms": {
         "adjective": {
           "base": "plantaardig",
+          "withDe": "plantaardige",
+          "withHet": "plantaardig",
           "comparative": "plantaardiger",
           "superlative": "plantaardigst"
         }
@@ -893,6 +903,8 @@
       "forms": {
         "adjective": {
           "base": "pragmatisch",
+          "withDe": "pragmatische",
+          "withHet": "pragmatisch",
           "comparative": "pragmatischer",
           "superlative": "pragmatischst"
         }
@@ -1037,6 +1049,8 @@
       "forms": {
         "adjective": {
           "base": "prikkelbaar",
+          "withDe": "prikkelbaare",
+          "withHet": "prikkelbaar",
           "comparative": "prikkelbaarder",
           "superlative": "prikkelbaarst"
         }
@@ -1069,6 +1083,8 @@
       "forms": {
         "adjective": {
           "base": "prikkelend",
+          "withDe": "prikkelende",
+          "withHet": "prikkelende",
           "comparative": "prikkelender",
           "superlative": "prikkelendst"
         }
@@ -1101,7 +1117,9 @@
       "forms": {
         "adjective": {
           "base": "principieel",
-          "comparative": "principieler",
+          "withDe": "principieele",
+          "withHet": "principieel",
+          "comparative": "principiëler",
           "superlative": "principieelst"
         }
       },
@@ -1341,6 +1359,8 @@
       "forms": {
         "adjective": {
           "base": "provocerend",
+          "withDe": "provocerende",
+          "withHet": "provocerende",
           "comparative": "provocerender",
           "superlative": "provocerendst"
         }

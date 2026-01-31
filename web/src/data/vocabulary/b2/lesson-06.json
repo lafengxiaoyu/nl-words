@@ -108,7 +108,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "chagrijnig",
+          "base": "chagrijnig",
+          "withDe": "chagrijnige",
+          "withHet": "chagrijnig",
           "comparative": "chagrijniger",
           "superlative": "chagrijnigst"
         }
@@ -398,7 +400,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "contrastief",
+          "base": "contrastief",
+          "withDe": "contrastiefe",
+          "withHet": "contrastief",
           "comparative": "contrastiever",
           "superlative": "contrastiefst"
         }

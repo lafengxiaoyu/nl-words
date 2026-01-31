@@ -203,7 +203,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "hardhoofdig",
+          "base": "hardhoofdig",
+          "withDe": "hardhoofdige",
+          "withHet": "hardhoofdig",
           "comparative": "hardhoofdiger",
           "superlative": "hardhoofdigst"
         }
@@ -235,7 +237,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "hardnekkig",
+          "base": "hardnekkig",
+          "withDe": "hardnekkige",
+          "withHet": "hardnekkig",
           "comparative": "hardnekkiger",
           "superlative": "hardnekkigst"
         }
@@ -299,7 +303,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "hedendaags",
+          "base": "hedendaags",
+          "withDe": "hedendaagse",
+          "withHet": "hedendaags",
           "comparative": "hedendaagser",
           "superlative": "hedendaagst"
         }
@@ -396,7 +402,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "heterogeen",
+          "base": "heterogeen",
+          "withDe": "heterogeene",
+          "withHet": "heterogeene",
           "comparative": "heterogener",
           "superlative": "heterogenst"
         }
@@ -521,7 +529,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "holistisch",
+          "base": "holistisch",
+          "withDe": "holistische",
+          "withHet": "holistisch",
           "comparative": "holistischer",
           "superlative": "holistischst"
         }
@@ -585,7 +595,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "hoogbejaard",
+          "base": "hoogbejaard",
+          "withDe": "hoogbejaarde",
+          "withHet": "hoogbejaard",
           "comparative": "hoogbejaarder",
           "superlative": "hoogbejaardst"
         }
@@ -713,7 +725,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "hoogvaardig",
+          "base": "hoogvaardig",
+          "withDe": "hoogvaardige",
+          "withHet": "hoogvaardig",
           "comparative": "hoogvaardiger",
           "superlative": "hoogvaardigst"
         }
@@ -809,7 +823,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "horizontaal",
+          "base": "horizontaal",
+          "withDe": "horizontaale",
+          "withHet": "horizontaal",
           "comparative": "horizontaaler",
           "superlative": "horizontaalst"
         }

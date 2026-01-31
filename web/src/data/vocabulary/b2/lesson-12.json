@@ -77,7 +77,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "kieskeurig",
+          "base": "kieskeurig",
+          "withDe": "kieskeurige",
+          "withHet": "kieskeurig",
           "comparative": "kieskeuriger",
           "superlative": "kieskeurigst"
         }
@@ -109,7 +111,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "kinderlijk",
+          "base": "kinderlijk",
+          "withDe": "kinderlijke",
+          "withHet": "kinderlijk",
           "comparative": "kinderlijker",
           "superlative": "kinderlijkst"
         }
@@ -239,7 +243,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "klamvochtig",
+          "base": "klamvochtig",
+          "withDe": "klamvochtige",
+          "withHet": "klamvochtig",
           "comparative": "klamvochtiger",
           "superlative": "klamvochtigst"
         }
@@ -432,7 +438,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "knettergek",
+          "base": "knettergek",
+          "withDe": "knettergeke",
+          "withHet": "knettergek",
           "comparative": "knettergeker",
           "superlative": "knettergekst"
         }
@@ -496,7 +504,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "koopvaardig",
+          "base": "koopvaardig",
+          "withDe": "koopvaardige",
+          "withHet": "koopvaardig",
           "comparative": "koopvaardiger",
           "superlative": "koopvaardigst"
         }
@@ -592,7 +602,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "kortzichtig",
+          "base": "kortzichtig",
+          "withDe": "kortzichtige",
+          "withHet": "kortzichtig",
           "comparative": "kortzichter",
           "superlative": "kortzichtigst"
         }
@@ -656,7 +668,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "krankzinnig",
+          "base": "krankzinnig",
+          "withDe": "krankzinnige",
+          "withHet": "krankzinnig",
           "comparative": "krankzinniger",
           "superlative": "krankzinnigst"
         }
@@ -849,7 +863,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "kwaadaardig",
+          "base": "kwaadaardig",
+          "withDe": "kwaadaardige",
+          "withHet": "kwaadaardig",
           "comparative": "kwaadaardiger",
           "superlative": "kwaadaardigst"
         }
@@ -881,7 +897,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "kwakkelend",
+          "base": "kwakkelend",
+          "withDe": "kwakkelende",
+          "withHet": "kwakkelende",
           "comparative": "kwakkelender",
           "superlative": "kwakkelendst"
         }

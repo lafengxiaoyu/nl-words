@@ -558,7 +558,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "verstandig",
+          "base": "verstandig",
+          "withDe": "verstandige",
+          "withHet": "verstandig",
           "comparative": "verstandiger",
           "superlative": "verstandigst"
         }
@@ -1158,7 +1160,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "verwarrend",
+          "base": "verwarrend",
+          "withDe": "verwarrende",
+          "withHet": "verwarrende",
           "comparative": "verwarrender",
           "superlative": "verwarrendst"
         }

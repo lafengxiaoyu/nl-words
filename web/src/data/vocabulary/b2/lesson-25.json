@@ -476,7 +476,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "tweedeeerangs",
+          "base": "tweedeeerangs",
+          "withDe": "tweedeeerangse",
+          "withHet": "tweedeeerangs",
           "comparative": "tweedeeerangser",
           "superlative": "tweedeeerangst"
         }
@@ -1124,7 +1126,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "uitgebreid",
+          "base": "uitgebreid",
+          "withDe": "uitgebreide",
+          "withHet": "uitgebreide",
           "comparative": "uitgebreider",
           "superlative": "uitgebreidst"
         }
@@ -1156,7 +1160,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "uitgekiend",
+          "base": "uitgekiend",
+          "withDe": "uitgekiende",
+          "withHet": "uitgekiende",
           "comparative": "uitgekiender",
           "superlative": "uitgekiendst"
         }
@@ -1188,7 +1194,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "uitgestrekt",
+          "base": "uitgestrekt",
+          "withDe": "uitgestrekte",
+          "withHet": "uitgestrekte",
           "comparative": "uitgestrekter",
           "superlative": "uitgestrektst"
         }
@@ -1620,7 +1628,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "uitmuntend",
+          "base": "uitmuntend",
+          "withDe": "uitmuntende",
+          "withHet": "uitmuntende",
           "comparative": "uitmuntender",
           "superlative": "uitmuntendst"
         }

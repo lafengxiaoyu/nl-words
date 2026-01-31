@@ -15,6 +15,8 @@
       "forms": {
         "adjective": {
           "base": "opgeschort",
+          "withDe": "opgeschorte",
+          "withHet": "opgeschorte",
           "comparative": "opgeschorter",
           "superlative": "opgeschortst"
         }
@@ -47,6 +49,8 @@
       "forms": {
         "adjective": {
           "base": "opgeschrikt",
+          "withDe": "opgeschrikte",
+          "withHet": "opgeschrikte",
           "comparative": "opgeschrikter",
           "superlative": "opgeschriktst"
         }
@@ -79,6 +83,8 @@
       "forms": {
         "adjective": {
           "base": "opgewonden",
+          "withDe": "opgewondene",
+          "withHet": "opgewondene",
           "comparative": "opgewondener",
           "superlative": "opgewondenst"
         }
@@ -111,6 +117,8 @@
       "forms": {
         "adjective": {
           "base": "opgezwollen",
+          "withDe": "opgezwollene",
+          "withHet": "opgezwollene",
           "comparative": "opgezwollener",
           "superlative": "opgezwollenst"
         }
@@ -671,6 +679,8 @@
       "forms": {
         "adjective": {
           "base": "opvliegend",
+          "withDe": "opvliegende",
+          "withHet": "opvliegende",
           "comparative": "opvliegender",
           "superlative": "opvliegendst"
         }
@@ -813,6 +823,8 @@
       "forms": {
         "adjective": {
           "base": "overbeladen",
+          "withDe": "overbeladene",
+          "withHet": "overbeladene",
           "comparative": "overbeladener",
           "superlative": "overbeladenst"
         }
@@ -845,6 +857,8 @@
       "forms": {
         "adjective": {
           "base": "overbelast",
+          "withDe": "overbelaste",
+          "withHet": "overbelast",
           "comparative": "overbelaster",
           "superlative": "overbelastst"
         }
@@ -1117,6 +1131,8 @@
       "forms": {
         "adjective": {
           "base": "overdreven",
+          "withDe": "overdrevene",
+          "withHet": "overdrevene",
           "comparative": "overdrevenener",
           "superlative": "overdrevenst"
         }
@@ -1437,6 +1453,8 @@
       "forms": {
         "adjective": {
           "base": "overmoedig",
+          "withDe": "overmoedige",
+          "withHet": "overmoedig",
           "comparative": "overmoediger",
           "superlative": "overmoedigst"
         }
@@ -1469,6 +1487,8 @@
       "forms": {
         "adjective": {
           "base": "overspannen",
+          "withDe": "overspannene",
+          "withHet": "overspannene",
           "comparative": "overspannenener",
           "superlative": "overspannenst"
         }

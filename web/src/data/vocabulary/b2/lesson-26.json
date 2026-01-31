@@ -14,7 +14,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "uitnodigend",
+          "base": "uitnodigend",
+          "withDe": "uitnodigende",
+          "withHet": "uitnodigende",
           "comparative": "uitnodigender",
           "superlative": "uitnodigendst"
         }
