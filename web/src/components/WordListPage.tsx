@@ -431,11 +431,37 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
 
   // 获取所有唯一的词性和难度
   const otherPartsOfSpeech: string[] = ['determiner', 'numeral', 'phrase']
+
+  // 处理词性：将 noun/adjective 这种格式拆分为数组
+  const normalizePartOfSpeech = (pos: string | string[]): string[] => {
+    if (Array.isArray(pos)) {
+      return pos.flatMap(p => {
+        // 处理 noun/adjective 这种格式
+        if (p.includes('/')) {
+          return p.split('/').map(s => s.trim())
+        }
+        return [p]
+      })
+    } else {
+      // 处理单个词性中的 noun/adjective 格式
+      if (pos.includes('/')) {
+        return pos.split('/').map(s => s.trim())
+      }
+      return [pos]
+    }
+  }
+
   const allPartsOfSpeech: string[] = Array.from(
     new Set(
-      words.flatMap(w =>
-        Array.isArray(w.partOfSpeech) ? w.partOfSpeech : [w.partOfSpeech]
-      )
+      words.flatMap(w => {
+        const pos = normalizePartOfSpeech(w.partOfSpeech)
+        // 将所有包含 phrase 的词性归类为 phrase（包括 phrasal verb），将 reflexive verb 归类为 verb
+        return pos.map(p => {
+          if (p.includes('phrase') || p === 'phrasal verb') return 'phrase'
+          if (p.includes('reflexive')) return 'verb'
+          return p
+        })
+      })
     )
   ).sort()
   const allDifficulties: string[] = Array.from(new Set(words.map(w => w.difficulty))).sort()
@@ -477,10 +503,8 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
 
   // 获取用于排序的词性（如果是数组，取第一个）
   const getPartOfSpeechForSort = (partOfSpeech: string | string[]): string => {
-    if (Array.isArray(partOfSpeech)) {
-      return partOfSpeech[0]
-    }
-    return partOfSpeech
+    const normalizedList = normalizePartOfSpeech(partOfSpeech)
+    return normalizedList[0]
   }
 
   // 过滤单词
@@ -493,15 +517,21 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       word.translation.english.toLowerCase().includes(searchLower)
 
     // 词性过滤
+    const normalizedWordPOS = normalizePartOfSpeech(word.partOfSpeech)
     const matchesPartOfSpeech =
       selectedPartOfSpeech === 'all' ||
       (selectedPartOfSpeech === 'other' &&
-        (Array.isArray(word.partOfSpeech)
-          ? word.partOfSpeech.some((pos: string) => otherPartsOfSpeech.includes(pos))
-          : otherPartsOfSpeech.includes(word.partOfSpeech))) ||
-      (Array.isArray(word.partOfSpeech)
-        ? word.partOfSpeech.includes(selectedPartOfSpeech)
-        : word.partOfSpeech === selectedPartOfSpeech)
+        normalizedWordPOS.some((pos: string) => {
+          // 将所有包含 phrase 的词性归类为 phrase（包括 phrasal verb），将 reflexive verb 归类为 verb
+          let normalizedPos = pos.includes('phrase') || pos === 'phrasal verb' ? 'phrase' : pos
+          normalizedPos = normalizedPos.includes('reflexive') ? 'verb' : normalizedPos
+          return otherPartsOfSpeech.includes(normalizedPos)
+        })) ||
+      normalizedWordPOS.some(pos => {
+        let normalizedPos = pos.includes('phrase') || pos === 'phrasal verb' ? 'phrase' : pos
+        normalizedPos = normalizedPos.includes('reflexive') ? 'verb' : normalizedPos
+        return normalizedPos === selectedPartOfSpeech
+      })
 
     // 难度过滤（考虑订阅状态）
     const matchesDifficulty = (() => {
@@ -511,15 +541,6 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
           return word.difficulty === 'A1' || word.difficulty === 'A2'
         }
         return true
-      } else if (selectedDifficulty === 'A1') {
-        // A1-A2 组合筛选
-        return word.difficulty === 'A1' || word.difficulty === 'A2'
-      } else if (selectedDifficulty === 'B1') {
-        // B1-B2 组合筛选
-        return word.difficulty === 'B1' || word.difficulty === 'B2'
-      } else if (selectedDifficulty === 'C1') {
-        // C1-C2 组合筛选
-        return word.difficulty === 'C1' || word.difficulty === 'C2'
       } else {
         // 单独的难度级别筛选
         return word.difficulty === selectedDifficulty
@@ -800,18 +821,22 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                         </span>
                       </td>
                       <td className="pos-col">
-                        {Array.isArray(word.partOfSpeech)
-                          ? word.partOfSpeech.map((pos, idx) => (
+                        {(() => {
+                          const normalizedPosList = normalizePartOfSpeech(word.partOfSpeech)
+                          return normalizedPosList.map((pos, idx) => {
+                            // 将所有包含 phrase 的词性归类为 phrase（包括 phrasal verb），将 reflexive verb 归类为 verb
+                            let normalizedPos = pos.includes('phrase') || pos === 'phrasal verb' ? 'phrase' : pos
+                            normalizedPos = normalizedPos.includes('reflexive') ? 'verb' : normalizedPos
+                            return (
                               <React.Fragment key={idx}>
                                 {idx > 0 && <span className="pos-separator"> </span>}
-                                <span className={`pos-tag pos-${pos}`}>
-                                  {getTranslation(pos)}
+                                <span className={`pos-tag pos-${normalizedPos}`}>
+                                  {getTranslation(normalizedPos)}
                                 </span>
                               </React.Fragment>
-                            ))
-                          : <span className={`pos-tag pos-${word.partOfSpeech}`}>
-                              {getTranslation(word.partOfSpeech)}
-                            </span>}
+                            )
+                          })
+                        })()}
                       </td>
                       <td className="difficulty-col">
                         <span className={`difficulty-tag difficulty-${word.difficulty}`}>
@@ -898,7 +923,20 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
             <div className="detail-item"><strong>{detailsPanel.dutch}：</strong> <span>{selectedWord.word}</span></div>
             <div className="detail-item"><strong>{detailsPanel.chinese}：</strong> {selectedWord.translation.chinese}</div>
             <div className="detail-item"><strong>{detailsPanel.english}：</strong> <span>{selectedWord.translation.english}</span></div>
-            <div className="detail-item"><strong>{detailsPanel.partOfSpeech}：</strong> <span>{getTranslation(selectedWord.partOfSpeech)}</span></div>
+            <div className="detail-item">
+              <strong>{detailsPanel.partOfSpeech}：</strong>
+              <span>
+                {(() => {
+                  const normalizedPosList = normalizePartOfSpeech(selectedWord.partOfSpeech)
+                  return normalizedPosList.map(pos => {
+                    // 将所有包含 phrase 的词性归类为 phrase（包括 phrasal verb），将 reflexive verb 归类为 verb
+                    let normalizedPos = pos.includes('phrase') || pos === 'phrasal verb' ? 'phrase' : pos
+                    normalizedPos = normalizedPos.includes('reflexive') ? 'verb' : normalizedPos
+                    return getTranslation(normalizedPos)
+                  }).join(', ')
+                })()}
+              </span>
+            </div>
             <div className="detail-item">
               <strong>{detailsPanel.difficulty}：</strong>
               <span className={`difficulty-tag difficulty--${selectedWord.difficulty}`}>{selectedWord.difficulty}</span>
