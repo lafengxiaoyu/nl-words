@@ -271,9 +271,21 @@
       "forms": {
         "verb": {
           "infinitive": "commanderen",
-          "present": "commandeert",
-          "past": "commandeerde",
-          "participle": "gecommandeerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "commandeer",
+            "jij": "commandeert",
+            "hij": "commandeert",
+            "wij": "commanderen",
+            "jullie": "commanderen",
+            "zij": "commanderen"
+          },
+          "past": {
+            "singular": "commandeerde",
+            "plural": "commandeerden"
+          },
+          "pastParticiple": "gecommandeerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -368,9 +380,21 @@
       "forms": {
         "verb": {
           "infinitive": "concluderen",
-          "present": "concludeert",
-          "past": "concludeerde",
-          "participle": "geconcludeerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "concludeer",
+            "jij": "concludeert",
+            "hij": "concludeert",
+            "wij": "concluderen",
+            "jullie": "concluderen",
+            "zij": "concluderen"
+          },
+          "past": {
+            "singular": "concludeerde",
+            "plural": "concludeerden"
+          },
+          "pastParticiple": "geconcludeerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -435,9 +459,21 @@
       "forms": {
         "verb": {
           "infinitive": "corrumperen",
-          "present": "corrumpeert",
-          "past": "corrumpeerde",
-          "participle": "gecorrumpeerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "corrumpeer",
+            "jij": "corrumpeert",
+            "hij": "corrumpeert",
+            "wij": "corrumperen",
+            "jullie": "corrumperen",
+            "zij": "corrumperen"
+          },
+          "past": {
+            "singular": "corrumpeerde",
+            "plural": "corrumpeerden"
+          },
+          "pastParticiple": "gecorrumpeerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [

@@ -43,9 +43,21 @@
       "forms": {
         "verb": {
           "infinitive": "handboeien",
-          "present": "boeit",
-          "past": "boeide",
-          "participle": "geboeid"
+          "isSeparable": false,
+          "present": {
+            "ik": "boei",
+            "jij": "boeit",
+            "hij": "boeit",
+            "wij": "boeien",
+            "jullie": "boeien",
+            "zij": "boeien"
+          },
+          "past": {
+            "singular": "boeide",
+            "plural": "boeiden"
+          },
+          "pastParticiple": "geboeid",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -370,9 +382,21 @@
       "forms": {
         "verb": {
           "infinitive": "herbruiken",
-          "present": "herbruikt",
-          "past": "hergebruikte",
-          "participle": "hergebruikt"
+          "isSeparable": false,
+          "present": {
+            "ik": "herbruik",
+            "jij": "herbruikt",
+            "hij": "herbruikt",
+            "wij": "herbruiken",
+            "jullie": "herbruiken",
+            "zij": "herbruiken"
+          },
+          "past": {
+            "singular": "hergebruikte",
+            "plural": "hergebruikten"
+          },
+          "pastParticiple": "hergebruikt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -857,10 +881,23 @@
       "partOfSpeech": "verb",
       "forms": {
         "verb": {
-          "infinitive": "houden van",
-          "present": "houdt van",
-          "past": "hield van",
-          "participle": "gehouden van"
+          "infinitive": "houden",
+          "isSeparable": true,
+          "prefix": "van",
+          "present": {
+            "ik": "houd van",
+            "jij": "houdt van",
+            "hij": "houdt van",
+            "wij": "houden van",
+            "jullie": "houden van",
+            "zij": "houden van"
+          },
+          "past": {
+            "singular": "hield van",
+            "plural": "hielden van"
+          },
+          "pastParticiple": "gehouden van",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -923,9 +960,21 @@
       "forms": {
         "verb": {
           "infinitive": "huisvesten",
-          "present": "huisvest",
-          "past": "huisvestte",
-          "participle": "gehuisvest"
+          "isSeparable": false,
+          "present": {
+            "ik": "huisvest",
+            "jij": "huisvest",
+            "hij": "huisvest",
+            "wij": "huisvesten",
+            "jullie": "huisvesten",
+            "zij": "huisvesten"
+          },
+          "past": {
+            "singular": "huisvestte",
+            "plural": "huisvestten"
+          },
+          "pastParticiple": "gehuisvest",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [

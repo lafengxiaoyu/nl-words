@@ -45,9 +45,21 @@
       "forms": {
         "verb": {
           "infinitive": "impliceren",
-          "present": "impliceert",
-          "past": "impliceerde",
-          "participle": "geïmpliceerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "impliceer",
+            "jij": "impliceert",
+            "hij": "impliceert",
+            "wij": "impliceren",
+            "jullie": "impliceren",
+            "zij": "impliceren"
+          },
+          "past": {
+            "singular": "impliceerde",
+            "plural": "impliceerden"
+          },
+          "pastParticiple": "geïmpliceerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -78,9 +90,21 @@
       "forms": {
         "verb": {
           "infinitive": "imploderen",
-          "present": "impodeert",
-          "past": "impodeerde",
-          "participle": "geïmpoldeerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "impodeer",
+            "jij": "impodeert",
+            "hij": "impodeert",
+            "wij": "imploderen",
+            "jullie": "imploderen",
+            "zij": "imploderen"
+          },
+          "past": {
+            "singular": "impodeerde",
+            "plural": "impodeerden"
+          },
+          "pastParticiple": "geïmpoldeerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -141,9 +165,22 @@
       "forms": {
         "verb": {
           "infinitive": "inachtnemen",
-          "present": "neemt in acht",
-          "past": "nam in acht",
-          "participle": "in acht genomen"
+          "isSeparable": true,
+          "prefix": "in acht",
+          "present": {
+            "ik": "neem in acht",
+            "jij": "neemt in acht",
+            "hij": "neemt in acht",
+            "wij": "nemen in acht",
+            "jullie": "nemen in acht",
+            "zij": "nemen in acht"
+          },
+          "past": {
+            "singular": "nam in acht",
+            "plural": "namen in acht"
+          },
+          "pastParticiple": "in acht genomen",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -174,9 +211,22 @@
       "forms": {
         "verb": {
           "infinitive": "inbegrijpen",
-          "present": "begrijpt in",
-          "past": "begreep in",
-          "participle": "in begrepen"
+          "isSeparable": true,
+          "prefix": "in",
+          "present": {
+            "ik": "begrijp in",
+            "jij": "begrijpt in",
+            "hij": "begrijpt in",
+            "wij": "begrijpen in",
+            "jullie": "begrijpen in",
+            "zij": "begrijpen in"
+          },
+          "past": {
+            "singular": "begreep in",
+            "plural": "begrepen in"
+          },
+          "pastParticiple": "in begrepen",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -207,9 +257,22 @@
       "forms": {
         "verb": {
           "infinitive": "inboezemen",
-          "present": "boezemt in",
-          "past": "boezemde in",
-          "participle": "in bezemden"
+          "isSeparable": true,
+          "prefix": "in",
+          "present": {
+            "ik": "bozem in",
+            "jij": "boezemt in",
+            "hij": "boezemt in",
+            "wij": "boezemen in",
+            "jullie": "boezemen in",
+            "zij": "boezemen in"
+          },
+          "past": {
+            "singular": "boezemde in",
+            "plural": "boezemden in"
+          },
+          "pastParticiple": "in bezemden",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -240,9 +303,22 @@
       "forms": {
         "verb": {
           "infinitive": "inburgeren",
-          "present": "burgert in",
-          "past": "burgerde in",
-          "participle": "ingeburgerd"
+          "isSeparable": true,
+          "prefix": "in",
+          "present": {
+            "ik": "burger in",
+            "jij": "burgert in",
+            "hij": "burgert in",
+            "wij": "burgeren in",
+            "jullie": "burgeren in",
+            "zij": "burgeren in"
+          },
+          "past": {
+            "singular": "burgerde in",
+            "plural": "burgerden in"
+          },
+          "pastParticiple": "ingeburgerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -437,9 +513,22 @@
       "forms": {
         "verb": {
           "infinitive": "inroosteren",
-          "present": "roostert in",
-          "past": "roosterde in",
-          "participle": "ingerost"
+          "isSeparable": true,
+          "prefix": "in",
+          "present": {
+            "ik": "rooster in",
+            "jij": "roostert in",
+            "hij": "roostert in",
+            "wij": "roosteren in",
+            "jullie": "roosteren in",
+            "zij": "roosteren in"
+          },
+          "past": {
+            "singular": "roosterde in",
+            "plural": "roosterden in"
+          },
+          "pastParticiple": "ingerost",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -470,9 +559,22 @@
       "forms": {
         "verb": {
           "infinitive": "inschakelen",
-          "present": "schakelt in",
-          "past": "schakelde in",
-          "participle": "ingeschakeld"
+          "isSeparable": true,
+          "prefix": "in",
+          "present": {
+            "ik": "schakel in",
+            "jij": "schakelt in",
+            "hij": "schakelt in",
+            "wij": "schakelen in",
+            "jullie": "schakelen in",
+            "zij": "schakelen in"
+          },
+          "past": {
+            "singular": "schakelde in",
+            "plural": "schakelden in"
+          },
+          "pastParticiple": "ingeschakeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -503,9 +605,22 @@
       "forms": {
         "verb": {
           "infinitive": "inschatten",
-          "present": "schat in",
-          "past": "schatte in",
-          "participle": "ingeschat"
+          "isSeparable": true,
+          "prefix": "in",
+          "present": {
+            "ik": "schat in",
+            "jij": "schat in",
+            "hij": "schat in",
+            "wij": "schatten in",
+            "jullie": "schatten in",
+            "zij": "schatten in"
+          },
+          "past": {
+            "singular": "schatte in",
+            "plural": "schatte in"
+          },
+          "pastParticiple": "ingeschat",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -536,9 +651,22 @@
       "forms": {
         "verb": {
           "infinitive": "inschenken",
-          "present": "schenkt in",
-          "past": "schenkte in",
-          "participle": "ingeschonken"
+          "isSeparable": true,
+          "prefix": "in",
+          "present": {
+            "ik": "schenk in",
+            "jij": "schenkt in",
+            "hij": "schenkt in",
+            "wij": "schenken in",
+            "jullie": "schenken in",
+            "zij": "schenken in"
+          },
+          "past": {
+            "singular": "schenkte in",
+            "plural": "schonken in"
+          },
+          "pastParticiple": "ingeschonken",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -665,9 +793,21 @@
       "forms": {
         "verb": {
           "infinitive": "inspireren",
-          "present": "inspireert",
-          "past": "inspireerde",
-          "participle": "geïnspireerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "inspireer",
+            "jij": "inspireert",
+            "hij": "inspireert",
+            "wij": "inspireren",
+            "jullie": "inspireren",
+            "zij": "inspireren"
+          },
+          "past": {
+            "singular": "inspireerde",
+            "plural": "inspireerden"
+          },
+          "pastParticiple": "geïnspireerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -730,9 +870,21 @@
       "forms": {
         "verb": {
           "infinitive": "intimideren",
-          "present": "intimideert",
-          "past": "intimideerde",
-          "participle": "geïntimideerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "intimideer",
+            "jij": "intimideert",
+            "hij": "intimideert",
+            "wij": "intimideren",
+            "jullie": "intimideren",
+            "zij": "intimideren"
+          },
+          "past": {
+            "singular": "intimideerde",
+            "plural": "intimideerden"
+          },
+          "pastParticiple": "geïntimideerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -829,9 +981,22 @@
       "forms": {
         "verb": {
           "infinitive": "inwilligen",
-          "present": "willigt in",
-          "past": "willigde in",
-          "participle": "ingewilligd"
+          "isSeparable": true,
+          "prefix": "in",
+          "present": {
+            "ik": "willig in",
+            "jij": "willigt in",
+            "hij": "willigt in",
+            "wij": "willigen in",
+            "jullie": "willigen in",
+            "zij": "willigen in"
+          },
+          "past": {
+            "singular": "willigde in",
+            "plural": "willigden in"
+          },
+          "pastParticiple": "ingewilligd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [

@@ -121170,9 +121170,21 @@
     "forms": {
       "verb": {
         "infinitive": "commanderen",
-        "present": "commandeert",
-        "past": "commandeerde",
-        "participle": "gecommandeerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "commandeer",
+          "jij": "commandeert",
+          "hij": "commandeert",
+          "wij": "commanderen",
+          "jullie": "commanderen",
+          "zij": "commanderen"
+        },
+        "past": {
+          "singular": "commandeerde",
+          "plural": "commandeerden"
+        },
+        "pastParticiple": "gecommandeerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -121267,9 +121279,21 @@
     "forms": {
       "verb": {
         "infinitive": "concluderen",
-        "present": "concludeert",
-        "past": "concludeerde",
-        "participle": "geconcludeerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "concludeer",
+          "jij": "concludeert",
+          "hij": "concludeert",
+          "wij": "concluderen",
+          "jullie": "concluderen",
+          "zij": "concluderen"
+        },
+        "past": {
+          "singular": "concludeerde",
+          "plural": "concludeerden"
+        },
+        "pastParticiple": "geconcludeerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -121334,9 +121358,21 @@
     "forms": {
       "verb": {
         "infinitive": "corrumperen",
-        "present": "corrumpeert",
-        "past": "corrumpeerde",
-        "participle": "gecorrumpeerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "corrumpeer",
+          "jij": "corrumpeert",
+          "hij": "corrumpeert",
+          "wij": "corrumperen",
+          "jullie": "corrumperen",
+          "zij": "corrumperen"
+        },
+        "past": {
+          "singular": "corrumpeerde",
+          "plural": "corrumpeerden"
+        },
+        "pastParticiple": "gecorrumpeerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -121461,9 +121497,21 @@
     "forms": {
       "verb": {
         "infinitive": "debatteren",
-        "present": "debateert",
-        "past": "debateerde",
-        "participle": "gedebatteerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "debateer",
+          "jij": "debateert",
+          "hij": "debateert",
+          "wij": "debatteren",
+          "jullie": "debatteren",
+          "zij": "debatteren"
+        },
+        "past": {
+          "singular": "debateerde",
+          "plural": "debateerden"
+        },
+        "pastParticiple": "gedebatteerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -121592,9 +121640,21 @@
     "forms": {
       "verb": {
         "infinitive": "dementeren",
-        "present": "denteert",
-        "past": "denteerde",
-        "participle": "gedenteerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "denteer",
+          "jij": "denteert",
+          "hij": "denteert",
+          "wij": "dementeren",
+          "jullie": "dementeren",
+          "zij": "dementeren"
+        },
+        "past": {
+          "singular": "denteerde",
+          "plural": "denteerden"
+        },
+        "pastParticiple": "gedenteerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -121625,9 +121685,21 @@
     "forms": {
       "verb": {
         "infinitive": "demonteren",
-        "present": "demonstreert",
-        "past": "demonstreerde",
-        "participle": "gedemonteerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "demonstreer",
+          "jij": "demonstreert",
+          "hij": "demonstreert",
+          "wij": "demonteren",
+          "jullie": "demonteren",
+          "zij": "demonteren"
+        },
+        "past": {
+          "singular": "demonstreerde",
+          "plural": "demonstreerden"
+        },
+        "pastParticiple": "gedemonteerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -121818,9 +121890,21 @@
     "forms": {
       "verb": {
         "infinitive": "devalueren",
-        "present": "devalueert",
-        "past": "devalueerde",
-        "participle": "gedevalueerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "devalueer",
+          "jij": "devalueert",
+          "hij": "devalueert",
+          "wij": "devalueren",
+          "jullie": "devalueren",
+          "zij": "devalueren"
+        },
+        "past": {
+          "singular": "devalueerde",
+          "plural": "devalueerden"
+        },
+        "pastParticiple": "gedevalueerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -121915,9 +121999,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorbrengen",
-        "present": "brengt door",
-        "past": "bracht door",
-        "participle": "doorgebracht"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "breng door",
+          "jij": "brengt door",
+          "hij": "brengt door",
+          "wij": "brengen door",
+          "jullie": "brengen door",
+          "zij": "brengen door"
+        },
+        "past": {
+          "singular": "bracht door",
+          "plural": "brachten door"
+        },
+        "pastParticiple": "doorgebracht",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -121948,9 +122045,22 @@
     "forms": {
       "verb": {
         "infinitive": "doordenken",
-        "present": "denkt door",
-        "past": "dacht door",
-        "participle": "doorgedacht"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "denk door",
+          "jij": "denkt door",
+          "hij": "denkt door",
+          "wij": "denken door",
+          "jullie": "denken door",
+          "zij": "denken door"
+        },
+        "past": {
+          "singular": "dacht door",
+          "plural": "dachten door"
+        },
+        "pastParticiple": "doorgedacht",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -121981,9 +122091,22 @@
     "forms": {
       "verb": {
         "infinitive": "doordraaien",
-        "present": "draait door",
-        "past": "draaide door",
-        "participle": "doorgedraaid"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "draai door",
+          "jij": "draait door",
+          "hij": "draait door",
+          "wij": "draaien door",
+          "jullie": "draaien door",
+          "zij": "draaien door"
+        },
+        "past": {
+          "singular": "draaide door",
+          "plural": "draaiden door"
+        },
+        "pastParticiple": "doorgedraaid",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122014,9 +122137,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorgronden",
-        "present": "doorgrondt",
-        "past": "doorgrondde",
-        "participle": "doorgrond"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "doorgrond",
+          "jij": "doorgrondt",
+          "hij": "doorgrondt",
+          "wij": "doorgronden",
+          "jullie": "doorgronden",
+          "zij": "doorgronden"
+        },
+        "past": {
+          "singular": "doorgrondde",
+          "plural": "doorgrondden"
+        },
+        "pastParticiple": "doorgrond",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122047,9 +122183,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorhebben",
-        "present": "heeft door",
-        "past": "had door",
-        "participle": "doorhad"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "heb door",
+          "jij": "hebt door",
+          "hij": "heeft door",
+          "wij": "hebben door",
+          "jullie": "hebben door",
+          "zij": "hebben door"
+        },
+        "past": {
+          "singular": "had door",
+          "plural": "hadden door"
+        },
+        "pastParticiple": "doorhad",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122080,9 +122229,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorklinken",
-        "present": "klinkt door",
-        "past": "klonk door",
-        "participle": "doorgeklonken"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "klink door",
+          "jij": "klinkt door",
+          "hij": "klinkt door",
+          "wij": "klinken door",
+          "jullie": "klinken door",
+          "zij": "klinken door"
+        },
+        "past": {
+          "singular": "klonk door",
+          "plural": "klonken door"
+        },
+        "pastParticiple": "doorgeklonken",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122113,9 +122275,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorkruisen",
-        "present": "doorkruist",
-        "past": "doorkruiste",
-        "participle": "doorkruist"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "doorkruis",
+          "jij": "doorkruist",
+          "hij": "doorkruist",
+          "wij": "doorkruisen",
+          "jullie": "doorkruisen",
+          "zij": "doorkruisen"
+        },
+        "past": {
+          "singular": "doorkruiste",
+          "plural": "doorkruisten"
+        },
+        "pastParticiple": "doorkruist",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122146,9 +122321,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorleiden",
-        "present": "leidt door",
-        "past": "leidde door",
-        "participle": "doorgeleid"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "leid door",
+          "jij": "leidt door",
+          "hij": "leidt door",
+          "wij": "leiden door",
+          "jullie": "leiden door",
+          "zij": "leiden door"
+        },
+        "past": {
+          "singular": "leidde door",
+          "plural": "leidden door"
+        },
+        "pastParticiple": "doorgeleid",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122179,9 +122367,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorpakken",
-        "present": "pakt door",
-        "past": "pakte door",
-        "participle": "doorgepakt"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "pak door",
+          "jij": "pakt door",
+          "hij": "pakt door",
+          "wij": "pakken door",
+          "jullie": "pakken door",
+          "zij": "pakken door"
+        },
+        "past": {
+          "singular": "pakte door",
+          "plural": "pakten door"
+        },
+        "pastParticiple": "doorgepakt",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122212,9 +122413,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorspelen",
-        "present": "speelt door",
-        "past": "speelde door",
-        "participle": "doorgespeeld"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "speel door",
+          "jij": "speelt door",
+          "hij": "speelt door",
+          "wij": "spelen door",
+          "jullie": "spelen door",
+          "zij": "spelen door"
+        },
+        "past": {
+          "singular": "speelde door",
+          "plural": "speelden door"
+        },
+        "pastParticiple": "doorgespeeld",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122245,9 +122459,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorspoelen",
-        "present": "spoelt door",
-        "past": "spoelde door",
-        "participle": "doorgespoeld"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "poel door",
+          "jij": "poelt door",
+          "hij": "poelt door",
+          "wij": "poelen door",
+          "jullie": "poelen door",
+          "zij": "poelen door"
+        },
+        "past": {
+          "singular": "poelde door",
+          "plural": "poelden door"
+        },
+        "pastParticiple": "doorgespoeld",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122278,9 +122505,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorstampen",
-        "present": "stampt door",
-        "past": "stampte door",
-        "participle": "doorgestampt"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "stamp door",
+          "jij": "stampt door",
+          "hij": "stampt door",
+          "wij": "stampen door",
+          "jullie": "stampen door",
+          "zij": "stampen door"
+        },
+        "past": {
+          "singular": "stampte door",
+          "plural": "stampten door"
+        },
+        "pastParticiple": "doorgestampt",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122311,9 +122551,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorstromen",
-        "present": "stroomt door",
-        "past": "stroomde door",
-        "participle": "doorgestroomd"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "stroom door",
+          "jij": "stroomt door",
+          "hij": "stroomt door",
+          "wij": "stromen door",
+          "jullie": "stromen door",
+          "zij": "stromen door"
+        },
+        "past": {
+          "singular": "stroomde door",
+          "plural": "stroomden door"
+        },
+        "pastParticiple": "doorgestroomd",
+        "pastParticipleAuxiliary": "zijn"
       }
     },
     "examples": [
@@ -122344,9 +122597,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorzakken",
-        "present": "zakt door",
-        "past": "zakte door",
-        "participle": "doorgezakt"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "zak door",
+          "jij": "zakt door",
+          "hij": "zakt door",
+          "wij": "zakken door",
+          "jullie": "zakken door",
+          "zij": "zakken door"
+        },
+        "past": {
+          "singular": "zakte door",
+          "plural": "zakten door"
+        },
+        "pastParticiple": "doorgezakt",
+        "pastParticipleAuxiliary": "zijn"
       }
     },
     "examples": [
@@ -122377,9 +122643,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorzetten",
-        "present": "zet door",
-        "past": "zette door",
-        "participle": "doorgezet"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "zet door",
+          "jij": "zet door",
+          "hij": "zet door",
+          "wij": "zetten door",
+          "jullie": "zetten door",
+          "zij": "zetten door"
+        },
+        "past": {
+          "singular": "zette door",
+          "plural": "zetten door"
+        },
+        "pastParticiple": "doorgezet",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122410,9 +122689,22 @@
     "forms": {
       "verb": {
         "infinitive": "doorzoeken",
-        "present": "zoekt door",
-        "past": "zocht door",
-        "participle": "doorzocht"
+        "isSeparable": true,
+        "prefix": "door",
+        "present": {
+          "ik": "zoek door",
+          "jij": "zoekt door",
+          "hij": "zoekt door",
+          "wij": "zoeken door",
+          "jullie": "zoeken door",
+          "zij": "zoeken door"
+        },
+        "past": {
+          "singular": "zocht door",
+          "plural": "zochten door"
+        },
+        "pastParticiple": "doorzocht",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122443,9 +122735,22 @@
     "forms": {
       "verb": {
         "infinitive": "draaien om",
-        "present": "draait om",
-        "past": "draaide om",
-        "participle": "omgedraaid"
+        "isSeparable": true,
+        "prefix": "om",
+        "present": {
+          "ik": "draai om",
+          "jij": "draait om",
+          "hij": "draait om",
+          "wij": "draaien om",
+          "jullie": "draaien om",
+          "zij": "draaien om"
+        },
+        "past": {
+          "singular": "draaide om",
+          "plural": "draaiden om"
+        },
+        "pastParticiple": "omgedraaid",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122541,10 +122846,22 @@
     "partOfSpeech": "verb",
     "forms": {
       "verb": {
-        "infinitive": "dreigen te",
-        "present": "dreigt te",
-        "past": "dreigde te",
-        "participle": "gedreigd te"
+        "infinitive": "dreigen",
+        "isSeparable": false,
+        "present": {
+          "ik": "dreig te",
+          "jij": "dreigt te",
+          "hij": "dreigt te",
+          "wij": "dreigen te",
+          "jullie": "dreigen te",
+          "zij": "dreigen te"
+        },
+        "past": {
+          "singular": "dreigde te",
+          "plural": "dreigden te"
+        },
+        "pastParticiple": "gedreigd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122639,9 +122956,21 @@
     "forms": {
       "verb": {
         "infinitive": "eerbiedigen",
-        "present": "eerbiedigt",
-        "past": "eerbiedigde",
-        "participle": "geëerbiedigd"
+        "isSeparable": false,
+        "present": {
+          "ik": "eerbiedig",
+          "jij": "eerbiedigt",
+          "hij": "eerbiedigt",
+          "wij": "eerbiedigen",
+          "jullie": "eerbiedigen",
+          "zij": "eerbiedigen"
+        },
+        "past": {
+          "singular": "eerbiedigde",
+          "plural": "eerbiedigden"
+        },
+        "pastParticiple": "geëerbiedigd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -122768,9 +123097,21 @@
     "forms": {
       "verb": {
         "infinitive": "effectueren",
-        "present": "effectueert",
-        "past": "effectueerde",
-        "participle": "geeffectueerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "effectueer",
+          "jij": "effectueert",
+          "hij": "effectueert",
+          "wij": "effectueren",
+          "jullie": "effectueren",
+          "zij": "effectueren"
+        },
+        "past": {
+          "singular": "effectueerde",
+          "plural": "effectueerden"
+        },
+        "pastParticiple": "geeffectueerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -123289,9 +123630,21 @@
     "forms": {
       "verb": {
         "infinitive": "factureren",
-        "present": "factureert",
-        "past": "factureerde",
-        "participle": "gefactureerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "factureer",
+          "jij": "factureert",
+          "hij": "factureert",
+          "wij": "factureren",
+          "jullie": "factureren",
+          "zij": "factureren"
+        },
+        "past": {
+          "singular": "factureerde",
+          "plural": "factureerden"
+        },
+        "pastParticiple": "gefactureerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -123458,9 +123811,22 @@
     "forms": {
       "verb": {
         "infinitive": "flauwvallen",
-        "present": "valt flauw",
-        "past": "viel flauw",
-        "participle": "flauwgevallen"
+        "isSeparable": true,
+        "prefix": "flauw",
+        "present": {
+          "ik": "val flauw",
+          "jij": "valt flauw",
+          "hij": "valt flauw",
+          "wij": "vallen flauw",
+          "jullie": "vallen flauw",
+          "zij": "vallen flauw"
+        },
+        "past": {
+          "singular": "viel flauw",
+          "plural": "vielen flauw"
+        },
+        "pastParticiple": "flauwgevallen",
+        "pastParticipleAuxiliary": "zijn"
       }
     },
     "examples": [
@@ -123491,9 +123857,21 @@
     "forms": {
       "verb": {
         "infinitive": "fouilleren",
-        "present": "fouilleert",
-        "past": "fouilleerde",
-        "participle": "gefouilleerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "fouilleer",
+          "jij": "fouilleert",
+          "hij": "fouilleert",
+          "wij": "fouilleren",
+          "jullie": "fouilleren",
+          "zij": "fouilleren"
+        },
+        "past": {
+          "singular": "fouilleerde",
+          "plural": "fouilleerden"
+        },
+        "pastParticiple": "gefouilleerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -123947,10 +124325,23 @@
     "partOfSpeech": "verb",
     "forms": {
       "verb": {
-        "infinitive": "gelden voor",
-        "present": "geldt voor",
-        "past": "gold voor",
-        "participle": "gegolde voor"
+        "infinitive": "gelden",
+        "isSeparable": true,
+        "prefix": "voor",
+        "present": {
+          "ik": "geld voor",
+          "jij": "gilt voor",
+          "hij": "gilt voor",
+          "wij": "gelden voor",
+          "jullie": "gelden voor",
+          "zij": "gelden voor"
+        },
+        "past": {
+          "singular": "gold voor",
+          "plural": "golden voor"
+        },
+        "pastParticiple": "gegolde voor",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -124475,9 +124866,21 @@
     "forms": {
       "verb": {
         "infinitive": "geschieden",
-        "present": "geschiedt",
-        "past": "gebeurde",
-        "participle": "gebeurd"
+        "isSeparable": false,
+        "present": {
+          "ik": "geschied",
+          "jij": "geschiedt",
+          "hij": "geschiedt",
+          "wij": "geschieden",
+          "jullie": "geschieden",
+          "zij": "geschieden"
+        },
+        "past": {
+          "singular": "gebeurde",
+          "plural": "gebeurden"
+        },
+        "pastParticiple": "gebeurd",
+        "pastParticipleAuxiliary": "zijn"
       }
     },
     "examples": [
@@ -124870,9 +125273,22 @@
     "forms": {
       "verb": {
         "infinitive": "goeddunken",
-        "present": "dunkt goed",
-        "past": "dunkte goed",
-        "participle": "goedgedunken"
+        "isSeparable": true,
+        "prefix": "goed",
+        "present": {
+          "ik": "dunk goed",
+          "jij": "dunkt goed",
+          "hij": "dunkt goed",
+          "wij": "dunken goed",
+          "jullie": "dunken goed",
+          "zij": "dunken goed"
+        },
+        "past": {
+          "singular": "dunkte goed",
+          "plural": "dunken goed"
+        },
+        "pastParticiple": "goedgedunken",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -124937,9 +125353,22 @@
     "forms": {
       "verb": {
         "infinitive": "goedpraten",
-        "present": "praat goed",
-        "past": "praatte goed",
-        "participle": "goedgepraat"
+        "isSeparable": true,
+        "prefix": "goed",
+        "present": {
+          "ik": "praat goed",
+          "jij": "praat goed",
+          "hij": "praat goed",
+          "wij": "praten goed",
+          "jullie": "praten goed",
+          "zij": "praten goed"
+        },
+        "past": {
+          "singular": "praatte goed",
+          "plural": "praatten goed"
+        },
+        "pastParticiple": "goedgepraat",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -125352,9 +125781,21 @@
     "forms": {
       "verb": {
         "infinitive": "handboeien",
-        "present": "boeit",
-        "past": "boeide",
-        "participle": "geboeid"
+        "isSeparable": false,
+        "present": {
+          "ik": "boei",
+          "jij": "boeit",
+          "hij": "boeit",
+          "wij": "boeien",
+          "jullie": "boeien",
+          "zij": "boeien"
+        },
+        "past": {
+          "singular": "boeide",
+          "plural": "boeiden"
+        },
+        "pastParticiple": "geboeid",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -125679,9 +126120,21 @@
     "forms": {
       "verb": {
         "infinitive": "herbruiken",
-        "present": "herbruikt",
-        "past": "hergebruikte",
-        "participle": "hergebruikt"
+        "isSeparable": false,
+        "present": {
+          "ik": "herbruik",
+          "jij": "herbruikt",
+          "hij": "herbruikt",
+          "wij": "herbruiken",
+          "jullie": "herbruiken",
+          "zij": "herbruiken"
+        },
+        "past": {
+          "singular": "hergebruikte",
+          "plural": "hergebruikten"
+        },
+        "pastParticiple": "hergebruikt",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126166,10 +126619,23 @@
     "partOfSpeech": "verb",
     "forms": {
       "verb": {
-        "infinitive": "houden van",
-        "present": "houdt van",
-        "past": "hield van",
-        "participle": "gehouden van"
+        "infinitive": "houden",
+        "isSeparable": true,
+        "prefix": "van",
+        "present": {
+          "ik": "houd van",
+          "jij": "houdt van",
+          "hij": "houdt van",
+          "wij": "houden van",
+          "jullie": "houden van",
+          "zij": "houden van"
+        },
+        "past": {
+          "singular": "hield van",
+          "plural": "hielden van"
+        },
+        "pastParticiple": "gehouden van",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126232,9 +126698,21 @@
     "forms": {
       "verb": {
         "infinitive": "huisvesten",
-        "present": "huisvest",
-        "past": "huisvestte",
-        "participle": "gehuisvest"
+        "isSeparable": false,
+        "present": {
+          "ik": "huisvest",
+          "jij": "huisvest",
+          "hij": "huisvest",
+          "wij": "huisvesten",
+          "jullie": "huisvesten",
+          "zij": "huisvesten"
+        },
+        "past": {
+          "singular": "huisvestte",
+          "plural": "huisvestten"
+        },
+        "pastParticiple": "gehuisvest",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126361,9 +126839,21 @@
     "forms": {
       "verb": {
         "infinitive": "impliceren",
-        "present": "impliceert",
-        "past": "impliceerde",
-        "participle": "geïmpliceerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "impliceer",
+          "jij": "impliceert",
+          "hij": "impliceert",
+          "wij": "impliceren",
+          "jullie": "impliceren",
+          "zij": "impliceren"
+        },
+        "past": {
+          "singular": "impliceerde",
+          "plural": "impliceerden"
+        },
+        "pastParticiple": "geïmpliceerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126394,9 +126884,21 @@
     "forms": {
       "verb": {
         "infinitive": "imploderen",
-        "present": "impodeert",
-        "past": "impodeerde",
-        "participle": "geïmpoldeerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "impodeer",
+          "jij": "impodeert",
+          "hij": "impodeert",
+          "wij": "imploderen",
+          "jullie": "imploderen",
+          "zij": "imploderen"
+        },
+        "past": {
+          "singular": "impodeerde",
+          "plural": "impodeerden"
+        },
+        "pastParticiple": "geïmpoldeerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126457,9 +126959,22 @@
     "forms": {
       "verb": {
         "infinitive": "inachtnemen",
-        "present": "neemt in acht",
-        "past": "nam in acht",
-        "participle": "in acht genomen"
+        "isSeparable": true,
+        "prefix": "in acht",
+        "present": {
+          "ik": "neem in acht",
+          "jij": "neemt in acht",
+          "hij": "neemt in acht",
+          "wij": "nemen in acht",
+          "jullie": "nemen in acht",
+          "zij": "nemen in acht"
+        },
+        "past": {
+          "singular": "nam in acht",
+          "plural": "namen in acht"
+        },
+        "pastParticiple": "in acht genomen",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126490,9 +127005,22 @@
     "forms": {
       "verb": {
         "infinitive": "inbegrijpen",
-        "present": "begrijpt in",
-        "past": "begreep in",
-        "participle": "in begrepen"
+        "isSeparable": true,
+        "prefix": "in",
+        "present": {
+          "ik": "begrijp in",
+          "jij": "begrijpt in",
+          "hij": "begrijpt in",
+          "wij": "begrijpen in",
+          "jullie": "begrijpen in",
+          "zij": "begrijpen in"
+        },
+        "past": {
+          "singular": "begreep in",
+          "plural": "begrepen in"
+        },
+        "pastParticiple": "in begrepen",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126523,9 +127051,22 @@
     "forms": {
       "verb": {
         "infinitive": "inboezemen",
-        "present": "boezemt in",
-        "past": "boezemde in",
-        "participle": "in bezemden"
+        "isSeparable": true,
+        "prefix": "in",
+        "present": {
+          "ik": "bozem in",
+          "jij": "boezemt in",
+          "hij": "boezemt in",
+          "wij": "boezemen in",
+          "jullie": "boezemen in",
+          "zij": "boezemen in"
+        },
+        "past": {
+          "singular": "boezemde in",
+          "plural": "boezemden in"
+        },
+        "pastParticiple": "in bezemden",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126556,9 +127097,22 @@
     "forms": {
       "verb": {
         "infinitive": "inburgeren",
-        "present": "burgert in",
-        "past": "burgerde in",
-        "participle": "ingeburgerd"
+        "isSeparable": true,
+        "prefix": "in",
+        "present": {
+          "ik": "burger in",
+          "jij": "burgert in",
+          "hij": "burgert in",
+          "wij": "burgeren in",
+          "jullie": "burgeren in",
+          "zij": "burgeren in"
+        },
+        "past": {
+          "singular": "burgerde in",
+          "plural": "burgerden in"
+        },
+        "pastParticiple": "ingeburgerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126753,9 +127307,22 @@
     "forms": {
       "verb": {
         "infinitive": "inroosteren",
-        "present": "roostert in",
-        "past": "roosterde in",
-        "participle": "ingerost"
+        "isSeparable": true,
+        "prefix": "in",
+        "present": {
+          "ik": "rooster in",
+          "jij": "roostert in",
+          "hij": "roostert in",
+          "wij": "roosteren in",
+          "jullie": "roosteren in",
+          "zij": "roosteren in"
+        },
+        "past": {
+          "singular": "roosterde in",
+          "plural": "roosterden in"
+        },
+        "pastParticiple": "ingerost",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126786,9 +127353,22 @@
     "forms": {
       "verb": {
         "infinitive": "inschakelen",
-        "present": "schakelt in",
-        "past": "schakelde in",
-        "participle": "ingeschakeld"
+        "isSeparable": true,
+        "prefix": "in",
+        "present": {
+          "ik": "schakel in",
+          "jij": "schakelt in",
+          "hij": "schakelt in",
+          "wij": "schakelen in",
+          "jullie": "schakelen in",
+          "zij": "schakelen in"
+        },
+        "past": {
+          "singular": "schakelde in",
+          "plural": "schakelden in"
+        },
+        "pastParticiple": "ingeschakeld",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126819,9 +127399,22 @@
     "forms": {
       "verb": {
         "infinitive": "inschatten",
-        "present": "schat in",
-        "past": "schatte in",
-        "participle": "ingeschat"
+        "isSeparable": true,
+        "prefix": "in",
+        "present": {
+          "ik": "schat in",
+          "jij": "schat in",
+          "hij": "schat in",
+          "wij": "schatten in",
+          "jullie": "schatten in",
+          "zij": "schatten in"
+        },
+        "past": {
+          "singular": "schatte in",
+          "plural": "schatte in"
+        },
+        "pastParticiple": "ingeschat",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126852,9 +127445,22 @@
     "forms": {
       "verb": {
         "infinitive": "inschenken",
-        "present": "schenkt in",
-        "past": "schenkte in",
-        "participle": "ingeschonken"
+        "isSeparable": true,
+        "prefix": "in",
+        "present": {
+          "ik": "schenk in",
+          "jij": "schenkt in",
+          "hij": "schenkt in",
+          "wij": "schenken in",
+          "jullie": "schenken in",
+          "zij": "schenken in"
+        },
+        "past": {
+          "singular": "schenkte in",
+          "plural": "schonken in"
+        },
+        "pastParticiple": "ingeschonken",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -126981,9 +127587,21 @@
     "forms": {
       "verb": {
         "infinitive": "inspireren",
-        "present": "inspireert",
-        "past": "inspireerde",
-        "participle": "geïnspireerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "inspireer",
+          "jij": "inspireert",
+          "hij": "inspireert",
+          "wij": "inspireren",
+          "jullie": "inspireren",
+          "zij": "inspireren"
+        },
+        "past": {
+          "singular": "inspireerde",
+          "plural": "inspireerden"
+        },
+        "pastParticiple": "geïnspireerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -127046,9 +127664,21 @@
     "forms": {
       "verb": {
         "infinitive": "intimideren",
-        "present": "intimideert",
-        "past": "intimideerde",
-        "participle": "geïntimideerd"
+        "isSeparable": false,
+        "present": {
+          "ik": "intimideer",
+          "jij": "intimideert",
+          "hij": "intimideert",
+          "wij": "intimideren",
+          "jullie": "intimideren",
+          "zij": "intimideren"
+        },
+        "past": {
+          "singular": "intimideerde",
+          "plural": "intimideerden"
+        },
+        "pastParticiple": "geïntimideerd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -127145,9 +127775,22 @@
     "forms": {
       "verb": {
         "infinitive": "inwilligen",
-        "present": "willigt in",
-        "past": "willigde in",
-        "participle": "ingewilligd"
+        "isSeparable": true,
+        "prefix": "in",
+        "present": {
+          "ik": "willig in",
+          "jij": "willigt in",
+          "hij": "willigt in",
+          "wij": "willigen in",
+          "jullie": "willigen in",
+          "zij": "willigen in"
+        },
+        "past": {
+          "singular": "willigde in",
+          "plural": "willigden in"
+        },
+        "pastParticiple": "ingewilligd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -127178,9 +127821,22 @@
     "forms": {
       "verb": {
         "infinitive": "inzetten op",
-        "present": "zet in op",
-        "past": "zette in op",
-        "participle": "ingezet op"
+        "isSeparable": true,
+        "prefix": "in op",
+        "present": {
+          "ik": "zet in op",
+          "jij": "zet in op",
+          "hij": "zet in op",
+          "wij": "zetten in op",
+          "jullie": "zetten in op",
+          "zij": "zetten in op"
+        },
+        "past": {
+          "singular": "zette in op",
+          "plural": "zetten in op"
+        },
+        "pastParticiple": "ingezet op",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -127343,9 +127999,22 @@
     "forms": {
       "verb": {
         "infinitive": "klaarmaken",
-        "present": "maakt klaar",
-        "past": "maakte klaar",
-        "participle": "klaargemaakt"
+        "isSeparable": true,
+        "prefix": "klaar",
+        "present": {
+          "ik": "maak klaar",
+          "jij": "maakt klaar",
+          "hij": "maakt klaar",
+          "wij": "maken klaar",
+          "jullie": "maken klaar",
+          "zij": "maken klaar"
+        },
+        "past": {
+          "singular": "maakte klaar",
+          "plural": "maakten klaar"
+        },
+        "pastParticiple": "klaargemaakt",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -127376,9 +128045,22 @@
     "forms": {
       "verb": {
         "infinitive": "klaarzetten",
-        "present": "zet klaar",
-        "past": "zette klaar",
-        "participle": "klaargezet"
+        "isSeparable": true,
+        "prefix": "klaar",
+        "present": {
+          "ik": "zet klaar",
+          "jij": "zet klaar",
+          "hij": "zet klaar",
+          "wij": "zetten klaar",
+          "jullie": "zetten klaar",
+          "zij": "zetten klaar"
+        },
+        "past": {
+          "singular": "zette klaar",
+          "plural": "zetten klaar"
+        },
+        "pastParticiple": "klaargezet",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -127571,9 +128253,22 @@
     "forms": {
       "verb": {
         "infinitive": "kleven aan",
-        "present": "kleeft aan",
-        "past": "kleefde aan",
-        "participle": "aan gekleefd"
+        "isSeparable": true,
+        "prefix": "aan",
+        "present": {
+          "ik": "kleef aan",
+          "jij": "kleeft aan",
+          "hij": "kleeft aan",
+          "wij": "kleven aan",
+          "jullie": "kleven aan",
+          "zij": "kleven aan"
+        },
+        "past": {
+          "singular": "kleefde aan",
+          "plural": "kleefden aan"
+        },
+        "pastParticiple": "aan gekleefd",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -127996,9 +128691,22 @@
     "forms": {
       "verb": {
         "infinitive": "kwaad maken",
-        "present": "maakt kwaad",
-        "past": "maakte kwaad",
-        "participle": "kwaad gemaakt"
+        "isSeparable": true,
+        "prefix": "kwaad",
+        "present": {
+          "ik": "maak kwaad",
+          "jij": "maakt kwaad",
+          "hij": "maakt kwaad",
+          "wij": "maken kwaad",
+          "jullie": "maken kwaad",
+          "zij": "maken kwaad"
+        },
+        "past": {
+          "singular": "maakte kwaad",
+          "plural": "maakten kwaad"
+        },
+        "pastParticiple": "kwaad gemaakt",
+        "pastParticipleAuxiliary": "hebben"
       }
     },
     "examples": [
@@ -128096,10 +128804,22 @@
     "partOfSpeech": "verb",
     "forms": {
       "verb": {
-        "infinitive": "kwijt zijn",
-        "present": "is kwijt",
-        "past": "was kwijt",
-        "participle": "kwijt geweest"
+        "infinitive": "zijn",
+        "isSeparable": false,
+        "present": {
+          "ik": "ben kwijt",
+          "jij": "bent kwijt",
+          "hij": "is kwijt",
+          "wij": "zijn kwijt",
+          "jullie": "zijn kwijt",
+          "zij": "zijn kwijt"
+        },
+        "past": {
+          "singular": "was kwijt",
+          "plural": "waren kwijt"
+        },
+        "pastParticiple": "geweest",
+        "pastParticipleAuxiliary": "zijn"
       }
     },
     "examples": [

@@ -13,9 +13,22 @@
       "forms": {
         "verb": {
           "infinitive": "inzetten op",
-          "present": "zet in op",
-          "past": "zette in op",
-          "participle": "ingezet op"
+          "isSeparable": true,
+          "prefix": "in op",
+          "present": {
+            "ik": "zet in op",
+            "jij": "zet in op",
+            "hij": "zet in op",
+            "wij": "zetten in op",
+            "jullie": "zetten in op",
+            "zij": "zetten in op"
+          },
+          "past": {
+            "singular": "zette in op",
+            "plural": "zetten in op"
+          },
+          "pastParticiple": "ingezet op",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -178,9 +191,22 @@
       "forms": {
         "verb": {
           "infinitive": "klaarmaken",
-          "present": "maakt klaar",
-          "past": "maakte klaar",
-          "participle": "klaargemaakt"
+          "isSeparable": true,
+          "prefix": "klaar",
+          "present": {
+            "ik": "maak klaar",
+            "jij": "maakt klaar",
+            "hij": "maakt klaar",
+            "wij": "maken klaar",
+            "jullie": "maken klaar",
+            "zij": "maken klaar"
+          },
+          "past": {
+            "singular": "maakte klaar",
+            "plural": "maakten klaar"
+          },
+          "pastParticiple": "klaargemaakt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -211,9 +237,22 @@
       "forms": {
         "verb": {
           "infinitive": "klaarzetten",
-          "present": "zet klaar",
-          "past": "zette klaar",
-          "participle": "klaargezet"
+          "isSeparable": true,
+          "prefix": "klaar",
+          "present": {
+            "ik": "zet klaar",
+            "jij": "zet klaar",
+            "hij": "zet klaar",
+            "wij": "zetten klaar",
+            "jullie": "zetten klaar",
+            "zij": "zetten klaar"
+          },
+          "past": {
+            "singular": "zette klaar",
+            "plural": "zetten klaar"
+          },
+          "pastParticiple": "klaargezet",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -406,9 +445,22 @@
       "forms": {
         "verb": {
           "infinitive": "kleven aan",
-          "present": "kleeft aan",
-          "past": "kleefde aan",
-          "participle": "aan gekleefd"
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "kleef aan",
+            "jij": "kleeft aan",
+            "hij": "kleeft aan",
+            "wij": "kleven aan",
+            "jullie": "kleven aan",
+            "zij": "kleven aan"
+          },
+          "past": {
+            "singular": "kleefde aan",
+            "plural": "kleefden aan"
+          },
+          "pastParticiple": "aan gekleefd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -831,9 +883,22 @@
       "forms": {
         "verb": {
           "infinitive": "kwaad maken",
-          "present": "maakt kwaad",
-          "past": "maakte kwaad",
-          "participle": "kwaad gemaakt"
+          "isSeparable": true,
+          "prefix": "kwaad",
+          "present": {
+            "ik": "maak kwaad",
+            "jij": "maakt kwaad",
+            "hij": "maakt kwaad",
+            "wij": "maken kwaad",
+            "jullie": "maken kwaad",
+            "zij": "maken kwaad"
+          },
+          "past": {
+            "singular": "maakte kwaad",
+            "plural": "maakten kwaad"
+          },
+          "pastParticiple": "kwaad gemaakt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -931,10 +996,22 @@
       "partOfSpeech": "verb",
       "forms": {
         "verb": {
-          "infinitive": "kwijt zijn",
-          "present": "is kwijt",
-          "past": "was kwijt",
-          "participle": "kwijt geweest"
+          "infinitive": "zijn",
+          "isSeparable": false,
+          "present": {
+            "ik": "ben kwijt",
+            "jij": "bent kwijt",
+            "hij": "is kwijt",
+            "wij": "zijn kwijt",
+            "jullie": "zijn kwijt",
+            "zij": "zijn kwijt"
+          },
+          "past": {
+            "singular": "was kwijt",
+            "plural": "waren kwijt"
+          },
+          "pastParticiple": "geweest",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [

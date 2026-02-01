@@ -13,9 +13,21 @@
       "forms": {
         "verb": {
           "infinitive": "eerbiedigen",
-          "present": "eerbiedigt",
-          "past": "eerbiedigde",
-          "participle": "geëerbiedigd"
+          "isSeparable": false,
+          "present": {
+            "ik": "eerbiedig",
+            "jij": "eerbiedigt",
+            "hij": "eerbiedigt",
+            "wij": "eerbiedigen",
+            "jullie": "eerbiedigen",
+            "zij": "eerbiedigen"
+          },
+          "past": {
+            "singular": "eerbiedigde",
+            "plural": "eerbiedigden"
+          },
+          "pastParticiple": "geëerbiedigd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -142,9 +154,21 @@
       "forms": {
         "verb": {
           "infinitive": "effectueren",
-          "present": "effectueert",
-          "past": "effectueerde",
-          "participle": "geeffectueerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "effectueer",
+            "jij": "effectueert",
+            "hij": "effectueert",
+            "wij": "effectueren",
+            "jullie": "effectueren",
+            "zij": "effectueren"
+          },
+          "past": {
+            "singular": "effectueerde",
+            "plural": "effectueerden"
+          },
+          "pastParticiple": "geeffectueerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -663,9 +687,21 @@
       "forms": {
         "verb": {
           "infinitive": "factureren",
-          "present": "factureert",
-          "past": "factureerde",
-          "participle": "gefactureerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "factureer",
+            "jij": "factureert",
+            "hij": "factureert",
+            "wij": "factureren",
+            "jullie": "factureren",
+            "zij": "factureren"
+          },
+          "past": {
+            "singular": "factureerde",
+            "plural": "factureerden"
+          },
+          "pastParticiple": "gefactureerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -832,9 +868,22 @@
       "forms": {
         "verb": {
           "infinitive": "flauwvallen",
-          "present": "valt flauw",
-          "past": "viel flauw",
-          "participle": "flauwgevallen"
+          "isSeparable": true,
+          "prefix": "flauw",
+          "present": {
+            "ik": "val flauw",
+            "jij": "valt flauw",
+            "hij": "valt flauw",
+            "wij": "vallen flauw",
+            "jullie": "vallen flauw",
+            "zij": "vallen flauw"
+          },
+          "past": {
+            "singular": "viel flauw",
+            "plural": "vielen flauw"
+          },
+          "pastParticiple": "flauwgevallen",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -865,9 +914,21 @@
       "forms": {
         "verb": {
           "infinitive": "fouilleren",
-          "present": "fouilleert",
-          "past": "fouilleerde",
-          "participle": "gefouilleerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "fouilleer",
+            "jij": "fouilleert",
+            "hij": "fouilleert",
+            "wij": "fouilleren",
+            "jullie": "fouilleren",
+            "zij": "fouilleren"
+          },
+          "past": {
+            "singular": "fouilleerde",
+            "plural": "fouilleerden"
+          },
+          "pastParticiple": "gefouilleerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [

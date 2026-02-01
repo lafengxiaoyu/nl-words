@@ -338,10 +338,23 @@
       "partOfSpeech": "verb",
       "forms": {
         "verb": {
-          "infinitive": "gelden voor",
-          "present": "geldt voor",
-          "past": "gold voor",
-          "participle": "gegolde voor"
+          "infinitive": "gelden",
+          "isSeparable": true,
+          "prefix": "voor",
+          "present": {
+            "ik": "geld voor",
+            "jij": "gilt voor",
+            "hij": "gilt voor",
+            "wij": "gelden voor",
+            "jullie": "gelden voor",
+            "zij": "gelden voor"
+          },
+          "past": {
+            "singular": "gold voor",
+            "plural": "golden voor"
+          },
+          "pastParticiple": "gegolde voor",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -866,9 +879,21 @@
       "forms": {
         "verb": {
           "infinitive": "geschieden",
-          "present": "geschiedt",
-          "past": "gebeurde",
-          "participle": "gebeurd"
+          "isSeparable": false,
+          "present": {
+            "ik": "geschied",
+            "jij": "geschiedt",
+            "hij": "geschiedt",
+            "wij": "geschieden",
+            "jullie": "geschieden",
+            "zij": "geschieden"
+          },
+          "past": {
+            "singular": "gebeurde",
+            "plural": "gebeurden"
+          },
+          "pastParticiple": "gebeurd",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1261,9 +1286,22 @@
       "forms": {
         "verb": {
           "infinitive": "goeddunken",
-          "present": "dunkt goed",
-          "past": "dunkte goed",
-          "participle": "goedgedunken"
+          "isSeparable": true,
+          "prefix": "goed",
+          "present": {
+            "ik": "dunk goed",
+            "jij": "dunkt goed",
+            "hij": "dunkt goed",
+            "wij": "dunken goed",
+            "jullie": "dunken goed",
+            "zij": "dunken goed"
+          },
+          "past": {
+            "singular": "dunkte goed",
+            "plural": "dunken goed"
+          },
+          "pastParticiple": "goedgedunken",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1328,9 +1366,22 @@
       "forms": {
         "verb": {
           "infinitive": "goedpraten",
-          "present": "praat goed",
-          "past": "praatte goed",
-          "participle": "goedgepraat"
+          "isSeparable": true,
+          "prefix": "goed",
+          "present": {
+            "ik": "praat goed",
+            "jij": "praat goed",
+            "hij": "praat goed",
+            "wij": "praten goed",
+            "jullie": "praten goed",
+            "zij": "praten goed"
+          },
+          "past": {
+            "singular": "praatte goed",
+            "plural": "praatten goed"
+          },
+          "pastParticiple": "goedgepraat",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
