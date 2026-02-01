@@ -70,59 +70,27 @@
         "english": "to express, to put into words"
       },
       "partOfSpeech": "verb",
-      "forms": [
-        "woordt",
-        "woorde",
-        "verwoord"
-      ],
-      "level": "B2",
-      "conjugations": {
-        "present": [
-          "verwoord",
-          "verwoordt",
-          "verwoordt",
-          "verwoorden",
-          "verwoorden",
-          "verwoorden"
-        ],
-        "past": [
-          "woorde",
-          "woorde",
-          "woorde",
-          "woorden",
-          "woorden",
-          "woorden"
-        ],
-        "perfect": [
-          "heb verwoord",
-          "hebt verwoord",
-          "heeft verwoord",
-          "hebben verwoord",
-          "hebben verwoord",
-          "hebben verwoord"
-        ],
-        "future": [
-          "zal verwoorden",
-          "zult verwoorden",
-          "zult verwoorden",
-          "zullen verwoorden",
-          "zullen verwoorden",
-          "zullen verwoorden"
-        ],
-        "conditional": [
-          "zou verwoorden",
-          "zou verwoorden",
-          "zou verwoorden",
-          "zouden verwoorden",
-          "zouden verwoorden",
-          "zouden verwoorden"
-        ],
-        "imperative": [
-          "verwoord",
-          "verwoordt",
-          "verwoorden"
-        ]
+      "forms": {
+        "verb": {
+          "infinitive": "verwoorden",
+          "isSeparable": false,
+          "present": {
+            "ik": "verwoord",
+            "jij": "verwoordt",
+            "hij": "verwoordt",
+            "wij": "verwoorden",
+            "jullie": "verwoorden",
+            "zij": "verwoorden"
+          },
+          "past": {
+            "singular": "woorde",
+            "plural": "woorden"
+          },
+          "pastParticiple": "verwoord",
+          "pastParticipleAuxiliary": "hebben"
+        }
       },
+      "level": "B2",
       "examples": [
         "Kan je het verwoorden?",
         "Ze probeerde haar gevoelens te verwoorden."
@@ -148,59 +116,27 @@
         "english": "to soften, to alleviate"
       },
       "partOfSpeech": "verb",
-      "forms": [
-        "zacht",
-        "zachte",
-        "verzacht"
-      ],
-      "level": "B2",
-      "conjugations": {
-        "present": [
-          "verzacht",
-          "verzacht",
-          "verzacht",
-          "verzachten",
-          "verzachten",
-          "verzachten"
-        ],
-        "past": [
-          "zachte",
-          "zachte",
-          "zachte",
-          "zakten",
-          "zakten",
-          "zakten"
-        ],
-        "perfect": [
-          "heb verzacht",
-          "hebt verzacht",
-          "heeft verzacht",
-          "hebben verzacht",
-          "hebben verzacht",
-          "hebben verzacht"
-        ],
-        "future": [
-          "zal verzachten",
-          "zult verzachten",
-          "zult verzachten",
-          "zullen verzachten",
-          "zullen verzachten",
-          "zullen verzachten"
-        ],
-        "conditional": [
-          "zou verzachten",
-          "zou verzachten",
-          "zou verzachten",
-          "zouden verzachten",
-          "zouden verzachten",
-          "zouden verzachten"
-        ],
-        "imperative": [
-          "verzacht",
-          "verzacht",
-          "verzachten"
-        ]
+      "forms": {
+        "verb": {
+          "infinitive": "verzachten",
+          "isSeparable": false,
+          "present": {
+            "ik": "verzacht",
+            "jij": "verzacht",
+            "hij": "verzacht",
+            "wij": "verzachten",
+            "jullie": "verzachten",
+            "zij": "verzachten"
+          },
+          "past": {
+            "singular": "zachte",
+            "plural": "zakten"
+          },
+          "pastParticiple": "verzacht",
+          "pastParticipleAuxiliary": "hebben"
+        }
       },
+      "level": "B2",
       "examples": [
         "De regen verzachtte de hitte.",
         "Medicijnen kunnen de pijn verzachten."
@@ -226,59 +162,27 @@
         "english": "to saturate, to satisfy"
       },
       "partOfSpeech": "verb",
-      "forms": [
-        "zadigt",
-        "zadigde",
-        "verzadigd"
-      ],
-      "level": "B2",
-      "conjugations": {
-        "present": [
-          "verzadig",
-          "verzadigt",
-          "verzadigt",
-          "verzadigen",
-          "verzadigen",
-          "verzadigen"
-        ],
-        "past": [
-          "verzadigde",
-          "verzadigde",
-          "verzadigde",
-          "verzadigden",
-          "verzadigden",
-          "verzadigden"
-        ],
-        "perfect": [
-          "heb verzadigd",
-          "hebt verzadigd",
-          "heeft verzadigd",
-          "hebben verzadigd",
-          "hebben verzadigd",
-          "hebben verzadigd"
-        ],
-        "future": [
-          "zal verzadigen",
-          "zult verzadigen",
-          "zult verzadigen",
-          "zullen verzadigen",
-          "zullen verzadigen",
-          "zullen verzadigen"
-        ],
-        "conditional": [
-          "zou verzadigen",
-          "zou verzadigen",
-          "zou verzadigen",
-          "zouden verzadigen",
-          "zouden verzadigen",
-          "zouden verzadigen"
-        ],
-        "imperative": [
-          "verzadig",
-          "verzadigt",
-          "verzadigen"
-        ]
+      "forms": {
+        "verb": {
+          "infinitive": "verzadigen",
+          "isSeparable": false,
+          "present": {
+            "ik": "verzadig",
+            "jij": "verzadigt",
+            "hij": "verzadigt",
+            "wij": "verzadigen",
+            "jullie": "verzadigen",
+            "zij": "verzadigen"
+          },
+          "past": {
+            "singular": "verzadigde",
+            "plural": "verzadigden"
+          },
+          "pastParticiple": "verzadigd",
+          "pastParticipleAuxiliary": "hebben"
+        }
       },
+      "level": "B2",
       "examples": [
         "De markt verzadigt.",
         "Het voedsel verzadigde mijn honger."
@@ -304,59 +208,27 @@
         "english": "to seal, to close"
       },
       "partOfSpeech": "verb",
-      "forms": [
-        "zegelt",
-        "zegelde",
-        "verzegeld"
-      ],
-      "level": "B2",
-      "conjugations": {
-        "present": [
-          "verzegel",
-          "verzegelt",
-          "verzegelt",
-          "verzegelen",
-          "verzegelen",
-          "verzegelen"
-        ],
-        "past": [
-          "verzegelde",
-          "verzegelde",
-          "verzegelde",
-          "verzegelden",
-          "verzegelden",
-          "verzegelden"
-        ],
-        "perfect": [
-          "heb verzegeld",
-          "hebt verzegeld",
-          "heeft verzegeld",
-          "hebben verzegeld",
-          "hebben verzegeld",
-          "hebben verzegeld"
-        ],
-        "future": [
-          "zal verzegelen",
-          "zult verzegelen",
-          "zult verzegelen",
-          "zullen verzegelen",
-          "zullen verzegelen",
-          "zullen verzegelen"
-        ],
-        "conditional": [
-          "zou verzegelen",
-          "zou verzegelen",
-          "zou verzegelen",
-          "zouden verzegelen",
-          "zouden verzegelen",
-          "zouden verzegelen"
-        ],
-        "imperative": [
-          "verzegel",
-          "verzegelt",
-          "verzegelen"
-        ]
+      "forms": {
+        "verb": {
+          "infinitive": "verzegelen",
+          "isSeparable": false,
+          "present": {
+            "ik": "verzegel",
+            "jij": "verzegelt",
+            "hij": "verzegelt",
+            "wij": "verzegelen",
+            "jullie": "verzegelen",
+            "zij": "verzegelen"
+          },
+          "past": {
+            "singular": "verzegelde",
+            "plural": "verzegelden"
+          },
+          "pastParticiple": "verzegeld",
+          "pastParticipleAuxiliary": "hebben"
+        }
       },
+      "level": "B2",
       "examples": [
         "Verzegel de doos.",
         "De documenten werden verzegeld."
@@ -382,59 +254,27 @@
         "english": "to conceal, to withhold"
       },
       "partOfSpeech": "verb",
-      "forms": [
-        "zwijgt",
-        "zwijgde",
-        "verzwegen"
-      ],
-      "level": "B2",
-      "conjugations": {
-        "present": [
-          "verzwijg",
-          "verzwijgt",
-          "verzwijgt",
-          "verzwijgen",
-          "verzwijgen",
-          "verzwijgen"
-        ],
-        "past": [
-          "verzwijgde",
-          "verzwijgde",
-          "verzwijgde",
-          "verzwegen",
-          "verzwegen",
-          "verzwegen"
-        ],
-        "perfect": [
-          "heb verzwegen",
-          "hebt verzwegen",
-          "heeft verzwegen",
-          "hebben verzwegen",
-          "hebben verzwegen",
-          "hebben verzwegen"
-        ],
-        "future": [
-          "zal verzwijgen",
-          "zult verzwijgen",
-          "zult verzwijgen",
-          "zullen verzwijgen",
-          "zullen verzwijgen",
-          "zullen verzwijgen"
-        ],
-        "conditional": [
-          "zou verzwijgen",
-          "zou verzwijgen",
-          "zou verzwijgen",
-          "zouden verzwijgen",
-          "zouden verzwijgen",
-          "zouden verzwijgen"
-        ],
-        "imperative": [
-          "verzwijg",
-          "verzwijgt",
-          "verzwijgen"
-        ]
+      "forms": {
+        "verb": {
+          "infinitive": "verzwijgen",
+          "isSeparable": false,
+          "present": {
+            "ik": "verzwijg",
+            "jij": "verzwijgt",
+            "hij": "verzwijgt",
+            "wij": "verzwijgen",
+            "jullie": "verzwijgen",
+            "zij": "verzwijgen"
+          },
+          "past": {
+            "singular": "verzwijgde",
+            "plural": "verzwegen"
+          },
+          "pastParticiple": "verzwegen",
+          "pastParticipleAuxiliary": "hebben"
+        }
       },
+      "level": "B2",
       "examples": [
         "Hij zwijgt over het incident.",
         "Ze verzwijgt de waarheid."

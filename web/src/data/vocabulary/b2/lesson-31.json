@@ -42,59 +42,27 @@
         "english": "to guarantee, to ensure"
       },
       "partOfSpeech": "verb",
-      "forms": [
-        "waarborgde",
-        "gewaarborgd",
-        "waarborgt"
-      ],
-      "level": "B2",
-      "conjugations": {
-        "present": [
-          "waarborg",
-          "waarborgt",
-          "waarborgt",
-          "waarborgen",
-          "waarborgen",
-          "waarborgen"
-        ],
-        "past": [
-          "waarborgde",
-          "waarborgde",
-          "waarborgde",
-          "waarborgden",
-          "waarborgden",
-          "waarborgden"
-        ],
-        "perfect": [
-          "heb gewaarborgd",
-          "hebt gewaarborgd",
-          "heeft gewaarborgd",
-          "hebben gewaarborgd",
-          "hebben gewaarborgd",
-          "hebben gewaarborgd"
-        ],
-        "future": [
-          "zal waarborgen",
-          "zult waarborgen",
-          "zult waarborgen",
-          "zullen waarborgen",
-          "zullen waarborgen",
-          "zullen waarborgen"
-        ],
-        "conditional": [
-          "zou waarborgen",
-          "zou waarborgen",
-          "zou waarborgen",
-          "zouden waarborgen",
-          "zouden waarborgen",
-          "zouden waarborgen"
-        ],
-        "imperative": [
-          "waarborg",
-          "waarborgt",
-          "waarborgen"
-        ]
+      "forms": {
+        "verb": {
+          "infinitive": "waarborgen",
+          "isSeparable": false,
+          "present": {
+            "ik": "waarborg",
+            "jij": "waarborgt",
+            "hij": "waarborgt",
+            "wij": "waarborgen",
+            "jullie": "waarborgen",
+            "zij": "waarborgen"
+          },
+          "past": {
+            "singular": "waarborgde",
+            "plural": "waarborgden"
+          },
+          "pastParticiple": "gewaarborgd",
+          "pastParticipleAuxiliary": "hebben"
+        }
       },
+      "level": "B2",
       "examples": [
         "De wet waarborgt gelijke rechten voor alle burgers.",
         "Het contract waarborgt onze veiligheid en kwaliteit."
@@ -487,59 +455,27 @@
         "english": "to compete, to vie"
       },
       "partOfSpeech": "verb",
-      "forms": [
-        "wedijverde",
-        "gewedijverd",
-        "wedijvert"
-      ],
-      "level": "B2",
-      "conjugations": {
-        "present": [
-          "wedijver",
-          "wedijvert",
-          "wedijvert",
-          "wedijveren",
-          "wedijveren",
-          "wedijveren"
-        ],
-        "past": [
-          "wedijverde",
-          "wedijverde",
-          "wedijverde",
-          "wedijverden",
-          "wedijverden",
-          "wedijverden"
-        ],
-        "perfect": [
-          "heb gewedijverd",
-          "hebt gewedijverd",
-          "heeft gewedijverd",
-          "hebben gewedijverd",
-          "hebben gewedijverd",
-          "hebben gewedijverd"
-        ],
-        "future": [
-          "zal wedijveren",
-          "zult wedijveren",
-          "zult wedijveren",
-          "zullen wedijveren",
-          "zullen wedijveren",
-          "zullen wedijveren"
-        ],
-        "conditional": [
-          "zou wedijveren",
-          "zou wedijveren",
-          "zou wedijveren",
-          "zouden wedijveren",
-          "zouden wedijveren",
-          "zouden wedijveren"
-        ],
-        "imperative": [
-          "wedijver",
-          "wedijvert",
-          "wedijveren"
-        ]
+      "forms": {
+        "verb": {
+          "infinitive": "wedijveren",
+          "isSeparable": false,
+          "present": {
+            "ik": "wedijver",
+            "jij": "wedijvert",
+            "hij": "wedijvert",
+            "wij": "wedijveren",
+            "jullie": "wedijveren",
+            "zij": "wedijveren"
+          },
+          "past": {
+            "singular": "wedijverde",
+            "plural": "wedijverden"
+          },
+          "pastParticiple": "gewedijverd",
+          "pastParticipleAuxiliary": "hebben"
+        }
       },
+      "level": "B2",
       "examples": [
         "De bedrijven wedijveren om de beste werknemers.",
         "Atleten wedijveren om de gouden medaille."
@@ -702,59 +638,27 @@
         "english": "to refute, to rebut"
       },
       "partOfSpeech": "verb",
-      "forms": [
-        "weerlegde",
-        "weerlegd",
-        "weerlegt"
-      ],
-      "level": "B2",
-      "conjugations": {
-        "present": [
-          "weerleg",
-          "weerlegt",
-          "weerlegt",
-          "weerleggen",
-          "weerleggen",
-          "weerleggen"
-        ],
-        "past": [
-          "weerlegde",
-          "weerlegde",
-          "weerlegde",
-          "weerlegden",
-          "weerlegden",
-          "weerlegden"
-        ],
-        "perfect": [
-          "heb weerlegd",
-          "hebt weerlegd",
-          "heeft weerlegd",
-          "hebben weerlegd",
-          "hebben weerlegd",
-          "hebben weerlegd"
-        ],
-        "future": [
-          "zal weerleggen",
-          "zult weerleggen",
-          "zult weerleggen",
-          "zullen weerleggen",
-          "zullen weerleggen",
-          "zullen weerleggen"
-        ],
-        "conditional": [
-          "zou weerleggen",
-          "zou weerleggen",
-          "zou weerleggen",
-          "zouden weerleggen",
-          "zouden weerleggen",
-          "zouden weerleggen"
-        ],
-        "imperative": [
-          "weerleg",
-          "weerlegt",
-          "weerleggen"
-        ]
+      "forms": {
+        "verb": {
+          "infinitive": "weerleggen",
+          "isSeparable": false,
+          "present": {
+            "ik": "weerleg",
+            "jij": "weerlegt",
+            "hij": "weerlegt",
+            "wij": "weerleggen",
+            "jullie": "weerleggen",
+            "zij": "weerleggen"
+          },
+          "past": {
+            "singular": "weerlegde",
+            "plural": "weerlegden"
+          },
+          "pastParticiple": "weerlegd",
+          "pastParticipleAuxiliary": "hebben"
+        }
       },
+      "level": "B2",
       "examples": [
         "De advocaat weerlegde alle aanklachten van de aanklager.",
         "Ze wist de argumenten van haar tegenstander te weerleggen."
@@ -780,59 +684,28 @@
         "english": "to flow away, to drain"
       },
       "partOfSpeech": "verb",
-      "forms": [
-        "stroomde weg",
-        "weggestroomd",
-        "stroomt weg"
-      ],
-      "level": "B2",
-      "conjugations": {
-        "present": [
-          "stroom weg",
-          "stroomt weg",
-          "stroomt weg",
-          "stromen weg",
-          "stromen weg",
-          "stromen weg"
-        ],
-        "past": [
-          "stroomde weg",
-          "stroomde weg",
-          "stroomde weg",
-          "stroomden weg",
-          "stroomden weg",
-          "stroomden weg"
-        ],
-        "perfect": [
-          "ben weggestroomd",
-          "bent weggestroomd",
-          "is weggestroomd",
-          "zijn weggestroomd",
-          "zijn weggestroomd",
-          "zijn weggestroomd"
-        ],
-        "future": [
-          "zal wegstromen",
-          "zult wegstromen",
-          "zult wegstromen",
-          "zullen wegstromen",
-          "zullen wegstromen",
-          "zullen wegstromen"
-        ],
-        "conditional": [
-          "zou wegstromen",
-          "zou wegstromen",
-          "zou wegstromen",
-          "zouden wegstromen",
-          "zouden wegstromen",
-          "zouden wegstromen"
-        ],
-        "imperative": [
-          "stroom weg",
-          "stroomt weg",
-          "stromen weg"
-        ]
+      "forms": {
+        "verb": {
+          "infinitive": "wegstromen",
+          "isSeparable": true,
+          "prefix": "weg",
+          "present": {
+            "ik": "stroom weg",
+            "jij": "stroomt weg",
+            "hij": "stroomt weg",
+            "wij": "stromen weg",
+            "jullie": "stromen weg",
+            "zij": "stromen weg"
+          },
+          "past": {
+            "singular": "stroomde weg",
+            "plural": "stroomden weg"
+          },
+          "pastParticiple": "weggestroomd",
+          "pastParticipleAuxiliary": "zijn"
+        }
       },
+      "level": "B2",
       "examples": [
         "Het water stroomde weg via de put.",
         "De tijd stroomde snel weg tijdens ons gesprek."

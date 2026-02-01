@@ -151216,59 +151216,27 @@
       "english": "to express, to put into words"
     },
     "partOfSpeech": "verb",
-    "forms": [
-      "woordt",
-      "woorde",
-      "verwoord"
-    ],
-    "level": "B2",
-    "conjugations": {
-      "present": [
-        "verwoord",
-        "verwoordt",
-        "verwoordt",
-        "verwoorden",
-        "verwoorden",
-        "verwoorden"
-      ],
-      "past": [
-        "woorde",
-        "woorde",
-        "woorde",
-        "woorden",
-        "woorden",
-        "woorden"
-      ],
-      "perfect": [
-        "heb verwoord",
-        "hebt verwoord",
-        "heeft verwoord",
-        "hebben verwoord",
-        "hebben verwoord",
-        "hebben verwoord"
-      ],
-      "future": [
-        "zal verwoorden",
-        "zult verwoorden",
-        "zult verwoorden",
-        "zullen verwoorden",
-        "zullen verwoorden",
-        "zullen verwoorden"
-      ],
-      "conditional": [
-        "zou verwoorden",
-        "zou verwoorden",
-        "zou verwoorden",
-        "zouden verwoorden",
-        "zouden verwoorden",
-        "zouden verwoorden"
-      ],
-      "imperative": [
-        "verwoord",
-        "verwoordt",
-        "verwoorden"
-      ]
+    "forms": {
+      "verb": {
+        "infinitive": "verwoorden",
+        "isSeparable": false,
+        "present": {
+          "ik": "verwoord",
+          "jij": "verwoordt",
+          "hij": "verwoordt",
+          "wij": "verwoorden",
+          "jullie": "verwoorden",
+          "zij": "verwoorden"
+        },
+        "past": {
+          "singular": "woorde",
+          "plural": "woorden"
+        },
+        "pastParticiple": "verwoord",
+        "pastParticipleAuxiliary": "hebben"
+      }
     },
+    "level": "B2",
     "examples": [
       "Kan je het verwoorden?",
       "Ze probeerde haar gevoelens te verwoorden."
@@ -151294,59 +151262,27 @@
       "english": "to soften, to alleviate"
     },
     "partOfSpeech": "verb",
-    "forms": [
-      "zacht",
-      "zachte",
-      "verzacht"
-    ],
-    "level": "B2",
-    "conjugations": {
-      "present": [
-        "verzacht",
-        "verzacht",
-        "verzacht",
-        "verzachten",
-        "verzachten",
-        "verzachten"
-      ],
-      "past": [
-        "zachte",
-        "zachte",
-        "zachte",
-        "zakten",
-        "zakten",
-        "zakten"
-      ],
-      "perfect": [
-        "heb verzacht",
-        "hebt verzacht",
-        "heeft verzacht",
-        "hebben verzacht",
-        "hebben verzacht",
-        "hebben verzacht"
-      ],
-      "future": [
-        "zal verzachten",
-        "zult verzachten",
-        "zult verzachten",
-        "zullen verzachten",
-        "zullen verzachten",
-        "zullen verzachten"
-      ],
-      "conditional": [
-        "zou verzachten",
-        "zou verzachten",
-        "zou verzachten",
-        "zouden verzachten",
-        "zouden verzachten",
-        "zouden verzachten"
-      ],
-      "imperative": [
-        "verzacht",
-        "verzacht",
-        "verzachten"
-      ]
+    "forms": {
+      "verb": {
+        "infinitive": "verzachten",
+        "isSeparable": false,
+        "present": {
+          "ik": "verzacht",
+          "jij": "verzacht",
+          "hij": "verzacht",
+          "wij": "verzachten",
+          "jullie": "verzachten",
+          "zij": "verzachten"
+        },
+        "past": {
+          "singular": "zachte",
+          "plural": "zakten"
+        },
+        "pastParticiple": "verzacht",
+        "pastParticipleAuxiliary": "hebben"
+      }
     },
+    "level": "B2",
     "examples": [
       "De regen verzachtte de hitte.",
       "Medicijnen kunnen de pijn verzachten."
@@ -151372,59 +151308,27 @@
       "english": "to saturate, to satisfy"
     },
     "partOfSpeech": "verb",
-    "forms": [
-      "zadigt",
-      "zadigde",
-      "verzadigd"
-    ],
-    "level": "B2",
-    "conjugations": {
-      "present": [
-        "verzadig",
-        "verzadigt",
-        "verzadigt",
-        "verzadigen",
-        "verzadigen",
-        "verzadigen"
-      ],
-      "past": [
-        "verzadigde",
-        "verzadigde",
-        "verzadigde",
-        "verzadigden",
-        "verzadigden",
-        "verzadigden"
-      ],
-      "perfect": [
-        "heb verzadigd",
-        "hebt verzadigd",
-        "heeft verzadigd",
-        "hebben verzadigd",
-        "hebben verzadigd",
-        "hebben verzadigd"
-      ],
-      "future": [
-        "zal verzadigen",
-        "zult verzadigen",
-        "zult verzadigen",
-        "zullen verzadigen",
-        "zullen verzadigen",
-        "zullen verzadigen"
-      ],
-      "conditional": [
-        "zou verzadigen",
-        "zou verzadigen",
-        "zou verzadigen",
-        "zouden verzadigen",
-        "zouden verzadigen",
-        "zouden verzadigen"
-      ],
-      "imperative": [
-        "verzadig",
-        "verzadigt",
-        "verzadigen"
-      ]
+    "forms": {
+      "verb": {
+        "infinitive": "verzadigen",
+        "isSeparable": false,
+        "present": {
+          "ik": "verzadig",
+          "jij": "verzadigt",
+          "hij": "verzadigt",
+          "wij": "verzadigen",
+          "jullie": "verzadigen",
+          "zij": "verzadigen"
+        },
+        "past": {
+          "singular": "verzadigde",
+          "plural": "verzadigden"
+        },
+        "pastParticiple": "verzadigd",
+        "pastParticipleAuxiliary": "hebben"
+      }
     },
+    "level": "B2",
     "examples": [
       "De markt verzadigt.",
       "Het voedsel verzadigde mijn honger."
@@ -151450,59 +151354,27 @@
       "english": "to seal, to close"
     },
     "partOfSpeech": "verb",
-    "forms": [
-      "zegelt",
-      "zegelde",
-      "verzegeld"
-    ],
-    "level": "B2",
-    "conjugations": {
-      "present": [
-        "verzegel",
-        "verzegelt",
-        "verzegelt",
-        "verzegelen",
-        "verzegelen",
-        "verzegelen"
-      ],
-      "past": [
-        "verzegelde",
-        "verzegelde",
-        "verzegelde",
-        "verzegelden",
-        "verzegelden",
-        "verzegelden"
-      ],
-      "perfect": [
-        "heb verzegeld",
-        "hebt verzegeld",
-        "heeft verzegeld",
-        "hebben verzegeld",
-        "hebben verzegeld",
-        "hebben verzegeld"
-      ],
-      "future": [
-        "zal verzegelen",
-        "zult verzegelen",
-        "zult verzegelen",
-        "zullen verzegelen",
-        "zullen verzegelen",
-        "zullen verzegelen"
-      ],
-      "conditional": [
-        "zou verzegelen",
-        "zou verzegelen",
-        "zou verzegelen",
-        "zouden verzegelen",
-        "zouden verzegelen",
-        "zouden verzegelen"
-      ],
-      "imperative": [
-        "verzegel",
-        "verzegelt",
-        "verzegelen"
-      ]
+    "forms": {
+      "verb": {
+        "infinitive": "verzegelen",
+        "isSeparable": false,
+        "present": {
+          "ik": "verzegel",
+          "jij": "verzegelt",
+          "hij": "verzegelt",
+          "wij": "verzegelen",
+          "jullie": "verzegelen",
+          "zij": "verzegelen"
+        },
+        "past": {
+          "singular": "verzegelde",
+          "plural": "verzegelden"
+        },
+        "pastParticiple": "verzegeld",
+        "pastParticipleAuxiliary": "hebben"
+      }
     },
+    "level": "B2",
     "examples": [
       "Verzegel de doos.",
       "De documenten werden verzegeld."
@@ -151528,59 +151400,27 @@
       "english": "to conceal, to withhold"
     },
     "partOfSpeech": "verb",
-    "forms": [
-      "zwijgt",
-      "zwijgde",
-      "verzwegen"
-    ],
-    "level": "B2",
-    "conjugations": {
-      "present": [
-        "verzwijg",
-        "verzwijgt",
-        "verzwijgt",
-        "verzwijgen",
-        "verzwijgen",
-        "verzwijgen"
-      ],
-      "past": [
-        "verzwijgde",
-        "verzwijgde",
-        "verzwijgde",
-        "verzwegen",
-        "verzwegen",
-        "verzwegen"
-      ],
-      "perfect": [
-        "heb verzwegen",
-        "hebt verzwegen",
-        "heeft verzwegen",
-        "hebben verzwegen",
-        "hebben verzwegen",
-        "hebben verzwegen"
-      ],
-      "future": [
-        "zal verzwijgen",
-        "zult verzwijgen",
-        "zult verzwijgen",
-        "zullen verzwijgen",
-        "zullen verzwijgen",
-        "zullen verzwijgen"
-      ],
-      "conditional": [
-        "zou verzwijgen",
-        "zou verzwijgen",
-        "zou verzwijgen",
-        "zouden verzwijgen",
-        "zouden verzwijgen",
-        "zouden verzwijgen"
-      ],
-      "imperative": [
-        "verzwijg",
-        "verzwijgt",
-        "verzwijgen"
-      ]
+    "forms": {
+      "verb": {
+        "infinitive": "verzwijgen",
+        "isSeparable": false,
+        "present": {
+          "ik": "verzwijg",
+          "jij": "verzwijgt",
+          "hij": "verzwijgt",
+          "wij": "verzwijgen",
+          "jullie": "verzwijgen",
+          "zij": "verzwijgen"
+        },
+        "past": {
+          "singular": "verzwijgde",
+          "plural": "verzwegen"
+        },
+        "pastParticiple": "verzwegen",
+        "pastParticipleAuxiliary": "hebben"
+      }
     },
+    "level": "B2",
     "examples": [
       "Hij zwijgt over het incident.",
       "Ze verzwijgt de waarheid."
@@ -153643,59 +153483,27 @@
       "english": "to guarantee, to ensure"
     },
     "partOfSpeech": "verb",
-    "forms": [
-      "waarborgde",
-      "gewaarborgd",
-      "waarborgt"
-    ],
-    "level": "B2",
-    "conjugations": {
-      "present": [
-        "waarborg",
-        "waarborgt",
-        "waarborgt",
-        "waarborgen",
-        "waarborgen",
-        "waarborgen"
-      ],
-      "past": [
-        "waarborgde",
-        "waarborgde",
-        "waarborgde",
-        "waarborgden",
-        "waarborgden",
-        "waarborgden"
-      ],
-      "perfect": [
-        "heb gewaarborgd",
-        "hebt gewaarborgd",
-        "heeft gewaarborgd",
-        "hebben gewaarborgd",
-        "hebben gewaarborgd",
-        "hebben gewaarborgd"
-      ],
-      "future": [
-        "zal waarborgen",
-        "zult waarborgen",
-        "zult waarborgen",
-        "zullen waarborgen",
-        "zullen waarborgen",
-        "zullen waarborgen"
-      ],
-      "conditional": [
-        "zou waarborgen",
-        "zou waarborgen",
-        "zou waarborgen",
-        "zouden waarborgen",
-        "zouden waarborgen",
-        "zouden waarborgen"
-      ],
-      "imperative": [
-        "waarborg",
-        "waarborgt",
-        "waarborgen"
-      ]
+    "forms": {
+      "verb": {
+        "infinitive": "waarborgen",
+        "isSeparable": false,
+        "present": {
+          "ik": "waarborg",
+          "jij": "waarborgt",
+          "hij": "waarborgt",
+          "wij": "waarborgen",
+          "jullie": "waarborgen",
+          "zij": "waarborgen"
+        },
+        "past": {
+          "singular": "waarborgde",
+          "plural": "waarborgden"
+        },
+        "pastParticiple": "gewaarborgd",
+        "pastParticipleAuxiliary": "hebben"
+      }
     },
+    "level": "B2",
     "examples": [
       "De wet waarborgt gelijke rechten voor alle burgers.",
       "Het contract waarborgt onze veiligheid en kwaliteit."
@@ -154088,59 +153896,27 @@
       "english": "to compete, to vie"
     },
     "partOfSpeech": "verb",
-    "forms": [
-      "wedijverde",
-      "gewedijverd",
-      "wedijvert"
-    ],
-    "level": "B2",
-    "conjugations": {
-      "present": [
-        "wedijver",
-        "wedijvert",
-        "wedijvert",
-        "wedijveren",
-        "wedijveren",
-        "wedijveren"
-      ],
-      "past": [
-        "wedijverde",
-        "wedijverde",
-        "wedijverde",
-        "wedijverden",
-        "wedijverden",
-        "wedijverden"
-      ],
-      "perfect": [
-        "heb gewedijverd",
-        "hebt gewedijverd",
-        "heeft gewedijverd",
-        "hebben gewedijverd",
-        "hebben gewedijverd",
-        "hebben gewedijverd"
-      ],
-      "future": [
-        "zal wedijveren",
-        "zult wedijveren",
-        "zult wedijveren",
-        "zullen wedijveren",
-        "zullen wedijveren",
-        "zullen wedijveren"
-      ],
-      "conditional": [
-        "zou wedijveren",
-        "zou wedijveren",
-        "zou wedijveren",
-        "zouden wedijveren",
-        "zouden wedijveren",
-        "zouden wedijveren"
-      ],
-      "imperative": [
-        "wedijver",
-        "wedijvert",
-        "wedijveren"
-      ]
+    "forms": {
+      "verb": {
+        "infinitive": "wedijveren",
+        "isSeparable": false,
+        "present": {
+          "ik": "wedijver",
+          "jij": "wedijvert",
+          "hij": "wedijvert",
+          "wij": "wedijveren",
+          "jullie": "wedijveren",
+          "zij": "wedijveren"
+        },
+        "past": {
+          "singular": "wedijverde",
+          "plural": "wedijverden"
+        },
+        "pastParticiple": "gewedijverd",
+        "pastParticipleAuxiliary": "hebben"
+      }
     },
+    "level": "B2",
     "examples": [
       "De bedrijven wedijveren om de beste werknemers.",
       "Atleten wedijveren om de gouden medaille."
@@ -154303,59 +154079,27 @@
       "english": "to refute, to rebut"
     },
     "partOfSpeech": "verb",
-    "forms": [
-      "weerlegde",
-      "weerlegd",
-      "weerlegt"
-    ],
-    "level": "B2",
-    "conjugations": {
-      "present": [
-        "weerleg",
-        "weerlegt",
-        "weerlegt",
-        "weerleggen",
-        "weerleggen",
-        "weerleggen"
-      ],
-      "past": [
-        "weerlegde",
-        "weerlegde",
-        "weerlegde",
-        "weerlegden",
-        "weerlegden",
-        "weerlegden"
-      ],
-      "perfect": [
-        "heb weerlegd",
-        "hebt weerlegd",
-        "heeft weerlegd",
-        "hebben weerlegd",
-        "hebben weerlegd",
-        "hebben weerlegd"
-      ],
-      "future": [
-        "zal weerleggen",
-        "zult weerleggen",
-        "zult weerleggen",
-        "zullen weerleggen",
-        "zullen weerleggen",
-        "zullen weerleggen"
-      ],
-      "conditional": [
-        "zou weerleggen",
-        "zou weerleggen",
-        "zou weerleggen",
-        "zouden weerleggen",
-        "zouden weerleggen",
-        "zouden weerleggen"
-      ],
-      "imperative": [
-        "weerleg",
-        "weerlegt",
-        "weerleggen"
-      ]
+    "forms": {
+      "verb": {
+        "infinitive": "weerleggen",
+        "isSeparable": false,
+        "present": {
+          "ik": "weerleg",
+          "jij": "weerlegt",
+          "hij": "weerlegt",
+          "wij": "weerleggen",
+          "jullie": "weerleggen",
+          "zij": "weerleggen"
+        },
+        "past": {
+          "singular": "weerlegde",
+          "plural": "weerlegden"
+        },
+        "pastParticiple": "weerlegd",
+        "pastParticipleAuxiliary": "hebben"
+      }
     },
+    "level": "B2",
     "examples": [
       "De advocaat weerlegde alle aanklachten van de aanklager.",
       "Ze wist de argumenten van haar tegenstander te weerleggen."
@@ -154381,59 +154125,28 @@
       "english": "to flow away, to drain"
     },
     "partOfSpeech": "verb",
-    "forms": [
-      "stroomde weg",
-      "weggestroomd",
-      "stroomt weg"
-    ],
-    "level": "B2",
-    "conjugations": {
-      "present": [
-        "stroom weg",
-        "stroomt weg",
-        "stroomt weg",
-        "stromen weg",
-        "stromen weg",
-        "stromen weg"
-      ],
-      "past": [
-        "stroomde weg",
-        "stroomde weg",
-        "stroomde weg",
-        "stroomden weg",
-        "stroomden weg",
-        "stroomden weg"
-      ],
-      "perfect": [
-        "ben weggestroomd",
-        "bent weggestroomd",
-        "is weggestroomd",
-        "zijn weggestroomd",
-        "zijn weggestroomd",
-        "zijn weggestroomd"
-      ],
-      "future": [
-        "zal wegstromen",
-        "zult wegstromen",
-        "zult wegstromen",
-        "zullen wegstromen",
-        "zullen wegstromen",
-        "zullen wegstromen"
-      ],
-      "conditional": [
-        "zou wegstromen",
-        "zou wegstromen",
-        "zou wegstromen",
-        "zouden wegstromen",
-        "zouden wegstromen",
-        "zouden wegstromen"
-      ],
-      "imperative": [
-        "stroom weg",
-        "stroomt weg",
-        "stromen weg"
-      ]
+    "forms": {
+      "verb": {
+        "infinitive": "wegstromen",
+        "isSeparable": true,
+        "prefix": "weg",
+        "present": {
+          "ik": "stroom weg",
+          "jij": "stroomt weg",
+          "hij": "stroomt weg",
+          "wij": "stromen weg",
+          "jullie": "stromen weg",
+          "zij": "stromen weg"
+        },
+        "past": {
+          "singular": "stroomde weg",
+          "plural": "stroomden weg"
+        },
+        "pastParticiple": "weggestroomd",
+        "pastParticipleAuxiliary": "zijn"
+      }
     },
+    "level": "B2",
     "examples": [
       "Het water stroomde weg via de put.",
       "De tijd stroomde snel weg tijdens ons gesprek."
