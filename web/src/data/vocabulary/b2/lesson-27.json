@@ -231,30 +231,20 @@
           "isSeparable": true,
           "prefix": "vast",
           "infinitive": "vastdraaien",
-          "present": [
-            "ik draai vast",
-            "jij draait vast",
-            "hij/zij draait vast",
-            "wij draaien vast",
-            "jullie draaien vast",
-            "zij draaien vast"
-          ],
-          "past": [
-            "ik draaide vast",
-            "jij draaide vast",
-            "hij/zij draaide vast",
-            "wij draaiden vast",
-            "jullie draaiden vast",
-            "zij draaiden vast"
-          ],
-          "perfect": [
-            "heb vastgedraaid",
-            "hebt vastgedraaid",
-            "heeft vastgedraaid",
-            "hebben vastgedraaid",
-            "hebben vastgedraaid",
-            "hebben vastgedraaid"
-          ]
+          "present": {
+            "ik": "draai vast",
+            "jij": "draait vast",
+            "hij": "draait vast",
+            "wij": "draaien vast",
+            "jullie": "draaien vast",
+            "zij": "draaien vast"
+          },
+          "past": {
+            "singular": "draaide vast",
+            "plural": "draaiden vast"
+          },
+          "pastParticiple": "vastgedraaid",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -287,30 +277,20 @@
           "isSeparable": true,
           "prefix": "vast",
           "infinitive": "vasthouden",
-          "present": [
-            "ik houd vast",
-            "jij houdt vast",
-            "hij/zij houdt vast",
-            "wij houden vast",
-            "jullie houden vast",
-            "zij houden vast"
-          ],
-          "past": [
-            "ik hield vast",
-            "jij hield vast",
-            "hij/zij hield vast",
-            "wij hielden vast",
-            "jullie hielden vast",
-            "zij hielden vast"
-          ],
-          "perfect": [
-            "heb vastgehouden",
-            "hebt vastgehouden",
-            "heeft vastgehouden",
-            "hebben vastgehouden",
-            "hebben vastgehouden",
-            "hebben vastgehouden"
-          ]
+          "present": {
+            "ik": "houd vast",
+            "jij": "houdt vast",
+            "hij": "houdt vast",
+            "wij": "houden vast",
+            "jullie": "houden vast",
+            "zij": "houden vast"
+          },
+          "past": {
+            "singular": "hield vast",
+            "plural": "hielden vast"
+          },
+          "pastParticiple": "vastgehouden",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -343,30 +323,20 @@
           "isSeparable": true,
           "prefix": "vast",
           "infinitive": "vastklampen",
-          "present": [
-            "ik klem vast",
-            "jij klemt vast",
-            "hij/zij klemt vast",
-            "wij klemmen vast",
-            "jullie klemmen vast",
-            "zij klemmen vast"
-          ],
-          "past": [
-            "ik klemde vast",
-            "jij klemde vast",
-            "hij/zij klemde vast",
-            "wij klemden vast",
-            "jullie klemden vast",
-            "zij klemden vast"
-          ],
-          "perfect": [
-            "heb vastgeklampt",
-            "hebt vastgeklampt",
-            "heeft vastgeklampt",
-            "hebben vastgeklampt",
-            "hebben vastgeklampt",
-            "hebben vastgeklampt"
-          ]
+          "present": {
+            "ik": "klem vast",
+            "jij": "klemt vast",
+            "hij": "klemt vast",
+            "wij": "klemmen vast",
+            "jullie": "klemmen vast",
+            "zij": "klemmen vast"
+          },
+          "past": {
+            "singular": "klemde vast",
+            "plural": "klemden vast"
+          },
+          "pastParticiple": "vastgeklampt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -399,30 +369,20 @@
           "isSeparable": true,
           "prefix": "vast",
           "infinitive": "vastleggen",
-          "present": [
-            "ik leg vast",
-            "jij legt vast",
-            "hij/zij legt vast",
-            "wij leggen vast",
-            "jullie leggen vast",
-            "zij leggen vast"
-          ],
-          "past": [
-            "ik legde vast",
-            "jij legde vast",
-            "hij/zij legde vast",
-            "wij legden vast",
-            "jullie legden vast",
-            "zij legden vast"
-          ],
-          "perfect": [
-            "heb vastgelegd",
-            "hebt vastgelegd",
-            "heeft vastgelegd",
-            "hebben vastgelegd",
-            "hebben vastgelegd",
-            "hebben vastgelegd"
-          ]
+          "present": {
+            "ik": "leg vast",
+            "jij": "legt vast",
+            "hij": "legt vast",
+            "wij": "leggen vast",
+            "jullie": "leggen vast",
+            "zij": "leggen vast"
+          },
+          "past": {
+            "singular": "legde vast",
+            "plural": "legden vast"
+          },
+          "pastParticiple": "vastgelegd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -545,30 +505,20 @@
           "isSeparable": true,
           "prefix": "vast",
           "infinitive": "vastzetten",
-          "present": [
-            "ik zet vast",
-            "jij zet vast",
-            "hij/zij zet vast",
-            "wij zetten vast",
-            "jullie zetten vast",
-            "zij zetten vast"
-          ],
-          "past": [
-            "ik zette vast",
-            "jij zette vast",
-            "hij/zij zette vast",
-            "wij zetten vast",
-            "jullie zetten vast",
-            "zij zetten vast"
-          ],
-          "perfect": [
-            "heb vastgezet",
-            "hebt vastgezet",
-            "heeft vastgezet",
-            "hebben vastgezet",
-            "hebben vastgezet",
-            "hebben vastgezet"
-          ]
+          "present": {
+            "ik": "zet vast",
+            "jij": "zet vast",
+            "hij": "zet vast",
+            "wij": "zetten vast",
+            "jullie": "zetten vast",
+            "zij": "zetten vast"
+          },
+          "past": {
+            "singular": "zette vast",
+            "plural": "zetten vast"
+          },
+          "pastParticiple": "vastgezet",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -601,30 +551,20 @@
           "isSeparable": true,
           "prefix": "vast",
           "infinitive": "vastzitten",
-          "present": [
-            "ik zit vast",
-            "jij zit vast",
-            "hij/zij zit vast",
-            "wij zitten vast",
-            "jullie zitten vast",
-            "zij zitten vast"
-          ],
-          "past": [
-            "ik zat vast",
-            "jij zat vast",
-            "hij/zij zat vast",
-            "wij zaten vast",
-            "jullie zaten vast",
-            "zij zaten vast"
-          ],
-          "perfect": [
-            "heb vastgezeten",
-            "hebt vastgezeten",
-            "heeft vastgezeten",
-            "hebben vastgezeten",
-            "hebben vastgezeten",
-            "hebben vastgezeten"
-          ]
+          "present": {
+            "ik": "zit vast",
+            "jij": "zit vast",
+            "hij": "zit vast",
+            "wij": "zitten vast",
+            "jullie": "zitten vast",
+            "zij": "zitten vast"
+          },
+          "past": {
+            "singular": "zat vast",
+            "plural": "zaten vast"
+          },
+          "pastParticiple": "vastgezeten",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -913,30 +853,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "ventileren",
-          "present": [
-            "ik ventileer",
-            "jij ventileert",
-            "hij/zij ventileert",
-            "wij ventileren",
-            "jullie ventileren",
-            "zij ventileren"
-          ],
-          "past": [
-            "ik ventileerde",
-            "jij ventileerde",
-            "hij/zij ventileerde",
-            "wij ventileerden",
-            "jullie ventileerden",
-            "zij ventileerden"
-          ],
-          "perfect": [
-            "heb geventileerd",
-            "hebt geventileerd",
-            "heeft geventileerd",
-            "hebben geventileerd",
-            "hebben geventileerd",
-            "hebben geventileerd"
-          ]
+          "present": {
+            "ik": "ventileer",
+            "jij": "ventileert",
+            "hij": "ventileert",
+            "wij": "ventileren",
+            "jullie": "ventileren",
+            "zij": "ventileren"
+          },
+          "past": {
+            "singular": "ventileerde",
+            "plural": "ventileerden"
+          },
+          "pastParticiple": "geventileerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -969,30 +899,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verankeren",
-          "present": [
-            "ik anker",
-            "jij ankert",
-            "hij/zij ankert",
-            "wij ankeren",
-            "jullie ankeren",
-            "zij ankeren"
-          ],
-          "past": [
-            "ik ankerde",
-            "jij ankerde",
-            "hij/zij ankerde",
-            "wij ankerden",
-            "jullie ankerden",
-            "zij ankerden"
-          ],
-          "perfect": [
-            "heb geankerd",
-            "hebt geankerd",
-            "heeft geankerd",
-            "hebben geankerd",
-            "hebben geankerd",
-            "hebben geankerd"
-          ]
+          "present": {
+            "ik": "anker",
+            "jij": "ankert",
+            "hij": "ankert",
+            "wij": "ankeren",
+            "jullie": "ankeren",
+            "zij": "ankeren"
+          },
+          "past": {
+            "singular": "ankerde",
+            "plural": "ankerden"
+          },
+          "pastParticiple": "geankerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1157,30 +1077,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verblijven",
-          "present": [
-            "ik verblijf",
-            "jij verblijft",
-            "hij/zij verblijft",
-            "wij verblijven",
-            "jullie verblijven",
-            "zij verblijven"
-          ],
-          "past": [
-            "ik verbleef",
-            "jij verbleef",
-            "hij/zij verbleef",
-            "wij verbleven",
-            "jullie verbleven",
-            "zij verbleven"
-          ],
-          "perfect": [
-            "ben verbleven",
-            "bent verbleven",
-            "is verbleven",
-            "zijn verbleven",
-            "zijn verbleven",
-            "zijn verbleven"
-          ]
+          "present": {
+            "ik": "verblijf",
+            "jij": "verblijft",
+            "hij": "verblijft",
+            "wij": "verblijven",
+            "jullie": "verblijven",
+            "zij": "verblijven"
+          },
+          "past": {
+            "singular": "verbleef",
+            "plural": "verbleven"
+          },
+          "pastParticiple": "verbleven",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1269,30 +1179,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verbranden",
-          "present": [
-            "ik brand",
-            "jij brandt",
-            "hij/zij brandt",
-            "wij branden",
-            "jullie branden",
-            "zij branden"
-          ],
-          "past": [
-            "ik brandde",
-            "jij brandde",
-            "hij/zij brandde",
-            "wij brandden",
-            "jullie brandden",
-            "zij brandden"
-          ],
-          "perfect": [
-            "heb gebrand",
-            "hebt gebrand",
-            "heeft gebrand",
-            "hebben gebrand",
-            "hebben gebrand",
-            "hebben gebrand"
-          ]
+          "present": {
+            "ik": "brand",
+            "jij": "brandt",
+            "hij": "brandt",
+            "wij": "branden",
+            "jullie": "branden",
+            "zij": "branden"
+          },
+          "past": {
+            "singular": "brandde",
+            "plural": "brandden"
+          },
+          "pastParticiple": "gebrand",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1357,30 +1257,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verbruiken",
-          "present": [
-            "ik verbruik",
-            "jij verbruikt",
-            "hij/zij verbruikt",
-            "wij verbruiken",
-            "jullie verbruiken",
-            "zij verbruiken"
-          ],
-          "past": [
-            "ik verbruikte",
-            "jij verbruikte",
-            "hij/zij verbruikte",
-            "wij verbruikten",
-            "jullie verbruikten",
-            "zij verbruikten"
-          ],
-          "perfect": [
-            "heb verbruikt",
-            "hebt verbruikt",
-            "heeft verbruikt",
-            "hebben verbruikt",
-            "hebben verbruikt",
-            "hebben verbruikt"
-          ]
+          "present": {
+            "ik": "verbruik",
+            "jij": "verbruikt",
+            "hij": "verbruikt",
+            "wij": "verbruiken",
+            "jullie": "verbruiken",
+            "zij": "verbruiken"
+          },
+          "past": {
+            "singular": "verbruikte",
+            "plural": "verbruikten"
+          },
+          "pastParticiple": "verbruikt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1479,30 +1369,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verdrijven",
-          "present": [
-            "ik verdrijf",
-            "jij verdrijft",
-            "hij/zij verdrijft",
-            "wij verdrijven",
-            "jullie verdrijven",
-            "zij verdrijven"
-          ],
-          "past": [
-            "ik dreef",
-            "jij dreef",
-            "hij/zij dreef",
-            "wij dreven",
-            "jullie dreven",
-            "zij dreven"
-          ],
-          "perfect": [
-            "heb verdreven",
-            "hebt verdreven",
-            "heeft verdreven",
-            "hebben verdreven",
-            "hebben verdreven",
-            "hebben verdreven"
-          ]
+          "present": {
+            "ik": "verdrijf",
+            "jij": "verdrijft",
+            "hij": "verdrijft",
+            "wij": "verdrijven",
+            "jullie": "verdrijven",
+            "zij": "verdrijven"
+          },
+          "past": {
+            "singular": "dreef",
+            "plural": "dreven"
+          },
+          "pastParticiple": "verdreven",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1535,30 +1415,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verdringen",
-          "present": [
-            "ik verdwing",
-            "jij verdwingt",
-            "hij/zij verdwingt",
-            "wij verdwingen",
-            "jullie verdwingen",
-            "zij verdwingen"
-          ],
-          "past": [
-            "ik drong",
-            "jij drong",
-            "hij/zij drong",
-            "wij drongen",
-            "jullie drongen",
-            "zij drongen"
-          ],
-          "perfect": [
-            "ben verdrongen",
-            "bent verdrongen",
-            "is verdrongen",
-            "zijn verdrongen",
-            "zijn verdrongen",
-            "zijn verdrongen"
-          ]
+          "present": {
+            "ik": "verdwing",
+            "jij": "verdwingt",
+            "hij": "verdwingt",
+            "wij": "verdwingen",
+            "jullie": "verdwingen",
+            "zij": "verdwingen"
+          },
+          "past": {
+            "singular": "drong",
+            "plural": "drongen"
+          },
+          "pastParticiple": "verdrongen",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1591,30 +1461,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verdrinken",
-          "present": [
-            "ik verdwijn",
-            "jij verdwijnt",
-            "hij/zij verdwijnt",
-            "wij verdwijnen",
-            "jullie verdwijnen",
-            "zij verdwijnen"
-          ],
-          "past": [
-            "ik verdronk",
-            "jij verdronk",
-            "hij/zij verdronk",
-            "wij verdronken",
-            "jullie verdronken",
-            "zij verdronken"
-          ],
-          "perfect": [
-            "ben verdronken",
-            "bent verdronken",
-            "is verdronken",
-            "zijn verdronken",
-            "zijn verdronken",
-            "zijn verdronken"
-          ]
+          "present": {
+            "ik": "verdwijn",
+            "jij": "verdwijnt",
+            "hij": "verdwijnt",
+            "wij": "verdwijnen",
+            "jullie": "verdwijnen",
+            "zij": "verdwijnen"
+          },
+          "past": {
+            "singular": "verdronk",
+            "plural": "verdronken"
+          },
+          "pastParticiple": "verdronken",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1647,30 +1507,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verdubbelen",
-          "present": [
-            "ik verdubbel",
-            "jij verdubbelt",
-            "hij/zij verdubbelt",
-            "wij verdubbelen",
-            "jullie verdubbelen",
-            "zij verdubbelen"
-          ],
-          "past": [
-            "ik verdubbelde",
-            "jij verdubbelde",
-            "hij/zij verdubbelde",
-            "wij verdubbelden",
-            "jullie verdubbelden",
-            "zij verdubbelden"
-          ],
-          "perfect": [
-            "heb verdubbeld",
-            "hebt verdubbeld",
-            "heeft verdubbeld",
-            "hebben verdubbeld",
-            "hebben verdubbeld",
-            "hebben verdubbeld"
-          ]
+          "present": {
+            "ik": "verdubbel",
+            "jij": "verdubbelt",
+            "hij": "verdubbelt",
+            "wij": "verdubbelen",
+            "jullie": "verdubbelen",
+            "zij": "verdubbelen"
+          },
+          "past": {
+            "singular": "verdubbelde",
+            "plural": "verdubbelden"
+          },
+          "pastParticiple": "verdubbeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1735,30 +1585,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verergeren",
-          "present": [
-            "ik verger",
-            "jij verergert",
-            "hij/zij verergert",
-            "wij vergeren",
-            "jullie vergeren",
-            "zij vergeren"
-          ],
-          "past": [
-            "ik vergerde",
-            "jij vergerde",
-            "hij/zij vergerde",
-            "wij vergerden",
-            "jullie vergerden",
-            "zij vergerden"
-          ],
-          "perfect": [
-            "ben vergerd",
-            "bent vergerd",
-            "is vergerd",
-            "zijn vergerd",
-            "zijn vergerd",
-            "zijn vergerd"
-          ]
+          "present": {
+            "ik": "verger",
+            "jij": "verergert",
+            "hij": "verergert",
+            "wij": "vergeren",
+            "jullie": "vergeren",
+            "zij": "vergeren"
+          },
+          "past": {
+            "singular": "vergerde",
+            "plural": "vergerden"
+          },
+          "pastParticiple": "vergerd",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [

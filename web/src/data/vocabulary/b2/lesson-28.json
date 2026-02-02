@@ -17,30 +17,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "vergezellen",
-          "present": [
-            "ik gezel",
-            "jij gezelt",
-            "hij/zij gezelt",
-            "wij gezellen",
-            "jullie gezellen",
-            "zij gezellen"
-          ],
-          "past": [
-            "ik gezelde",
-            "jij gezelde",
-            "hij/zij gezelde",
-            "wij gezelden",
-            "jullie gezelden",
-            "zij gezelden"
-          ],
-          "perfect": [
-            "heb gezeleld",
-            "hebt gezeleld",
-            "heeft gezeleld",
-            "hebben gezeleld",
-            "hebben gezeleld",
-            "hebben gezeleld"
-          ]
+          "present": {
+            "ik": "gezel",
+            "jij": "gezelt",
+            "hij": "gezelt",
+            "wij": "gezellen",
+            "jullie": "gezellen",
+            "zij": "gezellen"
+          },
+          "past": {
+            "singular": "gezelde",
+            "plural": "gezelden"
+          },
+          "pastParticiple": "gezeleld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -139,30 +129,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "vergiftigen",
-          "present": [
-            "ik vergiftig",
-            "jij vergiftigt",
-            "hij/zij vergiftigt",
-            "wij vergiftigen",
-            "jullie vergiftigen",
-            "zij vergiftigen"
-          ],
-          "past": [
-            "ik vergiftigde",
-            "jij vergiftigde",
-            "hij/zij vergiftigde",
-            "wij vergiftigden",
-            "jullie vergiftigden",
-            "zij vergiftigden"
-          ],
-          "perfect": [
-            "heb vergiftigd",
-            "hebt vergiftigd",
-            "heeft vergiftigd",
-            "hebben vergiftigd",
-            "hebben vergiftigd",
-            "hebben vergiftigd"
-          ]
+          "present": {
+            "ik": "vergiftig",
+            "jij": "vergiftigt",
+            "hij": "vergiftigt",
+            "wij": "vergiftigen",
+            "jullie": "vergiftigen",
+            "zij": "vergiftigen"
+          },
+          "past": {
+            "singular": "vergiftigde",
+            "plural": "vergiftigden"
+          },
+          "pastParticiple": "vergiftigd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -291,30 +271,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verhandelen",
-          "present": [
-            "ik verhandel",
-            "jij verhandelt",
-            "hij/zij verhandelt",
-            "wij verhandelen",
-            "jullie verhandelen",
-            "zij verhandelen"
-          ],
-          "past": [
-            "ik verhandelde",
-            "jij verhandelde",
-            "hij/zij verhandelde",
-            "wij verhandelden",
-            "jullie verhandelden",
-            "zij verhandelden"
-          ],
-          "perfect": [
-            "heb verhandeld",
-            "hebt verhandeld",
-            "heeft verhandeld",
-            "hebben verhandeld",
-            "hebben verhandeld",
-            "hebben verhandeld"
-          ]
+          "present": {
+            "ik": "verhandel",
+            "jij": "verhandelt",
+            "hij": "verhandelt",
+            "wij": "verhandelen",
+            "jullie": "verhandelen",
+            "zij": "verhandelen"
+          },
+          "past": {
+            "singular": "verhandelde",
+            "plural": "verhandelden"
+          },
+          "pastParticiple": "verhandeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -347,30 +317,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verhinderen",
-          "present": [
-            "ik verhinder",
-            "jij verhindert",
-            "hij/zij verhindert",
-            "wij verhinderen",
-            "jullie verhinderen",
-            "zij verhinderen"
-          ],
-          "past": [
-            "ik verhinderde",
-            "jij verhinderde",
-            "hij/zij verhinderde",
-            "wij verhinderden",
-            "jullie verhinderden",
-            "zij verhinderden"
-          ],
-          "perfect": [
-            "heb verhinderd",
-            "hebt verhinderd",
-            "heeft verhinderd",
-            "hebben verhinderd",
-            "hebben verhinderd",
-            "hebben verhinderd"
-          ]
+          "present": {
+            "ik": "verhinder",
+            "jij": "verhindert",
+            "hij": "verhindert",
+            "wij": "verhinderen",
+            "jullie": "verhinderen",
+            "zij": "verhinderen"
+          },
+          "past": {
+            "singular": "verhinderde",
+            "plural": "verhinderden"
+          },
+          "pastParticiple": "verhinderd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -467,30 +427,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verifiëren",
-          "present": [
-            "ik verifieer",
-            "jij verifieert",
-            "hij/zij verifieert",
-            "wij verifiëren",
-            "jullie verifiëren",
-            "zij verifiëren"
-          ],
-          "past": [
-            "ik verifieerde",
-            "jij verifieerde",
-            "hij/zij verifieerde",
-            "wij verifieerden",
-            "jullie verifieerden",
-            "zij verifieerden"
-          ],
-          "perfect": [
-            "heb verifieerd",
-            "hebt verifieerd",
-            "heeft verifieerd",
-            "hebben verifieerd",
-            "hebben verifieerd",
-            "hebben verifieerd"
-          ]
+          "present": {
+            "ik": "verifieer",
+            "jij": "verifieert",
+            "hij": "verifieert",
+            "wij": "verifiëren",
+            "jullie": "verifiëren",
+            "zij": "verifiëren"
+          },
+          "past": {
+            "singular": "verifieerde",
+            "plural": "verifieerden"
+          },
+          "pastParticiple": "verifieerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -587,30 +537,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verkleinen",
-          "present": [
-            "ik verklein",
-            "jij verkleint",
-            "hij/zij verkleint",
-            "wij verkleinen",
-            "jullie verkleinen",
-            "zij verkleinen"
-          ],
-          "past": [
-            "ik verkleinde",
-            "jij verkleinde",
-            "hij/zij verkleinde",
-            "wij verkleinden",
-            "jullie verkleinden",
-            "zij verkleinden"
-          ],
-          "perfect": [
-            "ben verkleind",
-            "bent verkleind",
-            "is verkleind",
-            "zijn verkleind",
-            "zijn verkleind",
-            "zijn verkleind"
-          ]
+          "present": {
+            "ik": "verklein",
+            "jij": "verkleint",
+            "hij": "verkleint",
+            "wij": "verkleinen",
+            "jullie": "verkleinen",
+            "zij": "verkleinen"
+          },
+          "past": {
+            "singular": "verkleinde",
+            "plural": "verkleinden"
+          },
+          "pastParticiple": "verkleind",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -643,30 +583,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verkleuren",
-          "present": [
-            "ik verkleur",
-            "jij verkleurt",
-            "hij/zij verkleurt",
-            "wij verkleuren",
-            "jullie verkleuren",
-            "zij verkleuren"
-          ],
-          "past": [
-            "ik verkleurde",
-            "jij verkleurde",
-            "hij/zij verkleurde",
-            "wij verkleurden",
-            "jullie verkleurden",
-            "zij verkleurden"
-          ],
-          "perfect": [
-            "ben verkleurd",
-            "bent verkleurd",
-            "is verkleurd",
-            "zijn verkleurd",
-            "zijn verkleurd",
-            "zijn verkleurd"
-          ]
+          "present": {
+            "ik": "verkleur",
+            "jij": "verkleurt",
+            "hij": "verkleurt",
+            "wij": "verkleuren",
+            "jullie": "verkleuren",
+            "zij": "verkleuren"
+          },
+          "past": {
+            "singular": "verkleurde",
+            "plural": "verkleurden"
+          },
+          "pastParticiple": "verkleurd",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -699,30 +629,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verknopen",
-          "present": [
-            "ik verknoop",
-            "jij verknoopt",
-            "hij/zij verknoopt",
-            "wij verknopen",
-            "jullie verknopen",
-            "zij verknopen"
-          ],
-          "past": [
-            "ik verknoeide",
-            "jij verknoeide",
-            "hij/zij verknoeide",
-            "wij verknoeiden",
-            "jullie verknoeiden",
-            "zij verknoeiden"
-          ],
-          "perfect": [
-            "heb verknopen",
-            "hebt verknopen",
-            "heeft verknopen",
-            "hebben verknopen",
-            "hebben verknopen",
-            "hebben verknopen"
-          ]
+          "present": {
+            "ik": "verknoop",
+            "jij": "verknoopt",
+            "hij": "verknoopt",
+            "wij": "verknopen",
+            "jullie": "verknopen",
+            "zij": "verknopen"
+          },
+          "past": {
+            "singular": "verknoeide",
+            "plural": "verknoeiden"
+          },
+          "pastParticiple": "verknopen",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -755,30 +675,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verkrachten",
-          "present": [
-            "ik verkacht",
-            "jij verkacht",
-            "hij/zij verkacht",
-            "wij verkachten",
-            "jullie verkachten",
-            "zij verkachten"
-          ],
-          "past": [
-            "ik verkachte",
-            "jij verkachte",
-            "hij/zij verkachte",
-            "wij verkachten",
-            "jullie verkachten",
-            "zij verkachten"
-          ],
-          "perfect": [
-            "heb verkacht",
-            "hebt verkacht",
-            "heeft verkacht",
-            "hebben verkacht",
-            "hebben verkacht",
-            "hebben verkacht"
-          ]
+          "present": {
+            "ik": "verkacht",
+            "jij": "verkacht",
+            "hij": "verkacht",
+            "wij": "verkachten",
+            "jullie": "verkachten",
+            "zij": "verkachten"
+          },
+          "past": {
+            "singular": "verkachte",
+            "plural": "verkachten"
+          },
+          "pastParticiple": "verkacht",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -811,30 +721,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verkrijgen",
-          "present": [
-            "ik verkrijg",
-            "jij verkrijgt",
-            "hij/zij verkijgt",
-            "wij verkrijgen",
-            "jullie verkijgen",
-            "zij verkijgen"
-          ],
-          "past": [
-            "ik verkreeg",
-            "jij verkreeg",
-            "hij/zij verkreeg",
-            "wij verkregen",
-            "jullie verkregen",
-            "zij verkregen"
-          ],
-          "perfect": [
-            "heb verkregen",
-            "hebt verkregen",
-            "heeft verkregen",
-            "hebben verkregen",
-            "hebben verkregen",
-            "hebben verkregen"
-          ]
+          "present": {
+            "ik": "verkrijg",
+            "jij": "verkrijgt",
+            "hij": "verkijgt",
+            "wij": "verkrijgen",
+            "jullie": "verkijgen",
+            "zij": "verkijgen"
+          },
+          "past": {
+            "singular": "verkreeg",
+            "plural": "verkregen"
+          },
+          "pastParticiple": "verkregen",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -967,30 +867,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verlichten",
-          "present": [
-            "ik verlicht",
-            "jij verlicht",
-            "hij/zij verlicht",
-            "wij verlichten",
-            "jullie verlichten",
-            "zij verlichten"
-          ],
-          "past": [
-            "ik verlichte",
-            "jij verlichte",
-            "hij/zij verlichte",
-            "wij verlichtten",
-            "jullie verlichtten",
-            "zij verlichtten"
-          ],
-          "perfect": [
-            "heb verlicht",
-            "hebt verlicht",
-            "heeft verlicht",
-            "hebben verlicht",
-            "hebben verlicht",
-            "hebben verlicht"
-          ]
+          "present": {
+            "ik": "verlicht",
+            "jij": "verlicht",
+            "hij": "verlicht",
+            "wij": "verlichten",
+            "jullie": "verlichten",
+            "zij": "verlichten"
+          },
+          "past": {
+            "singular": "verlichte",
+            "plural": "verlichtten"
+          },
+          "pastParticiple": "verlicht",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1023,30 +913,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verloederen",
-          "present": [
-            "ik loeder",
-            "jij loedert",
-            "hij/zij loedert",
-            "wij loederen",
-            "jullie loederen",
-            "zij loederen"
-          ],
-          "past": [
-            "ik loederde",
-            "jij loederde",
-            "hij/zij loederde",
-            "wij loederden",
-            "jullie loederden",
-            "zij loederden"
-          ],
-          "perfect": [
-            "ben verloederd",
-            "bent verloederd",
-            "is verloederd",
-            "zijn verloederd",
-            "zijn verloederd",
-            "zijn verloederd"
-          ]
+          "present": {
+            "ik": "loeder",
+            "jij": "loedert",
+            "hij": "loedert",
+            "wij": "loederen",
+            "jullie": "loederen",
+            "zij": "loederen"
+          },
+          "past": {
+            "singular": "loederde",
+            "plural": "loederden"
+          },
+          "pastParticiple": "verloederd",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1113,30 +993,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verminderen",
-          "present": [
-            "ik verminder",
-            "jij vermindert",
-            "hij/zij vermindert",
-            "wij verminderen",
-            "jullie verminderen",
-            "zij verminderen"
-          ],
-          "past": [
-            "ik verminderde",
-            "jij verminderde",
-            "hij/zij verminderde",
-            "wij verminderden",
-            "jullie verminderden",
-            "zij verminderden"
-          ],
-          "perfect": [
-            "ben verminderd",
-            "bent verminderd",
-            "is verminderd",
-            "zijn verminderd",
-            "zijn verminderd",
-            "zijn verminderd"
-          ]
+          "present": {
+            "ik": "verminder",
+            "jij": "vermindert",
+            "hij": "vermindert",
+            "wij": "verminderen",
+            "jullie": "verminderen",
+            "zij": "verminderen"
+          },
+          "past": {
+            "singular": "verminderde",
+            "plural": "verminderden"
+          },
+          "pastParticiple": "verminderd",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1203,30 +1073,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "vermoorden",
-          "present": [
-            "ik vermoord",
-            "jij vermoordt",
-            "hij/zij vermoordt",
-            "wij vermoorden",
-            "jullie vermoorden",
-            "zij vermoorden"
-          ],
-          "past": [
-            "ik vermoordde",
-            "jij vermoordde",
-            "hij/zij vermoordde",
-            "wij vermoordden",
-            "jullie vermoordden",
-            "zij vermoordden"
-          ],
-          "perfect": [
-            "ben vermoord",
-            "bent vermoord",
-            "is vermoord",
-            "zijn vermoord",
-            "zijn vermoord",
-            "zijn vermoord"
-          ]
+          "present": {
+            "ik": "vermoord",
+            "jij": "vermoordt",
+            "hij": "vermoordt",
+            "wij": "vermoorden",
+            "jullie": "vermoorden",
+            "zij": "vermoorden"
+          },
+          "past": {
+            "singular": "vermoordde",
+            "plural": "vermoordden"
+          },
+          "pastParticiple": "vermoord",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1291,30 +1151,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "vernietigen",
-          "present": [
-            "ik vernietig",
-            "jij vernietigt",
-            "hij/zij vernietigt",
-            "wij vernietigen",
-            "jullie vernietigen",
-            "zij vernietigen"
-          ],
-          "past": [
-            "ik vernietigde",
-            "jij vernietigde",
-            "hij/zij vernietigde",
-            "wij vernietigden",
-            "jullie vernietigden",
-            "zij vernietigden"
-          ],
-          "perfect": [
-            "heb vernietigd",
-            "hebt vernietigd",
-            "heeft vernietigd",
-            "hebben vernietigd",
-            "hebben vernietigd",
-            "hebben vernietigd"
-          ]
+          "present": {
+            "ik": "vernietig",
+            "jij": "vernietigt",
+            "hij": "vernietigt",
+            "wij": "vernietigen",
+            "jullie": "vernietigen",
+            "zij": "vernietigen"
+          },
+          "past": {
+            "singular": "vernietigde",
+            "plural": "vernietigden"
+          },
+          "pastParticiple": "vernietigd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1381,30 +1231,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "veroordelen",
-          "present": [
-            "ik veroordeel",
-            "jij veroordeelt",
-            "hij/zij veroordeelt",
-            "wij veroordelen",
-            "jullie veroordelen",
-            "zij veroordelen"
-          ],
-          "past": [
-            "ik veroordeelde",
-            "jij veroordeelde",
-            "hij/zij veroordeelde",
-            "wij veroordeelden",
-            "jullie veroordeelden",
-            "zij veroordeelden"
-          ],
-          "perfect": [
-            "heb veroordeeld",
-            "hebt veroordeeld",
-            "heeft veroordeeld",
-            "hebben veroordeeld",
-            "hebben veroordeeld",
-            "hebben veroordeeld"
-          ]
+          "present": {
+            "ik": "veroordeel",
+            "jij": "veroordeelt",
+            "hij": "veroordeelt",
+            "wij": "veroordelen",
+            "jullie": "veroordelen",
+            "zij": "veroordelen"
+          },
+          "past": {
+            "singular": "veroordeelde",
+            "plural": "veroordeelden"
+          },
+          "pastParticiple": "veroordeeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1469,30 +1309,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verprutsen",
-          "present": [
-            "ik verpruts",
-            "jij verprutst",
-            "hij/zij verprutst",
-            "wij verprutsen",
-            "jullie verprutsen",
-            "zij verprutsen"
-          ],
-          "past": [
-            "ik verprutste",
-            "jij verprutste",
-            "hij/zij verprutste",
-            "wij verprutsten",
-            "jullie verprutsten",
-            "zij verprutsten"
-          ],
-          "perfect": [
-            "heb geprutst",
-            "hebt geprutst",
-            "heeft geprutst",
-            "hebben geprutst",
-            "hebben geprutst",
-            "hebben geprutst"
-          ]
+          "present": {
+            "ik": "verpruts",
+            "jij": "verprutst",
+            "hij": "verprutst",
+            "wij": "verprutsen",
+            "jullie": "verprutsen",
+            "zij": "verprutsen"
+          },
+          "past": {
+            "singular": "verprutste",
+            "plural": "verprutsten"
+          },
+          "pastParticiple": "geprutst",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1591,30 +1421,20 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verroesten",
-          "present": [
-            "ik verroest",
-            "jij verroest",
-            "hij/zij verroest",
-            "wij verroesten",
-            "jullie verroesten",
-            "zij verroesten"
-          ],
-          "past": [
-            "ik verroeste",
-            "jij verroeste",
-            "hij/zij verroeste",
-            "wij verroestden",
-            "jullie verroestden",
-            "zij verroestden"
-          ],
-          "perfect": [
-            "ben geroest",
-            "bent geroest",
-            "is geroest",
-            "zijn geroest",
-            "zijn geroest",
-            "zijn geroest"
-          ]
+          "present": {
+            "ik": "verroest",
+            "jij": "verroest",
+            "hij": "verroest",
+            "wij": "verroesten",
+            "jullie": "verroesten",
+            "zij": "verroesten"
+          },
+          "past": {
+            "singular": "verroeste",
+            "plural": "verroestden"
+          },
+          "pastParticiple": "geroest",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [

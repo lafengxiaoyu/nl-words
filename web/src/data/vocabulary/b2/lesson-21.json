@@ -113,24 +113,21 @@
       "forms": {
         "verb": {
           "infinitive": "reanimeren",
-          "present": [
-            "ik animeer",
-            "jij animeert",
-            "hij/zij/het animeert",
-            "wij animeren",
-            "jullie animeren",
-            "zij animeren"
-          ],
-          "past": [
-            "ik animeerde",
-            "jij animeerde",
-            "hij/zij/het animeerde",
-            "wij animeerden",
-            "jullie animeerden",
-            "zij animeerden"
-          ],
-          "perfect": "ik heb geanimeerd",
-          "participle": "geanimeerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "animeer",
+            "jij": "animeert",
+            "hij": "animeert",
+            "wij": "animeren",
+            "jullie": "animeren",
+            "zij": "animeren"
+          },
+          "past": {
+            "singular": "animeerde",
+            "plural": "animeerden"
+          },
+          "pastParticiple": "geanimeerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -425,24 +422,22 @@
       "forms": {
         "verb": {
           "infinitive": "regie nemen",
-          "present": [
-            "ik neem de regie",
-            "jij neemt de regie",
-            "hij/zij/het neemt de regie",
-            "wij nemen de regie",
-            "jullie nemen de regie",
-            "zij nemen de regie"
-          ],
-          "past": [
-            "ik nam de regie",
-            "jij nam de regie",
-            "hij/zij/het nam de regie",
-            "wij namen de regie",
-            "jullie namen de regie",
-            "zij namen de regie"
-          ],
-          "perfect": "ik heb de regie genomen",
-          "participle": "de regie genomen"
+          "isSeparable": true,
+          "prefix": "de regie",
+          "present": {
+            "ik": "neem de regie",
+            "jij": "neemt de regie",
+            "hij": "neemt de regie",
+            "wij": "nemen de regie",
+            "jullie": "nemen de regie",
+            "zij": "nemen de regie"
+          },
+          "past": {
+            "singular": "nam de regie",
+            "plural": "namen de regie"
+          },
+          "pastParticiple": "de regie genomen",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -505,24 +500,22 @@
       "forms": {
         "verb": {
           "infinitive": "rekenen op",
-          "present": [
-            "ik reken op",
-            "jij rekent op",
-            "hij/zij/het rekent op",
-            "wij rekenen op",
-            "jullie rekenen op",
-            "zij rekenen op"
-          ],
-          "past": [
-            "ik rekende op",
-            "jij rekende op",
-            "hij/zij/het rekende op",
-            "wii rekenden op",
-            "jullie rekenden op",
-            "zij rekenden op"
-          ],
-          "perfect": "ik heb op gerekend",
-          "participle": "op gerekend"
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "reken op",
+            "jij": "rekent op",
+            "hij": "rekent op",
+            "wij": "rekenen op",
+            "jullie": "rekenen op",
+            "zij": "rekenen op"
+          },
+          "past": {
+            "singular": "rekende op",
+            "plural": "rekenden op"
+          },
+          "pastParticiple": "op gerekend",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -717,24 +710,21 @@
       "forms": {
         "verb": {
           "infinitive": "restaureren",
-          "present": [
-            "ik restoreer",
-            "jij restoreert",
-            "hij/zij/het restoreert",
-            "wij restaureren",
-            "jullie restaureren",
-            "zij restaureren"
-          ],
-          "past": [
-            "ik restoreerde",
-            "jij restoreerde",
-            "hij/zij/het restoreerde",
-            "wij restoreerden",
-            "jullie restoreerden",
-            "zij restoreerden"
-          ],
-          "perfect": "ik heb gerestoreerd",
-          "participle": "gerestoreerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "restaureren",
+            "jij": "restaureren",
+            "hij": "restaureren",
+            "wij": "restaureren",
+            "jullie": "restaureren",
+            "zij": "restaureren"
+          },
+          "past": {
+            "singular": "restaurerde",
+            "plural": "restaurerden"
+          },
+          "pastParticiple": "gerestoreerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -765,24 +755,21 @@
       "forms": {
         "verb": {
           "infinitive": "restitueren",
-          "present": [
-            "ik restitueer",
-            "jij restitueert",
-            "hij/zij/het restitueert",
-            "wij restitueren",
-            "jullie restitueren",
-            "zij restitueren"
-          ],
-          "past": [
-            "ik restitueerde",
-            "jij restitueerde",
-            "hij/zij/het restitueerde",
-            "wij restitueerden",
-            "jullie restitueerden",
-            "zij restitueerden"
-          ],
-          "perfect": "ik heb gerestitueerd",
-          "participle": "gerestitueerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "restitueren",
+            "jij": "restitueren",
+            "hij": "restitueren",
+            "wij": "restitueren",
+            "jullie": "restitueren",
+            "zij": "restitueren"
+          },
+          "past": {
+            "singular": "restitueerde",
+            "plural": "restitueerden"
+          },
+          "pastParticiple": "gerestitueerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -877,24 +864,21 @@
       "forms": {
         "verb": {
           "infinitive": "revalideren",
-          "present": [
-            "ik valideer",
-            "jij valideert",
-            "hij/zij/het valideert",
-            "wij valideren",
-            "jullie valideren",
-            "zij valideren"
-          ],
-          "past": [
-            "ik valideerde",
-            "jij valideerde",
-            "hij/zij/het valideerde",
-            "wij valideerden",
-            "jullie valideerden",
-            "zij valideerden"
-          ],
-          "perfect": "ik heb gevalideerd",
-          "participle": "gevalideerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "revalideren",
+            "jij": "revalideren",
+            "hij": "revalideren",
+            "wij": "revalideren",
+            "jullie": "revalideren",
+            "zij": "revalideren"
+          },
+          "past": {
+            "singular": "revalideerde",
+            "plural": "revalideerden"
+          },
+          "pastParticiple": "gerevalideerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -925,24 +909,22 @@
       "forms": {
         "verb": {
           "infinitive": "richten aan",
-          "present": [
-            "ik richt aan",
-            "jij richt aan",
-            "hij/zij/het richt aan",
-            "wij richten aan",
-            "jullie richten aan",
-            "zij richten aan"
-          ],
-          "past": [
-            "ik richtte aan",
-            "jij richtte aan",
-            "hij/zij/het richtte aan",
-            "wij richtten aan",
-            "jullie richtten aan",
-            "zij richtten aan"
-          ],
-          "perfect": "ik heb aangericht",
-          "participle": "aangericht"
+          "isSeparable": true,
+          "prefix": "aan",
+          "present": {
+            "ik": "richt aan",
+            "jij": "richt aan",
+            "hij": "richt aan",
+            "wij": "richten aan",
+            "jullie": "richten aan",
+            "zij": "richten aan"
+          },
+          "past": {
+            "singular": "richtte aan",
+            "plural": "richtten aan"
+          },
+          "pastParticiple": "aangericht",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -973,24 +955,22 @@
       "forms": {
         "verb": {
           "infinitive": "rijmen met",
-          "present": [
-            "ik rijm met",
-            "jij rijmt met",
-            "hij/zij/het rijmt met",
-            "wij rijmen met",
-            "jullie rijmen met",
-            "zij rijmen met"
-          ],
-          "past": [
-            "ik reemde met",
-            "jij reemde met",
-            "hij/zij/het reemde met",
-            "wii reemden met",
-            "jullie reemden met",
-            "zij reemden met"
-          ],
-          "perfect": "ik heb gerijmd met",
-          "participle": "gerijmd met"
+          "isSeparable": true,
+          "prefix": "met",
+          "present": {
+            "ik": "rijm met",
+            "jij": "rijmt met",
+            "hij": "rijmt met",
+            "wij": "rijmen met",
+            "jullie": "rijmen met",
+            "zij": "rijmen met"
+          },
+          "past": {
+            "singular": "reemde met",
+            "plural": "reemden met"
+          },
+          "pastParticiple": "gerijmd met",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1053,24 +1033,21 @@
       "forms": {
         "verb": {
           "infinitive": "rivaliseren",
-          "present": [
-            "ik rivaliseer",
-            "jij rivaliseert",
-            "hij/zij/het rivaliseert",
-            "wij rivaliseren",
-            "jullie rivaliseren",
-            "zij rivaliseren"
-          ],
-          "past": [
-            "ik rivaliseerde",
-            "jij rivaliseerde",
-            "hij/zij/het rivaliseerde",
-            "wij rivaliseerden",
-            "jullie rivaliseerden",
-            "zij rivaliseerden"
-          ],
-          "perfect": "ik heb gerivaliseerd",
-          "participle": "gerivaliseerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "rivaliseren",
+            "jij": "rivaliseren",
+            "hij": "rivaliseren",
+            "wij": "rivaliseren",
+            "jullie": "rivaliseren",
+            "zij": "rivaliseren"
+          },
+          "past": {
+            "singular": "rivaliseerde",
+            "plural": "rivaliseerden"
+          },
+          "pastParticiple": "gerivaliseerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1135,24 +1112,22 @@
       "forms": {
         "verb": {
           "infinitive": "rondhangen",
-          "present": [
-            "ik hang rond",
-            "jij hangt rond",
-            "hij/zij/het hangt rond",
-            "wij hangen rond",
-            "jullie hangen rond",
-            "zij hangen rond"
-          ],
-          "past": [
-            "ik hing rond",
-            "jij hing rond",
-            "hij/zij/het hing rond",
-            "wii hingen rond",
-            "jullie hingen rond",
-            "zij hingen rond"
-          ],
-          "perfect": "ik heb rondgehangen",
-          "participle": "rondgehangen"
+          "isSeparable": true,
+          "prefix": "rond",
+          "present": {
+            "ik": "hang rond",
+            "jij": "hangt rond",
+            "hij": "hangt rond",
+            "wij": "hangen rond",
+            "jullie": "hangen rond",
+            "zij": "hangen rond"
+          },
+          "past": {
+            "singular": "hing rond",
+            "plural": "hingen rond"
+          },
+          "pastParticiple": "rondgehangen",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1183,24 +1158,22 @@
       "forms": {
         "verb": {
           "infinitive": "rondneuzen",
-          "present": [
-            "ik neus rond",
-            "jij neust rond",
-            "hij/zij/het neust rond",
-            "wii neuzen rond",
-            "jullie neuzen rond",
-            "zij neuzen rond"
-          ],
-          "past": [
-            "ik neuste rond",
-            "jij neuste rond",
-            "hij/zij/het neuste rond",
-            "wii neusten rond",
-            "jullie neusten rond",
-            "zij neusten rond"
-          ],
-          "perfect": "ik heb rondgeneusd",
-          "participle": "rondgeneusd"
+          "isSeparable": true,
+          "prefix": "rond",
+          "present": {
+            "ik": "neus rond",
+            "jij": "neust rond",
+            "hij": "neust rond",
+            "wij": "neuzen rond",
+            "jullie": "neuzen rond",
+            "zij": "neuzen rond"
+          },
+          "past": {
+            "singular": "neuste rond",
+            "plural": "neusten rond"
+          },
+          "pastParticiple": "rondgeneusd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1231,24 +1204,22 @@
       "forms": {
         "verb": {
           "infinitive": "rondtollen",
-          "present": [
-            "ik tol rond",
-            "jij tolt rond",
-            "hij/zij/het tolt rond",
-            "wii tollen rond",
-            "jullie tollen rond",
-            "zij tollen rond"
-          ],
-          "past": [
-            "ik tolt rond",
-            "jij tolt rond",
-            "hij/zij/het tolt rond",
-            "wii tolden rond",
-            "jullie tolden rond",
-            "zij tolden rond"
-          ],
-          "perfect": "ik heb rondgetold",
-          "participle": "rondgetold"
+          "isSeparable": true,
+          "prefix": "rond",
+          "present": {
+            "ik": "tol rond",
+            "jij": "tolt rond",
+            "hij": "tolt rond",
+            "wij": "tollen rond",
+            "jullie": "tollen rond",
+            "zij": "tollen rond"
+          },
+          "past": {
+            "singular": "tolde rond",
+            "plural": "tolden rond"
+          },
+          "pastParticiple": "rondgetold",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [

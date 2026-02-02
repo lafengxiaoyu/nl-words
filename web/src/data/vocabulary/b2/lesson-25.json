@@ -513,30 +513,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitbesteden",
-          "present": [
-            "ik besteed uit",
-            "jij besteedt uit",
-            "hij/zij besteedt uit",
-            "wij besteden uit",
-            "jullie besteden uit",
-            "zij besteden uit"
-          ],
-          "past": [
-            "ik besteedde uit",
-            "jij besteedde uit",
-            "hij/zij besteedde uit",
-            "wij besteedden uit",
-            "jullie besteedden uit",
-            "zij besteedden uit"
-          ],
-          "perfect": [
-            "heb uitbesteed",
-            "hebt uitbesteed",
-            "heeft uitbesteed",
-            "hebben uitbesteed",
-            "hebben uitbesteed",
-            "hebben uitbesteed"
-          ]
+          "present": {
+            "ik": "besteed uit",
+            "jij": "besteedt uit",
+            "hij": "besteedt uit",
+            "wij": "besteden uit",
+            "jullie": "besteden uit",
+            "zij": "besteden uit"
+          },
+          "past": {
+            "singular": "besteedde uit",
+            "plural": "besteedden uit"
+          },
+          "pastParticiple": "uitbesteed",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -569,30 +559,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitbetalen",
-          "present": [
-            "ik betaal uit",
-            "jij betaalt uit",
-            "hij/zij betaalt uit",
-            "wij betalen uit",
-            "jullie betalen uit",
-            "zij betalen uit"
-          ],
-          "past": [
-            "ik betaalde uit",
-            "jij betaalde uit",
-            "hij/zij betaalde uit",
-            "wij betaalden uit",
-            "jullie betaalden uit",
-            "zij betaalden uit"
-          ],
-          "perfect": [
-            "heb uitbetaald",
-            "hebt uitbetaald",
-            "heeft uitbetaald",
-            "hebben uitbetaald",
-            "hebben uitbetaald",
-            "hebben uitbetaald"
-          ]
+          "present": {
+            "ik": "betaal uit",
+            "jij": "betaalt uit",
+            "hij": "betaalt uit",
+            "wij": "betalen uit",
+            "jullie": "betalen uit",
+            "zij": "betalen uit"
+          },
+          "past": {
+            "singular": "betaalde uit",
+            "plural": "betaalden uit"
+          },
+          "pastParticiple": "uitbetaald",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -625,30 +605,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitblijven",
-          "present": [
-            "ik blijf uit",
-            "jij blijft uit",
-            "hij/zij blijft uit",
-            "wij blijven uit",
-            "jullie blijven uit",
-            "zij blijven uit"
-          ],
-          "past": [
-            "ik bleef uit",
-            "jij bleef uit",
-            "hij/zij bleef uit",
-            "wij bleven uit",
-            "jullie bleven uit",
-            "zij bleven uit"
-          ],
-          "perfect": [
-            "heb uitgebleven",
-            "hebt uitgebleven",
-            "heeft uitgebleven",
-            "hebben uitgebleven",
-            "hebben uitgebleven",
-            "hebben uitgebleven"
-          ]
+          "present": {
+            "ik": "blijf uit",
+            "jij": "blijft uit",
+            "hij": "blijft uit",
+            "wij": "blijven uit",
+            "jullie": "blijven uit",
+            "zij": "blijven uit"
+          },
+          "past": {
+            "singular": "bleef uit",
+            "plural": "bleven uit"
+          },
+          "pastParticiple": "uitgebleven",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -681,30 +651,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitblinken",
-          "present": [
-            "ik blink uit",
-            "jij blinkt uit",
-            "hij/zij blinkt uit",
-            "wij blinken uit",
-            "jullie blinken uit",
-            "zij blinken uit"
-          ],
-          "past": [
-            "ik blonk uit",
-            "jij blonk uit",
-            "hij/zij blonk uit",
-            "wij blonken uit",
-            "jullie blonken uit",
-            "zij blonken uit"
-          ],
-          "perfect": [
-            "heb uitgeblonken",
-            "hebt uitgeblonken",
-            "heeft uitgeblonken",
-            "hebben uitgeblonken",
-            "hebben uitgeblonken",
-            "hebben uitgeblonken"
-          ]
+          "present": {
+            "ik": "blink uit",
+            "jij": "blinkt uit",
+            "hij": "blinkt uit",
+            "wij": "blinken uit",
+            "jullie": "blinken uit",
+            "zij": "blinken uit"
+          },
+          "past": {
+            "singular": "blonk uit",
+            "plural": "blonken uit"
+          },
+          "pastParticiple": "uitgeblonken",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -737,30 +697,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitblussen",
-          "present": [
-            "ik blus uit",
-            "jij blust uit",
-            "hij/zij blust uit",
-            "wij blussen uit",
-            "jullie blussen uit",
-            "zij blussen uit"
-          ],
-          "past": [
-            "ik bluste uit",
-            "jij bluste uit",
-            "hij/zij bluste uit",
-            "wij blustten uit",
-            "jullie blustten uit",
-            "zij blustten uit"
-          ],
-          "perfect": [
-            "heb uitgeblust",
-            "hebt uitgeblust",
-            "heeft uitgeblust",
-            "hebben uitgeblust",
-            "hebben uitgeblust",
-            "hebben uitgeblust"
-          ]
+          "present": {
+            "ik": "blus uit",
+            "jij": "blust uit",
+            "hij": "blust uit",
+            "wij": "blussen uit",
+            "jullie": "blussen uit",
+            "zij": "blussen uit"
+          },
+          "past": {
+            "singular": "bluste uit",
+            "plural": "blustten uit"
+          },
+          "pastParticiple": "uitgeblust",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -793,30 +743,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitbranden",
-          "present": [
-            "ik brand uit",
-            "jij brandt uit",
-            "hij/zij brandt uit",
-            "wij branden uit",
-            "jullie branden uit",
-            "zij branden uit"
-          ],
-          "past": [
-            "ik brandde uit",
-            "jij brandde uit",
-            "hij/zij brandde uit",
-            "wij brandden uit",
-            "jullie brandden uit",
-            "zij brandden uit"
-          ],
-          "perfect": [
-            "ben uitgebrand",
-            "bent uitgebrand",
-            "is uitgebrand",
-            "zijn uitgebrand",
-            "zijn uitgebrand",
-            "zijn uitgebrand"
-          ]
+          "present": {
+            "ik": "brand uit",
+            "jij": "brandt uit",
+            "hij": "brandt uit",
+            "wij": "branden uit",
+            "jullie": "branden uit",
+            "zij": "branden uit"
+          },
+          "past": {
+            "singular": "brandde uit",
+            "plural": "brandden uit"
+          },
+          "pastParticiple": "uitgebrand",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -849,30 +789,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitbrengen",
-          "present": [
-            "ik breng uit",
-            "jij brengt uit",
-            "hij/zij brengt uit",
-            "wij brengen uit",
-            "jullie brengen uit",
-            "zij brengen uit"
-          ],
-          "past": [
-            "ik bracht uit",
-            "jij bracht uit",
-            "hij/zij bracht uit",
-            "wij brachten uit",
-            "jullie brachten uit",
-            "zij brachten uit"
-          ],
-          "perfect": [
-            "heb uitgebracht",
-            "hebt uitgebracht",
-            "heeft uitgebracht",
-            "hebben uitgebracht",
-            "hebben uitgebracht",
-            "hebben uitgebracht"
-          ]
+          "present": {
+            "ik": "breng uit",
+            "jij": "brengt uit",
+            "hij": "brengt uit",
+            "wij": "brengen uit",
+            "jullie": "brengen uit",
+            "zij": "brengen uit"
+          },
+          "past": {
+            "singular": "bracht uit",
+            "plural": "brachten uit"
+          },
+          "pastParticiple": "uitgebracht",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -905,30 +835,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitdraaien",
-          "present": [
-            "ik draai uit",
-            "jij draait uit",
-            "hij/zij draait uit",
-            "wij draaien uit",
-            "jullie draaien uit",
-            "zij draaien uit"
-          ],
-          "past": [
-            "ik draaide uit",
-            "jij draaide uit",
-            "hij/zij draaide uit",
-            "wij draaiden uit",
-            "jullie draaiden uit",
-            "zij draaiden uit"
-          ],
-          "perfect": [
-            "heb uitgedraaid",
-            "hebt uitgedraaid",
-            "heeft uitgedraaid",
-            "hebben uitgedraaid",
-            "hebben uitgedraaid",
-            "hebben uitgedraaid"
-          ]
+          "present": {
+            "ik": "draai uit",
+            "jij": "draait uit",
+            "hij": "draait uit",
+            "wij": "draaien uit",
+            "jullie": "draaien uit",
+            "zij": "draaien uit"
+          },
+          "past": {
+            "singular": "draaide uit",
+            "plural": "draaiden uit"
+          },
+          "pastParticiple": "uitgedraaid",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -961,30 +881,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitdrukken",
-          "present": [
-            "ik druk uit",
-            "jij drukt uit",
-            "hij/zij drukt uit",
-            "wij drukken uit",
-            "jullie drukken uit",
-            "zij drukken uit"
-          ],
-          "past": [
-            "ik drukte uit",
-            "jij drukte uit",
-            "hij/zij drukte uit",
-            "wij drukten uit",
-            "jullie drukten uit",
-            "zij drukten uit"
-          ],
-          "perfect": [
-            "heb uitgedrukt",
-            "hebt uitgedrukt",
-            "heeft uitgedrukt",
-            "hebben uitgedrukt",
-            "hebben uitgedrukt",
-            "hebben uitgedrukt"
-          ]
+          "present": {
+            "ik": "druk uit",
+            "jij": "drukt uit",
+            "hij": "drukt uit",
+            "wij": "drukken uit",
+            "jullie": "drukken uit",
+            "zij": "drukken uit"
+          },
+          "past": {
+            "singular": "drukte uit",
+            "plural": "drukten uit"
+          },
+          "pastParticiple": "uitgedrukt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1017,30 +927,20 @@
           "isSeparable": true,
           "prefix": "uiteen",
           "infinitive": "uiteenlopen",
-          "present": [
-            "ik loop uit",
-            "jij loopt uit",
-            "hij/zij loopt uit",
-            "wij lopen uit",
-            "jullie lopen uit",
-            "zij lopen uit"
-          ],
-          "past": [
-            "ik liep uit",
-            "jij liep uit",
-            "hij/zij liep uit",
-            "wij liepen uit",
-            "jullie liepen uit",
-            "zij liepen uit"
-          ],
-          "perfect": [
-            "ben uitgelopen",
-            "bent uitgelopen",
-            "is uitgelopen",
-            "zijn uitgelopen",
-            "zijn uitgelopen",
-            "zijn uitgelopen"
-          ]
+          "present": {
+            "ik": "loop uit",
+            "jij": "loopt uit",
+            "hij": "loopt uit",
+            "wij": "lopen uit",
+            "jullie": "lopen uit",
+            "zij": "lopen uit"
+          },
+          "past": {
+            "singular": "liep uit",
+            "plural": "liepen uit"
+          },
+          "pastParticiple": "uitgelopen",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1073,30 +973,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitfluiten",
-          "present": [
-            "ik sluit uit",
-            "jij sluit uit",
-            "hij/zij sluit uit",
-            "wij sluiten uit",
-            "jullie sluiten uit",
-            "zij sluiten uit"
-          ],
-          "past": [
-            "ik sloot uit",
-            "jij sloot uit",
-            "hij/zij sloot uit",
-            "wij sloten uit",
-            "jullie sloten uit",
-            "zij sloten uit"
-          ],
-          "perfect": [
-            "heb uitgesloten",
-            "hebt uitgesloten",
-            "heeft uitgesloten",
-            "hebben uitgesloten",
-            "hebben uitgesloten",
-            "hebben uitgesloten"
-          ]
+          "present": {
+            "ik": "sluit uit",
+            "jij": "sluit uit",
+            "hij": "sluit uit",
+            "wij": "sluiten uit",
+            "jullie": "sluiten uit",
+            "zij": "sluiten uit"
+          },
+          "past": {
+            "singular": "sloot uit",
+            "plural": "sloten uit"
+          },
+          "pastParticiple": "uitgesloten",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1260,33 +1150,23 @@
       "partOfSpeech": "verb",
       "forms": {
         "verb": {
+          "infinitive": "uitglijden",
           "isSeparable": true,
           "prefix": "uit",
-          "infinitive": "uitglijden",
-          "present": [
-            "ik glijd uit",
-            "jij glijdt uit",
-            "hij/zij glijdt uit",
-            "wij glijden uit",
-            "jullie glijden uit",
-            "zij glijden uit"
-          ],
-          "past": [
-            "ik gleed uit",
-            "jij gleed uit",
-            "hij/zij gleed uit",
-            "wij gleden uit",
-            "jullie gleden uit",
-            "zij gleden uit"
-          ],
-          "perfect": [
-            "ben uitgegleden",
-            "bent uitgegleden",
-            "is uitgegleden",
-            "zijn uitgegleden",
-            "zijn uitgegleden",
-            "zijn uitgegleden"
-          ]
+          "present": {
+            "ik": "glijd uit",
+            "jij": "glijdt uit",
+            "hij": "glijdt uit",
+            "wij": "glijden uit",
+            "jullie": "glijden uit",
+            "zij": "glijden uit"
+          },
+          "past": {
+            "singular": "gleed uit",
+            "plural": "gleden uit"
+          },
+          "pastParticiple": "uitgegleden",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1316,33 +1196,23 @@
       "partOfSpeech": "verb",
       "forms": {
         "verb": {
+          "infinitive": "uitgroeien",
           "isSeparable": true,
           "prefix": "uit",
-          "infinitive": "uitgroeien",
-          "present": [
-            "ik groei uit",
-            "jij groeit uit",
-            "hij/zij groeit uit",
-            "wij groeien uit",
-            "jullie groeien uit",
-            "zij groeien uit"
-          ],
-          "past": [
-            "ik groeide uit",
-            "jij groeide uit",
-            "hij/zij groeide uit",
-            "wij groeiden uit",
-            "jullie groeiden uit",
-            "zij groeiden uit"
-          ],
-          "perfect": [
-            "ben uitgegroeid",
-            "bent uitgegroeid",
-            "is uitgegroeid",
-            "zijn uitgegroeid",
-            "zijn uitgegroeid",
-            "zijn uitgegroeid"
-          ]
+          "present": {
+            "ik": "groei uit",
+            "jij": "groeit uit",
+            "hij": "groeit uit",
+            "wij": "groeien uit",
+            "jullie": "groeien uit",
+            "zij": "groeien uit"
+          },
+          "past": {
+            "singular": "groeide uit",
+            "plural": "groeiden uit"
+          },
+          "pastParticiple": "uitgegroeid",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1375,30 +1245,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitklappen",
-          "present": [
-            "ik klap uit",
-            "jij klappt uit",
-            "hij/zij klappt uit",
-            "wij klappen uit",
-            "jullie klappen uit",
-            "zij klappen uit"
-          ],
-          "past": [
-            "ik klapte uit",
-            "jij klapte uit",
-            "hij/zij klapte uit",
-            "wij klapten uit",
-            "jullie klapten uit",
-            "zij klapten uit"
-          ],
-          "perfect": [
-            "heb uitgeklapt",
-            "hebt uitgeklapt",
-            "heeft uitgeklapt",
-            "hebben uitgeklapt",
-            "hebben uitgeklapt",
-            "hebben uitgeklapt"
-          ]
+          "present": {
+            "ik": "klap uit",
+            "jij": "klapt uit",
+            "hij": "klapt uit",
+            "wij": "klappen uit",
+            "jullie": "klappen uit",
+            "zij": "klappen uit"
+          },
+          "past": {
+            "singular": "klapte uit",
+            "plural": "klapten uit"
+          },
+          "pastParticiple": "uitgeklapt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1463,30 +1323,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitleveren",
-          "present": [
-            "ik lever uit",
-            "jij levert uit",
-            "hij/zij levert uit",
-            "wij leveren uit",
-            "jullie leveren uit",
-            "zij leveren uit"
-          ],
-          "past": [
-            "ik leverde uit",
-            "jij leverde uit",
-            "hij/zij leverde uit",
-            "wij leverden uit",
-            "jullie leverden uit",
-            "zij leverden uit"
-          ],
-          "perfect": [
-            "heb uitgeleverd",
-            "hebt uitgeleverd",
-            "heeft uitgeleverd",
-            "hebben uitgeleverd",
-            "hebben uitgeleverd",
-            "hebben uitgeleverd"
-          ]
+          "present": {
+            "ik": "lever uit",
+            "jij": "levert uit",
+            "hij": "levert uit",
+            "wij": "leveren uit",
+            "jullie": "leveren uit",
+            "zij": "leveren uit"
+          },
+          "past": {
+            "singular": "leverde uit",
+            "plural": "leverden uit"
+          },
+          "pastParticiple": "uitgeleverd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1519,30 +1369,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitlichten",
-          "present": [
-            "ik licht uit",
-            "jij licht uit",
-            "hij/zij licht uit",
-            "wij lichten uit",
-            "jullie lichten uit",
-            "zij lichten uit"
-          ],
-          "past": [
-            "ik lichte uit",
-            "jij lichte uit",
-            "hij/zij lichte uit",
-            "wij lichten uit",
-            "jullie lichten uit",
-            "zij lichten uit"
-          ],
-          "perfect": [
-            "heb uitgelicht",
-            "hebt uitgelicht",
-            "heeft uitgelicht",
-            "hebben uitgelicht",
-            "hebben uitgelicht",
-            "hebben uitgelicht"
-          ]
+          "present": {
+            "ik": "licht uit",
+            "jij": "licht uit",
+            "hij": "licht uit",
+            "wij": "lichten uit",
+            "jullie": "lichten uit",
+            "zij": "lichten uit"
+          },
+          "past": {
+            "singular": "lichte uit",
+            "plural": "lichten uit"
+          },
+          "pastParticiple": "uitgelicht",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1575,30 +1415,20 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitmoorden",
-          "present": [
-            "ik moord uit",
-            "jij moordt uit",
-            "hij/zij moordt uit",
-            "wij moorden uit",
-            "jullie moorden uit",
-            "zij moorden uit"
-          ],
-          "past": [
-            "ik moordde uit",
-            "jij moordde uit",
-            "hij/zij moordde uit",
-            "wij moordden uit",
-            "jullie moordden uit",
-            "zij moordden uit"
-          ],
-          "perfect": [
-            "heb uitgemoord",
-            "hebt uitgemoord",
-            "heeft uitgemoord",
-            "hebben uitgemoord",
-            "hebben uitgemoord",
-            "hebben uitgemoord"
-          ]
+          "present": {
+            "ik": "moord uit",
+            "jij": "moordt uit",
+            "hij": "moordt uit",
+            "wij": "moorden uit",
+            "jullie": "moorden uit",
+            "zij": "moorden uit"
+          },
+          "past": {
+            "singular": "moordde uit",
+            "plural": "moordden uit"
+          },
+          "pastParticiple": "uitgemoord",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [

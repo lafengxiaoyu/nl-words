@@ -47,24 +47,22 @@
       "forms": {
         "verb": {
           "infinitive": "samenvatten",
-          "present": [
-            "ik vat samen",
-            "jij vat samen",
-            "hij/zij/het vat samen",
-            "wii vatten samen",
-            "jullie vatten samen",
-            "zij vatten samen"
-          ],
-          "past": [
-            "ik vatte samen",
-            "jij vatte samen",
-            "hij/zij/het vatte samen",
-            "wii vatten samen",
-            "jullie vatten samen",
-            "zij vatten samen"
-          ],
-          "perfect": "ik heb samengevat",
-          "participle": "samengevat"
+          "isSeparable": true,
+          "prefix": "samen",
+          "present": {
+            "ik": "vat samen",
+            "jij": "vat samen",
+            "hij": "vat samen",
+            "wij": "vatten samen",
+            "jullie": "vatten samen",
+            "zij": "vatten samen"
+          },
+          "past": {
+            "singular": "vatte samen",
+            "plural": "vatten samen"
+          },
+          "pastParticiple": "samengevat",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -95,24 +93,22 @@
       "forms": {
         "verb": {
           "infinitive": "samenvoegen",
-          "present": [
-            "ik voeg samen",
-            "jij voegt samen",
-            "hij/zij/het voegt samen",
-            "wii voegen samen",
-            "jullie voegen samen",
-            "zij voegen samen"
-          ],
-          "past": [
-            "ik voegde samen",
-            "jij voegde samen",
-            "hij/zij/het voegde samen",
-            "wii voegden samen",
-            "jullie voegden samen",
-            "zij voegden samen"
-          ],
-          "perfect": "ik heb samengevoegd",
-          "participle": "samengevoegd"
+          "isSeparable": true,
+          "prefix": "samen",
+          "present": {
+            "ik": "voeg samen",
+            "jij": "voegt samen",
+            "hij": "voegt samen",
+            "wij": "voegen samen",
+            "jullie": "voegen samen",
+            "zij": "voegen samen"
+          },
+          "past": {
+            "singular": "voegde samen",
+            "plural": "voegden samen"
+          },
+          "pastParticiple": "samengevoegd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -143,24 +139,22 @@
       "forms": {
         "verb": {
           "infinitive": "samenwonen",
-          "present": [
-            "ik woon samen",
-            "jij woont samen",
-            "hij/zij/het woont samen",
-            "wii wonen samen",
-            "jullie wonen samen",
-            "zij wonen samen"
-          ],
-          "past": [
-            "ik woonde samen",
-            "jij woonde samen",
-            "hij/zij/het woonde samen",
-            "wii woonden samen",
-            "jullie woonden samen",
-            "zij woonden samen"
-          ],
-          "perfect": "ik heb samengewoond",
-          "participle": "samengewoond"
+          "isSeparable": true,
+          "prefix": "samen",
+          "present": {
+            "ik": "woon samen",
+            "jij": "woont samen",
+            "hij": "woont samen",
+            "wij": "wonen samen",
+            "jullie": "wonen samen",
+            "zij": "wonen samen"
+          },
+          "past": {
+            "singular": "woonde samen",
+            "plural": "woonden samen"
+          },
+          "pastParticiple": "samengewoond",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -391,24 +385,21 @@
       "forms": {
         "verb": {
           "infinitive": "scharrelen",
-          "present": [
-            "ik scharrel",
-            "jij scharrelt",
-            "hij/zij/het scharrelt",
-            "wii scharrelen",
-            "jullie scharrelen",
-            "zij scharrelen"
-          ],
-          "past": [
-            "ik scharrelde",
-            "jij scharrelde",
-            "hij/zij/het scharrelde",
-            "wii scharrelden",
-            "jullie scharrelden",
-            "zij scharrelden"
-          ],
-          "perfect": "ik heb gescharreld",
-          "participle": "gescharreld"
+          "isSeparable": false,
+          "present": {
+            "ik": "scharrel",
+            "jij": "scharrelt",
+            "hij": "scharrelt",
+            "wij": "scharrelen",
+            "jullie": "scharrelen",
+            "zij": "scharrelen"
+          },
+          "past": {
+            "singular": "scharrelde",
+            "plural": "scharrelden"
+          },
+          "pastParticiple": "gescharreld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -569,24 +560,21 @@
       "forms": {
         "verb": {
           "infinitive": "schommelen",
-          "present": [
-            "ik schommel",
-            "jij schommelt",
-            "hij/zij/het schommelt",
-            "wii schommelen",
-            "jullie schommelen",
-            "zij schommelen"
-          ],
-          "past": [
-            "ik schommelde",
-            "jij schommelde",
-            "hij/zij/het schommelde",
-            "wii schommelden",
-            "jullie schommelden",
-            "zij schommelden"
-          ],
-          "perfect": "ik heb geschommeld",
-          "participle": "geschommeld"
+          "isSeparable": false,
+          "present": {
+            "ik": "schommel",
+            "jij": "schommelt",
+            "hij": "schommelt",
+            "wij": "schommelen",
+            "jullie": "schommelen",
+            "zij": "schommelen"
+          },
+          "past": {
+            "singular": "schommelde",
+            "plural": "schommelden"
+          },
+          "pastParticiple": "geschommeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -681,24 +669,22 @@
       "forms": {
         "verb": {
           "infinitive": "schoonvegen",
-          "present": [
-            "ik veeg schoon",
-            "jij veegt schoon",
-            "hij/zij/het veegt schoon",
-            "wii vegen schoon",
-            "jullie vegen schoon",
-            "zij vegen schoon"
-          ],
-          "past": [
-            "ik veegde schoon",
-            "jij veegde schoon",
-            "hij/zij/het veegde schoon",
-            "wii veegden schoon",
-            "jullie veegden schoon",
-            "zij veegden schoon"
-          ],
-          "perfect": "ik heb schoongeveegd",
-          "participle": "schoongeveegd"
+          "isSeparable": true,
+          "prefix": "schoon",
+          "present": {
+            "ik": "veeg schoon",
+            "jij": "veegt schoon",
+            "hij": "veegt schoon",
+            "wij": "vegen schoon",
+            "jullie": "vegen schoon",
+            "zij": "vegen schoon"
+          },
+          "past": {
+            "singular": "veegde schoon",
+            "plural": "veegden schoon"
+          },
+          "pastParticiple": "schoongeveegd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -861,24 +847,21 @@
       "forms": {
         "verb": {
           "infinitive": "segmenteren",
-          "present": [
-            "ik segmenteer",
-            "jij segmenteert",
-            "hij/zij/het segmenteert",
-            "wii segmenteren",
-            "jullie segmenteren",
-            "zij segmenteren"
-          ],
-          "past": [
-            "ik segmenteerde",
-            "jij segmenteerde",
-            "hij/zij/het segmenteerde",
-            "wii segmenteerden",
-            "jullie segmenteerden",
-            "zij segmenteerden"
-          ],
-          "perfect": "ik heb gesegmenteerd",
-          "participle": "gesegmenteerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "segmenteer",
+            "jij": "segmenteert",
+            "hij": "segmenteert",
+            "wij": "segmenteren",
+            "jullie": "segmenteren",
+            "zij": "segmenteren"
+          },
+          "past": {
+            "singular": "segmenteerde",
+            "plural": "segmenteerden"
+          },
+          "pastParticiple": "gesegmenteerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1039,24 +1022,21 @@
       "forms": {
         "verb": {
           "infinitive": "signaleren",
-          "present": [
-            "ik signaleer",
-            "jij signaleert",
-            "hij/zij/het signaleert",
-            "wii signaleren",
-            "jullie signaleren",
-            "zij signaleren"
-          ],
-          "past": [
-            "ik signaleerde",
-            "jij signaleerde",
-            "hij/zij/het signaleerde",
-            "wii signaleerden",
-            "jullie signaleerden",
-            "zij signaleerden"
-          ],
-          "perfect": "ik heb gesignaleerd",
-          "participle": "gesignaleerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "signaleer",
+            "jij": "signaleert",
+            "hij": "signaleert",
+            "wij": "signaleren",
+            "jullie": "signaleren",
+            "zij": "signaleren"
+          },
+          "past": {
+            "singular": "signaleerde",
+            "plural": "signaleerden"
+          },
+          "pastParticiple": "gesignaleerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1215,24 +1195,21 @@
       "forms": {
         "verb": {
           "infinitive": "snuffelen",
-          "present": [
-            "ik snuffel",
-            "jij snuffelt",
-            "hij/zij/het snuffelt",
-            "wii snuffelen",
-            "jullie snuffelen",
-            "zij snuffelen"
-          ],
-          "past": [
-            "ik snuffelde",
-            "jij snuffelde",
-            "hij/zij/het snuffelde",
-            "wii snuffelden",
-            "jullie snuffelden",
-            "zij snuffelden"
-          ],
-          "perfect": "ik heb gesnuffeld",
-          "participle": "gesnuffeld"
+          "isSeparable": false,
+          "present": {
+            "ik": "snuffel",
+            "jij": "snuffelt",
+            "hij": "snuffelt",
+            "wij": "snuffelen",
+            "jullie": "snuffelen",
+            "zij": "snuffelen"
+          },
+          "past": {
+            "singular": "snuffelde",
+            "plural": "snuffelden"
+          },
+          "pastParticiple": "gesnuffeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1393,24 +1370,22 @@
       "forms": {
         "verb": {
           "infinitive": "spelen vals",
-          "present": [
-            "ik speel vals",
-            "jij speelt vals",
-            "hij/zij/het speelt vals",
-            "wii spelen vals",
-            "jullie spelen vals",
-            "zij spelen vals"
-          ],
-          "past": [
-            "ik speelde vals",
-            "jij speelde vals",
-            "hij/zij/het speelde vals",
-            "wii speelden vals",
-            "jullie speelden vals",
-            "zij speelden vals"
-          ],
-          "perfect": "ik heb vals gespeeld",
-          "participle": "vals gespeeld"
+          "isSeparable": true,
+          "prefix": "vals",
+          "present": {
+            "ik": "speel vals",
+            "jij": "speelt vals",
+            "hij": "speelt vals",
+            "wij": "spelen vals",
+            "jullie": "spelen vals",
+            "zij": "spelen vals"
+          },
+          "past": {
+            "singular": "speelde vals",
+            "plural": "speelden vals"
+          },
+          "pastParticiple": "vals gespeeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1505,24 +1480,21 @@
       "forms": {
         "verb": {
           "infinitive": "sprankelen",
-          "present": [
-            "ik sprankel",
-            "jij sprankelt",
-            "hij/zij/het sprankelt",
-            "wii sprankelen",
-            "jullie sprankelen",
-            "zij sprankelen"
-          ],
-          "past": [
-            "ik sprankelde",
-            "jij sprankelde",
-            "hij/zij/het sprankelde",
-            "wii sprankelden",
-            "jullie sprankelden",
-            "zij sprankelden"
-          ],
-          "perfect": "ik heb gesprankeld",
-          "participle": "gesprankeld"
+          "isSeparable": false,
+          "present": {
+            "ik": "sprankel",
+            "jij": "sprankelt",
+            "hij": "sprankelt",
+            "wij": "sprankelen",
+            "jullie": "sprankelen",
+            "zij": "sprankelen"
+          },
+          "past": {
+            "singular": "sprankelde",
+            "plural": "sprankelden"
+          },
+          "pastParticiple": "gesprankeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [

@@ -145,24 +145,22 @@
       "forms": {
         "verb": {
           "infinitive": "tegenhouden",
-          "present": [
-            "ik houd tegen",
-            "jij houdt tegen",
-            "hij/zij/het houdt tegen",
-            "wij houden tegen",
-            "jullie houden tegen",
-            "zij houden tegen"
-          ],
-          "past": [
-            "ik hield tegen",
-            "jij hield tegen",
-            "hij/zij/het hield tegen",
-            "wij hielden tegen",
-            "jullie hielden tegen",
-            "zij hielden tegen"
-          ],
-          "perfect": "ik heb tegenhouden",
-          "participle": "tegenhouden"
+          "isSeparable": true,
+          "prefix": "tegen",
+          "present": {
+            "ik": "houd tegen",
+            "jij": "houdt tegen",
+            "hij": "houdt tegen",
+            "wij": "houden tegen",
+            "jullie": "houden tegen",
+            "zij": "houden tegen"
+          },
+          "past": {
+            "singular": "hield tegen",
+            "plural": "hielden tegen"
+          },
+          "pastParticiple": "tegenhouden",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -193,24 +191,22 @@
       "forms": {
         "verb": {
           "infinitive": "tegenkomen",
-          "present": [
-            "ik kom tegen",
-            "jij komt tegen",
-            "hij/zij/het komt tegen",
-            "wii komen tegen",
-            "jullie komen tegen",
-            "zij komen tegen"
-          ],
-          "past": [
-            "ik kwam tegen",
-            "jij kwam tegen",
-            "hij/zij/het kwam tegen",
-            "wii kwamen tegen",
-            "jullie kwamen tegen",
-            "zij kwamen tegen"
-          ],
-          "perfect": "ik ben tegenkomen",
-          "participle": "tegengekomen"
+          "isSeparable": true,
+          "prefix": "tegen",
+          "present": {
+            "ik": "kom tegen",
+            "jij": "komt tegen",
+            "hij": "komt tegen",
+            "wij": "komen tegen",
+            "jullie": "komen tegen",
+            "zij": "komen tegen"
+          },
+          "past": {
+            "singular": "kwam tegen",
+            "plural": "kwamen tegen"
+          },
+          "pastParticiple": "tegengekomen",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -385,24 +381,22 @@
       "forms": {
         "verb": {
           "infinitive": "tekortkomen",
-          "present": [
-            "ik kom tekort",
-            "jij komt tekort",
-            "hij/zij/het komt tekort",
-            "wii komen tekort",
-            "jullie komen tekort",
-            "zij komen tekort"
-          ],
-          "past": [
-            "ik kwam tekort",
-            "jij kwam tekort",
-            "hij/zij/het kwam tekort",
-            "wii kwamen tekort",
-            "jullie kwamen tekort",
-            "zij kwamen tekort"
-          ],
-          "perfect": "ik ben tekortgekomen",
-          "participle": "tekortgekomen"
+          "isSeparable": true,
+          "prefix": "tekort",
+          "present": {
+            "ik": "kom tekort",
+            "jij": "komt tekort",
+            "hij": "komt tekort",
+            "wij": "komen tekort",
+            "jullie": "komen tekort",
+            "zij": "komen tekort"
+          },
+          "past": {
+            "singular": "kwam tekort",
+            "plural": "kwamen tekort"
+          },
+          "pastParticiple": "tekortgekomen",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -553,24 +547,21 @@
       "forms": {
         "verb": {
           "infinitive": "terugkeren",
-          "present": [
-            "ik keer terug",
-            "jij keert terug",
-            "hij/zij/het keert terug",
-            "wij keren terug",
-            "jullie keren terug",
-            "zij keren terug"
-          ],
-          "past": [
-            "ik keerde terug",
-            "jij keerde terug",
-            "hij/zij/het keerde terug",
-            "wij keerden terug",
-            "jullie keerden terug",
-            "zij keerden terug"
-          ],
-          "perfect": "ik ben teruggekeerd",
-          "participle": "teruggekeerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "keer terug",
+            "jij": "keert terug",
+            "hij": "keert terug",
+            "wij": "keren terug",
+            "jullie": "keren terug",
+            "zij": "keren terug"
+          },
+          "past": {
+            "singular": "keerde terug",
+            "plural": "keerden terug"
+          },
+          "pastParticiple": "teruggekeerd",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -601,24 +592,22 @@
       "forms": {
         "verb": {
           "infinitive": "terugkomen",
-          "present": [
-            "ik kom terug",
-            "jij komt terug",
-            "hij/zij/het komt terug",
-            "wii komen terug",
-            "jullie komen terug",
-            "zij komen terug"
-          ],
-          "past": [
-            "ik kwam terug",
-            "jij kwam terug",
-            "hij/zij/het kwam terug",
-            "wii kwamen terug",
-            "jullie kwamen terug",
-            "zij kwamen terug"
-          ],
-          "perfect": "ik ben teruggekomen",
-          "participle": "teruggekomen"
+          "isSeparable": true,
+          "prefix": "terug",
+          "present": {
+            "ik": "kom terug",
+            "jij": "komt terug",
+            "hij": "komt terug",
+            "wij": "komen terug",
+            "jullie": "komen terug",
+            "zij": "komen terug"
+          },
+          "past": {
+            "singular": "kwam terug",
+            "plural": "kwamen terug"
+          },
+          "pastParticiple": "teruggekomen",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -649,24 +638,22 @@
       "forms": {
         "verb": {
           "infinitive": "terugnemen",
-          "present": [
-            "ik neem terug",
-            "jij neemt terug",
-            "hij/zij/het neemt terug",
-            "wii nemen terug",
-            "jullie nemen terug",
-            "zij nemen terug"
-          ],
-          "past": [
-            "ik nam terug",
-            "jij nam terug",
-            "hij/zij/het nam terug",
-            "wii namen terug",
-            "jullie namen terug",
-            "zij namen terug"
-          ],
-          "perfect": "ik heb teruggenomen",
-          "participle": "teruggenomen"
+          "isSeparable": true,
+          "prefix": "terug",
+          "present": {
+            "ik": "neem terug",
+            "jij": "neemt terug",
+            "hij": "neemt terug",
+            "wij": "nemen terug",
+            "jullie": "nemen terug",
+            "zij": "nemen terug"
+          },
+          "past": {
+            "singular": "nam terug",
+            "plural": "namen terug"
+          },
+          "pastParticiple": "teruggenomen",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -697,24 +684,22 @@
       "forms": {
         "verb": {
           "infinitive": "terugpakken",
-          "present": [
-            "ik pak terug",
-            "jij pakt terug",
-            "hij/zij/het pakt terug",
-            "wii pakken terug",
-            "jullie pakken terug",
-            "zij pakken terug"
-          ],
-          "past": [
-            "ik pakte terug",
-            "jij pakte terug",
-            "hij/zij/het pakte terug",
-            "wii pakten terug",
-            "jullie pakten terug",
-            "zij pakten terug"
-          ],
-          "perfect": "ik heb teruggemaakt",
-          "participle": "teruggemaakt"
+          "isSeparable": true,
+          "prefix": "terug",
+          "present": {
+            "ik": "pak terug",
+            "jij": "pakt terug",
+            "hij": "pakt terug",
+            "wij": "pakken terug",
+            "jullie": "pakken terug",
+            "zij": "pakken terug"
+          },
+          "past": {
+            "singular": "pakte terug",
+            "plural": "pakten terug"
+          },
+          "pastParticiple": "teruggepakt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -745,24 +730,22 @@
       "forms": {
         "verb": {
           "infinitive": "terugschieten",
-          "present": [
-            "ik schiet terug",
-            "jij schiet terug",
-            "hij/zij/het schiet terug",
-            "wii schieten terug",
-            "jullie schieten terug",
-            "zij schieten terug"
-          ],
-          "past": [
-            "ik schoot terug",
-            "jij schoot terug",
-            "hij/zij/het schoot terug",
-            "wii schoten terug",
-            "jullie schoten terug",
-            "zij schoten terug"
-          ],
-          "perfect": "ik heb teruggeschoten",
-          "participle": "teruggeschoten"
+          "isSeparable": true,
+          "prefix": "terug",
+          "present": {
+            "ik": "schiet terug",
+            "jij": "schiet terug",
+            "hij": "schiet terug",
+            "wij": "schieten terug",
+            "jullie": "schieten terug",
+            "zij": "schieten terug"
+          },
+          "past": {
+            "singular": "schoot terug",
+            "plural": "schoten terug"
+          },
+          "pastParticiple": "teruggeschoten",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -793,24 +776,22 @@
       "forms": {
         "verb": {
           "infinitive": "terugzetten",
-          "present": [
-            "ik zet terug",
-            "jij zet terug",
-            "hij/zij/het zet terug",
-            "wii zetten terug",
-            "jullie zetten terug",
-            "zij zetten terug"
-          ],
-          "past": [
-            "ik zette terug",
-            "jij zette terug",
-            "hij/zij/het zette terug",
-            "wii zetten terug",
-            "jullie zetten terug",
-            "zij zetten terug"
-          ],
-          "perfect": "ik heb teruggezet",
-          "participle": "teruggezet"
+          "isSeparable": true,
+          "prefix": "terug",
+          "present": {
+            "ik": "zet terug",
+            "jij": "zet terug",
+            "hij": "zet terug",
+            "wij": "zetten terug",
+            "jullie": "zetten terug",
+            "zij": "zetten terug"
+          },
+          "past": {
+            "singular": "zette terug",
+            "plural": "zetten terug"
+          },
+          "pastParticiple": "teruggezet",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -921,24 +902,22 @@
       "forms": {
         "verb": {
           "infinitive": "thuishoren",
-          "present": [
-            "ik hoor thuis",
-            "jij hoort thuis",
-            "hij/zij/het hoort thuis",
-            "wii horen thuis",
-            "jullie horen thuis",
-            "zij horen thuis"
-          ],
-          "past": [
-            "ik hoorde thuis",
-            "jij hoorde thuis",
-            "hij/zij/het hoorde thuis",
-            "wii hoorden thuis",
-            "jullie hoorden thuis",
-            "zij hoorden thuis"
-          ],
-          "perfect": "ik heb thuisgehoord",
-          "participle": "thuisgehoord"
+          "isSeparable": true,
+          "prefix": "thuis",
+          "present": {
+            "ik": "hoor thuis",
+            "jij": "hoort thuis",
+            "hij": "hoort thuis",
+            "wij": "horen thuis",
+            "jullie": "horen thuis",
+            "zij": "horen thuis"
+          },
+          "past": {
+            "singular": "hoorde thuis",
+            "plural": "hoorden thuis"
+          },
+          "pastParticiple": "thuisgehoord",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1033,24 +1012,21 @@
       "forms": {
         "verb": {
           "infinitive": "toedelen",
-          "present": [
-            "ik deel toe",
-            "jij deelt toe",
-            "hij/zij/het deelt toe",
-            "wii delen toe",
-            "jullie delen toe",
-            "zij delen toe"
-          ],
-          "past": [
-            "ik deelde toe",
-            "jij deelde toe",
-            "hij/zij/het deelde toe",
-            "wii deelden toe",
-            "jullie deelden toe",
-            "zij deelden toe"
-          ],
-          "perfect": "ik heb toegedeeld",
-          "participle": "toegedeeld"
+          "isSeparable": false,
+          "present": {
+            "ik": "deel toe",
+            "jij": "deelt toe",
+            "hij": "deelt toe",
+            "wij": "delen toe",
+            "jullie": "delen toe",
+            "zij": "delen toe"
+          },
+          "past": {
+            "singular": "deelde toe",
+            "plural": "deelden toe"
+          },
+          "pastParticiple": "toegedeeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1145,24 +1121,21 @@
       "forms": {
         "verb": {
           "infinitive": "toejuichen",
-          "present": [
-            "ik juich toe",
-            "jij juicht toe",
-            "hij/zij/het juicht toe",
-            "wii juichen toe",
-            "jullie juichen toe",
-            "zij juichen toe"
-          ],
-          "past": [
-            "ik juichte toe",
-            "jij juichte toe",
-            "hij/zij/het juichte toe",
-            "wii juichten toe",
-            "jullie juichten toe",
-            "zij juichten toe"
-          ],
-          "perfect": "ik heb toegejuicht",
-          "participle": "toegejuicht"
+          "isSeparable": false,
+          "present": {
+            "ik": "juich toe",
+            "jij": "juicht toe",
+            "hij": "juicht toe",
+            "wij": "juichen toe",
+            "jullie": "juichen toe",
+            "zij": "juichen toe"
+          },
+          "past": {
+            "singular": "juichte toe",
+            "plural": "juichten toe"
+          },
+          "pastParticiple": "toegejuicht",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1357,24 +1330,21 @@
       "forms": {
         "verb": {
           "infinitive": "toesnijden",
-          "present": [
-            "ik snijd toe",
-            "jij snijdt toe",
-            "hij/zij/het snijdt toe",
-            "wii snijden toe",
-            "jullie snijden toe",
-            "zij snijden toe"
-          ],
-          "past": [
-            "ik sneed toe",
-            "jij sneed toe",
-            "hij/zij/het sneed toe",
-            "wii sneden toe",
-            "jullie sneden toe",
-            "zij sneden toe"
-          ],
-          "perfect": "ik heb toegesneden",
-          "participle": "toegesneden"
+          "isSeparable": false,
+          "present": {
+            "ik": "snijd toe",
+            "jij": "snijdt toe",
+            "hij": "snijdt toe",
+            "wij": "snijden toe",
+            "jullie": "snijden toe",
+            "zij": "snijden toe"
+          },
+          "past": {
+            "singular": "sneed toe",
+            "plural": "sneden toe"
+          },
+          "pastParticiple": "toegesneden",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1405,24 +1375,21 @@
       "forms": {
         "verb": {
           "infinitive": "toespreken",
-          "present": [
-            "ik spreek toe",
-            "jij spreekt toe",
-            "hij/zij/het spreekt toe",
-            "wii spreken toe",
-            "jullie spreken toe",
-            "zij spreken toe"
-          ],
-          "past": [
-            "ik sprak toe",
-            "jij sprak toe",
-            "hij/zij/het sprak toe",
-            "wii spraken toe",
-            "jullie spraken toe",
-            "zij spraken toe"
-          ],
-          "perfect": "ik heb toegesproken",
-          "participle": "toegesproken"
+          "isSeparable": false,
+          "present": {
+            "ik": "spreek toe",
+            "jij": "spreekt toe",
+            "hij": "spreekt toe",
+            "wij": "spreken toe",
+            "jullie": "spreken toe",
+            "zij": "spreken toe"
+          },
+          "past": {
+            "singular": "sprak toe",
+            "plural": "spraken toe"
+          },
+          "pastParticiple": "toegesproken",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [

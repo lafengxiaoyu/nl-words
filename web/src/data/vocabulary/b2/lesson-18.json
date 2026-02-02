@@ -151,24 +151,22 @@
       "forms": {
         "verb": {
           "infinitive": "ophelderen",
-          "present": [
-            "ik helder op",
-            "jij heldert op",
-            "hij/zij/het heldert op",
-            "wij helderen op",
-            "jullie helderen op",
-            "zij helderen op"
-          ],
-          "past": [
-            "ik helderde op",
-            "jij helderde op",
-            "hij/zij/het helderde op",
-            "wij helderden op",
-            "jullie helderden op",
-            "zij helderden op"
-          ],
-          "perfect": "ik heb opgehelderd",
-          "participle": "opgehelderd"
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "helder op",
+            "jij": "heldert op",
+            "hij": "heldert op",
+            "wij": "helderen op",
+            "jullie": "helderen op",
+            "zij": "helderen op"
+          },
+          "past": {
+            "singular": "helderde op",
+            "plural": "helderden op"
+          },
+          "pastParticiple": "opgehelderd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -263,24 +261,22 @@
       "forms": {
         "verb": {
           "infinitive": "opschatten",
-          "present": [
-            "ik schat op",
-            "jij schat op",
-            "hij/zij/het schat op",
-            "wij schatten op",
-            "jullie schatten op",
-            "zij schatten op"
-          ],
-          "past": [
-            "ik schatte op",
-            "jij schatte op",
-            "hij/zij/het schatte op",
-            "wij schatten op",
-            "jullie schatten op",
-            "zij schatten op"
-          ],
-          "perfect": "ik heb opgeschat",
-          "participle": "opgeschat"
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "schat op",
+            "jij": "schat op",
+            "hij": "schat op",
+            "wij": "schatten op",
+            "jullie": "schatten op",
+            "zij": "schatten op"
+          },
+          "past": {
+            "singular": "schatte op",
+            "plural": "schatten op"
+          },
+          "pastParticiple": "opgeschat",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -311,24 +307,22 @@
       "forms": {
         "verb": {
           "infinitive": "opscheppen",
-          "present": [
-            "ik scheet op",
-            "jij schept op",
-            "hij/zij/het schept op",
-            "wij scheppen op",
-            "jullie scheppen op",
-            "zij scheppen op"
-          ],
-          "past": [
-            "ik scheepte op",
-            "jij scheepte op",
-            "hij/zij/het scheepte op",
-            "wij scheepten op",
-            "jullie scheepten op",
-            "zij scheepten op"
-          ],
-          "perfect": "ik heb opgeschept",
-          "participle": "opgeschept"
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "scheet op",
+            "jij": "schept op",
+            "hij": "schept op",
+            "wij": "scheppen op",
+            "jullie": "scheppen op",
+            "zij": "scheppen op"
+          },
+          "past": {
+            "singular": "scheepte op",
+            "plural": "scheepten op"
+          },
+          "pastParticiple": "opgeschept",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -359,24 +353,22 @@
       "forms": {
         "verb": {
           "infinitive": "opschieten",
-          "present": [
-            "ik schiet op",
-            "jij schiet op",
-            "hij/zij/het schiet op",
-            "wij schieten op",
-            "jullie schieten op",
-            "zij schieten op"
-          ],
-          "past": [
-            "ik schoot op",
-            "jij schoot op",
-            "hij/zij/het schoot op",
-            "wij schoten op",
-            "jullie schoten op",
-            "zij schoten op"
-          ],
-          "perfect": "ik heb opgeschoten",
-          "participle": "opgeschoten"
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "schiet op",
+            "jij": "schiet op",
+            "hij": "schiet op",
+            "wij": "schieten op",
+            "jullie": "schieten op",
+            "zij": "schieten op"
+          },
+          "past": {
+            "singular": "schoot op",
+            "plural": "schoten op"
+          },
+          "pastParticiple": "opgeschoten",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -407,24 +399,22 @@
       "forms": {
         "verb": {
           "infinitive": "opschrijven",
-          "present": [
-            "ik schrijf op",
-            "jij schrijft op",
-            "hij/zij/het schrijft op",
-            "wij schrijven op",
-            "jullie schrijven op",
-            "zij schrijven op"
-          ],
-          "past": [
-            "ik schreef op",
-            "jij schreef op",
-            "hij/zij/het schreef op",
-            "wij schreven op",
-            "jullie schreven op",
-            "zij schreven op"
-          ],
-          "perfect": "ik heb opgeschreven",
-          "participle": "opgeschreven"
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "schrijf op",
+            "jij": "schrijft op",
+            "hij": "schrijft op",
+            "wij": "schrijven op",
+            "jullie": "schrijven op",
+            "zij": "schrijven op"
+          },
+          "past": {
+            "singular": "schreef op",
+            "plural": "schreven op"
+          },
+          "pastParticiple": "opgeschreven",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -455,24 +445,22 @@
       "forms": {
         "verb": {
           "infinitive": "opschrikken",
-          "present": [
-            "ik schrik op",
-            "jij schrikt op",
-            "hij/zij/het schrikt op",
-            "wij schrikken op",
-            "jullie schrikken op",
-            "zij schrikken op"
-          ],
-          "past": [
-            "ik schrok op",
-            "jij schrok op",
-            "hij/zij/het schrok op",
-            "wij schrokken op",
-            "jullie schrokken op",
-            "zij schrokken op"
-          ],
-          "perfect": "ik ben opgeschrokken",
-          "participle": "opgeschrokken"
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "schrik op",
+            "jij": "schrikt op",
+            "hij": "schrikt op",
+            "wij": "schrikken op",
+            "jullie": "schrikken op",
+            "zij": "schrikken op"
+          },
+          "past": {
+            "singular": "schrok op",
+            "plural": "schrokken op"
+          },
+          "pastParticiple": "opgeschrokken",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -503,24 +491,22 @@
       "forms": {
         "verb": {
           "infinitive": "opschroeven",
-          "present": [
-            "ik schroef op",
-            "jij schroeft op",
-            "hij/zij/het schroeft op",
-            "wij schroeven op",
-            "jullie schroeven op",
-            "zij schroeven op"
-          ],
-          "past": [
-            "ik schroefde op",
-            "jij schroefde op",
-            "hij/zij/het schroefde op",
-            "wij schroefden op",
-            "jullie schroefden op",
-            "zij schroefden op"
-          ],
-          "perfect": "ik heb opgeschroefd",
-          "participle": "opgeschroefd"
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "schroef op",
+            "jij": "schroeft op",
+            "hij": "schroeft op",
+            "wij": "schroeven op",
+            "jullie": "schroeven op",
+            "zij": "schroeven op"
+          },
+          "past": {
+            "singular": "schroefde op",
+            "plural": "schroefden op"
+          },
+          "pastParticiple": "opgeschroefd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -551,24 +537,22 @@
       "forms": {
         "verb": {
           "infinitive": "opschuiven",
-          "present": [
-            "ik schuif op",
-            "jij schuift op",
-            "hij/zij/het schuift op",
-            "wij schuiven op",
-            "jullie schuiven op",
-            "zij schuiven op"
-          ],
-          "past": [
-            "ik schoof op",
-            "jij schoof op",
-            "hij/zij/het schoof op",
-            "wij schoven op",
-            "jullie schoven op",
-            "zij schoven op"
-          ],
-          "perfect": "ik heb opgeschoven",
-          "participle": "opgeschoven"
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "schuif op",
+            "jij": "schuift op",
+            "hij": "schuift op",
+            "wij": "schuiven op",
+            "jullie": "schuiven op",
+            "zij": "schuiven op"
+          },
+          "past": {
+            "singular": "schoof op",
+            "plural": "schoven op"
+          },
+          "pastParticiple": "opgeschoven",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -599,24 +583,22 @@
       "forms": {
         "verb": {
           "infinitive": "opsplitsen",
-          "present": [
-            "ik splits op",
-            "jij splitst op",
-            "hij/zij/het splitst op",
-            "wij splitsen op",
-            "jullie splitsen op",
-            "zij splitsen op"
-          ],
-          "past": [
-            "ik splitste op",
-            "jij splitste op",
-            "hij/zij/het splitste op",
-            "wij splitsten op",
-            "jullie splitsten op",
-            "zij splitsten op"
-          ],
-          "perfect": "ik heb opgesplitst",
-          "participle": "opgesplitst"
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "splits op",
+            "jij": "splitst op",
+            "hij": "splitst op",
+            "wij": "splitsen op",
+            "jullie": "splitsen op",
+            "zij": "splitsen op"
+          },
+          "past": {
+            "singular": "splitste op",
+            "plural": "splitsten op"
+          },
+          "pastParticiple": "opgesplitst",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -743,24 +725,22 @@
       "forms": {
         "verb": {
           "infinitive": "opzijzetten",
-          "present": [
-            "ik zet opzij",
-            "jij zet opzij",
-            "hij/zij/het zet opzij",
-            "wij zetten opzij",
-            "jullie zetten opzij",
-            "zij zetten opzij"
-          ],
-          "past": [
-            "ik zette opzij",
-            "jij zette opzij",
-            "hij/zij/het zette opzij",
-            "wij zetten opzij",
-            "jullie zetten opzij",
-            "zij zetten opzij"
-          ],
-          "perfect": "ik heb opzijgezet",
-          "participle": "opzijgezet"
+          "isSeparable": true,
+          "prefix": "opzij",
+          "present": {
+            "ik": "zet opzij",
+            "jij": "zet opzij",
+            "hij": "zet opzij",
+            "wij": "zetten opzij",
+            "jullie": "zetten opzij",
+            "zij": "zetten opzij"
+          },
+          "past": {
+            "singular": "zette opzij",
+            "plural": "zetten opzij"
+          },
+          "pastParticiple": "opzijgezet",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -891,24 +871,22 @@
       "forms": {
         "verb": {
           "infinitive": "overbieden",
-          "present": [
-            "ik bied over",
-            "jij biedt over",
-            "hij/zij/het biedt over",
-            "wij bieden over",
-            "jullie bieden over",
-            "zij bieden over"
-          ],
-          "past": [
-            "ik bood over",
-            "jij bood over",
-            "hij/zij/het bood over",
-            "wij boden over",
-            "jullie boden over",
-            "zij boden over"
-          ],
-          "perfect": "ik heb overboden",
-          "participle": "overboden"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "bied over",
+            "jij": "biedt over",
+            "hij": "biedt over",
+            "wij": "bieden over",
+            "jullie": "bieden over",
+            "zij": "bieden over"
+          },
+          "past": {
+            "singular": "bood over",
+            "plural": "boden over"
+          },
+          "pastParticiple": "overboden",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -939,24 +917,22 @@
       "forms": {
         "verb": {
           "infinitive": "overboeken",
-          "present": [
-            "ik boek over",
-            "jij boekt over",
-            "hij/zij/het boekt over",
-            "wij boeken over",
-            "jullie boeken over",
-            "zij boeken over"
-          ],
-          "past": [
-            "ik boekte over",
-            "jij boekte over",
-            "hij/zij/het boekte over",
-            "wij boekten over",
-            "jullie boekten over",
-            "zij boekten over"
-          ],
-          "perfect": "ik heb overgeboekt",
-          "participle": "overgeboekt"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "boek over",
+            "jij": "boekt over",
+            "hij": "boekt over",
+            "wij": "boeken over",
+            "jullie": "boeken over",
+            "zij": "boeken over"
+          },
+          "past": {
+            "singular": "boekte over",
+            "plural": "boekten over"
+          },
+          "pastParticiple": "overgeboekt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -987,24 +963,22 @@
       "forms": {
         "verb": {
           "infinitive": "overbrengen",
-          "present": [
-            "ik breng over",
-            "jij brengt over",
-            "hij/zij/het brengt over",
-            "wij brengen over",
-            "jullie brengen over",
-            "zij brengen over"
-          ],
-          "past": [
-            "ik bracht over",
-            "jij bracht over",
-            "hij/zij/het bracht over",
-            "wij brachten over",
-            "jullie brachten over",
-            "zij brachten over"
-          ],
-          "perfect": "ik heb overgebracht",
-          "participle": "overgebracht"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "breng over",
+            "jij": "brengt over",
+            "hij": "brengt over",
+            "wij": "brengen over",
+            "jullie": "brengen over",
+            "zij": "brengen over"
+          },
+          "past": {
+            "singular": "bracht over",
+            "plural": "brachten over"
+          },
+          "pastParticiple": "overgebracht",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1035,24 +1009,22 @@
       "forms": {
         "verb": {
           "infinitive": "overdekken",
-          "present": [
-            "ik dek over",
-            "jij dekt over",
-            "hij/zij/het dekt over",
-            "wij dekken over",
-            "jullie dekken over",
-            "zij dekken over"
-          ],
-          "past": [
-            "ik dekte over",
-            "jij dekte over",
-            "hij/zij/het dekte over",
-            "wij dekten over",
-            "jullie dekten over",
-            "zij dekten over"
-          ],
-          "perfect": "ik heb overgedekt",
-          "participle": "overgedekt"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "dek over",
+            "jij": "dekt over",
+            "hij": "dekt over",
+            "wij": "dekken over",
+            "jullie": "dekken over",
+            "zij": "dekken over"
+          },
+          "past": {
+            "singular": "dektes over",
+            "plural": "dekten over"
+          },
+          "pastParticiple": "overgedekt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1083,24 +1055,22 @@
       "forms": {
         "verb": {
           "infinitive": "overdragen",
-          "present": [
-            "ik draag over",
-            "jij draagt over",
-            "hij/zij/het draagt over",
-            "wij dragen over",
-            "jullie dragen over",
-            "zij dragen over"
-          ],
-          "past": [
-            "ik droeg over",
-            "jij droeg over",
-            "hij/zij/het droeg over",
-            "wij droegen over",
-            "jullie droegen over",
-            "zij droegen over"
-          ],
-          "perfect": "ik heb overgedragen",
-          "participle": "overgedragen"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "draag over",
+            "jij": "draagt over",
+            "hij": "draagt over",
+            "wij": "dragen over",
+            "jullie": "dragen over",
+            "zij": "dragen over"
+          },
+          "past": {
+            "singular": "droeg over",
+            "plural": "droegen over"
+          },
+          "pastParticiple": "overgedragen",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1197,24 +1167,22 @@
       "forms": {
         "verb": {
           "infinitive": "overgieten",
-          "present": [
-            "ik giet over",
-            "jij giet over",
-            "hij/zij/het giet over",
-            "wij gieten over",
-            "jullie gieten over",
-            "zij gieten over"
-          ],
-          "past": [
-            "ik goot over",
-            "jij goot over",
-            "hij/zij/het goot over",
-            "wii goten over",
-            "jullie goten over",
-            "zij goten over"
-          ],
-          "perfect": "ik heb overgegoten",
-          "participle": "overgegoten"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "giet over",
+            "jij": "giet over",
+            "hij": "giet over",
+            "wij": "gieten over",
+            "jullie": "gieten over",
+            "zij": "gieten over"
+          },
+          "past": {
+            "singular": "goot over",
+            "plural": "goten over"
+          },
+          "pastParticiple": "overgegoten",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1245,24 +1213,22 @@
       "forms": {
         "verb": {
           "infinitive": "overhevelen",
-          "present": [
-            "ik hevel over",
-            "jij hevelt over",
-            "hij/zij/het hevelt over",
-            "wij hevelen over",
-            "jullie hevelen over",
-            "zij hevelen over"
-          ],
-          "past": [
-            "ik hevelde over",
-            "jij hevelde over",
-            "hij/zij/het hevelde over",
-            "wij hevelden over",
-            "jullie hevelden over",
-            "zij hevelden over"
-          ],
-          "perfect": "ik heb overgeheveld",
-          "participle": "overgeheveld"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "hevel over",
+            "jij": "hevelt over",
+            "hij": "hevelt over",
+            "wij": "hevelen over",
+            "jullie": "hevelen over",
+            "zij": "hevelen over"
+          },
+          "past": {
+            "singular": "hevelde over",
+            "plural": "hevelden over"
+          },
+          "pastParticiple": "overgeheveld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1357,24 +1323,22 @@
       "forms": {
         "verb": {
           "infinitive": "overleveren",
-          "present": [
-            "ik lever over",
-            "jij levert over",
-            "hij/zij/het levert over",
-            "wij leveren over",
-            "jullie leveren over",
-            "zij leveren over"
-          ],
-          "past": [
-            "ik leverde over",
-            "jij leverde over",
-            "hij/zij/het leverde over",
-            "wij leverden over",
-            "jullie leverden over",
-            "zij leverden over"
-          ],
-          "perfect": "ik heb overgeleverd",
-          "participle": "overgeleverd"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "lever over",
+            "jij": "levert over",
+            "hij": "levert over",
+            "wij": "leveren over",
+            "jullie": "leveren over",
+            "zij": "leveren over"
+          },
+          "past": {
+            "singular": "leverde over",
+            "plural": "leverden over"
+          },
+          "pastParticiple": "overgeleverd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1405,24 +1369,22 @@
       "forms": {
         "verb": {
           "infinitive": "overlijden",
-          "present": [
-            "ik lijd over",
-            "jij lijdt over",
-            "hij/zij/het lijdt over",
-            "wij lijden over",
-            "jullie lijden over",
-            "zij lijden over"
-          ],
-          "past": [
-            "ik leed over",
-            "jij leed over",
-            "hij/zij/het leed over",
-            "wij leden over",
-            "jullie leden over",
-            "zij leden over"
-          ],
-          "perfect": "ik ben overleden",
-          "participle": "overleden"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "lijd over",
+            "jij": "lijdt over",
+            "hij": "lijdt over",
+            "wij": "lijden over",
+            "jullie": "lijden over",
+            "zij": "lijden over"
+          },
+          "past": {
+            "singular": "leed over",
+            "plural": "leden over"
+          },
+          "pastParticiple": "overleden",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1521,24 +1483,22 @@
       "forms": {
         "verb": {
           "infinitive": "overspoelen",
-          "present": [
-            "ik spoel over",
-            "jij spoelt over",
-            "hij/zij/het spoelt over",
-            "wij spoelen over",
-            "jullie spoelen over",
-            "zij spoelen over"
-          ],
-          "past": [
-            "ik spoel te over",
-            "jij spoel te over",
-            "hij/zij/het spoel te over",
-            "wii spoelden over",
-            "jullie spoelden over",
-            "zij spoelden over"
-          ],
-          "perfect": "ik heb overgespoeld",
-          "participle": "overgespoeld"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "spoel over",
+            "jij": "spoelt over",
+            "hij": "spoelt over",
+            "wij": "spoelen over",
+            "jullie": "spoelen over",
+            "zij": "spoelen over"
+          },
+          "past": {
+            "singular": "spoelde over",
+            "plural": "spoelden over"
+          },
+          "pastParticiple": "overgespoeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [

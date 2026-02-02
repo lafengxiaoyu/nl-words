@@ -15,24 +15,22 @@
       "forms": {
         "verb": {
           "infinitive": "overstemmen",
-          "present": [
-            "ik stem over",
-            "jij stemt over",
-            "hij/zij/het stemt over",
-            "wij stemmen over",
-            "jullie stemmen over",
-            "zij stemmen over"
-          ],
-          "past": [
-            "ik stemde over",
-            "jij stemde over",
-            "hij/zij/het stemde over",
-            "wij stemden over",
-            "jullie stemden over",
-            "zij stemden over"
-          ],
-          "perfect": "ik heb overgestemd",
-          "participle": "overgestemd"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "stem over",
+            "jij": "stemt over",
+            "hij": "stemt over",
+            "wij": "stemmen over",
+            "jullie": "stemmen over",
+            "zij": "stemmen over"
+          },
+          "past": {
+            "singular": "stemde over",
+            "plural": "stemden over"
+          },
+          "pastParticiple": "overgestemd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -63,24 +61,22 @@
       "forms": {
         "verb": {
           "infinitive": "overstromen",
-          "present": [
-            "ik stroom over",
-            "jij stroomt over",
-            "hij/zij/het stroomt over",
-            "wij stromen over",
-            "jullie stromen over",
-            "zij stromen over"
-          ],
-          "past": [
-            "ik stroomde over",
-            "jij stroomde over",
-            "hij/zij/het stroomde over",
-            "wii stroomden over",
-            "jullie stroomden over",
-            "zij stroomden over"
-          ],
-          "perfect": "ik ben overgestroomd",
-          "participle": "overgestroomd"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "stroom over",
+            "jij": "stroomt over",
+            "hij": "stroomt over",
+            "wij": "stromen over",
+            "jullie": "stromen over",
+            "zij": "stromen over"
+          },
+          "past": {
+            "singular": "stroomde over",
+            "plural": "stroomden over"
+          },
+          "pastParticiple": "overgestroomd",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -145,24 +141,22 @@
       "forms": {
         "verb": {
           "infinitive": "overtreden",
-          "present": [
-            "ik treed over",
-            "jij treedt over",
-            "hij/zij/het treedt over",
-            "wii treden over",
-            "jullie treden over",
-            "zij treden over"
-          ],
-          "past": [
-            "ik trad over",
-            "jij trad over",
-            "hij/zij/het trad over",
-            "wii traden over",
-            "jullie traden over",
-            "zij traden over"
-          ],
-          "perfect": "ik heb overtreden",
-          "participle": "overtreden"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "treed over",
+            "jij": "treedt over",
+            "hij": "treedt over",
+            "wij": "treden over",
+            "jullie": "treden over",
+            "zij": "treden over"
+          },
+          "past": {
+            "singular": "trad over",
+            "plural": "traden over"
+          },
+          "pastParticiple": "overtreden",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -257,24 +251,22 @@
       "forms": {
         "verb": {
           "infinitive": "overtreffen",
-          "present": [
-            "ik tref over",
-            "jij treft over",
-            "hij/zij/het treft over",
-            "wii treffen over",
-            "jullie treffen over",
-            "zij treffen over"
-          ],
-          "past": [
-            "ik trof over",
-            "jij trof over",
-            "hij/zij/het trof over",
-            "wii troffen over",
-            "jullie troffen over",
-            "zij troffen over"
-          ],
-          "perfect": "ik heb overtroffen",
-          "participle": "overtroffen"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "tref over",
+            "jij": "treft over",
+            "hij": "treft over",
+            "wij": "treffen over",
+            "jullie": "treffen over",
+            "zij": "treffen over"
+          },
+          "past": {
+            "singular": "trof over",
+            "plural": "troffen over"
+          },
+          "pastParticiple": "overtroffen",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -373,24 +365,22 @@
       "forms": {
         "verb": {
           "infinitive": "overzetten",
-          "present": [
-            "ik zet over",
-            "jij zet over",
-            "hij/zij/het zet over",
-            "wii zetten over",
-            "jullie zetten over",
-            "zij zetten over"
-          ],
-          "past": [
-            "ik zette over",
-            "jij zette over",
-            "hij/zij/het zette over",
-            "wii zetten over",
-            "jullie zetten over",
-            "zij zetten over"
-          ],
-          "perfect": "ik heb overgezet",
-          "participle": "overgezet"
+          "isSeparable": true,
+          "prefix": "over",
+          "present": {
+            "ik": "zet over",
+            "jij": "zet over",
+            "hij": "zet over",
+            "wij": "zetten over",
+            "jullie": "zetten over",
+            "zij": "zetten over"
+          },
+          "past": {
+            "singular": "zette over",
+            "plural": "zetten over"
+          },
+          "pastParticiple": "overgezet",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [

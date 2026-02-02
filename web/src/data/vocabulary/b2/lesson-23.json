@@ -15,24 +15,21 @@
       "forms": {
         "verb": {
           "infinitive": "sprokkelen",
-          "present": [
-            "ik sprokkel",
-            "jij sprokkelt",
-            "hij/zij/het sprokkelt",
-            "wii sprokkelen",
-            "jullie sprokkelen",
-            "zij sprokkelen"
-          ],
-          "past": [
-            "ik sprokkelde",
-            "jij sprokkelde",
-            "hij/zij/het sprokkelde",
-            "wii sprokkelden",
-            "jullie sprokkelden",
-            "zij sprokkelden"
-          ],
-          "perfect": "ik heb gesprokkeld",
-          "participle": "gesprokkeld"
+          "isSeparable": false,
+          "present": {
+            "ik": "sprokkel",
+            "jij": "sprokkelt",
+            "hij": "sprokkelt",
+            "wij": "sprokkelen",
+            "jullie": "sprokkelen",
+            "zij": "sprokkelen"
+          },
+          "past": {
+            "singular": "sprokkelde",
+            "plural": "sprokkelden"
+          },
+          "pastParticiple": "gesprokkeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -95,24 +92,22 @@
       "forms": {
         "verb": {
           "infinitive": "staan voor",
-          "present": [
-            "ik sta voor",
-            "jij staat voor",
-            "hij/zij/het staat voor",
-            "wii staan voor",
-            "jullie staan voor",
-            "zij staan voor"
-          ],
-          "past": [
-            "ik stond voor",
-            "jij stond voor",
-            "hij/zij/het stond voor",
-            "wii stonden voor",
-            "jullie stonden voor",
-            "zij stonden voor"
-          ],
-          "perfect": "ik heb voor gestaan",
-          "participle": "voor gestaan"
+          "isSeparable": true,
+          "prefix": "voor",
+          "present": {
+            "ik": "sta voor",
+            "jij": "staat voor",
+            "hij": "staat voor",
+            "wij": "staan voor",
+            "jullie": "staan voor",
+            "zij": "staan voor"
+          },
+          "past": {
+            "singular": "stond voor",
+            "plural": "stonden voor"
+          },
+          "pastParticiple": "voorgestaan",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -397,24 +392,22 @@
       "forms": {
         "verb": {
           "infinitive": "stilleggen",
-          "present": [
-            "ik leg stil",
-            "jij legt stil",
-            "hij/zij/het legt stil",
-            "wii leggen stil",
-            "jullie leggen stil",
-            "zij leggen stil"
-          ],
-          "past": [
-            "ik legde stil",
-            "jij legde stil",
-            "hij/zij/het legde stil",
-            "wii legden stil",
-            "jullie legden stil",
-            "zij legden stil"
-          ],
-          "perfect": "ik heb stilgelegd",
-          "participle": "stilgelegd"
+          "isSeparable": true,
+          "prefix": "stil",
+          "present": {
+            "ik": "leg stil",
+            "jij": "legt stil",
+            "hij": "legt stil",
+            "wij": "leggen stil",
+            "jullie": "leggen stil",
+            "zij": "leggen stil"
+          },
+          "past": {
+            "singular": "legde stil",
+            "plural": "legden stil"
+          },
+          "pastParticiple": "stilgelegd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -445,24 +438,22 @@
       "forms": {
         "verb": {
           "infinitive": "stellen op",
-          "present": [
-            "ik stel op",
-            "jij stelt op",
-            "hij/zij/het stelt op",
-            "wii stellen op",
-            "jullie stellen op",
-            "zij stellen op"
-          ],
-          "past": [
-            "ik stelde op",
-            "jij stelde op",
-            "hij/zij/het stelde op",
-            "wii stelden op",
-            "jullie stelden op",
-            "zij stelden op"
-          ],
-          "perfect": "ik heb opgesteld",
-          "participle": "opgesteld"
+          "isSeparable": true,
+          "prefix": "op",
+          "present": {
+            "ik": "stel op",
+            "jij": "stelt op",
+            "hij": "stelt op",
+            "wij": "stellen op",
+            "jullie": "stellen op",
+            "zij": "stellen op"
+          },
+          "past": {
+            "singular": "stelde op",
+            "plural": "stelden op"
+          },
+          "pastParticiple": "opgesteld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -591,24 +582,22 @@
       "forms": {
         "verb": {
           "infinitive": "stopzetten",
-          "present": [
-            "ik zet stop",
-            "jij zet stop",
-            "hij/zij/het zet stop",
-            "wii zetten stop",
-            "jullie zetten stop",
-            "zij zetten stop"
-          ],
-          "past": [
-            "ik zette stop",
-            "jij zette stop",
-            "hij/zij/het zette stop",
-            "wii zetten stop",
-            "jullie zetten stop",
-            "zij zetten stop"
-          ],
-          "perfect": "ik heb stopgezet",
-          "participle": "stopgezet"
+          "isSeparable": true,
+          "prefix": "stop",
+          "present": {
+            "ik": "zet stop",
+            "jij": "zet stop",
+            "hij": "zet stop",
+            "wij": "zetten stop",
+            "jullie": "zetten stop",
+            "zij": "zetten stop"
+          },
+          "past": {
+            "singular": "zette stop",
+            "plural": "zetten stop"
+          },
+          "pastParticiple": "stopgezet",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -999,24 +988,21 @@
       "forms": {
         "verb": {
           "infinitive": "struikelen",
-          "present": [
-            "ik struikel",
-            "jij struikelt",
-            "hij/zij/het struikelt",
-            "wii struikelen",
-            "jullie struikelen",
-            "zij struikelen"
-          ],
-          "past": [
-            "ik struikelde",
-            "jij struikelde",
-            "hij/zij/het struikelde",
-            "wii struikelden",
-            "jullie struikelden",
-            "zij struikelden"
-          ],
-          "perfect": "ik heb gestruikeld",
-          "participle": "gestruikeld"
+          "isSeparable": false,
+          "present": {
+            "ik": "struikel",
+            "jij": "struikelt",
+            "hij": "struikelt",
+            "wij": "struikelen",
+            "jullie": "struikelen",
+            "zij": "struikelen"
+          },
+          "past": {
+            "singular": "struikelde",
+            "plural": "struikelden"
+          },
+          "pastParticiple": "gestruikeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1047,24 +1033,21 @@
       "forms": {
         "verb": {
           "infinitive": "suggereren",
-          "present": [
-            "ik suggeer",
-            "jij suggereert",
-            "hij/zij/het suggereert",
-            "wii suggereren",
-            "jullie suggereren",
-            "zij suggereren"
-          ],
-          "past": [
-            "ik suggeerde",
-            "jij suggereerde",
-            "hij/zij/het suggereerde",
-            "wii suggeerden",
-            "jullie suggeerden",
-            "zij suggeerden"
-          ],
-          "perfect": "ik heb gesuggereerd",
-          "participle": "gesuggereerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "suggereer",
+            "jij": "suggereert",
+            "hij": "suggereert",
+            "wij": "suggereren",
+            "jullie": "suggereren",
+            "zij": "suggereren"
+          },
+          "past": {
+            "singular": "suggereerde",
+            "plural": "suggereerden"
+          },
+          "pastParticiple": "gesuggereerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [

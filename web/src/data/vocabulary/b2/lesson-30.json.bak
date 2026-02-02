@@ -1,4 +1,8 @@
 {
+  "id": "lB230",
+  "level": "B2",
+  "lessonNumber": 30,
+  "totalWords": 55,
   "words": [
     {
       "id": 5604,
@@ -8,13 +12,9 @@
         "english": "wonder, amazement"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "verwondering",
-          "plural": "verwonderingen"
-        }
-      },
+      "forms": [
+        "verwonderingen"
+      ],
       "level": "B2",
       "examples": [
         "Met verwondering keek ze naar de sterren.",
@@ -41,13 +41,9 @@
         "english": "injury, wound"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "verwonding",
-          "plural": "verwondingen"
-        }
-      },
+      "forms": [
+        "verwondingen"
+      ],
       "level": "B2",
       "examples": [
         "Hij liep een verwonding op bij het sporten.",
@@ -304,13 +300,9 @@
         "english": "dirt, filth"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "viezigheid",
-          "plural": "viezigheden"
-        }
-      },
+      "forms": [
+        "viezigheden"
+      ],
       "level": "B2",
       "examples": [
         "Er was viezigheid op de vloer.",
@@ -372,13 +364,9 @@
         "english": "fingernail"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "vingernagel",
-          "plural": "vingernagels"
-        }
-      },
+      "forms": [
+        "vingernagels"
+      ],
       "level": "B2",
       "examples": [
         "Ik lak mijn vingernagels.",
@@ -405,13 +393,9 @@
         "english": "business card"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "visitekaart",
-          "plural": "visitekaarten"
-        }
-      },
+      "forms": [
+        "visitekaarten"
+      ],
       "level": "B2",
       "examples": [
         "Ruil visitekaarten uit.",
@@ -438,13 +422,9 @@
         "english": "vitality, energy"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "vitaliteit",
-          "plural": "vitaliteiten"
-        }
-      },
+      "forms": [
+        "vitaliteiten"
+      ],
       "level": "B2",
       "examples": [
         "Zij heeft veel vitaliteit.",
@@ -471,25 +451,51 @@
         "english": "to flare up, to burst into flames"
       },
       "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "vlamvatten",
-          "isSeparable": false,
-          "present": {
-            "ik": "vat vlam",
-            "jij": "vat vlam",
-            "hij": "vat vlam",
-            "wij": "vatten vlam",
-            "jullie": "vatten vlam",
-            "zij": "vatten vlam"
-          },
-          "past": {
-            "singular": "vatte vlam",
-            "plural": "vlamvatten"
-          },
-          "pastParticiple": "vlamvatte",
-          "pastParticipleAuxiliary": "zijn"
-        }
+      "forms": [
+        "vat vlam",
+        "vatte vlam",
+        "vlamvatte"
+      ],
+      "level": "B2",
+      "conjugations": {
+        "present": [
+          "vat vlam",
+          "vat vlam",
+          "vat vlam",
+          "vatten vlam",
+          "vatten vlam",
+          "vatten vlam"
+        ],
+        "past": "vatte vlam, vatte vlam, vatte vlam, vlamvatten, vlamvatten, vlamvatten",
+        "perfect": [
+          "ben vlamvatte",
+          "bent vlamvatte",
+          "is vlamvatte",
+          "zijn vlamvatte",
+          "zijn vlamvatte",
+          "zijn vlamvatte"
+        ],
+        "future": [
+          "zal vlamvatten",
+          "zult vlamvatten",
+          "zult vlamvatten",
+          "zullen vlamvatten",
+          "zullen vlamvatten",
+          "zullen vlamvatten"
+        ],
+        "conditional": [
+          "zou vlamvatten",
+          "zou vlamvatten",
+          "zou vlamvatten",
+          "zouden vlamvatten",
+          "zouden vlamvatten",
+          "zouden vlamvatten"
+        ],
+        "imperative": [
+          "vat vlam",
+          "vat vlam",
+          "vatten vlam"
+        ]
       },
       "examples": [
         "Hij vatte vlam van woede.",
@@ -551,13 +557,9 @@
         "english": "refugee"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "vluchteling",
-          "plural": "vluchtelingen"
-        }
-      },
+      "forms": [
+        "vluchtelingen"
+      ],
       "level": "B2",
       "examples": [
         "De vluchtelingen kwamen aan.",
@@ -584,13 +586,9 @@
         "english": "fluid intake, hydration"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "vochtinname",
-          "plural": "vochtinnames"
-        }
-      },
+      "forms": [
+        "vochtinnames"
+      ],
       "level": "B2",
       "examples": [
         "Zorg voor genoeg vochtinname.",
@@ -617,13 +615,9 @@
         "english": "footprint"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "voetafdruk",
-          "plural": "voetafdrukken"
-        }
-      },
+      "forms": [
+        "voetafdrukken"
+      ],
       "level": "B2",
       "examples": [
         "Er waren voetafdrukken in het zand.",
@@ -650,25 +644,58 @@
         "english": "to be full, crowded"
       },
       "partOfSpeech": "phrasal verb",
-      "forms": {
-        "verb": {
-          "infinitive": "vol zitten",
-          "isSeparable": false,
-          "present": {
-            "ik": "zit vol",
-            "jij": "zit vol",
-            "hij": "zit vol",
-            "wij": "zitten vol",
-            "jullie": "zitten vol",
-            "zij": "zitten vol"
-          },
-          "past": {
-            "singular": "zat vol",
-            "plural": "zaten vol"
-          },
-          "pastParticiple": "volgezeten",
-          "pastParticipleAuxiliary": "hebben"
-        }
+      "forms": [
+        "zit vol",
+        "zat vol",
+        "volgezeten"
+      ],
+      "level": "B2",
+      "conjugations": {
+        "present": [
+          "zit vol",
+          "zit vol",
+          "zit vol",
+          "zitten vol",
+          "zitten vol",
+          "zitten vol"
+        ],
+        "past": [
+          "zat vol",
+          "zat vol",
+          "zat vol",
+          "zaten vol",
+          "zaten vol",
+          "zaten vol"
+        ],
+        "perfect": [
+          "heb volgezeten",
+          "hebt volgezeten",
+          "heeft volgezeten",
+          "hebben volgezeten",
+          "hebben volgezeten",
+          "hebben volgezeten"
+        ],
+        "future": [
+          "zal volzitten",
+          "zult volzitten",
+          "zult volzitten",
+          "zullen volzitten",
+          "zullen volzitten",
+          "zullen volzitten"
+        ],
+        "conditional": [
+          "zou volzitten",
+          "zou volzitten",
+          "zou volzitten",
+          "zouden volzitten",
+          "zouden volzitten",
+          "zouden volzitten"
+        ],
+        "imperative": [
+          "zit vol",
+          "zit vol",
+          "zitten vol"
+        ]
       },
       "examples": [
         "De bus zit vol.",
@@ -695,26 +722,58 @@
         "english": "to accomplish, to fulfill"
       },
       "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "volbrengen",
-          "isSeparable": true,
-          "prefix": "vol",
-          "present": {
-            "ik": "breng vol",
-            "jij": "brengt vol",
-            "hij": "brengt vol",
-            "wij": "brengen vol",
-            "jullie": "brengen vol",
-            "zij": "brengen vol"
-          },
-          "past": {
-            "singular": "bracht vol",
-            "plural": "brachten vol"
-          },
-          "pastParticiple": "volbracht",
-          "pastParticipleAuxiliary": "hebben"
-        }
+      "forms": [
+        "brengt vol",
+        "bracht vol",
+        "volbracht"
+      ],
+      "level": "B2",
+      "conjugations": {
+        "present": [
+          "volbreng",
+          "volbrengt",
+          "volbrengt",
+          "volbrengen",
+          "volbrengen",
+          "volbrengen"
+        ],
+        "past": [
+          "volbracht",
+          "volbracht",
+          "volbracht",
+          "volbrachten",
+          "volbrachten",
+          "volbrachten"
+        ],
+        "perfect": [
+          "heb volbracht",
+          "hebt volbracht",
+          "heeft volbracht",
+          "hebben volbracht",
+          "hebben volbracht",
+          "hebben volbracht"
+        ],
+        "future": [
+          "zal volbrengen",
+          "zult volbrengen",
+          "zult volbrengen",
+          "zullen volbrengen",
+          "zullen volbrengen",
+          "zullen volbrengen"
+        ],
+        "conditional": [
+          "zou volbrengen",
+          "zou volbrengen",
+          "zou volbrengen",
+          "zouden volbrengen",
+          "zouden volbrengen",
+          "zouden volbrengen"
+        ],
+        "imperative": [
+          "volbreng",
+          "volbrengt",
+          "volbrengen"
+        ]
       },
       "examples": [
         "Hij volbracht zijn taken.",
@@ -741,25 +800,58 @@
         "english": "to comply with, to meet"
       },
       "partOfSpeech": "phrasal verb",
-      "forms": {
-        "verb": {
-          "infinitive": "voldoen aan",
-          "isSeparable": false,
-          "present": {
-            "ik": "voldoe aan",
-            "jij": "voldoet aan",
-            "hij": "voldoet aan",
-            "wij": "voldoen aan",
-            "jullie": "voldoen aan",
-            "zij": "voldoen aan"
-          },
-          "past": {
-            "singular": "voldeed aan",
-            "plural": "voldeden aan"
-          },
-          "pastParticiple": "volgedaan aan",
-          "pastParticipleAuxiliary": "hebben"
-        }
+      "forms": [
+        "voldoet aan",
+        "voldeed aan",
+        "volgedaan aan"
+      ],
+      "level": "B2",
+      "conjugations": {
+        "present": [
+          "voldoe aan",
+          "voldoet aan",
+          "voldoet aan",
+          "voldoen aan",
+          "voldoen aan",
+          "voldoen aan"
+        ],
+        "past": [
+          "voldeed aan",
+          "voldeed aan",
+          "voldeed aan",
+          "voldeden aan",
+          "voldeden aan",
+          "voldeden aan"
+        ],
+        "perfect": [
+          "heb volgedaan aan",
+          "hebt volgedaan aan",
+          "heeft volgedaan aan",
+          "hebben volgedaan aan",
+          "hebben volgedaan aan",
+          "hebben volgedaan aan"
+        ],
+        "future": [
+          "zal voldoen aan",
+          "zult voldoen aan",
+          "zult voldoen aan",
+          "zullen voldoen aan",
+          "zullen voldoen aan",
+          "zullen voldoen aan"
+        ],
+        "conditional": [
+          "zou voldoen aan",
+          "zou voldoen aan",
+          "zou voldoen aan",
+          "zouden voldoen aan",
+          "zouden voldoen aan",
+          "zouden voldoen aan"
+        ],
+        "imperative": [
+          "voldoe aan",
+          "voldoet aan",
+          "voldoen aan"
+        ]
       },
       "examples": [
         "Het product voldoet aan de eisen.",
@@ -786,13 +878,9 @@
         "english": "satisfaction, fulfillment"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "voldoening",
-          "plural": "voldoeningen"
-        }
-      },
+      "forms": [
+        "voldoeningen"
+      ],
       "level": "B2",
       "examples": [
         "Hij kreeg voldoening.",
@@ -819,6 +907,7 @@
         "english": "in my opinion, as far as I'm concerned"
       },
       "partOfSpeech": "adverbial phrase",
+      "forms": [],
       "level": "B2",
       "examples": [
         "Volgens mij is het juist.",
@@ -880,13 +969,9 @@
         "english": "genocide"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "volkenmoord",
-          "plural": "volkenmoorden"
-        }
-      },
+      "forms": [
+        "volkenmoorden"
+      ],
       "level": "B2",
       "examples": [
         "De volkenmoord werd veroordeeld.",
@@ -913,13 +998,9 @@
         "english": "peoples' rights, indigenous rights"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "volkenrecht",
-          "plural": "volkenrechten"
-        }
-      },
+      "forms": [
+        "volkenrechten"
+      ],
       "level": "B2",
       "examples": [
         "De volkenrechten worden beschermd.",
@@ -946,25 +1027,58 @@
         "english": "to complete, to finish"
       },
       "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "voltooien",
-          "isSeparable": false,
-          "present": {
-            "ik": "voltooi",
-            "jij": "voltooid",
-            "hij": "voltooid",
-            "wij": "voltooien",
-            "jullie": "voltooien",
-            "zij": "voltooien"
-          },
-          "past": {
-            "singular": "voltooidde",
-            "plural": "voltooidden"
-          },
-          "pastParticiple": "voltooid",
-          "pastParticipleAuxiliary": "hebben"
-        }
+      "forms": [
+        "tooid",
+        "toode",
+        "voltooid"
+      ],
+      "level": "B2",
+      "conjugations": {
+        "present": [
+          "voltooi",
+          "voltooid",
+          "voltooid",
+          "voltooien",
+          "voltooien",
+          "voltooien"
+        ],
+        "past": [
+          "voltooidde",
+          "voltooidde",
+          "voltooidde",
+          "voltooidden",
+          "voltooidden",
+          "voltooidden"
+        ],
+        "perfect": [
+          "heb voltooid",
+          "hebt voltooid",
+          "heeft voltooid",
+          "hebben voltooid",
+          "hebben voltooid",
+          "hebben voltooid"
+        ],
+        "future": [
+          "zal voltooien",
+          "zult voltooien",
+          "zult voltooien",
+          "zullen voltooien",
+          "zullen voltooien",
+          "zullen voltooien"
+        ],
+        "conditional": [
+          "zou voltooien",
+          "zou voltooien",
+          "zou voltooien",
+          "zouden voltooien",
+          "zouden voltooien",
+          "zouden voltooien"
+        ],
+        "imperative": [
+          "voltooi",
+          "voltooid",
+          "voltooien"
+        ]
       },
       "examples": [
         "Het project is voltooid.",
@@ -1026,6 +1140,7 @@
         "english": "as far as, insofar as"
       },
       "partOfSpeech": "adverbial phrase",
+      "forms": [],
       "level": "B2",
       "examples": [
         "Voor zover ik weet.",
@@ -1087,6 +1202,7 @@
         "english": "so far, as yet"
       },
       "partOfSpeech": "adverb",
+      "forms": [],
       "level": "B2",
       "examples": [
         "Vooralsnog is alles goed.",
@@ -1113,13 +1229,9 @@
         "english": "reservation, condition"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "voorbehoud",
-          "plural": "voorbehouden"
-        }
-      },
+      "forms": [
+        "voorbehouden"
+      ],
       "level": "B2",
       "examples": [
         "Met voorbehoud ga ik akkoord.",
@@ -1146,26 +1258,58 @@
         "english": "to propose, to nominate"
       },
       "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "voordragen",
-          "isSeparable": true,
-          "prefix": "voor",
-          "present": {
-            "ik": "draag voor",
-            "jij": "draagt voor",
-            "hij": "draagt voor",
-            "wij": "dragen voor",
-            "jullie": "dragen voor",
-            "zij": "dragen voor"
-          },
-          "past": {
-            "singular": "droeg voor",
-            "plural": "droegen voor"
-          },
-          "pastParticiple": "voorgedragen",
-          "pastParticipleAuxiliary": "hebben"
-        }
+      "forms": [
+        "draagt voor",
+        "droeg voor",
+        "voorgedragen"
+      ],
+      "level": "B2",
+      "conjugations": {
+        "present": [
+          "draag voor",
+          "draagt voor",
+          "draagt voor",
+          "dragen voor",
+          "dragen voor",
+          "dragen voor"
+        ],
+        "past": [
+          "droeg voor",
+          "droeg voor",
+          "droeg voor",
+          "droegen voor",
+          "droegen voor",
+          "droegen voor"
+        ],
+        "perfect": [
+          "heb voorgedragen",
+          "hebt voorgedragen",
+          "heeft voorgedragen",
+          "hebben voorgedragen",
+          "hebben voorgedragen",
+          "hebben voorgedragen"
+        ],
+        "future": [
+          "zal voordragen",
+          "zult voordragen",
+          "zult voordragen",
+          "zullen voordragen",
+          "zullen voordragen",
+          "zullen voordragen"
+        ],
+        "conditional": [
+          "zou voordragen",
+          "zou voordragen",
+          "zou voordragen",
+          "zouden voordragen",
+          "zouden voordragen",
+          "zouden voordragen"
+        ],
+        "imperative": [
+          "draag voor",
+          "draagt voor",
+          "dragen voor"
+        ]
       },
       "examples": [
         "Hij droeg het voorstel voor.",
@@ -1192,13 +1336,9 @@
         "english": "predecessor"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "voorganger",
-          "plural": "voorgangers"
-        }
-      },
+      "forms": [
+        "voorgangers"
+      ],
       "level": "B2",
       "examples": [
         "Mijn voorganger deed goed werk.",
@@ -1225,13 +1365,9 @@
         "english": "appetizer, starter"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "voorgerecht",
-          "plural": "voorgerechten"
-        }
-      },
+      "forms": [
+        "voorgerechten"
+      ],
       "level": "B2",
       "examples": [
         "Ik neem een voorgerecht.",
@@ -1258,13 +1394,9 @@
         "english": "premonition, foreboding"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "voorgevoel",
-          "plural": "voorgevoelens"
-        }
-      },
+      "forms": [
+        "voorgevoelens"
+      ],
       "level": "B2",
       "examples": [
         "Ik had een slecht voorgevoel.",
@@ -1326,26 +1458,58 @@
         "english": "to inform, to educate"
       },
       "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "voorlichten",
-          "isSeparable": true,
-          "prefix": "voor",
-          "present": {
-            "ik": "licht voor",
-            "jij": "licht voor",
-            "hij": "licht voor",
-            "wij": "lichten voor",
-            "jullie": "lichten voor",
-            "zij": "lichten voor"
-          },
-          "past": {
-            "singular": "lichte voor",
-            "plural": "lichtten voor"
-          },
-          "pastParticiple": "voorlicht",
-          "pastParticipleAuxiliary": "hebben"
-        }
+      "forms": [
+        "licht voor",
+        "lichte voor",
+        "voorlicht"
+      ],
+      "level": "B2",
+      "conjugations": {
+        "present": [
+          "licht voor",
+          "licht voor",
+          "licht voor",
+          "lichten voor",
+          "lichten voor",
+          "lichten voor"
+        ],
+        "past": [
+          "lichte voor",
+          "lichte voor",
+          "lichte voor",
+          "lichtten voor",
+          "lichtten voor",
+          "lichtten voor"
+        ],
+        "perfect": [
+          "heb voorlicht",
+          "hebt voorlicht",
+          "heeft voorlicht",
+          "hebben voorlicht",
+          "hebben voorlicht",
+          "hebben voorlicht"
+        ],
+        "future": [
+          "zal voorlichten",
+          "zult voorlichten",
+          "zult voorlichten",
+          "zullen voorlichten",
+          "zullen voorlichten",
+          "zullen voorlichten"
+        ],
+        "conditional": [
+          "zou voorlichten",
+          "zou voorlichten",
+          "zou voorlichten",
+          "zouden voorlichten",
+          "zouden voorlichten",
+          "zouden voorlichten"
+        ],
+        "imperative": [
+          "licht voor",
+          "licht voor",
+          "lichten voor"
+        ]
       },
       "examples": [
         "De organisatie licht voor.",
@@ -1372,13 +1536,9 @@
         "english": "prejudice, bias"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "vooroordel",
-          "plural": "vooroordelen"
-        }
-      },
+      "forms": [
+        "vooroordelen"
+      ],
       "level": "B2",
       "examples": [
         "Hij heeft een vooroordel.",
@@ -1405,13 +1565,9 @@
         "english": "advantage, lead"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "voorsprong",
-          "plural": "voorsprongen"
-        }
-      },
+      "forms": [
+        "voorsprongen"
+      ],
       "level": "B2",
       "examples": [
         "Zij hebben een voorsprong.",
@@ -1438,15 +1594,10 @@
         "english": "continued, extended"
       },
       "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "voortgezet",
-          "withDe": "voortgezette",
-          "withHet": "voortgezet",
-          "comparative": "voortgezetter",
-          "superlative": "voortgezetst"
-        }
-      },
+      "forms": [
+        "voortgezetter",
+        "voortgezetst"
+      ],
       "level": "B2",
       "examples": [
         "Het voortgezet beleid.",
@@ -1473,15 +1624,10 @@
         "english": "premature, early"
       },
       "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "voortijdig",
-          "withDe": "voortijdige",
-          "withHet": "voortijdig",
-          "comparative": "voortijdiger",
-          "superlative": "voortijdigst"
-        }
-      },
+      "forms": [
+        "voortijdiger",
+        "voortijdigst"
+      ],
       "level": "B2",
       "examples": [
         "Hij stierf voortijdig.",
@@ -1508,26 +1654,58 @@
         "english": "to arise, to originate"
       },
       "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "voortkomen",
-          "isSeparable": true,
-          "prefix": "voort",
-          "present": {
-            "ik": "kom voort",
-            "jij": "komt voort",
-            "hij": "komt voort",
-            "wij": "komen voort",
-            "jullie": "komen voort",
-            "zij": "komen voort"
-          },
-          "past": {
-            "singular": "kwam voort",
-            "plural": "kwamen voort"
-          },
-          "pastParticiple": "voortgekomen",
-          "pastParticipleAuxiliary": "zijn"
-        }
+      "forms": [
+        "komt voort",
+        "kwam voort",
+        "voortgekomen"
+      ],
+      "level": "B2",
+      "conjugations": {
+        "present": [
+          "kom voort",
+          "komt voort",
+          "komt voort",
+          "komen voort",
+          "komen voort",
+          "komen voort"
+        ],
+        "past": [
+          "kwam voort",
+          "kwam voort",
+          "kwam voort",
+          "kwamen voort",
+          "kwamen voort",
+          "kwamen voort"
+        ],
+        "perfect": [
+          "ben voortgekomen",
+          "bent voortgekomen",
+          "is voortgekomen",
+          "zijn voortgekomen",
+          "zijn voortgekomen",
+          "zijn voortgekomen"
+        ],
+        "future": [
+          "zal voortkomen",
+          "zult voortkomen",
+          "zult voortkomen",
+          "zullen voortkomen",
+          "zullen voortkomen",
+          "zullen voortkomen"
+        ],
+        "conditional": [
+          "zou voortkomen",
+          "zou voortkomen",
+          "zou voortkomen",
+          "zouden voortkomen",
+          "zouden voortkomen",
+          "zouden voortkomen"
+        ],
+        "imperative": [
+          "kom voort",
+          "komt voort",
+          "komen voort"
+        ]
       },
       "examples": [
         "Het probleem kwam voort uit onzorgvuldigheid.",
@@ -1554,26 +1732,58 @@
         "english": "to continue, to extend"
       },
       "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "voortzetten",
-          "isSeparable": true,
-          "prefix": "voort",
-          "present": {
-            "ik": "zet voort",
-            "jij": "zet voort",
-            "hij": "zet voort",
-            "wij": "zetten voort",
-            "jullie": "zetten voort",
-            "zij": "zetten voort"
-          },
-          "past": {
-            "singular": "zette voort",
-            "plural": "zetten voort"
-          },
-          "pastParticiple": "voortgezet",
-          "pastParticipleAuxiliary": "hebben"
-        }
+      "forms": [
+        "zet voort",
+        "zette voort",
+        "voortgezet"
+      ],
+      "level": "B2",
+      "conjugations": {
+        "present": [
+          "zet voort",
+          "zet voort",
+          "zet voort",
+          "zetten voort",
+          "zetten voort",
+          "zetten voort"
+        ],
+        "past": [
+          "zette voort",
+          "zette voort",
+          "zette voort",
+          "zetten voort",
+          "zetten voort",
+          "zetten voort"
+        ],
+        "perfect": [
+          "heb voortgezet",
+          "hebt voortgezet",
+          "heeft voortgezet",
+          "hebben voortgezet",
+          "hebben voortgezet",
+          "hebben voortgezet"
+        ],
+        "future": [
+          "zal voortzetten",
+          "zult voortzetten",
+          "zult voortzetten",
+          "zullen voortzetten",
+          "zullen voortzetten",
+          "zullen voortzetten"
+        ],
+        "conditional": [
+          "zou voortzetten",
+          "zou voortzetten",
+          "zou voortzetten",
+          "zouden voortzetten",
+          "zouden voortzetten",
+          "zouden voortzetten"
+        ],
+        "imperative": [
+          "zet voort",
+          "zet voort",
+          "zetten voort"
+        ]
       },
       "examples": [
         "We zetten het gesprek voort.",
@@ -1600,13 +1810,9 @@
         "english": "premise, assumption"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "voorzaat",
-          "plural": "voorzaatsen"
-        }
-      },
+      "forms": [
+        "voorzaatsen"
+      ],
       "level": "B2",
       "examples": [
         "Het is een onjuiste voorzaat.",
@@ -1633,13 +1839,9 @@
         "english": "design, styling"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "vormgeving",
-          "plural": "vormgevingen"
-        }
-      },
+      "forms": [
+        "vormgevingen"
+      ],
       "level": "B2",
       "examples": [
         "De vormgeving is modern.",
@@ -1666,13 +1868,9 @@
         "english": "truck, lorry"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "vrachtwagen",
-          "plural": "vrachtwagens"
-        }
-      },
+      "forms": [
+        "vrachtwagens"
+      ],
       "level": "B2",
       "examples": [
         "De vrachtwagen levert goederen.",
@@ -1699,13 +1897,9 @@
         "english": "foreigner, alien"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "vreemdeling",
-          "plural": "vreemdelingen"
-        }
-      },
+      "forms": [
+        "vreemdelingen"
+      ],
       "level": "B2",
       "examples": [
         "De vreemdeling kwam aan.",
@@ -1732,26 +1926,58 @@
         "english": "to cheat, to have an affair"
       },
       "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "vreemdgaan",
-          "isSeparable": true,
-          "prefix": "vreemd",
-          "present": {
-            "ik": "ga vreemd",
-            "jij": "gaat vreemd",
-            "hij": "gaat vreemd",
-            "wij": "gaan vreemd",
-            "jullie": "gaan vreemd",
-            "zij": "gaan vreemd"
-          },
-          "past": {
-            "singular": "ging vreemd",
-            "plural": "gingen vreemd"
-          },
-          "pastParticiple": "vreemdgegaan",
-          "pastParticipleAuxiliary": "zijn"
-        }
+      "forms": [
+        "gaat vreemd",
+        "ging vreemd",
+        "vreemdgegaan"
+      ],
+      "level": "B2",
+      "conjugations": {
+        "present": [
+          "ga vreemd",
+          "gaat vreemd",
+          "gaat vreemd",
+          "gaan vreemd",
+          "gaan vreemd",
+          "gaan vreemd"
+        ],
+        "past": [
+          "ging vreemd",
+          "ging vreemd",
+          "ging vreemd",
+          "gingen vreemd",
+          "gingen vreemd",
+          "gingen vreemd"
+        ],
+        "perfect": [
+          "ben vreemdgegaan",
+          "bent vreemdgegaan",
+          "is vreemdgegaan",
+          "zijn vreemdgegaan",
+          "zijn vreemdgegaan",
+          "zijn vreemdgegaan"
+        ],
+        "future": [
+          "zal vreemdgaan",
+          "zult vreemdgaan",
+          "zult vreemdgaan",
+          "zullen vreemdgaan",
+          "zullen vreemdgaan",
+          "zullen vreemdgaan"
+        ],
+        "conditional": [
+          "zou vreemdgaan",
+          "zou vreemdgaan",
+          "zou vreemdgaan",
+          "zouden vreemdgaan",
+          "zouden vreemdgaan",
+          "zouden vreemdgaan"
+        ],
+        "imperative": [
+          "ga vreemd",
+          "gaat vreemd",
+          "gaan vreemd"
+        ]
       },
       "examples": [
         "Hij ging vreemd.",
@@ -1778,13 +2004,9 @@
         "english": "bonfire"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "het",
-          "singular": "vreugdevuur",
-          "plural": "vreugdevuren"
-        }
-      },
+      "forms": [
+        "vreugdevuren"
+      ],
       "level": "B2",
       "examples": [
         "Zij stoken het vreugdevuur.",
@@ -1811,13 +2033,9 @@
         "english": "friendship"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "vriendschap",
-          "plural": "vriendschappen"
-        }
-      },
+      "forms": [
+        "vriendschappen"
+      ],
       "level": "B2",
       "examples": [
         "De vriendschap is belangrijk.",
@@ -1844,26 +2062,58 @@
         "english": "to excuse, to justify"
       },
       "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "vrijpraten",
-          "isSeparable": true,
-          "prefix": "vrij",
-          "present": {
-            "ik": "praat vrij",
-            "jij": "praat vrij",
-            "hij": "praat vrij",
-            "wij": "praten vrij",
-            "jullie": "praten vrij",
-            "zij": "praten vrij"
-          },
-          "past": {
-            "singular": "praatte vrij",
-            "plural": "praatten vrij"
-          },
-          "pastParticiple": "vrijgepraat",
-          "pastParticipleAuxiliary": "hebben"
-        }
+      "forms": [
+        "praat vrij",
+        "praatte vrij",
+        "vrijgepraat"
+      ],
+      "level": "B2",
+      "conjugations": {
+        "present": [
+          "praat vrij",
+          "praat vrij",
+          "praat vrij",
+          "praten vrij",
+          "praten vrij",
+          "praten vrij"
+        ],
+        "past": [
+          "praatte vrij",
+          "praatte vrij",
+          "praatte vrij",
+          "praatten vrij",
+          "praatten vrij",
+          "praatten vrij"
+        ],
+        "perfect": [
+          "heb vrijgepraat",
+          "hebt vrijgepraat",
+          "heeft vrijgepraat",
+          "hebben vrijgepraat",
+          "hebben vrijgepraat",
+          "hebben vrijgepraat"
+        ],
+        "future": [
+          "zal vrijpraten",
+          "zult vrijpraten",
+          "zult vrijpraten",
+          "zullen vrijpraten",
+          "zullen vrijpraten",
+          "zullen vrijpraten"
+        ],
+        "conditional": [
+          "zou vrijpraten",
+          "zou vrijpraten",
+          "zou vrijpraten",
+          "zouden vrijpraten",
+          "zouden vrijpraten",
+          "zouden vrijpraten"
+        ],
+        "imperative": [
+          "praat vrij",
+          "praat vrij",
+          "praten vrij"
+        ]
       },
       "examples": [
         "Hij praat zich vrij.",
@@ -1890,26 +2140,58 @@
         "english": "to exempt, to release"
       },
       "partOfSpeech": "verb",
-      "forms": {
-        "verb": {
-          "infinitive": "vrijstellen",
-          "isSeparable": true,
-          "prefix": "vrij",
-          "present": {
-            "ik": "stel vrij",
-            "jij": "stelt vrij",
-            "hij": "stelt vrij",
-            "wij": "stellen vrij",
-            "jullie": "stellen vrij",
-            "zij": "stellen vrij"
-          },
-          "past": {
-            "singular": "stelde vrij",
-            "plural": "stelden vrij"
-          },
-          "pastParticiple": "vrijgesteld",
-          "pastParticipleAuxiliary": "hebben"
-        }
+      "forms": [
+        "stelt vrij",
+        "stelde vrij",
+        "vrijgesteld"
+      ],
+      "level": "B2",
+      "conjugations": {
+        "present": [
+          "stel vrij",
+          "stelt vrij",
+          "stelt vrij",
+          "stellen vrij",
+          "stellen vrij",
+          "stellen vrij"
+        ],
+        "past": [
+          "stelde vrij",
+          "stelde vrij",
+          "stelde vrij",
+          "stelden vrij",
+          "stelden vrij",
+          "stelden vrij"
+        ],
+        "perfect": [
+          "heb vrijgesteld",
+          "hebt vrijgesteld",
+          "heeft vrijgesteld",
+          "hebben vrijgesteld",
+          "hebben vrijgesteld",
+          "hebben vrijgesteld"
+        ],
+        "future": [
+          "zal vrijstellen",
+          "zult vrijstellen",
+          "zult vrijstellen",
+          "zullen vrijstellen",
+          "zullen vrijstellen",
+          "zullen vrijstellen"
+        ],
+        "conditional": [
+          "zou vrijstellen",
+          "zou vrijstellen",
+          "zou vrijstellen",
+          "zouden vrijstellen",
+          "zouden vrijstellen",
+          "zouden vrijstellen"
+        ],
+        "imperative": [
+          "stel vrij",
+          "stelt vrij",
+          "stellen vrij"
+        ]
       },
       "examples": [
         "Hij werd vrijgesteld.",
@@ -1936,15 +2218,10 @@
         "english": "female, feminine"
       },
       "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "vrouwelijk",
-          "withDe": "vrouwelijke",
-          "withHet": "vrouwelijk",
-          "comparative": "vrouwelijker",
-          "superlative": "vrouwelijkst"
-        }
-      },
+      "forms": [
+        "vrouwelijker",
+        "vrouwelijkst"
+      ],
       "level": "B2",
       "examples": [
         "Zij heeft een vrouwelijke stem.",
@@ -1971,15 +2248,10 @@
         "english": "fertile, productive"
       },
       "partOfSpeech": "adjective",
-      "forms": {
-        "adjective": {
-          "base": "vruchtbaar",
-          "withDe": "vruchtbare",
-          "withHet": "vruchtbaar",
-          "comparative": "vruchtbaarder",
-          "superlative": "vruchtbaarst"
-        }
-      },
+      "forms": [
+        "vruchtbaarder",
+        "vruchtbaarst"
+      ],
       "level": "B2",
       "examples": [
         "De grond is vruchtbaar.",
@@ -2006,13 +2278,9 @@
         "english": "garbage collector, dustman"
       },
       "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "vuilnisman",
-          "plural": "vuilnismannen"
-        }
-      },
+      "forms": [
+        "vuilnismannen"
+      ],
       "level": "B2",
       "examples": [
         "De vuilnisman komt morgen.",

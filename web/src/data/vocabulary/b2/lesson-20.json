@@ -177,24 +177,20 @@
       "forms": {
         "verb": {
           "infinitive": "passen bij",
-          "present": [
-            "ik pas bij",
-            "jij past bij",
-            "hij/zij/het past bij",
-            "wij passen bij",
-            "jullie passen bij",
-            "zij passen bij"
-          ],
-          "past": [
-            "ik paste bij",
-            "jij paste bij",
-            "hij/zij/het paste bij",
-            "wii pasten bij",
-            "jullie pasten bij",
-            "zij pasten bij"
-          ],
-          "perfect": "ik heb bijgepast",
-          "participle": "bijgepast"
+          "present": {
+            "ik": "pas bij",
+            "jij": "past bij",
+            "hij": "past bij",
+            "wij": "passen bij",
+            "jullie": "passen bij",
+            "zij": "passen bij"
+          },
+          "past": {
+            "singular": "paste bij",
+            "plural": "pasten bij"
+          },
+          "pastParticiple": "bijgepast",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -485,24 +481,22 @@
       "forms": {
         "verb": {
           "infinitive": "plaatsmaken",
-          "present": [
-            "ik maak plaats",
-            "jij maakt plaats",
-            "hij/zij/het maakt plaats",
-            "wij maken plaats",
-            "jullie maken plaats",
-            "zij maken plaats"
-          ],
-          "past": [
-            "ik maakte plaats",
-            "jij maakte plaats",
-            "hij/zij/het maakte plaats",
-            "wij maakten plaats",
-            "jullie maakten plaats",
-            "zij maakten plaats"
-          ],
-          "perfect": "ik heb plaatsgemaakt",
-          "participle": "plaatsgemaakt"
+          "isSeparable": true,
+          "prefix": "plaats",
+          "present": {
+            "ik": "maak plaats",
+            "jij": "maakt plaats",
+            "hij": "maakt plaats",
+            "wij": "maken plaats",
+            "jullie": "maken plaats",
+            "zij": "maken plaats"
+          },
+          "past": {
+            "singular": "maakte plaats",
+            "plural": "maakten plaats"
+          },
+          "pastParticiple": "plaatsgemaakt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -567,24 +561,22 @@
       "forms": {
         "verb": {
           "infinitive": "plat liggen",
-          "present": [
-            "ik lig plat",
-            "jij ligt plat",
-            "hij/zij/het ligt plat",
-            "wij liggen plat",
-            "jullie liggen plat",
-            "zij liggen plat"
-          ],
-          "past": [
-            "ik lag plat",
-            "jij lag plat",
-            "hij/zij/het lag plat",
-            "wi lagen plat",
-            "jullie lagen plat",
-            "zij lagen plat"
-          ],
-          "perfect": "ik heb platgelegen",
-          "participle": "platgelegen"
+          "isSeparable": true,
+          "prefix": "plat",
+          "present": {
+            "ik": "lig plat",
+            "jij": "ligt plat",
+            "hij": "ligt plat",
+            "wij": "liggen plat",
+            "jullie": "liggen plat",
+            "zij": "liggen plat"
+          },
+          "past": {
+            "singular": "lag plat",
+            "plural": "lagen plat"
+          },
+          "pastParticiple": "platgelegen",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -615,24 +607,22 @@
       "forms": {
         "verb": {
           "infinitive": "platgooien",
-          "present": [
-            "ik gooi plat",
-            "jij gooit plat",
-            "hij/zij/het gooit plat",
-            "wij gooien plat",
-            "jullie gooien plat",
-            "zij gooien plat"
-          ],
-          "past": [
-            "ik gooide plat",
-            "jij gooide plat",
-            "hij/zij/het gooide plat",
-            "wi gooiden plat",
-            "jullie gooiden plat",
-            "zij gooiden plat"
-          ],
-          "perfect": "ik heb platgegooid",
-          "participle": "platgegooid"
+          "isSeparable": true,
+          "prefix": "plat",
+          "present": {
+            "ik": "gooi plat",
+            "jij": "gooit plat",
+            "hij": "gooit plat",
+            "wij": "gooien plat",
+            "jullie": "gooien plat",
+            "zij": "gooien plat"
+          },
+          "past": {
+            "singular": "gooide plat",
+            "plural": "gooiden plat"
+          },
+          "pastParticiple": "platgegooid",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -663,24 +653,22 @@
       "forms": {
         "verb": {
           "infinitive": "platleggen",
-          "present": [
-            "ik leg plat",
-            "jij legt plat",
-            "hij/zij/het legt plat",
-            "wij leggen plat",
-            "jullie leggen plat",
-            "zij leggen plat"
-          ],
-          "past": [
-            "ik legde plat",
-            "jij legde plat",
-            "hij/zij/het legde plat",
-            "wij legden plat",
-            "jullie legden plat",
-            "zij legden plat"
-          ],
-          "perfect": "ik heb platgelegd",
-          "participle": "platgelegd"
+          "isSeparable": true,
+          "prefix": "plat",
+          "present": {
+            "ik": "leg plat",
+            "jij": "legt plat",
+            "hij": "legt plat",
+            "wij": "leggen plat",
+            "jullie": "leggen plat",
+            "zij": "leggen plat"
+          },
+          "past": {
+            "singular": "legde plat",
+            "plural": "legden plat"
+          },
+          "pastParticiple": "platgelegd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -969,24 +957,22 @@
       "forms": {
         "verb": {
           "infinitive": "prijsgeven",
-          "present": [
-            "ik geef prijs",
-            "jij geeft prijs",
-            "hij/zij/het geeft prijs",
-            "wij geven prijs",
-            "jullie geven prijs",
-            "zij geven prijs"
-          ],
-          "past": [
-            "ik gaf prijs",
-            "jij gaf prijs",
-            "hij/zij/het gaf prijs",
-            "wi gaven prijs",
-            "jullie gaven prijs",
-            "zij gaven prijs"
-          ],
-          "perfect": "ik heb prijsgegeven",
-          "participle": "prijsgegeven"
+          "isSeparable": true,
+          "prefix": "prijs",
+          "present": {
+            "ik": "geef prijs",
+            "jij": "geeft prijs",
+            "hij": "geeft prijs",
+            "wij": "geven prijs",
+            "jullie": "geven prijs",
+            "zij": "geven prijs"
+          },
+          "past": {
+            "singular": "gaf prijs",
+            "plural": "gaven prijs"
+          },
+          "pastParticiple": "prijsgegeven",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1183,24 +1169,21 @@
       "forms": {
         "verb": {
           "infinitive": "profileren",
-          "present": [
-            "ik profileer",
-            "jij profileert",
-            "hij/zij/het profileert",
-            "wij profileren",
-            "jullie profileren",
-            "zij profileren"
-          ],
-          "past": [
-            "ik profileerde",
-            "jij profileerde",
-            "hij/zij/het profileerde",
-            "wij profileerden",
-            "jullie profileerden",
-            "zij profileerden"
-          ],
-          "perfect": "ik heb geprofileerd",
-          "participle": "geprofileerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "profileer",
+            "jij": "profileert",
+            "hij": "profileert",
+            "wij": "profileren",
+            "jullie": "profileren",
+            "zij": "profileren"
+          },
+          "past": {
+            "singular": "profileerde",
+            "plural": "profileerden"
+          },
+          "pastParticiple": "geprofileerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1231,24 +1214,21 @@
       "forms": {
         "verb": {
           "infinitive": "projecteren",
-          "present": [
-            "ik projecteer",
-            "jij projecteert",
-            "hij/zij/het projecteert",
-            "wij projecteren",
-            "jullie projecteren",
-            "zij projecteren"
-          ],
-          "past": [
-            "ik projecteerde",
-            "jij projecteerde",
-            "hij/zij/het projecteerde",
-            "wij projecteerden",
-            "jullie projecteerden",
-            "zij projecteerden"
-          ],
-          "perfect": "ik heb geprojecteerd",
-          "participle": "geprojecteerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "projecteer",
+            "jij": "projecteert",
+            "hij": "projecteert",
+            "wij": "projecteren",
+            "jullie": "projecteren",
+            "zij": "projecteren"
+          },
+          "past": {
+            "singular": "projecteerde",
+            "plural": "projecteerden"
+          },
+          "pastParticiple": "geprojecteerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1311,24 +1291,21 @@
       "forms": {
         "verb": {
           "infinitive": "propageren",
-          "present": [
-            "ik propageer",
-            "jij propageert",
-            "hij/zij/het propageert",
-            "wij propageren",
-            "jullie propageren",
-            "zij propageren"
-          ],
-          "past": [
-            "ik propageerde",
-            "jij propageerde",
-            "hij/zij/het propageerde",
-            "wij propageerden",
-            "jullie propageerden",
-            "zij propageerden"
-          ],
-          "perfect": "ik heb gepropageerd",
-          "participle": "gepropageerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "propageer",
+            "jij": "propageert",
+            "hij": "propageert",
+            "wij": "propageren",
+            "jullie": "propageren",
+            "zij": "propageren"
+          },
+          "past": {
+            "singular": "propageerde",
+            "plural": "propageerden"
+          },
+          "pastParticiple": "gepropageerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
