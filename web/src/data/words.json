@@ -121022,12 +121022,12 @@
       "chinese": [
         "他今天早上很暴躁。",
         "别那么不高兴!"
+      ],
+      "english": [
+        "He is very grumpy this morning.",
+        "Don't be so grumpy!"
       ]
     },
-    "english": [
-      "He is very grumpy this morning.",
-      "Don't be so grumpy!"
-    ],
     "notes": "形容词",
     "difficulty": "B2"
   },
@@ -152259,10 +152259,15 @@
       "english": "continued, extended"
     },
     "partOfSpeech": "adjective",
-    "forms": [
-      "voortgezetter",
-      "voortgezetst"
-    ],
+    "forms": {
+      "adjective": {
+        "base": "voortgezet",
+        "withDe": "voortgezette",
+        "withHet": "voortgezet",
+        "comparative": "voortgezetter",
+        "superlative": "het voortgezetst"
+      }
+    },
     "level": "B2",
     "examples": [
       "Het voortgezet beleid.",
@@ -152289,10 +152294,15 @@
       "english": "premature, early"
     },
     "partOfSpeech": "adjective",
-    "forms": [
-      "voortijdiger",
-      "voortijdigst"
-    ],
+    "forms": {
+      "adjective": {
+        "base": "voortijdig",
+        "withDe": "voortijdige",
+        "withHet": "voortijdig",
+        "comparative": "voortijdiger",
+        "superlative": "voortijdigst"
+      }
+    },
     "level": "B2",
     "examples": [
       "Hij stierf voortijdig.",
@@ -152477,9 +152487,13 @@
       "english": "truck, lorry"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "vrachtwagens"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "vrachtwagen",
+        "plural": "vrachtwagens"
+      }
+    },
     "level": "B2",
     "examples": [
       "De vrachtwagen levert goederen.",
@@ -152506,9 +152520,13 @@
       "english": "foreigner, alien"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "vreemdelingen"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "vreemdeling",
+        "plural": "vreemdelingen"
+      }
+    },
     "level": "B2",
     "examples": [
       "De vreemdeling kwam aan.",
@@ -152581,9 +152599,13 @@
       "english": "bonfire"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "vreugdevuren"
-    ],
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "vreugdevuur",
+        "plural": "vreugdevuren"
+      }
+    },
     "level": "B2",
     "examples": [
       "Zij stoken het vreugdevuur.",
@@ -152610,9 +152632,13 @@
       "english": "friendship"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "vriendschappen"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "vriendschap",
+        "plural": "vriendschappen"
+      }
+    },
     "level": "B2",
     "examples": [
       "De vriendschap is belangrijk.",
@@ -152731,10 +152757,15 @@
       "english": "female, feminine"
     },
     "partOfSpeech": "adjective",
-    "forms": [
-      "vrouwelijker",
-      "vrouwelijkst"
-    ],
+    "forms": {
+      "adjective": {
+        "base": "vrouwelijk",
+        "withDe": "vrouwelijke",
+        "withHet": "vrouwelijk",
+        "comparative": "vrouwelijker",
+        "superlative": "vrouwelijkst"
+      }
+    },
     "level": "B2",
     "examples": [
       "Zij heeft een vrouwelijke stem.",
@@ -152761,10 +152792,15 @@
       "english": "fertile, productive"
     },
     "partOfSpeech": "adjective",
-    "forms": [
-      "vruchtbaarder",
-      "vruchtbaarst"
-    ],
+    "forms": {
+      "adjective": {
+        "base": "vruchtbaar",
+        "withDe": "vruchtbare",
+        "withHet": "vruchtbaar",
+        "comparative": "vruchtbaarder",
+        "superlative": "vruchtbaarst"
+      }
+    },
     "level": "B2",
     "examples": [
       "De grond is vruchtbaar.",
@@ -152791,9 +152827,13 @@
       "english": "garbage collector, dustman"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "vuilnismannen"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "vuilnisman",
+        "plural": "vuilnismannen"
+      }
+    },
     "level": "B2",
     "examples": [
       "De vuilnisman komt morgen.",
