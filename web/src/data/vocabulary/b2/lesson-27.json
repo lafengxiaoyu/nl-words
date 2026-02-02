@@ -449,30 +449,19 @@
           "isSeparable": true,
           "prefix": "vast",
           "infinitive": "vastpakken",
-          "present": [
-            "ik pak vast",
-            "jij pakt vast",
-            "hij/zij pakt vast",
-            "wij pakken vast",
-            "jullie pakken vast",
-            "zij pakken vast"
-          ],
-          "past": [
-            "ik pakte vast",
-            "jij pakte vast",
-            "hij/zij pakte vast",
-            "wij pakten vast",
-            "jullie pakten vast",
-            "zij pakten vast"
-          ],
-          "perfect": [
-            "heb vastgepakt",
-            "hebt vastgepakt",
-            "heeft vastgepakt",
-            "hebben vastgepakt",
-            "hebben vastgepakt",
-            "hebben vastgepakt"
-          ]
+          "present": {
+            "ik": "pak vast",
+            "jij": "pakt vast",
+            "hij": "pakt vast",
+            "wij": "pakken vast",
+            "jullie": "pakken vast",
+            "zij": "pakken vast"
+          },
+          "past": {
+            "singular": "pakte vast",
+            "plural": "pakten vast"
+          },
+          "pastParticiple": "vastgepakt"
         }
       },
       "examples": [
@@ -1123,30 +1112,19 @@
           "isSeparable": false,
           "prefix": "",
           "infinitive": "verbloemen",
-          "present": [
-            "ik bloem",
-            "jij bloemt",
-            "hij/zij bloemt",
-            "wij bloemen",
-            "jullie bloemen",
-            "zij bloemen"
-          ],
-          "past": [
-            "ik bloemde",
-            "jij bloemde",
-            "hij/zij bloemde",
-            "wij bloemden",
-            "jullie bloemden",
-            "zij bloemden"
-          ],
-          "perfect": [
-            "heb gebloemd",
-            "hebt gebloemd",
-            "heeft gebloemd",
-            "hebben gebloemd",
-            "hebben gebloemd",
-            "hebben gebloemd"
-          ]
+          "present": {
+            "ik": "bloem",
+            "jij": "bloemt",
+            "hij": "bloemt",
+            "wij": "bloemen",
+            "jullie": "bloemen",
+            "zij": "bloemen"
+          },
+          "past": {
+            "singular": "bloemde",
+            "plural": "bloemden"
+          },
+          "pastParticiple": "gebloemd"
         }
       },
       "examples": [

@@ -873,30 +873,19 @@
           "isSeparable": true,
           "prefix": "uit",
           "infinitive": "uitwisselen",
-          "present": [
-            "ik wissel uit",
-            "jij wisselt uit",
-            "hij/zij wisselt uit",
-            "wij wisselen uit",
-            "jullie wisselen uit",
-            "zij wisselen uit"
-          ],
-          "past": [
-            "ik wisselde uit",
-            "jij wisselde uit",
-            "hij/zij wisselde uit",
-            "wisselden uit",
-            "jullie wisselden uit",
-            "zij wisselden uit"
-          ],
-          "perfect": [
-            "heb uitgewisseld",
-            "hebt uitgewisseld",
-            "heeft uitgewisseld",
-            "hebben uitgewisseld",
-            "hebben uitgewisseld",
-            "hebben uitgewisseld"
-          ]
+          "present": {
+            "ik": "wissel uit",
+            "jij": "wisselt uit",
+            "hij": "wisselt uit",
+            "wij": "wisselen uit",
+            "jullie": "wisselen uit",
+            "zij": "wisselen uit"
+          },
+          "past": {
+            "singular": "wisselde uit",
+            "plural": "wisselden uit"
+          },
+          "pastParticiple": "uitgewisseld"
         }
       },
       "examples": [

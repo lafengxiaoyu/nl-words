@@ -128849,6 +128849,7 @@
     "partOfSpeech": "noun",
     "forms": {
       "noun": {
+        "article": "het",
         "singular": "laagseizoen",
         "plural": "laagseizoenen"
       }
@@ -146529,30 +146530,19 @@
         "isSeparable": true,
         "prefix": "uit",
         "infinitive": "uitwisselen",
-        "present": [
-          "ik wissel uit",
-          "jij wisselt uit",
-          "hij/zij wisselt uit",
-          "wij wisselen uit",
-          "jullie wisselen uit",
-          "zij wisselen uit"
-        ],
-        "past": [
-          "ik wisselde uit",
-          "jij wisselde uit",
-          "hij/zij wisselde uit",
-          "wisselden uit",
-          "jullie wisselden uit",
-          "zij wisselden uit"
-        ],
-        "perfect": [
-          "heb uitgewisseld",
-          "hebt uitgewisseld",
-          "heeft uitgewisseld",
-          "hebben uitgewisseld",
-          "hebben uitgewisseld",
-          "hebben uitgewisseld"
-        ]
+        "present": {
+          "ik": "wissel uit",
+          "jij": "wisselt uit",
+          "hij": "wisselt uit",
+          "wij": "wisselen uit",
+          "jullie": "wisselen uit",
+          "zij": "wisselen uit"
+        },
+        "past": {
+          "singular": "wisselde uit",
+          "plural": "wisselden uit"
+        },
+        "pastParticiple": "uitgewisseld"
       }
     },
     "examples": [
@@ -147017,30 +147007,19 @@
         "isSeparable": true,
         "prefix": "vast",
         "infinitive": "vastpakken",
-        "present": [
-          "ik pak vast",
-          "jij pakt vast",
-          "hij/zij pakt vast",
-          "wij pakken vast",
-          "jullie pakken vast",
-          "zij pakken vast"
-        ],
-        "past": [
-          "ik pakte vast",
-          "jij pakte vast",
-          "hij/zij pakte vast",
-          "wij pakten vast",
-          "jullie pakten vast",
-          "zij pakten vast"
-        ],
-        "perfect": [
-          "heb vastgepakt",
-          "hebt vastgepakt",
-          "heeft vastgepakt",
-          "hebben vastgepakt",
-          "hebben vastgepakt",
-          "hebben vastgepakt"
-        ]
+        "present": {
+          "ik": "pak vast",
+          "jij": "pakt vast",
+          "hij": "pakt vast",
+          "wij": "pakken vast",
+          "jullie": "pakken vast",
+          "zij": "pakken vast"
+        },
+        "past": {
+          "singular": "pakte vast",
+          "plural": "pakten vast"
+        },
+        "pastParticiple": "vastgepakt"
       }
     },
     "examples": [
@@ -147691,30 +147670,19 @@
         "isSeparable": false,
         "prefix": "",
         "infinitive": "verbloemen",
-        "present": [
-          "ik bloem",
-          "jij bloemt",
-          "hij/zij bloemt",
-          "wij bloemen",
-          "jullie bloemen",
-          "zij bloemen"
-        ],
-        "past": [
-          "ik bloemde",
-          "jij bloemde",
-          "hij/zij bloemde",
-          "wij bloemden",
-          "jullie bloemden",
-          "zij bloemden"
-        ],
-        "perfect": [
-          "heb gebloemd",
-          "hebt gebloemd",
-          "heeft gebloemd",
-          "hebben gebloemd",
-          "hebben gebloemd",
-          "hebben gebloemd"
-        ]
+        "present": {
+          "ik": "bloem",
+          "jij": "bloemt",
+          "hij": "bloemt",
+          "wij": "bloemen",
+          "jullie": "bloemen",
+          "zij": "bloemen"
+        },
+        "past": {
+          "singular": "bloemde",
+          "plural": "bloemden"
+        },
+        "pastParticiple": "gebloemd"
       }
     },
     "examples": [
@@ -150858,9 +150826,13 @@
       "english": "wonder, amazement"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "verwonderingen"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "verwondering",
+        "plural": "verwonderingen"
+      }
+    },
     "level": "B2",
     "examples": [
       "Met verwondering keek ze naar de sterren.",
@@ -150887,9 +150859,13 @@
       "english": "injury, wound"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "verwondingen"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "verwonding",
+        "plural": "verwondingen"
+      }
+    },
     "level": "B2",
     "examples": [
       "Hij liep een verwonding op bij het sporten.",
@@ -151146,9 +151122,13 @@
       "english": "dirt, filth"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "viezigheden"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "viezigheid",
+        "plural": "viezigheden"
+      }
+    },
     "level": "B2",
     "examples": [
       "Er was viezigheid op de vloer.",
@@ -151210,9 +151190,13 @@
       "english": "fingernail"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "vingernagels"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "vingernagel",
+        "plural": "vingernagels"
+      }
+    },
     "level": "B2",
     "examples": [
       "Ik lak mijn vingernagels.",
@@ -151239,9 +151223,13 @@
       "english": "business card"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "visitekaarten"
-    ],
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "visitekaart",
+        "plural": "visitekaarten"
+      }
+    },
     "level": "B2",
     "examples": [
       "Ruil visitekaarten uit.",
@@ -151268,9 +151256,13 @@
       "english": "vitality, energy"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "vitaliteiten"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "vitaliteit",
+        "plural": "vitaliteiten"
+      }
+    },
     "level": "B2",
     "examples": [
       "Zij heeft veel vitaliteit.",
@@ -151377,9 +151369,13 @@
       "english": "refugee"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "vluchtelingen"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "vluchteling",
+        "plural": "vluchtelingen"
+      }
+    },
     "level": "B2",
     "examples": [
       "De vluchtelingen kwamen aan.",
@@ -151406,9 +151402,13 @@
       "english": "fluid intake, hydration"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "vochtinnames"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "vochtinname",
+        "plural": "vochtinnames"
+      }
+    },
     "level": "B2",
     "examples": [
       "Zorg voor genoeg vochtinname.",
@@ -151435,9 +151435,13 @@
       "english": "footprint"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "voetafdrukken"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "voetafdruk",
+        "plural": "voetafdrukken"
+      }
+    },
     "level": "B2",
     "examples": [
       "Er waren voetafdrukken in het zand.",
@@ -151600,9 +151604,13 @@
       "english": "satisfaction, fulfillment"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "voldoeningen"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "voldoening",
+        "plural": "voldoeningen"
+      }
+    },
     "level": "B2",
     "examples": [
       "Hij kreeg voldoening.",
@@ -151691,9 +151699,13 @@
       "english": "genocide"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "volkenmoorden"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "volkenmoord",
+        "plural": "volkenmoorden"
+      }
+    },
     "level": "B2",
     "examples": [
       "De volkenmoord werd veroordeeld.",
@@ -151720,9 +151732,13 @@
       "english": "peoples' rights, indigenous rights"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "volkenrechten"
-    ],
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "volkenrecht",
+        "plural": "volkenrechten"
+      }
+    },
     "level": "B2",
     "examples": [
       "De volkenrechten worden beschermd.",
@@ -151918,9 +151934,13 @@
       "english": "reservation, condition"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "voorbehouden"
-    ],
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "voorbehoud",
+        "plural": "voorbehouden"
+      }
+    },
     "level": "B2",
     "examples": [
       "Met voorbehoud ga ik akkoord.",
@@ -151993,9 +152013,13 @@
       "english": "predecessor"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "voorgangers"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "voorganger",
+        "plural": "voorgangers"
+      }
+    },
     "level": "B2",
     "examples": [
       "Mijn voorganger deed goed werk.",
@@ -152022,9 +152046,13 @@
       "english": "appetizer, starter"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "voorgerechten"
-    ],
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "voorgerecht",
+        "plural": "voorgerechten"
+      }
+    },
     "level": "B2",
     "examples": [
       "Ik neem een voorgerecht.",
@@ -152051,9 +152079,13 @@
       "english": "premonition, foreboding"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "voorgevoelens"
-    ],
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "voorgevoel",
+        "plural": "voorgevoelens"
+      }
+    },
     "level": "B2",
     "examples": [
       "Ik had een slecht voorgevoel.",
@@ -152161,9 +152193,13 @@
       "english": "prejudice, bias"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "vooroordelen"
-    ],
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "vooroordel",
+        "plural": "vooroordelen"
+      }
+    },
     "level": "B2",
     "examples": [
       "Hij heeft een vooroordel.",
@@ -152190,9 +152226,13 @@
       "english": "advantage, lead"
     },
     "partOfSpeech": "noun",
-    "forms": [
-      "voorsprongen"
-    ],
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "voorsprong",
+        "plural": "voorsprongen"
+      }
+    },
     "level": "B2",
     "examples": [
       "Zij hebben een voorsprong.",
