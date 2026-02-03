@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const VOCABULARY_DIR = path.join(__dirname, '../web/src/data/vocabulary');
-const LEVELS = ['a1', 'a2', 'b1', 'b2'];
+const LEVELS = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
 
 function getAllLessonFiles() {
   const lessons = [];
