@@ -87,7 +87,7 @@ GROUP BY up.user_id, up.username, up.email, up.subscription_tier, up.subscriptio
 --    例如：10 条采样记录 / 0.05 = 200 次实际调用
 --
 -- 3. 如果修改了前端的采样率（VITE_API_LOG_SAMPLING_RATE），
---    需要同步修改此视图中的除数（默认 0.05）
+--    需要同步修改此视图中的除数（当前 0.05）
 --
 -- 4. 如果想要精确统计而非估算，可以：
 --    a) 将采样率设为 1.0（100% 采样，修改前端和此视图）
