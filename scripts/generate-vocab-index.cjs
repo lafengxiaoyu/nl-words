@@ -237,7 +237,8 @@ function generateWordsJson(lessons) {
         examples: examples,
         exampleTranslations: exampleTranslations,
         notes: word.notes || '',
-        difficulty: lesson.level.toUpperCase()
+        difficulty: lesson.level.toUpperCase(),
+        forms: word.forms
       });
     }
   }

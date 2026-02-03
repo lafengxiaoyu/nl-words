@@ -940,6 +940,7 @@
       "forms": {
         "verb": {
           "infinitive": "toeteren",
+          "isSeparable": false,
           "present": {
             "ik": "toeter",
             "jij": "toetert",
@@ -1359,7 +1360,8 @@
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
-          "gender": "m",
+          "article": "de",
+          "singular": "uitbater",
           "plural": "uitbaters"
         }
       },

@@ -8,6 +8,14 @@
 const fs = require('fs');
 const path = require('path');
 
+// 不需要forms字段的词性列表
+const noFormsPos = [
+  'preposition', 'adverb', 'interjection', 'conjunction', 'phrase',
+  'noun phrase', 'verb phrase', 'adjective phrase', 'adverb phrase',
+  'prepositional phrase', 'adverbial phrase', 'pronoun', 'determiner',
+  'numeral', 'phrasal verb', 'adjective/adverb', 'adjective/noun'
+];
+
 // 颜色输出
 const colors = {
   red: '\x1b[31m',
@@ -284,8 +292,13 @@ function validateWords(words) {
         }
       }
     } else {
-      // 某些词性要求 forms 字段
-      if (['noun', 'verb', 'adjective'].includes(word.partOfSpeech)) {
+      // 只有当partOfSpeech不在noFormsPos列表中时才发出警告
+      const posList = Array.isArray(word.partOfSpeech) ? word.partOfSpeech : [word.partOfSpeech];
+      const shouldWarn = posList.every(pos => {
+        return !noFormsPos.some(noPos => pos.toLowerCase().includes(noPos.toLowerCase()));
+      });
+
+      if (shouldWarn) {
         warning(`  ${word.partOfSpeech} 建议包含 forms 字段`);
         totalWarnings++;
       }
