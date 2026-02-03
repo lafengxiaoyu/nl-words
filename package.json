@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "validate:words": "node scripts/validate-words.cjs",
     "ai-review": "node scripts/ai-review.cjs",
-    "pre-commit": "npm run validate:words"
+    "pre-commit": "npm run validate:words && node scripts/vocabulary-pipeline.cjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0",

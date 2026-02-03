@@ -47,16 +47,37 @@ function main() {
 
   console.log('🚀 GitHub Pages Deployment Script (using GitHub Actions)\n');
 
-  // 1. 递增版本（根据 commit message 自动判断，或显式指定）
-  console.log('📦 Step 1: Bumping version...');
+  // 1. 验证词汇数据
+  console.log('🔍 Step 1: Validating vocabulary data...');
+  try {
+    runCommand('npm run validate:words', true);
+    console.log('✅ Vocabulary validation passed\n');
+  } catch (error) {
+    console.error('❌ Vocabulary validation failed');
+    console.error('Please fix the validation errors before deploying.');
+    process.exit(1);
+  }
+
+  // 2. 同步词汇数据
+  console.log('🔄 Step 2: Syncing vocabulary data...');
+  try {
+    runCommand('node scripts/vocabulary-pipeline.cjs', true);
+    console.log('✅ Vocabulary data synced\n');
+  } catch (error) {
+    console.error('❌ Vocabulary data sync failed');
+    process.exit(1);
+  }
+
+  // 3. 递增版本（根据 commit message 自动判断，或显式指定）
+  console.log('📦 Step 3: Bumping version...');
   const bumpArgs = versionType ? versionType : '';
   runCommand(`node scripts/bump-version.cjs ${bumpArgs}`, true);
 
   const newVersion = getVersion();
   console.log(`\n✅ Version bumped to: ${newVersion}\n`);
 
-  // 2. 提交所有变更（包括版本和代码）
-  console.log('📝 Step 2: Committing all changes...');
+  // 4. 提交所有变更（包括验证、同步、版本更新）
+  console.log('📝 Step 4: Committing all changes...');
   try {
     runCommand('git add .', false);
     runCommand(`git commit -m "chore: bump version to ${newVersion}"`, false);

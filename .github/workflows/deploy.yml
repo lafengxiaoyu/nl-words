@@ -29,7 +29,16 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
+      - name: Install dependencies (root)
+        run: npm ci
+
+      - name: Validate vocabulary data
+        run: npm run validate:words
+
+      - name: Sync vocabulary data
+        run: node scripts/vocabulary-pipeline.cjs
+
+      - name: Install dependencies (web)
         working-directory: ./web
         run: npm ci
 
