@@ -236,36 +236,36 @@
     },
     {
       "id": 4220,
-      "word": "uitreems",
+      "word": "uitrekken",
       "translation": {
-        "chinese": "伸展",
+        "chinese": "伸展，拉伸",
         "english": "to stretch out"
       },
       "partOfSpeech": "verb",
       "forms": {
         "verb": {
-          "infinitive": "uitreems",
+          "infinitive": "uitrekken",
           "isSeparable": true,
           "prefix": "uit",
           "present": {
-            "ik": "reem uit",
-            "jij": "reemt uit",
-            "hij": "reemt uit",
-            "wij": "reemen uit",
-            "jullie": "reemen uit",
-            "zij": "reemen uit"
+            "ik": "rek uit",
+            "jij": "rekt uit",
+            "hij": "rekt uit",
+            "wij": "rekken uit",
+            "jullie": "rekken uit",
+            "zij": "rekken uit"
           },
           "past": {
-            "singular": "reemde uit",
-            "plural": "reemden uit"
+            "singular": "rekte uit",
+            "plural": "rekten uit"
           },
-          "pastParticiple": "uitgereemd",
+          "pastParticiple": "uitgerek",
           "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
-        "Hij reem zijn armen uit.",
-        "De vogel reemt zijn vleugels uit."
+        "Hij rekt zijn armen uit.",
+        "De vogel rekt zijn vleugels uit."
       ],
       "exampleTranslations": {
         "chinese": [
@@ -530,15 +530,15 @@
     },
     {
       "id": 4227,
-      "word": "uitvaart",
+      "word": "uitvaren",
       "translation": {
-        "chinese": "运出",
+        "chinese": "驶出，出航",
         "english": "to sail out"
       },
       "partOfSpeech": "verb",
       "forms": {
         "verb": {
-          "infinitive": "uitvaart",
+          "infinitive": "uitvaren",
           "isSeparable": true,
           "prefix": "uit",
           "present": {
@@ -553,7 +553,7 @@
             "singular": "voer uit",
             "plural": "voeren uit"
           },
-          "pastParticiple": "uitgevaard",
+          "pastParticiple": "uitgevaren",
           "pastParticipleAuxiliary": "zijn"
         }
       },

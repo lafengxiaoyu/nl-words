@@ -91,7 +91,6 @@ function generateIndex(lessons) {
 
 function generateLookup(lessons) {
   const lookup = {};
-  let currentId = 1;
 
   for (const lesson of lessons) {
     const data = loadLessonData(lesson);
@@ -99,7 +98,8 @@ function generateLookup(lessons) {
 
     for (const word of data.words) {
       const wordInfo = getWordInfo(word);
-      lookup[currentId++] = {
+      // 使用单词原有的ID，不重新分配
+      lookup[word.id] = {
         word: wordInfo.word,
         translation: wordInfo.translation,
         partOfSpeech: wordInfo.partOfSpeech,
@@ -196,7 +196,6 @@ function generateAllWords(lessons) {
 
 function generateWordsJson(lessons) {
   const allWords = [];
-  let currentId = 1;
 
   for (const lesson of lessons) {
     const data = loadLessonData(lesson);
@@ -231,7 +230,7 @@ function generateWordsJson(lessons) {
       }
 
       allWords.push({
-        id: currentId++,
+        id: word.id,  // 使用单词原有的ID，不重新分配
         word: word.word,
         translation: translation,
         partOfSpeech: partOfSpeech,

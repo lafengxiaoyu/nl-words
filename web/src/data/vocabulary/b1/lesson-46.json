@@ -933,46 +933,44 @@
       "id": 4196,
       "word": "toeteren",
       "translation": {
-        "chinese": "喂",
-        "english": "to feed"
+        "chinese": "按喇叭",
+        "english": "to honk, to beep"
       },
       "partOfSpeech": "verb",
       "forms": {
         "verb": {
           "infinitive": "toeteren",
-          "isSeparable": true,
-          "prefix": "toe",
           "present": {
-            "ik": "eer toe",
-            "jij": "eet toe",
-            "hij": "eet toe",
-            "wij": "eten toe",
-            "jullie": "eten toe",
-            "zij": "eten toe"
+            "ik": "toeter",
+            "jij": "toetert",
+            "hij": "toetert",
+            "wij": "toeteren",
+            "jullie": "toeteren",
+            "zij": "toeteren"
           },
           "past": {
-            "singular": "at toe",
-            "plural": "aten toe"
+            "singular": "toeterde",
+            "plural": "toeterden"
           },
-          "pastParticiple": "toegegeten",
+          "pastParticiple": "getoeterd",
           "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
-        "Ze eet de baby toe.",
-        "Ik eet de hond toe."
+        "De auto toetert hard.",
+        "Hij toetert op het verkeer."
       ],
       "exampleTranslations": {
         "chinese": [
-          "她喂婴儿。",
-          "我喂狗。"
+          "汽车大声按喇叭。",
+          "他对交通按喇叭。"
         ],
         "english": [
-          "She feeds the baby.",
-          "I feed the dog."
+          "The car honks loudly.",
+          "He honks at the traffic."
         ]
       },
-      "notes": "可分动词",
+      "notes": "动词",
       "difficulty": "B1"
     },
     {
@@ -1355,46 +1353,31 @@
       "id": 4209,
       "word": "uitbater",
       "translation": {
-        "chinese": "剥削",
-        "english": "to exploit"
+        "chinese": "经营者，业主",
+        "english": "operator, proprietor"
       },
-      "partOfSpeech": "verb",
+      "partOfSpeech": "noun",
       "forms": {
-        "verb": {
-          "infinitive": "uitbater",
-          "isSeparable": true,
-          "prefix": "uit",
-          "present": {
-            "ik": "baat uit",
-            "jij": "baat uit",
-            "hij": "baat uit",
-            "wij": "baten uit",
-            "jullie": "baten uit",
-            "zij": "baten uit"
-          },
-          "past": {
-            "singular": "baatte uit",
-            "plural": "baatten uit"
-          },
-          "pastParticiple": "uitgebaat",
-          "pastParticipleAuxiliary": "hebben"
+        "noun": {
+          "gender": "m",
+          "plural": "uitbaters"
         }
       },
       "examples": [
-        "Hij baat zijn werknemers uit.",
-        "Zij wordt uitgebaat door haar baas."
+        "De uitbater van het restaurant.",
+        "Zij is uitbater van een café."
       ],
       "exampleTranslations": {
         "chinese": [
-          "他剥削员工。",
-          "她被老板剥削。"
+          "餐厅的经营者。",
+          "她是一家咖啡馆的业主。"
         ],
         "english": [
-          "He exploits his employees.",
-          "She is exploited by her boss."
+          "The operator of the restaurant.",
+          "She is the proprietor of a café."
         ]
       },
-      "notes": "可分动词",
+      "notes": "名词",
       "difficulty": "B1"
     },
     {
