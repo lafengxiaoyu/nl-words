@@ -20,11 +20,6 @@ SELECT
   up.email,
   up.subscription_tier,
   up.subscription_status,
-  -- 估算的总调用次数（采样数 / 0.05）
-  COALESCE(
-    FLOOR(COUNT(*) FILTER (WHERE al.success = true) / 0.05),
-    0
-  ) as total_calls,
   -- 估算的今日调用次数
   COALESCE(
     FLOOR(
@@ -35,16 +30,26 @@ SELECT
     ),
     0
   ) as calls_today,
-  -- 估算的本月调用次数
+  -- 估算的7天内调用次数
   COALESCE(
     FLOOR(
       COUNT(*) FILTER (
         WHERE al.success = true
-        AND DATE_TRUNC('month', al.created_at) = DATE_TRUNC('month', CURRENT_DATE)
+        AND DATE(al.created_at) >= CURRENT_DATE - INTERVAL '7 days'
       ) / 0.05
     ),
     0
-  ) as calls_month,
+  ) as calls_7days,
+  -- 估算的30天内调用次数
+  COALESCE(
+    FLOOR(
+      COUNT(*) FILTER (
+        WHERE al.success = true
+        AND DATE(al.created_at) >= CURRENT_DATE - INTERVAL '30 days'
+      ) / 0.05
+    ),
+    0
+  ) as calls_30days,
   -- 估算的按操作类型统计
   COALESCE(
     FLOOR(COUNT(*) FILTER (WHERE al.operation_type = 'read' AND al.success = true) / 0.05),
@@ -89,7 +94,12 @@ GROUP BY up.user_id, up.username, up.email, up.subscription_tier, up.subscriptio
 -- 3. 如果修改了前端的采样率（VITE_API_LOG_SAMPLING_RATE），
 --    需要同步修改此视图中的除数（当前 0.05）
 --
--- 4. 如果想要精确统计而非估算，可以：
+-- 4. 统计字段说明：
+--    - calls_today: 今天的调用次数
+--    - calls_7days: 过去7天内的调用次数
+--    - calls_30days: 过去30天内的调用次数
+--
+-- 5. 如果想要精确统计而非估算，可以：
 --    a) 将采样率设为 1.0（100% 采样，修改前端和此视图）
 --    b) 或者在前端直接统计调用次数（不使用日志系统）
 --

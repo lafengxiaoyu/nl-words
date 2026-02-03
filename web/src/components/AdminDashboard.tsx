@@ -21,9 +21,9 @@ interface AdminUser {
   is_admin?: boolean
   subscription_tier?: 'free' | 'premium'
   subscription_status?: string
-  totalApiCalls?: number
   callsToday?: number
-  callsThisMonth?: number
+  calls7Days?: number
+  calls30Days?: number
   progressRecords?: number
 }
 
@@ -160,12 +160,12 @@ export default function AdminDashboard() {
         .select('*')
 
       // 创建用户API统计的映射
-      const apiUsageMap = new Map<string, { total: number; today: number; month: number; progress: number }>()
+      const apiUsageMap = new Map<string, { today: number; days7: number; days30: number; progress: number }>()
       apiUsageStats?.forEach(stat => {
         apiUsageMap.set(stat.user_id, {
-          total: stat.total_calls || 0,
           today: stat.calls_today || 0,
-          month: stat.calls_month || 0,
+          days7: stat.calls_7days || 0,
+          days30: stat.calls_30days || 0,
           progress: stat.progress_records || 0
         })
       })
@@ -178,7 +178,7 @@ export default function AdminDashboard() {
           .sort((a, b) => new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime())[0]
 
         // 获取API统计
-        const apiStats = apiUsageMap.get(profile.user_id) || { total: 0, today: 0, month: 0, progress: 0 }
+        const apiStats = apiUsageMap.get(profile.user_id) || { today: 0, days7: 0, days30: 0, progress: 0 }
 
         return {
           id: profile.user_id,
@@ -189,9 +189,9 @@ export default function AdminDashboard() {
           is_admin: profile.role === 'admin',
           subscription_tier: profile.subscription_tier as 'free' | 'premium',
           subscription_status: profile.subscription_status,
-          totalApiCalls: apiStats.total,
           callsToday: apiStats.today,
-          callsThisMonth: apiStats.month,
+          calls7Days: apiStats.days7,
+          calls30Days: apiStats.days30,
           progressRecords: apiStats.progress
         }
       })
@@ -713,11 +713,11 @@ export default function AdminDashboard() {
                           onClick={() => loadUserApiDetails(user.id)}
                           title="点击查看API调用详情"
                         >
-                          {user.totalApiCalls !== undefined ? (
+                          {user.callsToday !== undefined ? (
                             <div className="api-calls-info">
-                              <div className="api-calls-total">{user.totalApiCalls || 0}</div>
+                              <div className="api-calls-total">{user.callsToday || 0}</div>
                               <div className="api-calls-detail">
-                                今: {user.callsToday || 0} / 月: {user.callsThisMonth || 0}
+                                7天: {user.calls7Days || 0} / 30天: {user.calls30Days || 0}
                               </div>
                             </div>
                           ) : (

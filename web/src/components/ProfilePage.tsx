@@ -278,6 +278,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         mastered: 'Mastered'
       },
       backButton: 'Back to Learning',
+      adminButton: 'Admin Panel',
       logoutButton: 'Logout',
       deleteAccount: 'Delete Account',
       deleteAccountConfirm: 'Confirm Account Deletion',
