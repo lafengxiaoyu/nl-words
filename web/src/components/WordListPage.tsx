@@ -7,6 +7,7 @@ import { words } from '../data/words'
 import type { ExampleTranslations } from '../data/types'
 import type { User as SupabaseUser } from '@supabase/supabase-js'
 import { isPremiumUser } from '../lib/subscription'
+import { safeLocalStorage } from '../lib/safeLocalStorage'
 import PremiumUpgradeModal from './PremiumUpgradeModal'
 
 import './WordListPage.css'
@@ -261,14 +262,14 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
 
     // 更新 localStorage
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('nl-words')
+      const saved = safeLocalStorage.getItem('nl-words')
       if (saved) {
         try {
           const wordsWithProgress = JSON.parse(saved) as Word[]
           const updatedWords = wordsWithProgress.map(word =>
             word.id === wordId ? { ...word, favorited: !word.favorited } : word
           )
-          localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+          safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
         } catch (err) {
           console.error('Failed to update favorite data:', err)
         }
@@ -309,7 +310,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
 
   const loadFavorites = useCallback(() => {
     if (typeof window === 'undefined') return
-    const saved = localStorage.getItem('nl-words')
+    const saved = safeLocalStorage.getItem('nl-words')
     if (!saved) return
     try {
       const wordsWithProgress = JSON.parse(saved) as Word[]

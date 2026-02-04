@@ -5,6 +5,7 @@ import { baseWords } from '../data/words'
 import type { Word, FamiliarityLevel, DifficultyLevel } from '../data/words'
 import { isPremiumUser } from '../lib/subscription'
 import { logApiUsage } from '../lib/apiUsageLogger'
+import { safeLocalStorage } from '../lib/safeLocalStorage'
 import ActivityTimeline from './ActivityTimeline'
 import { EditIcon, NewIcon, LearningIcon, FamiliarIcon, MasteredIcon, ResetIcon, LogoutIcon, DeleteIcon } from './Icons'
 import './ProfilePage.css'
@@ -307,7 +308,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
     getUser()
 
     // Load word progress from localStorage
-    const savedProgress = localStorage.getItem('nl-words')
+    const savedProgress = safeLocalStorage.getItem('nl-words')
     if (savedProgress) {
       try {
         const parsedWords: Word[] = JSON.parse(savedProgress)
@@ -571,7 +572,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
 
       setWordList(resetWords)
       // 保存进度到 localStorage
-      localStorage.setItem('nl-words', JSON.stringify(resetWords))
+      safeLocalStorage.setItem('nl-words', JSON.stringify(resetWords))
       window.location.reload()
     }
   }

@@ -7,6 +7,7 @@ import { supabase } from '../lib/supabase'
 import { updateTestStats } from '../lib/progressSync'
 import { calculateFamiliarity } from '../lib/familiarityCalculator'
 import { isPremiumUser } from '../lib/subscription'
+import { safeLocalStorage } from '../lib/safeLocalStorage'
 import PremiumUpgradeModal from './PremiumUpgradeModal'
 import './TestPage.css'
 
@@ -344,7 +345,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
         console.log(`测试结果: ${isCorrect ? '正确' : '错误'}, 自动计算熟悉程度: ${calculatedFamiliarity}`)
       } else {
         // 本地用户：更新 localStorage
-        const localStorageData = localStorage.getItem('nl-words')
+        const localStorageData = safeLocalStorage.getItem('nl-words')
         if (localStorageData) {
           const localWords: Word[] = JSON.parse(localStorageData)
           const wordIndex = localWords.findIndex(w => w.id === currentWord.id)
@@ -368,7 +369,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
               stats: updatedStats,
               familiarity: calculatedFamiliarity
             }
-            localStorage.setItem('nl-words', JSON.stringify(localWords))
+            safeLocalStorage.setItem('nl-words', JSON.stringify(localWords))
           }
         }
       }
@@ -397,7 +398,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
         console.log(`标记为未掌握，自动计算熟悉程度: ${calculatedFamiliarity}`)
       } else {
         // 本地用户：更新 localStorage
-        const localStorageData = localStorage.getItem('nl-words')
+        const localStorageData = safeLocalStorage.getItem('nl-words')
         if (localStorageData) {
           const localWords: Word[] = JSON.parse(localStorageData)
           const wordIndex = localWords.findIndex(w => w.id === currentWord.id)
@@ -421,7 +422,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
               stats: updatedStats,
               familiarity: calculatedFamiliarity
             }
-            localStorage.setItem('nl-words', JSON.stringify(localWords))
+            safeLocalStorage.setItem('nl-words', JSON.stringify(localWords))
           }
         }
       }
@@ -449,7 +450,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
         console.log(`跳过题目，自动计算熟悉程度: ${calculatedFamiliarity}`)
       } else {
         // 本地用户：更新 localStorage
-        const localStorageData = localStorage.getItem('nl-words')
+        const localStorageData = safeLocalStorage.getItem('nl-words')
         if (localStorageData) {
           const localWords: Word[] = JSON.parse(localStorageData)
           const wordIndex = localWords.findIndex(w => w.id === currentWord.id)
@@ -473,7 +474,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
               stats: updatedStats,
               familiarity: calculatedFamiliarity
             }
-            localStorage.setItem('nl-words', JSON.stringify(localWords))
+            safeLocalStorage.setItem('nl-words', JSON.stringify(localWords))
           }
         }
       }

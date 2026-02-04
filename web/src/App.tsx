@@ -8,6 +8,7 @@ import { supabase } from './lib/supabase'
 import { loadUserProgress, saveUserProgress, mergeProgress, incrementViewCount, updateMasteryStats } from './lib/progressSync'
 import { calculateFamiliarityScore } from './lib/familiarityCalculator'
 import { isPremiumUser } from './lib/subscription'
+import { safeLocalStorage } from './lib/safeLocalStorage'
 import Auth from './components/Auth'
 import UserProfile from './components/UserProfile'
 import ProfilePage from './components/ProfilePage'
@@ -717,7 +718,7 @@ function MainApp() {
 
   // 从 localStorage 加载进度
   const loadProgressFromLocalStorage = useCallback(() => {
-    const savedWords = localStorage.getItem('nl-words')
+    const savedWords = safeLocalStorage.getItem('nl-words')
     if (savedWords) {
       try {
         const parsed = JSON.parse(savedWords)
@@ -737,7 +738,7 @@ function MainApp() {
       setSyncStatus('syncing')
 
       // 先从 localStorage 获取本地进度作为基础
-      const localSaved = localStorage.getItem('nl-words')
+      const localSaved = safeLocalStorage.getItem('nl-words')
       let baseWordsWithProgress = words
       if (localSaved) {
         try {
@@ -754,7 +755,7 @@ function MainApp() {
       const mergedWords = mergeProgress(baseWordsWithProgress, progressMap)
       setWordList(mergedWords)
       setFilteredWordList(mergedWords)
-      localStorage.setItem('nl-words', JSON.stringify(mergedWords))
+      safeLocalStorage.setItem('nl-words', JSON.stringify(mergedWords))
       setSyncStatus('success')
       setTimeout(() => setSyncStatus('idle'), 2000)
     } catch (error) {
@@ -918,7 +919,7 @@ function MainApp() {
         )
 
         setWordList(updatedWords)
-        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+        safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
         await saveProgressToSupabase(updatedWords.find(w => w.id === wordId)!)
         return
       } catch (error) {
@@ -959,7 +960,7 @@ function MainApp() {
     })
 
     setWordList(updatedWords)
-    localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+    safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
     await saveProgressToSupabase(updatedWords.find(w => w.id === wordId)!)
   }
 
@@ -972,7 +973,7 @@ function MainApp() {
     )
 
     setWordList(updatedWords)
-    localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+    safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
     const updatedWord = updatedWords.find(w => w.id === wordId)!
     await saveProgressToSupabase(updatedWord)
   }
@@ -1002,7 +1003,7 @@ function MainApp() {
     const updatedWords = wordList.map(word =>
       word.id === currentWord.id ? updatedWord : word
     )
-    localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+    safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
 
     // 如果已登录，同步到 Supabase
     if (user) {
@@ -1059,7 +1060,7 @@ function MainApp() {
               ? { ...word, stats: updatedStats }
               : word
           )
-          localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+          safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
         } catch (error) {
           console.error('记录查看次数失败:', error)
         }
@@ -1092,7 +1093,7 @@ function MainApp() {
             ? { ...word, stats: updatedStats }
             : word
         )
-        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+        safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
       }
     }
 

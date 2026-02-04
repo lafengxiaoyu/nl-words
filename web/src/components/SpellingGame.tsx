@@ -7,6 +7,7 @@ import { supabase } from '../lib/supabase'
 import { loadUserProgress, updateTestStats, mergeProgress } from '../lib/progressSync'
 import { calculateFamiliarity } from '../lib/familiarityCalculator'
 import { isPremiumUser } from '../lib/subscription'
+import { safeLocalStorage } from '../lib/safeLocalStorage'
 import PremiumUpgradeModal from './PremiumUpgradeModal'
 import './SpellingGame.css'
 
@@ -145,7 +146,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
 
   // 从 localStorage 加载用户进度
   const loadProgressFromLocalStorage = useCallback(() => {
-    const savedWords = localStorage.getItem('nl-words')
+    const savedWords = safeLocalStorage.getItem('nl-words')
     if (savedWords) {
       try {
         const parsed = JSON.parse(savedWords)
@@ -190,7 +191,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
             const progressMap = await loadUserProgress(loggedInUser.id)
             const mergedWords = mergeProgress(baseWords, progressMap)
             setUserWords(mergedWords)
-            localStorage.setItem('nl-words', JSON.stringify(mergedWords))
+            safeLocalStorage.setItem('nl-words', JSON.stringify(mergedWords))
           } catch {
             // 从 Supabase 加载进度失败，使用本地数据
             loadProgressFromLocalStorage()
@@ -505,7 +506,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
 
                     // 保存到localStorage
                     setTimeout(() => {
-                      const words = JSON.parse(localStorage.getItem('nl-words') || '[]')
+                      const words = JSON.parse(safeLocalStorage.getItem('nl-words') || '[]')
                       const updatedWords = words.map((w: Word) => {
                         if (w.id === currentWord.id) {
                           const currentStats = w.stats
@@ -528,7 +529,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
                         }
                         return w
                       })
-                      localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+                      safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
                     }, 0)
                   }
                 }).catch(() => {
@@ -674,7 +675,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
           return w
         })
         setUserWords(updatedWords)
-        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+        safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
       }
     } catch {
       // 更新测试统计失败
@@ -791,7 +792,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
           return w
         })
         setUserWords(updatedWords)
-        localStorage.setItem('nl-words', JSON.stringify(updatedWords))
+        safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
       }
     } catch {
       // 更新测试统计失败
