@@ -362,7 +362,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
               lastTestedAt: new Date().toISOString(),
             }
             // 自动计算熟悉程度
-            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+            const calculatedFamiliarity = calculateFamiliarity(undefined, updatedStats)
             console.log(`测试结果: ${isCorrect ? '正确' : '错误'}, 自动计算熟悉程度: ${calculatedFamiliarity}`)
             localWords[wordIndex] = {
               ...localWords[wordIndex],
@@ -415,7 +415,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
               lastTestedAt: new Date().toISOString(),
             }
             // 自动计算熟悉程度
-            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+            const calculatedFamiliarity = calculateFamiliarity(undefined, updatedStats)
             console.log(`标记为未掌握，自动计算熟悉程度: ${calculatedFamiliarity}`)
             localWords[wordIndex] = {
               ...localWords[wordIndex],
@@ -467,7 +467,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
               lastTestedAt: new Date().toISOString(),
             }
             // 自动计算熟悉程度
-            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+            const calculatedFamiliarity = calculateFamiliarity(undefined, updatedStats)
             console.log(`跳过题目，自动计算熟悉程度: ${calculatedFamiliarity}`)
             localWords[wordIndex] = {
               ...localWords[wordIndex],

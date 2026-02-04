@@ -48,9 +48,9 @@ const GlobeIcon = () => {
 }
 
 // 锁图标组件
-const LockIcon = () => {
+const LockIcon = ({ className }: { className?: string }) => {
   return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="lock-svg-icon">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={className || "lock-svg-icon"}>
       <path
         d="M12 15V17"
         stroke="currentColor"

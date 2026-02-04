@@ -453,7 +453,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
                       lastViewedAt: currentStats?.lastViewedAt,
                       lastTestedAt: new Date().toISOString(),
                     }
-                    const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+                    const calculatedFamiliarity = calculateFamiliarity(undefined, updatedStats)
                     return Promise.resolve({ familiarity: calculatedFamiliarity })
                   }
                 }
@@ -494,7 +494,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
                           lastViewedAt: currentStats?.lastViewedAt,
                           lastTestedAt: new Date().toISOString(),
                         }
-                        const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+                        const calculatedFamiliarity = calculateFamiliarity(undefined, updatedStats)
                         return {
                           ...w,
                           stats: updatedStats,
@@ -520,7 +520,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
                             lastViewedAt: currentStats?.lastViewedAt,
                             lastTestedAt: new Date().toISOString(),
                           }
-                          const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+                          const calculatedFamiliarity = calculateFamiliarity(undefined, updatedStats)
                           return {
                             ...w,
                             stats: updatedStats,
@@ -665,7 +665,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
               lastViewedAt: currentStats?.lastViewedAt,
               lastTestedAt: new Date().toISOString(),
             }
-            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+            const calculatedFamiliarity = calculateFamiliarity(undefined, updatedStats)
             return {
               ...w,
               stats: updatedStats,
@@ -782,7 +782,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
               lastViewedAt: currentStats?.lastViewedAt,
               lastTestedAt: new Date().toISOString(),
             }
-            const calculatedFamiliarity = calculateFamiliarity(updatedStats)
+            const calculatedFamiliarity = calculateFamiliarity(undefined, updatedStats)
             return {
               ...w,
               stats: updatedStats,

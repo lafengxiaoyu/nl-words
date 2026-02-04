@@ -9,6 +9,9 @@ import { loadUserProgress, saveUserProgress, mergeProgress, incrementViewCount, 
 import { calculateFamiliarityScore } from './lib/familiarityCalculator'
 import { isPremiumUser } from './lib/subscription'
 import { safeLocalStorage } from './lib/safeLocalStorage'
+import { initializeProgressStorage, loadProgressFromStorage } from './lib/progressStorage'
+import { useProgressStorage } from './lib/useProgressStorage'
+import type { UserWordProgress } from './data/types'
 import Auth from './components/Auth'
 import UserProfile from './components/UserProfile'
 import ProfilePage from './components/ProfilePage'
@@ -718,18 +721,16 @@ function MainApp() {
 
   // 从 localStorage 加载进度
   const loadProgressFromLocalStorage = useCallback(() => {
-    const savedWords = safeLocalStorage.getItem('nl-words')
-    if (savedWords) {
-      try {
-        const parsed = JSON.parse(savedWords)
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setWordList(parsed)
-          setFilteredWordList(parsed)
-        }
-      } catch (e) {
-        console.error('Failed to load saved words', e)
-      }
-    }
+    // 初始化进度存储（检查版本和迁移）
+    initializeProgressStorage()
+
+    // 加载紧凑的进度数据
+    const progressMap = loadProgressFromStorage()
+
+    // 合并进度到静态词库
+    const mergedWords = mergeProgress(words, progressMap)
+    setWordList(mergedWords)
+    setFilteredWordList(mergedWords)
   }, [])
 
   // 从 Supabase 加载进度
@@ -737,25 +738,27 @@ function MainApp() {
     try {
       setSyncStatus('syncing')
 
-      // 先从 localStorage 获取本地进度作为基础
-      const localSaved = safeLocalStorage.getItem('nl-words')
-      let baseWordsWithProgress = words
-      if (localSaved) {
-        try {
-          const parsed = JSON.parse(localSaved)
-          if (Array.isArray(parsed) && parsed.length > 0) {
-            baseWordsWithProgress = parsed as Word[]
-          }
-        } catch (e) {
-          console.error('解析本地进度失败:', e)
-        }
-      }
+      // 获取本地进度
+      const localProgressMap = loadProgressFromStorage()
 
-      const progressMap = await loadUserProgress(userId)
-      const mergedWords = mergeProgress(baseWordsWithProgress, progressMap)
+      // 从云端获取进度
+      const cloudProgressMap = await loadUserProgress(userId)
+
+      // 合并进度（云端优先）
+      const mergedProgressMap = new Map<number, UserWordProgress>(localProgressMap)
+      cloudProgressMap.forEach((progress, wordId) => {
+        mergedProgressMap.set(wordId, progress)
+      })
+
+      // 保存合并后的进度
+      // saveProgressToStorage 已通过 useProgressStorage hook 间接调用
+      // 这里先不保存，等待 setWordList 更新后再保存
+
+      // 合并到词库
+      const mergedWords = mergeProgress(words, mergedProgressMap)
       setWordList(mergedWords)
       setFilteredWordList(mergedWords)
-      safeLocalStorage.setItem('nl-words', JSON.stringify(mergedWords))
+
       setSyncStatus('success')
       setTimeout(() => setSyncStatus('idle'), 2000)
     } catch (error) {
@@ -890,7 +893,8 @@ function MainApp() {
   const totalCount = filteredWordList.length
   const progressPercentage = totalCount > 0 ? Math.round((masteredCount / totalCount) * 100) : 0
 
-
+  // 进度存储 hook
+  const { saveProgress: saveCurrentProgressToStorage } = useProgressStorage(wordList)
 
   // 设置单词熟悉程度
   const setWordFamiliarity = async (wordId: number, familiarity: FamiliarityLevel) => {
@@ -919,7 +923,7 @@ function MainApp() {
         )
 
         setWordList(updatedWords)
-        safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
+        saveCurrentProgressToStorage()
         await saveProgressToSupabase(updatedWords.find(w => w.id === wordId)!)
         return
       } catch (error) {
@@ -960,7 +964,7 @@ function MainApp() {
     })
 
     setWordList(updatedWords)
-    safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
+    saveCurrentProgressToStorage()
     await saveProgressToSupabase(updatedWords.find(w => w.id === wordId)!)
   }
 
@@ -973,7 +977,7 @@ function MainApp() {
     )
 
     setWordList(updatedWords)
-    safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
+    saveCurrentProgressToStorage()
     const updatedWord = updatedWords.find(w => w.id === wordId)!
     await saveProgressToSupabase(updatedWord)
   }
