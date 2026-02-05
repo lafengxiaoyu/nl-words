@@ -1175,7 +1175,7 @@ function MainApp() {
   return (
     <>
       {showAuth ? (
-        <Auth onAuthSuccess={handleAuthSuccess} />
+        <Auth onAuthSuccess={handleAuthSuccess} languageMode={languageMode} />
       ) : (
         <>
           <div className="app">

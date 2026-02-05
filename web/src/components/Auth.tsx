@@ -4,9 +4,10 @@ import './Auth.css'
 
 interface AuthProps {
   onAuthSuccess: () => void
+  languageMode: 'chinese' | 'english'
 }
 
-export default function Auth({ onAuthSuccess }: AuthProps) {
+export default function Auth({ onAuthSuccess, languageMode }: AuthProps) {
   const [isLogin, setIsLogin] = useState(true)
   const [username, setUsername] = useState('')
   const [email, setEmail] = useState('')
@@ -15,14 +16,63 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
   const [error, setError] = useState<string | null>(null)
   const [message, setMessage] = useState<string | null>(null)
 
+  const translations = {
+    chinese: {
+      title: '🇳🇱 荷兰语单词学习',
+      loginSubtitle: '登录以同步学习进度',
+      registerSubtitle: '注册新账户',
+      usernameLabel: '用户名',
+      usernamePlaceholder: '请输入用户名',
+      emailLabel: '邮箱',
+      passwordLabel: '密码',
+      passwordPlaceholder: '至少6个字符',
+      processing: '处理中...',
+      loginButton: '登录',
+      registerButton: '注册',
+      switchToRegister: '还没有账户？注册',
+      switchToLogin: '已有账户？登录',
+      or: '或',
+      guestMode: '游客模式（不登录）',
+      guestHint: '💡 提示：游客模式下学习进度仅保存在本地，登录后可同步到云端',
+      loginSuccess: '登录成功！',
+      registerSuccess: '注册成功！正在跳转到学习页面...',
+      configError: 'Supabase 未配置，请先设置环境变量 VITE_SUPABASE_URL 和 VITE_SUPABASE_ANON_KEY',
+      operationError: '操作失败，请重试'
+    },
+    english: {
+      title: '🇳🇱 Dutch Word Learning',
+      loginSubtitle: 'Login to sync progress',
+      registerSubtitle: 'Create new account',
+      usernameLabel: 'Username',
+      usernamePlaceholder: 'Enter username',
+      emailLabel: 'Email',
+      passwordLabel: 'Password',
+      passwordPlaceholder: 'At least 6 characters',
+      processing: 'Processing...',
+      loginButton: 'Login',
+      registerButton: 'Sign Up',
+      switchToRegister: "Don't have an account? Sign up",
+      switchToLogin: 'Already have an account? Login',
+      or: 'Or',
+      guestMode: 'Guest Mode (No login)',
+      guestHint: '💡 Tip: Progress is saved locally in guest mode. Login to sync to cloud.',
+      loginSuccess: 'Login successful!',
+      registerSuccess: 'Sign up successful! Redirecting to learning page...',
+      configError: 'Supabase not configured. Please set VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY environment variables.',
+      operationError: 'Operation failed, please try again'
+    }
+  }
+
+  const t = translations[languageMode]
+
   const handleAuth = async (e: React.FormEvent) => {
     e.preventDefault()
-    
+
     if (!isSupabaseConfigured) {
-      setError('Supabase 未配置，请先设置环境变量 VITE_SUPABASE_URL 和 VITE_SUPABASE_ANON_KEY')
+      setError(t.configError)
       return
     }
-    
+
     setLoading(true)
     setError(null)
     setMessage(null)
@@ -38,7 +88,7 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
         if (error) throw error
 
         if (data.user) {
-          setMessage('登录成功！')
+          setMessage(t.loginSuccess)
           setTimeout(() => {
             onAuthSuccess()
           }, 500)
@@ -68,16 +118,17 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
             console.error('保存用户信息失败:', profileError)
           }
 
-          setMessage('注册成功！正在跳转到学习页面...')
+          setMessage(t.registerSuccess)
           setTimeout(() => {
-            // 直接跳转到 GitHub Pages 的学习页面
-            window.location.href = 'https://lafengxiaoyu.github.io/nl-words/zh/learn'
+            // 跳转到当前语言的学习页面
+            const path = languageMode === 'english' ? '/en/learn' : '/zh/learn'
+            window.location.href = `https://lafengxiaoyu.github.io/nl-words${path}`
           }, 1500)
         }
       }
     } catch (err: unknown) {
       const error = err as Error
-      setError(error.message || '操作失败，请重试')
+      setError(error.message || t.operationError)
     } finally {
       setLoading(false)
     }
@@ -90,21 +141,21 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
   return (
     <div className="auth-container">
       <div className="auth-card">
-        <h2>🇳🇱 荷兰语单词学习</h2>
+        <h2>{t.title}</h2>
         <p className="auth-subtitle">
-          {isLogin ? '登录以同步学习进度' : '注册新账户'}
+          {isLogin ? t.loginSubtitle : t.registerSubtitle}
         </p>
 
         <form onSubmit={handleAuth} className="auth-form">
           {!isLogin && (
             <div className="form-group">
-              <label htmlFor="username">用户名</label>
+              <label htmlFor="username">{t.usernameLabel}</label>
               <input
                 id="username"
                 type="text"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                placeholder="请输入用户名"
+                placeholder={t.usernamePlaceholder}
                 required
                 minLength={2}
                 maxLength={20}
@@ -114,7 +165,7 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
           )}
 
           <div className="form-group">
-            <label htmlFor="email">邮箱</label>
+            <label htmlFor="email">{t.emailLabel}</label>
             <input
               id="email"
               type="email"
@@ -127,13 +178,13 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
           </div>
 
           <div className="form-group">
-            <label htmlFor="password">密码</label>
+            <label htmlFor="password">{t.passwordLabel}</label>
             <input
               id="password"
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="至少6个字符"
+              placeholder={t.passwordPlaceholder}
               required
               minLength={6}
               disabled={loading}
@@ -148,7 +199,7 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
             className="btn btn-primary btn-full"
             disabled={loading}
           >
-            {loading ? '处理中...' : isLogin ? '登录' : '注册'}
+            {loading ? t.processing : isLogin ? t.loginButton : t.registerButton}
           </button>
         </form>
 
@@ -163,12 +214,12 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
             }}
             disabled={loading}
           >
-            {isLogin ? '还没有账户？注册' : '已有账户？登录'}
+            {isLogin ? t.switchToRegister : t.switchToLogin}
           </button>
         </div>
 
         <div className="auth-divider">
-          <span>或</span>
+          <span>{t.or}</span>
         </div>
 
         <button
@@ -177,14 +228,13 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
           onClick={handleGuestMode}
           disabled={loading}
         >
-          游客模式（不登录）
+          {t.guestMode}
         </button>
 
         <p className="auth-note">
-          💡 提示：游客模式下学习进度仅保存在本地，登录后可同步到云端
+          {t.guestHint}
         </p>
       </div>
     </div>
   )
 }
-
