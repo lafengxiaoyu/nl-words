@@ -1152,7 +1152,9 @@ function MainApp() {
 
   const handleAuthLanguageChange = (mode: 'chinese' | 'english') => {
     setLanguageMode(mode)
-    switchLanguage(mode)
+    // 登录页面只切换语言模式，不触发路由跳转
+    // 更新浏览器标签页标题
+    document.title = mode === 'chinese' ? '荷兰语单词学习' : 'Dutch Word Learning'
   }
 
   // 汉堡菜单状态

@@ -19,7 +19,7 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
 
   const translations = {
     chinese: {
-      title: '🇳🇱 荷兰语单词学习',
+      title: '荷兰语单词学习',
       loginSubtitle: '登录以同步学习进度',
       registerSubtitle: '注册新账户',
       usernameLabel: '用户名',
@@ -41,7 +41,7 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
       operationError: '操作失败，请重试'
     },
     english: {
-      title: '🇳🇱 Dutch Word Learning',
+      title: 'Dutch Word Learning',
       loginSubtitle: 'Login to sync progress',
       registerSubtitle: 'Create new account',
       usernameLabel: 'Username',
@@ -141,25 +141,25 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
 
   return (
     <div className="auth-container">
-      {/* 语言切换 */}
-      <div className="auth-language-switch">
-        <button
-          className={`lang-btn ${languageMode === 'chinese' ? 'active' : ''}`}
-          onClick={() => onLanguageChange?.('chinese')}
-          disabled={loading}
-        >
-          🇨🇳
-        </button>
-        <button
-          className={`lang-btn ${languageMode === 'english' ? 'active' : ''}`}
-          onClick={() => onLanguageChange?.('english')}
-          disabled={loading}
-        >
-          EN
-        </button>
-      </div>
-
       <div className="auth-card">
+        {/* 语言切换 */}
+        <div className="auth-language-switch">
+          <button
+            className={`lang-btn ${languageMode === 'chinese' ? 'active' : ''}`}
+            onClick={() => onLanguageChange?.('chinese')}
+            disabled={loading}
+          >
+            中文
+          </button>
+          <button
+            className={`lang-btn ${languageMode === 'english' ? 'active' : ''}`}
+            onClick={() => onLanguageChange?.('english')}
+            disabled={loading}
+          >
+            English
+          </button>
+        </div>
+
         <h2>{t.title}</h2>
         <p className="auth-subtitle">
           {isLogin ? t.loginSubtitle : t.registerSubtitle}
