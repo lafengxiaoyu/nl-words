@@ -8,6 +8,7 @@
   padding: 20px;
   position: relative;
   overflow: hidden;
+  font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
 }
 
 .auth-container::before {
@@ -227,6 +228,47 @@
   border-radius: 16px;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 语言切换 */
+.auth-language-switch {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  z-index: 100;
+}
+
+.lang-btn {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
+}
+
+.lang-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.lang-btn.active {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+  color: white;
+}
+
+.lang-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 /* 动画 */

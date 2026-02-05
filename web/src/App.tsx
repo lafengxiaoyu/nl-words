@@ -1150,6 +1150,11 @@ function MainApp() {
     setShowAuth(false)
   }
 
+  const handleAuthLanguageChange = (mode: 'chinese' | 'english') => {
+    setLanguageMode(mode)
+    switchLanguage(mode)
+  }
+
   // 汉堡菜单状态
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -1175,7 +1180,7 @@ function MainApp() {
   return (
     <>
       {showAuth ? (
-        <Auth onAuthSuccess={handleAuthSuccess} languageMode={languageMode} />
+        <Auth onAuthSuccess={handleAuthSuccess} languageMode={languageMode} onLanguageChange={handleAuthLanguageChange} />
       ) : (
         <>
           <div className="app">

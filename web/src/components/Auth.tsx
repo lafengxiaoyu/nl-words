@@ -5,9 +5,10 @@ import './Auth.css'
 interface AuthProps {
   onAuthSuccess: () => void
   languageMode: 'chinese' | 'english'
+  onLanguageChange?: (mode: 'chinese' | 'english') => void
 }
 
-export default function Auth({ onAuthSuccess, languageMode }: AuthProps) {
+export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: AuthProps) {
   const [isLogin, setIsLogin] = useState(true)
   const [username, setUsername] = useState('')
   const [email, setEmail] = useState('')
@@ -140,6 +141,24 @@ export default function Auth({ onAuthSuccess, languageMode }: AuthProps) {
 
   return (
     <div className="auth-container">
+      {/* 语言切换 */}
+      <div className="auth-language-switch">
+        <button
+          className={`lang-btn ${languageMode === 'chinese' ? 'active' : ''}`}
+          onClick={() => onLanguageChange?.('chinese')}
+          disabled={loading}
+        >
+          🇨🇳
+        </button>
+        <button
+          className={`lang-btn ${languageMode === 'english' ? 'active' : ''}`}
+          onClick={() => onLanguageChange?.('english')}
+          disabled={loading}
+        >
+          EN
+        </button>
+      </div>
+
       <div className="auth-card">
         <h2>{t.title}</h2>
         <p className="auth-subtitle">
