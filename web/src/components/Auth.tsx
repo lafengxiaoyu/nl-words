@@ -63,7 +63,7 @@ export default function Auth({ onAuthSuccess, languageMode }: AuthProps) {
     }
   }
 
-  const t = translations[languageMode]
+  const t = translations[languageMode] || translations.chinese
 
   const handleAuth = async (e: React.FormEvent) => {
     e.preventDefault()
