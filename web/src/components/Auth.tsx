@@ -141,9 +141,10 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
           }, 1500)
         }
       } else if (authMode === 'reset') {
-        // 重置密码
+        // 重置密码 - 根据当前语言跳转到对应的密码重置页面
+        const resetPath = languageMode === 'english' ? '/en/reset-password' : '/zh/reset-password'
         const { error } = await supabase.auth.resetPasswordForEmail(email, {
-          redirectTo: 'https://lafengxiaoyu.github.io/nl-words'
+          redirectTo: `https://lafengxiaoyu.github.io/nl-words${resetPath}`
         })
 
         if (error) throw error

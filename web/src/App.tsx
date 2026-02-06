@@ -20,6 +20,7 @@ import WordListPage from './components/WordListPage'
 import AdminDashboard from './components/AdminDashboard'
 import SpellingGame from './components/SpellingGame'
 import AboutPage from './components/AboutPage'
+import ResetPassword from './components/ResetPassword'
 import PremiumUpgradeModal from './components/PremiumUpgradeModal'
 import { Flashcard } from './components/Flashcard'
 import logo from './assets/images/dutch-lex.svg'
@@ -1701,6 +1702,13 @@ function AboutRoute() {
   return <AboutPage languageMode={languageMode} />
 }
 
+// Reset Password Route Component
+function ResetPasswordRoute() {
+  const location = useLocation()
+  const languageMode = location.pathname.startsWith('/zh') ? 'chinese' : 'english'
+  return <ResetPassword languageMode={languageMode} />
+}
+
 // App 组件处理路由
 function App() {
   return (
@@ -1713,6 +1721,7 @@ function App() {
       <Route path="/zh/profile" element={<ProfileRoute />} />
       <Route path="/zh/wordlist" element={<WordListRoute />} />
       <Route path="/zh/about" element={<AboutRoute />} />
+      <Route path="/zh/reset-password" element={<ResetPasswordRoute />} />
       <Route path="/en" element={<Navigate to="/en/learn" replace />} />
       <Route path="/en/learn" element={<MainApp />} />
       <Route path="/en/test" element={<TestRoute />} />
@@ -1720,6 +1729,7 @@ function App() {
       <Route path="/en/profile" element={<ProfileRoute />} />
       <Route path="/en/wordlist" element={<WordListRoute />} />
       <Route path="/en/about" element={<AboutRoute />} />
+      <Route path="/en/reset-password" element={<ResetPasswordRoute />} />
       <Route path="/admin" element={<AdminDashboard />} />
       <Route path="*" element={<Navigate to="/zh/learn" replace />} />
     </Routes>
