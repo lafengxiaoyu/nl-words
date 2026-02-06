@@ -8,8 +8,10 @@ interface AuthProps {
   onLanguageChange?: (mode: 'chinese' | 'english') => void
 }
 
+type AuthMode = 'login' | 'register' | 'reset'
+
 export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: AuthProps) {
-  const [isLogin, setIsLogin] = useState(true)
+  const [authMode, setAuthMode] = useState<AuthMode>('login')
   const [username, setUsername] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -22,21 +24,27 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
       title: '荷兰语单词学习',
       loginSubtitle: '登录以同步学习进度',
       registerSubtitle: '注册新账户',
+      resetSubtitle: '重置密码',
       usernameLabel: '用户名',
       usernamePlaceholder: '请输入用户名',
       emailLabel: '邮箱',
+      emailPlaceholder: '请输入邮箱地址',
       passwordLabel: '密码',
       passwordPlaceholder: '至少6个字符',
       processing: '处理中...',
       loginButton: '登录',
       registerButton: '注册',
+      resetButton: '发送重置链接',
       switchToRegister: '还没有账户？注册',
       switchToLogin: '已有账户？登录',
+      switchToReset: '忘记密码？',
+      switchToLoginFromReset: '返回登录',
       or: '或',
       guestMode: '游客模式（不登录）',
       guestHint: '💡 提示：游客模式下学习进度仅保存在本地，登录后可同步到云端',
       loginSuccess: '登录成功！',
       registerSuccess: '注册成功！正在跳转到学习页面...',
+      resetSuccess: '重置链接已发送到您的邮箱，请查收邮件',
       configError: 'Supabase 未配置，请先设置环境变量 VITE_SUPABASE_URL 和 VITE_SUPABASE_ANON_KEY',
       operationError: '操作失败，请重试'
     },
@@ -44,21 +52,27 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
       title: 'Dutch Word Learning',
       loginSubtitle: 'Login to sync progress',
       registerSubtitle: 'Create new account',
+      resetSubtitle: 'Reset Password',
       usernameLabel: 'Username',
       usernamePlaceholder: 'Enter username',
       emailLabel: 'Email',
+      emailPlaceholder: 'Enter your email address',
       passwordLabel: 'Password',
       passwordPlaceholder: 'At least 6 characters',
       processing: 'Processing...',
       loginButton: 'Login',
       registerButton: 'Sign Up',
+      resetButton: 'Send Reset Link',
       switchToRegister: "Don't have an account? Sign up",
       switchToLogin: 'Already have an account? Login',
+      switchToReset: 'Forgot Password?',
+      switchToLoginFromReset: 'Back to Login',
       or: 'Or',
       guestMode: 'Guest Mode (No login)',
       guestHint: '💡 Tip: Progress is saved locally in guest mode. Login to sync to cloud.',
       loginSuccess: 'Login successful!',
       registerSuccess: 'Sign up successful! Redirecting to learning page...',
+      resetSuccess: 'Reset link sent to your email. Please check your inbox.',
       configError: 'Supabase not configured. Please set VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY environment variables.',
       operationError: 'Operation failed, please try again'
     }
@@ -79,7 +93,7 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
     setMessage(null)
 
     try {
-      if (isLogin) {
+      if (authMode === 'login') {
         // 登录
         const { data, error } = await supabase.auth.signInWithPassword({
           email,
@@ -94,7 +108,7 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
             onAuthSuccess()
           }, 500)
         }
-      } else {
+      } else if (authMode === 'register') {
         // 注册
         const { data, error } = await supabase.auth.signUp({
           email,
@@ -126,6 +140,15 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
             window.location.href = `https://lafengxiaoyu.github.io/nl-words${path}`
           }, 1500)
         }
+      } else if (authMode === 'reset') {
+        // 重置密码
+        const { error } = await supabase.auth.resetPasswordForEmail(email, {
+          redirectTo: 'https://lafengxiaoyu.github.io/nl-words'
+        })
+
+        if (error) throw error
+
+        setMessage(t.resetSuccess)
       }
     } catch (err: unknown) {
       const error = err as Error
@@ -162,11 +185,11 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
 
         <h2>{t.title}</h2>
         <p className="auth-subtitle">
-          {isLogin ? t.loginSubtitle : t.registerSubtitle}
+          {authMode === 'login' ? t.loginSubtitle : authMode === 'register' ? t.registerSubtitle : t.resetSubtitle}
         </p>
 
         <form onSubmit={handleAuth} className="auth-form">
-          {!isLogin && (
+          {authMode === 'register' && (
             <div className="form-group">
               <label htmlFor="username">{t.usernameLabel}</label>
               <input
@@ -190,25 +213,27 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="your@email.com"
+              placeholder={authMode === 'reset' ? t.emailPlaceholder : 'your@email.com'}
               required
               disabled={loading}
             />
           </div>
 
-          <div className="form-group">
-            <label htmlFor="password">{t.passwordLabel}</label>
-            <input
-              id="password"
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              placeholder={t.passwordPlaceholder}
-              required
-              minLength={6}
-              disabled={loading}
-            />
-          </div>
+          {authMode !== 'reset' && (
+            <div className="form-group">
+              <label htmlFor="password">{t.passwordLabel}</label>
+              <input
+                id="password"
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder={t.passwordPlaceholder}
+                required
+                minLength={6}
+                disabled={loading}
+              />
+            </div>
+          )}
 
           {error && <div className="auth-error">{error}</div>}
           {message && <div className="auth-message">{message}</div>}
@@ -218,23 +243,50 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
             className="btn btn-primary btn-full"
             disabled={loading}
           >
-            {loading ? t.processing : isLogin ? t.loginButton : t.registerButton}
+            {loading ? t.processing : authMode === 'reset' ? t.resetButton : authMode === 'login' ? t.loginButton : t.registerButton}
           </button>
         </form>
 
         <div className="auth-footer">
-          <button
-            type="button"
-            className="btn-link"
-            onClick={() => {
-              setIsLogin(!isLogin)
-              setError(null)
-              setMessage(null)
-            }}
-            disabled={loading}
-          >
-            {isLogin ? t.switchToRegister : t.switchToLogin}
-          </button>
+          {authMode === 'login' && (
+            <div className="auth-footer-links">
+              <button
+                type="button"
+                className="btn-link"
+                onClick={() => setAuthMode('reset')}
+                disabled={loading}
+              >
+                {t.switchToReset}
+              </button>
+              <button
+                type="button"
+                className="btn-link"
+                onClick={() => {
+                  setAuthMode('register')
+                  setError(null)
+                  setMessage(null)
+                }}
+                disabled={loading}
+              >
+                {t.switchToRegister}
+              </button>
+            </div>
+          )}
+
+          {(authMode === 'register' || authMode === 'reset') && (
+            <button
+              type="button"
+              className="btn-link"
+              onClick={() => {
+                setAuthMode('login')
+                setError(null)
+                setMessage(null)
+              }}
+              disabled={loading}
+            >
+              {authMode === 'reset' ? t.switchToLoginFromReset : t.switchToLogin}
+            </button>
+          )}
         </div>
 
         <div className="auth-divider">
