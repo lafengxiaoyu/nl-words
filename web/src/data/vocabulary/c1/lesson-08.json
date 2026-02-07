@@ -1,0 +1,1379 @@
+{
+  "id": "lC108",
+  "level": "C1",
+  "lessonNumber": 8,
+  "totalWords": 46,
+  "words": [
+    {
+      "id": 6261,
+      "word": "maankalender",
+      "translation": {
+        "chinese": "农历",
+        "english": "lunar calendar"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "maankalender",
+          "plural": "maankalenders"
+        }
+      },
+      "examples": [
+        "De maankalender wordt gebruikt voor feestdagen.",
+        "In de maankalender is vandaag een speciale dag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "农历用于节日。",
+          "在农历中今天是特殊的一天。"
+        ],
+        "english": [
+          "The lunar calendar is used for holidays.",
+          "In the lunar calendar today is a special day."
+        ]
+      },
+      "notes": "文化词汇，由 maan（月亮）和 kalender（日历）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6262,
+      "word": "maansverduistering",
+      "translation": {
+        "chinese": "月食",
+        "english": "lunar eclipse"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "maansverduistering",
+          "plural": "maansverduisteringen"
+        }
+      },
+      "examples": [
+        "Er is een maansverduistering vannacht.",
+        "De maansverduistering is zichtbaar vanaf hier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "今晚有月食。",
+          "从这里可以看到月食。"
+        ],
+        "english": [
+          "There is a lunar eclipse tonight.",
+          "The lunar eclipse is visible from here."
+        ]
+      },
+      "notes": "天文词汇，由 maans（月亮的）和 verduistering（食/遮蔽）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6263,
+      "word": "maatregelen treffen",
+      "translation": {
+        "chinese": "采取措施",
+        "english": "to take measures"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Wij moeten maatregelen treffen tegen de crisis.",
+        "De overheid treft maatregelen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们必须采取措施应对危机。",
+          "政府正在采取措施。"
+        ],
+        "english": [
+          "We must take measures against the crisis.",
+          "The government is taking measures."
+        ]
+      },
+      "notes": "固定短语，maatregelen 是复数形式",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6267,
+      "word": "marechaussee",
+      "translation": {
+        "chinese": "皇家宪兵",
+        "english": "military police"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "marechaussee",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De marechaussee controleert de grens.",
+        "Hij werkt bij de marechaussee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "皇家宪兵检查边境。",
+          "他在皇家宪兵工作。"
+        ],
+        "english": [
+          "The military police checks the border.",
+          "He works at the military police."
+        ]
+      },
+      "notes": "军事/警察词汇，源自法语，通常只用单数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6268,
+      "word": "marktconform",
+      "translation": {
+        "chinese": "符合市场的",
+        "english": "market-conforming, market-based"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "marktconform",
+          "withDe": "marktconforme",
+          "withHet": "marktconforme",
+          "comparative": "marktconformer",
+          "superlative": "marktconformst"
+        }
+      },
+      "examples": [
+        "Het salaris is marktconform.",
+        "Wij bieden marktconforme prijzen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "工资符合市场水平。",
+          "我们提供符合市场的价格。"
+        ],
+        "english": [
+          "The salary is market-conforming.",
+          "We offer market-based prices."
+        ]
+      },
+      "notes": "商业词汇，由 markt（市场）和 conform（符合）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6269,
+      "word": "materialistisch",
+      "translation": {
+        "chinese": "物质主义的",
+        "english": "materialistic"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "materialistisch",
+          "withDe": "materialistische",
+          "withHet": "materialistische",
+          "comparative": "materialistischer",
+          "superlative": "materialistischst"
+        }
+      },
+      "examples": [
+        "De maatschappij is erg materialistisch.",
+        "Materialistische waarden domineren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "社会非常物质主义。",
+          "物质主义价值观占主导。"
+        ],
+        "english": [
+          "Society is very materialistic.",
+          "Materialistic values dominate."
+        ]
+      },
+      "notes": "哲学/社会词汇，源自 materialisme（物质主义）",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6270,
+      "word": "mede-eigenaar",
+      "translation": {
+        "chinese": "共同所有者",
+        "english": "co-owner"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "mede-eigenaar",
+          "plural": "mede-eigenaren"
+        }
+      },
+      "examples": [
+        "Hij is mede-eigenaar van het bedrijf.",
+        "De mede-eigenaar heeft een aandeel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是公司的共同所有者。",
+          "共同所有者拥有股份。"
+        ],
+        "english": [
+          "He is co-owner of the company.",
+          "The co-owner has a share."
+        ]
+      },
+      "notes": "商业词汇，由 mede-（共同）和 eigenaar（所有者）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6271,
+      "word": "meedogenloos",
+      "translation": {
+        "chinese": "无情的",
+        "english": "merciless, ruthless"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "meedogenloos",
+          "withDe": "meedogenloze",
+          "withHet": "meedogenloze",
+          "comparative": "meedogenlozer",
+          "superlative": "meedogenloost"
+        }
+      },
+      "examples": [
+        "De concurrentie is meedogenloos.",
+        "Hij is meedogenloos in zijn oordeel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "竞争是无情的。",
+          "他在判断时很无情。"
+        ],
+        "english": [
+          "The competition is merciless.",
+          "He is ruthless in his judgment."
+        ]
+      },
+      "notes": "形容词，由 mede-（共同）+ dulden（容忍）+ -loos（无...的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6272,
+      "word": "meewerken aan",
+      "translation": {
+        "chinese": "配合，参与",
+        "english": "to cooperate with, to collaborate on"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Wij werken mee aan het project.",
+        "Wil je meewerken aan de enquête?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们参与这个项目。",
+          "你想参与调查吗？"
+        ],
+        "english": [
+          "We collaborate on the project.",
+          "Do you want to cooperate with the survey?"
+        ]
+      },
+      "notes": "固定短语，mee- 表示一起，werken 是工作",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6274,
+      "word": "mensonterend",
+      "translation": {
+        "chinese": "非人道的",
+        "english": "inhumane, degrading"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "mensonterend",
+          "withDe": "mensonterende",
+          "withHet": "mensonterende",
+          "comparative": "mensonterender",
+          "superlative": "mensonterendst"
+        }
+      },
+      "examples": [
+        "De behandeling was mensonterend.",
+        "Mensonterende omstandigheden zijn onacceptabel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这种待遇是非人道的。",
+          "非人道的环境是不可接受的。"
+        ],
+        "english": [
+          "The treatment was inhumane.",
+          "Inhumane conditions are unacceptable."
+        ]
+      },
+      "notes": "形容词，由 mens（人类）和 onterend（贬低的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6275,
+      "word": "merkloyaliteit",
+      "translation": {
+        "chinese": "品牌忠诚度",
+        "english": "brand loyalty"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "merkloyaliteit",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Merkloyaliteit is belangrijk voor bedrijven.",
+        "Klanten hebben hoge merkloyaliteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "品牌忠诚度对公司很重要。",
+          "客户有很高的品牌忠诚度。"
+        ],
+        "english": [
+          "Brand loyalty is important for companies.",
+          "Customers have high brand loyalty."
+        ]
+      },
+      "notes": "商业词汇，由 merk（品牌）和 loyaliteit（忠诚度）组成，通常不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6276,
+      "word": "met alle respect",
+      "translation": {
+        "chinese": "以所有尊重",
+        "english": "with all due respect"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Met alle respect, ik ben het niet eens.",
+        "Ik spreek met alle respect tegen hem."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "以所有尊重，我不同意。",
+          "我以所有尊重对他说话。"
+        ],
+        "english": [
+          "With all due respect, I disagree.",
+          "I speak to him with all due respect."
+        ]
+      },
+      "notes": "礼貌用语，用于表达不同意见前的礼貌铺垫",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6277,
+      "word": "met betrekking tot",
+      "translation": {
+        "chinese": "关于，涉及",
+        "english": "with regard to, regarding"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Met betrekking tot uw vraag...",
+        "Wij spreken met betrekking tot het contract."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "关于您的问题...",
+          "我们就合同进行讨论。"
+        ],
+        "english": [
+          "With regard to your question...",
+          "We speak with regard to the contract."
+        ]
+      },
+      "notes": "正式短语，betrekking 意为关系/涉及",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6278,
+      "word": "met het oog op",
+      "translation": {
+        "chinese": "鉴于，考虑到",
+        "english": "with a view to, in view of"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Met het oog op de toekomst investeren we.",
+        "Met het oog op de veiligheid..."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "鉴于未来，我们投资。",
+          "考虑到安全..."
+        ],
+        "english": [
+          "With a view to the future, we invest.",
+          "In view of safety..."
+        ]
+      },
+      "notes": "正式短语，oog 意为眼睛，引申为观点/考虑",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6279,
+      "word": "met raad en daad",
+      "translation": {
+        "chinese": "以建议和实际行动",
+        "english": "with advice and action"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Wij helpen met raad en daad.",
+        "Hij steunt met raad en daad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们以建议和实际行动帮助。",
+          "他以建议和实际行动支持。"
+        ],
+        "english": [
+          "We help with advice and action.",
+          "He supports with advice and action."
+        ]
+      },
+      "notes": "固定短语，raad 是建议，daad 是行动",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6280,
+      "word": "middelbare school",
+      "translation": {
+        "chinese": "中学",
+        "english": "secondary school, high school"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "middelbare school",
+          "plural": "middelbare scholen"
+        }
+      },
+      "examples": [
+        "Hij gaat naar de middelbare school.",
+        "De middelbare school is groot."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他去中学。",
+          "这所中学很大。"
+        ],
+        "english": [
+          "He goes to secondary school.",
+          "The high school is large."
+        ]
+      },
+      "notes": "教育词汇，由 middelbaar（中等的）和 school（学校）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6281,
+      "word": "middenvelder",
+      "translation": {
+        "chinese": "中场球员",
+        "english": "midfielder"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "middenvelder",
+          "plural": "middenvelders"
+        }
+      },
+      "examples": [
+        "De middenvelder speelt goed.",
+        "Hij is een talentvolle middenvelder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "中场球员踢得很好。",
+          "他是一位有才华的中场球员。"
+        ],
+        "english": [
+          "The midfielder plays well.",
+          "He is a talented midfielder."
+        ]
+      },
+      "notes": "体育词汇，由 midden（中间）和 velder（场地人员）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6282,
+      "word": "milieubewust",
+      "translation": {
+        "chinese": "环保意识强的",
+        "english": "environmentally conscious"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "milieubewust",
+          "withDe": "milieubewuste",
+          "withHet": "milieubewuste",
+          "comparative": "milieubewuster",
+          "superlative": "milieubewustst"
+        }
+      },
+      "examples": [
+        "De consument wordt milieubewuster.",
+        "Milieubewust gedrag is belangrijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "消费者越来越有环保意识。",
+          "环保行为很重要。"
+        ],
+        "english": [
+          "The consumer is becoming more environmentally conscious.",
+          "Environmentally conscious behavior is important."
+        ]
+      },
+      "notes": "环保词汇，由 milieu（环境）和 bewust（意识）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6283,
+      "word": "minder krachtigen",
+      "translation": {
+        "chinese": "弱势群体",
+        "english": "vulnerable groups, the less powerful"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "De overheid helpt de minder krachtigen.",
+        "Wij beschermen de minder krachtigen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "政府帮助弱势群体。",
+          "我们保护弱势群体。"
+        ],
+        "english": [
+          "The government helps the vulnerable groups.",
+          "We protect the less powerful."
+        ]
+      },
+      "notes": "社会学术语，krachtigen 意为有力量的人",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6284,
+      "word": "mineraalwater",
+      "translation": {
+        "chinese": "矿泉水",
+        "english": "mineral water"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "mineraalwater",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Ik drink mineraalwater.",
+        "Het mineraalwater komt uit de bron."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我喝矿泉水。",
+          "矿泉水来自泉眼。"
+        ],
+        "english": [
+          "I drink mineral water.",
+          "The mineral water comes from the spring."
+        ]
+      },
+      "notes": "饮品词汇，由 mineraal（矿物）和 water（水）组成，通常不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6285,
+      "word": "minister president",
+      "translation": {
+        "chinese": "首相",
+        "english": "prime minister"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "minister president",
+          "plural": "minister presidenten"
+        }
+      },
+      "examples": [
+        "De minister president spreekt vandaag.",
+        "Wij hebben een nieuwe minister president."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "首相今天讲话。",
+          "我们有一位新首相。"
+        ],
+        "english": [
+          "The prime minister speaks today.",
+          "We have a new prime minister."
+        ]
+      },
+      "notes": "政治词汇，荷兰的政府首脑称为 minister president",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6286,
+      "word": "mobiele eenheid",
+      "translation": {
+        "chinese": "移动单位",
+        "english": "mobile unit"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "mobiele eenheid",
+          "plural": "mobiele eenheden"
+        }
+      },
+      "examples": [
+        "De mobiele eenheid is ingezet.",
+        "Een mobiele eenheid controleert de weg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "移动单位已部署。",
+          "移动单位检查道路。"
+        ],
+        "english": [
+          "The mobile unit has been deployed.",
+          "A mobile unit checks the road."
+        ]
+      },
+      "notes": "军事/警察词汇，由 mobiel（移动的）和 eenheid（单位）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6287,
+      "word": "moedertaalspreker",
+      "translation": {
+        "chinese": "母语者",
+        "english": "native speaker"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "moedertaalspreker",
+          "plural": "moedertaalsprekers"
+        }
+      },
+      "examples": [
+        "Ik ben moedertaalspreker van het Nederlands.",
+        "Moedertaalsprekers spreken vloeiend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我是荷兰语的母语者。",
+          "母语者说得很流利。"
+        ],
+        "english": [
+          "I am a native speaker of Dutch.",
+          "Native speakers speak fluently."
+        ]
+      },
+      "notes": "语言学术语，由 moedertaal（母语）和 spreker（说话者）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6288,
+      "word": "moeilijkheidsgraad",
+      "translation": {
+        "chinese": "难度等级",
+        "english": "difficulty level"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "moeilijkheidsgraad",
+          "plural": "moeilijkheidsgraden"
+        }
+      },
+      "examples": [
+        "De moeilijkheidsgraad van de opdracht is hoog.",
+        "Wij verlagen de moeilijkheidsgraad."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "任务的难度等级很高。",
+          "我们降低难度等级。"
+        ],
+        "english": [
+          "The difficulty level of the assignment is high.",
+          "We lower the difficulty level."
+        ]
+      },
+      "notes": "教育/评估词汇，由 moeilijkheid（困难）和 graad（等级）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6289,
+      "word": "moet jij nodig zeggen",
+      "translation": {
+        "chinese": "你必须说",
+        "english": "you must say, you need to say"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Moet jij nodig zeggen wat je denkt.",
+        "Je moet het nodig zeggen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你必须说出你的想法。",
+          "你必须说出来。"
+        ],
+        "english": [
+          "You must say what you think.",
+          "You need to say it."
+        ]
+      },
+      "notes": "常用短语，moet 是必须，nodig 是必要",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6291,
+      "word": "mond snoeren",
+      "translation": {
+        "chinese": "封口，使沉默",
+        "english": "to silence, to shut up"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Hij snoerde de criticus de mond.",
+        "De dictator snoerde het volk de mond."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他让批评者沉默。",
+          "独裁者让人民沉默。"
+        ],
+        "english": [
+          "He silenced the critic.",
+          "The dictator silenced the people."
+        ]
+      },
+      "notes": "固定短语，mond 是嘴，snoeren 是缝/封",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6292,
+      "word": "mondharmonica",
+      "translation": {
+        "chinese": "口琴",
+        "english": "harmonica"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "mondharmonica",
+          "plural": "mondharmonica's"
+        }
+      },
+      "examples": [
+        "Hij speelt mondharmonica.",
+        "De mondharmonica klinkt mooi."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他吹口琴。",
+          "口琴听起来很美。"
+        ],
+        "english": [
+          "He plays the harmonica.",
+          "The harmonica sounds beautiful."
+        ]
+      },
+      "notes": "乐器词汇，由 mond（嘴）和 harmonica（口琴）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6293,
+      "word": "naamsbekendheid",
+      "translation": {
+        "chinese": "知名度",
+        "english": "name recognition, fame"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "naamsbekendheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De naamsbekendheid van het merk is groot.",
+        "Wij vergroten onze naamsbekendheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "品牌的知名度很高。",
+          "我们提高我们的知名度。"
+        ],
+        "english": [
+          "The brand's name recognition is high.",
+          "We increase our fame."
+        ]
+      },
+      "notes": "营销词汇，由 naam（名字）和 bekendheid（知名度）组成，通常不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6294,
+      "word": "naar behoren",
+      "translation": {
+        "chinese": "适当地，符合要求地",
+        "english": "properly, as required"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Het werkt naar behoren.",
+        "Hij functioneert naar behoren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "它适当地工作。",
+          "他符合要求地发挥作用。"
+        ],
+        "english": [
+          "It works properly.",
+          "He functions as required."
+        ]
+      },
+      "notes": "常用短语，behoren 意为属于/符合",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6295,
+      "word": "naar gelang van",
+      "translation": {
+        "chinese": "根据，取决于",
+        "english": "depending on, according to"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Naar gelang van de situatie handelen we.",
+        "De prijs varieert naar gelang van de kwaliteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们根据情况行动。",
+          "价格根据质量变化。"
+        ],
+        "english": [
+          "We act depending on the situation.",
+          "The price varies according to quality."
+        ]
+      },
+      "notes": "正式短语，gelang 意为程度/范围",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6296,
+      "word": "naar schatting",
+      "translation": {
+        "chinese": "估计",
+        "english": "estimated, by estimation"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Naar schatting zijn er 1000 deelnemers.",
+        "De kosten zijn naar schatting hoog."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "估计有1000名参与者。",
+          "成本估计很高。"
+        ],
+        "english": [
+          "There are an estimated 1000 participants.",
+          "The costs are estimated to be high."
+        ]
+      },
+      "notes": "常用短语，schatting 意为估计",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6297,
+      "word": "naastenliefde",
+      "translation": {
+        "chinese": "博爱，仁爱",
+        "english": "charity, love of neighbor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "naastenliefde",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Naastenliefde is een christelijke deugd.",
+        "De naastenliefde moet worden gepraktiseerd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "博爱是基督教美德。",
+          "仁爱应该被实践。"
+        ],
+        "english": [
+          "Charity is a Christian virtue.",
+          "Love of neighbor must be practiced."
+        ]
+      },
+      "notes": "道德/宗教词汇，由 naasten（邻人）和 liefde（爱）组成，通常不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6298,
+      "word": "nabijgelegen",
+      "translation": {
+        "chinese": "附近的",
+        "english": "nearby, adjacent"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nabijgelegen",
+          "withDe": "nabijgelegen",
+          "withHet": "nabijgelegen",
+          "comparative": "nabijgelegener",
+          "superlative": "nabijgelegenst"
+        }
+      },
+      "examples": [
+        "Het nabijgelegen dorp is klein.",
+        "Wij zoeken een nabijgelegen hotel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "附近的村庄很小。",
+          "我们寻找附近的酒店。"
+        ],
+        "english": [
+          "The nearby village is small.",
+          "We are looking for a nearby hotel."
+        ]
+      },
+      "notes": "形容词，由 nabij（附近）和 gelegen（位于）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6301,
+      "word": "natuurgebied",
+      "translation": {
+        "chinese": "自然保护区",
+        "english": "nature reserve, protected area"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "natuurgebied",
+          "plural": "natuurgebieden"
+        }
+      },
+      "examples": [
+        "Het natuurgebied is beschermd.",
+        "Wij bezoeken een natuurgebied."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "自然保护区受到保护。",
+          "我们参观一个自然保护区。"
+        ],
+        "english": [
+          "The nature reserve is protected.",
+          "We visit a protected area."
+        ]
+      },
+      "notes": "环境词汇，由 natuur（自然）和 gebied（区域）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6302,
+      "word": "natuurgeweld",
+      "translation": {
+        "chinese": "自然力量",
+        "english": "natural force, violence of nature"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "natuurgeweld",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het natuurgeweld was verwoestend.",
+        "Wij zijn machteloos tegen natuurgeweld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "自然力量是毁灭性的。",
+          "我们对自然力量无能为力。"
+        ],
+        "english": [
+          "The violence of nature was devastating.",
+          "We are powerless against natural force."
+        ]
+      },
+      "notes": "自然词汇，由 natuur（自然）和 geweld（暴力/力量）组成，通常不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6303,
+      "word": "neerkomen op",
+      "translation": {
+        "chinese": "归结为",
+        "english": "to come down to, to amount to"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Het komt neer op een beslissing.",
+        "Alles komt neer op vertrouwen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这归结为做一个决定。",
+          "一切都归结为信任。"
+        ],
+        "english": [
+          "It comes down to a decision.",
+          "Everything comes down to trust."
+        ]
+      },
+      "notes": "固定短语，neerkomen 字面意思是落下",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6304,
+      "word": "neerschieten",
+      "translation": {
+        "chinese": "击落",
+        "english": "to shoot down"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "neerschieten",
+          "isSeparable": true,
+          "prefix": "neer",
+          "present": {
+            "ik": "schiet neer",
+            "jij": "schiet neer",
+            "hij": "schiet neer",
+            "wij": "schieten neer",
+            "jullie": "schieten neer",
+            "zij": "schieten neer"
+          },
+          "past": {
+            "singular": "schoot neer",
+            "plural": "schoten neer"
+          },
+          "pastParticiple": "neergeschoten",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het vliegtuig werd neergeschoten.",
+        "Ze schoten de vijand neer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "飞机被击落。",
+          "他们击落了敌人。"
+        ],
+        "english": [
+          "The aircraft was shot down.",
+          "They shot down the enemy."
+        ]
+      },
+      "notes": "可分动词，neer- 意为向下",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6305,
+      "word": "niet meekrijgen",
+      "translation": {
+        "chinese": "不理解，跟不上",
+        "english": "not to understand, to miss"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Ik krijg het niet mee.",
+        "Hij krijgt de grap niet mee."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我不理解。",
+          "他不懂这个笑话。"
+        ],
+        "english": [
+          "I don't understand.",
+          "He doesn't get the joke."
+        ]
+      },
+      "notes": "常用短语，meekrijgen 意为跟上/理解",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6306,
+      "word": "niet voor niets",
+      "translation": {
+        "chinese": "不是无缘无故的",
+        "english": "not for nothing, with good reason"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Hij is niet voor niets de baas.",
+        "Niet voor niets is dit populair."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他不是无缘无故当老板的。",
+          "这不是无缘无故受欢迎的。"
+        ],
+        "english": [
+          "He is the boss not for nothing.",
+          "This is popular not without reason."
+        ]
+      },
+      "notes": "固定短语，表示有充分理由",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6307,
+      "word": "nietontziend",
+      "translation": {
+        "chinese": "无情的，毫不留情的",
+        "english": "ruthless, relentless"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nietontziend",
+          "withDe": "nietontziende",
+          "withHet": "nietontziende",
+          "comparative": "nietontziender",
+          "superlative": "nietontziendst"
+        }
+      },
+      "examples": [
+        "De concurrentie is nietontziend.",
+        "Hij is nietontziend in zijn oordeel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "竞争是无情的。",
+          "他在判断时毫不留情。"
+        ],
+        "english": [
+          "The competition is ruthless.",
+          "He is relentless in his judgment."
+        ]
+      },
+      "notes": "形容词，由 niet（不）和 ontziend（宽容的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6308,
+      "word": "nieuwsgierig",
+      "translation": {
+        "chinese": "好奇的",
+        "english": "curious"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "nieuwsgierig",
+          "withDe": "nieuwsgierige",
+          "withHet": "nieuwsgierige",
+          "comparative": "nieuwsgieriger",
+          "superlative": "nieuwsgierigst"
+        }
+      },
+      "examples": [
+        "Het kind is erg nieuwsgierig.",
+        "Ik ben nieuwsgierig naar het resultaat."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "孩子非常好奇。",
+          "我对结果感到好奇。"
+        ],
+        "english": [
+          "The child is very curious.",
+          "I am curious about the result."
+        ]
+      },
+      "notes": "形容词，由 nieuws（新闻）和 gierig（贪婪的）组成，但意为好奇",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6309,
+      "word": "noem maar op",
+      "translation": {
+        "chinese": "随便说，列举",
+        "english": "just name, go ahead and name"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Noem maar op wat je wilt.",
+        "Je kunt maar opnoemen wat je nodig hebt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "随便说你想要什么。",
+          "你可以列举你需要的东西。"
+        ],
+        "english": [
+          "Just name what you want.",
+          "You can just name what you need."
+        ]
+      },
+      "notes": "口语短语，opnoemen 是列举",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6310,
+      "word": "nog een keer",
+      "translation": {
+        "chinese": "再一次",
+        "english": "once more, again"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Doe het nog een keer.",
+        "Ik zie je nog een keer."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "再做一次。",
+          "我再见你一次。"
+        ],
+        "english": [
+          "Do it once more.",
+          "I see you again."
+        ]
+      },
+      "notes": "常用短语，keer 意为次/回",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6311,
+      "word": "nog wel eens",
+      "translation": {
+        "chinese": "偶尔",
+        "english": "occasionally, now and then"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Ik ga nog wel eens naar de bioscoop.",
+        "Hij komt nog wel eens langs."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我偶尔去电影院。",
+          "他偶尔经过。"
+        ],
+        "english": [
+          "I occasionally go to the cinema.",
+          "He drops by now and then."
+        ]
+      },
+      "notes": "常用短语，表示频率不高",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6312,
+      "word": "noodgedwongen",
+      "translation": {
+        "chinese": "被迫的，不得已的",
+        "english": "forced, compelled"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "noodgedwongen",
+          "withDe": "noodgedwongen",
+          "withHet": "noodgedwongen",
+          "comparative": "noodgedwongener",
+          "superlative": "noodgedwongenst"
+        }
+      },
+      "examples": [
+        "De beslissing was noodgedwongen.",
+        "Wij handelden noodgedwongen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个决定是被迫的。",
+          "我们不得已而行动。"
+        ],
+        "english": [
+          "The decision was forced.",
+          "We acted under compulsion."
+        ]
+      },
+      "notes": "形容词，由 nood（需要/强迫）和 gedwongen（被迫的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6314,
+      "word": "notie krijgen",
+      "translation": {
+        "chinese": "得到概念，理解",
+        "english": "to get an idea, to understand"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Ik krijg een notie van het probleem.",
+        "Hij krijgt geen notie van de complexiteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我对问题有了概念。",
+          "他不理解复杂性。"
+        ],
+        "english": [
+          "I get an idea of the problem.",
+          "He doesn't understand the complexity."
+        ]
+      },
+      "notes": "固定短语，notie 是概念/想法",
+      "difficulty": "C1"
+    }
+  ]
+}
