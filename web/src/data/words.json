@@ -162240,5 +162240,2924 @@
         "plural": "dwingelanden"
       }
     }
+  },
+  {
+    "id": 5964,
+    "word": "een dienst bewijzen",
+    "translation": {
+      "chinese": "提供帮助，效劳",
+      "english": "to render a service"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Ik wil u graag een dienst bewijzen.",
+      "Hij heeft de gemeenschap een grote dienst bewezen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我很乐意为您效劳。",
+        "他为社区做出了巨大贡献。"
+      ],
+      "english": [
+        "I'd like to do you a favor.",
+        "He has done a great service to the community."
+      ]
+    },
+    "notes": "固定短语，表示帮助或服务",
+    "difficulty": "C1"
+  },
+  {
+    "id": 5965,
+    "word": "een palet aan",
+    "translation": {
+      "chinese": "一系列，丰富多样的",
+      "english": "a range of, a palette of"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "De keuken biedt een palet aan smaken.",
+      "Ze toonde een palet aan emoties."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这家厨房提供了丰富的口味。",
+        "她表现出一系列情绪。"
+      ],
+      "english": [
+        "The kitchen offers a range of flavors.",
+        "She showed a palette of emotions."
+      ]
+    },
+    "notes": "比喻用法，原指调色板",
+    "difficulty": "C1"
+  },
+  {
+    "id": 5966,
+    "word": "eerstkomende",
+    "translation": {
+      "chinese": "即将到来的，下一个",
+      "english": "upcoming, next"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "De eerstkomende vergadering is op maandag.",
+      "Wanneer is de eerstkomende trein?"
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "即将到来的会议在周一。",
+        "下一班火车是什么时候？"
+      ],
+      "english": [
+        "The upcoming meeting is on Monday.",
+        "When is the next train?"
+      ]
+    },
+    "notes": "分词形容词，表示即将来临的",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "eerstkomend",
+        "withDe": "eerstkomende",
+        "withHet": "eerstkomende",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 5967,
+    "word": "eet smakelijk",
+    "translation": {
+      "chinese": "祝你胃口好",
+      "english": "bon appétit, enjoy your meal"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Eet smakelijk!",
+      "De gasten wenste elkaar eet smakelijk."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "祝你胃口好！",
+        "客人们互相祝愿用餐愉快。"
+      ],
+      "english": [
+        "Bon appétit!",
+        "The guests wished each other a pleasant meal."
+      ]
+    },
+    "notes": "用餐前的礼貌用语",
+    "difficulty": "C1"
+  },
+  {
+    "id": 5968,
+    "word": "eindexamenjaar",
+    "translation": {
+      "chinese": "毕业年级，高三",
+      "english": "final year, senior year"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Ze zitten in hun eindexamenjaar.",
+      "Het eindexamenjaar is stressvol voor veel leerlingen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她们正在读毕业年级。",
+        "毕业年级对很多学生来说很有压力。"
+      ],
+      "english": [
+        "They are in their final year.",
+        "The final year is stressful for many students."
+      ]
+    },
+    "notes": "复合名词，来自einde（结束）+ examen（考试）+ jaar（年）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "eindexamenjaar",
+        "plural": "eindexamenjaren"
+      }
+    }
+  },
+  {
+    "id": 5969,
+    "word": "eindredacteur",
+    "translation": {
+      "chinese": "主编，总编辑",
+      "english": "editor-in-chief"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De eindredacteur gaf het artikel goedkeuring.",
+      "Ze werkt als eindredacteur bij een grote krant."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "主编批准了这篇文章。",
+        "她在一家大报社担任主编。"
+      ],
+      "english": [
+        "The editor-in-chief approved the article.",
+        "She works as an editor-in-chief at a major newspaper."
+      ]
+    },
+    "notes": "复合名词，来自eind（结尾）+ redacteur（编辑）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "eindredacteur",
+        "plural": "eindredacteuren"
+      }
+    }
+  },
+  {
+    "id": 5970,
+    "word": "energiezuinig",
+    "translation": {
+      "chinese": "节能的",
+      "english": "energy-efficient"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Dit is een energiezuinige woning.",
+      "De nieuwe apparaten zijn energiezuiniger dan de oude."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是一所节能的房子。",
+        "新设备比旧的更节能。"
+      ],
+      "english": [
+        "This is an energy-efficient house.",
+        "The new appliances are more energy-efficient than the old ones."
+      ]
+    },
+    "notes": "复合形容词，表示节能的",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "energiezuinig",
+        "withDe": "energiezuinige",
+        "withHet": "energiezuinige",
+        "comparative": "energiezuiniger",
+        "superlative": "energiezuinigst"
+      }
+    }
+  },
+  {
+    "id": 5971,
+    "word": "er dwars doorheen kijken",
+    "translation": {
+      "chinese": "看透，看穿",
+      "english": "to see through, to look straight through"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Ik kan dwars doorheen zijn bedoelingen kijken.",
+      "Ze keek dwars doorheen zijn façade."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我能看穿他的意图。",
+        "她看穿了他的伪装。"
+      ],
+      "english": [
+        "I can see through his intentions.",
+        "She saw straight through his façade."
+      ]
+    },
+    "notes": "比喻用法，表示洞察力强",
+    "difficulty": "C1"
+  },
+  {
+    "id": 5972,
+    "word": "er is sprake van",
+    "translation": {
+      "chinese": "存在，涉及，指的是",
+      "english": "there is, it involves, it refers to"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Er is sprake van een nieuwe situatie.",
+      "In dit geval is er sprake van een misverstand."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "存在一种新情况。",
+        "在这种情况下，这是一个误会。"
+      ],
+      "english": [
+        "There is a new situation.",
+        "In this case, it is a misunderstanding."
+      ]
+    },
+    "notes": "固定短语，表示存在或涉及某事",
+    "difficulty": "C1"
+  },
+  {
+    "id": 5973,
+    "word": "erachter te komen",
+    "translation": {
+      "chinese": "发现，查明",
+      "english": "to find out, to discover"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Hij kwam erachter dat ze gelogen had.",
+      "We komen erachter wat er echt aan de hand is."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他发现她撒谎了。",
+        "我们会查明到底发生了什么。"
+      ],
+      "english": [
+        "He found out that she had lied.",
+        "We will find out what is really going on."
+      ]
+    },
+    "notes": "固定短语，表示发现真相",
+    "difficulty": "C1"
+  },
+  {
+    "id": 5974,
+    "word": "erfafscheiding",
+    "translation": {
+      "chinese": "围栏，地界篱",
+      "english": "fence, boundary fence"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De erfafscheiding tussen de twee huizen was kapot.",
+      "Ze hebben een nieuwe erfafscheiding geplaatst."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "两栋房子之间的围栏坏了。",
+        "他们安装了新的围栏。"
+      ],
+      "english": [
+        "The fence between the two houses was broken.",
+        "They have installed a new fence."
+      ]
+    },
+    "notes": "复合名词，来自erf（房产）+ afscheiding（分隔）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "erfafscheiding",
+        "plural": "erfafscheidingen"
+      }
+    }
+  },
+  {
+    "id": 5975,
+    "word": "ervoor vragen",
+    "translation": {
+      "chinese": "要求，请求",
+      "english": "to ask for, to request"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Ik wil graag ervoor vragen dat dit wordt opgelost.",
+      "Ze vroeg ervoor dat de regels worden nageleefd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我想要求解决这个问题。",
+        "她要求遵守规则。"
+      ],
+      "english": [
+        "I would like to ask for this to be resolved.",
+        "She requested that the rules be followed."
+      ]
+    },
+    "notes": "可分动词短语，er作为回指代词",
+    "difficulty": "C1"
+  },
+  {
+    "id": 5976,
+    "word": "evolutionair",
+    "translation": {
+      "chinese": "进化的，演变的",
+      "english": "evolutionary"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Dit is een evolutionair proces.",
+      "De evolutionaire ontwikkeling is traag."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是一个进化过程。",
+        "进化发展是缓慢的。"
+      ],
+      "english": [
+        "This is an evolutionary process.",
+        "Evolutionary development is slow."
+      ]
+    },
+    "notes": "形容词，表示进化的或演变的",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "evolutionair",
+        "withDe": "evolutionaire",
+        "withHet": "evolutionaire",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 5977,
+    "word": "examenwijzer",
+    "translation": {
+      "chinese": "考试指南",
+      "english": "exam guide"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De examenwijzer bevat veel nuttige tips.",
+      "Ik heb de examenwijzer doorgenomen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "考试指南包含很多有用的技巧。",
+        "我已经读完了考试指南。"
+      ],
+      "english": [
+        "The exam guide contains many useful tips.",
+        "I have gone through the exam guide."
+      ]
+    },
+    "notes": "复合名词，来自examen（考试）+ wijzer（指针/指南）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "examenwijzer",
+        "plural": "examenwijzers"
+      }
+    }
+  },
+  {
+    "id": 5979,
+    "word": "falsificeren",
+    "translation": {
+      "chinese": "伪造",
+      "english": "to falsify, to forge"
+    },
+    "partOfSpeech": "verb",
+    "examples": [
+      "Hij werd beschuldigd van het falsificeren van documenten.",
+      "Het is strafbaar om handtekeningen te falsificeren."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他被指控伪造文件。",
+        "伪造签名是违法的。"
+      ],
+      "english": [
+        "He was accused of falsifying documents.",
+        "It is a criminal offense to falsify signatures."
+      ]
+    },
+    "notes": "动词，表示伪造或篡改",
+    "difficulty": "C1",
+    "forms": {
+      "verb": {
+        "infinitive": "falsificeren",
+        "isSeparable": false,
+        "present": {
+          "ik": "falsificeer",
+          "jij": "falsificeert",
+          "hij": "falsificeert",
+          "wij": "falsificeren",
+          "jullie": "falsificeren",
+          "zij": "falsificeren"
+        },
+        "past": {
+          "singular": "falsificeerde",
+          "plural": "falsificeerden"
+        },
+        "pastParticiple": "gefalsificeerd",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    }
+  },
+  {
+    "id": 5980,
+    "word": "fantasierijk",
+    "translation": {
+      "chinese": "富有想象力的",
+      "english": "imaginative"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Ze heeft een zeer fantasierijk kind.",
+      "Dit fantasierijke verhaal spreekt tot de verbeelding."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她有一个非常有想象力的孩子。",
+        "这个富有想象力的故事引人入胜。"
+      ],
+      "english": [
+        "She has a very imaginative child.",
+        "This imaginative story captures the imagination."
+      ]
+    },
+    "notes": "复合形容词，来自fantasie（幻想）+ rijk（丰富的）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "fantasierijk",
+        "withDe": "fantasierijke",
+        "withHet": "fantasierijke",
+        "comparative": "fantasierijker",
+        "superlative": "fantasierijkst"
+      }
+    }
+  },
+  {
+    "id": 5981,
+    "word": "fietsenmaker",
+    "translation": {
+      "chinese": "自行车修理工",
+      "english": "bicycle repairer, bike mechanic"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De fietsenmaker heeft mijn fiets gerepareerd.",
+      "Ze werkt als fietsenmaker in de buurt."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "自行车修理工修好了我的自行车。",
+        "她在附近的自行车修理店工作。"
+      ],
+      "english": [
+        "The bicycle repairer fixed my bike.",
+        "She works as a bike mechanic in the neighborhood."
+      ]
+    },
+    "notes": "复合名词，来自fietsen（自行车复数）+ maker（制造者）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "fietsenmaker",
+        "plural": "fietsenmakers"
+      }
+    }
+  },
+  {
+    "id": 5982,
+    "word": "fiscaal jurist",
+    "translation": {
+      "chinese": "税务律师",
+      "english": "tax lawyer"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De fiscaal jurist adviseerde ons over belastingen.",
+      "Hij werkt als fiscaal jurist bij een advocatenkantoor."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "税务律师就税务问题给我们提供建议。",
+        "他在律师事务所担任税务律师。"
+      ],
+      "english": [
+        "The tax lawyer advised us on taxes.",
+        "He works as a tax lawyer at a law firm."
+      ]
+    },
+    "notes": "复合名词，来自fiscaal（财政的）+ jurist（律师）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "fiscaal jurist",
+        "plural": "fiscale juristen"
+      }
+    }
+  },
+  {
+    "id": 5983,
+    "word": "fluistertoon",
+    "translation": {
+      "chinese": "耳语声，低语声",
+      "english": "whisper"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Ze sprak in een fluistertoon.",
+      "De kamer was gevuld met fluistertonen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她用耳语声说话。",
+        "房间里充满了低语声。"
+      ],
+      "english": [
+        "She spoke in a whisper.",
+        "The room was filled with whispers."
+      ]
+    },
+    "notes": "复合名词，来自fluisteren（耳语）+ toon（声调）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "fluistertoon",
+        "plural": "fluistertonen"
+      }
+    }
+  },
+  {
+    "id": 5984,
+    "word": "functiewaarderingssysteem",
+    "translation": {
+      "chinese": "职位评估系统",
+      "english": "job evaluation system"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Het bedrijf heeft een nieuw functiewaarderingssysteem ingevoerd.",
+      "Het functiewaarderingssysteem bepaalt het salaris."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "公司引入了新的职位评估系统。",
+        "职位评估系统决定薪资。"
+      ],
+      "english": [
+        "The company introduced a new job evaluation system.",
+        "The job evaluation system determines the salary."
+      ]
+    },
+    "notes": "复杂复合名词，来自functie（职位）+ waardering（评估）+ systeem（系统）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "functiewaarderingssysteem",
+        "plural": "functiewaarderingssystemen"
+      }
+    }
+  },
+  {
+    "id": 5985,
+    "word": "functionaris",
+    "translation": {
+      "chinese": "官员，职员",
+      "english": "official, officer"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De functionaris tekende het contract.",
+      "Hij is een hoge functionaris bij de overheid."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "官员签署了合同。",
+        "他是政府的高级官员。"
+      ],
+      "english": [
+        "The official signed the contract.",
+        "He is a high-ranking official in the government."
+      ]
+    },
+    "notes": "名词，表示官员或特定职位的人员",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "functionaris",
+        "plural": "functionarissen"
+      }
+    }
+  },
+  {
+    "id": 5987,
+    "word": "gaan er doorheen",
+    "translation": {
+      "chinese": "经历，熬过",
+      "english": "to go through, to endure"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Ze is er doorheen gegaan, maar ze is sterk gebleven.",
+      "We moeten er samen doorheen gaan."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她熬过了，但她依然坚强。",
+        "我们需要一起经历这一切。"
+      ],
+      "english": [
+        "She went through it, but she stayed strong.",
+        "We have to go through this together."
+      ]
+    },
+    "notes": "短语，表示经历困难时期",
+    "difficulty": "C1"
+  },
+  {
+    "id": 5988,
+    "word": "gaan richting",
+    "translation": {
+      "chinese": "朝向，走向",
+      "english": "to go towards, to head towards"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Ze gaan richting het station.",
+      "De economie gaat richting herstel."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他们朝车站走去。",
+        "经济正在走向复苏。"
+      ],
+      "english": [
+        "They are heading towards the station.",
+        "The economy is heading towards recovery."
+      ]
+    },
+    "notes": "短语，表示方向或趋势",
+    "difficulty": "C1"
+  },
+  {
+    "id": 5990,
+    "word": "geaccrediteerd",
+    "translation": {
+      "chinese": "认证的，认可的",
+      "english": "accredited"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Dit is een geaccrediteerd instituut.",
+      "De cursus is geaccrediteerd door het ministerie."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是一家经过认证的机构。",
+        "这门课程由部里认证。"
+      ],
+      "english": [
+        "This is an accredited institution.",
+        "The course is accredited by the ministry."
+      ]
+    },
+    "notes": "分词形容词，来自accrediteren（认证）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "geaccrediteerd",
+        "withDe": "geaccrediteerde",
+        "withHet": "geaccrediteerde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 5991,
+    "word": "geactualiseerd",
+    "translation": {
+      "chinese": "更新的，最新的",
+      "english": "updated, current"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Hieronder vind u de geactualiseerde lijst.",
+      "De informatie is geactualiseerd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "下面您可以看到更新的列表。",
+        "信息已更新。"
+      ],
+      "english": [
+        "Below you will find the updated list.",
+        "The information has been updated."
+      ]
+    },
+    "notes": "分词形容词，来自actualiseren（更新）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "geactualiseerd",
+        "withDe": "geactualiseerde",
+        "withHet": "geactualiseerde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 5992,
+    "word": "geanonimiseerd",
+    "translation": {
+      "chinese": "匿名的，经过匿名处理的",
+      "english": "anonymized"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "De gegevens zijn geanonimiseerd.",
+      "Het onderzoek is uitgevoerd met geanonimiseerde data."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "数据已匿名处理。",
+        "研究使用的是匿名化数据。"
+      ],
+      "english": [
+        "The data has been anonymized.",
+        "The study was conducted with anonymized data."
+      ]
+    },
+    "notes": "分词形容词，来自anoniemiseren（匿名化）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "geanonimiseerd",
+        "withDe": "geanonimiseerde",
+        "withHet": "geanonimiseerde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 5993,
+    "word": "geboorteland",
+    "translation": {
+      "chinese": "祖国，出生地",
+      "english": "country of birth, homeland"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Hij keerde terug naar zijn geboorteland.",
+      "Nederland is haar geboorteland."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他回到了祖国。",
+        "荷兰是她的祖国。"
+      ],
+      "english": [
+        "He returned to his homeland.",
+        "The Netherlands is her country of birth."
+      ]
+    },
+    "notes": "复合名词，来自geboorte（出生）+ land（国家）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "geboorteland",
+        "plural": "geboortelanden"
+      }
+    }
+  },
+  {
+    "id": 5994,
+    "word": "gebroederlijk",
+    "translation": {
+      "chinese": "兄弟般的，友好的",
+      "english": "brotherly, fraternal"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Ze sloot een gebroederlijk akkoord.",
+      "Er was een gebroederlijke sfeer."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她达成了一项兄弟般的协议。",
+        "气氛很友好。"
+      ],
+      "english": [
+        "She concluded a brotherly agreement.",
+        "There was a fraternal atmosphere."
+      ]
+    },
+    "notes": "形容词，表示兄弟般的友好",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gebroederlijk",
+        "withDe": "gebroederlijke",
+        "withHet": "gebroederlijke",
+        "comparative": "gebroederlijker",
+        "superlative": "gebroederlijkst"
+      }
+    }
+  },
+  {
+    "id": 5996,
+    "word": "gebruiksduur",
+    "translation": {
+      "chinese": "使用期限，寿命",
+      "english": "service life, duration of use"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De gebruiksduur van dit apparaat is lang.",
+      "De gebruiksduur is verlengd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这台设备的使用期限很长。",
+        "使用期限已延长。"
+      ],
+      "english": [
+        "The service life of this device is long.",
+        "The duration of use has been extended."
+      ]
+    },
+    "notes": "复合名词，来自gebruik（使用）+ duur（持续）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "gebruiksduur",
+        "plural": "gebruiksduur"
+      }
+    }
+  },
+  {
+    "id": 5997,
+    "word": "gebruiksnaam",
+    "translation": {
+      "chinese": "用户名",
+      "english": "username"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Vul uw gebruiksnaam en wachtwoord in.",
+      "De gebruiksnaam bestaat al."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "输入您的用户名和密码。",
+        "用户名已存在。"
+      ],
+      "english": [
+        "Enter your username and password.",
+        "The username already exists."
+      ]
+    },
+    "notes": "复合名词，来自gebruik（使用）+ naam（名字）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "gebruiksnaam",
+        "plural": "gebruikersnamen"
+      }
+    }
+  },
+  {
+    "id": 5998,
+    "word": "gecompliceerd",
+    "translation": {
+      "chinese": "复杂的",
+      "english": "complicated, complex"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "De situatie is erg gecompliceerd.",
+      "Dit is een gecompliceerd probleem."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "情况非常复杂。",
+        "这是一个复杂的问题。"
+      ],
+      "english": [
+        "The situation is very complicated.",
+        "This is a complicated problem."
+      ]
+    },
+    "notes": "分词形容词，来自compliceren（使复杂）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gecompliceerd",
+        "withDe": "gecompliceerde",
+        "withHet": "gecompliceerde",
+        "comparative": "gecompliceerder",
+        "superlative": "gecompliceerdst"
+      }
+    }
+  },
+  {
+    "id": 5999,
+    "word": "gedeeltelijk",
+    "translation": {
+      "chinese": "部分地，不完全地",
+      "english": "partially, partly"
+    },
+    "partOfSpeech": "adverb",
+    "examples": [
+      "Het gebouw is gedeeltelijk vernietigd.",
+      "De taak is gedeeltelijk voltooid."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "建筑物部分被毁。",
+        "任务部分完成。"
+      ],
+      "english": [
+        "The building is partially destroyed.",
+        "The task is partly completed."
+      ]
+    },
+    "notes": "副词，表示部分的程度",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6000,
+    "word": "gedesoriënteerd",
+    "translation": {
+      "chinese": "迷失方向的，困惑的",
+      "english": "disoriented, confused"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "De oude man voelde zich gedesoriënteerd.",
+      "Ze was gedesoriënteerd in de nieuwe stad."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "老人感到迷失方向。",
+        "她在新城市里感到困惑。"
+      ],
+      "english": [
+        "The elderly man felt disoriented.",
+        "She was disoriented in new city."
+      ]
+    },
+    "notes": "分词形容词，来自desoriënteren（使迷失方向）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gedesoriënteerd",
+        "withDe": "gedesoriënteerde",
+        "withHet": "gedesoriënteerde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6001,
+    "word": "gedetailleerd",
+    "translation": {
+      "chinese": "详细的",
+      "english": "detailed"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Ze gaf een gedetailleerde uitleg.",
+      "Het rapport is zeer gedetailleerd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她给出了详细的解释。",
+        "报告非常详细。"
+      ],
+      "english": [
+        "She gave a detailed explanation.",
+        "The report is very detailed."
+      ]
+    },
+    "notes": "分词形容词，来自detailleren（详细说明）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gedetailleerd",
+        "withDe": "gedetailleerde",
+        "withHet": "gedetailleerde",
+        "comparative": "gedetailleerder",
+        "superlative": "gedetailleerdst"
+      }
+    }
+  },
+  {
+    "id": 6002,
+    "word": "gediplomeerd",
+    "translation": {
+      "chinese": "获得学位的，持有文凭的",
+      "english": "graduated, diploma-qualified"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Ze is een gediplomeerd verpleegkundige.",
+      "Alle gediplomeerden zijn uitgenodigd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她是一名持有文凭的护士。",
+        "所有毕业生都被邀请了。"
+      ],
+      "english": [
+        "She is a qualified nurse with a diploma.",
+        "All graduates have been invited."
+      ]
+    },
+    "notes": "分词形容词，来自diploma（文凭）+ er（人）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gediplomeerd",
+        "withDe": "gediplomeerde",
+        "withHet": "gediplomeerde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6003,
+    "word": "gedisciplineerd",
+    "translation": {
+      "chinese": "有纪律的，守纪律的",
+      "english": "disciplined"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Hij is een gedisciplineerd student.",
+      "De training was gedisciplineerd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他是一个有纪律的学生。",
+        "训练很守纪律。"
+      ],
+      "english": [
+        "He is a disciplined student.",
+        "The training was disciplined."
+      ]
+    },
+    "notes": "分词形容词，来自discipline（纪律）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gedisciplineerd",
+        "withDe": "gedisciplineerde",
+        "withHet": "gedisciplineerde",
+        "comparative": "gedisciplineerder",
+        "superlative": "gedisciplineerdst"
+      }
+    }
+  },
+  {
+    "id": 6004,
+    "word": "geen probleem",
+    "translation": {
+      "chinese": "没问题",
+      "english": "no problem"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Dat is geen probleem.",
+      "Geen probleem, ik help je."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "那没问题。",
+        "没问题，我会帮你。"
+      ],
+      "english": [
+        "That's no problem.",
+        "No problem, I'll help you."
+      ]
+    },
+    "notes": "常用短语，表示同意或愿意帮忙",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6005,
+    "word": "geen sprake van",
+    "translation": {
+      "chinese": "不存在，没有涉及",
+      "english": "there is no question of, it's not about"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Er is geen sprake van discriminatie.",
+      "Van een overwinning is geen sprake."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "不存在歧视。",
+        "谈不上胜利。"
+      ],
+      "english": [
+        "There is no question of discrimination.",
+        "There is no question of a victory."
+      ]
+    },
+    "notes": "固定短语，表示否定",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6006,
+    "word": "gefascineerd",
+    "translation": {
+      "chinese": "着迷的，被吸引的",
+      "english": "fascinated"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Ze was gefascineerd door het verhaal.",
+      "Ik ben gefascineerd door de sterren."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她被这个故事迷住了。",
+        "我对星星很着迷。"
+      ],
+      "english": [
+        "She was fascinated by the story.",
+        "I am fascinated by stars."
+      ]
+    },
+    "notes": "分词形容词，来自fascineren（使着迷）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gefascineerd",
+        "withDe": "gefascineerde",
+        "withHet": "gefascineerde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6008,
+    "word": "gehaktballetje",
+    "translation": {
+      "chinese": "肉丸子",
+      "english": "meatball"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De gehaktballetjes zijn heerlijk.",
+      "Ik maak zelf gehaktballetjes."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "肉丸子很好吃。",
+        "我自己做肉丸子。"
+      ],
+      "english": [
+        "The meatballs are delicious.",
+        "I make meatballs myself."
+      ]
+    },
+    "notes": "指小词，来自gehakt（肉末）+ bal（球）+etje",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "gehaktballetje",
+        "plural": "gehaktballetjes"
+      }
+    }
+  },
+  {
+    "id": 6009,
+    "word": "geheimzinnig",
+    "translation": {
+      "chinese": "神秘的，保密的",
+      "english": "mysterious, secretive"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Ze lachte geheimzinnig.",
+      "Het verhaal heeft een geheimzinnig einde."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她神秘地笑了。",
+        "故事有一个神秘的结局。"
+      ],
+      "english": [
+        "She smiled mysteriously.",
+        "The story has a mysterious ending."
+      ]
+    },
+    "notes": "复合形容词，来自geheim（秘密）+ zinnig（性质的）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "geheimzinnig",
+        "withDe": "geheimzinnige",
+        "withHet": "geheimzinnige",
+        "comparative": "geheimzinniger",
+        "superlative": "geheimzinnigst"
+      }
+    }
+  },
+  {
+    "id": 6010,
+    "word": "geheugenverlies",
+    "translation": {
+      "chinese": "失忆",
+      "english": "memory loss, amnesia"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Het ongeluk veroorzaakte geheugenverlies.",
+      "Ze lijdt aan geheugenverlies."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "事故导致了失忆。",
+        "她患有失忆症。"
+      ],
+      "english": [
+        "The accident caused memory loss.",
+        "She suffers from memory loss."
+      ]
+    },
+    "notes": "复合名词，来自geheugen（记忆）+ verlies（损失）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "geheugenverlies",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6011,
+    "word": "gehoorapparaat",
+    "translation": {
+      "chinese": "助听器",
+      "english": "hearing aid"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Ze draagt een gehoorapparaat.",
+      "Het gehoorapparaat werkt goed."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她戴着助听器。",
+        "助听器工作正常。"
+      ],
+      "english": [
+        "She wears a hearing aid.",
+        "The hearing aid works well."
+      ]
+    },
+    "notes": "复合名词，来自gehoor（听觉）+ apparaat（设备）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "gehoorapparaat",
+        "plural": "gehoorapparaten"
+      }
+    }
+  },
+  {
+    "id": 6012,
+    "word": "gehoorzaamheid",
+    "translation": {
+      "chinese": "服从，顺从",
+      "english": "obedience"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De kinderen toonden gehoorzaamheid.",
+      "Hij eist absolute gehoorzaamheid."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "孩子们表现得很顺从。",
+        "他要求绝对服从。"
+      ],
+      "english": [
+        "The children showed obedience.",
+        "He demands absolute obedience."
+      ]
+    },
+    "notes": "抽象名词，来自gehoorzaam（听话的）+ heid",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "gehoorzaamheid",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6014,
+    "word": "geldigheidsduur",
+    "translation": {
+      "chinese": "有效期",
+      "english": "validity period"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De geldigheidsduur van het contract is twee jaar.",
+      "Controleer de geldigheidsduur van uw paspoort."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "合同的有效期是两年。",
+        "检查您护照的有效期。"
+      ],
+      "english": [
+        "The validity period of contract is two years.",
+        "Check the validity period of your passport."
+      ]
+    },
+    "notes": "复合名词，来自geldigheid（有效性）+ duur（持续）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "geldigheidsduur",
+        "plural": "geldigheidsduren"
+      }
+    }
+  },
+  {
+    "id": 6015,
+    "word": "gelijk halen",
+    "translation": {
+      "chinese": "追上，赶上",
+      "english": "to catch up, to equalize"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Ik moest gelijkhalen met de anderen.",
+      "Ze probeerde gelijk te halen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我必须追上其他人。",
+        "她试图赶上。"
+      ],
+      "english": [
+        "I had to catch up with others.",
+        "She tried to catch up."
+      ]
+    },
+    "notes": "短语，表示追赶或达到同等水平",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6016,
+    "word": "gelijk hebben",
+    "translation": {
+      "chinese": "对，说得对",
+      "english": "to be right"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Je hebt gelijk.",
+      "Hij heeft gelijk in zijn argument."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "你是对的。",
+        "他的论点是对的。"
+      ],
+      "english": [
+        "You are right.",
+        "He is right in his argument."
+      ]
+    },
+    "notes": "常用短语，表示同意或肯定",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6017,
+    "word": "gelijkaardig",
+    "translation": {
+      "chinese": "相似的",
+      "english": "similar"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "De situaties zijn gelijkaardig.",
+      "Ze hebben gelijkaardige interesses."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "情况相似。",
+        "她们有相似的爱好。"
+      ],
+      "english": [
+        "The situations are similar.",
+        "They have similar interests."
+      ]
+    },
+    "notes": "形容词，与gelijkwaardig相近，但更强调相似性",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gelijkaardig",
+        "withDe": "gelijkaardige",
+        "withHet": "gelijkaardige",
+        "comparative": "gelijkaardiger",
+        "superlative": "gelijkaardigst"
+      }
+    }
+  },
+  {
+    "id": 6018,
+    "word": "gelijkgestemd",
+    "translation": {
+      "chinese": "意见一致的",
+      "english": "like-minded"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Ze zijn gelijkgestemd over dit onderwerp.",
+      "Een groep gelijkgestemde mensen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她们在这个问题上意见一致。",
+        "一群志同道合的人。"
+      ],
+      "english": [
+        "They are like-minded on this topic.",
+        "A group of like-minded people."
+      ]
+    },
+    "notes": "分词形容词，来自gelijkstellen（视作相同）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gelijkgestemd",
+        "withDe": "gelijkgestemde",
+        "withHet": "gelijkgestemde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6019,
+    "word": "gelijkluidend",
+    "translation": {
+      "chinese": "发音相同的",
+      "english": "homophonic, sounding the same"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "De woorden zijn gelijkluidend maar betekenen anders.",
+      "Er zijn veel gelijkluidende woorden in het Nederlands."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这些词发音相同但意思不同。",
+        "荷兰语中有很多发音相同的词。"
+      ],
+      "english": [
+        "The words sound the same but mean different things.",
+        "There are many homophonic words in Dutch."
+      ]
+    },
+    "notes": "形容词，指发音相同的词（同音词）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gelijkluidend",
+        "withDe": "gelijkluidende",
+        "withHet": "gelijkluidende",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6020,
+    "word": "gelijksoortig",
+    "translation": {
+      "chinese": "同类的，类似的",
+      "english": "similar in nature, of the same kind"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Dit is een gelijksoortig probleem.",
+      "Er zijn gelijksoortige gevallen gemeld."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是一个类似的问题。",
+        "有类似的案例被报告。"
+      ],
+      "english": [
+        "This is a similar kind of problem.",
+        "Similar cases have been reported."
+      ]
+    },
+    "notes": "复合形容词，表示相同类型的",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gelijksoortig",
+        "withDe": "gelijksoortige",
+        "withHet": "gelijksoortige",
+        "comparative": "gelijksoortiger",
+        "superlative": "gelijksoortigst"
+      }
+    }
+  },
+  {
+    "id": 6021,
+    "word": "gelijkstellen",
+    "translation": {
+      "chinese": "视为相同，等同",
+      "english": "to equate, to identify"
+    },
+    "partOfSpeech": "verb",
+    "examples": [
+      "Je kunt deze twee gevallen niet gelijkstellen.",
+      "Ze stelde beide theorieën aan elkaar gelijk."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "你不能把这两种情况视为相同。",
+        "她把两种理论等同起来。"
+      ],
+      "english": [
+        "You cannot equate these two cases.",
+        "She equated both theories."
+      ]
+    },
+    "notes": "动词，表示视为相同或相等",
+    "difficulty": "C1",
+    "forms": {
+      "verb": {
+        "infinitive": "gelijkstellen",
+        "isSeparable": false,
+        "present": {
+          "ik": "stel gelijk",
+          "jij": "stelt gelijk",
+          "hij": "stelt gelijk",
+          "wij": "stellen gelijk",
+          "jullie": "stellen gelijk",
+          "zij": "stellen gelijk"
+        },
+        "past": {
+          "singular": "stelde gelijk",
+          "plural": "stelden gelijk"
+        },
+        "pastParticiple": "gelijkgesteld",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    }
+  },
+  {
+    "id": 6023,
+    "word": "geloofsovertuiging",
+    "translation": {
+      "chinese": "信仰，宗教信仰",
+      "english": "religious belief, faith"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Ze respecteren elkaars geloofsovertuiging.",
+      "Iedereen heeft recht op zijn geloofsovertuiging."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她们互相尊重对方的信仰。",
+        "每个人都有权拥有自己的信仰。"
+      ],
+      "english": [
+        "They respect each other's religious beliefs.",
+        "Everyone has the right to their own religious belief."
+      ]
+    },
+    "notes": "复合名词，来自geloof（信仰）+ overtuiging（信念）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "geloofsovertuiging",
+        "plural": "geloofsovertuigingen"
+      }
+    }
+  },
+  {
+    "id": 6025,
+    "word": "geluidshinder",
+    "translation": {
+      "chinese": "噪音干扰",
+      "english": "noise nuisance"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De geluidshinder in deze buurt is groot.",
+      "De bewoners klagen over geluidshinder."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这个社区的噪音干扰很大。",
+        "居民投诉噪音干扰。"
+      ],
+      "english": [
+        "The noise nuisance in this neighborhood is high.",
+        "The residents complain about noise nuisance."
+      ]
+    },
+    "notes": "复合名词，来自geluid（声音）+ hinder（干扰）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "geluidshinder",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6026,
+    "word": "geluidsinstallatie",
+    "translation": {
+      "chinese": "音响系统",
+      "english": "sound system, audio system"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De zaal heeft een nieuwe geluidsinstallatie.",
+      "De geluidsinstallatie werkte perfect."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "大厅有一套新的音响系统。",
+        "音响系统工作完美。"
+      ],
+      "english": [
+        "The hall has a new sound system.",
+        "The sound system worked perfectly."
+      ]
+    },
+    "notes": "复合名词，来自geluid（声音）+ installatie（设备）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "geluidsinstallatie",
+        "plural": "geluidsinstallaties"
+      }
+    }
+  },
+  {
+    "id": 6027,
+    "word": "geluidsoverlast",
+    "translation": {
+      "chinese": "噪音污染，噪音过载",
+      "english": "noise pollution, excessive noise"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Geluidsoverlast is een groot probleem in steden.",
+      "Er zijn regels tegen geluidsoverlast."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "噪音污染是城市的一大问题。",
+        "有针对噪音过载的法规。"
+      ],
+      "english": [
+        "Noise pollution is a big problem in cities.",
+        "There are regulations against excessive noise."
+      ]
+    },
+    "notes": "复合名词，来自geluid（声音）+ overlast（过度负担）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "geluidsoverlast",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6028,
+    "word": "geluidssterkte",
+    "translation": {
+      "chinese": "音量，声音强度",
+      "english": "volume, sound intensity"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De geluidssterkte is te hoog.",
+      "Verlaag de geluidssterkte alstublieft."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "音量太高了。",
+        "请降低音量。"
+      ],
+      "english": [
+        "The volume is too high.",
+        "Please lower the volume."
+      ]
+    },
+    "notes": "复合名词，来自geluid（声音）+ sterkte（强度）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "geluidssterkte",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6029,
+    "word": "gemakkerlijk",
+    "translation": {
+      "chinese": "更舒适的，更方便的",
+      "english": "more comfortable, more convenient"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Het leven is gemakkelijker geworden.",
+      "Een gemakkelijkere manier van werken."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "生活变得更舒适了。",
+        "一种更方便的工作方式。"
+      ],
+      "english": [
+        "Life has become more comfortable.",
+        "A more convenient way of working."
+      ]
+    },
+    "notes": "形容词gemakkelijk的比较级形式",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gemakkelijk",
+        "withDe": "gemakkelijkere",
+        "withHet": "gemakkelijkere",
+        "comparative": "gemakkelijker",
+        "superlative": "gemakkelijkst"
+      }
+    }
+  },
+  {
+    "id": 6030,
+    "word": "gemeenschappelijk",
+    "translation": {
+      "chinese": "共同的，公共的",
+      "english": "common, shared, communal"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Ze hebben een gemeenschappelijk doel.",
+      "De keuken is een gemeenschappelijke ruimte."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她们有一个共同的目标。",
+        "厨房是一个公共空间。"
+      ],
+      "english": [
+        "They have a common goal.",
+        "The kitchen is a shared space."
+      ]
+    },
+    "notes": "形容词，表示共同的或公共的",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gemeenschappelijk",
+        "withDe": "gemeenschappelijke",
+        "withHet": "gemeenschappelijke",
+        "comparative": "gemeenschappelijker",
+        "superlative": "gemeenschappelijkst"
+      }
+    }
+  },
+  {
+    "id": 6031,
+    "word": "gemeubileerd",
+    "translation": {
+      "chinese": "配备家具的，已装修的",
+      "english": "furnished"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "De woning is gemeubileerd.",
+      "We zoeken een gemeubileerde appartement."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "房子配备了家具。",
+        "我们在寻找配备家具的公寓。"
+      ],
+      "english": [
+        "The apartment is furnished.",
+        "We are looking for a furnished apartment."
+      ]
+    },
+    "notes": "分词形容词，来自meubileren（配备家具）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gemeubileerd",
+        "withDe": "gemeubileerde",
+        "withHet": "gemeubileerde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6032,
+    "word": "gen-afwijking",
+    "translation": {
+      "chinese": "基因异常",
+      "english": "genetic abnormality"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De baby heeft een gen-afwijking.",
+      "Gen-afwijkingen kunnen erfelijk zijn."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "宝宝有基因异常。",
+        "基因异常可能是遗传的。"
+      ],
+      "english": [
+        "The baby has a genetic abnormality.",
+        "Genetic abnormalities can be hereditary."
+      ]
+    },
+    "notes": "复合名词，来自gen（基因）+ afwijking（异常）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "gen-afwijking",
+        "plural": "gen-afwijkingen"
+      }
+    }
+  },
+  {
+    "id": 6033,
+    "word": "geneesmiddel",
+    "translation": {
+      "chinese": "药物，药品",
+      "english": "medicine, medication"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De arts schreef een geneesmiddel voor.",
+      "Er zijn nieuwe geneesmiddelen ontwikkeld."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "医生开了一种药。",
+        "开发了新药。"
+      ],
+      "english": [
+        "The doctor prescribed a medicine.",
+        "New medications have been developed."
+      ]
+    },
+    "notes": "复合名词，来自genees（医治）+ middel（手段）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "geneesmiddel",
+        "plural": "geneesmiddelen"
+      }
+    }
+  },
+  {
+    "id": 6034,
+    "word": "gepassioneerd",
+    "translation": {
+      "chinese": "充满热情的，热衷的",
+      "english": "passionate"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Ze is een gepassioneerde muzikant.",
+      "Hij sprak met gepassioneerde woorden."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她是一位充满热情的音乐家。",
+        "他用充满热情的话语说话。"
+      ],
+      "english": [
+        "She is a passionate musician.",
+        "He spoke with passionate words."
+      ]
+    },
+    "notes": "分词形容词，来自passioneel（热情的）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gepassioneerd",
+        "withDe": "gepassioneerde",
+        "withHet": "gepassioneerde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6036,
+    "word": "gerechtigheid",
+    "translation": {
+      "chinese": "正义，公正",
+      "english": "justice"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Het recht op gerechtigheid is universeel.",
+      "De gerechtigheid moet zegevieren."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "正义权是普遍的。",
+        "正义必须获胜。"
+      ],
+      "english": [
+        "The right to justice is universal.",
+        "Justice must prevail."
+      ]
+    },
+    "notes": "抽象名词，来自gerecht（公正的）+ igheid",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "gerechtigheid",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6037,
+    "word": "gerechtvaardigd",
+    "translation": {
+      "chinese": "正当的，有理的",
+      "english": "justified"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Zijn reactie was gerechtvaardigd.",
+      "De maatregel is volledig gerechtvaardigd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他的反应是正当的。",
+        "这项措施完全有理。"
+      ],
+      "english": [
+        "His reaction was justified.",
+        "The measure is fully justified."
+      ]
+    },
+    "notes": "分词形容词，来自rechtvaardigen（证明正当）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gerechtvaardigd",
+        "withDe": "gerechtvaardigde",
+        "withHet": "gerechtvaardigde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6038,
+    "word": "gerenommeerd",
+    "translation": {
+      "chinese": "著名的，声誉高的",
+      "english": "renowned, prestigious"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Het is een gerenommeerde universiteit.",
+      "Ze werkt bij een gerenommeerd bedrijf."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是一所著名的大学。",
+        "她在一家声誉很高的公司工作。"
+      ],
+      "english": [
+        "It is a renowned university.",
+        "She works at a prestigious company."
+      ]
+    },
+    "notes": "分词形容词，表示声誉高的",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gerenommeerd",
+        "withDe": "gerenommeerde",
+        "withHet": "gerenommeerde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6040,
+    "word": "geruststellend",
+    "translation": {
+      "chinese": "令人安心的，安慰性的",
+      "english": "reassuring, comforting"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Het was een geruststellend bericht.",
+      "Ze gaf me een geruststellende glimlach."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是一个令人安心的消息。",
+        "她给了我一个安慰性的微笑。"
+      ],
+      "english": [
+        "It was a reassuring message.",
+        "She gave me a reassuring smile."
+      ]
+    },
+    "notes": "分词形容词，来自geruststellen（安抚）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "geruststellend",
+        "withDe": "geruststellende",
+        "withHet": "geruststellende",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6042,
+    "word": "geslachtsdeel",
+    "translation": {
+      "chinese": "生殖器官",
+      "english": "sexual organ, genital"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Dit is een anatomische term voor geslachtsdeel.",
+      "De bespreking was professioneel over geslachtsdelen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是生殖器官的解剖学术语。",
+        "关于生殖器官的讨论很专业。"
+      ],
+      "english": [
+        "This is an anatomical term for sexual organ.",
+        "The discussion about genitals was professional."
+      ]
+    },
+    "notes": "复合名词，来自geslacht（性别）+ deel（部分）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "geslachtsdeel",
+        "plural": "geslachtsdelen"
+      }
+    }
+  },
+  {
+    "id": 6043,
+    "word": "gestandaardiseerd",
+    "translation": {
+      "chinese": "标准化的",
+      "english": "standardized"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Het proces is volledig gestandaardiseerd.",
+      "Gestandaardiseerde metingen maken vergelijking mogelijk."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "过程完全标准化了。",
+        "标准化测量使比较成为可能。"
+      ],
+      "english": [
+        "The process is fully standardized.",
+        "Standardized measurements make comparison possible."
+      ]
+    },
+    "notes": "分词形容词，来自standaardiseren（标准化）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gestandaardiseerd",
+        "withDe": "gestandaardiseerde",
+        "withHet": "gestandaardiseerde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6044,
+    "word": "gesubsidieerd",
+    "translation": {
+      "chinese": "受补贴的",
+      "english": "subsidized"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "De woning is gesubsidieerd.",
+      "Het project wordt gesubsidieerd door de overheid."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "住房受补贴。",
+        "项目由政府补贴。"
+      ],
+      "english": [
+        "The housing is subsidized.",
+        "The project is subsidized by government."
+      ]
+    },
+    "notes": "分词形容词，来自subsidiëren（补贴）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gesubsidieerd",
+        "withDe": "gesubsidieerde",
+        "withHet": "gesubsidieerde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6045,
+    "word": "getalenteerd",
+    "translation": {
+      "chinese": "有天赋的",
+      "english": "talented"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Ze is een getalenteerd schilderes.",
+      "Het kind is getalenteerd in muziek."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她是一位有天赋的画家。",
+        "这孩子在音乐方面有天赋。"
+      ],
+      "english": [
+        "She is a talented painter.",
+        "The child is talented in music."
+      ]
+    },
+    "notes": "分词形容词，来自talent（天赋）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "getalenteerd",
+        "withDe": "getalenteerde",
+        "withHet": "getalenteerde",
+        "comparative": "getalenteerder",
+        "superlative": "getalenteerdst"
+      }
+    }
+  },
+  {
+    "id": 6046,
+    "word": "getuigschrift",
+    "translation": {
+      "chinese": "证明书，证书",
+      "english": "certificate, testimonial"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Ze ontving een getuigschrift voor haar werk.",
+      "Het getuigschrift bevestigt haar vaardigheden."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她因工作收到了证书。",
+        "证书证实了她的技能。"
+      ],
+      "english": [
+        "She received a certificate for her work.",
+        "The testimonial confirms her skills."
+      ]
+    },
+    "notes": "复合名词，来自getuigen（作证）+ schrift（文件）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "getuigschrift",
+        "plural": "getuigschriften"
+      }
+    }
+  },
+  {
+    "id": 6047,
+    "word": "gevaar lopen",
+    "translation": {
+      "chinese": "面临危险",
+      "english": "to be in danger, to be at risk"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Je loopt gevaar als je dit doet.",
+      "Het project loopt gevaar om te mislukken."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "如果你这样做，就面临危险。",
+        "项目有失败的危险。"
+      ],
+      "english": [
+        "You are in danger if you do this.",
+        "The project is at risk of failing."
+      ]
+    },
+    "notes": "短语，表示处于危险之中",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6048,
+    "word": "gevangen nemen",
+    "translation": {
+      "chinese": "俘获，逮捕",
+      "english": "to capture, to arrest"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "De politie nam de verdachte gevangen.",
+      "Ze namen hem gevangen tijdens de oorlog."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "警察逮捕了嫌疑人。",
+        "他们在战争期间俘获了他。"
+      ],
+      "english": [
+        "The police arrested suspect.",
+        "They captured him during the war."
+      ]
+    },
+    "notes": "短语，表示抓住或逮捕某人",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6049,
+    "word": "gevangenschap",
+    "translation": {
+      "chinese": "囚禁，监禁",
+      "english": "captivity, imprisonment"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Hij bracht jaren in gevangenschap door.",
+      "De vogel werd na lange gevangenschap vrijgelaten."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他在监狱里度过了多年。",
+        "鸟儿在长期被囚禁后被释放。"
+      ],
+      "english": [
+        "He spent years in captivity.",
+        "The bird was released after a long captivity."
+      ]
+    },
+    "notes": "抽象名词，来自gevangene（囚犯）+schap",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "gevangenschap",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6050,
+    "word": "gevechtsvliegtuig",
+    "translation": {
+      "chinese": "战斗机",
+      "english": "fighter aircraft, fighter jet"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Het gevechtsvliegtuig was boven de stad te zien.",
+      "Gevechtsvliegtuigen zijn uitgerust met wapens."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "可以看到战斗机在城市上空。",
+        "战斗机配备了武器。"
+      ],
+      "english": [
+        "The fighter jet could be seen above city.",
+        "Fighter aircraft are equipped with weapons."
+      ]
+    },
+    "notes": "复合名词，来自gevecht（战斗）+ vliegtuig（飞机）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "gevechtsvliegtuig",
+        "plural": "gevechtsvliegtuigen"
+      }
+    }
+  },
+  {
+    "id": 6051,
+    "word": "geven inzicht",
+    "translation": {
+      "chinese": "提供洞察，使了解",
+      "english": "to provide insight, to give understanding"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "De cijfers geven inzicht in het probleem.",
+      "Het rapport geeft inzicht in de resultaten."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "数据提供了对问题的洞察。",
+        "报告使了解结果。"
+      ],
+      "english": [
+        "The figures provide insight into problem.",
+        "The report gives insight into the results."
+      ]
+    },
+    "notes": "短语，表示提供理解或洞察",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6052,
+    "word": "gevoeligheid",
+    "translation": {
+      "chinese": "敏感性，敏感度",
+      "english": "sensitivity"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Hij heeft een grote gevoeligheid voor kunst.",
+      "De gevoeligheid van de test is hoog."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他对艺术有很高的敏感性。",
+        "测试的敏感度很高。"
+      ],
+      "english": [
+        "He has a great sensitivity for art.",
+        "The sensitivity of test is high."
+      ]
+    },
+    "notes": "抽象名词，来自gevoelig（敏感的）+ heid",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "gevoeligheid",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6053,
+    "word": "gevoelsmatig",
+    "translation": {
+      "chinese": "感情上的，感性的",
+      "english": "emotional, intuitive"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Het was een gevoelsmatige beslissing.",
+      "Ze reageerde gevoelsmatig op het nieuws."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是一个感情上的决定。",
+        "她对新闻做出了感性反应。"
+      ],
+      "english": [
+        "It was an emotional decision.",
+        "She responded emotionally to news."
+      ]
+    },
+    "notes": "形容词，表示基于感情或直觉的",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gevoelsmatig",
+        "withDe": "gevoelsmatige",
+        "withHet": "gevoelsmatige",
+        "comparative": "gevoelsmatiger",
+        "superlative": "gevoelsmatigst"
+      }
+    }
+  },
+  {
+    "id": 6055,
+    "word": "gewichtloosheid",
+    "translation": {
+      "chinese": "失重状态",
+      "english": "weightlessness"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Astronauten ervaren gewichtloosheid in de ruimte.",
+      "De gewichtloosheid was een unieke ervaring."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "宇航员在太空中体验失重。",
+        "失重状态是一次独特的体验。"
+      ],
+      "english": [
+        "Astronauts experience weightlessness in space.",
+        "The weightlessness was a unique experience."
+      ]
+    },
+    "notes": "抽象名词，来自gewichtloos（失重的）+ heid",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "gewichtloosheid",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6056,
+    "word": "gezaghebbend",
+    "translation": {
+      "chinese": "有权威的，有影响力的",
+      "english": "authoritative, influential"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Het is een gezaghebbend onderzoek.",
+      "Ze is een gezaghebbende stem in het debat."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是一项有权威的研究。",
+        "她是辩论中有影响力的声音。"
+      ],
+      "english": [
+        "It is an authoritative study.",
+        "She is an authoritative voice in the debate."
+      ]
+    },
+    "notes": "分词形容词，来自gezag（权威）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gezaghebbend",
+        "withDe": "gezaghebbende",
+        "withHet": "gezaghebbende",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6057,
+    "word": "gezagsgetrouw",
+    "translation": {
+      "chinese": "服从权威的",
+      "english": "law-abiding, obedient"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Hij is een gezagsgetrouw burger.",
+      "Het gedrag was gezagsgetrouw."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他是一个守法的公民。",
+        "行为服从权威。"
+      ],
+      "english": [
+        "He is a law-abiding citizen.",
+        "The behavior was obedient."
+      ]
+    },
+    "notes": "复合形容词，来自gezag（权威）+ getrouw（忠实的）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "gezagsgetrouw",
+        "withDe": "gezagsgetrouwe",
+        "withHet": "gezagsgetrouwe",
+        "comparative": "gezagsgetrouwer",
+        "superlative": "gezagsgetrouwst"
+      }
+    }
+  },
+  {
+    "id": 6058,
+    "word": "gezagvoerder",
+    "translation": {
+      "chinese": "领导者，指挥官",
+      "english": "leader, commander"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Hij is de gezagvoerder van het team.",
+      "De gezagvoerder gaf het bevel."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他是团队的领导者。",
+        "指挥官下达了命令。"
+      ],
+      "english": [
+        "He is the leader of team.",
+        "The commander gave the order."
+      ]
+    },
+    "notes": "复合名词，来自gezag（权威）+ voerder（带领者）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "gezagvoerder",
+        "plural": "gezagvoerders"
+      }
+    }
+  },
+  {
+    "id": 6059,
+    "word": "gezichtsherkenning",
+    "translation": {
+      "chinese": "人脸识别",
+      "english": "facial recognition"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Gezichtsherkenning wordt steeds meer gebruikt.",
+      "Het systeem maakt gebruik van gezichtsherkenning."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "人脸识别被越来越多地使用。",
+        "系统使用人脸识别。"
+      ],
+      "english": [
+        "Facial recognition is increasingly used.",
+        "The system uses facial recognition."
+      ]
+    },
+    "notes": "复合名词，来自gezicht（脸）+ herkenning（识别）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "gezichtsherkenning",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6060,
+    "word": "geïnteresseerd",
+    "translation": {
+      "chinese": "感兴趣的",
+      "english": "interested"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Ik ben erg geïnteresseerd in kunst.",
+      "Ze is geïnteresseerd in de nieuwe vacature."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我对艺术很感兴趣。",
+        "她对新的空缺职位感兴趣。"
+      ],
+      "english": [
+        "I am very interested in art.",
+        "She is interested in the new vacancy."
+      ]
+    },
+    "notes": "分词形容词，来自interesse（兴趣）",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "geïnteresseerd",
+        "withDe": "geïnteresseerde",
+        "withHet": "geïnteresseerde",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6061,
+    "word": "goede voornemens",
+    "translation": {
+      "chinese": "新年的决心，好主意",
+      "english": "New Year's resolutions"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Ik heb goede voornemens voor het nieuwe jaar.",
+      "Ze maakten goede voornemens om te stoppen met roken."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我对新年有决心。",
+        "她们下定决心戒烟。"
+      ],
+      "english": [
+        "I have New Year's resolutions for the new year.",
+        "They made New Year's resolutions to stop smoking."
+      ]
+    },
+    "notes": "固定短语，通常指新年决心",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6062,
+    "word": "graafmachine",
+    "translation": {
+      "chinese": "挖掘机",
+      "english": "excavator"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De graafmachine werd gebruikt voor het bouwproject.",
+      "De graafmachine groef een gat in de grond."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "挖掘机用于建设项目。",
+        "挖掘机在地上挖了一个洞。"
+      ],
+      "english": [
+        "The excavator was used for the construction project.",
+        "The excavator dug a hole in the ground."
+      ]
+    },
+    "notes": "复合名词，来自graven（挖掘）+ machine（机器）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "graafmachine",
+        "plural": "graafmachines"
+      }
+    }
+  },
+  {
+    "id": 6063,
+    "word": "grappen uithalen",
+    "translation": {
+      "chinese": "开玩笑，恶作剧",
+      "english": "to make jokes, to play pranks"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Hij haalt graag grappen uit.",
+      "De kinderen haalden grappen uit met elkaar."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他喜欢开玩笑。",
+        "孩子们互相恶作剧。"
+      ],
+      "english": [
+        "He likes to make jokes.",
+        "The children played pranks on each other."
+      ]
+    },
+    "notes": "短语，表示开玩笑或恶作剧",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6064,
+    "word": "grensovergang",
+    "translation": {
+      "chinese": "边境检查站",
+      "english": "border crossing"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "We stopten bij de grensovergang.",
+      "De grensovergang was druk."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我们在边境检查站停下来。",
+        "边境检查站很忙碌。"
+      ],
+      "english": [
+        "We stopped at the border crossing.",
+        "The border crossing was busy."
+      ]
+    },
+    "notes": "复合名词，来自grens（边境）+ overgang（通过）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "grensovergang",
+        "plural": "grensovergangen"
+      }
+    }
+  },
+  {
+    "id": 6065,
+    "word": "grensoverschrijdend",
+    "translation": {
+      "chinese": "越界的，跨界的",
+      "english": "cross-border, boundary-crossing"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Het project is grensoverschrijdend.",
+      "Grensoverschrijdende samenwerking is belangrijk."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这个项目是跨界的。",
+        "跨境合作很重要。"
+      ],
+      "english": [
+        "The project is cross-border.",
+        "Cross-border cooperation is important."
+      ]
+    },
+    "notes": "形容词，表示跨越边界的",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "grensoverschrijdend",
+        "withDe": "grensoverschrijdende",
+        "withHet": "grensoverschrijdende",
+        "comparative": "-",
+        "superlative": "-"
+      }
+    }
+  },
+  {
+    "id": 6066,
+    "word": "grootbrengen",
+    "translation": {
+      "chinese": "抚养长大",
+      "english": "to bring up, to raise"
+    },
+    "partOfSpeech": "verb",
+    "examples": [
+      "Ze hebben hun kinderen grootgebracht.",
+      "Hij is grootgebracht door zijn grootouders."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她们抚养了孩子。",
+        "他是祖父母抚养长大的。"
+      ],
+      "english": [
+        "They brought up their children.",
+        "He was brought up by his grandparents."
+      ]
+    },
+    "notes": "可分动词，来自groot（大的）+ brengen（带来）",
+    "difficulty": "C1",
+    "forms": {
+      "verb": {
+        "infinitive": "grootbrengen",
+        "isSeparable": true,
+        "prefix": "groot",
+        "present": {
+          "ik": "breng groot",
+          "jij": "brengt groot",
+          "hij": "brengt groot",
+          "wij": "brengen groot",
+          "jullie": "brengen groot",
+          "zij": "brengen groot"
+        },
+        "past": {
+          "singular": "bracht groot",
+          "plural": "brachten groot"
+        },
+        "pastParticiple": "grootgebracht",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    }
+  },
+  {
+    "id": 6067,
+    "word": "grootgrondbezitter",
+    "translation": {
+      "chinese": "大地主",
+      "english": "large landowner"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De familie zijn grootgrondbezitters in de regio.",
+      "Grootgrondbezitters bezaten veel land."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这个家族是该地区的大地主。",
+        "大地主拥有大量土地。"
+      ],
+      "english": [
+        "The family are large landowners in the region.",
+        "Large landowners owned much land."
+      ]
+    },
+    "notes": "复合名词，来自groot（大的）+ grond（土地）+ bezitter（拥有者）",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "grootgrondbezitter",
+        "plural": "grootgrondbezitters"
+      }
+    }
   }
 ]
