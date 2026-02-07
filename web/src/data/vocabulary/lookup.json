@@ -47535,5 +47535,665 @@
     "partOfSpeech": "adjective",
     "level": "C1",
     "lesson": "lesson-05.json"
+  },
+  "6118": {
+    "word": "idealistisch",
+    "translation": {
+      "chinese": "理想主义的",
+      "english": "idealistic"
+    },
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6120": {
+    "word": "identiteitskaart",
+    "translation": {
+      "chinese": "身份证",
+      "english": "identity card, ID card"
+    },
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6121": {
+    "word": "iemand aankijken op iets",
+    "translation": {
+      "chinese": "期待某人做某事",
+      "english": "to expect something from someone"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6122": {
+    "word": "iemand attenderen op iets",
+    "translation": {
+      "chinese": "提醒某人注意某事",
+      "english": "to draw someone's attention to something"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6123": {
+    "word": "iemand te woord staan",
+    "translation": {
+      "chinese": "帮助某人，接待某人",
+      "english": "to help someone, to attend to someone"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6124": {
+    "word": "iets hoog opnemen",
+    "translation": {
+      "chinese": "高度重视某事",
+      "english": "to attach great importance to something"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6125": {
+    "word": "iets voor lief nemen",
+    "translation": {
+      "chinese": "容忍某事，接受某事",
+      "english": "to take something for granted, to accept something"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6126": {
+    "word": "ik heb dorst",
+    "translation": {
+      "chinese": "我渴了",
+      "english": "I am thirsty"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6127": {
+    "word": "ik heb honger",
+    "translation": {
+      "chinese": "我饿了",
+      "english": "I am hungry"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6128": {
+    "word": "importheffing",
+    "translation": {
+      "chinese": "进口关税",
+      "english": "import duty"
+    },
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6131": {
+    "word": "in aanmerking komen",
+    "translation": {
+      "chinese": "有资格，符合条件",
+      "english": "to be eligible for, to qualify for"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6132": {
+    "word": "in acht nemen",
+    "translation": {
+      "chinese": "考虑，遵守",
+      "english": "to take into account, to observe"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6133": {
+    "word": "in alle opzichten",
+    "translation": {
+      "chinese": "在各方面",
+      "english": "in all respects, in every way"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6134": {
+    "word": "in beheer van",
+    "translation": {
+      "chinese": "由...管理",
+      "english": "under the management of"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6135": {
+    "word": "in beroep gaan",
+    "translation": {
+      "chinese": "从事某职业",
+      "english": "to pursue a profession"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6136": {
+    "word": "in beslag nemen",
+    "translation": {
+      "chinese": "没收，扣押",
+      "english": "to seize, to confiscate"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6137": {
+    "word": "in de bres springen",
+    "translation": {
+      "chinese": "挺身而出，支持",
+      "english": "to come to someone's aid, to stand up for"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6138": {
+    "word": "in de knel zitten",
+    "translation": {
+      "chinese": "陷入困境，受到压力",
+      "english": "to be in a tight spot, to be under pressure"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6139": {
+    "word": "in de rij staan",
+    "translation": {
+      "chinese": "排队",
+      "english": "to stand in line, to queue"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6140": {
+    "word": "in de steek laten",
+    "translation": {
+      "chinese": "抛弃，背叛",
+      "english": "to abandon, to let down"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6141": {
+    "word": "in dit opzicht",
+    "translation": {
+      "chinese": "在这方面",
+      "english": "in this respect"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6142": {
+    "word": "in eerste instantie",
+    "translation": {
+      "chinese": "起初，首先",
+      "english": "initially, at first"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6143": {
+    "word": "in ere herstellen",
+    "translation": {
+      "chinese": "恢复名誉，重建威望",
+      "english": "to restore, to rehabilitate"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6144": {
+    "word": "in gebreke zijn",
+    "translation": {
+      "chinese": "有过失，未能履行义务",
+      "english": "to be at fault, to be in default"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6145": {
+    "word": "in gesprek gaan",
+    "translation": {
+      "chinese": "开始谈话，进行谈判",
+      "english": "to enter into discussion, to start negotiating"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6146": {
+    "word": "in grote mate",
+    "translation": {
+      "chinese": "在很大程度上",
+      "english": "to a large extent, largely"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6147": {
+    "word": "in hart en nieren",
+    "translation": {
+      "chinese": "全心全意，完全",
+      "english": "heart and soul, through and through"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6148": {
+    "word": "in het bijzonder",
+    "translation": {
+      "chinese": "尤其，特别",
+      "english": "in particular, especially"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6149": {
+    "word": "in het geding zijn",
+    "translation": {
+      "chinese": "在讨论中，有争议",
+      "english": "to be at issue, to be in dispute"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6150": {
+    "word": "in het kader",
+    "translation": {
+      "chinese": "在...框架内",
+      "english": "within the framework of"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6151": {
+    "word": "in het oog houden",
+    "translation": {
+      "chinese": "留意，关注",
+      "english": "to keep an eye on, to watch"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6152": {
+    "word": "in ieder geval",
+    "translation": {
+      "chinese": "无论如何，总之",
+      "english": "in any case, in any event"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6153": {
+    "word": "in lichterlaaie",
+    "translation": {
+      "chinese": "在困境中，处于不利境地",
+      "english": "in a bad spot, in a difficult position"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6154": {
+    "word": "in ogenschouw nemen",
+    "translation": {
+      "chinese": "考虑，审视",
+      "english": "to take into consideration, to consider"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6155": {
+    "word": "in opkomst zijn",
+    "translation": {
+      "chinese": "正在兴起，正在增长",
+      "english": "to be on the rise, to be emerging"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6156": {
+    "word": "in orde maken",
+    "translation": {
+      "chinese": "整理，准备",
+      "english": "to arrange, to prepare"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6157": {
+    "word": "in plaats van",
+    "translation": {
+      "chinese": "代替，而不是",
+      "english": "instead of, rather than"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6158": {
+    "word": "in ruil voor",
+    "translation": {
+      "chinese": "作为...的交换",
+      "english": "in exchange for"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6159": {
+    "word": "in sneltreinvaart",
+    "translation": {
+      "chinese": "飞速地，快速地",
+      "english": "at full speed, rapidly"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6160": {
+    "word": "in staat zijn",
+    "translation": {
+      "chinese": "能够",
+      "english": "to be able to, to be capable of"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6161": {
+    "word": "in tegenstelling tot",
+    "translation": {
+      "chinese": "与...相反",
+      "english": "in contrast to, in contrast with"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6162": {
+    "word": "in verhouding tot",
+    "translation": {
+      "chinese": "与...相比",
+      "english": "in relation to, in comparison with"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6163": {
+    "word": "in verzuim zijn",
+    "translation": {
+      "chinese": "缺席，失职",
+      "english": "to be absent, to be in default"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6164": {
+    "word": "in volle gang",
+    "translation": {
+      "chinese": "正在进行，全面展开",
+      "english": "in full swing, in full progress"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6165": {
+    "word": "in weer en wind",
+    "translation": {
+      "chinese": "风雨无阻，在任何情况下",
+      "english": "in all weathers, through thick and thin"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6166": {
+    "word": "inachtneming",
+    "translation": {
+      "chinese": "考虑，遵守",
+      "english": "consideration, observance"
+    },
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6167": {
+    "word": "indien nodig",
+    "translation": {
+      "chinese": "如果需要",
+      "english": "if necessary"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6168": {
+    "word": "indiensnemen",
+    "translation": {
+      "chinese": "采纳，听取",
+      "english": "to take into account, to consider"
+    },
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6169": {
+    "word": "individualistisch",
+    "translation": {
+      "chinese": "个人主义的",
+      "english": "individualistic"
+    },
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6170": {
+    "word": "indrukwekkend",
+    "translation": {
+      "chinese": "印象深刻的",
+      "english": "impressive"
+    },
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6171": {
+    "word": "informeren naar",
+    "translation": {
+      "chinese": "查询，询问",
+      "english": "to inquire about, to ask about"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6172": {
+    "word": "infrastructuur",
+    "translation": {
+      "chinese": "基础设施",
+      "english": "infrastructure"
+    },
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6173": {
+    "word": "ingaan op iets",
+    "translation": {
+      "chinese": "讨论某事，处理某事",
+      "english": "to address something, to go into something"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6174": {
+    "word": "ingaan tegen",
+    "translation": {
+      "chinese": "反对，抗议",
+      "english": "to oppose, to object to"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6175": {
+    "word": "initiatiefrecht",
+    "translation": {
+      "chinese": "倡议权",
+      "english": "right of initiative"
+    },
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6176": {
+    "word": "initiatiefrijk",
+    "translation": {
+      "chinese": "积极主动的，有主见的",
+      "english": "proactive, enterprising"
+    },
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6177": {
+    "word": "inlevingsvermogen",
+    "translation": {
+      "chinese": "同理心，共情能力",
+      "english": "empathy, empathy"
+    },
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6178": {
+    "word": "instaan voor",
+    "translation": {
+      "chinese": "负责，担保",
+      "english": "to be responsible for, to guarantee"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6179": {
+    "word": "instemmingsrecht",
+    "translation": {
+      "chinese": "同意权",
+      "english": "right of consent"
+    },
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6181": {
+    "word": "interesseren",
+    "translation": {
+      "chinese": "感兴趣",
+      "english": "to interest"
+    },
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6182": {
+    "word": "interpunctie",
+    "translation": {
+      "chinese": "标点符号",
+      "english": "punctuation"
+    },
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6185": {
+    "word": "investeerder",
+    "translation": {
+      "chinese": "投资者",
+      "english": "investor"
+    },
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6186": {
+    "word": "invloed hebben",
+    "translation": {
+      "chinese": "有影响，施加影响",
+      "english": "to have influence, to exert influence"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6187": {
+    "word": "inwerkingtreding",
+    "translation": {
+      "chinese": "生效，实施",
+      "english": "entry into force, coming into effect"
+    },
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6189": {
+    "word": "inzichtgevend",
+    "translation": {
+      "chinese": "富有洞察力的，有启发性的",
+      "english": "insightful"
+    },
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "lesson": "lesson-06.json"
+  },
+  "6190": {
+    "word": "is te spreken over",
+    "translation": {
+      "chinese": "可以说...，可以谈论...",
+      "english": "it can be said that, one can speak of"
+    },
+    "partOfSpeech": "phrase",
+    "level": "C1",
+    "lesson": "lesson-06.json"
   }
 }
