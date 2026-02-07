@@ -40,13 +40,13 @@
     }
   },
   "partOfSpeech": {
-    "interjection": 16,
+    "interjection": 17,
     "phrase": 169,
-    "noun": 2760,
-    "verb": 1112,
-    "adjective": 991,
+    "noun": 2572,
+    "verb": 1145,
+    "adjective": 1040,
     "preposition": 39,
-    "adverb": 179,
+    "adverb": 183,
     "pronoun": 31,
     "conjunction": 19,
     "determiner": 4,
@@ -58,7 +58,7 @@
     "verb,adjective": 1,
     "noun,adjective": 5,
     "noun phrase": 2,
-    "adverb phrase": 4,
+    "adverb phrase": 12,
     "adjective phrase": 1,
     "adverbial phrase": 22,
     "prepositional phrase": 5,
@@ -66,7 +66,7 @@
     "adjective/adverb": 2,
     "noun/adjective": 2,
     "reflexive verb": 2,
-    "verb phrase": 34
+    "verb phrase": 127
   },
   "wordLength": {
     "min": 1,

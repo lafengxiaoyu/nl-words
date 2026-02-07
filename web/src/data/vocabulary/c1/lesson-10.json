@@ -14,7 +14,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "pacifistisch",
+          "base": "pacifistisch",
+          "withDe": "pacifistische",
+          "withHet": "pacifistische",
           "comparative": "pacifistischer",
           "superlative": "pacifistischst"
         }
@@ -78,7 +80,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "paternalistisch",
+          "base": "paternalistisch",
+          "withDe": "paternalistische",
+          "withHet": "paternalistische",
           "comparative": "paternalistischer",
           "superlative": "paternalistischst"
         }
@@ -110,7 +114,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "pathologisch",
+          "base": "pathologisch",
+          "withDe": "pathologische",
+          "withHet": "pathologische",
           "comparative": "pathologischer",
           "superlative": "pathologischst"
         }
@@ -143,8 +149,21 @@
       "forms": {
         "verb": {
           "infinitive": "patrouilleren",
-          "past": "patrouilleerde",
-          "participle": "gepatrouilleerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "patrouilleer",
+            "jij": "patrouilleert",
+            "hij": "patrouilleert",
+            "wij": "patrouilleren",
+            "jullie": "patrouilleren",
+            "zij": "patrouilleren"
+          },
+          "past": {
+            "singular": "patrouilleerde",
+            "plural": "patrouilleerden"
+          },
+          "pastParticiple": "patrouilleerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -302,7 +321,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "pessimistisch",
+          "base": "pessimistisch",
+          "withDe": "pessimistische",
+          "withHet": "pessimistische",
           "comparative": "pessimistischer",
           "superlative": "pessimistischst"
         }
@@ -334,7 +355,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "fotovoltaïsch",
+          "base": "fotovoltaïsch",
+          "withDe": "fotovoltaïsche",
+          "withHet": "fotovoltaïsche",
           "comparative": "fotovoltaïscher",
           "superlative": "fotovoltaïschst"
         }
@@ -367,8 +390,22 @@
       "forms": {
         "verb": {
           "infinitive": "plaatsvervangen",
-          "past": "verving",
-          "participle": "vervangen"
+          "isSeparable": true,
+          "prefix": "plaats",
+          "present": {
+            "ik": "vervang plaats",
+            "jij": "vervangt plaats",
+            "hij": "vervangt plaats",
+            "wij": "vervangen plaats",
+            "jullie": "vervangen plaats",
+            "zij": "vervangen plaats"
+          },
+          "past": {
+            "singular": "verving plaats",
+            "plural": "vervingen plaats"
+          },
+          "pastParticiple": "plaatsvervangen",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -398,7 +435,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "plaatsvervangend",
+          "base": "plaatsvervangend",
+          "withDe": "plaatsvervangende",
+          "withHet": "plaatsvervangende",
           "comparative": "plaatsvervangender",
           "superlative": "plaatsvervangendst"
         }
@@ -524,13 +563,7 @@
         "english": "to advocate for, to plead for"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "pleiten voor",
-          "past": "pleitte voor",
-          "participle": "gepleit voor"
-        }
-      },
+      "forms": {},
       "examples": [
         "Hij pleit voor meer privacy.",
         "De advocaat pleitte voor de vrijspraak van zijn cliënt."
@@ -558,7 +591,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "plichtsgetrouw",
+          "base": "plichtsgetrouw",
+          "withDe": "plichtsgetrouwe",
+          "withHet": "plichtsgetrouwe",
           "comparative": "plichtsgetrouwer",
           "superlative": "plichtsgetrouwst"
         }
@@ -687,8 +722,21 @@
       "forms": {
         "verb": {
           "infinitive": "positioneren",
-          "past": "positioneerde",
-          "participle": "gepositioneerd"
+          "isSeparable": false,
+          "present": {
+            "ik": "positioneer",
+            "jij": "positioneert",
+            "hij": "positioneert",
+            "wij": "positioneren",
+            "jullie": "positioneren",
+            "zij": "positioneren"
+          },
+          "past": {
+            "singular": "positioneerde",
+            "plural": "positioneerden"
+          },
+          "pastParticiple": "positioneerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -718,7 +766,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "praktijkgericht",
+          "base": "praktijkgericht",
+          "withDe": "praktijkgerichte",
+          "withHet": "praktijkgerichte",
           "comparative": "praktijkgerichter",
           "superlative": "praktijkgerichtst"
         }
@@ -1198,7 +1248,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "reflecterend",
+          "base": "reflecterend",
+          "withDe": "reflecterende",
+          "withHet": "reflecterende",
           "comparative": "reflecterender",
           "superlative": "reflecterendst"
         }
@@ -1230,7 +1282,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "reglementair",
+          "base": "reglementair",
+          "withDe": "reglementaire",
+          "withHet": "reglementaire",
           "comparative": "reglementairer",
           "superlative": "reglementairst"
         }
@@ -1260,13 +1314,7 @@
         "english": "to take into account, to consider"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "rekening houden met",
-          "past": "hield rekening met",
-          "participle": "rekening gehouden met"
-        }
-      },
+      "forms": {},
       "examples": [
         "We houden rekening met de feedback van onze klanten.",
         "Je moet rekening houden met de omstandigheden."
@@ -1358,8 +1406,10 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "representatief",
-          "comparative": "representatiever",
+          "base": "representatief",
+          "withDe": "representatiefe",
+          "withHet": "representatiefe",
+          "comparative": "representatiefer",
           "superlative": "representatiefst"
         }
       },
@@ -1388,13 +1438,7 @@
         "english": "to target, to aim at"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "richten op",
-          "past": "richtte op",
-          "participle": "gericht op"
-        }
-      },
+      "forms": {},
       "examples": [
         "Het beleid richt zich op de jeugd.",
         "De reclame richt zich op nieuwe klanten."
@@ -1422,9 +1466,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "rijdend",
-          "comparative": "-",
-          "superlative": "-"
+          "base": "rijdend",
+          "withDe": "rijdende",
+          "withHet": "rijdende",
+          "comparative": "rijdender",
+          "superlative": "rijdendst"
         }
       },
       "examples": [
@@ -1580,13 +1626,7 @@
         "english": "to run a risk, to be in danger"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "risico lopen",
-          "past": "liep risico",
-          "participle": "risico gelopen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Het project loopt risico op te mislukken.",
         "Je loopt risico als je dat zegt."

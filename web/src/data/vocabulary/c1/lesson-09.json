@@ -15,8 +15,22 @@
       "forms": {
         "verb": {
           "infinitive": "offers brengen",
-          "past": "bracht offers",
-          "participle": "offers gebracht"
+          "isSeparable": true,
+          "prefix": "offers",
+          "present": {
+            "ik": "breng offers",
+            "jij": "brengt offers",
+            "hij": "brengt offers",
+            "wij": "brengen offers",
+            "jullie": "brengen offers",
+            "zij": "brengen offers"
+          },
+          "past": {
+            "singular": "bracht offers",
+            "plural": "brachten offers"
+          },
+          "pastParticiple": "offers gebracht",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -46,7 +60,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "ogenschijnlijk",
+          "base": "ogenschijnlijk",
+          "withDe": "ogenschijnlijke",
+          "withHet": "ogenschijnlijke",
           "comparative": "ogenschijnlijker",
           "superlative": "ogenschijnlijkst"
         }
@@ -76,13 +92,7 @@
         "english": "to kill, to take someone's life"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "om het leven brengen",
-          "past": "bracht om het leven",
-          "participle": "om het leven gebracht"
-        }
-      },
+      "forms": {},
       "examples": [
         "Het ongeluk bracht hem om het leven.",
         "De ziekte heeft duizenden mensen om het leven gebracht."
@@ -110,7 +120,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "omslaggevoelig",
+          "base": "omslaggevoelig",
+          "withDe": "omslaggevoelige",
+          "withHet": "omslaggevoelige",
           "comparative": "omslaggevoeliger",
           "superlative": "omslaggevoeligst"
         }
@@ -140,13 +152,7 @@
         "english": "to treat, to deal with"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "omspringen met",
-          "past": "sprong om met",
-          "participle": "omgesprongen met"
-        }
-      },
+      "forms": {},
       "examples": [
         "Hij weet goed om te springen met lastige klanten.",
         "Je moet voorzichtig omspringen met deze delicate situatie."
@@ -172,13 +178,7 @@
         "english": "to generate turnover, to make revenue"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "omzet draaien",
-          "past": "draaide omzet",
-          "participle": "omzet gedraaid"
-        }
-      },
+      "forms": {},
       "examples": [
         "Het bedrijf draait een miljardenomzet.",
         "Door de nieuwe strategie draait de winkel meer omzet."
@@ -206,7 +206,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onacceptabel",
+          "base": "onacceptabel",
+          "withDe": "onacceptabele",
+          "withHet": "onacceptabele",
           "comparative": "onacceptabeler",
           "superlative": "onacceptabelst"
         }
@@ -238,7 +240,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onbedaarlijk",
+          "base": "onbedaarlijk",
+          "withDe": "onbedaarlijke",
+          "withHet": "onbedaarlijke",
           "comparative": "onbedaarlijker",
           "superlative": "onbedaarlijkst"
         }
@@ -270,7 +274,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onbehaaglijk",
+          "base": "onbehaaglijk",
+          "withDe": "onbehaaglijke",
+          "withHet": "onbehaaglijke",
           "comparative": "onbehaaglijker",
           "superlative": "onbehaaglijkst"
         }
@@ -302,7 +308,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onberispelijk",
+          "base": "onberispelijk",
+          "withDe": "onberispelijke",
+          "withHet": "onberispelijke",
           "comparative": "onberispelijker",
           "superlative": "onberispelijkst"
         }
@@ -334,7 +342,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onbeschrijflijk",
+          "base": "onbeschrijflijk",
+          "withDe": "onbeschrijflijke",
+          "withHet": "onbeschrijflijke",
           "comparative": "onbeschrijflijker",
           "superlative": "onbeschrijflijkst"
         }
@@ -366,8 +376,10 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onbetrouwbaar",
-          "comparative": "onbetrouwbbaarder",
+          "base": "onbetrouwbaar",
+          "withDe": "onbetrouwbare",
+          "withHet": "onbetrouwbare",
+          "comparative": "onbetrouwbaarder",
           "superlative": "onbetrouwbaarst"
         }
       },
@@ -428,13 +440,7 @@
         "english": "to examine closely, to scrutinize"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "onder de loep nemen",
-          "past": "nam onder de loep",
-          "participle": "onder de loep genomen"
-        }
-      },
+      "forms": {},
       "examples": [
         "We moeten het plan onder de loep nemen.",
         "De politie nam de getuigenverklaringen onder de loep."
@@ -460,13 +466,7 @@
         "english": "to face, to confront"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "onder ogen zien",
-          "past": "zag onder ogen",
-          "participle": "onder ogen gezien"
-        }
-      },
+      "forms": {},
       "examples": [
         "Hij moet de realiteit onder ogen zien.",
         "We moeten dit probleem onder ogen zien."
@@ -495,8 +495,22 @@
       "forms": {
         "verb": {
           "infinitive": "onderbrengen",
-          "past": "bracht onder",
-          "participle": "ondergebracht"
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "breng onder",
+            "jij": "brengt onder",
+            "hij": "brengt onder",
+            "wij": "brengen onder",
+            "jullie": "brengen onder",
+            "zij": "brengen onder"
+          },
+          "past": {
+            "singular": "bracht onder",
+            "plural": "brachten onder"
+          },
+          "pastParticiple": "ondergebracht",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -526,7 +540,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "ondergelopen"
+          "base": "ondergelopen",
+          "withDe": "ondergelopen",
+          "withHet": "ondergelopen",
+          "comparative": "ondergelopen",
+          "superlative": "ondergelopen"
         }
       },
       "examples": [
@@ -556,7 +574,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "ondergeschikt",
+          "base": "ondergeschikt",
+          "withDe": "ondergeschikte",
+          "withHet": "ondergeschikte",
           "comparative": "ondergeschikter",
           "superlative": "ondergeschiktst"
         }
@@ -618,13 +638,7 @@
         "english": "the undersigned"
       },
       "partOfSpeech": "noun/adjective",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ondergetekende",
-          "plural": "ondergetekenden"
-        }
-      },
+      "forms": {},
       "examples": [
         "De ondergetekende bevestigt hierbij de akte.",
         "Wij, ondergetekenden, verklaren dat alles waar is."
@@ -653,8 +667,21 @@
       "forms": {
         "verb": {
           "infinitive": "onderhandelen",
-          "past": "onderhandelde",
-          "participle": "onderhandeld"
+          "isSeparable": false,
+          "present": {
+            "ik": "onderhandel",
+            "jij": "onderhandelt",
+            "hij": "onderhandelt",
+            "wij": "onderhandelen",
+            "jullie": "onderhandelen",
+            "zij": "onderhandelen"
+          },
+          "past": {
+            "singular": "onderhandelde",
+            "plural": "onderhandelden"
+          },
+          "pastParticiple": "onderhandeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -684,7 +711,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onderhoudend",
+          "base": "onderhoudend",
+          "withDe": "onderhoudende",
+          "withHet": "onderhoudende",
           "comparative": "onderhoudender",
           "superlative": "onderhoudendst"
         }
@@ -716,7 +745,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onderliggend",
+          "base": "onderliggend",
+          "withDe": "onderliggende",
+          "withHet": "onderliggende",
           "comparative": "onderliggender",
           "superlative": "onderliggendst"
         }
@@ -780,7 +811,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onderscheidend",
+          "base": "onderscheidend",
+          "withDe": "onderscheidende",
+          "withHet": "onderscheidende",
           "comparative": "onderscheidender",
           "superlative": "onderscheidendst"
         }
@@ -845,8 +878,22 @@
       "forms": {
         "verb": {
           "infinitive": "onderschepen",
-          "past": "schepte onder",
-          "participle": "ondergeschept"
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "schip onder",
+            "jij": "schip onder",
+            "hij": "schip onder",
+            "wij": "schepen onder",
+            "jullie": "schepen onder",
+            "zij": "schepen onder"
+          },
+          "past": {
+            "singular": "schip onder",
+            "plural": "schepen onder"
+          },
+          "pastParticiple": "onderschept",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -877,8 +924,22 @@
       "forms": {
         "verb": {
           "infinitive": "onderscheppen",
-          "past": "schepte over",
-          "participle": "overgeschept"
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "schep onder",
+            "jij": "schept onder",
+            "hij": "schept onder",
+            "wij": "scheppen onder",
+            "jullie": "scheppen onder",
+            "zij": "scheppen onder"
+          },
+          "past": {
+            "singular": "schepte onder",
+            "plural": "schepten onder"
+          },
+          "pastParticiple": "onderschept",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -909,8 +970,22 @@
       "forms": {
         "verb": {
           "infinitive": "onderschrijven",
-          "past": "schreef onder",
-          "participle": "ondertekend"
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "schrijf onder",
+            "jij": "schrijft onder",
+            "hij": "schrijft onder",
+            "wij": "schrijven onder",
+            "jullie": "schrijven onder",
+            "zij": "schrijven onder"
+          },
+          "past": {
+            "singular": "schreef onder",
+            "plural": "schreven onder"
+          },
+          "pastParticiple": "onderschreven",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -940,7 +1015,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "ondersteunend",
+          "base": "ondersteunend",
+          "withDe": "ondersteunende",
+          "withHet": "ondersteunende",
           "comparative": "ondersteunender",
           "superlative": "ondersteunendst"
         }
@@ -973,8 +1050,22 @@
       "forms": {
         "verb": {
           "infinitive": "onderstrepen",
-          "past": "streepte onder",
-          "participle": "onderstreept"
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "streep onder",
+            "jij": "streept onder",
+            "hij": "streept onder",
+            "wij": "strepen onder",
+            "jullie": "strepen onder",
+            "zij": "strepen onder"
+          },
+          "past": {
+            "singular": "streepte onder",
+            "plural": "streepten onder"
+          },
+          "pastParticiple": "onderstreept",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1034,13 +1125,7 @@
         "english": "to fail, to fall from power, to lose ground"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "onderuit komen",
-          "past": "kwam onderuit",
-          "participle": "onderuit gekomen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Na het schandaal kwam de politieke partij onderuit.",
         "Hij kwam onderuit in het debat."
@@ -1069,8 +1154,22 @@
       "forms": {
         "verb": {
           "infinitive": "onderuitgaan",
-          "past": "ging onderuit",
-          "participle": "onderuitgegaan"
+          "isSeparable": true,
+          "prefix": "onderuit",
+          "present": {
+            "ik": "ga onderuit",
+            "jij": "gaat onderuit",
+            "hij": "gaat onderuit",
+            "wij": "gaan onderuit",
+            "jullie": "gaan onderuit",
+            "zij": "gaan onderuit"
+          },
+          "past": {
+            "singular": "ging onderuit",
+            "plural": "gingen onderuit"
+          },
+          "pastParticiple": "onderuitgegaan",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -1101,8 +1200,22 @@
       "forms": {
         "verb": {
           "infinitive": "onderverdelen",
-          "past": "verdeelde onder",
-          "participle": "onderverdeeld"
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "verdeel onder",
+            "jij": "verdeelt onder",
+            "hij": "verdeelt onder",
+            "wij": "verdelen onder",
+            "jullie": "verdelen onder",
+            "zij": "verdelen onder"
+          },
+          "past": {
+            "singular": "verdeelde onder",
+            "plural": "verdeelden onder"
+          },
+          "pastParticiple": "onderverdeeld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1133,8 +1246,22 @@
       "forms": {
         "verb": {
           "infinitive": "onderverhuren",
-          "past": "verhuurde onder",
-          "participle": "onderverhuurd"
+          "isSeparable": true,
+          "prefix": "onder",
+          "present": {
+            "ik": "verhuur onder",
+            "jij": "verhuurt onder",
+            "hij": "verhuurt onder",
+            "wij": "verhuren onder",
+            "jullie": "verhuren onder",
+            "zij": "verhuren onder"
+          },
+          "past": {
+            "singular": "verhuurde onder",
+            "plural": "verhuurden onder"
+          },
+          "pastParticiple": "onderverhuurd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -1228,9 +1355,11 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "ondoorzichtig",
+          "base": "ondoorzichtig",
+          "withDe": "ondoorzichtige",
+          "withHet": "ondoorzichtige",
           "comparative": "ondoorzichtiger",
-          "superlative": "ondoorzichtigest"
+          "superlative": "ondoorzichtigst"
         }
       },
       "examples": [
@@ -1258,13 +1387,7 @@
         "english": "to undo, to nullify, to cancel"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "ongedaan maken",
-          "past": "maakte ongedaan",
-          "participle": "ongedaan gemaakt"
-        }
-      },
+      "forms": {},
       "examples": [
         "De rechter maakte het besluit ongedaan.",
         "Je kunt wat er gebeurd is niet ongedaan maken."
@@ -1324,7 +1447,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "ongeloofwaardig",
+          "base": "ongeloofwaardig",
+          "withDe": "ongeloofwaardige",
+          "withHet": "ongeloofwaardige",
           "comparative": "ongeloofwaardiger",
           "superlative": "ongeloofwaardigst"
         }
@@ -1356,7 +1481,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "ongemakkelijk",
+          "base": "ongemakkelijk",
+          "withDe": "ongemakkelijke",
+          "withHet": "ongemakkelijke",
           "comparative": "ongemakkelijker",
           "superlative": "ongemakkelijkst"
         }
@@ -1388,14 +1515,16 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "ongeneeslijk",
+          "base": "ongeneeslijk",
+          "withDe": "ongeneeslijke",
+          "withHet": "ongeneeslijke",
           "comparative": "ongeneeslijker",
           "superlative": "ongeneeslijkst"
         }
       },
       "examples": [
-          "Het was een ongeneeslijke ziekte.",
-          "Hij had een ongeneeslijke vorm van kanker."
+        "Het was een ongeneeslijke ziekte.",
+        "Hij had een ongeneeslijke vorm van kanker."
       ],
       "exampleTranslations": {
         "chinese": [
@@ -1420,7 +1549,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "ongeoorloofd",
+          "base": "ongeoorloofd",
+          "withDe": "ongeoorloofde",
+          "withHet": "ongeoorloofde",
           "comparative": "ongeoorloofder",
           "superlative": "ongeoorloofdst"
         }
@@ -1450,11 +1581,7 @@
         "english": "undoubtedly, without doubt"
       },
       "partOfSpeech": "adverb",
-      "forms": {
-        "adverb": {
-          "positive": "ongetwijfeld"
-        }
-      },
+      "forms": {},
       "examples": [
         "Hij is ongetwijfeld de beste speler.",
         "Het was ongetwijfeld het mooiste moment van de avond."
@@ -1482,7 +1609,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onherkenbaar",
+          "base": "onherkenbaar",
+          "withDe": "onherkenbare",
+          "withHet": "onherkenbare",
           "comparative": "onherkenbaarder",
           "superlative": "onherkenbaarst"
         }
@@ -1514,7 +1643,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onherroepelijk",
+          "base": "onherroepelijk",
+          "withDe": "onherroepelije",
+          "withHet": "onherroepelije",
           "comparative": "onherroepelijker",
           "superlative": "onherroepelijkst"
         }
@@ -1546,7 +1677,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onlosmakelijk",
+          "base": "onlosmakelijk",
+          "withDe": "onlosmakelije",
+          "withHet": "onlosmakelije",
           "comparative": "onlosmakelijker",
           "superlative": "onlosmakelijkst"
         }
@@ -1578,7 +1711,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onoordeelkundig",
+          "base": "onoordeelkundig",
+          "withDe": "onoordeelkundige",
+          "withHet": "onoordeelkundige",
           "comparative": "onoordeelkundiger",
           "superlative": "onoordeelkundigst"
         }
@@ -1608,13 +1743,7 @@
         "english": "continuous, incessant, unceasing"
       },
       "partOfSpeech": "adjective/adverb",
-      "forms": {
-        "adjective": {
-          "positive": "onophoudelijk",
-          "comparative": "onophoudelijker",
-          "superlative": "onophoudelijkst"
-        }
-      },
+      "forms": {},
       "examples": [
         "Er was een onophoudelijke regen.",
         "Ze praatten onophoudelijk door."
@@ -1642,7 +1771,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onoverbrugbaar",
+          "base": "onoverbrugbaar",
+          "withDe": "onoverbrugbaare",
+          "withHet": "onoverbrugbaare",
           "comparative": "onoverbrugbaarder",
           "superlative": "onoverbrugbaarst"
         }
@@ -1674,7 +1805,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onoverkomelijk",
+          "base": "onoverkomelijk",
+          "withDe": "onoverkomelije",
+          "withHet": "onoverkomelije",
           "comparative": "onoverkomelijker",
           "superlative": "onoverkomelijkst"
         }
@@ -1706,7 +1839,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onoverwinnelijk",
+          "base": "onoverwinnelijk",
+          "withDe": "onoverwinnelije",
+          "withHet": "onoverwinnelije",
           "comparative": "onoverwinnelijker",
           "superlative": "onoverwinnelijkst"
         }
@@ -1738,7 +1873,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onpersoonlijk",
+          "base": "onpersoonlijk",
+          "withDe": "onpersoonlije",
+          "withHet": "onpersoonlije",
           "comparative": "onpersoonlijker",
           "superlative": "onpersoonlijkst"
         }
@@ -1770,7 +1907,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onregelmatig",
+          "base": "onregelmatig",
+          "withDe": "onregelmatige",
+          "withHet": "onregelmatige",
           "comparative": "onregelmatiger",
           "superlative": "onregelmatigst"
         }
@@ -1802,7 +1941,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "onschadelijk",
+          "base": "onschadelijk",
+          "withDe": "onschadelije",
+          "withHet": "onschadelije",
           "comparative": "onschadelijker",
           "superlative": "onschadelijkst"
         }
@@ -1866,7 +2007,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "ontkrachtend",
+          "base": "ontkrachtend",
+          "withDe": "ontkrachtende",
+          "withHet": "ontkrachtende",
           "comparative": "ontkrachtender",
           "superlative": "ontkrachtendst"
         }
@@ -1896,13 +2039,7 @@
         "english": "to borrow from, to derive from"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "ontlenen aan",
-          "past": "leende aan",
-          "participle": "ontleend aan"
-        }
-      },
+      "forms": {},
       "examples": [
         "Het woord is ontleend aan het Latijn.",
         "De theorie is ontleend aan eerdere studies."
@@ -1930,7 +2067,9 @@
       "partOfSpeech": "adjective",
       "forms": {
         "adjective": {
-          "positive": "ontoelaatbaar",
+          "base": "ontoelaatbaar",
+          "withDe": "ontoelaatbaare",
+          "withHet": "ontoelaatbaare",
           "comparative": "ontoelaatbaarder",
           "superlative": "ontoelaatbaarst"
         }
@@ -1992,13 +2131,7 @@
         "english": "to resign, to quit"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "ontslag nemen",
-          "past": "nam ontslag",
-          "participle": "ontslag genomen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Hij nam ontslag bij zijn werkgever.",
         "Waarom nam je ontslag?"
@@ -2056,13 +2189,7 @@
         "english": "to arise from, to originate from"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "verb": {
-          "infinitive": "ontstaan uit",
-          "past": "ontstond uit",
-          "participle": "ontstaan uit"
-        }
-      },
+      "forms": {},
       "examples": [
         "Het conflict ontstond uit een misverstand.",
         "Het bedrijf is ontstaan uit een klein idee."

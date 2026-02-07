@@ -8,8 +8,8 @@
       "id": 6718,
       "word": "wapenstilstand",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "停战",
+        "english": "armistice"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -20,92 +20,108 @@
         }
       },
       "examples": [
-        "Voorbeeld met wapenstilstand.",
-        "Nog een voorbeeld van wapenstilstand."
+        "Er werd een wapenstilstand getekend.",
+        "Het vredesverdrag bevatte een wapenstilstand."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: wapenstilstand.",
-          "另一示例: wapenstilstand."
+          "Er werd een wapenstilstand getekend.",
+          "Het vredesverdrag bevatte een wapenstilstand."
         ],
         "english": [
-          "Example with wapenstilstand.",
-          "Another example with wapenstilstand."
+          "Er werd een wapenstilstand getekend.",
+          "Het vredesverdrag bevatte een wapenstilstand."
         ]
       },
-      "notes": "C1词汇 - wapenstilstand",
+      "notes": "敌对方停止武装冲突",
       "difficulty": "C1"
     },
     {
       "id": 6719,
       "word": "wat losmaken",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "松开",
+        "english": "to loosen"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "verb",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "wat losmaken",
-          "plural": "wat losmakenen"
+        "verb": {
+          "infinitive": "losmaken",
+          "isSeparable": true,
+          "prefix": "los",
+          "present": {
+            "ik": "maak los",
+            "jij": "maakt los",
+            "hij": "maakt los",
+            "wij": "maken los",
+            "jullie": "maken los",
+            "zij": "maken los"
+          },
+          "past": {
+            "singular": "maakte los",
+            "plural": "maakten los"
+          },
+          "pastParticiple": "losgemaakt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
-        "Voorbeeld met wat losmaken.",
-        "Nog een voorbeeld van wat losmaken."
+        "Wat losmaken is belangrijk.",
+        "Ik moet wat losmaken."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: wat losmaken.",
-          "另一示例: wat losmaken."
+          "Wat losmaken is belangrijk.",
+          "Ik moet wat losmaken."
         ],
         "english": [
-          "Example with wat losmaken.",
-          "Another example with wat losmaken."
+          "Wat losmaken is belangrijk.",
+          "Ik moet wat losmaken."
         ]
       },
-      "notes": "C1词汇 - wat losmaken",
+      "notes": "使某物变松或放松",
       "difficulty": "C1"
     },
     {
       "id": 6720,
       "word": "wat toevallig",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "偶然的",
+        "english": "accidental"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "wat toevallig",
-          "plural": "wat toevalligen"
+        "adjective": {
+          "base": "wat toevallig",
+          "withDe": "wat toevallig",
+          "withHet": "wat toevallig",
+          "comparative": "wat toevallig",
+          "superlative": "wat toevallig"
         }
       },
       "examples": [
-        "Voorbeeld met wat toevallig.",
-        "Nog een voorbeeld van wat toevallig."
+        "Een wat toevallige ontmoeting.",
+        "Het was wat toevallig."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: wat toevallig.",
-          "另一示例: wat toevallig."
+          "Een wat toevallige ontmoeting.",
+          "Het was wat toevallig."
         ],
         "english": [
-          "Example with wat toevallig.",
-          "Another example with wat toevallig."
+          "Een wat toevallige ontmoeting.",
+          "Het was wat toevallig."
         ]
       },
-      "notes": "C1词汇 - wat toevallig",
+      "notes": "偶然发生的",
       "difficulty": "C1"
     },
     {
       "id": 6721,
       "word": "waterbouwkunde",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "水利工程",
+        "english": "hydraulic engineering"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -116,28 +132,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met waterbouwkunde.",
-        "Nog een voorbeeld van waterbouwkunde."
+        "Hij studeert waterbouwkunde.",
+        "Waterbouwkunde is belangrijk voor Nederland."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: waterbouwkunde.",
-          "另一示例: waterbouwkunde."
+          "Hij studeert waterbouwkunde.",
+          "Waterbouwkunde is belangrijk voor Nederland."
         ],
         "english": [
-          "Example with waterbouwkunde.",
-          "Another example with waterbouwkunde."
+          "Hij studeert waterbouwkunde.",
+          "Waterbouwkunde is belangrijk voor Nederland."
         ]
       },
-      "notes": "C1词汇 - waterbouwkunde",
+      "notes": "与水资源和防洪相关的工程学",
       "difficulty": "C1"
     },
     {
       "id": 6722,
       "word": "waterleiding",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "水管",
+        "english": "water pipe"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -148,28 +164,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met waterleiding.",
-        "Nog een voorbeeld van waterleiding."
+        "De waterleiding is gesprongen.",
+        "Waterleidingen moeten worden vervangen."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: waterleiding.",
-          "另一示例: waterleiding."
+          "De waterleiding is gesprongen.",
+          "Waterleidingen moeten worden vervangen."
         ],
         "english": [
-          "Example with waterleiding.",
-          "Another example with waterleiding."
+          "De waterleiding is gesprongen.",
+          "Waterleidingen moeten worden vervangen."
         ]
       },
-      "notes": "C1词汇 - waterleiding",
+      "notes": "输送饮用水的管道",
       "difficulty": "C1"
     },
     {
       "id": 6723,
       "word": "waterschappen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "水务局",
+        "english": "water boards"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -180,28 +196,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met waterschappen.",
-        "Nog een voorbeeld van waterschappen."
+        "De waterschappen beheren het water.",
+        "Nederland heeft waterschappen."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: waterschappen.",
-          "另一示例: waterschappen."
+          "De waterschappen beheren het water.",
+          "Nederland heeft waterschappen."
         ],
         "english": [
-          "Example with waterschappen.",
-          "Another example with waterschappen."
+          "De waterschappen beheren het water.",
+          "Nederland heeft waterschappen."
         ]
       },
-      "notes": "C1词汇 - waterschappen",
+      "notes": "负责水资源管理的机构",
       "difficulty": "C1"
     },
     {
       "id": 6724,
       "word": "wedergeboorte",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "重生",
+        "english": "rebirth"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -212,28 +228,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met wedergeboorte.",
-        "Nog een voorbeeld van wedergeboorte."
+        "Een wedergeboorte van het land.",
+        "De wedergeboorte van de stad."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: wedergeboorte.",
-          "另一示例: wedergeboorte."
+          "Een wedergeboorte van het land.",
+          "De wedergeboorte van de stad."
         ],
         "english": [
-          "Example with wedergeboorte.",
-          "Another example with wedergeboorte."
+          "Een wedergeboorte van het land.",
+          "De wedergeboorte van de stad."
         ]
       },
-      "notes": "C1词汇 - wedergeboorte",
+      "notes": "新的开始或复兴",
       "difficulty": "C1"
     },
     {
       "id": 6725,
       "word": "weervoorspelling",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "天气预报",
+        "english": "weather forecast"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -244,188 +260,202 @@
         }
       },
       "examples": [
-        "Voorbeeld met weervoorspelling.",
-        "Nog een voorbeeld van weervoorspelling."
+        "De weervoorspelling is slecht.",
+        "Bekijk de weervoorspelling."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: weervoorspelling.",
-          "另一示例: weervoorspelling."
+          "De weervoorspelling is slecht.",
+          "Bekijk de weervoorspelling."
         ],
         "english": [
-          "Example with weervoorspelling.",
-          "Another example with weervoorspelling."
+          "De weervoorspelling is slecht.",
+          "Bekijk de weervoorspelling."
         ]
       },
-      "notes": "C1词汇 - weervoorspelling",
+      "notes": "预测未来天气的报告",
       "difficulty": "C1"
     },
     {
       "id": 6726,
       "word": "wegbezuinigen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "削减开支",
+        "english": "to cut back"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "verb",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "wegbezuinigen",
-          "plural": "wegbezuinigenen"
+        "verb": {
+          "infinitive": "wegbezuinigen",
+          "isSeparable": true,
+          "prefix": "weg",
+          "present": {
+            "ik": "bezuinig weg",
+            "jij": "bezuinigt weg",
+            "hij": "bezuinigt weg",
+            "wij": "bezuinigen weg",
+            "jullie": "bezuinigen weg",
+            "zij": "bezuinigen weg"
+          },
+          "past": {
+            "singular": "bezuinigde weg",
+            "plural": "bezuinigden weg"
+          },
+          "pastParticiple": "wegbezuinigd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
-        "Voorbeeld met wegbezuinigen.",
-        "Nog een voorbeeld van wegbezuinigen."
+        "We moeten bezuinigen.",
+        "Het bedrijf bezuinigt op kosten."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: wegbezuinigen.",
-          "另一示例: wegbezuinigen."
+          "We moeten bezuinigen.",
+          "Het bedrijf bezuinigt op kosten."
         ],
         "english": [
-          "Example with wegbezuinigen.",
-          "Another example with wegbezuinigen."
+          "We moeten bezuinigen.",
+          "Het bedrijf bezuinigt op kosten."
         ]
       },
-      "notes": "C1词汇 - wegbezuinigen",
+      "notes": "减少花费或使用",
       "difficulty": "C1"
     },
     {
       "id": 6727,
       "word": "wel degelijk",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "确实",
+        "english": "indeed"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "wel degelijk",
-          "plural": "wel degelijken"
-        }
-      },
+      "partOfSpeech": "adverb",
+      "forms": {},
       "examples": [
-        "Voorbeeld met wel degelijk.",
-        "Nog een voorbeeld van wel degelijk."
+        "Wel degelijk.",
+        "Het is wel degelijk."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: wel degelijk.",
-          "另一示例: wel degelijk."
+          "Wel degelijk.",
+          "Het is wel degelijk."
         ],
         "english": [
-          "Example with wel degelijk.",
-          "Another example with wel degelijk."
+          "Wel degelijk.",
+          "Het is wel degelijk."
         ]
       },
-      "notes": "C1词汇 - wel degelijk",
+      "notes": "表示强调或确认",
       "difficulty": "C1"
     },
     {
       "id": 6728,
       "word": "welgemanierd",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "有礼貌的",
+        "english": "well-mannered"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "welgemanierd",
-          "plural": "welgemanierden"
+        "adjective": {
+          "base": "welgemanierd",
+          "withDe": "welgemanierde",
+          "withHet": "welgemanierde",
+          "comparative": "welgemanierder",
+          "superlative": "welgemanierdst"
         }
       },
       "examples": [
-        "Voorbeeld met welgemanierd.",
-        "Nog een voorbeeld van welgemanierd."
+        "Een welgemanierd persoon.",
+        "Hij gedraagt zich welgemanierd."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: welgemanierd.",
-          "另一示例: welgemanierd."
+          "Een welgemanierd persoon.",
+          "Hij gedraagt zich welgemanierd."
         ],
         "english": [
-          "Example with welgemanierd.",
-          "Another example with welgemanierd."
+          "Een welgemanierd persoon.",
+          "Hij gedraagt zich welgemanierd."
         ]
       },
-      "notes": "C1词汇 - welgemanierd",
+      "notes": "举止得体的",
       "difficulty": "C1"
     },
     {
       "id": 6729,
       "word": "weloverwogen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "深思熟虑的",
+        "english": "well-considered"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "weloverwogen",
-          "plural": "weloverwogenen"
+        "adjective": {
+          "base": "weloverwogen",
+          "withDe": "weloverwogen",
+          "withHet": "weloverwogen",
+          "comparative": "weloverwogener",
+          "superlative": "weloverwogenst"
         }
       },
       "examples": [
-        "Voorbeeld met weloverwogen.",
-        "Nog een voorbeeld van weloverwogen."
+        "Een weloverwogen beslissing.",
+        "Weloverwogen advies."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: weloverwogen.",
-          "另一示例: weloverwogen."
+          "Een weloverwogen beslissing.",
+          "Weloverwogen advies."
         ],
         "english": [
-          "Example with weloverwogen.",
-          "Another example with weloverwogen."
+          "Een weloverwogen beslissing.",
+          "Weloverwogen advies."
         ]
       },
-      "notes": "C1词汇 - weloverwogen",
+      "notes": "经过仔细考虑的",
       "difficulty": "C1"
     },
     {
       "id": 6730,
       "word": "wereldvreemd",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "格格不入的",
+        "english": "alienated"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "wereldvreemd",
-          "plural": "wereldvreemden"
+        "adjective": {
+          "base": "wereldvreemd",
+          "withDe": "wereldvreemde",
+          "withHet": "wereldvreemde",
+          "comparative": "wereldvreemder",
+          "superlative": "wereldvreemdst"
         }
       },
       "examples": [
-        "Voorbeeld met wereldvreemd.",
-        "Nog een voorbeeld van wereldvreemd."
+        "Hij voelt zich wereldvreemd.",
+        "Een wereldvreemde idee."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: wereldvreemd.",
-          "另一示例: wereldvreemd."
+          "Hij voelt zich wereldvreemd.",
+          "Een wereldvreemde idee."
         ],
         "english": [
-          "Example with wereldvreemd.",
-          "Another example with wereldvreemd."
+          "Hij voelt zich wereldvreemd.",
+          "Een wereldvreemde idee."
         ]
       },
-      "notes": "C1词汇 - wereldvreemd",
+      "notes": "与周围环境或社会不协调的",
       "difficulty": "C1"
     },
     {
       "id": 6731,
       "word": "werkelijkheid",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "现实",
+        "english": "reality"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -436,28 +466,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met werkelijkheid.",
-        "Nog een voorbeeld van werkelijkheid."
+        "De werkelijkheid is anders.",
+        "In de werkelijkheid."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: werkelijkheid.",
-          "另一示例: werkelijkheid."
+          "De werkelijkheid is anders.",
+          "In de werkelijkheid."
         ],
         "english": [
-          "Example with werkelijkheid.",
-          "Another example with werkelijkheid."
+          "De werkelijkheid is anders.",
+          "In de werkelijkheid."
         ]
       },
-      "notes": "C1词汇 - werkelijkheid",
+      "notes": "实际存在的事物或情况",
       "difficulty": "C1"
     },
     {
       "id": 6732,
       "word": "werkervaring",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "工作经验",
+        "english": "work experience"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -468,28 +498,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met werkervaring.",
-        "Nog een voorbeeld van werkervaring."
+        "Heb je werkervaring?",
+        "Mijn werkervaring is beperkt."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: werkervaring.",
-          "另一示例: werkervaring."
+          "Heb je werkervaring?.",
+          "Mijn werkervaring is beperkt."
         ],
         "english": [
-          "Example with werkervaring.",
-          "Another example with werkervaring."
+          "Heb je werkervaring?.",
+          "Mijn werkervaring is beperkt."
         ]
       },
-      "notes": "C1词汇 - werkervaring",
+      "notes": "工作中积累的经验",
       "difficulty": "C1"
     },
     {
       "id": 6733,
       "word": "werktuigkundige",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "机械工程师",
+        "english": "mechanical engineer"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -500,28 +530,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met werktuigkundige.",
-        "Nog een voorbeeld van werktuigkundige."
+        "Hij werkt als werktuigkundige.",
+        "De werktuigkundige repareerde de machine."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: werktuigkundige.",
-          "另一示例: werktuigkundige."
+          "Hij werkt als werktuigkundige.",
+          "De werktuigkundige repareerde de machine."
         ],
         "english": [
-          "Example with werktuigkundige.",
-          "Another example with werktuigkundige."
+          "Hij werkt als werktuigkundige.",
+          "De werktuigkundige repareerde de machine."
         ]
       },
-      "notes": "C1词汇 - werktuigkundige",
+      "notes": "专门从事机械工程的人",
       "difficulty": "C1"
     },
     {
       "id": 6734,
       "word": "werkzaamheid",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "活动",
+        "english": "activity"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -532,92 +562,96 @@
         }
       },
       "examples": [
-        "Voorbeeld met werkzaamheid.",
-        "Nog een voorbeeld van werkzaamheid."
+        "De werkzaamheid op kantoor.",
+        "Geen werkzaamheid."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: werkzaamheid.",
-          "另一示例: werkzaamheid."
+          "De werkzaamheid op kantoor.",
+          "Geen werkzaamheid."
         ],
         "english": [
-          "Example with werkzaamheid.",
-          "Another example with werkzaamheid."
+          "De werkzaamheid op kantoor.",
+          "Geen werkzaamheid."
         ]
       },
-      "notes": "C1词汇 - werkzaamheid",
+      "notes": "正在进行的工作或活动",
       "difficulty": "C1"
     },
     {
       "id": 6735,
       "word": "wetenschappelijk",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "科学的",
+        "english": "scientific"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "wetenschappelijk",
-          "plural": "wetenschappelijken"
+        "adjective": {
+          "base": "wetenschappelijk",
+          "withDe": "wetenschappelijke",
+          "withHet": "wetenschappelijke",
+          "comparative": "wetenschappelijker",
+          "superlative": "wetenschappelijkst"
         }
       },
       "examples": [
-        "Voorbeeld met wetenschappelijk.",
-        "Nog een voorbeeld van wetenschappelijk."
+        "Een wetenschappelijke studie.",
+        "Wetenschappelijk onderzoek."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: wetenschappelijk.",
-          "另一示例: wetenschappelijk."
+          "Een wetenschappelijke studie.",
+          "Wetenschappelijk onderzoek."
         ],
         "english": [
-          "Example with wetenschappelijk.",
-          "Another example with wetenschappelijk."
+          "Een wetenschappelijke studie.",
+          "Wetenschappelijk onderzoek."
         ]
       },
-      "notes": "C1词汇 - wetenschappelijk",
+      "notes": "与科学相关的",
       "difficulty": "C1"
     },
     {
       "id": 6736,
       "word": "wisselvallig",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "多变的",
+        "english": "changeable"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "wisselvallig",
-          "plural": "wisselvalligen"
+        "adjective": {
+          "base": "wisselvallig",
+          "withDe": "wisselvallige",
+          "withHet": "wisselvallige",
+          "comparative": "wisselvalliger",
+          "superlative": "wisselvalligst"
         }
       },
       "examples": [
-        "Voorbeeld met wisselvallig.",
-        "Nog een voorbeeld van wisselvallig."
+        "Wisselvallig weer.",
+        "Het wisselvallige klimaat."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: wisselvallig.",
-          "另一示例: wisselvallig."
+          "Wisselvallig weer.",
+          "Het wisselvallige klimaat."
         ],
         "english": [
-          "Example with wisselvallig.",
-          "Another example with wisselvallig."
+          "Wisselvallig weer.",
+          "Het wisselvallige klimaat."
         ]
       },
-      "notes": "C1词汇 - wisselvallig",
+      "notes": "经常变化的",
       "difficulty": "C1"
     },
     {
       "id": 6737,
       "word": "wisselwerken",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "开关操作",
+        "english": "switching"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -628,60 +662,62 @@
         }
       },
       "examples": [
-        "Voorbeeld met wisselwerken.",
-        "Nog een voorbeeld van wisselwerken."
+        "Het wisselwerken van de trein.",
+        "Wisselwerken vereist aandacht."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: wisselwerken.",
-          "另一示例: wisselwerken."
+          "Het wisselwerken van de trein.",
+          "Wisselwerken vereist aandacht."
         ],
         "english": [
-          "Example with wisselwerken.",
-          "Another example with wisselwerken."
+          "Het wisselwerken van de trein.",
+          "Wisselwerken vereist aandacht."
         ]
       },
-      "notes": "C1词汇 - wisselwerken",
+      "notes": "切换或改变的操作",
       "difficulty": "C1"
     },
     {
       "id": 6738,
       "word": "wonderbaarlijk",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "惊人的",
+        "english": "amazing"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "wonderbaarlijk",
-          "plural": "wonderbaarlijken"
+        "adjective": {
+          "base": "wonderbaarlijk",
+          "withDe": "wonderbaarlijke",
+          "withHet": "wonderbaarlijke",
+          "comparative": "wonderbaarlijker",
+          "superlative": "wonderbaarlijkst"
         }
       },
       "examples": [
-        "Voorbeeld met wonderbaarlijk.",
-        "Nog een voorbeeld van wonderbaarlijk."
+        "Een wonderbaarlijke prestatie.",
+        "Het was wonderbaarlijk."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: wonderbaarlijk.",
-          "另一示例: wonderbaarlijk."
+          "Een wonderbaarlijke prestatie.",
+          "Het was wonderbaarlijk."
         ],
         "english": [
-          "Example with wonderbaarlijk.",
-          "Another example with wonderbaarlijk."
+          "Een wonderbaarlijke prestatie.",
+          "Het was wonderbaarlijk."
         ]
       },
-      "notes": "C1词汇 - wonderbaarlijk",
+      "notes": "令人惊讶的",
       "difficulty": "C1"
     },
     {
       "id": 6739,
       "word": "woningzoekende",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "找房者",
+        "english": "house hunter"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -692,28 +728,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met woningzoekende.",
-        "Nog een voorbeeld van woningzoekende."
+        "Woningzoekenden zoeken een huis.",
+        "De woningzoekende is wanhopig."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: woningzoekende.",
-          "另一示例: woningzoekende."
+          "Woningzoekenden zoeken een huis.",
+          "De woningzoekende is wanhopig."
         ],
         "english": [
-          "Example with woningzoekende.",
-          "Another example with woningzoekende."
+          "Woningzoekenden zoeken een huis.",
+          "De woningzoekende is wanhopig."
         ]
       },
-      "notes": "C1词汇 - woningzoekende",
+      "notes": "正在寻找住房的人",
       "difficulty": "C1"
     },
     {
       "id": 6740,
       "word": "woordenschat",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "词汇量",
+        "english": "vocabulary"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -724,28 +760,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met woordenschat.",
-        "Nog een voorbeeld van woordenschat."
+        "Een grote woordenschat.",
+        "Woordenschat uitbreiden."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: woordenschat.",
-          "另一示例: woordenschat."
+          "Een grote woordenschat.",
+          "Woordenschat uitbreiden."
         ],
         "english": [
-          "Example with woordenschat.",
-          "Another example with woordenschat."
+          "Een grote woordenschat.",
+          "Woordenschat uitbreiden."
         ]
       },
-      "notes": "C1词汇 - woordenschat",
+      "notes": "个人掌握的词汇总数",
       "difficulty": "C1"
     },
     {
       "id": 6741,
       "word": "woordspeling",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "双关语",
+        "english": "pun"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -756,28 +792,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met woordspeling.",
-        "Nog een voorbeeld van woordspeling."
+        "Een grappige woordspeling.",
+        "Hij maakte een woordspeling."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: woordspeling.",
-          "另一示例: woordspeling."
+          "Een grappige woordspeling.",
+          "Hij maakte een woordspeling."
         ],
         "english": [
-          "Example with woordspeling.",
-          "Another example with woordspeling."
+          "Een grappige woordspeling.",
+          "Hij maakte een woordspeling."
         ]
       },
-      "notes": "C1词汇 - woordspeling",
+      "notes": "利用词语的多义性制造幽默",
       "difficulty": "C1"
     },
     {
       "id": 6742,
       "word": "woordvoerder",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "发言人",
+        "english": "spokesperson"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -788,92 +824,86 @@
         }
       },
       "examples": [
-        "Voorbeeld met woordvoerder.",
-        "Nog een voorbeeld van woordvoerder."
+        "De woordvoerder sprak.",
+        "Onze woordvoerder is niet beschikbaar."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: woordvoerder.",
-          "另一示例: woordvoerder."
+          "De woordvoerder sprak.",
+          "Onze woordvoerder is niet beschikbaar."
         ],
         "english": [
-          "Example with woordvoerder.",
-          "Another example with woordvoerder."
+          "De woordvoerder sprak.",
+          "Onze woordvoerder is niet beschikbaar."
         ]
       },
-      "notes": "C1词汇 - woordvoerder",
+      "notes": "代表组织发表意见的人",
       "difficulty": "C1"
     },
     {
       "id": 6743,
       "word": "worstelen met",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "与...斗争",
+        "english": "to struggle with"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "worstelen met",
-          "plural": "worstelen meten"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met worstelen met.",
-        "Nog een voorbeeld van worstelen met."
+        "Hij worstelt met het probleem.",
+        "Worstelen met verslaving."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: worstelen met.",
-          "另一示例: worstelen met."
+          "Hij worstelt met het probleem.",
+          "Worstelen met verslaving."
         ],
         "english": [
-          "Example with worstelen met.",
-          "Another example with worstelen met."
+          "Hij worstelt met het probleem.",
+          "Worstelen met verslaving."
         ]
       },
-      "notes": "C1词汇 - worstelen met",
+      "notes": "努力克服困难",
       "difficulty": "C1"
     },
     {
       "id": 6744,
-      "word": "zaklantaaren",
+      "word": "zaklantaarn",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "手电筒",
+        "english": "flashlight"
       },
       "partOfSpeech": "noun",
       "forms": {
         "noun": {
           "article": "de",
-          "singular": "zaklantaaren",
-          "plural": "zaklantaarenen"
+          "singular": "zaklantaarn",
+          "plural": "zaklantaarns"
         }
       },
       "examples": [
-        "Voorbeeld met zaklantaaren.",
-        "Nog een voorbeeld van zaklantaaren."
+        "Ik heb een zaklantaarn nodig.",
+        "De zaklantaarn werkt niet."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zaklantaaren.",
-          "另一示例: zaklantaaren."
+          "我需要一个手电筒.",
+          "手电筒不工作了."
         ],
         "english": [
-          "Example with zaklantaaren.",
-          "Another example with zaklantaaren."
+          "I need a flashlight.",
+          "The flashlight doesn't work."
         ]
       },
-      "notes": "C1词汇 - zaklantaaren",
+      "notes": "便携式照明工具",
       "difficulty": "C1"
     },
     {
       "id": 6745,
       "word": "zeecontainer",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "海运集装箱",
+        "english": "shipping container"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -884,92 +914,96 @@
         }
       },
       "examples": [
-        "Voorbeeld met zeecontainer.",
-        "Nog een voorbeeld van zeecontainer."
+        "De zeecontainer is gelost.",
+        "Een volle zeecontainer."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zeecontainer.",
-          "另一示例: zeecontainer."
+          "De zeecontainer is gelost.",
+          "Een volle zeecontainer."
         ],
         "english": [
-          "Example with zeecontainer.",
-          "Another example with zeecontainer."
+          "De zeecontainer is gelost.",
+          "Een volle zeecontainer."
         ]
       },
-      "notes": "C1词汇 - zeecontainer",
+      "notes": "用于海运的大型金属箱",
       "difficulty": "C1"
     },
     {
       "id": 6746,
       "word": "zelfgemotiveerd",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "自我激励的",
+        "english": "self-motivated"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zelfgemotiveerd",
-          "plural": "zelfgemotiveerden"
+        "adjective": {
+          "base": "zelfgemotiveerd",
+          "withDe": "zelfgemotiveerde",
+          "withHet": "zelfgemotiveerde",
+          "comparative": "zelfgemotiveerder",
+          "superlative": "zelfgemotiveerdst"
         }
       },
       "examples": [
-        "Voorbeeld met zelfgemotiveerd.",
-        "Nog een voorbeeld van zelfgemotiveerd."
+        "Een zelfgemotiveerde student.",
+        "Zelfgemotiveerde werknemers."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zelfgemotiveerd.",
-          "另一示例: zelfgemotiveerd."
+          "Een zelfgemotiveerde student.",
+          "Zelfgemotiveerde werknemers."
         ],
         "english": [
-          "Example with zelfgemotiveerd.",
-          "Another example with zelfgemotiveerd."
+          "Een zelfgemotiveerde student.",
+          "Zelfgemotiveerde werknemers."
         ]
       },
-      "notes": "C1词汇 - zelfgemotiveerd",
+      "notes": "能够自我驱动的人",
       "difficulty": "C1"
     },
     {
       "id": 6747,
       "word": "zelfgenoegzaam",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "知足的",
+        "english": "self-sufficient"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zelfgenoegzaam",
-          "plural": "zelfgenoegzaamen"
+        "adjective": {
+          "base": "zelfgenoegzaam",
+          "withDe": "zelfgenoegzame",
+          "withHet": "zelfgenoegzame",
+          "comparative": "zelfgenoegzamer",
+          "superlative": "zelfgenoegzaamst"
         }
       },
       "examples": [
-        "Voorbeeld met zelfgenoegzaam.",
-        "Nog een voorbeeld van zelfgenoegzaam."
+        "Een zelfgenoegzaam leven.",
+        "Zij is zelfgenoegzaam."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zelfgenoegzaam.",
-          "另一示例: zelfgenoegzaam."
+          "Een zelfgenoegzaam leven.",
+          "Zij is zelfgenoegzaam."
         ],
         "english": [
-          "Example with zelfgenoegzaam.",
-          "Another example with zelfgenoegzaam."
+          "Een zelfgenoegzaam leven.",
+          "Zij is zelfgenoegzaam."
         ]
       },
-      "notes": "C1词汇 - zelfgenoegzaam",
+      "notes": "不依赖他人的满足感",
       "difficulty": "C1"
     },
     {
       "id": 6748,
       "word": "zelfgenoegzaamheid",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "知足常乐",
+        "english": "self-sufficiency"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -980,28 +1014,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met zelfgenoegzaamheid.",
-        "Nog een voorbeeld van zelfgenoegzaamheid."
+        "Zelfgenoegzaamheid is belangrijk.",
+        "Geniet van zelfgenoegzaamheid."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zelfgenoegzaamheid.",
-          "另一示例: zelfgenoegzaamheid."
+          "Zelfgenoegzaamheid is belangrijk.",
+          "Geniet van zelfgenoegzaamheid."
         ],
         "english": [
-          "Example with zelfgenoegzaamheid.",
-          "Another example with zelfgenoegzaamheid."
+          "Zelfgenoegzaamheid is belangrijk.",
+          "Geniet van zelfgenoegzaamheid."
         ]
       },
-      "notes": "C1词汇 - zelfgenoegzaamheid",
+      "notes": "自给自足的心态",
       "difficulty": "C1"
     },
     {
       "id": 6749,
       "word": "zelfontplooiing",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "自我发展",
+        "english": "self-development"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -1012,28 +1046,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met zelfontplooiing.",
-        "Nog een voorbeeld van zelfontplooiing."
+        "Zelfontplooiing stimuleren.",
+        "Zijn zelfontplooiing is groot."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zelfontplooiing.",
-          "另一示例: zelfontplooiing."
+          "Zelfontplooiing stimuleren.",
+          "Zijn zelfontplooiing is groot."
         ],
         "english": [
-          "Example with zelfontplooiing.",
-          "Another example with zelfontplooiing."
+          "Zelfontplooiing stimuleren.",
+          "Zijn zelfontplooiing is groot."
         ]
       },
-      "notes": "C1词汇 - zelfontplooiing",
+      "notes": "个人能力的成长和发展",
       "difficulty": "C1"
     },
     {
       "id": 6750,
       "word": "zelfredzaamheid",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "自理能力",
+        "english": "independence"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -1044,28 +1078,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met zelfredzaamheid.",
-        "Nog een voorbeeld van zelfredzaamheid."
+        "Ouderenzorg en zelfredzaamheid.",
+        "Behoud zelfredzaamheid."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zelfredzaamheid.",
-          "另一示例: zelfredzaamheid."
+          "Ouderenzorg en zelfredzaamheid.",
+          "Behoud zelfredzaamheid."
         ],
         "english": [
-          "Example with zelfredzaamheid.",
-          "Another example with zelfredzaamheid."
+          "Ouderenzorg en zelfredzaamheid.",
+          "Behoud zelfredzaamheid."
         ]
       },
-      "notes": "C1词汇 - zelfredzaamheid",
+      "notes": "独立处理日常生活的能力",
       "difficulty": "C1"
     },
     {
       "id": 6751,
       "word": "zelfvertrouwen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "自信",
+        "english": "self-confidence"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -1076,2524 +1110,2064 @@
         }
       },
       "examples": [
-        "Voorbeeld met zelfvertrouwen.",
-        "Nog een voorbeeld van zelfvertrouwen."
+        "Hij heeft zelfvertrouwen.",
+        "Opbouwen van zelfvertrouwen."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zelfvertrouwen.",
-          "另一示例: zelfvertrouwen."
+          "Hij heeft zelfvertrouwen.",
+          "Opbouwen van zelfvertrouwen."
         ],
         "english": [
-          "Example with zelfvertrouwen.",
-          "Another example with zelfvertrouwen."
+          "Hij heeft zelfvertrouwen.",
+          "Opbouwen van zelfvertrouwen."
         ]
       },
-      "notes": "C1词汇 - zelfvertrouwen",
+      "notes": "对自己的信心",
       "difficulty": "C1"
     },
     {
       "id": 6752,
       "word": "zelfvoorzienend",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "自给自足的",
+        "english": "self-sufficient"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zelfvoorzienend",
-          "plural": "zelfvoorzienenden"
+        "adjective": {
+          "base": "zelfvoorzienend",
+          "withDe": "zelfvoorzienende",
+          "withHet": "zelfvoorzienende",
+          "comparative": "zelfvoorzienender",
+          "superlative": "zelfvoorzienendst"
         }
       },
       "examples": [
-        "Voorbeeld met zelfvoorzienend.",
-        "Nog een voorbeeld van zelfvoorzienend."
+        "Een zelfvoorzienende boer.",
+        "Zelfvoorzienende gemeenschap."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zelfvoorzienend.",
-          "另一示例: zelfvoorzienend."
+          "Een zelfvoorzienende boer.",
+          "Zelfvoorzienende gemeenschap."
         ],
         "english": [
-          "Example with zelfvoorzienend.",
-          "Another example with zelfvoorzienend."
+          "Een zelfvoorzienende boer.",
+          "Zelfvoorzienende gemeenschap."
         ]
       },
-      "notes": "C1词汇 - zelfvoorzienend",
+      "notes": "能够自给自足的",
       "difficulty": "C1"
     },
     {
       "id": 6753,
       "word": "zich aandienen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "报到",
+        "english": "to report"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich aandienen",
-          "plural": "zich aandienenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich aandienen.",
-        "Nog een voorbeeld van zich aandienen."
+        "Hij moest zich aandienen.",
+        "Aandien je bij het kantoor."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich aandienen.",
-          "另一示例: zich aandienen."
+          "Hij moest zich aandienen.",
+          "Aandien je bij het kantoor."
         ],
         "english": [
-          "Example with zich aandienen.",
-          "Another example with zich aandienen."
+          "Hij moest zich aandienen.",
+          "Aandien je bij het kantoor."
         ]
       },
-      "notes": "C1词汇 - zich aandienen",
+      "notes": "到达某处登记或报到",
       "difficulty": "C1"
     },
     {
       "id": 6754,
       "word": "zich aanmelden voor",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "报名参加",
+        "english": "to register for"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich aanmelden voor",
-          "plural": "zich aanmelden vooren"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich aanmelden voor.",
-        "Nog een voorbeeld van zich aanmelden voor."
+        "Ik heb me aangemeld voor de cursus.",
+        "Aanmelden voor het evenement."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich aanmelden voor.",
-          "另一示例: zich aanmelden voor."
+          "Ik heb me aangemeld voor de cursus.",
+          "Aanmelden voor het evenement."
         ],
         "english": [
-          "Example with zich aanmelden voor.",
-          "Another example with zich aanmelden voor."
+          "Ik heb me aangemeld voor de cursus.",
+          "Aanmelden voor het evenement."
         ]
       },
-      "notes": "C1词汇 - zich aanmelden voor",
+      "notes": "注册参加某活动",
       "difficulty": "C1"
     },
     {
       "id": 6755,
       "word": "zich aanpassen aan",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "适应",
+        "english": "to adapt to"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich aanpassen aan",
-          "plural": "zich aanpassen aanen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich aanpassen aan.",
-        "Nog een voorbeeld van zich aanpassen aan."
+        "Pas je aan aan de nieuwe situatie.",
+        "Hij past zich snel aan."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich aanpassen aan.",
-          "另一示例: zich aanpassen aan."
+          "Pas je aan aan de nieuwe situatie.",
+          "Hij past zich snel aan."
         ],
         "english": [
-          "Example with zich aanpassen aan.",
-          "Another example with zich aanpassen aan."
+          "Pas je aan aan de nieuwe situatie.",
+          "Hij past zich snel aan."
         ]
       },
-      "notes": "C1词汇 - zich aanpassen aan",
+      "notes": "调整以适应新环境",
       "difficulty": "C1"
     },
     {
       "id": 6756,
       "word": "zich afmelden",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "注销",
+        "english": "to unregister"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich afmelden",
-          "plural": "zich afmeldenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich afmelden.",
-        "Nog een voorbeeld van zich afmelden."
+        "Ik wil me afmelden.",
+        "Afmelden bij de dienst."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich afmelden.",
-          "另一示例: zich afmelden."
+          "Ik wil me afmelden.",
+          "Afmelden bij de dienst."
         ],
         "english": [
-          "Example with zich afmelden.",
-          "Another example with zich afmelden."
+          "Ik wil me afmelden.",
+          "Afmelden bij de dienst."
         ]
       },
-      "notes": "C1词汇 - zich afmelden",
+      "notes": "取消注册或退出",
       "difficulty": "C1"
     },
     {
       "id": 6757,
       "word": "zich afspelen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "自娱自乐",
+        "english": "to amuse oneself"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich afspelen",
-          "plural": "zich afspelenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich afspelen.",
-        "Nog een voorbeeld van zich afspelen."
+        "Hij speelde zich af.",
+        "Kinderen spelen zich af."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich afspelen.",
-          "另一示例: zich afspelen."
+          "Hij speelde zich af.",
+          "Kinderen spelen zich af."
         ],
         "english": [
-          "Example with zich afspelen.",
-          "Another example with zich afspelen."
+          "Hij speelde zich af.",
+          "Kinderen spelen zich af."
         ]
       },
-      "notes": "C1词汇 - zich afspelen",
+      "notes": "自己娱乐",
       "difficulty": "C1"
     },
     {
       "id": 6758,
       "word": "zich afsplitsen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "分离",
+        "english": "to split off"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich afsplitsen",
-          "plural": "zich afsplitsenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich afsplitsen.",
-        "Nog een voorbeeld van zich afsplitsen."
+        "De groep splitste zich af.",
+        "Afsplitsen van de hoofdgroep."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich afsplitsen.",
-          "另一示例: zich afsplitsen."
+          "De groep splitste zich af.",
+          "Afsplitsen van de hoofdgroep."
         ],
         "english": [
-          "Example with zich afsplitsen.",
-          "Another example with zich afsplitsen."
+          "De groep splitste zich af.",
+          "Afsplitsen van de hoofdgroep."
         ]
       },
-      "notes": "C1词汇 - zich afsplitsen",
+      "notes": "从整体分离出来",
       "difficulty": "C1"
     },
     {
       "id": 6759,
       "word": "zich afvragen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "质疑",
+        "english": "to question"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich afvragen",
-          "plural": "zich afvragenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich afvragen.",
-        "Nog een voorbeeld van zich afvragen."
+        "Ik vraag me dat af.",
+        "Vraag je het af?"
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich afvragen.",
-          "另一示例: zich afvragen."
+          "Ik vraag me dat af.",
+          "Vraag je het af?."
         ],
         "english": [
-          "Example with zich afvragen.",
-          "Another example with zich afvragen."
+          "Ik vraag me dat af.",
+          "Vraag je het af?."
         ]
       },
-      "notes": "C1词汇 - zich afvragen",
+      "notes": "对某事表示怀疑",
       "difficulty": "C1"
     },
     {
       "id": 6760,
       "word": "zich bedienen van",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "使用",
+        "english": "to make use of"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich bedienen van",
-          "plural": "zich bedienen vanen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich bedienen van.",
-        "Nog een voorbeeld van zich bedienen van."
+        "Bedien je van deze gelegenheid.",
+        "Ik bedien me van de faciliteiten."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich bedienen van.",
-          "另一示例: zich bedienen van."
+          "Bedien je van deze gelegenheid.",
+          "Ik bedien me van de faciliteiten."
         ],
         "english": [
-          "Example with zich bedienen van.",
-          "Another example with zich bedienen van."
+          "Bedien je van deze gelegenheid.",
+          "Ik bedien me van de faciliteiten."
         ]
       },
-      "notes": "C1词汇 - zich bedienen van",
+      "notes": "利用或享用某物",
       "difficulty": "C1"
     },
     {
       "id": 6761,
       "word": "zich behulpen met",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "帮助",
+        "english": "to help with"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich behulpen met",
-          "plural": "zich behulpen meten"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich behulpen met.",
-        "Nog een voorbeeld van zich behulpen met."
+        "Help me met dit probleem.",
+        "Ik help je ermee."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich behulpen met.",
-          "另一示例: zich behulpen met."
+          "Help me met dit probleem.",
+          "Ik help je ermee."
         ],
         "english": [
-          "Example with zich behulpen met.",
-          "Another example with zich behulpen met."
+          "Help me met dit probleem.",
+          "Ik help je ermee."
         ]
       },
-      "notes": "C1词汇 - zich behulpen met",
+      "notes": "协助某人做某事",
       "difficulty": "C1"
     },
     {
       "id": 6762,
       "word": "zich bekommeren over",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "担心",
+        "english": "to worry about"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich bekommeren over",
-          "plural": "zich bekommeren overen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich bekommeren over.",
-        "Nog een voorbeeld van zich bekommeren over."
+        "Ik bekommer me over zijn gezondheid.",
+        "Bekommer je niet te veel."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich bekommeren over.",
-          "另一示例: zich bekommeren over."
+          "Ik bekommer me over zijn gezondheid.",
+          "Bekommer je niet te veel."
         ],
         "english": [
-          "Example with zich bekommeren over.",
-          "Another example with zich bekommeren over."
+          "Ik bekommer me over zijn gezondheid.",
+          "Bekommer je niet te veel."
         ]
       },
-      "notes": "C1词汇 - zich bekommeren over",
+      "notes": "为某事忧虑",
       "difficulty": "C1"
     },
     {
       "id": 6763,
       "word": "zich bemoeien",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "干涉",
+        "english": "to interfere"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich bemoeien",
-          "plural": "zich bemoeienen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich bemoeien.",
-        "Nog een voorbeeld van zich bemoeien."
+        "Bemoei je niet ermee.",
+        "Hij bemoeit zich met alles."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich bemoeien.",
-          "另一示例: zich bemoeien."
+          "Bemoei je niet ermee.",
+          "Hij bemoeit zich met alles."
         ],
         "english": [
-          "Example with zich bemoeien.",
-          "Another example with zich bemoeien."
+          "Bemoei je niet ermee.",
+          "Hij bemoeit zich met alles."
         ]
       },
-      "notes": "C1词汇 - zich bemoeien",
+      "notes": "干预或插手",
       "difficulty": "C1"
     },
     {
       "id": 6764,
       "word": "zich beperken tot",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "限制在",
+        "english": "to limit to"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich beperken tot",
-          "plural": "zich beperken toten"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich beperken tot.",
-        "Nog een voorbeeld van zich beperken tot."
+        "Beperk je tot het essentiële.",
+        "Het onderzoek beperkte zich tot."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich beperken tot.",
-          "另一示例: zich beperken tot."
+          "Beperk je tot het essentiële.",
+          "Het onderzoek beperkte zich tot."
         ],
         "english": [
-          "Example with zich beperken tot.",
-          "Another example with zich beperken tot."
+          "Beperk je tot het essentiële.",
+          "Het onderzoek beperkte zich tot."
         ]
       },
-      "notes": "C1词汇 - zich beperken tot",
+      "notes": "只限于某个范围",
       "difficulty": "C1"
     },
     {
       "id": 6765,
       "word": "zich beraden op iets",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "深思熟虑",
+        "english": "to reflect on"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich beraden op iets",
-          "plural": "zich beraden op ietsen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich beraden op iets.",
-        "Nog een voorbeeld van zich beraden op iets."
+        "Hij beraadde zich over de beslissing.",
+        "Beraad je goed."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich beraden op iets.",
-          "另一示例: zich beraden op iets."
+          "Hij beraadde zich over de beslissing.",
+          "Beraad je goed."
         ],
         "english": [
-          "Example with zich beraden op iets.",
-          "Another example with zich beraden op iets."
+          "Hij beraadde zich over de beslissing.",
+          "Beraad je goed."
         ]
       },
-      "notes": "C1词汇 - zich beraden op iets",
+      "notes": "仔细思考某事",
       "difficulty": "C1"
     },
     {
       "id": 6766,
       "word": "zich beschikbaar stellen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "提供",
+        "english": "to make available"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich beschikbaar stellen",
-          "plural": "zich beschikbaar stellenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich beschikbaar stellen.",
-        "Nog een voorbeeld van zich beschikbaar stellen."
+        "Stel je beschikbaar.",
+        "Hij stelde zich beschikbaar."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich beschikbaar stellen.",
-          "另一示例: zich beschikbaar stellen."
+          "Stel je beschikbaar.",
+          "Hij stelde zich beschikbaar."
         ],
         "english": [
-          "Example with zich beschikbaar stellen.",
-          "Another example with zich beschikbaar stellen."
+          "Stel je beschikbaar.",
+          "Hij stelde zich beschikbaar."
         ]
       },
-      "notes": "C1词汇 - zich beschikbaar stellen",
+      "notes": "让自己可供使用",
       "difficulty": "C1"
     },
     {
       "id": 6767,
       "word": "zich bevinden",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "位于",
+        "english": "to be located"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich bevinden",
-          "plural": "zich bevindenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich bevinden.",
-        "Nog een voorbeeld van zich bevinden."
+        "Het station bevindt zich hier.",
+        "Waar bevindt zich de winkel?"
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich bevinden.",
-          "另一示例: zich bevinden."
+          "Het station bevindt zich hier.",
+          "Waar bevindt zich de winkel?."
         ],
         "english": [
-          "Example with zich bevinden.",
-          "Another example with zich bevinden."
+          "Het station bevindt zich hier.",
+          "Waar bevindt zich de winkel?."
         ]
       },
-      "notes": "C1词汇 - zich bevinden",
+      "notes": "处于某个位置",
       "difficulty": "C1"
     },
     {
       "id": 6768,
       "word": "zich bezeren",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "烦恼",
+        "english": "to bother"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich bezeren",
-          "plural": "zich bezerenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich bezeren.",
-        "Nog een voorbeeld van zich bezeren."
+        "Het beert me niet.",
+        "Wat beert je?"
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich bezeren.",
-          "另一示例: zich bezeren."
+          "Het beert me niet.",
+          "Wat beert je?."
         ],
         "english": [
-          "Example with zich bezeren.",
-          "Another example with zich bezeren."
+          "Het beert me niet.",
+          "Wat beert je?."
         ]
       },
-      "notes": "C1词汇 - zich bezeren",
+      "notes": "感到困扰",
       "difficulty": "C1"
     },
     {
       "id": 6769,
       "word": "zich bezinnen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "思考",
+        "english": "to reflect"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich bezinnen",
-          "plural": "zich bezinnenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich bezinnen.",
-        "Nog een voorbeeld van zich bezinnen."
+        "Hij bezon zich op zijn leven.",
+        "Bezint je op je daden."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich bezinnen.",
-          "另一示例: zich bezinnen."
+          "Hij bezon zich op zijn leven.",
+          "Bezint je op je daden."
         ],
         "english": [
-          "Example with zich bezinnen.",
-          "Another example with zich bezinnen."
+          "Hij bezon zich op zijn leven.",
+          "Bezint je op je daden."
         ]
       },
-      "notes": "C1词汇 - zich bezinnen",
+      "notes": "深思熟虑或反思",
       "difficulty": "C1"
     },
     {
       "id": 6770,
       "word": "zich conformeren aan",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "符合",
+        "english": "to conform to"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich conformeren aan",
-          "plural": "zich conformeren aanen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich conformeren aan.",
-        "Nog een voorbeeld van zich conformeren aan."
+        "Conformeer je aan de regels.",
+        "Het product conformeert aan de norm."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich conformeren aan.",
-          "另一示例: zich conformeren aan."
+          "Conformeer je aan de regels.",
+          "Het product conformeert aan de norm."
         ],
         "english": [
-          "Example with zich conformeren aan.",
-          "Another example with zich conformeren aan."
+          "Conformeer je aan de regels.",
+          "Het product conformeert aan de norm."
         ]
       },
-      "notes": "C1词汇 - zich conformeren aan",
+      "notes": "遵守或符合规定",
       "difficulty": "C1"
     },
     {
       "id": 6771,
       "word": "zich druk maken",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "担心",
+        "english": "to worry"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich druk maken",
-          "plural": "zich druk makenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich druk maken.",
-        "Nog een voorbeeld van zich druk maken."
+        "Maak je niet druk.",
+        "Hij maakte zich druk."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich druk maken.",
-          "另一示例: zich druk maken."
+          "Maak je niet druk.",
+          "Hij maakte zich druk."
         ],
         "english": [
-          "Example with zich druk maken.",
-          "Another example with zich druk maken."
+          "Maak je niet druk.",
+          "Hij maakte zich druk."
         ]
       },
-      "notes": "C1词汇 - zich druk maken",
+      "notes": "感到焦虑",
       "difficulty": "C1"
     },
     {
       "id": 6772,
       "word": "zich ergeren",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "恼火",
+        "english": "to be annoyed"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich ergeren",
-          "plural": "zich ergerenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich ergeren.",
-        "Nog een voorbeeld van zich ergeren."
+        "Het ergert me.",
+        "Ik erger me aan het geluid."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich ergeren.",
-          "另一示例: zich ergeren."
+          "Het ergert me.",
+          "Ik erger me aan het geluid."
         ],
         "english": [
-          "Example with zich ergeren.",
-          "Another example with zich ergeren."
+          "Het ergert me.",
+          "Ik erger me aan het geluid."
         ]
       },
-      "notes": "C1词汇 - zich ergeren",
+      "notes": "感到烦躁",
       "difficulty": "C1"
     },
     {
       "id": 6773,
       "word": "zich gedragen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "表现",
+        "english": "to behave"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich gedragen",
-          "plural": "zich gedragenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich gedragen.",
-        "Nog een voorbeeld van zich gedragen."
+        "Gedraag je goed.",
+        "Hij gedroeg zich onbeleefd."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich gedragen.",
-          "另一示例: zich gedragen."
+          "Gedraag je goed.",
+          "Hij gedroeg zich onbeleefd."
         ],
         "english": [
-          "Example with zich gedragen.",
-          "Another example with zich gedragen."
+          "Gedraag je goed.",
+          "Hij gedroeg zich onbeleefd."
         ]
       },
-      "notes": "C1词汇 - zich gedragen",
+      "notes": "行为举止",
       "difficulty": "C1"
     },
     {
       "id": 6774,
       "word": "zich herinneren",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "记得",
+        "english": "to remember"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich herinneren",
-          "plural": "zich herinnerenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich herinneren.",
-        "Nog een voorbeeld van zich herinneren."
+        "Ik herinner me het nog.",
+        "Herinner je het?"
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich herinneren.",
-          "另一示例: zich herinneren."
+          "Ik herinner me het nog.",
+          "Herinner je het?."
         ],
         "english": [
-          "Example with zich herinneren.",
-          "Another example with zich herinneren."
+          "Ik herinner me het nog.",
+          "Herinner je het?."
         ]
       },
-      "notes": "C1词汇 - zich herinneren",
+      "notes": "回想起某事",
       "difficulty": "C1"
     },
     {
       "id": 6775,
       "word": "zich houden aan",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "遵守",
+        "english": "to adhere to"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich houden aan",
-          "plural": "zich houden aanen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich houden aan.",
-        "Nog een voorbeeld van zich houden aan."
+        "Houd je aan de afspraak.",
+        "Hij hield zich aan de regels."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich houden aan.",
-          "另一示例: zich houden aan."
+          "Houd je aan de afspraak.",
+          "Hij hield zich aan de regels."
         ],
         "english": [
-          "Example with zich houden aan.",
-          "Another example with zich houden aan."
+          "Houd je aan de afspraak.",
+          "Hij hield zich aan de regels."
         ]
       },
-      "notes": "C1词汇 - zich houden aan",
+      "notes": "坚持或遵守",
       "difficulty": "C1"
     },
     {
       "id": 6776,
       "word": "zich inbeelden",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "想象",
+        "english": "to imagine"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich inbeelden",
-          "plural": "zich inbeeldenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich inbeelden.",
-        "Nog een voorbeeld van zich inbeelden."
+        "Beeld je dat in.",
+        "Ik beeld me het in."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich inbeelden.",
-          "另一示例: zich inbeelden."
+          "Beeld je dat in.",
+          "Ik beeld me het in."
         ],
         "english": [
-          "Example with zich inbeelden.",
-          "Another example with zich inbeelden."
+          "Beeld je dat in.",
+          "Ik beeld me het in."
         ]
       },
-      "notes": "C1词汇 - zich inbeelden",
+      "notes": "在脑海中构想",
       "difficulty": "C1"
     },
     {
       "id": 6777,
       "word": "zich indekken",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "躲藏",
+        "english": "to hide"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich indekken",
-          "plural": "zich indekkenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich indekken.",
-        "Nog een voorbeeld van zich indekken."
+        "Hij dekte zich in.",
+        "Dek je niet in."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich indekken.",
-          "另一示例: zich indekken."
+          "Hij dekte zich in.",
+          "Dek je niet in."
         ],
         "english": [
-          "Example with zich indekken.",
-          "Another example with zich indekken."
+          "Hij dekte zich in.",
+          "Dek je niet in."
         ]
       },
-      "notes": "C1词汇 - zich indekken",
+      "notes": "把自己藏起来",
       "difficulty": "C1"
     },
     {
       "id": 6778,
       "word": "zich inleven",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "设身处地",
+        "english": "to empathize"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich inleven",
-          "plural": "zich inlevenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich inleven.",
-        "Nog een voorbeeld van zich inleven."
+        "Leef je in zijn situatie.",
+        "Zij leefde zich in."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich inleven.",
-          "另一示例: zich inleven."
+          "Leef je in zijn situatie.",
+          "Zij leefde zich in."
         ],
         "english": [
-          "Example with zich inleven.",
-          "Another example with zich inleven."
+          "Leef je in zijn situatie.",
+          "Zij leefde zich in."
         ]
       },
-      "notes": "C1词汇 - zich inleven",
+      "notes": "站在他人角度思考",
       "difficulty": "C1"
     },
     {
       "id": 6779,
       "word": "zich inmengen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "干预",
+        "english": "to intervene"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich inmengen",
-          "plural": "zich inmengenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich inmengen.",
-        "Nog een voorbeeld van zich inmengen."
+        "Meng je niet in.",
+        "Hij mengde zich in de discussie."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich inmengen.",
-          "另一示例: zich inmengen."
+          "Meng je niet in.",
+          "Hij mengde zich in de discussie."
         ],
         "english": [
-          "Example with zich inmengen.",
-          "Another example with zich inmengen."
+          "Meng je niet in.",
+          "Hij mengde zich in de discussie."
         ]
       },
-      "notes": "C1词汇 - zich inmengen",
+      "notes": "插手干预某事",
       "difficulty": "C1"
     },
     {
       "id": 6780,
       "word": "zich inschrijven",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "注册",
+        "english": "to register"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich inschrijven",
-          "plural": "zich inschrijvenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich inschrijven.",
-        "Nog een voorbeeld van zich inschrijven."
+        "Ik schreef me in.",
+        "Schrijf je in."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich inschrijven.",
-          "另一示例: zich inschrijven."
+          "Ik schreef me in.",
+          "Schrijf je in."
         ],
         "english": [
-          "Example with zich inschrijven.",
-          "Another example with zich inschrijven."
+          "Ik schreef me in.",
+          "Schrijf je in."
         ]
       },
-      "notes": "C1词汇 - zich inschrijven",
+      "notes": "登记或报名",
       "difficulty": "C1"
     },
     {
       "id": 6781,
       "word": "zich inspannen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "努力",
+        "english": "to exert oneself"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich inspannen",
-          "plural": "zich inspannenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich inspannen.",
-        "Nog een voorbeeld van zich inspannen."
+        "Span je in.",
+        "Hij spande zich in."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich inspannen.",
-          "另一示例: zich inspannen."
+          "Span je in.",
+          "Hij spande zich in."
         ],
         "english": [
-          "Example with zich inspannen.",
-          "Another example with zich inspannen."
+          "Span je in.",
+          "Hij spande zich in."
         ]
       },
-      "notes": "C1词汇 - zich inspannen",
+      "notes": "尽全力或努力",
       "difficulty": "C1"
     },
     {
       "id": 6782,
       "word": "zich interesseren",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "感兴趣",
+        "english": "to be interested"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich interesseren",
-          "plural": "zich interesserenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich interesseren.",
-        "Nog een voorbeeld van zich interesseren."
+        "Ik interesseer me voor kunst.",
+        "Hij interesseert zich voor wetenschap."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich interesseren.",
-          "另一示例: zich interesseren."
+          "Ik interesseer me voor kunst.",
+          "Hij interesseert zich voor wetenschap."
         ],
         "english": [
-          "Example with zich interesseren.",
-          "Another example with zich interesseren."
+          "Ik interesseer me voor kunst.",
+          "Hij interesseert zich voor wetenschap."
         ]
       },
-      "notes": "C1词汇 - zich interesseren",
+      "notes": "对某事产生兴趣",
       "difficulty": "C1"
     },
     {
       "id": 6783,
       "word": "zich inzetten voor",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "致力于",
+        "english": "to dedicate to"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich inzetten voor",
-          "plural": "zich inzetten vooren"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich inzetten voor.",
-        "Nog een voorbeeld van zich inzetten voor."
+        "Hij zette zich in voor het project.",
+        "Zet je in voor je doelen."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich inzetten voor.",
-          "另一示例: zich inzetten voor."
+          "Hij zette zich in voor het project.",
+          "Zet je in voor je doelen."
         ],
         "english": [
-          "Example with zich inzetten voor.",
-          "Another example with zich inzetten voor."
+          "Hij zette zich in voor het project.",
+          "Zet je in voor je doelen."
         ]
       },
-      "notes": "C1词汇 - zich inzetten voor",
+      "notes": "全心全意投入",
       "difficulty": "C1"
     },
     {
       "id": 6784,
       "word": "zich lenen voor",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "为...准备",
+        "english": "to prepare for"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich lenen voor",
-          "plural": "zich lenen vooren"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich lenen voor.",
-        "Nog een voorbeeld van zich lenen voor."
+        "Leen je voor het examen.",
+        "Zij leenden zich voor de reis."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich lenen voor.",
-          "另一示例: zich lenen voor."
+          "Leen je voor het examen.",
+          "Zij leenden zich voor de reis."
         ],
         "english": [
-          "Example with zich lenen voor.",
-          "Another example with zich lenen voor."
+          "Leen je voor het examen.",
+          "Zij leenden zich voor de reis."
         ]
       },
-      "notes": "C1词汇 - zich lenen voor",
+      "notes": "做好准备",
       "difficulty": "C1"
     },
     {
       "id": 6785,
       "word": "zich losmaken van",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "摆脱",
+        "english": "to break free from"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich losmaken van",
-          "plural": "zich losmaken vanen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich losmaken van.",
-        "Nog een voorbeeld van zich losmaken van."
+        "Maak je los van het verleden.",
+        "Hij maakte zich los van de gewoonte."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich losmaken van.",
-          "另一示例: zich losmaken van."
+          "Maak je los van het verleden.",
+          "Hij maakte zich los van de gewoonte."
         ],
         "english": [
-          "Example with zich losmaken van.",
-          "Another example with zich losmaken van."
+          "Maak je los van het verleden.",
+          "Hij maakte zich los van de gewoonte."
         ]
       },
-      "notes": "C1词汇 - zich losmaken van",
+      "notes": "解除束缚或依赖",
       "difficulty": "C1"
     },
     {
       "id": 6786,
       "word": "zich misdragen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "行为不当",
+        "english": "to misbehave"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich misdragen",
-          "plural": "zich misdragenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich misdragen.",
-        "Nog een voorbeeld van zich misdragen."
+        "Hij misdroeg zich.",
+        "Misdraag je niet."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich misdragen.",
-          "另一示例: zich misdragen."
+          "Hij misdroeg zich.",
+          "Misdraag je niet."
         ],
         "english": [
-          "Example with zich misdragen.",
-          "Another example with zich misdragen."
+          "Hij misdroeg zich.",
+          "Misdraag je niet."
         ]
       },
-      "notes": "C1词汇 - zich misdragen",
+      "notes": "举止不端",
       "difficulty": "C1"
     },
     {
       "id": 6787,
       "word": "zich niets aantrekken van",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "不理会",
+        "english": "to ignore"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich niets aantrekken van",
-          "plural": "zich niets aantrekken vanen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich niets aantrekken van.",
-        "Nog een voorbeeld van zich niets aantrekken van."
+        "Trek je niets aan van de kritiek.",
+        "Hij trok zich niets aan van het advies."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich niets aantrekken van.",
-          "另一示例: zich niets aantrekken van."
+          "Trek je niets aan van de kritiek.",
+          "Hij trok zich niets aan van het advies."
         ],
         "english": [
-          "Example with zich niets aantrekken van.",
-          "Another example with zich niets aantrekken van."
+          "Trek je niets aan van de kritiek.",
+          "Hij trok zich niets aan van het advies."
         ]
       },
-      "notes": "C1词汇 - zich niets aantrekken van",
+      "notes": "毫不在意",
       "difficulty": "C1"
     },
     {
       "id": 6788,
       "word": "zich onderscheiden",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "区分",
+        "english": "to distinguish"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich onderscheiden",
-          "plural": "zich onderscheidenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich onderscheiden.",
-        "Nog een voorbeeld van zich onderscheiden."
+        "Onderscheid goed en kwaad.",
+        "Zij onderscheiden zich van anderen."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich onderscheiden.",
-          "另一示例: zich onderscheiden."
+          "Onderscheid goed en kwaad.",
+          "Zij onderscheiden zich van anderen."
         ],
         "english": [
-          "Example with zich onderscheiden.",
-          "Another example with zich onderscheiden."
+          "Onderscheid goed en kwaad.",
+          "Zij onderscheiden zich van anderen."
         ]
       },
-      "notes": "C1词汇 - zich onderscheiden",
+      "notes": "识别不同之处",
       "difficulty": "C1"
     },
     {
       "id": 6789,
       "word": "zich onderwerpen aan",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "服从",
+        "english": "to submit to"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich onderwerpen aan",
-          "plural": "zich onderwerpen aanen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich onderwerpen aan.",
-        "Nog een voorbeeld van zich onderwerpen aan."
+        "Onderwerp je aan de regels.",
+        "Hij onderwierp zich aan het gezag."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich onderwerpen aan.",
-          "另一示例: zich onderwerpen aan."
+          "Onderwerp je aan de regels.",
+          "Hij onderwierp zich aan het gezag."
         ],
         "english": [
-          "Example with zich onderwerpen aan.",
-          "Another example with zich onderwerpen aan."
+          "Onderwerp je aan de regels.",
+          "Hij onderwierp zich aan het gezag."
         ]
       },
-      "notes": "C1词汇 - zich onderwerpen aan",
+      "notes": "接受或遵守",
       "difficulty": "C1"
     },
     {
       "id": 6790,
       "word": "zich ontspannen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "放松",
+        "english": "to relax"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich ontspannen",
-          "plural": "zich ontspannenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich ontspannen.",
-        "Nog een voorbeeld van zich ontspannen."
+        "Span je af en toe ontspannen.",
+        "Hij ontspande zich."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich ontspannen.",
-          "另一示例: zich ontspannen."
+          "Span je af en toe ontspannen.",
+          "Hij ontspande zich."
         ],
         "english": [
-          "Example with zich ontspannen.",
-          "Another example with zich ontspannen."
+          "Span je af en toe ontspannen.",
+          "Hij ontspande zich."
         ]
       },
-      "notes": "C1词汇 - zich ontspannen",
+      "notes": "放松身心",
       "difficulty": "C1"
     },
     {
       "id": 6791,
       "word": "zich onttrekken aan",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "躲避",
+        "english": "to evade"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich onttrekken aan",
-          "plural": "zich onttrekken aanen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich onttrekken aan.",
-        "Nog een voorbeeld van zich onttrekken aan."
+        "Onttrek je aan de vraag.",
+        "Hij onttrok zich aan."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich onttrekken aan.",
-          "另一示例: zich onttrekken aan."
+          "Onttrek je aan de vraag.",
+          "Hij onttrok zich aan."
         ],
         "english": [
-          "Example with zich onttrekken aan.",
-          "Another example with zich onttrekken aan."
+          "Onttrek je aan de vraag.",
+          "Hij onttrok zich aan."
         ]
       },
-      "notes": "C1词汇 - zich onttrekken aan",
+      "notes": "回避或逃避",
       "difficulty": "C1"
     },
     {
       "id": 6792,
       "word": "zich opdringen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "强加",
+        "english": "to impose"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich opdringen",
-          "plural": "zich opdringenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich opdringen.",
-        "Nog een voorbeeld van zich opdringen."
+        "Dring je niet op.",
+        "Hij drong zich aan anderen op."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich opdringen.",
-          "另一示例: zich opdringen."
+          "Dring je niet op.",
+          "Hij drong zich aan anderen op."
         ],
         "english": [
-          "Example with zich opdringen.",
-          "Another example with zich opdringen."
+          "Dring je niet op.",
+          "Hij drong zich aan anderen op."
         ]
       },
-      "notes": "C1词汇 - zich opdringen",
+      "notes": "把某事强加于人",
       "difficulty": "C1"
     },
     {
       "id": 6793,
       "word": "zich openstellen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "开放",
+        "english": "to open up"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich openstellen",
-          "plural": "zich openstellenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich openstellen.",
-        "Nog een voorbeeld van zich openstellen."
+        "Stel je open.",
+        "Hij stelde zich open."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich openstellen.",
-          "另一示例: zich openstellen."
+          "Stel je open.",
+          "Hij stelde zich open."
         ],
         "english": [
-          "Example with zich openstellen.",
-          "Another example with zich openstellen."
+          "Stel je open.",
+          "Hij stelde zich open."
         ]
       },
-      "notes": "C1词汇 - zich openstellen",
+      "notes": "展示真实想法",
       "difficulty": "C1"
     },
     {
       "id": 6794,
       "word": "zich opfrissen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "提神",
+        "english": "to refresh"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich opfrissen",
-          "plural": "zich opfrissenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich opfrissen.",
-        "Nog een voorbeeld van zich opfrissen."
+        "Friss je even op.",
+        "Hij friste zich op met koffie."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich opfrissen.",
-          "另一示例: zich opfrissen."
+          "Friss je even op.",
+          "Hij friste zich op met koffie."
         ],
         "english": [
-          "Example with zich opfrissen.",
-          "Another example with zich opfrissen."
+          "Friss je even op.",
+          "Hij friste zich op met koffie."
         ]
       },
-      "notes": "C1词汇 - zich opfrissen",
+      "notes": "恢复精神",
       "difficulty": "C1"
     },
     {
       "id": 6795,
       "word": "zich opgeven",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "放弃",
+        "english": "to give up"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich opgeven",
-          "plural": "zich opgevenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich opgeven.",
-        "Nog een voorbeeld van zich opgeven."
+        "Geef niet op.",
+        "Hij gaf zich op."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich opgeven.",
-          "另一示例: zich opgeven."
+          "Geef niet op.",
+          "Hij gaf zich op."
         ],
         "english": [
-          "Example with zich opgeven.",
-          "Another example with zich opgeven."
+          "Geef niet op.",
+          "Hij gaf zich op."
         ]
       },
-      "notes": "C1词汇 - zich opgeven",
+      "notes": "停止努力",
       "difficulty": "C1"
     },
     {
       "id": 6796,
       "word": "zich ophopen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "积累",
+        "english": "to accumulate"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich ophopen",
-          "plural": "zich ophopenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich ophopen.",
-        "Nog een voorbeeld van zich ophopen."
+        "Het vuil hoopt zich op.",
+        "Spanningen hoopten zich op."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich ophopen.",
-          "另一示例: zich ophopen."
+          "Het vuil hoopt zich op.",
+          "Spanningen hoopten zich op."
         ],
         "english": [
-          "Example with zich ophopen.",
-          "Another example with zich ophopen."
+          "Het vuil hoopt zich op.",
+          "Spanningen hoopten zich op."
         ]
       },
-      "notes": "C1词汇 - zich ophopen",
+      "notes": "逐渐增多",
       "difficulty": "C1"
     },
     {
       "id": 6797,
       "word": "zich opstellen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "站立",
+        "english": "to stand"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich opstellen",
-          "plural": "zich opstellenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich opstellen.",
-        "Nog een voorbeeld van zich opstellen."
+        "Stel je op.",
+        "Hij stelde zich op."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich opstellen.",
-          "另一示例: zich opstellen."
+          "Stel je op.",
+          "Hij stelde zich op."
         ],
         "english": [
-          "Example with zich opstellen.",
-          "Another example with zich opstellen."
+          "Stel je op.",
+          "Hij stelde zich op."
         ]
       },
-      "notes": "C1词汇 - zich opstellen",
+      "notes": "站起身来",
       "difficulty": "C1"
     },
     {
       "id": 6798,
       "word": "zich over geven",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "屈服",
+        "english": "to yield"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich over geven",
-          "plural": "zich over gevenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich over geven.",
-        "Nog een voorbeeld van zich over geven."
+        "Geef je niet over.",
+        "Hij gaf zich over aan verleiding."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich over geven.",
-          "另一示例: zich over geven."
+          "Geef je niet over.",
+          "Hij gaf zich over aan verleiding."
         ],
         "english": [
-          "Example with zich over geven.",
-          "Another example with zich over geven."
+          "Geef je niet over.",
+          "Hij gaf zich over aan verleiding."
         ]
       },
-      "notes": "C1词汇 - zich over geven",
+      "notes": "放弃抵抗",
       "difficulty": "C1"
     },
     {
       "id": 6799,
       "word": "zich overgeven",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "放弃",
+        "english": "to give up"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich overgeven",
-          "plural": "zich overgevenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich overgeven.",
-        "Nog een voorbeeld van zich overgeven."
+        "Geef je niet over.",
+        "Hij gaf zich over."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich overgeven.",
-          "另一示例: zich overgeven."
+          "Geef je niet over.",
+          "Hij gaf zich over."
         ],
         "english": [
-          "Example with zich overgeven.",
-          "Another example with zich overgeven."
+          "Geef je niet over.",
+          "Hij gaf zich over."
         ]
       },
-      "notes": "C1词汇 - zich overgeven",
+      "notes": "不再坚持",
       "difficulty": "C1"
     },
     {
       "id": 6800,
       "word": "zich overgeven aan",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "屈服",
+        "english": "to surrender to"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich overgeven aan",
-          "plural": "zich overgeven aanen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich overgeven aan.",
-        "Nog een voorbeeld van zich overgeven aan."
+        "Hij gaf zich over aan het lot.",
+        "Overgeef je niet."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich overgeven aan.",
-          "另一示例: zich overgeven aan."
+          "Hij gaf zich over aan het lot.",
+          "Overgeef je niet."
         ],
         "english": [
-          "Example with zich overgeven aan.",
-          "Another example with zich overgeven aan."
+          "Hij gaf zich over aan het lot.",
+          "Overgeef je niet."
         ]
       },
-      "notes": "C1词汇 - zich overgeven aan",
+      "notes": "放弃抵抗",
       "difficulty": "C1"
     },
     {
       "id": 6801,
       "word": "zich realiseren",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "意识到",
+        "english": "to realize"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich realiseren",
-          "plural": "zich realiserenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich realiseren.",
-        "Nog een voorbeeld van zich realiseren."
+        "Hij realiseerde zich zijn fout.",
+        "Realiseer je dat."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich realiseren.",
-          "另一示例: zich realiseren."
+          "Hij realiseerde zich zijn fout.",
+          "Realiseer je dat."
         ],
         "english": [
-          "Example with zich realiseren.",
-          "Another example with zich realiseren."
+          "Hij realiseerde zich zijn fout.",
+          "Realiseer je dat."
         ]
       },
-      "notes": "C1词汇 - zich realiseren",
+      "notes": "开始明白",
       "difficulty": "C1"
     },
     {
       "id": 6802,
       "word": "zich richten op",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "专注",
+        "english": "to focus on"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich richten op",
-          "plural": "zich richten open"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich richten op.",
-        "Nog een voorbeeld van zich richten op."
+        "Richt je op je studie.",
+        "Hij richtte zich op het doel."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich richten op.",
-          "另一示例: zich richten op."
+          "Richt je op je studie.",
+          "Hij richtte zich op het doel."
         ],
         "english": [
-          "Example with zich richten op.",
-          "Another example with zich richten op."
+          "Richt je op je studie.",
+          "Hij richtte zich op het doel."
         ]
       },
-      "notes": "C1词汇 - zich richten op",
+      "notes": "集中注意力于",
       "difficulty": "C1"
     },
     {
       "id": 6803,
       "word": "zich schamen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "感到羞耻",
+        "english": "to be ashamed"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich schamen",
-          "plural": "zich schamenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich schamen.",
-        "Nog een voorbeeld van zich schamen."
+        "Schaam je niet.",
+        "Hij schaamde zich."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich schamen.",
-          "另一示例: zich schamen."
+          "Schaam je niet.",
+          "Hij schaamde zich."
         ],
         "english": [
-          "Example with zich schamen.",
-          "Another example with zich schamen."
+          "Schaam je niet.",
+          "Hij schaamde zich."
         ]
       },
-      "notes": "C1词汇 - zich schamen",
+      "notes": "感到不好意思",
       "difficulty": "C1"
     },
     {
       "id": 6804,
       "word": "zich schuilhouden",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "躲避",
+        "english": "to hide"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich schuilhouden",
-          "plural": "zich schuilhoudenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich schuilhouden.",
-        "Nog een voorbeeld van zich schuilhouden."
+        "Houd je niet schuil.",
+        "Hij hield zich schuil."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich schuilhouden.",
-          "另一示例: zich schuilhouden."
+          "Houd je niet schuil.",
+          "Hij hield zich schuil."
         ],
         "english": [
-          "Example with zich schuilhouden.",
-          "Another example with zich schuilhouden."
+          "Houd je niet schuil.",
+          "Hij hield zich schuil."
         ]
       },
-      "notes": "C1词汇 - zich schuilhouden",
+      "notes": "藏起来不让人发现",
       "difficulty": "C1"
     },
     {
       "id": 6805,
       "word": "zich steken in",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "投入",
+        "english": "to immerse"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich steken in",
-          "plural": "zich steken inen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich steken in.",
-        "Nog een voorbeeld van zich steken in."
+        "Hij stak zich in het werk.",
+        "Stek je in de studie."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich steken in.",
-          "另一示例: zich steken in."
+          "Hij stak zich in het werk.",
+          "Stek je in de studie."
         ],
         "english": [
-          "Example with zich steken in.",
-          "Another example with zich steken in."
+          "Hij stak zich in het werk.",
+          "Stek je in de studie."
         ]
       },
-      "notes": "C1词汇 - zich steken in",
+      "notes": "全心投入某事",
       "difficulty": "C1"
     },
     {
       "id": 6806,
       "word": "zich toeleggen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "致力于",
+        "english": "to devote"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich toeleggen",
-          "plural": "zich toeleggenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich toeleggen.",
-        "Nog een voorbeeld van zich toeleggen."
+        "Leg je toe aan het werk.",
+        "Hij legde zich toe aan onderzoek."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich toeleggen.",
-          "另一示例: zich toeleggen."
+          "Leg je toe aan het werk.",
+          "Hij legde zich toe aan onderzoek."
         ],
         "english": [
-          "Example with zich toeleggen.",
-          "Another example with zich toeleggen."
+          "Leg je toe aan het werk.",
+          "Hij legde zich toe aan onderzoek."
         ]
       },
-      "notes": "C1词汇 - zich toeleggen",
+      "notes": "专注于某事",
       "difficulty": "C1"
     },
     {
       "id": 6807,
       "word": "zich verbeelden",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "想象",
+        "english": "to imagine"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich verbeelden",
-          "plural": "zich verbeeldenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich verbeelden.",
-        "Nog een voorbeeld van zich verbeelden."
+        "Beeld je het in.",
+        "Hij verbeelde zich de toekomst."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich verbeelden.",
-          "另一示例: zich verbeelden."
+          "Beeld je het in.",
+          "Hij verbeelde zich de toekomst."
         ],
         "english": [
-          "Example with zich verbeelden.",
-          "Another example with zich verbeelden."
+          "Beeld je het in.",
+          "Hij verbeelde zich de toekomst."
         ]
       },
-      "notes": "C1词汇 - zich verbeelden",
+      "notes": "在脑海中构想",
       "difficulty": "C1"
     },
     {
       "id": 6808,
       "word": "zich verbinden te doen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "承诺",
+        "english": "to commit"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich verbinden te doen",
-          "plural": "zich verbinden te doenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich verbinden te doen.",
-        "Nog een voorbeeld van zich verbinden te doen."
+        "Bind je te doen.",
+        "Hij verbande zich te doen."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich verbinden te doen.",
-          "另一示例: zich verbinden te doen."
+          "Bind je te doen.",
+          "Hij verbande zich te doen."
         ],
         "english": [
-          "Example with zich verbinden te doen.",
-          "Another example with zich verbinden te doen."
+          "Bind je te doen.",
+          "Hij verbande zich te doen."
         ]
       },
-      "notes": "C1词汇 - zich verbinden te doen",
+      "notes": "做出保证",
       "difficulty": "C1"
     },
     {
       "id": 6809,
       "word": "zich vergewissen van",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "确认",
+        "english": "to verify"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich vergewissen van",
-          "plural": "zich vergewissen vanen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich vergewissen van.",
-        "Nog een voorbeeld van zich vergewissen van."
+        "Gewis je van de feiten.",
+        "Hij vergewisde zich ervan."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich vergewissen van.",
-          "另一示例: zich vergewissen van."
+          "Gewis je van de feiten.",
+          "Hij vergewisde zich ervan."
         ],
         "english": [
-          "Example with zich vergewissen van.",
-          "Another example with zich vergewissen van."
+          "Gewis je van de feiten.",
+          "Hij vergewisde zich ervan."
         ]
       },
-      "notes": "C1词汇 - zich vergewissen van",
+      "notes": "检查核实",
       "difficulty": "C1"
     },
     {
       "id": 6810,
       "word": "zich vergissen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "犯错",
+        "english": "to make a mistake"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich vergissen",
-          "plural": "zich vergissenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich vergissen.",
-        "Nog een voorbeeld van zich vergissen."
+        "Vergis je niet.",
+        "Hij vergiste zich."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich vergissen.",
-          "另一示例: zich vergissen."
+          "Vergis je niet.",
+          "Hij vergiste zich."
         ],
         "english": [
-          "Example with zich vergissen.",
-          "Another example with zich vergissen."
+          "Vergis je niet.",
+          "Hij vergiste zich."
         ]
       },
-      "notes": "C1词汇 - zich vergissen",
+      "notes": "做错某事",
       "difficulty": "C1"
     },
     {
       "id": 6811,
       "word": "zich vergrijpen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "衰老",
+        "english": "to age"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich vergrijpen",
-          "plural": "zich vergrijpenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich vergrijpen.",
-        "Nog een voorbeeld van zich vergrijpen."
+        "Hij vergreep.",
+        "Vergrijp je niet te snel."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich vergrijpen.",
-          "另一示例: zich vergrijpen."
+          "Hij vergreep.",
+          "Vergrijp je niet te snel."
         ],
         "english": [
-          "Example with zich vergrijpen.",
-          "Another example with zich vergrijpen."
+          "Hij vergreep.",
+          "Vergrijp je niet te snel."
         ]
       },
-      "notes": "C1词汇 - zich vergrijpen",
+      "notes": "逐渐变老",
       "difficulty": "C1"
     },
     {
       "id": 6812,
       "word": "zich verheugen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "高兴",
+        "english": "to rejoice"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich verheugen",
-          "plural": "zich verheugenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich verheugen.",
-        "Nog een voorbeeld van zich verheugen."
+        "Verheug je.",
+        "Hij verheugde zich."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich verheugen.",
-          "另一示例: zich verheugen."
+          "Verheug je.",
+          "Hij verheugde zich."
         ],
         "english": [
-          "Example with zich verheugen.",
-          "Another example with zich verheugen."
+          "Verheug je.",
+          "Hij verheugde zich."
         ]
       },
-      "notes": "C1词汇 - zich verheugen",
+      "notes": "感到喜悦",
       "difficulty": "C1"
     },
     {
       "id": 6813,
       "word": "zich verheugen op",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "期待",
+        "english": "to look forward to"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich verheugen op",
-          "plural": "zich verheugen open"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich verheugen op.",
-        "Nog een voorbeeld van zich verheugen op."
+        "Verheug je op het weekend.",
+        "Ik verheug me op je bezoek."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich verheugen op.",
-          "另一示例: zich verheugen op."
+          "Verheug je op het weekend.",
+          "Ik verheug me op je bezoek."
         ],
         "english": [
-          "Example with zich verheugen op.",
-          "Another example with zich verheugen op."
+          "Verheug je op het weekend.",
+          "Ik verheug me op je bezoek."
         ]
       },
-      "notes": "C1词汇 - zich verheugen op",
+      "notes": "盼望某事",
       "difficulty": "C1"
     },
     {
       "id": 6814,
       "word": "zich verheugen over",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "因...高兴",
+        "english": "to rejoice in"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich verheugen over",
-          "plural": "zich verheugen overen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich verheugen over.",
-        "Nog een voorbeeld van zich verheugen over."
+        "Verheug je over het succes.",
+        "Hij verheugde zich over het nieuws."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich verheugen over.",
-          "另一示例: zich verheugen over."
+          "Verheug je over het succes.",
+          "Hij verheugde zich over het nieuws."
         ],
         "english": [
-          "Example with zich verheugen over.",
-          "Another example with zich verheugen over."
+          "Verheug je over het succes.",
+          "Hij verheugde zich over het nieuws."
         ]
       },
-      "notes": "C1词汇 - zich verheugen over",
+      "notes": "因某事而快乐",
       "difficulty": "C1"
     },
     {
       "id": 6815,
       "word": "zich verhouden",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "相关",
+        "english": "to relate"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich verhouden",
-          "plural": "zich verhoudenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich verhouden.",
-        "Nog een voorbeeld van zich verhouden."
+        "Hoe verhoudt zich dat?",
+        "Dit verhoudt zich tot het andere."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich verhouden.",
-          "另一示例: zich verhouden."
+          "Hoe verhoudt zich dat?.",
+          "Dit verhoudt zich tot het andere."
         ],
         "english": [
-          "Example with zich verhouden.",
-          "Another example with zich verhouden."
+          "Hoe verhoudt zich dat?.",
+          "Dit verhoudt zich tot het andere."
         ]
       },
-      "notes": "C1词汇 - zich verhouden",
+      "notes": "与某事有联系",
       "difficulty": "C1"
     },
     {
       "id": 6816,
       "word": "zich verhouden tot",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "与...比例",
+        "english": "to proportion"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich verhouden tot",
-          "plural": "zich verhouden toten"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich verhouden tot.",
-        "Nog een voorbeeld van zich verhouden tot."
+        "Het verhoudt zich 3:1.",
+        "De kosten verhouden zich tot de opbrengst."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich verhouden tot.",
-          "另一示例: zich verhouden tot."
+          "Het verhoudt zich 3:1.",
+          "De kosten verhouden zich tot de opbrengst."
         ],
         "english": [
-          "Example with zich verhouden tot.",
-          "Another example with zich verhouden tot."
+          "Het verhoudt zich 3:1.",
+          "De kosten verhouden zich tot de opbrengst."
         ]
       },
-      "notes": "C1词汇 - zich verhouden tot",
+      "notes": "保持某种比例关系",
       "difficulty": "C1"
     },
     {
       "id": 6817,
       "word": "zich verkleden",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "换衣服",
+        "english": "to change clothes"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich verkleden",
-          "plural": "zich verkledenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich verkleden.",
-        "Nog een voorbeeld van zich verkleden."
+        "Verkleed je.",
+        "Hij verkleedde zich."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich verkleden.",
-          "另一示例: zich verkleden."
+          "Verkleed je.",
+          "Hij verkleedde zich."
         ],
         "english": [
-          "Example with zich verkleden.",
-          "Another example with zich verkleden."
+          "Verkleed je.",
+          "Hij verkleedde zich."
         ]
       },
-      "notes": "C1词汇 - zich verkleden",
+      "notes": "更换服装",
       "difficulty": "C1"
     },
     {
       "id": 6818,
       "word": "zich vermeerderen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "增加",
+        "english": "to increase"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich vermeerderen",
-          "plural": "zich vermeerderenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich vermeerderen.",
-        "Nog een voorbeeld van zich vermeerderen."
+        "Vermeerder je kennis.",
+        "De bevolking vermeerderde zich."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich vermeerderen.",
-          "另一示例: zich vermeerderen."
+          "Vermeerder je kennis.",
+          "De bevolking vermeerderde zich."
         ],
         "english": [
-          "Example with zich vermeerderen.",
-          "Another example with zich vermeerderen."
+          "Vermeerder je kennis.",
+          "De bevolking vermeerderde zich."
         ]
       },
-      "notes": "C1词汇 - zich vermeerderen",
+      "notes": "数量变多",
       "difficulty": "C1"
     },
     {
       "id": 6819,
       "word": "zich veroorloven",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "允许自己",
+        "english": "to allow oneself"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich veroorloven",
-          "plural": "zich veroorlovenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich veroorloven.",
-        "Nog een voorbeeld van zich veroorloven."
+        "Veroorloof je een pauze.",
+        "Hij veroorloofde zich geen fouten."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich veroorloven.",
-          "另一示例: zich veroorloven."
+          "Veroorloof je een pauze.",
+          "Hij veroorloofde zich geen fouten."
         ],
         "english": [
-          "Example with zich veroorloven.",
-          "Another example with zich veroorloven."
+          "Veroorloof je een pauze.",
+          "Hij veroorloofde zich geen fouten."
         ]
       },
-      "notes": "C1词汇 - zich veroorloven",
+      "notes": "给自己许可",
       "difficulty": "C1"
     },
     {
       "id": 6820,
       "word": "zich verspreken",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "泄漏",
+        "english": "to leak"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich verspreken",
-          "plural": "zich versprekenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich verspreken.",
-        "Nog een voorbeeld van zich verspreken."
+        "Verspreek het geheim niet.",
+        "Hij verspreekte zich."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich verspreken.",
-          "另一示例: zich verspreken."
+          "Verspreek het geheim niet.",
+          "Hij verspreekte zich."
         ],
         "english": [
-          "Example with zich verspreken.",
-          "Another example with zich verspreken."
+          "Verspreek het geheim niet.",
+          "Hij verspreekte zich."
         ]
       },
-      "notes": "C1词汇 - zich verspreken",
+      "notes": "无意说出秘密",
       "difficulty": "C1"
     },
     {
       "id": 6821,
       "word": "zich vervelen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "厌倦",
+        "english": "to get bored"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich vervelen",
-          "plural": "zich vervelenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich vervelen.",
-        "Nog een voorbeeld van zich vervelen."
+        "Ik verveel me.",
+        "Vervel je niet."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich vervelen.",
-          "另一示例: zich vervelen."
+          "Ik verveel me.",
+          "Vervel je niet."
         ],
         "english": [
-          "Example with zich vervelen.",
-          "Another example with zich vervelen."
+          "Ik verveel me.",
+          "Vervel je niet."
         ]
       },
-      "notes": "C1词汇 - zich vervelen",
+      "notes": "感到无聊",
       "difficulty": "C1"
     },
     {
       "id": 6822,
       "word": "zich verweren",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "反抗",
+        "english": "to resist"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich verweren",
-          "plural": "zich verwerenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich verweren.",
-        "Nog een voorbeeld van zich verweren."
+        "Verweer je.",
+        "Hij weerde zich."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich verweren.",
-          "另一示例: zich verweren."
+          "Verweer je.",
+          "Hij weerde zich."
         ],
         "english": [
-          "Example with zich verweren.",
-          "Another example with zich verweren."
+          "Verweer je.",
+          "Hij weerde zich."
         ]
       },
-      "notes": "C1词汇 - zich verweren",
+      "notes": "抵抗或拒绝",
       "difficulty": "C1"
     },
     {
       "id": 6823,
       "word": "zich verzetten tegen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "反对",
+        "english": "to oppose"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich verzetten tegen",
-          "plural": "zich verzetten tegenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich verzetten tegen.",
-        "Nog een voorbeeld van zich verzetten tegen."
+        "Zet je niet tegen.",
+        "Hij zette zich tegen het plan."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich verzetten tegen.",
-          "另一示例: zich verzetten tegen."
+          "Zet je niet tegen.",
+          "Hij zette zich tegen het plan."
         ],
         "english": [
-          "Example with zich verzetten tegen.",
-          "Another example with zich verzetten tegen."
+          "Zet je niet tegen.",
+          "Hij zette zich tegen het plan."
         ]
       },
-      "notes": "C1词汇 - zich verzetten tegen",
+      "notes": "抵抗或反对",
       "difficulty": "C1"
     },
     {
       "id": 6824,
       "word": "zich voltrekken",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "展开",
+        "english": "to unfold"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich voltrekken",
-          "plural": "zich voltrekkenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich voltrekken.",
-        "Nog een voorbeeld van zich voltrekken."
+        "Het plan voltrekt zich.",
+        "Voltrekkende evenementen."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich voltrekken.",
-          "另一示例: zich voltrekken."
+          "Het plan voltrekt zich.",
+          "Voltrekkende evenementen."
         ],
         "english": [
-          "Example with zich voltrekken.",
-          "Another example with zich voltrekken."
+          "Het plan voltrekt zich.",
+          "Voltrekkende evenementen."
         ]
       },
-      "notes": "C1词汇 - zich voltrekken",
+      "notes": "逐渐展现或发生",
       "difficulty": "C1"
     },
     {
       "id": 6825,
       "word": "zich voorbereiden op",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "为...准备",
+        "english": "to prepare for"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich voorbereiden op",
-          "plural": "zich voorbereiden open"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich voorbereiden op.",
-        "Nog een voorbeeld van zich voorbereiden op."
+        "Bereid je voor op het gesprek.",
+        "Hij bereidde zich voor op de reis."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich voorbereiden op.",
-          "另一示例: zich voorbereiden op."
+          "Bereid je voor op het gesprek.",
+          "Hij bereidde zich voor op de reis."
         ],
         "english": [
-          "Example with zich voorbereiden op.",
-          "Another example with zich voorbereiden op."
+          "Bereid je voor op het gesprek.",
+          "Hij bereidde zich voor op de reis."
         ]
       },
-      "notes": "C1词汇 - zich voorbereiden op",
+      "notes": "为某事做准备",
       "difficulty": "C1"
     },
     {
       "id": 6826,
       "word": "zich voordoen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "装作",
+        "english": "to pretend"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich voordoen",
-          "plural": "zich voordoenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich voordoen.",
-        "Nog een voorbeeld van zich voordoen."
+        "Doe je niet voor.",
+        "Hij deed zich voor."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich voordoen.",
-          "另一示例: zich voordoen."
+          "Doe je niet voor.",
+          "Hij deed zich voor."
         ],
         "english": [
-          "Example with zich voordoen.",
-          "Another example with zich voordoen."
+          "Doe je niet voor.",
+          "Hij deed zich voor."
         ]
       },
-      "notes": "C1词汇 - zich voordoen",
+      "notes": "假装某种状态",
       "difficulty": "C1"
     },
     {
       "id": 6827,
       "word": "zich voorstellen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "介绍自己",
+        "english": "to introduce"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich voorstellen",
-          "plural": "zich voorstellenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich voorstellen.",
-        "Nog een voorbeeld van zich voorstellen."
+        "Stel je voor.",
+        "Hij stelde zich voor."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich voorstellen.",
-          "另一示例: zich voorstellen."
+          "Stel je voor.",
+          "Hij stelde zich voor."
         ],
         "english": [
-          "Example with zich voorstellen.",
-          "Another example with zich voorstellen."
+          "Stel je voor.",
+          "Hij stelde zich voor."
         ]
       },
-      "notes": "C1词汇 - zich voorstellen",
+      "notes": "自我介绍",
       "difficulty": "C1"
     },
     {
       "id": 6828,
       "word": "zich wagen aan",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "冒险尝试",
+        "english": "to venture"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich wagen aan",
-          "plural": "zich wagen aanen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich wagen aan.",
-        "Nog een voorbeeld van zich wagen aan."
+        "Wag je aan een uitdaging.",
+        "Zij wagen zich aan het avontuur."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich wagen aan.",
-          "另一示例: zich wagen aan."
+          "Wag je aan een uitdaging.",
+          "Zij wagen zich aan het avontuur."
         ],
         "english": [
-          "Example with zich wagen aan.",
-          "Another example with zich wagen aan."
+          "Wag je aan een uitdaging.",
+          "Zij wagen zich aan het avontuur."
         ]
       },
-      "notes": "C1词汇 - zich wagen aan",
+      "notes": "勇敢尝试某事",
       "difficulty": "C1"
     },
     {
       "id": 6829,
       "word": "zich wenden tot",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "求助",
+        "english": "to turn to"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zich wenden tot",
-          "plural": "zich wenden toten"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zich wenden tot.",
-        "Nog een voorbeeld van zich wenden tot."
+        "Wend je tot hem.",
+        "Hij wendde zich tot de rechter."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zich wenden tot.",
-          "另一示例: zich wenden tot."
+          "Wend je tot hem.",
+          "Hij wendde zich tot de rechter."
         ],
         "english": [
-          "Example with zich wenden tot.",
-          "Another example with zich wenden tot."
+          "Wend je tot hem.",
+          "Hij wendde zich tot de rechter."
         ]
       },
-      "notes": "C1词汇 - zich wenden tot",
+      "notes": "向某人寻求帮助",
       "difficulty": "C1"
     },
     {
       "id": 6830,
       "word": "zichtbaarheid",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "可见性",
+        "english": "visibility"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -3604,28 +3178,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met zichtbaarheid.",
-        "Nog een voorbeeld van zichtbaarheid."
+        "De zichtbaarheid is slecht.",
+        "Zichtbaarheid verbeteren."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zichtbaarheid.",
-          "另一示例: zichtbaarheid."
+          "De zichtbaarheid is slecht.",
+          "Zichtbaarheid verbeteren."
         ],
         "english": [
-          "Example with zichtbaarheid.",
-          "Another example with zichtbaarheid."
+          "De zichtbaarheid is slecht.",
+          "Zichtbaarheid verbeteren."
         ]
       },
-      "notes": "C1词汇 - zichtbaarheid",
+      "notes": "被看见的程度",
       "difficulty": "C1"
     },
     {
       "id": 6831,
       "word": "ziektekostenverzekering",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "医疗保险",
+        "english": "health insurance"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -3636,60 +3210,54 @@
         }
       },
       "examples": [
-        "Voorbeeld met ziektekostenverzekering.",
-        "Nog een voorbeeld van ziektekostenverzekering."
+        "Ik heb ziektekostenverzekering.",
+        "De ziektekostenverzekering dekt de kosten."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: ziektekostenverzekering.",
-          "另一示例: ziektekostenverzekering."
+          "Ik heb ziektekostenverzekering.",
+          "De ziektekostenverzekering dekt de kosten."
         ],
         "english": [
-          "Example with ziektekostenverzekering.",
-          "Another example with ziektekostenverzekering."
+          "Ik heb ziektekostenverzekering.",
+          "De ziektekostenverzekering dekt de kosten."
         ]
       },
-      "notes": "C1词汇 - ziektekostenverzekering",
+      "notes": "支付医疗费用的保险",
       "difficulty": "C1"
     },
     {
       "id": 6832,
       "word": "ziektes oplopen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "生病",
+        "english": "to fall ill"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ziektes oplopen",
-          "plural": "ziektes oplopenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met ziektes oplopen.",
-        "Nog een voorbeeld van ziektes oplopen."
+        "Hij liep ziektes op.",
+        "Veel mensen lopen ziektes op."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: ziektes oplopen.",
-          "另一示例: ziektes oplopen."
+          "Hij liep ziektes op.",
+          "Veel mensen lopen ziektes op."
         ],
         "english": [
-          "Example with ziektes oplopen.",
-          "Another example with ziektes oplopen."
+          "Hij liep ziektes op.",
+          "Veel mensen lopen ziektes op."
         ]
       },
-      "notes": "C1词汇 - ziektes oplopen",
+      "notes": "感染疾病",
       "difficulty": "C1"
     },
     {
       "id": 6833,
       "word": "ziekteverzuim",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "疾病预防",
+        "english": "disease prevention"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -3700,156 +3268,132 @@
         }
       },
       "examples": [
-        "Voorbeeld met ziekteverzuim.",
-        "Nog een voorbeeld van ziekteverzuim."
+        "Ziekteverzuim is belangrijk.",
+        "De ziekteverzuim campagne."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: ziekteverzuim.",
-          "另一示例: ziekteverzuim."
+          "Ziekteverzuim is belangrijk.",
+          "De ziekteverzuim campagne."
         ],
         "english": [
-          "Example with ziekteverzuim.",
-          "Another example with ziekteverzuim."
+          "Ziekteverzuim is belangrijk.",
+          "De ziekteverzuim campagne."
         ]
       },
-      "notes": "C1词汇 - ziekteverzuim",
+      "notes": "预防疾病发生的措施",
       "difficulty": "C1"
     },
     {
       "id": 6834,
       "word": "zijn belast met",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "承担",
+        "english": "to be charged with"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zijn belast met",
-          "plural": "zijn belast meten"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zijn belast met.",
-        "Nog een voorbeeld van zijn belast met."
+        "Hij is belast met de taak.",
+        "Zij is belast met het beheer."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zijn belast met.",
-          "另一示例: zijn belast met."
+          "Hij is belast met de taak.",
+          "Zij is belast met het beheer."
         ],
         "english": [
-          "Example with zijn belast met.",
-          "Another example with zijn belast met."
+          "Hij is belast met de taak.",
+          "Zij is belast met het beheer."
         ]
       },
-      "notes": "C1词汇 - zijn belast met",
+      "notes": "被赋予某项责任",
       "difficulty": "C1"
     },
     {
       "id": 6835,
       "word": "zitten te springen",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "充满",
+        "english": "to be bursting"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zitten te springen",
-          "plural": "zitten te springenen"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zitten te springen.",
-        "Nog een voorbeeld van zitten te springen."
+        "Hij zat te springen.",
+        "De energie zat te springen."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zitten te springen.",
-          "另一示例: zitten te springen."
+          "Hij zat te springen.",
+          "De energie zat te springen."
         ],
         "english": [
-          "Example with zitten te springen.",
-          "Another example with zitten te springen."
+          "Hij zat te springen.",
+          "De energie zat te springen."
         ]
       },
-      "notes": "C1词汇 - zitten te springen",
+      "notes": "能量或情绪高涨",
       "difficulty": "C1"
     },
     {
       "id": 6836,
       "word": "zo (weinig) min mogelijk",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "尽可能少",
+        "english": "as little as possible"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zo (weinig) min mogelijk",
-          "plural": "zo (weinig) min mogelijken"
-        }
-      },
+      "partOfSpeech": "adverb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zo (weinig) min mogelijk.",
-        "Nog een voorbeeld van zo (weinig) min mogelijk."
+        "Gebruik zo weinig mogelijk.",
+        "Eet zo weinig mogelijk."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zo (weinig) min mogelijk.",
-          "另一示例: zo (weinig) min mogelijk."
+          "Gebruik zo weinig mogelijk.",
+          "Eet zo weinig mogelijk."
         ],
         "english": [
-          "Example with zo (weinig) min mogelijk.",
-          "Another example with zo (weinig) min mogelijk."
+          "Gebruik zo weinig mogelijk.",
+          "Eet zo weinig mogelijk."
         ]
       },
-      "notes": "C1词汇 - zo (weinig) min mogelijk",
+      "notes": "尽量减少数量",
       "difficulty": "C1"
     },
     {
       "id": 6837,
       "word": "zo snel mogelijk",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "尽快",
+        "english": "as soon as possible"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zo snel mogelijk",
-          "plural": "zo snel mogelijken"
-        }
-      },
+      "partOfSpeech": "adverb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zo snel mogelijk.",
-        "Nog een voorbeeld van zo snel mogelijk."
+        "Kom zo snel mogelijk.",
+        "Doe het zo snel mogelijk."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zo snel mogelijk.",
-          "另一示例: zo snel mogelijk."
+          "Kom zo snel mogelijk.",
+          "Doe het zo snel mogelijk."
         ],
         "english": [
-          "Example with zo snel mogelijk.",
-          "Another example with zo snel mogelijk."
+          "Kom zo snel mogelijk.",
+          "Doe het zo snel mogelijk."
         ]
       },
-      "notes": "C1词汇 - zo snel mogelijk",
+      "notes": "以最快速度",
       "difficulty": "C1"
     },
     {
       "id": 6838,
       "word": "zonsondergang",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "日落",
+        "english": "sunset"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -3860,60 +3404,54 @@
         }
       },
       "examples": [
-        "Voorbeeld met zonsondergang.",
-        "Nog een voorbeeld van zonsondergang."
+        "De zonsondergang was mooi.",
+        "Bij zonsondergang."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zonsondergang.",
-          "另一示例: zonsondergang."
+          "De zonsondergang was mooi.",
+          "Bij zonsondergang."
         ],
         "english": [
-          "Example with zonsondergang.",
-          "Another example with zonsondergang."
+          "De zonsondergang was mooi.",
+          "Bij zonsondergang."
         ]
       },
-      "notes": "C1词汇 - zonsondergang",
+      "notes": "太阳落山的时刻",
       "difficulty": "C1"
     },
     {
       "id": 6839,
-      "word": "zorg dragen voor...",
+      "word": "zorg dragen voor",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "关心",
+        "english": "to care for"
       },
-      "partOfSpeech": "noun",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zorg dragen voor...",
-          "plural": "zorg dragen voor...en"
-        }
-      },
+      "partOfSpeech": "verb phrase",
+      "forms": {},
       "examples": [
-        "Voorbeeld met zorg dragen voor....",
-        "Nog een voorbeeld van zorg dragen voor...."
+        "Draag zorg voor hem.",
+        "Zij draagt zorg voor de kinderen."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zorg dragen voor....",
-          "另一示例: zorg dragen voor...."
+          "关心他.",
+          "她关心孩子们."
         ],
         "english": [
-          "Example with zorg dragen voor....",
-          "Another example with zorg dragen voor...."
+          "Care for him.",
+          "She cares for the children."
         ]
       },
-      "notes": "C1词汇 - zorg dragen voor...",
+      "notes": "照顾或关怀",
       "difficulty": "C1"
     },
     {
       "id": 6840,
       "word": "zorgverzekering",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "医疗保险",
+        "english": "health insurance"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -3924,28 +3462,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met zorgverzekering.",
-        "Nog een voorbeeld van zorgverzekering."
+        "Ik heb zorgverzekering.",
+        "De zorgverzekering vergoedt de kosten."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zorgverzekering.",
-          "另一示例: zorgverzekering."
+          "Ik heb zorgverzekering.",
+          "De zorgverzekering vergoedt de kosten."
         ],
         "english": [
-          "Example with zorgverzekering.",
-          "Another example with zorgverzekering."
+          "Ik heb zorgverzekering.",
+          "De zorgverzekering vergoedt de kosten."
         ]
       },
-      "notes": "C1词汇 - zorgverzekering",
+      "notes": "覆盖医疗费用的保险",
       "difficulty": "C1"
     },
     {
       "id": 6841,
       "word": "zorgzaamheid",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "关爱",
+        "english": "care"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -3956,60 +3494,62 @@
         }
       },
       "examples": [
-        "Voorbeeld met zorgzaamheid.",
-        "Nog een voorbeeld van zorgzaamheid."
+        "Met veel zorgzaamheid.",
+        "Zijn zorgzaamheid is bewonderenswaardig."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zorgzaamheid.",
-          "另一示例: zorgzaamheid."
+          "Met veel zorgzaamheid.",
+          "Zijn zorgzaamheid is bewonderenswaardig."
         ],
         "english": [
-          "Example with zorgzaamheid.",
-          "Another example with zorgzaamheid."
+          "Met veel zorgzaamheid.",
+          "Zijn zorgzaamheid is bewonderenswaardig."
         ]
       },
-      "notes": "C1词汇 - zorgzaamheid",
+      "notes": "关心照顾的态度",
       "difficulty": "C1"
     },
     {
       "id": 6842,
       "word": "zwaarbevochten",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "艰难赢得",
+        "english": "hard-won"
       },
-      "partOfSpeech": "noun",
+      "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "zwaarbevochten",
-          "plural": "zwaarbevochtenen"
+        "adjective": {
+          "base": "zwaarbevochten",
+          "withDe": "zwaarbevochten",
+          "withHet": "zwaarbevochten",
+          "comparative": "zwaarbevochten",
+          "superlative": "zwaarbevochten"
         }
       },
       "examples": [
-        "Voorbeeld met zwaarbevochten.",
-        "Nog een voorbeeld van zwaarbevochten."
+        "Een zwaarbevochten overwinning.",
+        "Zwaarbevochten rechten."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zwaarbevochten.",
-          "另一示例: zwaarbevochten."
+          "Een zwaarbevochten overwinning.",
+          "Zwaarbevochten rechten."
         ],
         "english": [
-          "Example with zwaarbevochten.",
-          "Another example with zwaarbevochten."
+          "Een zwaarbevochten overwinning.",
+          "Zwaarbevochten rechten."
         ]
       },
-      "notes": "C1词汇 - zwaarbevochten",
+      "notes": "通过努力获得的",
       "difficulty": "C1"
     },
     {
       "id": 6843,
       "word": "zwaartekracht",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "重力",
+        "english": "gravity"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -4020,28 +3560,28 @@
         }
       },
       "examples": [
-        "Voorbeeld met zwaartekracht.",
-        "Nog een voorbeeld van zwaartekracht."
+        "De zwaartekracht is belangrijk.",
+        "Zwaartekracht trekken."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zwaartekracht.",
-          "另一示例: zwaartekracht."
+          "De zwaartekracht is belangrijk.",
+          "Zwaartekracht trekken."
         ],
         "english": [
-          "Example with zwaartekracht.",
-          "Another example with zwaartekracht."
+          "De zwaartekracht is belangrijk.",
+          "Zwaartekracht trekken."
         ]
       },
-      "notes": "C1词汇 - zwaartekracht",
+      "notes": "地球对物体的吸引力",
       "difficulty": "C1"
     },
     {
       "id": 6844,
       "word": "zwangerschap",
       "translation": {
-        "chinese": "待补充",
-        "english": "pending translation"
+        "chinese": "怀孕",
+        "english": "pregnancy"
       },
       "partOfSpeech": "noun",
       "forms": {
@@ -4052,20 +3592,20 @@
         }
       },
       "examples": [
-        "Voorbeeld met zwangerschap.",
-        "Nog een voorbeeld van zwangerschap."
+        "Een gezonde zwangerschap.",
+        "Zij is in verwachting van zwangerschap."
       ],
       "exampleTranslations": {
         "chinese": [
-          "示例: zwangerschap.",
-          "另一示例: zwangerschap."
+          "Een gezonde zwangerschap.",
+          "Zij is in verwachting van zwangerschap."
         ],
         "english": [
-          "Example with zwangerschap.",
-          "Another example with zwangerschap."
+          "Een gezonde zwangerschap.",
+          "Zij is in verwachting van zwangerschap."
         ]
       },
-      "notes": "C1词汇 - zwangerschap",
+      "notes": "孕育新生命的状态",
       "difficulty": "C1"
     }
   ]

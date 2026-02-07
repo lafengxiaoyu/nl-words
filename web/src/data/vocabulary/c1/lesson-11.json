@@ -44,13 +44,7 @@
         "english": "to be related to"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "samenhangen met",
-          "plural": "samenhangen meten"
-        }
-      },
+      "forms": {},
       "examples": [
         "De problemen hangen samen met de slechte economie.",
         "Resultaten hangen samen met de inzet van de leerlingen."
@@ -77,10 +71,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "samenhangend",
-          "plural": "samenhangenden"
+        "adjective": {
+          "base": "samenhangend",
+          "withDe": "samenhangende",
+          "withHet": "samenhangende",
+          "comparative": "samenhangender",
+          "superlative": "samenhangendst"
         }
       },
       "examples": [
@@ -113,6 +109,24 @@
           "article": "de",
           "singular": "samensmelten",
           "plural": "samensmeltenen"
+        },
+        "verb": {
+          "infinitive": "samensmelten",
+          "isSeparable": false,
+          "present": {
+            "ik": "smelt samen",
+            "jij": "smelt samen",
+            "hij": "smelt samen",
+            "wij": "smelten samen",
+            "jullie": "smelten samen",
+            "zij": "smelten samen"
+          },
+          "past": {
+            "singular": "smolt samen",
+            "plural": "smolten samen"
+          },
+          "pastParticiple": "samengesmolten",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -145,6 +159,25 @@
           "article": "de",
           "singular": "samenstellen",
           "plural": "samenstellenen"
+        },
+        "verb": {
+          "infinitive": "samenstellen",
+          "isSeparable": true,
+          "prefix": "samen",
+          "present": {
+            "ik": "stel samen",
+            "jij": "stelt samen",
+            "hij": "stelt samen",
+            "wij": "stellen samen",
+            "jullie": "stellen samen",
+            "zij": "stellen samen"
+          },
+          "past": {
+            "singular": "stelde samen",
+            "plural": "stelden samen"
+          },
+          "pastParticiple": "samengesteld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -209,6 +242,25 @@
           "article": "de",
           "singular": "sammenklappen",
           "plural": "sammenklappenen"
+        },
+        "verb": {
+          "infinitive": "samenklappen",
+          "isSeparable": true,
+          "prefix": "samen",
+          "present": {
+            "ik": "klap samen",
+            "jij": "klapt samen",
+            "hij": "klapt samen",
+            "wij": "klappen samen",
+            "jullie": "klappen samen",
+            "zij": "klappen samen"
+          },
+          "past": {
+            "singular": "klapte samen",
+            "plural": "klapten samen"
+          },
+          "pastParticiple": "samengeklapt",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -237,10 +289,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "schaamteloos",
-          "plural": "schaamteloosen"
+        "adjective": {
+          "base": "schaamteloos",
+          "withDe": "schaamteloze",
+          "withHet": "schaamteloze",
+          "comparative": "schaamtelozer",
+          "superlative": "schaamteloost"
         }
       },
       "examples": [
@@ -621,10 +675,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "schrikbarend",
-          "plural": "schrikbarenden"
+        "adjective": {
+          "base": "schrikbarend",
+          "withDe": "schrikbarende",
+          "withHet": "schrikbarende",
+          "comparative": "schrikbarender",
+          "superlative": "schrikbarendst"
         }
       },
       "examples": [
@@ -781,10 +837,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "sentimenteel",
-          "plural": "sentimenteelen"
+        "adjective": {
+          "base": "sentimenteel",
+          "withDe": "sentimentele",
+          "withHet": "sentimentele",
+          "comparative": "sentimenteler",
+          "superlative": "sentimenteelst"
         }
       },
       "examples": [
@@ -845,10 +903,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "smetvreesachtig",
-          "plural": "smetvreesachtigen"
+        "adjective": {
+          "base": "smetvreesachtig",
+          "withDe": "smetvreesachtige",
+          "withHet": "smetvreesachtige",
+          "comparative": "smetvreesachtiger",
+          "superlative": "smetvreesachtigst"
         }
       },
       "examples": [
@@ -876,13 +936,7 @@
         "english": "to long for"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "snakken naar",
-          "plural": "snakken naaren"
-        }
-      },
+      "forms": {},
       "examples": [
         "Ze snakt naar rust.",
         "Hij snakt naar gerechtigheid."
@@ -909,10 +963,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "snelgroeiend",
-          "plural": "snelgroeienden"
+        "adjective": {
+          "base": "snelgroeiend",
+          "withDe": "snelgroeiende",
+          "withHet": "snelgroeiende",
+          "comparative": "snelgroeiender",
+          "superlative": "snelgroeiendst"
         }
       },
       "examples": [
@@ -1005,10 +1061,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "spectaculair",
-          "plural": "spectaculairen"
+        "adjective": {
+          "base": "spectaculair",
+          "withDe": "spectaculaire",
+          "withHet": "spectaculaire",
+          "comparative": "spectaculairder",
+          "superlative": "spectaculairst"
         }
       },
       "examples": [
@@ -1197,10 +1255,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "spraakmakend",
-          "plural": "spraakmakenden"
+        "adjective": {
+          "base": "spraakmakend",
+          "withDe": "spraakmakende",
+          "withHet": "spraakmakende",
+          "comparative": "spraakmakender",
+          "superlative": "spraakmakendst"
         }
       },
       "examples": [
@@ -1261,10 +1321,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "springlevend",
-          "plural": "springlevenden"
+        "adjective": {
+          "base": "springlevend",
+          "withDe": "springlevende",
+          "withHet": "springlevende",
+          "comparative": "springlevender",
+          "superlative": "springlevendst"
         }
       },
       "examples": [
@@ -1356,13 +1418,7 @@
         "english": "to be on the hook"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "staan aan de lat",
-          "plural": "staan aan de laten"
-        }
-      },
+      "forms": {},
       "examples": [
         "De manager staat aan de lat voor het fiasco.",
         "Wie staat er aan de lat?"
@@ -1388,13 +1444,7 @@
         "english": "to be ahead"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "staan op winst",
-          "plural": "staan op winsten"
-        }
-      },
+      "forms": {},
       "examples": [
         "Ons team staat op winst.",
         "Wie staat er op winst?"
@@ -1484,13 +1534,7 @@
         "english": "by sampling"
       },
       "partOfSpeech": "adverb",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "steekproefsgewijs",
-          "plural": "steekproefsgewijsen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Steekproefsgewijs werd de kwaliteit gecontroleerd.",
         "Het onderzoek gebeurde steekproefsgewijs."
@@ -1549,10 +1593,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "stormverbaasd",
-          "plural": "stormverbaasden"
+        "adjective": {
+          "base": "stormverbaasd",
+          "withDe": "stormverbaasde",
+          "withHet": "stormverbaasde",
+          "comparative": "stormverbaasder",
+          "superlative": "stormverbaasdst"
         }
       },
       "examples": [
@@ -1709,10 +1755,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "stressbestendig",
-          "plural": "stressbestendigen"
+        "adjective": {
+          "base": "stressbestendig",
+          "withDe": "stressbestendige",
+          "withHet": "stressbestendige",
+          "comparative": "stressbestendiger",
+          "superlative": "stressbestendigst"
         }
       },
       "examples": [
@@ -1868,13 +1916,7 @@
         "english": "one by one"
       },
       "partOfSpeech": "adverb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "stuk voor stuk",
-          "plural": "stuk voor stuken"
-        }
-      },
+      "forms": {},
       "examples": [
         "We gingen de problemen stuk voor stuk aan.",
         "Het team werd stuk voor stuk geëvalueerd."
@@ -1933,10 +1975,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "surrealistisch",
-          "plural": "surrealistischen"
+        "adjective": {
+          "base": "surrealistisch",
+          "withDe": "surrealistische",
+          "withHet": "surrealistische",
+          "comparative": "surrealistischer",
+          "superlative": "surrealistischst"
         }
       },
       "examples": [
@@ -1996,13 +2040,7 @@
         "english": "at all times"
       },
       "partOfSpeech": "adverb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "te alle tijden",
-          "plural": "te alle tijdenen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Veiligheid staat te allen tijden voorop.",
         "Dien je te allen tijden de waarheid te zeggen?"
@@ -2028,13 +2066,7 @@
         "english": "at all times"
       },
       "partOfSpeech": "adverb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "te allen tijde",
-          "plural": "te allen tijdeen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Wij staan te allen tijde klaar.",
         "Te allen tijde blijven we trouw."
@@ -2060,13 +2092,7 @@
         "english": "to shortchange"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "te kort doen",
-          "plural": "te kort doenen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Je doet jezelf te kort als je niet gaat.",
         "Ze doet haar talent te kort door te twijfelen."
@@ -2092,13 +2118,7 @@
         "english": "simultaneously"
       },
       "partOfSpeech": "adverb",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "tegelijkertijd",
-          "plural": "tegelijkertijden"
-        }
-      },
+      "forms": {},
       "examples": [
         "Beide teams speelden tegelijkertijd.",
         "De telefoon ging en de deurbel rinkelde tegelijkertijd."
@@ -2124,13 +2144,7 @@
         "english": "to accommodate"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "tegemoet te komen",
-          "plural": "tegemoet te komenen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Het bedrijf probeerde aan de wensen te voldoen.",
         "We zullen proberen tegemoet te komen aan je verzoek."
@@ -2161,6 +2175,25 @@
           "article": "de",
           "singular": "tegemoetkomen",
           "plural": "tegemoetkomenen"
+        },
+        "verb": {
+          "infinitive": "tegemoetkomen",
+          "isSeparable": true,
+          "prefix": "tegemoet",
+          "present": {
+            "ik": "kom tegemoet",
+            "jij": "komt tegemoet",
+            "hij": "komt tegemoet",
+            "wij": "komen tegemoet",
+            "jullie": "komen tegemoet",
+            "zij": "komen tegemoet"
+          },
+          "past": {
+            "singular": "kwam tegemoet",
+            "plural": "kwamen tegemoet"
+          },
+          "pastParticiple": "tegemoetgekomen",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -2193,6 +2226,25 @@
           "article": "de",
           "singular": "tegemoetzien",
           "plural": "tegemoetzienen"
+        },
+        "verb": {
+          "infinitive": "tegemoetzien",
+          "isSeparable": true,
+          "prefix": "tegemoet",
+          "present": {
+            "ik": "zie tegemoet",
+            "jij": "ziet tegemoet",
+            "hij": "ziet tegemoet",
+            "wij": "zien tegemoet",
+            "jullie": "zien tegemoet",
+            "zij": "zien tegemoet"
+          },
+          "past": {
+            "singular": "zag tegemoet",
+            "plural": "zagen tegemoet"
+          },
+          "pastParticiple": "tegemoetgezien",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -2221,10 +2273,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "tegengesteld",
-          "plural": "tegengestelden"
+        "adjective": {
+          "base": "tegengesteld",
+          "withDe": "tegengestelde",
+          "withHet": "tegengestelde",
+          "comparative": "tegengestelder",
+          "superlative": "tegengesteldst"
         }
       },
       "examples": [
@@ -2253,10 +2307,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "tegenovergesteld",
-          "plural": "tegenovergestelden"
+        "adjective": {
+          "base": "tegenovergesteld",
+          "withDe": "tegenovergestelde",
+          "withHet": "tegenovergestelde",
+          "comparative": "tegenovergestelder",
+          "superlative": "tegenovergesteldst"
         }
       },
       "examples": [
@@ -2289,6 +2345,25 @@
           "article": "de",
           "singular": "tegenspreken",
           "plural": "tegensprekenen"
+        },
+        "verb": {
+          "infinitive": "tegenspreken",
+          "isSeparable": true,
+          "prefix": "tegen",
+          "present": {
+            "ik": "spreek tegen",
+            "jij": "spreekt tegen",
+            "hij": "spreekt tegen",
+            "wij": "spreken tegen",
+            "jullie": "spreken tegen",
+            "zij": "spreken tegen"
+          },
+          "past": {
+            "singular": "sprak tegen",
+            "plural": "spraken tegen"
+          },
+          "pastParticiple": "tegen gesproken",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -2349,10 +2424,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "tegenstrijdig",
-          "plural": "tegenstrijdigen"
+        "adjective": {
+          "base": "tegenstrijdig",
+          "withDe": "tegenstrijdige",
+          "withHet": "tegenstrijdige",
+          "comparative": "tegenstrijdiger",
+          "superlative": "tegenstrijdigst"
         }
       },
       "examples": [
@@ -2449,6 +2526,25 @@
           "article": "de",
           "singular": "tekortschieten",
           "plural": "tekortschietenen"
+        },
+        "verb": {
+          "infinitive": "tekortschieten",
+          "isSeparable": true,
+          "prefix": "te kort",
+          "present": {
+            "ik": "schiet te kort",
+            "jij": "schiet te kort",
+            "hij": "schiet te kort",
+            "wij": "schieten te kort",
+            "jullie": "schieten te kort",
+            "zij": "schieten te kort"
+          },
+          "past": {
+            "singular": "schoot te kort",
+            "plural": "schoten te kort"
+          },
+          "pastParticiple": "te kort geschoten",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -2477,10 +2573,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "teleurgesteld",
-          "plural": "teleurgestelden"
+        "adjective": {
+          "base": "teleurgesteld",
+          "withDe": "teleurgestelde",
+          "withHet": "teleurgestelde",
+          "comparative": "teleurgestelder",
+          "superlative": "teleurgesteldst"
         }
       },
       "examples": [
@@ -2513,6 +2611,25 @@
           "article": "de",
           "singular": "teleurstellen",
           "plural": "teleurstellenen"
+        },
+        "verb": {
+          "infinitive": "teleurstellen",
+          "isSeparable": true,
+          "prefix": "teleur",
+          "present": {
+            "ik": "stel teleur",
+            "jij": "stelt teleur",
+            "hij": "stelt teleur",
+            "wij": "stellen teleur",
+            "jullie": "stellen teleur",
+            "zij": "stellen teleur"
+          },
+          "past": {
+            "singular": "stelde teleur",
+            "plural": "stelden teleur"
+          },
+          "pastParticiple": "teleurgesteld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -2541,10 +2658,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "teleurstellend",
-          "plural": "teleurstellenden"
+        "adjective": {
+          "base": "teleurstellend",
+          "withDe": "teleurstellende",
+          "withHet": "teleurstellende",
+          "comparative": "teleurstellender",
+          "superlative": "teleurstellendst"
         }
       },
       "examples": [
@@ -2572,13 +2691,7 @@
         "english": "with regard to"
       },
       "partOfSpeech": "prepositional phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ten aanzien van",
-          "plural": "ten aanzien vanen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Ten aanzien van de veiligheid zijn we voorzichtig.",
         "Ten aanzien van het budget."
@@ -2604,13 +2717,7 @@
         "english": "for the benefit of"
       },
       "partOfSpeech": "prepositional phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ten behoeve van",
-          "plural": "ten behoeve vanen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Het project ten behoeve van de gemeenschap.",
         "Gedaan ten behoeve van het goede doel."
@@ -2636,13 +2743,7 @@
         "english": "to announce"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ten gehore brengen",
-          "plural": "ten gehore brengenen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Het besluit werd ten gehore gebracht.",
         "Hij bracht het nieuws ten gehore."
@@ -2668,13 +2769,7 @@
         "english": "to propose marriage"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ten huwelijk vragen",
-          "plural": "ten huwelijk vragenen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Hij vroeg haar ten huwelijk.",
         "Ze vroeg hem ten huwelijk."
@@ -2700,13 +2795,7 @@
         "english": "at the expense of"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ten koste gaan van",
-          "plural": "ten koste gaan vanen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Succes ten koste van gezondheid.",
         "Vooruitgang ten koste van het milieu."
@@ -2732,13 +2821,7 @@
         "english": "at the cost of"
       },
       "partOfSpeech": "prepositional phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ten koste van",
-          "plural": "ten koste vanen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Ten koste van veel moeite.",
         "Het kwam ten koste van zijn reputatie."
@@ -2764,13 +2847,7 @@
         "english": "to blame"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ten laste leggen",
-          "plural": "ten laste leggenen"
-        }
-      },
+      "forms": {},
       "examples": [
         "De schuld ten laste leggen van de dader.",
         "De kosten ten laste leggen van het bedrijf."
@@ -2796,13 +2873,7 @@
         "english": "compared to"
       },
       "partOfSpeech": "prepositional phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ten opzichte van",
-          "plural": "ten opzichte vanen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Groot ten opzichte van het gemiddelde.",
         "Stijging ten opzichte van vorig jaar."
@@ -2833,6 +2904,25 @@
           "article": "de",
           "singular": "tenaamstellen",
           "plural": "tenaamstellenen"
+        },
+        "verb": {
+          "infinitive": "tenaamstellen",
+          "isSeparable": true,
+          "prefix": "te naam",
+          "present": {
+            "ik": "stel te naam",
+            "jij": "stelt te naam",
+            "hij": "stelt te naam",
+            "wij": "stellen te naam",
+            "jullie": "stellen te naam",
+            "zij": "stellen te naam"
+          },
+          "past": {
+            "singular": "stelde te naam",
+            "plural": "stelden te naam"
+          },
+          "pastParticiple": "te naam gesteld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -2865,6 +2955,25 @@
           "article": "de",
           "singular": "tentoonspreiden",
           "plural": "tentoonspreidenen"
+        },
+        "verb": {
+          "infinitive": "tentoonspreiden",
+          "isSeparable": true,
+          "prefix": "tentoon",
+          "present": {
+            "ik": "spreid tentoon",
+            "jij": "spreidt tentoon",
+            "hij": "spreidt tentoon",
+            "wij": "spreiden tentoon",
+            "jullie": "spreiden tentoon",
+            "zij": "spreiden tentoon"
+          },
+          "past": {
+            "singular": "spreidde tentoon",
+            "plural": "spreidden tentoon"
+          },
+          "pastParticiple": "tentoon gespreid",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -2897,6 +3006,25 @@
           "article": "de",
           "singular": "tentoonstellen",
           "plural": "tentoonstellenen"
+        },
+        "verb": {
+          "infinitive": "tentoonstellen",
+          "isSeparable": true,
+          "prefix": "tentoon",
+          "present": {
+            "ik": "stel tentoon",
+            "jij": "stelt tentoon",
+            "hij": "stelt tentoon",
+            "wij": "stellen tentoon",
+            "jullie": "stellen tentoon",
+            "zij": "stellen tentoon"
+          },
+          "past": {
+            "singular": "stelde tentoon",
+            "plural": "stelden tentoon"
+          },
+          "pastParticiple": "tentoon gesteld",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -2956,13 +3084,7 @@
         "english": "to question"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ter discussie stellen",
-          "plural": "ter discussie stellenen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Hij stelde het besluit ter discussie.",
         "Het beleid ter discussie stellen."
@@ -2988,13 +3110,7 @@
         "english": "to come up"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ter sprake komen",
-          "plural": "ter sprake komenen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Het onderwerp kwam ter sprake.",
         "Verschillende punten kwamen ter sprake."
@@ -3021,10 +3137,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "ter zake zijnde",
-          "plural": "ter zake zijndeen"
+        "adjective": {
+          "base": "ter zake zijnde",
+          "withDe": "ter zake zijnde",
+          "withHet": "ter zake zijnde",
+          "comparative": "ter zake zijnde",
+          "superlative": "ter zake zijnde"
         }
       },
       "examples": [
@@ -3057,6 +3175,25 @@
           "article": "de",
           "singular": "terechtkomen",
           "plural": "terechtkomenen"
+        },
+        "verb": {
+          "infinitive": "terechtkomen",
+          "isSeparable": true,
+          "prefix": "terecht",
+          "present": {
+            "ik": "kom terecht",
+            "jij": "komt terecht",
+            "hij": "komt terecht",
+            "wij": "komen terecht",
+            "jullie": "komen terecht",
+            "zij": "komen terecht"
+          },
+          "past": {
+            "singular": "kwam terecht",
+            "plural": "kwamen terecht"
+          },
+          "pastParticiple": "terechtgekomen",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -3089,6 +3226,25 @@
           "article": "de",
           "singular": "terechtstaan",
           "plural": "terechtstaanen"
+        },
+        "verb": {
+          "infinitive": "terechtstaan",
+          "isSeparable": true,
+          "prefix": "terecht",
+          "present": {
+            "ik": "sta terecht",
+            "jij": "staat terecht",
+            "hij": "staat terecht",
+            "wij": "staan terecht",
+            "jullie": "staan terecht",
+            "zij": "staan terecht"
+          },
+          "past": {
+            "singular": "stond terecht",
+            "plural": "standen terecht"
+          },
+          "pastParticiple": "terechtgestaan",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -3117,10 +3273,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "terneergeslagen",
-          "plural": "terneergeslagenen"
+        "adjective": {
+          "base": "terneergeslagen",
+          "withDe": "terneergeslagen",
+          "withHet": "terneergeslagen",
+          "comparative": "terneergeslagen",
+          "superlative": "terneergeslagen"
         }
       },
       "examples": [
@@ -3185,6 +3343,25 @@
           "article": "de",
           "singular": "terugdeinzen",
           "plural": "terugdeinzenen"
+        },
+        "verb": {
+          "infinitive": "terugdeinzen",
+          "isSeparable": true,
+          "prefix": "terug",
+          "present": {
+            "ik": "dein terug",
+            "jij": "deint terug",
+            "hij": "deint terug",
+            "wij": "deinzen terug",
+            "jullie": "deinzen terug",
+            "zij": "deinzen terug"
+          },
+          "past": {
+            "singular": "deinde terug",
+            "plural": "deinzen terug"
+          },
+          "pastParticiple": "teruggedeind",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -3217,6 +3394,25 @@
           "article": "de",
           "singular": "terugdraaien",
           "plural": "terugdraaienen"
+        },
+        "verb": {
+          "infinitive": "terugdraaien",
+          "isSeparable": true,
+          "prefix": "terug",
+          "present": {
+            "ik": "draai terug",
+            "jij": "draait terug",
+            "hij": "draait terug",
+            "wij": "draaien terug",
+            "jullie": "draaien terug",
+            "zij": "draaien terug"
+          },
+          "past": {
+            "singular": "draaide terug",
+            "plural": "draaiden terug"
+          },
+          "pastParticiple": "teruggedraaid",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -3249,6 +3445,25 @@
           "article": "de",
           "singular": "terugdringen",
           "plural": "terugdringenen"
+        },
+        "verb": {
+          "infinitive": "terugdringen",
+          "isSeparable": true,
+          "prefix": "terug",
+          "present": {
+            "ik": "dring terug",
+            "jij": "dringt terug",
+            "hij": "dringt terug",
+            "wij": "dringen terug",
+            "jullie": "dringen terug",
+            "zij": "dringen terug"
+          },
+          "past": {
+            "singular": "drong terug",
+            "plural": "drongen terug"
+          },
+          "pastParticiple": "teruggedrongen",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -3277,10 +3492,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "terughoudend",
-          "plural": "terughoudenden"
+        "adjective": {
+          "base": "terughoudend",
+          "withDe": "terughoudende",
+          "withHet": "terughoudende",
+          "comparative": "terughoudender",
+          "superlative": "terughoudendst"
         }
       },
       "examples": [
@@ -3345,6 +3562,25 @@
           "article": "de",
           "singular": "terugstorten",
           "plural": "terugstortenen"
+        },
+        "verb": {
+          "infinitive": "terugstorten",
+          "isSeparable": true,
+          "prefix": "terug",
+          "present": {
+            "ik": "stort terug",
+            "jij": "stort terug",
+            "hij": "stort terug",
+            "wij": "storten terug",
+            "jullie": "storten terug",
+            "zij": "storten terug"
+          },
+          "past": {
+            "singular": "stortte terug",
+            "plural": "stortten terug"
+          },
+          "pastParticiple": "teruggestort",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -3377,6 +3613,25 @@
           "article": "de",
           "singular": "terugtrekken",
           "plural": "terugtrekkenen"
+        },
+        "verb": {
+          "infinitive": "terugtrekken",
+          "isSeparable": true,
+          "prefix": "terug",
+          "present": {
+            "ik": "trek terug",
+            "jij": "trekt terug",
+            "hij": "trekt terug",
+            "wij": "trekken terug",
+            "jullie": "trekken terug",
+            "zij": "trekken terug"
+          },
+          "past": {
+            "singular": "trok terug",
+            "plural": "trokken terug"
+          },
+          "pastParticiple": "teruggetrokken",
+          "pastParticipleAuxiliary": "zijn"
         }
       },
       "examples": [
@@ -3409,6 +3664,25 @@
           "article": "de",
           "singular": "terugvechten",
           "plural": "terugvechtenen"
+        },
+        "verb": {
+          "infinitive": "terugvechten",
+          "isSeparable": true,
+          "prefix": "terug",
+          "present": {
+            "ik": "vecht terug",
+            "jij": "vecht terug",
+            "hij": "vecht terug",
+            "wij": "vechten terug",
+            "jullie": "vechten terug",
+            "zij": "vechten terug"
+          },
+          "past": {
+            "singular": "vocht terug",
+            "plural": "vochten terug"
+          },
+          "pastParticiple": "teruggevochten",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -3436,13 +3710,7 @@
         "english": "to stand by"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "terzijde staan",
-          "plural": "terzijde staanen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Ik sta je ter zijde.",
         "Zij stond haar familie ter zijde."
@@ -3468,13 +3736,7 @@
         "english": "to emerge"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "tevoorschijn komen",
-          "plural": "tevoorschijn komenen"
-        }
-      },
+      "forms": {},
       "examples": [
         "De zon kwam tevoorschijn.",
         "Het probleem kwam tevoorschijn."
@@ -3505,6 +3767,25 @@
           "article": "de",
           "singular": "teweegbrengen",
           "plural": "teweegbrengenen"
+        },
+        "verb": {
+          "infinitive": "teweegbrengen",
+          "isSeparable": true,
+          "prefix": "teweeg",
+          "present": {
+            "ik": "breng teweeg",
+            "jij": "brengt teweeg",
+            "hij": "brengt teweeg",
+            "wij": "brengen teweeg",
+            "jullie": "brengen teweeg",
+            "zij": "brengen teweeg"
+          },
+          "past": {
+            "singular": "bracht teweeg",
+            "plural": "brachten teweeg"
+          },
+          "pastParticiple": "teweeggebracht",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -3596,13 +3877,7 @@
         "english": "to attribute"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "toedichten aan",
-          "plural": "toedichten aanen"
-        }
-      },
+      "forms": {},
       "examples": [
         "De schuld toedichten aan iemand.",
         "De fout toedichten aan de technologie."
@@ -3629,10 +3904,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "toegangkelijk",
-          "plural": "toegangkelijken"
+        "adjective": {
+          "base": "toegangkelijk",
+          "withDe": "toegankelijke",
+          "withHet": "toegankelijke",
+          "comparative": "toegankelijker",
+          "superlative": "toegankelijkst"
         }
       },
       "examples": [
@@ -3661,10 +3938,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "toegankelijk",
-          "plural": "toegankelijken"
+        "adjective": {
+          "base": "toegankelijk",
+          "withDe": "toegankelijke",
+          "withHet": "toegankelijke",
+          "comparative": "toegankelijker",
+          "superlative": "toegankelijkst"
         }
       },
       "examples": [
@@ -3692,13 +3971,7 @@
         "english": "to yield to"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "toegeven aan",
-          "plural": "toegeven aanen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Hij gaf toe aan de verleiding.",
         "Toegeven aan de eisen."
@@ -3761,6 +4034,25 @@
           "article": "de",
           "singular": "toevertrouwen",
           "plural": "toevertrouwenen"
+        },
+        "verb": {
+          "infinitive": "toevertrouwen",
+          "isSeparable": true,
+          "prefix": "toe",
+          "present": {
+            "ik": "vertrouw toe",
+            "jij": "vertrouwt toe",
+            "hij": "vertrouwt toe",
+            "wij": "vertrouwen toe",
+            "jullie": "vertrouwen toe",
+            "zij": "vertrouwen toe"
+          },
+          "past": {
+            "singular": "vertrouwde toe",
+            "plural": "vertrouwden toe"
+          },
+          "pastParticiple": "toevertrouwd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -3788,13 +4080,7 @@
         "english": "to add to"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "toevoegen aan",
-          "plural": "toevoegen aanen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Voeg zout toe aan het gerecht.",
         "Nieuwe informatie toevoegen."
@@ -3825,6 +4111,25 @@
           "article": "de",
           "singular": "toezichthouden",
           "plural": "toezichthoudenen"
+        },
+        "verb": {
+          "infinitive": "toezichthouden",
+          "isSeparable": true,
+          "prefix": "toezicht",
+          "present": {
+            "ik": "houd toezicht",
+            "jij": "houdt toezicht",
+            "hij": "houdt toezicht",
+            "wij": "houden toezicht",
+            "jullie": "houden toezicht",
+            "zij": "houden toezicht"
+          },
+          "past": {
+            "singular": "hield toezicht",
+            "plural": "hielden toezicht"
+          },
+          "pastParticiple": "toezicht gehouden",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -3853,10 +4158,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "toonaangevend",
-          "plural": "toonaangevenden"
+        "adjective": {
+          "base": "toonaangevend",
+          "withDe": "toonaangevende",
+          "withHet": "toonaangevende",
+          "comparative": "toonaangevender",
+          "superlative": "toonaangevendst"
         }
       },
       "examples": [
@@ -3884,13 +4191,7 @@
         "english": "to what extent"
       },
       "partOfSpeech": "adverbial phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "tot hoeverre",
-          "plural": "tot hoeverreen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Tot hoeverre is dit waar?",
         "Tot hoeverre kunnen we helpen?"
@@ -3916,13 +4217,7 @@
         "english": "to my shame"
       },
       "partOfSpeech": "adverbial phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "tot mijn schaamte",
-          "plural": "tot mijn schaamteen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Tot mijn schaamte wist ik het niet.",
         "Tot mijn schaamte deed ik het."
@@ -3948,13 +4243,7 @@
         "english": "to date"
       },
       "partOfSpeech": "adverbial phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "tot op heden",
-          "plural": "tot op hedenen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Tot op heden geen nieuws.",
         "Tot op heden is alles goed gegaan."
@@ -3980,13 +4269,7 @@
         "english": "to come about"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "tot stand komen",
-          "plural": "tot stand komenen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Het akkoord kwam tot stand.",
         "Het project kwam tot stand."
@@ -4012,13 +4295,7 @@
         "english": "until recently"
       },
       "partOfSpeech": "adverbial phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "tot voor kort",
-          "plural": "tot voor korten"
-        }
-      },
+      "forms": {},
       "examples": [
         "Tot voor kort woonde hij hier.",
         "Tot voor kort was het rustig."
@@ -4077,10 +4354,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "traditiegetrouw",
-          "plural": "traditiegetrouwen"
+        "adjective": {
+          "base": "traditiegetrouw",
+          "withDe": "traditiegetrouwe",
+          "withHet": "traditiegetrouwe",
+          "comparative": "traditiegetrouwer",
+          "superlative": "traditiegetrouwst"
         }
       },
       "examples": [
@@ -4113,6 +4392,24 @@
           "article": "de",
           "singular": "transpireren",
           "plural": "transpirerenen"
+        },
+        "verb": {
+          "infinitive": "transpireren",
+          "isSeparable": false,
+          "present": {
+            "ik": "transpireer",
+            "jij": "transpireert",
+            "hij": "transpireert",
+            "wij": "transpireren",
+            "jullie": "transpireren",
+            "zij": "transpireren"
+          },
+          "past": {
+            "singular": "transpireerde",
+            "plural": "transpireerden"
+          },
+          "pastParticiple": "getranspireerd",
+          "pastParticipleAuxiliary": "hebben"
         }
       },
       "examples": [
@@ -4140,13 +4437,7 @@
         "english": "to come into effect"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "treden in werking",
-          "plural": "treden in werkingen"
-        }
-      },
+      "forms": {},
       "examples": [
         "De nieuwe wet treedt in werking.",
         "Het besluit treedt morgen in werking."
@@ -4236,13 +4527,7 @@
         "english": "to mediate"
       },
       "partOfSpeech": "verb phrase",
-      "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "tussen passen",
-          "plural": "tussen passenen"
-        }
-      },
+      "forms": {},
       "examples": [
         "Hij probeerde tussen de twee partijen te passen.",
         "Tussen de conflicterende partijen passen."
@@ -4333,10 +4618,12 @@
       },
       "partOfSpeech": "adjective",
       "forms": {
-        "noun": {
-          "article": "de",
-          "singular": "twijfelachtig",
-          "plural": "twijfelachtigen"
+        "adjective": {
+          "base": "twijfelachtig",
+          "withDe": "twijfelachtige",
+          "withHet": "twijfelachtige",
+          "comparative": "twijfelachtiger",
+          "superlative": "twijfelachtigst"
         }
       },
       "examples": [
