@@ -1,0 +1,1328 @@
+{
+  "id": "lC105",
+  "level": "C1",
+  "lessonNumber": 5,
+  "totalWords": 42,
+  "words": [
+    {
+      "id": 6069,
+      "word": "haaks staan op",
+      "translation": {
+        "chinese": "与...相矛盾，对立",
+        "english": "to conflict with, be at odds with"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Dit besluit staat haaks op onze waarden.",
+        "Zijn acties staan haaks op wat hij zegt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个决定与我们的价值观相矛盾。",
+          "他的行动与他所说的完全对立。"
+        ],
+        "english": [
+          "This decision conflicts with our values.",
+          "His actions are at odds with what he says."
+        ]
+      },
+      "notes": "固定短语，字面意思是与...成直角，引申为矛盾、对立",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6070,
+      "word": "haalbaarheid",
+      "translation": {
+        "chinese": "可行性",
+        "english": "feasibility, viability"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "haalbaarheid",
+          "plural": "haalbaarheden"
+        }
+      },
+      "examples": [
+        "We moeten de haalbaarheid van dit project onderzoeken.",
+        "De haalbaarheid van het plan wordt betwist."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们需要调查这个项目的可行性。",
+          "这个计划的可行性受到质疑。"
+        ],
+        "english": [
+          "We need to investigate the feasibility of this project.",
+          "The feasibility of the plan is being questioned."
+        ]
+      },
+      "notes": "名词，源自形容词 haalbaar（可行的），常用于商业和技术领域",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6071,
+      "word": "handenarbeid",
+      "translation": {
+        "chinese": "手工劳动",
+        "english": "manual labor, handicraft"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "handenarbeid",
+          "plural": "handenarbeiden"
+        }
+      },
+      "examples": [
+        "In de fabriek is veel handenarbeid vervangen door machines.",
+        "Ze doet graag handenarbeid in haar vrije tijd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "工厂里很多手工劳动已经被机器取代。",
+          "她喜欢在空闲时间做手工。"
+        ],
+        "english": [
+          "In the factory, much manual labor has been replaced by machines.",
+          "She enjoys doing handicrafts in her free time."
+        ]
+      },
+      "notes": "复合名词，由 handen（手）和 arbeid（劳动）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6073,
+      "word": "handvaardigheid",
+      "translation": {
+        "chinese": "手艺，灵巧",
+        "english": "dexterity, manual skill"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "handvaardigheid",
+          "plural": "handvaardigheden"
+        }
+      },
+      "examples": [
+        "Hij toonde grote handvaardigheid bij het repareren van het horloge.",
+        "Handvaardigheid is belangrijk voor een chirurg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在修表时展现了很高的手艺。",
+          "手部灵巧对外科医生很重要。"
+        ],
+        "english": [
+          "He showed great dexterity in repairing the watch.",
+          "Dexterity is important for a surgeon."
+        ]
+      },
+      "notes": "抽象名词，源自 handvaardig（手巧的）",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6074,
+      "word": "handwerksman",
+      "translation": {
+        "chinese": "工匠",
+        "english": "craftsman, artisan"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "handwerksman",
+          "plural": "handwerksmannen"
+        }
+      },
+      "examples": [
+        "De handwerksman werkt al jaren in deze buurt.",
+        "Ambachtelijke handwerksmannen zijn zeldzaam geworden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这位工匠在这个街区工作了很多年。",
+          "传统的手工工匠变得越来越稀少了。"
+        ],
+        "english": [
+          "The craftsman has been working in this neighborhood for years.",
+          "Traditional craftsmen have become rare."
+        ]
+      },
+      "notes": "复合名词，由 handwerk（手工艺）和 man（人）组成，复数形式是 handwerksmannen",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6075,
+      "word": "hang- en sluitwerk",
+      "translation": {
+        "chinese": "五金配件（门锁、铰链等）",
+        "english": "hardware (locks, hinges, etc.)"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "hang- en sluitwerk",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "We moeten nieuw hang- en sluitwerk kopen voor de deuren.",
+        "Het hang- en sluitwerk moet worden vervangen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们需要为门购买新的五金配件。",
+          "五金配件需要更换。"
+        ],
+        "english": [
+          "We need to buy new hardware for the doors.",
+          "The hardware needs to be replaced."
+        ]
+      },
+      "notes": "复合名词，由 hangwerk（悬挂装置）和 sluitwerk（关闭装置）组成，通常不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6076,
+      "word": "hangjongeren",
+      "translation": {
+        "chinese": "闲逛的年轻人，游手好闲的青少年",
+        "english": "loitering youths, hanging-around teenagers"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hangjongeren",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Er worden maatregelen genomen tegen hangjongeren op het plein.",
+        "De politie spreekt de hangjongeren aan over hun gedrag."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "正在采取措施对付广场上闲逛的年轻人。",
+          "警察就行为问题与这些闲逛的青少年谈话。"
+        ],
+        "english": [
+          "Measures are being taken against loitering youths in the square.",
+          "The police talks to the hanging-around teenagers about their behavior."
+        ]
+      },
+      "notes": "复合名词，由 hang（悬挂/闲逛）和 jongeren（年轻人）组成，通常只用复数形式",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6077,
+      "word": "hart- en vaatziekten",
+      "translation": {
+        "chinese": "心血管疾病",
+        "english": "cardiovascular diseases"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hart- en vaatziekten",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Hart- en vaatziekten zijn een belangrijke doodsoorzaak.",
+        "Roken verhoogt het risico op hart- en vaatziekten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "心血管疾病是主要的死亡原因之一。",
+          "吸烟会增加患心血管疾病的风险。"
+        ],
+        "english": [
+          "Cardiovascular diseases are a major cause of death.",
+          "Smoking increases the risk of cardiovascular diseases."
+        ]
+      },
+      "notes": "医学术语，由 hart- en vaatziekte（心血管疾病）的复数形式构成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6078,
+      "word": "hartfrequentie",
+      "translation": {
+        "chinese": "心率",
+        "english": "heart rate"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hartfrequentie",
+          "plural": "hartfrequenties"
+        }
+      },
+      "examples": [
+        "De arts meet mijn hartfrequentie.",
+        "Tijdens sport stijgt de hartfrequentie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "医生测量我的心率。",
+          "运动时心率会上升。"
+        ],
+        "english": [
+          "The doctor measures my heart rate.",
+          "Heart rate rises during exercise."
+        ]
+      },
+      "notes": "医学术语，由 hart（心脏）和 frequentie（频率）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6079,
+      "word": "hartklopping",
+      "translation": {
+        "chinese": "心悸",
+        "english": "palpitations, heart pounding"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hartklopping",
+          "plural": "hartkloppingen"
+        }
+      },
+      "examples": [
+        "Ik heb last van hartkloppingen.",
+        "Stress kan hartkloppingen veroorzaken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我受心悸困扰。",
+          "压力可能会导致心悸。"
+        ],
+        "english": [
+          "I suffer from palpitations.",
+          "Stress can cause palpitations."
+        ]
+      },
+      "notes": "复合名词，由 hart（心脏）和 klopping（跳动）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6080,
+      "word": "hartritmestoornis",
+      "translation": {
+        "chinese": "心律失常",
+        "english": "arrhythmia, heart rhythm disorder"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hartritmestoornis",
+          "plural": "hartritmestoornissen"
+        }
+      },
+      "examples": [
+        "Hij heeft een hartritmestoornis.",
+        "Hartritmestoornis kan met medicijnen worden behandeld."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他患有心律失常。",
+          "心律失常可以用药物治疗。"
+        ],
+        "english": [
+          "He has an arrhythmia.",
+          "Arrhythmia can be treated with medication."
+        ]
+      },
+      "notes": "医学术语，由 hart（心脏）、ritme（节律）和 stoornis（障碍）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6081,
+      "word": "hartstilstand",
+      "translation": {
+        "chinese": "心脏骤停",
+        "english": "cardiac arrest"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hartstilstand",
+          "plural": "hartstilstanden"
+        }
+      },
+      "examples": [
+        "De patiënt kreeg een hartstilstand.",
+        "Directe reanimatie is essentieel bij hartstilstand."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "患者发生了心脏骤停。",
+          "心脏骤停时立即进行心肺复苏至关重要。"
+        ],
+        "english": [
+          "The patient went into cardiac arrest.",
+          "Immediate resuscitation is essential in case of cardiac arrest."
+        ]
+      },
+      "notes": "医学术语，由 hart（心脏）和 stilstand（停止）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6082,
+      "word": "hebben oog voor",
+      "translation": {
+        "chinese": "关注，重视，有眼光",
+        "english": "to have an eye for, to appreciate"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Ze heeft oog voor details.",
+        "Hij heeft een goed oog voor kwaliteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她很关注细节。",
+          "他对质量很有眼光。"
+        ],
+        "english": [
+          "She has an eye for details.",
+          "He has a good eye for quality."
+        ]
+      },
+      "notes": "固定短语，表示对某事有敏锐的观察力或鉴赏力",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6083,
+      "word": "hebben tot doel",
+      "translation": {
+        "chinese": "目的是，旨在",
+        "english": "to have as a goal, to aim to"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Dit beleid heeft tot doel de werkloosheid te verminderen.",
+        "Het project heeft tot doel het bewustzijn te vergroten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这项政策旨在减少失业。",
+          "这个项目的目的是提高意识。"
+        ],
+        "english": [
+          "This policy aims to reduce unemployment.",
+          "The project has the goal of increasing awareness."
+        ]
+      },
+      "notes": "固定短语，常用于正式场合说明目的或目标",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6084,
+      "word": "hebben voorrang op",
+      "translation": {
+        "chinese": "优先于，有优先权",
+        "english": "to have priority over, to take precedence over"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Veiligheid heeft voorrang op snelheid.",
+        "Patiënten hebben voorrang op andere bezoekers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "安全优先于速度。",
+          "病人优先于其他访客。"
+        ],
+        "english": [
+          "Safety has priority over speed.",
+          "Patients have priority over other visitors."
+        ]
+      },
+      "notes": "固定短语，表示某事比另一事更重要或优先",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6085,
+      "word": "heen en weer",
+      "translation": {
+        "chinese": "来回，往返",
+        "english": "back and forth, to and fro"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "Hij liep heen en weer in de kamer.",
+        "De boot vaart heen en tussen de eilanden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在房间里来回走动。",
+          "船只在岛屿之间往返航行。"
+        ],
+        "english": [
+          "He walked back and forth in the room.",
+          "The boat sails to and fro between the islands."
+        ]
+      },
+      "notes": "副词，表示来回往返的动作或方向",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6086,
+      "word": "heerlijkheid",
+      "translation": {
+        "chinese": "领地，地产",
+        "english": "estate, domain"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "heerlijkheid",
+          "plural": "heerlijkheden"
+        }
+      },
+      "examples": [
+        "De kasteelheer bezat een grote heerlijkheid.",
+        "Deze heerlijkheid strekte zich uit tot aan de rivier."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "城堡主人拥有一大片领地。",
+          "这片地产一直延伸到河边。"
+        ],
+        "english": [
+          "The castle lord owned a large estate.",
+          "This estate extended to the river."
+        ]
+      },
+      "notes": "历史名词，源自 heerlijk（高贵的），指封建时期的领地",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6087,
+      "word": "hekkensluiter",
+      "translation": {
+        "chinese": "垫底的队伍，排名最后的",
+        "english": "last-place team, bottom-ranked"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hekkensluiter",
+          "plural": "hekkensluiters"
+        }
+      },
+      "examples": [
+        "Ons team is dit jaar de hekkensluiter.",
+        "Als hekkensluiter degradeer je naar een lagere divisie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们队今年排名垫底。",
+          "作为垫底的队伍，你会降级到更低级别的联赛。"
+        ],
+        "english": [
+          "Our team is the last-place team this year.",
+          "As the bottom-ranked team, you are relegated to a lower division."
+        ]
+      },
+      "notes": "体育术语，字面意思是关上大门的人，引申为排名最后",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6088,
+      "word": "herbruikbaar",
+      "translation": {
+        "chinese": "可重复使用的",
+        "english": "reusable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "herbruikbaar",
+          "withDe": "herbruikbare",
+          "withHet": "herbruikbare",
+          "comparative": "herbruikbaarder",
+          "superlative": "herbruikbaarst"
+        }
+      },
+      "examples": [
+        "Wij gebruiken herbruikbare zakken om afval te verminderen.",
+        "Dit zijn herbruikbare batterijen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们使用可重复使用的袋子来减少垃圾。",
+          "这些是可重复使用的电池。"
+        ],
+        "english": [
+          "We use reusable bags to reduce waste.",
+          "These are reusable batteries."
+        ]
+      },
+      "notes": "形容词，由 her-（再次）+ bruikbaar（可用的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6091,
+      "word": "hersenschudding",
+      "translation": {
+        "chinese": "脑震荡",
+        "english": "concussion"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hersenschudding",
+          "plural": "hersenschuddingen"
+        }
+      },
+      "examples": [
+        "Hij liep een hersenschudding op bij het ongeluk.",
+        "Symptomen van een hersenschudding zijn duizeligheid en hoofdpijn."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在事故中脑部受到震荡。",
+          "脑震荡的症状是头晕和头痛。"
+        ],
+        "english": [
+          "He suffered a concussion in the accident.",
+          "Symptoms of a concussion are dizziness and headache."
+        ]
+      },
+      "notes": "医学术语，由 hersen（大脑）和 schudding（震动）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6092,
+      "word": "hittereflecterend",
+      "translation": {
+        "chinese": "反射热的，隔热反光的",
+        "english": "heat-reflecting"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "hittereflecterend",
+          "withDe": "hittereflecterende",
+          "withHet": "hittereflecterende",
+          "comparative": "hittereflecterender",
+          "superlative": "hittereflecterendst"
+        }
+      },
+      "examples": [
+        "Het gebouw heeft hittereflecterende ramen.",
+        "Dit materiaal is hittereflecterend en energiebesparend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这栋建筑有隔热反光的窗户。",
+          "这种材料能反射热量，节能环保。"
+        ],
+        "english": [
+          "The building has heat-reflecting windows.",
+          "This material is heat-reflecting and energy-saving."
+        ]
+      },
+      "notes": "形容词，由 hitte（热）和 reflecterend（反射的）组成，常用于建筑材料",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6093,
+      "word": "hoedanigheid",
+      "translation": {
+        "chinese": "性质，特点，状态",
+        "english": "nature, character, quality"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hoedanigheid",
+          "plural": "hoedanigheden"
+        }
+      },
+      "examples": [
+        "De hoedanigheid van het probleem vereist een speciale aanpak.",
+        "Door de hoedanigheid van het materiaal is het zeer duurzaam."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "问题的性质需要特殊的方法来处理。",
+          "由于材料的特性，它非常耐用。"
+        ],
+        "english": [
+          "The nature of the problem requires a special approach.",
+          "Due to the quality of the material, it is very durable."
+        ]
+      },
+      "notes": "较正式的名词，源自 hoe（如何）和 danig（方式的），表示事物的性质或状态",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6094,
+      "word": "hondsdolheid",
+      "translation": {
+        "chinese": "狂犬病",
+        "english": "rabies"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hondsdolheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Hondsdolheid is een ernstige ziekte.",
+        "Tegen hondsdolheid kan gevaccineerd worden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "狂犬病是一种严重的疾病。",
+          "可以接种疫苗预防狂犬病。"
+        ],
+        "english": [
+          "Rabies is a serious disease.",
+          "You can be vaccinated against rabies."
+        ]
+      },
+      "notes": "医学术语，由 honds（犬的）和 dolheid（疯狂）组成，通常不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6095,
+      "word": "honkbalknuppel",
+      "translation": {
+        "chinese": "棒球棍",
+        "english": "baseball bat"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "honkbalknuppel",
+          "plural": "honkbalknuppels"
+        }
+      },
+      "examples": [
+        "De slagman pakte zijn honkbalknuppel.",
+        "Honkbalknuppels zijn gemaakt van hout of metaal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "击球手拿起了棒球棍。",
+          "棒球棍由木头或金属制成。"
+        ],
+        "english": [
+          "The batter picked up his baseball bat.",
+          "Baseball bats are made of wood or metal."
+        ]
+      },
+      "notes": "复合名词，由 honkbal（棒球）和 knuppel（棍棒）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6096,
+      "word": "hoofdbrekens",
+      "translation": {
+        "chinese": "烦恼，困扰",
+        "english": "headaches, troubles"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hoofdbrekens",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het project veroorzaakte ons veel hoofdbrekens.",
+        "Ik heb geen zin in hoofdbrekens met de belasting."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个项目给我们带来了很多烦恼。",
+          "我不想在税务问题上费心。"
+        ],
+        "english": [
+          "The project caused us many headaches.",
+          "I don't feel like having troubles with taxes."
+        ]
+      },
+      "notes": "复数名词，源自 hoofd（头）和 breken（折断/烦恼），表示让人头疼的事情",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6097,
+      "word": "hoofdgerecht",
+      "translation": {
+        "chinese": "主菜",
+        "english": "main course"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "hoofdgerecht",
+          "plural": "hoofdgerechten"
+        }
+      },
+      "examples": [
+        "Wat wil u als hoofdgerecht?",
+        "Het hoofdgerecht wordt geserveerd na het voorgerecht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "您想要什么主菜？",
+          "主菜在前菜之后上桌。"
+        ],
+        "english": [
+          "What would you like as main course?",
+          "The main course is served after the appetizer."
+        ]
+      },
+      "notes": "餐饮词汇，由 hoofd（主要）和 gerecht（菜）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6098,
+      "word": "hoofdredacteur",
+      "translation": {
+        "chinese": "主编",
+        "english": "editor-in-chief"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hoofdredacteur",
+          "plural": "hoofdredacteuren"
+        }
+      },
+      "examples": [
+        "De hoofdredacteur beslist welke artikelen worden gepubliceerd.",
+        "Zij is de nieuwe hoofdredacteur van de krant."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "主编决定哪些文章会被发表。",
+          "她是这家报纸的新主编。"
+        ],
+        "english": [
+          "The editor-in-chief decides which articles will be published.",
+          "She is the new editor-in-chief of the newspaper."
+        ]
+      },
+      "notes": "职业词汇，由 hoofd（主要）和 redacteur（编辑）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6099,
+      "word": "hoofdrolspeler",
+      "translation": {
+        "chinese": "主角",
+        "english": "protagonist, leading actor"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hoofdrolspeler",
+          "plural": "hoofdrolspelers"
+        }
+      },
+      "examples": [
+        "De hoofdrolspeler speelde zijn rol uitstekend.",
+        "Zij is de hoofdrolspeler in deze film."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "主角出色地扮演了他的角色。",
+          "她是这部电影的主角。"
+        ],
+        "english": [
+          "The leading actor played his role excellently.",
+          "She is the protagonist in this film."
+        ]
+      },
+      "notes": "戏剧词汇，由 hoofd（主要）、rol（角色）和 speler（演员）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6100,
+      "word": "hoofdvestiging",
+      "translation": {
+        "chinese": "总部",
+        "english": "headquarters, main office"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hoofdvestiging",
+          "plural": "hoofdvestigingen"
+        }
+      },
+      "examples": [
+        "De hoofdvestiging staat in Amsterdam.",
+        "Het bedrijf vestigde zijn hoofdvestiging in Europa."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "总部设在阿姆斯特丹。",
+          "这家公司将总部设在了欧洲。"
+        ],
+        "english": [
+          "The headquarters is located in Amsterdam.",
+          "The company established its headquarters in Europe."
+        ]
+      },
+      "notes": "商业词汇，由 hoofd（主要）和 vestiging（地点/分公司）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6102,
+      "word": "hooggerechtshof",
+      "translation": {
+        "chinese": "最高法院",
+        "english": "supreme court"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "hooggerechtshof",
+          "plural": "hooggerechtshoven"
+        }
+      },
+      "examples": [
+        "Het hooggerechtshof sprak het vonnis uit.",
+        "De zaak werd in hoger beroep aan het hooggerechtshof voorgelegd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "最高法院宣布了判决。",
+          "案件被上诉到最高法院。"
+        ],
+        "english": [
+          "The supreme court pronounced the verdict.",
+          "The case was appealed to the supreme court."
+        ]
+      },
+      "notes": "法律词汇，由 hoog（高）和 gerechtshof（法院）组成，注意复数是 hoven",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6103,
+      "word": "hooggespannen",
+      "translation": {
+        "chinese": "高度紧张的，高电压的",
+        "english": "high-tension, highly charged"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "hooggespannen",
+          "withDe": "hooggespannen",
+          "withHet": "hooggespannen",
+          "comparative": "hoger gespannen",
+          "superlative": "hoogst gespannen"
+        }
+      },
+      "examples": [
+        "De hooggespannen draden zijn gevaarlijk.",
+        "Er heerste een hooggespannen sfeer in de vergaderzaal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "高压电线很危险。",
+          "会议室里气氛高度紧张。"
+        ],
+        "english": [
+          "The high-tension wires are dangerous.",
+          "A highly charged atmosphere prevailed in the meeting room."
+        ]
+      },
+      "notes": "形容词，由 hoog（高）和 gespannen（拉紧的/紧张的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6104,
+      "word": "hooggewaardeerd",
+      "translation": {
+        "chinese": "高度重视的，备受赞赏的",
+        "english": "highly valued, highly appreciated"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "hooggewaardeerd",
+          "withDe": "hooggewaardeerde",
+          "withHet": "hooggewaardeerde",
+          "comparative": "hoger gewaardeerd",
+          "superlative": "hoogst gewaardeerd"
+        }
+      },
+      "examples": [
+        "Hij is een hooggewaardeerd werknemer.",
+        "Dit kunstwerk wordt internationaal hooggewaardeerd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他是一位备受重视的员工。",
+          "这件艺术品在国际上备受赞赏。"
+        ],
+        "english": [
+          "He is a highly valued employee.",
+          "This artwork is highly appreciated internationally."
+        ]
+      },
+      "notes": "形容词，由 hoog（高度）和 gewaardeerd（受重视的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6105,
+      "word": "hoogopgeleide",
+      "translation": {
+        "chinese": "受过高等教育的",
+        "english": "highly educated"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "hoogopgeleide",
+          "withDe": "hoogopgeleide",
+          "withHet": "hoogopgeleide",
+          "comparative": "hoger opgeleid",
+          "superlative": "hoogst opgeleid"
+        }
+      },
+      "examples": [
+        "Meer hoogopgeleiden zoeken werk in het buitenland.",
+        "De regering wil meer hoogopgeleiden aannemen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "更多受过高等教育的人在国外寻找工作。",
+          "政府想要招聘更多受过高等教育的人。"
+        ],
+        "english": [
+          "More highly educated people are looking for work abroad.",
+          "The government wants to hire more highly educated people."
+        ]
+      },
+      "notes": "形容词，由 hoog（高度）和 opgeleid（受教育的）组成，可作名词指代受过高等教育的人",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6106,
+      "word": "hoogoplopend",
+      "translation": {
+        "chinese": "高昂的，严重的（指费用、冲突等）",
+        "english": "high, substantial"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "hoogoplopend",
+          "withDe": "hoogoplopende",
+          "withHet": "hoogoplopende",
+          "comparative": "hoger oplopend",
+          "superlative": "hoogst oplopend"
+        }
+      },
+      "examples": [
+        "De kosten zijn hoogoplopend.",
+        "Het conflict kan hoogoplopend worden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "费用很高。",
+          "冲突可能会很严重。"
+        ],
+        "english": [
+          "The costs are substantial.",
+          "The conflict can become high-intensity."
+        ]
+      },
+      "notes": "形容词，由 hoog（高）和 oplopend（上升的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6107,
+      "word": "huidinstituut",
+      "translation": {
+        "chinese": "皮肤研究所，护肤中心",
+        "english": "skin institute, dermatology clinic"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "huidinstituut",
+          "plural": "huidinstituten"
+        }
+      },
+      "examples": [
+        "Zij werkt bij een huidinstituut.",
+        "Het huidinstituut biedt verschillende behandelingen aan."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她在一家护肤中心工作。",
+          "这家皮肤研究所提供各种治疗。"
+        ],
+        "english": [
+          "She works at a dermatology clinic.",
+          "The skin institute offers various treatments."
+        ]
+      },
+      "notes": "复合名词，由 huid（皮肤）和 instituut（研究所）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6108,
+      "word": "huiselijkheid",
+      "translation": {
+        "chinese": "家庭生活，居家生活",
+        "english": "domesticity, homeliness"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "huiselijkheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Hij geniet van de rust en huiselijkheid.",
+        "De roman beschrijft de huiselijkheid van het gezinsleven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他享受宁静的家庭生活。",
+          "这部小说描述了家庭生活的居家温馨。"
+        ],
+        "english": [
+          "He enjoys the tranquility and domesticity.",
+          "The novel describes the domesticity of family life."
+        ]
+      },
+      "notes": "抽象名词，源自 huiselijk（家庭的），通常不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6110,
+      "word": "hulp inroepen",
+      "translation": {
+        "chinese": "请求帮助",
+        "english": "to call for help, to seek assistance"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Je kunt altijd hulp inroepen bij problemen.",
+        "De burgemeester riep de hulp van het leger in."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "遇到问题时你总是可以请求帮助。",
+          "市长请求军队的协助。"
+        ],
+        "english": [
+          "You can always call for help in case of problems.",
+          "The mayor called for the assistance of the army."
+        ]
+      },
+      "notes": "固定短语，常用于正式场合",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6111,
+      "word": "hulpbehoevend",
+      "translation": {
+        "chinese": "需要帮助的，弱势的",
+        "english": "in need of help, vulnerable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "hulpbehoevend",
+          "withDe": "hulpbehoevende",
+          "withHet": "hulpbehoevende",
+          "comparative": "hulpbehoevender",
+          "superlative": "hulpbehoevendst"
+        }
+      },
+      "examples": [
+        "De organisatie helpt hulpbehoevenden.",
+        "Ouderen zijn vaak hulpbehoevend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这个组织帮助弱势群体。",
+          "老年人往往需要帮助。"
+        ],
+        "english": [
+          "The organization helps vulnerable people.",
+          "The elderly are often in need of help."
+        ]
+      },
+      "notes": "形容词，由 hulp（帮助）和 behoevend（需要的）组成，可作名词指代需要帮助的人",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6113,
+      "word": "hulpverlening",
+      "translation": {
+        "chinese": "援助，救助服务",
+        "english": "aid, assistance, help"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hulpverlening",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De hulpverlening aan de slachtoffers is gestart.",
+        "De regeling voor noodhulpverlening is veranderd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "对受害者的救助已经开始了。",
+          "紧急援助的安排已经改变。"
+        ],
+        "english": [
+          "Assistance to the victims has started.",
+          "The arrangement for emergency aid has changed."
+        ]
+      },
+      "notes": "抽象名词，由 hulp（帮助）和 verlening（提供）组成，通常不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6114,
+      "word": "humoristisch",
+      "translation": {
+        "chinese": "幽默的",
+        "english": "humorous"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "humoristisch",
+          "withDe": "humoristische",
+          "withHet": "humoristische",
+          "comparative": "humoristischer",
+          "superlative": "humoristischst"
+        }
+      },
+      "examples": [
+        "Hij heeft een humoristische schrijfstijl.",
+        "De film is erg humoristisch."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的写作风格很幽默。",
+          "这部电影非常幽默。"
+        ],
+        "english": [
+          "He has a humorous writing style.",
+          "The movie is very humorous."
+        ]
+      },
+      "notes": "形容词，源自 humor（幽默）",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6115,
+      "word": "hypotheekrente",
+      "translation": {
+        "chinese": "抵押贷款利率",
+        "english": "mortgage rate"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "hypotheekrente",
+          "plural": "hypotheekrentes"
+        }
+      },
+      "examples": [
+        "De hypotheekrente is gestegen.",
+        "Wij hebben een lage hypotheekrente."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "抵押贷款利率已经上涨。",
+          "我们的抵押贷款利率很低。"
+        ],
+        "english": [
+          "The mortgage rate has risen.",
+          "We have a low mortgage rate."
+        ]
+      },
+      "notes": "金融词汇，由 hypotheek（抵押贷款）和 rente（利率）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 6116,
+      "word": "hypothetisch",
+      "translation": {
+        "chinese": "假设的，假定的",
+        "english": "hypothetical"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "hypothetisch",
+          "withDe": "hypothetische",
+          "withHet": "hypothetische",
+          "comparative": "hypothetischer",
+          "superlative": "hypothetischst"
+        }
+      },
+      "examples": [
+        "Dit is een hypothetische situatie.",
+        "Er zijn verschillende hypothetische scenario's mogelijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个假设的情况。",
+          "可能有多种假设场景。"
+        ],
+        "english": [
+          "This is a hypothetical situation.",
+          "There are different hypothetical scenarios possible."
+        ]
+      },
+      "notes": "形容词，源自 hypothese（假设）",
+      "difficulty": "C1"
+    }
+  ]
+}
