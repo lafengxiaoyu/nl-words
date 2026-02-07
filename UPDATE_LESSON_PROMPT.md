@@ -145,3 +145,126 @@ echo "=== words.json 单词数 ===" && cat web/src/data/words.json | jq 'length'
 echo "=== {LEVEL_UPPER} lesson 数量 ===" && cat web/src/data/vocabulary/index.json | jq '.levels[] | select(.level == "{LEVEL_UPPER}") | .lessons | length'
 echo "=== 总统计 ===" && cat web/src/data/vocabulary/stats.json | jq '{totalWords, totalLessons}'
 ```
+
+---
+
+## 改进现有单词 Notes 的指南
+
+当发现单词的 notes 只是简单重复词性（如"名词"、"动词"等）时，应改进为更有价值的学习信息。
+
+### 有意义的 Notes 应包含以下内容（至少一项）：
+
+1. **使用场景和上下文**
+   - 常用于什么领域或语境（医学、法律、日常口语等）
+   - 例："医学术语，指疾病或病症"
+
+2. **固定搭配和短语**
+   - 常见的固定搭配、习语或短语动词
+   - 例："固定搭配：abonnement opzeggen（取消订阅）"
+
+3. **同义词和反义词**
+   - 帮助扩展词汇网络
+   - 例："同义词：brommerig, humeurig（易怒的）"
+
+4. **语体色彩**
+   - 正式用语 vs 口语表达
+   - 例："俚语：青少年用语，同义词：cool"
+
+5. **语法注意事项**
+   - 特殊变位、可数/不可数、及物/不及物等
+   - 例："可分动词，前缀可分离：aan-"
+
+6. **词源和构词法**
+   - 帮助记忆单词构成
+   - 例："词根：socio-（社会）+ logie（学科）"
+
+7. **易混淆点**
+   - 常见错误或特殊用法
+   - 例："多义词：既有'点燃'义，也有'涨价'义"
+
+8. **专业领域知识**
+   - 特定领域的专业用法或背景
+   - 例："法律术语：正式执行计划或政策"
+
+### 示例对比
+
+#### ❌ 差的 notes（无价值）
+```json
+{
+  "word": "aanbetaling",
+  "partOfSpeech": "noun",
+  "notes": "名词"
+}
+```
+
+#### ✅ 好的 notes（有价值）
+```json
+{
+  "word": "aanbetaling",
+  "partOfSpeech": "noun",
+  "notes": "商业术语。预付款、定金。固定搭配：een aanbetaling doen（支付定金）"
+}
+```
+
+### 检查需要改进的单词
+
+运行以下命令找出所有 notes 需要改进的单词：
+
+```bash
+python3 << 'EOF'
+import json
+import os
+
+levels = ['b1', 'b2', 'c1']
+simple_notes_words = []
+
+for level in levels:
+    level_dir = f'web/src/data/vocabulary/{level}'
+    for file in os.listdir(level_dir):
+        if file.endswith('.json'):
+            filepath = os.path.join(level_dir, file)
+            with open(filepath, 'r') as f:
+                data = json.load(f)
+            
+            for word in data['words']:
+                notes = word.get('notes', '')
+                if notes in ['名词', '动词', '形容词', '副词', '短语动词']:
+                    simple_notes_words.append(f"{level.upper()} {file}: {word['word']}")
+
+print(f"发现 {len(simple_notes_words)} 个单词的 notes 需要改进:\n")
+for item in simple_notes_words[:20]:  # 显示前20个
+    print(item)
+if len(simple_notes_words) > 20:
+    print(f"... 还有 {len(simple_notes_words) - 20} 个")
+EOF
+```
+
+### 批量改进建议
+
+对于大量需要改进的单词，建议：
+1. **分批处理**：每次处理 3-5 个课程文件
+2. **按主题分类**：优先处理同一主题或词性的单词
+3. **使用脚本**：编写 Python 脚本自动化更新（如 `/tmp/update_notes.py`）
+4. **保持一致性**：同一课程内的相似单词采用相似的 notes 格式
+
+---
+
+## 何时需要改进 Notes
+
+在以下情况应立即改进单词 notes：
+- ✅ 发现 notes 只是简单重复词性（"名词"、"动词"等）
+- ✅ 用户反馈 notes 不够有用
+- ✅ 批量添加新单词时，为每个单词编写有意义的 notes
+- ✅ 审查词汇数据质量时发现大量简单 notes
+
+---
+
+## 质量检查清单
+
+改进后的 notes 应满足：
+- [ ] 不是简单的词性重复
+- [ ] 提供至少一项有价值的学习信息
+- [ ] 长度适中（通常 20-100 字符）
+- [ ] 使用准确的专业术语（如适用）
+- [ ] 包含实用的固定搭配或例句
+- [ ] 避免与 translation 字段内容重复
