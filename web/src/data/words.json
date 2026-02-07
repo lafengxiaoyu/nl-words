@@ -168285,5 +168285,1904 @@
     },
     "notes": "常用短语，用于表达某种情况或评价",
     "difficulty": "C1"
+  },
+  {
+    "id": 6191,
+    "word": "jaarrekening",
+    "translation": {
+      "chinese": "年终账目",
+      "english": "annual account, yearly statement"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De jaarrekening is afgesloten.",
+      "Wij versturen de jaarrekening volgende week."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "年终账目已结清。",
+        "我们下周将发送年度账单。"
+      ],
+      "english": [
+        "The annual account is closed.",
+        "We will send the yearly statement next week."
+      ]
+    },
+    "notes": "会计词汇，由 jaar（年）和 rekening（账目）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "jaarrekening",
+        "plural": "jaarrekeningen"
+      }
+    }
+  },
+  {
+    "id": 6192,
+    "word": "jaarwisseling",
+    "translation": {
+      "chinese": "更替，轮换",
+      "english": "changing of the year, transition"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De jaarwisseling wordt gevierd.",
+      "Bij de jaarwisseling komen er nieuwe regels."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "新年更替被庆祝。",
+        "新年更替时会有新规则。"
+      ],
+      "english": [
+        "The changing of the year is celebrated.",
+        "At the transition of the year, new rules come."
+      ]
+    },
+    "notes": "名词，由 jaar（年）和 wisseling（更替）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "jaarwisseling",
+        "plural": "jaarwisselingen"
+      }
+    }
+  },
+  {
+    "id": 6194,
+    "word": "kantonrechter",
+    "translation": {
+      "chinese": "地方法官",
+      "english": "cantonal judge"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De kantonrechter sprak het vonnis uit.",
+      "Kantonrechters werken op lokaal niveau."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "地方法官宣布了判决。",
+        "地方法官在地方层面上工作。"
+      ],
+      "english": [
+        "The cantonal judge pronounced the verdict.",
+        "Cantonal judges work at local level."
+      ]
+    },
+    "notes": "法律词汇，由 kanton（州/区）和 rechter（法官）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kantonrechter",
+        "plural": "kantonrechters"
+      }
+    }
+  },
+  {
+    "id": 6195,
+    "word": "kantoorrechter",
+    "translation": {
+      "chinese": "办公室主管",
+      "english": "office manager"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De kantoorrechter coördineert het werk.",
+      "Zij werkt als kantoorrechter."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "办公室主管协调工作。",
+        "她担任办公室主管。"
+      ],
+      "english": [
+        "The office manager coordinates the work.",
+        "She works as office manager."
+      ]
+    },
+    "notes": "职业词汇，由 kantoor（办公室）和 rechter（管理者）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kantoorrechter",
+        "plural": "kantoorrechters"
+      }
+    }
+  },
+  {
+    "id": 6197,
+    "word": "kassencomplex",
+    "translation": {
+      "chinese": "温室综合设施",
+      "english": "greenhouse complex"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Het kassencomplex produceert groenten.",
+      "Wij bouwen een nieuw kassencomplex."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "温室综合设施生产蔬菜。",
+        "我们正在建设一个新的温室综合设施。"
+      ],
+      "english": [
+        "The greenhouse complex produces vegetables.",
+        "We are building a new greenhouse complex."
+      ]
+    },
+    "notes": "农业词汇，由 kas（温室）和 complex（综合设施）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kassencomplex",
+        "plural": "kassencomplexen"
+      }
+    }
+  },
+  {
+    "id": 6198,
+    "word": "kennismigrant",
+    "translation": {
+      "chinese": "熟悉移民的人",
+      "english": "acquaintance who is an immigrant"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Ik heb een kennismigrant uit Marokko.",
+      "Zij is een kennismigrant."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我有一位来自摩洛哥的移民熟人。",
+        "她是一位移民熟人。"
+      ],
+      "english": [
+        "I have an acquaintance who is an immigrant from Morocco.",
+        "She is an acquaintance who is an immigrant."
+      ]
+    },
+    "notes": "复合名词，由 kennis（认识）和 migrant（移民）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kennismigrant",
+        "plural": "kennismigranten"
+      }
+    }
+  },
+  {
+    "id": 6199,
+    "word": "kerncentrale",
+    "translation": {
+      "chinese": "中央处理中心",
+      "english": "central processing unit"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De kerncentrale verwerkt de data.",
+      "Het systeem heeft een kerncentrale."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "中央处理中心处理数据。",
+        "该系统有一个中央处理单元。"
+      ],
+      "english": [
+        "The central processing unit processes the data.",
+        "The system has a central processing unit."
+      ]
+    },
+    "notes": "技术词汇，由 kern（核心）和 centrale（中心）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kerncentrale",
+        "plural": "kerncentrales"
+      }
+    }
+  },
+  {
+    "id": 6200,
+    "word": "kierstandhouder",
+    "translation": {
+      "chinese": "持钥匙者",
+      "english": "keyholder"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Alleen de kierstandhouder kan binnen.",
+      "Wie is de kierstandhouder?"
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "只有持钥匙者可以进入。",
+        "谁是持钥匙者？"
+      ],
+      "english": [
+        "Only the keyholder can enter.",
+        "Who is the keyholder?"
+      ]
+    },
+    "notes": "复合名词，由 kierstand（持有）和 houder（持有者）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kierstandhouder",
+        "plural": "kierstandhouders"
+      }
+    }
+  },
+  {
+    "id": 6201,
+    "word": "kinderachtig",
+    "translation": {
+      "chinese": "孩子气的，幼稚的",
+      "english": "childish"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Hij gedraagt zich kinderachtig.",
+      "Kinderachtig gedrag is onacceptabel."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他表现得很孩子气。",
+        "孩子气的行为是不可接受的。"
+      ],
+      "english": [
+        "He behaves childishly.",
+        "Childish behavior is unacceptable."
+      ]
+    },
+    "notes": "形容词，由 kind（孩子）+ -achtig（像...的）组成",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "kinderachtig",
+        "withDe": "kinderachtige",
+        "withHet": "kinderachtige",
+        "comparative": "kinderachtiger",
+        "superlative": "kinderachtigst"
+      }
+    }
+  },
+  {
+    "id": 6202,
+    "word": "kinderarbeid",
+    "translation": {
+      "chinese": "童工",
+      "english": "child labor"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Kinderarbeid is wereldwijd verboden.",
+      "De organisatie bestrijdt kinderarbeid."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "童工在世界范围内被禁止。",
+        "这个组织与童工作斗争。"
+      ],
+      "english": [
+        "Child labor is prohibited worldwide.",
+        "The organization fights child labor."
+      ]
+    },
+    "notes": "社会词汇，由 kind（孩子）和 arbeid（劳动）组成，通常不可数",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kinderarbeid",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6203,
+    "word": "kinderdagverblijf",
+    "translation": {
+      "chinese": "儿童日庆祝活动",
+      "english": "children's day celebration"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De kinderdagverblijf was gezellig.",
+      "Wij organiseren een kinderdagverblijf."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "儿童日庆祝活动很愉快。",
+        "我们组织儿童日庆祝活动。"
+      ],
+      "english": [
+        "The children's day celebration was enjoyable.",
+        "We organize a children's day celebration."
+      ]
+    },
+    "notes": "复合名词，由 kinderdag（儿童节）和 verblijf（停留/庆祝）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kinderdagverblijf",
+        "plural": "kinderdagverblijven"
+      }
+    }
+  },
+  {
+    "id": 6204,
+    "word": "klantbetrokkenheid",
+    "translation": {
+      "chinese": "客户参与度",
+      "english": "customer engagement"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De klantbetrokkenheid is toegenomen.",
+      "Wij meten de klantbetrokkenheid."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "客户参与度增加了。",
+        "我们测量客户参与度。"
+      ],
+      "english": [
+        "Customer engagement has increased.",
+        "We measure customer engagement."
+      ]
+    },
+    "notes": "商业词汇，由 klant（客户）和 betrokkenheid（参与度）组成，通常不可数",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "klantbetrokkenheid",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6205,
+    "word": "klantenbestand",
+    "translation": {
+      "chinese": "客户文件",
+      "english": "customer file"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Het klantenbestand is geüpdatet.",
+      "Open het klantenbestand."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "客户文件已更新。",
+        "打开客户文件。"
+      ],
+      "english": [
+        "The customer file has been updated.",
+        "Open the customer file."
+      ]
+    },
+    "notes": "商业词汇，由 klant（客户）和 bestand（文件）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "klantenbestand",
+        "plural": "klantenbestanden"
+      }
+    }
+  },
+  {
+    "id": 6206,
+    "word": "klederdracht",
+    "translation": {
+      "chinese": "服装潮流",
+      "english": "fashion trend"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De klederdracht verandert elk seizoen.",
+      "Zij volgt de laatste klederdrachten."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "服装潮流每个季节都在变化。",
+        "她跟随最新的服装潮流。"
+      ],
+      "english": [
+        "Fashion trends change every season.",
+        "She follows the latest fashion trends."
+      ]
+    },
+    "notes": "时尚词汇，由 kleder（服装）和 dracht（潮流/行为）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "klederdracht",
+        "plural": "klederdrachten"
+      }
+    }
+  },
+  {
+    "id": 6207,
+    "word": "kleidingwinkel",
+    "translation": {
+      "chinese": "服装店",
+      "english": "clothing store"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Ik koop een nieuwe jas in de kleidingwinkel.",
+      "De kleidingwinkel heeft een grote collectie."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我在服装店买了一件新夹克。",
+        "这家服装店有大量商品。"
+      ],
+      "english": [
+        "I buy a new jacket in the clothing store.",
+        "The clothing store has a large collection."
+      ]
+    },
+    "notes": "商业词汇，由 kleiding（服装）和 winkel（商店）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kleidingwinkel",
+        "plural": "kleidingwinkels"
+      }
+    }
+  },
+  {
+    "id": 6208,
+    "word": "kleinigheidje",
+    "translation": {
+      "chinese": "小东西",
+      "english": "small thing, little item"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Ik heb een kleinigheidje gekocht.",
+      "Het is een nuttig kleinigheidje."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我买了一个小东西。",
+        "这是个有用的小物件。"
+      ],
+      "english": [
+        "I bought a little thing.",
+        "It is a useful small item."
+      ]
+    },
+    "notes": "指小词，由 kleinig（小的）和 -je（小称后缀）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "kleinigheidje",
+        "plural": "kleinigheidjes"
+      }
+    }
+  },
+  {
+    "id": 6209,
+    "word": "kleinschalig",
+    "translation": {
+      "chinese": "小规模的",
+      "english": "small-scale"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Het is een kleinschalig bedrijf.",
+      "Wij investeren in kleinschalige projecten."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这是一家小规模公司。",
+        "我们投资于小规模项目。"
+      ],
+      "english": [
+        "It is a small-scale company.",
+        "We invest in small-scale projects."
+      ]
+    },
+    "notes": "形容词，由 klein（小）+ schaal（规模）组成",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "kleinschalig",
+        "withDe": "kleinschalige",
+        "withHet": "kleinschalige",
+        "comparative": "kleinschaler",
+        "superlative": "kleinschaligst"
+      }
+    }
+  },
+  {
+    "id": 6210,
+    "word": "kleurstelling",
+    "translation": {
+      "chinese": "色彩搭配",
+      "english": "color scheme, color composition"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De kleurstelling van de kamer is rustgevend.",
+      "De kunstenaar koos een harmonieuze kleurstelling."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "房间的色彩搭配让人放松。",
+        "艺术家选择了和谐的色彩搭配。"
+      ],
+      "english": [
+        "The color scheme of the room is calming.",
+        "The artist chose a harmonious color scheme."
+      ]
+    },
+    "notes": "设计词汇，由 kleur（颜色）和 stelling（陈述/组合）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kleurstelling",
+        "plural": "kleurstellingen"
+      }
+    }
+  },
+  {
+    "id": 6211,
+    "word": "klimaatbeweging",
+    "translation": {
+      "chinese": "气候变化",
+      "english": "climate change"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Klimaatbeweging is een wereldwijd probleem.",
+      "Wij moeten actie ondernemen tegen klimaatbeweging."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "气候变化是一个全球性问题。",
+        "我们必须采取行动应对气候变化。"
+      ],
+      "english": [
+        "Climate change is a worldwide problem.",
+        "We must take action against climate change."
+      ]
+    },
+    "notes": "环境词汇，由 klimaat（气候）和 beweging（变化）组成，通常不可数",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "klimaatbeweging",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6212,
+    "word": "knipperlicht",
+    "translation": {
+      "chinese": "转向灯",
+      "english": "turn signal, indicator"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Het knipperlicht is defect.",
+      "Gebruik het knipperlicht bij het afslaan."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "转向灯坏了。",
+        "转弯时使用转向灯。"
+      ],
+      "english": [
+        "The turn signal is broken.",
+        "Use the turn signal when turning."
+      ]
+    },
+    "notes": "交通词汇，由 knipperen（闪烁）和 licht（灯）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "knipperlicht",
+        "plural": "knipperlichten"
+      }
+    }
+  },
+  {
+    "id": 6213,
+    "word": "knoop doorhakken",
+    "translation": {
+      "chinese": "扣上纽扣",
+      "english": "to button up"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Hij moet zijn overhemd knoop doorhakken.",
+      "Ik knoop mijn overhemd dicht."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他需要扣上衬衫的纽扣。",
+        "我扣上衬衫纽扣。"
+      ],
+      "english": [
+        "He needs to button up his shirt.",
+        "I button up my shirt."
+      ]
+    },
+    "notes": "短语，doorhakken 意为砍断/穿透",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6214,
+    "word": "komen aan bod",
+    "translation": {
+      "chinese": "被讨论，被涉及",
+      "english": "to come up, to be discussed"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Onderwerpen komen aan bod in de vergadering.",
+      "Het probleem kwam aan bod."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "议题在会议上被讨论。",
+        "问题被涉及到了。"
+      ],
+      "english": [
+        "Topics come up in the meeting.",
+        "The problem was discussed."
+      ]
+    },
+    "notes": "固定短语，字面意思是接触地面",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6215,
+    "word": "kortsluiting",
+    "translation": {
+      "chinese": "短期关闭",
+      "english": "short-term closure"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De kortsluiting was onverwacht.",
+      "Wij kondigen een kortsluiting aan."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "短期关闭是意料之外的。",
+        "我们宣布短期关闭。"
+      ],
+      "english": [
+        "The short-term closure was unexpected.",
+        "We announce a short-term closure."
+      ]
+    },
+    "notes": "商业词汇，由 kort（短）和 sluiting（关闭）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kortsluiting",
+        "plural": "kortsluitingen"
+      }
+    }
+  },
+  {
+    "id": 6216,
+    "word": "kraamkliniek",
+    "translation": {
+      "chinese": "产房",
+      "english": "maternity ward, delivery room"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De baby is in de kraamkliniek geboren.",
+      "Zij werkt in de kraamkliniek."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "婴儿在产房出生。",
+        "她在产房工作。"
+      ],
+      "english": [
+        "The baby was born in the maternity ward.",
+        "She works in the delivery room."
+      ]
+    },
+    "notes": "医疗词汇，由 kraam（分娩）和 kliniek（诊所）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kraamkliniek",
+        "plural": "kraamklinieken"
+      }
+    }
+  },
+  {
+    "id": 6217,
+    "word": "kraamverpleegkundige",
+    "translation": {
+      "chinese": "助产士",
+      "english": "midwife"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De kraamverpleegkundige begeleidde de bevalling.",
+      "Zij wil kraamverpleegkundige worden."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "助产士引导了分娩。",
+        "她想成为助产士。"
+      ],
+      "english": [
+        "The midwife assisted the delivery.",
+        "She wants to become a midwife."
+      ]
+    },
+    "notes": "医疗词汇，由 kraam（分娩）和 verpleegkundige（护理人员）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kraamverpleegkundige",
+        "plural": "kraamverpleegkundigen"
+      }
+    }
+  },
+  {
+    "id": 6218,
+    "word": "kracht bijzetten",
+    "translation": {
+      "chinese": "增强，加强",
+      "english": "to strengthen, to reinforce"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Wij moeten de positie kracht bijzetten.",
+      "De wind zette kracht bij."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我们需要加强立场。",
+        "风增强了。"
+      ],
+      "english": [
+        "We need to strengthen the position.",
+        "The wind intensified."
+      ]
+    },
+    "notes": "固定短语，bijzetten 意为增加/加强",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6219,
+    "word": "krijgen te horen",
+    "translation": {
+      "chinese": "得到消息，听说",
+      "english": "to hear, to learn of"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Ik kreeg het nieuws te horen.",
+      "Hij kreeg het ongeluk te horen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我听到了这个消息。",
+        "他得知了事故。"
+      ],
+      "english": [
+        "I heard the news.",
+        "He learned of the accident."
+      ]
+    },
+    "notes": "固定短语，字面意思是得到...来听",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6220,
+    "word": "kruipen in de huid",
+    "translation": {
+      "chinese": "深入骨髓，深深烙印",
+      "english": "to be ingrained, to be embedded"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "De gewoonte is in de huid gekruipt.",
+      "Angst zit diep in de huid."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这个习惯深深烙印在性格中。",
+        "恐惧深深烙印在心中。"
+      ],
+      "english": [
+        "The habit is ingrained in the character.",
+        "Fear is deeply embedded."
+      ]
+    },
+    "notes": "习语，字面意思是爬进皮肤",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6221,
+    "word": "kruisverhoor",
+    "translation": {
+      "chinese": "混乱",
+      "english": "confusion, chaos"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Er heerst kruisverhoor.",
+      "In de kruisverhoor ging alles mis."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "一片混乱。",
+        "在混乱中一切都出错了。"
+      ],
+      "english": [
+        "There is chaos.",
+        "Everything went wrong in the confusion."
+      ]
+    },
+    "notes": "抽象名词，由 kruisen（交叉/混乱）和 verhoor（错误）组成，通常不可数",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "kruisverhoor",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6222,
+    "word": "kwijt kunnen",
+    "translation": {
+      "chinese": "能够失去",
+      "english": "to be able to lose, to afford to lose"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Ik kan het niet kwijt raken.",
+      "Hij kon zijn baan niet kwijt raken."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我不能失去它。",
+        "他不能失去他的工作。"
+      ],
+      "english": [
+        "I cannot lose it.",
+        "He could not afford to lose his job."
+      ]
+    },
+    "notes": "固定短语，kwijt 是丢失的过去分词",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6223,
+    "word": "kwijtschelden",
+    "translation": {
+      "chinese": "责骂，批评",
+      "english": "to scold, to criticize"
+    },
+    "partOfSpeech": "verb",
+    "examples": [
+      "De moeder kwijtscholde haar kinderen.",
+      "Hij wordt door de baas kwijtschold."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "母亲责骂了她的孩子。",
+        "他被老板责骂。"
+      ],
+      "english": [
+        "The mother scolded her children.",
+        "He was scolded by the boss."
+      ]
+    },
+    "notes": "动词，源自 wijtschelden（责骂）",
+    "difficulty": "C1",
+    "forms": {
+      "verb": {
+        "infinitive": "kwijtschelden",
+        "isSeparable": false,
+        "present": {
+          "ik": "kwijtscheld",
+          "jij": "kwijtscheldt",
+          "hij": "kwijtscheldt",
+          "wij": "kwijtschelden",
+          "jullie": "kwijtschelden",
+          "zij": "kwijtschelden"
+        },
+        "past": {
+          "singular": "kwijtscholde",
+          "plural": "kwijtscholden"
+        },
+        "pastParticiple": "gekwijtschold",
+        "pastParticipleAuxiliary": "hebben"
+      }
+    }
+  },
+  {
+    "id": 6224,
+    "word": "laagdrempelig",
+    "translation": {
+      "chinese": "低门槛的",
+      "english": "with low threshold, accessible"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Het programma is laagdrempelig.",
+      "Laagdrempelige deelname is belangrijk."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这个项目门槛很低。",
+        "低门槛的参与很重要。"
+      ],
+      "english": [
+        "The program has a low threshold.",
+        "Accessible participation is important."
+      ]
+    },
+    "notes": "形容词，由 laag（低）和 drempel（门槛）组成",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "laagdrempelig",
+        "withDe": "laagdrempelige",
+        "withHet": "laagdrempelige",
+        "comparative": "laagdrempeliger",
+        "superlative": "laagdrempeligst"
+      }
+    }
+  },
+  {
+    "id": 6225,
+    "word": "laaggeletterd",
+    "translation": {
+      "chinese": "低学历的",
+      "english": "poorly educated, low-educated"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Veel laaggeletterden vinden werk.",
+      "De overheid ondersteunt laaggeletterden."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "很多低学历的人找到了工作。",
+        "政府支持低学历者。"
+      ],
+      "english": [
+        "Many poorly educated people find work.",
+        "The government supports low-educated people."
+      ]
+    },
+    "notes": "形容词，由 laag（低）和 geletterd（受过教育的）组成",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "laaggeletterd",
+        "withDe": "laaggeletterde",
+        "withHet": "laaggeletterde",
+        "comparative": "laaggeletterder",
+        "superlative": "laaggeletterdst"
+      }
+    }
+  },
+  {
+    "id": 6226,
+    "word": "laaggeschoold",
+    "translation": {
+      "chinese": "低薪的",
+      "english": "low-paid"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Hij heeft een laaggeschoolde baan.",
+      "Laaggeschoolde werk is zwaar."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他有一份低薪的工作。",
+        "低薪工作很辛苦。"
+      ],
+      "english": [
+        "He has a low-paid job.",
+        "Low-paid work is hard."
+      ]
+    },
+    "notes": "形容词，由 laag（低）和 geschoold（有薪酬的）组成",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "laaggeschoold",
+        "withDe": "laaggeschoolde",
+        "withHet": "laaggeschoolde",
+        "comparative": "laaggeschoolder",
+        "superlative": "laaggeschooldst"
+      }
+    }
+  },
+  {
+    "id": 6228,
+    "word": "landbouwgrond",
+    "translation": {
+      "chinese": "农业用地",
+      "english": "agricultural land"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Er is veel landbouwgrond in deze regio.",
+      "De prijs van landbouwgrond is gestegen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这个地区有很多农业用地。",
+        "农业用地的价格上涨了。"
+      ],
+      "english": [
+        "There is much agricultural land in this region.",
+        "The price of agricultural land has risen."
+      ]
+    },
+    "notes": "农业词汇，由 landbouw（农业）和 grond（土地）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "landbouwgrond",
+        "plural": "landbouwgronden"
+      }
+    }
+  },
+  {
+    "id": 6229,
+    "word": "landingsbaan",
+    "translation": {
+      "chinese": "着陆带",
+      "english": "landing strip, runway"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Het vliegtuig landde op de landingsbaan.",
+      "De landingsbaan is gerenoveerd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "飞机降落在着陆带上。",
+        "跑道已经翻新。"
+      ],
+      "english": [
+        "The aircraft landed on the runway.",
+        "The landing strip has been renovated."
+      ]
+    },
+    "notes": "航空词汇，由 landing（着陆）和 baan（跑道）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "landingsbaan",
+        "plural": "landingsbanen"
+      }
+    }
+  },
+  {
+    "id": 6230,
+    "word": "landingsgestel",
+    "translation": {
+      "chinese": "着陆装置",
+      "english": "landing gear"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De landingsgestel is uitgeklapt.",
+      "Het vliegtuig heeft problemen met het landingsgestel."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "着陆装置已展开。",
+        "飞机的着陆装置有问题。"
+      ],
+      "english": [
+        "The landing gear has been deployed.",
+        "The aircraft has problems with the landing gear."
+      ]
+    },
+    "notes": "航空词汇，由 landing（着陆）和 gestel（装置/架子）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "landingsgestel",
+        "plural": "landingsgestellen"
+      }
+    }
+  },
+  {
+    "id": 6231,
+    "word": "landschapbeheer",
+    "translation": {
+      "chinese": "景观管理",
+      "english": "landscape management"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Het landschapbeheer is verbeterd.",
+      "Wij werken aan landschapbeheer."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "景观管理改善了。",
+        "我们在进行景观管理工作。"
+      ],
+      "english": [
+        "Landscape management has improved.",
+        "We work on landscape management."
+      ]
+    },
+    "notes": "环境词汇，由 landschap（景观）和 beheer（管理）组成，通常不可数",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "landschapbeheer",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6232,
+    "word": "langsgaan bij",
+    "translation": {
+      "chinese": "长期伴随，长期支持",
+      "english": "to accompany for a long time"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Hij gaat haar langsgaan bij het ziekbed.",
+      "Zij gaat het project langsgaan bij."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他长期陪伴在病床边的她。",
+        "她长期支持这个项目。"
+      ],
+      "english": [
+        "He accompanies her for a long time at the bedside.",
+        "She accompanies the project for a long time."
+      ]
+    },
+    "notes": "短语，langsgaan 字面意思是长时间走",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6233,
+    "word": "langzamerhand",
+    "translation": {
+      "chinese": "长期合作",
+      "english": "long-term cooperation"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De langzamerhand tussen de bedrijven is succesvol.",
+      "Wij zoeken langzamerhand met partners."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "公司间的长期合作很成功。",
+        "我们寻求与伙伴的长期合作。"
+      ],
+      "english": [
+        "The long-term cooperation between companies is successful.",
+        "We seek long-term cooperation with partners."
+      ]
+    },
+    "notes": "商业词汇，由 lang（长）和 samenwerking（合作）组成，通常不可数",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "langzamerhand",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6234,
+    "word": "lantaarnpaal",
+    "translation": {
+      "chinese": "路灯柱",
+      "english": "lamppost, streetlight pole"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De lantaarnpaal is kapot.",
+      "Er staat een nieuwe lantaarnpaal op de hoek."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "路灯柱坏了。",
+        "拐角处有一根新的路灯柱。"
+      ],
+      "english": [
+        "The lamppost is broken.",
+        "There is a new streetlight pole on the corner."
+      ]
+    },
+    "notes": "城市基础设施词汇，由 lantaarn（路灯）和 paal（柱子）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "lantaarnpaal",
+        "plural": "lantaarnpalen"
+      }
+    }
+  },
+  {
+    "id": 6235,
+    "word": "lastig vallen",
+    "translation": {
+      "chinese": "变得困难",
+      "english": "to become difficult, to be hard"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Het werk valt lastig.",
+      "De beslissing viel lastig te nemen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "工作变得困难。",
+        "这个决定很难做出。"
+      ],
+      "english": [
+        "The work becomes difficult.",
+        "The decision was difficult to make."
+      ]
+    },
+    "notes": "常用短语，lastig 意为困难的",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6236,
+    "word": "laten staan dat",
+    "translation": {
+      "chinese": "允许...做",
+      "english": "to let do, to allow to"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Ik laat hem staan dat hij gaat.",
+      "Laat mij weten dat je komt."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "我让他走。",
+        "让我知道你要来。"
+      ],
+      "english": [
+        "I let him go.",
+        "Let me know that you come."
+      ]
+    },
+    "notes": "常用短语，用于表示允许或让某人做某事",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6237,
+    "word": "leeftijdsgenoot",
+    "translation": {
+      "chinese": "同代人，同龄人",
+      "english": "contemporary, peer"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Zij is mijn leeftijdsgenoot.",
+      "Leeftijdsgenoten hebben veel gemeen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她是我的同龄人。",
+        "同龄人有很多共同点。"
+      ],
+      "english": [
+        "She is my contemporary.",
+        "Contemporaries have much in common."
+      ]
+    },
+    "notes": "社会词汇，由 leeftijd（年龄）和 genoot（同伴）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "leeftijdsgenoot",
+        "plural": "leeftijdsgenoten"
+      }
+    }
+  },
+  {
+    "id": 6238,
+    "word": "leidinggevende",
+    "translation": {
+      "chinese": "提供指导的，领导的",
+      "english": "guiding, leading"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Zij heeft een leidinggevende rol.",
+      "Het leidinggevende principe is belangrijk."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她起着领导作用。",
+        "这个指导原则很重要。"
+      ],
+      "english": [
+        "She has a leading role.",
+        "The guiding principle is important."
+      ]
+    },
+    "notes": "形容词，由 leiding（领导）和 gevend（给予）组成",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "leidinggevende",
+        "withDe": "leidinggevende",
+        "withHet": "leidinggevende",
+        "comparative": "leidinggevender",
+        "superlative": "leidinggevendst"
+      }
+    }
+  },
+  {
+    "id": 6239,
+    "word": "leidingsgevende",
+    "translation": {
+      "chinese": "引导性的",
+      "english": "guiding, directing"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Het leidingsgevende document is klaar.",
+      "De leidingsgevende principes zijn duidelijk."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "指导文件已准备就绪。",
+        "指导原则很清楚。"
+      ],
+      "english": [
+        "The guiding document is ready.",
+        "The guiding principles are clear."
+      ]
+    },
+    "notes": "形容词，由 leiding（引导）和 gevend（给予）组成",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "leidingsgevende",
+        "withDe": "leidingsgevende",
+        "withHet": "leidingsgevende",
+        "comparative": "leidingsgevender",
+        "superlative": "leidingsgevendst"
+      }
+    }
+  },
+  {
+    "id": 6240,
+    "word": "leidingwater",
+    "translation": {
+      "chinese": "饮用水",
+      "english": "drinking water"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Leidingwater is veilig om te drinken.",
+      "Het gebouw heeft geen leidingwater."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "饮用水可以安全饮用。",
+        "这栋建筑没有管道饮用水。"
+      ],
+      "english": [
+        "Drinking water is safe to drink.",
+        "The building has no piped drinking water."
+      ]
+    },
+    "notes": "水资源词汇，由 leiding（管道）和 water（水）组成，通常不可数",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "leidingwater",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6241,
+    "word": "levensbeschrijving",
+    "translation": {
+      "chinese": "人生描述",
+      "english": "biography, life description"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Hij schreef een levensbeschrijving.",
+      "De levensbeschrijving is fascinerend."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他写了一份人生描述。",
+        "这份人生描述很迷人。"
+      ],
+      "english": [
+        "He wrote a biography.",
+        "The life description is fascinating."
+      ]
+    },
+    "notes": "文学词汇，由 leven（生活）和 beschrijving（描述）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "levensbeschrijving",
+        "plural": "levensbeschrijvingen"
+      }
+    }
+  },
+  {
+    "id": 6242,
+    "word": "levensonderhoud",
+    "translation": {
+      "chinese": "生计，谋生",
+      "english": "livelihood, living"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Hij verliest zijn levensonderhoud.",
+      "Landbouw is de belangrijkste levensonderhoud."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他失去了生计。",
+        "农业是最重要的生计。"
+      ],
+      "english": [
+        "He loses his livelihood.",
+        "Agriculture is the most important livelihood."
+      ]
+    },
+    "notes": "经济词汇，由 leven（生活）and onderhoud（维持）组成，通常不可数",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "levensonderhoud",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6243,
+    "word": "lichaamstaal",
+    "translation": {
+      "chinese": "肢体语言",
+      "english": "body language"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Zijn lichaamstaal spreekt boekdelen.",
+      "Let op haar lichaamstaal."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他的肢体语言说话了。",
+        "注意她的肢体语言。"
+      ],
+      "english": [
+        "His body language speaks volumes.",
+        "Pay attention to her body language."
+      ]
+    },
+    "notes": "心理学词汇，由 lichaam（身体）and taal（语言）组成，通常不可数",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "lichaamstaal",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6244,
+    "word": "lichtontvlambaar",
+    "translation": {
+      "chinese": "易燃的",
+      "english": "flammable, combustible"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "Dit materiaal is lichtontvlambaar.",
+      "Lichtontvlambare stoffen moeten apart worden bewaard."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "这种材料易燃。",
+        "易燃材料必须分开存放。"
+      ],
+      "english": [
+        "This material is flammable.",
+        "Flammable materials must be stored separately."
+      ]
+    },
+    "notes": "安全词汇，由 licht（轻）和 ontvlambaar（易燃的）组成",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "lichtontvlambaar",
+        "withDe": "lichtontvlambare",
+        "withHet": "lichtontvlambare",
+        "comparative": "lichtontvlambaarder",
+        "superlative": "lichtontvlambaarst"
+      }
+    }
+  },
+  {
+    "id": 6246,
+    "word": "liefdadigheid",
+    "translation": {
+      "chinese": "慈善，仁慈",
+      "english": "charity, kindness"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Zij toonde veel liefdadigheid.",
+      "Liefdadigheid wordt gewaardeerd."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她表现出很多仁慈。",
+        "慈善受到赞赏。"
+      ],
+      "english": [
+        "She showed much charity.",
+        "Charity is valued."
+      ]
+    },
+    "notes": "道德词汇，由 lief（爱）和 dadigheid（行为）组成，通常不可数",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "liefdadigheid",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6247,
+    "word": "lieveheersbeestje",
+    "translation": {
+      "chinese": "心爱的人",
+      "english": "beloved person, darling"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Zij is mijn lieveheersbeestje.",
+      "Ik heb een lieveheersbeestje thuis."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "她是我的爱人。",
+        "我在家里有一个心爱的人。"
+      ],
+      "english": [
+        "She is my beloved.",
+        "I have a beloved at home."
+      ]
+    },
+    "notes": "爱称，由 lief（亲爱的）+ heers（统治/心）+ -je（小称）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "lieveheersbeestje",
+        "plural": "lieveheersbeestjes"
+      }
+    }
+  },
+  {
+    "id": 6248,
+    "word": "lijken alsof",
+    "translation": {
+      "chinese": "看起来像，似乎",
+      "english": "to appear to be, to seem"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Het lijkt alsof het gaat regenen.",
+      "Hij lijkt alsof hij ziek is."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "看起来好像要下雨。",
+        "他看起来好像病了。"
+      ],
+      "english": [
+        "It appears that it will rain.",
+        "He seems to be sick."
+      ]
+    },
+    "notes": "常用短语，lijken 是看起来，alsof 意为好像",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6249,
+    "word": "lijsttrekker",
+    "translation": {
+      "chinese": "名单编制者",
+      "english": "list maker"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "De lijsttrekker controleert de gegevens.",
+      "Wij hebben een lijsttrekker nodig."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "名单编制者检查数据。",
+        "我们需要一个名单编制者。"
+      ],
+      "english": [
+        "The list maker checks the data.",
+        "We need a list maker."
+      ]
+    },
+    "notes": "行政词汇，由 lijst（名单）和 trekker（拉/制作者）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "lijsttrekker",
+        "plural": "lijsttrekkers"
+      }
+    }
+  },
+  {
+    "id": 6250,
+    "word": "links laten liggen",
+    "translation": {
+      "chinese": "放在左边",
+      "english": "to leave on the left"
+    },
+    "partOfSpeech": "phrase",
+    "examples": [
+      "Laat het bestand links laten liggen.",
+      "Hij laat zijn fiets links laten liggen."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "把文件放在左边。",
+        "他把自行车放在左边。"
+      ],
+      "english": [
+        "Leave the file on the left.",
+        "He leaves his bike on the left."
+      ]
+    },
+    "notes": "方向短语，links 意为左边",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6251,
+    "word": "linkshandigheid",
+    "translation": {
+      "chinese": "左撇子",
+      "english": "left-handedness"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Linkshandigheid is erfelijk.",
+      "Veel linkshandigden zijn artistiek."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "左撇子是遗传的。",
+        "很多左撇子很有艺术天赋。"
+      ],
+      "english": [
+        "Left-handedness is hereditary.",
+        "Many left-handed people are artistic."
+      ]
+    },
+    "notes": "生理词汇，由 links（左）and handigheid（手性）组成，通常不可数",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "linkshandigheid",
+        "plural": "-"
+      }
+    }
+  },
+  {
+    "id": 6252,
+    "word": "logischerwijs",
+    "translation": {
+      "chinese": "逻辑地",
+      "english": "logically"
+    },
+    "partOfSpeech": "adverb",
+    "examples": [
+      "Logischerwijs is dit het juiste besluit.",
+      "Hij redeneerde logischerwijs."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "逻辑上这是正确的决定。",
+        "他逻辑地推理了。"
+      ],
+      "english": [
+        "Logically this is the right decision.",
+        "He reasoned logically."
+      ]
+    },
+    "notes": "副词，由 logisch（逻辑的）and -wijs（方式）组成",
+    "difficulty": "C1"
+  },
+  {
+    "id": 6253,
+    "word": "longontsteking",
+    "translation": {
+      "chinese": "肺病",
+      "english": "lung disease, pulmonary condition"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Hij heeft een ernstige longontsteking.",
+      "Longontsteking kan gevaarlijk zijn."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他患有严重的肺病。",
+        "肺病可能很危险。"
+      ],
+      "english": [
+        "He has a serious lung disease.",
+        "Lung disease can be dangerous."
+      ]
+    },
+    "notes": "医学术语，由 long（肺）and ontsteking（炎症）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "de",
+        "singular": "longontsteking",
+        "plural": "longontstekingen"
+      }
+    }
+  },
+  {
+    "id": 6254,
+    "word": "loonstrookje",
+    "translation": {
+      "chinese": "小工资",
+      "english": "small wage, petty salary"
+    },
+    "partOfSpeech": "noun",
+    "examples": [
+      "Hij ontvangt slechts een loonstrookje.",
+      "Het is een bescheiden loonstrookje."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "他只收到微薄的工资。",
+        "这是微薄的收入。"
+      ],
+      "english": [
+        "He receives only a small wage.",
+        "It is a modest salary."
+      ]
+    },
+    "notes": "经济词汇，由 loon（工资）and -je（小称后缀）组成",
+    "difficulty": "C1",
+    "forms": {
+      "noun": {
+        "article": "het",
+        "singular": "loonstrookje",
+        "plural": "loonstrookjes"
+      }
+    }
+  },
+  {
+    "id": 6255,
+    "word": "losgekoppeld",
+    "translation": {
+      "chinese": "未连接的，松散的",
+      "english": "disconnected, loose"
+    },
+    "partOfSpeech": "adjective",
+    "examples": [
+      "De kabel is losgekoppeld.",
+      "De componenten zijn losgekoppeld."
+    ],
+    "exampleTranslations": {
+      "chinese": [
+        "电缆未连接。",
+        "组件是松散的。"
+      ],
+      "english": [
+        "The cable is disconnected.",
+        "The components are disconnected."
+      ]
+    },
+    "notes": "形容词，由 los（松散）and gekoppeld（连接）组成",
+    "difficulty": "C1",
+    "forms": {
+      "adjective": {
+        "base": "losgekoppeld",
+        "withDe": "losgekoppelde",
+        "withHet": "losgekoppelde",
+        "comparative": "losgekoppelder",
+        "superlative": "losgekoppeldst"
+      }
+    }
   }
 ]
