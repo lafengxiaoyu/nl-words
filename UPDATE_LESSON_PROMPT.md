@@ -215,7 +215,7 @@ python3 << 'EOF'
 import json
 import os
 
-levels = ['b1', 'b2', 'c1']
+levels = ['a1', 'a2', 'b1', 'b2', 'c1']
 simple_notes_words = []
 
 for level in levels:
