@@ -1,5 +1,5 @@
 {
-  "totalWords": 5451,
+  "totalWords": 5450,
   "totalLessons": 124,
   "levels": {
     "A1": {
@@ -28,9 +28,9 @@
     },
     "C1": {
       "level": "C1",
-      "totalWords": 1054,
+      "totalWords": 1053,
       "totalLessons": 13,
-      "wordsPerLesson": "81.1"
+      "wordsPerLesson": "81.0"
     },
     "C2": {
       "level": "C2",
@@ -42,11 +42,11 @@
   "partOfSpeech": {
     "interjection": 16,
     "phrase": 169,
-    "noun": 2915,
-    "verb": 1076,
-    "adjective": 923,
+    "noun": 2760,
+    "verb": 1112,
+    "adjective": 991,
     "preposition": 39,
-    "adverb": 176,
+    "adverb": 179,
     "pronoun": 31,
     "conjunction": 19,
     "determiner": 4,
@@ -58,18 +58,19 @@
     "verb,adjective": 1,
     "noun,adjective": 5,
     "noun phrase": 2,
-    "adverb phrase": 1,
+    "adverb phrase": 4,
     "adjective phrase": 1,
-    "adverbial phrase": 18,
-    "prepositional phrase": 1,
+    "adverbial phrase": 22,
+    "prepositional phrase": 5,
     "phrasal verb": 18,
-    "adjective/adverb": 1,
-    "noun/adjective": 1,
-    "reflexive verb": 2
+    "adjective/adverb": 2,
+    "noun/adjective": 2,
+    "reflexive verb": 2,
+    "verb phrase": 34
   },
   "wordLength": {
     "min": 1,
-    "max": 25,
-    "average": "9.26"
+    "max": 26,
+    "average": "9.25"
   }
 }
