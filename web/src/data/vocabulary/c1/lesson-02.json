@@ -1,0 +1,2853 @@
+{
+  "id": "lC102",
+  "level": "C1",
+  "lessonNumber": 2,
+  "totalWords": 83,
+  "words": [
+    {
+      "id": 5815,
+      "word": "baarmoederhals",
+      "translation": {
+        "chinese": "宫颈",
+        "english": "cervix"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "baarmoederhals",
+          "plural": "baarmoederhalzen"
+        }
+      },
+      "examples": [
+        "De arts controleerde de baarmoederhals.",
+        "Baarmoederhalskanker kan vroeg worden ontdekt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "医生检查了宫颈。",
+          "宫颈癌可以早期发现。"
+        ],
+        "english": [
+          "The doctor checked the cervix.",
+          "Cervical cancer can be detected early."
+        ]
+      },
+      "notes": "医学术语，复合名词由baarmoeder（子宫）和hals（颈部）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5816,
+      "word": "bankafschrift",
+      "translation": {
+        "chinese": "银行对账单",
+        "english": "bank statement"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "bankafschrift",
+          "plural": "bankafschriften"
+        }
+      },
+      "examples": [
+        "Ik heb mijn bankafschrift gedownload.",
+        "Het bankafschrift toont alle transacties van vorige maand."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我下载了银行对账单。",
+          "银行对账单显示了上个月的所有交易。"
+        ],
+        "english": [
+          "I downloaded my bank statement.",
+          "The bank statement shows all transactions from last month."
+        ]
+      },
+      "notes": "复合名词，用于记录银行账户交易详情",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5817,
+      "word": "barmhartigheid",
+      "translation": {
+        "chinese": "仁慈，慈悲",
+        "english": "mercy, compassion"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "barmhartigheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Hij toonde grote barmhartigheid jegens de slachtoffers.",
+        "Barmhartigheid is een belangrijke deugd in elke cultuur."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他对受害者表现出极大的仁慈。",
+          "仁慈是各种文化中的重要美德。"
+        ],
+        "english": [
+          "He showed great mercy towards the victims.",
+          "Mercy is an important virtue in every culture."
+        ]
+      },
+      "notes": "抽象名词，常不可数，表示对他人痛苦的同情和帮助",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5818,
+      "word": "beangstigend",
+      "translation": {
+        "chinese": "令人恐惧的",
+        "english": "frightening, scary"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beangstigend",
+          "withDe": "beangstigende",
+          "withHet": "beangstigende",
+          "comparative": "beangstigender",
+          "superlative": "beangstigendst"
+        }
+      },
+      "examples": [
+        "Het was een beangstigende ervaring.",
+        "Het geluid was echt beangstigend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那是一次令人恐惧的经历。",
+          "那个声音真的令人害怕。"
+        ],
+        "english": [
+          "It was a frightening experience.",
+          "The sound was really scary."
+        ]
+      },
+      "notes": "分词形容词，由动词beangstigen转化而来，现在分词形式表示'令人恐惧的'",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5819,
+      "word": "beargumenteren",
+      "translation": {
+        "chinese": "论证，支持论点",
+        "english": "to argue in favor of, to support with arguments"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "beargumenteren",
+          "isSeparable": false,
+          "present": {
+            "ik": "beargumenteer",
+            "jij": "beargumenteert",
+            "hij": "beargumenteert",
+            "wij": "beargumenteren",
+            "jullie": "beargumenteren",
+            "zij": "beargumenteren"
+          },
+          "past": {
+            "singular": "beargumenteerde",
+            "plural": "beargumenteerden"
+          },
+          "pastParticiple": "geargumenteeerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij beargumenteerde zijn standpunt zeer overtuigend.",
+        "De advocaat beargumenteerde dat zijn cliënt onschuldig was."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他非常有说服力地论证了他的观点。",
+          "律师论证了他的当事人是无辜的。"
+        ],
+        "english": [
+          "He argued his position very convincingly.",
+          "The lawyer argued that his client was innocent."
+        ]
+      },
+      "notes": "派生动词，前缀be-表示'彻底地'或'为了'，常用于学术和法律场合",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5820,
+      "word": "bedrijfskunde",
+      "translation": {
+        "chinese": "企业管理，工商管理学",
+        "english": "business administration, business studies"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bedrijfskunde",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Ik studeer bedrijfskunde aan de universiteit.",
+        "Bedrijfskunde leert je hoe je een bedrijf moet runnen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我在大学学习企业管理。",
+          "企业管理教你如何经营一家公司。"
+        ],
+        "english": [
+          "I study business administration at the university.",
+          "Business administration teaches you how to run a company."
+        ]
+      },
+      "notes": "复合名词，学科名称，不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5821,
+      "word": "bedrijfsleven",
+      "translation": {
+        "chinese": "商界，企业界",
+        "english": "business world, business sector"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "bedrijfsleven",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het Nederlandse bedrijfsleven is internationaal sterk.",
+        "Hij werkt al jaren in het bedrijfsleven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "荷兰商界在国际上很强大。",
+          "他在商界工作多年了。"
+        ],
+        "english": [
+          "The Dutch business sector is internationally strong.",
+          "He has been working in the business world for years."
+        ]
+      },
+      "notes": "集合名词，不可数，指整个商业和企业部门",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5822,
+      "word": "bedrijvigheid",
+      "translation": {
+        "chinese": "活跃度，经济活动",
+        "english": "activity, liveliness"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bedrijvigheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Er was veel bedrijvigheid op de markt.",
+        "De economische bedrijvigheid neemt toe."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "市场上很热闹。",
+          "经济活动正在增加。"
+        ],
+        "english": [
+          "There was a lot of activity on the market.",
+          "Economic activity is increasing."
+        ]
+      },
+      "notes": "抽象名词，不可数，表示活跃程度或经济活动",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5823,
+      "word": "beeldbepalend",
+      "translation": {
+        "chinese": "决定形象的，具有代表性的",
+        "english": "defining, iconic, representative"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beeldbepalend",
+          "withDe": "beeldbepalende",
+          "withHet": "beeldbepalende",
+          "comparative": "beeldbepalender",
+          "superlative": "beeldbepalendst"
+        }
+      },
+      "examples": [
+        "Dit gebouw is beeldbepalend voor de stad.",
+        "Ze was een beeldbepalend figuur in de politiek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这座建筑是这座城市的标志性建筑。",
+          "她是政治界的一位代表性人物。"
+        ],
+        "english": [
+          "This building is iconic for the city.",
+          "She was a defining figure in politics."
+        ]
+      },
+      "notes": "复合形容词，由beeld（形象）和bepalend（决定的）组成，常用于建筑或人物",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5824,
+      "word": "beeldsnijder",
+      "translation": {
+        "chinese": "雕刻家，雕塑家",
+        "english": "sculptor, carver"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "beeldsnijder",
+          "plural": "beeldsnijders"
+        }
+      },
+      "examples": [
+        "De beeldsnijder werkte jaren aan dit standbeeld.",
+        "Hij is een bekende beeldsnijder."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这位雕塑家在这个雕像上工作了多年。",
+          "他是一位著名的雕塑家。"
+        ],
+        "english": [
+          "The sculptor worked on this statue for years.",
+          "He is a well-known sculptor."
+        ]
+      },
+      "notes": "职业名词，复合词由beeld（形象/雕像）和snijder（切割者）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5827,
+      "word": "begrippenlijst",
+      "translation": {
+        "chinese": "术语表，词汇表",
+        "english": "glossary, list of terms"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "begrippenlijst",
+          "plural": "begrippenlijsten"
+        }
+      },
+      "examples": [
+        "Raadpleeg de begrippenlijst voor onbekende woorden.",
+        "De begrippenlijst bevat alle technische termen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "查阅术语表了解生词。",
+          "术语表包含所有技术术语。"
+        ],
+        "english": [
+          "Consult the glossary for unfamiliar words.",
+          "The glossary contains all technical terms."
+        ]
+      },
+      "notes": "复合名词，由begrippen（概念/术语）和lijst（列表）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5828,
+      "word": "bejaardentehuis",
+      "translation": {
+        "chinese": "养老院",
+        "english": "nursing home, retirement home"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "bejaardentehuis",
+          "plural": "bejaardentehuizen"
+        }
+      },
+      "examples": [
+        "De oma woont in een bejaardentehuis.",
+        "Het bejaardentehuis heeft goede zorg."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "祖母住在养老院。",
+          "这家养老院的护理很好。"
+        ],
+        "english": [
+          "The grandmother lives in a nursing home.",
+          "The nursing home provides good care."
+        ]
+      },
+      "notes": "复合名词，由bejaarden（老人）和tehuis（住所）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5829,
+      "word": "bekendmaking",
+      "translation": {
+        "chinese": "公告，声明",
+        "english": "announcement, declaration"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bekendmaking",
+          "plural": "bekendmakingen"
+        }
+      },
+      "examples": [
+        "De bekendmaking werd in de krant gepubliceerd.",
+        "De regering deed een officiële bekendmaking."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公告发表在报纸上。",
+          "政府发表了官方声明。"
+        ],
+        "english": [
+          "The announcement was published in the newspaper.",
+          "The government made an official announcement."
+        ]
+      },
+      "notes": "派生名词，由动词bekendmaken（公告）转化而来",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5830,
+      "word": "bekrachtigen",
+      "translation": {
+        "chinese": "批准，确认，加强",
+        "english": "to ratify, to confirm, to strengthen"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bekrachtigen",
+          "isSeparable": false,
+          "present": {
+            "ik": "bekrachtig",
+            "jij": "bekrachtigt",
+            "hij": "bekrachtigt",
+            "wij": "bekrachtigen",
+            "jullie": "bekrachtigen",
+            "zij": "bekrachtigen"
+          },
+          "past": {
+            "singular": "bekrachtigde",
+            "plural": "bekrachtigden"
+          },
+          "pastParticiple": "bekrachtigd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Het parlement bekrachtigde het verdrag.",
+        "Het bewijs bekrachtigde zijn verhaal."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "议会批准了该条约。",
+          "证据证实了他的说法。"
+        ],
+        "english": [
+          "The parliament ratified the treaty.",
+          "The evidence confirmed his story."
+        ]
+      },
+      "notes": "前缀be-表示加强或使某事有效，常用于法律和正式场合",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5831,
+      "word": "bekritiseren",
+      "translation": {
+        "chinese": "批评，批判",
+        "english": "to criticize, to critique"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bekritiseren",
+          "isSeparable": false,
+          "present": {
+            "ik": "bekritiseer",
+            "jij": "bekritiseert",
+            "hij": "bekritiseert",
+            "wij": "bekritiseren",
+            "jullie": "bekritiseren",
+            "zij": "bekritiseren"
+          },
+          "past": {
+            "singular": "bekritiseerde",
+            "plural": "bekritiseerden"
+          },
+          "pastParticiple": "bekritiseerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij bekritiseerde het besluit van de regering.",
+        "Het is makkelijk om te bekritiseren, maar moeilijk om oplossingen te vinden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他批评了政府的决定。",
+          "批评容易，但找到解决方案很难。"
+        ],
+        "english": [
+          "He criticized the government's decision.",
+          "It is easy to criticize, but hard to find solutions."
+        ]
+      },
+      "notes": "前缀be-表示'彻底地'，源自kritiek（批评）",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5832,
+      "word": "belangenbehartiging",
+      "translation": {
+        "chinese": "利益代表，利益维护",
+        "english": "advocacy, representation of interests"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "belangenbehartiging",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De vakbond doet aan belangenbehartiging van werknemers.",
+        "Effectieve belangenbehartiging is belangrijk in de politiek."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "工会进行员工利益代表工作。",
+          "在政治中，有效的利益维护很重要。"
+        ],
+        "english": [
+          "The union engages in advocacy for employees.",
+          "Effective advocacy is important in politics."
+        ]
+      },
+      "notes": "复合名词，由belangen（利益）和behartiging（照顾/维护）组成，不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5833,
+      "word": "belanghebbenden",
+      "translation": {
+        "chinese": "利益相关者",
+        "english": "stakeholders"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "belanghebbende",
+          "plural": "belanghebbenden"
+        }
+      },
+      "examples": [
+        "Alle belanghebbenden werden uitgenodigd voor de bijeenkomst.",
+        "De beslissing is gunstig voor de belanghebbenden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "所有利益相关者都被邀请参加会议。",
+          "这个决定对利益相关者有利。"
+        ],
+        "english": [
+          "All stakeholders were invited to the meeting.",
+          "The decision is favorable to the stakeholders."
+        ]
+      },
+      "notes": "分词名词，由belanghebben（有利害关系）的现在分词构成，英语借词stakeholders",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5835,
+      "word": "belangwekkend",
+      "translation": {
+        "chinese": "有趣的，值得关注的",
+        "english": "interesting, noteworthy, remarkable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "belangwekkend",
+          "withDe": "belangwekkende",
+          "withHet": "belangwekkende",
+          "comparative": "belangwekkender",
+          "superlative": "belangwekkendst"
+        }
+      },
+      "examples": [
+        "Het was een belangwekkende presentatie.",
+        "Ze maakte een belangwekkend punt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一个有趣的演示。",
+          "她提出了一个值得关注的观点。"
+        ],
+        "english": [
+          "It was an interesting presentation.",
+          "She made a noteworthy point."
+        ]
+      },
+      "notes": "复合形容词，由belang（重要性）和wekkend（激发的）组成，比interessant更正式",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5836,
+      "word": "belastbaarheid",
+      "translation": {
+        "chinese": "可征税性",
+        "english": "taxability"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "belastbaarheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De belastbaarheid van dit inkomen moet worden onderzocht.",
+        "Belastbaarheid is een belangrijk begrip in de fiscale wetgeving."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这项收入的可征税性需要调查。",
+          "可征税性是税法中的重要概念。"
+        ],
+        "english": [
+          "The taxability of this income must be investigated.",
+          "Taxability is an important concept in tax legislation."
+        ]
+      },
+      "notes": "抽象名词，由belastbaar（可征税的）加后缀-heid构成，不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5837,
+      "word": "beleidsmaker",
+      "translation": {
+        "chinese": "政策制定者",
+        "english": "policy maker"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "beleidsmaker",
+          "plural": "beleidsmakers"
+        }
+      },
+      "examples": [
+        "De beleidsmakers vergaderden over nieuwe wetgeving.",
+        "Beleidsmakers moeten rekening houden met de publieke opinie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "政策制定者就新立法进行了会议。",
+          "政策制定者必须考虑公众舆论。"
+        ],
+        "english": [
+          "The policy makers met about new legislation.",
+          "Policy makers must consider public opinion."
+        ]
+      },
+      "notes": "复合名词，由beleid（政策）和maker（制定者）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5838,
+      "word": "benijdenswaardig",
+      "translation": {
+        "chinese": "令人羡慕的",
+        "english": "enviable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "benijdenswaardig",
+          "withDe": "benijdenswaardige",
+          "withHet": "benijdenswaardige",
+          "comparative": "benijdenswaardiger",
+          "superlative": "benijdenswaardigst"
+        }
+      },
+      "examples": [
+        "Ze heeft een benijdenswaardige positie.",
+        "Het is een benijdenswaardige eigenschap."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她有一个令人羡慕的职位。",
+          "这是一个令人羡慕的品质。"
+        ],
+        "english": [
+          "She has an enviable position.",
+          "It is an enviable quality."
+        ]
+      },
+      "notes": "复合形容词，由benijden（羡慕）和waardig（值得的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5839,
+      "word": "benodigdheden",
+      "translation": {
+        "chinese": "必需品，必需物资",
+        "english": "necessities, supplies"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "benodigdheid",
+          "plural": "benodigdheden"
+        }
+      },
+      "examples": [
+        "We moeten de benodigdheden voor het feest kopen.",
+        "De organisatie voorzag de vluchtelingen van eerste benodigdheden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我们需要购买聚会的必需品。",
+          "该组织为难民提供了必需物资。"
+        ],
+        "english": [
+          "We need to buy the supplies for the party.",
+          "The organization provided the refugees with basic necessities."
+        ]
+      },
+      "notes": "复数形式更常用，由benodigen（需要）派生而来",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5840,
+      "word": "benodigdheid",
+      "translation": {
+        "chinese": "需求，必需",
+        "english": "necessity, need"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "benodigdheid",
+          "plural": "benodigdheden"
+        }
+      },
+      "examples": [
+        "Er is een grote benodigdheid aan schoon drinkwater.",
+        "De benodigdheden werden snel geleverd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "对清洁饮用水的需求很大。",
+          "必需品很快送达。"
+        ],
+        "english": [
+          "There is a great need for clean drinking water.",
+          "The necessities were delivered quickly."
+        ]
+      },
+      "notes": "抽象名词，由benodigd（需要的）加后缀-heid构成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5841,
+      "word": "beoordelingsraster",
+      "translation": {
+        "chinese": "评估表，评分表",
+        "english": "assessment grid, evaluation rubric"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "beoordelingsraster",
+          "plural": "beoordelingsrasters"
+        }
+      },
+      "examples": [
+        "De docent gebruikte een beoordelingsraster voor de essays.",
+        "Het beoordelingsraster helpt om objectief te beoordelen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "老师使用评分表来评估论文。",
+          "评估表有助于客观评分。"
+        ],
+        "english": [
+          "The teacher used an evaluation rubric for the essays.",
+          "The assessment grid helps to grade objectively."
+        ]
+      },
+      "notes": "复合名词，由beoordeling（评估）和raster（网格/表）组成，教育术语",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5842,
+      "word": "beoordelingssleutel",
+      "translation": {
+        "chinese": "评分标准，评分钥匙",
+        "english": "grading key, marking scheme"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "beoordelingssleutel",
+          "plural": "beoordelingssleutels"
+        }
+      },
+      "examples": [
+        "De beoordelingssleutel werd voor het examen uitgereikt.",
+        "Volgens de beoordelingssleutel scoorde hij hoog."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "考试时分发了评分标准。",
+          "根据评分标准，他得分很高。"
+        ],
+        "english": [
+          "The marking scheme was distributed for the exam.",
+          "According to the grading key, he scored high."
+        ]
+      },
+      "notes": "复合名词，由beoordeling（评估）和sleutel（钥匙/标准）组成，教育术语",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5843,
+      "word": "bergafwaarts",
+      "translation": {
+        "chinese": "下山的，向下的",
+        "english": "downhill, downward"
+      },
+      "partOfSpeech": "adverb",
+      "examples": [
+        "Het pad gaat bergafwaarts.",
+        "Fietst u liever bergopwaarts of bergafwaarts?"
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这条路是下山的。",
+          "您更喜欢上坡还是下坡骑行？"
+        ],
+        "english": [
+          "The path goes downhill.",
+          "Do you prefer cycling uphill or downhill?"
+        ]
+      },
+      "notes": "副词，复合词由berg（山）和afwaarts（向下）组成，反义词是bergopwaarts",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5844,
+      "word": "beroepsgebonden",
+      "translation": {
+        "chinese": "职业相关的，与职业绑定的",
+        "english": "profession-related, occupation-specific"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beroepsgebonden",
+          "withDe": "beroepsgebondene",
+          "withHet": "beroepsgebonden",
+          "comparative": "meer beroepsgebonden",
+          "superlative": "meest beroepsgebonden"
+        }
+      },
+      "examples": [
+        "Het beroepsgebonden onderwijs is belangrijk.",
+        "Ze volgde een beroepsgebonden opleiding."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "职业相关的教育很重要。",
+          "她学习了职业相关的培训课程。"
+        ],
+        "english": [
+          "Profession-related education is important.",
+          "She followed an occupation-specific training."
+        ]
+      },
+      "notes": "复合形容词，由beroep（职业）和gebonden（绑定的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5845,
+      "word": "beroepsgroep",
+      "translation": {
+        "chinese": "职业群体，行业",
+        "english": "professional group, occupation"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "beroepsgroep",
+          "plural": "beroepsgroepen"
+        }
+      },
+      "examples": [
+        "Verschillende beroepsgroepen demonstreerden.",
+        "Deze beroepsgroep heeft specifieke eisen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "不同的职业群体进行了示威。",
+          "这个职业群体有特定的要求。"
+        ],
+        "english": [
+          "Different professional groups demonstrated.",
+          "This professional group has specific requirements."
+        ]
+      },
+      "notes": "复合名词，由beroep（职业）和groep（群体）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5846,
+      "word": "beroepsmatig",
+      "translation": {
+        "chinese": "职业的，专业的",
+        "english": "professional, occupational"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beroepsmatig",
+          "withDe": "beroepsmatige",
+          "withHet": "beroepsmatige",
+          "comparative": "meer beroepsmatig",
+          "superlative": "meest beroepsmatig"
+        }
+      },
+      "examples": [
+        "Hij heeft beroepsmatige ervaring in het buitenland.",
+        "Dit is een beroepsmatige activiteit."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他在国外有职业经验。",
+          "这是一个职业活动。"
+        ],
+        "english": [
+          "He has professional experience abroad.",
+          "This is a professional activity."
+        ]
+      },
+      "notes": "派生形容词，由beroep（职业）和后缀-matig组成，表示'以职业方式的'",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5847,
+      "word": "beroepsziekte",
+      "translation": {
+        "chinese": "职业病",
+        "english": "occupational disease"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "beroepsziekte",
+          "plural": "beroepsziekten"
+        }
+      },
+      "examples": [
+        "Asbestose is een bekende beroepsziekte.",
+        "De arbeidsinspectie onderzoekt beroepsziekten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "石棉沉着病是一种已知的职业病。",
+          "劳工监察部门调查职业病。"
+        ],
+        "english": [
+          "Asbestosis is a known occupational disease.",
+          "The labor inspectorate investigates occupational diseases."
+        ]
+      },
+      "notes": "复合名词，由beroep（职业）和ziekte（疾病）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5848,
+      "word": "beschikbaar stellen",
+      "translation": {
+        "chinese": "提供，使可用",
+        "english": "to make available, to provide"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "De bibliotheek stelt boeken beschikbaar.",
+        "Het bedrijf stelt financiële middelen beschikbaar."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "图书馆提供书籍。",
+          "公司提供资金。"
+        ],
+        "english": [
+          "The library makes books available.",
+          "The company provides financial resources."
+        ]
+      },
+      "notes": "固定短语，可分动词beschikbaar（可用的）+ stellen（放置），在主句中stellen位于句末",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5849,
+      "word": "beschuldigen",
+      "translation": {
+        "chinese": "指责，指控",
+        "english": "to accuse, to charge"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "beschuldigen",
+          "isSeparable": false,
+          "present": {
+            "ik": "beschuldig",
+            "jij": "beschuldigt",
+            "hij": "beschuldigt",
+            "wij": "beschuldigen",
+            "jullie": "beschuldigen",
+            "zij": "beschuldigen"
+          },
+          "past": {
+            "singular": "beschuldigde",
+            "plural": "beschuldigden"
+          },
+          "pastParticiple": "beschuldigd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ze beschuldigde hem van diefstal.",
+        "De politie beschuldigde de verdachte."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她指责他偷窃。",
+          "警方指控了嫌疑人。"
+        ],
+        "english": [
+          "She accused him of theft.",
+          "The police charged the suspect."
+        ]
+      },
+      "notes": "前缀be-加强语气，常与van连用表示'因...而指责'",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5850,
+      "word": "beschuldigend",
+      "translation": {
+        "chinese": "指责的，控诉的",
+        "english": "accusing, accusatory"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beschuldigend",
+          "withDe": "beschuldigende",
+          "withHet": "beschuldigende",
+          "comparative": "beschuldigender",
+          "superlative": "beschuldigendst"
+        }
+      },
+      "examples": [
+        "Ze keek hem met een beschuldigende blik aan.",
+        "Zijn beschuldigende toon viel verkeerd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她用指责的眼神看着他。",
+          "他指责的语气产生了不好的效果。"
+        ],
+        "english": [
+          "She looked at him with an accusing look.",
+          "His accusatory tone was received badly."
+        ]
+      },
+      "notes": "分词形容词，由动词beschuldigen的现在分词构成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5851,
+      "word": "beschuldiging",
+      "translation": {
+        "chinese": "指责，指控",
+        "english": "accusation, charge"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "beschuldiging",
+          "plural": "beschuldigingen"
+        }
+      },
+      "examples": [
+        "De beschuldiging bleek onterecht.",
+        "Hij ontkende de beschuldiging."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "指责证明是不公正的。",
+          "他否认了指控。"
+        ],
+        "english": [
+          "The accusation proved to be unfounded.",
+          "He denied the accusation."
+        ]
+      },
+      "notes": "派生名词，由动词beschuldigen转化而来",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5852,
+      "word": "besluiteloos",
+      "translation": {
+        "chinese": "优柔寡断的",
+        "english": "indecisive"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "besluiteloos",
+          "withDe": "besluiteloze",
+          "withHet": "besluiteloze",
+          "comparative": "besluitelozer",
+          "superlative": "besluiteloost"
+        }
+      },
+      "examples": [
+        "Hij is erg besluiteloos.",
+        "Ze was besluiteloos over wat ze moest doen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他很优柔寡断。",
+          "她不知道该怎么做，很犹豫。"
+        ],
+        "english": [
+          "He is very indecisive.",
+          "She was indecisive about what to do."
+        ]
+      },
+      "notes": "派生形容词，由besluit（决定）加后缀-loos（缺乏的）构成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5853,
+      "word": "bespottelijk",
+      "translation": {
+        "chinese": "可笑的，荒谬的",
+        "english": "ridiculous, laughable"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bespottelijk",
+          "withDe": "bespottelijke",
+          "withHet": "bespottelijke",
+          "comparative": "bespottelijker",
+          "superlative": "bespottelijkst"
+        }
+      },
+      "examples": [
+        "Zijn argument was bespottelijk.",
+        "Het idee was bespottelijk onrealistisch."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的论点很可笑。",
+          "这个想法荒谬得不切实际。"
+        ],
+        "english": [
+          "His argument was ridiculous.",
+          "The idea was laughably unrealistic."
+        ]
+      },
+      "notes": "派生形容词，由bespotten（嘲笑）加后缀-lijk构成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5854,
+      "word": "bestaansrecht",
+      "translation": {
+        "chinese": "存在权，生存权",
+        "english": "right to exist, right of existence"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "bestaansrecht",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het bestaansrecht van het bedrijf is onzeker.",
+        "De dieren hebben ook een bestaansrecht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这家公司的生存权不确定。",
+          "动物也有生存权。"
+        ],
+        "english": [
+          "The company's right to exist is uncertain.",
+          "Animals also have a right to exist."
+        ]
+      },
+      "notes": "复合名词，由bestaan（存在）和recht（权利）组成，抽象名词不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5855,
+      "word": "bestaanszekerheid",
+      "translation": {
+        "chinese": "生存保障，存在确定性",
+        "english": "existential security, certainty of existence"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bestaanszekerheid",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De bestaanszekerheid van de burgers is belangrijk.",
+        "Het beleid verbetert de bestaanszekerheid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公民的生存保障很重要。",
+          "这项政策改善了生存保障。"
+        ],
+        "english": [
+          "The existential security of citizens is important.",
+          "The policy improves existential security."
+        ]
+      },
+      "notes": "复合名词，由bestaan（存在）和zekerheid（确定性）组成，不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5856,
+      "word": "bestrijdingsmiddel",
+      "translation": {
+        "chinese": "防治药剂，斗争手段",
+        "english": "pesticide, control measure"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "bestrijdingsmiddel",
+          "plural": "bestrijdingsmiddelen"
+        }
+      },
+      "examples": [
+        "De boer gebruikte biologische bestrijdingsmiddelen.",
+        "Chemische bestrijdingsmiddelen kunnen schadelijk zijn."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "农民使用了生物防治药剂。",
+          "化学防治药剂可能有害。"
+        ],
+        "english": [
+          "The farmer used biological pesticides.",
+          "Chemical pesticides can be harmful."
+        ]
+      },
+      "notes": "复合名词，由bestrijding（防治/斗争）和middel（手段）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5857,
+      "word": "betekenisvol",
+      "translation": {
+        "chinese": "有意义的，重要的",
+        "english": "meaningful, significant"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "betekenisvol",
+          "withDe": "betekenisvolle",
+          "withHet": "betekenisvolle",
+          "comparative": "betekenisvoller",
+          "superlative": "betekenisvolst"
+        }
+      },
+      "examples": [
+        "Het was een betekenisvol moment.",
+        "Ze maakte een betekenisvolle bijdrage."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "那是一个有意义的时刻。",
+          "她做出了有意义的贡献。"
+        ],
+        "english": [
+          "It was a meaningful moment.",
+          "She made a significant contribution."
+        ]
+      },
+      "notes": "复合形容词，由betekenis（意义）和vol（充满的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5858,
+      "word": "betuttelingsgehalte",
+      "translation": {
+        "chinese": "说教成分，家长式管理程度",
+        "english": "patronizing level, paternalistic element"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "betuttelingsgehalte",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De regeling heeft een hoog betuttelingsgehalte.",
+        "Het betuttelingsgehalte van het beleid viel slecht."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这项规定有很高的说教成分。",
+          "这项政策的说教成分反响不好。"
+        ],
+        "english": [
+          "The regulation has a high level of paternalism.",
+          "The patronizing element of the policy was received badly."
+        ]
+      },
+      "notes": "复杂复合名词，由betutteling（说教/家长式管理）和gehalte（含量/程度）组成，抽象名词",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5859,
+      "word": "beursgenoteerd",
+      "translation": {
+        "chinese": "上市的，挂牌交易的",
+        "english": "listed, publicly traded"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "beursgenoteerd",
+          "withDe": "beursgenoteerde",
+          "withHet": "beursgenoteerde",
+          "comparative": "meer beursgenoteerd",
+          "superlative": "meest beursgenoteerd"
+        }
+      },
+      "examples": [
+        "Het is een beursgenoteerd bedrijf.",
+        "De beursgenoteerde aandelen stegen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一家上市公司。",
+          "上市股票上涨了。"
+        ],
+        "english": [
+          "It is a publicly traded company.",
+          "The listed shares rose."
+        ]
+      },
+      "notes": "分词形容词，由beurs（证券交易所）和genoteerd（挂牌/上市）组成，金融术语",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5860,
+      "word": "bewakingsbeelden",
+      "translation": {
+        "chinese": "监控录像",
+        "english": "surveillance footage, CCTV footage"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bewakingsbeeld",
+          "plural": "bewakingsbeelden"
+        }
+      },
+      "examples": [
+        "De politie onderzocht de bewakingsbeelden.",
+        "De bewakingsbeelden toonden de dader."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "警方调查了监控录像。",
+          "监控录像显示了肇事者。"
+        ],
+        "english": [
+          "The police investigated the surveillance footage.",
+          "The CCTV footage showed the perpetrator."
+        ]
+      },
+      "notes": "复合名词，由bewaking（监控）和beelden（图像）组成，复数形式更常用",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5861,
+      "word": "bewerkstellen",
+      "translation": {
+        "chinese": "促成，实现",
+        "english": "to bring about, to accomplish"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bewerkstellen",
+          "isSeparable": false,
+          "present": {
+            "ik": "bewerkstel",
+            "jij": "bewerkstelt",
+            "hij": "bewerkstelt",
+            "wij": "bewerkstellen",
+            "jullie": "bewerkstellen",
+            "zij": "bewerkstellen"
+          },
+          "past": {
+            "singular": "bewerkstelde",
+            "plural": "bewerkstelden"
+          },
+          "pastParticiple": "bewerkstelligd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij bewerkstelde de fusie tussen de bedrijven.",
+        "We moeten een oplossing bewerkstelligen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他促成了两家公司的合并。",
+          "我们需要实现一个解决方案。"
+        ],
+        "english": [
+          "He brought about the merger between the companies.",
+          "We need to bring about a solution."
+        ]
+      },
+      "notes": "前缀be-加强语气，正式用语，常用于促成变化或结果",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5862,
+      "word": "bewerkstelligen",
+      "translation": {
+        "chinese": "促成，实现",
+        "english": "to bring about, to accomplish, to realize"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bewerkstelligen",
+          "isSeparable": false,
+          "present": {
+            "ik": "bewerkstellig",
+            "jij": "bewerkstelligt",
+            "hij": "bewerkstelligt",
+            "wij": "bewerkstelligen",
+            "jullie": "bewerkstelligen",
+            "zij": "bewerkstelligen"
+          },
+          "past": {
+            "singular": "bewerkstelligde",
+            "plural": "bewerkstelligden"
+          },
+          "pastParticiple": "bewerkstelligd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "De regering wil veranderingen bewerkstelligen.",
+        "Samenwerking bewerkstelligt betere resultaten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "政府想要实现变革。",
+          "合作带来更好的结果。"
+        ],
+        "english": [
+          "The government wants to bring about changes.",
+          "Cooperation brings about better results."
+        ]
+      },
+      "notes": "bewerkstellen的变体，使用更频繁，正式用语",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5863,
+      "word": "bewerkstellingen",
+      "translation": {
+        "chinese": "成就，实现",
+        "english": "accomplishments, realizations"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bewerkstelling",
+          "plural": "bewerkstellingen"
+        }
+      },
+      "examples": [
+        "Zijn bewerkstellingen waren indrukwekkend.",
+        "De bewerkstellingen van het project werden geprezen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他的成就是令人印象深刻的。",
+          "该项目的成就受到了称赞。"
+        ],
+        "english": [
+          "His accomplishments were impressive.",
+          "The accomplishments of the project were praised."
+        ]
+      },
+      "notes": "派生名词，由动词bewerkstellen转化而来，常用于正式场合",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5864,
+      "word": "bewindspersoon",
+      "translation": {
+        "chinese": "政府官员，内阁部长",
+        "english": "government official, cabinet member"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bewindspersoon",
+          "plural": "bewindspersonen"
+        }
+      },
+      "examples": [
+        "De bewindspersoon gaf een persconferentie.",
+        "Diverse bewindspersonen spraken over het beleid."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "政府官员举行了新闻发布会。",
+          "多位政府官员就政策发表了讲话。"
+        ],
+        "english": [
+          "The government official gave a press conference.",
+          "Various cabinet members spoke about the policy."
+        ]
+      },
+      "notes": "复合名词，由bewind（政府/统治）和persoon（人）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5865,
+      "word": "bewustwording",
+      "translation": {
+        "chinese": "意识，觉醒",
+        "english": "awareness, consciousness"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bewustwording",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Er is meer bewustwording van milieuproblemen.",
+        "De campagne zorgde voor bewustwording."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "人们对环境问题有了更多的意识。",
+          "这场运动促进了觉醒。"
+        ],
+        "english": [
+          "There is more awareness of environmental problems.",
+          "The campaign created awareness."
+        ]
+      },
+      "notes": "抽象名词，由bewust（有意识的）和wording（形成）组成，不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5866,
+      "word": "bezienswaardig",
+      "translation": {
+        "chinese": "值得参观的",
+        "english": "worth seeing, sightworthy"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bezienswaardig",
+          "withDe": "bezienswaardige",
+          "withHet": "bezienswaardige",
+          "comparative": "bezienswaardiger",
+          "superlative": "bezienswaardigst"
+        }
+      },
+      "examples": [
+        "De stad heeft veel bezienswaardige gebouwen.",
+        "Dit museum is absoluut bezienswaardig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这座城市有很多值得参观的建筑。",
+          "这家博物馆绝对值得一看。"
+        ],
+        "english": [
+          "The city has many worth-seeing buildings.",
+          "This museum is absolutely worth seeing."
+        ]
+      },
+      "notes": "复合形容词，由bezien（观看）和waardig（值得的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5867,
+      "word": "bezwaar maken",
+      "translation": {
+        "chinese": "提出异议，反对",
+        "english": "to object, to raise an objection"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Hij maakte bezwaar tegen het besluit.",
+        "We maken bezwaar tegen deze maatregel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他对这个决定提出了异议。",
+          "我们反对这项措施。"
+        ],
+        "english": [
+          "He objected to the decision.",
+          "We object to this measure."
+        ]
+      },
+      "notes": "固定短语，可分动词bezwaar（异议）+ maken（提出），常与tegen连用",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5868,
+      "word": "bij de nullijn staan",
+      "translation": {
+        "chinese": "处于零度，处于起步状态",
+        "english": "to be at ground zero, to be at the starting point"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "De temperatuur staat bij de nullijn.",
+        "Met het project staan we nu bij de nullijn."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "温度处于零度。",
+          "现在这个项目处于起步状态。"
+        ],
+        "english": [
+          "The temperature is at zero degrees.",
+          "With the project, we are now at the starting point."
+        ]
+      },
+      "notes": "固定短语，字面意思是'在零线处'，常用于天气或比喻起始点",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5869,
+      "word": "bij komen kijken",
+      "translation": {
+        "chinese": "顺便来看看",
+        "english": "to drop by, to come and have a look"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Kom je ook even bij komen kijken?",
+        "Zij kwamen gisteren bij ons komen kijken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "你也顺便来看看吗？",
+          "他们昨天顺便来看看我们。"
+        ],
+        "english": [
+          "Will you also drop by?",
+          "They dropped by yesterday to see us."
+        ]
+      },
+      "notes": "固定短语，可分动词，表示非正式的访问",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5870,
+      "word": "bij tijd en wijle",
+      "translation": {
+        "chinese": "有时，偶尔",
+        "english": "now and then, occasionally"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Ik ga bij tijd en wijle naar de bioscoop.",
+        "Bij tijd en wijle gebeurt er iets onverwachts."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我有时会去看电影。",
+          "偶尔会发生一些意想不到的事情。"
+        ],
+        "english": [
+          "I go to the cinema now and then.",
+          "Occasionally something unexpected happens."
+        ]
+      },
+      "notes": "固定短语，书面语，表示间歇性的活动",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5871,
+      "word": "bij voorbaat",
+      "translation": {
+        "chinese": "提前，预先",
+        "english": "in advance, beforehand"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Ik dank u bij voorbaat voor uw hulp.",
+        "Hij was bij voorbaat sceptisch."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "我提前感谢您的帮助。",
+          "他预先就表示怀疑。"
+        ],
+        "english": [
+          "I thank you in advance for your help.",
+          "He was skeptical beforehand."
+        ]
+      },
+      "notes": "固定副词短语，用于表示提前做出的行为或态度",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5872,
+      "word": "bij wijze van spreken",
+      "translation": {
+        "chinese": "打个比方说，可以说是",
+        "english": "so to speak, as it were"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Hij is, bij wijze van spreken, een genie.",
+        "Het is, bij wijze van spreken, een oneindige cirkel."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "可以说是，他是个天才。",
+          "打个比方说，这是一个无限循环。"
+        ],
+        "english": [
+          "He is, so to speak, a genius.",
+          "It is, as it were, an infinite circle."
+        ]
+      },
+      "notes": "固定短语，插入语，用于表示比喻或非字面意思",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5873,
+      "word": "bijblijven op",
+      "translation": {
+        "chinese": "跟上，跟上...的步伐",
+        "english": "to keep up with, to stay up to date with"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Het is moeilijk om bij te blijven op het gebied van technologie.",
+        "Ze probeert bij te blijven op de actualiteiten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "很难跟上技术领域的步伐。",
+          "她试图跟上时事。"
+        ],
+        "english": [
+          "It is hard to keep up with technology.",
+          "She tries to stay up to date with current events."
+        ]
+      },
+      "notes": "固定短语，可分动词，常与领域名词连用",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5874,
+      "word": "bijschoolingsactiviteit",
+      "translation": {
+        "chinese": "进修活动，培训活动",
+        "english": "training activity, further education activity"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bijschoolingsactiviteit",
+          "plural": "bijschoolingsactiviteiten"
+        }
+      },
+      "examples": [
+        "Het bedrijf organiseert bijschoolingsactiviteiten.",
+        "De bijschoolingsactiviteit duurde drie dagen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公司组织进修活动。",
+          "这次培训活动持续了三天。"
+        ],
+        "english": [
+          "The company organizes training activities.",
+          "The training activity lasted three days."
+        ]
+      },
+      "notes": "复杂复合名词，由bijscholing（进修）和activiteit（活动）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5875,
+      "word": "bijspijkercursus",
+      "translation": {
+        "chinese": "进修课程，补习课程",
+        "english": "refresher course, supplementary course"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bijspijkercursus",
+          "plural": "bijspijkercursussen"
+        }
+      },
+      "examples": [
+        "Zij volgt een bijspijkercursus Engels.",
+        "De bijspijkercursus was erg nuttig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她在学习英语进修课程。",
+          "这次进修课程非常有用。"
+        ],
+        "english": [
+          "She is taking a refresher course in English.",
+          "The refresher course was very useful."
+        ]
+      },
+      "notes": "复合名词，由bijspijkeren（补充/进修）和cursus（课程）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5876,
+      "word": "bijspijkeren",
+      "translation": {
+        "chinese": "进修，补充知识",
+        "english": "to refresh, to brush up on"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bijspijkeren",
+          "isSeparable": false,
+          "present": {
+            "ik": "bijspijker",
+            "jij": "bijspijkert",
+            "hij": "bijspijkert",
+            "wij": "bijspijkeren",
+            "jullie": "bijspijkeren",
+            "zij": "bijspijkeren"
+          },
+          "past": {
+            "singular": "bijspijkerde",
+            "plural": "bijspijkerden"
+          },
+          "pastParticiple": "bijgespijkerd",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij wil zijn kennis bijspijkeren.",
+        "Ik moet mijn Engels bijspijkeren."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他想补充他的知识。",
+          "我需要补习英语。"
+        ],
+        "english": [
+          "He wants to refresh his knowledge.",
+          "I need to brush up on my English."
+        ]
+      },
+      "notes": "复合动词，由bij（补充）和spijkeren（钉/加强）构成，教育术语",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5877,
+      "word": "bijverdienen",
+      "translation": {
+        "chinese": "兼职赚钱，额外收入",
+        "english": "to earn extra, to have a side job"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "bijverdienen",
+          "isSeparable": true,
+          "prefix": "bij",
+          "present": {
+            "ik": "verdien bij",
+            "jij": "verdiend bij",
+            "hij": "verdiend bij",
+            "wij": "verdienen bij",
+            "jullie": "verdienen bij",
+            "zij": "verdienen bij"
+          },
+          "past": {
+            "singular": "verdiende bij",
+            "plural": "verdienden bij"
+          },
+          "pastParticiple": "bijverdiend",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Ze verdient bij als toeristengids.",
+        "Hij werkt 's avonds bij bijverdienen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她兼职做导游赚钱。",
+          "他晚上做兼职赚钱。"
+        ],
+        "english": [
+          "She earns extra as a tourist guide.",
+          "He works evenings to earn extra."
+        ]
+      },
+      "notes": "可分动词，前缀bij-表示'额外'或'补充'",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5878,
+      "word": "binnenslepen",
+      "translation": {
+        "chinese": "偷偷带进，溜进",
+        "english": "to sneak in, to slip in"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "binnenslepen",
+          "isSeparable": true,
+          "prefix": "binnen",
+          "present": {
+            "ik": "sleep binnen",
+            "jij": "sleept binnen",
+            "hij": "sleept binnen",
+            "wij": "slepen binnen",
+            "jullie": "slepen binnen",
+            "zij": "slepen binnen"
+          },
+          "past": {
+            "singular": "sleepte binnen",
+            "plural": "sleepten binnen"
+          },
+          "pastParticiple": "binnengeslept",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij sloop het huis binnen.",
+        "Ze sleepten de honden het huis binnen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他偷偷溜进屋里。",
+          "他们把狗偷偷带进屋。"
+        ],
+        "english": [
+          "He sneaked into the house.",
+          "They slipped the dogs into the house."
+        ]
+      },
+      "notes": "可分动词，由binnen（里面）和slepen（拖/滑）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5879,
+      "word": "binnenvallen",
+      "translation": {
+        "chinese": "闯入，入侵",
+        "english": "to invade, to break in"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "binnenvallen",
+          "isSeparable": true,
+          "prefix": "binnen",
+          "present": {
+            "ik": "val binnen",
+            "jij": "valt binnen",
+            "hij": "valt binnen",
+            "wij": "vallen binnen",
+            "jullie": "vallen binnen",
+            "zij": "vallen binnen"
+          },
+          "past": {
+            "singular": "viel binnen",
+            "plural": "vielen binnen"
+          },
+          "pastParticiple": "binnengevallen",
+          "pastParticipleAuxiliary": "zijn"
+        }
+      },
+      "examples": [
+        "De inbrekers vielen het huis binnen.",
+        "Het leger viel het buurland binnen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "窃贼闯进了房子。",
+          "军队入侵了邻国。"
+        ],
+        "english": [
+          "The burglars broke into the house.",
+          "The army invaded the neighboring country."
+        ]
+      },
+      "notes": "可分动词，不规则动词vallen（落下/攻占），过去分词用zijn",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5880,
+      "word": "blindegeleidehond",
+      "translation": {
+        "chinese": "导盲犬",
+        "english": "guide dog for the blind"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "blindegeleidehond",
+          "plural": "blindegeleidehonden"
+        }
+      },
+      "examples": [
+        "De blindegeleidehond helpt zijn baasje.",
+        "Een blindegeleidehond is getraind om blinden te begeleiden."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "导盲犬帮助它的主人。",
+          "导盲犬受过训练来引导盲人。"
+        ],
+        "english": [
+          "The guide dog helps its owner.",
+          "A guide dog is trained to guide the blind."
+        ]
+      },
+      "notes": "复杂复合名词，拼写变异形式，标准形式为blindengeleidehond",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5881,
+      "word": "blindengeleidehond",
+      "translation": {
+        "chinese": "导盲犬",
+        "english": "guide dog"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "blindengeleidehond",
+          "plural": "blindengeleidehonden"
+        }
+      },
+      "examples": [
+        "De blindengeleidehond staat klaar om te helpen.",
+        "Ze kregen een blindengeleidehond van de organisatie."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "导盲犬准备提供帮助。",
+          "他们从组织那里获得了一只导盲犬。"
+        ],
+        "english": [
+          "The guide dog is ready to help.",
+          "They received a guide dog from the organization."
+        ]
+      },
+      "notes": "标准复合名词，由blinden（盲人）和geleidehond（导盲犬）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5882,
+      "word": "bloemschikken",
+      "translation": {
+        "chinese": "插花艺术，花艺",
+        "english": "flower arranging, floristry"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "bloemschikken",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Ze doet aan bloemschikken.",
+        "Bloemschikken is een kunstvorm."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她从事插花艺术。",
+          "插花是一门艺术形式。"
+        ],
+        "english": [
+          "She does flower arranging.",
+          "Flower arranging is an art form."
+        ]
+      },
+      "notes": "复合名词，由bloem（花）和schikken（排列）组成，不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5883,
+      "word": "blootstellen",
+      "translation": {
+        "chinese": "暴露，使暴露于",
+        "english": "to expose, to subject to"
+      },
+      "partOfSpeech": "verb",
+      "forms": {
+        "verb": {
+          "infinitive": "blootstellen",
+          "isSeparable": true,
+          "prefix": "bloot",
+          "present": {
+            "ik": "stel bloot",
+            "jij": "stelt bloot",
+            "hij": "stelt bloot",
+            "wij": "stellen bloot",
+            "jullie": "stellen bloot",
+            "zij": "stellen bloot"
+          },
+          "past": {
+            "singular": "stelde bloot",
+            "plural": "stelden bloot"
+          },
+          "pastParticiple": "blootgesteld",
+          "pastParticipleAuxiliary": "hebben"
+        }
+      },
+      "examples": [
+        "Hij stelde zichzelf bloot aan het gevaar.",
+        "De planten werden blootgesteld aan de zon."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他使自己暴露在危险中。",
+          "植物暴露在阳光下。"
+        ],
+        "english": [
+          "He exposed himself to danger.",
+          "The plants were exposed to the sun."
+        ]
+      },
+      "notes": "可分动词，常与aan连用表示'暴露于...'",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5884,
+      "word": "blootstelling",
+      "translation": {
+        "chinese": "暴露，接触",
+        "english": "exposure"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "blootstelling",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Blootstelling aan zonlicht is gezond.",
+        "Langdurige blootstelling aan gif is gevaarlijk."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "接触阳光是健康的。",
+          "长期暴露在毒药中是危险的。"
+        ],
+        "english": [
+          "Exposure to sunlight is healthy.",
+          "Prolonged exposure to poison is dangerous."
+        ]
+      },
+      "notes": "抽象名词，由动词blootstellen转化而来，不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5885,
+      "word": "boekhouding bijhouden",
+      "translation": {
+        "chinese": "记账，做账",
+        "english": "to keep accounts, to do bookkeeping"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Hij houdt de boekhouding bij.",
+        "Het bedrijf houdt nauwkeurig de boekhouding bij."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他负责记账。",
+          "公司准确地进行记账。"
+        ],
+        "english": [
+          "He keeps the accounts.",
+          "The company keeps accurate bookkeeping records."
+        ]
+      },
+      "notes": "固定短语，可分动词boekhouding（记账）+ bijhouden（保持/记录）",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5886,
+      "word": "boerenbedrijf",
+      "translation": {
+        "chinese": "农场，农业企业",
+        "english": "farm, agricultural business"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "boerenbedrijf",
+          "plural": "boerenbedrijven"
+        }
+      },
+      "examples": [
+        "Het boerenbedrijf is overgenomen door de zoon.",
+        "Het boerenbedrijf produceert biologische groenten."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "农场被儿子接手了。",
+          "这家农场生产有机蔬菜。"
+        ],
+        "english": [
+          "The farm was taken over by the son.",
+          "The agricultural business produces organic vegetables."
+        ]
+      },
+      "notes": "复合名词，由boer（农民）和bedrijf（企业）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5887,
+      "word": "bommenwerper",
+      "translation": {
+        "chinese": "轰炸机",
+        "english": "bomber"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bommenwerper",
+          "plural": "bommenwerpers"
+        }
+      },
+      "examples": [
+        "De bommenwerper voerde een aanval uit.",
+        "Tijdens de oorlog werden veel bommenwerpers gebruikt."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "轰炸机进行了攻击。",
+          "战争期间使用了很多轰炸机。"
+        ],
+        "english": [
+          "The bomber carried out an attack.",
+          "Many bombers were used during the war."
+        ]
+      },
+      "notes": "复合名词，由bom（炸弹）和werper（投掷者）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5888,
+      "word": "bontgekleurd",
+      "translation": {
+        "chinese": "彩色的，色彩丰富的",
+        "english": "colorful, multi-colored"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bontgekleurd",
+          "withDe": "bontgekleurde",
+          "withHet": "bontgekleurde",
+          "comparative": "bontgekleurder",
+          "superlative": "bontgekleurdst"
+        }
+      },
+      "examples": [
+        "Ze droeg een bontgekleurde jurk.",
+        "De bontgekleurde vogels fleurden de tuin op."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "她穿了一件彩色的连衣裙。",
+          "色彩丰富的鸟儿让花园变得生动。"
+        ],
+        "english": [
+          "She wore a colorful dress.",
+          "The colorful birds brightened up the garden."
+        ]
+      },
+      "notes": "复合形容词，由bont（斑驳/丰富）和gekleurd（彩色的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5890,
+      "word": "bovenbouwles",
+      "translation": {
+        "chinese": "高级课程，高年级课程",
+        "english": "upper grade lesson, advanced course"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "bovenbouwles",
+          "plural": "bovenbouwlessen"
+        }
+      },
+      "examples": [
+        "De bovenbouwles behandelt complexe onderwerpen.",
+        "Leerlingen in de bovenbouw lessen al meer vakken."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "高级课程涉及复杂的主题。",
+          "高年级学生已经学习更多科目。"
+        ],
+        "english": [
+          "The advanced course covers complex subjects.",
+          "Upper grade students already study more subjects."
+        ]
+      },
+      "notes": "教育术语，由bovenbouw（上层建筑/高年级）和les（课程）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5891,
+      "word": "bovengenoemd",
+      "translation": {
+        "chinese": "上述的，上面提到的",
+        "english": "above-mentioned, aforementioned"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "bovengenoemd",
+          "withDe": "bovengenoemde",
+          "withHet": "bovengenoemde",
+          "comparative": "meer bovengenoemd",
+          "superlative": "meest bovengenoemd"
+        }
+      },
+      "examples": [
+        "Het bovengenoemde punt is belangrijk.",
+        "De bovengenoemde personen werden uitgenodigd."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "上述观点很重要。",
+          "上述人员被邀请了。"
+        ],
+        "english": [
+          "The above-mentioned point is important.",
+          "The aforementioned persons were invited."
+        ]
+      },
+      "notes": "正式形容词，由boven（上）和genoemd（提到的）组成，常用于正式文件",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5892,
+      "word": "brandblusser",
+      "translation": {
+        "chinese": "灭火器",
+        "english": "fire extinguisher"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "brandblusser",
+          "plural": "brandblussers"
+        }
+      },
+      "examples": [
+        "De brandblusser hing aan de muur.",
+        "We hebben een nieuwe brandblusser nodig."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "灭火器挂在墙上。",
+          "我们需要一个新的灭火器。"
+        ],
+        "english": [
+          "The fire extinguisher was hanging on the wall.",
+          "We need a new fire extinguisher."
+        ]
+      },
+      "notes": "复合名词，由brand（火）和blusser（灭火器）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5893,
+      "word": "brandstichting",
+      "translation": {
+        "chinese": "纵火",
+        "english": "arson"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "brandstichting",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "De politie verdacht hem van brandstichting.",
+        "Brandstichting is een ernstig misdrijf."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "警方怀疑他纵火。",
+          "纵火是严重的犯罪。"
+        ],
+        "english": [
+          "The police suspected him of arson.",
+          "Arson is a serious crime."
+        ]
+      },
+      "notes": "法律术语，由brand（火）和stichting（建立/引起）组成，不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5894,
+      "word": "broeikaseffect",
+      "translation": {
+        "chinese": "温室效应",
+        "english": "greenhouse effect"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "broeikaseffect",
+          "plural": "-"
+        }
+      },
+      "examples": [
+        "Het broeikaseffect wordt veroorzaakt door CO2.",
+        "Het broeikaseffect versnelt de klimaatverandering."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "温室效应是由二氧化碳引起的。",
+          "温室效应加速了气候变化。"
+        ],
+        "english": [
+          "The greenhouse effect is caused by CO2.",
+          "The greenhouse effect accelerates climate change."
+        ]
+      },
+      "notes": "科学术语，由broeikas（温室）和effect（效应）组成，不可数",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5895,
+      "word": "brooddronken",
+      "translation": {
+        "chinese": "酒鬼，醉生梦死的",
+        "english": "drunk, drunken"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "brooddronken",
+          "withDe": "brooddronken",
+          "withHet": "brooddronken",
+          "comparative": "brooddronkener",
+          "superlative": "brooddronkenst"
+        }
+      },
+      "examples": [
+        "Hij kwam brooddronken thuis.",
+        "De brooddronken man liep wankelend."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他醉醺醺地回到家。",
+          "那个醉汉摇摇晃晃地走着。"
+        ],
+        "english": [
+          "He came home drunk.",
+          "The drunken man walked unsteadily."
+        ]
+      },
+      "notes": "复合形容词，由brood（面包/生计）和dronken（喝醉的）组成，口语表达",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5896,
+      "word": "buitengerechtelijk",
+      "translation": {
+        "chinese": "庭外的，非法院的",
+        "english": "extrajudicial, out of court"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "buitengerechtelijk",
+          "withDe": "buitengerechtelijke",
+          "withHet": "buitengerechtelijke",
+          "comparative": "meer buitengerechtelijk",
+          "superlative": "meest buitengerechtelijk"
+        }
+      },
+      "examples": [
+        "Ze kwamen tot een buitengerechtelijke schikking.",
+        "De buitengerechtelijke procedure was sneller."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他们达成了庭外和解。",
+          "非法院程序更快。"
+        ],
+        "english": [
+          "They reached an out-of-court settlement.",
+          "The extrajudicial procedure was faster."
+        ]
+      },
+      "notes": "法律术语，由buiten（外）和gerechtelijk（法院的）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5897,
+      "word": "buitengewoon",
+      "translation": {
+        "chinese": "特别的，非常的",
+        "english": "extraordinary, exceptional"
+      },
+      "partOfSpeech": "adjective",
+      "forms": {
+        "adjective": {
+          "base": "buitengewoon",
+          "withDe": "buitengewone",
+          "withHet": "buitengewone",
+          "comparative": "buitengewoner",
+          "superlative": "buitengewoonst"
+        }
+      },
+      "examples": [
+        "Het was een buitengewoon prestatie.",
+        "Zij is een buitengewoon getalenteerde artiest."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "这是一项非凡的成就。",
+          "她是一位特别有天赋的艺术家。"
+        ],
+        "english": [
+          "It was an extraordinary achievement.",
+          "She is an exceptionally talented artist."
+        ]
+      },
+      "notes": "复合形容词，由buiten（外）和gewoon（普通的）组成，作副词使用时表示'非常'",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5899,
+      "word": "buitenstaander",
+      "translation": {
+        "chinese": "局外人，外部人士",
+        "english": "outsider, non-member"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "buitenstaander",
+          "plural": "buitenstaanders"
+        }
+      },
+      "examples": [
+        "Hij voelde zich als een buitenstaander.",
+        "Voor buitenstaanders is het moeilijk te begrijpen."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "他感到自己像个局外人。",
+          "对局外人来说很难理解。"
+        ],
+        "english": [
+          "He felt like an outsider.",
+          "For outsiders it is difficult to understand."
+        ]
+      },
+      "notes": "复合名词，由buiten（外）和staander（站立者）组成",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5900,
+      "word": "burgelijke staat",
+      "translation": {
+        "chinese": "婚姻状况",
+        "english": "marital status"
+      },
+      "partOfSpeech": "phrase",
+      "examples": [
+        "Vul uw burgelijke staat in op het formulier.",
+        "Hun burgelijke staat is ongewijzigd gebleven."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "请在表格上填写您的婚姻状况。",
+          "他们的婚姻状况保持不变。"
+        ],
+        "english": [
+          "Fill in your marital status on the form.",
+          "Their marital status remained unchanged."
+        ]
+      },
+      "notes": "固定短语，行政术语，常用于表格和正式文件",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5902,
+      "word": "burgerservicenummer",
+      "translation": {
+        "chinese": "公民服务号",
+        "english": "citizen service number, BSN"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "het",
+          "singular": "burgerservicenummer",
+          "plural": "burgerservicenummers"
+        }
+      },
+      "examples": [
+        "Hebt u uw burgerservicenummer bij u?",
+        "Het burgerservicenummer is uniek voor elke burger."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "您带公民服务号了吗？",
+          "每个公民的公民服务号是唯一的。"
+        ],
+        "english": [
+          "Do you have your citizen service number with you?",
+          "The BSN is unique for each citizen."
+        ]
+      },
+      "notes": "荷兰行政术语，BSN是每个荷兰公民的唯一个人识别号码",
+      "difficulty": "C1"
+    },
+    {
+      "id": 5903,
+      "word": "buschauffeur",
+      "translation": {
+        "chinese": "公交车司机",
+        "english": "bus driver"
+      },
+      "partOfSpeech": "noun",
+      "forms": {
+        "noun": {
+          "article": "de",
+          "singular": "buschauffeur",
+          "plural": "buschauffeurs"
+        }
+      },
+      "examples": [
+        "De buschauffeur stopte bij de halte.",
+        "De buschauffeur groette de passagiers."
+      ],
+      "exampleTranslations": {
+        "chinese": [
+          "公交车司机在站点停了车。",
+          "公交车司机向乘客打招呼。"
+        ],
+        "english": [
+          "The bus driver stopped at the stop.",
+          "The bus driver greeted the passengers."
+        ]
+      },
+      "notes": "职业名词，由bus（公交车）和chauffeur（司机）组成",
+      "difficulty": "C1"
+    }
+  ],
+  "wordIds": [
+    5815,
+    5816,
+    5817,
+    5818,
+    5819,
+    5820,
+    5821,
+    5822,
+    5823,
+    5824,
+    5827,
+    5828,
+    5829,
+    5830,
+    5831,
+    5832,
+    5833,
+    5835,
+    5836,
+    5837,
+    5838,
+    5839,
+    5840,
+    5841,
+    5842,
+    5843,
+    5844,
+    5845,
+    5846,
+    5847,
+    5848,
+    5849,
+    5850,
+    5851,
+    5852,
+    5853,
+    5854,
+    5855,
+    5856,
+    5857,
+    5858,
+    5859,
+    5860,
+    5861,
+    5862,
+    5863,
+    5864,
+    5865,
+    5866,
+    5867,
+    5868,
+    5869,
+    5870,
+    5871,
+    5872,
+    5873,
+    5874,
+    5875,
+    5876,
+    5877,
+    5878,
+    5879,
+    5880,
+    5881,
+    5882,
+    5883,
+    5884,
+    5885,
+    5886,
+    5887,
+    5888,
+    5890,
+    5891,
+    5892,
+    5893,
+    5894,
+    5895,
+    5896,
+    5897,
+    5899,
+    5900,
+    5902,
+    5903
+  ]
+}
