@@ -42,13 +42,11 @@ export default function TestSelectionPage({ languageMode }: TestSelectionPagePro
   const [timeLimit, setTimeLimit] = useState(0)
   const [isPremium, setIsPremium] = useState(false)
   const [showPremiumModal, setShowPremiumModal] = useState(false)
-  const [user, setUser] = useState<User | null>(null)
 
   useEffect(() => {
     const checkUser = async () => {
       const { data: { session } } = await supabase.auth.getSession()
       if (session) {
-        setUser(session.user)
         const premium = await isPremiumUser(session.user.id)
         setIsPremium(premium)
       }
@@ -56,7 +54,6 @@ export default function TestSelectionPage({ languageMode }: TestSelectionPagePro
     checkUser()
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event, session) => {
-      setUser(session?.user || null)
       if (session?.user) {
         const premium = await isPremiumUser(session.user.id)
         setIsPremium(premium)

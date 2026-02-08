@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { User } from '@supabase/supabase-js'
 import type { Word, DifficultyLevel } from '../data/words'
@@ -323,7 +323,10 @@ export default function TestPage({ languageMode }: TestPageProps) {
       setTimeRemaining(prev => {
         if (prev <= 1) {
           // 时间到，自动跳过
-          markAsSkipped()
+          const wordToSkip = testWords[currentIndex]
+          if (wordToSkip) {
+            markAsSkipped(wordToSkip)
+          }
           return timeLimit
         }
         return prev - 1
@@ -331,14 +334,14 @@ export default function TestPage({ languageMode }: TestPageProps) {
     }, 1000)
 
     return () => clearInterval(timer)
-  }, [currentIndex, timeLimit, testWords.length, testComplete, showResult])
+  }, [currentIndex, timeLimit, testWords, testComplete, showResult, markAsSkipped])
 
   // 自动开始测试
   useEffect(() => {
     if (testWords.length === 0 && !testComplete) {
       startTest()
     }
-  }, [])
+  }, [testWords.length, testComplete, startTest])
 
   // 生成选项（包含正确答案和3个错误答案）
   // 优先选择与考察单词相同词性的迷惑项，除非单词不够
@@ -491,28 +494,28 @@ export default function TestPage({ languageMode }: TestPageProps) {
     setShowResult(true)
   }
 
-  // 标记为跳过（点击下一题按钮时）
-  const markAsSkipped = async () => {
+  // 标记为跳过（点击下一题按钮时或超时）
+  const markAsSkipped = useCallback(async (wordToSkip: Word) => {
     const isCorrect = false
     setUserAnswer('skipped')
     // 记录错误答案（跳过）
     setWrongAnswers(prev => [...prev, {
-      word: currentWord,
+      word: wordToSkip,
       userChoice: 'skipped',
-      correctWord: currentWord
+      correctWord: wordToSkip
     }])
     // 更新测试统计
     try {
       if (user) {
         // 登录用户：更新 Supabase
-        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, currentWord.id, isCorrect, currentWord.stats)
+        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, wordToSkip.id, isCorrect, wordToSkip.stats)
         console.log(`跳过题目，自动计算熟悉程度: ${calculatedFamiliarity}`)
       } else {
         // 本地用户：更新 localStorage
         const localStorageData = safeLocalStorage.getItem('nl-words')
         if (localStorageData) {
           const localWords: Word[] = JSON.parse(localStorageData)
-          const wordIndex = localWords.findIndex(w => w.id === currentWord.id)
+          const wordIndex = localWords.findIndex(w => w.id === wordToSkip.id)
           if (wordIndex !== -1) {
             const currentStats = localWords[wordIndex].stats
             const updatedStats = {
@@ -541,7 +544,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
       console.error('跳过题目失败:', error)
     }
     setShowResult(true)
-  }
+  }, [user])
 
   // 下一题
   const nextQuestion = () => {
@@ -880,7 +883,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
           <button
             className={`btn btn-lg ${showResult ? 'btn-primary' : 'btn-outline'}`}
             style={{ flex: 1 }}
-            onClick={() => !showResult ? markAsSkipped() : nextQuestion()}
+            onClick={() => !showResult && currentWord ? markAsSkipped(currentWord) : nextQuestion()}
           >
             {t.nextQuestion}
           </button>
