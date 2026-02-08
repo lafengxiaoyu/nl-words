@@ -304,6 +304,58 @@ export default function TestPage({ languageMode }: TestPageProps) {
     window.speechSynthesis.speak(utterance)
   }
 
+  // 标记为跳过（点击下一题按钮时或超时）
+  const markAsSkipped = useCallback(async (wordToSkip: Word) => {
+    const isCorrect = false
+    setUserAnswer('skipped')
+    // 记录错误答案（跳过）
+    setWrongAnswers(prev => [...prev, {
+      word: wordToSkip,
+      userChoice: 'skipped',
+      correctWord: wordToSkip
+    }])
+    // 更新测试统计
+    try {
+      if (user) {
+        // 登录用户：更新 Supabase
+        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, wordToSkip.id, isCorrect, wordToSkip.stats)
+        console.log(`跳过题目，自动计算熟悉程度: ${calculatedFamiliarity}`)
+      } else {
+        // 本地用户：更新 localStorage
+        const localStorageData = safeLocalStorage.getItem('nl-words')
+        if (localStorageData) {
+          const localWords: Word[] = JSON.parse(localStorageData)
+          const wordIndex = localWords.findIndex(w => w.id === wordToSkip.id)
+          if (wordIndex !== -1) {
+            const currentStats = localWords[wordIndex].stats
+            const updatedStats = {
+              viewCount: currentStats?.viewCount || 0,
+              masteredCount: currentStats?.masteredCount || 0,
+              unmasteredCount: currentStats?.unmasteredCount || 0,
+              testCount: (currentStats?.testCount || 0) + 1,
+              testCorrectCount: currentStats?.testCorrectCount || 0,
+              testWrongCount: (currentStats?.testWrongCount || 0) + 1,
+              lastViewedAt: currentStats?.lastViewedAt,
+              lastTestedAt: new Date().toISOString(),
+            }
+            // 自动计算熟悉程度
+            const calculatedFamiliarity = calculateFamiliarity(undefined, updatedStats)
+            console.log(`跳过题目，自动计算熟悉程度: ${calculatedFamiliarity}`)
+            localWords[wordIndex] = {
+              ...localWords[wordIndex],
+              stats: updatedStats,
+              familiarity: calculatedFamiliarity
+            }
+            safeLocalStorage.setItem('nl-words', JSON.stringify(localWords))
+          }
+        }
+      }
+    } catch (error) {
+      console.error('跳过题目失败:', error)
+    }
+    setShowResult(true)
+  }, [user])
+
   // 每题倒计时
   useEffect(() => {
     // 只有当有时间限制且测试正在进行时才运行
@@ -493,58 +545,6 @@ export default function TestPage({ languageMode }: TestPageProps) {
     }
     setShowResult(true)
   }
-
-  // 标记为跳过（点击下一题按钮时或超时）
-  const markAsSkipped = useCallback(async (wordToSkip: Word) => {
-    const isCorrect = false
-    setUserAnswer('skipped')
-    // 记录错误答案（跳过）
-    setWrongAnswers(prev => [...prev, {
-      word: wordToSkip,
-      userChoice: 'skipped',
-      correctWord: wordToSkip
-    }])
-    // 更新测试统计
-    try {
-      if (user) {
-        // 登录用户：更新 Supabase
-        const { familiarity: calculatedFamiliarity } = await updateTestStats(user.id, wordToSkip.id, isCorrect, wordToSkip.stats)
-        console.log(`跳过题目，自动计算熟悉程度: ${calculatedFamiliarity}`)
-      } else {
-        // 本地用户：更新 localStorage
-        const localStorageData = safeLocalStorage.getItem('nl-words')
-        if (localStorageData) {
-          const localWords: Word[] = JSON.parse(localStorageData)
-          const wordIndex = localWords.findIndex(w => w.id === wordToSkip.id)
-          if (wordIndex !== -1) {
-            const currentStats = localWords[wordIndex].stats
-            const updatedStats = {
-              viewCount: currentStats?.viewCount || 0,
-              masteredCount: currentStats?.masteredCount || 0,
-              unmasteredCount: currentStats?.unmasteredCount || 0,
-              testCount: (currentStats?.testCount || 0) + 1,
-              testCorrectCount: currentStats?.testCorrectCount || 0,
-              testWrongCount: (currentStats?.testWrongCount || 0) + 1,
-              lastViewedAt: currentStats?.lastViewedAt,
-              lastTestedAt: new Date().toISOString(),
-            }
-            // 自动计算熟悉程度
-            const calculatedFamiliarity = calculateFamiliarity(undefined, updatedStats)
-            console.log(`跳过题目，自动计算熟悉程度: ${calculatedFamiliarity}`)
-            localWords[wordIndex] = {
-              ...localWords[wordIndex],
-              stats: updatedStats,
-              familiarity: calculatedFamiliarity
-            }
-            safeLocalStorage.setItem('nl-words', JSON.stringify(localWords))
-          }
-        }
-      }
-    } catch (error) {
-      console.error('跳过题目失败:', error)
-    }
-    setShowResult(true)
-  }, [user])
 
   // 下一题
   const nextQuestion = () => {

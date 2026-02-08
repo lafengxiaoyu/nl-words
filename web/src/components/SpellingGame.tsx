@@ -38,44 +38,6 @@ const GlobeIcon = () => {
 }
 
 // 锁图标组件
-const LockIcon = () => {
-  return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="lock-svg-icon">
-      <path
-        d="M12 15V17"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M12 15V17"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <rect
-        x="5"
-        y="11"
-        width="14"
-        height="11"
-        rx="2"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M8 11V7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7V11"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  )
-}
 
 // 心形图标
 const HeartIcon = () => {
@@ -372,21 +334,37 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     const hints: string[] = []
     const length = word.length
 
+    // 如果单词太短，直接返回完整单词
+    if (length <= 2) {
+      hints.push(word)
+      return hints
+    }
+
     // 根据熟悉度生成不同提示级别
     if (familiarity === 'new') {
       // 新词：显示完整单词，但要隐藏部分
-      hints.push(word[0] + '_'.repeat(length - 2) + word[length - 1])
-      hints.push(word[0] + word[1] + '_'.repeat(length - 3) + word[length - 2] + word[length - 1])
+      if (length >= 3) {
+        hints.push(word[0] + '_'.repeat(length - 2) + word[length - 1])
+      }
+      if (length >= 4) {
+        hints.push(word[0] + word[1] + '_'.repeat(length - 3) + word[length - 2] + word[length - 1])
+      }
       hints.push(word)
     } else if (familiarity === 'learning') {
       // 学习中：显示首字母和末字母
-      hints.push(word[0] + '_'.repeat(length - 2) + word[length - 1])
-      hints.push(word[0] + word[1] + '_'.repeat(length - 3) + word[length - 2] + word[length - 1])
+      if (length >= 3) {
+        hints.push(word[0] + '_'.repeat(length - 2) + word[length - 1])
+      }
+      if (length >= 4) {
+        hints.push(word[0] + word[1] + '_'.repeat(length - 3) + word[length - 2] + word[length - 1])
+      }
       hints.push(word)
     } else if (familiarity === 'familiar') {
       // 熟悉：只显示首字母
       hints.push(word[0] + '_'.repeat(length - 1))
-      hints.push(word[0] + word[1] + '_'.repeat(length - 2))
+      if (length >= 3) {
+        hints.push(word[0] + word[1] + '_'.repeat(length - 2))
+      }
       hints.push(word)
     } else {
       // 已掌握：只显示部分字符
