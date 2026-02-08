@@ -136,9 +136,12 @@ export default function TestPage({ languageMode }: TestPageProps) {
     if (testSettingsStr) {
       try {
         const settings = JSON.parse(testSettingsStr)
-        if (settings.difficulty) setSelectedDifficulty(settings.difficulty)
-        if (settings.wordCount) setWordCount(settings.wordCount)
-        if (settings.timeLimit !== undefined) setTimeLimit(settings.timeLimit)
+        // 使用 setTimeout 避免同步调用 setState
+        setTimeout(() => {
+          if (settings.difficulty) setSelectedDifficulty(settings.difficulty)
+          if (settings.wordCount) setWordCount(settings.wordCount)
+          if (settings.timeLimit !== undefined) setTimeLimit(settings.timeLimit)
+        }, 0)
       } catch (error) {
         console.error('Failed to parse test settings:', error)
       }
@@ -217,7 +220,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const t = translations[languageMode]
 
   // 根据难度筛选单词（考虑订阅状态）
-  const filterWordsByDifficulty = (allWords: Word[], difficulty: DifficultyLevel | 'all') => {
+  const filterWordsByDifficulty = useCallback((allWords: Word[], difficulty: DifficultyLevel | 'all') => {
     if (difficulty === 'all') {
       // 免费用户只显示 A1-A2，付费用户显示全部
       if (isPremium) {
@@ -256,10 +259,48 @@ export default function TestPage({ languageMode }: TestPageProps) {
       }
       return allWords.filter(w => w.difficulty === difficulty)
     }
-  }
+  }, [isPremium, setSelectedDifficulty, setShowPremiumModal])
+
+  // 生成选项（包含正确答案和3个错误答案）
+  // 优先选择与考察单词相同词性的迷惑项，除非单词不够
+  const generateOptions = useCallback((correctWord: Word) => {
+    const options = [correctWord]
+    const targetPartOfSpeech = correctWord.partOfSpeech
+
+    // 找出所有与考察单词相同词性的其他单词
+    const samePartOfSpeechWords = words.filter(
+      w => w.id !== correctWord.id && w.partOfSpeech === targetPartOfSpeech
+    )
+
+    // 找出其他词性的单词
+    const otherPartOfSpeechWords = words.filter(
+      w => w.id !== correctWord.id && w.partOfSpeech !== targetPartOfSpeech
+    )
+
+    const distractorCount = 3
+    const samePartCount = samePartOfSpeechWords.length
+
+    if (samePartCount >= distractorCount) {
+      // 相同词性的单词足够，随机选择3个
+      const shuffledSame = samePartOfSpeechWords.sort(() => Math.random() - 0.5)
+      options.push(...shuffledSame.slice(0, distractorCount))
+    } else if (samePartCount > 0) {
+      // 相同词性的单词不够，使用全部相同词性的，剩余从其他词性中选择
+      const shuffledSame = samePartOfSpeechWords.sort(() => Math.random() - 0.5)
+      const shuffledOther = otherPartOfSpeechWords.sort(() => Math.random() - 0.5)
+      options.push(...shuffledSame)
+      options.push(...shuffledOther.slice(0, distractorCount - samePartCount))
+    } else {
+      // 没有相同词性的单词，只能从其他词性中选择
+      const shuffledOther = otherPartOfSpeechWords.sort(() => Math.random() - 0.5)
+      options.push(...shuffledOther.slice(0, distractorCount))
+    }
+
+    return options.sort(() => Math.random() - 0.5)
+  }, [])
 
   // 开始测试
-  const startTest = () => {
+  const startTest = useCallback(() => {
     // 根据难度筛选单词
     const filteredWords = filterWordsByDifficulty(words, selectedDifficulty)
 
@@ -288,7 +329,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
     } else {
       setCurrentOptions([])
     }
-  }
+  }, [selectedDifficulty, wordCount, timeLimit, generateOptions, filterWordsByDifficulty])
 
   // 发音功能
   const speakDutch = (text: string) => {
@@ -368,8 +409,10 @@ export default function TestPage({ languageMode }: TestPageProps) {
       return
     }
 
-    // 重置倒计时当问题改变时
-    setTimeRemaining(timeLimit)
+    // 使用 setTimeout 避免同步调用 setState
+    setTimeout(() => {
+      setTimeRemaining(timeLimit)
+    }, 0)
 
     const timer = setInterval(() => {
       setTimeRemaining(prev => {
@@ -391,47 +434,12 @@ export default function TestPage({ languageMode }: TestPageProps) {
   // 自动开始测试
   useEffect(() => {
     if (testWords.length === 0 && !testComplete) {
-      startTest()
+      // 使用 setTimeout 避免同步调用 setState
+      setTimeout(() => {
+        startTest()
+      }, 0)
     }
   }, [testWords.length, testComplete, startTest])
-
-  // 生成选项（包含正确答案和3个错误答案）
-  // 优先选择与考察单词相同词性的迷惑项，除非单词不够
-  const generateOptions = (correctWord: Word) => {
-    const options = [correctWord]
-    const targetPartOfSpeech = correctWord.partOfSpeech
-
-    // 找出所有与考察单词相同词性的其他单词
-    const samePartOfSpeechWords = words.filter(
-      w => w.id !== correctWord.id && w.partOfSpeech === targetPartOfSpeech
-    )
-
-    // 找出其他词性的单词
-    const otherPartOfSpeechWords = words.filter(
-      w => w.id !== correctWord.id && w.partOfSpeech !== targetPartOfSpeech
-    )
-
-    const distractorCount = 3
-    const samePartCount = samePartOfSpeechWords.length
-
-    if (samePartCount >= distractorCount) {
-      // 相同词性的单词足够，随机选择3个
-      const shuffledSame = samePartOfSpeechWords.sort(() => Math.random() - 0.5)
-      options.push(...shuffledSame.slice(0, distractorCount))
-    } else if (samePartCount > 0) {
-      // 相同词性的单词不够，使用全部相同词性的，剩余从其他词性中选择
-      const shuffledSame = samePartOfSpeechWords.sort(() => Math.random() - 0.5)
-      const shuffledOther = otherPartOfSpeechWords.sort(() => Math.random() - 0.5)
-      options.push(...shuffledSame)
-      options.push(...shuffledOther.slice(0, distractorCount - samePartCount))
-    } else {
-      // 没有相同词性的单词，只能从其他词性中选择
-      const shuffledOther = otherPartOfSpeechWords.sort(() => Math.random() - 0.5)
-      options.push(...shuffledOther.slice(0, distractorCount))
-    }
-
-    return options.sort(() => Math.random() - 0.5)
-  }
 
   const currentWord = testWords[currentIndex]
   const options = currentOptions

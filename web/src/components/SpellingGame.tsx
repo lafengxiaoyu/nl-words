@@ -184,34 +184,6 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     loadSubscriptionStatus()
   }, [user])
 
-  // 从sessionStorage读取设置并自动开始游戏
-  useEffect(() => {
-    const testSettingsStr = sessionStorage.getItem('testSettings')
-    if (testSettingsStr) {
-      try {
-        const settings = JSON.parse(testSettingsStr)
-        if (settings.difficulty) setSelectedDifficulty(settings.difficulty)
-        if (settings.wordCount) setWordCount(settings.wordCount)
-        if (settings.timeLimit !== undefined) {
-          setTimeLimit(settings.timeLimit)
-          setTimeRemaining(settings.timeLimit)
-          setTimeModeEnabled(settings.timeLimit > 0)
-        }
-      } catch (error) {
-        console.error('Failed to parse test settings:', error)
-      }
-      // 清除设置，避免重复使用
-      sessionStorage.removeItem('testSettings')
-    }
-
-    // 自动开始游戏
-    const timer = setTimeout(() => {
-      startGame()
-    }, 100)
-
-    return () => clearTimeout(timer)
-  }, [])
-
   const translations = {
     chinese: {
       title: '单词拼写挑战',
@@ -302,7 +274,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   const t = translations[languageMode]
 
   // 根据难度筛选单词（考虑订阅状态）
-  const filterWordsByDifficulty = (allWords: Word[], difficulty: DifficultyLevel | 'all') => {
+  const filterWordsByDifficulty = useCallback((allWords: Word[], difficulty: DifficultyLevel | 'all') => {
     // 免费用户只能访问 A1 和 A2
     if (!isPremium) {
       if (difficulty === 'all') {
@@ -327,10 +299,10 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     } else {
       return allWords.filter(w => w.difficulty === difficulty)
     }
-  }
+  }, [isPremium])
 
   // 生成提示
-  const generateHints = (word: string, familiarity: FamiliarityLevel): string[] => {
+  const generateHints = useCallback((word: string, familiarity: FamiliarityLevel): string[] => {
     const hints: string[] = []
     const length = word.length
 
@@ -373,10 +345,10 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     }
 
     return hints
-  }
+  }, [])
 
   // 开始游戏
-  const startGame = () => {
+  const startGame = useCallback(() => {
     // 清除计时器
     if (timerRef.current) {
       clearInterval(timerRef.current)
@@ -408,7 +380,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
       setHints(firstHints)
       setTimeRemaining(timeLimit)
     }
-  }
+  }, [userWords, selectedDifficulty, wordCount, timeLimit, generateHints, filterWordsByDifficulty])
 
   // 倒计时
   useEffect(() => {
@@ -847,11 +819,44 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   // 检查是否生命值为0
   useEffect(() => {
     if (lives <= 0 && gameStarted) {
-      setGameComplete(true)
+      setTimeout(() => {
+        setGameComplete(true)
+      }, 0)
     }
   }, [lives, gameStarted])
 
   const currentWord = gameWords[currentIndex]
+
+  // 从sessionStorage读取设置并自动开始游戏
+  useEffect(() => {
+    const testSettingsStr = sessionStorage.getItem('testSettings')
+    if (testSettingsStr) {
+      try {
+        const settings = JSON.parse(testSettingsStr)
+        // 使用 setTimeout 避免同步调用 setState
+        setTimeout(() => {
+          if (settings.difficulty) setSelectedDifficulty(settings.difficulty)
+          if (settings.wordCount) setWordCount(settings.wordCount)
+          if (settings.timeLimit !== undefined) {
+            setTimeLimit(settings.timeLimit)
+            setTimeRemaining(settings.timeLimit)
+            setTimeModeEnabled(settings.timeLimit > 0)
+          }
+        }, 0)
+      } catch (error) {
+        console.error('Failed to parse test settings:', error)
+      }
+      // 清除设置，避免重复使用
+      sessionStorage.removeItem('testSettings')
+    }
+
+    // 自动开始游戏
+    const timer = setTimeout(() => {
+      startGame()
+    }, 100)
+
+    return () => clearTimeout(timer)
+  }, [startGame])
 
   // 游戏完成界面
   if (gameComplete) {
