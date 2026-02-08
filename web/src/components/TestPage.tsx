@@ -114,6 +114,8 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const [currentOptions, setCurrentOptions] = useState<Word[]>([])
   const [wrongAnswers, setWrongAnswers] = useState<{word: Word, userChoice: Word | 'not-mastered' | 'skipped', correctWord: Word}[]>([])
   const [showHint, setShowHint] = useState(false)
+  const [timeLimit, setTimeLimit] = useState(0)
+  const [timeRemaining, setTimeRemaining] = useState(0)
 
   // 检查用户认证状态
   useEffect(() => {
@@ -128,6 +130,21 @@ export default function TestPage({ languageMode }: TestPageProps) {
     }
 
     checkUser()
+
+    // 从 sessionStorage 读取测试设置
+    const testSettingsStr = sessionStorage.getItem('testSettings')
+    if (testSettingsStr) {
+      try {
+        const settings = JSON.parse(testSettingsStr)
+        if (settings.difficulty) setSelectedDifficulty(settings.difficulty)
+        if (settings.wordCount) setWordCount(settings.wordCount)
+        if (settings.timeLimit !== undefined) setTimeLimit(settings.timeLimit)
+      } catch (error) {
+        console.error('Failed to parse test settings:', error)
+      }
+      // 清除设置，避免重复使用
+      sessionStorage.removeItem('testSettings')
+    }
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event, session) => {
       setUser(session?.user || null)
@@ -259,6 +276,12 @@ export default function TestPage({ languageMode }: TestPageProps) {
     setShowHint(false)
     setUserAnswer('')
     setWrongAnswers([])
+
+    // 重置每题倒计时
+    if (timeLimit > 0) {
+      setTimeRemaining(timeLimit)
+    }
+
     // 为第一个单词生成选项
     if (shuffled.length > 0) {
       setCurrentOptions(generateOptions(shuffled[0]))
@@ -280,6 +303,42 @@ export default function TestPage({ languageMode }: TestPageProps) {
     utterance.onerror = () => setIsSpeaking(false)
     window.speechSynthesis.speak(utterance)
   }
+
+  // 每题倒计时
+  useEffect(() => {
+    // 只有当有时间限制且测试正在进行时才运行
+    if (timeLimit <= 0 || testWords.length === 0 || testComplete || showResult) {
+      return
+    }
+
+    const currentWord = testWords[currentIndex]
+    if (!currentWord) {
+      return
+    }
+
+    // 重置倒计时当问题改变时
+    setTimeRemaining(timeLimit)
+
+    const timer = setInterval(() => {
+      setTimeRemaining(prev => {
+        if (prev <= 1) {
+          // 时间到，自动跳过
+          markAsSkipped()
+          return timeLimit
+        }
+        return prev - 1
+      })
+    }, 1000)
+
+    return () => clearInterval(timer)
+  }, [currentIndex, timeLimit, testWords.length, testComplete, showResult])
+
+  // 自动开始测试
+  useEffect(() => {
+    if (testWords.length === 0 && !testComplete) {
+      startTest()
+    }
+  }, [])
 
   // 生成选项（包含正确答案和3个错误答案）
   // 优先选择与考察单词相同词性的迷惑项，除非单词不够
@@ -681,6 +740,36 @@ export default function TestPage({ languageMode }: TestPageProps) {
     )
   }
 
+  // 如果当前单词不存在，显示加载状态
+  if (!currentWord) {
+    return (
+      <>
+      <div className="test-page">
+        <div className="test-container">
+          <div className="page-header">
+            <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
+              {t.backToLearn}
+            </button>
+            <button
+              className="lang-toggle-btn"
+              onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/test`)}
+              aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+              title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+            >
+              <GlobeIcon />
+              <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
+            </button>
+          </div>
+          <div className="loading-container">
+            <div className="loading-spinner"></div>
+            <p>{languageMode === 'chinese' ? '加载中...' : 'Loading...'}</p>
+          </div>
+        </div>
+      </div>
+      </>
+    )
+  }
+
   return (
     <>
     <div className="test-page">
@@ -703,6 +792,11 @@ export default function TestPage({ languageMode }: TestPageProps) {
 
         <div className="test-progress">
           <span>{currentIndex + 1} / {testWords.length}</span>
+          {timeLimit > 0 && (
+            <div className={`time-remaining ${timeRemaining <= 5 ? 'warning' : ''}`}>
+              <span>{timeRemaining}s</span>
+            </div>
+          )}
         </div>
 
         <div className="question-card">

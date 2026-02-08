@@ -1,0 +1,250 @@
+.test-selection-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.test-selection-container {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  width: 100%;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.back-btn {
+  padding: 8px 16px;
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  color: #64748b;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.back-btn:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  color: #475569;
+}
+
+.lang-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid #6366f1;
+  border-radius: 8px;
+  color: #6366f1;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.lang-toggle-btn:hover {
+  background: #6366f1;
+  color: white;
+}
+
+.lang-text {
+  font-size: 13px;
+}
+
+.test-selection-content {
+  padding: 28px 24px;
+}
+
+.test-selection-content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e293b;
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+
+.subtitle {
+  text-align: center;
+  color: #64748b;
+  font-size: 15px;
+  margin: 0 0 28px 0;
+}
+
+.test-options {
+  margin-bottom: 28px;
+}
+
+.option-group {
+  margin-bottom: 20px;
+}
+
+.option-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.difficulty-selector,
+.word-count-selector,
+.time-limit-selector {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.difficulty-option,
+.count-option,
+.time-option {
+  padding: 10px 14px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  color: #475569;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 13px;
+}
+
+.difficulty-option:hover:not(.disabled),
+.count-option:hover:not(.disabled),
+.time-option:hover:not(.disabled) {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+}
+
+.difficulty-option.selected,
+.count-option.selected,
+.time-option.selected {
+  background: #6366f1;
+  border-color: #6366f1;
+  color: white;
+}
+
+.difficulty-option.locked {
+  position: relative;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.count-option.disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.warning-text {
+  margin-top: 6px;
+  color: #f59e0b;
+  font-size: 12px;
+}
+
+.mode-selection-section {
+  margin-top: 28px;
+}
+
+.mode-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.mode-card {
+  position: relative;
+  padding: 20px;
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.mode-card:hover {
+  background: #f1f5f9;
+  border-color: #6366f1;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
+}
+
+.mode-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0;
+}
+
+.primary-mode {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  border-color: #6366f1;
+}
+
+.primary-mode h3 {
+  color: white;
+}
+
+.game-mode {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  border-color: #10b981;
+}
+
+.game-mode h3 {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .test-selection-content {
+    padding: 24px 20px;
+  }
+
+  .test-selection-content h1 {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .difficulty-selector,
+  .word-count-selector,
+  .time-limit-selector {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mode-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .mode-card {
+    padding: 16px;
+  }
+
+  .mode-card h3 {
+    font-size: 15px;
+  }
+
+  .page-header {
+    padding: 12px 16px;
+  }
+}

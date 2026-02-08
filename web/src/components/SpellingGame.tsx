@@ -222,6 +222,34 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     loadSubscriptionStatus()
   }, [user])
 
+  // 从sessionStorage读取设置并自动开始游戏
+  useEffect(() => {
+    const testSettingsStr = sessionStorage.getItem('testSettings')
+    if (testSettingsStr) {
+      try {
+        const settings = JSON.parse(testSettingsStr)
+        if (settings.difficulty) setSelectedDifficulty(settings.difficulty)
+        if (settings.wordCount) setWordCount(settings.wordCount)
+        if (settings.timeLimit !== undefined) {
+          setTimeLimit(settings.timeLimit)
+          setTimeRemaining(settings.timeLimit)
+          setTimeModeEnabled(settings.timeLimit > 0)
+        }
+      } catch (error) {
+        console.error('Failed to parse test settings:', error)
+      }
+      // 清除设置，避免重复使用
+      sessionStorage.removeItem('testSettings')
+    }
+
+    // 自动开始游戏
+    const timer = setTimeout(() => {
+      startGame()
+    }, 100)
+
+    return () => clearTimeout(timer)
+  }, [])
+
   const translations = {
     chinese: {
       title: '单词拼写挑战',
@@ -847,162 +875,6 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
 
   const currentWord = gameWords[currentIndex]
 
-  // 处理难度选择，自动调整单词数量（检查订阅权限）
-  const handleDifficultySelect = (difficulty: DifficultyLevel | 'all') => {
-    // 检查是否为 Premium 内容但用户未订阅
-    if ((difficulty === 'B1' || difficulty === 'B2' || difficulty === 'C1' || difficulty === 'C2') && !isPremium) {
-      setShowPremiumModal(true)
-      return
-    }
-    
-    // 先更新难度
-    setSelectedDifficulty(difficulty)
-
-    // 使用函数式更新，确保使用最新的 userWords
-    setWordCount(prevCount => {
-      const filteredWords = filterWordsByDifficulty(userWords, difficulty)
-      const maxWordCount = filteredWords.length
-      if (prevCount > maxWordCount) {
-        const newCount = [5, 10, 15, 25].find(c => c <= maxWordCount) || maxWordCount
-        return newCount
-      }
-      return prevCount
-    })
-  }
-
-  // 如果游戏未开始，显示设置界面
-  if (!gameStarted) {
-    const filteredWords = filterWordsByDifficulty(userWords, selectedDifficulty)
-    const maxWordCount = filteredWords.length
-
-    return (
-      <>
-      <div className="spelling-game">
-        <div className="game-container">
-          <div className="page-header">
-            <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
-              {t.backToLearn}
-            </button>
-            <button
-              className="lang-toggle-btn"
-              onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/game`)}
-              aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
-              title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
-            >
-              <GlobeIcon />
-              <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
-            </button>
-          </div>
-          <div className="game-intro">
-            <h1>{t.title}</h1>
-
-            <div className="game-options">
-              <div className="option-group">
-                <label className="option-label">{t.selectDifficulty}</label>
-                <div className="difficulty-selector">
-                  <button
-                    className={`difficulty-option ${selectedDifficulty === 'all' ? 'selected' : ''}`}
-                    onClick={() => handleDifficultySelect('all')}
-                  >
-                    {t.allDifficulty}
-                  </button>
-                  <button
-                    className={`difficulty-option ${selectedDifficulty === 'A1' ? 'selected' : ''}`}
-                    onClick={() => handleDifficultySelect('A1')}
-                  >
-                    A1-A2
-                  </button>
-                  <button
-                    className={`difficulty-option ${!isPremium ? 'locked' : ''} ${selectedDifficulty === 'B1' ? 'selected' : ''}`}
-                    onClick={() => handleDifficultySelect('B1')}
-                    title={isPremium ? '' : '需要 Premium 才能访问'}
-                  >
-                    B1-B2
-                    {!isPremium && <LockIcon />}
-                  </button>
-                  <button
-                    className={`difficulty-option ${!isPremium ? 'locked' : ''} ${selectedDifficulty === 'C1' ? 'selected' : ''}`}
-                    onClick={() => handleDifficultySelect('C1')}
-                    title={isPremium ? '' : '需要 Premium 才能访问'}
-                  >
-                    C1-C2
-                    {!isPremium && <LockIcon />}
-                  </button>
-                </div>
-              </div>
-
-              <div className="option-group">
-                <label className="option-label">{t.selectWordCount}</label>
-                <div className="word-count-selector">
-                  {[5, 10, 15, 25].map((count) => (
-                    <button
-                      key={count}
-                      className={`count-option ${wordCount === count ? 'selected' : ''} ${count > maxWordCount ? 'disabled' : ''}`}
-                      onClick={() => count <= maxWordCount && setWordCount(count)}
-                      disabled={count > maxWordCount}
-                    >
-                      {count}
-                    </button>
-                  ))}
-                </div>
-                {maxWordCount < wordCount && (
-                  <p className="warning-text">
-                    {languageMode === 'chinese'
-                      ? `该难度下只有 ${maxWordCount} 个单词`
-                      : `Only ${maxWordCount} words available at this difficulty`
-                    }
-                  </p>
-                )}
-              </div>
-
-              <div className="option-group">
-                <label className="option-label">{t.timeMode}</label>
-                <div className="time-mode-selector">
-                  <button
-                    className={`time-option ${!timeModeEnabled ? 'selected' : ''}`}
-                    onClick={() => setTimeModeEnabled(false)}
-                  >
-                    {languageMode === 'chinese' ? '无限制' : 'No Limit'}
-                  </button>
-                  <button
-                    className={`time-option ${timeModeEnabled && timeLimit === 10 ? 'selected' : ''}`}
-                    onClick={() => { setTimeModeEnabled(true); setTimeLimit(10) }}
-                  >
-                    10s
-                  </button>
-                  <button
-                    className={`time-option ${timeModeEnabled && timeLimit === 15 ? 'selected' : ''}`}
-                    onClick={() => { setTimeModeEnabled(true); setTimeLimit(15) }}
-                  >
-                    15s
-                  </button>
-                  <button
-                    className={`time-option ${timeModeEnabled && timeLimit === 20 ? 'selected' : ''}`}
-                    onClick={() => { setTimeModeEnabled(true); setTimeLimit(20) }}
-                  >
-                    20s
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <button className="btn btn-primary btn-lg" onClick={startGame}>
-              {t.startGame}
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Premium 升级弹窗 */}
-      <PremiumUpgradeModal
-        isOpen={showPremiumModal}
-        onClose={() => setShowPremiumModal(false)}
-        languageMode={languageMode}
-      />
-      </>
-    )
-  }
-
   // 游戏完成界面
   if (gameComplete) {
     const correctCount = gameWords.length - wrongAnswers.length
@@ -1095,6 +967,26 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   }
 
   // 游戏进行中
+  if (!currentWord) {
+    return (
+      <>
+      <div className="spelling-game">
+        <div className="game-container">
+          <div className="page-header">
+            <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
+              {t.backToLearn}
+            </button>
+          </div>
+          <div className="loading-container">
+            <div className="loading-spinner"></div>
+            <p>{languageMode === 'chinese' ? '加载中...' : 'Loading...'}</p>
+          </div>
+        </div>
+      </div>
+      </>
+    )
+  }
+
   return (
     <>
     <div className="spelling-game">
@@ -1257,4 +1149,3 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     </>
   )
 }
-

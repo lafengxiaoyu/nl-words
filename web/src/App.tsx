@@ -19,6 +19,7 @@ import TestPage from './components/TestPage'
 import WordListPage from './components/WordListPage'
 import AdminDashboard from './components/AdminDashboard'
 import SpellingGame from './components/SpellingGame'
+import TestSelectionPage from './components/TestSelectionPage'
 import AboutPage from './components/AboutPage'
 import ResetPassword from './components/ResetPassword'
 import PremiumUpgradeModal from './components/PremiumUpgradeModal'
@@ -1201,16 +1202,10 @@ function MainApp() {
                     {navTranslations[languageMode].learn}
                   </button>
                   <button
-                    className={`nav-btn ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/test` ? 'nav-btn--active' : ''}`}
-                    onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/test`)}
+                    className={`nav-btn ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/test` || location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/test-select` ? 'nav-btn--active' : ''}`}
+                    onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/test-select`)}
                   >
                     {navTranslations[languageMode].test}
-                  </button>
-                  <button
-                    className={`nav-btn ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/game` ? 'nav-btn--active' : ''}`}
-                    onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/game`)}
-                  >
-                    {navTranslations[languageMode].game}
                   </button>
                   <button
                     className={`nav-btn ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/wordlist` ? 'nav-btn--active' : ''}`}
@@ -1294,22 +1289,13 @@ function MainApp() {
                   {navTranslations[languageMode].learn}
                 </button>
                 <button
-                  className={`mobile-menu-item ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/test` ? 'mobile-menu-item--active' : ''}`}
+                  className={`mobile-menu-item ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/test` || location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/test-select` ? 'mobile-menu-item--active' : ''}`}
                   onClick={() => {
-                    navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/test`)
+                    navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/test-select`)
                     setMobileMenuOpen(false)
                   }}
                 >
                   {navTranslations[languageMode].test}
-                </button>
-                <button
-                  className={`mobile-menu-item ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/game` ? 'mobile-menu-item--active' : ''}`}
-                  onClick={() => {
-                    navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/game`)
-                    setMobileMenuOpen(false)
-                  }}
-                >
-                  {navTranslations[languageMode].game}
                 </button>
                 <button
                   className={`mobile-menu-item ${location.pathname === `/${languageMode === 'chinese' ? 'zh' : 'en'}/wordlist` ? 'mobile-menu-item--active' : ''}`}
@@ -1681,6 +1667,13 @@ function TestRoute() {
   return <TestPage languageMode={languageMode} />
 }
 
+// Test Selection Page Route Component
+function TestSelectionRoute() {
+  const location = useLocation()
+  const languageMode = location.pathname.startsWith('/zh') ? 'chinese' : 'english'
+  return <TestSelectionPage languageMode={languageMode} />
+}
+
 // Word List Page Route Component
 function WordListRoute() {
   const location = useLocation()
@@ -1716,6 +1709,7 @@ function App() {
       <Route path="/" element={<Navigate to="/zh/learn" replace />} />
       <Route path="/zh" element={<Navigate to="/zh/learn" replace />} />
       <Route path="/zh/learn" element={<MainApp />} />
+      <Route path="/zh/test-select" element={<TestSelectionRoute />} />
       <Route path="/zh/test" element={<TestRoute />} />
       <Route path="/zh/game" element={<GameRoute />} />
       <Route path="/zh/profile" element={<ProfileRoute />} />
@@ -1724,6 +1718,7 @@ function App() {
       <Route path="/zh/reset-password" element={<ResetPasswordRoute />} />
       <Route path="/en" element={<Navigate to="/en/learn" replace />} />
       <Route path="/en/learn" element={<MainApp />} />
+      <Route path="/en/test-select" element={<TestSelectionRoute />} />
       <Route path="/en/test" element={<TestRoute />} />
       <Route path="/en/game" element={<GameRoute />} />
       <Route path="/en/profile" element={<ProfileRoute />} />
