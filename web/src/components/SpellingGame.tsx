@@ -1080,7 +1080,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
           {showResult && (
             <div className="result-section">
               <div className={`result-message ${userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() ? 'correct' : 'wrong'}`}>
-                {userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() ? t.correct : t.wrong}
+                {currentWord.word}
               </div>
               {userAnswer.toLowerCase().trim() !== currentWord.word.toLowerCase().trim() && (
                 <div className="correct-answer-display">
