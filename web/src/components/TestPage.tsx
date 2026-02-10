@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { User } from '@supabase/supabase-js'
 import type { Word, DifficultyLevel } from '../data/words'
@@ -116,8 +116,13 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const [showHint, setShowHint] = useState(false)
   const [timeLimit, setTimeLimit] = useState(0)
   const [timeRemaining, setTimeRemaining] = useState(0)
-  const [mistakesOnly, setMistakesOnly] = useState(false) // 是否只测试错题
   const [wordsWithProgress, setWordsWithProgress] = useState<Word[]>([]) // 带进度的单词列表
+  
+  // 从 URL 参数获取是否为错题专属测试
+  const mistakesOnly = useMemo(() => {
+    const urlParams = new URLSearchParams(window.location.search)
+    return urlParams.get('mistakesOnly') === 'true'
+  }, [])
 
   // 检查用户认证状态
   useEffect(() => {
@@ -210,12 +215,6 @@ export default function TestPage({ languageMode }: TestPageProps) {
         }
       }
     })
-
-    // 检查 URL 参数，是否为错题专属测试
-    const urlParams = new URLSearchParams(window.location.search)
-    if (urlParams.get('mistakesOnly') === 'true') {
-      setMistakesOnly(true)
-    }
 
     return () => {
       subscription.unsubscribe()
@@ -360,7 +359,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
   // 开始测试
   const startTest = useCallback(() => {
     // 根据模式筛选单词
-    let filteredWords = mistakesOnly
+    const filteredWords = mistakesOnly
       ? wordsWithProgress.filter(w => {
           const wrongCount = w.stats?.testWrongCount || 0
           const masteredAt = w.stats?.masteredAt
@@ -557,7 +556,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
           if (wordIndex !== -1) {
             const currentStats = localWords[wordIndex].stats
             const CONSECUTIVE_CORRECT_THRESHOLD = 3
-            let newConsecutiveCorrect = isCorrect ? (currentStats?.consecutiveCorrectCount || 0) + 1 : 0
+            const newConsecutiveCorrect = isCorrect ? (currentStats?.consecutiveCorrectCount || 0) + 1 : 0
             let masteredAt: string | undefined = currentStats?.masteredAt
 
             // 如果连续答对达到阈值且之前有错题记录，则标记为已掌握
@@ -626,10 +625,10 @@ export default function TestPage({ languageMode }: TestPageProps) {
           const wordIndex = localWords.findIndex(w => w.id === currentWord.id)
           if (wordIndex !== -1) {
             const currentStats = localWords[wordIndex].stats
-            let newConsecutiveCorrect = 0 // 标记为未掌握视为错误，连续答对清零
+            const newConsecutiveCorrect = 0 // 标记为未掌握视为错误，连续答对清零
 
             // 答错时清除已掌握状态
-            let masteredAt: string | undefined = undefined
+            const masteredAt: string | undefined = undefined
 
             const updatedStats = {
               viewCount: currentStats?.viewCount || 0,

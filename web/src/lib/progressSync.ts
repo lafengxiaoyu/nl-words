@@ -398,7 +398,7 @@ export async function updateTestStats(
   if (!isSupabaseConfigured) {
     const currentConsecutiveCorrect = currentStats?.consecutiveCorrectCount || 0
     const CONSECUTIVE_CORRECT_THRESHOLD = 3
-    let newConsecutiveCorrect = isCorrect ? currentConsecutiveCorrect + 1 : 0
+    const newConsecutiveCorrect = isCorrect ? currentConsecutiveCorrect + 1 : 0
     let masteredAt: string | undefined = currentStats?.masteredAt
 
     // 如果连续答对达到阈值且之前有错题记录，则标记为已掌握
@@ -435,7 +435,7 @@ export async function updateTestStats(
 
     // 错题退出机制：连续答对3次
     const CONSECUTIVE_CORRECT_THRESHOLD = 3
-    let newConsecutiveCorrect = isCorrect ? currentConsecutiveCorrect + 1 : 0
+    const newConsecutiveCorrect = isCorrect ? currentConsecutiveCorrect + 1 : 0
     let masteredAt: string | undefined = existing?.mastered_at
 
     // 如果连续答对达到阈值且之前有错题记录，则标记为已掌握
@@ -469,7 +469,7 @@ export async function updateTestStats(
     // 自动计算熟悉程度
     const calculatedFamiliarity = calculateFamiliarity(undefined, newStats)
 
-    const upsertData: any = {
+    const upsertData: Partial<UserProgress> = {
       user_id: userId,
       word_id: wordId,
       familiarity: calculatedFamiliarity,

@@ -346,6 +346,18 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  gap: 20px;
+}
+
+.header-center {
+  flex: 1;
+  text-align: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .lang-toggle-btn {
@@ -385,13 +397,12 @@
 }
 
 .word-list-header {
-  text-align: center;
-  margin-bottom: 30px;
+  display: none; /* 标题已移到 header-center，隐藏此元素 */
 }
 
-.word-list-header h1 {
+.header-center h1 {
   font-size: 2.5rem;
-  margin-bottom: 10px;
+  margin: 0 0 5px 0;
   text-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
@@ -399,6 +410,7 @@
 .word-count {
   font-size: 1.2rem;
   opacity: 0.9;
+  margin: 0;
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -1205,8 +1217,48 @@
     font-size: 14px;
   }
 
-  .word-list-header h1 {
+  .page-header {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .header-center {
+    order: -1;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .header-center h1 {
     font-size: 1.8rem;
+  }
+  
+  .header-right {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .view-toggle-buttons {
+    order: -1;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .view-toggle-btn .btn-text,
+  .icon-btn .btn-text {
+    display: none; /* 移动端只显示图标 */
+  }
+  
+  .icon-btn,
+  .mistake-test-btn {
+    padding: 8px;
+  }
+  
+  .icon-btn svg,
+  .mistake-test-btn svg {
+    margin: 0;
   }
 
   .search-input {
@@ -1401,37 +1453,68 @@
   height: 12px;
 }
 
+/* 图标按钮样式 */
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.icon-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.35);
+  transform: translateY(-2px);
+}
+
 /* 视图切换按钮 */
 .view-toggle-buttons {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   align-items: center;
 }
 
 .view-toggle-btn {
-  padding: 8px 16px;
-  background: rgba(255, 255, 255, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0.4);
-  border-radius: 12px;
-  color: white;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 6px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .view-toggle-btn:hover {
-  background: rgba(255, 255, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
   transform: translateY(-2px);
 }
 
 .view-toggle-btn.active {
-  background: linear-gradient(135deg, #f97316 0%, #ef4444 100%);
-  border-color: #ef4444;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.view-toggle-btn svg {
+  width: 16px;
+  height: 16px;
+}
   box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
 }
 
@@ -1542,11 +1625,14 @@
 
 /* 错题专属测试按钮 */
 .mistake-test-btn {
-  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
   background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
   color: white;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
@@ -1562,6 +1648,11 @@
 
 .mistake-test-btn:active {
   transform: translateY(0);
+}
+
+.mistake-test-btn svg {
+  width: 16px;
+  height: 16px;
 }
 
 /* 错题本模式下隐藏收藏列（可选） */
