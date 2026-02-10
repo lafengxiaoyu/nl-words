@@ -77,6 +77,10 @@ export interface LearningStats {
   testWrongCount: number // 测试做错的次数
   lastViewedAt?: string // 最后查看时间
   lastTestedAt?: string // 最后测试时间
+  consecutiveCorrectCount?: number // 连续答对次数（错题退出机制）
+  isHighFrequencyMistake?: boolean // 是否为高频错题
+  lastMistakeAt?: string // 最后错误时间
+  masteredAt?: string // 从错题本移除（掌握）的时间
 }
 
 // 单词基础数据结构（不包含用户特定的属性）

@@ -564,10 +564,12 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
 
   // 过滤单词
   const filteredWords = wordsWithProgress.filter(word => {
-    // 错题本模式：只显示有错误记录的单词
+    // 错题本模式：只显示有错误记录且未掌握的单词
     if (viewMode === 'mistakes') {
       const wrongCount = word.stats?.testWrongCount || 0
+      const masteredAt = word.stats?.masteredAt
       if (wrongCount === 0) return false
+      if (masteredAt) return false // 已掌握的不显示
     }
 
     // 搜索过滤
@@ -610,6 +612,18 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
 
     return matchesSearch && matchesPartOfSpeech && matchesDifficulty
   }).sort((a, b) => {
+    // 错题本模式：高频错题置顶（错误次数 >= 3）
+    if (viewMode === 'mistakes') {
+      const aWrongCount = a.stats?.testWrongCount || 0
+      const bWrongCount = b.stats?.testWrongCount || 0
+      const aIsHighFreq = aWrongCount >= 3
+      const bIsHighFreq = bWrongCount >= 3
+
+      // 高频错题优先
+      if (aIsHighFreq && !bIsHighFreq) return -1
+      if (!aIsHighFreq && bIsHighFreq) return 1
+    }
+
     // 排序逻辑
     let comparison = 0
     switch (sortBy) {
@@ -696,6 +710,16 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
               {t.viewMistakes}
             </button>
           </div>
+          {/* 错题专属测试按钮 */}
+          {viewMode === 'mistakes' && filteredWords.length > 0 && (
+            <button
+              className="mistake-test-btn"
+              onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/test?mistakesOnly=true`)}
+              title={languageMode === 'chinese' ? '只测试错题' : 'Test only mistakes'}
+            >
+              {languageMode === 'chinese' ? '错题测试' : 'Test Mistakes'}
+            </button>
+          )}
         </div>
 
         {/* 搜索和过滤 */}
@@ -892,22 +916,27 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                       )}
                     </th>
                     {viewMode === 'mistakes' && (
-                      <th
-                        className={`wrong-count-col sortable ${sortBy === 'wrongCount' ? 'active' : ''}`}
-                        onClick={() => {
-                          if (sortBy === 'wrongCount') {
-                            setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
-                          } else {
-                            setSortBy('wrongCount')
-                            setSortOrder('desc')
-                          }
-                        }}
-                      >
-                        {t.wrongCount}
-                        {sortBy === 'wrongCount' && (
-                          <span className="sort-indicator">{sortOrder === 'asc' ? '↑' : '↓'}</span>
-                        )}
-                      </th>
+                      <>
+                        <th
+                          className={`wrong-count-col sortable ${sortBy === 'wrongCount' ? 'active' : ''}`}
+                          onClick={() => {
+                            if (sortBy === 'wrongCount') {
+                              setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
+                            } else {
+                              setSortBy('wrongCount')
+                              setSortOrder('desc')
+                            }
+                          }}
+                        >
+                          {t.wrongCount}
+                          {sortBy === 'wrongCount' && (
+                            <span className="sort-indicator">{sortOrder === 'asc' ? '↑' : '↓'}</span>
+                          )}
+                        </th>
+                        <th className="consecutive-correct-col">
+                          {languageMode === 'chinese' ? '连续答对' : 'Streak'}
+                        </th>
+                      </>
                     )}
                   </tr>
                 </thead>
@@ -963,7 +992,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                         >
                           {isFavorited ? (
                             <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="22" height="22">
-                              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3,16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                             </svg>
                           ) : (
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg" width="22" height="22">
@@ -973,15 +1002,54 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                         </button>
                       </td>
                       {viewMode === 'mistakes' && (
-                        <td className="wrong-count-col">
-                          <span className="wrong-count-badge">{word.stats?.testWrongCount || 0}</span>
-                        </td>
+                        <>
+                          <td className="wrong-count-col">
+                            <span className="wrong-count-badge">{word.stats?.testWrongCount || 0}</span>
+                            {(word.stats?.testWrongCount || 0) >= 3 && (
+                              <span className="high-frequency-badge" title={languageMode === 'chinese' ? '高频错题' : 'High frequency mistake'}>
+                                🔥
+                              </span>
+                            )}
+                          </td>
+                          <td className="consecutive-correct-col">
+                            {word.stats?.consecutiveCorrectCount ? (
+                              <span className="consecutive-correct-badge">
+                                {word.stats.consecutiveCorrectCount}/3
+                              </span>
+                            ) : (
+                              <span className="consecutive-correct-badge zero">
+                                0/3
+                              </span>
+                            )}
+                          </td>
+                        </>
                       )}
                     </tr>
                     )
                   })}
                 </tbody>
               </table>
+
+              {/* 错题本说明 */}
+              {viewMode === 'mistakes' && (
+                <div className="mistakes-info-panel">
+                  <h3>{languageMode === 'chinese' ? '错题本说明' : 'Mistakes Notebook Guide'}</h3>
+                  <ul>
+                    <li>
+                      <strong>{languageMode === 'chinese' ? '高频错题' : 'High Frequency'}</strong>:
+                      {languageMode === 'chinese' ? ' 错误次数 ≥3 的单词会自动置顶，用🔥标记' : ' Words with ≥3 errors are automatically pinned with 🔥'}
+                    </li>
+                    <li>
+                      <strong>{languageMode === 'chinese' ? '连续答对' : 'Consecutive Correct'}</strong>:
+                      {languageMode === 'chinese' ? ' 连续答对 3 次后，单词会自动从错题本移除（已掌握）' : ' After 3 consecutive correct answers, the word will be removed from mistakes (mastered)'}
+                    </li>
+                    <li>
+                      <strong>{languageMode === 'chinese' ? '错题专属测试' : 'Mistakes Test'}</strong>:
+                      {languageMode === 'chinese' ? ' 点击"错题测试"按钮，只针对错题进行复习' : ' Click "Test Mistakes" to review only your mistakes'}
+                    </li>
+                  </ul>
+                </div>
+              )}
 
               {/* 分页导航底部 */}
               {totalPages > 1 && (

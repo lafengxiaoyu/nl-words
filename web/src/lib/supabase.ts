@@ -60,6 +60,10 @@ export interface UserProgress {
   test_count?: number
   test_correct_count?: number
   test_wrong_count?: number
+  consecutive_correct_count?: number // 连续答对次数
+  is_high_frequency_mistake?: boolean // 是否为高频错题
+  last_mistake_at?: string // 最后错误时间
+  mastered_at?: string // 从错题本移除（掌握）的时间
   last_viewed_at?: string
   last_tested_at?: string
   updated_at?: string

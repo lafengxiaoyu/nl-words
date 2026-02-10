@@ -41,16 +41,29 @@ export async function loadUserProgress(userId: string): Promise<Map<number, User
     if (data) {
       data.forEach((item: UserProgress) => {
         // 如果标记为已重置，则不创建 stats 对象
+        // 只要有任何统计数据（view_count、test_count 或相关字段），就创建 stats 对象
+        const hasStatsData =
+          (item.view_count && item.view_count > 0) ||
+          (item.test_count && item.test_count > 0) ||
+          (item.mastered_count && item.mastered_count > 0) ||
+          (item.unmastered_count && item.unmastered_count > 0) ||
+          (item.test_correct_count && item.test_correct_count > 0) ||
+          (item.test_wrong_count && item.test_wrong_count > 0)
+
         const stats: LearningStats | undefined = item.stats_reset ? undefined : (
-          item.view_count && item.view_count > 0 ? {
-            viewCount: item.view_count,
+          hasStatsData ? {
+            viewCount: item.view_count || 0,
             masteredCount: item.mastered_count || 0,
             unmasteredCount: item.unmastered_count || 0,
             testCount: item.test_count || 0,
             testCorrectCount: item.test_correct_count || 0,
             testWrongCount: item.test_wrong_count || 0,
+            consecutiveCorrectCount: item.consecutive_correct_count || 0,
+            isHighFrequencyMistake: (item.test_wrong_count || 0) >= 3,
             lastViewedAt: item.last_viewed_at || undefined,
             lastTestedAt: item.last_tested_at || undefined,
+            lastMistakeAt: item.last_mistake_at || undefined,
+            masteredAt: item.mastered_at || undefined,
           } : undefined
         )
 
@@ -214,6 +227,9 @@ export async function incrementViewCount(
       testCount: existing?.test_count || currentStats?.testCount || 0,
       testCorrectCount: existing?.test_correct_count || currentStats?.testCorrectCount || 0,
       testWrongCount: existing?.test_wrong_count || currentStats?.testWrongCount || 0,
+      consecutiveCorrectCount: existing?.consecutive_correct_count || currentStats?.consecutiveCorrectCount || 0,
+      lastMistakeAt: existing?.last_mistake_at || currentStats?.lastMistakeAt,
+      masteredAt: existing?.mastered_at || currentStats?.masteredAt,
       lastViewedAt: new Date().toISOString(),
       lastTestedAt: existing?.last_tested_at || currentStats?.lastTestedAt,
     }
@@ -231,6 +247,9 @@ export async function incrementViewCount(
         test_count: newStats.testCount,
         test_correct_count: newStats.testCorrectCount,
         test_wrong_count: newStats.testWrongCount,
+        consecutive_correct_count: newStats.consecutiveCorrectCount,
+        last_mistake_at: newStats.lastMistakeAt,
+        mastered_at: newStats.masteredAt,
         last_viewed_at: newStats.lastViewedAt,
         last_tested_at: newStats.lastTestedAt,
         updated_at: new Date().toISOString(),
@@ -279,6 +298,9 @@ export async function updateMasteryStats(
       testCount: currentStats?.testCount || 0,
       testCorrectCount: currentStats?.testCorrectCount || 0,
       testWrongCount: currentStats?.testWrongCount || 0,
+      consecutiveCorrectCount: currentStats?.consecutiveCorrectCount || 0,
+      lastMistakeAt: currentStats?.lastMistakeAt,
+      masteredAt: currentStats?.masteredAt,
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: currentStats?.lastTestedAt,
     }
@@ -297,7 +319,7 @@ export async function updateMasteryStats(
 
     const newStats: LearningStats = {
       viewCount: existing?.view_count || currentStats?.viewCount || 0,
-      masteredCount: isMastered 
+      masteredCount: isMastered
         ? (existing?.mastered_count || currentStats?.masteredCount || 0) + 1
         : (existing?.mastered_count || currentStats?.masteredCount || 0),
       unmasteredCount: !isMastered
@@ -306,6 +328,9 @@ export async function updateMasteryStats(
       testCount: existing?.test_count || currentStats?.testCount || 0,
       testCorrectCount: existing?.test_correct_count || currentStats?.testCorrectCount || 0,
       testWrongCount: existing?.test_wrong_count || currentStats?.testWrongCount || 0,
+      consecutiveCorrectCount: existing?.consecutive_correct_count || currentStats?.consecutiveCorrectCount || 0,
+      lastMistakeAt: existing?.last_mistake_at || currentStats?.lastMistakeAt,
+      masteredAt: existing?.mastered_at || currentStats?.masteredAt,
       lastViewedAt: existing?.last_viewed_at || currentStats?.lastViewedAt,
       lastTestedAt: existing?.last_tested_at || currentStats?.lastTestedAt,
     }
@@ -321,6 +346,14 @@ export async function updateMasteryStats(
         familiarity: calculatedFamiliarity,
         mastered_count: newStats.masteredCount,
         unmastered_count: newStats.unmasteredCount,
+        test_count: newStats.testCount,
+        test_correct_count: newStats.testCorrectCount,
+        test_wrong_count: newStats.testWrongCount,
+        consecutive_correct_count: newStats.consecutiveCorrectCount,
+        last_mistake_at: newStats.lastMistakeAt,
+        mastered_at: newStats.masteredAt,
+        last_viewed_at: newStats.lastViewedAt,
+        last_tested_at: newStats.lastTestedAt,
         updated_at: new Date().toISOString(),
       }, {
         onConflict: 'user_id,word_id'
@@ -341,6 +374,9 @@ export async function updateMasteryStats(
       testCount: currentStats?.testCount || 0,
       testCorrectCount: currentStats?.testCorrectCount || 0,
       testWrongCount: currentStats?.testWrongCount || 0,
+      consecutiveCorrectCount: currentStats?.consecutiveCorrectCount || 0,
+      lastMistakeAt: currentStats?.lastMistakeAt,
+      masteredAt: currentStats?.masteredAt,
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: currentStats?.lastTestedAt,
     }
@@ -360,6 +396,16 @@ export async function updateTestStats(
   currentStats?: LearningStats
 ): Promise<{ stats: LearningStats; familiarity: FamiliarityLevel }> {
   if (!isSupabaseConfigured) {
+    const currentConsecutiveCorrect = currentStats?.consecutiveCorrectCount || 0
+    const CONSECUTIVE_CORRECT_THRESHOLD = 3
+    let newConsecutiveCorrect = isCorrect ? currentConsecutiveCorrect + 1 : 0
+    let masteredAt: string | undefined = currentStats?.masteredAt
+
+    // 如果连续答对达到阈值且之前有错题记录，则标记为已掌握
+    if (isCorrect && newConsecutiveCorrect >= CONSECUTIVE_CORRECT_THRESHOLD && (currentStats?.testWrongCount || 0) > 0) {
+      masteredAt = new Date().toISOString()
+    }
+
     const newStats: LearningStats = {
       viewCount: currentStats?.viewCount || 0,
       masteredCount: currentStats?.masteredCount || 0,
@@ -367,6 +413,9 @@ export async function updateTestStats(
       testCount: (currentStats?.testCount || 0) + 1,
       testCorrectCount: isCorrect ? (currentStats?.testCorrectCount || 0) + 1 : (currentStats?.testCorrectCount || 0),
       testWrongCount: !isCorrect ? (currentStats?.testWrongCount || 0) + 1 : (currentStats?.testWrongCount || 0),
+      consecutiveCorrectCount: newConsecutiveCorrect,
+      lastMistakeAt: !isCorrect ? new Date().toISOString() : currentStats?.lastMistakeAt,
+      masteredAt: masteredAt,
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: new Date().toISOString(),
     }
@@ -382,6 +431,23 @@ export async function updateTestStats(
       .eq('word_id', wordId)
       .maybeSingle()
 
+    const currentConsecutiveCorrect = existing?.consecutive_correct_count || 0
+
+    // 错题退出机制：连续答对3次
+    const CONSECUTIVE_CORRECT_THRESHOLD = 3
+    let newConsecutiveCorrect = isCorrect ? currentConsecutiveCorrect + 1 : 0
+    let masteredAt: string | undefined = existing?.mastered_at
+
+    // 如果连续答对达到阈值且之前有错题记录，则标记为已掌握
+    if (isCorrect && newConsecutiveCorrect >= CONSECUTIVE_CORRECT_THRESHOLD && (existing?.test_wrong_count || 0) > 0) {
+      masteredAt = new Date().toISOString()
+    }
+
+    // 答错时清除已掌握状态
+    if (!isCorrect) {
+      masteredAt = undefined
+    }
+
     const newStats: LearningStats = {
       viewCount: existing?.view_count || currentStats?.viewCount || 0,
       masteredCount: existing?.mastered_count || currentStats?.masteredCount || 0,
@@ -393,6 +459,9 @@ export async function updateTestStats(
       testWrongCount: !isCorrect
         ? (existing?.test_wrong_count || currentStats?.testWrongCount || 0) + 1
         : (existing?.test_wrong_count || currentStats?.testWrongCount || 0),
+      consecutiveCorrectCount: newConsecutiveCorrect,
+      lastMistakeAt: !isCorrect ? new Date().toISOString() : existing?.last_mistake_at || currentStats?.lastMistakeAt,
+      masteredAt: masteredAt,
       lastViewedAt: existing?.last_viewed_at || currentStats?.lastViewedAt,
       lastTestedAt: new Date().toISOString(),
     }
@@ -400,15 +469,26 @@ export async function updateTestStats(
     // 自动计算熟悉程度
     const calculatedFamiliarity = calculateFamiliarity(undefined, newStats)
 
-    const upsertData = {
+    const upsertData: any = {
       user_id: userId,
       word_id: wordId,
       familiarity: calculatedFamiliarity,
       test_count: newStats.testCount,
       test_correct_count: newStats.testCorrectCount,
       test_wrong_count: newStats.testWrongCount,
+      consecutive_correct_count: newConsecutiveCorrect,
+      last_mistake_at: newStats.lastMistakeAt,
+      mastered_at: newStats.masteredAt,
       last_tested_at: newStats.lastTestedAt,
       updated_at: new Date().toISOString(),
+    }
+
+    // 添加错题相关字段（如果数据库支持）
+    if (!isCorrect) {
+      upsertData.last_mistake_at = newStats.lastMistakeAt
+    }
+    if (masteredAt) {
+      upsertData.mastered_at = masteredAt
     }
 
     const { error } = await supabase
@@ -469,6 +549,9 @@ export async function saveAllUserProgress(
         data.test_count = word.stats.testCount
         data.test_correct_count = word.stats.testCorrectCount
         data.test_wrong_count = word.stats.testWrongCount
+        data.consecutive_correct_count = word.stats.consecutiveCorrectCount
+        data.last_mistake_at = word.stats.lastMistakeAt
+        data.mastered_at = word.stats.masteredAt
         data.last_viewed_at = word.stats.lastViewedAt
         data.last_tested_at = word.stats.lastTestedAt
       }

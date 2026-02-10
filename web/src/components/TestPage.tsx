@@ -4,7 +4,7 @@ import type { User } from '@supabase/supabase-js'
 import type { Word, DifficultyLevel } from '../data/words'
 import { words } from '../data/words'
 import { supabase } from '../lib/supabase'
-import { updateTestStats } from '../lib/progressSync'
+import { updateTestStats, loadUserProgress, mergeProgress } from '../lib/progressSync'
 import { calculateFamiliarity } from '../lib/familiarityCalculator'
 import { isPremiumUser } from '../lib/subscription'
 import { safeLocalStorage } from '../lib/safeLocalStorage'
@@ -116,6 +116,8 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const [showHint, setShowHint] = useState(false)
   const [timeLimit, setTimeLimit] = useState(0)
   const [timeRemaining, setTimeRemaining] = useState(0)
+  const [mistakesOnly, setMistakesOnly] = useState(false) // 是否只测试错题
+  const [wordsWithProgress, setWordsWithProgress] = useState<Word[]>([]) // 带进度的单词列表
 
   // 检查用户认证状态
   useEffect(() => {
@@ -126,6 +128,43 @@ export default function TestPage({ languageMode }: TestPageProps) {
         // 加载订阅状态
         const premium = await isPremiumUser(session.user.id)
         setIsPremium(premium)
+
+        // 加载用户进度（用于错题专属测试）
+        await loadUserProgressData(session.user.id)
+      } else {
+        // 未登录，使用 localStorage 的数据
+        const savedProgress = safeLocalStorage.getItem('nl-words')
+        if (savedProgress) {
+          try {
+            const parsedWords = JSON.parse(savedProgress) as Word[]
+            setWordsWithProgress(parsedWords)
+          } catch (e) {
+            console.error('Failed to parse saved progress:', e)
+            setWordsWithProgress(words)
+          }
+        }
+      }
+    }
+
+    // 加载用户进度数据
+    const loadUserProgressData = async (userId: string) => {
+      try {
+        const progressMap = await loadUserProgress(userId)
+        const mergedWords = mergeProgress(words, progressMap)
+        setWordsWithProgress(mergedWords)
+      } catch (error) {
+        console.error('Failed to load progress from Supabase:', error)
+        // 如果云端加载失败，使用 localStorage 的数据
+        const savedProgress = safeLocalStorage.getItem('nl-words')
+        if (savedProgress) {
+          try {
+            const parsedWords = JSON.parse(savedProgress) as Word[]
+            setWordsWithProgress(parsedWords)
+          } catch (e) {
+            console.error('Failed to parse saved progress:', e)
+            setWordsWithProgress(words)
+          }
+        }
       }
     }
 
@@ -154,10 +193,29 @@ export default function TestPage({ languageMode }: TestPageProps) {
       if (session?.user) {
         const premium = await isPremiumUser(session.user.id)
         setIsPremium(premium)
+        // 加载用户进度
+        await loadUserProgressData(session.user.id)
       } else {
         setIsPremium(false)
+        // 未登录，使用 localStorage 的数据
+        const savedProgress = safeLocalStorage.getItem('nl-words')
+        if (savedProgress) {
+          try {
+            const parsedWords = JSON.parse(savedProgress) as Word[]
+            setWordsWithProgress(parsedWords)
+          } catch (e) {
+            console.error('Failed to parse saved progress:', e)
+            setWordsWithProgress(words)
+          }
+        }
       }
     })
+
+    // 检查 URL 参数，是否为错题专属测试
+    const urlParams = new URLSearchParams(window.location.search)
+    if (urlParams.get('mistakesOnly') === 'true') {
+      setMistakesOnly(true)
+    }
 
     return () => {
       subscription.unsubscribe()
@@ -166,7 +224,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
 
   const translations = {
     chinese: {
-      title: '单词测试',
+      title: mistakesOnly ? '错题专属测试' : '单词测试',
       backToLearn: '← 返回学单词',
       startTest: '开始测试',
       question: '请选择这个单词的正确翻译',
@@ -191,7 +249,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
       hintLabel: '例句：'
     },
     english: {
-      title: 'Word Test',
+      title: mistakesOnly ? 'Mistakes Only Test' : 'Word Test',
       backToLearn: '← Back to Learn',
       startTest: 'Start Test',
       question: 'Select the correct translation',
@@ -301,8 +359,17 @@ export default function TestPage({ languageMode }: TestPageProps) {
 
   // 开始测试
   const startTest = useCallback(() => {
-    // 根据难度筛选单词
-    const filteredWords = filterWordsByDifficulty(words, selectedDifficulty)
+    // 根据模式筛选单词
+    let filteredWords = mistakesOnly
+      ? wordsWithProgress.filter(w => {
+          const wrongCount = w.stats?.testWrongCount || 0
+          const masteredAt = w.stats?.masteredAt
+          return wrongCount > 0 && !masteredAt // 只测试有错题且未掌握的单词
+        })
+      : filterWordsByDifficulty(wordsWithProgress.length > 0 ? wordsWithProgress : words, selectedDifficulty)
+
+    // 如果是错题专属测试，不需要再次过滤难度（因为错题本已经显示了所有错题）
+    // 但如果不是错题模式，需要根据难度筛选
 
     // 确保选择的数量不超过可用单词数
     const count = Math.min(wordCount, filteredWords.length)
@@ -329,7 +396,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
     } else {
       setCurrentOptions([])
     }
-  }, [selectedDifficulty, wordCount, timeLimit, generateOptions, filterWordsByDifficulty])
+  }, [selectedDifficulty, wordCount, timeLimit, generateOptions, filterWordsByDifficulty, mistakesOnly, wordsWithProgress])
 
   // 发音功能
   const speakDutch = (text: string) => {
@@ -369,6 +436,19 @@ export default function TestPage({ languageMode }: TestPageProps) {
           const wordIndex = localWords.findIndex(w => w.id === wordToSkip.id)
           if (wordIndex !== -1) {
             const currentStats = localWords[wordIndex].stats
+            const CONSECUTIVE_CORRECT_THRESHOLD = 3
+            let newConsecutiveCorrect = 0 // 跳过视为错误
+            let masteredAt: string | undefined = currentStats?.masteredAt
+
+            // 更新连续答对统计
+            if (isCorrect) {
+              newConsecutiveCorrect = (currentStats?.consecutiveCorrectCount || 0) + 1
+              // 如果连续答对达到阈值且之前有错题记录，则标记为已掌握
+              if (newConsecutiveCorrect >= CONSECUTIVE_CORRECT_THRESHOLD && (currentStats?.testWrongCount || 0) > 0) {
+                masteredAt = new Date().toISOString()
+              }
+            }
+
             const updatedStats = {
               viewCount: currentStats?.viewCount || 0,
               masteredCount: currentStats?.masteredCount || 0,
@@ -376,6 +456,9 @@ export default function TestPage({ languageMode }: TestPageProps) {
               testCount: (currentStats?.testCount || 0) + 1,
               testCorrectCount: currentStats?.testCorrectCount || 0,
               testWrongCount: (currentStats?.testWrongCount || 0) + 1,
+              consecutiveCorrectCount: newConsecutiveCorrect,
+              lastMistakeAt: new Date().toISOString(),
+              masteredAt: masteredAt,
               lastViewedAt: currentStats?.lastViewedAt,
               lastTestedAt: new Date().toISOString(),
             }
@@ -473,6 +556,20 @@ export default function TestPage({ languageMode }: TestPageProps) {
           const wordIndex = localWords.findIndex(w => w.id === currentWord.id)
           if (wordIndex !== -1) {
             const currentStats = localWords[wordIndex].stats
+            const CONSECUTIVE_CORRECT_THRESHOLD = 3
+            let newConsecutiveCorrect = isCorrect ? (currentStats?.consecutiveCorrectCount || 0) + 1 : 0
+            let masteredAt: string | undefined = currentStats?.masteredAt
+
+            // 如果连续答对达到阈值且之前有错题记录，则标记为已掌握
+            if (isCorrect && newConsecutiveCorrect >= CONSECUTIVE_CORRECT_THRESHOLD && (currentStats?.testWrongCount || 0) > 0) {
+              masteredAt = new Date().toISOString()
+            }
+
+            // 答错时清除已掌握状态
+            if (!isCorrect) {
+              masteredAt = undefined
+            }
+
             const updatedStats = {
               viewCount: currentStats?.viewCount || 0,
               masteredCount: currentStats?.masteredCount || 0,
@@ -480,6 +577,9 @@ export default function TestPage({ languageMode }: TestPageProps) {
               testCount: (currentStats?.testCount || 0) + 1,
               testCorrectCount: isCorrect ? (currentStats?.testCorrectCount || 0) + 1 : (currentStats?.testCorrectCount || 0),
               testWrongCount: !isCorrect ? (currentStats?.testWrongCount || 0) + 1 : (currentStats?.testWrongCount || 0),
+              consecutiveCorrectCount: newConsecutiveCorrect,
+              lastMistakeAt: !isCorrect ? new Date().toISOString() : currentStats?.lastMistakeAt,
+              masteredAt: masteredAt,
               lastViewedAt: currentStats?.lastViewedAt,
               lastTestedAt: new Date().toISOString(),
             }
@@ -526,6 +626,11 @@ export default function TestPage({ languageMode }: TestPageProps) {
           const wordIndex = localWords.findIndex(w => w.id === currentWord.id)
           if (wordIndex !== -1) {
             const currentStats = localWords[wordIndex].stats
+            let newConsecutiveCorrect = 0 // 标记为未掌握视为错误，连续答对清零
+
+            // 答错时清除已掌握状态
+            let masteredAt: string | undefined = undefined
+
             const updatedStats = {
               viewCount: currentStats?.viewCount || 0,
               masteredCount: currentStats?.masteredCount || 0,
@@ -533,6 +638,9 @@ export default function TestPage({ languageMode }: TestPageProps) {
               testCount: (currentStats?.testCount || 0) + 1,
               testCorrectCount: currentStats?.testCorrectCount || 0,
               testWrongCount: (currentStats?.testWrongCount || 0) + 1,
+              consecutiveCorrectCount: newConsecutiveCorrect,
+              lastMistakeAt: new Date().toISOString(),
+              masteredAt: masteredAt,
               lastViewedAt: currentStats?.lastViewedAt,
               lastTestedAt: new Date().toISOString(),
             }
