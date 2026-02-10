@@ -97,7 +97,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   const [timeRemaining, setTimeRemaining] = useState(15)
   const [lives, setLives] = useState(3)
   const [combo, setCombo] = useState(0)
-  const [wrongAnswers, setWrongAnswers] = useState<{word: Word, userAnswer: string, correctAnswer: string}[]>([])
+  const [wrongAnswers, setWrongAnswers] = useState<{ word: Word, userAnswer: string, correctAnswer: string }[]>([])
   const [hints, setHints] = useState<string[]>([])
   const [hintIndex, setHintIndex] = useState(0)
   const [gameStarted, setGameStarted] = useState(false)
@@ -286,7 +286,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
         return []
       }
     }
-    
+
     // 付费用户可以访问所有难度
     if (difficulty === 'all') {
       return allWords
@@ -523,7 +523,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
                       }
                       return currentLives
                     })
-                  }, 100)
+                  }, 2000)
 
                   // 立即重置处理标志，允许用户点击"下一题"
                   setTimeout(() => {
@@ -665,7 +665,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     if (lives <= 1 || currentIndex >= gameWords.length - 1) {
       setTimeout(() => {
         setGameComplete(true)
-      }, 1000)
+      }, 2000)
     }
 
     // 延迟重置处理标志，确保状态更新完成
@@ -782,7 +782,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     if (lives <= 0 || currentIndex >= gameWords.length - 1) {
       setTimeout(() => {
         setGameComplete(true)
-      }, 1000)
+      }, 2000)
     }
 
     // 延迟重置处理标志，确保状态更新完成
@@ -819,9 +819,10 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   // 检查是否生命值为0
   useEffect(() => {
     if (lives <= 0 && gameStarted) {
-      setTimeout(() => {
+      const timer = setTimeout(() => {
         setGameComplete(true)
-      }, 0)
+      }, 2000)
+      return () => clearTimeout(timer)
     }
   }, [lives, gameStarted])
 
@@ -829,6 +830,8 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
 
   // 从sessionStorage读取设置并自动开始游戏
   useEffect(() => {
+    if (gameStarted) return
+
     const testSettingsStr = sessionStorage.getItem('testSettings')
     if (testSettingsStr) {
       try {
@@ -856,7 +859,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     }, 100)
 
     return () => clearTimeout(timer)
-  }, [startGame])
+  }, [startGame, gameStarted])
 
   // 游戏完成界面
   if (gameComplete) {
@@ -875,6 +878,103 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
 
     return (
       <>
+        <div className="spelling-game">
+          <div className="game-container">
+            <div className="page-header">
+              <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
+                {t.backToLearn}
+              </button>
+              <button
+                className="lang-toggle-btn"
+                onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/game`)}
+                aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+                title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+              >
+                <GlobeIcon />
+                <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
+              </button>
+            </div>
+            <div className="game-complete">
+              <h1>{t.gameComplete}</h1>
+              <div className="result-message">{resultMessage}</div>
+
+              <div className="stats-display">
+                <div className="stat-item">
+                  <div className="stat-label">{t.score}</div>
+                  <div className="stat-value">{score}</div>
+                </div>
+                <div className="stat-item">
+                  <div className="stat-label">{t.correct}</div>
+                  <div className="stat-value">{correctCount} / {gameWords.length}</div>
+                </div>
+                <div className="stat-item">
+                  <div className="stat-label">{t.lives}</div>
+                  <div className="stat-value">{lives} / 3</div>
+                </div>
+              </div>
+
+              {wrongAnswers.length > 0 && (
+                <div className="wrong-answers-summary">
+                  <h3>{t.wrongAnswersSummary}</h3>
+                  <div className="wrong-answers-list">
+                    {wrongAnswers.map((item, index) => (
+                      <div key={index} className="wrong-answer-item">
+                        <div className="wrong-word">
+                          <strong>{item.word.word}</strong> -
+                          {languageMode === 'chinese' ? item.word.translation.chinese : item.word.translation.english}
+                        </div>
+                        <div className="spelling-comparison">
+                          <span className="your-spelling">{t.yourSpelling}: {item.userAnswer || '—'}</span>
+                          <span className="correct-spelling">{t.correctSpelling}: {item.correctAnswer}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              <div className="game-actions">
+                <button className="btn btn-primary btn-lg" onClick={restartGame}>
+                  {t.continuePlaying}
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Premium 升级弹窗 */}
+        <PremiumUpgradeModal
+          isOpen={showPremiumModal}
+          onClose={() => setShowPremiumModal(false)}
+          languageMode={languageMode}
+        />
+      </>
+    )
+  }
+
+  // 游戏进行中
+  if (!currentWord) {
+    return (
+      <>
+        <div className="spelling-game">
+          <div className="game-container">
+            <div className="page-header">
+              <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
+                {t.backToLearn}
+              </button>
+            </div>
+            <div className="loading-container">
+              <div className="loading-spinner"></div>
+              <p>{languageMode === 'chinese' ? '加载中...' : 'Loading...'}</p>
+            </div>
+          </div>
+        </div>
+      </>
+    )
+  }
+
+  return (
+    <>
       <div className="spelling-game">
         <div className="game-container">
           <div className="page-header">
@@ -891,51 +991,138 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
               <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
             </button>
           </div>
-          <div className="game-complete">
-            <h1>{t.gameComplete}</h1>
-            <div className="result-message">{resultMessage}</div>
 
-            <div className="stats-display">
-              <div className="stat-item">
-                <div className="stat-label">{t.score}</div>
-                <div className="stat-value">{score}</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-label">{t.correct}</div>
-                <div className="stat-value">{correctCount} / {gameWords.length}</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-label">{t.lives}</div>
-                <div className="stat-value">{lives} / 3</div>
-              </div>
+          {/* 游戏状态栏 */}
+          <div className="game-status-bar">
+            <div className="status-item">
+              <span className="status-label">{currentIndex + 1} / {gameWords.length}</span>
             </div>
-
-            {wrongAnswers.length > 0 && (
-              <div className="wrong-answers-summary">
-                <h3>{t.wrongAnswersSummary}</h3>
-                <div className="wrong-answers-list">
-                  {wrongAnswers.map((item, index) => (
-                    <div key={index} className="wrong-answer-item">
-                      <div className="wrong-word">
-                        <strong>{item.word.word}</strong> -
-                        {languageMode === 'chinese' ? item.word.translation.chinese : item.word.translation.english}
-                      </div>
-                      <div className="spelling-comparison">
-                        <span className="your-spelling">{t.yourSpelling}: {item.userAnswer || '—'}</span>
-                        <span className="correct-spelling">{t.correctSpelling}: {item.correctAnswer}</span>
-                      </div>
-                    </div>
-                  ))}
-                </div>
+            <div className="status-item">
+              <HeartIcon />
+              <span className="status-label">{lives}</span>
+            </div>
+            {combo > 0 && (
+              <div className="status-item combo-active">
+                <FireIcon />
+                <span className="status-label">{combo}x</span>
               </div>
             )}
+            <div className="status-item">
+              <span className="status-label">{t.score}: {score}</span>
+            </div>
+            {timeModeEnabled && !showResult && (
+              <div className="status-item">
+                <ClockIcon />
+                <span className={`status-label ${timeRemaining <= 5 ? 'warning' : ''}`}>{timeRemaining}s</span>
+              </div>
+            )}
+          </div>
 
-            <div className="game-actions">
-              <button className="btn btn-primary btn-lg" onClick={restartGame}>
-                {t.continuePlaying}
+          {/* 问题卡片 */}
+          <div className="question-card">
+            <div className="question-header">
+              <span className="question-label">{t.currentWord}</span>
+              <button
+                className="speak-btn-test"
+                onClick={() => speakDutch(currentWord.word)}
+                title={t.speakButton}
+              >
+                <SpeakerIcon isSpeaking={isSpeaking} />
               </button>
             </div>
+            <div className="word-translation">
+              {languageMode === 'chinese' ? currentWord.translation.chinese : currentWord.translation.english}
+            </div>
+            <div className="word-difficulty-badge">
+              <span className={`difficulty-badge difficulty--${currentWord.difficulty}`}>
+                {currentWord.difficulty}
+              </span>
+              <span className={`familiarity-badge familiarity--${currentWord.familiarity}`}>
+                {languageMode === 'chinese'
+                  ? currentWord.familiarity === 'new' ? '新词'
+                    : currentWord.familiarity === 'learning' ? '学习中'
+                      : currentWord.familiarity === 'familiar' ? '熟悉'
+                        : '已掌握'
+                  : currentWord.familiarity}
+              </span>
+            </div>
           </div>
+
+          {/* 输入区域 */}
+          {!showResult && (
+            <div className="input-section">
+              <input
+                ref={inputRef}
+                type="text"
+                className="word-input"
+                value={userAnswer}
+                onChange={(e) => setUserAnswer(e.target.value)}
+                onKeyPress={(e) => e.key === 'Enter' && userAnswer.trim() && submitAnswer()}
+                placeholder={languageMode === 'chinese' ? '输入荷兰语单词...' : 'Type Dutch word...'}
+                autoFocus
+                disabled={showResult}
+              />
+              {hints.length > 0 && hints[hintIndex] && (
+                <div className="hint-display">
+                  <HintIcon />
+                  <span className="hint-text">{hints[hintIndex]}</span>
+                  {hintIndex < hints.length - 1 && (
+                    <button className="hint-btn" onClick={useHint}>
+                      {t.useHint} ({hints.length - 1 - hintIndex})
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* 结果显示 */}
+          {showResult && (
+            <div className="result-section">
+              <div className={`result-message ${userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() ? 'correct' : 'wrong'}`}>
+                {userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() ? t.correct : t.wrong}
+              </div>
+              {userAnswer.toLowerCase().trim() !== currentWord.word.toLowerCase().trim() && (
+                <div className="correct-answer-display">
+                  {t.correctAnswer}: <strong>{currentWord.word}</strong>
+                </div>
+              )}
+              {combo > 0 && userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() && (
+                <div className="combo-display">
+                  <FireIcon />
+                  <span>{t.comboBonus}{combo}</span>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* 操作按钮 */}
+          {!showResult ? (
+            <div style={{ display: 'flex', gap: '15px', width: '100%' }}>
+              <button
+                className="btn btn-outline btn-lg"
+                style={{ flex: 1 }}
+                onClick={skipQuestion}
+              >
+                {t.nextQuestion}
+              </button>
+              <button
+                className="btn btn-primary btn-lg submit-btn"
+                style={{ flex: 1 }}
+                onClick={submitAnswer}
+                disabled={!userAnswer.trim()}
+              >
+                {t.submitAnswer}
+              </button>
+            </div>
+          ) : (
+            <button
+              className="btn btn-primary btn-lg next-btn"
+              onClick={nextQuestion}
+            >
+              {t.nextQuestion}
+            </button>
+          )}
         </div>
       </div>
 
@@ -945,190 +1132,6 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
         onClose={() => setShowPremiumModal(false)}
         languageMode={languageMode}
       />
-      </>
-    )
-  }
-
-  // 游戏进行中
-  if (!currentWord) {
-    return (
-      <>
-      <div className="spelling-game">
-        <div className="game-container">
-          <div className="page-header">
-            <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
-              {t.backToLearn}
-            </button>
-          </div>
-          <div className="loading-container">
-            <div className="loading-spinner"></div>
-            <p>{languageMode === 'chinese' ? '加载中...' : 'Loading...'}</p>
-          </div>
-        </div>
-      </div>
-      </>
-    )
-  }
-
-  return (
-    <>
-    <div className="spelling-game">
-      <div className="game-container">
-        <div className="page-header">
-          <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
-            {t.backToLearn}
-          </button>
-          <button
-            className="lang-toggle-btn"
-            onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/game`)}
-            aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
-            title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
-          >
-            <GlobeIcon />
-            <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
-          </button>
-        </div>
-
-        {/* 游戏状态栏 */}
-        <div className="game-status-bar">
-          <div className="status-item">
-            <span className="status-label">{currentIndex + 1} / {gameWords.length}</span>
-          </div>
-          <div className="status-item">
-            <HeartIcon />
-            <span className="status-label">{lives}</span>
-          </div>
-          {combo > 0 && (
-            <div className="status-item combo-active">
-              <FireIcon />
-              <span className="status-label">{combo}x</span>
-            </div>
-          )}
-          <div className="status-item">
-            <span className="status-label">{t.score}: {score}</span>
-          </div>
-          {timeModeEnabled && !showResult && (
-            <div className="status-item">
-              <ClockIcon />
-              <span className={`status-label ${timeRemaining <= 5 ? 'warning' : ''}`}>{timeRemaining}s</span>
-            </div>
-          )}
-        </div>
-
-        {/* 问题卡片 */}
-        <div className="question-card">
-          <div className="question-header">
-            <span className="question-label">{t.currentWord}</span>
-            <button
-              className="speak-btn-test"
-              onClick={() => speakDutch(currentWord.word)}
-              title={t.speakButton}
-            >
-              <SpeakerIcon isSpeaking={isSpeaking} />
-            </button>
-          </div>
-          <div className="word-translation">
-            {languageMode === 'chinese' ? currentWord.translation.chinese : currentWord.translation.english}
-          </div>
-          <div className="word-difficulty-badge">
-            <span className={`difficulty-badge difficulty--${currentWord.difficulty}`}>
-              {currentWord.difficulty}
-            </span>
-            <span className={`familiarity-badge familiarity--${currentWord.familiarity}`}>
-              {languageMode === 'chinese'
-                ? currentWord.familiarity === 'new' ? '新词'
-                  : currentWord.familiarity === 'learning' ? '学习中'
-                  : currentWord.familiarity === 'familiar' ? '熟悉'
-                  : '已掌握'
-                : currentWord.familiarity}
-            </span>
-          </div>
-        </div>
-
-        {/* 输入区域 */}
-        {!showResult && (
-          <div className="input-section">
-            <input
-              ref={inputRef}
-              type="text"
-              className="word-input"
-              value={userAnswer}
-              onChange={(e) => setUserAnswer(e.target.value)}
-              onKeyPress={(e) => e.key === 'Enter' && userAnswer.trim() && submitAnswer()}
-              placeholder={languageMode === 'chinese' ? '输入荷兰语单词...' : 'Type Dutch word...'}
-              autoFocus
-              disabled={showResult}
-            />
-            {hints.length > 0 && hints[hintIndex] && (
-              <div className="hint-display">
-                <HintIcon />
-                <span className="hint-text">{hints[hintIndex]}</span>
-                {hintIndex < hints.length - 1 && (
-                  <button className="hint-btn" onClick={useHint}>
-                    {t.useHint} ({hints.length - 1 - hintIndex})
-                  </button>
-                )}
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* 结果显示 */}
-        {showResult && (
-          <div className="result-section">
-            <div className={`result-message ${userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() ? 'correct' : 'wrong'}`}>
-              {userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() ? t.correct : t.wrong}
-            </div>
-            {userAnswer.toLowerCase().trim() !== currentWord.word.toLowerCase().trim() && (
-              <div className="correct-answer-display">
-                {t.correctAnswer}: <strong>{currentWord.word}</strong>
-              </div>
-            )}
-            {combo > 0 && userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() && (
-              <div className="combo-display">
-                <FireIcon />
-                <span>{t.comboBonus}{combo}</span>
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* 操作按钮 */}
-        {!showResult ? (
-          <div style={{ display: 'flex', gap: '15px', width: '100%' }}>
-            <button
-              className="btn btn-outline btn-lg"
-              style={{ flex: 1 }}
-              onClick={skipQuestion}
-            >
-              {t.nextQuestion}
-            </button>
-            <button
-              className="btn btn-primary btn-lg submit-btn"
-              style={{ flex: 1 }}
-              onClick={submitAnswer}
-              disabled={!userAnswer.trim()}
-            >
-              {t.submitAnswer}
-            </button>
-          </div>
-        ) : (
-          <button
-            className="btn btn-primary btn-lg next-btn"
-            onClick={nextQuestion}
-          >
-            {t.nextQuestion}
-          </button>
-        )}
-      </div>
-    </div>
-
-    {/* Premium 升级弹窗 */}
-    <PremiumUpgradeModal
-      isOpen={showPremiumModal}
-      onClose={() => setShowPremiumModal(false)}
-      languageMode={languageMode}
-    />
     </>
   )
 }
