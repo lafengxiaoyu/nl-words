@@ -117,7 +117,8 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const [timeLimit, setTimeLimit] = useState(0)
   const [timeRemaining, setTimeRemaining] = useState(0)
   const [wordsWithProgress, setWordsWithProgress] = useState<Word[]>([]) // 带进度的单词列表
-  
+  const [testMode, setTestMode] = useState<'all' | 'mistakes' | 'new' | 'learning'>('all') // 测试模式
+
   // 从 URL 参数获取是否为错题专属测试
   const mistakesOnly = useMemo(() => {
     const urlParams = new URLSearchParams(window.location.search)
@@ -185,6 +186,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
           if (settings.difficulty) setSelectedDifficulty(settings.difficulty)
           if (settings.wordCount) setWordCount(settings.wordCount)
           if (settings.timeLimit !== undefined) setTimeLimit(settings.timeLimit)
+          if (settings.testMode) setTestMode(settings.testMode)
         }, 0)
       } catch (error) {
         console.error('Failed to parse test settings:', error)
@@ -237,8 +239,13 @@ export default function TestPage({ languageMode }: TestPageProps) {
       wrong: '错误',
       correctAnswer: '正确答案',
       speakButton: '🔊 发音',
+      selectTestMode: '测试模式',
       selectDifficulty: '选择难度',
       selectWordCount: '选择单词数量',
+      testModeAll: '全部随机',
+      testModeMistakes: '错题复习',
+      testModeNew: '新题练习',
+      testModeLearning: '学习中',
       allDifficulty: '全部',
       wordCountLabel: (count: number) => `${count} 个单词`,
       notMastered: '未掌握',
@@ -262,8 +269,13 @@ export default function TestPage({ languageMode }: TestPageProps) {
       wrong: 'Wrong',
       correctAnswer: 'Correct Answer',
       speakButton: '🔊 Pronounce',
+      selectTestMode: 'Test Mode',
       selectDifficulty: 'Select Difficulty',
       selectWordCount: 'Select Word Count',
+      testModeAll: 'All Random',
+      testModeMistakes: 'Mistakes Review',
+      testModeNew: 'New Words',
+      testModeLearning: 'Learning',
       allDifficulty: 'All',
       wordCountLabel: (count: number) => `${count} words`,
       notMastered: 'Not Mastered',
@@ -359,16 +371,52 @@ export default function TestPage({ languageMode }: TestPageProps) {
   // 开始测试
   const startTest = useCallback(() => {
     // 根据模式筛选单词
-    const filteredWords = mistakesOnly
-      ? wordsWithProgress.filter(w => {
-          const wrongCount = w.stats?.testWrongCount || 0
-          const masteredAt = w.stats?.masteredAt
-          return wrongCount > 0 && !masteredAt // 只测试有错题且未掌握的单词
-        })
-      : filterWordsByDifficulty(wordsWithProgress.length > 0 ? wordsWithProgress : words, selectedDifficulty)
+    let filteredWords: Word[]
 
-    // 如果是错题专属测试，不需要再次过滤难度（因为错题本已经显示了所有错题）
-    // 但如果不是错题模式，需要根据难度筛选
+    // 如果是从错题本页面进入的错题专属测试，保持向后兼容
+    if (mistakesOnly) {
+      filteredWords = wordsWithProgress.filter(w => {
+        const wrongCount = w.stats?.testWrongCount || 0
+        const masteredAt = w.stats?.masteredAt
+        return wrongCount > 0 && !masteredAt
+      })
+    } else {
+      // 根据选择的测试模式筛选单词
+      const baseWords = wordsWithProgress.length > 0 ? wordsWithProgress : words
+
+      switch (testMode) {
+        case 'mistakes':
+          // 错题复习：只出做错过且未掌握的单词
+          filteredWords = baseWords.filter(w => {
+            const wrongCount = w.stats?.testWrongCount || 0
+            const masteredAt = w.stats?.masteredAt
+            return wrongCount > 0 && !masteredAt
+          })
+          break
+
+        case 'new':
+          // 新题练习：只出熟悉度为 new 的单词
+          filteredWords = filterWordsByDifficulty(
+            baseWords.filter(w => w.familiarity === 'new'),
+            selectedDifficulty
+          )
+          break
+
+        case 'learning':
+          // 学习中：只出熟悉度为 learning 或 familiar 的单词
+          filteredWords = filterWordsByDifficulty(
+            baseWords.filter(w => w.familiarity === 'learning' || w.familiarity === 'familiar'),
+            selectedDifficulty
+          )
+          break
+
+        case 'all':
+        default:
+          // 全部随机：所有单词（受难度限制）
+          filteredWords = filterWordsByDifficulty(baseWords, selectedDifficulty)
+          break
+      }
+    }
 
     // 确保选择的数量不超过可用单词数
     const count = Math.min(wordCount, filteredWords.length)
@@ -395,7 +443,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
     } else {
       setCurrentOptions([])
     }
-  }, [selectedDifficulty, wordCount, timeLimit, generateOptions, filterWordsByDifficulty, mistakesOnly, wordsWithProgress])
+  }, [selectedDifficulty, wordCount, timeLimit, generateOptions, filterWordsByDifficulty, mistakesOnly, wordsWithProgress, testMode])
 
   // 发音功能
   const speakDutch = (text: string) => {
@@ -682,7 +730,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
 
   // 重新开始
   const restartTest = () => {
-    startTest()
+    setTestWords([]) // 清空测试单词以显示设置页面
     setShowHint(false)
   }
 
@@ -713,31 +761,65 @@ export default function TestPage({ languageMode }: TestPageProps) {
 
             <div className="test-options">
               <div className="option-group">
-                <label className="option-label">{t.selectDifficulty}</label>
-                <div className="difficulty-selector">
+                <label className="option-label">{t.selectTestMode}</label>
+                <div className="test-mode-selector">
                   <button
-                    className={`difficulty-option ${selectedDifficulty === 'all' ? 'selected' : ''}`}
-                    onClick={() => setSelectedDifficulty('all')}
+                    className={`test-mode-option ${testMode === 'all' ? 'selected' : ''}`}
+                    onClick={() => setTestMode('all')}
+                  >
+                    {t.testModeAll}
+                  </button>
+                  <button
+                    className={`test-mode-option ${testMode === 'mistakes' ? 'selected' : ''}`}
+                    onClick={() => setTestMode('mistakes')}
+                  >
+                    {t.testModeMistakes}
+                  </button>
+                  <button
+                    className={`test-mode-option ${testMode === 'new' ? 'selected' : ''}`}
+                    onClick={() => setTestMode('new')}
+                  >
+                    {t.testModeNew}
+                  </button>
+                  <button
+                    className={`test-mode-option ${testMode === 'learning' ? 'selected' : ''}`}
+                    onClick={() => setTestMode('learning')}
+                  >
+                    {t.testModeLearning}
+                  </button>
+                </div>
+              </div>
+
+              <div className="option-group">
+                <label className={`option-label ${testMode === 'mistakes' ? 'disabled' : ''}`}>{t.selectDifficulty}</label>
+                <div className={`difficulty-selector ${testMode === 'mistakes' ? 'disabled' : ''}`}>
+                  <button
+                    className={`difficulty-option ${selectedDifficulty === 'all' ? 'selected' : ''} ${testMode === 'mistakes' ? 'disabled' : ''}`}
+                    onClick={() => testMode !== 'mistakes' && setSelectedDifficulty('all')}
+                    disabled={testMode === 'mistakes'}
                   >
                     {t.allDifficulty}
                   </button>
                   <button
-                    className={`difficulty-option ${selectedDifficulty === 'A1' ? 'selected' : ''}`}
-                    onClick={() => setSelectedDifficulty('A1')}
+                    className={`difficulty-option ${selectedDifficulty === 'A1' ? 'selected' : ''} ${testMode === 'mistakes' ? 'disabled' : ''}`}
+                    onClick={() => testMode !== 'mistakes' && setSelectedDifficulty('A1')}
+                    disabled={testMode === 'mistakes'}
                   >
                     A1-A2
                   </button>
                   <button
-                    className={`difficulty-option ${!isPremium ? 'locked' : ''} ${selectedDifficulty === 'B1' ? 'selected' : ''}`}
-                    onClick={() => setSelectedDifficulty('B1')}
+                    className={`difficulty-option ${!isPremium ? 'locked' : ''} ${selectedDifficulty === 'B1' ? 'selected' : ''} ${testMode === 'mistakes' ? 'disabled' : ''}`}
+                    onClick={() => testMode !== 'mistakes' && setSelectedDifficulty('B1')}
+                    disabled={testMode === 'mistakes'}
                     title={isPremium ? '' : '需要 Premium 才能访问'}
                   >
                     B1-B2
                     {!isPremium && <LockIcon />}
                   </button>
                   <button
-                    className={`difficulty-option ${!isPremium ? 'locked' : ''} ${selectedDifficulty === 'C1' ? 'selected' : ''}`}
-                    onClick={() => setSelectedDifficulty('C1')}
+                    className={`difficulty-option ${!isPremium ? 'locked' : ''} ${selectedDifficulty === 'C1' ? 'selected' : ''} ${testMode === 'mistakes' ? 'disabled' : ''}`}
+                    onClick={() => testMode !== 'mistakes' && setSelectedDifficulty('C1')}
+                    disabled={testMode === 'mistakes'}
                     title={isPremium ? '' : '需要 Premium 才能访问'}
                   >
                     C1-C2

@@ -39,6 +39,7 @@ export default function TestSelectionPage({ languageMode }: TestSelectionPagePro
   const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
   const [wordCount, setWordCount] = useState(10)
   const [timeLimit, setTimeLimit] = useState(0)
+  const [testMode, setTestMode] = useState<'all' | 'mistakes' | 'new' | 'learning'>('all')
   const [isPremium, setIsPremium] = useState(false)
   const [showPremiumModal, setShowPremiumModal] = useState(false)
 
@@ -77,6 +78,11 @@ export default function TestSelectionPage({ languageMode }: TestSelectionPagePro
       timeLimitLabel: (seconds: number) => seconds === 0 ? '无限制' : `${seconds}秒`,
       allDifficulty: '全部',
       wordCountLabel: (count: number) => `${count} 个`,
+      wordFilterMode: '单词筛选模式',
+      filterModeAll: '全部随机',
+      filterModeMistakes: '错题复习',
+      filterModeNew: '新题练习',
+      filterModeLearning: '学习中',
       modeSelection: '选择测试模式',
       modeDefault: '选择题',
       modeGame: '拼写游戏',
@@ -92,6 +98,11 @@ export default function TestSelectionPage({ languageMode }: TestSelectionPagePro
       timeLimitLabel: (seconds: number) => seconds === 0 ? 'No limit' : `${seconds}s`,
       allDifficulty: 'All',
       wordCountLabel: (count: number) => `${count}`,
+      wordFilterMode: 'Word Filter Mode',
+      filterModeAll: 'All Random',
+      filterModeMistakes: 'Mistakes Review',
+      filterModeNew: 'New Words',
+      filterModeLearning: 'Learning',
       modeSelection: 'Select Test Mode',
       modeDefault: 'Multiple Choice',
       modeGame: 'Spelling Game',
@@ -152,6 +163,7 @@ export default function TestSelectionPage({ languageMode }: TestSelectionPagePro
       difficulty: selectedDifficulty,
       wordCount: Math.min(wordCount, maxWordCount),
       timeLimit,
+      testMode,
       mode
     }))
 
@@ -216,6 +228,36 @@ export default function TestSelectionPage({ languageMode }: TestSelectionPagePro
                   >
                     C1-C2
                     {!isPremium && <LockIcon />}
+                  </button>
+                </div>
+              </div>
+
+              <div className="option-group">
+                <label className="option-label">{t.wordFilterMode}</label>
+                <div className="test-mode-selector">
+                  <button
+                    className={`test-mode-option ${testMode === 'all' ? 'selected' : ''}`}
+                    onClick={() => setTestMode('all')}
+                  >
+                    {t.filterModeAll}
+                  </button>
+                  <button
+                    className={`test-mode-option ${testMode === 'mistakes' ? 'selected' : ''}`}
+                    onClick={() => setTestMode('mistakes')}
+                  >
+                    {t.filterModeMistakes}
+                  </button>
+                  <button
+                    className={`test-mode-option ${testMode === 'new' ? 'selected' : ''}`}
+                    onClick={() => setTestMode('new')}
+                  >
+                    {t.filterModeNew}
+                  </button>
+                  <button
+                    className={`test-mode-option ${testMode === 'learning' ? 'selected' : ''}`}
+                    onClick={() => setTestMode('learning')}
+                  >
+                    {t.filterModeLearning}
                   </button>
                 </div>
               </div>

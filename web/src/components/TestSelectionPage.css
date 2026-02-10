@@ -104,7 +104,8 @@
 
 .difficulty-selector,
 .word-count-selector,
-.time-limit-selector {
+.time-limit-selector,
+.test-mode-selector {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
@@ -112,7 +113,8 @@
 
 .difficulty-option,
 .count-option,
-.time-option {
+.time-option,
+.test-mode-option {
   padding: 10px 14px;
   background: #f8fafc;
   border: 1px solid #e2e8f0;
@@ -126,17 +128,21 @@
 
 .difficulty-option:hover:not(.disabled),
 .count-option:hover:not(.disabled),
-.time-option:hover:not(.disabled) {
+.time-option:hover:not(.disabled),
+.test-mode-option:hover:not(.disabled) {
   background: #f1f5f9;
   border-color: #cbd5e1;
 }
 
 .difficulty-option.selected,
 .count-option.selected,
-.time-option.selected {
+.time-option.selected,
+.test-mode-option.selected {
   background: #6366f1;
   border-color: #6366f1;
   color: white;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .difficulty-option.locked {
@@ -227,7 +233,8 @@
 
   .difficulty-selector,
   .word-count-selector,
-  .time-limit-selector {
+  .time-limit-selector,
+  .test-mode-selector {
     grid-template-columns: repeat(2, 1fr);
   }
 
