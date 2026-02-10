@@ -1400,3 +1400,64 @@
   width: 12px;
   height: 12px;
 }
+
+/* 视图切换按钮 */
+.view-toggle-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.view-toggle-btn {
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 12px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.view-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+.view-toggle-btn.active {
+  background: linear-gradient(135deg, #f97316 0%, #ef4444 100%);
+  border-color: #ef4444;
+  box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
+}
+
+/* 错误次数列 */
+.wrong-count-col {
+  text-align: center;
+  width: 100px;
+}
+
+.wrong-count-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 32px;
+  padding: 0 12px;
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.3) 0%, rgba(220, 38, 38, 0.3) 100%);
+  border: 2px solid #ef4444;
+  border-radius: 10px;
+  color: #ef4444;
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.3);
+}
+
+/* 错题本模式下隐藏收藏列（可选） */
+.view-mode-mistakes .favorite-col {
+  display: table-cell;
+}

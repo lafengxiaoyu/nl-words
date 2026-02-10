@@ -8,6 +8,7 @@ import type { ExampleTranslations } from '../data/types'
 import type { User as SupabaseUser } from '@supabase/supabase-js'
 import { isPremiumUser } from '../lib/subscription'
 import { safeLocalStorage } from '../lib/safeLocalStorage'
+import { loadUserProgress, mergeProgress } from '../lib/progressSync'
 import PremiumUpgradeModal from './PremiumUpgradeModal'
 
 import './WordListPage.css'
@@ -208,6 +209,7 @@ function OptionSelect<T extends string>({
 
 export default function WordListPage({ languageMode }: WordListPageProps) {
   const navigate = useNavigate()
+  const [viewMode, setViewMode] = useState<'all' | 'mistakes'>('all')
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedPartOfSpeech, setSelectedPartOfSpeech] = useState<string>('all')
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all')
@@ -222,7 +224,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     setSelectedDifficulty(difficulty)
   }
   const [selectedWord, setSelectedWord] = useState<Word | null>(null)
-  const [sortBy, setSortBy] = useState<'word' | 'translation' | 'partOfSpeech' | 'difficulty' | 'favorite'>('word')
+  const [sortBy, setSortBy] = useState<'word' | 'translation' | 'partOfSpeech' | 'difficulty' | 'favorite' | 'wrongCount'>('word')
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc')
   const [itemsPerPage, setItemsPerPage] = useState(20)
   const [currentPage, setCurrentPage] = useState(1)
@@ -231,6 +233,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [user, setUser] = useState<SupabaseUser | null>(null)
   const [isPremium, setIsPremium] = useState(false)
   const [showPremiumModal, setShowPremiumModal] = useState(false)
+  const [wordsWithProgress, setWordsWithProgress] = useState<Word[]>(words)
 
   // 获取当前登录用户
   useEffect(() => {
@@ -240,6 +243,47 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     }
     fetchUser()
   }, [])
+
+  // 加载用户进度（如果已登录）
+  useEffect(() => {
+    const loadProgress = async () => {
+      if (user) {
+        try {
+          const progressMap = await loadUserProgress(user.id)
+          const mergedWords = mergeProgress(words, progressMap)
+          setWordsWithProgress(mergedWords)
+          // 同步到 localStorage
+          safeLocalStorage.setItem('nl-words', JSON.stringify(mergedWords))
+        } catch (error) {
+          console.error('Failed to load progress from Supabase:', error)
+          // 如果云端加载失败，使用 localStorage 的数据
+          const savedProgress = safeLocalStorage.getItem('nl-words')
+          if (savedProgress) {
+            try {
+              const parsedWords = JSON.parse(savedProgress) as Word[]
+              setWordsWithProgress(parsedWords)
+            } catch (e) {
+              console.error('Failed to parse saved progress:', e)
+              setWordsWithProgress(words)
+            }
+          }
+        }
+      } else {
+        // 未登录，使用 localStorage 的数据
+        const savedProgress = safeLocalStorage.getItem('nl-words')
+        if (savedProgress) {
+          try {
+            const parsedWords = JSON.parse(savedProgress) as Word[]
+            setWordsWithProgress(parsedWords)
+          } catch (e) {
+            console.error('Failed to parse saved progress:', e)
+            setWordsWithProgress(words)
+          }
+        }
+      }
+    }
+    loadProgress()
+  }, [user])
 
   // 加载订阅状态
   useEffect(() => {
@@ -342,6 +386,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const translations = {
     chinese: {
       title: '单词表',
+      mistakesTitle: '错题本',
       backToLearn: '← 返回学单词',
       word: '单词',
       translation: '翻译',
@@ -370,6 +415,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       C2: 'C2',
       totalWords: (count: number) => `共 ${count} 个单词`,
       noResults: '未找到匹配的单词',
+      noMistakes: '太棒了！你还没有错题记录',
       itemsPerPage: '每页显示',
       page: '页',
       of: '共',
@@ -377,11 +423,15 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       next: '下一页',
       show: '显示',
       items: '项',
-      pageInfo: (current: number, total: number, start: number, end: number, totalItems: number) => 
-        `第 ${current} ${total > 1 ? `页，共 ${total} 页` : '页'} (显示 ${start + 1}-${end}，共 ${totalItems} 项)`
+      pageInfo: (current: number, total: number, start: number, end: number, totalItems: number) =>
+        `第 ${current} ${total > 1 ? `页，共 ${total} 页` : '页'} (显示 ${start + 1}-${end}，共 ${totalItems} 项)`,
+      viewAllWords: '全部单词',
+      viewMistakes: '错题本',
+      wrongCount: '错误次数'
     },
     english: {
       title: 'Word List',
+      mistakesTitle: 'Mistakes',
       backToLearn: '← Back to Learn',
       word: 'Word',
       translation: 'Translation',
@@ -410,6 +460,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       C2: 'C2',
       totalWords: (count: number) => `Total ${count} words`,
       noResults: 'No matching words found',
+      noMistakes: 'Great! You have no mistakes yet',
       itemsPerPage: 'Items per page',
       page: 'Page',
       of: 'of',
@@ -417,8 +468,11 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       next: 'Next',
       show: 'Show',
       items: 'items',
-      pageInfo: (current: number, total: number, start: number, end: number, totalItems: number) => 
-        `Page ${current} ${total > 1 ? `of ${total}` : ''} (showing ${start + 1}-${end} of ${totalItems} items)`
+      pageInfo: (current: number, total: number, start: number, end: number, totalItems: number) =>
+        `Page ${current} ${total > 1 ? `of ${total}` : ''} (showing ${start + 1}-${end} of ${totalItems} items)`,
+      viewAllWords: 'All Words',
+      viewMistakes: 'Mistakes',
+      wrongCount: 'Wrong Count'
     }
   }
 
@@ -509,7 +563,13 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   }
 
   // 过滤单词
-  const filteredWords = words.filter(word => {
+  const filteredWords = wordsWithProgress.filter(word => {
+    // 错题本模式：只显示有错误记录的单词
+    if (viewMode === 'mistakes') {
+      const wrongCount = word.stats?.testWrongCount || 0
+      if (wrongCount === 0) return false
+    }
+
     // 搜索过滤
     const searchLower = searchTerm.toLowerCase()
     const matchesSearch =
@@ -571,6 +631,12 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
         comparison = aFav === bFav ? 0 : (aFav ? -1 : 1)
         break
       }
+      case 'wrongCount': {
+        const aWrong = a.stats?.testWrongCount || 0
+        const bWrong = b.stats?.testWrongCount || 0
+        comparison = aWrong - bWrong
+        break
+      }
     }
     return sortOrder === 'asc' ? comparison : -comparison
   })
@@ -584,7 +650,15 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   // 重置当前页当过滤条件变化时
   useEffect(() => {
     setCurrentPage(1)
-  }, [searchTerm, selectedPartOfSpeech, selectedDifficulty, itemsPerPage])
+  }, [searchTerm, selectedPartOfSpeech, selectedDifficulty, itemsPerPage, viewMode])
+
+  // 切换视图时重置排序
+  useEffect(() => {
+    if (viewMode === 'mistakes' && sortBy === 'favorite') {
+      setSortBy('wrongCount')
+      setSortOrder('desc')
+    }
+  }, [viewMode])
 
   return (
     <div className="word-list-page">
@@ -605,8 +679,23 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
         </div>
 
         <div className="word-list-header">
-          <h1>{t.title}</h1>
+          <h1>{viewMode === 'mistakes' ? t.mistakesTitle : t.title}</h1>
           <p className="word-count">{t.totalWords(filteredWords.length)}</p>
+          {/* 视图切换按钮 */}
+          <div className="view-toggle-buttons">
+            <button
+              className={`view-toggle-btn ${viewMode === 'all' ? 'active' : ''}`}
+              onClick={() => setViewMode('all')}
+            >
+              {t.viewAllWords}
+            </button>
+            <button
+              className={`view-toggle-btn ${viewMode === 'mistakes' ? 'active' : ''}`}
+              onClick={() => setViewMode('mistakes')}
+            >
+              {t.viewMistakes}
+            </button>
+          </div>
         </div>
 
         {/* 搜索和过滤 */}
@@ -802,6 +891,24 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                         <span className="sort-indicator">{sortOrder === 'asc' ? '↑' : '↓'}</span>
                       )}
                     </th>
+                    {viewMode === 'mistakes' && (
+                      <th
+                        className={`wrong-count-col sortable ${sortBy === 'wrongCount' ? 'active' : ''}`}
+                        onClick={() => {
+                          if (sortBy === 'wrongCount') {
+                            setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
+                          } else {
+                            setSortBy('wrongCount')
+                            setSortOrder('desc')
+                          }
+                        }}
+                      >
+                        {t.wrongCount}
+                        {sortBy === 'wrongCount' && (
+                          <span className="sort-indicator">{sortOrder === 'asc' ? '↑' : '↓'}</span>
+                        )}
+                      </th>
+                    )}
                   </tr>
                 </thead>
                 <tbody>
@@ -865,6 +972,11 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                           )}
                         </button>
                       </td>
+                      {viewMode === 'mistakes' && (
+                        <td className="wrong-count-col">
+                          <span className="wrong-count-badge">{word.stats?.testWrongCount || 0}</span>
+                        </td>
+                      )}
                     </tr>
                     )
                   })}
@@ -908,7 +1020,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
             </>
           ) : (
             <div className="no-results">
-              <p>{t.noResults}</p>
+              <p>{viewMode === 'mistakes' ? t.noMistakes : t.noResults}</p>
             </div>
           )}
         </div>
