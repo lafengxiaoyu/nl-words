@@ -8,7 +8,8 @@ import type { ExampleTranslations } from '../data/types'
 import type { User as SupabaseUser } from '@supabase/supabase-js'
 import { isPremiumUser } from '../lib/subscription'
 import { safeLocalStorage } from '../lib/safeLocalStorage'
-import { loadUserProgress, mergeProgress } from '../lib/progressSync'
+import { loadUserProgress, mergeProgress, incrementViewCount } from '../lib/progressSync'
+import { calculateFamiliarity } from '../lib/familiarityCalculator'
 import PremiumUpgradeModal from './PremiumUpgradeModal'
 
 import './WordListPage.css'
@@ -224,7 +225,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     setSelectedDifficulty(difficulty)
   }
   const [selectedWord, setSelectedWord] = useState<Word | null>(null)
-  const [sortBy, setSortBy] = useState<'word' | 'translation' | 'partOfSpeech' | 'difficulty' | 'favorite' | 'wrongCount'>('word')
+  const [sortBy, setSortBy] = useState<'word' | 'translation' | 'partOfSpeech' | 'difficulty' | 'familiarity' | 'favorite' | 'wrongCount'>('word')
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc')
   const [itemsPerPage, setItemsPerPage] = useState(20)
   const [currentPage, setCurrentPage] = useState(1)
@@ -234,6 +235,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [isPremium, setIsPremium] = useState(false)
   const [showPremiumModal, setShowPremiumModal] = useState(false)
   const [wordsWithProgress, setWordsWithProgress] = useState<Word[]>(words)
+  const [viewedWordsThisSession, setViewedWordsThisSession] = useState<Set<number>>(new Set())
 
   // 获取当前登录用户
   useEffect(() => {
@@ -284,6 +286,69 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     }
     loadProgress()
   }, [user])
+
+  // 加载订阅状态
+  useEffect(() => {
+    const loadSubscriptionStatus = async () => {
+      if (user) {
+        const premium = await isPremiumUser(user.id)
+        setIsPremium(premium)
+      } else {
+        setIsPremium(false)
+      }
+    }
+    loadSubscriptionStatus()
+  }, [user])
+
+  // 处理单词点击，记录查看次数
+  const handleWordClick = useCallback(async (word: Word) => {
+    const isSelected = selectedWord?.id === word.id
+
+    // 如果是首次打开（不是关闭），且该单词在本会话中未被记录过
+    if (!isSelected && !viewedWordsThisSession.has(word.id) && user) {
+      // 记录查看次数
+      const newStats = await incrementViewCount(user.id, word.id, word.stats)
+
+      // 更新数据库
+      const { error } = await supabase
+        .from('user_progress')
+        .upsert({
+          user_id: user.id,
+          word_id: word.id,
+          view_count: newStats.viewCount,
+          last_viewed_at: newStats.lastViewedAt,
+          familiarity: calculateFamiliarity(undefined, newStats),
+          updated_at: new Date().toISOString(),
+        }, {
+          onConflict: 'user_id,word_id'
+        })
+
+      if (error) {
+        console.error('Failed to update view count:', error)
+      } else {
+        // 更新本地 state
+        const updatedWords = wordsWithProgress.map(w =>
+          w.id === word.id
+            ? {
+                ...w,
+                stats: newStats,
+                familiarity: calculateFamiliarity(undefined, newStats)
+              }
+            : w
+        )
+        setWordsWithProgress(updatedWords)
+
+        // 同步到 localStorage
+        safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
+
+        // 标记为已查看
+        setViewedWordsThisSession(prev => new Set(prev).add(word.id))
+      }
+    }
+
+    // 切换选中状态
+    setSelectedWord(isSelected ? null : word)
+  }, [selectedWord, viewedWordsThisSession, user, wordsWithProgress])
 
   // 加载订阅状态
   useEffect(() => {
@@ -645,6 +710,13 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
         comparison = aFav === bFav ? 0 : (aFav ? -1 : 1)
         break
       }
+      case 'familiarity': {
+        const familiarityOrder = { new: 0, learning: 1, familiar: 2, mastered: 3 }
+        const aFam = familiarityOrder[a.familiarity || 'new'] ?? 0
+        const bFam = familiarityOrder[b.familiarity || 'new'] ?? 0
+        comparison = aFam - bFam
+        break
+      }
       case 'wrongCount': {
         const aWrong = a.stats?.testWrongCount || 0
         const bWrong = b.stats?.testWrongCount || 0
@@ -923,6 +995,22 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                       )}
                     </th>
                     <th
+                      className={`familiarity-col sortable ${sortBy === 'familiarity' ? 'active' : ''}`}
+                      onClick={() => {
+                        if (sortBy === 'familiarity') {
+                          setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')
+                        } else {
+                          setSortBy('familiarity')
+                          setSortOrder('desc')
+                        }
+                      }}
+                    >
+                      {languageMode === 'chinese' ? '熟悉度' : 'Level'}
+                      {sortBy === 'familiarity' && (
+                        <span className="sort-indicator">{sortOrder === 'asc' ? '↑' : '↓'}</span>
+                      )}
+                    </th>
+                    <th
                       className={`favorite-col sortable ${sortBy === 'favorite' ? 'active' : ''}`}
                       onClick={() => {
                         if (sortBy === 'favorite') {
@@ -970,7 +1058,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                     <tr
                       key={word.id}
                       className={`word-row ${selectedWord?.id === word.id ? 'word-row--selected' : ''}`}
-                      onClick={() => setSelectedWord(selectedWord?.id === word.id ? null : word)}
+                      onClick={() => handleWordClick(word)}
                     >
                       <td className="word-col">
                         <span className="word-dutch">{word.word}</span>
@@ -1001,6 +1089,45 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                       <td className="difficulty-col">
                         <span className={`difficulty-tag difficulty-${word.difficulty}`}>
                           {getTranslation(word.difficulty)}
+                        </span>
+                      </td>
+                      <td className="familiarity-col">
+                        <span className={`familiarity-badge familiarity-${word.familiarity || 'new'}`}>
+                          {word.familiarity === 'new' && (
+                            <>
+                              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 8v4M12 16h.01"/>
+                              </svg>
+                              {languageMode === 'chinese' ? '新' : 'New'}
+                            </>
+                          )}
+                          {word.familiarity === 'learning' && (
+                            <>
+                              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3 3H2z"/>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 0 3 3h7z"/>
+                              </svg>
+                              {languageMode === 'chinese' ? '学习' : 'Learn'}
+                            </>
+                          )}
+                          {word.familiarity === 'familiar' && (
+                            <>
+                              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <polyline points="20 6 9 17 4 12"/>
+                              </svg>
+                              {languageMode === 'chinese' ? '熟悉' : 'Fam'}
+                            </>
+                          )}
+                          {word.familiarity === 'mastered' && (
+                            <>
+                              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" opacity="0.3"/>
+                                <circle cx="12" cy="12" r="4"/>
+                              </svg>
+                              {languageMode === 'chinese' ? '掌握' : 'Mstr'}
+                            </>
+                          )}
                         </span>
                       </td>
                       <td className="favorite-col">
