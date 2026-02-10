@@ -124,7 +124,7 @@
   font-family: 'Roboto', 'Google Sans', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
-.result-message {
+.game-complete .result-message {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 30px;
