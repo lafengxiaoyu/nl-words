@@ -6,6 +6,7 @@ import type { Word, FamiliarityLevel, DifficultyLevel } from '../data/words'
 import { isPremiumUser } from '../lib/subscription'
 import { logApiUsage } from '../lib/apiUsageLogger'
 import { safeLocalStorage } from '../lib/safeLocalStorage'
+import { loadUserProgress, mergeProgress } from '../lib/progressSync'
 import ActivityTimeline from './ActivityTimeline'
 import { EditIcon, NewIcon, LearningIcon, FamiliarIcon, MasteredIcon, ResetIcon, LogoutIcon, DeleteIcon } from './Icons'
 import './ProfilePage.css'
@@ -35,12 +36,7 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const navigate = useNavigate()
   const [user, setUser] = useState<User | null>(null)
   const [userProfile, setUserProfile] = useState<UserProfile | null>(null)
-  const initialWords: Word[] = baseWords.map(word => ({
-    ...word,
-    familiarity: 'new',
-    stats: undefined,
-  }))
-  const [wordList, setWordList] = useState<Word[]>(initialWords)
+  const [wordList, setWordList] = useState<Word[]>([])
   const [isPremium, setIsPremium] = useState(false)
   const [newPassword, setNewPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
@@ -55,6 +51,13 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false)
   const [emailConfirm, setEmailConfirm] = useState('')
   const [deleteLoading, setDeleteLoading] = useState(false)
+
+  // 初始单词列表（用于默认状态）
+  const initialWords: Word[] = baseWords.map(word => ({
+    ...word,
+    familiarity: 'new' as FamiliarityLevel,
+    stats: undefined,
+  }))
 
   // 获取基础路径（兼容 Vite base path）
   const getBasePath = () => {
@@ -303,37 +306,35 @@ export default function ProfilePage({ languageMode }: ProfilePageProps) {
         // 加载订阅状态
         const premium = await isPremiumUser(user.id)
         setIsPremium(premium)
+        
+        // 从 Supabase 加载用户进度
+        try {
+          const progressMap = await loadUserProgress(user.id)
+          const mergedWords = mergeProgress(baseWords, progressMap)
+          setWordList(mergedWords)
+          // 同步到 localStorage
+          safeLocalStorage.setItem('nl-words', JSON.stringify(mergedWords))
+        } catch (error) {
+          console.error('Failed to load progress from Supabase:', error)
+          // 如果云端加载失败，使用 localStorage 的数据
+          const savedProgress = safeLocalStorage.getItem('nl-words')
+          if (savedProgress) {
+            try {
+              const parsedWords: Word[] = JSON.parse(savedProgress)
+              if (Array.isArray(parsedWords) && parsedWords.length > 0) {
+                setWordList(parsedWords)
+              }
+            } catch (e) {
+              console.error('Failed to load saved progress', e)
+              setWordList(initialWords)
+            }
+          } else {
+            setWordList(initialWords)
+          }
+        }
       }
     }
     getUser()
-
-    // Load word progress from localStorage
-    const savedProgress = safeLocalStorage.getItem('nl-words')
-    if (savedProgress) {
-      try {
-        const parsedWords: Word[] = JSON.parse(savedProgress)
-        if (Array.isArray(parsedWords) && parsedWords.length > 0) {
-          setWordList(parsedWords)
-        }
-      } catch (e) {
-        console.error('Failed to load saved progress', e)
-        // 如果加载失败，使用默认值
-        const wordsWithProgress: Word[] = baseWords.map(word => ({
-          ...word,
-          familiarity: 'new' as FamiliarityLevel,
-          stats: undefined,
-        }))
-        setWordList(wordsWithProgress)
-      }
-    } else {
-      // 如果没有保存的数据，使用默认值
-      const wordsWithProgress: Word[] = baseWords.map(word => ({
-        ...word,
-        familiarity: 'new' as FamiliarityLevel,
-        stats: undefined,
-      }))
-      setWordList(wordsWithProgress)
-    }
   }, [navigate, languageMode]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const loadUserProfile = async (userId: string) => {
