@@ -211,6 +211,7 @@ function OptionSelect<T extends string>({
 export default function WordListPage({ languageMode }: WordListPageProps) {
   const navigate = useNavigate()
   const [viewMode, setViewMode] = useState<'all' | 'mistakes'>('all')
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedPartOfSpeech, setSelectedPartOfSpeech] = useState<string>('all')
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all')
@@ -452,7 +453,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     chinese: {
       title: '单词表',
       mistakesTitle: '错题本',
-      backToLearn: '← 返回学单词',
+      backToLearn: '返回',
       word: '单词',
       translation: '翻译',
       partOfSpeech: '词性',
@@ -497,7 +498,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     english: {
       title: 'Word List',
       mistakesTitle: 'Mistakes',
-      backToLearn: '← Back to Learn',
+      backToLearn: 'Back',
       word: 'Word',
       translation: 'Translation',
       partOfSpeech: 'Part of Speech',
@@ -751,8 +752,8 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       <div className="word-list-container">
         <div className="page-header">
           <button className="back-btn icon-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M15 18l-6-6 6-6"/>
             </svg>
             <span className="btn-text">{t.backToLearn}</span>
           </button>
@@ -763,8 +764,31 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
           </div>
           
           <div className="header-right">
-            {/* 视图切换按钮 */}
-            <div className="view-toggle-buttons">
+            <button
+              className="lang-toggle-btn icon-btn"
+              onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/wordlist`)}
+              aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+              title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
+            >
+              <GlobeIcon />
+              <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中'}</span>
+            </button>
+
+            {/* 移动端汉堡菜单按钮 */}
+            <button
+              className="mobile-menu-btn icon-btn"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label={languageMode === 'chinese' ? '菜单' : 'Menu'}
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <line x1="3" y1="6" x2="21" y2="6"/>
+                <line x1="3" y1="12" x2="21" y2="12"/>
+                <line x1="3" y1="18" x2="21" y2="18"/>
+              </svg>
+            </button>
+
+            {/* 桌面端视图切换按钮 */}
+            <div className="view-toggle-buttons desktop-only">
               <button
                 className={`view-toggle-btn ${viewMode === 'all' ? 'active' : ''}`}
                 onClick={() => setViewMode('all')}
@@ -789,7 +813,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                 <span className="btn-text">{t.viewMistakes}</span>
               </button>
             </div>
-            
+
             {/* 错题专属测试按钮 */}
             {viewMode === 'mistakes' && filteredWords.length > 0 && (
               <button
@@ -804,17 +828,42 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                 <span className="btn-text">{languageMode === 'chinese' ? '测试' : 'Test'}</span>
               </button>
             )}
-            
-            <button
-              className="lang-toggle-btn icon-btn"
-              onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/wordlist`)}
-              aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
-              title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
-            >
-              <GlobeIcon />
-              <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
-            </button>
           </div>
+
+          {/* 移动端汉堡菜单 */}
+          {mobileMenuOpen && (
+            <div className="mobile-menu-overlay">
+              <div className="mobile-menu-content">
+                <button
+                  className={`mobile-menu-item ${viewMode === 'all' ? 'active' : ''}`}
+                  onClick={() => {
+                    setViewMode('all')
+                    setMobileMenuOpen(false)
+                  }}
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                  </svg>
+                  <span>{t.viewAllWords}</span>
+                </button>
+                <button
+                  className={`mobile-menu-item ${viewMode === 'mistakes' ? 'active' : ''}`}
+                  onClick={() => {
+                    setViewMode('mistakes')
+                    setMobileMenuOpen(false)
+                  }}
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                    <line x1="12" y1="9" x2="12" y2="13"/>
+                    <line x1="12" y1="17" x2="12.01" y2="17"/>
+                  </svg>
+                  <span>{t.viewMistakes}</span>
+                </button>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* 搜索和过滤 */}

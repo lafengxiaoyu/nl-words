@@ -37,8 +37,6 @@ const GlobeIcon = () => {
   )
 }
 
-// 锁图标组件
-
 // 心形图标
 const HeartIcon = () => {
   return (
@@ -128,11 +126,12 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   useEffect(() => {
     const checkUser = async () => {
       try {
-        const { data: { user }, error } = await supabase.auth.getUser()
+        // 使用 getSession 而不是 getUser，更稳定
+        const { data: { session }, error } = await supabase.auth.getSession()
         if (error) {
-          console.warn('获取用户信息失败:', error.message)
+          console.warn('获取会话失败:', error.message)
         } else {
-          setUser(user)
+          setUser(session?.user || null)
         }
       } catch {
         // 检查用户登录状态失败
@@ -142,34 +141,42 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     checkUser()
 
     // 监听认证状态变化
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, authData) => {
-      if (event === 'SIGNED_IN') {
-        const loggedInUser = authData?.user || null
-        setUser(loggedInUser)
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
+      switch (event) {
+        case 'SIGNED_IN':
+        case 'TOKEN_REFRESHED':
+          const loggedInUser = session?.user || null
+          setUser(loggedInUser)
 
-        // 登录后从 Supabase 加载进度
-        if (loggedInUser) {
-          try {
-            const progressMap = await loadUserProgress(loggedInUser.id)
-            const mergedWords = mergeProgress(baseWords, progressMap)
-            setUserWords(mergedWords)
-            safeLocalStorage.setItem('nl-words', JSON.stringify(mergedWords))
-          } catch {
-            // 从 Supabase 加载进度失败，使用本地数据
-            loadProgressFromLocalStorage()
+          // 登录后从 Supabase 加载进度
+          if (loggedInUser) {
+            try {
+              const progressMap = await loadUserProgress(loggedInUser.id)
+              const mergedWords = mergeProgress(baseWords, progressMap)
+              setUserWords(mergedWords)
+              safeLocalStorage.setItem('nl-words', JSON.stringify(mergedWords))
+            } catch {
+              // 从 Supabase 加载进度失败，使用本地数据
+              loadProgressFromLocalStorage()
+            }
           }
-        }
-      } else if (event === 'SIGNED_OUT') {
-        setUser(null)
-        // 登出后重新加载本地进度
-        loadProgressFromLocalStorage()
+          break
+        case 'SIGNED_OUT':
+          setUser(null)
+          // 登出后重新加载本地进度
+          loadProgressFromLocalStorage()
+          break
+        default:
+          // 其他事件不处理
+          break
       }
     })
 
     return () => {
       subscription.unsubscribe()
     }
-  }, [loadProgressFromLocalStorage])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   // 加载订阅状态
   useEffect(() => {
