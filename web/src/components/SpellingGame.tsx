@@ -144,7 +144,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
       switch (event) {
         case 'SIGNED_IN':
-        case 'TOKEN_REFRESHED':
+        case 'TOKEN_REFRESHED': {
           const loggedInUser = session?.user || null
           setUser(loggedInUser)
 
@@ -161,6 +161,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
             }
           }
           break
+        }
         case 'SIGNED_OUT':
           setUser(null)
           // 登出后重新加载本地进度
