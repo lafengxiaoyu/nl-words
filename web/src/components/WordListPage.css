@@ -452,10 +452,13 @@
 
 .search-box {
   margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .search-input {
-  width: 100%;
+  flex: 1;
   padding: 15px 20px;
   background: rgba(255, 255, 255, 0.15);
   border: 2px solid rgba(255, 255, 255, 0.3);
@@ -1795,6 +1798,23 @@
 }
 
 /* 错题专属测试按钮 */
+.search-box .mistake-test-btn {
+  flex-shrink: 0;
+  padding: 14px 16px;
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+  white-space: nowrap;
+  height: auto;
+  min-height: 52px;
+}
+
 .mistake-test-btn {
   display: inline-flex;
   align-items: center;
@@ -1945,6 +1965,20 @@
   .icon-btn,
   .mistake-test-btn {
     padding: 8px;
+  }
+
+  /* 搜索框内的测试按钮在移动端的样式 */
+  .search-box {
+    flex-wrap: wrap;
+  }
+
+  .search-box .mistake-test-btn {
+    padding: 12px 14px;
+    min-height: 48px;
+  }
+
+  .search-box .mistake-test-btn .btn-text {
+    display: inline;
   }
 }
 

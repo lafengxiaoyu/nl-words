@@ -832,21 +832,6 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                 <span className="btn-text">{t.viewMistakes}</span>
               </button>
             </div>
-
-            {/* 错题专属测试按钮 */}
-            {viewMode === 'mistakes' && filteredWords.length > 0 && (
-              <button
-                className="mistake-test-btn icon-btn"
-                onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/test?mistakesOnly=true`)}
-                title={languageMode === 'chinese' ? '只测试错题' : 'Test only mistakes'}
-              >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M9 11l3 3L22 4"/>
-                  <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
-                </svg>
-                <span className="btn-text">{languageMode === 'chinese' ? '测试' : 'Test'}</span>
-              </button>
-            )}
           </div>
 
           {/* 移动端汉堡菜单 */}
@@ -895,6 +880,20 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
               onChange={(e) => setSearchTerm(e.target.value)}
               className="search-input"
             />
+            {/* 错题专属测试按钮 */}
+            {viewMode === 'mistakes' && filteredWords.length > 0 && (
+              <button
+                className="mistake-test-btn icon-btn"
+                onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/test?mistakesOnly=true`)}
+                title={languageMode === 'chinese' ? '只测试错题' : 'Test only mistakes'}
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M9 11l3 3L22 4"/>
+                  <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+                </svg>
+                <span className="btn-text">{languageMode === 'chinese' ? '测试' : 'Test'}</span>
+              </button>
+            )}
           </div>
 
           {/* 桌面端筛选按钮 */}
