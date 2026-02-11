@@ -213,6 +213,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [viewMode, setViewMode] = useState<'all' | 'mistakes'>('all')
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [searchTerm, setSearchTerm] = useState('')
+  const isMobileMenuClickRef = useRef(false)
   const [selectedPartOfSpeech, setSelectedPartOfSpeech] = useState<string>('all')
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all')
 
@@ -777,7 +778,25 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
             {/* 移动端汉堡菜单按钮 */}
             <button
               className="mobile-menu-btn icon-btn"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              onClick={(e) => {
+                if (isMobileMenuClickRef.current) {
+                  isMobileMenuClickRef.current = false
+                  return
+                }
+                console.log('Mobile menu button clicked, current state:', mobileMenuOpen)
+                e.preventDefault()
+                e.stopPropagation()
+                setMobileMenuOpen(prev => {
+                  console.log('Setting mobileMenuOpen to:', !prev)
+                  return !prev
+                })
+              }}
+              onTouchEnd={(e) => {
+                e.preventDefault()
+                isMobileMenuClickRef.current = true
+                console.log('Mobile menu button touched, current state:', mobileMenuOpen)
+                setMobileMenuOpen(prev => !prev)
+              }}
               aria-label={languageMode === 'chinese' ? '菜单' : 'Menu'}
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

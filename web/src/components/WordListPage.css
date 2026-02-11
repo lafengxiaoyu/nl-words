@@ -1287,13 +1287,13 @@
   }
 
   .back-btn {
-    padding: 8px 16px;
+    padding: 8px 12px;
     font-size: 14px;
   }
 
   .page-header {
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 10px;
     position: relative;
   }
 
@@ -1301,6 +1301,7 @@
     order: -1;
     width: 100%;
     margin-bottom: 10px;
+    flex-basis: 100%;
   }
 
   .header-center h1 {
@@ -1308,23 +1309,38 @@
   }
 
   .header-right {
-    width: 100%;
+    width: auto;
     justify-content: flex-end;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-wrap: nowrap;
+    gap: 8px;
     align-items: center;
+    flex-shrink: 0;
+  }
+
+  .lang-toggle-btn {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .lang-toggle-btn .globe-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .lang-toggle-btn .lang-text {
+    font-size: 12px;
   }
 
   .mobile-menu-btn {
-    order: 1;
+    padding: 8px;
     z-index: 100;
+    flex-shrink: 0;
+    pointer-events: auto !important;
+    cursor: pointer !important;
   }
 
   .view-toggle-buttons {
-    order: -1;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 10px;
+    display: none !important; /* 移动端隐藏桌面视图切换按钮 */
   }
 
   .view-toggle-btn .btn-text,
@@ -1335,11 +1351,77 @@
   .icon-btn,
   .mistake-test-btn {
     padding: 8px;
+    flex-shrink: 0;
   }
 
   .icon-btn svg,
   .mistake-test-btn svg {
     margin: 0;
+  }
+}
+
+/* iPhone SE / 小屏幕手机 (375px) */
+@media (max-width: 375px) {
+  .word-list-page {
+    padding: 8px;
+  }
+
+  .word-list-container {
+    padding: 12px;
+  }
+
+  .page-header {
+    gap: 8px;
+  }
+
+  .header-right {
+    gap: 6px;
+  }
+
+  .back-btn {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  .back-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .lang-toggle-btn {
+    padding: 6px 8px;
+    font-size: 11px;
+  }
+
+  .lang-toggle-btn .globe-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  .lang-toggle-btn .lang-text {
+    font-size: 11px;
+  }
+
+  .mobile-menu-btn {
+    padding: 6px;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+  }
+
+  .mobile-menu-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .icon-btn,
+  .mistake-test-btn {
+    padding: 6px;
+  }
+
+  .icon-btn svg,
+  .mistake-test-btn svg {
+    width: 18px;
+    height: 18px;
   }
 
   .search-input {
@@ -1779,7 +1861,7 @@
 }
 
 .mobile-menu-overlay {
-  display: none;
+  display: block;
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
@@ -1792,10 +1874,6 @@
   z-index: 100;
   min-width: 180px;
   animation: slideDown 0.2s ease;
-}
-
-.mobile-menu-overlay.show {
-  display: block;
 }
 
 .mobile-menu-content {
@@ -1845,7 +1923,7 @@
 
 @media (max-width: 768px) {
   .mobile-menu-btn {
-    display: inline-flex;
+    display: inline-flex !important;
   }
 
   .desktop-only {
@@ -1853,8 +1931,20 @@
     visibility: hidden;
   }
 
-  .mobile-menu-overlay {
-    display: block;
+  .header-right {
+    gap: 8px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    pointer-events: auto !important;
+  }
+
+  .lang-toggle-btn {
+    padding: 8px 12px;
+  }
+
+  .icon-btn,
+  .mistake-test-btn {
+    padding: 8px;
   }
 }
 
