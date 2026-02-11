@@ -12,26 +12,35 @@ body {
   /* 支持国旗表情符号 */
   font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   /* 移动端优化 */
-  -webkit-tap-highlight-color: transparent; /* 移除点击高亮 */
-  overscroll-behavior-y: auto; /* 允许垂直滚动 */
-  overscroll-behavior-x: none; /* 禁止水平过度滚动 */
-  touch-action: pan-y; /* 只允许垂直滚动，禁止水平滚动 */
-  overflow-x: hidden; /* 隐藏水平溢出 */
+  -webkit-tap-highlight-color: transparent;
+  /* 移除点击高亮 */
+  overscroll-behavior-y: auto;
+  /* 允许垂直滚动 */
+  overscroll-behavior-x: none;
+  /* 禁止水平过度滚动 */
+  touch-action: pan-y;
+  /* 只允许垂直滚动，禁止水平滚动 */
+  overflow-x: hidden;
+  /* 隐藏水平溢出 */
 }
 
 /* 应用容器 - 现代渐变背景 */
 .app {
   min-height: 100vh;
-  min-height: -webkit-fill-available; /* iOS Safari 全屏支持 */
+  min-height: -webkit-fill-available;
+  /* iOS Safari 全屏支持 */
   display: flex;
   flex-direction: column;
-  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 50%, #8b5cf6 100%);
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
   position: relative;
   overflow-x: hidden;
   /* 移动端优化 */
-  overscroll-behavior-y: auto; /* 允许垂直滚动 */
-  overscroll-behavior-x: none; /* 禁止水平过度滚动 */
-  touch-action: pan-y; /* 只允许垂直滚动，禁止水平滚动 */
+  overscroll-behavior-y: auto;
+  /* 允许垂直滚动 */
+  overscroll-behavior-x: none;
+  /* 禁止水平过度滚动 */
+  touch-action: pan-y;
+  /* 只允许垂直滚动，禁止水平滚动 */
   width: 100%;
   max-width: 100%;
 }
@@ -43,7 +52,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
+  background:
     radial-gradient(circle at 20% 30%, rgba(99, 102, 241, 0.3) 0%, transparent 50%),
     radial-gradient(circle at 80% 70%, rgba(139, 92, 246, 0.25) 0%, transparent 50%);
   pointer-events: none;
@@ -52,18 +61,18 @@ body {
 
 /* 头部 - 增强玻璃态效果 */
 .header {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(24px) saturate(200%);
+  -webkit-backdrop-filter: blur(24px) saturate(200%);
+  border-radius: 30px;
   padding: 25px;
   margin: 20px;
   color: white;
-  box-shadow: 
-    0 8px 32px rgba(0, 0, 0, 0.12),
-    0 2px 8px rgba(0, 0, 0, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.2),
+    0 2px 10px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
   z-index: 10;
 }
@@ -117,11 +126,11 @@ body {
 }
 
 .nav-btn {
-  background: rgba(255, 255, 255, 0.12);
-  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   color: white;
-  padding: 10px 25px;
-  border-radius: 12px;
+  padding: 12px 28px;
+  border-radius: 16px;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
@@ -156,11 +165,11 @@ body {
 }
 
 .nav-btn--active {
-  background: rgba(255, 255, 255, 0.28);
-  border-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 
-    0 4px 15px rgba(255, 255, 255, 0.25),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow:
+    0 4px 20px rgba(255, 255, 255, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .header-right {
@@ -388,11 +397,13 @@ body {
 
   /* 移动端闪卡更紧凑 */
   .flashcard-wrapper {
-    padding-bottom: 95%; /* 移动端稍高一点 */
+    padding-bottom: 95%;
+    /* 移动端稍高一点 */
   }
 
   .flashcard-wrapper .word-card {
-    touch-action: none; /* 禁止卡片上的默认触摸行为，完全由 JS 接管 */
+    touch-action: none;
+    /* 禁止卡片上的默认触摸行为，完全由 JS 接管 */
   }
 
   .word-dutch {
@@ -696,7 +707,7 @@ body {
   background: linear-gradient(90deg, #10b981 0%, #06b6d4 50%, #8b5cf6 100%);
   border-radius: 12px;
   transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 
+  box-shadow:
     0 0 15px rgba(16, 185, 129, 0.6),
     inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
@@ -764,7 +775,8 @@ body {
   padding: 0 20px 40px;
   position: relative;
   z-index: 5;
-  overflow-x: hidden; /* 禁止水平滚动 */
+  overflow-x: hidden;
+  /* 禁止水平滚动 */
 }
 
 /* 难度筛选器 */
@@ -775,9 +787,12 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
   /* 移动端优化 */
-  -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
-  padding-top: 5px; /* 确保顶部有足够空间，防止被header遮挡 */
-  scroll-margin-top: 0; /* 禁用滚动边距 */
+  -webkit-overflow-scrolling: touch;
+  /* iOS 平滑滚动 */
+  padding-top: 5px;
+  /* 确保顶部有足够空间，防止被header遮挡 */
+  scroll-margin-top: 0;
+  /* 禁用滚动边距 */
 }
 
 .difficulty-filters .btn {
@@ -794,8 +809,10 @@ body {
   width: 100%;
   max-width: 500px;
   margin-bottom: 30px;
-  touch-action: auto; /* 允许所有触摸操作 */
-  user-select: none; /* 防止文本选择 */
+  touch-action: auto;
+  /* 允许所有触摸操作 */
+  user-select: none;
+  /* 防止文本选择 */
   -webkit-user-select: none;
   position: relative;
 }
@@ -805,7 +822,8 @@ body {
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 85%; /* 更紧凑的宽高比 */
+  padding-bottom: 85%;
+  /* 更紧凑的宽高比 */
   perspective: 1000px;
 }
 
@@ -837,14 +855,17 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.8);
   }
+
   20% {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
   }
+
   80% {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
   }
+
   100% {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.8);
@@ -864,12 +885,14 @@ body {
   border-radius: 20px;
   /* 移动端优化 */
   -webkit-tap-highlight-color: transparent;
-  touch-action: auto; /* 允许所有触摸操作 */
+  touch-action: auto;
+  /* 允许所有触摸操作 */
 }
 
 /* 滑动时的卡片动画效果 */
 .flashcard-wrapper .word-card.swiping {
-  will-change: transform, opacity; /* 优化性能 */
+  will-change: transform, opacity;
+  /* 优化性能 */
 }
 
 .flashcard-wrapper .word-card.flipped {
@@ -981,20 +1004,20 @@ body {
 .flashcard-wrapper .card-front {
   background: #ffffff;
   color: #1e293b;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  box-shadow: 
-    0 20px 60px rgba(0, 0, 0, 0.15),
-    0 8px 24px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow:
+    0 25px 50px -12px rgba(0, 0, 0, 0.25),
+    0 0 0 1px rgba(0, 0, 0, 0.05);
 }
 
 .flashcard-wrapper .card-back {
   background: #ffffff;
   color: #1e293b;
   transform: rotateY(180deg);
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  box-shadow: 
-    0 20px 60px rgba(0, 0, 0, 0.15),
-    0 8px 24px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow:
+    0 25px 50px -12px rgba(0, 0, 0, 0.25),
+    0 0 0 1px rgba(0, 0, 0, 0.05);
 }
 
 
@@ -1155,6 +1178,7 @@ body {
     transform: scale(0.8);
     opacity: 0.6;
   }
+
   100% {
     transform: scale(2.5);
     opacity: 0;
@@ -1226,13 +1250,15 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
 
-/* 卡片背面的难度标签 - 使用渐变背景 */
+/* 卡片背面的难度标签 - 强烈的渐变胶囊 */
 .card-back .difficulty--A1,
 .card-back .difficulty--A2 {
   background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   color: white;
   border: none;
-  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.4);
+  padding: 6px 14px;
+  border-radius: 20px;
 }
 
 .card-back .difficulty--B1,
@@ -1240,7 +1266,9 @@ body {
   background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
   color: white;
   border: none;
-  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+  box-shadow: 0 4px 10px rgba(245, 158, 11, 0.4);
+  padding: 6px 14px;
+  border-radius: 20px;
 }
 
 .card-back .difficulty--C1,
@@ -1248,7 +1276,9 @@ body {
   background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
   color: white;
   border: none;
-  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.3);
+  box-shadow: 0 4px 10px rgba(239, 68, 68, 0.4);
+  padding: 6px 14px;
+  border-radius: 20px;
 }
 
 /* 卡片正面的难度标签 - 使用渐变背景 */
@@ -1266,7 +1296,9 @@ body {
   background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   color: white;
   border: none;
-  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.4);
+  padding: 6px 14px;
+  border-radius: 20px;
 }
 
 .card-front .difficulty--B1,
@@ -1274,7 +1306,9 @@ body {
   background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
   color: white;
   border: none;
-  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+  box-shadow: 0 4px 10px rgba(245, 158, 11, 0.4);
+  padding: 6px 14px;
+  border-radius: 20px;
 }
 
 .card-front .difficulty--C1,
@@ -1282,7 +1316,9 @@ body {
   background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
   color: white;
   border: none;
-  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.3);
+  box-shadow: 0 4px 10px rgba(239, 68, 68, 0.4);
+  padding: 6px 14px;
+  border-radius: 20px;
 }
 
 .word-dutch {
@@ -1295,10 +1331,7 @@ body {
   overflow-wrap: break-word;
   line-height: 1.2;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
-  background: linear-gradient(45deg, #1e293b, #475569);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #000000;
   letter-spacing: -0.05em;
   transition: font-size 0.3s ease;
   text-align: center;
@@ -1356,16 +1389,20 @@ body {
   opacity: 0.85;
 }
 
+/* 单词类型 - 玻璃态 */
 .word-type {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  color: #6366f1;
-  background: rgba(99, 102, 241, 0.1);
-  padding: 5px 14px;
-  border-radius: 14px;
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  color: #4f46e5;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
   margin: 0 0 16px 0;
   display: inline-block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .word-translation {
@@ -1549,24 +1586,24 @@ body {
   .navigation {
     gap: 8px;
   }
-  
+
   /* 上一个和下一个按钮 - 图标按钮优化 */
   .navigation .btn-outline {
     padding: 12px 16px;
     min-width: 60px;
     font-size: 1.2rem;
   }
-  
+
   .nav-btn-icon {
     min-width: 50px;
     padding: 10px 14px;
   }
-  
+
   .nav-btn-icon .chevron-icon {
     width: 20px;
     height: 20px;
   }
-  
+
 
 }
 
@@ -1641,9 +1678,12 @@ body {
   position: relative;
   overflow: hidden;
   /* 移动端优化 */
-  -webkit-tap-highlight-color: transparent; /* 移除移动端点击高亮 */
-  touch-action: manipulation; /* 优化触摸响应 */
-  user-select: none; /* 防止文本选择 */
+  -webkit-tap-highlight-color: transparent;
+  /* 移除移动端点击高亮 */
+  touch-action: manipulation;
+  /* 优化触摸响应 */
+  user-select: none;
+  /* 防止文本选择 */
   -webkit-user-select: none;
 }
 
@@ -1706,7 +1746,7 @@ body {
 .btn-primary {
   background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
   color: white;
-  box-shadow: 
+  box-shadow:
     0 4px 15px rgba(99, 102, 241, 0.4),
     0 2px 4px rgba(0, 0, 0, 0.1),
     inset 0 1px 0 rgba(255, 255, 255, 0.2);
@@ -1715,7 +1755,7 @@ body {
 
 .btn-primary:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 
+  box-shadow:
     0 8px 25px rgba(99, 102, 241, 0.5),
     0 4px 8px rgba(0, 0, 0, 0.15),
     inset 0 1px 0 rgba(255, 255, 255, 0.3);
@@ -1811,7 +1851,7 @@ body {
   border-radius: 24px;
   padding: 30px;
   margin-bottom: 30px;
-  box-shadow: 
+  box-shadow:
     0 20px 60px rgba(0, 0, 0, 0.2),
     0 8px 24px rgba(0, 0, 0, 0.15),
     inset 0 1px 0 rgba(255, 255, 255, 0.3);
@@ -1819,8 +1859,10 @@ body {
   color: white;
   animation: slideInUp 0.5s ease;
   /* 移动端优化 */
-  -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
-  touch-action: auto; /* 允许所有触摸操作 */
+  -webkit-overflow-scrolling: touch;
+  /* iOS 平滑滚动 */
+  touch-action: auto;
+  /* 允许所有触摸操作 */
   /* 固定宽度，与单词卡片对齐 */
   width: 100%;
   max-width: 500px;
@@ -1925,13 +1967,13 @@ body {
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
-.stats-detail > div {
+.stats-detail>div {
   margin: 5px 0;
   padding: 5px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.stats-detail > div:last-child {
+.stats-detail>div:last-child {
   border-bottom: none;
 }
 
@@ -2011,6 +2053,7 @@ body {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -2018,9 +2061,12 @@ body {
 }
 
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.7;
   }
@@ -2033,6 +2079,7 @@ body {
       opacity: 0;
       transform: translateY(20px);
     }
+
     to {
       opacity: 1;
       transform: translateY(0);
@@ -2066,9 +2113,12 @@ body {
     /* 支持底部安全区域（刘海屏设备） */
     padding-bottom: max(30px, env(safe-area-inset-bottom));
     /* 移动端触摸优化 */
-    touch-action: auto; /* 允许所有触摸操作 */
-    overflow-x: hidden; /* 防止水平溢出 */
-    overflow-y: auto; /* 允许垂直滚动 */
+    touch-action: auto;
+    /* 允许所有触摸操作 */
+    overflow-x: hidden;
+    /* 防止水平溢出 */
+    overflow-y: auto;
+    /* 允许垂直滚动 */
   }
 
   .header {
@@ -2121,7 +2171,8 @@ body {
   }
 
   .language-selector-header .btn {
-    min-height: 44px; /* 确保触摸区域足够大 */
+    min-height: 44px;
+    /* 确保触摸区域足够大 */
     padding: 10px 16px;
     font-size: 0.9rem;
   }
@@ -2207,14 +2258,16 @@ body {
   .word-translation {
     font-size: 1.8rem;
     margin-bottom: 16px;
-    word-spacing: -0.4em; /* 减小英文单词之间的间距 */
+    word-spacing: -0.4em;
+    /* 减小英文单词之间的间距 */
   }
 
   .word-card {
     height: 320px;
     border-radius: 18px;
     /* 移动端触摸优化 */
-    touch-action: auto; /* 允许所有触摸操作 */
+    touch-action: auto;
+    /* 允许所有触摸操作 */
   }
 
   .card-front,
@@ -2248,7 +2301,8 @@ body {
   .example-zh,
   .example-english {
     font-size: 0.9rem;
-    word-spacing: -0.08em; /* 减小英文单词之间的间距 */
+    word-spacing: -0.08em;
+    /* 减小英文单词之间的间距 */
   }
 
   .navigation {
@@ -2284,7 +2338,8 @@ body {
   }
 
   .difficulty-filters .btn {
-    min-height: 40px; /* 确保触摸区域足够大 */
+    min-height: 40px;
+    /* 确保触摸区域足够大 */
     padding: 8px 14px;
     font-size: 0.85rem;
     border-radius: 10px;
@@ -2351,8 +2406,10 @@ body {
     border-radius: 18px;
     margin-bottom: 24px;
     /* 移动端触摸优化 */
-    touch-action: auto; /* 允许所有触摸操作 */
-    -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
+    touch-action: auto;
+    /* 允许所有触摸操作 */
+    -webkit-overflow-scrolling: touch;
+    /* iOS 平滑滚动 */
     /* 固定宽度，避免布局浮动 */
     width: 100%;
     max-width: 100%;
@@ -2374,7 +2431,8 @@ body {
   .word-card-container {
     margin-bottom: 24px;
     /* 移动端触摸优化 */
-    touch-action: auto; /* 允许所有触摸操作 */
+    touch-action: auto;
+    /* 允许所有触摸操作 */
   }
 
   /* 移动端保持完整的卡片动画效果 */
@@ -2389,9 +2447,12 @@ body {
     padding: 8px;
     padding-bottom: max(25px, env(safe-area-inset-bottom));
     /* 移动端触摸优化 */
-    touch-action: auto; /* 允许所有触摸操作 */
-    overflow-x: hidden; /* 防止水平溢出 */
-    overflow-y: auto; /* 允许垂直滚动 */
+    touch-action: auto;
+    /* 允许所有触摸操作 */
+    overflow-x: hidden;
+    /* 防止水平溢出 */
+    overflow-y: auto;
+    /* 允许垂直滚动 */
   }
 
   /* 小屏幕更紧凑的闪卡 */
@@ -2519,14 +2580,16 @@ body {
   .word-translation {
     font-size: 1.5rem;
     margin-bottom: 14px;
-    word-spacing: -0.35em; /* 减小英文单词之间的间距 */
+    word-spacing: -0.35em;
+    /* 减小英文单词之间的间距 */
   }
 
   .word-card {
     height: 300px;
     border-radius: 16px;
     /* 移动端触摸优化 */
-    touch-action: auto; /* 允许所有触摸操作 */
+    touch-action: auto;
+    /* 允许所有触摸操作 */
   }
 
   .card-front,
@@ -2572,7 +2635,8 @@ body {
   .example-zh,
   .example-english {
     font-size: 0.85rem;
-    word-spacing: -0.08em; /* 减小英文单词之间的间距 */
+    word-spacing: -0.08em;
+    /* 减小英文单词之间的间距 */
   }
 
   .navigation {
@@ -2593,7 +2657,8 @@ body {
     gap: 6px;
     margin-top: 5px;
     margin-bottom: 10px;
-    padding-top: 5px; /* 确保顶部有足够空间 */
+    padding-top: 5px;
+    /* 确保顶部有足够空间 */
   }
 
   .difficulty-filters .btn {
@@ -2653,8 +2718,10 @@ body {
     border-radius: 16px;
     margin-bottom: 20px;
     /* 移动端触摸优化 */
-    touch-action: auto; /* 允许所有触摸操作 */
-    -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
+    touch-action: auto;
+    /* 允许所有触摸操作 */
+    -webkit-overflow-scrolling: touch;
+    /* iOS 平滑滚动 */
     /* 固定宽度，避免布局浮动 */
     width: 100%;
     max-width: 100%;
@@ -2676,13 +2743,16 @@ body {
   .word-card-container {
     margin-bottom: 20px;
     /* 移动端触摸优化 */
-    touch-action: auto; /* 允许所有触摸操作 */
+    touch-action: auto;
+    /* 允许所有触摸操作 */
   }
 
   /* 小屏幕上的按钮优化 */
   .btn {
-    min-height: 44px; /* 确保所有按钮都有足够的触摸区域 */
-    touch-action: manipulation; /* 优化触摸响应 */
+    min-height: 44px;
+    /* 确保所有按钮都有足够的触摸区域 */
+    touch-action: manipulation;
+    /* 优化触摸响应 */
   }
 
   .btn-sm {
@@ -2779,7 +2849,7 @@ body {
   border: 1px solid rgba(245, 158, 11, 0.1);
 }
 
-.verb-details > div:first-child {
+.verb-details>div:first-child {
   margin-bottom: 12px;
   font-size: 1rem;
   color: #374151;
@@ -2896,12 +2966,10 @@ body {
   border-radius: 20px;
   pointer-events: none;
   opacity: 0.1;
-  background: linear-gradient(
-    90deg,
-    rgba(74, 222, 128, 0.2) 0%,
-    transparent 50%,
-    rgba(239, 68, 68, 0.2) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(74, 222, 128, 0.2) 0%,
+      transparent 50%,
+      rgba(239, 68, 68, 0.2) 100%);
   transition: opacity 0.3s ease;
   z-index: -1;
 }
@@ -2915,11 +2983,9 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.3) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle,
+      rgba(255, 255, 255, 0.3) 0%,
+      transparent 70%);
   transform: translate(-50%, -50%);
   pointer-events: none;
   opacity: 0.3;
@@ -2933,16 +2999,16 @@ body {
     width: 150px;
     height: 150px;
   }
-  
+
   /* 优化卡片翻转动画性能 */
   .word-card {
     will-change: transform;
   }
-  
+
   .word-card.flipped {
     will-change: auto;
   }
-  
+
   /* 移动端：翻转时立即隐藏正面元素，使用clip-path和transform确保完全隐藏 */
   .flashcard-wrapper .word-card.flipped .card-front .card-difficulty,
   .flashcard-wrapper .word-card.flipped .card-front .card-front-meta {
@@ -2955,7 +3021,7 @@ body {
     position: absolute !important;
     z-index: -1 !important;
   }
-  
+
   /* 移动端：翻转时隐藏发音按钮，但不改变其position，保持布局 */
   .flashcard-wrapper .word-card.flipped .card-front .speak-btn {
     visibility: hidden !important;
@@ -2969,7 +3035,7 @@ body {
     margin: 0 !important;
     overflow: hidden !important;
   }
-  
+
   .flashcard-wrapper .word-card:not(.flipped) .card-front .card-difficulty,
   .flashcard-wrapper .word-card:not(.flipped) .card-front .card-front-meta {
     clip-path: inset(0% 0% 0% 0%) !important;
@@ -2981,7 +3047,7 @@ body {
     position: absolute !important;
     z-index: 10 !important;
   }
-  
+
   /* 移动端：未翻转时恢复发音按钮的正常显示和布局 */
   .flashcard-wrapper .word-card:not(.flipped) .card-front .speak-btn {
     visibility: visible !important;
@@ -2995,19 +3061,19 @@ body {
     margin: 0 !important;
     overflow: visible !important;
   }
-  
+
   /* 优化面板动画 */
   .stats-panel,
   .details-panel {
     will-change: transform, opacity;
     animation: slideInUp 0.4s ease-out;
   }
-  
+
   /* 优化按钮动画性能 */
   .btn {
     will-change: transform;
   }
-  
+
   .btn:active {
     will-change: auto;
   }
@@ -3156,6 +3222,7 @@ body {
     opacity: 0;
     transform: translateY(-10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
