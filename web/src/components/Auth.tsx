@@ -19,6 +19,70 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
   const [error, setError] = useState<string | null>(null)
   const [message, setMessage] = useState<string | null>(null)
 
+  // 验证码状态
+  const [captcha, setCaptcha] = useState(() => {
+    const operators = ['+', '-', '*']
+    const operator = operators[Math.floor(Math.random() * 3)]
+    const a = Math.floor(Math.random() * 10) + 1
+    const b = Math.floor(Math.random() * 10) + 1
+
+    let answer: number
+    const question = `${a} ${operator} ${b}`
+
+    if (operator === '+') answer = a + b
+    else if (operator === '-') answer = a - b
+    else answer = a * b
+
+    return { question, answer }
+  })
+  const [captchaInput, setCaptchaInput] = useState('')
+
+  // 严格邮箱验证
+  const isValidEmail = (email: string): boolean => {
+    const emailRegex = /^[a-zA-Z0-9](?:[a-zA-Z0-9._%+-]{0,30}[a-zA-Z0-9])?@[a-zA-Z0-9](?:[a-zA-Z0-9.-]{0,30}[a-zA-Z0-9])?\.[a-zA-Z]{2,}$/
+    if (!emailRegex.test(email)) return false
+
+    // 分解邮箱
+    const parts = email.split('@')
+    if (parts.length !== 2) return false
+
+    const localPart = parts[0]
+    const domain = parts[1]
+
+    // 拒绝纯数字域名 (如 123@312333312)
+    if (/^\d+\.\d+$/.test(domain)) return false
+
+    // 拒绝用户名包含8个以上连续数字
+    if (/\d{8,}/.test(localPart)) return false
+
+    // 拒绝顶级域名是5个以上数字
+    const tld = domain.split('.').pop()
+    if (tld && /^\d{5,}$/.test(tld)) return false
+
+    // 确保域名包含至少一个字母
+    if (!/[a-zA-Z]/.test(domain)) return false
+
+    return true
+  }
+
+  // 刷新验证码
+  const refreshCaptcha = () => {
+    const operators = ['+', '-', '*']
+    const operator = operators[Math.floor(Math.random() * 3)]
+    const a = Math.floor(Math.random() * 10) + 1
+    const b = Math.floor(Math.random() * 10) + 1
+
+    let answer: number
+    const question = `${a} ${operator} ${b}`
+
+    if (operator === '+') answer = a + b
+    else if (operator === '-') answer = a - b
+    else answer = a * b
+
+    setCaptcha({ question, answer })
+    setCaptchaInput('')
+  }
+
   const translations = {
     chinese: {
       title: '荷兰语单词学习',
@@ -46,7 +110,10 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
       registerSuccess: '注册成功！正在跳转到学习页面...',
       resetSuccess: '重置链接已发送到您的邮箱，请查收邮件',
       configError: 'Supabase 未配置，请先设置环境变量 VITE_SUPABASE_URL 和 VITE_SUPABASE_ANON_KEY',
-      operationError: '操作失败，请重试'
+      operationError: '操作失败，请重试',
+      captchaLabel: '验证码',
+      captchaError: '验证码错误',
+      invalidEmail: '邮箱格式不正确，请输入有效的邮箱地址'
     },
     english: {
       title: 'Dutch Word Learning',
@@ -74,7 +141,10 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
       registerSuccess: 'Sign up successful! Redirecting to learning page...',
       resetSuccess: 'Reset link sent to your email. Please check your inbox.',
       configError: 'Supabase not configured. Please set VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY environment variables.',
-      operationError: 'Operation failed, please try again'
+      operationError: 'Operation failed, please try again',
+      captchaLabel: 'Captcha',
+      captchaError: 'Incorrect captcha',
+      invalidEmail: 'Invalid email format. Please enter a valid email address'
     }
   }
 
@@ -109,6 +179,22 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
           }, 500)
         }
       } else if (authMode === 'register') {
+        // 验证邮箱格式
+        if (!isValidEmail(email)) {
+          setError(t.invalidEmail)
+          setLoading(false)
+          return
+        }
+
+        // 验证验证码
+        const captchaAnswer = parseInt(captchaInput)
+        if (isNaN(captchaAnswer) || captchaAnswer !== captcha.answer) {
+          setError(t.captchaError)
+          refreshCaptcha()
+          setLoading(false)
+          return
+        }
+
         // 注册 - 使用 emailAutoConfirm 选项避免邮件验证
         const { data, error } = await supabase.auth.signUp({
           email,
@@ -126,9 +212,10 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
 
         // 特殊处理：如果是 rate limit 错误，给出友好提示
         if (error && error.message && (error.message.includes('rate limit') || error.message.includes('Rate limit'))) {
-          setError(languageMode === 'chinese' 
-            ? '注册请求过于频繁，请稍后再试（1-2分钟后）' 
+          setError(languageMode === 'chinese'
+            ? '注册请求过于频繁，请稍后再试（1-2分钟后）'
             : 'Too many sign up attempts. Please try again later (after 1-2 minutes).')
+          refreshCaptcha() // 刷新验证码
           return
         }
 
@@ -260,6 +347,35 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
                 minLength={6}
                 disabled={loading}
               />
+            </div>
+          )}
+
+          {authMode === 'register' && (
+            <div className="form-group">
+              <label>{t.captchaLabel}</label>
+              <div className="captcha-container">
+                <span className="captcha-question">
+                  {captcha.question} = ?
+                </span>
+                <input
+                  type="text"
+                  value={captchaInput}
+                  onChange={(e) => setCaptchaInput(e.target.value)}
+                  placeholder="输入答案"
+                  required
+                  disabled={loading}
+                  maxLength={3}
+                />
+                <button
+                  type="button"
+                  className="captcha-refresh"
+                  onClick={refreshCaptcha}
+                  disabled={loading}
+                  title="刷新验证码"
+                >
+                  🔄
+                </button>
+              </div>
             </div>
           )}
 
