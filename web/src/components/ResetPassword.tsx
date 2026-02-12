@@ -73,28 +73,44 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
         }
 
         // 如果没有会话，检查 URL 中的 token（支持 query 参数和 hash 片段两种格式）
-        // 格式1: ?token=xxx&type=recovery (Supabase 邮件链接)
-        // 格式2: #access_token=xxx&type=recovery (Supabase 重定向)
+        // 格式1: ?token=xxx&type=recovery (Supabase 邮件链接，token 为 token_hash)
+        // 格式2: #access_token=xxx&refresh_token=xxx&type=recovery (Supabase 重定向，为 JWT)
         const searchParams = new URLSearchParams(location.search)
         const hashParams = location.hash ? new URLSearchParams(location.hash.substring(1)) : null
 
-        const token = searchParams.get('token') || hashParams?.get('access_token')
         const type = searchParams.get('type') || hashParams?.get('type')
+        if (type !== 'recovery') {
+          setIsValidSession(false)
+          return
+        }
 
-        if (token && type === 'recovery') {
-          // 使用 verifyOtp 验证恢复 token
+        const tokenFromQuery = searchParams.get('token')
+        const accessTokenFromHash = hashParams?.get('access_token')
+        const refreshTokenFromHash = hashParams?.get('refresh_token')
+
+        if (tokenFromQuery) {
+          // 格式1: query 中的 token 为 token_hash，用 verifyOtp 验证
           const { data, error } = await supabase.auth.verifyOtp({
-            token_hash: token,
+            token_hash: tokenFromQuery,
             type: 'recovery'
           })
-
           if (error) {
             console.error('Verify OTP error:', error)
             setIsValidSession(false)
-          } else if (data.session) {
-            setIsValidSession(true)
           } else {
+            setIsValidSession(!!data.session)
+          }
+        } else if (accessTokenFromHash && refreshTokenFromHash) {
+          // 格式2: hash 中为 JWT，用 setSession 建立会话
+          const { data, error } = await supabase.auth.setSession({
+            access_token: accessTokenFromHash,
+            refresh_token: refreshTokenFromHash
+          })
+          if (error) {
+            console.error('Set session error:', error)
             setIsValidSession(false)
+          } else {
+            setIsValidSession(!!data.session)
           }
         } else {
           setIsValidSession(false)
