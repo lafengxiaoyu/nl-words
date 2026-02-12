@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '../lib/supabase'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
 import './Auth.css'
 
 interface ResetPasswordProps {
@@ -20,6 +20,7 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
   const [isValidSession, setIsValidSession] = useState(false)
   const [checking, setChecking] = useState(true)
   const navigate = useNavigate()
+  const location = useLocation()
 
   const translations = {
     chinese: {
@@ -62,11 +63,35 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
   useEffect(() => {
     const checkRecoverySession = async () => {
       try {
-        // 检查是否已有活跃的恢复会话（Supabase 会自动从 URL 解析和设置 session）
+        // 首先检查是否已有活跃的恢复会话
         const { data: { session } } = await supabase.auth.getSession()
 
         if (session) {
           setIsValidSession(true)
+          setChecking(false)
+          return
+        }
+
+        // 如果没有会话，检查 URL 中的 token 参数（Supabase 邮件链接格式）
+        const searchParams = new URLSearchParams(location.search)
+        const token = searchParams.get('token')
+        const type = searchParams.get('type')
+
+        if (token && type === 'recovery') {
+          // 使用 verifyOtp 验证恢复 token
+          const { data, error } = await supabase.auth.verifyOtp({
+            token_hash: token,
+            type: 'recovery'
+          })
+
+          if (error) {
+            console.error('Verify OTP error:', error)
+            setIsValidSession(false)
+          } else if (data.session) {
+            setIsValidSession(true)
+          } else {
+            setIsValidSession(false)
+          }
         } else {
           setIsValidSession(false)
         }
@@ -79,7 +104,7 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
     }
 
     checkRecoverySession()
-  }, [])
+  }, [location.search])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
