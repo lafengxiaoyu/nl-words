@@ -181,6 +181,12 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
       } else if (authMode === 'register') {
         // 验证邮箱格式
         if (!isValidEmail(email)) {
+          // 记录垃圾注册尝试到数据库（静默失败，不阻塞用户流程）
+          supabase.rpc('log_spam_registration', {
+            p_email: email,
+            p_reason: 'Invalid email format detected'
+          })
+
           setError(t.invalidEmail)
           setLoading(false)
           return
