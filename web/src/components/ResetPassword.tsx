@@ -63,8 +63,15 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
   useEffect(() => {
     const checkRecoverySession = async () => {
       try {
+        // 若 URL 路径中有双斜杠（如 Supabase Site URL 末尾有 / 导致），先规范化避免路由异常
+        if (typeof window !== 'undefined' && window.location.pathname.includes('//')) {
+          const fixedPath = window.location.pathname.replace(/\/+/g, '/')
+          const fixedUrl = fixedPath + window.location.search + window.location.hash
+          window.history.replaceState(null, '', fixedUrl)
+        }
+
         // 首先检查是否已有活跃的恢复会话
-        const { data: { session } } = await supabase.auth.getSession()
+        let { data: { session } } = await supabase.auth.getSession()
 
         if (session) {
           setIsValidSession(true)
@@ -72,9 +79,22 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
           return
         }
 
+        // 若有 hash（Supabase 重定向），给客户端一点时间自动解析 hash 并设置 session
+        const hasHash = !!location.hash
+        if (hasHash) {
+          await new Promise((r) => setTimeout(r, 300))
+          const retry = await supabase.auth.getSession()
+          session = retry.data.session
+          if (session) {
+            setIsValidSession(true)
+            setChecking(false)
+            return
+          }
+        }
+
         // 如果没有会话，检查 URL 中的 token（支持 query 参数和 hash 片段两种格式）
         // 格式1: ?token=xxx&type=recovery (Supabase 邮件链接，token 为 token_hash)
-        // 格式2: #access_token=xxx&refresh_token=xxx&type=recovery (Supabase 重定向，为 JWT)
+        // 格式2: #access_token=xxx&refresh_token=xxx&type=recovery (Supabase 重定向，refresh_token 可能为空)
         const searchParams = new URLSearchParams(location.search)
         const hashParams = location.hash ? new URLSearchParams(location.hash.substring(1)) : null
 
@@ -86,7 +106,7 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
 
         const tokenFromQuery = searchParams.get('token')
         const accessTokenFromHash = hashParams?.get('access_token')
-        const refreshTokenFromHash = hashParams?.get('refresh_token')
+        const refreshTokenFromHash = hashParams?.get('refresh_token') ?? ''
 
         if (tokenFromQuery) {
           // 格式1: query 中的 token 为 token_hash，用 verifyOtp 验证
@@ -100,8 +120,8 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
           } else {
             setIsValidSession(!!data.session)
           }
-        } else if (accessTokenFromHash && refreshTokenFromHash) {
-          // 格式2: hash 中为 JWT，用 setSession 建立会话
+        } else if (accessTokenFromHash) {
+          // 格式2: hash 中为 JWT，用 setSession 建立会话（refresh_token 可能为空，仍尝试建立会话）
           const { data, error } = await supabase.auth.setSession({
             access_token: accessTokenFromHash,
             refresh_token: refreshTokenFromHash
