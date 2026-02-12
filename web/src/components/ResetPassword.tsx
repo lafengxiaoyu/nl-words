@@ -59,6 +59,17 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
 
   const t = translations[languageMode] || translations.chinese
 
+  // 监听 Supabase 的 PASSWORD_RECOVERY：客户端从 URL 解析到恢复会话时会触发，作为兜底
+  useEffect(() => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      if (event === 'PASSWORD_RECOVERY' && session) {
+        setIsValidSession(true)
+        setChecking(false)
+      }
+    })
+    return () => subscription.unsubscribe()
+  }, [])
+
   // 检查是否有有效的恢复会话
   useEffect(() => {
     const checkRecoverySession = async () => {
@@ -79,10 +90,10 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
           return
         }
 
-        // 若有 hash（Supabase 重定向），给客户端一点时间自动解析 hash 并设置 session
+        // 若有 hash（Supabase 重定向），给客户端较长时间自动解析 hash 并设置 session（detectSessionInUrl）
         const hasHash = !!location.hash
         if (hasHash) {
-          await new Promise((r) => setTimeout(r, 300))
+          await new Promise((r) => setTimeout(r, 600))
           const retry = await supabase.auth.getSession()
           session = retry.data.session
           if (session) {
@@ -105,13 +116,19 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
         }
 
         const tokenFromQuery = searchParams.get('token')
+        const tokenFromHash = hashParams?.get('token')
         const accessTokenFromHash = hashParams?.get('access_token')
         const refreshTokenFromHash = hashParams?.get('refresh_token') ?? ''
+        // 统一：query 或 hash 里的 token 都优先当作 token_hash 用于 verifyOtp
+        const tokenForVerify = tokenFromQuery || tokenFromHash
 
-        if (tokenFromQuery) {
-          // 格式1: query 中的 token 为 token_hash，用 verifyOtp 验证
+        // JWT 形如 xxx.yyy.zzz（三段 base64），否则多为 token_hash
+        const looksLikeJwt = (s: string) => s.length > 100 && (s.match(/\./g)?.length ?? 0) >= 2
+
+        if (tokenForVerify) {
+          // 格式1: query 或 hash 中的 token 为 token_hash，用 verifyOtp 验证
           const { data, error } = await supabase.auth.verifyOtp({
-            token_hash: tokenFromQuery,
+            token_hash: tokenForVerify,
             type: 'recovery'
           })
           if (error) {
@@ -121,16 +138,30 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
             setIsValidSession(!!data.session)
           }
         } else if (accessTokenFromHash) {
-          // 格式2: hash 中为 JWT，用 setSession 建立会话（refresh_token 可能为空，仍尝试建立会话）
-          const { data, error } = await supabase.auth.setSession({
-            access_token: accessTokenFromHash,
-            refresh_token: refreshTokenFromHash
-          })
-          if (error) {
-            console.error('Set session error:', error)
-            setIsValidSession(false)
+          if (looksLikeJwt(accessTokenFromHash) && refreshTokenFromHash) {
+            // 格式2a: hash 中为 JWT + refresh_token，用 setSession
+            const { data, error } = await supabase.auth.setSession({
+              access_token: accessTokenFromHash,
+              refresh_token: refreshTokenFromHash
+            })
+            if (error) {
+              console.error('Set session error:', error)
+              setIsValidSession(false)
+            } else {
+              setIsValidSession(!!data.session)
+            }
           } else {
-            setIsValidSession(!!data.session)
+            // 格式2b: hash 里 access_token 实为 token_hash（短/非 JWT），用 verifyOtp
+            const { data, error } = await supabase.auth.verifyOtp({
+              token_hash: accessTokenFromHash,
+              type: 'recovery'
+            })
+            if (error) {
+              console.error('Verify OTP error:', error)
+              setIsValidSession(false)
+            } else {
+              setIsValidSession(!!data.session)
+            }
           }
         } else {
           setIsValidSession(false)
