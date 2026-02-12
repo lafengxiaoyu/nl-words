@@ -8,14 +8,17 @@
     // GitHub Pages 的 SPA 重定向方案
     // 当访问任何子路径时，重定向到根路径并保存原始路径到 sessionStorage
     const path = window.location.pathname;
+    const hash = window.location.hash || '';
 
-    // 检查是否在 /nl-words 路径下
-    if (path.startsWith('/nl-words/')) {
-      // 保存原始路径
-      sessionStorage.setItem('redirect-path', path);
+    // 检查是否在 /nl-words 路径下（含 /nl-words 或 /nl-words/xxx）
+    if (path === '/nl-words' || path.startsWith('/nl-words/')) {
+      // 规范 path：根路径统一为 /nl-words/，保证与 SPA base 一致
+      const normalizedPath = (path === '/nl-words' ? '/nl-words/' : path);
+      // 保存原始路径和 hash（重置密码等链接依赖 hash 中的 token，不能丢）
+      sessionStorage.setItem('redirect-path', normalizedPath + hash);
 
-      // 重定向到根路径，React Router 会读取 sessionStorage 并导航到原始路径
-      window.location.replace('/nl-words/');
+      // 重定向到根路径，React Router 会读取 sessionStorage 并恢复完整 URL（含 hash）
+      window.location.replace('/nl-words/' + hash);
     }
   </script>
 </head>
