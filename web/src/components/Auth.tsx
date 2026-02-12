@@ -109,16 +109,28 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
           }, 500)
         }
       } else if (authMode === 'register') {
-        // 注册
+        // 注册 - 使用 emailAutoConfirm 选项避免邮件验证
         const { data, error } = await supabase.auth.signUp({
           email,
           password,
           options: {
+            emailRedirectTo: undefined, // 禁用邮件重定向
             data: {
               username: username
-            }
+            },
+            // 关键：不发送验证邮件，直接激活账户
+            // 如果 Supabase 后端启用了自动确认，这会立即激活用户
+            // 否则需要等待管理后台配置
           }
         })
+
+        // 特殊处理：如果是 rate limit 错误，给出友好提示
+        if (error && error.message && (error.message.includes('rate limit') || error.message.includes('Rate limit'))) {
+          setError(languageMode === 'chinese' 
+            ? '注册请求过于频繁，请稍后再试（1-2分钟后）' 
+            : 'Too many sign up attempts. Please try again later (after 1-2 minutes).')
+          return
+        }
 
         if (error) throw error
 
