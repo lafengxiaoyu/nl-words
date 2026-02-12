@@ -137,14 +137,35 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
           setTimeout(() => {
             // 跳转到当前语言的学习页面
             const path = languageMode === 'english' ? '/en/learn' : '/zh/learn'
-            window.location.href = `https://lafengxiaoyu.github.io/nl-words${path}`
+
+            // 根据环境确定跳转 URL
+            if (import.meta.env.DEV) {
+              // 开发环境：使用相对路径
+              window.location.href = path
+            } else {
+              // 生产环境：使用 GitHub Pages
+              window.location.href = `https://lafengxiaoyu.github.io/nl-words${path}`
+            }
           }, 1500)
         }
       } else if (authMode === 'reset') {
         // 重置密码 - 根据当前语言跳转到对应的密码重置页面
         const resetPath = languageMode === 'english' ? '/en/reset-password' : '/zh/reset-password'
+
+        // 根据环境确定重定向 URL
+        let redirectUrl: string
+        const isDev = import.meta.env.DEV
+
+        if (isDev) {
+          // 开发环境：使用 localhost
+          redirectUrl = `http://localhost:5173${resetPath}`
+        } else {
+          // 生产环境：使用 GitHub Pages
+          redirectUrl = `https://lafengxiaoyu.github.io/nl-words${resetPath}`
+        }
+
         const { error } = await supabase.auth.resetPasswordForEmail(email, {
-          redirectTo: `https://lafengxiaoyu.github.io/nl-words${resetPath}`
+          redirectTo: redirectUrl
         })
 
         if (error) throw error

@@ -63,60 +63,13 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
   useEffect(() => {
     const checkRecoverySession = async () => {
       try {
-        // 先尝试查询参数
-        const searchParams = new URLSearchParams(location.search)
-        let token = searchParams.get('token')
-        let type = searchParams.get('type')
+        // 检查是否已有活跃的恢复会话（Supabase 会自动从 URL 解析和设置 session）
+        const { data: { session } } = await supabase.auth.getSession()
 
-        // 如果查询参数没有，尝试 hash 参数（Supabase 默认使用 hash）
-        if (!token && location.hash) {
-          const hashParams = new URLSearchParams(location.hash.substring(1))
-          token = hashParams.get('access_token')
-          type = hashParams.get('type')
-
-          // 如果是 access_token，直接设置 session
-          if (token && type === 'recovery') {
-            const { data, error } = await supabase.auth.setSession({
-              access_token: token,
-              refresh_token: hashParams.get('refresh_token') || ''
-            })
-
-            if (error) {
-              console.error('Set session error:', error)
-              setIsValidSession(false)
-            } else if (data.session) {
-              setIsValidSession(true)
-            } else {
-              setIsValidSession(false)
-            }
-            setChecking(false)
-            return
-          }
-        }
-
-        if (type === 'recovery' && token) {
-          // 使用 token_hash 验证恢复链接
-          const { data, error } = await supabase.auth.verifyOtp({
-            token_hash: token,
-            type: 'recovery'
-          })
-
-          if (error) {
-            console.error('Verify OTP error:', error)
-            setIsValidSession(false)
-          } else if (data.session) {
-            setIsValidSession(true)
-          } else {
-            setIsValidSession(false)
-          }
+        if (session) {
+          setIsValidSession(true)
         } else {
-          // 检查是否已有活跃的恢复会话
-          const { data: { session } } = await supabase.auth.getSession()
-          if (session) {
-            setIsValidSession(true)
-          } else {
-            setIsValidSession(false)
-          }
+          setIsValidSession(false)
         }
       } catch (err) {
         console.error('Check recovery session error:', err)
@@ -127,7 +80,7 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
     }
 
     checkRecoverySession()
-  }, [location.search, location.hash])
+  }, [])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()

@@ -72,7 +72,7 @@ jobs:
         env:
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL || '' }}
           VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY || '' }}
-          VITE_BASE_PATH: ${{ github.event.repository.name }}
+          VITE_BASE_PATH: nl-words
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
