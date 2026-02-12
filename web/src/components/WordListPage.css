@@ -1689,6 +1689,28 @@
   width: 16px;
   height: 16px;
 }
+
+/* 智能复习按钮特殊样式 */
+.view-toggle-btn.smart-review-btn {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(139, 92, 246, 0.2) 100%);
+  border-color: rgba(99, 102, 241, 0.4);
+}
+
+.view-toggle-btn.smart-review-btn:hover {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.35) 0%, rgba(139, 92, 246, 0.35) 100%);
+  border-color: rgba(99, 102, 241, 0.6);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+}
+
+/* 移动端智能复习菜单项样式 */
+.mobile-menu-item.smart-review-menu-item {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+  border-left: 3px solid #6366f1;
+}
+
+.mobile-menu-item.smart-review-menu-item:hover {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(139, 92, 246, 0.2) 100%);
+}
   box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
 }
 

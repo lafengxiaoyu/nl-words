@@ -23,6 +23,7 @@ import TestSelectionPage from './components/TestSelectionPage'
 import AboutPage from './components/AboutPage'
 import ResetPassword from './components/ResetPassword'
 import PremiumUpgradeModal from './components/PremiumUpgradeModal'
+import SmartReviewPage from './components/SmartReviewPage'
 import { Flashcard } from './components/Flashcard'
 import logo from './assets/images/dutch-lex.svg'
 
@@ -1688,6 +1689,13 @@ function GameRoute() {
   return <SpellingGame languageMode={languageMode} />
 }
 
+// Smart Review Page Route Component
+function SmartReviewRoute() {
+  const location = useLocation()
+  const languageMode = location.pathname.startsWith('/zh') ? 'chinese' : 'english'
+  return <SmartReviewPage languageMode={languageMode} />
+}
+
 // About Page Route Component
 function AboutRoute() {
   const location = useLocation()
@@ -1711,6 +1719,7 @@ function App() {
       <Route path="/zh/learn" element={<MainApp />} />
       <Route path="/zh/test-select" element={<TestSelectionRoute />} />
       <Route path="/zh/test" element={<TestRoute />} />
+      <Route path="/zh/smart-review" element={<SmartReviewRoute />} />
       <Route path="/zh/game" element={<GameRoute />} />
       <Route path="/zh/profile" element={<ProfileRoute />} />
       <Route path="/zh/wordlist" element={<WordListRoute />} />
@@ -1720,6 +1729,7 @@ function App() {
       <Route path="/en/learn" element={<MainApp />} />
       <Route path="/en/test-select" element={<TestSelectionRoute />} />
       <Route path="/en/test" element={<TestRoute />} />
+      <Route path="/en/smart-review" element={<SmartReviewRoute />} />
       <Route path="/en/game" element={<GameRoute />} />
       <Route path="/en/profile" element={<ProfileRoute />} />
       <Route path="/en/wordlist" element={<WordListRoute />} />

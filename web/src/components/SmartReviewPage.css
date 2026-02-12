@@ -1,0 +1,539 @@
+.smart-review-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.smart-review-container {
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-top: 12px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: none;
+  background: #f5f5f5;
+  color: #333;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  transition: all 0.2s;
+}
+
+.back-btn:hover {
+  background: #e0e0e0;
+}
+
+.lang-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 2px solid #6366f1;
+  background: white;
+  color: #6366f1;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  transition: all 0.2s;
+}
+
+.lang-toggle-btn:hover {
+  background: #6366f1;
+  color: white;
+}
+
+.smart-review-content {
+  text-align: center;
+}
+
+.smart-review-content h1 {
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.refresh-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: 2px solid #6366f1;
+  background: white;
+  color: #6366f1;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  margin: 0 auto 16px;
+  transition: all 0.2s;
+}
+
+.refresh-btn:hover {
+  background: #6366f1;
+  color: white;
+}
+
+.refresh-icon {
+  transition: transform 0.5s ease;
+}
+
+.refresh-icon.rotating {
+  animation: rotate 0.5s ease;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.review-stats {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 16px;
+}
+
+.review-stats h2 {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.stat-item {
+  padding: 12px 8px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.stat-item.urgent {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+}
+
+.stat-item.due-soon {
+  background: linear-gradient(135deg, #fcd34d 0%, #fbbf24 100%);
+  color: #78350f;
+}
+
+.stat-item.upcoming {
+  background: linear-gradient(135deg, #a5b4fc 0%, #818cf8 100%);
+  color: #1e1b4b;
+}
+
+.stat-item.future {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+}
+
+.stat-value {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.stat-label {
+  font-size: 11px;
+  font-weight: 500;
+  opacity: 0.9;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.stat-total {
+  color: #666;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.review-explanation {
+  background: #fef3c7;
+  border-left: 3px solid #f59e0b;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.review-explanation h3 {
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.review-explanation h4 {
+  color: #444;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 12px 0 6px 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.review-explanation h4:first-of-type {
+  margin-top: 8px;
+}
+
+.review-explanation p {
+  color: #666;
+  font-size: 12px;
+  margin: 0 0 8px 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.review-explanation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.review-explanation ul:last-child {
+  margin-bottom: 0;
+}
+
+.review-explanation li {
+  color: #666;
+  font-size: 12px;
+  padding: 2px 0;
+  line-height: 1.4;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.review-options {
+  margin-bottom: 16px;
+}
+
+.option-label {
+  display: block;
+  color: #333;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.word-count-selector {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.count-option {
+  padding: 10px 20px;
+  border: 2px solid #e0e0e0;
+  background: white;
+  color: #333;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  transition: all 0.2s;
+}
+
+.count-option:hover {
+  border-color: #6366f1;
+  color: #6366f1;
+}
+
+.count-option.selected {
+  background: #6366f1;
+  border-color: #6366f1;
+  color: white;
+}
+
+.review-words-list {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+.review-word-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: all 0.2s;
+}
+
+.review-word-item:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.review-word-item:last-child {
+  margin-bottom: 0;
+}
+
+.review-word-item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.word-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+
+.word-dutch {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.3;
+}
+
+.word-translation {
+  font-size: 13px;
+  color: #666;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.3;
+}
+
+.review-status {
+  display: flex;
+  align-items: center;
+}
+
+.familiarity-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.familiarity-badge.familiarity-new {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.familiarity-badge.familiarity-learning {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.familiarity-badge.familiarity-familiar {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.familiarity-badge.familiarity-mastered {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.start-review-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 4px;
+  margin-bottom: 24px;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.no-review-words {
+  text-align: center;
+  padding: 32px;
+}
+
+.no-review-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.no-review-words p {
+  color: #666;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #6366f1;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 12px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-container p {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .smart-review-page {
+    padding: 8px;
+  }
+
+  .smart-review-container {
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 10px;
+  }
+
+  .smart-review-content h1 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .stat-value {
+    font-size: 18px;
+  }
+
+  .stat-label {
+    font-size: 10px;
+  }
+
+  .word-count-selector {
+    gap: 8px;
+  }
+
+  .count-option {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  .word-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .word-dutch {
+    font-size: 14px;
+  }
+
+  .word-translation {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .smart-review-container {
+    padding: 10px;
+  }
+
+  .smart-review-content h1 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .review-stats h2 {
+    font-size: 14px;
+  }
+
+  .review-stats {
+    padding: 12px;
+  }
+
+  .review-explanation {
+    padding: 10px;
+  }
+
+  .review-explanation h3 {
+    font-size: 13px;
+  }
+
+  .review-explanation li {
+    font-size: 11px;
+  }
+
+  .review-words-list {
+    max-height: 320px;
+    padding: 12px;
+  }
+
+  .review-word-item {
+    padding: 10px 12px;
+    margin-bottom: 8px;
+  }
+
+  .review-word-item:nth-child(4) {
+    margin-bottom: 0;
+  }
+}

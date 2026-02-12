@@ -494,6 +494,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
         `第 ${current} ${total > 1 ? `页，共 ${total} 页` : '页'} (显示 ${start + 1}-${end}，共 ${totalItems} 项)`,
       viewAllWords: '全部单词',
       viewMistakes: '错题本',
+      viewSmartReview: '智能复习',
       wrongCount: '错误次数'
     },
     english: {
@@ -539,6 +540,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
         `Page ${current} ${total > 1 ? `of ${total}` : ''} (showing ${start + 1}-${end} of ${totalItems} items)`,
       viewAllWords: 'All Words',
       viewMistakes: 'Mistakes',
+      viewSmartReview: 'Smart Review',
       wrongCount: 'Wrong Count'
     }
   }
@@ -831,6 +833,17 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                 </svg>
                 <span className="btn-text">{t.viewMistakes}</span>
               </button>
+              <button
+                className="view-toggle-btn smart-review-btn"
+                onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/smart-review`)}
+                title={languageMode === 'chinese' ? '基于艾宾浩斯遗忘曲线的智能复习' : 'Smart review based on Ebbinghaus forgetting curve'}
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+                <span className="btn-text">{t.viewSmartReview}</span>
+              </button>
             </div>
           </div>
 
@@ -864,6 +877,19 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                     <line x1="12" y1="17" x2="12.01" y2="17"/>
                   </svg>
                   <span>{t.viewMistakes}</span>
+                </button>
+                <button
+                  className="mobile-menu-item smart-review-menu-item"
+                  onClick={() => {
+                    navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/smart-review`)
+                    setMobileMenuOpen(false)
+                  }}
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                    <circle cx="12" cy="12" r="3"/>
+                  </svg>
+                  <span>{t.viewSmartReview}</span>
                 </button>
               </div>
             </div>

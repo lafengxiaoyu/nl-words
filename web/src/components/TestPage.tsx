@@ -117,7 +117,8 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const [timeLimit, setTimeLimit] = useState(0)
   const [timeRemaining, setTimeRemaining] = useState(0)
   const [wordsWithProgress, setWordsWithProgress] = useState<Word[]>([]) // 带进度的单词列表
-  const [testMode, setTestMode] = useState<'all' | 'mistakes' | 'new' | 'learning'>('all') // 测试模式
+  const [testMode, setTestMode] = useState<'all' | 'mistakes' | 'new' | 'learning' | 'smart-review'>('all') // 测试模式
+  const [isSmartReviewMode, setIsSmartReviewMode] = useState(false) // 是否为智能复习模式
 
   // 从 URL 参数获取是否为错题专属测试
   const mistakesOnly = useMemo(() => {
@@ -195,6 +196,16 @@ export default function TestPage({ languageMode }: TestPageProps) {
       sessionStorage.removeItem('testSettings')
     }
 
+    // 检测是否为智能复习模式
+    const reviewWordIdsStr = sessionStorage.getItem('reviewWordIds')
+    if (reviewWordIdsStr) {
+      setIsSmartReviewMode(true)
+      const reviewWordCountStr = sessionStorage.getItem('reviewWordCount')
+      if (reviewWordCountStr) {
+        setWordCount(parseInt(reviewWordCountStr, 10))
+      }
+    }
+
     const { data: { subscription } } = supabase.auth.onAuthStateChange(async (_event, session) => {
       setUser(session?.user || null)
       if (session?.user) {
@@ -246,6 +257,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
       testModeMistakes: '错题复习',
       testModeNew: '新题练习',
       testModeLearning: '学习中',
+      testModeSmartReview: '智能复习',
       allDifficulty: '全部',
       wordCountLabel: (count: number) => `${count} 个单词`,
       notMastered: '未掌握',
@@ -276,6 +288,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
       testModeMistakes: 'Mistakes Review',
       testModeNew: 'New Words',
       testModeLearning: 'Learning',
+      testModeSmartReview: 'Smart Review',
       allDifficulty: 'All',
       wordCountLabel: (count: number) => `${count} words`,
       notMastered: 'Not Mastered',
@@ -380,6 +393,23 @@ export default function TestPage({ languageMode }: TestPageProps) {
         const masteredAt = w.stats?.masteredAt
         return wrongCount > 0 && !masteredAt
       })
+    } else if (isSmartReviewMode) {
+      // 智能复习模式：从 sessionStorage 读取预选的单词
+      const reviewWordIdsStr = sessionStorage.getItem('reviewWordIds')
+      if (reviewWordIdsStr) {
+        try {
+          const reviewWordIds = JSON.parse(reviewWordIdsStr) as number[]
+          filteredWords = wordsWithProgress.filter(w => reviewWordIds.includes(w.id))
+          // 清除 sessionStorage 中的数据
+          sessionStorage.removeItem('reviewWordIds')
+          sessionStorage.removeItem('reviewWordCount')
+        } catch (error) {
+          console.error('Failed to parse review word IDs:', error)
+          filteredWords = []
+        }
+      } else {
+        filteredWords = []
+      }
     } else {
       // 根据选择的测试模式筛选单词
       const baseWords = wordsWithProgress.length > 0 ? wordsWithProgress : words
@@ -443,7 +473,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
     } else {
       setCurrentOptions([])
     }
-  }, [selectedDifficulty, wordCount, timeLimit, generateOptions, filterWordsByDifficulty, mistakesOnly, wordsWithProgress, testMode])
+  }, [selectedDifficulty, wordCount, timeLimit, generateOptions, filterWordsByDifficulty, mistakesOnly, wordsWithProgress, testMode, isSmartReviewMode])
 
   // 发音功能
   const speakDutch = (text: string) => {
@@ -786,6 +816,13 @@ export default function TestPage({ languageMode }: TestPageProps) {
                     onClick={() => setTestMode('learning')}
                   >
                     {t.testModeLearning}
+                  </button>
+                  <button
+                    className={`test-mode-option smart-review-btn`}
+                    onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/smart-review`)}
+                    title={languageMode === 'chinese' ? '基于艾宾浩斯遗忘曲线的智能复习' : 'Smart review based on Ebbinghaus forgetting curve'}
+                  >
+                    {t.testModeSmartReview}
                   </button>
                 </div>
               </div>
