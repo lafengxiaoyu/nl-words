@@ -72,10 +72,14 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
           return
         }
 
-        // 如果没有会话，检查 URL 中的 token 参数（Supabase 邮件链接格式）
+        // 如果没有会话，检查 URL 中的 token（支持 query 参数和 hash 片段两种格式）
+        // 格式1: ?token=xxx&type=recovery (Supabase 邮件链接)
+        // 格式2: #access_token=xxx&type=recovery (Supabase 重定向)
         const searchParams = new URLSearchParams(location.search)
-        const token = searchParams.get('token')
-        const type = searchParams.get('type')
+        const hashParams = location.hash ? new URLSearchParams(location.hash.substring(1)) : null
+
+        const token = searchParams.get('token') || hashParams?.get('access_token')
+        const type = searchParams.get('type') || hashParams?.get('type')
 
         if (token && type === 'recovery') {
           // 使用 verifyOtp 验证恢复 token
@@ -104,7 +108,7 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
     }
 
     checkRecoverySession()
-  }, [location.search])
+  }, [location.search, location.hash])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
