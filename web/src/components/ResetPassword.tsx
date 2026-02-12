@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '../lib/supabase'
-import { useNavigate, useLocation } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import './Auth.css'
 
 interface ResetPasswordProps {
@@ -20,7 +20,6 @@ export default function ResetPassword({ languageMode }: ResetPasswordProps) {
   const [isValidSession, setIsValidSession] = useState(false)
   const [checking, setChecking] = useState(true)
   const navigate = useNavigate()
-  const location = useLocation()
 
   const translations = {
     chinese: {

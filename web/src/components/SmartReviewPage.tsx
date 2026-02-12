@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { User } from '@supabase/supabase-js'
 import type { Word } from '../data/words'
@@ -70,7 +70,7 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
   const [isRefreshing, setIsRefreshing] = useState(false)
 
   // 使用页面首次加载时的时间戳作为基准，避免每次调用 Date.now() 不同导致统计不稳定
-  const pageLoadTime = useRef(Date.now()).current
+  const [pageLoadTime] = useState<number>(() => Date.now())
 
   // 翻译
   const translations = {
@@ -331,7 +331,7 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
               </div>
 
               <div className="review-words-list">
-                {reviewWordDetails.map((item, _index) => {
+                {reviewWordDetails.map((item) => {
                   if (!item.word) return null
                   const translation = languageMode === 'chinese' ? item.word.translation?.chinese : item.word.translation?.english
                   return (

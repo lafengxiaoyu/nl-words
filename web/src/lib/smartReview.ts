@@ -40,7 +40,6 @@ export function calculateReviewPriority(
 
   // 计算当前复习阶段
   const testCount = stats?.testCount || 0
-  const consecutiveCorrect = stats?.consecutiveCorrectCount || 0
   const reviewStage = Math.min(testCount, 2) // 0, 1, 2 三个阶段
 
   // 获取当前阶段的复习间隔
@@ -84,7 +83,6 @@ export function calculateNextReviewTime(
 
   // 计算当前复习阶段
   const testCount = stats?.testCount || 0
-  const consecutiveCorrect = stats?.consecutiveCorrectCount || 0
   const reviewStage = Math.min(testCount, 2) // 0, 1, 2 三个阶段
 
   // 答错后重置到第一阶段
