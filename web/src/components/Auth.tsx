@@ -150,7 +150,7 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
         }
       } else if (authMode === 'reset') {
         // 重置密码 - 根据当前语言跳转到对应的密码重置页面
-        const resetPath = languageMode === 'english' ? '/en/reset-password' : '/zh/reset-password'
+        const resetPath = languageMode === 'english' ? 'en/reset-password' : 'zh/reset-password'
 
         // 根据环境确定重定向 URL
         let redirectUrl: string
@@ -158,10 +158,10 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
 
         if (isDev) {
           // 开发环境：使用 localhost
-          redirectUrl = `http://localhost:5173${resetPath}`
+          redirectUrl = `http://localhost:5173/${resetPath}`
         } else {
           // 生产环境：使用 GitHub Pages
-          redirectUrl = `https://lafengxiaoyu.github.io/nl-words${resetPath}`
+          redirectUrl = `https://lafengxiaoyu.github.io/nl-words/${resetPath}`
         }
 
         const { error } = await supabase.auth.resetPasswordForEmail(email, {
