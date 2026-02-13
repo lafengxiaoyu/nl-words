@@ -10,10 +10,9 @@ DECLARE
   v_result JSONB;
   v_username TEXT;
   v_progress_count INTEGER;
-  v_word_stats_count INTEGER;
-  v_alert_logs_count INTEGER;
   v_api_usage_count INTEGER;
   v_profiles_count INTEGER;
+  v_alert_logs_count INTEGER := 0;
   v_deleted_records JSONB;
 BEGIN
   -- 获取用户名（用于日志）
@@ -25,17 +24,21 @@ BEGIN
   DELETE FROM user_progress WHERE user_id = p_user_id;
   GET DIAGNOSTICS v_progress_count = ROW_COUNT;
 
-  -- 删除单词统计数据
-  DELETE FROM word_stats WHERE user_id = p_user_id;
-  GET DIAGNOSTICS v_word_stats_count = ROW_COUNT;
+  -- 删除用户的 API 使用日志（如果表存在）
+  BEGIN
+    DELETE FROM api_usage_log WHERE user_id = p_user_id;
+    GET DIAGNOSTICS v_api_usage_count = ROW_COUNT;
+  EXCEPTION WHEN UNDEFINED_TABLE THEN
+    v_api_usage_count := 0;
+  END;
 
-  -- 删除用户的告警日志
-  DELETE FROM alert_logs WHERE user_id = p_user_id;
-  GET DIAGNOSTICS v_alert_logs_count = ROW_COUNT;
-
-  -- 删除用户的 API 使用日志
-  DELETE FROM api_usage_log WHERE user_id = p_user_id;
-  GET DIAGNOSTICS v_api_usage_count = ROW_COUNT;
+  -- 删除用户的告警日志（如果表存在）
+  BEGIN
+    DELETE FROM alert_logs WHERE user_id = p_user_id;
+    GET DIAGNOSTICS v_alert_logs_count = ROW_COUNT;
+  EXCEPTION WHEN UNDEFINED_TABLE THEN
+    v_alert_logs_count := 0;
+  END;
 
   -- 删除用户资料
   DELETE FROM user_profiles WHERE user_id = p_user_id;
@@ -44,9 +47,8 @@ BEGIN
   -- 构建删除记录的 JSONB
   v_deleted_records := jsonb_build_object(
     'user_progress', v_progress_count,
-    'word_stats', v_word_stats_count,
-    'alert_logs', v_alert_logs_count,
     'api_usage_log', v_api_usage_count,
+    'alert_logs', v_alert_logs_count,
     'user_profiles', v_profiles_count
   );
 
@@ -56,26 +58,6 @@ BEGIN
     'user_id', p_user_id,
     'username', v_username,
     'deleted_records', v_deleted_records
-  );
-
-  -- 记录删除操作到告警日志
-  INSERT INTO alert_logs (
-    alert_type,
-    severity,
-    user_id,
-    email,
-    error_message,
-    metadata
-  ) VALUES (
-    'user_deletion',
-    'info',
-    NULL, -- 用户已被删除
-    v_username,
-    'User deleted by admin',
-    jsonb_build_object(
-      'deleted_records', v_deleted_records,
-      'deleted_by', auth.uid()
-    )
   );
 
   RETURN v_result;

@@ -304,22 +304,32 @@ export default function AdminDashboard() {
 
   const handleDeleteUser = async (userId: string) => {
     try {
+      console.log('开始删除用户, userId:', userId)
+
       // 使用完全删除用户函数
       const { data, error } = await supabase.rpc('delete_user_completely', {
         p_user_id: userId
       })
 
-      if (error) throw error
+      console.log('RPC 调用结果:', { data, error })
+
+      if (error) {
+        console.error('RPC 返回错误:', error)
+        throw error
+      }
 
       if (data) {
         const result = data as DeleteUserResult
+        console.log('删除结果:', result)
         if (result.success) {
           console.log('已删除用户数据:', result.deleted_records)
           showMessage('success', `用户 ${result.username || 'Unknown'} 已完全删除`)
         } else {
-          showMessage('error', '删除用户失败')
+          console.error('删除失败，result.success 为 false:', result)
+          showMessage('error', result.error || '删除用户失败')
         }
       } else {
+        console.error('删除失败，data 为空')
         showMessage('error', '删除用户失败')
       }
 
