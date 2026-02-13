@@ -285,6 +285,9 @@ BEGIN
     WHEN 'auth_error' THEN
       v_title := '❌ 认证错误';
       v_color := 16711680; -- 红色
+    WHEN 'auth_info' THEN
+      v_title := '✅ 认证信息';
+      v_color := 32768; -- 绿色
     WHEN 'api_error' THEN
       v_title := '🔧 API 错误';
       v_color := 16711680; -- 红色

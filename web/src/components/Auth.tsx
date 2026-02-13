@@ -19,10 +19,10 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
   const [error, setError] = useState<string | null>(null)
   const [message, setMessage] = useState<string | null>(null)
 
-  // 验证码状态
-  const [captcha, setCaptcha] = useState(() => {
+  // 生成验证码的辅助函数
+  const generateCaptcha = () => {
     const operators = ['+', '-', '*']
-    const operator = operators[Math.floor(Math.random() * 3)]
+    const operator = operators[Math.floor(Math.random() * operators.length)]
     const a = Math.floor(Math.random() * 10) + 1
     const b = Math.floor(Math.random() * 10) + 1
 
@@ -34,16 +34,19 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
     else answer = a * b
 
     return { question, answer }
-  })
+  }
+
+  // 验证码状态
+  const [captcha, setCaptcha] = useState(() => generateCaptcha())
   const [captchaInput, setCaptchaInput] = useState('')
 
   // 严格邮箱验证
-  const isValidEmail = (email: string): boolean => {
+  const isValidEmail = (emailAddress: string): boolean => {
     const emailRegex = /^[a-zA-Z0-9](?:[a-zA-Z0-9._%+-]{0,30}[a-zA-Z0-9])?@[a-zA-Z0-9](?:[a-zA-Z0-9.-]{0,30}[a-zA-Z0-9])?\.[a-zA-Z]{2,}$/
-    if (!emailRegex.test(email)) return false
+    if (!emailRegex.test(emailAddress)) return false
 
     // 分解邮箱
-    const parts = email.split('@')
+    const parts = emailAddress.split('@')
     if (parts.length !== 2) return false
 
     const localPart = parts[0]
@@ -67,19 +70,7 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
 
   // 刷新验证码
   const refreshCaptcha = () => {
-    const operators = ['+', '-', '*']
-    const operator = operators[Math.floor(Math.random() * 3)]
-    const a = Math.floor(Math.random() * 10) + 1
-    const b = Math.floor(Math.random() * 10) + 1
-
-    let answer: number
-    const question = `${a} ${operator} ${b}`
-
-    if (operator === '+') answer = a + b
-    else if (operator === '-') answer = a - b
-    else answer = a * b
-
-    setCaptcha({ question, answer })
+    setCaptcha(generateCaptcha())
     setCaptchaInput('')
   }
 
@@ -237,6 +228,19 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
           if (profileError) {
             console.error('保存用户信息失败:', profileError)
           }
+
+          // 发送注册成功通知到 Discord
+          supabase.rpc('send_discord_alert_if_configured', {
+            p_alert_type: 'auth_info',
+            p_severity: 'info',
+            p_message: `✅ 新用户注册成功\n📧 ${email}\n👤 ${username}`
+          }).then(({ error }) => {
+            if (error) {
+              console.error('发送 Discord 通知失败:', error)
+            }
+          }).catch(err => {
+            console.error('发送 Discord 通知失败:', err)
+          })
 
           setMessage(t.registerSuccess)
           setTimeout(() => {
