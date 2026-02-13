@@ -1,19 +1,14 @@
 -- ============================================
--- API 使用统计修正 - 考虑采样率
+-- 修复 user_api_usage_stats 视图安全配置
 -- ============================================
--- 问题：api_usage_log 表是采样的（默认 5%），
---      user_api_usage_stats 视图直接 COUNT 会得到采样记录数
--- 解决：让视图返回估算的实际调用量（采样数 / 采样率）
---
--- 注意：采样率应与前端的 VITE_API_LOG_SAMPLING_RATE 保持一致
--- 默认采样率：0.05 (5%)
--- 如果修改了前端采样率，请同步修改下方的 SAMPLING_RATE 常量
+-- 问题：视图使用了 SECURITY DEFINER 权限，会引发安全警告
+-- 解决：移除 SECURITY DEFINER，改为普通视图
 
 -- 删除旧视图
-DROP VIEW IF EXISTS user_api_usage_stats;
+DROP VIEW IF EXISTS public.user_api_usage_stats;
 
--- 创建新视图，使用估算值（不使用 SECURITY DEFINER，避免权限问题）
-CREATE VIEW user_api_usage_stats AS
+-- 重新创建视图，不使用 SECURITY DEFINER
+CREATE VIEW public.user_api_usage_stats AS
 SELECT
   up.user_id,
   up.username,
@@ -75,32 +70,12 @@ SELECT
   COALESCE(progress.total_records, 0) as progress_records
 FROM user_profiles up
 LEFT JOIN api_usage_log al ON up.user_id = al.user_id
-LEFT JOIN (
-  SELECT user_id, COUNT(*) as total_records
+LEFT JOIN LATERAL (
+  SELECT COUNT(*) as total_records
   FROM user_progress
-  GROUP BY user_id
-) progress ON up.user_id = progress.user_id
+  WHERE user_id = up.user_id
+) progress ON true
 GROUP BY up.user_id, up.username, up.email, up.subscription_tier, up.subscription_status, progress.total_records;
 
--- ============================================
--- 使用说明：
--- ============================================
---
--- 1. 默认采样率：5% (0.05)
---
--- 2. 估算公式：实际调用量 = 采样记录数 / 采样率
---    例如：10 条采样记录 / 0.05 = 200 次实际调用
---
--- 3. 如果修改了前端的采样率（VITE_API_LOG_SAMPLING_RATE），
---    需要同步修改此视图中的除数（当前 0.05）
---
--- 4. 统计字段说明：
---    - calls_today: 今天的调用次数
---    - calls_7days: 过去7天内的调用次数
---    - calls_30days: 过去30天内的调用次数
---
--- 5. 如果想要精确统计而非估算，可以：
---    a) 将采样率设为 1.0（100% 采样，修改前端和此视图）
---    b) 或者在前端直接统计调用次数（不使用日志系统）
---
--- ============================================
+-- 为视图添加注释
+COMMENT ON VIEW public.user_api_usage_stats IS '用户 API 使用统计视图（基于 api_usage_log 采样数据估算实际调用量）';
