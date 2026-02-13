@@ -694,6 +694,22 @@
   font-weight: 600;
 }
 
+.modal-content .delete-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.modal-content .delete-list li {
+  padding: 8px 0;
+  color: #4b5563;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.modal-content .delete-list li:last-child {
+  border-bottom: none;
+}
+
 .modal-actions {
   display: flex;
   gap: 12px;

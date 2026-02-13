@@ -270,15 +270,21 @@ export default function AdminDashboard() {
 
   const handleDeleteUser = async (userId: string) => {
     try {
-      // 删除用户的所有进度数据
-      const { error } = await supabase
-        .from('user_progress')
-        .delete()
-        .eq('user_id', userId)
+      // 使用完全删除用户函数
+      const { data, error } = await supabase.rpc('delete_user_completely', {
+        p_user_id: userId
+      })
 
       if (error) throw error
 
-      showMessage('success', '用户数据已删除')
+      if (data && (data as any).success) {
+        const deletedRecords = (data as any).deleted_records
+        console.log('已删除用户数据:', deletedRecords)
+        showMessage('success', `用户 ${deletedRecords.username || 'Unknown'} 已完全删除`)
+      } else {
+        showMessage('error', '删除用户失败')
+      }
+
       setShowDeleteConfirm(false)
       setSelectedUser(null)
       const adminUsers = await loadUsers()
@@ -350,15 +356,20 @@ export default function AdminDashboard() {
 
       const userIds = Array.from(selectedInactiveUsers)
 
-      // 批量删除用户的所有进度数据
-      const { error } = await supabase
-        .from('user_progress')
-        .delete()
-        .in('user_id', userIds)
+      // 使用批量删除用户函数
+      const { data, error } = await supabase.rpc('delete_users_batch', {
+        p_user_ids: userIds
+      })
 
       if (error) throw error
 
-      showMessage('success', `已删除 ${userIds.length} 个用户的数据`)
+      if (data && (data as any).success) {
+        const totalDeleted = (data as any).total_deleted
+        showMessage('success', `已完全删除 ${totalDeleted} 个用户`)
+      } else {
+        showMessage('error', '批量删除失败')
+      }
+
       setSelectedInactiveUsers(new Set())
       setShowBatchDeleteConfirm(false)
       const adminUsers = await loadUsers()
@@ -366,6 +377,36 @@ export default function AdminDashboard() {
     } catch (err) {
       console.error('批量删除失败:', err)
       showMessage('error', '批量删除失败')
+    }
+  }
+
+  const handleAutoDeleteInactive = async (days: number = 90) => {
+    try {
+      if (!window.confirm(`确定要删除 ${days} 天未活跃的所有用户吗？此操作不可撤销！`)) {
+        return
+      }
+
+      setLoading(true)
+      const { data, error } = await supabase.rpc('delete_inactive_users', {
+        p_days: days
+      })
+
+      if (error) throw error
+
+      if (data && (data as any).success) {
+        const deletedCount = (data as any).deleted_count
+        showMessage('success', `已删除 ${deletedCount} 个未活跃用户`)
+      } else {
+        showMessage('error', '删除失败')
+      }
+
+      const adminUsers = await loadUsers()
+      await loadStats(adminUsers)
+    } catch (err) {
+      console.error('自动删除未活跃用户失败:', err)
+      showMessage('error', '删除失败')
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -637,9 +678,21 @@ export default function AdminDashboard() {
               className="admin-btn admin-btn-danger"
               onClick={() => setShowBatchDeleteConfirm(true)}
             >
-              批量删除
+              批量删除选中
             </button>
           )}
+          <button
+            className="admin-btn admin-btn-small admin-btn-danger"
+            onClick={() => handleAutoDeleteInactive(90)}
+          >
+            自动删除90天未活跃用户
+          </button>
+          <button
+            className="admin-btn admin-btn-small admin-btn-danger"
+            onClick={() => handleAutoDeleteInactive(30)}
+          >
+            自动删除30天未活跃用户
+          </button>
         </div>
       )}
 
@@ -820,9 +873,17 @@ export default function AdminDashboard() {
       {showDeleteConfirm && selectedUser && (
         <div className="modal-overlay" onClick={() => setShowDeleteConfirm(false)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <h3>确认删除</h3>
-            <p>确定要删除用户 {selectedUser.email || selectedUser.id.substring(0, 8)} 的所有数据吗？</p>
-            <p className="warning">此操作不可撤销！</p>
+            <h3>⚠️ 确认完全删除用户</h3>
+            <p>确定要删除用户 <strong>{selectedUser.email || selectedUser.username || selectedUser.id.substring(0, 8)}</strong> 的所有数据吗？</p>
+            <p className="warning">此操作将删除：</p>
+            <ul className="delete-list">
+              <li>📊 用户进度数据</li>
+              <li>📈 单词统计记录</li>
+              <li>📝 告警日志</li>
+              <li>🔌 API 使用日志</li>
+              <li>👤 用户资料</li>
+            </ul>
+            <p className="warning">⚠️ 此操作不可撤销！</p>
             <div className="modal-actions">
               <button
                 className="admin-btn admin-btn-secondary"
@@ -834,7 +895,7 @@ export default function AdminDashboard() {
                 className="admin-btn admin-btn-danger"
                 onClick={() => handleDeleteUser(selectedUser.id)}
               >
-                确认删除
+                确认完全删除
               </button>
             </div>
           </div>
