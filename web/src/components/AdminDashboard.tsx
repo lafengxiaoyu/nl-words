@@ -52,6 +52,40 @@ interface ApiUsageLog {
   created_at: string
 }
 
+interface DeletedRecords {
+  user_progress: number
+  word_stats: number
+  alert_logs: number
+  api_usage_log: number
+  user_profiles: number
+}
+
+interface DeleteUserResult {
+  success: boolean
+  user_id: string
+  username?: string
+  deleted_records?: DeletedRecords
+  error?: string
+}
+
+interface DeleteUsersBatchResult {
+  success: boolean
+  total_deleted: number
+  total_requested?: number
+  results?: DeleteUserResult[]
+  error?: string
+}
+
+interface DeleteInactiveUsersResult {
+  success: boolean
+  message?: string
+  deleted_count: number
+  inactive_cutoff_days?: number
+  inactive_cutoff_date?: string
+  details?: DeleteUsersBatchResult
+  error?: string
+}
+
 export default function AdminDashboard() {
   const navigate = useNavigate()
   const [users, setUsers] = useState<AdminUser[]>([])
@@ -277,10 +311,14 @@ export default function AdminDashboard() {
 
       if (error) throw error
 
-      if (data && (data as any).success) {
-        const deletedRecords = (data as any).deleted_records
-        console.log('已删除用户数据:', deletedRecords)
-        showMessage('success', `用户 ${deletedRecords.username || 'Unknown'} 已完全删除`)
+      if (data) {
+        const result = data as DeleteUserResult
+        if (result.success) {
+          console.log('已删除用户数据:', result.deleted_records)
+          showMessage('success', `用户 ${result.username || 'Unknown'} 已完全删除`)
+        } else {
+          showMessage('error', '删除用户失败')
+        }
       } else {
         showMessage('error', '删除用户失败')
       }
@@ -363,9 +401,13 @@ export default function AdminDashboard() {
 
       if (error) throw error
 
-      if (data && (data as any).success) {
-        const totalDeleted = (data as any).total_deleted
-        showMessage('success', `已完全删除 ${totalDeleted} 个用户`)
+      if (data) {
+        const result = data as DeleteUsersBatchResult
+        if (result.success) {
+          showMessage('success', `已完全删除 ${result.total_deleted} 个用户`)
+        } else {
+          showMessage('error', '批量删除失败')
+        }
       } else {
         showMessage('error', '批量删除失败')
       }
@@ -393,9 +435,13 @@ export default function AdminDashboard() {
 
       if (error) throw error
 
-      if (data && (data as any).success) {
-        const deletedCount = (data as any).deleted_count
-        showMessage('success', `已删除 ${deletedCount} 个未活跃用户`)
+      if (data) {
+        const result = data as DeleteInactiveUsersResult
+        if (result.success) {
+          showMessage('success', `已删除 ${result.deleted_count} 个未活跃用户`)
+        } else {
+          showMessage('error', '删除失败')
+        }
       } else {
         showMessage('error', '删除失败')
       }

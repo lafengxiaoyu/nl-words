@@ -9,33 +9,46 @@ RETURNS JSONB AS $$
 DECLARE
   v_result JSONB;
   v_username TEXT;
-  v_deleted_records JSONB := '{}'::jsonb;
+  v_progress_count INTEGER;
+  v_word_stats_count INTEGER;
+  v_alert_logs_count INTEGER;
+  v_api_usage_count INTEGER;
+  v_profiles_count INTEGER;
+  v_deleted_records JSONB;
 BEGIN
   -- 获取用户名（用于日志）
   SELECT username INTO v_username
   FROM user_profiles
   WHERE user_id = p_user_id;
 
-  -- 记录删除的记录数
   -- 删除用户进度数据
   DELETE FROM user_progress WHERE user_id = p_user_id;
-  GET DIAGNOSTICS v_deleted_records->>'user_progress' = ROW_COUNT;
+  GET DIAGNOSTICS v_progress_count = ROW_COUNT;
 
   -- 删除单词统计数据
   DELETE FROM word_stats WHERE user_id = p_user_id;
-  GET DIAGNOSTICS v_deleted_records->>'word_stats' = ROW_COUNT;
+  GET DIAGNOSTICS v_word_stats_count = ROW_COUNT;
 
   -- 删除用户的告警日志
   DELETE FROM alert_logs WHERE user_id = p_user_id;
-  GET DIAGNOSTICS v_deleted_records->>'alert_logs' = ROW_COUNT;
+  GET DIAGNOSTICS v_alert_logs_count = ROW_COUNT;
 
   -- 删除用户的 API 使用日志
   DELETE FROM api_usage_log WHERE user_id = p_user_id;
-  GET DIAGNOSTICS v_deleted_records->>'api_usage_log' = ROW_COUNT;
+  GET DIAGNOSTICS v_api_usage_count = ROW_COUNT;
 
   -- 删除用户资料
   DELETE FROM user_profiles WHERE user_id = p_user_id;
-  GET DIAGNOSTICS v_deleted_records->>'user_profiles' = ROW_COUNT;
+  GET DIAGNOSTICS v_profiles_count = ROW_COUNT;
+
+  -- 构建删除记录的 JSONB
+  v_deleted_records := jsonb_build_object(
+    'user_progress', v_progress_count,
+    'word_stats', v_word_stats_count,
+    'alert_logs', v_alert_logs_count,
+    'api_usage_log', v_api_usage_count,
+    'user_profiles', v_profiles_count
+  );
 
   -- 构建结果
   v_result := jsonb_build_object(
