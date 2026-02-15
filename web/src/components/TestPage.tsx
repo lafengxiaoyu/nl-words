@@ -119,6 +119,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const [wordsWithProgress, setWordsWithProgress] = useState<Word[]>([]) // 带进度的单词列表
   const [testMode, setTestMode] = useState<'all' | 'mistakes' | 'new' | 'learning' | 'smart-review'>('all') // 测试模式
   const [isSmartReviewMode, setIsSmartReviewMode] = useState(false) // 是否为智能复习模式
+  const [isPageVisible, setIsPageVisible] = useState(false) // 页面过渡动画状态
 
   // 从 URL 参数获取是否为错题专属测试
   const mistakesOnly = useMemo(() => {
@@ -229,8 +230,14 @@ export default function TestPage({ languageMode }: TestPageProps) {
       }
     })
 
+    // 页面加载完成后，延迟显示内容（实现淡入效果）
+    const timer = setTimeout(() => {
+      setIsPageVisible(true)
+    }, 100)
+
     return () => {
       subscription.unsubscribe()
+      clearTimeout(timer)
     }
   }, [])
 
@@ -982,7 +989,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
     return (
       <>
       <div className="test-page">
-        <div className="test-container">
+        <div className={`test-container page-transition ${isPageVisible ? 'page-visible' : ''}`}>
           <div className="page-header">
             <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
               {t.backToLearn}
@@ -1010,7 +1017,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
   return (
     <>
     <div className="test-page">
-      <div className="test-container">
+      <div className={`test-container page-transition ${isPageVisible ? 'page-visible' : ''}`}>
         <div className="page-header">
           <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
             {t.backToLearn}

@@ -1,0 +1,561 @@
+.table-spelling-test {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.table-spelling-test .test-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.table-spelling-test .page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.table-spelling-test .back-btn {
+  background: transparent;
+  border: 2px solid #667eea;
+  color: #667eea;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.table-spelling-test .back-btn:hover {
+  background: #667eea;
+  color: white;
+}
+
+.table-spelling-test .lang-toggle-btn {
+  background: #f0f0f0;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.table-spelling-test .lang-toggle-btn:hover {
+  background: #e0e0e0;
+}
+
+.table-spelling-test .lang-text {
+  font-weight: bold;
+}
+
+.table-spelling-test .test-selection-content {
+  text-align: center;
+}
+
+.table-spelling-test .test-selection-content h1 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.table-spelling-test .subtitle {
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.table-spelling-test .test-options {
+  margin-bottom: 40px;
+}
+
+.table-spelling-test .option-group {
+  margin-bottom: 30px;
+}
+
+.table-spelling-test .option-label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.table-spelling-test .difficulty-selector,
+.table-spelling-test .test-mode-selector,
+.table-spelling-test .word-count-selector {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.table-spelling-test .difficulty-option,
+.table-spelling-test .test-mode-option,
+.table-spelling-test .count-option {
+  padding: 12px 24px;
+  border: 2px solid #e0e0e0;
+  background: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.table-spelling-test .difficulty-option:hover,
+.table-spelling-test .test-mode-option:hover,
+.table-spelling-test .count-option:hover {
+  border-color: #667eea;
+  background: #f8f9ff;
+}
+
+.table-spelling-test .difficulty-option.selected,
+.table-spelling-test .test-mode-option.selected,
+.table-spelling-test .count-option.selected {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
+.table-spelling-test .difficulty-option.locked {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.table-spelling-test .difficulty-option.locked:hover {
+  border-color: #e0e0e0;
+  background: white;
+}
+
+.table-spelling-test .lock-icon {
+  margin-left: 5px;
+}
+
+.table-spelling-test .count-option.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.table-spelling-test .warning-text {
+  color: #ff6b6b;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.table-spelling-test .btn {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.table-spelling-test .btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.table-spelling-test .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+}
+
+.table-spelling-test .btn-secondary {
+  background: #f0f0f0;
+  color: #333;
+  margin-left: 15px;
+}
+
+.table-spelling-test .btn-secondary:hover {
+  background: #e0e0e0;
+}
+
+.table-spelling-test .btn-lg {
+  padding: 18px 50px;
+  font-size: 20px;
+}
+
+/* Test Content Styles */
+.table-spelling-test .test-content {
+  text-align: center;
+}
+
+.table-spelling-test .test-content h1 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.table-spelling-test .test-table-container {
+  margin-bottom: 30px;
+  overflow-x: auto;
+}
+
+.table-spelling-test .test-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.table-spelling-test .test-table th,
+.table-spelling-test .test-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  color: #333;
+  vertical-align: top;
+}
+
+.table-spelling-test .test-table th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: bold;
+}
+
+.table-spelling-test .test-table th:first-child,
+.table-spelling-test .test-table td:first-child {
+  color: #333;
+  font-weight: bold;
+}
+
+.table-spelling-test .test-table tr:hover {
+  background: #f8f9ff;
+}
+
+.table-spelling-test .dutch-cell {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.1rem;
+  width: 200px;
+}
+
+.table-spelling-test .hint-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+
+.table-spelling-test .hint-btn-inline {
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.table-spelling-test .hint-btn-inline:hover {
+  background: #667eea;
+  border-color: #667eea;
+}
+
+.table-spelling-test .hint-text-inline {
+  color: #667eea;
+  font-size: 0.85rem;
+  line-height: 1.3;
+  text-align: left;
+  padding: 6px;
+  background: #f8f9ff;
+  border-radius: 6px;
+  border-left: 3px solid #667eea;
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.table-spelling-test .input-cell {
+  min-width: 180px;
+  max-width: 220px;
+  vertical-align: middle !important;
+}
+
+.table-spelling-test .hint-btn {
+  background: #fff3cd;
+  border: 1px solid #ffcd00;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.table-spelling-test .hint-btn:hover {
+  background: #ffcd00;
+  color: white;
+}
+
+.table-spelling-test .answer-input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.table-spelling-test .answer-input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.table-spelling-test .submitted-answer {
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.table-spelling-test .submitted-answer.correct {
+  background: #d4edda;
+  color: #155724;
+}
+
+.table-spelling-test .submitted-answer.wrong {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.table-spelling-test .correct-answer-hint {
+  margin-left: 10px;
+  font-weight: normal;
+  color: #666;
+}
+
+.table-spelling-test .speak-btn-small {
+  background: rgba(99, 102, 241, 0.1);
+  border: 2px solid rgba(99, 102, 241, 0.3);
+  border-radius: 12px;
+  padding: 6px 8px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6366f1;
+}
+
+.table-spelling-test .speak-btn-small:hover {
+  background: rgba(99, 102, 241, 0.15);
+  border-color: rgba(99, 102, 241, 0.5);
+  transform: scale(1.05);
+}
+
+.table-spelling-test .speak-btn-small:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.table-spelling-test .speaker-icon {
+  color: #6366f1;
+}
+
+.table-spelling-test .speak-btn-small:hover .speaker-icon {
+  color: #6366f1;
+}
+
+.table-spelling-test .submit-section {
+  margin-top: 30px;
+}
+
+.table-spelling-test .loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.table-spelling-test .loading-container p {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+/* Results Styles */
+.table-spelling-test .results-container {
+  text-align: center;
+}
+
+.table-spelling-test .results-container h1 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.table-spelling-test .score-summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.table-spelling-test .score-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+}
+
+.table-spelling-test .score-number {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.table-spelling-test .score-label {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.table-spelling-test .stats-summary {
+  display: flex;
+  gap: 30px;
+}
+
+.table-spelling-test .stat-item {
+  text-align: center;
+}
+
+.table-spelling-test .stat-value {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.table-spelling-test .stat-value.correct {
+  color: #28a745;
+}
+
+.table-spelling-test .stat-value.wrong {
+  color: #dc3545;
+}
+
+.table-spelling-test .stat-label {
+  color: #666;
+  font-size: 1rem;
+}
+
+.table-spelling-test .results-table-container {
+  margin-bottom: 40px;
+  overflow-x: auto;
+}
+
+.table-spelling-test .results-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.table-spelling-test .results-table th,
+.table-spelling-test .results-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table-spelling-test .results-table th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: bold;
+}
+
+.table-spelling-test .results-table .correct-row {
+  background: #f0fff0;
+}
+
+.table-spelling-test .results-table .wrong-row {
+  background: #fff5f5;
+}
+
+.table-spelling-test .correct-answer {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.table-spelling-test .wrong-answer {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.table-spelling-test .action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .table-spelling-test .test-container {
+    padding: 20px;
+  }
+
+  .table-spelling-test .test-selection-content h1 {
+    font-size: 2rem;
+  }
+
+  .table-spelling-test .difficulty-selector,
+  .table-spelling-test .test-mode-selector,
+  .table-spelling-test .word-count-selector {
+    gap: 8px;
+  }
+
+  .table-spelling-test .difficulty-option,
+  .table-spelling-test .test-mode-option,
+  .table-spelling-test .count-option {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+
+  .table-spelling-test .test-table th,
+  .table-spelling-test .test-table td {
+    padding: 10px;
+  }
+
+  .table-spelling-test .input-cell {
+    min-width: 150px;
+  }
+
+  .table-spelling-test .answer-input {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .table-spelling-test .score-summary {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .table-spelling-test .stats-summary {
+    gap: 20px;
+  }
+}

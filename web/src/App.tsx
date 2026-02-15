@@ -20,6 +20,7 @@ import WordListPage from './components/WordListPage'
 import AdminDashboard from './components/AdminDashboard'
 import SpellingGame from './components/SpellingGame'
 import TestSelectionPage from './components/TestSelectionPage'
+import TableSpellingTest from './components/TableSpellingTest'
 import AboutPage from './components/AboutPage'
 import ResetPassword from './components/ResetPassword'
 import PremiumUpgradeModal from './components/PremiumUpgradeModal'
@@ -1689,6 +1690,13 @@ function GameRoute() {
   return <SpellingGame languageMode={languageMode} />
 }
 
+// Table Spelling Test Route Component
+function TableSpellingRoute() {
+  const location = useLocation()
+  const languageMode = location.pathname.startsWith('/zh') ? 'chinese' : 'english'
+  return <TableSpellingTest languageMode={languageMode} />
+}
+
 // Smart Review Page Route Component
 function SmartReviewRoute() {
   const location = useLocation()
@@ -1721,6 +1729,7 @@ function App() {
       <Route path="/zh/test" element={<TestRoute />} />
       <Route path="/zh/smart-review" element={<SmartReviewRoute />} />
       <Route path="/zh/game" element={<GameRoute />} />
+      <Route path="/zh/table-spelling" element={<TableSpellingRoute />} />
       <Route path="/zh/profile" element={<ProfileRoute />} />
       <Route path="/zh/wordlist" element={<WordListRoute />} />
       <Route path="/zh/about" element={<AboutRoute />} />
@@ -1731,6 +1740,7 @@ function App() {
       <Route path="/en/test" element={<TestRoute />} />
       <Route path="/en/smart-review" element={<SmartReviewRoute />} />
       <Route path="/en/game" element={<GameRoute />} />
+      <Route path="/en/table-spelling" element={<TableSpellingRoute />} />
       <Route path="/en/profile" element={<ProfileRoute />} />
       <Route path="/en/wordlist" element={<WordListRoute />} />
       <Route path="/en/about" element={<AboutRoute />} />

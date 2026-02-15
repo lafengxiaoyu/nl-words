@@ -34,6 +34,37 @@ const GlobeIcon = () => {
   )
 }
 
+// 选择题图标 - 可爱的勾选框
+const ChoiceIcon = () => {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mode-icon">
+      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+    </svg>
+  )
+}
+
+// 拼写游戏图标 - 可爱的铅笔
+const GameIcon = () => {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mode-icon">
+      <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" fill="currentColor"/>
+    </svg>
+  )
+}
+
+// 表格拼写图标 - 可爱的列表
+const TableIcon = () => {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mode-icon">
+      <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" strokeWidth="2" fill="none"/>
+      <line x1="3" y1="9" x2="21" y2="9" stroke="currentColor" strokeWidth="2"/>
+      <line x1="3" y1="15" x2="21" y2="15" stroke="currentColor" strokeWidth="2"/>
+      <line x1="9" y1="3" x2="9" y2="21" stroke="currentColor" strokeWidth="2"/>
+    </svg>
+  )
+}
+
 export default function TestSelectionPage({ languageMode }: TestSelectionPageProps) {
   const navigate = useNavigate()
   const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
@@ -86,6 +117,7 @@ export default function TestSelectionPage({ languageMode }: TestSelectionPagePro
       modeSelection: '选择测试模式',
       modeDefault: '选择题',
       modeGame: '拼写游戏',
+      modeTable: '表格拼写',
       difficultyWarning: '该难度下只有'
     },
     english: {
@@ -104,8 +136,9 @@ export default function TestSelectionPage({ languageMode }: TestSelectionPagePro
       filterModeNew: 'New Words',
       filterModeLearning: 'Learning',
       modeSelection: 'Select Test Mode',
-      modeDefault: 'Multiple Choice',
-      modeGame: 'Spelling Game',
+      modeDefault: 'Choice',
+      modeGame: 'Spelling',
+      modeTable: 'Table',
       difficultyWarning: 'Only'
     }
   }
@@ -157,7 +190,7 @@ export default function TestSelectionPage({ languageMode }: TestSelectionPagePro
     setSelectedDifficulty(difficulty)
   }
 
-  const startTest = (mode: 'default' | 'game') => {
+  const startTest = (mode: 'default' | 'game' | 'table') => {
     const langPath = languageMode === 'chinese' ? 'zh' : 'en'
     sessionStorage.setItem('testSettings', JSON.stringify({
       difficulty: selectedDifficulty,
@@ -169,8 +202,10 @@ export default function TestSelectionPage({ languageMode }: TestSelectionPagePro
 
     if (mode === 'default') {
       navigate(`/${langPath}/test`)
-    } else {
+    } else if (mode === 'game') {
       navigate(`/${langPath}/game`)
+    } else {
+      navigate(`/${langPath}/table-spelling`)
     }
   }
 
@@ -306,11 +341,18 @@ export default function TestSelectionPage({ languageMode }: TestSelectionPagePro
               <label className="option-label">{t.modeSelection}</label>
               <div className="mode-cards">
                 <div className="mode-card primary-mode" onClick={() => startTest('default')}>
+                  <ChoiceIcon />
                   <h3>{t.modeDefault}</h3>
                 </div>
 
                 <div className="mode-card game-mode" onClick={() => startTest('game')}>
+                  <GameIcon />
                   <h3>{t.modeGame}</h3>
+                </div>
+
+                <div className="mode-card table-mode" onClick={() => startTest('table')}>
+                  <TableIcon />
+                  <h3>{t.modeTable}</h3>
                 </div>
               </div>
             </div>

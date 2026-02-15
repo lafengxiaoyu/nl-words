@@ -86,6 +86,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [userAnswer, setUserAnswer] = useState('')
   const [showResult, setShowResult] = useState(false)
+  const [resultType, setResultType] = useState<'correct' | 'wrong' | 'timeout' | 'skipped'>('wrong')
   const [score, setScore] = useState(0)
   const [gameComplete, setGameComplete] = useState(false)
   const [isSpeaking, setIsSpeaking] = useState(false)
@@ -103,6 +104,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
   const isProcessingRef = useRef(false) // 防止重复处理答案
+  const userAnswerRef = useRef(userAnswer) // 用于同步获取最新的 userAnswer
 
   // 从 localStorage 加载用户进度
   const loadProgressFromLocalStorage = useCallback(() => {
@@ -121,6 +123,11 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
       setUserWords(baseWords)
     }
   }, [])
+
+  // 同步 userAnswerRef 与 userAnswer state
+  useEffect(() => {
+    userAnswerRef.current = userAnswer
+  }, [userAnswer])
 
   // 检查用户登录状态
   useEffect(() => {
@@ -208,6 +215,8 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
       wrong: '错误',
       correctAnswer: '正确答案',
       speakButton: '🔊 发音',
+      timeUpAnswer: '超时未答',
+      skippedAnswer: '已跳过',
       selectDifficulty: '选择难度',
       selectWordCount: '选择单词数量',
       allDifficulty: '全部',
@@ -250,6 +259,8 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
       wrong: 'Wrong',
       correctAnswer: 'Correct Answer',
       speakButton: '🔊 Pronounce',
+      timeUpAnswer: 'Time\'s up',
+      skippedAnswer: 'Skipped',
       selectDifficulty: 'Select Difficulty',
       selectWordCount: 'Select Word Count',
       allDifficulty: 'All',
@@ -377,6 +388,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     setCombo(0)
     setGameComplete(false)
     setShowResult(false)
+    setResultType('wrong')
     setUserAnswer('')
     setWrongAnswers([])
     setHintIndex(0)
@@ -521,6 +533,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
                 }).catch(() => {
                   // 更新失败
                 }).finally(() => {
+                  setResultType('timeout')
                   setShowResult(true)
 
                   // 检查是否游戏结束
@@ -708,7 +721,9 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     // 立即设置处理标志
     isProcessingRef.current = true
 
-    const isCorrect = userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim()
+    // 使用 ref 获取最新的 userAnswer 值
+    const currentUserAnswer = userAnswerRef.current
+    const isCorrect = currentUserAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim()
 
     if (isCorrect) {
       // 答对
@@ -721,9 +736,18 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
       setCombo(0)
       setWrongAnswers(prev => [...prev, {
         word: currentWord,
-        userAnswer: userAnswer || '',
+        userAnswer: currentUserAnswer || '',
         correctAnswer: currentWord.word
       }])
+    }
+
+    // 设置结果类型
+    if (isCorrect) {
+      setResultType('correct')
+    } else if (currentUserAnswer.trim()) {
+      setResultType('wrong')
+    } else {
+      setResultType('timeout')
     }
 
     // 更新测试统计
@@ -805,6 +829,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
       const nextIndex = currentIndex + 1
       setCurrentIndex(nextIndex)
       setShowResult(false)
+      setResultType('wrong')
       setUserAnswer('')
       setHintIndex(0)
       setTimeRemaining(timeLimit)
@@ -1087,8 +1112,14 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
           {/* 结果显示 */}
           {showResult && (
             <div className="result-section">
-              <div className={`result-message ${userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() ? 'correct' : 'wrong'}`}>
-                {userAnswer.toLowerCase().trim() === currentWord.word.toLowerCase().trim() ? t.correct : userAnswer}
+              <div className={`result-message ${resultType === 'correct' ? 'correct' : 'wrong'}`}>
+                {resultType === 'correct' 
+                  ? t.correct 
+                  : resultType === 'skipped'
+                    ? t.skippedAnswer
+                    : resultType === 'timeout'
+                      ? t.timeUpAnswer
+                      : userAnswer}
               </div>
               {userAnswer.toLowerCase().trim() !== currentWord.word.toLowerCase().trim() && (
                 <div className="correct-answer-display">

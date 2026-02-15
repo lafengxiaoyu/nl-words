@@ -9,6 +9,18 @@
   font-family: 'Open Sans', 'Roboto', 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* 页面过渡动画 */
+.page-transition {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.page-transition.page-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .test-page::before {
   content: '';
   position: absolute;
