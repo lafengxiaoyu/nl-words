@@ -406,26 +406,26 @@ body {
     /* 禁止卡片上的默认触摸行为，完全由 JS 接管 */
   }
 
-  .word-dutch {
-    font-size: 2rem;
+  .flashcard-word-dutch {
+    font-size: 2.4rem;
     margin-top: 15px;
     margin-bottom: 8px;
   }
 
-  .word-dutch.word-normal {
+  .flashcard-word-dutch.word-normal {
+    font-size: 2.4rem;
+  }
+
+  .flashcard-word-dutch.word-medium {
     font-size: 2rem;
   }
 
-  .word-dutch.word-medium {
-    font-size: 1.6rem;
+  .flashcard-word-dutch.word-long {
+    font-size: 1.7rem;
   }
 
-  .word-dutch.word-long {
-    font-size: 1.3rem;
-  }
-
-  .word-dutch.word-very-long {
-    font-size: 1rem;
+  .flashcard-word-dutch.word-very-long {
+    font-size: 1.4rem;
   }
 }
 
@@ -1322,8 +1322,19 @@ body {
 }
 
 .word-dutch {
-  font-size: 2.8rem;
-  font-weight: 800;
+  font-size: 1.2rem !important;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+/* 闪卡正面单词独立样式 */
+.flashcard-word-dutch {
+  font-size: 3.2rem;
+  font-weight: 600;
   margin: 0;
   flex: 1 1 auto;
   min-width: 0;
@@ -1341,21 +1352,21 @@ body {
   min-width: 0;
 }
 
-/* 根据单词长度调整字号 */
-.word-dutch.word-normal {
-  font-size: 2.8rem;
+/* 根据单词长度调整字号 - 闪卡专用 */
+.flashcard-word-dutch.word-normal {
+  font-size: 3.2rem;
 }
 
-.word-dutch.word-medium {
+.flashcard-word-dutch.word-medium {
+  font-size: 2.6rem;
+}
+
+.flashcard-word-dutch.word-long {
   font-size: 2.2rem;
 }
 
-.word-dutch.word-long {
+.flashcard-word-dutch.word-very-long {
   font-size: 1.8rem;
-}
-
-.word-dutch.word-very-long {
-  font-size: 1.4rem;
 }
 
 /* 单词卡片背面布局 */
@@ -1424,7 +1435,7 @@ body {
 /* 例句 */
 .word-example {
   position: relative;
-  margin-top: 0;
+  margin-top: 24px;
   padding: 16px 18px;
   background: linear-gradient(135deg, rgba(99, 102, 241, 0.06), rgba(99, 102, 241, 0.02));
   border-radius: 12px;
@@ -2188,16 +2199,16 @@ body {
     margin-bottom: 6px;
   }
 
-  .word-dutch {
-    font-size: 2rem;
+  .flashcard-word-dutch {
+    font-size: 2.4rem;
     margin: 0;
     letter-spacing: -0.05em;
     word-break: keep-all;
     overflow-wrap: normal;
   }
 
-  .word-dutch.word-normal {
-    font-size: 2rem;
+  .flashcard-word-dutch.word-normal {
+    font-size: 2.4rem;
   }
 
   .example-header {
@@ -2243,16 +2254,16 @@ body {
     font-size: 0.9rem;
   }
 
-  .word-dutch.word-medium {
-    font-size: 1.6rem;
+  .flashcard-word-dutch.word-medium {
+    font-size: 2rem;
   }
 
-  .word-dutch.word-long {
-    font-size: 1.3rem;
+  .flashcard-word-dutch.word-long {
+    font-size: 1.7rem;
   }
 
-  .word-dutch.word-very-long {
-    font-size: 1rem;
+  .flashcard-word-dutch.word-very-long {
+    font-size: 1.4rem;
   }
 
   .word-translation {
@@ -2289,7 +2300,7 @@ body {
   }
 
   .word-example {
-    margin-top: 16px;
+    margin-top: 20px;
     padding: 16px;
     border-radius: 12px;
   }
@@ -2511,15 +2522,15 @@ body {
     margin-bottom: 6px;
   }
 
-  .word-dutch {
-    font-size: 1.8rem;
+  .flashcard-word-dutch {
+    font-size: 2.2rem;
     margin: 0;
     word-break: keep-all;
     overflow-wrap: normal;
   }
 
-  .word-dutch.word-normal {
-    font-size: 1.8rem;
+  .flashcard-word-dutch.word-normal {
+    font-size: 2.2rem;
   }
 
   .example-header {
@@ -2565,16 +2576,16 @@ body {
     font-size: 0.8rem;
   }
 
-  .word-dutch.word-medium {
-    font-size: 1.4rem;
+  .flashcard-word-dutch.word-medium {
+    font-size: 1.8rem;
   }
 
-  .word-dutch.word-long {
-    font-size: 1.1rem;
+  .flashcard-word-dutch.word-long {
+    font-size: 1.5rem;
   }
 
-  .word-dutch.word-very-long {
-    font-size: 0.9rem;
+  .flashcard-word-dutch.word-very-long {
+    font-size: 1.2rem;
   }
 
   .word-translation {
@@ -2623,7 +2634,7 @@ body {
   }
 
   .word-example {
-    margin-top: 0;
+    margin-top: 16px;
     padding: 12px 14px;
     border-radius: 10px;
   }

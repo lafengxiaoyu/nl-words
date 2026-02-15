@@ -1366,7 +1366,7 @@ function MainApp() {
                       <div className="card-front-content">
                         <div className="word-front-content">
                           <div className="word-with-speaker">
-                            <div className={`word-dutch ${currentWordLengthClass}`}>{currentWord.word}</div>
+                            <div className={`flashcard-word-dutch ${currentWordLengthClass}`}>{currentWord.word}</div>
                             <button
                               className="speak-btn"
                               onClick={(e) => {
