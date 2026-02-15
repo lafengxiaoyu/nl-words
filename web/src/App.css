@@ -1334,7 +1334,7 @@ body {
 /* 闪卡正面单词独立样式 */
 .flashcard-word-dutch {
   font-size: 3.2rem;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
   flex: 1 1 auto;
   min-width: 0;
@@ -1343,7 +1343,7 @@ body {
   line-height: 1.2;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
   color: #000000;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.02em;
   transition: font-size 0.3s ease;
   text-align: center;
   word-break: keep-all;
@@ -2202,7 +2202,7 @@ body {
   .flashcard-word-dutch {
     font-size: 2.4rem;
     margin: 0;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.02em;
     word-break: keep-all;
     overflow-wrap: normal;
   }
