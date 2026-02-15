@@ -350,6 +350,59 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
                 {reviewWordDetails.map((item) => {
                   if (!item.word) return null
                   const translation = languageMode === 'chinese' ? item.word.translation?.chinese : item.word.translation?.english
+                  // 根据剩余天数判断紧急程度
+                  const getUrgencyInfo = (days: number) => {
+                    if (days <= 0) {
+                      return {
+                        class: 'urgent',
+                        text: languageMode === 'chinese' ? '紧急' : 'Urgent',
+                        icon: (
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                            <line x1="12" y1="9" x2="12" y2="13"></line>
+                            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                          </svg>
+                        )
+                      }
+                    }
+                    if (days <= 1) {
+                      return {
+                        class: 'due-soon',
+                        text: languageMode === 'chinese' ? '24h内' : '24h',
+                        icon: (
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                          </svg>
+                        )
+                      }
+                    }
+                    if (days <= 7) {
+                      return {
+                        class: 'upcoming',
+                        text: languageMode === 'chinese' ? '1周内' : '1w',
+                        icon: (
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                          </svg>
+                        )
+                      }
+                    }
+                    return {
+                      class: 'future',
+                      text: languageMode === 'chinese' ? '未来' : 'Future',
+                      icon: (
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                          <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                      )
+                    }
+                  }
+                  const urgencyInfo = getUrgencyInfo(item.daysUntilReview)
                   return (
                     <div key={item.id} className="review-word-item">
                       <div className="word-info">
@@ -359,8 +412,9 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
                         </span>
                       </div>
                       <div className="review-status">
-                        <span className={`familiarity-badge familiarity-${item.word.familiarity}`}>
-                          {getReviewStatusText(item.word.familiarity, item.word.stats, languageMode)}
+                        <span className={`urgency-badge urgency-${urgencyInfo.class}`}>
+                          {urgencyInfo.icon}
+                          {urgencyInfo.text}
                         </span>
                       </div>
                     </div>
