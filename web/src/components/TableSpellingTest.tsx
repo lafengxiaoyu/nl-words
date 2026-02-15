@@ -530,8 +530,6 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
     }
   }
 
-  const filteredWords = filterWordsByDifficulty(wordsWithProgress.length > 0 ? wordsWithProgress : words, selectedDifficulty)
-
   if (testComplete) {
     const correctCount = testWords.filter(tw => tw.isCorrect).length
     const accuracy = calculateScore()
