@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { User } from '@supabase/supabase-js'
 import type { Word, DifficultyLevel } from '../data/words'
@@ -8,7 +8,6 @@ import { updateTestStats, loadUserProgress, mergeProgress } from '../lib/progres
 import { calculateFamiliarity } from '../lib/familiarityCalculator'
 import { isPremiumUser } from '../lib/subscription'
 import { safeLocalStorage } from '../lib/safeLocalStorage'
-import PremiumUpgradeModal from './PremiumUpgradeModal'
 import './TableSpellingTest.css'
 
 interface TableSpellingTestProps {
@@ -73,18 +72,15 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
 
   const [user, setUser] = useState<User | null>(null)
   const [isPremium, setIsPremium] = useState(false)
-  const [showPremiumModal, setShowPremiumModal] = useState(false)
   const [testWords, setTestWords] = useState<TestWord[]>([])
   const [speakingIndex, setSpeakingIndex] = useState<number | null>(null)
-  const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>(initialSettings.difficulty as DifficultyLevel | 'all')
-  const [wordCount, setWordCount] = useState(initialSettings.wordCount)
+  const [selectedDifficulty] = useState<DifficultyLevel | 'all'>(initialSettings.difficulty as DifficultyLevel | 'all')
+  const [wordCount] = useState(initialSettings.wordCount)
   // 初始化时使用默认的 words 数组，而不是空数组
   const [wordsWithProgress, setWordsWithProgress] = useState<Word[]>(words)
-  const [testMode, setTestMode] = useState<'all' | 'mistakes' | 'new' | 'learning'>(initialSettings.testMode as 'all' | 'mistakes' | 'new' | 'learning')
+  const [testMode] = useState<'all' | 'mistakes' | 'new' | 'learning'>(initialSettings.testMode as 'all' | 'mistakes' | 'new' | 'learning')
   const [testStarted, setTestStarted] = useState(false)
   const [testComplete, setTestComplete] = useState(false)
-  const [score, setScore] = useState(0)
-  const [showResults, setShowResults] = useState(false)
   const [hintIndex, setHintIndex] = useState<Record<number, number>>({})
 
   const translations = {
@@ -254,19 +250,16 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
       return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
     } else if (difficulty === 'B1') {
       if (!isPremium) {
-        setShowPremiumModal(true)
         return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
       }
       return allWords.filter(w => w.difficulty === 'B1' || w.difficulty === 'B2')
     } else if (difficulty === 'C1') {
       if (!isPremium) {
-        setShowPremiumModal(true)
         return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
       }
       return allWords.filter(w => w.difficulty === 'C1' || w.difficulty === 'C2')
     } else {
       if (!isPremium) {
-        setShowPremiumModal(true)
         return allWords.filter(w => w.difficulty === 'A1' || w.difficulty === 'A2')
       }
       return allWords.filter(w => w.difficulty === difficulty)
@@ -279,15 +272,17 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
     let selectedWords: Word[] = []
 
     switch (testMode) {
-      case 'mistakes':
+      case 'mistakes': {
         const mistakeWords = filteredWords.filter(w => w.stats && w.stats.testWrongCount && w.stats.testWrongCount > 0)
         selectedWords = mistakeWords.slice(0, wordCount)
         break
-      case 'new':
+      }
+      case 'new': {
         const newWords = filteredWords.filter(w => !w.stats || !w.stats.viewCount || w.stats.viewCount === 0)
         selectedWords = newWords.slice(0, wordCount)
         break
-      case 'learning':
+      }
+      case 'learning': {
         const learningWords = filteredWords.filter(w =>
           w.stats &&
           w.stats.viewCount &&
@@ -296,6 +291,7 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
         )
         selectedWords = learningWords.slice(0, wordCount)
         break
+      }
       default:
         selectedWords = filteredWords
           .sort(() => Math.random() - 0.5)
@@ -312,8 +308,6 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
     setTestWords(testWordObjects)
     setTestStarted(true)
     setTestComplete(false)
-    setShowResults(false)
-    setScore(0)
   }, [selectedDifficulty, wordCount, testMode, filterWordsByDifficulty, wordsWithProgress])
 
   // 自动开始测试（表格拼写不需要设置页面）
@@ -420,7 +414,7 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
     })
   }, [])
 
-  const submitAll = () => {
+  const submitAll = async () => {
     setTestWords(prev => {
       const newTestWords = prev.map(testWord => {
         const correctEnglish = testWord.word.translation.english
@@ -439,11 +433,81 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
 
     setTestComplete(true)
 
-    // 保存测试统计到数据库
+    // 保存测试统计到数据库或 localStorage
     if (user) {
-      testWords.forEach(async (tw) => {
-        await updateTestStats(user.id, tw.word.id, tw.isCorrect, tw.word.stats)
-      })
+      // 登录用户：保存到数据库
+      const updatePromises = testWords.map(tw =>
+        updateTestStats(user.id, tw.word.id, tw.isCorrect, tw.word.stats)
+      )
+      try {
+        const results = await Promise.all(updatePromises)
+
+        // 更新本地状态
+        setWordsWithProgress(prevWords => {
+          return prevWords.map(w => {
+            const result = results.find(r => r?.wordId === w.id)
+            if (result && result.familiarity !== undefined) {
+              return {
+                ...w,
+                familiarity: result.familiarity,
+                stats: {
+                  viewCount: w.stats?.viewCount ?? 0,
+                  masteredCount: w.stats?.masteredCount ?? 0,
+                  unmasteredCount: w.stats?.unmasteredCount ?? 0,
+                  testCount: (w.stats?.testCount ?? 0) + 1,
+                  testCorrectCount: result.isCorrect ? (w.stats?.testCorrectCount ?? 0) + 1 : (w.stats?.testCorrectCount ?? 0),
+                  testWrongCount: !result.isCorrect ? (w.stats?.testWrongCount ?? 0) + 1 : (w.stats?.testWrongCount ?? 0),
+                  lastTestedAt: new Date().toISOString(),
+                  lastViewedAt: w.stats?.lastViewedAt,
+                }
+              }
+            }
+            return w
+          })
+        })
+      } catch (error) {
+        console.error('Failed to update test stats:', error)
+      }
+    } else {
+      // 未登录用户：保存到 localStorage
+      const savedProgress = safeLocalStorage.getItem('nl-words')
+      if (savedProgress) {
+        try {
+          const localWords: Word[] = JSON.parse(savedProgress)
+
+          // 更新每个测试单词的统计
+          testWords.forEach(tw => {
+            const wordIndex = localWords.findIndex(w => w.id === tw.word.id)
+            if (wordIndex !== -1) {
+              const currentStats = localWords[wordIndex].stats
+              const updatedStats = {
+                viewCount: currentStats?.viewCount ?? 0,
+                masteredCount: currentStats?.masteredCount ?? 0,
+                unmasteredCount: currentStats?.unmasteredCount ?? 0,
+                testCount: (currentStats?.testCount ?? 0) + 1,
+                testCorrectCount: tw.isCorrect ? (currentStats?.testCorrectCount ?? 0) + 1 : (currentStats?.testCorrectCount ?? 0),
+                testWrongCount: !tw.isCorrect ? (currentStats?.testWrongCount ?? 0) + 1 : (currentStats?.testWrongCount ?? 0),
+                lastViewedAt: currentStats?.lastViewedAt,
+                lastTestedAt: new Date().toISOString(),
+              }
+              const calculatedFamiliarity = calculateFamiliarity(undefined, updatedStats)
+              localWords[wordIndex] = {
+                ...localWords[wordIndex],
+                stats: updatedStats,
+                familiarity: calculatedFamiliarity
+              }
+            }
+          })
+
+          // 保存回 localStorage
+          safeLocalStorage.setItem('nl-words', JSON.stringify(localWords))
+
+          // 更新本地状态
+          setWordsWithProgress(localWords)
+        } catch (error) {
+          console.error('Failed to save progress to localStorage:', error)
+        }
+      }
     }
   }
 
@@ -469,7 +533,6 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
 
   const handleDifficultySelect = (difficulty: DifficultyLevel | 'all') => {
     if ((difficulty === 'B1' || difficulty === 'B2' || difficulty === 'C1' || difficulty === 'C2') && !isPremium) {
-      setShowPremiumModal(true)
       return
     }
     setSelectedDifficulty(difficulty)
