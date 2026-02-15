@@ -52,6 +52,13 @@ interface ApiUsageLog {
   created_at: string
 }
 
+interface UserActivityData {
+  date: string
+  progressUpdates: number
+  testAttempts: number
+  views: number
+}
+
 interface DeletedRecords {
   user_progress: number
   word_stats: number
@@ -112,8 +119,21 @@ export default function AdminDashboard() {
   const [apiDetailsLoading, setApiDetailsLoading] = useState(false)
   const [apiUsageLogs, setApiUsageLogs] = useState<ApiUsageLog[]>([])
   const [showFullUserId, setShowFullUserId] = useState<string | null>(null)
+  const [showUserActivityModal, setShowUserActivityModal] = useState(false)
+  const [activityUserId, setActivityUserId] = useState<string | null>(null)
+  const [activityUserName, setActivityUserName] = useState<string | null>(null)
+  const [activityData, setActivityData] = useState<UserActivityData[]>([])
+  const [activityLoading, setActivityLoading] = useState(false)
+  const [activityChartRef, setActivityChartRef] = useState<Chart | null>(null)
+  const activityCanvasRef = useRef<HTMLCanvasElement | null>(null)
   const chartRef = useRef<Chart | null>(null)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
+  const [sortColumn, setSortColumn] = useState<keyof AdminUser | null>(null)
+  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc')
+  const [showUserDetailsModal, setShowUserDetailsModal] = useState(false)
+  const [detailedUserId, setDetailedUserId] = useState<string | null>(null)
+  const [detailedUser, setDetailedUser] = useState<AdminUser | null>(null)
+  const [detailedUserLoading, setDetailedUserLoading] = useState(false)
 
   const ADMIN_EMAIL = import.meta.env.VITE_ADMIN_EMAIL || ''
 
@@ -122,9 +142,162 @@ export default function AdminDashboard() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
+  // 渲染用户活跃度图表
+  useEffect(() => {
+    if (showUserActivityModal && activityCanvasRef.current && activityData.length > 0) {
+      const ctx = activityCanvasRef.current.getContext('2d')
+      if (!ctx) return
+
+      // 销毁旧图表
+      if (activityChartRef) {
+        activityChartRef.destroy()
+      }
+
+      const sortedData = activityData.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+
+      const newChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: sortedData.map(d => {
+            const date = new Date(d.date)
+            return `${date.getMonth() + 1}/${date.getDate()}`
+          }),
+          datasets: [
+            {
+              label: '进度更新',
+              data: sortedData.map(d => d.progressUpdates),
+              borderColor: '#3b82f6',
+              backgroundColor: 'rgba(59, 130, 246, 0.1)',
+              fill: true,
+              tension: 0.4
+            },
+            {
+              label: '测试次数',
+              data: sortedData.map(d => d.testAttempts),
+              borderColor: '#10b981',
+              backgroundColor: 'rgba(16, 185, 129, 0.1)',
+              fill: true,
+              tension: 0.4
+            },
+            {
+              label: '查看次数',
+              data: sortedData.map(d => d.views),
+              borderColor: '#f59e0b',
+              backgroundColor: 'rgba(245, 158, 11, 0.1)',
+              fill: true,
+              tension: 0.4
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: true,
+          plugins: {
+            legend: {
+              position: 'top',
+              labels: {
+                color: '#1e293b',
+                font: {
+                  size: 12
+                }
+              }
+            },
+            title: {
+              display: true,
+              text: `${activityUserName} 的活跃度（最近30天）`,
+              color: '#1e293b',
+              font: {
+                size: 16,
+                weight: 'bold'
+              }
+            }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              ticks: {
+                color: '#64748b',
+                stepSize: 1
+              },
+              grid: {
+                color: 'rgba(148, 163, 184, 0.1)'
+              }
+            },
+            x: {
+              ticks: {
+                color: '#64748b'
+              },
+              grid: {
+                color: 'rgba(148, 163, 184, 0.1)'
+              }
+            }
+          }
+        }
+      })
+
+      setActivityChartRef(newChart)
+    }
+
+    return () => {
+      if (activityChartRef) {
+        activityChartRef.destroy()
+      }
+    }
+  }, [showUserActivityModal, activityData, activityUserName])
+
   const showMessage = (type: 'success' | 'error', text: string) => {
     setMessage({ type, text })
     setTimeout(() => setMessage(null), 5000)
+  }
+
+  const handleSort = (column: keyof AdminUser) => {
+    if (sortColumn === column) {
+      setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc')
+    } else {
+      setSortColumn(column)
+      setSortDirection('asc')
+    }
+  }
+
+  const getSortedUsers = (usersList: AdminUser[]) => {
+    if (!sortColumn) return usersList
+
+    return [...usersList].sort((a, b) => {
+      const aVal = a[sortColumn]
+      const bVal = b[sortColumn]
+
+      if (aVal === undefined || aVal === null) return 1
+      if (bVal === undefined || bVal === null) return -1
+
+      if (typeof aVal === 'number' && typeof bVal === 'number') {
+        return sortDirection === 'asc' ? aVal - bVal : bVal - aVal
+      }
+
+      const aStr = String(aVal)
+      const bStr = String(bVal)
+      return sortDirection === 'asc'
+        ? aStr.localeCompare(bStr)
+        : bStr.localeCompare(aStr)
+    })
+  }
+
+  const loadUserDetails = async (userId: string) => {
+    try {
+      setDetailedUserLoading(true)
+      setDetailedUserId(userId)
+      setShowUserDetailsModal(true)
+
+      // 从当前用户列表中找到该用户
+      const user = users.find(u => u.id === userId)
+      if (user) {
+        setDetailedUser(user)
+      }
+    } catch (err) {
+      console.error('加载用户详情失败:', err)
+      showMessage('error', '加载用户详情失败')
+    } finally {
+      setDetailedUserLoading(false)
+    }
   }
 
   const checkAdminAndLoadData = async () => {
@@ -358,6 +531,79 @@ export default function AdminDashboard() {
     } catch (err) {
       console.error('重置进度失败:', err)
       showMessage('error', '重置进度失败')
+    }
+  }
+
+  const loadUserActivity = async (userId: string, username: string) => {
+    try {
+      setActivityLoading(true)
+      setActivityUserId(userId)
+      setActivityUserName(username)
+
+      // 获取过去30天的进度数据
+      const thirtyDaysAgo = new Date()
+      thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30)
+      thirtyDaysAgo.setHours(0, 0, 0, 0)
+
+      const { data: progressData, error: progressError } = await supabase
+        .from('user_progress')
+        .select('updated_at, last_viewed_at, test_count, last_tested_at')
+        .eq('user_id', userId)
+        .gte('updated_at', thirtyDaysAgo.toISOString())
+
+      if (progressError) {
+        console.error('加载活跃度数据失败:', progressError)
+        showMessage('error', '加载活跃度数据失败')
+        return
+      }
+
+      // 按日期统计活跃度
+      const activityMap = new Map<string, UserActivityData>()
+
+      // 初始化过去30天的日期
+      for (let i = 29; i >= 0; i--) {
+        const date = new Date()
+        date.setDate(date.getDate() - i)
+        const dateStr = date.toISOString().split('T')[0]
+        activityMap.set(dateStr, {
+          date: dateStr,
+          progressUpdates: 0,
+          testAttempts: 0,
+          views: 0
+        })
+      }
+
+      // 统计每天的活动
+      progressData?.forEach(record => {
+        const dateStr = new Date(record.updated_at).toISOString().split('T')[0]
+        const existing = activityMap.get(dateStr)
+
+        if (existing) {
+          existing.progressUpdates++
+
+          // 统计测试次数
+          if (record.last_tested_at && record.test_count > 0) {
+            existing.testAttempts = Math.max(existing.testAttempts, record.test_count)
+          }
+
+          // 统计查看次数
+          if (record.last_viewed_at) {
+            existing.views++
+          }
+        }
+      })
+
+      setActivityData(Array.from(activityMap.values()).filter(d => {
+        // 只显示有活动的日期
+        return d.progressUpdates > 0 || d.testAttempts > 0 || d.views > 0
+      }))
+
+      setShowUserActivityModal(true)
+    } catch (err) {
+      console.error('加载活跃度失败:', err)
+      showMessage('error', '加载活跃度失败')
+    } finally {
+      setActivityLoading(false)
     }
   }
 
@@ -623,9 +869,12 @@ export default function AdminDashboard() {
   }
 
   // 筛选三个月未活跃的用户
-  const displayUsers = showInactiveOnly
+  const filteredAndSortedUsers = showInactiveOnly
     ? filteredUsers.filter(user => getInactiveStatus(user) && !user.is_admin)
     : filteredUsers
+
+  // 应用排序
+  const displayUsers = getSortedUsers(filteredAndSortedUsers)
 
   const formatDate = (dateString?: string) => {
     if (!dateString) return '-'
@@ -765,12 +1014,24 @@ export default function AdminDashboard() {
               <thead>
                 <tr>
                   {showInactiveOnly && <th className="checkbox-column">选择</th>}
-                  <th>用户ID</th>
-                  <th>用户名</th>
-                  <th>邮箱</th>
-                  <th>创建时间</th>
-                  <th>最后活跃</th>
-                  <th>学习记录</th>
+                  <th className="sortable" onClick={() => handleSort('id')}>
+                    用户ID {sortColumn === 'id' && (sortDirection === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="sortable" onClick={() => handleSort('username')}>
+                    用户名 {sortColumn === 'username' && (sortDirection === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="sortable" onClick={() => handleSort('email')}>
+                    邮箱 {sortColumn === 'email' && (sortDirection === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="sortable" onClick={() => handleSort('created_at')}>
+                    创建时间 {sortColumn === 'created_at' && (sortDirection === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="sortable" onClick={() => handleSort('last_sign_in_at')}>
+                    最后活跃 {sortColumn === 'last_sign_in_at' && (sortDirection === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="sortable" onClick={() => handleSort('progressRecords')}>
+                    学习记录 {sortColumn === 'progressRecords' && (sortDirection === 'asc' ? '↑' : '↓')}
+                  </th>
                   <th>API调用</th>
                   <th>订阅</th>
                   <th>状态</th>
@@ -798,8 +1059,9 @@ export default function AdminDashboard() {
                       )}
                       <td className="user-id">
                         <span
-                          onClick={() => setShowFullUserId(showFullUserId === user.id ? null : user.id)}
-                          style={{ cursor: 'pointer' }}
+                          className="user-id-clickable"
+                          onClick={() => loadUserDetails(user.id)}
+                          title="点击查看用户详情"
                         >
                           {showFullUserId === user.id ? user.id : user.id.substring(0, 8) + '...'}
                         </span>
@@ -814,7 +1076,13 @@ export default function AdminDashboard() {
                         )}
                       </td>
                       <td className="progress-records-cell">
-                        {user.progressRecords || 0}
+                        <span
+                          className="progress-records-clickable"
+                          onClick={() => loadUserActivity(user.id, user.username || user.email || '未知用户')}
+                          title="点击查看活跃度时间序列"
+                        >
+                          {user.progressRecords || 0}
+                        </span>
                       </td>
                       <td className="api-calls-cell">
                         <div
@@ -979,6 +1247,144 @@ export default function AdminDashboard() {
                 确认批量删除
               </button>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* 用户详情模态框 */}
+      {showUserDetailsModal && (
+        <div className="modal-overlay" onClick={() => setShowUserDetailsModal(false)}>
+          <div className="modal-content modal-content--large" onClick={(e) => e.stopPropagation()}>
+            <h3>用户详情</h3>
+
+            {detailedUserLoading ? (
+              <div className="loading">加载中...</div>
+            ) : (
+              detailedUser && (
+                <>
+                  <div className="modal-content-body">
+                    <div className="user-details-grid">
+                      <div className="user-detail-item">
+                        <label>用户ID</label>
+                        <div className="user-detail-value">{detailedUser.id}</div>
+                      </div>
+                      <div className="user-detail-item">
+                        <label>用户名</label>
+                        <div className="user-detail-value">{detailedUser.username || '-'}</div>
+                      </div>
+                      <div className="user-detail-item">
+                        <label>邮箱</label>
+                        <div className="user-detail-value">{detailedUser.email || '-'}</div>
+                      </div>
+                      <div className="user-detail-item">
+                        <label>角色</label>
+                        <div className="user-detail-value">
+                          {detailedUser.is_admin ? (
+                            <span className="badge badge-admin">管理员</span>
+                          ) : (
+                            <span className="badge badge-user">普通用户</span>
+                          )}
+                        </div>
+                      </div>
+                      <div className="user-detail-item">
+                        <label>订阅类型</label>
+                        <div className="user-detail-value">
+                          {detailedUser.subscription_tier === 'premium' ? (
+                            <span className="badge badge-premium">👑 Premium</span>
+                          ) : (
+                            <span className="badge badge-free">免费</span>
+                          )}
+                        </div>
+                      </div>
+                      <div className="user-detail-item">
+                        <label>订阅状态</label>
+                        <div className="user-detail-value">{detailedUser.subscription_status || '-'}</div>
+                      </div>
+                      <div className="user-detail-item">
+                        <label>注册时间</label>
+                        <div className="user-detail-value">{formatDate(detailedUser.created_at)}</div>
+                      </div>
+                      <div className="user-detail-item">
+                        <label>最后活跃</label>
+                        <div className="user-detail-value">{formatDate(detailedUser.last_sign_in_at)}</div>
+                      </div>
+                      <div className="user-detail-item">
+                        <label>学习记录数</label>
+                        <div className="user-detail-value">{detailedUser.progressRecords || 0}</div>
+                      </div>
+                      <div className="user-detail-item">
+                        <label>今日API调用</label>
+                        <div className="user-detail-value">{detailedUser.callsToday || 0}</div>
+                      </div>
+                      <div className="user-detail-item">
+                        <label>7天API调用</label>
+                        <div className="user-detail-value">{detailedUser.calls7Days || 0}</div>
+                      </div>
+                      <div className="user-detail-item">
+                        <label>30天API调用</label>
+                        <div className="user-detail-value">{detailedUser.calls30Days || 0}</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="modal-actions">
+                    <button
+                      className="admin-btn admin-btn-secondary"
+                      onClick={() => setShowUserDetailsModal(false)}
+                    >
+                      关闭
+                    </button>
+                  </div>
+                </>
+              )
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* 用户活跃度模态框 */}
+      {showUserActivityModal && (
+        <div className="modal-overlay" onClick={() => {
+          setShowUserActivityModal(false)
+          // 关闭时销毁图表
+          if (activityChartRef) {
+            activityChartRef.destroy()
+            setActivityChartRef(null)
+          }
+        }}>
+          <div className="modal-content modal-content--large" onClick={(e) => e.stopPropagation()}>
+            <h3>用户活跃度时间序列</h3>
+            <p>用户ID: {activityUserId?.substring(0, 8)}... | 用户名: {activityUserName}</p>
+
+            {activityLoading ? (
+              <div className="loading">加载中...</div>
+            ) : (
+              <>
+                <div className="modal-content-body">
+                  {activityData.length > 0 ? (
+                    <div className="activity-chart-container">
+                      <canvas ref={activityCanvasRef} />
+                    </div>
+                  ) : (
+                    <div className="no-data">该用户暂无活跃度记录</div>
+                  )}
+                </div>
+                <div className="modal-actions">
+                  <button
+                    className="admin-btn admin-btn-secondary"
+                    onClick={() => {
+                      setShowUserActivityModal(false)
+                      // 关闭时销毁图表
+                      if (activityChartRef) {
+                        activityChartRef.destroy()
+                        setActivityChartRef(null)
+                      }
+                    }}
+                  >
+                    关闭
+                  </button>
+                </div>
+              </>
+            )}
           </div>
         </div>
       )}

@@ -228,6 +228,67 @@
   white-space: nowrap;
 }
 
+.user-id-clickable {
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.user-id-clickable:hover {
+  background: rgba(59, 130, 246, 0.1);
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease;
+  padding: 8px 12px;
+}
+
+.sortable:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+  color: #3b82f6;
+}
+
+.sortable.active {
+  background-color: rgba(59, 130, 246, 0.15);
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.user-details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.user-detail-item {
+  background: #f8fafc;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.user-detail-item label {
+  display: block;
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-bottom: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.user-detail-value {
+  font-size: 1rem;
+  color: #1e293b;
+  font-weight: 500;
+}
+
 .datetime-field {
   font-family: 'Roboto', monospace;
   font-size: 0.75rem;
@@ -275,6 +336,26 @@
   font-size: 0.85rem;
   font-weight: 500;
   color: #059669;
+}
+
+.progress-records-clickable {
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.progress-records-clickable:hover {
+  background: rgba(59, 130, 246, 0.1);
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.activity-chart-container {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
 }
 
 .api-calls-info {
