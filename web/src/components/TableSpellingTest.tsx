@@ -445,7 +445,9 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
         // 更新本地状态
         setWordsWithProgress(prevWords => {
           return prevWords.map(w => {
-            const result = results.find(r => r?.wordId === w.id)
+            const testWord = testWords.find(tw => tw.word.id === w.id)
+            const resultIndex = testWords.findIndex(tw => tw.word.id === w.id)
+            const result = results[resultIndex]
             if (result && result.familiarity !== undefined) {
               return {
                 ...w,
@@ -455,8 +457,8 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
                   masteredCount: w.stats?.masteredCount ?? 0,
                   unmasteredCount: w.stats?.unmasteredCount ?? 0,
                   testCount: (w.stats?.testCount ?? 0) + 1,
-                  testCorrectCount: result.isCorrect ? (w.stats?.testCorrectCount ?? 0) + 1 : (w.stats?.testCorrectCount ?? 0),
-                  testWrongCount: !result.isCorrect ? (w.stats?.testWrongCount ?? 0) + 1 : (w.stats?.testWrongCount ?? 0),
+                  testCorrectCount: testWord?.isCorrect ? (w.stats?.testCorrectCount ?? 0) + 1 : (w.stats?.testCorrectCount ?? 0),
+                  testWrongCount: !testWord?.isCorrect ? (w.stats?.testWrongCount ?? 0) + 1 : (w.stats?.testWrongCount ?? 0),
                   lastTestedAt: new Date().toISOString(),
                   lastViewedAt: w.stats?.lastViewedAt,
                 }
@@ -529,14 +531,6 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
   }
 
   const filteredWords = filterWordsByDifficulty(wordsWithProgress.length > 0 ? wordsWithProgress : words, selectedDifficulty)
-  const maxWordCount = filteredWords.length
-
-  const handleDifficultySelect = (difficulty: DifficultyLevel | 'all') => {
-    if ((difficulty === 'B1' || difficulty === 'B2' || difficulty === 'C1' || difficulty === 'C2') && !isPremium) {
-      return
-    }
-    setSelectedDifficulty(difficulty)
-  }
 
   if (testComplete) {
     const correctCount = testWords.filter(tw => tw.isCorrect).length
