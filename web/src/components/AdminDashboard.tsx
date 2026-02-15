@@ -118,7 +118,6 @@ export default function AdminDashboard() {
   const [apiDetailsUserId, setApiDetailsUserId] = useState<string | null>(null)
   const [apiDetailsLoading, setApiDetailsLoading] = useState(false)
   const [apiUsageLogs, setApiUsageLogs] = useState<ApiUsageLog[]>([])
-  const [showFullUserId, setShowFullUserId] = useState<string | null>(null)
   const [showUserActivityModal, setShowUserActivityModal] = useState(false)
   const [activityUserId, setActivityUserId] = useState<string | null>(null)
   const [activityUserName, setActivityUserName] = useState<string | null>(null)
@@ -131,7 +130,6 @@ export default function AdminDashboard() {
   const [sortColumn, setSortColumn] = useState<keyof AdminUser | null>(null)
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc')
   const [showUserDetailsModal, setShowUserDetailsModal] = useState(false)
-  const [detailedUserId, setDetailedUserId] = useState<string | null>(null)
   const [detailedUser, setDetailedUser] = useState<AdminUser | null>(null)
   const [detailedUserLoading, setDetailedUserLoading] = useState(false)
 
@@ -243,7 +241,7 @@ export default function AdminDashboard() {
         activityChartRef.destroy()
       }
     }
-  }, [showUserActivityModal, activityData, activityUserName])
+  }, [showUserActivityModal, activityData, activityUserName, activityChartRef])
 
   const showMessage = (type: 'success' | 'error', text: string) => {
     setMessage({ type, text })
@@ -284,7 +282,6 @@ export default function AdminDashboard() {
   const loadUserDetails = async (userId: string) => {
     try {
       setDetailedUserLoading(true)
-      setDetailedUserId(userId)
       setShowUserDetailsModal(true)
 
       // 从当前用户列表中找到该用户
@@ -1063,7 +1060,7 @@ export default function AdminDashboard() {
                           onClick={() => loadUserDetails(user.id)}
                           title="点击查看用户详情"
                         >
-                          {showFullUserId === user.id ? user.id : user.id.substring(0, 8) + '...'}
+                          {user.id.substring(0, 8) + '...'}
                         </span>
                       </td>
                       <td>{user.username || '-'}</td>

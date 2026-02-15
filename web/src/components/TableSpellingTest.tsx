@@ -267,14 +267,14 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
   }, [isPremium])
 
   const startTest = useCallback(() => {
-    const filteredWords = filterWordsByDifficulty(wordsWithProgress.length > 0 ? wordsWithProgress : words, selectedDifficulty)
+    const filteredWords = filterWordsByDifficulty(wordsWithProgress, selectedDifficulty)
 
     let selectedWords: Word[] = []
 
     switch (testMode) {
       case 'mistakes': {
-        const mistakeWords = filteredWords.filter(w => w.stats && w.stats.testWrongCount && w.stats.testWrongCount > 0)
-        selectedWords = mistakeWords.slice(0, wordCount)
+        const wordsWithMistakes = filteredWords.filter(w => w.stats && w.stats.testWrongCount && w.stats.testWrongCount > 0)
+        selectedWords = wordsWithMistakes.slice(0, wordCount)
         break
       }
       case 'new': {
@@ -312,10 +312,11 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
 
   // 自动开始测试（表格拼写不需要设置页面）
   useEffect(() => {
-    if (!testStarted && wordsWithProgress.length > 0) {
+    // 如果测试还没开始，或者测试开始了但没有单词（可能是加载时 wordsWithProgress 还没准备好）
+    if ((!testStarted || testWords.length === 0) && wordsWithProgress.length > 0) {
       startTest()
     }
-  }, [testStarted, wordsWithProgress, startTest])
+  }, [testStarted, wordsWithProgress, startTest, testWords.length])
 
   const handleAnswerChange = (index: number, value: string) => {
     setTestWords(prev => {
