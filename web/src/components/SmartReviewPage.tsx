@@ -8,7 +8,6 @@ import { loadUserProgress, mergeProgress } from '../lib/progressSync'
 import { safeLocalStorage } from '../lib/safeLocalStorage'
 import {
   getReviewWords,
-  getReviewStatusText,
   getReviewStats,
   type ReviewStats
 } from '../lib/smartReview'
