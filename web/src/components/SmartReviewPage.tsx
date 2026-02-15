@@ -83,6 +83,8 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
       noReviewWords: '太棒了！暂无需要复习的单词',
       reviewStats: {
         title: '复习统计',
+        mastered: '已掌握',
+        newWords: '新词',
         urgent: '紧急复习',
         dueSoon: '即将到期',
         upcoming: '近期复习',
@@ -93,6 +95,8 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
         title: '智能复习说明',
         description: '基于艾宾浩斯遗忘曲线算法，自动计算每个单词的最佳复习时间',
         statsTitle: '统计说明',
+        mastered: '⭐ 已掌握：已经熟练掌握',
+        newWords: '📝 新词：刚开始学习',
         urgent: '🔴 紧急复习：已过期，建议立即复习',
         dueSoon: '🟡 即将到期：24小时内到期',
         upcoming: '🔵 近期复习：1周内到期',
@@ -115,6 +119,8 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
       noReviewWords: 'Great! No words need review',
       reviewStats: {
         title: 'Review Statistics',
+        mastered: 'Mastered',
+        newWords: 'New Words',
         urgent: 'Urgent',
         dueSoon: 'Due Soon',
         upcoming: 'Upcoming',
@@ -125,6 +131,8 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
         title: 'Smart Review Guide',
         description: 'Based on Ebbinghaus forgetting curve, calculates optimal review time for each word',
         statsTitle: 'Statistics',
+        mastered: '⭐ Mastered: Already mastered',
+        newWords: '📝 New Words: Just started learning',
         urgent: '🔴 Urgent: Overdue, review immediately',
         dueSoon: '🟡 Due Soon: Due within 24 hours',
         upcoming: '🔵 Upcoming: Due within a week',
@@ -289,6 +297,14 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
             <div className="review-stats">
               <h2>{t.reviewStats.title}</h2>
               <div className="stats-grid">
+                <div className="stat-item mastered">
+                  <div className="stat-value">{reviewStats.mastered}</div>
+                  <div className="stat-label">{t.reviewStats.mastered}</div>
+                </div>
+                <div className="stat-item new-words">
+                  <div className="stat-value">{reviewStats.new}</div>
+                  <div className="stat-label">{t.reviewStats.newWords}</div>
+                </div>
                 <div className="stat-item urgent">
                   <div className="stat-value">{reviewStats.urgentReview}</div>
                   <div className="stat-label">{t.reviewStats.urgent}</div>

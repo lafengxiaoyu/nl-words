@@ -118,8 +118,9 @@ export function getReviewWords(
 ): ReviewWord[] {
   const now = baselineTime ?? Date.now()
 
-  // 计算每个单词的复习优先级
+  // 计算每个单词的复习优先级，排除已掌握的单词
   const reviewWords = words
+    .filter(word => word.familiarity !== 'mastered')
     .map(word => {
       const nextReviewTime = calculateNextReviewTime(word.familiarity, word.stats, now)
       return {
@@ -170,6 +171,8 @@ export function getReviewStatusText(
 
 // 获取复习进度统计
 export interface ReviewStats {
+  mastered: number          // 已掌握
+  new: number               // 新词
   urgentReview: number      // 紧急需要复习（已过期）
   dueSoon: number          // 即将到期（24小时内）
   upcoming: number         // 即将到期（1周内）
@@ -185,12 +188,28 @@ export function getReviewStats(
   const oneDayMs = 24 * 60 * 60 * 1000
   const oneWeekMs = 7 * oneDayMs
 
+  let mastered = 0
+  let newWords = 0
   let urgentReview = 0
   let dueSoon = 0
   let upcoming = 0
   let future = 0
 
+  // 统计已掌握和新词
   words.forEach(word => {
+    if (word.familiarity === 'mastered') {
+      mastered++
+    } else if (word.familiarity === 'new') {
+      newWords++
+    }
+  })
+
+  // 统计需要复习的单词（排除已掌握和新词）
+  const reviewWords = words.filter(word =>
+    word.familiarity !== 'mastered' && word.familiarity !== 'new'
+  )
+
+  reviewWords.forEach(word => {
     const nextReviewTime = calculateNextReviewTime(word.familiarity, word.stats, now)
     const timeDiff = nextReviewTime - now
 
@@ -206,6 +225,8 @@ export function getReviewStats(
   })
 
   return {
+    mastered,
+    new: newWords,
     urgentReview,
     dueSoon,
     upcoming,
