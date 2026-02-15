@@ -325,6 +325,8 @@
 .review-word-item:hover {
   transform: translateY(-1px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  background: #f8f9ff;
 }
 
 .word-info {
@@ -334,7 +336,8 @@
   gap: 12px;
   flex: 1;
   min-width: 0;
-  max-width: calc(100% - 120px);
+  max-width: calc(100% - 100px);
+  overflow: hidden;
 }
 
 .word-dutch {
@@ -344,7 +347,10 @@
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   line-height: 1.3;
   flex-shrink: 0;
-  width: 120px;
+  max-width: 45%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .word-translation {
@@ -353,6 +359,7 @@
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   line-height: 1.3;
   flex: 1;
+  min-width: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -489,6 +496,406 @@
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
 }
 
+/* 单词详情面板 */
+.word-details-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 16px;
+}
+
+.word-details-panel {
+  background: white;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.close-details-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: #f5f5f5;
+  color: #666;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.close-details-btn:hover {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.word-details-panel h3 {
+  color: #333;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.detail-item {
+  color: #444;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+.detail-item strong {
+  color: #333;
+  font-weight: 600;
+}
+
+.detail-item span {
+  color: #555;
+}
+
+.detail-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.difficulty-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.difficulty--A1 {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.difficulty--A2 {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.difficulty--B1 {
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+.difficulty--B2 {
+  background: #fed7aa;
+  color: #9a3412;
+}
+
+.difficulty--C1 {
+  background: #fecaca;
+  color: #991b1b;
+}
+
+.difficulty--C2 {
+  background: #e9d5ff;
+  color: #6b21a8;
+}
+
+.favorite-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.favorite-btn:hover {
+  transform: scale(1.1);
+}
+
+.favorite-btn.favorited {
+  color: #ef4444;
+}
+
+.favorite-status {
+  font-size: 12px;
+  color: #666;
+  font-weight: 500;
+}
+
+.noun-details,
+.adjective-details {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.noun-details div,
+.verb-details div,
+.adjective-details div {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #444;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.noun-details div:last-child,
+.verb-details div:last-child,
+.adjective-details div:last-child {
+  margin-bottom: 0;
+}
+
+.verb-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.verb-header h4 {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.verb-type-tag {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.conjugation-table.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.conjugation-section {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.conjugation-header {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #6366f1;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.conjugation-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.conjugation-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 6px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.conjugation-row .pronoun {
+  font-weight: 600;
+  color: #6366f1;
+  font-size: 13px;
+  min-width: 50px;
+}
+
+.conjugation-row .form {
+  color: #374151;
+  font-size: 13px;
+  text-align: right;
+}
+
+.past-section .conjugation-content {
+  gap: 10px;
+}
+
+.past-subsection,
+.participle-subsection {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.subsection-title {
+  font-size: 11px;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 2px;
+}
+
+.participle-form {
+  color: #6366f1;
+  font-weight: 600;
+}
+
+.auxiliary-verb {
+  font-size: 11px;
+  color: #6b7280;
+  margin-left: 4px;
+}
+
+.example-container {
+  margin-top: 12px;
+}
+
+.example-container h4 {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.example-item {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.example-item:last-child {
+  margin-bottom: 0;
+}
+
+.example-nl {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.example-zh,
+.example-english {
+  color: #666;
+  font-size: 13px;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.article-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.article--de {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.article--het {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.stats-info {
+  margin-top: 12px;
+}
+
+.stats-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.stats-details div {
+  font-size: 13px;
+  color: #555;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.stats-correct {
+  color: #059669;
+  font-weight: 600;
+}
+
+.stats-wrong {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.stats-mastered {
+  color: #7c3aed;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .word-details-panel {
+    padding: 16px;
+    max-height: 90vh;
+  }
+
+  .word-details-panel h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .detail-item {
+    font-size: 13px;
+  }
+
+  .word-details-panel .noun-details,
+  .word-details-panel .verb-details,
+  .word-details-panel .adjective-details {
+    padding: 10px;
+  }
+
+  .word-details-panel .conjugation-section {
+    padding: 8px;
+  }
+
+  .word-details-panel .conjugation-row {
+    padding: 3px 4px;
+  }
+
+  .word-details-panel .conjugation-row .pronoun,
+  .word-details-panel .conjugation-row .form {
+    font-size: 12px;
+  }
+
+  .word-details-panel .stats-details {
+    gap: 6px;
+  }
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
   .smart-review-page {
@@ -532,18 +939,26 @@
     flex-direction: row;
     align-items: center;
     gap: 8px;
-    max-width: calc(100% - 100px);
+    max-width: calc(100% - 80px);
+    overflow: hidden;
   }
 
   .word-dutch {
     font-size: 14px;
+    font-weight: 600;
+    color: #333;
     flex-shrink: 0;
-    width: 80px;
+    max-width: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .word-translation {
     font-size: 12px;
+    color: #666;
     flex: 1;
+    min-width: 0;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

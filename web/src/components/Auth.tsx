@@ -238,8 +238,6 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
             if (error) {
               console.error('发送 Discord 通知失败:', error)
             }
-          }).catch(err => {
-            console.error('发送 Discord 通知失败:', err)
           })
 
           setMessage(t.registerSuccess)
