@@ -256,7 +256,7 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
 
   // 安全获取翻译字符串的辅助函数
   const getTranslation = (key: string): string => {
-    const value = (t as any)[key]
+    const value = t[key as keyof typeof t]
     return typeof value === 'string' ? value : key
   }
 
