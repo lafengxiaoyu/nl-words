@@ -130,8 +130,9 @@
 .count-option:hover:not(.disabled),
 .time-option:hover:not(.disabled),
 .test-mode-option:hover:not(.disabled) {
-  background: #f1f5f9;
-  border-color: #cbd5e1;
+  background: #e0e7ff;
+  border-color: #6366f1;
+  color: #4338ca;
 }
 
 .difficulty-option.selected,

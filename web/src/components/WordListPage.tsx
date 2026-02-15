@@ -1406,34 +1406,55 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
             {/* 动词信息 */}
             {selectedWord.partOfSpeech === 'verb' && selectedWord.forms?.verb && (
               <div className="detail-item verb-info">
-                <strong>{detailsPanel.partOfSpeech} {detailsPanel.details}：</strong>
-                <div className="verb-details">
+                <div className="verb-header">
+                  <strong>{detailsPanel.partOfSpeech} {detailsPanel.details}</strong>
                   {selectedWord.forms.verb.isSeparable !== undefined && (
-                    <div>
-                      <strong>{selectedWord.forms.verb.isSeparable ? detailsPanel.separable : detailsPanel.inseparable}</strong>
-                      {selectedWord.forms.verb.prefix && <span> ({detailsPanel.prefix}: <span>{selectedWord.forms.verb.prefix}</span>)</span>}
-                    </div>
+                    <span className="verb-type-tag">
+                      {selectedWord.forms.verb.isSeparable ? detailsPanel.separable : detailsPanel.inseparable}
+                      {selectedWord.forms.verb.prefix && ` · ${detailsPanel.prefix}: ${selectedWord.forms.verb.prefix}`}
+                    </span>
                   )}
-                  <div><strong>{detailsPanel.conjugation} ({detailsPanel.partOfSpeech})：</strong></div>
-                  <div className="conjugation-table">
-                    <div className="conjugation-section">
-                      <strong>{languageMode === 'chinese' ? '现在时' : 'Present'}:</strong>
-                      <div className="conjugation-row">ik: <span>{selectedWord.forms.verb.present.ik}</span></div>
-                      <div className="conjugation-row">jij: <span>{selectedWord.forms.verb.present.jij}</span></div>
-                      <div className="conjugation-row">hij/zij: <span>{selectedWord.forms.verb.present.hij}</span></div>
-                      <div className="conjugation-row">wij: <span>{selectedWord.forms.verb.present.wij}</span></div>
-                      <div className="conjugation-row">jullie: <span>{selectedWord.forms.verb.present.jullie}</span></div>
-                      <div className="conjugation-row">zij: <span>{selectedWord.forms.verb.present.zij}</span></div>
+                </div>
+                <div className="verb-details">
+                  {/* 变位表格 */}
+                  <div className="conjugation-table two-column">
+                    {/* 现在时 */}
+                    <div className="conjugation-section present-tense">
+                      <div className="conjugation-header">{languageMode === 'chinese' ? '现在时' : 'Present'}</div>
+                      <div className="conjugation-content">
+                        <div className="conjugation-row"><span className="pronoun">ik</span><span className="form">{selectedWord.forms.verb.present.ik}</span></div>
+                        <div className="conjugation-row"><span className="pronoun">jij</span><span className="form">{selectedWord.forms.verb.present.jij}</span></div>
+                        <div className="conjugation-row"><span className="pronoun">hij/zij</span><span className="form">{selectedWord.forms.verb.present.hij}</span></div>
+                        <div className="conjugation-row"><span className="pronoun">wij</span><span className="form">{selectedWord.forms.verb.present.wij}</span></div>
+                        <div className="conjugation-row"><span className="pronoun">jullie</span><span className="form">{selectedWord.forms.verb.present.jullie}</span></div>
+                        <div className="conjugation-row"><span className="pronoun">zij</span><span className="form">{selectedWord.forms.verb.present.zij}</span></div>
+                      </div>
                     </div>
-                    <div className="conjugation-section">
-                      <strong>{languageMode === 'chinese' ? '过去时' : 'Past'}:</strong>
-                      <div className="conjugation-row">{languageMode === 'chinese' ? '单数' : 'Singular'}: <span>{selectedWord.forms.verb.past.singular}</span></div>
-                      <div className="conjugation-row">{languageMode === 'chinese' ? '复数' : 'Plural'}: <span>{selectedWord.forms.verb.past.plural}</span></div>
-                    </div>
-                    <div className="conjugation-section">
-                      <strong>{languageMode === 'chinese' ? '过去分词' : 'Past Participle'}:</strong>
-                      <div className="conjugation-row single-line">
-                        <span>{selectedWord.forms.verb.pastParticiple}{selectedWord.forms.verb.pastParticipleAuxiliary ? ` (${selectedWord.forms.verb.pastParticipleAuxiliary})` : ''}</span>
+
+                    {/* 过去时和过去分词 */}
+                    <div className="conjugation-section past-section">
+                      <div className="conjugation-header">{languageMode === 'chinese' ? '过去时 / 过去分词' : 'Past / Participle'}</div>
+                      <div className="conjugation-content">
+                        <div className="past-subsection">
+                          <div className="subsection-title">{languageMode === 'chinese' ? '过去时' : 'Past'}</div>
+                          <div className="conjugation-row">
+                            <span className="pronoun">{languageMode === 'chinese' ? '单数' : 'Singular'}</span>
+                            <span className="form">{selectedWord.forms.verb.past.singular}</span>
+                          </div>
+                          <div className="conjugation-row">
+                            <span className="pronoun">{languageMode === 'chinese' ? '复数' : 'Plural'}</span>
+                            <span className="form">{selectedWord.forms.verb.past.plural}</span>
+                          </div>
+                        </div>
+                        <div className="participle-subsection">
+                          <div className="subsection-title">{languageMode === 'chinese' ? '过去分词' : 'Participle'}</div>
+                          <div className="participle-form">
+                            {selectedWord.forms.verb.pastParticiple}
+                            {selectedWord.forms.verb.pastParticipleAuxiliary && (
+                              <span className="auxiliary-verb">({selectedWord.forms.verb.pastParticipleAuxiliary})</span>
+                            )}
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -1482,6 +1503,28 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
             {selectedWord.notes && (
               <div className="detail-item">
                 <strong>{detailsPanel.notes}：</strong> <span>{selectedWord.notes}</span>
+              </div>
+            )}
+
+            {/* 统计信息 */}
+            {selectedWord.stats && (
+              <div className="detail-item stats-info">
+                <strong>{languageMode === 'chinese' ? '学习统计' : 'Learning Statistics'}:</strong>
+                <div className="stats-details">
+                  <div><strong>{languageMode === 'chinese' ? '查看次数' : 'View Count'}:</strong> <span>{selectedWord.stats.viewCount || 0}</span></div>
+                  <div><strong>{languageMode === 'chinese' ? '测试次数' : 'Test Count'}:</strong> <span>{selectedWord.stats.testCount || 0}</span></div>
+                  <div><strong>{languageMode === 'chinese' ? '正确次数' : 'Correct'}:</strong> <span className="stats-correct">{selectedWord.stats.testCorrectCount || 0}</span></div>
+                  <div><strong>{languageMode === 'chinese' ? '错误次数' : 'Wrong'}:</strong> <span className="stats-wrong">{selectedWord.stats.testWrongCount || 0}</span></div>
+                  {selectedWord.stats.masteredCount > 0 && (
+                    <div><strong>{languageMode === 'chinese' ? '掌握次数' : 'Mastered'}:</strong> <span className="stats-mastered">{selectedWord.stats.masteredCount}</span></div>
+                  )}
+                  {selectedWord.stats.lastViewedAt && (
+                    <div><strong>{languageMode === 'chinese' ? '最后查看' : 'Last Viewed'}:</strong> <span>{new Date(selectedWord.stats.lastViewedAt).toLocaleDateString()}</span></div>
+                  )}
+                  {selectedWord.stats.lastTestedAt && (
+                    <div><strong>{languageMode === 'chinese' ? '最后测试' : 'Last Tested'}:</strong> <span>{new Date(selectedWord.stats.lastTestedAt).toLocaleDateString()}</span></div>
+                  )}
+                </div>
               </div>
             )}
           </div>
