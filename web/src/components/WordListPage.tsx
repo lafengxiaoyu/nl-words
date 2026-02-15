@@ -419,6 +419,51 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     }
   }, [favoriteMap, user])
 
+  const toggleFamiliarity = useCallback(async (wordId: number) => {
+    const word = wordsWithProgress.find(w => w.id === wordId)
+    if (!word) return
+
+    // 切换：如果当前是 mastered，则改为 learning；否则改为 mastered
+    const newFamiliarity: 'mastered' | 'learning' = word.familiarity === 'mastered' ? 'learning' : 'mastered'
+
+    // 更新 localStorage
+    if (typeof window !== 'undefined') {
+      const saved = safeLocalStorage.getItem('nl-words')
+      if (saved) {
+        try {
+          const updatedWords = wordsWithProgress.map(w =>
+            w.id === wordId ? { ...w, familiarity: newFamiliarity } : w
+          )
+          safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
+          setWordsWithProgress(updatedWords)
+        } catch (err) {
+          console.error('Failed to update familiarity:', err)
+        }
+      }
+    }
+
+    // 如果已登录，同步到 Supabase
+    if (user) {
+      try {
+        const { error: upsertError } = await supabase
+          .from('user_progress')
+          .upsert({
+            user_id: user.id,
+            word_id: wordId,
+            familiarity: newFamiliarity,
+            updated_at: new Date().toISOString(),
+          }, {
+            onConflict: 'user_id,word_id'
+          })
+
+        if (upsertError) throw upsertError
+        console.log('熟悉度已同步到数据库')
+      } catch (error) {
+        console.error('保存熟悉度失败:', error)
+      }
+    }
+  }, [wordsWithProgress, user])
+
   const loadFavorites = useCallback(() => {
     if (typeof window === 'undefined') return
     const saved = safeLocalStorage.getItem('nl-words')
@@ -1185,7 +1230,17 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                         </span>
                       </td>
                       <td className="familiarity-col">
-                        <span className={`familiarity-badge familiarity-${word.familiarity || 'new'}`}>
+                        <button
+                          className={`familiarity-badge familiarity-${word.familiarity || 'new'} familiarity-toggle`}
+                          onClick={(e) => {
+                            e.stopPropagation()
+                            toggleFamiliarity(word.id)
+                          }}
+                          title={word.familiarity === 'mastered' 
+                            ? (languageMode === 'chinese' ? '取消标记为已掌握' : 'Mark as not mastered')
+                            : (languageMode === 'chinese' ? '标记为已掌握' : 'Mark as mastered')
+                          }
+                        >
                           {word.familiarity === 'new' && (
                             <>
                               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -1221,7 +1276,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                               {languageMode === 'chinese' ? '掌握' : 'Mstr'}
                             </>
                           )}
-                        </span>
+                        </button>
                       </td>
                       <td className="favorite-col">
                         <button
