@@ -74,12 +74,19 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const [currentOptions, setCurrentOptions] = useState<Word[]>([])
   const [wrongAnswers, setWrongAnswers] = useState<{word: Word, userChoice: Word | 'not-mastered' | 'skipped', correctWord: Word}[]>([])
   const [showHint, setShowHint] = useState(false)
-  const [timeLimit, setTimeLimit] = useState(0)
+  const [timeLimit, setTimeLimit] = useState(0) // 仅用于倒计时 timer
   const [timeRemaining, setTimeRemaining] = useState(0)
   const [wordsWithProgress, setWordsWithProgress] = useState<Word[]>([]) // 带进度的单词列表
-  const [testMode, setTestMode] = useState<'all' | 'mistakes' | 'new' | 'learning' | 'smart-review'>('all') // 测试模式
+  const [testMode, setTestMode] = useState<'all' | 'mistakes' | 'new' | 'learning' | 'smart-review'>('all') // 测试模式（用于类型检查）
   const [isSmartReviewMode, setIsSmartReviewMode] = useState(false) // 是否为智能复习模式
   const [isPageVisible, setIsPageVisible] = useState(false) // 页面过渡动画状态
+
+  // 注意：setTimeLimit 和 setTestMode 在当前实现中未直接调用
+  // 设置从 sessionStorage 读取，通过 effective* 变量使用
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const _setTimeLimit = setTimeLimit
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const _setTestMode = setTestMode
   const hasAutoStarted = useRef(false) // 标记是否已经自动开始测试
 
   // 从 URL 参数获取是否为错题专属测试

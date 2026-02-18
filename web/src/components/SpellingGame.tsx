@@ -90,10 +90,17 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   const [score, setScore] = useState(0)
   const [gameComplete, setGameComplete] = useState(false)
   const [isSpeaking, setIsSpeaking] = useState(false)
-  const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all')
-  const [wordCount, setWordCount] = useState(10)
+  const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyLevel | 'all'>('all') // 用于类型检查
+  const [wordCount, setWordCount] = useState(10) // 用于类型检查
   const [timeLimit, setTimeLimit] = useState(15) // 每个单词的时间限制（秒）
   const [timeRemaining, setTimeRemaining] = useState(15)
+
+  // 注意：setSelectedDifficulty, setWordCount, setTimeLimit 在当前实现中未直接调用
+  // 设置从 sessionStorage 读取，通过 effective* 变量使用
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const _setSelectedDifficulty = setSelectedDifficulty
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const _setWordCount = setWordCount
   const [lives, setLives] = useState(3)
   const [combo, setCombo] = useState(0)
   const [wrongAnswers, setWrongAnswers] = useState<{ word: Word, userAnswer: string, correctAnswer: string }[]>([])
@@ -423,7 +430,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
       const firstWord = shuffled[0]
       const firstHints = generateHints(firstWord.word, firstWord.familiarity)
       setHints(firstHints)
-      setTimeRemaining(timeLimit)
+      setTimeRemaining(effectiveTimeLimit)
     }
   }, [userWords, selectedDifficulty, wordCount, timeLimit, generateHints, filterWordsByDifficulty])
 
