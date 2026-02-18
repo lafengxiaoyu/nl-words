@@ -105,6 +105,7 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
   const inputRef = useRef<HTMLInputElement>(null)
   const isProcessingRef = useRef(false) // 防止重复处理答案
   const userAnswerRef = useRef(userAnswer) // 用于同步获取最新的 userAnswer
+  const hasAutoStarted = useRef(false) // 标记是否已经自动开始游戏
 
   // 从 localStorage 加载用户进度
   const loadProgressFromLocalStorage = useCallback(() => {
@@ -377,8 +378,32 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
     // 重置处理标志
     isProcessingRef.current = false
 
-    const filteredWords = filterWordsByDifficulty(userWords, selectedDifficulty)
-    const count = Math.min(wordCount, filteredWords.length)
+    // 从 sessionStorage 读取最新设置
+    let effectiveWordCount = wordCount
+    let effectiveDifficulty = selectedDifficulty
+    let effectiveTimeLimit = timeLimit
+    
+    const testSettingsStr = sessionStorage.getItem('testSettings')
+    if (testSettingsStr) {
+      try {
+        const settings = JSON.parse(testSettingsStr)
+        if (settings.wordCount) effectiveWordCount = settings.wordCount
+        if (settings.difficulty) effectiveDifficulty = settings.difficulty
+        if (settings.timeLimit !== undefined) {
+          effectiveTimeLimit = settings.timeLimit
+          setTimeLimit(settings.timeLimit)
+          setTimeModeEnabled(settings.timeLimit > 0)
+          setTimeRemaining(settings.timeLimit)
+        }
+      } catch (error) {
+        console.error('Failed to parse test settings in startGame:', error)
+      }
+      // 清除设置，避免重复使用
+      sessionStorage.removeItem('testSettings')
+    }
+
+    const filteredWords = filterWordsByDifficulty(userWords, effectiveDifficulty)
+    const count = Math.min(effectiveWordCount, filteredWords.length)
     const shuffled = [...filteredWords].sort(() => Math.random() - 0.5).slice(0, count)
 
     setGameWords(shuffled)
@@ -863,35 +888,15 @@ export default function SpellingGame({ languageMode }: SpellingGameProps) {
 
   // 从sessionStorage读取设置并自动开始游戏
   useEffect(() => {
-    if (gameStarted) return
+    if (gameStarted || hasAutoStarted.current) return
 
+    // 只在有设置时才自动开始游戏
     const testSettingsStr = sessionStorage.getItem('testSettings')
     if (testSettingsStr) {
-      try {
-        const settings = JSON.parse(testSettingsStr)
-        // 使用 setTimeout 避免同步调用 setState
-        setTimeout(() => {
-          if (settings.difficulty) setSelectedDifficulty(settings.difficulty)
-          if (settings.wordCount) setWordCount(settings.wordCount)
-          if (settings.timeLimit !== undefined) {
-            setTimeLimit(settings.timeLimit)
-            setTimeRemaining(settings.timeLimit)
-            setTimeModeEnabled(settings.timeLimit > 0)
-          }
-        }, 0)
-      } catch (error) {
-        console.error('Failed to parse test settings:', error)
-      }
-      // 清除设置，避免重复使用
-      sessionStorage.removeItem('testSettings')
-    }
-
-    // 自动开始游戏
-    const timer = setTimeout(() => {
+      console.log('SpellingGame: Auto-starting game with settings from sessionStorage')
+      hasAutoStarted.current = true
       startGame()
-    }, 100)
-
-    return () => clearTimeout(timer)
+    }
   }, [startGame, gameStarted])
 
   // 游戏完成界面

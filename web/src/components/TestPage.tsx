@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo } from 'react'
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { User } from '@supabase/supabase-js'
 import type { Word, DifficultyLevel } from '../data/words'
@@ -57,46 +57,6 @@ const GlobeIcon = () => {
   )
 }
 
-// 锁图标组件
-const LockIcon = () => {
-  return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="lock-svg-icon">
-      <path
-        d="M12 15V17"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M12 15V17"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <rect
-        x="5"
-        y="11"
-        width="14"
-        height="11"
-        rx="2"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M8 11V7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7V11"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  )
-}
-
 export default function TestPage({ languageMode }: TestPageProps) {
   const navigate = useNavigate()
   const [user, setUser] = useState<User | null>(null)
@@ -120,6 +80,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
   const [testMode, setTestMode] = useState<'all' | 'mistakes' | 'new' | 'learning' | 'smart-review'>('all') // 测试模式
   const [isSmartReviewMode, setIsSmartReviewMode] = useState(false) // 是否为智能复习模式
   const [isPageVisible, setIsPageVisible] = useState(false) // 页面过渡动画状态
+  const hasAutoStarted = useRef(false) // 标记是否已经自动开始测试
 
   // 从 URL 参数获取是否为错题专属测试
   const mistakesOnly = useMemo(() => {
@@ -177,25 +138,6 @@ export default function TestPage({ languageMode }: TestPageProps) {
     }
 
     checkUser()
-
-    // 从 sessionStorage 读取测试设置
-    const testSettingsStr = sessionStorage.getItem('testSettings')
-    if (testSettingsStr) {
-      try {
-        const settings = JSON.parse(testSettingsStr)
-        // 使用 setTimeout 避免同步调用 setState
-        setTimeout(() => {
-          if (settings.difficulty) setSelectedDifficulty(settings.difficulty)
-          if (settings.wordCount) setWordCount(settings.wordCount)
-          if (settings.timeLimit !== undefined) setTimeLimit(settings.timeLimit)
-          if (settings.testMode) setTestMode(settings.testMode)
-        }, 0)
-      } catch (error) {
-        console.error('Failed to parse test settings:', error)
-      }
-      // 清除设置，避免重复使用
-      sessionStorage.removeItem('testSettings')
-    }
 
     // 检测是否为智能复习模式
     const reviewWordIdsStr = sessionStorage.getItem('reviewWordIds')
@@ -390,6 +332,37 @@ export default function TestPage({ languageMode }: TestPageProps) {
 
   // 开始测试
   const startTest = useCallback(() => {
+    // 优先从 sessionStorage 读取测试设置
+    let effectiveWordCount = wordCount
+    let effectiveDifficulty = selectedDifficulty
+    let effectiveTimeLimit = timeLimit
+    let effectiveTestMode = testMode
+    
+    const testSettingsStr = sessionStorage.getItem('testSettings')
+    if (testSettingsStr) {
+      try {
+        const settings = JSON.parse(testSettingsStr)
+        if (settings.wordCount !== undefined) effectiveWordCount = settings.wordCount
+        if (settings.difficulty !== undefined) effectiveDifficulty = settings.difficulty
+        if (settings.timeLimit !== undefined) effectiveTimeLimit = settings.timeLimit
+        if (settings.testMode !== undefined) effectiveTestMode = settings.testMode
+        console.log('TestPage: Read settings from sessionStorage:', { 
+          wordCount: effectiveWordCount, 
+          difficulty: effectiveDifficulty,
+          timeLimit: effectiveTimeLimit,
+          testMode: effectiveTestMode
+        })
+      } catch (error) {
+        console.error('Failed to parse test settings in startTest:', error)
+      }
+      // 清除设置，避免重复使用
+      sessionStorage.removeItem('testSettings')
+    } else {
+      console.log('TestPage: No settings in sessionStorage, using state:', { 
+        wordCount, selectedDifficulty, timeLimit, testMode 
+      })
+    }
+
     // 根据模式筛选单词
     let filteredWords: Word[]
 
@@ -421,7 +394,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
       // 根据选择的测试模式筛选单词
       const baseWords = wordsWithProgress.length > 0 ? wordsWithProgress : words
 
-      switch (testMode) {
+      switch (effectiveTestMode) {
         case 'mistakes':
           // 错题复习：只出做错过且未掌握的单词
           filteredWords = baseWords.filter(w => {
@@ -435,7 +408,7 @@ export default function TestPage({ languageMode }: TestPageProps) {
           // 新题练习：只出熟悉度为 new 的单词
           filteredWords = filterWordsByDifficulty(
             baseWords.filter(w => w.familiarity === 'new'),
-            selectedDifficulty
+            effectiveDifficulty
           )
           break
 
@@ -443,20 +416,20 @@ export default function TestPage({ languageMode }: TestPageProps) {
           // 学习中：只出熟悉度为 learning 或 familiar 的单词
           filteredWords = filterWordsByDifficulty(
             baseWords.filter(w => w.familiarity === 'learning' || w.familiarity === 'familiar'),
-            selectedDifficulty
+            effectiveDifficulty
           )
           break
 
         case 'all':
         default:
           // 全部随机：所有单词（受难度限制）
-          filteredWords = filterWordsByDifficulty(baseWords, selectedDifficulty)
+          filteredWords = filterWordsByDifficulty(baseWords, effectiveDifficulty)
           break
       }
     }
 
     // 确保选择的数量不超过可用单词数
-    const count = Math.min(wordCount, filteredWords.length)
+    const count = Math.min(effectiveWordCount, filteredWords.length)
 
     // 随机选择指定数量的单词进行测试
     const shuffled = [...filteredWords].sort(() => Math.random() - 0.5).slice(0, count)
@@ -470,8 +443,8 @@ export default function TestPage({ languageMode }: TestPageProps) {
     setWrongAnswers([])
 
     // 重置每题倒计时
-    if (timeLimit > 0) {
-      setTimeRemaining(timeLimit)
+    if (effectiveTimeLimit > 0) {
+      setTimeRemaining(effectiveTimeLimit)
     }
 
     // 为第一个单词生成选项
@@ -598,13 +571,14 @@ export default function TestPage({ languageMode }: TestPageProps) {
     return () => clearInterval(timer)
   }, [currentIndex, timeLimit, testWords, testComplete, showResult, markAsSkipped])
 
-  // 自动开始测试
+  // 自动开始测试 - 等待条件准备好后再执行
   useEffect(() => {
-    if (testWords.length === 0 && !testComplete) {
-      // 使用 setTimeout 避免同步调用 setState
-      setTimeout(() => {
-        startTest()
-      }, 0)
+    // 检查是否有测试设置，且未自动开始过
+    const testSettingsStr = sessionStorage.getItem('testSettings')
+    if (testWords.length === 0 && !testComplete && testSettingsStr && !hasAutoStarted.current) {
+      console.log('TestPage: Auto-starting test with settings from sessionStorage')
+      hasAutoStarted.current = true
+      startTest()
     }
   }, [testWords.length, testComplete, startTest])
 
@@ -765,154 +739,35 @@ export default function TestPage({ languageMode }: TestPageProps) {
     }
   }
 
-  // 重新开始
+  // 重新开始 - 直接返回测试选择页面
   const restartTest = () => {
-    setTestWords([]) // 清空测试单词以显示设置页面
-    setShowHint(false)
+    const langPath = languageMode === 'chinese' ? 'zh' : 'en'
+    navigate(`/${langPath}/test-select`)
   }
 
-  if (testWords.length === 0) {
-    const filteredWords = filterWordsByDifficulty(words, selectedDifficulty)
-    const maxWordCount = filteredWords.length
+  // 使用 useEffect 处理无测试单词的情况
+  useEffect(() => {
+    // 如果测试完成或没有测试单词，延迟跳转（避免在渲染时调用 navigate）
+    if (testWords.length === 0 && !testComplete) {
+      const timer = setTimeout(() => {
+        const langPath = languageMode === 'chinese' ? 'zh' : 'en'
+        navigate(`/${langPath}/test-select`)
+      }, 100)
+      return () => clearTimeout(timer)
+    }
+  }, [testWords.length, testComplete, navigate, languageMode])
 
+  // 如果没有测试单词，显示加载中（useEffect 会处理跳转）
+  if (testWords.length === 0) {
     return (
-      <>
       <div className="test-page">
         <div className="test-container">
-          <div className="page-header">
-            <button className="back-btn" onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}`)}>
-              {t.backToLearn}
-            </button>
-            <button
-              className="lang-toggle-btn"
-              onClick={() => navigate(`/${languageMode === 'chinese' ? 'en' : 'zh'}/test`)}
-              aria-label={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
-              title={languageMode === 'chinese' ? 'Switch to English' : '切换到中文'}
-            >
-              <GlobeIcon />
-              <span className="lang-text">{languageMode === 'chinese' ? 'EN' : '中文'}</span>
-            </button>
-          </div>
-          <div className="test-intro">
-            <h1>{t.title}</h1>
-
-            <div className="test-options">
-              <div className="option-group">
-                <label className="option-label">{t.selectTestMode}</label>
-                <div className="test-mode-selector">
-                  <button
-                    className={`test-mode-option ${testMode === 'all' ? 'selected' : ''}`}
-                    onClick={() => setTestMode('all')}
-                  >
-                    {t.testModeAll}
-                  </button>
-                  <button
-                    className={`test-mode-option ${testMode === 'mistakes' ? 'selected' : ''}`}
-                    onClick={() => setTestMode('mistakes')}
-                  >
-                    {t.testModeMistakes}
-                  </button>
-                  <button
-                    className={`test-mode-option ${testMode === 'new' ? 'selected' : ''}`}
-                    onClick={() => setTestMode('new')}
-                  >
-                    {t.testModeNew}
-                  </button>
-                  <button
-                    className={`test-mode-option ${testMode === 'learning' ? 'selected' : ''}`}
-                    onClick={() => setTestMode('learning')}
-                  >
-                    {t.testModeLearning}
-                  </button>
-                  <button
-                    className={`test-mode-option smart-review-btn`}
-                    onClick={() => navigate(`/${languageMode === 'chinese' ? 'zh' : 'en'}/smart-review`)}
-                    title={languageMode === 'chinese' ? '基于艾宾浩斯遗忘曲线的智能复习' : 'Smart review based on Ebbinghaus forgetting curve'}
-                  >
-                    {t.testModeSmartReview}
-                  </button>
-                </div>
-              </div>
-
-              <div className="option-group">
-                <label className={`option-label ${testMode === 'mistakes' ? 'disabled' : ''}`}>{t.selectDifficulty}</label>
-                <div className={`difficulty-selector ${testMode === 'mistakes' ? 'disabled' : ''}`}>
-                  <button
-                    className={`difficulty-option ${selectedDifficulty === 'all' ? 'selected' : ''} ${testMode === 'mistakes' ? 'disabled' : ''}`}
-                    onClick={() => testMode !== 'mistakes' && setSelectedDifficulty('all')}
-                    disabled={testMode === 'mistakes'}
-                  >
-                    {t.allDifficulty}
-                  </button>
-                  <button
-                    className={`difficulty-option ${selectedDifficulty === 'A1' ? 'selected' : ''} ${testMode === 'mistakes' ? 'disabled' : ''}`}
-                    onClick={() => testMode !== 'mistakes' && setSelectedDifficulty('A1')}
-                    disabled={testMode === 'mistakes'}
-                  >
-                    A1-A2
-                  </button>
-                  <button
-                    className={`difficulty-option ${!isPremium ? 'locked' : ''} ${selectedDifficulty === 'B1' ? 'selected' : ''} ${testMode === 'mistakes' ? 'disabled' : ''}`}
-                    onClick={() => testMode !== 'mistakes' && setSelectedDifficulty('B1')}
-                    disabled={testMode === 'mistakes'}
-                    title={isPremium ? '' : '需要 Premium 才能访问'}
-                  >
-                    B1-B2
-                    {!isPremium && <LockIcon />}
-                  </button>
-                  <button
-                    className={`difficulty-option ${!isPremium ? 'locked' : ''} ${selectedDifficulty === 'C1' ? 'selected' : ''} ${testMode === 'mistakes' ? 'disabled' : ''}`}
-                    onClick={() => testMode !== 'mistakes' && setSelectedDifficulty('C1')}
-                    disabled={testMode === 'mistakes'}
-                    title={isPremium ? '' : '需要 Premium 才能访问'}
-                  >
-                    C1-C2
-                    {!isPremium && <LockIcon />}
-                  </button>
-                </div>
-              </div>
-
-              <div className="option-group">
-                <label className="option-label">{t.selectWordCount}</label>
-                <div className="word-count-selector">
-                  {[5, 10, 15, 25].map((count) => (
-                    <button
-                      key={count}
-                      className={`count-option ${wordCount === count ? 'selected' : ''} ${count > maxWordCount ? 'disabled' : ''}`}
-                      onClick={() => count <= maxWordCount && setWordCount(count)}
-                      disabled={count > maxWordCount}
-                    >
-                      {count}
-                    </button>
-                  ))}
-                </div>
-                {maxWordCount < wordCount && (
-                  <p className="warning-text">
-                    {languageMode === 'chinese'
-                      ? `该难度下只有 ${maxWordCount} 个单词`
-                      : `Only ${maxWordCount} words available at this difficulty`
-                    }
-                  </p>
-                )}
-              </div>
-            </div>
-
-            <button className="btn btn-primary btn-lg" onClick={startTest}>
-              {t.startTest}
-            </button>
+          <div className="loading-container">
+            <div className="loading-spinner"></div>
+            <p>{languageMode === 'chinese' ? '加载中...' : 'Loading...'}</p>
           </div>
         </div>
       </div>
-
-      {/* Premium 升级弹窗 */}
-      <PremiumUpgradeModal
-        isOpen={showPremiumModal}
-        onClose={() => {
-          setShowPremiumModal(false)
-        }}
-        languageMode={languageMode}
-      />
-      </>
     )
   }
 
