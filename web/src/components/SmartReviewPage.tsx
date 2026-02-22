@@ -14,6 +14,34 @@ import {
 } from '../lib/smartReview'
 import './SmartReviewPage.css'
 
+// 发音按钮图标组件
+const SpeakerIcon = ({ isSpeaking }: { isSpeaking: boolean }) => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={`speaker-icon ${isSpeaking ? 'speaking' : ''}`}>
+      <path
+        d="M3 9V15H7L12 20V4L7 9H3Z"
+        fill="currentColor"
+      />
+      <path
+        d="M16.5 12C16.5 10.23 15.48 8.71 14 7.97V16.02C15.48 15.29 16.5 13.77 16.5 12Z"
+        fill="currentColor"
+        opacity="0.7"
+      />
+      <path
+        d="M14 3.23V5.29C16.89 6.15 19 8.83 19 12C19 15.17 16.89 17.85 14 18.71V20.77C18.01 19.86 21 16.28 21 12C21 7.72 18.01 4.14 14 3.23Z"
+        fill="currentColor"
+        opacity="0.5"
+      />
+      {isSpeaking && (
+        <>
+          <circle cx="12" cy="12" r="10" className="pulse-ring" />
+          <circle cx="12" cy="12" r="14" className="pulse-ring" style={{ animationDelay: '0.3s' }} />
+        </>
+      )}
+    </svg>
+  )
+}
+
 interface SmartReviewPageProps {
   languageMode: 'chinese' | 'english'
 }
@@ -70,6 +98,7 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
   const [isRefreshing, setIsRefreshing] = useState(false)
   const [selectedWord, setSelectedWord] = useState<Word | null>(null)
   const [favoriteMap, setFavoriteMap] = useState<Map<number, boolean>>(new Map())
+  const [speakingText, setSpeakingText] = useState<string | null>(null)
 
   // 使用页面首次加载时的时间戳作为基准，避免每次调用 Date.now() 不同导致统计不稳定
   const [pageLoadTime] = useState<number>(() => Date.now())
@@ -142,6 +171,7 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
         lastViewedAt: '最后查看',
         lastTestedAt: '最后测试',
         correct: '正确',
+        speak: '朗读',
         wrong: '错误',
         conjugation: '变位',
         present: '现在时',
@@ -230,6 +260,7 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
         lastViewedAt: 'Last Viewed',
         lastTestedAt: 'Last Tested',
         conjugation: 'Conjugation',
+        speak: 'Speak',
         present: 'Present',
         past: 'Past',
         pastSingular: 'Past Singular',
@@ -323,6 +354,20 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
     return () => {
       subscription.unsubscribe()
     }
+  }, [])
+
+  // 荷兰语发音函数
+  const speakDutch = useCallback((text: string) => {
+    if (!text || !window.speechSynthesis) return
+    window.speechSynthesis.cancel()
+    const utterance = new SpeechSynthesisUtterance(text)
+    utterance.lang = 'nl-NL'
+    utterance.rate = 0.9
+    utterance.pitch = 1
+    utterance.onstart = () => setSpeakingText(text)
+    utterance.onend = () => setSpeakingText(null)
+    utterance.onerror = () => setSpeakingText(null)
+    window.speechSynthesis.speak(utterance)
   }, [])
 
   // 加载收藏状态
@@ -726,7 +771,17 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
               <h3>{t.detailsPanel.title}</h3>
               <button className="close-details-btn" onClick={() => setSelectedWord(null)}>×</button>
 
-              <div className="detail-item"><strong>{t.detailsPanel.dutch}:</strong> <span>{selectedWord.word}</span></div>
+              <div className="detail-item has-speak-btn">
+                <strong>{t.detailsPanel.dutch}:</strong>
+                <span>{selectedWord.word}</span>
+                <button
+                  className="speak-btn"
+                  onClick={() => speakDutch(selectedWord.word)}
+                  title={t.detailsPanel.speak}
+                >
+                  <SpeakerIcon isSpeaking={speakingText === selectedWord.word} />
+                </button>
+              </div>
               <div className="detail-item"><strong>{t.detailsPanel.chinese}:</strong> {selectedWord.translation.chinese}</div>
               <div className="detail-item"><strong>{t.detailsPanel.english}:</strong> <span>{selectedWord.translation.english}</span></div>
               <div className="detail-item">
@@ -864,7 +919,16 @@ export default function SmartReviewPage({ languageMode }: SmartReviewPageProps) 
                   <strong>{t.detailsPanel.examples}:</strong>
                   {selectedWord.examples.map((example, index) => (
                     <div key={index} className="example-container">
-                      <div className="example-nl">{example}</div>
+                      <div className="example-nl">
+                        {example}
+                        <button
+                          className="speak-btn example-speak-btn"
+                          onClick={() => speakDutch(example)}
+                          title={t.detailsPanel.speak}
+                        >
+                          <SpeakerIcon isSpeaking={speakingText === example} />
+                        </button>
+                      </div>
                       {(() => {
                         if (Array.isArray(selectedWord.exampleTranslations)) {
                           const translation = selectedWord.exampleTranslations[index]

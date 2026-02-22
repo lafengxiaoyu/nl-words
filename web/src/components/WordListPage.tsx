@@ -14,6 +14,34 @@ import PremiumUpgradeModal from './PremiumUpgradeModal'
 
 import './WordListPage.css'
 
+// 发音按钮图标组件
+const SpeakerIcon = ({ isSpeaking }: { isSpeaking: boolean }) => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={`speaker-icon ${isSpeaking ? 'speaking' : ''}`}>
+      <path
+        d="M3 9V15H7L12 20V4L7 9H3Z"
+        fill="currentColor"
+      />
+      <path
+        d="M16.5 12C16.5 10.23 15.48 8.71 14 7.97V16.02C15.48 15.29 16.5 13.77 16.5 12Z"
+        fill="currentColor"
+        opacity="0.7"
+      />
+      <path
+        d="M14 3.23V5.29C16.89 6.15 19 8.83 19 12C19 15.17 16.89 17.85 14 18.71V20.77C18.01 19.86 21 16.28 21 12C21 7.72 18.01 4.14 14 3.23Z"
+        fill="currentColor"
+        opacity="0.5"
+      />
+      {isSpeaking && (
+        <>
+          <circle cx="12" cy="12" r="10" className="pulse-ring" />
+          <circle cx="12" cy="12" r="14" className="pulse-ring" style={{ animationDelay: '0.3s' }} />
+        </>
+      )}
+    </svg>
+  )
+}
+
 interface WordListPageProps {
   languageMode: 'chinese' | 'english'
 }
@@ -238,6 +266,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [showPremiumModal, setShowPremiumModal] = useState(false)
   const [wordsWithProgress, setWordsWithProgress] = useState<Word[]>(words)
   const [viewedWordsThisSession, setViewedWordsThisSession] = useState<Set<number>>(new Set())
+  const [speakingText, setSpeakingText] = useState<string | null>(null)
 
   // 获取当前登录用户
   useEffect(() => {
@@ -667,8 +696,23 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
     pastParticiple: languageMode === 'chinese' ? '过去分词' : 'Past Participle',
     pastParticipleAuxiliary: languageMode === 'chinese' ? '辅助动词' : 'Auxiliary',
     examples: languageMode === 'chinese' ? '例句' : 'Examples',
-    notes: languageMode === 'chinese' ? '备注' : 'Notes'
+    notes: languageMode === 'chinese' ? '备注' : 'Notes',
+    speak: languageMode === 'chinese' ? '朗读' : 'Speak'
   }
+
+  // 荷兰语发音函数
+  const speakDutch = useCallback((text: string) => {
+    if (!text || !window.speechSynthesis) return
+    window.speechSynthesis.cancel()
+    const utterance = new SpeechSynthesisUtterance(text)
+    utterance.lang = 'nl-NL'
+    utterance.rate = 0.9
+    utterance.pitch = 1
+    utterance.onstart = () => setSpeakingText(text)
+    utterance.onend = () => setSpeakingText(null)
+    utterance.onerror = () => setSpeakingText(null)
+    window.speechSynthesis.speak(utterance)
+  }, [])
 
   // 获取用于排序的词性（如果是数组，取第一个）
   const getPartOfSpeechForSort = (partOfSpeech: string | string[]): string => {
@@ -1399,7 +1443,17 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
             <h3>{detailsPanel.title}</h3>
             <button className="close-details-btn" onClick={() => setSelectedWord(null)}>×</button>
 
-            <div className="detail-item"><strong>{detailsPanel.dutch}：</strong> <span>{selectedWord.word}</span></div>
+            <div className="detail-item has-speak-btn">
+              <strong>{detailsPanel.dutch}：</strong>
+              <span>{selectedWord.word}</span>
+              <button
+                className="speak-btn"
+                onClick={() => speakDutch(selectedWord.word)}
+                title={detailsPanel.speak}
+              >
+                <SpeakerIcon isSpeaking={speakingText === selectedWord.word} />
+              </button>
+            </div>
             <div className="detail-item"><strong>{detailsPanel.chinese}：</strong> {selectedWord.translation.chinese}</div>
             <div className="detail-item"><strong>{detailsPanel.english}：</strong> <span>{selectedWord.translation.english}</span></div>
             <div className="detail-item">
@@ -1537,7 +1591,16 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
                 <strong>{detailsPanel.examples}：</strong>
                 {selectedWord.examples.map((example, index) => (
                   <div key={index} className="example-container">
-                    <div className="example-nl">{example}</div>
+                    <div className="example-nl">
+                      {example}
+                      <button
+                        className="speak-btn example-speak-btn"
+                        onClick={() => speakDutch(example)}
+                        title={detailsPanel.speak}
+                      >
+                        <SpeakerIcon isSpeaking={speakingText === example} />
+                      </button>
+                    </div>
                     {(() => {
                       if (Array.isArray(selectedWord.exampleTranslations)) {
                         const translation = selectedWord.exampleTranslations[index]
