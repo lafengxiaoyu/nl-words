@@ -37,9 +37,13 @@ export function calculateFamiliarity(
     return userFamiliarity
   }
 
-  // 如果用户标记为 new，检查是否真的应该重置
+  // 如果用户标记为 new，但有新的学习活动（如查看），则允许自动升级
   if (userFamiliarity === 'new') {
-    return 'new'
+    // 检查是否有新的学习活动（viewCount > 0）
+    if (!stats || stats.viewCount === 0) {
+      return 'new'
+    }
+    // 有学习活动，继续下面的自动判断逻辑，不强制返回 new
   }
 
   // 没有用户明确标记时，根据统计信息自动判断

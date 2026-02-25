@@ -916,11 +916,14 @@ function MainApp() {
         )
         console.log(`设置熟悉程度为 ${calculatedFamiliarity}（用户选择: ${familiarity}）`)
 
+        // 手动滑动标记时，直接使用用户的选择，不使用自动计算结果
+        const finalFamiliarity = familiarity
+
         const updatedWords = wordList.map(word =>
           word.id === wordId
             ? {
                 ...word,
-                familiarity: calculatedFamiliarity,
+                familiarity: finalFamiliarity,
                 stats: updatedStats
               }
             : word
