@@ -340,7 +340,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       // 记录查看次数
       const newStats = await incrementViewCount(user.id, word.id, word.stats)
 
-      // 更新数据库
+      // 更新数据库，保留用户的手动标记
       const { error } = await supabase
         .from('user_progress')
         .upsert({
@@ -348,7 +348,7 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
           word_id: word.id,
           view_count: newStats.viewCount,
           last_viewed_at: newStats.lastViewedAt,
-          familiarity: calculateFamiliarity(undefined, newStats),
+          familiarity: calculateFamiliarity(word.familiarity, newStats),
           updated_at: new Date().toISOString(),
         }, {
           onConflict: 'user_id,word_id'
@@ -357,13 +357,13 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       if (error) {
         console.error('Failed to update view count:', error)
       } else {
-        // 更新本地 state
+        // 更新本地 state，保留用户的手动标记
         const updatedWords = wordsWithProgress.map(w =>
           w.id === word.id
             ? {
                 ...w,
                 stats: newStats,
-                familiarity: calculateFamiliarity(undefined, newStats)
+                familiarity: calculateFamiliarity(w.familiarity, newStats)
               }
             : w
         )

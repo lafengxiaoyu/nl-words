@@ -493,7 +493,7 @@ export default function TableSpellingTest({ languageMode }: TableSpellingTestPro
                 lastViewedAt: currentStats?.lastViewedAt,
                 lastTestedAt: new Date().toISOString(),
               }
-              const calculatedFamiliarity = calculateFamiliarity(undefined, updatedStats)
+              const calculatedFamiliarity = calculateFamiliarity(localWords[wordIndex].familiarity, updatedStats)
               localWords[wordIndex] = {
                 ...localWords[wordIndex],
                 stats: updatedStats,

@@ -380,7 +380,7 @@ export async function updateMasteryStats(
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: currentStats?.lastTestedAt,
     }
-    const calculatedFamiliarity = calculateFamiliarity(undefined, newStats)
+    const calculatedFamiliarity = calculateFamiliarity(userFamiliarity, newStats)
     return { stats: newStats, familiarity: calculatedFamiliarity }
   }
 }
@@ -393,7 +393,8 @@ export async function updateTestStats(
   userId: string,
   wordId: number,
   isCorrect: boolean,
-  currentStats?: LearningStats
+  currentStats?: LearningStats,
+  userFamiliarity?: FamiliarityLevel
 ): Promise<{ stats: LearningStats; familiarity: FamiliarityLevel }> {
   if (!isSupabaseConfigured) {
     const currentConsecutiveCorrect = currentStats?.consecutiveCorrectCount || 0
@@ -419,7 +420,7 @@ export async function updateTestStats(
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: new Date().toISOString(),
     }
-    const calculatedFamiliarity = calculateFamiliarity(undefined, newStats)
+    const calculatedFamiliarity = calculateFamiliarity(userFamiliarity, newStats)
     return { stats: newStats, familiarity: calculatedFamiliarity }
   }
 
@@ -466,8 +467,9 @@ export async function updateTestStats(
       lastTestedAt: new Date().toISOString(),
     }
 
-    // 自动计算熟悉程度
-    const calculatedFamiliarity = calculateFamiliarity(undefined, newStats)
+    // 自动计算熟悉程度，保留用户的手动标记
+    const userFamiliarity = existing?.familiarity as FamiliarityLevel
+    const calculatedFamiliarity = calculateFamiliarity(userFamiliarity, newStats)
 
     const upsertData: Partial<UserProgress> = {
       user_id: userId,
@@ -516,7 +518,7 @@ export async function updateTestStats(
       lastViewedAt: currentStats?.lastViewedAt,
       lastTestedAt: new Date().toISOString(),
     }
-    const calculatedFamiliarity = calculateFamiliarity(undefined, newStats)
+    const calculatedFamiliarity = calculateFamiliarity(userFamiliarity, newStats)
     return { stats: newStats, familiarity: calculatedFamiliarity }
   }
 }
