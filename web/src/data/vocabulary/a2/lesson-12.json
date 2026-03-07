@@ -551,12 +551,12 @@
         "verb": {
           "infinitive": "verdelen",
           "present": {
-            "ik": "deel",
-            "jij": "deelt",
-            "hij": "deelt",
-            "wij": "delen",
-            "jullie": "delen",
-            "zij": "delen"
+            "ik": "verdeel",
+            "jij": "verdeelt",
+            "hij": "verdeelt",
+            "wij": "verdelen",
+            "jullie": "verdelen",
+            "zij": "verdelen"
           },
           "past": {
             "singular": "deelde",
@@ -568,17 +568,17 @@
         }
       },
       "examples": [
-        "Verdeel het geld.",
-        "We delen de taken."
+        "De leraar verdeelt de studenten in kleine groepen.",
+        "We moeten de werkzaamheden eerlijk verdeelen over het team."
       ],
       "exampleTranslations": {
         "chinese": [
-          "分配这笔钱。",
-          "我们分担任务。"
+          "老师将学生分成小组。",
+          "我们需要在工作团队中公平分配这些任务。"
         ],
         "english": [
-          "Divide the money.",
-          "We share the tasks."
+          "The teacher divides the students into small groups.",
+          "We have to divide the tasks fairly among the team."
         ]
       },
       "difficulty": "A2",
@@ -597,8 +597,8 @@
           "infinitive": "verdienen",
           "present": {
             "ik": "verdien",
-            "jij": "verdiend",
-            "hij": "verdiend",
+            "jij": "verdiendt",
+            "hij": "verdiendt",
             "wij": "verdienen",
             "jullie": "verdienen",
             "zij": "verdienen"
@@ -673,16 +673,16 @@
         "verb": {
           "infinitive": "verdragen",
           "present": {
-            "ik": "draag",
-            "jij": "draagt",
-            "hij": "draagt",
-            "wij": "dragen",
-            "jullie": "dragen",
-            "zij": "dragen"
+            "ik": "verdraag",
+            "jij": "verdraagt",
+            "hij": "verdraagt",
+            "wij": "verdragen",
+            "jullie": "verdragen",
+            "zij": "verdragen"
           },
           "past": {
-            "singular": "droeg",
-            "plural": "droegen"
+            "singular": "verdroeg",
+            "plural": "verdroegen"
           },
           "participle": "verdragen",
           "isSeparable": false,
@@ -718,12 +718,12 @@
         "verb": {
           "infinitive": "verdwijnen",
           "present": {
-            "ik": "verdween",
-            "jij": "verdween",
-            "hij": "verdween",
-            "wij": "verdwenen",
-            "jullie": "verdwenen",
-            "zij": "verdwenen"
+            "ik": "verdwin",
+            "jij": "verdijnt",
+            "hij": "verdijnt",
+            "wij": "verdwijnen",
+            "jullie": "verdwijnen",
+            "zij": "verdwijnen"
           },
           "past": {
             "singular": "verdween",
@@ -731,7 +731,7 @@
           },
           "participle": "verdwenen",
           "isSeparable": false,
-          "pastParticiple": "verdwonnen"
+          "pastParticiple": "verdwenen"
         }
       },
       "examples": [
@@ -749,7 +749,7 @@
         ]
       },
       "difficulty": "A2",
-      "notes": "不规则动词：verdwijnen - verdwijst - verdween - verdwenen - is - verdwenen，原形 is wijnen"
+      "notes": "不规则动词：verdwijnen - verdijnt - verdween - verdwenen - is - verdwenen，原形 is wijnen"
     },
     {
       "id": 1219,
@@ -1276,8 +1276,8 @@
           "infinitive": "vermijden",
           "present": {
             "ik": "vermijd",
-            "jij": "vermijd",
-            "hij": "vermijd",
+            "jij": "vermijdt",
+            "hij": "vermijdt",
             "wij": "vermijden",
             "jullie": "vermijden",
             "zij": "vermijden"
