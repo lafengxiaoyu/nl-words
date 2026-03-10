@@ -290,6 +290,7 @@ export async function updateMasteryStats(
   currentStats?: LearningStats
 ): Promise<{ stats: LearningStats; familiarity: FamiliarityLevel }> {
   const isMastered = familiarity === 'mastered'
+  const now = new Date().toISOString()
   if (!isSupabaseConfigured) {
     const newStats: LearningStats = {
       viewCount: currentStats?.viewCount || 0,
@@ -300,9 +301,9 @@ export async function updateMasteryStats(
       testWrongCount: currentStats?.testWrongCount || 0,
       consecutiveCorrectCount: currentStats?.consecutiveCorrectCount || 0,
       lastMistakeAt: currentStats?.lastMistakeAt,
-      masteredAt: currentStats?.masteredAt,
+      masteredAt: isMastered ? (currentStats?.masteredAt || now) : currentStats?.masteredAt,
       lastViewedAt: currentStats?.lastViewedAt,
-      lastTestedAt: currentStats?.lastTestedAt,
+      lastTestedAt: now, // 标记掌握/未掌握时也更新 lastTestedAt，用于同步判断
     }
     // 传入用户选择，实现混合策略
     const calculatedFamiliarity = calculateFamiliarity(familiarity, newStats)
@@ -330,9 +331,11 @@ export async function updateMasteryStats(
       testWrongCount: existing?.test_wrong_count || currentStats?.testWrongCount || 0,
       consecutiveCorrectCount: existing?.consecutive_correct_count || currentStats?.consecutiveCorrectCount || 0,
       lastMistakeAt: existing?.last_mistake_at || currentStats?.lastMistakeAt,
-      masteredAt: existing?.mastered_at || currentStats?.masteredAt,
+      masteredAt: isMastered
+        ? (existing?.mastered_at || currentStats?.masteredAt || now)
+        : (existing?.mastered_at || currentStats?.masteredAt),
       lastViewedAt: existing?.last_viewed_at || currentStats?.lastViewedAt,
-      lastTestedAt: existing?.last_tested_at || currentStats?.lastTestedAt,
+      lastTestedAt: now, // 标记掌握/未掌握时也更新 lastTestedAt，用于同步判断
     }
 
     // 传入用户选择，实现混合策略

@@ -9,7 +9,7 @@ import { loadUserProgress, saveUserProgress, mergeProgress, incrementViewCount, 
 import { calculateFamiliarityScore } from './lib/familiarityCalculator'
 import { isPremiumUser } from './lib/subscription'
 import { safeLocalStorage } from './lib/safeLocalStorage'
-import { initializeProgressStorage, loadProgressFromStorage } from './lib/progressStorage'
+import { initializeProgressStorage, loadProgressFromStorage, saveProgressToStorage } from './lib/progressStorage'
 import { useProgressStorage } from './lib/useProgressStorage'
 import type { UserWordProgress } from './data/types'
 import Auth from './components/Auth'
@@ -748,20 +748,64 @@ function MainApp() {
       // 从云端获取进度
       const cloudProgressMap = await loadUserProgress(userId)
 
-      // 合并进度（云端优先）
-      const mergedProgressMap = new Map<number, UserWordProgress>(localProgressMap)
-      cloudProgressMap.forEach((progress, wordId) => {
-        mergedProgressMap.set(wordId, progress)
+      // 合并进度：云端和本地都有的，取更新时间更近的；本地独有的也包含进来
+      const mergedProgressMap = new Map<number, UserWordProgress>()
+      
+      // 辅助函数：获取进度的最后更新时间
+      const getLastUpdated = (progress: UserWordProgress): number => {
+        const lastViewed = progress.stats?.lastViewedAt ? new Date(progress.stats.lastViewedAt).getTime() : 0
+        const lastTested = progress.stats?.lastTestedAt ? new Date(progress.stats.lastTestedAt).getTime() : 0
+        return Math.max(lastViewed, lastTested)
+      }
+      
+      // 先处理所有云端数据
+      cloudProgressMap.forEach((cloudProgress, wordId) => {
+        mergedProgressMap.set(wordId, cloudProgress)
       })
-
-      // 保存合并后的进度
-      // saveProgressToStorage 已通过 useProgressStorage hook 间接调用
-      // 这里先不保存，等待 setWordList 更新后再保存
+      
+      // 再处理本地数据
+      localProgressMap.forEach((localProgress, wordId) => {
+        const cloudProgress = cloudProgressMap.get(wordId)
+        if (!cloudProgress) {
+          // 云端没有，使用本地进度
+          mergedProgressMap.set(wordId, localProgress)
+        } else {
+          // 两边都有，取更新时间更近的
+          const localTime = getLastUpdated(localProgress)
+          const cloudTime = getLastUpdated(cloudProgress)
+          if (localTime > cloudTime) {
+            // 本地更新，使用本地进度
+            mergedProgressMap.set(wordId, localProgress)
+          }
+          // 否则保留云端进度（已在上面设置）
+        }
+      })
 
       // 合并到词库
       const mergedWords = mergeProgress(words, mergedProgressMap)
       setWordList(mergedWords)
       setFilteredWordList(mergedWords)
+
+      // 保存合并后的进度到 localStorage
+      saveProgressToStorage(mergedProgressMap)
+
+      // 将本地独有的进度同步到云端
+      const syncToCloud = async () => {
+        for (const [wordId, progress] of localProgressMap.entries()) {
+          if (!cloudProgressMap.has(wordId)) {
+            try {
+              await saveUserProgress(userId, wordId, progress.familiarity, progress.stats)
+            } catch (error) {
+              console.error(`同步单词 ${wordId} 到云端失败:`, error)
+            }
+          }
+        }
+      }
+
+      // 异步同步到云端，不阻塞 UI
+      syncToCloud().catch(error => {
+        console.error('同步本地独有进度到云端失败:', error)
+      })
 
       setSyncStatus('success')
       setTimeout(() => setSyncStatus('idle'), 2000)
