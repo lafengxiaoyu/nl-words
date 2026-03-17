@@ -265,7 +265,6 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const [isPremium, setIsPremium] = useState(false)
   const [showPremiumModal, setShowPremiumModal] = useState(false)
   const [wordsWithProgress, setWordsWithProgress] = useState<Word[]>(words)
-  const [viewedWordsThisSession, setViewedWordsThisSession] = useState<Set<number>>(new Set())
   const [speakingText, setSpeakingText] = useState<string | null>(null)
 
   // 获取当前登录用户
