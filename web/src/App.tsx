@@ -789,10 +789,13 @@ function MainApp() {
       // 保存合并后的进度到 localStorage
       saveProgressToStorage(mergedProgressMap)
 
-      // 将本地独有的进度同步到云端
+      // 将本地独有的或更新的进度同步到云端
       const syncToCloud = async () => {
         for (const [wordId, progress] of localProgressMap.entries()) {
-          if (!cloudProgressMap.has(wordId)) {
+          const cloudProgress = cloudProgressMap.get(wordId)
+          const shouldSync = !cloudProgress || getLastUpdated(progress) > getLastUpdated(cloudProgress)
+
+          if (shouldSync) {
             try {
               await saveUserProgress(userId, wordId, progress.familiarity, progress.stats)
             } catch (error) {

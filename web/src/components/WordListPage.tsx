@@ -340,38 +340,41 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
       // 记录查看次数
       const newStats = await incrementViewCount(user.id, word.id, word.stats)
 
-      // 更新数据库，保留用户的手动标记
+      // 根据新的统计数据计算新的熟悉度
+      const newFamiliarity = calculateFamiliarity(word.familiarity, newStats)
+
+      // 更新本地 state，同时更新统计数据和熟悉度
+      const updatedWords = wordsWithProgress.map(w =>
+        w.id === word.id
+          ? {
+              ...w,
+              stats: newStats,
+              familiarity: newFamiliarity
+            }
+          : w
+      )
+      setWordsWithProgress(updatedWords)
+
+      // 同步到 localStorage
+      safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
+
+      // 同步到数据库，包括新的熟悉度
       const { error } = await supabase
         .from('user_progress')
         .upsert({
           user_id: user.id,
           word_id: word.id,
+          familiarity: newFamiliarity,
           view_count: newStats.viewCount,
           last_viewed_at: newStats.lastViewedAt,
-          familiarity: calculateFamiliarity(word.familiarity, newStats),
           updated_at: new Date().toISOString(),
         }, {
           onConflict: 'user_id,word_id'
         })
 
       if (error) {
-        console.error('Failed to update view count:', error)
+        console.error('Failed to update view count and familiarity:', error)
       } else {
-        // 更新本地 state，保留用户的手动标记
-        const updatedWords = wordsWithProgress.map(w =>
-          w.id === word.id
-            ? {
-                ...w,
-                stats: newStats,
-                familiarity: calculateFamiliarity(w.familiarity, newStats)
-              }
-            : w
-        )
-        setWordsWithProgress(updatedWords)
-
-        // 同步到 localStorage
-        safeLocalStorage.setItem('nl-words', JSON.stringify(updatedWords))
-
         // 标记为已查看
         setViewedWordsThisSession(prev => new Set(prev).add(word.id))
       }

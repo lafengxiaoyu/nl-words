@@ -234,13 +234,13 @@ export async function incrementViewCount(
       lastTestedAt: existing?.last_tested_at || currentStats?.lastTestedAt,
     }
 
-    // 更新或插入记录
+    // 更新或插入记录（不设置 familiarity，由调用方计算）
     const { error } = await supabase
       .from('user_progress')
       .upsert({
         user_id: userId,
         word_id: wordId,
-        familiarity: existing?.familiarity || 'new',
+        // familiarity 字段由调用方计算后设置，这里不修改
         view_count: newStats.viewCount,
         mastered_count: newStats.masteredCount,
         unmastered_count: newStats.unmasteredCount,
