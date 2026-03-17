@@ -351,8 +351,8 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
   const handleWordClick = useCallback(async (word: Word) => {
     const isSelected = selectedWord?.id === word.id
 
-    // 如果是首次打开（不是关闭），且该单词在本会话中未被记录过
-    if (!isSelected && !viewedWordsThisSession.has(word.id) && user) {
+    // 如果是打开（不是关闭），则增加查看次数
+    if (!isSelected && user) {
       // 记录查看次数
       const newStats = await incrementViewCount(user.id, word.id, word.stats)
 
@@ -390,15 +390,12 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
 
       if (error) {
         console.error('Failed to update view count and familiarity:', error)
-      } else {
-        // 标记为已查看
-        setViewedWordsThisSession(prev => new Set(prev).add(word.id))
       }
     }
 
     // 切换选中状态
     setSelectedWord(isSelected ? null : word)
-  }, [selectedWord, viewedWordsThisSession, user, wordsWithProgress])
+  }, [selectedWord, user, wordsWithProgress])
 
   // 加载订阅状态
   useEffect(() => {
