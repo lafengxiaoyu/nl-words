@@ -586,6 +586,7 @@ export async function saveAllUserProgress(
 /**
  * 合并云端进度到本地单词列表
  * 将 BaseWord 数组或 Word 数组和用户进度 Map 合并成 WordWithProgress 数组
+ * 会根据统计数据重新计算熟悉度
  */
 export function mergeProgress(
   words: BaseWord[] | Word[],
@@ -594,9 +595,11 @@ export function mergeProgress(
   return words.map(word => {
     const progress = progressMap.get(word.id)
     if (progress) {
+      // 根据统计数据重新计算熟悉度
+      const calculatedFamiliarity = calculateFamiliarity(progress.familiarity, progress.stats)
       return {
         ...word,
-        familiarity: progress.familiarity,
+        familiarity: calculatedFamiliarity,
         stats: progress.stats,
         favorited: progress.favorited || false,
       }

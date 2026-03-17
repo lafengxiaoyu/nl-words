@@ -289,12 +289,20 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
           safeLocalStorage.setItem('nl-words', JSON.stringify(mergedWords))
         } catch (error) {
           console.error('Failed to load progress from Supabase:', error)
-          // 如果云端加载失败，使用 localStorage 的数据
-          const savedProgress = safeLocalStorage.getItem('nl-words')
-          if (savedProgress) {
-            try {
-              const parsedWords = JSON.parse(savedProgress) as Word[]
-              setWordsWithProgress(parsedWords)
+        // 如果云端加载失败，使用 localStorage 的数据
+        const savedProgress = safeLocalStorage.getItem('nl-words')
+        if (savedProgress) {
+          try {
+            const parsedWords = JSON.parse(savedProgress) as Word[]
+            // 根据统计数据重新计算熟悉度
+            const recalculatedWords = parsedWords.map(word => {
+              if (word.stats) {
+                const newFamiliarity = calculateFamiliarity(word.familiarity, word.stats)
+                return { ...word, familiarity: newFamiliarity }
+              }
+              return word
+            })
+            setWordsWithProgress(recalculatedWords)
             } catch (e) {
               console.error('Failed to parse saved progress:', e)
               setWordsWithProgress(words)
@@ -307,7 +315,15 @@ export default function WordListPage({ languageMode }: WordListPageProps) {
         if (savedProgress) {
           try {
             const parsedWords = JSON.parse(savedProgress) as Word[]
-            setWordsWithProgress(parsedWords)
+            // 根据统计数据重新计算熟悉度
+            const recalculatedWords = parsedWords.map(word => {
+              if (word.stats) {
+                const newFamiliarity = calculateFamiliarity(word.familiarity, word.stats)
+                return { ...word, familiarity: newFamiliarity }
+              }
+              return word
+            })
+            setWordsWithProgress(recalculatedWords)
           } catch (e) {
             console.error('Failed to parse saved progress:', e)
             setWordsWithProgress(words)
