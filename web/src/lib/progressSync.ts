@@ -595,11 +595,16 @@ export function mergeProgress(
   return words.map(word => {
     const progress = progressMap.get(word.id)
     if (progress) {
-      // 根据统计数据重新计算熟悉度
-      const calculatedFamiliarity = calculateFamiliarity(progress.familiarity, progress.stats)
+      // 如果用户已经明确标记了熟悉度（mastered/familiar/learning），直接使用用户标记
+      // 只有标记为 new 时，才根据统计数据重新计算熟悉度（允许从 new 自动升级）
+      let finalFamiliarity = progress.familiarity
+      if (progress.familiarity === 'new' || !progress.familiarity) {
+        finalFamiliarity = calculateFamiliarity('new', progress.stats)
+      }
+
       return {
         ...word,
-        familiarity: calculatedFamiliarity,
+        familiarity: finalFamiliarity,
         stats: progress.stats,
         favorited: progress.favorited || false,
       }
