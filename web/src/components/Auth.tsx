@@ -192,18 +192,15 @@ export default function Auth({ onAuthSuccess, languageMode, onLanguageChange }: 
           return
         }
 
-        // 注册 - 使用 emailAutoConfirm 选项避免邮件验证
+        // 注册 - Supabase 仪表板已启用 Email Auto-confirmation
+        // 用户注册后会立即激活，无需邮件验证
         const { data, error } = await supabase.auth.signUp({
           email,
           password,
           options: {
-            emailRedirectTo: undefined, // 禁用邮件重定向
             data: {
               username: username
-            },
-            // 关键：不发送验证邮件，直接激活账户
-            // 如果 Supabase 后端启用了自动确认，这会立即激活用户
-            // 否则需要等待管理后台配置
+            }
           }
         })
 
